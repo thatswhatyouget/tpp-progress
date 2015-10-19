@@ -1821,7 +1821,7 @@ var TppSeason2: TPP.Run[] = [
 				Group: "Boss",
 				Name: "Dakim",
 				Image: "http://twitchplayspokemon.org/img/trainers/colosseum/dakim.png",
-				Time: "0d 23h 29m",
+				Time: "2d 20h 5m",
 				Attempts: 9
 			},
 			{

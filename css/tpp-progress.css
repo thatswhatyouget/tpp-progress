@@ -165,9 +165,23 @@ body {
 	left:-1px!important;
 }
 
+.progressChart .run .event.host:hover::before {
+	display:none;
+}
+.progressChart .run .event.host:hover::after {
+	top:100%;
+	margin-bottom:0;
+	bottom:auto;
+	left:-14px;
+}
+
 .progressChart .run .event:hover {
 	z-index:5;
 	background-color:rgba(0,0,0,.5);
+}
+
+.progressChart .run .event.host:hover {
+	background:none;
 }
 
 .progressChart #touhoumon.run {
