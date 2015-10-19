@@ -11,8 +11,13 @@ class Duration {
 	}
 
 	static parse(time: string) {
-		var matches = /^\s*(?:(\d*)d)?\s*(?:(\d*)h)?\s*(?:(\d*)m)?\s*(?:(\d*)s)?\s*$/i.exec(time);
-		return new Duration(parseInt(matches[1]) || 0, parseInt(matches[2]) || 0, parseInt(matches[3]) || 0, parseInt(matches[4]) || 0);
+		try {
+			var matches = /^\s*(?:(\d*)d)?\s*(?:(\d*)h)?\s*(?:(\d*)m)?\s*(?:(\d*)s)?\s*$/i.exec(time);
+			return new Duration(parseInt(matches[1]) || 0, parseInt(matches[2]) || 0, parseInt(matches[3]) || 0, parseInt(matches[4]) || 0);
+		}
+		catch (e) {
+			return new Duration(0, 0, 0, 0);
+		}
 	}
 
 	constructor(days: string | number, public hours?: number, public minutes?: number, public seconds?: number) {
@@ -82,6 +87,7 @@ function drawHost(runInfo: TPP.Run) {
 		Group: "host",
 		Name: runInfo.HostName,
 		Image: runInfo.HostImage,
+		ImageSource: runInfo.HostImageSource,
 		Time: ''
 	});
 	host.style.left = "0";
@@ -91,7 +97,14 @@ function drawHost(runInfo: TPP.Run) {
 function drawEvent(eventInfo: TPP.Event) {
 	var event = document.createElement("div");
 	var eventImg = document.createElement("img");
-	event.appendChild(eventImg);
+	if (eventInfo.ImageSource) {
+		var imgSource = document.createElement("a");
+		event.appendChild(imgSource);
+		imgSource.appendChild(eventImg);
+		imgSource.setAttribute("href", eventInfo.ImageSource);
+		imgSource.setAttribute("target", "_blank");
+	}
+	else event.appendChild(eventImg);
 	event.className = "event " + eventInfo.Group.replace(/[^A-Z0-9]/i, '').toLowerCase();
 	var label = eventInfo.Name;
 	if (eventInfo.Time) label += "\n" + eventInfo.Time;
