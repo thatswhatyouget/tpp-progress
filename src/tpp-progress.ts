@@ -69,7 +69,7 @@ function drawRun(runInfo: TPP.Run) {
 	run.className = "run";
 	run.setAttribute("data-time", runInfo.Duration);
 	run.setAttribute("data-label", runInfo.RunName + ": " + runInfo.Duration);
-	run.setAttribute("data-run", runInfo.RunName);
+	run.setAttribute("id", runInfo.RunName.replace(/[^A-Z0-9]/i, '').toLowerCase());
 	run.style.backgroundColor = runInfo.ColorPrimary;
 	run.style.borderColor = run.style.color = runInfo.ColorSecondary;
 	run.appendChild(drawHost(runInfo));

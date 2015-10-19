@@ -170,10 +170,10 @@ body {
 	background-color:rgba(0,0,0,.5);
 }
 
-.progressChart .run[data-run=Touhoumon] {
+.progressChart #touhoumon.run {
 	margin-bottom:0;	
 }
-.progressChart .run[data-run=Moemon]:hover::before {
+.progressChart #moemon.run:hover::before {
 	bottom:-1.5em;
 	top:auto;
 }
