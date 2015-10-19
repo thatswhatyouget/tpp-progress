@@ -39,9 +39,13 @@ function makeGrid(ppd: number) {
 	return bgImageSrc.toDataURL();
 }
 
-function createChart(data: TPP.Run[], ppd?:number) {
+var globalPpd: number;
+
+function createChart(data: TPP.Run[], label: string, ppd?: number) {
+	globalPpd = ppd = globalPpd || ppd || window.innerWidth / days;
 	var chart = document.createElement("div");
 	chart.className = "progressChart";
+	chart.setAttribute("data-label", label);
 	setTimeout(function() { document.body.appendChild(chart); }, 1);
 	var days = 0;
 	data.forEach(run=> {
@@ -57,7 +61,7 @@ function createChart(data: TPP.Run[], ppd?:number) {
 		ruler.appendChild(stop);
 		stop.className = "stop";
 	}
-	setTimeout(() => applyScale(ppd || window.innerWidth / days), 10);
+	setTimeout(() => applyScale(ppd), 10);
 }
 
 function drawRun(runInfo: TPP.Run) {
@@ -65,6 +69,7 @@ function drawRun(runInfo: TPP.Run) {
 	run.className = "run";
 	run.setAttribute("data-time", runInfo.Duration);
 	run.setAttribute("data-label", runInfo.RunName + ": " + runInfo.Duration);
+	run.setAttribute("data-run", runInfo.RunName);
 	run.style.backgroundColor = runInfo.ColorPrimary;
 	run.style.borderColor = run.style.color = runInfo.ColorSecondary;
 	run.appendChild(drawHost(runInfo));

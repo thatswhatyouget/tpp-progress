@@ -6,7 +6,7 @@ var TppSeason1: TPP.Run[] = [
 		ColorSecondary: "#8c3836",
 		Duration: "16d 7h 45m 30s",
 		HostName: "RED",
-		HostImage: "http://www.twitchplayspokemon.org/img/trainers/red.png",
+		HostImage: "http://cdn.bulbagarden.net/upload/4/4c/Spr_RB_Red_2.png",
 		Events: [
 			{
 				Group: "Badges",
@@ -206,7 +206,7 @@ var TppSeason1: TPP.Run[] = [
 			{
 				Group: "Champion",
 				Name: "RED",
-				Image: "http://www.twitchplayspokemon.org/img/trainers/red.png",
+				Image: "http://cdn.bulbagarden.net/upload/d/d2/Spr_GS_Red.png",
 				Time: "13d 2h 2m",
 				Attempts: 7
 			}
@@ -931,12 +931,12 @@ var TppSeason1: TPP.Run[] = [
 			{
 				Group: "Champion",
 				Name: "RED",
-				Image: "http://www.twitchplayspokemon.org/img/trainers/red.png",
+				Image: "http://cdn.bulbagarden.net/upload/9/9a/Spr_B2W2_Red.png",
 				Time: "19d 2h 16m"
 			}
 		]
 	},
-		{
+	{
 		RunName: "X",
 		ColorPrimary: "#007fdb",
 		ColorSecondary: "black",
@@ -1038,7 +1038,7 @@ var TppSeason1: TPP.Run[] = [
 			}
 		]
 	},
-		{
+	{
 		RunName: "Omega Ruby",
 		ColorPrimary: "#c6223b",
 		ColorSecondary: "#c6223b",
@@ -1142,7 +1142,7 @@ var TppSeason1: TPP.Run[] = [
 				Group: "Elite 4",
 				Name: "Sidney",
 				Image: "http://www.twitchplayspokemon.org/img/trainers/sidney.png",
-				Time: " 7d 12h 33m",
+				Time: "7d 12h 33m",
 				Attempts: 1
 			},
 			{
@@ -1174,5 +1174,654 @@ var TppSeason1: TPP.Run[] = [
 				Attempts: 1
 			}
 		]
-	},	
+	}
+];
+
+var TppSeason2: TPP.Run[] = [
+	{
+		RunName: "Anniversary Red",
+		ColorPrimary: "#bf0300",
+		ColorSecondary: "#5b0000",
+		Duration: "39d 19h 17m",
+		HostName: "AIIIAAB",
+		HostImage: "http://cdn.bulbagarden.net/upload/6/66/Spr_RG_Red_1.png",
+		Events: [
+			{
+				Group: "Badges",
+				Name: "Boulder Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/boulder.png",
+				Time: "0d 18h 28m",
+				Attempts: 10
+			},
+			{
+				Group: "Badges",
+				Name: "Cascade Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/cascade.png",
+				Time: "2d 20h 8m",
+				Attempts: 19
+			},
+			{
+				Group: "Badges",
+				Name: "Thunder Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/thunder.png",
+				Time: "5d 12h 51m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Rainbow Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/rainbow.png",
+				Time: "8d 1h 7m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Soul Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/soul.png",
+				Time: "11d 12h 28m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Marsh Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/marsh.png",
+				Time: "13d 14h 7m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Volcano Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/volcano.png",
+				Time: "15d 22h 8m",
+				Attempts: 5
+			},
+			{
+				Group: "Badges",
+				Name: "Earth Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/earth.png",
+				Time: "17d 12h 19m",
+				Attempts: 1
+			},
+			{
+				Group: "Elite 4",
+				Name: "Lorelei",
+				Image: "http://twitchplayspokemon.org/red/img/trainers/lorelei.png",
+				Time: "27d 8h 53m",
+				Attempts: 1
+			},
+			{
+				Group: "Elite 4",
+				Name: "Bruno",
+				Image: "http://twitchplayspokemon.org/red/img/trainers/bruno.png",
+				Time: "27d 9h 1m",
+				Attempts: 1
+			},
+			{
+				Group: "Elite 4",
+				Name: "Agatha",
+				Image: "http://twitchplayspokemon.org/red/img/trainers/agatha.png",
+				Time: "27d 9h 7m",
+				Attempts: 1
+			},
+			{
+				Group: "Elite 4",
+				Name: "Lance",
+				Image: "http://twitchplayspokemon.org/red/img/trainers/lance.png",
+				Time: "27d 9h 46m",
+				Attempts: 2
+			},
+			{
+				Group: "Champion",
+				Name: "BLUE",
+				Image: "http://twitchplayspokemon.org/red/img/trainers/blue.png",
+				Time: "27d 19h 24m",
+				Attempts: 6
+			},
+			{
+				Group: "Badges",
+				Name: "Boulder Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_boulder.png",
+				Time: "29d 9h 44m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Cascade Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_cascade.png",
+				Time: "28d 20h 10m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Thunder Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_thunder.png",
+				Time: "28d 18h 4m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Rainbow Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_rainbow.png",
+				Time: "29d 3h 50m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Soul Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_soul.png",
+				Time: "28d 5h 1m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Marsh Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_marsh.png",
+				Time: "28d 19h 4m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Volcano Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_volcano.png",
+				Time: "27d 22h 14m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Earth Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_earth.png",
+				Time: "29d 17h 0m",
+				Attempts: 1
+			},
+			{
+				Group: "Elite 4",
+				Name: "Lorelei",
+				Image: "http://twitchplayspokemon.org/red/img/trainers/lorelei.png",
+				Time: "38d 23h 42m",
+				Attempts: 1
+			},
+			{
+				Group: "Elite 4",
+				Name: "Bruno",
+				Image: "http://twitchplayspokemon.org/red/img/trainers/bruno.png",
+				Time: "38d 23h 50m",
+				Attempts: 1
+			},
+			{
+				Group: "Elite 4",
+				Name: "Agatha",
+				Image: "http://twitchplayspokemon.org/red/img/trainers/agatha.png",
+				Time: "38d 23h 57m",
+				Attempts: 1
+			},
+			{
+				Group: "Elite 4",
+				Name: "Lance",
+				Image: "http://twitchplayspokemon.org/red/img/trainers/lance.png",
+				Time: "39d 0h 4m",
+				Attempts: 1
+			},
+			{
+				Group: "Elite 4",
+				Name: "BLUE",
+				Image: "http://twitchplayspokemon.org/red/img/trainers/blue.png",
+				Time: "39d 6h 56m",
+				Attempts: 4
+			},
+			{
+				Group: "Champion",
+				Name: "Professor Oak",
+				Image: "http://cdn.bulbagarden.net/upload/1/1e/Spr_RG_Oak.png",
+				Time: "39d 19h 17m",
+				Attempts: 4
+			}
+		]
+	},
+	{
+		RunName: "Touhoumon",
+		ColorPrimary: "#fa83bb",
+		ColorSecondary: "#c40962",
+		Duration: "13d 15h 44m",
+		HostName: "AAABBHM",
+		HostImage: "http://i.imgur.com/rKvMH.png",
+		Events: [
+			{
+				Group: "Badges",
+				Name: "Boulder Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/boulder.png",
+				Time: "0d 21h 41m",
+				Attempts: 2
+			},
+			{
+				Group: "Badges",
+				Name: "Cascade Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/cascade.png",
+				Time: "2d 0h 16m",
+				Attempts: 2
+			},
+			{
+				Group: "Badges",
+				Name: "Thunder Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/thunder.png",
+				Time: "2d 22h 28m",
+				Attempts: 2
+			},
+			{
+				Group: "Badges",
+				Name: "Rainbow Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/rainbow.png",
+				Time: "5d 6h 37m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Soul Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/soul.png",
+				Time: "6d 11h 37m",
+				Attempts: 5
+			},
+			{
+				Group: "Badges",
+				Name: "Marsh Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/marsh.png",
+				Time: "7d 16h 20m",
+				Attempts: 3
+			},
+			{
+				Group: "Badges",
+				Name: "Volcano Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/volcano.png",
+				Time: "8d 17h 40m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Earth Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/earth.png",
+				Time: "9d 13h 50m",
+				Attempts: 3
+			},
+			{
+				Group: "Elite 4",
+				Name: "Lorelei",
+				Image: "http://twitchplayspokemon.org/img/trainers/lorelei.png",
+				Time: "12d 5h 56m",
+				Attempts: 6
+			},
+			{
+				Group: "Elite 4",
+				Name: "Bruno",
+				Image: "http://twitchplayspokemon.org/img/trainers/bruno.png",
+				Time: "12d 22h 0m",
+				Attempts: 10
+			},
+			{
+				Group: "Elite 4",
+				Name: "Agatha",
+				Image: "http://twitchplayspokemon.org/img/trainers/agatha.png",
+				Time: "13d 13h 40m",
+				Attempts: 12
+			},
+			{
+				Group: "Elite 4",
+				Name: "Lance",
+				Image: "http://twitchplayspokemon.org/img/trainers/lance.png",
+				Time: "13d 15h 36m",
+				Attempts: 2
+			},
+			{
+				Group: "Champion",
+				Name: "Green",
+				Image: "http://i.imgur.com/mKe2I.png",
+				Time: "13d 15h 44m",
+				Attempts: 1
+			}
+		]
+	},
+	{
+		RunName: "Moemon",
+		ColorPrimary: "#a779d0",
+		ColorSecondary: "#683597",
+		Duration: "13d 15h 44m",
+		HostName: "AAtatat",
+		HostImage: "http://cdn.bulbagarden.net/upload/2/2b/Spr_FRLG_Leaf.png",
+		Events: [
+			{
+				Group: "Badges",
+				Name: "Boulder Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/boulder.png",
+				Time: "0d 17h 22m",
+				Attempts: 2
+			},
+			{
+				Group: "Badges",
+				Name: "Cascade Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/cascade.png",
+				Time: "1d 21h 24m",
+				Attempts: 6
+			},
+			{
+				Group: "Badges",
+				Name: "Thunder Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/thunder.png",
+				Time: "3d 4h 35m",
+				Attempts: 2
+			},
+			{
+				Group: "Badges",
+				Name: "Rainbow Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/rainbow.png",
+				Time: "5d 1h 27m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Soul Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/soul.png",
+				Time: "6d 4h 13m",
+				Attempts: 2
+			},
+			{
+				Group: "Badges",
+				Name: "Marsh Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/marsh.png",
+				Time: "7d 21h 11m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Volcano Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/volcano.png",
+				Time: "8d 15h 52m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Earth Badge",
+				Image: "http://twitchplayspokemon.org/red/img/badges/earth.png",
+				Time: "9d 8h 18m",
+				Attempts: 1
+			},
+			{
+				Group: "Elite 4",
+				Name: "Lorelei",
+				Image: "http://twitchplayspokemon.org/img/trainers/lorelei.png",
+				Time: "11d 7h 17m",
+				Attempts: 10
+			},
+			{
+				Group: "Elite 4",
+				Name: "Bruno",
+				Image: "http://twitchplayspokemon.org/img/trainers/bruno.png",
+				Time: "11d 8h 38m",
+				Attempts: 3
+			},
+			{
+				Group: "Elite 4",
+				Name: "Agatha",
+				Image: "http://twitchplayspokemon.org/img/trainers/agatha.png",
+				Time: "11d 12h 11m",
+				Attempts: 4
+			},
+			{
+				Group: "Elite 4",
+				Name: "Lance",
+				Image: "http://twitchplayspokemon.org/img/trainers/lance.png",
+				Time: "12d 4h 5m",
+				Attempts: 11
+			},
+			{
+				Group: "Champion",
+				Name: "Green",
+				Image: "http://twitchplayspokemon.org/img/trainers/firered/green.png",
+				Time: "12d 4h 51m",
+				Attempts: 2
+			}
+		]
+	},
+	{
+		RunName: "Randomized Alpha Sapphire",
+		ColorPrimary: "#242c86",
+		ColorSecondary: "#242c86",
+		Duration: "14d 1h 27m",
+		HostName: "!!!0999   qq",
+		HostImage: "http://cdn.bulbagarden.net/upload/thumb/a/a0/Omega_Ruby_Alpha_Sapphire_May.png/180px-Omega_Ruby_Alpha_Sapphire_May.png",
+		Events: [
+			{
+				Group: "Badges",
+				Name: "Stone Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/stone.png",
+				Time: "0d 5h 43m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Knuckle Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/knuckle.png",
+				Time: "0d 11h 33m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Dynamo Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/dynamo.png",
+				Time: "0d 21h 10m",
+				Attempts: 2
+			},
+			{
+				Group: "Badges",
+				Name: "Heat Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/heat.png",
+				Time: "1d 23h 21m",
+				Attempts: 3
+			},
+			{
+				Group: "Badges",
+				Name: "Balance Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/balance.png",
+				Time: "2d 0h 18m",
+				Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Feather Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/feather.png",
+				Time: "4d 3h 40m",
+				Attempts: 6
+			},
+			{
+				Group: "Badges",
+				Name: "Mind Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/mind.png",
+				Time: "5d 2h 31m",
+				Attempts: 5
+			},
+			{
+				Group: "Badges",
+				Name: "Rain Badge",
+				Image: "http://twitchplayspokemon.org/img/badges/rain.png",
+				Time: "6d 12h 38m",
+				Attempts: 3
+			},
+			{
+				Group: "Elite 4",
+				Name: "Sidney",
+				Image: "http://www.twitchplayspokemon.org/img/trainers/sidney.png",
+				Time: "7d 15h 9m",
+				Attempts: 2
+			},
+			{
+				Group: "Elite 4",
+				Name: "Phoebe",
+				Image: "http://twitchplayspokemon.org/img/trainers/phoebe.png",
+				Time: "8d 4h 39m",
+				Attempts: 12
+			},
+			{
+				Group: "Elite 4",
+				Name: "Glacia",
+				Image: "http://twitchplayspokemon.org/img/trainers/glacia.png",
+				Time: "8d 9h 5m",
+				Attempts: 5
+			},
+			{
+				Group: "Elite 4",
+				Name: "Drake",
+				Image: "http://twitchplayspokemon.org/img/trainers/drake.png",
+				Time: "8d 20h 50m",
+				Attempts: 8
+			},
+			{
+				Group: "Champion",
+				Name: "Steven",
+				Image: "http://cdn.bulbagarden.net/upload/4/42/Spr_B2W2_Steven.png",
+				Time: "8d 23h 8m",
+				Attempts: 2
+			},
+			{
+				Group: "Champion",
+				Name: "Zinnia",
+				Image: "http://cdn.bulbagarden.net/upload/thumb/e/e5/Omega_Ruby_Alpha_Sapphire_Zinnia.png/211px-Omega_Ruby_Alpha_Sapphire_Zinnia.png",
+				Time: "10d 6h 30m",
+				Attempts: 1
+			},
+			{
+				Group: "Elite 4",
+				Name: "Sidney",
+				Image: "http://www.twitchplayspokemon.org/img/trainers/sidney.png",
+				Time: "12d 1h 18m",
+				Attempts: 1
+			},
+			{
+				Group: "Elite 4",
+				Name: "Phoebe",
+				Image: "http://twitchplayspokemon.org/img/trainers/phoebe.png",
+				Time: "12d 4h 58m",
+				Attempts: 9
+			},
+			{
+				Group: "Elite 4",
+				Name: "Glacia",
+				Image: "http://twitchplayspokemon.org/img/trainers/glacia.png",
+				Time: "13d 21h 33m",
+				Attempts: 10
+			},
+			{
+				Group: "Elite 4",
+				Name: "Drake",
+				Image: "http://twitchplayspokemon.org/img/trainers/drake.png",
+				Time: "13d 21h 38m",
+				Attempts: 1
+			},
+			{
+				Group: "Champion",
+				Name: "Steven",
+				Image: "http://cdn.bulbagarden.net/upload/4/42/Spr_B2W2_Steven.png",
+				Time: "14d 1h 27m",
+				Attempts: 6
+			}
+		]
+	},
+	{
+		RunName: "Colosseum",
+		ColorPrimary: "#bba155",
+		ColorSecondary: "#644d2e",
+		Duration: "6d 3h 27m",
+		HostName: "AAAAAAA",
+		HostImage: "http://cdn.bulbagarden.net/upload/thumb/7/7d/Colosseum_Wes_3D.png/140px-Colosseum_Wes_3D.png",
+		Events: [
+			{
+				Group: "Boss",
+				Name: "Miror B.",
+				Image: "http://twitchplayspokemon.org/img/trainers/colosseum/mirorb.png",
+				Time: "0d 23h 29m",
+				Attempts: 1
+			},
+			{
+				Group: "Boss",
+				Name: "Skrub",
+				Image: "http://twitchplayspokemon.org/img/trainers/colosseum/skrub.png",
+				Time: "1d 2h 8m",
+				Attempts: 2
+			},
+			{
+				Group: "Boss",
+				Name: "Dakim",
+				Image: "http://twitchplayspokemon.org/img/trainers/colosseum/dakim.png",
+				Time: "0d 23h 29m",
+				Attempts: 9
+			},
+			{
+				Group: "Boss",
+				Name: "Venus",
+				Image: "http://twitchplayspokemon.org/img/trainers/colosseum/venus.png",
+				Time: "2d 23h 36m",
+				Attempts: 1
+			},
+			{
+				Group: "Boss",
+				Name: "Skrub",
+				Image: "http://twitchplayspokemon.org/img/trainers/colosseum/skrub.png",
+				Time: "4d 11h 5m",
+				Attempts: 1
+			},
+			{
+				Group: "Boss",
+				Name: "Ein",
+				Image: "http://twitchplayspokemon.org/img/trainers/colosseum/ein.png",
+				Time: "4d 12h 2m",
+				Attempts: 2
+			},
+			{
+				Group: "Boss",
+				Name: "Venus",
+				Image: "http://twitchplayspokemon.org/img/trainers/colosseum/venus.png",
+				Time: "4d 17h 38m",
+				Attempts: 1
+			},
+			{
+				Group: "Boss",
+				Name: "Miror B.",
+				Image: "http://twitchplayspokemon.org/img/trainers/colosseum/mirorb.png",
+				Time: "4d 17h 57m",
+				Attempts: 2
+			},
+			{
+				Group: "Boss",
+				Name: "Dakim",
+				Image: "http://twitchplayspokemon.org/img/trainers/colosseum/dakim.png",
+				Time: "5d 1h 39m",
+				Attempts: 2
+			},
+			{
+				Group: "Boss",
+				Name: "Ein",
+				Image: "http://twitchplayspokemon.org/img/trainers/colosseum/ein.png",
+				Time: "5d 3h 9m",
+				Attempts: 5
+			},
+			{
+				Group: "Boss",
+				Name: "Gonzap",
+				Image: "http://twitchplayspokemon.org/img/trainers/colosseum/gonzap.png",
+				Time: "5d 21h 42m",
+				Attempts: 3
+			},
+			{
+				Group: "Boss",
+				Name: "Nascour",
+				Image: "http://twitchplayspokemon.org/img/trainers/colosseum/nascour.png",
+				Time: "6d 2h 46m",
+				Attempts: 2
+			},
+			{
+				Group: "Champion",
+				Name: "Evice",
+				Image: "img/evice.png",
+				Time: "6d 3h 27m",
+				Attempts: 2
+			}
+		]
+	},
+
 ];

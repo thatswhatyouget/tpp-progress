@@ -45,9 +45,12 @@ function makeGrid(ppd) {
     draw.stroke();
     return bgImageSrc.toDataURL();
 }
-function createChart(data, ppd) {
+var globalPpd;
+function createChart(data, label, ppd) {
+    globalPpd = ppd = globalPpd || ppd || window.innerWidth / days;
     var chart = document.createElement("div");
     chart.className = "progressChart";
+    chart.setAttribute("data-label", label);
     setTimeout(function () { document.body.appendChild(chart); }, 1);
     var days = 0;
     data.forEach(function (run) {
@@ -64,13 +67,14 @@ function createChart(data, ppd) {
         ruler.appendChild(stop);
         stop.className = "stop";
     }
-    setTimeout(function () { return applyScale(ppd || window.innerWidth / days); }, 10);
+    setTimeout(function () { return applyScale(ppd); }, 10);
 }
 function drawRun(runInfo) {
     var run = document.createElement("div");
     run.className = "run";
     run.setAttribute("data-time", runInfo.Duration);
     run.setAttribute("data-label", runInfo.RunName + ": " + runInfo.Duration);
+    run.setAttribute("data-run", runInfo.RunName);
     run.style.backgroundColor = runInfo.ColorPrimary;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
     run.appendChild(drawHost(runInfo));

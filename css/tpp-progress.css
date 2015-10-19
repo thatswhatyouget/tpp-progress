@@ -1,25 +1,42 @@
 body {
-background-color:#999;
-text-align:center;
+	background-color:#999;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .title {
-display: inline-block;
-width:40%;
-vertical-align: bottom;	
+	display: inline-block;
+	width:40%;
+	vertical-align: bottom;	
 }
 
 .progressChart {
 	box-sizing:content-box;
-	border:2px solid black;	
-	margin:10px;
 	float:left;
+	border:2px solid black;	
+	clear: both;
+	margin:10px;
+	margin-bottom:50px;
 	padding:0 50px;
 	padding-top:70px;
 	background-color:white;
 	background-position: 50px;
 	position:relative;
 	transition: all 2s ease-in-out;
+}
+
+.progressChart:before {
+    content: ' ';
+    clear: right;
+    display: block;
+}
+
+.progressChart[data-label]:after {
+	position:absolute;
+	content:attr(data-label);
+	font-size:1.5em;
+	left:1em;
+	top:-1.2em;	
 }
 
 .progressChart .ruler {
@@ -151,4 +168,8 @@ vertical-align: bottom;
 .progressChart .run .event:hover {
 	z-index:5;
 	background-color:rgba(0,0,0,.5);
+}
+
+.progressChart .run[data-run=Moemon] {
+	margin-top:-20px;	
 }
