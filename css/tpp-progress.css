@@ -18,15 +18,11 @@ div.controls {
 }
 
 div.controls > * {
-	display:inline-block;
-	font-size:1.2em;
-	margin:.5em;
-	background-color:rgba(144,144,144,.8);
+	display:block;
+	font-size:1.3em;
+	margin:.25em;
+	text-shadow:1px 1px 0 white, -1px 1px 0 white, -1px -1px white, 1px -1px white;
 	cursor:pointer;
-}
-
-div.controls > * + * {
-	margin-left:none;
 }
 
 .progressChart {
