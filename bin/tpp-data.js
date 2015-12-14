@@ -1897,8 +1897,8 @@ var TppSeason2 = [
     },
     {
         RunName: "XD",
-        ColorPrimary: "#bba155",
-        ColorSecondary: "#644d2e",
+        ColorPrimary: "#532245",
+        ColorSecondary: "#793165",
         Duration: "0d",
         HostName: "ABBBCC",
         HostImage: "http://cdn.bulbagarden.net/upload/thumb/c/c1/XD_Michael_2.png/123px-XD_Michael_2.png",
