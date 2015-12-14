@@ -16,3 +16,5 @@ declare function drawRun(runInfo: TPP.Run, run?: HTMLDivElement): void;
 declare function drawHost(runInfo: TPP.Run): HTMLDivElement;
 declare function drawEvent(eventInfo: TPP.Event): HTMLDivElement;
 declare function applyScale(ppd: number): void;
+declare var zoomIn: () => void;
+declare var zoomOut: () => void;

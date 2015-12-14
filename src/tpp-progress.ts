@@ -1,5 +1,4 @@
 /// <reference path="tpp-structure" />
-/// <reference path="../bin/tpp-scraper" />
 class Duration {
 	days: number;
 
@@ -128,7 +127,7 @@ function drawEvent(eventInfo: TPP.Event) {
 }
 
 function applyScale(ppd: number) {
-	ppd = Math.pow(2, Math.floor(Math.log(ppd || 64) / Math.log(2))); //floor to power of 2
+	globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || 64) / Math.log(2))); //floor to power of 2
 	var $: (selector: string) => Array<HTMLElement> = selector => Array.prototype.slice.call(document.querySelectorAll(selector));
 	var $find: (elements: Array<HTMLElement>, selector: string) => Array<Array<HTMLElement>> = (elements, selector) => elements.map(e=> Array.prototype.slice.call(e.querySelectorAll(selector)));
 	$('.progressChart').forEach(chart=> {
@@ -142,3 +141,6 @@ function applyScale(ppd: number) {
 	$(".progressChart .run").forEach(run=> run.getAttribute('data-time') && (run.style.width = Duration.parse(run.getAttribute('data-time')).TotalDays * ppd + "px"));
 	$(".progressChart .run .event").forEach(event=> event.getAttribute('data-time') && (event.style.left = Duration.parse(event.getAttribute('data-time')).TotalDays * ppd + "px"));
 }
+
+var zoomIn = ()=> applyScale(globalPpd * 2);
+var zoomOut = ()=> applyScale(globalPpd / 2);

@@ -1,5 +1,4 @@
 /// <reference path="tpp-structure" />
-/// <reference path="../bin/tpp-scraper" />
 var Duration = (function () {
     function Duration(days, hours, minutes, seconds) {
         this.hours = hours;
@@ -134,7 +133,7 @@ function drawEvent(eventInfo) {
     return event;
 }
 function applyScale(ppd) {
-    ppd = Math.pow(2, Math.floor(Math.log(ppd || 64) / Math.log(2)));
+    globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || 64) / Math.log(2)));
     var $ = function (selector) { return Array.prototype.slice.call(document.querySelectorAll(selector)); };
     var $find = function (elements, selector) { return elements.map(function (e) { return Array.prototype.slice.call(e.querySelectorAll(selector)); }); };
     $('.progressChart').forEach(function (chart) {
@@ -146,3 +145,5 @@ function applyScale(ppd) {
     $(".progressChart .run").forEach(function (run) { return run.getAttribute('data-time') && (run.style.width = Duration.parse(run.getAttribute('data-time')).TotalDays * ppd + "px"); });
     $(".progressChart .run .event").forEach(function (event) { return event.getAttribute('data-time') && (event.style.left = Duration.parse(event.getAttribute('data-time')).TotalDays * ppd + "px"); });
 }
+var zoomIn = function () { return applyScale(globalPpd * 2); };
+var zoomOut = function () { return applyScale(globalPpd / 2); };
