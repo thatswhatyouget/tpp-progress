@@ -1,4 +1,5 @@
-/// <reference path="tpp-structure.ts" />
+/// <reference path="tpp-structure" />
+/// <reference path="../bin/tpp-scraper" />
 class Duration {
 	days: number;
 
@@ -51,12 +52,12 @@ function createChart(data: TPP.Run[], label: string, ppd?: number) {
 	var chart = document.createElement("div");
 	chart.className = "progressChart";
 	chart.setAttribute("data-label", label);
-	setTimeout(function() { document.body.appendChild(chart); }, 1);
+	setTimeout(() => document.body.appendChild(chart), 1);
 	var days = 0;
 	data.forEach(run=> {
 		var runLength = Duration.parse(run.Duration).TotalSeconds / 60 / 60 / 24;
 		if (days < runLength) days = runLength;
-		chart.appendChild(drawRun(run));
+		chart.appendChild(queueRun(run));
 	});
 	var ruler = document.createElement("div");
 	ruler.className = "ruler";
@@ -66,20 +67,30 @@ function createChart(data: TPP.Run[], label: string, ppd?: number) {
 		ruler.appendChild(stop);
 		stop.className = "stop";
 	}
-	setTimeout(() => applyScale(ppd), 10);
+	setTimeout(() => applyScale(ppd), 1);
 }
 
-function drawRun(runInfo: TPP.Run) {
-	var run = document.createElement("div");
+function queueRun(runInfo: TPP.Run) {
+	var div = document.createElement("div");
+	if (runInfo.ScrapeUrl) Scrape(runInfo).then(r=> {
+		drawRun(r, div);
+		setTimeout(() => applyScale(globalPpd), 1);
+	}, console.error);
+	else setTimeout(() => drawRun(runInfo, div), 1);
+	return div;	
+}
+
+function drawRun(runInfo: TPP.Run, run?:HTMLDivElement) {
+	run = run || document.createElement("div");
 	run.className = "run";
 	run.setAttribute("data-time", runInfo.Duration);
 	run.setAttribute("data-label", runInfo.RunName + ": " + runInfo.Duration);
-	run.setAttribute("id", runInfo.RunName.replace(/[^A-Z0-9]/i, '').toLowerCase());
+	run.setAttribute("data-json", JSON.stringify(runInfo));
+	run.setAttribute("id", runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
 	run.style.backgroundColor = runInfo.ColorPrimary;
 	run.style.borderColor = run.style.color = runInfo.ColorSecondary;
 	run.appendChild(drawHost(runInfo));
 	runInfo.Events.sort((e1, e2) => Duration.parse(e1.Time).TotalSeconds - Duration.parse(e2.Time).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event)));
-	return run;
 }
 
 function drawHost(runInfo: TPP.Run) {
@@ -105,7 +116,7 @@ function drawEvent(eventInfo: TPP.Event) {
 		imgSource.setAttribute("target", "_blank");
 	}
 	else event.appendChild(eventImg);
-	event.className = "event " + eventInfo.Group.replace(/[^A-Z0-9]/i, '').toLowerCase();
+	event.className = "event " + eventInfo.Group.replace(/[^A-Z0-9]/ig, '').toLowerCase();
 	var label = eventInfo.Name;
 	if (eventInfo.Time) label += "\n" + eventInfo.Time;
 	if (eventInfo.Attempts) label += "\n(" + eventInfo.Attempts + " Attempt" + (eventInfo.Attempts > 1 ? "s" : "") + ")";

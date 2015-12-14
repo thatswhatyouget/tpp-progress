@@ -7,6 +7,7 @@ module TPP {
 		Duration: string;
 		ColorPrimary: string;
 		ColorSecondary: string;
+		ScrapeUrl?: string;
 		Events: TPP.Event[];
 	}
 

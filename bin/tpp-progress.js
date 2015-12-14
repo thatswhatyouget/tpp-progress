@@ -1,4 +1,5 @@
-/// <reference path="tpp-structure.ts" />
+/// <reference path="tpp-structure" />
+/// <reference path="../bin/tpp-scraper" />
 var Duration = (function () {
     function Duration(days, hours, minutes, seconds) {
         this.hours = hours;
@@ -56,13 +57,13 @@ function createChart(data, label, ppd) {
     var chart = document.createElement("div");
     chart.className = "progressChart";
     chart.setAttribute("data-label", label);
-    setTimeout(function () { document.body.appendChild(chart); }, 1);
+    setTimeout(function () { return document.body.appendChild(chart); }, 1);
     var days = 0;
     data.forEach(function (run) {
         var runLength = Duration.parse(run.Duration).TotalSeconds / 60 / 60 / 24;
         if (days < runLength)
             days = runLength;
-        chart.appendChild(drawRun(run));
+        chart.appendChild(queueRun(run));
     });
     var ruler = document.createElement("div");
     ruler.className = "ruler";
@@ -72,19 +73,30 @@ function createChart(data, label, ppd) {
         ruler.appendChild(stop);
         stop.className = "stop";
     }
-    setTimeout(function () { return applyScale(ppd); }, 10);
+    setTimeout(function () { return applyScale(ppd); }, 1);
 }
-function drawRun(runInfo) {
-    var run = document.createElement("div");
+function queueRun(runInfo) {
+    var div = document.createElement("div");
+    if (runInfo.ScrapeUrl)
+        Scrape(runInfo).then(function (r) {
+            drawRun(r, div);
+            setTimeout(function () { return applyScale(globalPpd); }, 1);
+        }, console.error);
+    else
+        setTimeout(function () { return drawRun(runInfo, div); }, 1);
+    return div;
+}
+function drawRun(runInfo, run) {
+    run = run || document.createElement("div");
     run.className = "run";
     run.setAttribute("data-time", runInfo.Duration);
     run.setAttribute("data-label", runInfo.RunName + ": " + runInfo.Duration);
-    run.setAttribute("id", runInfo.RunName.replace(/[^A-Z0-9]/i, '').toLowerCase());
+    run.setAttribute("data-json", JSON.stringify(runInfo));
+    run.setAttribute("id", runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
     run.style.backgroundColor = runInfo.ColorPrimary;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
     run.appendChild(drawHost(runInfo));
     runInfo.Events.sort(function (e1, e2) { return Duration.parse(e1.Time).TotalSeconds - Duration.parse(e2.Time).TotalSeconds; }).forEach(function (event) { return run.appendChild(drawEvent(event)); });
-    return run;
 }
 function drawHost(runInfo) {
     var host = drawEvent({
@@ -109,7 +121,7 @@ function drawEvent(eventInfo) {
     }
     else
         event.appendChild(eventImg);
-    event.className = "event " + eventInfo.Group.replace(/[^A-Z0-9]/i, '').toLowerCase();
+    event.className = "event " + eventInfo.Group.replace(/[^A-Z0-9]/ig, '').toLowerCase();
     var label = eventInfo.Name;
     if (eventInfo.Time)
         label += "\n" + eventInfo.Time;

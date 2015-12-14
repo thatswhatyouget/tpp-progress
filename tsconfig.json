@@ -2,10 +2,12 @@
 	"compilerOptions": {
 		"outDir": "./bin",
 		"target": "ES5",
-		"removeComments": true
+		"removeComments": true,
+		"declaration": true
 	},
 	"files": [
 		"./src/tpp-data.ts",
-		"./src/tpp-progress.ts"
+		"./src/tpp-progress.ts",
+		"./src/tpp-scraper.ts"
 	]
 }

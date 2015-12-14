@@ -1,4 +1,4 @@
-/// <reference path="tpp-structure.ts" />
+/// <reference path="tpp-structure" />
 var TppSeason1: TPP.Run[] = [
 	{
 		RunName: "Red",
@@ -1896,5 +1896,14 @@ var TppSeason2: TPP.Run[] = [
 			}
 		]
 	},
-
+	{
+		RunName: "XD",
+		ColorPrimary: "#532245",
+		ColorSecondary: "#793165",
+		Duration: "0d",
+		HostName: "ABBBCC",
+		HostImage: "http://cdn.bulbagarden.net/upload/thumb/c/c1/XD_Michael_2.png/123px-XD_Michael_2.png",
+		ScrapeUrl: "http://twitchplayspokemon.org",
+		Events: []
+	},
 ];
