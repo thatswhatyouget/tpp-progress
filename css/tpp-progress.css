@@ -14,14 +14,19 @@ div.controls {
 	position:fixed;
 	left:0;
 	top:0;
+	z-index:50;
 }
 
-div.controls i {
+div.controls > * {
 	display:inline-block;
-	font-size:2em;
+	font-size:1.2em;
 	margin:.5em;
 	background-color:rgba(144,144,144,.8);
 	cursor:pointer;
+}
+
+div.controls > * + * {
+	margin-left:none;
 }
 
 .progressChart {
