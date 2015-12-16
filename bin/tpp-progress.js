@@ -39,6 +39,8 @@ var Duration = (function () {
     };
     return Duration;
 })();
+var fakeQuery = function (selector) { return Array.prototype.slice.call(document.querySelectorAll(selector)); };
+var globalPpd;
 function makeGrid(ppd) {
     var bgImageSrc = document.createElement("canvas");
     bgImageSrc.height = 1;
@@ -50,7 +52,6 @@ function makeGrid(ppd) {
     draw.stroke();
     return bgImageSrc.toDataURL();
 }
-var globalPpd;
 function createChart(data, label, ppd) {
     globalPpd = ppd = globalPpd || ppd || window.innerWidth / days;
     var chart = document.createElement("div");
@@ -134,16 +135,74 @@ function drawEvent(eventInfo) {
 }
 function applyScale(ppd) {
     globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || 64) / Math.log(2)));
-    var $ = function (selector) { return Array.prototype.slice.call(document.querySelectorAll(selector)); };
+    var $ = fakeQuery;
     var $find = function (elements, selector) { return elements.map(function (e) { return Array.prototype.slice.call(e.querySelectorAll(selector)); }); };
+    function left(element) {
+        return parseInt(element.style.left.replace('px', ''));
+    }
+    function width(element) {
+        return element.offsetWidth;
+    }
+    function findImage(element) {
+        return $find([element], "img").pop().pop();
+    }
+    function marginTop(element) {
+        return parseInt((element.style.marginTop || '0').replace('px', '')) || 0;
+    }
     $('.progressChart').forEach(function (chart) {
         chart.style.backgroundImage = 'url("' + makeGrid(ppd) + '")';
     });
-    $find($(".progressChart .ruler"), ".stop").forEach(function (clump) { return clump.forEach(function (stop, i) {
+    $find($(".progressChart .ruler"), ".stop").forEach(function (ruler) { return ruler.forEach(function (stop, i) {
         stop.style.left = i * ppd + "px";
     }); });
-    $(".progressChart .run").forEach(function (run) { return run.getAttribute('data-time') && (run.style.width = Duration.parse(run.getAttribute('data-time')).TotalDays * ppd + "px"); });
-    $(".progressChart .run .event").forEach(function (event) { return event.getAttribute('data-time') && (event.style.left = Duration.parse(event.getAttribute('data-time')).TotalDays * ppd + "px"); });
+    $(".progressChart .run").forEach(function (run) {
+        if (run.getAttribute('data-time'))
+            run.style.width = Duration.parse(run.getAttribute('data-time')).TotalDays * ppd + "px";
+        var events = $find([run], ".event").pop();
+        events.forEach(function (event) {
+            if (event.getAttribute('data-time'))
+                event.style.left = Duration.parse(event.getAttribute('data-time')).TotalDays * ppd + "px";
+            findImage(event).style.marginTop = "0";
+        });
+        if (explode) {
+            var dir = -.3;
+            events.forEach(function (event, i) {
+                var d = dir *= -1;
+                if (i == 0)
+                    return;
+                var myLeft = left(event);
+                var myImg = findImage(event);
+                var myWidth = width(myImg) / 2;
+                if (i > 1 && events[i - 1]) {
+                    var thisLeft = left(events[i - 1]);
+                    var thisImg = findImage(events[i - 1]);
+                    var thisWidth = width(thisImg) / 2;
+                    if (thisLeft + thisWidth > myLeft) {
+                        thisImg.style.marginTop = (marginTop(thisImg) - (thisLeft + thisWidth - myLeft) * d) + "px";
+                        myImg.style.marginTop = (marginTop(myImg) + (thisLeft + thisWidth - myLeft) * d) + "px";
+                    }
+                }
+                if (events[i + 1]) {
+                    var thisLeft = left(events[i + 1]);
+                    if (myLeft + myWidth > thisLeft) {
+                        var thisImg = findImage(events[i + 1]);
+                        thisImg.style.marginTop = (marginTop(thisImg) - (myLeft + myWidth - thisLeft) * d) + "px";
+                        myImg.style.marginTop = (marginTop(myImg) + (myLeft + myWidth - thisLeft) * d) + "px";
+                    }
+                }
+            });
+            findImage(events[0]).style.marginTop = findImage(events[events.length - 1]).style.marginTop = "0";
+        }
+    });
 }
 var zoomIn = function () { return applyScale(globalPpd * 2); };
 var zoomOut = function () { return applyScale(globalPpd / 2); };
+var explode = localStorage.getItem("explode") == "true";
+function toggleExplode(element) {
+    explode = element ? element.checked : !explode;
+    applyScale(globalPpd);
+    localStorage.setItem("explode", explode ? "true" : "false");
+}
+window.addEventListener("load", function () {
+    fakeQuery('.settings input').forEach(function (element) { return element.checked = window[element.id]; });
+});

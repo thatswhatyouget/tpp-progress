@@ -24,9 +24,18 @@
 	</div>
 	<script>createChart(TppSeason1, "Season 1");</script>
 	<script>createChart(TppSeason2, "Season 2");</script>
-	<div class="controls">
-		<i class="fa fa-search-plus" title="Zoom In" onclick="zoomIn();"></i>
-		<i class="fa fa-search-minus" title="Zoom Out" onclick="zoomOut();"></i>
+	<ul class="controls">
+		<li><i class="fa fa-search-plus" title="Zoom In" onclick="zoomIn();"></i></li>
+		<li><i class="fa fa-search-minus" title="Zoom Out" onclick="zoomOut();"></i></li>
+		<li class="settings">
+			<i class="fa fa-gear" title="Settings"></i>
+			<ul>
+				<li>
+					<input type="checkbox" id="explode" onchange="toggleExplode(this);" onload="checkMe(this);" />
+					<label for="explode">Stagger Clumps</label>
+				</li>
+			</div>
+		</li>
 	</div>
 </body>
 

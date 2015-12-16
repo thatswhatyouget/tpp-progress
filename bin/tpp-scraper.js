@@ -1,8 +1,12 @@
 /// <reference path="tpp-structure" />
-/// <reference path="../bin/jquery" />
+/// <reference path="../ref/jquery" />
 function Scrape(run) {
     var deferred = $.Deferred();
-    $.get("https://crossorigin.me/" + run.ScrapeUrl).then(function (page) {
+    $.ajax({
+        url: "https://crossorigin.me/" + run.ScrapeUrl,
+        type: "GET",
+        dataType: "text"
+    }).then(function (page) {
         var $lastUpdate = $(page).find('.last-update');
         var $badges = $(page).find("h3 strong:contains(Bosses), h3 strong:contains(Badges), h3 strong:contains('Elite Four')");
         if ($lastUpdate.is('*')) {

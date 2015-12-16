@@ -32,6 +32,9 @@ class Duration {
 	}
 }
 
+var fakeQuery: (selector: string) => Array<HTMLElement> = selector => Array.prototype.slice.call(document.querySelectorAll(selector));
+var globalPpd: number;
+
 function makeGrid(ppd: number) {
 	var bgImageSrc = document.createElement("canvas");
 	bgImageSrc.height = 1;
@@ -43,8 +46,6 @@ function makeGrid(ppd: number) {
 	draw.stroke();
 	return bgImageSrc.toDataURL();
 }
-
-var globalPpd: number;
 
 function createChart(data: TPP.Run[], label: string, ppd?: number) {
 	globalPpd = ppd = globalPpd || ppd || window.innerWidth / days;
@@ -126,21 +127,77 @@ function drawEvent(eventInfo: TPP.Event) {
 	return event;
 }
 
-function applyScale(ppd: number) {
+function applyScale(ppd?: number) {
 	globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || 64) / Math.log(2))); //floor to power of 2
-	var $: (selector: string) => Array<HTMLElement> = selector => Array.prototype.slice.call(document.querySelectorAll(selector));
+	var $ = fakeQuery;
 	var $find: (elements: Array<HTMLElement>, selector: string) => Array<Array<HTMLElement>> = (elements, selector) => elements.map(e=> Array.prototype.slice.call(e.querySelectorAll(selector)));
+	function left(element:HTMLElement) {
+		return parseInt(element.style.left.replace('px', ''));
+	}
+	function width(element: HTMLElement) {
+		return element.offsetWidth;
+	}
+	function findImage(element: HTMLElement) {
+		return $find([element], "img").pop().pop();
+	}
+	function marginTop(element: HTMLElement) {
+		return parseInt((element.style.marginTop || '0').replace('px', '')) || 0;
+	}
 	$('.progressChart').forEach(chart=> {
-		// chart.style.paddingLeft = chart.style.paddingRight = (ppd / 2) + "px";
 		chart.style.backgroundImage = 'url("' + makeGrid(ppd) + '")';
 	});
-	$find($(".progressChart .ruler"), ".stop").forEach(clump=> clump.forEach((stop, i) => {
+	$find($(".progressChart .ruler"), ".stop").forEach(ruler=> ruler.forEach((stop, i) => {
 		stop.style.left = i * ppd + "px";
-		// stop.style.width = ppd + "px";
 	}));
-	$(".progressChart .run").forEach(run=> run.getAttribute('data-time') && (run.style.width = Duration.parse(run.getAttribute('data-time')).TotalDays * ppd + "px"));
-	$(".progressChart .run .event").forEach(event=> event.getAttribute('data-time') && (event.style.left = Duration.parse(event.getAttribute('data-time')).TotalDays * ppd + "px"));
+	$(".progressChart .run").forEach(run=> {
+		if (run.getAttribute('data-time')) run.style.width = Duration.parse(run.getAttribute('data-time')).TotalDays * ppd + "px";
+		var events = $find([run], ".event").pop();
+		events.forEach(event=> {
+			if (event.getAttribute('data-time')) event.style.left = Duration.parse(event.getAttribute('data-time')).TotalDays * ppd + "px";
+			findImage(event).style.marginTop = "0";
+		});
+		if (explode) {
+			var dir = -.3;
+			events.forEach((event, i) => {
+				var d = dir *= -1;
+				if (i == 0) return;
+				var myLeft = left(event);
+				var myImg = findImage(event);
+				var myWidth = width(myImg) / 2;
+				if (i > 1 && events[i - 1]) {
+					var thisLeft = left(events[i - 1]);
+					var thisImg = findImage(events[i - 1]);
+					var thisWidth = width(thisImg) / 2;
+					if (thisLeft + thisWidth > myLeft) {
+						thisImg.style.marginTop = (marginTop(thisImg) - (thisLeft + thisWidth - myLeft) * d) + "px";
+						myImg.style.marginTop = (marginTop(myImg) + (thisLeft + thisWidth - myLeft) * d) + "px";
+					}
+				}
+				if (events[i + 1]) {
+					var thisLeft = left(events[i + 1]);
+					if (myLeft + myWidth > thisLeft) {
+						var thisImg = findImage(events[i + 1]);
+						thisImg.style.marginTop = (marginTop(thisImg) - (myLeft + myWidth - thisLeft) * d) + "px";
+						myImg.style.marginTop = (marginTop(myImg) +  (myLeft + myWidth - thisLeft) * d) + "px";
+					}
+				}
+				
+			});
+			findImage(events[0]).style.marginTop = findImage(events[events.length-1]).style.marginTop = "0";
+		}    
+	});
 }
 
+//controls and settings
 var zoomIn = ()=> applyScale(globalPpd * 2);
 var zoomOut = ()=> applyScale(globalPpd / 2);
+
+var explode = localStorage.getItem("explode") == "true";
+function toggleExplode(element?:HTMLInputElement) {
+	explode = element ? element.checked : !explode;
+	applyScale(globalPpd);
+	localStorage.setItem("explode", explode ? "true" : "false");
+}
+window.addEventListener("load", () => {
+	fakeQuery('.settings input').forEach(element => (<HTMLInputElement>element).checked = window[element.id]);
+});

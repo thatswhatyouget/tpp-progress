@@ -10,19 +10,70 @@ body {
 	vertical-align: bottom;	
 }
 
-div.controls {
+ul.controls {
 	position:fixed;
 	left:0;
 	top:0;
 	z-index:50;
+	list-style:none;
+	padding:0;
+	margin:0;
 }
 
-div.controls > * {
+ul.controls > li {
 	display:block;
 	font-size:1.3em;
 	margin:.25em;
-	text-shadow:1px 1px 0 white, -1px 1px 0 white, -1px -1px white, 1px -1px white;
 	cursor:pointer;
+	position:relative;
+	padding:0;
+}
+
+ul.controls > li > i {
+	position:relative;
+	z-index:2;	
+	text-shadow:1px 1px 0 white, -1px 1px 0 white, -1px -1px white, 1px -1px white;
+}
+
+ul.controls > li > ul {
+	box-sizing: border-box;
+	position:absolute;
+	left:100%;
+	top:-.15em;
+	margin: 0 .25em;
+	transform:translateX(-150%);
+	background-color:lightgray;
+	border: 1px solid black;
+	padding:.5em 1em;
+	white-space: nowrap;
+	transition: transform .5s ease-in-out;
+	list-style:none;
+}
+
+ul.controls > li > ul:before {
+	content:' ';
+	height:1.3em;
+	width:1.3em;
+	border: 1px solid black;
+	border-right:none;
+	background-color:lightgray;
+	border-radius: .25em 0 0 .25em;
+	position: absolute;
+	right:100%;
+	top:-1px;
+}
+
+ul.controls > li:hover > ul {
+	transform:none;
+}
+
+ul.controls > li > ul > li {
+	display: block;	
+}
+
+ul.controls > li > ul > li > * {
+	vertical-align: middle;	
+	font-size:.8em;
 }
 
 .progressChart {
@@ -134,6 +185,7 @@ div.controls > * {
 	width:auto;
 	z-index:1;
 	transform: translateX(-50%);
+	transition: margin 2s ease-in-out;
 	border:none;
 }
 

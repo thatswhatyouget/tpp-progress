@@ -2,8 +2,7 @@
 	"compilerOptions": {
 		"outDir": "./bin",
 		"target": "ES5",
-		"removeComments": true,
-		"declaration": true
+		"removeComments": true
 	},
 	"files": [
 		"./src/tpp-data.ts",
