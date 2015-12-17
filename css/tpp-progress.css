@@ -10,6 +10,10 @@ body {
 	vertical-align: bottom;	
 }
 
+.credits {
+	font-size:.8em;	
+}
+
 ul.controls {
 	position:fixed;
 	left:0;
