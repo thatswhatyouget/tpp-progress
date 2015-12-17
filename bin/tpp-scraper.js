@@ -3,12 +3,13 @@
 function Scrape(run) {
     var deferred = $.Deferred();
     $.ajax({
-        url: "https://crossorigin.me/" + run.ScrapeUrl,
+        url: "https://crossorigin.me/" + run.Scraper.url,
         type: "GET",
         dataType: "text"
     }).then(function (page) {
         var $lastUpdate = $(page).find('.last-update');
-        var $badges = $(page).find("h3 strong:contains(Bosses), h3 strong:contains(Badges), h3 strong:contains('Elite Four')");
+        run.Scraper.parts = run.Scraper.parts || ["Badges", "Elite Four"];
+        var $badges = $(page).find(run.Scraper.parts.map(function (p) { return "h3 strong:contains(" + p + ")"; }).join(','));
         if ($lastUpdate.is('*')) {
             run.Duration = $lastUpdate.text().split(':').pop().trim();
         }
@@ -20,7 +21,7 @@ function Scrape(run) {
                 if (!$col.find('img').is('.greyed-out')) {
                     run.Events.push({
                         Group: groupName,
-                        Image: $col.find('img').attr('src').replace(/^\//, run.ScrapeUrl + "/"),
+                        Image: $col.find('img').attr('src').replace(/^\//, run.Scraper.url + "/"),
                         Name: title,
                         Time: $($col[1]).text().trim(),
                         Attempts: parseInt($col.find('strong').text() || '0')
@@ -28,6 +29,27 @@ function Scrape(run) {
                 }
             });
         });
+        if (run.Scraper.pokemon) {
+            var pkmn = {};
+            $(page).find('.history-obtained').each(function () {
+                var $element = $(this);
+                var $img = $element.find('img');
+                if (!$img.is('*')) {
+                    var title = $element.attr('title').split('(').shift().trim();
+                }
+                else {
+                    var title = $img.attr('title');
+                }
+                if (!pkmn[title])
+                    pkmn[title] = {
+                        Name: title,
+                        Image: "http://twitchplayspokemon.org/img/pokemon/sprites/menu-static/" + title.toLowerCase() + ".png",
+                        Time: $element.text().replace(/[()]/g, '').trim(),
+                        Group: "Pokemon"
+                    };
+            });
+            Object.keys(pkmn).forEach(function (mon) { return run.Events.push(pkmn[mon]); });
+        }
         deferred.resolve(run);
     }, function (jqXHR, status, err) { return deferred.reject(err); });
     return deferred.promise();

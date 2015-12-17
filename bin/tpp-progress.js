@@ -40,7 +40,20 @@ var Duration = (function () {
     return Duration;
 })();
 var fakeQuery = function (selector) { return Array.prototype.slice.call(document.querySelectorAll(selector)); };
-var globalPpd;
+var $find = function (elements, selector) { return elements.map(function (e) { return Array.prototype.slice.call(e.querySelectorAll(selector)); }); };
+function getLeft(element) {
+    return parseInt(element.style.left.replace('px', ''));
+}
+function getWidth(element) {
+    return element.offsetWidth;
+}
+function findImage(element) {
+    return $find([element], "img").pop().pop();
+}
+function marginTop(element) {
+    return parseInt((element.style.marginTop || '0').replace('px', '')) || 0;
+}
+var globalPpd = 64, groups = {};
 function makeGrid(ppd) {
     var bgImageSrc = document.createElement("canvas");
     bgImageSrc.height = 1;
@@ -73,17 +86,17 @@ function createChart(data, label, ppd) {
         ruler.appendChild(stop);
         stop.className = "stop";
     }
-    setTimeout(function () { return applyScale(ppd); }, 1);
+    setTimeout(function () { return updatePage(ppd); }, 1);
 }
 function queueRun(runInfo) {
     var div = document.createElement("div");
-    if (runInfo.ScrapeUrl)
+    if (runInfo.Scraper)
         Scrape(runInfo).then(function (r) {
             drawRun(r, div);
-            setTimeout(function () { return applyScale(globalPpd); }, 1);
+            setTimeout(function () { return updatePage(); }, 0);
         }, console.error);
     else
-        setTimeout(function () { return drawRun(runInfo, div); }, 1);
+        setTimeout(function () { return drawRun(runInfo, div); }, 0);
     return div;
 }
 function drawRun(runInfo, run) {
@@ -100,7 +113,7 @@ function drawRun(runInfo, run) {
 }
 function drawHost(runInfo) {
     var host = drawEvent({
-        Group: "host",
+        Group: "Hosts",
         Name: runInfo.HostName,
         Image: runInfo.HostImage,
         ImageSource: runInfo.HostImageSource,
@@ -110,6 +123,7 @@ function drawHost(runInfo) {
     return host;
 }
 function drawEvent(eventInfo) {
+    var groupName = eventInfo.Group.replace(/[^A-Z0-9]/ig, '').toLowerCase();
     var event = document.createElement("div");
     var eventImg = document.createElement("img");
     if (eventInfo.ImageSource) {
@@ -121,7 +135,7 @@ function drawEvent(eventInfo) {
     }
     else
         event.appendChild(eventImg);
-    event.className = "event " + eventInfo.Group.replace(/[^A-Z0-9]/ig, '').toLowerCase();
+    event.className = "event " + groupName;
     var label = eventInfo.Name;
     if (eventInfo.Time)
         label += "\n" + eventInfo.Time;
@@ -131,24 +145,14 @@ function drawEvent(eventInfo) {
     eventImg.alt = label;
     event.setAttribute('data-label', label);
     event.setAttribute("data-time", eventInfo.Time);
+    if (showGroups[groupName] === false)
+        eventImg.style.opacity = "0";
+    groups[groupName] = eventInfo.Group;
     return event;
 }
 function applyScale(ppd) {
     globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || 64) / Math.log(2)));
     var $ = fakeQuery;
-    var $find = function (elements, selector) { return elements.map(function (e) { return Array.prototype.slice.call(e.querySelectorAll(selector)); }); };
-    function left(element) {
-        return parseInt(element.style.left.replace('px', ''));
-    }
-    function width(element) {
-        return element.offsetWidth;
-    }
-    function findImage(element) {
-        return $find([element], "img").pop().pop();
-    }
-    function marginTop(element) {
-        return parseInt((element.style.marginTop || '0').replace('px', '')) || 0;
-    }
     $('.progressChart').forEach(function (chart) {
         chart.style.backgroundImage = 'url("' + makeGrid(ppd) + '")';
     });
@@ -158,51 +162,88 @@ function applyScale(ppd) {
     $(".progressChart .run").forEach(function (run) {
         if (run.getAttribute('data-time'))
             run.style.width = Duration.parse(run.getAttribute('data-time')).TotalDays * ppd + "px";
-        var events = $find([run], ".event").pop();
+        var events = $find([run], ".event").pop().filter(function (e) { return findImage(e).style.opacity != "0"; });
         events.forEach(function (event) {
             if (event.getAttribute('data-time'))
                 event.style.left = Duration.parse(event.getAttribute('data-time')).TotalDays * ppd + "px";
             findImage(event).style.marginTop = "0";
         });
-        if (explode) {
-            var dir = -.3;
-            events.forEach(function (event, i) {
-                var d = dir *= -1;
-                if (i == 0)
-                    return;
-                var myLeft = left(event);
-                var myImg = findImage(event);
-                var myWidth = width(myImg) / 2;
-                if (i > 1 && events[i - 1]) {
-                    var thisLeft = left(events[i - 1]);
-                    var thisImg = findImage(events[i - 1]);
-                    var thisWidth = width(thisImg) / 2;
-                    if (thisLeft + thisWidth > myLeft) {
-                        thisImg.style.marginTop = (marginTop(thisImg) - (thisLeft + thisWidth - myLeft) * d) + "px";
-                        myImg.style.marginTop = (marginTop(myImg) + (thisLeft + thisWidth - myLeft) * d) + "px";
+        if (settings["explode"]) {
+            var dir = .15;
+            [events.filter(function (e) { return e.className.indexOf("pokemon") < 0; }), events.filter(function (e) { return e.className.indexOf("pokemon") >= 0; })].forEach(function (events) {
+                var width = function (element, pokeMode) { return pokeMode ? 25 : getWidth(element) || run.offsetHeight; };
+                events.forEach(function (event, i) {
+                    var d = dir *= -1;
+                    if (i == 0)
+                        return;
+                    var pokeMode = event.className.indexOf("pokemon") >= 0;
+                    var myImg = findImage(event);
+                    var myWidth = width(myImg, pokeMode);
+                    var myLeft = getLeft(event) - myWidth / 2;
+                    if (i > 1 && events[i - 1]) {
+                        var thisImg = findImage(events[i - 1]);
+                        var thisWidth = width(thisImg, pokeMode);
+                        var thisLeft = getLeft(events[i - 1]) - thisWidth / 2;
+                        if (thisLeft + thisWidth > myLeft) {
+                            thisImg.style.marginTop = (marginTop(thisImg) - (thisLeft + thisWidth - myLeft) * d) + "px";
+                            myImg.style.marginTop = (marginTop(myImg) + (thisLeft + thisWidth - myLeft) * d) + "px";
+                        }
                     }
-                }
-                if (events[i + 1]) {
-                    var thisLeft = left(events[i + 1]);
-                    if (myLeft + myWidth > thisLeft) {
+                    if (events[i + 1]) {
                         var thisImg = findImage(events[i + 1]);
-                        thisImg.style.marginTop = (marginTop(thisImg) - (myLeft + myWidth - thisLeft) * d) + "px";
-                        myImg.style.marginTop = (marginTop(myImg) + (myLeft + myWidth - thisLeft) * d) + "px";
+                        var thisWidth = width(thisImg, pokeMode);
+                        var thisLeft = getLeft(events[i + 1]) - thisWidth / 2;
+                        if (myLeft + myWidth > thisLeft) {
+                            thisImg.style.marginTop = (marginTop(thisImg) - (myLeft + myWidth - thisLeft) * d) + "px";
+                            myImg.style.marginTop = (marginTop(myImg) + (myLeft + myWidth - thisLeft) * d) + "px";
+                        }
                     }
-                }
+                });
             });
             findImage(events[0]).style.marginTop = findImage(events[events.length - 1]).style.marginTop = "0";
         }
     });
 }
+function updatePage(ppd) {
+    if (ppd === void 0) { ppd = globalPpd; }
+    setTimeout(function () { return applyScale(ppd); }, 0);
+    var extant = fakeQuery(".groups input").map(function (i) { return i.id.split('-').pop(); }) || [];
+    var groupList = fakeQuery(".groups ul").pop();
+    Object.keys(groups).filter(function (g) { return extant.indexOf(g) < 0; }).forEach(function (g) {
+        var li = document.createElement("li");
+        var input = document.createElement("input");
+        var label = document.createElement("label");
+        li.appendChild(input);
+        li.appendChild(label);
+        groupList.appendChild(li);
+        input.type = "checkbox";
+        label.htmlFor = input.id = "group-" + g;
+        input.checked = showGroups[g] !== false;
+        label.innerText = groups[g];
+        input.onchange = function () { return toggleGroup(input); };
+    });
+}
 var zoomIn = function () { return applyScale(globalPpd * 2); };
 var zoomOut = function () { return applyScale(globalPpd / 2); };
-var explode = localStorage.getItem("explode") == "true";
-function toggleExplode(element) {
-    explode = element ? element.checked : !explode;
-    applyScale(globalPpd);
-    localStorage.setItem("explode", explode ? "true" : "false");
-}
+var settings = JSON.parse(localStorage.getItem("settings") || "{}");
+var showGroups = JSON.parse(localStorage.getItem("showGroups") || "{}");
 window.addEventListener("load", function () {
-    fakeQuery('.settings input').forEach(function (element) { return element.checked = window[element.id]; });
+    fakeQuery('.settings input').forEach(function (element) { return element.checked = settings[element.id]; });
+    fakeQuery('.groups input').forEach(function (element) { return element.checked = showGroups[element.id.split('-').pop()] !== false; });
+    updatePage();
 });
+function toggleSetting(element) {
+    settings[element.id] = element.checked;
+    localStorage.setItem("settings", JSON.stringify(settings));
+    updatePage();
+}
+function toggleGroup(element) {
+    var group = element.id.split('-').pop(), visible = element.checked;
+    showGroups[group] = visible;
+    localStorage.setItem("showGroups", JSON.stringify(showGroups));
+    fakeQuery('.' + group.replace(/[^A-Z0-9]/ig, '').toLowerCase()).forEach(function (event) {
+        event.style.pointerEvents = visible ? "all" : "none";
+        findImage(event).style.opacity = visible ? "1" : "0";
+    });
+    updatePage();
+}

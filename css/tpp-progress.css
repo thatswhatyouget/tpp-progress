@@ -48,12 +48,13 @@ ul.controls > li > ul {
 	white-space: nowrap;
 	transition: transform .5s ease-in-out;
 	list-style:none;
+	text-align: left;
 }
 
 ul.controls > li > ul:before {
 	content:' ';
 	height:1.3em;
-	width:1.3em;
+	width:2em;
 	border: 1px solid black;
 	border-right:none;
 	background-color:lightgray;
@@ -185,7 +186,7 @@ ul.controls > li > ul > li > * {
 	width:auto;
 	z-index:1;
 	transform: translateX(-50%);
-	transition: margin 2s ease-in-out;
+	transition: all 2s ease-in-out;
 	border:none;
 }
 
@@ -216,30 +217,39 @@ ul.controls > li > ul > li > * {
 	transform: translateX(-50%);
 }
 
-.progressChart .run .event.champion img, .progressChart .run .event.elite4 img, .progressChart .run .event.pasthost img {
+.progressChart .run .event.champions img, .progressChart .run .event.elitefour img, .progressChart .run .event.pasthosts img {
 	height:70px;
 	top:-15px;	
 }
 
-.progressChart .run .event.host img {
+.progressChart .run .event.hosts img {
 	height:90px;
 	top:-30px;
 	left:-14px;
 }
 
-.progressChart .run .event.host {
+.progressChart .run .event.hosts {
 	z-index: 2;	
 	left:-1px!important;
 }
 
-.progressChart .run .event.host:hover::before {
+.progressChart .run .event.hosts:hover::before {
 	display:none;
 }
-.progressChart .run .event.host:hover::after {
+.progressChart .run .event.hosts:hover::after {
 	top:100%;
 	margin-bottom:0;
 	bottom:auto;
 	left:-14px;
+}
+
+.progressChart .run .event.pokemon {
+	z-index:3;	
+}
+
+.progressChart .run .event.pokemon img {
+	top:50%;
+	margin:0 -25%;
 }
 
 .progressChart .run .event:hover {
