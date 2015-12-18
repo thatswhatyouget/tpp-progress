@@ -1109,7 +1109,7 @@ var TppSeason1: TPP.Run[] = [
 		ColorSecondary: "#c6223b",
 		Duration: "8d 5h 42m",
 		HostName: "!12rtyhaszs",
-		HostImage: "http://cdn.bulbagarden.net/upload/thumb/f/f1/Omega_Ruby_Alpha_Sapphire_Brendan.png/200px-Omega_Ruby_Alpha_Sapphire_Brendan.png",
+		HostImage: "http://cdn.bulbagarden.net/upload/6/68/Spr_RS_Brendan.png",
 		Events: [
 			{
 				Group: "Badges",
@@ -2556,7 +2556,7 @@ var TppSeason2: TPP.Run[] = [
 		ColorSecondary: "#242c86",
 		Duration: "14d 1h 27m",
 		HostName: "!!!0999   qq",
-		HostImage: "http://cdn.bulbagarden.net/upload/thumb/a/a0/Omega_Ruby_Alpha_Sapphire_May.png/180px-Omega_Ruby_Alpha_Sapphire_May.png",
+		HostImage: "http://cdn.bulbagarden.net/upload/3/38/Spr_RS_May.png",
 		Events: [
 			{
 				Group: "Badges",
@@ -2707,7 +2707,8 @@ var TppSeason2: TPP.Run[] = [
 		ColorSecondary: "#644d2e",
 		Duration: "6d 3h 27m",
 		HostName: "AAAAAAA",
-		HostImage: "http://cdn.bulbagarden.net/upload/thumb/7/7d/Colosseum_Wes_3D.png/140px-Colosseum_Wes_3D.png",
+		HostImage: "img/colosseum/wes.png",
+		HostImageSource: "http://i39.tinypic.com/wk2pgo.png",
 		Events: [
 			{
 				Group: "Bosses",
@@ -2808,7 +2809,8 @@ var TppSeason2: TPP.Run[] = [
 		ColorSecondary: "#793165",
 		Duration: "0d",
 		HostName: "ABBBCC",
-		HostImage: "http://cdn.bulbagarden.net/upload/thumb/c/c1/XD_Michael_2.png/123px-XD_Michael_2.png",
+		HostImage: "img/xd/michael.png",
+		HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3woea1/alphab%C4%93tos_av%C4%ABci/",
 		Scraper: {
 			url: "http://twitchplayspokemon.org",
 			parts: ["Bosses"],
