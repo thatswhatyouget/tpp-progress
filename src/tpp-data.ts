@@ -2355,6 +2355,7 @@ var TppSeason2: TPP.Run[] = [
 		Duration: "13d 15h 44m",
 		HostName: "AAABBHM",
 		HostImage: "http://i.imgur.com/rKvMH.png",
+		HostImageSource: "http://www.pokecommunity.com/showthread.php?t=293880",
 		Events: [
 			{
 				Group: "Badges",
@@ -2444,6 +2445,7 @@ var TppSeason2: TPP.Run[] = [
 				Group: "Champions",
 				Name: "Green",
 				Image: "http://i.imgur.com/mKe2I.png",
+				ImageSource: "http://www.pokecommunity.com/showthread.php?t=293880",
 				Time: "13d 15h 44m",
 				Attempts: 1
 			}

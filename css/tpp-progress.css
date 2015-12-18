@@ -171,6 +171,8 @@ ul.controls > li > ul > li > * {
 	left:1em;
 	top: -1.5em;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	z-index:5;
+	text-shadow:1px 1px 0 white, -1px 1px 0 white, -1px -1px white, 1px -1px white;
 }
 
 .progressChart .run .event {
