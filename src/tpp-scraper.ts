@@ -11,7 +11,7 @@ function Scrape(run:TPP.Run) {
 		var $lastUpdate = $(page).find('.last-update');
 		run.Scraper.parts = run.Scraper.parts || ["Badges", "Elite Four"];
 		var $badges = $(page).find(run.Scraper.parts.map(p=> "h3 strong:contains(" + p + ")").join(','));
-		if ($lastUpdate.is('*')) {
+		if (run.Scraper.runtime && $lastUpdate.is('*')) {
 			run.Duration = $lastUpdate.text().split(':').pop().trim();
 		}
 		$badges.each((i, group) => {
@@ -40,12 +40,13 @@ function Scrape(run:TPP.Run) {
 				}
 				else {
 					var title = $img.attr('title');
-				}
-				if (!pkmn[title])
+                }
+                var time = $element.text().replace(/[()]/g, '').trim();
+				if (!pkmn[title] && Duration.canParse(time))
 					pkmn[title] = {
 						Name: title,
-						Image: "http://twitchplayspokemon.org/img/pokemon/sprites/menu-static/" + title.toLowerCase() + ".png", //$img.attr('src').replace(/^\//, run.Scraper.url + "/"),
-						Time: $element.text().replace(/[()]/g, '').trim(),
+						Image: $img.is('*') ? $img.attr('src').replace(/^\//, "http://twitchplayspokemon.org/") : "http://twitchplayspokemon.org/img/pokemon/sprites/menu-static/" + title.toLowerCase().replace(/\s+/g, '-').replace(/[^0-9A-Z-]/ig,'') + ".png",
+						Time: time,
 						Group: "Pokemon"
 					};
 			});

@@ -1,6 +1,8 @@
 /// <reference path="tpp-structure" />
 class Duration {
-	days: number;
+    private static parseReg = /^\s*(?:(\d*)d)?\s*(?:(\d*)h)?\s*(?:(\d*)m)?\s*(?:(\d*)s)?\s*$/i;
+    
+    days: number;
 
 	get TotalSeconds() {
 		return this.seconds + (this.minutes * 60) + (this.hours * 60 * 60) + (this.days * 60 * 60 * 24);
@@ -12,14 +14,18 @@ class Duration {
 
 	static parse(time: string) {
 		try {
-			var matches = /^\s*(?:(\d*)d)?\s*(?:(\d*)h)?\s*(?:(\d*)m)?\s*(?:(\d*)s)?\s*$/i.exec(time);
+			var matches = this.parseReg.exec(time);
 			return new Duration(parseInt(matches[1]) || 0, parseInt(matches[2]) || 0, parseInt(matches[3]) || 0, parseInt(matches[4]) || 0);
 		}
 		catch (e) {
 			return new Duration(0, 0, 0, 0);
 		}
 	}
-
+    
+    static canParse(time: string) {
+        return this.parseReg.test(time);
+    }
+    
 	constructor(days: string | number, public hours?: number, public minutes?: number, public seconds?: number) {
 		if (typeof (days) === "string") {
 			var parsed = Duration.parse(<string>days);

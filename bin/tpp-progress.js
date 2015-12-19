@@ -30,13 +30,17 @@ var Duration = (function () {
     });
     Duration.parse = function (time) {
         try {
-            var matches = /^\s*(?:(\d*)d)?\s*(?:(\d*)h)?\s*(?:(\d*)m)?\s*(?:(\d*)s)?\s*$/i.exec(time);
+            var matches = this.parseReg.exec(time);
             return new Duration(parseInt(matches[1]) || 0, parseInt(matches[2]) || 0, parseInt(matches[3]) || 0, parseInt(matches[4]) || 0);
         }
         catch (e) {
             return new Duration(0, 0, 0, 0);
         }
     };
+    Duration.canParse = function (time) {
+        return this.parseReg.test(time);
+    };
+    Duration.parseReg = /^\s*(?:(\d*)d)?\s*(?:(\d*)h)?\s*(?:(\d*)m)?\s*(?:(\d*)s)?\s*$/i;
     return Duration;
 })();
 var fakeQuery = function (selector) { return Array.prototype.slice.call(document.querySelectorAll(selector)); };

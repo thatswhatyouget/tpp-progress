@@ -9,7 +9,8 @@ module TPP {
 		ColorSecondary: string;
 		Scraper?: {
 			url: string;
-			parts?: string[];
+            parts?: string[];
+            runtime?: boolean;
 			pokemon?: boolean;
 		};
 		Events: TPP.Event[];

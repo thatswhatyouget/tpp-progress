@@ -2354,6 +2354,7 @@ var TppSeason2 = [
         Duration: "13d 15h 44m",
         HostName: "AAABBHM",
         HostImage: "http://i.imgur.com/rKvMH.png",
+        HostImageSource: "http://www.pokecommunity.com/showthread.php?t=293880",
         Events: [
             {
                 Group: "Badges",
@@ -2443,6 +2444,7 @@ var TppSeason2 = [
                 Group: "Champions",
                 Name: "Green",
                 Image: "http://i.imgur.com/mKe2I.png",
+                ImageSource: "http://www.pokecommunity.com/showthread.php?t=293880",
                 Time: "13d 15h 44m",
                 Attempts: 1
             }
@@ -2812,8 +2814,8 @@ var TppSeason2 = [
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3woea1/alphab%C4%93tos_av%C4%ABci/",
         Scraper: {
             url: "http://twitchplayspokemon.org",
+            runtime: true,
             parts: ["Bosses"],
-            pokemon: false
         },
         Events: []
     },

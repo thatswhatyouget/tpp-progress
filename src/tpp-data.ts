@@ -2558,7 +2558,12 @@ var TppSeason2: TPP.Run[] = [
 		ColorSecondary: "#242c86",
 		Duration: "14d 1h 27m",
 		HostName: "!!!0999   qq",
-		HostImage: "http://cdn.bulbagarden.net/upload/3/38/Spr_RS_May.png",
+        HostImage: "http://cdn.bulbagarden.net/upload/3/38/Spr_RS_May.png",
+        // Scraper: {
+        //     url: "http://twitchplayspokemon.org/alphasapphire",
+        //     parts: [],
+        //     pokemon: true
+        // },
 		Events: [
 			{
 				Group: "Badges",
@@ -2710,7 +2715,12 @@ var TppSeason2: TPP.Run[] = [
 		Duration: "6d 3h 27m",
 		HostName: "AAAAAAA",
 		HostImage: "img/colosseum/wes.png",
-		HostImageSource: "http://i39.tinypic.com/wk2pgo.png",
+        HostImageSource: "http://i39.tinypic.com/wk2pgo.png",
+        // Scraper: {
+        //     url: "http://twitchplayspokemon.org/colosseum",
+        //     parts: [],
+        //     pokemon: true
+        // },
 		Events: [
 			{
 				Group: "Bosses",
@@ -2814,9 +2824,10 @@ var TppSeason2: TPP.Run[] = [
 		HostImage: "img/xd/michael.png",
 		HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3woea1/alphab%C4%93tos_av%C4%ABci/",
 		Scraper: {
-			url: "http://twitchplayspokemon.org",
+            url: "http://twitchplayspokemon.org",
+            runtime: true,
 			parts: ["Bosses"],
-			pokemon: false
+			// pokemon: true
 		},
 		Events: []
 	},
