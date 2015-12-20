@@ -598,17 +598,17 @@ var TppSeason1: TPP.Run[] = [
             },
             {
                 Group: "Badges",
-                Name: "??? (Glacier) Badge",
+                Name: "Sabselkrow (Glacier) Badge",
                 Image: "img/heartgold/glacier.png",
-                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26qq0f/badges_so_far_with_out_a_drop_shadow/",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                 Time: "4d 9h 45m",
                 Attempts: 2
             },
             {
                 Group: "Badges",
-                Name: "??? (Storm) Badge",
+                Name: "Hitcross (Storm) Badge",
                 Image: "img/heartgold/storm.png",
-                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26qq0f/badges_so_far_with_out_a_drop_shadow/",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                 Time: "4d 14h 33m",
                 Attempts: 2
             },
@@ -665,15 +665,17 @@ var TppSeason1: TPP.Run[] = [
             },
             {
                 Group: "Badges",
-                Name: "Boulder Badge",
-                Image: "http://twitchplayspokemon.org/red/img/badges/boulder.png",
+                Name: "Glacier (Boulder) Badge",
+                Image: "img/heartgold/boulder.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                 Time: "13d 0h 2m",
                 Attempts: 1
             },
             {
                 Group: "Badges",
-                Name: "Cascade Badge",
-                Image: "http://twitchplayspokemon.org/red/img/badges/cascade.png",
+                Name: "Fire (Cascade) Badge",
+                Image: "img/heartgold/cascade.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                 Time: "12d 17h 54m",
                 Attempts: 1
             },
@@ -687,15 +689,17 @@ var TppSeason1: TPP.Run[] = [
             },
             {
                 Group: "Badges",
-                Name: "Rainbow Badge",
-                Image: "http://twitchplayspokemon.org/red/img/badges/rainbow.png",
+                Name: "Spark (Rainbow) Badge",
+                Image: "img/heartgold/rainbow.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                 Time: "12d 7h 33m",
                 Attempts: 2
             },
             {
                 Group: "Badges",
-                Name: "Soul Badge",
-                Image: "http://twitchplayspokemon.org/red/img/badges/soul.png",
+                Name: "Leaf (Soul) Badge",
+                Image: "img/heartgold/soul.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                 Time: "12d 9h 19m",
                 Attempts: 1
             },
@@ -709,15 +713,17 @@ var TppSeason1: TPP.Run[] = [
             },
             {
                 Group: "Badges",
-                Name: "Volcano Badge",
-                Image: "http://twitchplayspokemon.org/red/img/badges/volcano.png",
+                Name: "??? (Volcano) Badge",
+                Image: "img/heartgold/volcano.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                 Time: "13d 4h 41m",
                 Attempts: 1
             },
             {
                 Group: "Badges",
-                Name: "Earth Badge",
-                Image: "http://twitchplayspokemon.org/red/img/badges/earth.png",
+                Name: "Multi-Type (Earth) Badge",
+                Image: "img/heartgold/earth.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                 Time: "14d 9h 23m",
                 Attempts: 2
             },
