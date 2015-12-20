@@ -223,7 +223,7 @@ ul.controls > li > ul > li > * {
 	transform: translateX(-50%);
 }
 
-.progressChart .run .event.champions img, .progressChart .run .event.elitefour img, .progressChart .run .event.pasthosts img {
+.progressChart .run .event.champions img, .progressChart .run .event.elitefour img, .progressChart .run .event.elitefourrematch img, .progressChart .run .event.pasthosts img {
 	height:70px;
 	top:-15px;	
 }

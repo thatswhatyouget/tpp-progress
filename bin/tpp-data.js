@@ -356,7 +356,7 @@ var TppSeason1 = [
                 Image: "img/firered/cocoon.png",
                 Time: "0d 19h 44m",
                 Attempts: 2,
-                ImageSource: "http://imgur.com/a/oK3Qv"
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/2318l8/i_decided_to_try_and_make_custom_badges_to_fit/"
             },
             {
                 Group: "Badges",
@@ -364,7 +364,7 @@ var TppSeason1 = [
                 Image: "img/firered/chemical.png",
                 Time: "1d 16h 1m",
                 Attempts: 1,
-                ImageSource: "http://imgur.com/a/oK3Qv"
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/2318l8/i_decided_to_try_and_make_custom_badges_to_fit/"
             },
             {
                 Group: "Badges",
@@ -372,7 +372,7 @@ var TppSeason1 = [
                 Image: "img/firered/shale.png",
                 Time: "2d 12h 12m",
                 Attempts: 4,
-                ImageSource: "http://imgur.com/a/oK3Qv"
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/2318l8/i_decided_to_try_and_make_custom_badges_to_fit/"
             },
             {
                 Group: "Badges",
@@ -380,7 +380,7 @@ var TppSeason1 = [
                 Image: "img/firered/snowflake.png",
                 Time: "6d 15h 12m",
                 Attempts: 2,
-                ImageSource: "http://imgur.com/a/iQRdM"
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/23d9sj/snow_princess_erica_and_snowflake_badge/"
             },
             {
                 Group: "Badges",
@@ -388,7 +388,7 @@ var TppSeason1 = [
                 Image: "img/firered/seraphim.png",
                 Time: "10d 4h 50m",
                 Attempts: 7,
-                ImageSource: "http://imgur.com/a/ObOZv"
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/23lect/flying_type_koga_and_seraphim_badge/"
             },
             {
                 Group: "Badges",
@@ -396,7 +396,7 @@ var TppSeason1 = [
                 Image: "img/firered/target.png",
                 Time: "8d 12h 37m",
                 Attempts: 1,
-                ImageSource: "http://imgur.com/TqcZFEl"
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/23irff/sabrinas_new_badge_the_target_badge/"
             },
             {
                 Group: "Badges",
@@ -404,15 +404,15 @@ var TppSeason1 = [
                 Image: "img/firered/fossil.png",
                 Time: "11d 4h 1m",
                 Attempts: 1,
-                ImageSource: "http://imgur.com/2t6KygB"
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/23qqwb/rocktype_blaines_badge_the_fossil_badge_name/?ref=search_posts"
             },
             {
                 Group: "Badges",
-                Name: "Impact (Earth) Badge",
+                Name: "Discipline (Earth) Badge",
                 Image: "img/firered/impact.png",
                 Time: "11d 13h 39m",
                 Attempts: 1,
-                ImageSource: "http://imgur.com/a/mgLrT"
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/23rzlb/and_heres_a_possible_design_for_giovannis_badge/"
             },
             {
                 Group: "Elite Four",
@@ -420,7 +420,7 @@ var TppSeason1 = [
                 Image: "img/firered/lorelei.png",
                 Time: "14d 21h 10m",
                 Attempts: 2,
-                ImageSource: "http://imgur.com/a/ZlULF"
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/24321f/elite_four_sprites/"
             },
             {
                 Group: "Elite Four",
@@ -428,7 +428,7 @@ var TppSeason1 = [
                 Image: "img/firered/bruno.png",
                 Time: "14d 21h 15m",
                 Attempts: 1,
-                ImageSource: "http://imgur.com/a/ZlULF"
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/24321f/elite_four_sprites/"
             },
             {
                 Group: "Elite Four",
@@ -436,7 +436,7 @@ var TppSeason1 = [
                 Image: "img/firered/agatha.png",
                 Time: "14d 21h 21m",
                 Attempts: 1,
-                ImageSource: "http://imgur.com/a/ZlULF"
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/24321f/elite_four_sprites/"
             },
             {
                 Group: "Elite Four",
@@ -444,7 +444,7 @@ var TppSeason1 = [
                 Image: "img/firered/lance.png",
                 Time: "15d 0h 31m",
                 Attempts: 4,
-                ImageSource: "http://imgur.com/a/ZlULF"
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/24321f/elite_four_sprites/"
             },
             {
                 Group: "Champions",
@@ -566,88 +566,101 @@ var TppSeason1 = [
         Events: [
             {
                 Group: "Badges",
-                Name: "Zephyr Badge",
-                Image: "http://www.twitchplayspokemon.org/img/badges/zephyr.png",
+                Name: "Jet (Zephyr) Badge",
+                Image: "img/heartgold/jet.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26e3fo/jet_badge_design_idea/",
                 Time: "0d 14h 23m",
                 Attempts: 2
             },
             {
                 Group: "Badges",
-                Name: "Hive Badge",
-                Image: "http://www.twitchplayspokemon.org/img/badges/hive.png",
+                Name: "Powers (Hive) Badge",
+                Image: "img/heartgold/powers.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26h4hi/the_new_badges_i_made_for_the_side_bar_d/",
                 Time: "1d 7h 24m",
                 Attempts: 3
             },
             {
                 Group: "Badges",
-                Name: "Plain Badge",
-                Image: "http://www.twitchplayspokemon.org/img/badges/plain.png",
+                Name: "Magnetic (Plain) Badge",
+                Image: "img/heartgold/magnetic.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26h4hi/the_new_badges_i_made_for_the_side_bar_d/",
                 Time: "1d 16h 34m",
                 Attempts: 1
             },
             {
                 Group: "Badges",
-                Name: "Fog Badge",
-                Image: "http://www.twitchplayspokemon.org/img/badges/fog.png",
+                Name: "Rock (Fog) Badge",
+                Image: "img/heartgold/rock.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26mv9h/the_rock_badge/",
                 Time: "3d 10h 25m",
                 Attempts: 1
             },
             {
                 Group: "Badges",
-                Name: "Glacier Badge",
-                Image: "http://www.twitchplayspokemon.org/img/badges/glacier.png",
+                Name: "??? (Glacier) Badge",
+                Image: "img/heartgold/glacier.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26qq0f/badges_so_far_with_out_a_drop_shadow/",
                 Time: "4d 9h 45m",
                 Attempts: 2
             },
             {
                 Group: "Badges",
-                Name: "Storm Badge",
-                Image: "http://www.twitchplayspokemon.org/img/badges/storm.png",
+                Name: "??? (Storm) Badge",
+                Image: "img/heartgold/storm.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26qq0f/badges_so_far_with_out_a_drop_shadow/",
                 Time: "4d 14h 33m",
                 Attempts: 2
             },
             {
                 Group: "Badges",
-                Name: "Mineral Badge",
-                Image: "http://www.twitchplayspokemon.org/img/badges/mineral.png",
+                Name: "Mythical (Mineral) Badge",
+                Image: "img/heartgold/mythical.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26qu89/mythical_badge/",
                 Time: "5d 4h 9m",
                 Attempts: 6
             },
             {
                 Group: "Badges",
-                Name: "Rising Badge",
-                Image: "http://www.twitchplayspokemon.org/img/badges/rising.png",
+                Name: "Thief (Rising) Badge",
+                Image: "img/heartgold/thief.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26wvte/the_thief_badge/",
                 Time: "6d 19h 40m",
                 Attempts: 3
             },
             {
                 Group: "Elite Four",
                 Name: "Will",
-                Image: "http://twitchplayspokemon.org/img/trainers/heartgold/will.png",
+                Image: "img/heartgold/will.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/272tjl/archeologists_and_diggers_have_already_been_done/",
                 Time: "8d 21h 53m"
             },
             {
                 Group: "Elite Four",
                 Name: "Koga",
-                Image: "http://twitchplayspokemon.org/img/trainers/heartgold/koga.png",
+                Image: "img/heartgold/koga.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/272wf0/couldnt_think_of_what_a_psychic_type_koga_would/",
                 Time: "11d 3h 58m"
             },
             {
                 Group: "Elite Four",
                 Name: "Bruno",
-                Image: "http://twitchplayspokemon.org/img/trainers/heartgold/bruno.png",
+                Image: "img/heartgold/bruno.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27cgk2/so_before_i_forget_here_are_bruno_and_karens/",
                 Time: "11d 4h 2m"
             },
             {
                 Group: "Elite Four",
                 Name: "Karen",
-                Image: "http://twitchplayspokemon.org/img/trainers/heartgold/karen.png",
+                Image: "img/heartgold/karen.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27cgk2/so_before_i_forget_here_are_bruno_and_karens/",
                 Time: "11d 8h 16m"
             },
             {
                 Group: "Champions",
                 Name: "Lance",
-                Image: "http://twitchplayspokemon.org/img/trainers/heartgold/lance.png",
+                Image: "img/heartgold/lance.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27iqep/displaying_them_all_in_one_go_all_sprites_for_gym/",
                 Time: "11d 9h 9m"
             },
             {
@@ -666,8 +679,9 @@ var TppSeason1 = [
             },
             {
                 Group: "Badges",
-                Name: "Thunder Badge",
-                Image: "http://twitchplayspokemon.org/red/img/badges/thunder.png",
+                Name: "Collector (Thunder) Badge",
+                Image: "img/heartgold/collector.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27d3fu/the_collector_badge/",
                 Time: "12d 2h 3m",
                 Attempts: 2
             },
@@ -687,8 +701,9 @@ var TppSeason1 = [
             },
             {
                 Group: "Badges",
-                Name: "Marsh Badge",
-                Image: "http://twitchplayspokemon.org/red/img/badges/marsh.png",
+                Name: "Harmony (Marsh) Badge",
+                Image: "img/heartgold/harmony.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/23iywq/sabrinas_harmony_badge/",
                 Time: "12d 4h 40m",
                 Attempts: 1
             },
@@ -707,37 +722,42 @@ var TppSeason1 = [
                 Attempts: 2
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Will",
-                Image: "http://twitchplayspokemon.org/img/trainers/heartgold/will.png",
+                Image: "img/heartgold/will.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/272tjl/archeologists_and_diggers_have_already_been_done/",
                 Time: "15d 6h 33m",
                 Attempts: 4
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Koga",
-                Image: "http://twitchplayspokemon.org/img/trainers/heartgold/koga.png",
+                Image: "img/heartgold/koga.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/272wf0/couldnt_think_of_what_a_psychic_type_koga_would/",
                 Time: "15d 12h 15m",
                 Attempts: 4
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Bruno",
-                Image: "http://twitchplayspokemon.org/img/trainers/heartgold/bruno.png",
+                Image: "img/heartgold/bruno.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27cgk2/so_before_i_forget_here_are_bruno_and_karens/",
                 Time: "15d 14h 46m",
                 Attempts: 2
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Karen",
-                Image: "http://twitchplayspokemon.org/img/trainers/heartgold/karen.png",
+                Image: "img/heartgold/karen.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27cgk2/so_before_i_forget_here_are_bruno_and_karens/",
                 Time: "15d 18h 56m",
                 Attempts: 8
             },
             {
-                Group: "Champions",
+                Group: "Elite Four Rematch",
                 Name: "Lance",
-                Image: "http://twitchplayspokemon.org/img/trainers/heartgold/lance.png",
+                Image: "img/heartgold/lance.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27iqep/displaying_them_all_in_one_go_all_sprites_for_gym/",
                 Time: "16d 10h 56m",
                 Attempts: 5
             },
@@ -1204,28 +1224,28 @@ var TppSeason1 = [
                 Time: "7d 9h 4m"
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Sidney",
                 Image: "http://www.twitchplayspokemon.org/img/trainers/sidney.png",
                 Time: "7d 12h 33m",
                 Attempts: 1
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Phoebe",
                 Image: "http://twitchplayspokemon.org/img/trainers/phoebe.png",
                 Time: "7d 14h 48m",
                 Attempts: 5
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Glacia",
                 Image: "http://twitchplayspokemon.org/img/trainers/glacia.png",
                 Time: "7d 19h 13m",
                 Attempts: 5
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Drake",
                 Image: "http://twitchplayspokemon.org/img/trainers/drake.png",
                 Time: "8d 5h 30m",
@@ -1342,91 +1362,91 @@ var TppSeason2 = [
                 Attempts: 6
             },
             {
-                Group: "Badges",
+                Group: "Rematch Badges",
                 Name: "Boulder Badge",
                 Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_boulder.png",
                 Time: "29d 9h 44m",
                 Attempts: 1
             },
             {
-                Group: "Badges",
+                Group: "Rematch Badges",
                 Name: "Cascade Badge",
                 Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_cascade.png",
                 Time: "28d 20h 10m",
                 Attempts: 1
             },
             {
-                Group: "Badges",
+                Group: "Rematch Badges",
                 Name: "Thunder Badge",
                 Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_thunder.png",
                 Time: "28d 18h 4m",
                 Attempts: 1
             },
             {
-                Group: "Badges",
+                Group: "Rematch Badges",
                 Name: "Rainbow Badge",
                 Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_rainbow.png",
                 Time: "29d 3h 50m",
                 Attempts: 1
             },
             {
-                Group: "Badges",
+                Group: "Rematch Badges",
                 Name: "Soul Badge",
                 Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_soul.png",
                 Time: "28d 5h 1m",
                 Attempts: 1
             },
             {
-                Group: "Badges",
+                Group: "Rematch Badges",
                 Name: "Marsh Badge",
                 Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_marsh.png",
                 Time: "28d 19h 4m",
                 Attempts: 1
             },
             {
-                Group: "Badges",
+                Group: "Rematch Badges",
                 Name: "Volcano Badge",
                 Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_volcano.png",
                 Time: "27d 22h 14m",
                 Attempts: 1
             },
             {
-                Group: "Badges",
+                Group: "Rematch Badges",
                 Name: "Earth Badge",
                 Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_earth.png",
                 Time: "29d 17h 0m",
                 Attempts: 1
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Lorelei",
                 Image: "http://cdn.bulbagarden.net/upload/d/dd/Spr_Y_Lorelei.png",
                 Time: "38d 23h 42m",
                 Attempts: 1
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Bruno",
                 Image: "http://cdn.bulbagarden.net/upload/b/b4/Spr_Y_Bruno.png",
                 Time: "38d 23h 50m",
                 Attempts: 1
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Agatha",
                 Image: "http://cdn.bulbagarden.net/upload/4/49/Spr_Y_Agatha.png",
                 Time: "38d 23h 57m",
                 Attempts: 1
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Lance",
                 Image: "http://cdn.bulbagarden.net/upload/0/09/Spr_Y_Lance.png",
                 Time: "39d 0h 4m",
                 Attempts: 1
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "BLUE",
                 Image: "http://cdn.bulbagarden.net/upload/3/37/Spr_Y_Blue_3.png",
                 Time: "39d 6h 56m",
@@ -2666,28 +2686,28 @@ var TppSeason2 = [
                 Attempts: 1
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Sidney",
                 Image: "http://www.twitchplayspokemon.org/img/trainers/sidney.png",
                 Time: "12d 1h 18m",
                 Attempts: 1
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Phoebe",
                 Image: "http://twitchplayspokemon.org/img/trainers/phoebe.png",
                 Time: "12d 4h 58m",
                 Attempts: 9
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Glacia",
                 Image: "http://twitchplayspokemon.org/img/trainers/glacia.png",
                 Time: "13d 21h 33m",
                 Attempts: 10
             },
             {
-                Group: "Elite Four",
+                Group: "Elite Four Rematch",
                 Name: "Drake",
                 Image: "http://twitchplayspokemon.org/img/trainers/drake.png",
                 Time: "13d 21h 38m",
