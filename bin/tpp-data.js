@@ -2740,84 +2740,80 @@ var TppSeason2 = [
             {
                 Group: "Bosses",
                 Name: "Miror B.",
-                Image: "http://twitchplayspokemon.org/img/trainers/colosseum/mirorb.png",
+                Image: "img/colosseum/mirorb.png",
+                ImageSource: "http://billyk40.deviantart.com/art/Miror-B-BW-258115890",
                 Time: "0d 23h 29m",
                 Attempts: 1
             },
             {
                 Group: "Bosses",
-                Name: "Skrub",
-                Image: "http://twitchplayspokemon.org/img/trainers/colosseum/skrub.png",
-                Time: "1d 2h 8m",
-                Attempts: 2
-            },
-            {
-                Group: "Bosses",
                 Name: "Dakim",
-                Image: "http://twitchplayspokemon.org/img/trainers/colosseum/dakim.png",
+                Image: "img/colosseum/dakim.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherDakim.png.html",
                 Time: "2d 20h 5m",
                 Attempts: 9
             },
             {
                 Group: "Bosses",
                 Name: "Venus",
-                Image: "http://twitchplayspokemon.org/img/trainers/colosseum/venus.png",
+                Image: "img/colosseum/venus.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherVenus.png.html",
                 Time: "2d 23h 36m",
                 Attempts: 1
             },
             {
                 Group: "Bosses",
-                Name: "Skrub",
-                Image: "http://twitchplayspokemon.org/img/trainers/colosseum/skrub.png",
-                Time: "4d 11h 5m",
-                Attempts: 1
-            },
-            {
-                Group: "Bosses",
                 Name: "Ein",
-                Image: "http://twitchplayspokemon.org/img/trainers/colosseum/ein.png",
+                Image: "img/colosseum/ein.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherEin.png.html",
                 Time: "4d 12h 2m",
                 Attempts: 2
             },
             {
                 Group: "Final Bosses",
                 Name: "Venus",
-                Image: "http://twitchplayspokemon.org/img/trainers/colosseum/venus.png",
+                Image: "img/colosseum/venus.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherVenus.png.html",
                 Time: "4d 17h 38m",
                 Attempts: 1
             },
             {
                 Group: "Final Bosses",
                 Name: "Miror B.",
-                Image: "http://twitchplayspokemon.org/img/trainers/colosseum/mirorb.png",
+                Image: "img/colosseum/mirorb.png",
+                ImageSource: "http://billyk40.deviantart.com/art/Miror-B-BW-258115890",
                 Time: "4d 17h 57m",
                 Attempts: 2
             },
             {
                 Group: "Final Bosses",
                 Name: "Dakim",
-                Image: "http://twitchplayspokemon.org/img/trainers/colosseum/dakim.png",
+                Image: "img/colosseum/dakim.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherDakim.png.html",
                 Time: "5d 1h 39m",
                 Attempts: 2
             },
             {
                 Group: "Final Bosses",
                 Name: "Ein",
-                Image: "http://twitchplayspokemon.org/img/trainers/colosseum/ein.png",
+                Image: "img/colosseum/ein.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherEin.png.html",
                 Time: "5d 3h 9m",
                 Attempts: 5
             },
             {
                 Group: "Final Bosses",
                 Name: "Gonzap",
-                Image: "http://twitchplayspokemon.org/img/trainers/colosseum/gonzap.png",
+                Image: "img/colosseum/gonzap.png",
+                ImageSource: "http://forum.yugiohcardmaker.net/topic/200460-colosseum-sprites/",
                 Time: "5d 21h 42m",
                 Attempts: 3
             },
             {
                 Group: "Final Bosses",
                 Name: "Nascour",
-                Image: "http://twitchplayspokemon.org/img/trainers/colosseum/nascour.png",
+                Image: "img/colosseum/nascour.png",
+                ImageSource: "http://s1292.photobucket.com/user/Apollothemuse/media/Sprites/NascourSprite_zpse80724b9.png.html",
                 Time: "6d 2h 46m",
                 Attempts: 2
             },
@@ -2825,6 +2821,7 @@ var TppSeason2 = [
                 Group: "Champions",
                 Name: "Evice",
                 Image: "img/colosseum/evice.png",
+                ImageSource: "https://www.reddit.com/r/pokemon/comments/2z9gmy/cipher_head_evice_would_like_to_battle_oc_trainer/",
                 Time: "6d 3h 27m",
                 Attempts: 2
             }
@@ -2841,98 +2838,104 @@ var TppSeason2 = [
         Events: [
             {
                 "Group": "Bosses",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/naps.png",
-                "Name": "Naps",
-                "Time": "1d 3h 43m",
-                "Attempts": 1
-            },
-            {
-                "Group": "Bosses",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/lovrina.png",
+                "Image": "img/xd/lovrina.png",
+                "ImageSource": "http://djshop.smackjeeves.com/comics/381730/rui-lovrina/",
                 "Name": "Lovrina",
                 "Time": "1d 6h 50m",
                 "Attempts": 4
             },
             {
                 "Group": "Bosses",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/mirorb.png",
+                "Image": "img/xd/mirorb.png",
+                "ImageSource": "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/MirorB.png.html",
                 "Name": "Miror B.",
                 "Time": "1d 18h 27m",
                 "Attempts": 1
             },
             {
                 "Group": "Bosses",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/exol.png",
+                "Image": "img/xd/exol.png",
+                "ImageSource": "http://s1292.photobucket.com/user/Apollothemuse/media/Sprites/BulkyPeonSprite_zps84376303.png.html",
                 "Name": "Exol",
                 "Time": "2d 11h 13m",
                 "Attempts": 1
             },
             {
                 "Group": "Bosses",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/snattle.png",
+                "Image": "img/xd/snattle.png",
+                "ImageSource": "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherSnattle.png.html",
                 "Name": "Snattle",
                 "Time": "3d 12h 13m",
                 "Attempts": 2
             },
             {
                 "Group": "Bosses",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/mirorb.png",
+                "Image": "img/xd/mirorb.png",
+                "ImageSource": "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/MirorB.png.html",
                 "Name": "Miror B.",
                 "Time": "4d 18h 16m",
                 "Attempts": 1
             },
             {
                 "Group": "Bosses",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/gonzap.png",
+                "Image": "img/colosseum/gonzap.png",
+                "ImageSource": "http://forum.yugiohcardmaker.net/topic/200460-colosseum-sprites/",
                 "Name": "Gonzap",
                 "Time": "6d 20h 9m",
                 "Attempts": 2
             },
             {
                 "Group": "Bosses",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/gorigan.png",
+                "Image": "img/xd/gorigan.png",
+                "ImageSource": "http://billyk40.deviantart.com/art/Gorigan-BW-257880611",
                 "Name": "Gorigan",
                 "Time": "7d 2h 58m",
                 "Attempts": 2
             },
             {
                 "Group": "Final Bosses",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/lovrina.png",
+                "Image": "img/xd/lovrina.png",
+                "ImageSource": "http://djshop.smackjeeves.com/comics/381730/rui-lovrina/",
                 "Name": "Lovrina",
                 "Time": "7d 4h 59m",
                 "Attempts": 1
             },
             {
                 "Group": "Final Bosses",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/snattle.png",
+                "Image": "img/xd/snattle.png",
+                "ImageSource": "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherSnattle.png.html",
                 "Name": "Snattle",
                 "Time": "8d 1h 16m",
                 "Attempts": 1
             },
             {
                 "Group": "Final Bosses",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/ardos.png",
+                "Image": "img/xd/ardos.png",
                 "Name": "Ardos",
+                "ImageSource": "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherArdos.png.html",
                 "Time": "8d 1h 44m",
                 "Attempts": 1
             },
             {
                 "Group": "Final Bosses",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/gorigan.png",
+                "Image": "img/xd/gorigan.png",
+                "ImageSource": "http://billyk40.deviantart.com/art/Gorigan-BW-257880611",
                 "Name": "Gorigan",
                 "Time": "8d 1h 55m",
                 "Attempts": 1
             },
             {
                 "Group": "Final Bosses",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/eldes.png",
+                "Image": "img/xd/eldes.png",
+                "ImageSource": "http://billyk40.deviantart.com/art/Eldes-BW-262784197",
                 "Name": "Eldes",
                 "Time": "8d 2h 32m",
                 "Attempts": 2
             },
             {
                 "Group": "Champions",
-                "Image": "http://twitchplayspokemon.org/img/trainers/xd/greevil.png",
+                "Image": "img/xd/greevil.png",
+                "ImageSource": "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/greevil.gif.html",
                 "Name": "Greevil",
                 "Time": "8d 4h 9m",
                 "Attempts": 6
