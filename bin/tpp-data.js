@@ -2780,42 +2780,42 @@ var TppSeason2 = [
                 Attempts: 2
             },
             {
-                Group: "Bosses",
+                Group: "Final Bosses",
                 Name: "Venus",
                 Image: "http://twitchplayspokemon.org/img/trainers/colosseum/venus.png",
                 Time: "4d 17h 38m",
                 Attempts: 1
             },
             {
-                Group: "Bosses",
+                Group: "Final Bosses",
                 Name: "Miror B.",
                 Image: "http://twitchplayspokemon.org/img/trainers/colosseum/mirorb.png",
                 Time: "4d 17h 57m",
                 Attempts: 2
             },
             {
-                Group: "Bosses",
+                Group: "Final Bosses",
                 Name: "Dakim",
                 Image: "http://twitchplayspokemon.org/img/trainers/colosseum/dakim.png",
                 Time: "5d 1h 39m",
                 Attempts: 2
             },
             {
-                Group: "Bosses",
+                Group: "Final Bosses",
                 Name: "Ein",
                 Image: "http://twitchplayspokemon.org/img/trainers/colosseum/ein.png",
                 Time: "5d 3h 9m",
                 Attempts: 5
             },
             {
-                Group: "Bosses",
+                Group: "Final Bosses",
                 Name: "Gonzap",
                 Image: "http://twitchplayspokemon.org/img/trainers/colosseum/gonzap.png",
                 Time: "5d 21h 42m",
                 Attempts: 3
             },
             {
-                Group: "Bosses",
+                Group: "Final Bosses",
                 Name: "Nascour",
                 Image: "http://twitchplayspokemon.org/img/trainers/colosseum/nascour.png",
                 Time: "6d 2h 46m",
@@ -2834,15 +2834,109 @@ var TppSeason2 = [
         RunName: "XD",
         ColorPrimary: "#532245",
         ColorSecondary: "#793165",
-        Duration: "0d",
+        Duration: "8d 4h 9m",
         HostName: "ABBBCC",
         HostImage: "img/xd/michael.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3woea1/alphab%C4%93tos_av%C4%ABci/",
-        Scraper: {
-            url: "http://twitchplayspokemon.org",
-            runtime: true,
-            parts: ["Bosses"],
-        },
-        Events: []
-    },
+        Events: [
+            {
+                "Group": "Bosses",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/naps.png",
+                "Name": "Naps",
+                "Time": "1d 3h 43m",
+                "Attempts": 1
+            },
+            {
+                "Group": "Bosses",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/lovrina.png",
+                "Name": "Lovrina",
+                "Time": "1d 6h 50m",
+                "Attempts": 4
+            },
+            {
+                "Group": "Bosses",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/mirorb.png",
+                "Name": "Miror B.",
+                "Time": "1d 18h 27m",
+                "Attempts": 1
+            },
+            {
+                "Group": "Bosses",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/exol.png",
+                "Name": "Exol",
+                "Time": "2d 11h 13m",
+                "Attempts": 1
+            },
+            {
+                "Group": "Bosses",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/snattle.png",
+                "Name": "Snattle",
+                "Time": "3d 12h 13m",
+                "Attempts": 2
+            },
+            {
+                "Group": "Bosses",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/mirorb.png",
+                "Name": "Miror B.",
+                "Time": "4d 18h 16m",
+                "Attempts": 1
+            },
+            {
+                "Group": "Bosses",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/gonzap.png",
+                "Name": "Gonzap",
+                "Time": "6d 20h 9m",
+                "Attempts": 2
+            },
+            {
+                "Group": "Bosses",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/gorigan.png",
+                "Name": "Gorigan",
+                "Time": "7d 2h 58m",
+                "Attempts": 2
+            },
+            {
+                "Group": "Final Bosses",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/lovrina.png",
+                "Name": "Lovrina",
+                "Time": "7d 4h 59m",
+                "Attempts": 1
+            },
+            {
+                "Group": "Final Bosses",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/snattle.png",
+                "Name": "Snattle",
+                "Time": "8d 1h 16m",
+                "Attempts": 1
+            },
+            {
+                "Group": "Final Bosses",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/ardos.png",
+                "Name": "Ardos",
+                "Time": "8d 1h 44m",
+                "Attempts": 1
+            },
+            {
+                "Group": "Final Bosses",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/gorigan.png",
+                "Name": "Gorigan",
+                "Time": "8d 1h 55m",
+                "Attempts": 1
+            },
+            {
+                "Group": "Final Bosses",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/eldes.png",
+                "Name": "Eldes",
+                "Time": "8d 2h 32m",
+                "Attempts": 2
+            },
+            {
+                "Group": "Champions",
+                "Image": "http://twitchplayspokemon.org/img/trainers/xd/greevil.png",
+                "Name": "Greevil",
+                "Time": "8d 4h 9m",
+                "Attempts": 6
+            }
+        ]
+    }
 ];
