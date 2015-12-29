@@ -3076,31 +3076,31 @@ var tppData: TPP.Collection[] = [
                     },
                     {
                         Group: "Elite Four",
-                        Name: "'SWOO",
+                        Name: "YISIJI",
                         Image: "http://www.twitchplayspokemon.org/img/trainers/gs/will.png",
                         Time: "2015-09-06T01:25:15Z"
                     },
                     {
                         Group: "Elite Four",
-                        Name: "UCDWS'STOD",
+                        Name: "STOD",
                         Image: "http://www.twitchplayspokemon.org/img/trainers/gs/koga.png",
                         Time: "2015-09-06T18:27:04Z"
                     },
                     {
                         Group: "Elite Four",
-                        Name: "COACH BJC'SXB",
+                        Name: "SIBA",
                         Image: "http://www.twitchplayspokemon.org/img/trainers/gs/bruno.png",
                         Time: "2015-09-07T15:00:32Z"
                     },
                     {
                         Group: "Elite Four",
-                        Name: "UCDWS'SPEA",
+                        Name: "JIALUN",
                         Image: "http://www.twitchplayspokemon.org/img/trainers/gs/karen.png",
                         Time: "2015-09-08T08:32:01Z"
                     },
                     {
                         Group: "Champions",
-                        Name: "UCDWS'SPAS",
+                        Name: "DU",
                         Image: "http://www.twitchplayspokemon.org/img/trainers/gs/lance.png",
                         Time: "2015-09-09T13:34:34Z"
                     },
