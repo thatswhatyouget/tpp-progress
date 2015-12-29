@@ -3,7 +3,9 @@ module TPP {
 		HostImage: string;
 		HostImageSource?: string;
 		HostName: string;
-		RunName: string;
+        RunName: string;
+        StartDate?: string;
+        StartTime?: number;
 		Duration: string;
 		ColorPrimary: string;
 		ColorSecondary: string;
@@ -12,8 +14,9 @@ module TPP {
             parts?: string[];
             runtime?: boolean;
 			pokemon?: boolean;
-		};
-		Events: TPP.Event[];
+        };
+        ContainsOtherRuns?: boolean;
+		Events: Event[];
 	}
 
 	export interface Event {
@@ -25,4 +28,16 @@ module TPP {
 		Time: string;
 		Attempts?: number;
 	}
+    
+    export interface Collection {
+        Name: string;
+        Scale: Scale;
+        Runs: Run[];
+    }
+    
+    export enum Scale {
+        Days,
+        Weeks,
+        Hours
+    }
 }

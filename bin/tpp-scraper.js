@@ -18,12 +18,13 @@ function Scrape(run) {
             $table.find('th').each(function (i, th) {
                 var title = $(th).text();
                 var $col = $table.find('tr td:nth-child(' + (i + 1) + ')');
-                if (!$col.find('img').is('.greyed-out')) {
+                var time = $($col[1]).text().trim();
+                if (!$col.find('img').is('.greyed-out') && !run.Events.filter(function (e) { return e.Name == title && e.Time == time; }).length) {
                     run.Events.push({
                         Group: groupName,
                         Image: $col.find('img').attr('src').replace(/^\//, run.Scraper.url + "/"),
                         Name: title,
-                        Time: $($col[1]).text().trim(),
+                        Time: time,
                         Attempts: parseInt($col.find('strong').text() || '0')
                     });
                 }
