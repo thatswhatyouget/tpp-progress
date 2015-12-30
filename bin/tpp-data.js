@@ -473,6 +473,7 @@ var tppData = [
                 ColorPrimary: "#a6a6a6",
                 ColorSecondary: "#404040",
                 Duration: "17d 11h 38m 42s",
+                StartDate: "2014-05-03T04:00:00Z",
                 HostName: "nqpppnl",
                 HostImage: "http://cdn.bulbagarden.net/upload/6/6b/Spr_Pt_Lucas.png",
                 Events: [
@@ -574,6 +575,7 @@ var tppData = [
                 ColorPrimary: "#ffbc1b",
                 ColorSecondary: "#94541c",
                 Duration: "18d 20h 33m",
+                StartDate: "2014-05-24T04:00:00Z",
                 HostName: "aoooo",
                 HostImage: "http://cdn.bulbagarden.net/upload/2/2f/Spr_HGSS_Lyra.png",
                 Events: [
@@ -794,6 +796,7 @@ var tppData = [
                 ColorPrimary: "#353535",
                 ColorSecondary: "black",
                 Duration: "12d 18h 19m",
+                StartDate: "2014-06-15T04:00:00Z",
                 HostName: "GMYC",
                 HostImage: "http://cdn.bulbagarden.net/upload/d/d2/Spr_BW_Hilbert_2.png",
                 Events: [
@@ -902,6 +905,7 @@ var tppData = [
                 ColorPrimary: "#b9d7e2",
                 ColorSecondary: "black",
                 Duration: "19d 2h 16m",
+                StartDate: "2014-07-06T04:00:00Z",
                 HostName: "CL Y .,",
                 HostImage: "http://cdn.bulbagarden.net/upload/b/b5/Spr_B2W2_Rosa.png",
                 Events: [
@@ -1045,6 +1049,7 @@ var tppData = [
                 ColorPrimary: "#007fdb",
                 ColorSecondary: "black",
                 Duration: "5d 4h 51m",
+                StartDate: "2014-07-27T04:00:00Z",
                 HostName: "d ",
                 HostImage: "img/x/lild.png",
                 HostImageSource: "http://haykira.deviantart.com/art/Li-l-d-from-Twitch-Plays-Pokemon-X-Y-471845274",
@@ -1147,6 +1152,7 @@ var tppData = [
                 ColorPrimary: "#c6223b",
                 ColorSecondary: "#c6223b",
                 Duration: "8d 5h 42m",
+                StartDate: "2014-11-22T03:00:00Z",
                 HostName: "!12rtyhaszs",
                 HostImage: "http://cdn.bulbagarden.net/upload/6/68/Spr_RS_Brendan.png",
                 Events: [
@@ -1291,6 +1297,7 @@ var tppData = [
                 ColorPrimary: "#bf0300",
                 ColorSecondary: "#5b0000",
                 Duration: "39d 19h 17m",
+                StartDate: "2015-02-12T21:00:00Z",
                 HostName: "AIIIAAB",
                 HostImage: "http://cdn.bulbagarden.net/upload/6/66/Spr_RG_Red_1.png",
                 Events: [
@@ -2397,6 +2404,7 @@ var tppData = [
                 ColorPrimary: "#fa83bb",
                 ColorSecondary: "#c40962",
                 Duration: "13d 15h 44m",
+                StartDate: "2015-05-10T21:00:00Z",
                 HostName: "AAABBHM",
                 HostImage: "http://i.imgur.com/rKvMH.png",
                 HostImageSource: "http://www.pokecommunity.com/showthread.php?t=293880",
@@ -2500,6 +2508,7 @@ var tppData = [
                 ColorPrimary: "#a779d0",
                 ColorSecondary: "#683597",
                 Duration: "13d 15h 44m",
+                StartDate: "2015-05-10T21:00:00Z",
                 HostName: "AAtatat",
                 HostImage: "http://cdn.bulbagarden.net/upload/2/2b/Spr_FRLG_Leaf.png",
                 Events: [
@@ -2601,6 +2610,7 @@ var tppData = [
                 ColorPrimary: "#242c86",
                 ColorSecondary: "#242c86",
                 Duration: "14d 1h 27m",
+                StartDate: "2015-07-12T21:00:00Z",
                 HostName: "!!!0999   qq",
                 HostImage: "http://cdn.bulbagarden.net/upload/3/38/Spr_RS_May.png",
                 Events: [
@@ -2753,6 +2763,7 @@ var tppData = [
                 ColorPrimary: "#bba155",
                 ColorSecondary: "#644d2e",
                 Duration: "6d 3h 27m",
+                StartDate: "2015-10-12T21:00:00Z",
                 HostName: "AAAAAAA",
                 HostImage: "img/colosseum/wes.png",
                 HostImageSource: "http://i39.tinypic.com/wk2pgo.png",
@@ -2852,6 +2863,7 @@ var tppData = [
                 ColorPrimary: "#532245",
                 ColorSecondary: "#793165",
                 Duration: "8d 4h 9m",
+                StartDate: "2015-12-12T21:00:00Z",
                 HostName: "ABBBCC",
                 HostImage: "img/xd/michael.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3woea1/alphab%C4%93tos_av%C4%ABci/",
@@ -3228,7 +3240,7 @@ var tppData = [
                     },
                     {
                         Name: "Viperia",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/f/f1/Spr_Viperia_Kingdom.png",
                         Time: "2014-06-30T20:04:00Z"
                     },
@@ -3274,6 +3286,156 @@ var tppData = [
                         Image: "http://cdn.bulbagarden.net/upload/d/dd/Conquest_Nobunaga_II.png",
                         Time: "Jul 2 2014 12:38 AM GMT"
                     }
+                ]
+            },
+            {
+                RunName: "OR/AS Special Demo",
+                ColorPrimary: "#c6223b",
+                ColorSecondary: "#242c86",
+                StartDate: "2014-10-25T03:00:00Z",
+                Duration: "1d",
+                HostName: "Orlando",
+                HostImage: "img/hosts/orlando.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Events: [
+                    {
+                        Name: "Mission 1\nCatch Glalie",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/1/15/Spr_3r_362.png",
+                        Time: "Oct 25 2014 3:25 AM GMT"
+                    },
+                    {
+                        Name: "Mission 2\nDefeat Ace Trainers Mary and Lori",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/7/78/Spr_RS_Cooltrainer_F.png",
+                        Time: "Oct 25 2014 3:39 AM GMT"
+                    },
+                    {
+                        Name: "Mission 3\nFind Whismur",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/c/cf/Spr_3r_293.png",
+                        Time: "Oct 25 2014 4:12 AM GMT"
+                    },
+                    {
+                        Name: "Mission 4\nFind Poochyena",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/d/d7/Spr_3r_261.png",
+                        Time: "Oct 25 2014 4:21 AM GMT"
+                    },
+                    {
+                        Name: "Mission 5\nDefeat Expert Timothy",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/d/d0/Spr_RS_Expert_M.png",
+                        Time: "Oct 25 2014 4:46 AM GMT"
+                    },
+                    {
+                        Name: "Mission 6\nFind lost child",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/b/b5/Youngster_RSE_OD.png",
+                        Time: "Oct 25 2014 4:58 AM GMT"
+                    },
+                    {
+                        Name: "Mission 7\nFind Skitty",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/9/90/Spr_3r_300.png",
+                        Time: "Oct 25 2014 5:31 AM GMT"
+                    },
+                    {
+                        Name: "Mission 8\nFind lost child",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/7/73/Lass_RSE_OD.png",
+                        Time: "Oct 25 2014 5:42 AM GMT"
+                    },
+                    {
+                        Name: "Mission 9\nFind Poochyena",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/d/d7/Spr_3r_261.png",
+                        Time: "Oct 25 2014 6:21 AM GMT"
+                    },
+                    {
+                        Name: "Mission 10\nDefeat Expert Theodore",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/d/d0/Spr_RS_Expert_M.png",
+                        Time: "Oct 25 2014 7:01 AM GMT"
+                    },
+                    {
+                        Name: "Mission 20\nDefeat Expert Theodore",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/d/d0/Spr_RS_Expert_M.png",
+                        Time: "Oct 25 2014 2:44 PM GMT"
+                    },
+                    {
+                        Name: "Mission 21\nDefeat Ace Trainers Mary and Lori",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/7/78/Spr_RS_Cooltrainer_F.png",
+                        Time: "Oct 25 2014 2:56 PM GMT"
+                    },
+                    {
+                        Name: "Mission 22\nFind lost child",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/b/b5/Youngster_RSE_OD.png",
+                        Time: "Oct 25 2014 3:05 PM GMT"
+                    },
+                    {
+                        Name: "Mission 23\nDefeat Ace Trainers Mary, Lori and Jodi",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/7/78/Spr_RS_Cooltrainer_F.png",
+                        Time: "Oct 25 2014 3:24 PM GMT"
+                    },
+                    {
+                        Name: "Mission 24\nFind lost child",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/7/73/Lass_RSE_OD.png",
+                        Time: "Oct 25 2014 3:46 PM GMT"
+                    },
+                    {
+                        Name: "Mission 31\nFind lost child",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/7/73/Lass_RSE_OD.png",
+                        Time: "Oct 25 2014 8:15 PM GMT"
+                    },
+                    {
+                        Name: "Mission 32\nDefeat Campers Larry and Ethan",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/e/e1/Spr_RS_Camper.png",
+                        Time: "Oct 25 2014 9:11 PM GMT"
+                    },
+                    {
+                        Name: "Mission 33\nFind Poochyena",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/d/d7/Spr_3r_261.png",
+                        Time: "Oct 25 2014 9:18 PM GMT"
+                    },
+                    {
+                        Name: "Mission 34\nDefeat Campers Larry, Ethan and Shane",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/e/e1/Spr_RS_Camper.png",
+                        Time: "Oct 25 2014 10:19 PM GMT"
+                    },
+                    {
+                        Name: "Mission 35\nDefeat Expert Theodore",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/d/d0/Spr_RS_Expert_M.png",
+                        Time: "Oct 25 2014 10:41 PM GMT"
+                    },
+                    {
+                        Name: "Mission 36\nDefeat Ace Trainers Mary, Lori and Jodi",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/7/78/Spr_RS_Cooltrainer_F.png",
+                        Time: "Oct 25 2014 11:27 PM GMT"
+                    },
+                    {
+                        Name: "Mission 37\nFind Shroomish",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/a/ad/Spr_3r_285.png",
+                        Time: "Oct 25 2014 11:36 PM GMT"
+                    },
+                    {
+                        Name: "Mission 38\nFind Whismur",
+                        Group: "Missions",
+                        Image: "http://cdn.bulbagarden.net/upload/c/cf/Spr_3r_293.png",
+                        Time: "Oct 26 2014 12:06 AM GMT"
+                    },
                 ]
             }
         ]
