@@ -3172,6 +3172,19 @@ var tppData = [
                         Time: "Jun 28 2014 1:31 AM GMT"
                     },
                     {
+                        Name: "Ignis",
+                        Group: "Kingdoms",
+                        Image: "http://cdn.bulbagarden.net/upload/a/ad/Spr_Ignis_Kingdom.png",
+                        Time: "2014-06-28T18:48:00Z",
+                        Estimate: true
+                    },
+                    {
+                        Name: "Greenleaf",
+                        Group: "Kingdoms",
+                        Image: "http://cdn.bulbagarden.net/upload/c/cc/Spr_Greenleaf_Kingdom.png",
+                        Time: "2014-06-28T23:55:00Z"
+                    },
+                    {
                         Name: "Fontaine",
                         Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/6/6d/Spr_Fontaine_Kingdom.png",
@@ -3202,10 +3215,22 @@ var tppData = [
                         Time: "Jun 30 2014 6:29 AM GMT"
                     },
                     {
+                        Name: "Illusio",
+                        Group: "Kingdoms",
+                        Image: "http://cdn.bulbagarden.net/upload/d/df/Spr_Illusio_Kingdom.png",
+                        Time: "Jun 30 2014 6:29 AM GMT"
+                    },
+                    {
                         Name: "Cragspur",
                         Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/9/92/Spr_Cragspur_Kingdom.png",
                         Time: "Jun 30 2014 8:45 AM GMT"
+                    },
+                    {
+                        Name: "Viperia",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/f/f1/Spr_Viperia_Kingdom.png",
+                        Time: "2014-06-30T20:04:00Z"
                     },
                     {
                         Name: "Yaksha",
