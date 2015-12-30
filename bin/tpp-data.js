@@ -3149,79 +3149,79 @@ var tppData = [
                 Events: [
                     {
                         Name: "Aurora",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/c/c9/Spr_Aurora_Kingdom.png",
                         Time: "Jun 28 2014 1:31 AM GMT"
                     },
                     {
                         Name: "Fontaine",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/6/6d/Spr_Fontaine_Kingdom.png",
                         Time: "Jun 29 2014 2:22 AM GMT"
                     },
                     {
                         Name: "Pugilis",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/7/71/Spr_Pugilis_Kingdom.png",
                         Time: "Jun 29 2014 5:43 AM GMT"
                     },
                     {
                         Name: "Violight",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/7/71/Spr_Violight_Kingdom.png",
                         Time: "Jun 29 2014 11:49 AM GMT"
                     },
                     {
                         Name: "Chrysalia",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/7/7b/Spr_Chrysalia_Kingdom.png",
                         Time: "Jun 29 2014 9:33 AM GMT"
                     },
                     {
                         Name: "Terrera",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/3/31/Spr_Terrera_Kingdom.png",
                         Time: "Jun 30 2014 6:29 AM GMT"
                     },
                     {
                         Name: "Cragspur",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/9/92/Spr_Cragspur_Kingdom.png",
                         Time: "Jun 30 2014 8:45 AM GMT"
                     },
                     {
                         Name: "Yaksha",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/9/94/Spr_Yaksha_Kingdom.png",
                         Time: "Jul 1 2014 3:36 AM GMT"
                     },
                     {
                         Name: "Avia",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/d/d2/Spr_Avia_Kingdom.png",
                         Time: "Jul 1 2014 5:50 AM GMT"
                     },
                     {
                         Name: "Valora",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/d/da/Spr_Valora_Kingdom.png",
                         Time: "Jul 1 2014 7:55 AM GMT"
                     },
                     {
                         Name: "Spectra",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/1/16/Spr_Spectra_Kingdom.png",
                         Time: "Jul 1 2014 9:33 AM GMT"
                     },
                     {
                         Name: "Nixtorm",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/4/45/Spr_Nixtorm_Kingdom.png",
                         Time: "Jul 1 2014 2:21 PM GMT"
                     },
                     {
                         Name: "Dragnor",
-                        Group: "Kingdom",
+                        Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/4/48/Spr_Dragnor_Kingdom.png",
                         Time: "Jul 1 2014 6:42 PM GMT"
                     },
