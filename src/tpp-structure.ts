@@ -13,6 +13,7 @@ module TPP {
 			url: string;
             parts?: string[];
             runtime?: boolean;
+            hostname?: boolean;
 			pokemon?: boolean;
         };
         ContainsOtherRuns?: boolean;

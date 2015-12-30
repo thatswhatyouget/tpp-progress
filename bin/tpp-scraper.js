@@ -8,7 +8,7 @@ function Scrape(run) {
         dataType: "text"
     }).then(function (page) {
         var $lastUpdate = $(page).find('.last-update');
-        run.Scraper.parts = run.Scraper.parts || ["Badges", "Elite Four"];
+        run.Scraper.parts = run.Scraper.parts || ["Badge", "Elite Four"];
         var $badges = $(page).find(run.Scraper.parts.map(function (p) { return "h3 strong:contains(" + p + ")"; }).join(','));
         if (run.Scraper.runtime && $lastUpdate.is('*')) {
             run.Duration = $lastUpdate.text().split(':').pop().trim();
@@ -30,6 +30,9 @@ function Scrape(run) {
                 }
             });
         });
+        if (run.Scraper.hostname) {
+            run.HostName = $(page).find('td.text-left:contains("Trainer Name")').next('td.text-right').text() || run.HostName;
+        }
         if (run.Scraper.pokemon) {
             var pkmn = {};
             $(page).find('.history-obtained').each(function () {

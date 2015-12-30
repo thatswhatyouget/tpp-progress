@@ -9,7 +9,7 @@ function Scrape(run: TPP.Run) {
     }).then(page=> {
         //page.replace(/\bsrc=/ig, 'data-src=');
         var $lastUpdate = $(page).find('.last-update');
-        run.Scraper.parts = run.Scraper.parts || ["Badges", "Elite Four"];
+        run.Scraper.parts = run.Scraper.parts || ["Badge", "Elite Four"];
         var $badges = $(page).find(run.Scraper.parts.map(p=> "h3 strong:contains(" + p + ")").join(','));
         if (run.Scraper.runtime && $lastUpdate.is('*')) {
             run.Duration = $lastUpdate.text().split(':').pop().trim();
@@ -31,6 +31,9 @@ function Scrape(run: TPP.Run) {
                 }
             });
         });
+        if (run.Scraper.hostname) {
+            run.HostName = $(page).find('td.text-left:contains("Trainer Name")').next('td.text-right').text() || run.HostName;
+        }
         if (run.Scraper.pokemon) {
             var pkmn: { [key: string]: TPP.Event } = {};
             $(page).find('.history-obtained').each(function() {

@@ -3008,7 +3008,27 @@ var tppData: TPP.Collection[] = [
         Name: "Season 3",
         Scale: TPP.Scale.Days,
         Runs: [
+            {
+                RunName: "Anniversary Crystal",
+                StartDate: "2016-02-12T21:00:00Z",
+                Duration: "40d",
+                ColorPrimary: "#008bff",
+                ColorSecondary: "#0021b4",
+                HostImage: "http://cdn.bulbagarden.net/upload/b/bc/Spr_GS_Oak.png",
+                //HostImage: "http://cdn.bulbagarden.net/upload/9/9e/Spr_C_Kris.png",
+                //HostImage: "http://cdn.bulbagarden.net/upload/2/2d/Spr_C_Ethan.png",
+                HostName: "???",
+                Scraper: {
+                    url: "http://twitchplayspokemon.org",
+                    runtime: true,
+                    hostname: true,
+                    parts: ["Badge", "Elite Four"],
+                    pokemon: true
+                },
+                Events: [
 
+                ]
+            }
         ]
     },
     {
