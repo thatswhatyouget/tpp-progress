@@ -3012,7 +3012,7 @@ var tppData: TPP.Collection[] = [
         ]
     },
     {
-        Name: "Hiatus",
+        Name: "Long Intermissions",
         Scale: TPP.Scale.Weeks,
         Runs: [
             {
@@ -3160,14 +3160,146 @@ var tppData: TPP.Collection[] = [
                         Time: "2015-11-10T10:09:48Z"
                     }
                 ]
+            },
+            {
+                RunName: "Trading Card Game",
+                StartDate: "2015-12-21T01:52:47Z",
+                ColorPrimary: "#e0e0c0",
+                ColorSecondary: "#e00000",
+                ContainsOtherRuns: true,
+                Duration: new Date().toISOString(),
+                HostName: "YUGI",
+                HostImage: "img/hosts/yugi.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xq7en/meet_yugi/",
+                Events: [
+                ]
             }
         ]
     },
     {
-        Name: "Intermission",
+        Name: "Short Intermissions",
         Scale: TPP.Scale.Hours,
         Runs: [
-            
+            {
+                RunName: "Conquest",
+                StartDate: "Jun 27 2014 10:48 PM GMT",
+                ColorPrimary: "goldenrod",
+                ColorSecondary: "black",
+                Duration: "Jul 2 2014 12:38 AM GMT",
+                HostName: "ABnp3a",
+                HostImage: "img/hosts/abnp3a.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Events: [
+                    {
+                        Name: "Aurora",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/c/c9/Spr_Aurora_Kingdom.png",
+                        Time: "Jun 28 2014 1:31 AM GMT"
+                    },
+                    // {
+                    //     Name: "Ignis",
+                    //     Group: "Kingdom",
+                    //     Image: "http://cdn.bulbagarden.net/upload/a/ad/Spr_Ignis_Kingdom.png",
+                    //     Time: "???"
+                    // },
+                    // {
+                    //     Name: "Greenleaf",
+                    //     Group: "Kingdom",
+                    //     Image: "http://cdn.bulbagarden.net/upload/c/cc/Spr_Greenleaf_Kingdom.png",
+                    //     Time: "???"
+                    // },
+                    {
+                        Name: "Fontaine",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/6/6d/Spr_Fontaine_Kingdom.png",
+                        Time: "Jun 29 2014 2:22 AM GMT"
+                    },
+                    {
+                        Name: "Pugilis",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/7/71/Spr_Pugilis_Kingdom.png",
+                        Time: "Jun 29 2014 5:43 AM GMT"
+                    },
+                    {
+                        Name: "Violight",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/7/71/Spr_Violight_Kingdom.png",
+                        Time: "Jun 29 2014 11:49 AM GMT"
+                    },
+                    {
+                        Name: "Chrysalia",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/7/7b/Spr_Chrysalia_Kingdom.png",
+                        Time: "Jun 29 2014 9:33 AM GMT"
+                    },
+                    {
+                        Name: "Terrera",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/3/31/Spr_Terrera_Kingdom.png",
+                        Time: "Jun 30 2014 6:29 AM GMT"
+                    },
+                    // {
+                    //     Name: "Illusio",
+                    //     Group: "Kingdom",
+                    //     Image: "http://cdn.bulbagarden.net/upload/d/df/Spr_Illusio_Kingdom.png",
+                    //     Time: "???"
+                    // },
+                    {
+                        Name: "Cragspur",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/9/92/Spr_Cragspur_Kingdom.png",
+                        Time: "Jun 30 2014 8:45 AM GMT"
+                    },
+                    // {
+                    //     Name: "Viperia",
+                    //     Group: "Kingdom",
+                    //     Image: "http://cdn.bulbagarden.net/upload/f/f1/Spr_Viperia_Kingdom.png",
+                    //     Time: "???"
+                    // },
+                    {
+                        Name: "Yaksha",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/9/94/Spr_Yaksha_Kingdom.png",
+                        Time: "Jul 1 2014 3:36 AM GMT"
+                    },
+                    {
+                        Name: "Avia",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/d/d2/Spr_Avia_Kingdom.png",
+                        Time: "Jul 1 2014 5:50 AM GMT"
+                    },
+                    {
+                        Name: "Valora",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/d/da/Spr_Valora_Kingdom.png",
+                        Time: "Jul 1 2014 7:55 AM GMT"
+                    },
+                    {
+                        Name: "Spectra",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/1/16/Spr_Spectra_Kingdom.png",
+                        Time: "Jul 1 2014 9:33 AM GMT"
+                    },
+                    {
+                        Name: "Nixtorm",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/4/45/Spr_Nixtorm_Kingdom.png",
+                        Time: "Jul 1 2014 2:21 PM GMT"
+                    },
+                    {
+                        Name: "Dragnor",
+                        Group: "Kingdom",
+                        Image: "http://cdn.bulbagarden.net/upload/4/48/Spr_Dragnor_Kingdom.png",
+                        Time: "Jul 1 2014 6:42 PM GMT"
+                    },
+                    {
+                        Name: "Nobunaga",
+                        Group: "Champions",
+                        Image: "http://cdn.bulbagarden.net/upload/d/dd/Conquest_Nobunaga_II.png",
+                        Time: "Jul 2 2014 12:38 AM GMT"
+                    }
+                ]
+            }
         ]
     }
 ];

@@ -133,19 +133,32 @@ ul.controls > li > ul > li > * {
 	transition: all 2s ease-in-out;
 }
 
-.progressChart .ruler .stop::after {
-	content:counter(days);
-	position:absolute;
+.progressChart .ruler .stop::before, .progressChart .ruler .stop::after {
+ 	position:absolute;
 	font-size:.75em;
 	top:-1.25em;
-	width:5em;
+	width:2em;
 	text-align: center;
-	right:-2.55em;
+	right:-1.05em;
 	font-weight: lighter;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
 }
-.progressChart .ruler .stop:first-child::after {
-	content:attr(data-scale) ": 0";
+
+.progressChart .ruler .stop::after {
+	content:counter(days);
+}
+.progressChart .ruler .stop:first-child::before {
+	content:attr(data-scale) ":";
+    text-align: right;
+    width:5em;
+    right:.5em;
+}
+
+.progressChart[data-scale=Hours] .ruler {
+    counter-reset: days -4;   
+}
+.progressChart[data-scale=Hours] .ruler .stop {
+    counter-increment: days 4;   
 }
 
 .progressChart .run {

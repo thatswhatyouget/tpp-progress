@@ -24,7 +24,7 @@ module TPP {
 		Image: string;
 		ImageSource?: string;
 		Name: string;
-		Verb?: string;
+		Estimate?: boolean;
 		Time: string;
 		Attempts?: number;
 	}

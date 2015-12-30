@@ -24,7 +24,7 @@ var Duration = (function () {
             return this.seconds + (this.minutes * 60) + (this.hours * 60 * 60) + (this.days * 60 * 60 * 24);
         },
         set: function (value) {
-            this.seconds = value % 60;
+            this.seconds = Math.floor(value % 60);
             this.minutes = Math.floor(value / 60) % 60;
             this.hours = Math.floor(value / 60 / 60) % 24;
             this.days = Math.floor(value / 60 / 60 / 24);
@@ -58,7 +58,7 @@ var Duration = (function () {
             case TPP.Scale.Weeks:
                 return this.TotalWeeks;
             case TPP.Scale.Hours:
-                return this.TotalHours;
+                return this.TotalHours / 4;
         }
         return this.TotalDays;
     };
@@ -136,8 +136,7 @@ function createChart(data, ppd) {
     ruler.className = "ruler";
     chart.insertBefore(ruler, chart.firstChild);
     var steps = longestRun.TotalTime(data.Scale);
-    console.log(steps);
-    for (var i = 0; i - .5 < steps; i++) {
+    for (var i = 0; i <= steps + 1; i++) {
         var stop = document.createElement('div');
         ruler.appendChild(stop);
         stop.className = "stop";
@@ -201,6 +200,8 @@ function drawEvent(eventInfo, runInfo, scale) {
     var label = eventInfo.Name;
     if (eventInfo.Time)
         label += "\n" + time.toString(scale);
+    if (eventInfo.Estimate)
+        label += "\n(estimated)";
     if (eventInfo.Attempts)
         label += "\n(" + eventInfo.Attempts + " Attempt" + (eventInfo.Attempts > 1 ? "s" : "") + ")";
     eventImg.src = eventInfo.Image;
