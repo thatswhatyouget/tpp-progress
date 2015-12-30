@@ -3324,7 +3324,7 @@ var tppData = [
                     },
                     {
                         Name: "Mission 5\nDefeat Expert Timothy",
-                        Group: "Missions",
+                        Group: "Champions",
                         Image: "http://cdn.bulbagarden.net/upload/d/d0/Spr_RS_Expert_M.png",
                         Time: "Oct 25 2014 4:46 AM GMT"
                     },
@@ -3354,13 +3354,13 @@ var tppData = [
                     },
                     {
                         Name: "Mission 10\nDefeat Expert Theodore",
-                        Group: "Missions",
+                        Group: "Champions",
                         Image: "http://cdn.bulbagarden.net/upload/d/d0/Spr_RS_Expert_M.png",
                         Time: "Oct 25 2014 7:01 AM GMT"
                     },
                     {
                         Name: "Mission 20\nDefeat Expert Theodore",
-                        Group: "Missions",
+                        Group: "Champions",
                         Image: "http://cdn.bulbagarden.net/upload/d/d0/Spr_RS_Expert_M.png",
                         Time: "Oct 25 2014 2:44 PM GMT"
                     },
@@ -3414,7 +3414,7 @@ var tppData = [
                     },
                     {
                         Name: "Mission 35\nDefeat Expert Theodore",
-                        Group: "Missions",
+                        Group: "Champions",
                         Image: "http://cdn.bulbagarden.net/upload/d/d0/Spr_RS_Expert_M.png",
                         Time: "Oct 25 2014 10:41 PM GMT"
                     },

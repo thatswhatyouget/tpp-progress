@@ -100,15 +100,16 @@ function makeGrid(ppd: number) {
 function createCharts(data: TPP.Collection[]) {
     data.forEach(c=> c.Runs.forEach(r=> r.StartTime = r.StartTime || (r.StartDate ? Math.floor(Date.parse(r.StartDate) / 1000) : 0)));
     data.filter(c=> c.Runs.filter(r=> r.StartTime < Date.now() / 1000).length > 0).forEach(createChart);
+    setTimeout(() => updatePage(), 1);
 }
 
-function createChart(data: TPP.Collection, ppd?: number) {
-    globalPpd = ppd = globalPpd || ppd;
+function createChart(data: TPP.Collection) {
     var chart = document.createElement("div");
     chart.className = "progressChart";
     chart.setAttribute("data-label", data.Name);
     chart.setAttribute("data-scale", TPP.Scale[data.Scale]);
-    setTimeout(() => document.body.appendChild(chart), 1);
+    var pageTarget = fakeQuery(".charts")[0] || document.body;
+    setTimeout(() => pageTarget.appendChild(chart), 1);
     var longestRun = new Duration(0);
     data.Runs.filter(r=> r.StartTime < Date.now() / 1000).forEach(run=> {
         var runLength = Duration.parse(run.Duration, run.StartTime);
@@ -125,7 +126,6 @@ function createChart(data: TPP.Collection, ppd?: number) {
         stop.className = "stop";
         stop.setAttribute("data-scale", TPP.Scale[data.Scale]);
     }
-    setTimeout(() => updatePage(ppd), 1);
 }
 
 function queueRun(runInfo: TPP.Run, scale = TPP.Scale.Days) {
@@ -138,19 +138,23 @@ function queueRun(runInfo: TPP.Run, scale = TPP.Scale.Days) {
     return div;
 }
 
-function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days) {
+function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days, events = true) {
     run = run || document.createElement("div");
     run.className = "run";
     var duration = Duration.parse(runInfo.Duration, runInfo.StartTime);
-    run.setAttribute("data-time", duration.toString(TPP.Scale.Weeks));
+    runInfo.Duration = duration.toString(TPP.Scale.Weeks);
+    run.setAttribute("data-duration", runInfo.Duration);
     run.setAttribute("data-start", runInfo.StartTime.toString());
     run.setAttribute("data-label", runInfo.RunName + ": " + duration.toString(scale));
-    run.setAttribute("data-json", JSON.stringify(runInfo));
-    run.setAttribute("id", runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
     run.style.backgroundColor = runInfo.ColorPrimary;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
     run.appendChild(drawHost(runInfo, scale));
-    runInfo.Events.sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
+    if (events) {
+        setTimeout(() => run.setAttribute("data-json", JSON.stringify(runInfo)), 10);
+        run.setAttribute("id", runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
+        runInfo.Events.sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
+    }
+    drawConcurrentRuns(runInfo, run, scale);
 }
 
 function drawHost(runInfo: TPP.Run, scale: TPP.Scale) {
@@ -163,6 +167,25 @@ function drawHost(runInfo: TPP.Run, scale: TPP.Scale) {
     }, runInfo, scale);
     host.style.left = "0";
     return host;
+}
+
+function drawConcurrentRuns(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP.Scale) {
+    if (!baseRunInfo.ContainsOtherRuns) return;
+    var baseDuration = Duration.parse(baseRunInfo.Duration),
+        baseEndTime = baseRunInfo.StartTime + baseDuration.TotalSeconds;
+    tppData.map(c=> c.Runs.filter(r=> !r.ContainsOtherRuns && baseRunInfo.StartTime < r.StartTime && baseEndTime > r.StartTime).forEach(r=> {
+        var innerRun = document.createElement("div");
+        var runStart = Duration.parse(r.StartDate, baseRunInfo.StartTime),
+            runEnd = Duration.parse(r.Duration);
+        innerRun.setAttribute("data-time", runStart.toString(TPP.Scale.Weeks));
+        runElement.appendChild(innerRun);
+        drawRun(r, innerRun, scale, false);
+        if (runEnd.TotalSeconds + runStart.TotalSeconds > baseDuration.TotalSeconds) {
+            runEnd.TotalSeconds = baseDuration.TotalSeconds - runStart.TotalSeconds;
+            innerRun.setAttribute("data-duration", runEnd.toString(TPP.Scale.Weeks));
+        }
+        innerRun.setAttribute('data-label', r.RunName + "\nStarted: " + runStart.toString(scale) + "\nDuration: " + runEnd.toString(scale));
+    }));
 }
 
 function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
@@ -180,13 +203,16 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
     event.className = "event " + groupName;
     var time = Duration.parse(eventInfo.Time, runInfo.StartTime);
     var label = eventInfo.Name;
-    if (eventInfo.Time) label += "\n" + time.toString(scale);
+    if (eventInfo.Time) {
+        label += "\n" + time.toString(scale);
+        eventInfo.Time = time.toString(TPP.Scale.Weeks);
+    }
     if (eventInfo.Estimate) label += "\n(estimated)";
     if (eventInfo.Attempts) label += "\n(" + eventInfo.Attempts + " Attempt" + (eventInfo.Attempts > 1 ? "s" : "") + ")";
     eventImg.src = eventInfo.Image;
     eventImg.alt = label;
     event.setAttribute('data-label', label);
-    event.setAttribute("data-time", time.toString(TPP.Scale.Weeks));
+    event.setAttribute("data-time", eventInfo.Time);
     if (showGroups[groupName] === false) eventImg.style.opacity = "0";
     groups[groupName] = eventInfo.Group;
     return event;
@@ -202,15 +228,38 @@ function applyScale(ppd?: number) {
         stop.style.left = i * ppd + "px";
     }));
     $(".progressChart .run").forEach(run=> {
-        var scale = TPP.Scale[run.parentElement.getAttribute('data-scale')] || 0;
-        if (run.getAttribute('data-time')) run.style.width = Duration.parse(run.getAttribute('data-time')).TotalTime(scale) * ppd + "px";
-        var events = $find([run], ".event").pop().filter(e=> findImage(e).style.opacity != "0");
-        events.forEach(event=> {
+        var scale = TPP.Scale[run.parentElement.getAttribute('data-scale')] || TPP.Scale[run.parentElement.parentElement.getAttribute('data-scale')] || 0;
+        if (run.getAttribute('data-duration')) run.style.width = Duration.parse(run.getAttribute('data-duration')).TotalTime(scale) * ppd + "px";
+        var runs = $find([run], ".run").pop(),
+            events = $find([run], ".event").pop().filter(e=> findImage(e).style.opacity != "0" && e.parentElement == run);
+        [].concat(events).concat(runs).forEach(event=> {
             if (event.getAttribute('data-time')) event.style.left = Duration.parse(event.getAttribute('data-time')).TotalTime(scale) * ppd + "px";
-            findImage(event).style.marginTop = "0";
+            findImage(event).style.marginTop = event.style.marginTop = "0";
         });
         if (settings["explode"]) {
-            var dir = .15;
+            var dir = -25;
+            runs.forEach((r, i) => {
+                var d = dir *= -1;
+                var myStart = Duration.parse(r.getAttribute('data-time')).TotalSeconds,
+                    myEnd = myStart + Duration.parse(r.getAttribute('data-duration')).TotalSeconds;
+                if (runs[i - 1]) {
+                    var thisStart = Duration.parse(runs[i - 1].getAttribute('data-time')).TotalSeconds,
+                        thisEnd = thisStart + Duration.parse(runs[i - 1].getAttribute('data-duration')).TotalSeconds;
+                    if ((myStart <= thisStart && myEnd >= thisStart) || (myStart <= thisEnd && myEnd >= thisEnd)) {
+                        runs[i - 1].style.marginTop = d + "px";
+                        r.style.marginTop = -d + "px";
+                    }
+                }
+                if (runs[i + 1]) {
+                    var thisStart = Duration.parse(runs[i + 1].getAttribute('data-time')).TotalSeconds,
+                        thisEnd = thisStart + Duration.parse(runs[i + 1].getAttribute('data-duration')).TotalSeconds;
+                    if ((myStart <= thisStart && myEnd >= thisStart) || (myStart <= thisEnd && myEnd >= thisEnd)) {
+                        runs[i + 1].style.marginTop = d + "px";
+                        r.style.marginTop = -d + "px";
+                    }
+                }
+            });
+            dir = .15;
             [events.filter(e=> e.className.indexOf("pokemon") < 0), events.filter(e=> e.className.indexOf("pokemon") >= 0)].forEach(events=> {
                 var width = (element: HTMLElement, pokeMode?: boolean) => pokeMode ? 25 : getWidth(element) || run.offsetHeight;
                 events.forEach((event, i) => {
@@ -268,7 +317,7 @@ function updatePage(ppd = globalPpd) {
 var zoomIn = () => applyScale(globalPpd * 2);
 var zoomOut = () => applyScale(globalPpd / 2);
 
-var settings: { [key: string]: boolean } = JSON.parse(localStorage.getItem("settings") || "{}");
+var settings: { [key: string]: boolean } = JSON.parse(localStorage.getItem("settings") || '{"explode":true}');
 var showGroups: { [key: string]: boolean } = JSON.parse(localStorage.getItem("showGroups") || "{}");
 window.addEventListener("load", () => {
     fakeQuery('.settings input').forEach(element => (<HTMLInputElement>element).checked = settings[element.id]);

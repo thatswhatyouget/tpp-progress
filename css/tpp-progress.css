@@ -163,10 +163,10 @@ ul.controls > li > ul > li > * {
 
 .progressChart .run {
 	display: block;
-	box-sizing: border-box;
+	box-sizing: content-box;
 	margin-bottom:50px;
-	height:50px;
-	border:2px solid black;
+	height:46px;
+	border:2px solid black; 
 	background-color:white;
 	position: relative;
 	left:-2px;
@@ -177,7 +177,7 @@ ul.controls > li > ul > li > * {
 	border-right:none;
 }
 
-.progressChart .run[data-label]:hover:before {
+.progressChart > .run[data-label]:hover::before {
 	position:absolute;
 	content:attr(data-label);
 	white-space: pre;
@@ -210,7 +210,7 @@ ul.controls > li > ul > li > * {
 	border:none;
 }
 
-.progressChart .run .event[data-label]:hover::before {
+.progressChart .run .event[data-label]:hover::before, .progressChart .run .run:hover::before {
 	content:'';
 	border-left:3px solid black;
 	height:1em;
@@ -219,7 +219,7 @@ ul.controls > li > ul > li > * {
 	bottom:100%;
 	z-index:6;
 }
-.progressChart .run .event[data-label]:hover::after {
+.progressChart .run .event[data-label]:hover::after, .progressChart .run .run:hover::after {
 	content:attr(data-label);
 	margin-bottom:1em;
 	font-size:.75em;
@@ -237,9 +237,18 @@ ul.controls > li > ul > li > * {
 	transform: translateX(-50%);
 }
 
+.progressChart .run .run:hover::before, .progressChart .run .run:hover::after {
+    left:50%;   
+}
+
 .progressChart .run .event.champions img, .progressChart .run .event.elitefour img, .progressChart .run .event.elitefourrematch img, .progressChart .run .event.pasthosts img , .progressChart .run .event.bosses img, .progressChart .run .event.finalbosses img {
 	height:70px;
 	top:-15px;	
+}
+
+.progressChart .run .event.missions img, .progressChart .run#orasspecialdemo .event.champions img {
+	height:40px;
+	top:5px;
 }
 
 .progressChart .run .event.hosts img {
@@ -253,6 +262,9 @@ ul.controls > li > ul > li > * {
 	left:-1px!important;
 }
 
+.progressChart .run .event.hosts:hover {
+    background:none;   
+}
 .progressChart .run .event.hosts:hover::before {
 	display:none;
 }
@@ -261,6 +273,10 @@ ul.controls > li > ul > li > * {
 	margin-bottom:0;
 	bottom:auto;
 	left:-14px;
+}
+
+.progressChart .run .run .event.hosts img, .progressChart .run .run .event.hosts:hover::after {
+    left:14px;
 }
 
 .progressChart .run .event.pokemon {
@@ -276,9 +292,13 @@ ul.controls > li > ul > li > * {
 	z-index:5;
 	background-color:rgba(0,0,0,.5);
 }
-
 .progressChart .run .event.host:hover {
 	background:none;
+}
+
+.progressChart .run .run {
+    position:absolute;
+    top:-2px;
 }
 
 .progressChart #touhoumon.run {
@@ -287,4 +307,23 @@ ul.controls > li > ul > li > * {
 .progressChart #moemon.run:hover::before {
 	bottom:-1.5em;
 	top:auto;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+        background: #fff!important;
+        color: #000;
+        margin: 0px;
+    }
+    .controls {
+        display: none;   
+    }
+    .charts {
+        transform: scale(.6, .6);
+        margin-left:-25%;
+    }
+    .progressChart {
+        page-break-after: always;
+    }
 }
