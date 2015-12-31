@@ -298,12 +298,14 @@ function staggerStackedEvents(allEvents, runHeight) {
                 var thisImg = findImage(event);
                 var thisWidth = width(thisImg, pokeMode);
                 var thisLeft = getLeft(event) - thisWidth / 2;
-                if (thisLeft + thisWidth > myLeft) {
+                if (thisLeft + thisWidth > myLeft && thisLeft < myLeft + myWidth) {
+                    console.log("My left: " + myLeft + ", their left: " + thisLeft);
+                    console.log("My width: " + myWidth + ", their width: " + thisWidth);
                     thisImg.style.marginTop = (marginTop(thisImg) - (thisLeft + thisWidth - myLeft) * d) + "px";
                     myImg.style.marginTop = (marginTop(myImg) + (thisLeft + thisWidth - myLeft) * d) + "px";
                 }
             }
-            if (events[i - 1])
+            if (i > 1 && events[i - 1])
                 pushEvent(events[i - 1]);
             if (events[i + 1])
                 pushEvent(events[i + 1]);
