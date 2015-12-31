@@ -8,7 +8,9 @@ var tppData: TPP.Collection[] = [
                 RunName: "Red",
                 ColorPrimary: "#c0504d",
                 ColorSecondary: "#8c3836",
+                StartDate: "2014-02-13T01:23:00Z",
                 Duration: "16d 7h 45m 30s",
+                EndDate: "Mar 1 2014 9:13 AM GMT",
                 HostName: "RED",
                 HostImage: "http://cdn.bulbagarden.net/upload/4/4c/Spr_RB_Red_2.png",
                 Events: [
@@ -110,6 +112,8 @@ var tppData: TPP.Collection[] = [
                 ColorPrimary: "#4f81bd",
                 ColorSecondary: "#385d8a",
                 Duration: "13d 2h 2m",
+                StartDate: "2014-03-02T12:00:00Z",
+                EndDate: "Mar 15 2014 8:58 PM GMT",
                 HostName: "AJDNNW",
                 HostImage: "http://cdn.bulbagarden.net/upload/2/2d/Spr_C_Ethan.png",
                 Events: [
@@ -258,7 +262,9 @@ var tppData: TPP.Collection[] = [
                 RunName: "Emerald",
                 ColorPrimary: "#9bbb59",
                 ColorSecondary: "#71893f",
-                Duration: "20d 21h 55m",
+                Duration: "20d 21h 56m",
+                StartDate: "2014-03-22T01:00:00Z",
+                EndDate: "Apr 11 2014 11:02 PM GMT",
                 HostName: "A",
                 HostImage: "http://cdn.bulbagarden.net/upload/a/a4/Spr_E_May.png",
                 Events: [
@@ -360,6 +366,8 @@ var tppData: TPP.Collection[] = [
                 ColorPrimary: "#ff7e1b",
                 ColorSecondary: "#8b5325",
                 Duration: "15d 2h 2m",
+                StartDate: "2014-04-12T02:00:00Z",
+                EndDate:"Apr 27 2014 4:10 AM GMT",
                 HostName: "A",
                 HostImage: "http://cdn.bulbagarden.net/upload/0/03/FRLG_Leaf_Intro.png",
                 Events: [
@@ -3053,7 +3061,9 @@ var tppData: TPP.Collection[] = [
                 ColorPrimary: "#77b2ff",
                 ColorSecondary: "#416fcc",
                 ContainsOtherRuns: true,
+                //Duration: "2015-11-10T10:09:48Z",
                 Duration: "2015-12-11T21:03:00Z",
+                EndDate: "2015-12-11T21:03:00Z",
                 HostName: "BABA",
                 HostImage: "img/hosts/baba.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",

@@ -112,7 +112,7 @@ function createChart(data: TPP.Collection) {
     setTimeout(() => pageTarget.appendChild(chart), 1);
     var longestRun = new Duration(0);
     data.Runs.filter(r=> r.StartTime < Date.now() / 1000).forEach(run=> {
-        var runLength = Duration.parse(run.Duration, run.StartTime);
+        var runLength = Duration.parse(run.EndDate || run.Duration, run.StartTime);
         if (longestRun.TotalSeconds < runLength.TotalSeconds) longestRun = runLength;
         chart.appendChild(queueRun(run, data.Scale));
     });
@@ -144,13 +144,14 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
     var duration = Duration.parse(runInfo.Duration, runInfo.StartTime);
     runInfo.Duration = duration.toString(TPP.Scale.Weeks);
     run.setAttribute("data-duration", runInfo.Duration);
+    run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
     run.setAttribute("data-start", runInfo.StartTime.toString());
     run.setAttribute("data-label", runInfo.RunName + ": " + duration.toString(scale));
     run.style.backgroundColor = runInfo.ColorPrimary;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
     run.appendChild(drawHost(runInfo, scale));
     if (events) {
-        setTimeout(() => run.setAttribute("data-json", JSON.stringify(runInfo)), 10);
+        if (runInfo.Scraper) setTimeout(() => run.setAttribute("data-json", JSON.stringify(runInfo)), 10);
         run.setAttribute("id", runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
         runInfo.Events.sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
     }
@@ -183,6 +184,7 @@ function drawConcurrentRuns(baseRunInfo: TPP.Run, runElement: HTMLDivElement, sc
         if (runEnd.TotalSeconds + runStart.TotalSeconds > baseDuration.TotalSeconds) {
             runEnd.TotalSeconds = baseDuration.TotalSeconds - runStart.TotalSeconds;
             innerRun.setAttribute("data-duration", runEnd.toString(TPP.Scale.Weeks));
+            innerRun.setAttribute("data-endtime", runEnd.toString(TPP.Scale.Weeks));
         }
         runEnd.TotalSeconds += runStart.TotalSeconds;
         innerRun.setAttribute('data-label', r.RunName + "\nStarted: " + runStart.toString(scale) + "\nEnded: " + runEnd.toString(scale));
@@ -230,16 +232,22 @@ function applyScale(ppd?: number) {
     }));
     $(".progressChart .run").forEach(run=> {
         var scale = TPP.Scale[run.parentElement.getAttribute('data-scale')] || TPP.Scale[run.parentElement.parentElement.getAttribute('data-scale')] || 0;
-        if (run.getAttribute('data-duration')) run.style.width = Duration.parse(run.getAttribute('data-duration')).TotalTime(scale) * ppd + "px";
+        var durationAttribute = settings["postgame"] ? "data-endtime" : "data-duration",
+            duration = Duration.parse(run.getAttribute(durationAttribute));
+        if (run.getAttribute(durationAttribute)) run.style.width = duration.TotalTime(scale) * ppd + "px";
         var runs = $find([run], ".run").pop(),
             events = $find([run], ".event").pop().filter(e=> findImage(e).style.opacity != "0" && e.parentElement == run);
         [].concat(events).concat(runs).forEach(event=> {
-            if (event.getAttribute('data-time')) event.style.left = Duration.parse(event.getAttribute('data-time')).TotalTime(scale) * ppd + "px";
+            if (event.getAttribute('data-time')) {
+                var time = Duration.parse(event.getAttribute('data-time'))
+                event.style.left = time.TotalTime(scale) * ppd + "px";
+                event.style.display = !settings["postgame"] && time.TotalSeconds > duration.TotalSeconds ? "none" : "block"; 
+            }
             findImage(event).style.marginTop = event.style.marginTop = "0";
         });
         staggerStackedRuns(runs, run.offsetHeight);
         if (settings["explode"]) {
-            staggerStackedEvents(events, run.offsetHeight);
+            staggerStackedEvents(events.filter(e=> e.style.display != "none"), run.offsetHeight);
         }
     });
 }
@@ -280,8 +288,6 @@ function staggerStackedEvents(allEvents: HTMLElement[], runHeight: number) {
                 var thisWidth = width(thisImg, pokeMode);
                 var thisLeft = getLeft(event) - thisWidth / 2;
                 if (thisLeft + thisWidth > myLeft && thisLeft < myLeft + myWidth) {
-                    console.log("My left: " + myLeft + ", their left: " + thisLeft);
-                    console.log("My width: " + myWidth + ", their width: " + thisWidth);
                     thisImg.style.marginTop = (marginTop(thisImg) - (thisLeft + thisWidth - myLeft) * d) + "px";
                     myImg.style.marginTop = (marginTop(myImg) + (thisLeft + thisWidth - myLeft) * d) + "px";
                 }

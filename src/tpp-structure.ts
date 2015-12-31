@@ -6,7 +6,8 @@ module TPP {
         RunName: string;
         StartDate?: string;
         StartTime?: number;
-		Duration: string;
+        Duration: string;
+        EndDate?: string;
 		ColorPrimary: string;
 		ColorSecondary: string;
 		Scraper?: {
