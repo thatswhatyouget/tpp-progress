@@ -250,59 +250,45 @@ function staggerStackedRuns(runs: HTMLElement[], runHeight: number) {
         var d = dir *= -1;
         var myStart = Duration.parse(r.getAttribute('data-time')).TotalSeconds,
             myEnd = myStart + Duration.parse(r.getAttribute('data-duration')).TotalSeconds;
-        if (runs[i - 1]) {
-            var thisStart = Duration.parse(runs[i - 1].getAttribute('data-time')).TotalSeconds,
-                thisEnd = thisStart + Duration.parse(runs[i - 1].getAttribute('data-duration')).TotalSeconds;
-            if ((myStart <= thisStart && myEnd >= thisStart) || (myStart <= thisEnd && myEnd >= thisEnd)) {
-                d > 0 && (runs[i - 1].style.marginTop = d + "px");
+        function pushRun(run) {
+            var thisStart = Duration.parse(run.getAttribute('data-time')).TotalSeconds,
+                thisEnd = thisStart + Duration.parse(run.getAttribute('data-duration')).TotalSeconds;
+            if ((myStart <= thisStart && myEnd > thisStart) || (myStart < thisEnd && myEnd >= thisEnd)) {
+                d > 0 && (run.style.marginTop = d + "px");
                 d < 0 && (r.style.marginTop = -d + "px");
-                runs[i - 1].style.height = r.style.height = Math.abs(d) + "px";
+                run.style.height = r.style.height = Math.abs(d) + "px";
             }
         }
-        if (runs[i + 1]) {
-            var thisStart = Duration.parse(runs[i + 1].getAttribute('data-time')).TotalSeconds,
-                thisEnd = thisStart + Duration.parse(runs[i + 1].getAttribute('data-duration')).TotalSeconds;
-            if ((myStart <= thisStart && myEnd >= thisStart) || (myStart <= thisEnd && myEnd >= thisEnd)) {
-                d > 0 && (runs[i + 1].style.marginTop = d + "px");
-                d < 0 && (r.style.marginTop = -d + "px");
-                runs[i + 1].style.height = r.style.height = Math.abs(d) + "px";
-            }
-        }
+        if (runs[i - 1]) pushRun(runs[i - 1]);
+        if (runs[i + 1]) pushRun(runs[i + 1]);
     });
 }
 
-function staggerStackedEvents(events: HTMLElement[], runHeight: number) {
+function staggerStackedEvents(allEvents: HTMLElement[], runHeight: number) {
     var dir = .15;
-    [events.filter(e=> e.className.indexOf("pokemon") < 0), events.filter(e=> e.className.indexOf("pokemon") >= 0)].forEach(events=> {
+    [allEvents.filter(e=> e.className.indexOf("pokemon") < 0), allEvents.filter(e=> e.className.indexOf("pokemon") >= 0)].forEach(events=> {
         var width = (element: HTMLElement, pokeMode?: boolean) => pokeMode ? 25 : getWidth(element) || runHeight;
-        events.forEach((event, i) => {
+        events.forEach((e, i) => {
             var d = dir *= -1;
             if (i == 0) return;
-            var pokeMode = event.className.indexOf("pokemon") >= 0;
-            var myImg = findImage(event);
+            var pokeMode = e.className.indexOf("pokemon") >= 0;
+            var myImg = findImage(e);
             var myWidth = width(myImg, pokeMode);
-            var myLeft = getLeft(event) - myWidth / 2;
-            if (i > 1 && events[i - 1]) {
-                var thisImg = findImage(events[i - 1]);
+            var myLeft = getLeft(e) - myWidth / 2;
+            function pushEvent(event) {
+                var thisImg = findImage(event);
                 var thisWidth = width(thisImg, pokeMode);
-                var thisLeft = getLeft(events[i - 1]) - thisWidth / 2;
+                var thisLeft = getLeft(event) - thisWidth / 2;
                 if (thisLeft + thisWidth > myLeft) {
                     thisImg.style.marginTop = (marginTop(thisImg) - (thisLeft + thisWidth - myLeft) * d) + "px";
                     myImg.style.marginTop = (marginTop(myImg) + (thisLeft + thisWidth - myLeft) * d) + "px";
                 }
             }
-            if (events[i + 1]) {
-                var thisImg = findImage(events[i + 1]);
-                var thisWidth = width(thisImg, pokeMode);
-                var thisLeft = getLeft(events[i + 1]) - thisWidth / 2;
-                if (myLeft + myWidth > thisLeft) {
-                    thisImg.style.marginTop = (marginTop(thisImg) - (myLeft + myWidth - thisLeft) * d) + "px";
-                    myImg.style.marginTop = (marginTop(myImg) + (myLeft + myWidth - thisLeft) * d) + "px";
-                }
-            }
+            if (events[i - 1]) pushEvent(events[i - 1]);
+            if (events[i + 1]) pushEvent(events[i + 1]);
         });
     });
-    findImage(events[0]).style.marginTop = findImage(events[events.length - 1]).style.marginTop = "0";
+    findImage(allEvents[0]).style.marginTop = findImage(allEvents[allEvents.length - 1]).style.marginTop = "0";
 }
 
 function updatePage(ppd = globalPpd) {
