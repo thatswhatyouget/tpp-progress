@@ -184,7 +184,8 @@ function drawConcurrentRuns(baseRunInfo: TPP.Run, runElement: HTMLDivElement, sc
             runEnd.TotalSeconds = baseDuration.TotalSeconds - runStart.TotalSeconds;
             innerRun.setAttribute("data-duration", runEnd.toString(TPP.Scale.Weeks));
         }
-        innerRun.setAttribute('data-label', r.RunName + "\nStarted: " + runStart.toString(scale) + "\nDuration: " + runEnd.toString(scale));
+        runEnd.TotalSeconds += runStart.TotalSeconds;
+        innerRun.setAttribute('data-label', r.RunName + "\nStarted: " + runStart.toString(scale) + "\nEnded: " + runEnd.toString(scale));
     }));
 }
 
@@ -236,62 +237,72 @@ function applyScale(ppd?: number) {
             if (event.getAttribute('data-time')) event.style.left = Duration.parse(event.getAttribute('data-time')).TotalTime(scale) * ppd + "px";
             findImage(event).style.marginTop = event.style.marginTop = "0";
         });
+        staggerStackedRuns(runs, run.offsetHeight);
         if (settings["explode"]) {
-            var dir = -25;
-            runs.forEach((r, i) => {
-                var d = dir *= -1;
-                var myStart = Duration.parse(r.getAttribute('data-time')).TotalSeconds,
-                    myEnd = myStart + Duration.parse(r.getAttribute('data-duration')).TotalSeconds;
-                if (runs[i - 1]) {
-                    var thisStart = Duration.parse(runs[i - 1].getAttribute('data-time')).TotalSeconds,
-                        thisEnd = thisStart + Duration.parse(runs[i - 1].getAttribute('data-duration')).TotalSeconds;
-                    if ((myStart <= thisStart && myEnd >= thisStart) || (myStart <= thisEnd && myEnd >= thisEnd)) {
-                        runs[i - 1].style.marginTop = d + "px";
-                        r.style.marginTop = -d + "px";
-                    }
-                }
-                if (runs[i + 1]) {
-                    var thisStart = Duration.parse(runs[i + 1].getAttribute('data-time')).TotalSeconds,
-                        thisEnd = thisStart + Duration.parse(runs[i + 1].getAttribute('data-duration')).TotalSeconds;
-                    if ((myStart <= thisStart && myEnd >= thisStart) || (myStart <= thisEnd && myEnd >= thisEnd)) {
-                        runs[i + 1].style.marginTop = d + "px";
-                        r.style.marginTop = -d + "px";
-                    }
-                }
-            });
-            dir = .15;
-            [events.filter(e=> e.className.indexOf("pokemon") < 0), events.filter(e=> e.className.indexOf("pokemon") >= 0)].forEach(events=> {
-                var width = (element: HTMLElement, pokeMode?: boolean) => pokeMode ? 25 : getWidth(element) || run.offsetHeight;
-                events.forEach((event, i) => {
-                    var d = dir *= -1;
-                    if (i == 0) return;
-                    var pokeMode = event.className.indexOf("pokemon") >= 0;
-                    var myImg = findImage(event);
-                    var myWidth = width(myImg, pokeMode);
-                    var myLeft = getLeft(event) - myWidth / 2;
-                    if (i > 1 && events[i - 1]) {
-                        var thisImg = findImage(events[i - 1]);
-                        var thisWidth = width(thisImg, pokeMode);
-                        var thisLeft = getLeft(events[i - 1]) - thisWidth / 2;
-                        if (thisLeft + thisWidth > myLeft) {
-                            thisImg.style.marginTop = (marginTop(thisImg) - (thisLeft + thisWidth - myLeft) * d) + "px";
-                            myImg.style.marginTop = (marginTop(myImg) + (thisLeft + thisWidth - myLeft) * d) + "px";
-                        }
-                    }
-                    if (events[i + 1]) {
-                        var thisImg = findImage(events[i + 1]);
-                        var thisWidth = width(thisImg, pokeMode);
-                        var thisLeft = getLeft(events[i + 1]) - thisWidth / 2;
-                        if (myLeft + myWidth > thisLeft) {
-                            thisImg.style.marginTop = (marginTop(thisImg) - (myLeft + myWidth - thisLeft) * d) + "px";
-                            myImg.style.marginTop = (marginTop(myImg) + (myLeft + myWidth - thisLeft) * d) + "px";
-                        }
-                    }
-                });
-            });
-            findImage(events[0]).style.marginTop = findImage(events[events.length - 1]).style.marginTop = "0";
+            staggerStackedEvents(events, run.offsetHeight);
         }
     });
+}
+
+function staggerStackedRuns(runs: HTMLElement[], runHeight: number) {
+    var dir = -((runHeight / 2) - 2);
+    runs.forEach((r, i) => {
+        var d = dir *= -1;
+        var myStart = Duration.parse(r.getAttribute('data-time')).TotalSeconds,
+            myEnd = myStart + Duration.parse(r.getAttribute('data-duration')).TotalSeconds;
+        if (runs[i - 1]) {
+            var thisStart = Duration.parse(runs[i - 1].getAttribute('data-time')).TotalSeconds,
+                thisEnd = thisStart + Duration.parse(runs[i - 1].getAttribute('data-duration')).TotalSeconds;
+            if ((myStart <= thisStart && myEnd >= thisStart) || (myStart <= thisEnd && myEnd >= thisEnd)) {
+                d > 0 && (runs[i - 1].style.marginTop = d + "px");
+                d < 0 && (r.style.marginTop = -d + "px");
+                runs[i - 1].style.height = r.style.height = Math.abs(d) + "px";
+            }
+        }
+        if (runs[i + 1]) {
+            var thisStart = Duration.parse(runs[i + 1].getAttribute('data-time')).TotalSeconds,
+                thisEnd = thisStart + Duration.parse(runs[i + 1].getAttribute('data-duration')).TotalSeconds;
+            if ((myStart <= thisStart && myEnd >= thisStart) || (myStart <= thisEnd && myEnd >= thisEnd)) {
+                d > 0 && (runs[i + 1].style.marginTop = d + "px");
+                d < 0 && (r.style.marginTop = -d + "px");
+                runs[i + 1].style.height = r.style.height = Math.abs(d) + "px";
+            }
+        }
+    });
+}
+
+function staggerStackedEvents(events: HTMLElement[], runHeight: number) {
+    var dir = .15;
+    [events.filter(e=> e.className.indexOf("pokemon") < 0), events.filter(e=> e.className.indexOf("pokemon") >= 0)].forEach(events=> {
+        var width = (element: HTMLElement, pokeMode?: boolean) => pokeMode ? 25 : getWidth(element) || runHeight;
+        events.forEach((event, i) => {
+            var d = dir *= -1;
+            if (i == 0) return;
+            var pokeMode = event.className.indexOf("pokemon") >= 0;
+            var myImg = findImage(event);
+            var myWidth = width(myImg, pokeMode);
+            var myLeft = getLeft(event) - myWidth / 2;
+            if (i > 1 && events[i - 1]) {
+                var thisImg = findImage(events[i - 1]);
+                var thisWidth = width(thisImg, pokeMode);
+                var thisLeft = getLeft(events[i - 1]) - thisWidth / 2;
+                if (thisLeft + thisWidth > myLeft) {
+                    thisImg.style.marginTop = (marginTop(thisImg) - (thisLeft + thisWidth - myLeft) * d) + "px";
+                    myImg.style.marginTop = (marginTop(myImg) + (thisLeft + thisWidth - myLeft) * d) + "px";
+                }
+            }
+            if (events[i + 1]) {
+                var thisImg = findImage(events[i + 1]);
+                var thisWidth = width(thisImg, pokeMode);
+                var thisLeft = getLeft(events[i + 1]) - thisWidth / 2;
+                if (myLeft + myWidth > thisLeft) {
+                    thisImg.style.marginTop = (marginTop(thisImg) - (myLeft + myWidth - thisLeft) * d) + "px";
+                    myImg.style.marginTop = (marginTop(myImg) + (myLeft + myWidth - thisLeft) * d) + "px";
+                }
+            }
+        });
+    });
+    findImage(events[0]).style.marginTop = findImage(events[events.length - 1]).style.marginTop = "0";
 }
 
 function updatePage(ppd = globalPpd) {

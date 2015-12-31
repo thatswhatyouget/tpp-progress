@@ -3049,11 +3049,11 @@ var tppData: TPP.Collection[] = [
         Runs: [
             {
                 RunName: "Vietnamese Crystal",
-                StartDate: "2015-03-24T17:42:26Z",
+                StartDate: "2015-03-24T17:42:00Z",
                 ColorPrimary: "#77b2ff",
                 ColorSecondary: "#416fcc",
                 ContainsOtherRuns: true,
-                Duration: "2015-12-11T21:03:58Z",
+                Duration: "2015-12-11T21:03:00Z",
                 HostName: "BABA",
                 HostImage: "img/hosts/baba.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
