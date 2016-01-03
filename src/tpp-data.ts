@@ -367,7 +367,7 @@ var tppData: TPP.Collection[] = [
                 ColorSecondary: "#8b5325",
                 Duration: "15d 2h 2m",
                 StartDate: "2014-04-12T02:00:00Z",
-                EndDate:"Apr 27 2014 4:10 AM GMT",
+                EndDate: "Apr 27 2014 4:10 AM GMT",
                 HostName: "A",
                 HostImage: "http://cdn.bulbagarden.net/upload/0/03/FRLG_Leaf_Intro.png",
                 Events: [
@@ -2693,29 +2693,33 @@ var tppData: TPP.Collection[] = [
                     },
                     {
                         Group: "Elite Four",
-                        Name: "Sidney",
-                        Image: "http://www.twitchplayspokemon.org/img/trainers/sidney.png",
+                        Name: "Espen (Sidney)",
+                        Image: "img/alphasapphire/sidney.gif",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3e2urn/sidney_espen_hoenns_master_illusionist_animated/",
                         Time: "7d 15h 9m",
                         Attempts: 2
                     },
                     {
                         Group: "Elite Four",
-                        Name: "Phoebe",
-                        Image: "http://twitchplayspokemon.org/img/trainers/phoebe.png",
+                        Name: "Fantasia (Phoebe)",
+                        Image: "img/alphasapphire/phoebe.gif",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3e8k5f/phoebe_fantasia_hoenns_reclusive_noble_animated/",
                         Time: "8d 4h 39m",
                         Attempts: 12
                     },
                     {
                         Group: "Elite Four",
-                        Name: "Glacia",
-                        Image: "http://twitchplayspokemon.org/img/trainers/glacia.png",
+                        Name: "Evia (Glacia)",
+                        Image: "img/alphasapphire/glacia.gif",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3eh6dj/glacia_evia_hoenns_prideful_secret_agent_animated/",
                         Time: "8d 9h 5m",
                         Attempts: 5
                     },
                     {
                         Group: "Elite Four",
-                        Name: "Drake",
-                        Image: "http://twitchplayspokemon.org/img/trainers/drake.png",
+                        Name: "Nox (Drake)",
+                        Image: "img/alphasapphire/drake.gif",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3ey4q1/drake_nox_hoenns_expert_ranger_animated/",
                         Time: "8d 20h 50m",
                         Attempts: 8
                     },
@@ -2736,29 +2740,33 @@ var tppData: TPP.Collection[] = [
                     },
                     {
                         Group: "Elite Four Rematch",
-                        Name: "Sidney",
-                        Image: "http://www.twitchplayspokemon.org/img/trainers/sidney.png",
+                        Name: "Espen (Sidney)",
+                        Image: "img/alphasapphire/sidney.gif",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3e2urn/sidney_espen_hoenns_master_illusionist_animated/",
                         Time: "12d 1h 18m",
                         Attempts: 1
                     },
                     {
                         Group: "Elite Four Rematch",
-                        Name: "Phoebe",
-                        Image: "http://twitchplayspokemon.org/img/trainers/phoebe.png",
+                        Name: "Fantasia (Phoebe)",
+                        Image: "img/alphasapphire/phoebe.gif",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3e8k5f/phoebe_fantasia_hoenns_reclusive_noble_animated/",
                         Time: "12d 4h 58m",
                         Attempts: 9
                     },
                     {
                         Group: "Elite Four Rematch",
-                        Name: "Glacia",
-                        Image: "http://twitchplayspokemon.org/img/trainers/glacia.png",
+                        Name: "Evia (Glacia)",
+                        Image: "img/alphasapphire/glacia.gif",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3eh6dj/glacia_evia_hoenns_prideful_secret_agent_animated/",
                         Time: "13d 21h 33m",
                         Attempts: 10
                     },
                     {
                         Group: "Elite Four Rematch",
-                        Name: "Drake",
-                        Image: "http://twitchplayspokemon.org/img/trainers/drake.png",
+                        Name: "Nox (Drake)",
+                        Image: "img/alphasapphire/drake.gif",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3ey4q1/drake_nox_hoenns_expert_ranger_animated/",
                         Time: "13d 21h 38m",
                         Attempts: 1
                     },
@@ -3358,7 +3366,7 @@ var tppData: TPP.Collection[] = [
                         Group: "Missions",
                         Image: "http://cdn.bulbagarden.net/upload/1/15/Spr_3r_362.png",
                         Time: "Oct 25 2014 3:25 AM GMT"
-                    }, 
+                    },
                     {
                         Name: "Mission 2\nDefeat Ace Trainers Mary and Lori",
                         Group: "Missions",
