@@ -3222,6 +3222,12 @@ var tppData: TPP.Collection[] = [
                 HostImage: "img/hosts/yugi.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xq7en/meet_yugi/",
                 Events: [
+                    {
+                        Group: "Badges",
+                        Name: "Rock Medal",
+                        Image: "http://cdn.bulbagarden.net/upload/7/77/TCG1_RockMedal.png",
+                        Time: "2016-01-08T05:02:03Z"
+                    },
                 ]
             }
         ]
