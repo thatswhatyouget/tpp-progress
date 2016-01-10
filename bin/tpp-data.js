@@ -12,7 +12,8 @@ var tppData = [
                 Duration: "16d 7h 45m 30s",
                 EndDate: "Mar 1 2014 9:13 AM GMT",
                 HostName: "RED",
-                HostImage: "http://cdn.bulbagarden.net/upload/4/4c/Spr_RB_Red_2.png",
+                HostImage: "img/hosts/red.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Badges",
@@ -115,7 +116,8 @@ var tppData = [
                 StartDate: "2014-03-02T12:00:00Z",
                 EndDate: "Mar 15 2014 8:58 PM GMT",
                 HostName: "AJDNNW",
-                HostImage: "http://cdn.bulbagarden.net/upload/2/2d/Spr_C_Ethan.png",
+                HostImage: "img/hosts/ajdnnw.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Badges",
@@ -266,7 +268,8 @@ var tppData = [
                 StartDate: "2014-03-22T01:00:00Z",
                 EndDate: "Apr 11 2014 11:02 PM GMT",
                 HostName: "A",
-                HostImage: "http://cdn.bulbagarden.net/upload/a/a4/Spr_E_May.png",
+                HostImage: "img/hosts/a.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Badges",
@@ -369,7 +372,8 @@ var tppData = [
                 StartDate: "2014-04-12T02:00:00Z",
                 EndDate: "Apr 27 2014 4:10 AM GMT",
                 HostName: "A",
-                HostImage: "http://cdn.bulbagarden.net/upload/0/03/FRLG_Leaf_Intro.png",
+                HostImage: "img/hosts/a2.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Badges",
@@ -483,7 +487,8 @@ var tppData = [
                 Duration: "17d 11h 38m 42s",
                 StartDate: "2014-05-03T04:00:00Z",
                 HostName: "nqpppnl",
-                HostImage: "http://cdn.bulbagarden.net/upload/6/6b/Spr_Pt_Lucas.png",
+                HostImage: "img/hosts/nqpppnl.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Badges",
@@ -585,7 +590,8 @@ var tppData = [
                 Duration: "18d 20h 33m",
                 StartDate: "2014-05-24T04:00:00Z",
                 HostName: "aoooo",
-                HostImage: "http://cdn.bulbagarden.net/upload/2/2f/Spr_HGSS_Lyra.png",
+                HostImage: "img/hosts/aoooo.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Badges",
@@ -806,7 +812,8 @@ var tppData = [
                 Duration: "12d 18h 19m",
                 StartDate: "2014-06-15T04:00:00Z",
                 HostName: "GMYC",
-                HostImage: "http://cdn.bulbagarden.net/upload/d/d2/Spr_BW_Hilbert_2.png",
+                HostImage: "img/hosts/gmyc.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Badges",
@@ -915,7 +922,8 @@ var tppData = [
                 Duration: "19d 2h 16m",
                 StartDate: "2014-07-06T04:00:00Z",
                 HostName: "CL Y .,",
-                HostImage: "http://cdn.bulbagarden.net/upload/b/b5/Spr_B2W2_Rosa.png",
+                HostImage: "img/hosts/cly.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Badges",
@@ -1059,7 +1067,7 @@ var tppData = [
                 Duration: "5d 4h 51m",
                 StartDate: "2014-07-27T04:00:00Z",
                 HostName: "d ",
-                HostImage: "img/x/lild.png",
+                HostImage: "img/hosts/d.png",
                 HostImageSource: "http://haykira.deviantart.com/art/Li-l-d-from-Twitch-Plays-Pokemon-X-Y-471845274",
                 Events: [
                     {
@@ -1162,7 +1170,8 @@ var tppData = [
                 Duration: "8d 5h 42m",
                 StartDate: "2014-11-22T03:00:00Z",
                 HostName: "!12rtyhaszs",
-                HostImage: "http://cdn.bulbagarden.net/upload/6/68/Spr_RS_Brendan.png",
+                HostImage: "img/hosts/rtyhaszs.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Badges",
@@ -1307,7 +1316,8 @@ var tppData = [
                 Duration: "39d 19h 17m",
                 StartDate: "2015-02-12T21:00:00Z",
                 HostName: "AIIIAAB",
-                HostImage: "http://cdn.bulbagarden.net/upload/6/66/Spr_RG_Red_1.png",
+                HostImage: "img/hosts/aiiiaab.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Badges",
@@ -2414,8 +2424,8 @@ var tppData = [
                 Duration: "13d 15h 44m",
                 StartDate: "2015-05-10T21:00:00Z",
                 HostName: "AAABBHM",
-                HostImage: "http://i.imgur.com/rKvMH.png",
-                HostImageSource: "http://www.pokecommunity.com/showthread.php?t=293880",
+                HostImage: "img/hosts/aaabbhm.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Badges",
@@ -2518,7 +2528,8 @@ var tppData = [
                 Duration: "13d 15h 44m",
                 StartDate: "2015-05-10T21:00:00Z",
                 HostName: "AAtatat",
-                HostImage: "http://cdn.bulbagarden.net/upload/2/2b/Spr_FRLG_Leaf.png",
+                HostImage: "img/hosts/aatatat.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Badges",
@@ -2620,7 +2631,8 @@ var tppData = [
                 Duration: "14d 1h 27m",
                 StartDate: "2015-07-12T21:00:00Z",
                 HostName: "!!!0999   qq",
-                HostImage: "http://cdn.bulbagarden.net/upload/3/38/Spr_RS_May.png",
+                HostImage: "img/hosts/qq.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Badges",
@@ -2781,8 +2793,8 @@ var tppData = [
                 Duration: "6d 3h 27m",
                 StartDate: "2015-10-12T21:00:00Z",
                 HostName: "AAAAAAA",
-                HostImage: "img/colosseum/wes.png",
-                HostImageSource: "http://i39.tinypic.com/wk2pgo.png",
+                HostImage: "img/hosts/aaaaaaa.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Events: [
                     {
                         Group: "Bosses",
@@ -2881,7 +2893,7 @@ var tppData = [
                 Duration: "8d 4h 9m",
                 StartDate: "2015-12-12T21:00:00Z",
                 HostName: "ABBBCC",
-                HostImage: "img/xd/michael.png",
+                HostImage: "img/hosts/abbbcc.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3woea1/alphab%C4%93tos_av%C4%ABci/",
                 Events: [
                     {

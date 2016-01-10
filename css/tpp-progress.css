@@ -275,6 +275,10 @@ ul.controls > li > ul > li > * {
 	left:-14px;
 }
 
+.progressChart .run .run .event.hosts img {
+    transform:scale(.75) translateX(-75%);   
+}
+
 .progressChart .run .run .event.hosts img, .progressChart .run .run .event.hosts:hover::after {
     left:14px;
 }
