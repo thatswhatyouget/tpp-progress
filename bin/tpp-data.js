@@ -3193,7 +3193,8 @@ var tppData = [
                         Group: "Badges",
                         Name: "Rock Medal",
                         Image: "http://cdn.bulbagarden.net/upload/7/77/TCG1_RockMedal.png",
-                        Time: "2016-01-08T05:02:03Z"
+                        Time: "2016-01-08T05:02:03Z",
+                        Attempts: 2
                     },
                 ]
             }
