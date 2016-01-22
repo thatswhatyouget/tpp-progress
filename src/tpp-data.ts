@@ -2529,7 +2529,7 @@ var tppData: TPP.Collection[] = [
                 StartDate: "2015-05-10T21:00:00Z",
                 HostName: "AAtatat",
                 HostImage: "img/hosts/aatatat.png",
-                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                HostImageSource: "http://angelofsloths.tumblr.com/post/119327711600/my-atta-sprite",
                 Events: [
                     {
                         Group: "Badges",
@@ -3050,7 +3050,7 @@ var tppData: TPP.Collection[] = [
         Runs: [
             {
                 RunName: "Anniversary Crystal",
-                StartDate: "2016-02-12T21:00:00Z",
+                StartDate: "2016-02-14T21:00:00Z",
                 Duration: "40d",
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
@@ -3241,6 +3241,13 @@ var tppData: TPP.Collection[] = [
                         Time: "2016-01-08T05:02:03Z",
                         Attempts: 2
                     },
+                    {
+                        Group: "Badges",
+                        Name: "Lightning Medal",
+                        Image: "http://cdn.bulbagarden.net/upload/d/da/TCG1_LightningMedal.png",
+                        Time: "2016-01-22T22:21:34Z",
+                        Attempts: 1
+                    },
                 ]
             }
         ]
@@ -3269,8 +3276,9 @@ var tppData: TPP.Collection[] = [
                         Name: "Ignis",
                         Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/a/ad/Spr_Ignis_Kingdom.png",
-                        Time: "2014-06-28T18:48:00Z",
-                        Estimate: true
+                        //Time: "2014-06-28T01:31:00Z"
+                        Time: "20h",
+			Estimate: true
                     },
                     {
                         Name: "Greenleaf",
