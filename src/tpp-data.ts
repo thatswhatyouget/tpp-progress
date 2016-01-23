@@ -3236,10 +3236,31 @@ var tppData: TPP.Collection[] = [
                 Events: [
                     {
                         Group: "Badges",
-                        Name: "Rock Medal",
-                        Image: "http://cdn.bulbagarden.net/upload/7/77/TCG1_RockMedal.png",
-                        Time: "2016-01-08T05:02:03Z",
-                        Attempts: 2
+                        Name: "Grass Medal",
+                        Image: "http://cdn.bulbagarden.net/upload/0/08/TCG1_GrassMedal.png",
+                        Time: "255w",
+                        Attempts: 0
+                    },
+                    {
+                        Group: "Badges",
+                        Name: "Science Medal",
+                        Image: "http://cdn.bulbagarden.net/upload/1/1b/TCG1_ScienceMedal.png",
+                        Time: "255w",
+                        Attempts: 0
+                    },
+                    {
+                        Group: "Badges",
+                        Name: "Fire Medal",
+                        Image: "http://cdn.bulbagarden.net/upload/8/84/TCG1_FireMedal.png",
+                        Time: "255w",
+                        Attempts: 0
+                    },
+                    {
+                        Group: "Badges",
+                        Name: "Water Medal",
+                        Image: "http://cdn.bulbagarden.net/upload/4/4b/TCG1_WaterMedal.png",
+                        Time: "255w",
+                        Attempts: 0
                     },
                     {
                         Group: "Badges",
@@ -3247,6 +3268,63 @@ var tppData: TPP.Collection[] = [
                         Image: "http://cdn.bulbagarden.net/upload/d/da/TCG1_LightningMedal.png",
                         Time: "2016-01-22T22:21:34Z",
                         Attempts: 1
+                    },
+                    {
+                        Group: "Badges",
+                        Name: "Psychic Medal",
+                        Image: "http://cdn.bulbagarden.net/upload/e/ec/TCG1_PsychicMedal.png",
+                        Time: "255w",
+                        Attempts: 0
+                    },
+                    {
+                        Group: "Badges",
+                        Name: "Rock Medal",
+                        Image: "http://cdn.bulbagarden.net/upload/7/77/TCG1_RockMedal.png",
+                        Time: "2016-01-08T05:02:03Z",
+                        Attempts: 2
+                    },
+                    {
+                        Group: "Badges",
+                        Name: "Fighting Medal",
+                        Image: "http://cdn.bulbagarden.net/upload/5/5f/TCG1_FightingMedal.png",
+                        Time: "255w",
+                        Attempts: 0
+                    },
+                    {
+                        Group: "Elite Four",
+                        Name: "Courtney",
+                        Image: "http://cdn.bulbagarden.net/upload/3/3f/Grand_Master_Courtney.png",
+                        Time: "255w",
+                        Attempts: 0
+                    },
+                    {
+                        Group: "Elite Four",
+                        Name: "Steve",
+                        Image: "http://cdn.bulbagarden.net/upload/8/83/Grand_Master_Steve.png",
+                        Time: "255w",
+                        Attempts: 0
+                    },
+                    {
+                        Group: "Elite Four",
+                        Name: "Jack",
+                        Image: "http://cdn.bulbagarden.net/upload/b/b6/Grand_Master_Jack.png",
+                        Time: "255w",
+                        Attempts: 0
+                    },
+                    {
+                        Group: "Elite Four",
+                        Name: "Rod",
+                        Image: "http://cdn.bulbagarden.net/upload/3/33/Grand_Master_Rod.png",
+                        Time: "255w",
+                        Attempts: 0
+                    },
+                    {
+                        Group: "Champions",
+                        Name: "Ronald",
+                        Image: "img/tcg/ronald.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xx9f3/tcg_ronald_kaiba_sprite/",
+                        Time: "255w",
+                        Attempts: 0
                     },
                 ]
             }
@@ -3278,7 +3356,7 @@ var tppData: TPP.Collection[] = [
                         Image: "http://cdn.bulbagarden.net/upload/a/ad/Spr_Ignis_Kingdom.png",
                         //Time: "2014-06-28T01:31:00Z"
                         Time: "20h",
-			Estimate: true
+                        Estimate: true
                     },
                     {
                         Name: "Greenleaf",
