@@ -1,4 +1,5 @@
 /// <reference path="tpp-structure" />
+/// <reference path="twitch-videos" />
 var Duration = (function () {
     function Duration(weeks, days, hours, minutes, seconds) {
         if (days === void 0) { days = 0; }
@@ -64,7 +65,7 @@ var Duration = (function () {
     };
     Duration.prototype.toString = function (scale) {
         if (scale === void 0) { scale = TPP.Scale.Days; }
-        return (scale == TPP.Scale.Hours ? this.days * 24 + this.hours : (scale == TPP.Scale.Weeks ? Math.floor(this.days / 7) + "w " + (this.days % 7) : this.days) + "d " + this.hours) + "h " + this.minutes + "m" + (this.seconds ? " " + this.seconds + "s" : "");
+        return (scale == TPP.Scale.Minutes ? (this.days * 24 + this.hours) * 60 + this.minutes : (scale == TPP.Scale.Hours ? this.days * 24 + this.hours : (scale == TPP.Scale.Weeks ? Math.floor(this.days / 7) + "w " + (this.days % 7) : this.days) + "d " + this.hours) + "h " + this.minutes) + "m" + (this.seconds ? " " + this.seconds + "s" : "");
     };
     Duration.parse = function (time, baseTime) {
         var retval = new Duration(0, 0, 0, 0);
@@ -103,6 +104,10 @@ function marginTop(element) {
     return parseInt((element.style.marginTop || '0').replace('px', '')) || 0;
 }
 var globalPpd = 64, groups = {};
+var vidWait = $.Deferred(), videos = vidWait.promise(), getTwitchVideos = function () {
+    var $li = $('.controls .fa-twitch').removeClass('fa-twitch').addClass('fa-pulse fa-spinner').removeAttr('onclick').attr('title', 'Loading...').parent();
+    Twitch.GetVideos("twitchplayspokemon").then(vidWait.resolve, vidWait.reject).then(function () { return $li.fadeOut(); });
+};
 function makeGrid(ppd) {
     var bgImageSrc = document.createElement("canvas");
     bgImageSrc.height = 1;
@@ -175,6 +180,8 @@ function drawRun(runInfo, run, scale, events) {
             setTimeout(function () { return run.setAttribute("data-json", JSON.stringify(runInfo)); }, 10);
         run.setAttribute("id", runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
         runInfo.Events.sort(function (e1, e2) { return Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
+        if (!runInfo.ContainsOtherRuns)
+            drawVideos(runInfo, run, scale);
     }
     drawConcurrentRuns(runInfo, run, scale);
 }
@@ -250,19 +257,23 @@ function applyScale(ppd) {
     $find($(".progressChart .ruler"), ".stop").forEach(function (ruler) { return ruler.forEach(function (stop, i) {
         stop.style.left = i * ppd + "px";
     }); });
-    $(".progressChart .run").forEach(function (run) {
+    $(".progressChart > .run").forEach(function (run) {
         var scale = TPP.Scale[run.parentElement.getAttribute('data-scale')] || TPP.Scale[run.parentElement.parentElement.getAttribute('data-scale')] || 0;
         var durationAttribute = settings["postgame"] ? "data-endtime" : "data-duration", duration = Duration.parse(run.getAttribute(durationAttribute));
         if (run.getAttribute(durationAttribute))
             run.style.width = duration.TotalTime(scale) * ppd + "px";
-        var runs = $find([run], ".run").pop(), events = $find([run], ".event").pop().filter(function (e) { return findImage(e).style.opacity != "0" && e.parentElement == run; });
-        [].concat(events).concat(runs).forEach(function (event) {
+        var runs = $find([run], ".run").pop(), events = $find([run], ".event").pop().filter(function (e) { return findImage(e).style.opacity != "0" && e.parentElement == run; }), videos = $find([run], ".videos a").pop();
+        [].concat(events).concat(runs).concat(videos).forEach(function (event) {
             if (event.getAttribute('data-time')) {
                 var time = Duration.parse(event.getAttribute('data-time'));
                 event.style.left = time.TotalTime(scale) * ppd + "px";
                 event.style.display = !settings["postgame"] && time.TotalSeconds > duration.TotalSeconds ? "none" : "block";
             }
-            findImage(event).style.marginTop = event.style.marginTop = "0";
+            if (event.getAttribute(durationAttribute))
+                event.style.width = Duration.parse(event.getAttribute(durationAttribute)).TotalTime(scale) * ppd + "px";
+            var img = findImage(event);
+            if (img)
+                img.style.marginTop = event.style.marginTop = "0";
         });
         staggerStackedRuns(runs, run.offsetHeight);
         if (settings["explode"]) {
@@ -336,6 +347,32 @@ function updatePage(ppd) {
         label.innerText = groups[g];
         input.onchange = function () { return toggleGroup(input); };
     });
+}
+function drawVideos(baseRunInfo, runElement, scale) {
+    var vidDiv = $('<div class="videos">').appendTo(runElement);
+    videos.then(function (vids) { return vids.filter(function (vid) {
+        return (vid.StartTime >= baseRunInfo.StartTime && vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds)
+            || (vid.EndTime > baseRunInfo.StartTime && vid.EndTime <= baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds);
+    }).forEach(function (vid) {
+        console.log(baseRunInfo.RunName + " video: " + vid.url);
+        var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0), runEnd = baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds;
+        if (vid.StartTime < baseRunInfo.StartTime) {
+            time = 0;
+            duration -= (startOffset = baseRunInfo.StartTime - vid.StartTime);
+        }
+        if (vid.EndTime > runEnd)
+            duration -= vid.EndTime - runEnd;
+        vidStart.TotalSeconds = time;
+        vidEnd.TotalSeconds = duration;
+        $("<a target='_blank'>").addClass(vid.source.toLowerCase()).attr('href', vid.url).attr('data-time', vidStart.toString()).attr('data-duration', vidEnd.toString()).appendTo(vidDiv).mousemove(function (e) {
+            var vidTime = new Duration(0), runTime = new Duration(0), percentage = (Math.abs(e.pageX - $(this).offset().left) / $(this).width());
+            vidTime.TotalSeconds = (percentage * duration) + startOffset;
+            runTime.TotalSeconds = (percentage * duration) + time;
+            $(this).attr('href', vid.url + "?t=" + vidTime.toString(TPP.Scale.Hours).replace(/\s/g, ''));
+            $(this).find('.playhead').css('left', percentage * $(this).width()).attr('data-label', runTime.toString(scale));
+        }).append($("<div class='playhead'>"));
+        $(runElement).addClass("hasVideos");
+    }); }).then(function () { return updatePage(); });
 }
 var zoomIn = function () { return applyScale(globalPpd * 2); };
 var zoomOut = function () { return applyScale(globalPpd / 2); };

@@ -8,7 +8,7 @@ var tppData: TPP.Collection[] = [
                 RunName: "Red",
                 ColorPrimary: "#c0504d",
                 ColorSecondary: "#8c3836",
-                StartDate: "2014-02-13T01:23:00Z",
+                StartDate: "2014-02-13T01:22:45Z",
                 Duration: "16d 7h 45m 30s",
                 EndDate: "Mar 1 2014 9:13 AM GMT",
                 HostName: "RED",
@@ -27,7 +27,7 @@ var tppData: TPP.Collection[] = [
                         Name: "Cascade Badge",
                         Image: "http://cdn.bulbagarden.net/upload/9/9c/Cascade_Badge.png",
                         ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                        Time: "1d 18h 46m"
+                        Time: "1d 18h 56m 38s"
                     },
                     {
                         Group: "Badges",
@@ -3051,7 +3051,7 @@ var tppData: TPP.Collection[] = [
             {
                 RunName: "Anniversary Crystal",
                 StartDate: "2016-02-14T21:00:00Z",
-                Duration: "40d",
+                Duration: "20d",
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
                 HostImage: "http://cdn.bulbagarden.net/upload/b/bc/Spr_GS_Oak.png",
@@ -3348,21 +3348,19 @@ var tppData: TPP.Collection[] = [
                         Name: "Aurora",
                         Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/c/c9/Spr_Aurora_Kingdom.png",
-                        Time: "Jun 28 2014 1:31 AM GMT"
+                        Time: "Jun 28 2014 00:33:11 AM GMT"
                     },
                     {
                         Name: "Ignis",
                         Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/a/ad/Spr_Ignis_Kingdom.png",
-                        //Time: "2014-06-28T01:31:00Z"
-                        Time: "20h",
-                        Estimate: true
+                        Time: "2014-06-28T01:31:00Z"
                     },
                     {
                         Name: "Greenleaf",
                         Group: "Kingdoms",
                         Image: "http://cdn.bulbagarden.net/upload/c/cc/Spr_Greenleaf_Kingdom.png",
-                        Time: "2014-06-28T23:55:00Z"
+                        Time: "2014-06-28T23:55:23Z"
                     },
                     {
                         Name: "Fontaine",

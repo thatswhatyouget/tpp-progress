@@ -40,6 +40,7 @@ module TPP {
     export enum Scale {
         Days,
         Weeks,
-        Hours
+        Hours,
+        Minutes
     }
 }

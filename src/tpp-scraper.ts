@@ -1,6 +1,7 @@
 /// <reference path="tpp-structure" />
 /// <reference path="../ref/jquery" />
 function Scrape(run: TPP.Run) {
+    $('.doItLive').text('Live');
     var deferred = $.Deferred<TPP.Run>();
     $.ajax({
         url: "https://crossorigin.me/" + run.Scraper.url,

@@ -4,6 +4,7 @@
 	<title>TPP Progress Chart</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="bin/tpp-structure.js"></script>
+    <script src="bin/twitch-videos.js"></script>
 	<script src="bin/tpp-progress.js"></script>
 	<script src="bin/tpp-scraper.js"></script>
 	<script src="bin/tpp-data.js"></script>
@@ -23,9 +24,12 @@
 			<span>Original Design: jim_needs_me</span>&nbsp;&nbsp;
 			<span>Interactive version: VorpalNorman</span>
 		</div>
-		<div  class="credits">
+		<div class="credits">
 			Contributors: TheSwordUser, UDie2day, Rabbeseking, Tiesoul, valence_d, T-chan, yoshord, ChezMere, AsterJ
 		</div>
+        <div class="credits">
+            <span class="doItLive">Most</span> run data provided by <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
+        </div>
 	</div>
     <div class="charts">
 	   <script>createCharts(tppData);</script>
@@ -51,6 +55,7 @@
 			<ul>
 			</ul>
 		</li>
+        <li><i class="fa fa-twitch" title="Twitch Videos" onclick="getTwitchVideos();"></i></li>
 	</div>
 </body>
 
