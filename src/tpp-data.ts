@@ -3218,7 +3218,8 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Champions",
                         Name: "SORCERER'SSHO",
-                        Image: "http://cdn.bulbagarden.net/upload/d/d2/Spr_GS_Red.png",
+                        Image: "img/vietnamesecrystal/sorcererssho.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",
                         Time: "2015-11-10T10:09:48Z"
                     }
                 ]

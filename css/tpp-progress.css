@@ -11,7 +11,7 @@ body {
 }
 
 .credits {
-	font-size:.8em;	
+	font-size:.6em;	
 }
 
 ul.controls {
@@ -380,7 +380,8 @@ ul.controls > li > ul > li > * {
 }
 
 .progressChart .run .videos a.twitch {
-    background-color:#6441A5;
+    /*background-color:#B9A3E3;*/
+    background-color: #6441A5;
     color: #6441A5;
 }
 
