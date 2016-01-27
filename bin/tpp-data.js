@@ -2584,7 +2584,7 @@ var tppData = [
                         Group: "Badges",
                         Name: "Earth Badge",
                         Image: "http://twitchplayspokemon.org/red/img/badges/earth.png",
-                        Time: "9d 8h 18m",
+                        Time: "9d 9h 18m",
                         Attempts: 1
                     },
                     {
