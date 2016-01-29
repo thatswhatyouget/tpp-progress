@@ -252,29 +252,32 @@ ul.controls > li > ul > li > * {
 
 .progressChart .run .event.hosts img {
 	height:90px;
-	top:-30px;
+    top:-30px;
+}
+
+.progressChart .run .event.hosts:first-of-type img {
 	left:-14px;
 }
 
-.progressChart .run .event.hosts {
+.progressChart .run .event.hosts:first-of-type {
 	z-index: 2;	
 	left:-1px!important;
 }
 
-.progressChart .run .event.hosts:hover {
+.progressChart .run .event.hosts:first-of-type:hover {
     background:none;   
 }
-.progressChart .run .event.hosts:hover::before {
+.progressChart .run .event.hosts:hover:first-of-type:before {
 	display:none;
 }
-.progressChart .run .event.hosts:hover::after {
+.progressChart .run .event.hosts:hover:first-of-type:after {
 	top:100%;
 	margin-bottom:0;
 	bottom:auto;
 	left:-14px;
 }
 
-.progressChart .run .run .event.hosts img {
+.progressChart .run .run .event img {
     transform:scale(.75) translateX(-75%);   
 }
 

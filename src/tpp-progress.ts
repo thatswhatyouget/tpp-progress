@@ -72,7 +72,7 @@ class Duration {
 }
 
 var fakeQuery: (selector: string) => Array<HTMLElement> = selector => Array.prototype.slice.call(document.querySelectorAll(selector));
-var $find: (elements: Array<HTMLElement>, selector: string) => Array<Array<HTMLElement>> = (elements, selector) => elements.map(e=> Array.prototype.slice.call(e.querySelectorAll(selector)));
+var $find: (elements: Array<HTMLElement>, selector: string) => Array<Array<HTMLElement>> = (elements, selector) => elements.map(e=> e ? Array.prototype.slice.call(e.querySelectorAll(selector)) : []);
 function getLeft(element: HTMLElement) {
     return parseInt(element.style.left.replace('px', ''));
 }
@@ -80,7 +80,7 @@ function getWidth(element: HTMLElement) {
     return element.offsetWidth;
 }
 function findImage(element: HTMLElement) {
-    return $find([element], "img").pop().pop();
+    return $find([element], "img").pop().pop() || new Image();
 }
 function marginTop(element: HTMLElement) {
     return parseInt((element.style.marginTop || '0').replace('px', '')) || 0;
@@ -89,7 +89,7 @@ var globalPpd: number = 64, groups: { [key: string]: string } = {};
 var vidWait: JQueryDeferred<Twitch.Video[]> = $.Deferred(), videos = vidWait.promise(),
     getTwitchVideos = function() {
         var $li = $('.controls .fa-twitch').removeClass('fa-twitch').addClass('fa-pulse fa-spinner').removeAttr('onclick').attr('title', 'Loading...').parent();
-        Twitch.GetVideos("twitchplayspokemon").then(vidWait.resolve, vidWait.reject).then(()=>$li.fadeOut());
+        Twitch.GetVideos("twitchplayspokemon").then(vidWait.resolve, vidWait.reject).then(() => $li.fadeOut());
     };
 
 function makeGrid(ppd: number) {
@@ -156,7 +156,7 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
     run.setAttribute("data-label", runInfo.RunName + ": " + duration.toString(scale));
     run.style.backgroundColor = runInfo.ColorPrimary;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
-    run.appendChild(drawHost(runInfo, scale));
+    if (runInfo.HostImage && runInfo.HostName) run.appendChild(drawHost(runInfo, scale));
     if (events) {
         if (runInfo.Scraper) setTimeout(() => run.setAttribute("data-json", JSON.stringify(runInfo)), 10);
         run.setAttribute("id", runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
@@ -250,7 +250,7 @@ function applyScale(ppd?: number) {
             if (event.getAttribute('data-time')) {
                 var time = Duration.parse(event.getAttribute('data-time'))
                 event.style.left = time.TotalTime(scale) * ppd + "px";
-                event.style.display = !settings["postgame"] && time.TotalSeconds > duration.TotalSeconds ? "none" : "block"; 
+                event.style.display = !settings["postgame"] && time.TotalSeconds > duration.TotalSeconds ? "none" : "block";
             }
             if (event.getAttribute(durationAttribute)) event.style.width = Duration.parse(event.getAttribute(durationAttribute)).TotalTime(scale) * ppd + "px";
             var img = findImage(event);
@@ -331,9 +331,7 @@ function updatePage(ppd = globalPpd) {
 
 function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP.Scale) {
     var vidDiv = $('<div class="videos">').appendTo(runElement);
-    videos.then(vids=> vids.filter(vid=>
-        (vid.StartTime >= baseRunInfo.StartTime && vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds)
-        || (vid.EndTime > baseRunInfo.StartTime && vid.EndTime <= baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds)
+    videos.then(vids=> vids.filter(vid=> (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime)
     ).forEach(vid=> {
         console.log(baseRunInfo.RunName + " video: " + vid.url);
         var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0),

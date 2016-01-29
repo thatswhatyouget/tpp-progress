@@ -90,7 +90,7 @@ var Duration = (function () {
     return Duration;
 })();
 var fakeQuery = function (selector) { return Array.prototype.slice.call(document.querySelectorAll(selector)); };
-var $find = function (elements, selector) { return elements.map(function (e) { return Array.prototype.slice.call(e.querySelectorAll(selector)); }); };
+var $find = function (elements, selector) { return elements.map(function (e) { return e ? Array.prototype.slice.call(e.querySelectorAll(selector)) : []; }); };
 function getLeft(element) {
     return parseInt(element.style.left.replace('px', ''));
 }
@@ -98,7 +98,7 @@ function getWidth(element) {
     return element.offsetWidth;
 }
 function findImage(element) {
-    return $find([element], "img").pop().pop();
+    return $find([element], "img").pop().pop() || new Image();
 }
 function marginTop(element) {
     return parseInt((element.style.marginTop || '0').replace('px', '')) || 0;
@@ -174,7 +174,8 @@ function drawRun(runInfo, run, scale, events) {
     run.setAttribute("data-label", runInfo.RunName + ": " + duration.toString(scale));
     run.style.backgroundColor = runInfo.ColorPrimary;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
-    run.appendChild(drawHost(runInfo, scale));
+    if (runInfo.HostImage && runInfo.HostName)
+        run.appendChild(drawHost(runInfo, scale));
     if (events) {
         if (runInfo.Scraper)
             setTimeout(function () { return run.setAttribute("data-json", JSON.stringify(runInfo)); }, 10);
@@ -350,10 +351,7 @@ function updatePage(ppd) {
 }
 function drawVideos(baseRunInfo, runElement, scale) {
     var vidDiv = $('<div class="videos">').appendTo(runElement);
-    videos.then(function (vids) { return vids.filter(function (vid) {
-        return (vid.StartTime >= baseRunInfo.StartTime && vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds)
-            || (vid.EndTime > baseRunInfo.StartTime && vid.EndTime <= baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds);
-    }).forEach(function (vid) {
+    videos.then(function (vids) { return vids.filter(function (vid) { return (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime); }).forEach(function (vid) {
         console.log(baseRunInfo.RunName + " video: " + vid.url);
         var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0), runEnd = baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds;
         if (vid.StartTime < baseRunInfo.StartTime) {

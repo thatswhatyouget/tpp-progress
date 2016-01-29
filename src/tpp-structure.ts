@@ -1,8 +1,8 @@
 module TPP {
 	export interface Run {
-		HostImage: string;
+		HostImage?: string;
 		HostImageSource?: string;
-		HostName: string;
+		HostName?: string;
         RunName: string;
         StartDate?: string;
         StartTime?: number;

@@ -3336,6 +3336,82 @@ var tppData: TPP.Collection[] = [
         Scale: TPP.Scale.Hours,
         Runs: [
             {
+                RunName: "Mystery Dungeon: Red Rescue Team (1)",
+                ColorPrimary: "white",
+                ColorSecondary: "#d54765",
+                StartDate: "2014-03-19T09:30:41Z",
+                Duration: "13m45s",
+                HostName: "\u2642k ",
+                HostImage: "img/pmd/eevee.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Events: [
+                ]
+            },
+            {
+                RunName: "Mystery Dungeon: Red Rescue Team (2)",
+                ColorPrimary: "white",
+                ColorSecondary: "#d54765",
+                StartDate: "2014-04-27T04:14:13Z",
+                Duration: "21h41m4s",
+                HostName: "a,,AOOOzz",
+                HostImage: "img/pmd/mudkip.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Events: [
+                    {
+                        Group: "Hosts",
+                        Name: "nccccc,\u00A1",
+                        Image: "img/pmd/squirtle.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                        Time: "7h47m9s"
+                    },
+                    {
+                        Group: "Hosts",
+                        Name: "aaaaaaaa",
+                        Image: "img/pmd/pikachu.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                        Time: "19h56m58s"
+                    }
+                ]
+            },
+            {
+                RunName: "Mystery Dungeon: Explorers of the Sky",
+                ColorPrimary: "white",
+                ColorSecondary: "#88ba48",
+                StartDate: "May 1 2014 12:33 AM GMT",
+                Duration: "May 1 2014 3:04 AM GMT",
+                HostName: "nncaapCCC\u00C6",
+                HostImage: "img/pmd/pikachu.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Events: [
+                ]
+            },
+            {
+                RunName: "Mystery Dungeon: Blue Rescue Team",
+                ColorPrimary: "white",
+                ColorSecondary: "#1463ad",
+                StartDate: "2014-06-12T08:35:50Z",
+                Duration: "2014-06-14T07:21:58Z",
+                HostName: "cuboner",
+                HostImage: "img/pmd/cubone.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Events: [
+                    {
+                        Group: "Hosts",
+                        Name: "0",
+                        Image: "img/pmd/machop.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                        Time: "2014-06-14T04:38:58Z"
+                    },
+                    {
+                        Group: "Hosts",
+                        Name: "aa",
+                        Image: "img/pmd/bulbasaur.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                        Time: "2014-06-14T05:46:40Z"
+                    }
+                ]
+            },
+            {
                 RunName: "Conquest",
                 StartDate: "Jun 27 2014 10:48 PM GMT",
                 ColorPrimary: "goldenrod",
