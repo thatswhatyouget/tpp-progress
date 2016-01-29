@@ -3293,8 +3293,8 @@ var tppData = [
         Runs: [
             {
                 RunName: "Mystery Dungeon: Red Rescue Team",
-                ColorPrimary: "white",
-                ColorSecondary: "#d54765",
+                ColorPrimary: "#bf0300",
+                ColorSecondary: "#5b0000",
                 StartDate: "2014-04-27T04:14:13Z",
                 Duration: "21h41m4s",
                 HostName: "a,,AOOOzz",
@@ -3319,8 +3319,8 @@ var tppData = [
             },
             {
                 RunName: "Mystery Dungeon: Blue Rescue Team",
-                ColorPrimary: "white",
-                ColorSecondary: "#1463ad",
+                ColorPrimary: "#4f81bd",
+                ColorSecondary: "#385d8a",
                 StartDate: "2014-06-12T08:35:50Z",
                 Duration: "2014-06-14T07:21:58Z",
                 HostName: "cuboner",
@@ -3717,8 +3717,8 @@ var tppData = [
         Runs: [
             {
                 RunName: "Mystery Dungeon: Red Rescue Team",
-                ColorPrimary: "white",
-                ColorSecondary: "#d54765",
+                ColorPrimary: "#c0504d",
+                ColorSecondary: "#8c3836",
                 StartDate: "2014-03-19T09:30:41Z",
                 Duration: "13m45s",
                 HostName: "\u2642k ",
@@ -3728,8 +3728,8 @@ var tppData = [
             },
             {
                 RunName: "Mystery Dungeon: Explorers of the Sky",
-                ColorPrimary: "white",
-                ColorSecondary: "#88ba48",
+                ColorPrimary: "#9bbb59",
+                ColorSecondary: "#71893f",
                 StartDate: "May 1 2014 12:33 AM GMT",
                 Duration: "May 1 2014 3:04 AM GMT",
                 HostName: "nncaapCCC\u00C6",

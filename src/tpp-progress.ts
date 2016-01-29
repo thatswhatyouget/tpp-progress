@@ -229,7 +229,7 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
     eventImg.alt = label;
     event.setAttribute('data-label', label);
     event.setAttribute("data-time", eventInfo.Time);
-    if (showGroups[groupName] === false) eventImg.style.opacity = "0";
+    if (showGroups[groupName] === false) event.classList.add('hidden');
     groups[groupName] = eventInfo.Group;
     return event;
 }
@@ -249,7 +249,7 @@ function applyScale(ppd?: number) {
             duration = Duration.parse(run.getAttribute(durationAttribute));
         if (run.getAttribute(durationAttribute)) run.style.width = duration.TotalTime(scale) * ppd + "px";
         var runs = $find([run], ".run").pop(),
-            events = $find([run], ".event").pop().filter(e=> findImage(e).style.opacity != "0" && e.parentElement == run),
+            events = $find([run], ".event").pop().filter(e=> !e.classList.contains('hidden') && e.parentElement == run),
             videos = $find([run], ".videos a").pop();
         [].concat(events).concat(runs).concat(videos).forEach(event=> {
             if (event.getAttribute('data-time')) {
@@ -379,9 +379,6 @@ function toggleGroup(element: HTMLInputElement) {
     var group = element.id.split('-').pop(), visible = element.checked;
     showGroups[group] = visible;
     localStorage.setItem("showGroups", JSON.stringify(showGroups));
-    fakeQuery('.' + group.replace(/[^A-Z0-9]/ig, '').toLowerCase()).forEach(event=> {
-        event.style.pointerEvents = visible ? "all" : "none";
-        findImage(event).style.opacity = visible ? "1" : "0";
-    });
+    $('.' + group.replace(/[^A-Z0-9]/ig, '')).toggleClass("hidden", !visible);
     updatePage();
 }

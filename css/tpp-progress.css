@@ -310,6 +310,13 @@ ul.controls > li > ul > li > * {
     top:-2px;
 }
 
+.progressChart .run .event.hidden {
+	pointer-events: none;
+}
+.progressChart .run .event.hidden img {
+    opacity: 0;   
+}
+
 .progressChart #touhoumon.run {
 	margin-bottom:0;	
 }

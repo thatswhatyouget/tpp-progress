@@ -252,7 +252,7 @@ function drawEvent(eventInfo, runInfo, scale) {
     event.setAttribute('data-label', label);
     event.setAttribute("data-time", eventInfo.Time);
     if (showGroups[groupName] === false)
-        eventImg.style.opacity = "0";
+        event.classList.add('hidden');
     groups[groupName] = eventInfo.Group;
     return event;
 }
@@ -270,7 +270,7 @@ function applyScale(ppd) {
         var durationAttribute = settings["postgame"] ? "data-endtime" : "data-duration", duration = Duration.parse(run.getAttribute(durationAttribute));
         if (run.getAttribute(durationAttribute))
             run.style.width = duration.TotalTime(scale) * ppd + "px";
-        var runs = $find([run], ".run").pop(), events = $find([run], ".event").pop().filter(function (e) { return findImage(e).style.opacity != "0" && e.parentElement == run; }), videos = $find([run], ".videos a").pop();
+        var runs = $find([run], ".run").pop(), events = $find([run], ".event").pop().filter(function (e) { return !e.classList.contains('hidden') && e.parentElement == run; }), videos = $find([run], ".videos a").pop();
         [].concat(events).concat(runs).concat(videos).forEach(function (event) {
             if (event.getAttribute('data-time')) {
                 var time = Duration.parse(event.getAttribute('data-time'));
@@ -397,9 +397,6 @@ function toggleGroup(element) {
     var group = element.id.split('-').pop(), visible = element.checked;
     showGroups[group] = visible;
     localStorage.setItem("showGroups", JSON.stringify(showGroups));
-    fakeQuery('.' + group.replace(/[^A-Z0-9]/ig, '').toLowerCase()).forEach(function (event) {
-        event.style.pointerEvents = visible ? "all" : "none";
-        findImage(event).style.opacity = visible ? "1" : "0";
-    });
+    $('.' + group.replace(/[^A-Z0-9]/ig, '')).toggleClass("hidden", !visible);
     updatePage();
 }
