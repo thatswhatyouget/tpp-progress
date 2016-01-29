@@ -310,10 +310,10 @@ ul.controls > li > ul > li > * {
     top:-2px;
 }
 
-.progressChart .run .event.hidden {
+.progressChart .run .event.hidden, .progressChart .run .videos.hidden {
 	pointer-events: none;
 }
-.progressChart .run .event.hidden img {
+.progressChart .run .event.hidden img, .progressChart .run .videos.hidden a {
     opacity: 0;   
 }
 

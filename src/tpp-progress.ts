@@ -356,6 +356,11 @@ function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP
             $(this).find('.playhead').css('left', percentage * $(this).width()).attr('data-label', runTime.toString(scale));
         }).append($("<div class='playhead'>"));
         $(runElement).addClass("hasVideos");
+        if (!$("#group-videos").is('*'))
+            $("<li>")
+                .append($('<input type="checkbox" id="group-videos" checked>').change(function() { $("div.videos").toggleClass('hidden', $(this).val()); }))
+                .append($('<label for="group-videos">').text("Videos"))
+                .appendTo($("li.groups ul"));
     })).then(() => updatePage());
 }
 
