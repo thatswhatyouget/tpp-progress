@@ -3052,9 +3052,9 @@ var tppData: TPP.Collection[] = [
                 RunName: "Anniversary Crystal",
                 StartDate: "2016-02-14T21:00:00Z",
                 Duration: "20d",
+                Ongoing: true,
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
-                HostImage: "http://cdn.bulbagarden.net/upload/b/bc/Spr_GS_Oak.png",
                 //HostImage: "http://cdn.bulbagarden.net/upload/9/9e/Spr_C_Kris.png",
                 //HostImage: "http://cdn.bulbagarden.net/upload/2/2d/Spr_C_Ethan.png",
                 HostName: "???",
@@ -3231,6 +3231,7 @@ var tppData: TPP.Collection[] = [
                 ColorSecondary: "#e00000",
                 ContainsOtherRuns: true,
                 Duration: new Date().toISOString(),
+                Ongoing: true,
                 HostName: "YUGI",
                 HostImage: "img/hosts/yugi.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xq7en/meet_yugi/",
@@ -3336,19 +3337,7 @@ var tppData: TPP.Collection[] = [
         Scale: TPP.Scale.Hours,
         Runs: [
             {
-                RunName: "Mystery Dungeon: Red Rescue Team (1)",
-                ColorPrimary: "white",
-                ColorSecondary: "#d54765",
-                StartDate: "2014-03-19T09:30:41Z",
-                Duration: "13m45s",
-                HostName: "\u2642k ",
-                HostImage: "img/pmd/eevee.png",
-                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
-                Events: [
-                ]
-            },
-            {
-                RunName: "Mystery Dungeon: Red Rescue Team (2)",
+                RunName: "Mystery Dungeon: Red Rescue Team",
                 ColorPrimary: "white",
                 ColorSecondary: "#d54765",
                 StartDate: "2014-04-27T04:14:13Z",
@@ -3371,18 +3360,6 @@ var tppData: TPP.Collection[] = [
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                         Time: "19h56m58s"
                     }
-                ]
-            },
-            {
-                RunName: "Mystery Dungeon: Explorers of the Sky",
-                ColorPrimary: "white",
-                ColorSecondary: "#88ba48",
-                StartDate: "May 1 2014 12:33 AM GMT",
-                Duration: "May 1 2014 3:04 AM GMT",
-                HostName: "nncaapCCC\u00C6",
-                HostImage: "img/pmd/pikachu.png",
-                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
-                Events: [
                 ]
             },
             {
@@ -3777,6 +3754,36 @@ var tppData: TPP.Collection[] = [
                     }
                 ]
             }
+        ]
+    },
+    {
+        Name: "Very Short Intermissions",
+        Scale: TPP.Scale.Minutes,
+        Runs: [
+            {
+                RunName: "Mystery Dungeon: Red Rescue Team",
+                ColorPrimary: "white",
+                ColorSecondary: "#d54765",
+                StartDate: "2014-03-19T09:30:41Z",
+                Duration: "13m45s",
+                HostName: "\u2642k ",
+                HostImage: "img/pmd/eevee.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Events: [
+                ]
+            },
+            {
+                RunName: "Mystery Dungeon: Explorers of the Sky",
+                ColorPrimary: "white",
+                ColorSecondary: "#88ba48",
+                StartDate: "May 1 2014 12:33 AM GMT",
+                Duration: "May 1 2014 3:04 AM GMT",
+                HostName: "nncaapCCC\u00C6",
+                HostImage: "img/pmd/pikachu.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Events: [
+                ]
+            },
         ]
     }
 ];

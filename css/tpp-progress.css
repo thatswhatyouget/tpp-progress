@@ -151,6 +151,7 @@ ul.controls > li > ul > li > * {
     text-align: right;
     width:5em;
     right:.5em;
+    letter-spacing: -.1em;
 }
 
 .progressChart[data-scale=Hours] .ruler {
@@ -158,6 +159,12 @@ ul.controls > li > ul > li > * {
 }
 .progressChart[data-scale=Hours] .ruler .stop {
     counter-increment: days 4;   
+}
+.progressChart[data-scale=Minutes] .ruler {
+    counter-reset: days -10;   
+}
+.progressChart[data-scale=Minutes] .ruler .stop {
+    counter-increment: days 10;   
 }
 
 .progressChart .run {
@@ -172,7 +179,7 @@ ul.controls > li > ul > li > * {
 	transition: width 2s ease-in-out, left 2s ease-in-out, opacity 2s ease-in-out, margin 2s ease-in-out;
 }
 
-.progressChart .run.current {
+.progressChart .run.ongoing {
 	border-right:none;
 }
 
@@ -260,7 +267,6 @@ ul.controls > li > ul > li > * {
 }
 
 .progressChart .run .event.hosts:first-of-type {
-	z-index: 2;	
 	left:-1px!important;
 }
 
@@ -297,9 +303,6 @@ ul.controls > li > ul > li > * {
 .progressChart .run .event:hover {
 	z-index:5;
 	background-color:rgba(0,0,0,.5);
-}
-.progressChart .run .event.host:hover {
-	background:none;
 }
 
 .progressChart .run .run {
@@ -350,6 +353,7 @@ ul.controls > li > ul > li > * {
     width:0;
     background-color:#333333;
     transition: all 2s ease-in-out;
+    z-index: 5;
 }
 
 .progressChart .run .videos a .playhead {
@@ -396,7 +400,7 @@ ul.controls > li > ul > li > * {
     margin-bottom: 75px;   
 }
 
-.progressChart #touhoumon .run .videos {
+.progressChart #touhoumon.run .videos {
     display:none;   
 }
 

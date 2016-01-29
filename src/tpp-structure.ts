@@ -7,6 +7,7 @@ module TPP {
         StartDate?: string;
         StartTime?: number;
         Duration: string;
+        Ongoing?: boolean;
         EndDate?: string;
 		ColorPrimary: string;
 		ColorSecondary: string;

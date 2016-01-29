@@ -60,6 +60,8 @@ var Duration = (function () {
                 return this.TotalWeeks;
             case TPP.Scale.Hours:
                 return this.TotalHours / 4;
+            case TPP.Scale.Minutes:
+                return this.TotalHours * 6;
         }
         return this.TotalDays;
     };
@@ -166,6 +168,8 @@ function drawRun(runInfo, run, scale, events) {
     if (events === void 0) { events = true; }
     run = run || document.createElement("div");
     run.className = "run";
+    if (runInfo.Ongoing)
+        run.className += " ongoing";
     var duration = Duration.parse(runInfo.Duration, runInfo.StartTime);
     runInfo.Duration = duration.toString(TPP.Scale.Weeks);
     run.setAttribute("data-duration", runInfo.Duration);
@@ -179,7 +183,10 @@ function drawRun(runInfo, run, scale, events) {
     if (events) {
         if (runInfo.Scraper)
             setTimeout(function () { return run.setAttribute("data-json", JSON.stringify(runInfo)); }, 10);
-        run.setAttribute("id", runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
+        var id = runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase(), original = id;
+        for (var i = 1; document.getElementById(id); id = original + i)
+            ;
+        run.setAttribute("id", id);
         runInfo.Events.sort(function (e1, e2) { return Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
         if (!runInfo.ContainsOtherRuns)
             drawVideos(runInfo, run, scale);
