@@ -3144,7 +3144,7 @@ var tppData: TPP.Collection[] = [
                     },
                     {
                         Group: "Elite Four",
-                        Name: "STOD",
+                        Name: "TOD",
                         Image: "http://www.twitchplayspokemon.org/img/trainers/gs/koga.png",
                         Time: "2015-09-06T18:27:04Z"
                     },
