@@ -336,32 +336,33 @@ function updatePage(ppd = globalPpd) {
 
 function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP.Scale) {
     var vidDiv = $('<div class="videos">').appendTo(runElement);
-    videos.then(vids=> vids.filter(vid=> (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime)
-    ).forEach(vid=> {
-        console.log(baseRunInfo.RunName + " video: " + vid.url);
-        var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0),
-            runEnd = baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds;
-        if (vid.StartTime < baseRunInfo.StartTime) {
-            time = 0;
-            duration -= (startOffset = baseRunInfo.StartTime - vid.StartTime);
-        }
-        if (vid.EndTime > runEnd) duration -= vid.EndTime - runEnd;
-        vidStart.TotalSeconds = time;
-        vidEnd.TotalSeconds = duration;
-        $("<a target='_blank'>").addClass(vid.source.toLowerCase()).attr('href', vid.url).attr('data-time', vidStart.toString()).attr('data-duration', vidEnd.toString()).appendTo(vidDiv).mousemove(function(e) {
-            var vidTime = new Duration(0), runTime = new Duration(0), percentage = (Math.abs(e.pageX - $(this).offset().left) / $(this).width());
-            vidTime.TotalSeconds = (percentage * duration) + startOffset;
-            runTime.TotalSeconds = (percentage * duration) + time;
-            $(this).attr('href', vid.url + "?t=" + vidTime.toString(TPP.Scale.Hours).replace(/\s/g, ''));
-            $(this).find('.playhead').css('left', percentage * $(this).width()).attr('data-label', runTime.toString(scale));
-        }).append($("<div class='playhead'>"));
-        $(runElement).addClass("hasVideos");
-        if (!$("#group-videos").is('*'))
-            $("<li>")
-                .append($('<input type="checkbox" id="group-videos" checked>').change(function() { $("div.videos").toggleClass('hidden', $(this).val()); }))
-                .append($('<label for="group-videos">').text("Videos"))
-                .appendTo($("li.groups ul"));
-    })).then(() => updatePage());
+    videos.then(vids=> Array.prototype.concat.apply(vids, extraVids))
+        .then(vids=> vids.filter(vid=> (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime)
+        ).forEach(vid=> {
+            console.log(baseRunInfo.RunName + " video: " + vid.url);
+            var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0),
+                runEnd = baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds;
+            if (vid.StartTime < baseRunInfo.StartTime) {
+                time = 0;
+                duration -= (startOffset = baseRunInfo.StartTime - vid.StartTime);
+            }
+            if (vid.EndTime > runEnd) duration -= vid.EndTime - runEnd;
+            vidStart.TotalSeconds = time;
+            vidEnd.TotalSeconds = duration;
+            $("<a target='_blank'>").addClass(vid.source.toLowerCase()).attr('href', vid.url).attr('data-time', vidStart.toString()).attr('data-duration', vidEnd.toString()).appendTo(vidDiv).mousemove(function(e) {
+                var vidTime = new Duration(0), runTime = new Duration(0), percentage = (Math.abs(e.pageX - $(this).offset().left) / $(this).width());
+                vidTime.TotalSeconds = (percentage * duration) + startOffset;
+                runTime.TotalSeconds = (percentage * duration) + time;
+                $(this).attr('href', vid.url + "?t=" + vidTime.toString(TPP.Scale.Hours).replace(/\s/g, ''));
+                $(this).find('.playhead').css('left', percentage * $(this).width()).attr('data-label', runTime.toString(scale));
+            }).append($("<div class='playhead'>"));
+            $(runElement).addClass("hasVideos");
+            if (!$("#group-videos").is('*'))
+                $("<li>")
+                    .append($('<input type="checkbox" id="group-videos" checked>').change(function() { $("div.videos").toggleClass('hidden', $(this).val()); }))
+                    .append($('<label for="group-videos">').text("Videos"))
+                    .appendTo($("li.groups ul"));
+        })).then(() => updatePage());
 }
 
 //controls and settings

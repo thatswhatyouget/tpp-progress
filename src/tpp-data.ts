@@ -3787,3 +3787,7 @@ var tppData: TPP.Collection[] = [
         ]
     }
 ];
+
+var extraVids = [
+    new Twitch.Video("2014-06-15T03:24:48Z", 1105732, "http://www.twitch.tv/twitchplayspokemon/c/5060969", "Twitch")
+];
