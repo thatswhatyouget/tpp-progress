@@ -1,5 +1,5 @@
 # TPP Interactive Progress Chart
-This is a live version of the progress chart image originally created by jim_needs_me and updated by TheSwordUser, UDie2day, Rabbeseking, Tiesoul, valence_d and T-chan.
+This is a live version of the progress chart image originally created by [jim_needs_me](https://www.reddit.com/user/jim_needs_me).
 
 This project is not intended to replace the need for the images, but more as a supplement to them. It contains data for all our previous runs in a JSON blob, and scrapes http://twitchplayspokemon.org for live updating data during the current run. All runs carry their JSON data with them for easy copying and editing, so it should be simple to freeze a run after it ends, clean it up, and add it to the stored runs.
 
