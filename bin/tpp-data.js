@@ -3195,8 +3195,8 @@ var tppData = [
                         Group: "Badges",
                         Name: "Grass Medal",
                         Image: "http://cdn.bulbagarden.net/upload/0/08/TCG1_GrassMedal.png",
-                        Time: "255w",
-                        Attempts: 0
+                        Time: "2016-02-07T12:16:27Z",
+                        Attempts: 1
                     },
                     {
                         Group: "Badges",
@@ -3300,6 +3300,7 @@ var tppData = [
                 HostName: "a,,AOOOzz",
                 HostImage: "img/pmd/mudkip.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Unfinished: true,
                 Events: [
                     {
                         Group: "Hosts",
@@ -3326,6 +3327,7 @@ var tppData = [
                 HostName: "cuboner",
                 HostImage: "img/pmd/cubone.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Unfinished: true,
                 Events: [
                     {
                         Group: "Hosts",
@@ -3708,7 +3710,7 @@ var tppData = [
                         Time: "23h23m48s"
                     }
                 ]
-            }
+            },
         ]
     },
     {
@@ -3724,6 +3726,7 @@ var tppData = [
                 HostName: "\u2642k ",
                 HostImage: "img/pmd/eevee.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Unfinished: true,
                 Events: []
             },
             {
@@ -3735,6 +3738,7 @@ var tppData = [
                 HostName: "nncaapCCC\u00C6",
                 HostImage: "img/pmd/pikachu.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Unfinished: true,
                 Events: []
             },
         ]

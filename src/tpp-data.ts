@@ -3240,8 +3240,8 @@ var tppData: TPP.Collection[] = [
                         Group: "Badges",
                         Name: "Grass Medal",
                         Image: "http://cdn.bulbagarden.net/upload/0/08/TCG1_GrassMedal.png",
-                        Time: "255w",
-                        Attempts: 0
+                        Time: "2016-02-07T12:16:27Z",
+                        Attempts: 1
                     },
                     {
                         Group: "Badges",
@@ -3345,6 +3345,7 @@ var tppData: TPP.Collection[] = [
                 HostName: "a,,AOOOzz",
                 HostImage: "img/pmd/mudkip.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Unfinished: true,
                 Events: [
                     {
                         Group: "Hosts",
@@ -3371,6 +3372,7 @@ var tppData: TPP.Collection[] = [
                 HostName: "cuboner",
                 HostImage: "img/pmd/cubone.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Unfinished: true,
                 Events: [
                     {
                         Group: "Hosts",
@@ -3753,7 +3755,31 @@ var tppData: TPP.Collection[] = [
                         Time: "23h23m48s"
                     }
                 ]
-            }
+            },
+            // {
+            //     RunName: "Channel",
+            //     ColorPrimary: "#f5c53c",
+            //     ColorSecondary: "#0a71dc",
+            //     StartDate: "2015-10-11T20:51:39Z",
+            //     Duration: "23h10m5s",
+            //     HostName: "\u00E7",
+            //     HostImage: "https://static-cdn.jtvnw.net/emoticons/v1/57118/3.0",
+            //     HostImageSource: "https://twitchemotes.com/emote/57118",
+            //     Unfinished: true,
+            //     Events: []
+            // },
+            // {
+            //     RunName: "Channel",
+            //     ColorPrimary: "#f1bd3f",
+            //     ColorSecondary: "#00338d",
+            //     StartDate: "2015-12-11T21:59:24.000Z",
+            //     Duration: "2015-12-12T00:54:37+00:00",
+            //     HostName: ":#&75",
+            //     HostImage: "img/pmd/pikachu.png",
+            //     HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+            //     Unfinished: true,
+            //     Events: []
+            // }
         ]
     },
     {
@@ -3769,6 +3795,7 @@ var tppData: TPP.Collection[] = [
                 HostName: "\u2642k ",
                 HostImage: "img/pmd/eevee.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Unfinished: true,
                 Events: [
                 ]
             },
@@ -3781,6 +3808,7 @@ var tppData: TPP.Collection[] = [
                 HostName: "nncaapCCC\u00C6",
                 HostImage: "img/pmd/pikachu.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Unfinished: true,
                 Events: [
                 ]
             },
