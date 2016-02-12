@@ -3072,7 +3072,7 @@ var tppData: TPP.Collection[] = [
         ]
     },
     {
-        Name: "Long Intermissions",
+        Name: "Sidegames",
         Scale: TPP.Scale.Weeks,
         Runs: [
             {
@@ -3080,7 +3080,7 @@ var tppData: TPP.Collection[] = [
                 StartDate: "2015-03-24T17:42:00Z",
                 ColorPrimary: "#77b2ff",
                 ColorSecondary: "#416fcc",
-                ContainsOtherRuns: true,
+                ContainsRunsFrom: ["Season 2"],
                 //Duration: "2015-11-10T10:09:48Z",
                 Duration: "2015-12-11T21:03:00Z",
                 EndDate: "2015-12-11T21:03:00Z",
@@ -3229,7 +3229,7 @@ var tppData: TPP.Collection[] = [
                 StartDate: "2015-12-21T01:52:47Z",
                 ColorPrimary: "#e0e0c0",
                 ColorSecondary: "#e00000",
-                ContainsOtherRuns: true,
+                ContainsRunsFrom: ["Season 3"],
                 Duration: new Date().toISOString(),
                 Ongoing: true,
                 HostName: "YUGI",
@@ -3329,11 +3329,25 @@ var tppData: TPP.Collection[] = [
                         Attempts: 0
                     },
                 ]
-            }
+            },
+            {
+                RunName: "Mystery Dungeon: Red Rescue Team",
+                ColorPrimary: "#c6223b",
+                ColorSecondary: "#c6223b",
+                StartDate: "2016-02-12T03:13:00Z",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                HostName: "SquirtLee",
+                HostImage: "img/pmd/squirtle.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                //ContainsRunsFrom: [],
+                Events: [
+                ]
+            },
         ]
     },
     {
-        Name: "Short Intermissions",
+        Name: "Intermissions",
         Scale: TPP.Scale.Hours,
         Runs: [
             {
@@ -3783,7 +3797,7 @@ var tppData: TPP.Collection[] = [
         ]
     },
     {
-        Name: "Very Short Intermissions",
+        Name: "Short Intermissions",
         Scale: TPP.Scale.Minutes,
         Runs: [
             {

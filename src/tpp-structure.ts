@@ -18,7 +18,7 @@ module TPP {
             hostname?: boolean;
 			pokemon?: boolean;
         };
-        ContainsOtherRuns?: boolean;
+        ContainsRunsFrom?: string[];
         Unfinished?: boolean;
 		Events: Event[];
 	}

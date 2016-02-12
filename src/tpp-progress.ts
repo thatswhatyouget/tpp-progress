@@ -163,10 +163,10 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
     if (events) {
         if (runInfo.Scraper) setTimeout(() => run.setAttribute("data-json", JSON.stringify(runInfo)), 10);
         var id = runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase(), original = id;
-        for (var i = 1; document.getElementById(id); id = original + i);
+        for (var i = 1; document.getElementById(id); id = original + i++);
         run.setAttribute("id", id);
         runInfo.Events.sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
-        if (!runInfo.ContainsOtherRuns) drawVideos(runInfo, run, scale);
+        drawVideos(runInfo, run, scale);
     }
     drawConcurrentRuns(runInfo, run, scale);
 }
@@ -184,10 +184,10 @@ function drawHost(runInfo: TPP.Run, scale: TPP.Scale) {
 }
 
 function drawConcurrentRuns(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP.Scale) {
-    if (!baseRunInfo.ContainsOtherRuns) return;
+    if (!baseRunInfo.ContainsRunsFrom || !baseRunInfo.ContainsRunsFrom.length) return;
     var baseDuration = Duration.parse(baseRunInfo.Duration),
         baseEndTime = baseRunInfo.StartTime + baseDuration.TotalSeconds;
-    tppData.map(c=> c.Runs.filter(r=> !r.ContainsOtherRuns && baseRunInfo.StartTime < r.StartTime && baseEndTime > r.StartTime).forEach(r=> {
+    tppData.filter(c=> baseRunInfo.ContainsRunsFrom.indexOf(c.Name) >= 0).map(c=> c.Runs.filter(r=> baseRunInfo.StartTime < r.StartTime && baseEndTime > r.StartTime).forEach(r=> {
         var innerRun = document.createElement("div");
         var runStart = Duration.parse(r.StartDate, baseRunInfo.StartTime),
             runEnd = Duration.parse(r.Duration);

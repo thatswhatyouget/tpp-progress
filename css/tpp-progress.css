@@ -61,6 +61,7 @@ ul.controls > li > ul {
 	transition: transform .5s ease-in-out;
 	list-style:none;
 	text-align: left;
+    min-height:1em;
 }
 
 ul.controls > li > ul:before {

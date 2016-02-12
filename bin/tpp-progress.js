@@ -184,12 +184,11 @@ function drawRun(runInfo, run, scale, events) {
         if (runInfo.Scraper)
             setTimeout(function () { return run.setAttribute("data-json", JSON.stringify(runInfo)); }, 10);
         var id = runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase(), original = id;
-        for (var i = 1; document.getElementById(id); id = original + i)
+        for (var i = 1; document.getElementById(id); id = original + i++)
             ;
         run.setAttribute("id", id);
         runInfo.Events.sort(function (e1, e2) { return Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
-        if (!runInfo.ContainsOtherRuns)
-            drawVideos(runInfo, run, scale);
+        drawVideos(runInfo, run, scale);
     }
     drawConcurrentRuns(runInfo, run, scale);
 }
@@ -205,10 +204,10 @@ function drawHost(runInfo, scale) {
     return host;
 }
 function drawConcurrentRuns(baseRunInfo, runElement, scale) {
-    if (!baseRunInfo.ContainsOtherRuns)
+    if (!baseRunInfo.ContainsRunsFrom || !baseRunInfo.ContainsRunsFrom.length)
         return;
     var baseDuration = Duration.parse(baseRunInfo.Duration), baseEndTime = baseRunInfo.StartTime + baseDuration.TotalSeconds;
-    tppData.map(function (c) { return c.Runs.filter(function (r) { return !r.ContainsOtherRuns && baseRunInfo.StartTime < r.StartTime && baseEndTime > r.StartTime; }).forEach(function (r) {
+    tppData.filter(function (c) { return baseRunInfo.ContainsRunsFrom.indexOf(c.Name) >= 0; }).map(function (c) { return c.Runs.filter(function (r) { return baseRunInfo.StartTime < r.StartTime && baseEndTime > r.StartTime; }).forEach(function (r) {
         var innerRun = document.createElement("div");
         var runStart = Duration.parse(r.StartDate, baseRunInfo.StartTime), runEnd = Duration.parse(r.Duration);
         innerRun.setAttribute("data-time", runStart.toString(TPP.Scale.Weeks));
