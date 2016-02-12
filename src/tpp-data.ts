@@ -3261,8 +3261,8 @@ var tppData: TPP.Collection[] = [
                         Group: "Badges",
                         Name: "Water Medal",
                         Image: "http://cdn.bulbagarden.net/upload/4/4b/TCG1_WaterMedal.png",
-                        Time: "255w",
-                        Attempts: 0
+                        Time: "2016-02-12T18:58:26.000Z",
+                        Attempts: 1
                     },
                     {
                         Group: "Badges",
