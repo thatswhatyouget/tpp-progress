@@ -225,6 +225,30 @@ ul.controls > li > ul > li > * {
 	border:none;
 }
 
+.progressChart .run .event.fastforward::before {
+ 	content:'';
+	border-left:3px solid rgba(0,0,0,.5);
+	height:1em;
+	position:absolute;
+	left:0;
+	bottom:100%; 
+}
+
+.progressChart .run .event.fastforward::after {
+    position: absolute;
+    left:0;
+    bottom:calc(100% + 1em);
+    content:'\f04b\f04b';
+    letter-spacing: -.25em;
+    font-family: FontAwesome;
+    color:rgba(0,0,0,1);;
+    transform: translateX(-45%);
+}
+
+.progressChart .run .event.modeswitches {
+    background-color:rgba(0,0,0,.5);
+}
+
 .progressChart .run .event[data-label]:hover::before, .progressChart .run .run:hover::before {
 	content:'';
 	border-left:3px solid black;
@@ -250,6 +274,7 @@ ul.controls > li > ul > li > * {
 	padding:.1em .5em;
 	white-space: pre;
 	transform: translateX(-50%);
+    letter-spacing: 0;
 }
 
 .progressChart .run .run:hover::before, .progressChart .run .run:hover::after {

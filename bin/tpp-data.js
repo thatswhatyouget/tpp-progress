@@ -3216,7 +3216,7 @@ var tppData = [
                         Group: "Badges",
                         Name: "Water Medal",
                         Image: "http://cdn.bulbagarden.net/upload/4/4b/TCG1_WaterMedal.png",
-                        Time: "2016-02-12T18:58:26.000Z",
+                        Time: "2016-02-12T18:57:40Z",
                         Attempts: 1
                     },
                     {
@@ -3230,8 +3230,8 @@ var tppData = [
                         Group: "Badges",
                         Name: "Psychic Medal",
                         Image: "http://cdn.bulbagarden.net/upload/e/ec/TCG1_PsychicMedal.png",
-                        Time: "255w",
-                        Attempts: 0
+                        Time: "2016-02-13T01:35:00Z",
+                        Attempts: 1
                     },
                     {
                         Group: "Badges",
@@ -3282,6 +3282,12 @@ var tppData = [
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xx9f3/tcg_ronald_kaiba_sprite/",
                         Time: "255w",
                         Attempts: 0
+                    },
+                    {
+                        Group: "Mode Switches",
+                        Name: "Became Primary Game",
+                        Class: "fastforward",
+                        Time: "2016-02-12T06:57:40Z"
                     },
                 ]
             },

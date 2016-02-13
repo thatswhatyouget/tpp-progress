@@ -25,8 +25,9 @@ module TPP {
 
 	export interface Event {
 		Group: string;
-		Image: string;
-		ImageSource?: string;
+		Image?: string;
+        ImageSource?: string;
+        Class?: string;
 		Name: string;
 		Estimate?: boolean;
 		Time: string;

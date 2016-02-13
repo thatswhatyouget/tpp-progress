@@ -208,14 +208,16 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
     var groupName = eventInfo.Group.replace(/[^A-Z0-9]/ig, '').toLowerCase();
     var event = document.createElement("div");
     var eventImg = document.createElement("img");
-    if (eventInfo.ImageSource) {
-        var imgSource = document.createElement("a");
-        event.appendChild(imgSource);
-        imgSource.appendChild(eventImg);
-        imgSource.setAttribute("href", eventInfo.ImageSource);
-        imgSource.setAttribute("target", "_blank");
+    if (eventInfo.Image) {
+        if (eventInfo.ImageSource) {
+            var imgSource = document.createElement("a");
+            event.appendChild(imgSource);
+            imgSource.appendChild(eventImg);
+            imgSource.setAttribute("href", eventInfo.ImageSource);
+            imgSource.setAttribute("target", "_blank");
+        }
+        else event.appendChild(eventImg);
     }
-    else event.appendChild(eventImg);
     event.className = "event " + groupName;
     var time = Duration.parse(eventInfo.Time, runInfo.StartTime);
     var label = eventInfo.Name;
@@ -230,6 +232,7 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
     event.setAttribute('data-label', label);
     event.setAttribute("data-time", eventInfo.Time);
     if (showGroups[groupName] === false) event.classList.add('hidden');
+    if (eventInfo.Class) event.classList.add(eventInfo.Class);
     groups[groupName] = eventInfo.Group;
     return event;
 }
