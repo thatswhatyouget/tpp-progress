@@ -10,11 +10,11 @@ function Scrape(run) {
     }).then(function (page) {
         var $lastUpdate = $(page).find('.last-update');
         run.Scraper.parts = run.Scraper.parts || ["Badge", "Elite Four"];
-        var $badges = $(page).find(run.Scraper.parts.map(function (p) { return "h3 strong:contains(" + p + ")"; }).join(','));
+        var $events = $(page).find(run.Scraper.parts.map(function (p) { return "h3 strong:contains(" + p + ")"; }).join(','));
         if (run.Scraper.runtime && $lastUpdate.is('*')) {
             run.Duration = $lastUpdate.text().split(':').pop().trim();
         }
-        $badges.each(function (i, group) {
+        $events.each(function (i, group) {
             var $table = $(group).parent().next('.table-pokemon'), groupName = $(group).text();
             $table.find('th').each(function (i, th) {
                 var title = $(th).text();

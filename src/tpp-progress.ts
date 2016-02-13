@@ -162,13 +162,18 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
     if (runInfo.HostImage && runInfo.HostName) run.appendChild(drawHost(runInfo, scale));
     if (events) {
         if (runInfo.Scraper) setTimeout(() => run.setAttribute("data-json", JSON.stringify(runInfo)), 10);
-        var id = runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase(), original = id;
-        for (var i = 1; document.getElementById(id); id = original + i++);
-        run.setAttribute("id", id);
-        runInfo.Events.sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
+        setUniqueId(run, runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
+        importEvents(runInfo);
+        runInfo.Events.filter(e=>Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0).sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
         drawVideos(runInfo, run, scale);
     }
     drawConcurrentRuns(runInfo, run, scale);
+}
+
+function setUniqueId(element: HTMLElement, id: string) {
+    var original = id;
+    for (var i = 1; document.getElementById(id); id = original + i++);
+    element.setAttribute("id", id);
 }
 
 function drawHost(runInfo: TPP.Run, scale: TPP.Scale) {
@@ -200,8 +205,16 @@ function drawConcurrentRuns(baseRunInfo: TPP.Run, runElement: HTMLDivElement, sc
             innerRun.setAttribute("data-endtime", runEnd.toString(TPP.Scale.Weeks));
         }
         runEnd.TotalSeconds += runStart.TotalSeconds;
-        innerRun.setAttribute('data-label', r.RunName + "\nStarted: " + runStart.toString(scale) + "\nEnded: " + runEnd.toString(scale));
+        innerRun.classList.add("inner" + r.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
+        innerRun.setAttribute('data-label', (c.SingularName || c.Name) + "\n" + r.RunName + "\nStarted: " + runStart.toString(scale) + (r.Ongoing ? "" : "\nEnded: " + runEnd.toString(scale)));
     }));
+}
+
+function importEvents(baseRunInfo: TPP.Run) {
+    if (!baseRunInfo.CopyEvents) return;
+    var events: TPP.Event[] = [];
+    tppData.forEach(c=> c.Runs.filter(r=> baseRunInfo.CopyEvents.indexOf(r.RunName) >= 0).forEach(r=> events = events.concat.apply(events, r.Events)));
+    events.forEach(e=> !baseRunInfo.Events.filter(e2=> e2.Name == e.Name && e2.Time == e.Time).length ? baseRunInfo.Events.push(e) && console.log("Added event " + e.Name) : console.log("Skipped event " + e.Name));
 }
 
 function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
@@ -223,14 +236,14 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
     var label = eventInfo.Name;
     if (eventInfo.Time) {
         label += "\n" + time.toString(scale);
-        eventInfo.Time = time.toString(TPP.Scale.Weeks);
+        //eventInfo.Time = time.toString(TPP.Scale.Weeks);
     }
     if (eventInfo.Estimate) label += "\n(estimated)";
     if (eventInfo.Attempts) label += "\n(" + eventInfo.Attempts + " Attempt" + (eventInfo.Attempts > 1 ? "s" : "") + ")";
     eventImg.src = eventInfo.Image;
     eventImg.alt = label;
     event.setAttribute('data-label', label);
-    event.setAttribute("data-time", eventInfo.Time);
+    event.setAttribute("data-time", time.toString(TPP.Scale.Weeks));
     if (showGroups[groupName] === false) event.classList.add('hidden');
     if (eventInfo.Class) event.classList.add(eventInfo.Class);
     groups[groupName] = eventInfo.Group;

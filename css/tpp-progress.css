@@ -216,8 +216,8 @@ ul.controls > li > ul > li > * {
 .progressChart .run .event img {
 	position:absolute;
 	left:0;
-	top:-1px;
-	height:	50px;
+	top:0;
+	height:	48px;
 	width:auto;
 	z-index:1;
 	transform: translateX(-50%);
@@ -279,6 +279,10 @@ ul.controls > li > ul > li > * {
 
 .progressChart .run .run:hover::before, .progressChart .run .run:hover::after {
     left:50%;   
+}
+
+.progressChart .run .run:hover::before, .progressChart .run .run:hover::after {
+    left:-2px;   
 }
 
 .progressChart .run .event.champions img, .progressChart .run .event.elitefour img, .progressChart .run .event.elitefourrematch img, .progressChart .run .event.pasthosts img , .progressChart .run .event.bosses img, .progressChart .run .event.finalbosses img {
@@ -355,6 +359,10 @@ ul.controls > li > ul > li > * {
 .progressChart #moemon.run:hover::before {
 	bottom:-1.5em;
 	top:auto;
+}
+
+.progressChart #tradingcardgame .innertradingcardgame .event {
+    display: none;
 }
 
 @media print {

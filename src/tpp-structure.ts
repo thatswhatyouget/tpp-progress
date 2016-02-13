@@ -20,7 +20,8 @@ module TPP {
         };
         ContainsRunsFrom?: string[];
         Unfinished?: boolean;
-		Events: Event[];
+        Events: Event[];
+        CopyEvents?: string[];
 	}
 
 	export interface Event {
@@ -36,6 +37,7 @@ module TPP {
     
     export interface Collection {
         Name: string;
+        SingularName?: string;
         Scale: Scale;
         Runs: Run[];
     }

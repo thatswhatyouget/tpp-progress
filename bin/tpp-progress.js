@@ -183,14 +183,18 @@ function drawRun(runInfo, run, scale, events) {
     if (events) {
         if (runInfo.Scraper)
             setTimeout(function () { return run.setAttribute("data-json", JSON.stringify(runInfo)); }, 10);
-        var id = runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase(), original = id;
-        for (var i = 1; document.getElementById(id); id = original + i++)
-            ;
-        run.setAttribute("id", id);
-        runInfo.Events.sort(function (e1, e2) { return Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
+        setUniqueId(run, runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
+        importEvents(runInfo);
+        runInfo.Events.filter(function (e) { return Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0; }).sort(function (e1, e2) { return Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
         drawVideos(runInfo, run, scale);
     }
     drawConcurrentRuns(runInfo, run, scale);
+}
+function setUniqueId(element, id) {
+    var original = id;
+    for (var i = 1; document.getElementById(id); id = original + i++)
+        ;
+    element.setAttribute("id", id);
 }
 function drawHost(runInfo, scale) {
     var host = drawEvent({
@@ -219,8 +223,16 @@ function drawConcurrentRuns(baseRunInfo, runElement, scale) {
             innerRun.setAttribute("data-endtime", runEnd.toString(TPP.Scale.Weeks));
         }
         runEnd.TotalSeconds += runStart.TotalSeconds;
-        innerRun.setAttribute('data-label', r.RunName + "\nStarted: " + runStart.toString(scale) + "\nEnded: " + runEnd.toString(scale));
+        innerRun.classList.add("inner" + r.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
+        innerRun.setAttribute('data-label', (c.SingularName || c.Name) + "\n" + r.RunName + "\nStarted: " + runStart.toString(scale) + (r.Ongoing ? "" : "\nEnded: " + runEnd.toString(scale)));
     }); });
+}
+function importEvents(baseRunInfo) {
+    if (!baseRunInfo.CopyEvents)
+        return;
+    var events = [];
+    tppData.forEach(function (c) { return c.Runs.filter(function (r) { return baseRunInfo.CopyEvents.indexOf(r.RunName) >= 0; }).forEach(function (r) { return events = events.concat.apply(events, r.Events); }); });
+    events.forEach(function (e) { return !baseRunInfo.Events.filter(function (e2) { return e2.Name == e.Name && e2.Time == e.Time; }).length ? baseRunInfo.Events.push(e) && console.log("Added event " + e.Name) : console.log("Skipped event " + e.Name); });
 }
 function drawEvent(eventInfo, runInfo, scale) {
     var groupName = eventInfo.Group.replace(/[^A-Z0-9]/ig, '').toLowerCase();
@@ -242,7 +254,6 @@ function drawEvent(eventInfo, runInfo, scale) {
     var label = eventInfo.Name;
     if (eventInfo.Time) {
         label += "\n" + time.toString(scale);
-        eventInfo.Time = time.toString(TPP.Scale.Weeks);
     }
     if (eventInfo.Estimate)
         label += "\n(estimated)";
@@ -251,7 +262,7 @@ function drawEvent(eventInfo, runInfo, scale) {
     eventImg.src = eventInfo.Image;
     eventImg.alt = label;
     event.setAttribute('data-label', label);
-    event.setAttribute("data-time", eventInfo.Time);
+    event.setAttribute("data-time", time.toString(TPP.Scale.Weeks));
     if (showGroups[groupName] === false)
         event.classList.add('hidden');
     if (eventInfo.Class)

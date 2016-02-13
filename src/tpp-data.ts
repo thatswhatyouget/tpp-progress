@@ -3229,7 +3229,7 @@ var tppData: TPP.Collection[] = [
                 StartDate: "2015-12-21T01:52:47Z",
                 ColorPrimary: "#e0e0c0",
                 ColorSecondary: "#e00000",
-                ContainsRunsFrom: ["Season 3"],
+                ContainsRunsFrom: ["Season 3", "Intermissions"],
                 Duration: new Date().toISOString(),
                 Ongoing: true,
                 HostName: "YUGI",
@@ -3328,12 +3328,12 @@ var tppData: TPP.Collection[] = [
                         Time: "255w",
                         Attempts: 0
                     },
-                    {
-                        Group: "Mode Switches",
-                        Name: "Became Primary Game",
-                        Class: "fastforward",
-                        Time: "2016-02-12T06:57:40Z"
-                    },
+                    // {
+                    //     Group: "Mode Switches",
+                    //     Name: "Became Primary Game",
+                    //     Class: "fastforward",
+                    //     Time: "2016-02-12T06:57:40Z"
+                    // },
                 ]
             },
             {
@@ -3354,6 +3354,7 @@ var tppData: TPP.Collection[] = [
     },
     {
         Name: "Intermissions",
+        SingularName: "Intermission",
         Scale: TPP.Scale.Hours,
         Runs: [
             {
@@ -3799,11 +3800,25 @@ var tppData: TPP.Collection[] = [
             //     HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
             //     Unfinished: true,
             //     Events: []
-            // }
+            // },
+                        {
+                RunName: "Trading Card Game",
+                StartDate: "2016-02-12T06:57:40Z",
+                ColorPrimary: "#d4d4cc",
+                ColorSecondary: "#c31d1d",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                HostName: "YUGI",
+                HostImage: "img/hosts/yugi.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xq7en/meet_yugi/",
+                Events: [],
+                CopyEvents: ["Trading Card Game"] 
+            },
         ]
     },
     {
         Name: "Short Intermissions",
+        SingularName: "Short Intermission",
         Scale: TPP.Scale.Minutes,
         Runs: [
             {

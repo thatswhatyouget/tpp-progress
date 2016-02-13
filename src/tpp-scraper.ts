@@ -11,11 +11,11 @@ function Scrape(run: TPP.Run) {
         //page.replace(/\bsrc=/ig, 'data-src=');
         var $lastUpdate = $(page).find('.last-update');
         run.Scraper.parts = run.Scraper.parts || ["Badge", "Elite Four"];
-        var $badges = $(page).find(run.Scraper.parts.map(p=> "h3 strong:contains(" + p + ")").join(','));
+        var $events = $(page).find(run.Scraper.parts.map(p=> "h3 strong:contains(" + p + ")").join(','));
         if (run.Scraper.runtime && $lastUpdate.is('*')) {
             run.Duration = $lastUpdate.text().split(':').pop().trim();
         }
-        $badges.each((i, group) => {
+        $events.each((i, group) => {
             var $table = $(group).parent().next('.table-pokemon'), groupName = $(group).text();
             $table.find('th').each((i, th) => {
                 var title = $(th).text();
