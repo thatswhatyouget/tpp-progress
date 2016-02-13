@@ -3251,8 +3251,8 @@ var tppData = [
                         Group: "Elite Four",
                         Name: "Courtney",
                         Image: "http://cdn.bulbagarden.net/upload/3/3f/Grand_Master_Courtney.png",
-                        Time: "255w",
-                        Attempts: 0
+                        Time: "2016-02-13T15:08:08Z",
+                        Attempts: 1
                     },
                     {
                         Group: "Elite Four",

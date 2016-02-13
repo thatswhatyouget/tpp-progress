@@ -361,8 +361,13 @@ ul.controls > li > ul > li > * {
 	top:auto;
 }
 
-.progressChart #tradingcardgame .innertradingcardgame .event {
+.progressChart .tradingcardgame .innertradingcardgame .event {
     display: none;
+}
+
+.progressChart .tradingcardgame .event.elitefour img {
+    height:48px;
+    top:0;
 }
 
 @media print {

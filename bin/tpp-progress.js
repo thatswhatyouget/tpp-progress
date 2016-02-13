@@ -178,12 +178,14 @@ function drawRun(runInfo, run, scale, events) {
     run.setAttribute("data-label", runInfo.RunName + ": " + duration.toString(scale));
     run.style.backgroundColor = runInfo.ColorPrimary;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
+    var id = runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase();
+    run.classList.add(id);
     if (runInfo.HostImage && runInfo.HostName)
         run.appendChild(drawHost(runInfo, scale));
     if (events) {
         if (runInfo.Scraper)
             setTimeout(function () { return run.setAttribute("data-json", JSON.stringify(runInfo)); }, 10);
-        setUniqueId(run, runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
+        setUniqueId(run, id);
         importEvents(runInfo);
         runInfo.Events.filter(function (e) { return Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0; }).sort(function (e1, e2) { return Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
         drawVideos(runInfo, run, scale);

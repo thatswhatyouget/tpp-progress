@@ -159,10 +159,12 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
     run.setAttribute("data-label", runInfo.RunName + ": " + duration.toString(scale));
     run.style.backgroundColor = runInfo.ColorPrimary;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
+    var id = runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase();
+    run.classList.add(id);
     if (runInfo.HostImage && runInfo.HostName) run.appendChild(drawHost(runInfo, scale));
     if (events) {
         if (runInfo.Scraper) setTimeout(() => run.setAttribute("data-json", JSON.stringify(runInfo)), 10);
-        setUniqueId(run, runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
+        setUniqueId(run, id);
         importEvents(runInfo);
         runInfo.Events.filter(e=>Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0).sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
         drawVideos(runInfo, run, scale);
