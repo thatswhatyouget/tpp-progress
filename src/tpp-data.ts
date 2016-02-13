@@ -3303,8 +3303,8 @@ var tppData: TPP.Collection[] = [
                         Group: "Elite Four",
                         Name: "Steve",
                         Image: "http://cdn.bulbagarden.net/upload/8/83/Grand_Master_Steve.png",
-                        Time: "255w",
-                        Attempts: 0
+                        Time: "2016-02-13T23:24:10Z",
+                        Attempts: 2
                     },
                     {
                         Group: "Elite Four",
