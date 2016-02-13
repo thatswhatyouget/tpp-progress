@@ -211,7 +211,7 @@ ul.controls > li > ul > li > * {
 	margin-left:-1px;
 	height:49px;
 	left:0;
-	transition: left 2s ease-in-out;
+	transition: left 2s ease-in-out, opacity 2s ease-in-out;
 }
 .progressChart .run .event img {
 	position:absolute;
@@ -346,8 +346,6 @@ ul.controls > li > ul > li > * {
 
 .progressChart .run .event.hidden, .progressChart .run .videos.hidden {
 	pointer-events: none;
-}
-.progressChart .run .event.hidden img, .progressChart .run .videos.hidden a {
     opacity: 0;   
 }
 
@@ -384,6 +382,9 @@ ul.controls > li > ul > li > * {
     }
 }
 
+.progressChart .run .videos {
+    transition: opacity 2s ease-in-out;
+}
 
 .progressChart .run .videos a {
     display: block;
