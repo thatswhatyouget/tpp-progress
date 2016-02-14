@@ -13,7 +13,8 @@ function Scrape(run: TPP.Run) {
         run.Scraper.parts = run.Scraper.parts || ["Badge", "Elite Four"];
         var $events = $(page).find(run.Scraper.parts.map(p=> "h3 strong:contains(" + p + ")").join(','));
         if (run.Scraper.runtime && $lastUpdate.is('*')) {
-            run.Duration = $lastUpdate.text().split(':').pop().trim();
+            run.Duration = ($lastUpdate.text().split(':').pop() || "0d").trim();
+            if (!Duration.parse(run.Duration).TotalSeconds, run.StartTime) run.Duration = new Date().toISOString();
         }
         $events.each((i, group) => {
             var $table = $(group).parent().next('.table-pokemon'), groupName = $(group).text();
