@@ -3015,11 +3015,11 @@ var tppData = [
                 Ongoing: true,
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
-                HostName: "???",
+                HostImage: "img/hosts/evan.png",
+                HostName: "EVAN",
                 Scraper: {
                     url: "http://twitchplayspokemon.org",
                     runtime: true,
-                    hostname: true,
                     parts: ["Badge", "Elite Four"],
                     pokemon: true
                 },

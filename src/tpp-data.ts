@@ -3055,13 +3055,11 @@ var tppData: TPP.Collection[] = [
                 Ongoing: true,
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
-                //HostImage: "http://cdn.bulbagarden.net/upload/9/9e/Spr_C_Kris.png",
-                //HostImage: "http://cdn.bulbagarden.net/upload/2/2d/Spr_C_Ethan.png",
-                HostName: "???",
+                HostImage: "img/hosts/evan.png",
+                HostName: "EVAN",
                 Scraper: {
                     url: "http://twitchplayspokemon.org",
                     runtime: true,
-                    hostname: true,
                     parts: ["Badge", "Elite Four"],
                     pokemon: true
                 },
