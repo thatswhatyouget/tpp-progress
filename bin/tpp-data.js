@@ -3784,9 +3784,9 @@ var tppData = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Kabuto Coin",
+                        Name: "Fighting Coin",
                         Image: "http://cdn.bulbagarden.net/upload/c/c2/Coin_Kabuto_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-02-14T16:37:15Z"
                     },
                     {
                         Group: "Badges",

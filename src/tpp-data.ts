@@ -3861,9 +3861,9 @@ var tppData: TPP.Collection[] = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Kabuto Coin",
+                        Name: "Fighting Coin", //Kabuto Coin
                         Image: "http://cdn.bulbagarden.net/upload/c/c2/Coin_Kabuto_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-02-14T16:37:15Z"
                     },
                     {
                         Group: "Badges",
