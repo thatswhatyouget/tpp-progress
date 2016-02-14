@@ -116,6 +116,7 @@ function createChart(data: TPP.Collection) {
     var chart = document.createElement("div");
     chart.className = "progressChart";
     chart.setAttribute("data-label", data.Name);
+    setUniqueId(chart, data.Name); 
     chart.setAttribute("data-scale", TPP.Scale[data.Scale]);
     var pageTarget = fakeQuery(".charts")[0] || document.body;
     setTimeout(() => pageTarget.appendChild(chart), 1);
@@ -159,12 +160,10 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
     run.setAttribute("data-label", runInfo.RunName + ": " + duration.toString(scale));
     run.style.backgroundColor = runInfo.ColorPrimary;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
-    var id = runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase();
-    run.classList.add(id);
+    setUniqueId(run, runInfo.RunName);
     if (runInfo.HostImage && runInfo.HostName) run.appendChild(drawHost(runInfo, scale));
     if (events) {
         if (runInfo.Scraper) setTimeout(() => run.setAttribute("data-json", JSON.stringify(runInfo)), 10);
-        setUniqueId(run, id);
         importEvents(runInfo);
         runInfo.Events.filter(e=> Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0).sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
         drawVideos(runInfo, run, scale);
@@ -173,9 +172,10 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
 }
 
 function setUniqueId(element: HTMLElement, id: string) {
-    var original = id;
+    var original = id = id.replace(/[^A-Z0-9]/ig, '').toLowerCase();
     for (var i = 1; document.getElementById(id); id = original + i++);
     element.setAttribute("id", id);
+    element.classList.add(original);
 }
 
 function drawHost(runInfo: TPP.Run, scale: TPP.Scale) {

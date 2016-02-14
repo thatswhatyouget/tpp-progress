@@ -130,6 +130,7 @@ function createChart(data) {
     var chart = document.createElement("div");
     chart.className = "progressChart";
     chart.setAttribute("data-label", data.Name);
+    setUniqueId(chart, data.Name);
     chart.setAttribute("data-scale", TPP.Scale[data.Scale]);
     var pageTarget = fakeQuery(".charts")[0] || document.body;
     setTimeout(function () { return pageTarget.appendChild(chart); }, 1);
@@ -178,14 +179,12 @@ function drawRun(runInfo, run, scale, events) {
     run.setAttribute("data-label", runInfo.RunName + ": " + duration.toString(scale));
     run.style.backgroundColor = runInfo.ColorPrimary;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
-    var id = runInfo.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase();
-    run.classList.add(id);
+    setUniqueId(run, runInfo.RunName);
     if (runInfo.HostImage && runInfo.HostName)
         run.appendChild(drawHost(runInfo, scale));
     if (events) {
         if (runInfo.Scraper)
             setTimeout(function () { return run.setAttribute("data-json", JSON.stringify(runInfo)); }, 10);
-        setUniqueId(run, id);
         importEvents(runInfo);
         runInfo.Events.filter(function (e) { return Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0; }).sort(function (e1, e2) { return Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
         drawVideos(runInfo, run, scale);
@@ -193,10 +192,11 @@ function drawRun(runInfo, run, scale, events) {
     drawConcurrentRuns(runInfo, run, scale);
 }
 function setUniqueId(element, id) {
-    var original = id;
+    var original = id = id.replace(/[^A-Z0-9]/ig, '').toLowerCase();
     for (var i = 1; document.getElementById(id); id = original + i++)
         ;
     element.setAttribute("id", id);
+    element.classList.add(original);
 }
 function drawHost(runInfo, scale) {
     var host = drawEvent({
