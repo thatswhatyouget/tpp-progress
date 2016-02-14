@@ -281,7 +281,7 @@ ul.controls > li > ul > li > * {
     left:50%;   
 }
 
-.progressChart .run .run:hover::before, .progressChart .run .run:hover::after {
+.progressChart .run .run.ongoing:hover::before, .progressChart .run .run.ongoing:hover::after {
     left:-2px;   
 }
 

@@ -166,7 +166,7 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
         if (runInfo.Scraper) setTimeout(() => run.setAttribute("data-json", JSON.stringify(runInfo)), 10);
         setUniqueId(run, id);
         importEvents(runInfo);
-        runInfo.Events.filter(e=>Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0).sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
+        runInfo.Events.filter(e=> Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0).sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
         drawVideos(runInfo, run, scale);
     }
     drawConcurrentRuns(runInfo, run, scale);
@@ -197,7 +197,7 @@ function drawConcurrentRuns(baseRunInfo: TPP.Run, runElement: HTMLDivElement, sc
     tppData.filter(c=> baseRunInfo.ContainsRunsFrom.indexOf(c.Name) >= 0).map(c=> c.Runs.filter(r=> baseRunInfo.StartTime < r.StartTime && baseEndTime > r.StartTime).forEach(r=> {
         var innerRun = document.createElement("div");
         var runStart = Duration.parse(r.StartDate, baseRunInfo.StartTime),
-            runEnd = Duration.parse(r.Duration);
+            runEnd = Duration.parse(r.Duration, r.StartTime);
         innerRun.setAttribute("data-time", runStart.toString(TPP.Scale.Weeks));
         runElement.appendChild(innerRun);
         drawRun(r, innerRun, scale, false);
@@ -216,7 +216,7 @@ function importEvents(baseRunInfo: TPP.Run) {
     if (!baseRunInfo.CopyEvents) return;
     var events: TPP.Event[] = [];
     tppData.forEach(c=> c.Runs.filter(r=> baseRunInfo.CopyEvents.indexOf(r.RunName) >= 0).forEach(r=> events = events.concat.apply(events, r.Events)));
-    events.forEach(e=> !baseRunInfo.Events.filter(e2=> e2.Name == e.Name && e2.Time == e.Time).length ? baseRunInfo.Events.push(e) && console.log("Added event " + e.Name) : console.log("Skipped event " + e.Name));
+    events.forEach(e=> !baseRunInfo.Events.filter(e2=> e2.Name == e.Name && e2.Time == e.Time).length ? baseRunInfo.Events.push(e) : console.log("Skipped event " + e.Name));
 }
 
 function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
@@ -357,7 +357,6 @@ function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP
     videos.then(vids=> Array.prototype.concat.apply(vids, extraVids))
         .then(vids=> vids.filter(vid=> (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime)
         ).forEach(vid=> {
-            console.log(baseRunInfo.RunName + " video: " + vid.url);
             var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0),
                 runEnd = baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds;
             if (vid.StartTime < baseRunInfo.StartTime) {

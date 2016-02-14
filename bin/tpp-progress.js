@@ -215,7 +215,7 @@ function drawConcurrentRuns(baseRunInfo, runElement, scale) {
     var baseDuration = Duration.parse(baseRunInfo.Duration), baseEndTime = baseRunInfo.StartTime + baseDuration.TotalSeconds;
     tppData.filter(function (c) { return baseRunInfo.ContainsRunsFrom.indexOf(c.Name) >= 0; }).map(function (c) { return c.Runs.filter(function (r) { return baseRunInfo.StartTime < r.StartTime && baseEndTime > r.StartTime; }).forEach(function (r) {
         var innerRun = document.createElement("div");
-        var runStart = Duration.parse(r.StartDate, baseRunInfo.StartTime), runEnd = Duration.parse(r.Duration);
+        var runStart = Duration.parse(r.StartDate, baseRunInfo.StartTime), runEnd = Duration.parse(r.Duration, r.StartTime);
         innerRun.setAttribute("data-time", runStart.toString(TPP.Scale.Weeks));
         runElement.appendChild(innerRun);
         drawRun(r, innerRun, scale, false);
@@ -234,7 +234,7 @@ function importEvents(baseRunInfo) {
         return;
     var events = [];
     tppData.forEach(function (c) { return c.Runs.filter(function (r) { return baseRunInfo.CopyEvents.indexOf(r.RunName) >= 0; }).forEach(function (r) { return events = events.concat.apply(events, r.Events); }); });
-    events.forEach(function (e) { return !baseRunInfo.Events.filter(function (e2) { return e2.Name == e.Name && e2.Time == e.Time; }).length ? baseRunInfo.Events.push(e) && console.log("Added event " + e.Name) : console.log("Skipped event " + e.Name); });
+    events.forEach(function (e) { return !baseRunInfo.Events.filter(function (e2) { return e2.Name == e.Name && e2.Time == e.Time; }).length ? baseRunInfo.Events.push(e) : console.log("Skipped event " + e.Name); });
 }
 function drawEvent(eventInfo, runInfo, scale) {
     var groupName = eventInfo.Group.replace(/[^A-Z0-9]/ig, '').toLowerCase();
@@ -376,7 +376,6 @@ function drawVideos(baseRunInfo, runElement, scale) {
     var vidDiv = $('<div class="videos">').appendTo(runElement);
     videos.then(function (vids) { return Array.prototype.concat.apply(vids, extraVids); })
         .then(function (vids) { return vids.filter(function (vid) { return (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime); }).forEach(function (vid) {
-        console.log(baseRunInfo.RunName + " video: " + vid.url);
         var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0), runEnd = baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds;
         if (vid.StartTime < baseRunInfo.StartTime) {
             time = 0;

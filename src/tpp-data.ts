@@ -3229,9 +3229,8 @@ var tppData: TPP.Collection[] = [
                 StartDate: "2015-12-21T01:52:47Z",
                 ColorPrimary: "#e0e0c0",
                 ColorSecondary: "#e00000",
-                ContainsRunsFrom: ["Season 3", "Intermissions"],
-                Duration: new Date().toISOString(),
-                Ongoing: true,
+                ContainsRunsFrom: ["Intermissions"],
+                Duration: "2016-02-14T02:17:53Z",
                 HostName: "YUGI",
                 HostImage: "img/hosts/yugi.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xq7en/meet_yugi/",
@@ -3325,8 +3324,8 @@ var tppData: TPP.Collection[] = [
                         Name: "Ronald",
                         Image: "img/tcg/ronald.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xx9f3/tcg_ronald_kaiba_sprite/",
-                        Time: "255w",
-                        Attempts: 0
+                        Time: "2016-02-14T02:17:53Z",
+                        Attempts: 1
                     },
                     // {
                     //     Group: "Mode Switches",
@@ -3801,18 +3800,29 @@ var tppData: TPP.Collection[] = [
             //     Unfinished: true,
             //     Events: []
             // },
-                        {
+            {
                 RunName: "Trading Card Game",
                 StartDate: "2016-02-12T06:57:40Z",
                 ColorPrimary: "#d4d4cc",
                 ColorSecondary: "#c31d1d",
-                Duration: new Date().toISOString(),
-                Ongoing: true,
+                Duration: "2016-02-14T02:17:53Z",
                 HostName: "YUGI",
                 HostImage: "img/hosts/yugi.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xq7en/meet_yugi/",
                 Events: [],
-                CopyEvents: ["Trading Card Game"] 
+                CopyEvents: ["Trading Card Game"]
+            },
+            {
+                RunName: "Trading Card Game 2: The Invasion of Team GR!",
+                StartDate: "2016-02-14T02:31:00Z",
+                ColorPrimary: "#abd6fd",
+                ColorSecondary: "#002c94",
+                Ongoing: true,
+                Duration: new Date().toISOString(),
+                HostName: "Mint",
+                HostImage: "img/hosts/mint.png",
+                HostImageSource: "http://ryuki-stardust.deviantart.com/art/Pokemon-TCG-Mark-and-Mint-160913403",
+                Events: []
             },
         ]
     },
