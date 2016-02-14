@@ -3766,9 +3766,9 @@ var tppData = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Starmie Coin",
+                        Name: "Water Coin",
                         Image: "http://cdn.bulbagarden.net/upload/c/c4/Coin_Starmie_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-02-14T12:07:20Z"
                     },
                     {
                         Group: "Badges",
