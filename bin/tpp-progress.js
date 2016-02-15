@@ -190,8 +190,12 @@ function drawRun(runInfo, run, scale, events) {
         drawVideos(runInfo, run, scale);
     }
     drawConcurrentRuns(runInfo, run, scale);
-    $(run).on('click', function (e) { if (e.shiftKey)
-        $(this).hide(); });
+    $(run).on('click', function (e) {
+        if (e.shiftKey)
+            $(this).hide();
+        if (!$(this).siblings(".run:visible").is("*"))
+            $(this).parent().hide();
+    });
 }
 function setUniqueId(element, id) {
     var original = id = id.replace(/[^A-Z0-9]/ig, '').toLowerCase();

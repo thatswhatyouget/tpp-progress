@@ -169,7 +169,10 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
         drawVideos(runInfo, run, scale);
     }
     drawConcurrentRuns(runInfo, run, scale);
-    $(run).on('click', function(e) { if (e.shiftKey) $(this).hide(); });
+    $(run).on('click', function(e) { 
+        if (e.shiftKey) $(this).hide();
+        if (!$(this).siblings(".run:visible").is("*")) $(this).parent().hide();
+    });
 }
 
 function setUniqueId(element: HTMLElement, id: string) {
