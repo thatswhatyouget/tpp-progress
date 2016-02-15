@@ -1,4 +1,3 @@
-/// <reference path="tpp-structure" />
 var tppData = [
     {
         Name: "Season 1",
@@ -3023,22 +3022,7 @@ var tppData = [
                     parts: ["Badge", "Elite Four"],
                     pokemon: true
                 },
-                Events: [
-                    {
-                        Group: "Badges",
-                        Name: "Brock",
-                        Image: "http://twitchplayspokemon.org/img/badges/ac/boulder.png",
-                        Time: "0d 8h 28m",
-                        Attempts: 5
-                    },
-                    {
-                        Group: "Badges",
-                        Name: "Misty",
-                        Image: "http://twitchplayspokemon.org/img/badges/ac/cascade.png",
-                        Time: "0d 17h 47m",
-                        Attempts: 2
-                    },
-                ]
+                Events: []
             }
         ]
     },
