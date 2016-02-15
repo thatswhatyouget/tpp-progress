@@ -3023,7 +3023,15 @@ var tppData = [
                     parts: ["Badge", "Elite Four"],
                     pokemon: true
                 },
-                Events: []
+                Events: [
+                    {
+                        Group: "Badges",
+                        Name: "Brock",
+                        Image: "http://twitchplayspokemon.org/img/badges/ac/boulder.png",
+                        Time: "0d 8h 28m",
+                        Attempts: 5
+                    },
+                ]
             }
         ]
     },
