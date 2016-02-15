@@ -3046,7 +3046,7 @@ var tppData: TPP.Collection[] = [
     },
     {
         Name: "Season 3",
-        Scale: TPP.Scale.Hours,
+        Scale: TPP.Scale.Days,
         Runs: [
             {
                 RunName: "Anniversary Crystal",
