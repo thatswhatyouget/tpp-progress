@@ -190,6 +190,8 @@ function drawRun(runInfo, run, scale, events) {
         drawVideos(runInfo, run, scale);
     }
     drawConcurrentRuns(runInfo, run, scale);
+    $(run).on('click', function (e) { if (e.shiftKey)
+        $(this).hide(); });
 }
 function setUniqueId(element, id) {
     var original = id = id.replace(/[^A-Z0-9]/ig, '').toLowerCase();
@@ -421,3 +423,8 @@ function toggleGroup(element) {
     $('.' + group.replace(/[^A-Z0-9]/ig, '')).toggleClass("hidden", !visible);
     updatePage();
 }
+setTimeout(function () { return $('.run').on('click', function (e) {
+    alert("boop");
+    if (e.shiftKey)
+        $(this).hide();
+}); }, 10);

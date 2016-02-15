@@ -116,7 +116,7 @@ function createChart(data: TPP.Collection) {
     var chart = document.createElement("div");
     chart.className = "progressChart";
     chart.setAttribute("data-label", data.Name);
-    setUniqueId(chart, data.Name); 
+    setUniqueId(chart, data.Name);
     chart.setAttribute("data-scale", TPP.Scale[data.Scale]);
     var pageTarget = fakeQuery(".charts")[0] || document.body;
     setTimeout(() => pageTarget.appendChild(chart), 1);
@@ -169,6 +169,7 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
         drawVideos(runInfo, run, scale);
     }
     drawConcurrentRuns(runInfo, run, scale);
+    $(run).on('click', function(e) { if (e.shiftKey) $(this).hide(); });
 }
 
 function setUniqueId(element: HTMLElement, id: string) {
@@ -405,3 +406,8 @@ function toggleGroup(element: HTMLInputElement) {
     $('.' + group.replace(/[^A-Z0-9]/ig, '')).toggleClass("hidden", !visible);
     updatePage();
 }
+//hidden features
+setTimeout(() => $('.run').on('click', function(e) {
+    alert("boop");
+    if (e.shiftKey) $(this).hide();
+}), 10);
