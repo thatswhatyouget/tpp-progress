@@ -2913,6 +2913,12 @@ var tppData: TPP.Collection[] = [
                     pokemon: true
                 },
                 Events: [
+                    {
+                        Group: "Badges",
+                        Name: "Falkner",
+                        Image: "img/badges/zephyr.png",
+                        Time: "1d 9h 39m"
+                    },
                 ]
             }
         ]

@@ -2871,7 +2871,14 @@ var tppData = [
                     parts: ["Badge", "Elite Four"],
                     pokemon: true
                 },
-                Events: []
+                Events: [
+                    {
+                        Group: "Badges",
+                        Name: "Falkner",
+                        Image: "img/badges/zephyr.png",
+                        Time: "1d 9h 39m"
+                    },
+                ]
             }
         ]
     },
