@@ -2876,7 +2876,8 @@ var tppData = [
                         Group: "Badges",
                         Name: "Falkner",
                         Image: "img/badges/zephyr.png",
-                        Time: "1d 9h 39m"
+                        Time: "1d 9h 39m",
+                        Attempts: 1
                     },
                 ]
             }
