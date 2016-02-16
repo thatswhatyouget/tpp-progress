@@ -286,7 +286,7 @@ function applyScale(ppd) {
         chart.style.backgroundImage = 'url("' + makeGrid(ppd) + '")';
     });
     $find(fakeQuery(".progressChart .ruler"), ".stop").forEach(function (ruler) { return ruler.forEach(function (stop, i) {
-        var offset = parseInt($(stop).parents('.progressChart').data('offset') || '0');
+        var offset = parseFloat($(stop).parents('.progressChart').data('offset') || '0');
         stop.style.left = (i + offset) * ppd + "px";
     }); });
     fakeQuery(".progressChart > .run").forEach(function (run) {
@@ -311,7 +311,7 @@ function applyScale(ppd) {
         if (settings["explode"]) {
             staggerStackedEvents(events.filter(function (e) { return e.style.display != "none"; }), run.offsetHeight);
         }
-        var offset = parseInt($(run).parents('.progressChart').data('offset') || '0');
+        var offset = parseFloat($(run).parents('.progressChart').data('offset') || '0');
         run.style.marginLeft = offset * ppd + "px";
         $(run).find('.hosts').first().css('margin-left', -offset * ppd + "px");
     });

@@ -2909,17 +2909,10 @@ var tppData: TPP.Collection[] = [
                 Scraper: {
                     url: "http://twitchplayspokemon.org",
                     runtime: true,
-                    parts: ["Badge", "Elite Four"],
+                    parts: ["Badge", "Johto", "Elite Four"],
                     pokemon: true
                 },
                 Events: [
-                    {
-                        Group: "Badges",
-                        Name: "Falkner",
-                        Image: "img/badges/zephyr.png",
-                        Time: "1d 9h 39m",
-                        Attempts: 1
-                    },
                 ]
             }
         ]
