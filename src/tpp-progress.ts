@@ -383,7 +383,7 @@ function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP
                 runTime.TotalSeconds = (percentage * duration) + time;
                 $(this).attr('href', vid.url + "?t=" + vidTime.toString(TPP.Scale.Hours).replace(/\s/g, ''));
                 $(this).find('.playhead').css('left', percentage * $(this).width()).attr('data-label', runTime.toString(scale));
-            }).append($("<div class='playhead'>"));
+            }).click(e=>e.stopPropagation()).append($("<div class='playhead'>"));
             $(runElement).addClass("hasVideos");
             if (!$("#group-videos").is('*'))
                 $("<li>")
