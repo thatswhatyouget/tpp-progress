@@ -51,7 +51,6 @@ function Scrape(run: TPP.Run) {
                 if (!pkmn[title] && Duration.canParse(time))
                     pkmn[title] = {
                         Name: title,
-                        Image: $img.is('*') ? $img.attr('src').replace(/^\//, "http://twitchplayspokemon.org/") : "http://twitchplayspokemon.org/img/pokemon/sprites/menu-static/" + title.toLowerCase().replace(/\s+/g, '-').replace(/[^0-9A-Z-]/ig, '') + ".png",
                         Time: time,
                         Group: "Pokemon"
                     };

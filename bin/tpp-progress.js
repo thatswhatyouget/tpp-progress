@@ -244,6 +244,10 @@ function drawEvent(eventInfo, runInfo, scale) {
     var groupName = eventInfo.Group.replace(/[^A-Z0-9]/ig, '').toLowerCase();
     var event = document.createElement("div");
     var eventImg = document.createElement("img");
+    if (eventInfo.Group.toLowerCase() == "pokemon") {
+        eventInfo.Image = "img/missingno.png";
+        eventInfo.Class = eventInfo.Name;
+    }
     if (eventInfo.Image) {
         if (eventInfo.ImageSource) {
             var imgSource = document.createElement("a");
@@ -272,7 +276,7 @@ function drawEvent(eventInfo, runInfo, scale) {
     if (showGroups[groupName] === false)
         event.classList.add('hidden');
     if (eventInfo.Class)
-        event.classList.add(eventInfo.Class);
+        event.classList.add(eventInfo.Class.replace(/[^A-Z0-9]/ig, '').toLowerCase());
     groups[groupName] = eventInfo.Group;
     return event;
 }

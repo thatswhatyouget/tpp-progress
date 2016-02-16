@@ -227,6 +227,10 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
     var groupName = eventInfo.Group.replace(/[^A-Z0-9]/ig, '').toLowerCase();
     var event = document.createElement("div");
     var eventImg = document.createElement("img");
+    if (eventInfo.Group.toLowerCase() == "pokemon") {
+        eventInfo.Image = "img/missingno.png";
+        eventInfo.Class = eventInfo.Name;
+    }
     if (eventInfo.Image) {
         if (eventInfo.ImageSource) {
             var imgSource = document.createElement("a");
@@ -251,7 +255,7 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
     event.setAttribute('data-label', label);
     event.setAttribute("data-time", time.toString(TPP.Scale.Weeks));
     if (showGroups[groupName] === false) event.classList.add('hidden');
-    if (eventInfo.Class) event.classList.add(eventInfo.Class);
+    if (eventInfo.Class) event.classList.add(eventInfo.Class.replace(/[^A-Z0-9]/ig, '').toLowerCase());
     groups[groupName] = eventInfo.Group;
     return event;
 }

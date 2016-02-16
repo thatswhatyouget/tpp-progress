@@ -334,12 +334,19 @@ ul.controls > li > ul > li > * {
 }
 
 .progressChart .run .event.pokemon {
-	z-index:3;	
+	z-index:3;
 }
 
 .progressChart .run .event.pokemon img {
+    height:0;
+    width:0;
+    padding:20px;
 	top:50%;
 	margin:0 -25%;
+    background-image:url("../img/pokemon.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size:cover;
 }
 
 .progressChart .run .event:hover {
