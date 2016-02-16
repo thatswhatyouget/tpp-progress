@@ -14,7 +14,7 @@ function Scrape(run: TPP.Run) {
         var $events = $(page).find(run.Scraper.parts.map(p=> "h3 strong:contains(" + p + ")").join(','));
         if (run.Scraper.runtime && $lastUpdate.is('*')) {
             run.Duration = ($lastUpdate.text().split(':').pop() || "0d").trim();
-            if (!Duration.parse(run.Duration).TotalSeconds, run.StartTime) run.Duration = new Date().toISOString();
+            if (!Duration.canParse(run.Duration)) run.Duration = new Date().toISOString();
         }
         $events.each((i, group) => {
             var $table = $(group).parent().next('.table-pokemon'), groupName = $(group).text();
@@ -45,10 +45,10 @@ function Scrape(run: TPP.Run) {
                     var title = $element.attr('title').split('(').shift().trim();
                 }
                 else {
-                    var title = $img.attr('title');
+                    var title = $img.attr('title') || "";
                 }
                 var time = $element.text().replace(/[()]/g, '').trim();
-                if (!pkmn[title] && Duration.canParse(time))
+                if (!pkmn[title] /*&& title.toLowerCase() != "egg"*/ && Duration.canParse(time))
                     pkmn[title] = {
                         Name: title,
                         Time: time,

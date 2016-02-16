@@ -11,7 +11,7 @@ function Scrape(run) {
         var $events = $(page).find(run.Scraper.parts.map(function (p) { return "h3 strong:contains(" + p + ")"; }).join(','));
         if (run.Scraper.runtime && $lastUpdate.is('*')) {
             run.Duration = ($lastUpdate.text().split(':').pop() || "0d").trim();
-            if (!Duration.parse(run.Duration).TotalSeconds, run.StartTime)
+            if (!Duration.canParse(run.Duration))
                 run.Duration = new Date().toISOString();
         }
         $events.each(function (i, group) {
@@ -43,7 +43,7 @@ function Scrape(run) {
                     var title = $element.attr('title').split('(').shift().trim();
                 }
                 else {
-                    var title = $img.attr('title');
+                    var title = $img.attr('title') || "";
                 }
                 var time = $element.text().replace(/[()]/g, '').trim();
                 if (!pkmn[title] && Duration.canParse(time))

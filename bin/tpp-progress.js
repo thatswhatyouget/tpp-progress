@@ -282,14 +282,14 @@ function drawEvent(eventInfo, runInfo, scale) {
 }
 function applyScale(ppd) {
     globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || 64) / Math.log(2)));
-    var $ = fakeQuery;
-    $('.progressChart').forEach(function (chart) {
+    fakeQuery('.progressChart').forEach(function (chart) {
         chart.style.backgroundImage = 'url("' + makeGrid(ppd) + '")';
     });
-    $find($(".progressChart .ruler"), ".stop").forEach(function (ruler) { return ruler.forEach(function (stop, i) {
-        stop.style.left = i * ppd + "px";
+    $find(fakeQuery(".progressChart .ruler"), ".stop").forEach(function (ruler) { return ruler.forEach(function (stop, i) {
+        var offset = parseInt($(stop).parents('.progressChart').data('offset') || '0');
+        stop.style.left = (i + offset) * ppd + "px";
     }); });
-    $(".progressChart > .run").forEach(function (run) {
+    fakeQuery(".progressChart > .run").forEach(function (run) {
         var scale = TPP.Scale[run.parentElement.getAttribute('data-scale')] || TPP.Scale[run.parentElement.parentElement.getAttribute('data-scale')] || 0;
         var durationAttribute = settings["postgame"] ? "data-endtime" : "data-duration", duration = Duration.parse(run.getAttribute(durationAttribute));
         if (run.getAttribute(durationAttribute))
@@ -311,6 +311,9 @@ function applyScale(ppd) {
         if (settings["explode"]) {
             staggerStackedEvents(events.filter(function (e) { return e.style.display != "none"; }), run.offsetHeight);
         }
+        var offset = parseInt($(run).parents('.progressChart').data('offset') || '0');
+        run.style.marginLeft = offset * ppd + "px";
+        $(run).find('.hosts').first().css('margin-left', -offset * ppd + "px");
     });
 }
 function staggerStackedRuns(runs, runHeight) {
@@ -429,8 +432,10 @@ function toggleGroup(element) {
     $('.' + group.replace(/[^A-Z0-9]/ig, '')).toggleClass("hidden", !visible);
     updatePage();
 }
-setTimeout(function () { return $('.run').on('click', function (e) {
-    alert("boop");
-    if (e.shiftKey)
-        $(this).hide();
-}); }, 10);
+setTimeout(function () {
+    $('.run').click(function (e) {
+        if (e.shiftKey)
+            $(this).hide();
+        e.stopPropagation();
+    });
+}, 10);

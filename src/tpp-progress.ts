@@ -262,14 +262,14 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
 
 function applyScale(ppd?: number) {
     globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || 64) / Math.log(2))); //floor to power of 2
-    var $ = fakeQuery;
-    $('.progressChart').forEach(chart=> {
+    fakeQuery('.progressChart').forEach(chart=> {
         chart.style.backgroundImage = 'url("' + makeGrid(ppd) + '")';
     });
-    $find($(".progressChart .ruler"), ".stop").forEach(ruler=> ruler.forEach((stop, i) => {
-        stop.style.left = i * ppd + "px";
+    $find(fakeQuery(".progressChart .ruler"), ".stop").forEach(ruler=> ruler.forEach((stop, i) => {
+        var offset = parseInt($(stop).parents('.progressChart').data('offset') || '0');
+        stop.style.left = (i + offset) * ppd + "px";
     }));
-    $(".progressChart > .run").forEach(run=> {
+    fakeQuery(".progressChart > .run").forEach(run=> {
         var scale = TPP.Scale[run.parentElement.getAttribute('data-scale')] || TPP.Scale[run.parentElement.parentElement.getAttribute('data-scale')] || 0;
         var durationAttribute = settings["postgame"] ? "data-endtime" : "data-duration",
             duration = Duration.parse(run.getAttribute(durationAttribute));
@@ -291,6 +291,9 @@ function applyScale(ppd?: number) {
         if (settings["explode"]) {
             staggerStackedEvents(events.filter(e=> e.style.display != "none"), run.offsetHeight);
         }
+        var offset = parseInt($(run).parents('.progressChart').data('offset') || '0');
+        run.style.marginLeft = offset * ppd + "px";
+        $(run).find('.hosts').first().css('margin-left', -offset * ppd + "px");
     });
 }
 
@@ -414,7 +417,17 @@ function toggleGroup(element: HTMLInputElement) {
     updatePage();
 }
 //hidden features
-setTimeout(() => $('.run').on('click', function(e) {
-    alert("boop");
-    if (e.shiftKey) $(this).hide();
-}), 10);
+setTimeout(() => {
+    $('.run').click(function(e) {
+        if (e.shiftKey) $(this).hide();
+        e.stopPropagation();
+    });
+    // $('.progressChart').click(function(e) {
+    //     if (!(e.shiftKey || e.metaKey || e.ctrlKey)) return;
+    //     var offset = parseInt($(this).data('offset') || "0");
+    //     if (e.shiftKey) offset--;
+    //     else offset++;
+    //     $(this).data('offset', offset);
+    //     updatePage();
+    // });
+}, 10);

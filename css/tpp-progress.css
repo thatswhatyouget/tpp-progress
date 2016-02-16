@@ -102,6 +102,9 @@ ul.controls > li > ul > li > * {
 	background-position: 50px;
 	position:relative;
 	transition: all 2s ease-in-out;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .progressChart:before {
@@ -211,7 +214,7 @@ ul.controls > li > ul > li > * {
 	margin-left:-1px;
 	height:49px;
 	left:0;
-	transition: left 2s ease-in-out, opacity 2s ease-in-out;
+	transition: left 2s ease-in-out, margin 2s ease-in-out, opacity 2s ease-in-out;
 }
 .progressChart .run .event img {
 	position:absolute;
