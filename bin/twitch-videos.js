@@ -1,4 +1,3 @@
-/// <reference path="../ref/jquery" />
 var Twitch;
 (function (Twitch) {
     var Video = (function () {

@@ -17,56 +17,56 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Boulder Badge",
-                        Image: "http://cdn.bulbagarden.net/upload/d/dd/Boulder_Badge.png",
+                        Image: "img/badges/boulder.png",
                         ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "0d 9h 12m"
                     },
                     {
                         Group: "Badges",
                         Name: "Cascade Badge",
-                        Image: "http://cdn.bulbagarden.net/upload/9/9c/Cascade_Badge.png",
+                        Image: "img/badges/cascade.png",
                         ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "1d 18h 56m 38s"
                     },
                     {
                         Group: "Badges",
                         Name: "Thunder Badge",
-                        Image: "http://cdn.bulbagarden.net/upload/a/a6/Thunder_Badge.png",
+                        Image: "img/badges/thunder.png",
                         ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "2d 11h 29m"
                     },
                     {
                         Group: "Badges",
                         Name: "Rainbow Badge",
-                        Image: "http://cdn.bulbagarden.net/upload/b/b5/Rainbow_Badge.png",
+                        Image: "img/badges/rainbow.png",
                         ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "4d 0h 47m"
                     },
                     {
                         Group: "Badges",
                         Name: "Soul Badge",
-                        Image: "http://cdn.bulbagarden.net/upload/7/7d/Soul_Badge.png",
+                        Image: "img/badges/soul.png",
                         ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "8d 7h 18m"
                     },
                     {
                         Group: "Badges",
                         Name: "Marsh Badge",
-                        Image: "http://cdn.bulbagarden.net/upload/6/6b/Marsh_Badge.png",
+                        Image: "img/badges/marsh.png",
                         ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "9d 18h 25m"
                     },
                     {
                         Group: "Badges",
                         Name: "Volcano Badge",
-                        Image: "http://cdn.bulbagarden.net/upload/1/12/Volcano_Badge.png",
+                        Image: "img/badges/volcano.png",
                         ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "12d 8h 27m"
                     },
                     {
                         Group: "Badges",
                         Name: "Earth Badge",
-                        Image: "http://cdn.bulbagarden.net/upload/7/78/Earth_Badge.png",
+                        Image: "img/badges/earth.png",
                         ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "13d 13h 55m"
                     },
@@ -121,49 +121,49 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Zephyr Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/zephyr.png",
+                        Image: "img/badges/zephyr.png",
                         Time: "0d 8h 5m 14s"
                     },
                     {
                         Group: "Badges",
                         Name: "Hive Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/hive.png",
+                        Image: "img/badges/hive.png",
                         Time: "0d 20h 38m 0s"
                     },
                     {
                         Group: "Badges",
                         Name: "Plain Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/plain.png",
+                        Image: "img/badges/plain.png",
                         Time: "1d 5h 54m 8s"
                     },
                     {
                         Group: "Badges",
                         Name: "Fog Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/fog.png",
+                        Image: "img/badges/fog.png",
                         Time: "2d 14h 30m 3s"
                     },
                     {
                         Group: "Badges",
                         Name: "Glacier Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/glacier.png",
+                        Image: "img/badges/glacier.png",
                         Time: "4d 12h 18m 40s"
                     },
                     {
                         Group: "Badges",
                         Name: "Storm Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/storm.png",
+                        Image: "img/badges/storm.png",
                         Time: "3d 5h 30m 45s"
                     },
                     {
                         Group: "Badges",
                         Name: "Mineral Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/mineral.png",
+                        Image: "img/badges/mineral.png",
                         Time: "3d 16h 3m 0s"
                     },
                     {
                         Group: "Badges",
                         Name: "Rising Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/rising.png",
+                        Image: "img/badges/rising.png",
                         Time: "6d 23h 36m 0s"
                     },
                     {
@@ -204,56 +204,56 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Boulder Badge",
-                        Image: "http://cdn.bulbagarden.net/upload/d/dd/Boulder_Badge.png",
+                        Image: "img/badges/boulder.png",
                         ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "11d 16h 27m 28s"
                     },
                     {
                         Group: "Badges",
                         Name: "Cascade Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/cascade.png",
+                        Image: "img/badges/cascade.png",
                         Time: "11d 3h 21m 0s"
                     },
                     {
                         Group: "Badges",
                         Name: "Thunder Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/thunder.png",
+                        Image: "img/badges/thunder.png",
                         Time: "10d 4h 54m 0s"
                     },
                     {
                         Group: "Badges",
                         Name: "Rainbow Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/rainbow.png",
+                        Image: "img/badges/rainbow.png",
                         Time: "10d 8h 13m 46s"
                     },
                     {
                         Group: "Badges",
                         Name: "Soul Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/soul.png",
+                        Image: "img/badges/soul.png",
                         Time: "11d 10h 28m 31s"
                     },
                     {
                         Group: "Badges",
                         Name: "Marsh Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/marsh.png",
+                        Image: "img/badges/marsh.png",
                         Time: "10d 6h 19m 43s"
                     },
                     {
                         Group: "Badges",
                         Name: "Volcano Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/volcano.png",
+                        Image: "img/badges/volcano.png",
                         Time: "11d 19h 0m 0s"
                     },
                     {
                         Group: "Badges",
                         Name: "Earth Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/earth.png",
+                        Image: "img/badges/earth.png",
                         Time: "11d 22h 24m 42s"
                     },
                     {
-                        Group: "Champions",
+                        Group: "Past Hosts",
                         Name: "RED",
-                        Image: "http://cdn.bulbagarden.net/upload/d/d2/Spr_GS_Red.png",
+                        Image: "img/hosts/red.png",
                         Time: "13d 2h 2m",
                         Attempts: 7
                     }
@@ -273,56 +273,56 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Stone Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/stone.png",
+                        Image: "img/badges/stone.png",
                         Time: "1d 5h 42m",
                         Attempts: 9
                     },
                     {
                         Group: "Badges",
                         Name: "Knuckle Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/knuckle.png",
+                        Image: "img/badges/knuckle.png",
                         Time: "1d 18h 49m",
                         Attempts: 4
                     },
                     {
                         Group: "Badges",
                         Name: "Dynamo Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/dynamo.png",
+                        Image: "img/badges/dynamo.png",
                         Time: "4d 8h 31m",
                         Attempts: 23
                     },
                     {
                         Group: "Badges",
                         Name: "Heat Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/heat.png",
+                        Image: "img/badges/heat.png",
                         Time: "5d 16h 39m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Balance Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/balance.png",
+                        Image: "img/badges/balance.png",
                         Time: "5d 21h 57m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Feather Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/feather.png",
+                        Image: "img/badges/feather.png",
                         Time: "8d 10h 25m",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Mind Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/mind.png",
+                        Image: "img/badges/mind.png",
                         Time: "11d 15h 43m",
                         Attempts: 4
                     },
                     {
                         Group: "Badges",
                         Name: "Rain Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/rain.png",
+                        Image: "img/badges/rain.png",
                         Time: "14d 2h 22m",
                         Attempts: 1
                     },
@@ -492,56 +492,56 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Coal Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/coal.png",
+                        Image: "img/badges/coal.png",
                         Time: "0d 23h 8m",
                         Attempts: 5
                     },
                     {
                         Group: "Badges",
                         Name: "Forest Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/forest.png",
+                        Image: "img/badges/forest.png",
                         Time: "1d 22h 44m",
                         Attempts: 3
                     },
                     {
                         Group: "Badges",
                         Name: "Cobble Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/cobble.png",
+                        Image: "img/badges/cobble.png",
                         Time: "5d 16h 15m",
                         Attempts: 4
                     },
                     {
                         Group: "Badges",
                         Name: "Fen Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/fen.png",
+                        Image: "img/badges/fen.png",
                         Time: "7d 6h 34m",
                         Attempts: 3
                     },
                     {
                         Group: "Badges",
                         Name: "Relic Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/relic.png",
+                        Image: "img/badges/relic.png",
                         Time: "3d 17h 50m",
                         Attempts: 6
                     },
                     {
                         Group: "Badges",
                         Name: "Mine Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/mine.png",
+                        Image: "img/badges/mine.png",
                         Time: "9d 8h 47m",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Icicle Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/icicle.png",
+                        Image: "img/badges/icicle.png",
                         Time: "10d 22h 58m",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Beacon Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/beacon.png",
+                        Image: "img/badges/beacon.png",
                         Time: "15d 12h 57m",
                         Attempts: 2
                     },
@@ -796,9 +796,9 @@ var tppData = [
                         Attempts: 5
                     },
                     {
-                        Group: "Champions",
+                        Group: "Past Hosts",
                         Name: "A",
-                        Image: "http://twitchplayspokemon.org/img/trainers/heartgold/leaf.png",
+                        Image: "img/hosts/a2.png",
                         Time: "18d 20h 33m",
                         Attempts: 5
                     }
@@ -817,56 +817,56 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Trio Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/trio.png",
+                        Image: "img/badges/trio.png",
                         Time: "0d 5h 55m",
                         Attempts: 5
                     },
                     {
                         Group: "Badges",
                         Name: "Basic Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/basic.png",
+                        Image: "img/badges/basic.png",
                         Time: "1d 11h 59m",
                         Attempts: 5
                     },
                     {
                         Group: "Badges",
                         Name: "Insect Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/insect.png",
+                        Image: "img/badges/insect.png",
                         Time: "2d 17h 51m",
                         Attempts: 4
                     },
                     {
                         Group: "Badges",
                         Name: "Bolt Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/bolt.png",
+                        Image: "img/badges/bolt.png",
                         Time: "4d 9h 8m",
                         Attempts: 6
                     },
                     {
                         Group: "Badges",
                         Name: "Quake Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/quake.png",
+                        Image: "img/badges/quake.png",
                         Time: "4d 13h 46m",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Jet Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/jet.png",
+                        Image: "img/badges/jet.png",
                         Time: "6d 2h 27m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Freeze Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/freeze.png",
+                        Image: "img/badges/freeze.png",
                         Time: "7d 3h 56m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Legend Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/legend.png",
+                        Image: "img/badges/legend.png",
                         Time: "9d 1h 27m",
                         Attempts: 2
                     },
@@ -927,56 +927,56 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Toxic Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/toxic.png",
+                        Image: "img/badges/toxic.png",
                         Time: "1d 16h 39m",
                         Attempts: 7
                     },
                     {
                         Group: "Badges",
                         Name: "Basic Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/basic.png",
+                        Image: "img/badges/basic.png",
                         Time: "0d 16h 31m",
                         Attempts: 4
                     },
                     {
                         Group: "Badges",
                         Name: "Insect Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/insect.png",
+                        Image: "img/badges/insect.png",
                         Time: "2d 20h 15m",
                         Attempts: 5
                     },
                     {
                         Group: "Badges",
                         Name: "Bolt Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/bolt.png",
+                        Image: "img/badges/bolt.png",
                         Time: "4d 1h 1m",
                         Attempts: 10
                     },
                     {
                         Group: "Badges",
                         Name: "Quake Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/quake.png",
+                        Image: "img/badges/quake.png",
                         Time: "5d 1h 11m",
                         Attempts: 9
                     },
                     {
                         Group: "Badges",
                         Name: "Jet Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/jet.png",
+                        Image: "img/badges/jet.png",
                         Time: "8d 22h 53m",
                         Attempts: 5
                     },
                     {
                         Group: "Badges",
                         Name: "Wave Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/wave.png",
+                        Image: "img/badges/wave.png",
                         Time: "10d 7h 42m",
                         Attempts: 4
                     },
                     {
                         Group: "Badges",
                         Name: "Legend Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/legend.png",
+                        Image: "img/badges/legend.png",
                         Time: "9d 23h 24m",
                         Attempts: 2
                     },
@@ -1018,43 +1018,43 @@ var tppData = [
                     {
                         Group: "Past Hosts",
                         Name: "GMYC",
-                        Image: "http://cdn.bulbagarden.net/upload/a/a0/Spr_B2W2_Hilbert.png",
+                        Image: "img/hosts/gmyc.png",
                         Time: "18d 12h 57m"
                     },
                     {
                         Group: "Past Hosts",
                         Name: "aoooo",
-                        Image: "http://cdn.bulbagarden.net/upload/4/40/Spr_LyraHGSSstart.png",
+                        Image: "img/hosts/aoooo.png",
                         Time: "18d 13h 2m"
                     },
                     {
                         Group: "Past Hosts",
                         Name: "nqpppnl",
-                        Image: "http://cdn.bulbagarden.net/upload/6/6b/Spr_Pt_Lucas.png",
+                        Image: "img/hosts/nqpppnl.png",
                         Time: "18d 13h 9m"
                     },
                     {
                         Group: "Past Hosts",
                         Name: "A",
-                        Image: "http://cdn.bulbagarden.net/upload/0/03/FRLG_Leaf_Intro.png",
+                        Image: "img/hosts/a2.png",
                         Time: "18d 22h 8m"
                     },
                     {
                         Group: "Past Hosts",
                         Name: "A",
-                        Image: "http://cdn.bulbagarden.net/upload/a/a4/Spr_E_May.png",
+                        Image: "img/hosts/a.png",
                         Time: "18d 22h 17m"
                     },
                     {
                         Group: "Past Hosts",
                         Name: "AJDNNW",
-                        Image: "http://cdn.bulbagarden.net/upload/6/62/Spr_EthanHGSSstart.png",
+                        Image: "img/hosts/ajdnnw.png",
                         Time: "19d 1h 41m"
                     },
                     {
                         Group: "Champions",
                         Name: "RED",
-                        Image: "http://cdn.bulbagarden.net/upload/9/9a/Spr_B2W2_Red.png",
+                        Image: "img/hosts/red.png",
                         Time: "19d 2h 16m"
                     }
                 ]
@@ -1072,56 +1072,56 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Bug Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/bug.png",
+                        Image: "img/badges/bug.png",
                         Time: "0d 3h 53m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Cliff Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/cliff.png",
+                        Image: "img/badges/cliff.png",
                         Time: "1d 9h 53m",
                         Attempts: 3
                     },
                     {
                         Group: "Badges",
                         Name: "Rumble Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/rumble.png",
+                        Image: "img/badges/rumble.png",
                         Time: "1d 23h 53m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Plant Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/plant.png",
+                        Image: "img/badges/plant.png",
                         Time: "2d 8h 5m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Voltage Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/voltage.png",
+                        Image: "img/badges/voltage.png",
                         Time: "3d 1h 59m",
                         Attempts: 3
                     },
                     {
                         Group: "Badges",
                         Name: "Fairy Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/fairy.png",
+                        Image: "img/badges/fairy.png",
                         Time: "3d 20h 57m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Psychic Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/psychic.png",
+                        Image: "img/badges/psychic.png",
                         Time: "3d 10h 54m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Iceberg Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/iceberg.png",
+                        Image: "img/badges/iceberg.png",
                         Time: "4d 11h 37m",
                         Attempts: 1
                     },
@@ -1175,56 +1175,56 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Stone Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/stone.png",
+                        Image: "img/badges/stone.png",
                         Time: "0d 8h 32m",
                         Attempts: 3
                     },
                     {
                         Group: "Badges",
                         Name: "Knuckle Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/knuckle.png",
+                        Image: "img/badges/knuckle.png",
                         Time: "0d 14h 34m",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Dynamo Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/dynamo.png",
+                        Image: "img/badges/dynamo.png",
                         Time: "1d 0h 57m",
                         Attempts: 3
                     },
                     {
                         Group: "Badges",
                         Name: "Heat Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/heat.png",
+                        Image: "img/badges/heat.png",
                         Time: "2d 14h 34m",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Balance Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/balance.png",
+                        Image: "img/badges/balance.png",
                         Time: "3d 1h 31m",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Feather Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/feather.png",
+                        Image: "img/badges/feather.png",
                         Time: "3d 21h 42m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Mind Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/mind.png",
+                        Image: "img/badges/mind.png",
                         Time: "4d 14h 30m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Rain Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/rain.png",
+                        Image: "img/badges/rain.png",
                         Time: "4d 23h 36m",
                         Attempts: 1
                     },
@@ -1321,7 +1321,7 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Boulder Badge",
-                        Image: "http://cdn.bulbagarden.net/upload/d/dd/Boulder_Badge.png",
+                        Image: "img/badges/boulder.png",
                         ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "0d 18h 28m",
                         Attempts: 10
@@ -1329,49 +1329,49 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Cascade Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/cascade.png",
+                        Image: "img/badges/cascade.png",
                         Time: "2d 20h 8m",
                         Attempts: 19
                     },
                     {
                         Group: "Badges",
                         Name: "Thunder Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/thunder.png",
+                        Image: "img/badges/thunder.png",
                         Time: "5d 12h 51m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Rainbow Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/rainbow.png",
+                        Image: "img/badges/rainbow.png",
                         Time: "8d 1h 7m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Soul Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/soul.png",
+                        Image: "img/badges/soul.png",
                         Time: "11d 12h 28m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Marsh Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/marsh.png",
+                        Image: "img/badges/marsh.png",
                         Time: "13d 14h 7m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Volcano Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/volcano.png",
+                        Image: "img/badges/volcano.png",
                         Time: "15d 22h 8m",
                         Attempts: 5
                     },
                     {
                         Group: "Badges",
                         Name: "Earth Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/earth.png",
+                        Image: "img/badges/earth.png",
                         Time: "17d 12h 19m",
                         Attempts: 1
                     },
@@ -1413,56 +1413,56 @@ var tppData = [
                     {
                         Group: "Rematch Badges",
                         Name: "Boulder Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_boulder.png",
+                        Image: "img/badges/boulder.png",
                         Time: "29d 9h 44m",
                         Attempts: 1
                     },
                     {
                         Group: "Rematch Badges",
                         Name: "Cascade Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_cascade.png",
+                        Image: "img/badges/cascade.png",
                         Time: "28d 20h 10m",
                         Attempts: 1
                     },
                     {
                         Group: "Rematch Badges",
                         Name: "Thunder Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_thunder.png",
+                        Image: "img/badges/thunder.png",
                         Time: "28d 18h 4m",
                         Attempts: 1
                     },
                     {
                         Group: "Rematch Badges",
                         Name: "Rainbow Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_rainbow.png",
+                        Image: "img/badges/rainbow.png",
                         Time: "29d 3h 50m",
                         Attempts: 1
                     },
                     {
                         Group: "Rematch Badges",
                         Name: "Soul Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_soul.png",
+                        Image: "img/badges/soul.png",
                         Time: "28d 5h 1m",
                         Attempts: 1
                     },
                     {
                         Group: "Rematch Badges",
                         Name: "Marsh Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_marsh.png",
+                        Image: "img/badges/marsh.png",
                         Time: "28d 19h 4m",
                         Attempts: 1
                     },
                     {
                         Group: "Rematch Badges",
                         Name: "Volcano Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_volcano.png",
+                        Image: "img/badges/volcano.png",
                         Time: "27d 22h 14m",
                         Attempts: 1
                     },
                     {
                         Group: "Rematch Badges",
                         Name: "Earth Badge",
-                        Image: "http://twitchplayspokemon.org/img/badges/ar/rematch_earth.png",
+                        Image: "img/badges/earth.png",
                         Time: "29d 17h 0m",
                         Attempts: 1
                     },
@@ -2429,56 +2429,56 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Boulder Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/boulder.png",
+                        Image: "img/badges/boulder.png",
                         Time: "0d 21h 41m",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Cascade Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/cascade.png",
+                        Image: "img/badges/cascade.png",
                         Time: "2d 0h 16m",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Thunder Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/thunder.png",
+                        Image: "img/badges/thunder.png",
                         Time: "2d 22h 28m",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Rainbow Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/rainbow.png",
+                        Image: "img/badges/rainbow.png",
                         Time: "5d 6h 37m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Soul Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/soul.png",
+                        Image: "img/badges/soul.png",
                         Time: "6d 11h 37m",
                         Attempts: 5
                     },
                     {
                         Group: "Badges",
                         Name: "Marsh Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/marsh.png",
+                        Image: "img/badges/marsh.png",
                         Time: "7d 16h 20m",
                         Attempts: 3
                     },
                     {
                         Group: "Badges",
                         Name: "Volcano Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/volcano.png",
+                        Image: "img/badges/volcano.png",
                         Time: "8d 17h 40m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Earth Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/earth.png",
+                        Image: "img/badges/earth.png",
                         Time: "9d 13h 50m",
                         Attempts: 3
                     },
@@ -2533,56 +2533,56 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Boulder Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/boulder.png",
+                        Image: "img/badges/boulder.png",
                         Time: "0d 17h 22m",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Cascade Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/cascade.png",
+                        Image: "img/badges/cascade.png",
                         Time: "1d 21h 24m",
                         Attempts: 6
                     },
                     {
                         Group: "Badges",
                         Name: "Thunder Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/thunder.png",
+                        Image: "img/badges/thunder.png",
                         Time: "3d 4h 35m",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Rainbow Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/rainbow.png",
+                        Image: "img/badges/rainbow.png",
                         Time: "5d 1h 27m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Soul Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/soul.png",
+                        Image: "img/badges/soul.png",
                         Time: "6d 4h 13m",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Marsh Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/marsh.png",
+                        Image: "img/badges/marsh.png",
                         Time: "7d 21h 11m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Volcano Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/volcano.png",
+                        Image: "img/badges/volcano.png",
                         Time: "8d 15h 52m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Earth Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/earth.png",
+                        Image: "img/badges/earth.png",
                         Time: "9d 9h 18m",
                         Attempts: 1
                     },
@@ -3045,49 +3045,49 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Zephyr Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/zephyr.png",
+                        Image: "img/badges/zephyr.png",
                         Time: "2015-04-11T17:34:52Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Hive Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/hive.png",
+                        Image: "img/badges/hive.png",
                         Time: "2015-04-21T10:43:19Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Plain Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/plain.png",
+                        Image: "img/badges/plain.png",
                         Time: "2015-05-05T23:27:21Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Fog Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/fog.png",
+                        Image: "img/badges/fog.png",
                         Time: "2015-05-29T04:36:25Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Glacier Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/glacier.png",
+                        Image: "img/badges/glacier.png",
                         Time: "2015-07-02T08:10:06Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Storm Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/storm.png",
+                        Image: "img/badges/storm.png",
                         Time: "2015-06-13T14:44:17Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Mineral Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/mineral.png",
+                        Image: "img/badges/mineral.png",
                         Time: "2015-06-18T18:44:58Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Rising Badge",
-                        Image: "http://www.twitchplayspokemon.org/img/badges/rising.png",
+                        Image: "img/badges/rising.png",
                         Time: "2015-08-17T15:05:08Z"
                     },
                     {
@@ -3123,50 +3123,57 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Boulder Badge",
-                        Image: "http://cdn.bulbagarden.net/upload/d/dd/Boulder_Badge.png",
+                        Image: "img/badges/boulder.png",
                         ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "2015-10-23T21:03:40Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Cascade Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/cascade.png",
+                        Image: "img/badges/cascade.png",
+                        ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "2015-09-24T22:04:23Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Thunder Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/thunder.png",
+                        Image: "img/badges/thunder.png",
+                        ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "2015-09-16T05:25:59Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Rainbow Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/rainbow.png",
+                        Image: "img/badges/rainbow.png",
+                        ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "2015-10-28T08:57:22Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Soul Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/soul.png",
+                        Image: "img/badges/soul.png",
+                        ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "2015-10-05T21:01:49Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Marsh Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/marsh.png",
+                        Image: "img/badges/marsh.png",
+                        ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "2015-09-17T23:53:59Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Volcano Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/volcano.png",
+                        Image: "img/badges/volcano.png",
+                        ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "2015-11-01T21:29:56Z"
                     },
                     {
                         Group: "Badges",
                         Name: "Earth Badge",
-                        Image: "http://twitchplayspokemon.org/red/img/badges/earth.png",
+                        Image: "img/badges/earth.png",
+                        ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                         Time: "2015-11-03T09:57:30Z"
                     },
                     {
@@ -3192,84 +3199,84 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Grass Medal",
-                        Image: "http://cdn.bulbagarden.net/upload/0/08/TCG1_GrassMedal.png",
+                        Image: "img/tcg/grass.png",
                         Time: "2016-02-07T12:16:27Z",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Science Medal",
-                        Image: "http://cdn.bulbagarden.net/upload/1/1b/TCG1_ScienceMedal.png",
+                        Image: "img/tcg/science.png",
                         Time: "2016-02-13T12:46:16Z",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Fire Medal",
-                        Image: "http://cdn.bulbagarden.net/upload/8/84/TCG1_FireMedal.png",
+                        Image: "img/tcg/fire.png",
                         Time: "2016-01-26T17:19:31Z",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Water Medal",
-                        Image: "http://cdn.bulbagarden.net/upload/4/4b/TCG1_WaterMedal.png",
+                        Image: "img/tcg/water.png",
                         Time: "2016-02-12T18:57:40Z",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Lightning Medal",
-                        Image: "http://cdn.bulbagarden.net/upload/d/da/TCG1_LightningMedal.png",
+                        Image: "img/tcg/lightning.png",
                         Time: "2016-01-22T22:21:34Z",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Psychic Medal",
-                        Image: "http://cdn.bulbagarden.net/upload/e/ec/TCG1_PsychicMedal.png",
+                        Image: "img/tcg/psychic.png",
                         Time: "2016-02-13T01:35:00Z",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
                         Name: "Rock Medal",
-                        Image: "http://cdn.bulbagarden.net/upload/7/77/TCG1_RockMedal.png",
+                        Image: "img/tcg/rock.png",
                         Time: "2016-01-08T05:02:03Z",
                         Attempts: 2
                     },
                     {
                         Group: "Badges",
                         Name: "Fighting Medal",
-                        Image: "http://cdn.bulbagarden.net/upload/5/5f/TCG1_FightingMedal.png",
+                        Image: "img/tcg/fighting.png",
                         Time: "2016-02-13T09:43:40Z",
                         Attempts: 1
                     },
                     {
                         Group: "Elite Four",
                         Name: "Courtney",
-                        Image: "http://cdn.bulbagarden.net/upload/3/3f/Grand_Master_Courtney.png",
+                        Image: "img/tcg/courtney.png",
                         Time: "2016-02-13T15:08:08Z",
                         Attempts: 1
                     },
                     {
                         Group: "Elite Four",
                         Name: "Steve",
-                        Image: "http://cdn.bulbagarden.net/upload/8/83/Grand_Master_Steve.png",
+                        Image: "img/tcg/steve.png",
                         Time: "2016-02-13T23:24:10Z",
                         Attempts: 2
                     },
                     {
                         Group: "Elite Four",
                         Name: "Jack",
-                        Image: "http://cdn.bulbagarden.net/upload/b/b6/Grand_Master_Jack.png",
+                        Image: "img/tcg/jack.png",
                         Time: "2016-02-14T01:19:34Z",
                         Attempts: 1
                     },
                     {
                         Group: "Elite Four",
                         Name: "Rod",
-                        Image: "http://cdn.bulbagarden.net/upload/3/33/Grand_Master_Rod.png",
+                        Image: "img/tcg/rod.png",
                         Time: "2016-02-14T01:50:58Z",
                         Attempts: 1
                     },
@@ -3766,7 +3773,7 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Water Coin",
-                        Image: "http://cdn.bulbagarden.net/upload/c/c4/Coin_Starmie_GB2.png",
+                        Image: "img/tcg/2/starmie.png",
                         Time: "2016-02-14T12:07:20Z"
                     },
                     {
@@ -3784,7 +3791,7 @@ var tppData = [
                     {
                         Group: "Badges",
                         Name: "Fighting Coin",
-                        Image: "http://cdn.bulbagarden.net/upload/c/c2/Coin_Kabuto_GB2.png",
+                        Image: "img/tcg/2/kabuto.png",
                         Time: "2016-02-14T16:37:15Z"
                     },
                     {

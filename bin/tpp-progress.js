@@ -1,5 +1,3 @@
-/// <reference path="tpp-structure" />
-/// <reference path="twitch-videos" />
 var Duration = (function () {
     function Duration(weeks, days, hours, minutes, seconds) {
         if (days === void 0) { days = 0; }

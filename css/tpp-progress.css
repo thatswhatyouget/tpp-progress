@@ -290,6 +290,10 @@ ul.controls > li > ul > li > * {
 	top:-15px;	
 }
 
+.progressChart .run .event.pasthosts img {
+    transform: translateX(-50%) rotateY(180deg);
+}
+
 .progressChart .run .event.missions img, .progressChart .run#orasspecialdemo .event.champions img {
 	height:40px;
 	top:5px;
