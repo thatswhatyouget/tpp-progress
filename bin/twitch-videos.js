@@ -12,11 +12,13 @@ var Twitch;
         return Video;
     })();
     Twitch.Video = Video;
-    function GetVideos(channel) {
+    function GetVideos(channel, getAll) {
+        if (getAll === void 0) { getAll = true; }
         var videos = [], getAllVideos = function (r) {
             if (r.videos.length) {
                 videos = videos.concat.apply(videos, r.videos.map(function (v) { return new Video(v.recorded_at, v.length, v.url, "Twitch"); }));
-                return $.get(r._links.next).then(getAllVideos);
+                if (getAll)
+                    return $.get(r._links.next).then(getAllVideos);
             }
             return videos;
         };

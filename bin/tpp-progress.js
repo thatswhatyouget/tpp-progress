@@ -185,7 +185,9 @@ function drawRun(runInfo, run, scale, events) {
             setTimeout(function () { return run.setAttribute("data-json", JSON.stringify(runInfo)); }, 10);
         importEvents(runInfo);
         runInfo.Events.filter(function (e) { return Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0; }).sort(function (e1, e2) { return Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
+        runInfo.Events.forEach(function (e) { return delete e.New; });
         drawVideos(runInfo, run, scale);
+        setTimeout(function () { return updateRun(runInfo, run, scale); }, 15 * 60000);
     }
     drawConcurrentRuns(runInfo, run, scale);
     $(run).on('click', function (e) {
@@ -194,6 +196,22 @@ function drawRun(runInfo, run, scale, events) {
         if (!$(this).siblings(".run:visible").is("*"))
             $(this).parent().hide();
     });
+}
+function updateRun(runInfo, run, scale) {
+    if (!(runInfo.Scraper && runInfo.Ongoing))
+        return;
+    Scrape(runInfo).then(function (r) {
+        console.log("Updating " + runInfo.RunName + " to " + runInfo.Duration);
+        run.setAttribute("data-duration", runInfo.Duration);
+        run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
+        run.setAttribute("data-label", runInfo.RunName + ": " + Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale));
+        setTimeout(function () { return run.setAttribute("data-json", JSON.stringify(runInfo)); }, 10);
+        runInfo.Events.filter(function (e) { return e.New; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
+        updatePage();
+        if ($(run).find('.videos a').is('*'))
+            drawVideos(runInfo, run, scale, Twitch.GetVideos("twitchplayspokemon", false));
+    });
+    setTimeout(function () { return updateRun(runInfo, run, scale); }, 15 * 60000);
 }
 function setUniqueId(element, id) {
     var original = id = id.replace(/[^A-Z0-9]/ig, '').toLowerCase();
@@ -241,12 +259,17 @@ function importEvents(baseRunInfo) {
     events.forEach(function (e) { return !baseRunInfo.Events.filter(function (e2) { return e2.Name == e.Name && e2.Time == e.Time; }).length ? baseRunInfo.Events.push(e) : console.log("Skipped event " + e.Name); });
 }
 function drawEvent(eventInfo, runInfo, scale) {
+    delete eventInfo.New;
     var groupName = eventInfo.Group.replace(/[^A-Z0-9]/ig, '').toLowerCase();
     var event = document.createElement("div");
     var eventImg = document.createElement("img");
     if (eventInfo.Group.toLowerCase() == "pokemon") {
         eventInfo.Image = "img/missingno.png";
         eventInfo.Class = eventInfo.Name;
+        setTimeout(function () {
+            delete eventInfo.Image;
+            delete eventInfo.Class;
+        }, 0);
     }
     if (eventInfo.Image) {
         if (eventInfo.ImageSource) {
@@ -299,7 +322,7 @@ function applyScale(ppd) {
             if (event.getAttribute('data-time')) {
                 var time = Duration.parse(event.getAttribute('data-time'));
                 event.style.left = time.TotalTime(scale) * ppd + "px";
-                event.style.display = !settings["postgame"] && time.TotalSeconds > duration.TotalSeconds ? "none" : "block";
+                event.style.display = !settings["postgame"] && !$(event).parents('.run').is('.ongoing') && time.TotalSeconds > duration.TotalSeconds ? "none" : "block";
             }
             if (event.getAttribute(durationAttribute))
                 event.style.width = Duration.parse(event.getAttribute(durationAttribute)).TotalTime(scale) * ppd + "px";
@@ -383,26 +406,31 @@ function updatePage(ppd) {
         input.onchange = function () { return toggleGroup(input); };
     });
 }
-function drawVideos(baseRunInfo, runElement, scale) {
+function drawVideos(baseRunInfo, runElement, scale, videoCollection) {
+    if (videoCollection === void 0) { videoCollection = videos; }
     var vidDiv = $('<div class="videos">').appendTo(runElement);
-    videos.then(function (vids) { return Array.prototype.concat.apply(vids, extraVids); })
+    videoCollection.then(function (vids) { return Array.prototype.concat.apply(vids, extraVids); })
         .then(function (vids) { return vids.filter(function (vid) { return (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime); }).forEach(function (vid) {
         var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0), runEnd = baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds;
         if (vid.StartTime < baseRunInfo.StartTime) {
             time = 0;
             duration -= (startOffset = baseRunInfo.StartTime - vid.StartTime);
         }
-        if (vid.EndTime > runEnd)
+        if (vid.EndTime > runEnd && !baseRunInfo.Ongoing)
             duration -= vid.EndTime - runEnd;
         vidStart.TotalSeconds = time;
         vidEnd.TotalSeconds = duration;
-        $("<a target='_blank'>").addClass(vid.source.toLowerCase()).attr('href', vid.url).attr('data-time', vidStart.toString()).attr('data-duration', vidEnd.toString()).appendTo(vidDiv).mousemove(function (e) {
-            var vidTime = new Duration(0), runTime = new Duration(0), percentage = (Math.abs(e.pageX - $(this).offset().left) / $(this).width());
-            vidTime.TotalSeconds = (percentage * duration) + startOffset;
-            runTime.TotalSeconds = (percentage * duration) + time;
-            $(this).attr('href', vid.url + "?t=" + vidTime.toString(TPP.Scale.Hours).replace(/\s/g, ''));
-            $(this).find('.playhead').css('left', percentage * $(this).width()).attr('data-label', runTime.toString(scale));
-        }).click(function (e) { return e.stopPropagation(); }).append($("<div class='playhead'>"));
+        var $video = $(runElement).find('.videos a[href="' + vid.url + '"]');
+        if (!$video.is('*')) {
+            $video = $("<a target='_blank'>").addClass(vid.source.toLowerCase()).attr('href', vid.url).appendTo(vidDiv).mousemove(function (e) {
+                var vidTime = new Duration(0), runTime = new Duration(0), percentage = (Math.abs(e.pageX - $(this).offset().left) / $(this).width()), time = Duration.parse($(this).data('time')).TotalSeconds, duration = Duration.parse($(this).data('duration')).TotalSeconds;
+                vidTime.TotalSeconds = (percentage * duration) + startOffset;
+                runTime.TotalSeconds = (percentage * duration) + time;
+                $(this).attr('href', vid.url + "?t=" + vidTime.toString(TPP.Scale.Hours).replace(/\s/g, ''));
+                $(this).find('.playhead').css('left', percentage * $(this).width()).attr('data-label', runTime.toString(scale));
+            }).click(function (e) { return e.stopPropagation(); }).append($("<div class='playhead'>"));
+        }
+        $video.attr('data-time', vidStart.toString()).attr('data-duration', vidEnd.toString());
         $(runElement).addClass("hasVideos");
         if (!$("#group-videos").is('*'))
             $("<li>")

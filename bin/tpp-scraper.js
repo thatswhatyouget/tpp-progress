@@ -14,19 +14,22 @@ function Scrape(run) {
             if (!Duration.canParse(run.Duration))
                 run.Duration = new Date().toISOString();
         }
+        var knownEvents = {};
+        run.Events.forEach(function (e) { return knownEvents[e.Name + e.Time] = e; });
         $events.each(function (i, group) {
             var $table = $(group).parent().next('.table-pokemon'), groupName = $(group).text();
             $table.find('th').each(function (i, th) {
                 var title = $(th).text();
                 var $col = $table.find('tr td:nth-child(' + (i + 1) + ')');
                 var time = $($col[1]).text().trim();
-                if (!$col.find('img').is('.greyed-out') && !run.Events.filter(function (e) { return e.Name == title && e.Time == time; }).length) {
+                if (!$col.find('img').is('.greyed-out') && !knownEvents[title + time]) {
                     run.Events.push({
                         Group: groupName,
                         Image: $col.find('img').attr('src').replace(/^\//, run.Scraper.url + "/"),
                         Name: title,
                         Time: time,
-                        Attempts: parseInt($col.find('strong').text() || '0')
+                        Attempts: parseInt($col.find('strong').text() || '0'),
+                        New: true
                     });
                 }
             });
@@ -36,6 +39,7 @@ function Scrape(run) {
         }
         if (run.Scraper.pokemon) {
             var pkmn = {};
+            run.Events.filter(function (e) { return e.Group == "Pokemon"; }).forEach(function (e) { return pkmn[e.Name] = e; });
             $(page).find('.history-obtained').each(function () {
                 var $element = $(this);
                 var $img = $element.find('img');
@@ -50,12 +54,14 @@ function Scrape(run) {
                     pkmn[title] = {
                         Name: title,
                         Time: time,
-                        Group: "Pokemon"
+                        Group: "Pokemon",
+                        New: true
                     };
             });
             Object.keys(pkmn).forEach(function (mon) { return run.Events.push(pkmn[mon]); });
         }
         deferred.resolve(run);
+        $(page).find('img').attr('src', '');
     }, function (jqXHR, status, err) { return deferred.reject(err); });
     return deferred.promise();
 }

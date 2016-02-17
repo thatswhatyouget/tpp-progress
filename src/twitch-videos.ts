@@ -20,11 +20,11 @@ module Twitch {
         }
     }
     
-    export function GetVideos(channel: string): JQueryPromise<Video[]> {
+    export function GetVideos(channel: string, getAll = true): JQueryPromise<Video[]> {
         var videos:Video[] = [], getAllVideos = (r: TwitchCall):(Video[] | JQueryPromise<Video[]>) => {
             if (r.videos.length) {
                 videos = videos.concat.apply(videos, r.videos.map(v=> new Video(v.recorded_at, v.length, v.url, "Twitch")));
-                return $.get(r._links.next).then(getAllVideos);
+                if (getAll) return $.get(r._links.next).then(getAllVideos);
             }
             return videos;
         };

@@ -166,13 +166,30 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
         if (runInfo.Scraper) setTimeout(() => run.setAttribute("data-json", JSON.stringify(runInfo)), 10);
         importEvents(runInfo);
         runInfo.Events.filter(e=> Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0).sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
+        runInfo.Events.forEach(e=> delete e.New);
         drawVideos(runInfo, run, scale);
+        setTimeout(() => updateRun(runInfo, run, scale), 15 * 60000);
     }
     drawConcurrentRuns(runInfo, run, scale);
-    $(run).on('click', function(e) { 
+    $(run).on('click', function(e) {
         if (e.shiftKey) $(this).hide();
         if (!$(this).siblings(".run:visible").is("*")) $(this).parent().hide();
     });
+}
+
+function updateRun(runInfo: TPP.Run, run: HTMLDivElement, scale) {
+    if (!(runInfo.Scraper && runInfo.Ongoing)) return;
+    Scrape(runInfo).then(r=> {
+        console.log("Updating " + runInfo.RunName + " to " + runInfo.Duration);
+        run.setAttribute("data-duration", runInfo.Duration);
+        run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
+        run.setAttribute("data-label", runInfo.RunName + ": " + Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale));
+        setTimeout(() => run.setAttribute("data-json", JSON.stringify(runInfo)), 10);
+        runInfo.Events.filter(e=> e.New).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
+        updatePage();
+        if ($(run).find('.videos a').is('*')) drawVideos(runInfo, run, scale, Twitch.GetVideos("twitchplayspokemon", false));
+    });
+    setTimeout(() => updateRun(runInfo, run, scale), 15 * 60000);
 }
 
 function setUniqueId(element: HTMLElement, id: string) {
@@ -224,12 +241,17 @@ function importEvents(baseRunInfo: TPP.Run) {
 }
 
 function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
+    delete eventInfo.New;
     var groupName = eventInfo.Group.replace(/[^A-Z0-9]/ig, '').toLowerCase();
     var event = document.createElement("div");
     var eventImg = document.createElement("img");
     if (eventInfo.Group.toLowerCase() == "pokemon") {
         eventInfo.Image = "img/missingno.png";
         eventInfo.Class = eventInfo.Name;
+        setTimeout(() => {
+            delete eventInfo.Image;
+            delete eventInfo.Class;
+        }, 0);
     }
     if (eventInfo.Image) {
         if (eventInfo.ImageSource) {
@@ -281,7 +303,7 @@ function applyScale(ppd?: number) {
             if (event.getAttribute('data-time')) {
                 var time = Duration.parse(event.getAttribute('data-time'))
                 event.style.left = time.TotalTime(scale) * ppd + "px";
-                event.style.display = !settings["postgame"] && time.TotalSeconds > duration.TotalSeconds ? "none" : "block";
+                event.style.display = !settings["postgame"] && !$(event).parents('.run').is('.ongoing') && time.TotalSeconds > duration.TotalSeconds ? "none" : "block";
             }
             if (event.getAttribute(durationAttribute)) event.style.width = Duration.parse(event.getAttribute(durationAttribute)).TotalTime(scale) * ppd + "px";
             var img = findImage(event);
@@ -363,9 +385,9 @@ function updatePage(ppd = globalPpd) {
     });
 }
 
-function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP.Scale) {
+function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP.Scale, videoCollection = videos) {
     var vidDiv = $('<div class="videos">').appendTo(runElement);
-    videos.then(vids=> Array.prototype.concat.apply(vids, extraVids))
+    videoCollection.then(vids=> Array.prototype.concat.apply(vids, extraVids))
         .then(vids=> vids.filter(vid=> (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime)
         ).forEach(vid=> {
             var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0),
@@ -374,16 +396,21 @@ function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP
                 time = 0;
                 duration -= (startOffset = baseRunInfo.StartTime - vid.StartTime);
             }
-            if (vid.EndTime > runEnd) duration -= vid.EndTime - runEnd;
+            if (vid.EndTime > runEnd && !baseRunInfo.Ongoing) duration -= vid.EndTime - runEnd;
             vidStart.TotalSeconds = time;
             vidEnd.TotalSeconds = duration;
-            $("<a target='_blank'>").addClass(vid.source.toLowerCase()).attr('href', vid.url).attr('data-time', vidStart.toString()).attr('data-duration', vidEnd.toString()).appendTo(vidDiv).mousemove(function(e) {
-                var vidTime = new Duration(0), runTime = new Duration(0), percentage = (Math.abs(e.pageX - $(this).offset().left) / $(this).width());
-                vidTime.TotalSeconds = (percentage * duration) + startOffset;
-                runTime.TotalSeconds = (percentage * duration) + time;
-                $(this).attr('href', vid.url + "?t=" + vidTime.toString(TPP.Scale.Hours).replace(/\s/g, ''));
-                $(this).find('.playhead').css('left', percentage * $(this).width()).attr('data-label', runTime.toString(scale));
-            }).click(e=>e.stopPropagation()).append($("<div class='playhead'>"));
+            var $video = $(runElement).find('.videos a[href="' + vid.url + '"]');
+            if (!$video.is('*')) {
+                $video = $("<a target='_blank'>").addClass(vid.source.toLowerCase()).attr('href', vid.url).appendTo(vidDiv).mousemove(function(e) {
+                    var vidTime = new Duration(0), runTime = new Duration(0), percentage = (Math.abs(e.pageX - $(this).offset().left) / $(this).width()),
+                        time = Duration.parse($(this).data('time')).TotalSeconds, duration = Duration.parse($(this).data('duration')).TotalSeconds;
+                    vidTime.TotalSeconds = (percentage * duration) + startOffset;
+                    runTime.TotalSeconds = (percentage * duration) + time;
+                    $(this).attr('href', vid.url + "?t=" + vidTime.toString(TPP.Scale.Hours).replace(/\s/g, ''));
+                    $(this).find('.playhead').css('left', percentage * $(this).width()).attr('data-label', runTime.toString(scale));
+                }).click(e=> e.stopPropagation()).append($("<div class='playhead'>"));
+            }
+            $video.attr('data-time', vidStart.toString()).attr('data-duration', vidEnd.toString());
             $(runElement).addClass("hasVideos");
             if (!$("#group-videos").is('*'))
                 $("<li>")
