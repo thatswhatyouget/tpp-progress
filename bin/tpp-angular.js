@@ -78,5 +78,4 @@ tppNg.controller('progressCharts', function ($scope) {
     $scope.scale = function (s) { return TPP.Scale[s]; };
     $scope.zoomIn = function () { return $scope.ppd *= 2; };
     $scope.zoomOut = function () { return $scope.ppd /= 2; };
-    $scope.dump = function (data) { return JSON.stringify(data); };
 });

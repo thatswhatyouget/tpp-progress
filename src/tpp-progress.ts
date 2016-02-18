@@ -100,8 +100,11 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
     }
     drawConcurrentRuns(runInfo, run, scale);
     $(run).on('click', function(e) {
-        if (e.shiftKey) $(this).hide();
-        if (!$(this).siblings(".run:visible").is("*")) $(this).parent().hide();
+        if (e.shiftKey) {
+            $(this).hide();
+            if (!$(this).siblings(".run:visible").is("*"))
+                $(this).parent().hide();
+        }    
     });
 }
 
@@ -371,18 +374,3 @@ function toggleGroup(element: HTMLInputElement) {
     $('.' + group.replace(/[^A-Z0-9]/ig, '')).toggleClass("hidden", !visible);
     updatePage();
 }
-//hidden features
-setTimeout(() => {
-    $('.run').click(function(e) {
-        if (e.shiftKey) $(this).hide();
-        e.stopPropagation();
-    });
-    // $('.progressChart').click(function(e) {
-    //     if (!(e.shiftKey || e.metaKey || e.ctrlKey)) return;
-    //     var offset = parseInt($(this).data('offset') || "0");
-    //     if (e.shiftKey) offset--;
-    //     else offset++;
-    //     $(this).data('offset', offset);
-    //     updatePage();
-    // });
-}, 10);
