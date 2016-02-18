@@ -341,9 +341,10 @@ ul.controls > li > ul > li > * {
 }
 
 .progressChart .run .event.pokemon img {
+    font-size:40px;
     height:0;
     width:0;
-    padding:20px;
+    padding:.5em;
 	top:50%;
 	margin:0 -25%;
     background-image:url("../img/pokemon.png");
