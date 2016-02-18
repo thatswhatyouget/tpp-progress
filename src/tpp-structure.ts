@@ -32,7 +32,8 @@ module TPP {
 		Name: string;
 		Estimate?: boolean;
 		Time: string;
-		Attempts?: number;
+        Attempts?: number;
+        New?: boolean;
 	}
     
     export interface Collection {
