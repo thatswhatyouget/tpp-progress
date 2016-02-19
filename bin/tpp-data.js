@@ -2872,7 +2872,20 @@ var tppData = [
                     parts: ["Badge", "Johto", "Elite Four"],
                     pokemon: true
                 },
-                Events: []
+                Events: [
+                    {
+                        Group: "Hosts",
+                        Name: "EVAN",
+                        Image: "img/hosts/evan.gif",
+                        Time: "-1d"
+                    },
+                    {
+                        Group: "Champions",
+                        Name: "AZURE",
+                        Image: "img/trainers/crystal/azure.gif",
+                        Time: "-1d"
+                    },
+                ]
             }
         ]
     },

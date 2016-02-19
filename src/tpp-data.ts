@@ -2914,6 +2914,20 @@ var tppData: TPP.Collection[] = [
                     pokemon: true
                 },
                 Events: [
+                    {
+                        Group: "Hosts",
+                        Name: "EVAN",
+                        Image: "img/hosts/evan.gif",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46f9vw/evan_our_lethargic_protagonist_animated/",
+                        Time: "-1d"
+                    },
+                    {
+                        Group: "Champions",
+                        Name: "AZURE",
+                        Image: "img/trainers/crystal/azure.gif",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46gsoo/azure_our_perky_exrival_animated/",
+                        Time: "-1d"
+                    },
                 ]
             }
         ]
