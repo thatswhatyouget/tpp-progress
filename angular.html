@@ -6,7 +6,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
     <script src="bin/tpp-structure.js"></script>
     <script src="bin/twitch-videos.js"></script>
-    <script src="bin/tpp-scraper.js"></script>
     <script src="bin/tpp-data.js"></script>
     <script src="bin/tpp-angular.js"></script>
     <!--<script src="bin/poke-styles.js"></script>-->
@@ -47,25 +46,34 @@
         </div>
     </div>
     <div class="charts" ng-controller="progressCharts">
-        <div ng-repeat="chart in tppData" class="progressChart {{ cleanText(chart.Name)}}" data-label="{{ chart.Name }}" id="{{ cleanText(chart.Name)}}"
-        style="background-image: url('{{makeGrid()}}');">
+        <div ng-repeat="chart in tppData" class="progressChart {{ cleanText(chart.Name)}}" data-label="{{ chart.Name }}" id="{{ cleanText(chart.Name)}}" data-scale="{{scale(chart.Scale)}}"
+        ng-style="{'background-image': 'url('+makeGrid()+')'}">
             <div class="ruler">
                 <div ng-repeat="i in steps(chart)" class="stop" data-scale="{{scale(chart.Scale)}}" style="left: {{i * ppd}}px;"></div>
             </div>
             <div ng-repeat="run in chart.Runs" class="run {{cleanText(run.RunName)}}" data-label="{{run.RunName}}: {{duration(run.Duration, chart.Scale, run.StartTime)}}"
             id="{{cleanText(run.RunName)}}" style="color: {{run.ColorSecondary}}; border-color: {{run.ColorSecondary}}; width: {{width(run.Duration, chart.Scale, run.StartTime)}}px; background-color: {{run.ColorPrimary}}">
+                <!--<div ng-repeat="cr in concurrentRuns(run, chart.Scale)" class="run {{cleanText(cr.RunName)}}" data-label="{{cr.Label}}:"
+                style="color: {{cr.ColorSecondary}}; border-color: {{cr.ColorSecondary}}; left:{{width(cr.StartTime, chart.Scale, run.StartTime)}}px; width: {{width(cr.Duration, chart.Scale, cr.StartTime)}}px; background-color: {{cr.ColorPrimary}}">
+                    <div ng-if="cr.HostName && cr.HostImage" class="event hosts" data-label="{{cr.HostName}}">
+                        <a ng-if="cr.HostImageSource" href="{{cr.HostImageSource}}" target="_blank">
+                            <img ng-src="{{cr.HostImage}}" alt="{{cr.HostName}}" />
+                        </a>
+                        <img ng-if="!cr.HostImageSource" ng-src="{{cr.HostImage}}" alt="{{cr.HostName}}" />
+                    </div>
+                </div>-->
                 <div ng-if="run.HostName && run.HostImage" class="event hosts" data-label="{{run.HostName}}">
                     <a ng-if="run.HostImageSource" href="{{run.HostImageSource}}" target="_blank">
-                        <img src="{{run.HostImage}}" alt="{{run.HostName}}" />
+                        <img ng-src="{{run.HostImage}}" alt="{{run.HostName}}" />
                     </a>
-                    <img ng-if="!run.HostImageSource" src="{{run.HostImage}}" alt="{{run.HostName}}" />
+                    <img ng-if="!run.HostImageSource" ng-src="{{run.HostImage}}" alt="{{run.HostName}}" />
                 </div>
                 <div ng-repeat="event in run.Events" ng-if="time(event.Time, chart.Scale, run.StartTime) > 0" class="event {{cleanText(event.Group)}} {{event.Group == 'Pokemon' ? cleanText(event.Name) : ''}}"
                 data-label="{{event.Name + '\n' + duration(event.Time, chart.Scale, run.StartTime)}}" style="left:{{width(event.Time, chart.Scale, run.StartTime)}}px;">
                     <a ng-if="event.ImageSource" href="{{event.ImageSource}}" target="_blank">
-                        <img src="{{event.Image}}" alt="{{event.Name}}" />
+                        <img ng-src="{{event.Image}}" alt="{{event.Name}}" />
                     </a>
-                    <img ng-if="!event.ImageSource" src="{{event.Image}}" alt="{{event.Name}}" />
+                    <img ng-if="!event.ImageSource" ng-src="{{event.Image}}" alt="{{event.Name}}" />
                 </div>
             </div>
         </div>
