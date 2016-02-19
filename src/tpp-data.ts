@@ -2905,6 +2905,7 @@ var tppData: TPP.Collection[] = [
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
                 HostImage: "img/hosts/evan.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46elnh/evan_sprites/",
                 HostName: "EVAN",
                 Scraper: {
                     url: "http://twitchplayspokemon.org",

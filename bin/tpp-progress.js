@@ -100,10 +100,11 @@ function drawRun(runInfo, run, scale, events) {
     }
     drawConcurrentRuns(runInfo, run, scale);
     $(run).on('click', function (e) {
-        if (e.shiftKey)
+        if (e.shiftKey) {
             $(this).hide();
-        if (!$(this).siblings(".run:visible").is("*"))
-            $(this).parent().hide();
+            if (!$(this).siblings(".run:visible").is("*"))
+                $(this).parent().hide();
+        }
     });
 }
 function updateRun(runInfo, run, scale) {
@@ -369,10 +370,3 @@ function toggleGroup(element) {
     $('.' + group.replace(/[^A-Z0-9]/ig, '')).toggleClass("hidden", !visible);
     updatePage();
 }
-setTimeout(function () {
-    $('.run').click(function (e) {
-        if (e.shiftKey)
-            $(this).hide();
-        e.stopPropagation();
-    });
-}, 10);
