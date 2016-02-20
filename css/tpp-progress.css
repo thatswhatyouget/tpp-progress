@@ -343,7 +343,7 @@ ul.controls > li > ul > li > * {
 	z-index:3;
 }
 
-.progressChart .run .event.pokemon img {
+.progressChart .run .event.pokemon img, .progressChart .run .event.pokesprite img {
     font-size:40px;
     height:0;
     width:0;
@@ -354,6 +354,12 @@ ul.controls > li > ul > li > * {
     background-repeat: no-repeat;
     background-position: top left;
     background-size:cover;
+}
+
+.progressChart .run .event.bosses.pokesprite img {
+    top: -8px;
+    font-size:64px;
+    background-image:url("../img/pokemon-large.png");
 }
 
 .progressChart .run .event:hover {

@@ -68,12 +68,12 @@
                     </a>
                     <img ng-if="!run.HostImageSource" ng-src="{{run.HostImage}}" alt="{{run.HostName}}" />
                 </div>
-                <div ng-repeat="event in run.Events" ng-if="time(event.Time, chart.Scale, run.StartTime) > 0" class="event {{cleanText(event.Group)}} {{event.Group == 'Pokemon' ? cleanText(event.Name) : ''}}"
+                <div ng-repeat="event in run.Events" ng-if="time(event.Time, chart.Scale, run.StartTime) > 0" class="event {{cleanText(event.Group)}} {{event.Group == 'Pokemon' || event.Class.indexOf('pokesprite') >= 0 ? cleanText(event.Name) + ' pokesprite' : ''}} {{event.Class}}"
                 data-label="{{event.Name + '\n' + duration(event.Time, chart.Scale, run.StartTime)}}" style="left:{{width(event.Time, chart.Scale, run.StartTime)}}px;">
                     <a ng-if="event.ImageSource" href="{{event.ImageSource}}" target="_blank">
                         <img ng-src="{{event.Image}}" alt="{{event.Name}}" />
                     </a>
-                    <img ng-if="!event.ImageSource" ng-src="{{event.Image}}" alt="{{event.Name}}" />
+                    <img ng-if="!event.ImageSource" ng-src="{{event.Image || 'img/missingno.png' }}" alt="{{event.Name}}" />
                 </div>
             </div>
         </div>

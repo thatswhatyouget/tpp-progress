@@ -3177,9 +3177,136 @@ var tppData = [
                 Duration: new Date().toISOString(),
                 Ongoing: true,
                 HostName: "SquirtLee",
-                HostImage: "img/pmd/squirtle.png",
-                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
-                Events: []
+                HostImage: "img/hosts/pmd/squirtlee.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
+                Events: [
+                    {
+                        Group: "Bosses",
+                        Name: "Skarmory",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Team Meanies",
+                        Time: "-1d",
+                        Class: "pokesprite Gengar"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Zapdos",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Moltres",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Articuno",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Mankies",
+                        Time: "-1d",
+                        Class: "pokesprite Mankey"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Groudon",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Rayquaza",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Kyogre",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Regirock",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Regice",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Registeel",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Latios",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Entei",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Raikou",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Suicune",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Ho-Oh",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Jirachi",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Lugia",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Mewtwo",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Deoxys",
+                        Time: "-1d",
+                        Class: "pokesprite"
+                    }
+                ]
             },
         ]
     },
@@ -3195,22 +3322,22 @@ var tppData = [
                 StartDate: "2014-04-27T04:14:13Z",
                 Duration: "21h41m4s",
                 HostName: "a,,AOOOzz",
-                HostImage: "img/pmd/mudkip.png",
-                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                HostImage: "img/hosts/pmd/mudkip.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
                 Unfinished: true,
                 Events: [
                     {
                         Group: "Hosts",
                         Name: "nccccc,\u00A1",
-                        Image: "img/pmd/squirtle.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                        Image: "img/hosts/pmd/squirtle.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
                         Time: "7h47m9s"
                     },
                     {
                         Group: "Hosts",
                         Name: "aaaaaaaa",
-                        Image: "img/pmd/pikachu.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                        Image: "img/hosts/pmd/pikachu.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
                         Time: "19h56m58s"
                     }
                 ]
@@ -3222,24 +3349,36 @@ var tppData = [
                 StartDate: "2014-06-12T08:35:50Z",
                 Duration: "2014-06-14T07:21:58Z",
                 HostName: "cuboner",
-                HostImage: "img/pmd/cubone.png",
-                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                HostImage: "img/hosts/pmd/cubone.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
                 Unfinished: true,
                 Events: [
                     {
                         Group: "Hosts",
                         Name: "0",
-                        Image: "img/pmd/machop.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                        Image: "img/hosts/pmd/machop.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
                         Time: "2014-06-14T04:38:58Z"
                     },
                     {
                         Group: "Hosts",
                         Name: "aa",
-                        Image: "img/pmd/bulbasaur.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                        Image: "img/hosts/pmd/bulbasaur.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
                         Time: "2014-06-14T05:46:40Z"
-                    }
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Skarmory",
+                        Time: "2014-06-13T00:35:03Z",
+                        Class: "pokesprite"
+                    },
+                    {
+                        Group: "Bosses",
+                        Name: "Team Meanies",
+                        Time: "2014-06-13T20:41:10Z",
+                        Class: "pokesprite Gengar"
+                    },
                 ]
             },
             {
@@ -3785,8 +3924,8 @@ var tppData = [
                 StartDate: "2014-03-19T09:30:41Z",
                 Duration: "13m45s",
                 HostName: "\u2642k ",
-                HostImage: "img/pmd/eevee.png",
-                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                HostImage: "img/hosts/pmd/eevee.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
                 Unfinished: true,
                 Events: []
             },
@@ -3797,8 +3936,8 @@ var tppData = [
                 StartDate: "May 1 2014 12:33 AM GMT",
                 Duration: "May 1 2014 3:04 AM GMT",
                 HostName: "nncaapCCC\u00C6",
-                HostImage: "img/pmd/pikachu.png",
-                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                HostImage: "img/hosts/pmd/pikachu-green.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
                 Unfinished: true,
                 Events: []
             },
