@@ -2928,6 +2928,20 @@ var tppData: TPP.Collection[] = [
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46gsoo/azure_our_perky_exrival_animated/",
                         Time: "-1d"
                     },
+                    {
+                        Group: "Badges",
+                        Image: "img/badges/boulder.png",
+                        Name: "Brock",
+                        Time: "0d 8h 28m",
+                        Attempts: 5
+                    },
+                    {
+                        Group: "Badges",
+                        Image: "img/badges/cascade.png",
+                        Name: "Misty",
+                        Time: "0d 17h 47m",
+                        Attempts: 2
+                    },
                 ]
             }
         ]
