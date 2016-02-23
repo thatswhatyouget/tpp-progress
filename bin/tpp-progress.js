@@ -173,26 +173,26 @@ function drawEvent(eventInfo, runInfo, scale) {
     var groupName = eventInfo.Group.replace(/[^A-Z0-9]/ig, '').toLowerCase();
     var event = document.createElement("div");
     var eventImg = document.createElement("img");
+    event.classList.add("event");
+    if (eventInfo.Class)
+        eventInfo.Class.split(' ').forEach(function (c) { return event.classList.add(c.replace(/[^A-Z0-9]/ig, '').toLowerCase()); });
     if (eventInfo.Group.toLowerCase() == "pokemon") {
-        eventInfo.Image = "img/missingno.png";
-        eventInfo.Class = eventInfo.Name;
-        setTimeout(function () {
-            delete eventInfo.Image;
-            delete eventInfo.Class;
-        }, 0);
+        event.classList.add("pokesprite");
     }
-    if (eventInfo.Image) {
-        if (eventInfo.ImageSource) {
-            var imgSource = document.createElement("a");
-            event.appendChild(imgSource);
-            imgSource.appendChild(eventImg);
-            imgSource.setAttribute("href", eventInfo.ImageSource);
-            imgSource.setAttribute("target", "_blank");
-        }
-        else
-            event.appendChild(eventImg);
+    if (event.classList.contains("pokesprite")) {
+        event.classList.add(eventInfo.Name.replace(/[^A-Z0-9]/ig, '').toLowerCase());
     }
-    event.className = "event " + groupName;
+    var imageUrl = eventInfo.Image || "img/missingno.png";
+    if (eventInfo.ImageSource) {
+        var imgSource = document.createElement("a");
+        event.appendChild(imgSource);
+        imgSource.appendChild(eventImg);
+        imgSource.setAttribute("href", eventInfo.ImageSource);
+        imgSource.setAttribute("target", "_blank");
+    }
+    else
+        event.appendChild(eventImg);
+    event.classList.add(groupName);
     var time = Duration.parse(eventInfo.Time, runInfo.StartTime);
     var label = eventInfo.Name;
     if (eventInfo.Time) {
@@ -202,14 +202,12 @@ function drawEvent(eventInfo, runInfo, scale) {
         label += "\n(estimated)";
     if (eventInfo.Attempts)
         label += "\n(" + eventInfo.Attempts + " Attempt" + (eventInfo.Attempts > 1 ? "s" : "") + ")";
-    eventImg.src = eventInfo.Image;
+    eventImg.src = imageUrl;
     eventImg.alt = label;
     event.setAttribute('data-label', label);
     event.setAttribute("data-time", time.toString(TPP.Scale.Weeks));
     if (showGroups[groupName] === false)
         event.classList.add('hidden');
-    if (eventInfo.Class)
-        event.classList.add(eventInfo.Class.replace(/[^A-Z0-9]/ig, '').toLowerCase());
     groups[groupName] = eventInfo.Group;
     return event;
 }
