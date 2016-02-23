@@ -95,7 +95,7 @@ function scrapeRun(run: TPP.Run, page:string) {
             if (!$col.find('img').is('.greyed-out') && !knownEvents[title + time]) {
                 run.Events.push({
                     Group: groupName,
-                    Image: $col.find('img').attr('crs').replace(/^\//, run.Scraper.url + "/"),
+                    Image: ($col.find('img').attr('crs') || '').replace(/^\//, run.Scraper.url + "/"),
                     Name: title,
                     Time: time,
                     Attempts: parseInt($col.find('strong').text() || '0'),
