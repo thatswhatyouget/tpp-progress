@@ -2,7 +2,9 @@
 /// <reference path="../ref/jquery" />
 function Scrape(run: TPP.Run) {
     $('.doItLive').text('Live');
-    var deferred = $.Deferred<TPP.Run>();
+    var deferred = $.Deferred<TPP.Run>(),
+        durationExp = /\s*(?:(\d*)w)?\s*(?:(\d*)d)?\s*(?:(\d*)h)\s*(?:(\d*)m)\s*(?:(\d*)s)?\s*/i,
+        attemptsExp = /Attempt[^\d]*(\d*)/i;
     $.ajax({
         url: "https://crossorigin.me/" + run.Scraper.url,
         type: "GET",
@@ -20,17 +22,18 @@ function Scrape(run: TPP.Run) {
         run.Events.forEach(e=> knownEvents[e.Name + e.Time] = e);
         $events.each((i, group) => {
             var $table = $(group).parent().next('.table-pokemon'), groupName = $(group).text();
+            $table.find('th a').remove();   //remove More Info buttons
             $table.find('th').each((i, th) => {
-                var title = $(th).text();
+                var title = $(th).text().trim();
                 var $col = $table.find('tr td:nth-child(' + (i + 1) + ')');
-                var time = $($col[1]).text().trim();
-                if (!$col.find('img').is('.greyed-out') && !knownEvents[title + time]) {
+                var time = ($col.text().match(durationExp) || []).shift();
+                if (time && !$col.find('img').is('.greyed-out') && !knownEvents[title + time]) {
                     run.Events.push({
                         Group: groupName,
                         Image: ($col.find('img').attr('src') || '').replace(/^\//, run.Scraper.url + "/"),
                         Name: title,
                         Time: time,
-                        Attempts: parseInt($col.find('strong').text() || '0'),
+                        Attempts: parseInt(($col.text().match(attemptsExp) || []).pop() || '0'),
                         New: true
                     });
                 }
