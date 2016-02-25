@@ -24,10 +24,11 @@ function Scrape(run: TPP.Run) {
             var $table = $(group).parent().next('.table-pokemon'), groupName = $(group).text();
             $table.find('th a').remove();   //remove More Info buttons
             $table.find('th').each((i, th) => {
-                var title = $(th).text().trim();
                 var $col = $table.find('tr td:nth-child(' + (i + 1) + ')');
+                if ($col.find('img').is('.greyed-out')) return;
+                var title = $(th).text().trim();
                 var time = ($col.text().match(durationExp) || []).shift();
-                if (time && !$col.find('img').is('.greyed-out') && !knownEvents[title + time]) {
+                if (time && !knownEvents[title + time]) {
                     run.Events.push({
                         Group: groupName,
                         Image: ($col.find('img').attr('src') || '').replace(/^\//, run.Scraper.url + "/"),
