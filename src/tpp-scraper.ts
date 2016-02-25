@@ -3,7 +3,7 @@
 function Scrape(run: TPP.Run) {
     $('.doItLive').text('Live');
     var deferred = $.Deferred<TPP.Run>(),
-        durationExp = /\s*(?:(\d*)w)?\s*(?:(\d*)d)?\s*(?:(\d*)h)\s*(?:(\d*)m)\s*(?:(\d*)s)?\s*/i,
+        durationExp = /\s*(?:(\d*)w)?\s*(?:(\d*)d)?\s*(?:(\d*)h)\s*(?:(\d*)m)\s*(?:(\d*)s)?\s*?$/im,
         attemptsExp = /Attempt[^\d]*(\d*)/i;
     $.ajax({
         url: "https://crossorigin.me/" + run.Scraper.url,
@@ -27,8 +27,8 @@ function Scrape(run: TPP.Run) {
                 var $col = $table.find('tr td:nth-child(' + (i + 1) + ')');
                 if ($col.find('img').is('.greyed-out')) return;
                 var title = $(th).text().trim();
-                var time = ($col.text().match(durationExp) || []).shift();
-                if (time && !knownEvents[title + time]) {
+                var time = (($col.text().match(durationExp) || []).shift() || '').trim();
+                if (time && Duration.canParse(time) && !knownEvents[title + time]) {
                     run.Events.push({
                         Group: groupName,
                         Image: ($col.find('img').attr('src') || '').replace(/^\//, run.Scraper.url + "/"),
