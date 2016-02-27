@@ -3,7 +3,7 @@
 function Scrape(run: TPP.Run) {
     $('.doItLive').text('Live');
     var deferred = $.Deferred<TPP.Run>(),
-        durationExp = /\s*(?:(\d*)w)?\s*(?:(\d*)d)?\s*(?:(\d*)h)\s*(?:(\d*)m)\s*(?:(\d*)s)?\s*?$/im,
+        durationExp = /(?:(\d*)w)? *(?:(\d*)d)? *(?:(\d*)h) *(?:(\d*)m) *(?:(\d*)s)?/im,
         attemptsExp = /Attempt[^\d]*(\d*)/i;
     $.ajax({
         url: "https://crossorigin.me/" + run.Scraper.url,
@@ -21,24 +21,30 @@ function Scrape(run: TPP.Run) {
         var knownEvents: { [key: string]: TPP.Event } = {};
         run.Events.forEach(e=> knownEvents[e.Name + e.Time] = e);
         $events.each((i, group) => {
-            var $table = $(group).parent().next('.table-pokemon'), groupName = $(group).text();
-            $table.find('th a').remove();   //remove More Info buttons
-            $table.find('th').each((i, th) => {
-                var $col = $table.find('tr td:nth-child(' + (i + 1) + ')');
-                if ($col.find('img').is('.greyed-out')) return;
-                var title = $(th).text().trim();
-                var time = (($col.text().match(durationExp) || []).shift() || '').trim();
-                if (time && Duration.canParse(time) && !knownEvents[title + time]) {
-                    run.Events.push({
-                        Group: groupName,
-                        Image: ($col.find('img').attr('src') || '').replace(/^\//, run.Scraper.url + "/"),
-                        Name: title,
-                        Time: time,
-                        Attempts: parseInt(($col.text().match(attemptsExp) || []).pop() || '0'),
-                        New: true
-                    });
-                }
-            });
+            var groupName = $(group).text();
+            function parseEvents($table: JQuery) {
+                $table.find('th a').remove();   //remove More Info buttons
+                $table.find('th').each((i, th) => {
+                    var $col = $table.find('tr td:nth-child(' + (i + 1) + ')');
+                    console.log($(th).text().trim());
+                    if ($col.find('img').is('.greyed-out')) return;
+                    var title = $(th).text().trim();
+                    var time = (($col.text().match(durationExp) || []).shift() || '').trim();
+                    if (time && Duration.canParse(time) && !knownEvents[title + time]) {
+                        run.Events.push({
+                            Group: groupName,
+                            Image: ($col.find('img').attr('src') || '').replace(/^\//, run.Scraper.url + "/"),
+                            Name: title,
+                            Time: time,
+                            Attempts: parseInt(($col.text().match(attemptsExp) || []).pop() || '0'),
+                            New: true
+                        });
+                    }
+                });
+            }
+            var $element = $(group).parent();
+            while (!$element.next().is('h3'))
+                parseEvents($element = $element.next('.table-pokemon'));
         });
         if (run.Scraper.hostname) {
             run.HostName = $(page).find('td.text-left:contains("Trainer Name")').next('td.text-right').text() || run.HostName;
