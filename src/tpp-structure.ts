@@ -1,3 +1,4 @@
+/// <reference path="twitch-videos" />
 module TPP {
 	export interface Run {
 		HostImage?: string;
@@ -11,6 +12,7 @@ module TPP {
         EndDate?: string;
 		ColorPrimary: string;
 		ColorSecondary: string;
+        Region?: string;
 		Scraper?: {
 			url: string;
             parts?: string[];
@@ -22,6 +24,7 @@ module TPP {
         Unfinished?: boolean;
         Events: Event[];
         CopyEvents?: string[];
+        Videos?: Twitch.Video[];
 	}
 
 	export interface Event {

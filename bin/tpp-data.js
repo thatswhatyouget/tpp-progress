@@ -13,6 +13,7 @@ var tppData = [
                 HostName: "RED",
                 HostImage: "img/hosts/red.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Kanto",
                 Events: [
                     {
                         Group: "Badges",
@@ -117,6 +118,7 @@ var tppData = [
                 HostName: "AJDNNW",
                 HostImage: "img/hosts/ajdnnw.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Kanto, Johto",
                 Events: [
                     {
                         Group: "Badges",
@@ -269,6 +271,7 @@ var tppData = [
                 HostName: "A",
                 HostImage: "img/hosts/a.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Hoenn",
                 Events: [
                     {
                         Group: "Badges",
@@ -373,6 +376,7 @@ var tppData = [
                 HostName: "A",
                 HostImage: "img/hosts/a2.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Kanto",
                 Events: [
                     {
                         Group: "Badges",
@@ -488,6 +492,7 @@ var tppData = [
                 HostName: "nqpppnl",
                 HostImage: "img/hosts/nqpppnl.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Sinnoh",
                 Events: [
                     {
                         Group: "Badges",
@@ -591,6 +596,7 @@ var tppData = [
                 HostName: "aoooo",
                 HostImage: "img/hosts/aoooo.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Kanto, Johto",
                 Events: [
                     {
                         Group: "Badges",
@@ -813,6 +819,7 @@ var tppData = [
                 HostName: "GMYC",
                 HostImage: "img/hosts/gmyc.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Unova",
                 Events: [
                     {
                         Group: "Badges",
@@ -923,6 +930,7 @@ var tppData = [
                 HostName: "CL Y .,",
                 HostImage: "img/hosts/cly.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Unova",
                 Events: [
                     {
                         Group: "Badges",
@@ -1068,6 +1076,7 @@ var tppData = [
                 HostName: "d ",
                 HostImage: "img/hosts/d.png",
                 HostImageSource: "http://haykira.deviantart.com/art/Li-l-d-from-Twitch-Plays-Pokemon-X-Y-471845274",
+                Region: "Kalos",
                 Events: [
                     {
                         Group: "Badges",
@@ -1171,6 +1180,7 @@ var tppData = [
                 HostName: "!12rtyhaszs",
                 HostImage: "img/hosts/rtyhaszs.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Hoenn",
                 Events: [
                     {
                         Group: "Badges",
@@ -1317,6 +1327,7 @@ var tppData = [
                 HostName: "AIIIAAB",
                 HostImage: "img/hosts/aiiiaab.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Kanto",
                 Events: [
                     {
                         Group: "Badges",
@@ -2274,6 +2285,7 @@ var tppData = [
                 HostName: "AAABBHM",
                 HostImage: "img/hosts/aaabbhm.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Kanto",
                 Events: [
                     {
                         Group: "Badges",
@@ -2378,6 +2390,7 @@ var tppData = [
                 HostName: "AAtatat",
                 HostImage: "img/hosts/aatatat.png",
                 HostImageSource: "http://angelofsloths.tumblr.com/post/119327711600/my-atta-sprite",
+                Region: "Kanto",
                 Events: [
                     {
                         Group: "Badges",
@@ -2481,6 +2494,7 @@ var tppData = [
                 HostName: "!!!0999   qq",
                 HostImage: "img/hosts/qq.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Hoenn",
                 Events: [
                     {
                         Group: "Badges",
@@ -2643,6 +2657,7 @@ var tppData = [
                 HostName: "AAAAAAA",
                 HostImage: "img/hosts/aaaaaaa.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Orre",
                 Events: [
                     {
                         Group: "Bosses",
@@ -2743,6 +2758,7 @@ var tppData = [
                 HostName: "ABBBCC",
                 HostImage: "img/hosts/abbbcc.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3woea1/alphab%C4%93tos_av%C4%ABci/",
+                Region: "Orre",
                 Events: [
                     {
                         "Group": "Bosses",
@@ -2866,6 +2882,7 @@ var tppData = [
                 HostImage: "img/hosts/evan.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46elnh/evan_sprites/",
                 HostName: "EVAN",
+                Region: "Kanto, Johto",
                 Scraper: {
                     url: "http://twitchplayspokemon.org",
                     runtime: true,
@@ -2920,6 +2937,7 @@ var tppData = [
                 HostName: "BABA",
                 HostImage: "img/hosts/baba.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Kanto, Johto",
                 Events: [
                     {
                         Group: "Badges",
@@ -3074,6 +3092,7 @@ var tppData = [
                 HostName: "YUGI",
                 HostImage: "img/hosts/yugi.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xq7en/meet_yugi/",
+                Region: "TCG Island",
                 Events: [
                     {
                         Group: "Badges",
@@ -3179,6 +3198,7 @@ var tppData = [
                 HostName: "SquirtLee",
                 HostImage: "img/hosts/pmd/squirtlee.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
+                Region: "Pokemon World",
                 Events: [
                     {
                         Group: "Bosses",
@@ -3325,6 +3345,7 @@ var tppData = [
                 HostImage: "img/hosts/pmd/mudkip.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
                 Unfinished: true,
+                Region: "Pokemon World",
                 Events: [
                     {
                         Group: "Hosts",
@@ -3352,6 +3373,7 @@ var tppData = [
                 HostImage: "img/hosts/pmd/cubone.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
                 Unfinished: true,
+                Region: "Pokemon World",
                 Events: [
                     {
                         Group: "Hosts",
@@ -3390,6 +3412,7 @@ var tppData = [
                 HostName: "ABnp3a",
                 HostImage: "img/hosts/abnp3a.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Ransei",
                 Events: [
                     {
                         Name: "Aurora",
@@ -3510,6 +3533,7 @@ var tppData = [
                 HostName: "Orlando",
                 HostImage: "img/hosts/orlando.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Hoenn",
                 Events: [
                     {
                         Name: "Mission 1\nCatch Glalie",
@@ -3756,6 +3780,7 @@ var tppData = [
                 HostName: "YUGI",
                 HostImage: "img/hosts/yugi.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xq7en/meet_yugi/",
+                Region: "TCG Island",
                 Events: [],
                 CopyEvents: ["Trading Card Game"]
             },
@@ -3769,6 +3794,7 @@ var tppData = [
                 HostName: "Mint",
                 HostImage: "img/hosts/mint.png",
                 HostImageSource: "http://ryuki-stardust.deviantart.com/art/Pokemon-TCG-Mark-and-Mint-160913403",
+                Region: "TCG Island, GR Island",
                 Events: [
                     {
                         Group: "Badges",
@@ -3926,6 +3952,7 @@ var tppData = [
                 HostName: "\u2642k ",
                 HostImage: "img/hosts/pmd/eevee.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
+                Region: "Pokemon World",
                 Unfinished: true,
                 Events: []
             },
@@ -3938,6 +3965,7 @@ var tppData = [
                 HostName: "nncaapCCC\u00C6",
                 HostImage: "img/hosts/pmd/pikachu-green.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
+                Region: "Pokemon World",
                 Unfinished: true,
                 Events: []
             },
