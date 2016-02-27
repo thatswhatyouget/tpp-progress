@@ -2920,8 +2920,10 @@ var tppData: TPP.Collection[] = [
                 Ongoing: true,
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
-                HostImage: "img/hosts/evan.png",
-                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46elnh/evan_sprites/",
+                //HostImage: "img/hosts/evan.png",
+                //HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46elnh/evan_sprites/",
+                HostImage: "img/hosts/evan.gif",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46f9vw/evan_our_lethargic_protagonist_animated/",
                 HostName: "EVAN",
                 Region: "Kanto, Johto",
                 Scraper: {
@@ -2932,18 +2934,11 @@ var tppData: TPP.Collection[] = [
                 },
                 Events: [
                     {
-                        Group: "Hosts",
-                        Name: "EVAN",
-                        Image: "img/hosts/evan.gif",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46f9vw/evan_our_lethargic_protagonist_animated/",
-                        Time: "-1d"
-                    },
-                    {
                         Group: "Champions",
                         Name: "AZURE",
                         Image: "img/trainers/crystal/azure.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46gsoo/azure_our_perky_exrival_animated/",
-                        Time: "-1d"
+                        Time: "12d 4h 25m"
                     },
                     {
                         Group: "Badges",
@@ -2959,6 +2954,17 @@ var tppData: TPP.Collection[] = [
                         Time: "0d 17h 47m",
                         Attempts: 2
                     },
+                    { "Group": "Elite Four", "Image": "img/trainers/crystal/will.png", "Name": "Will", "Time": "10d 9h 58m", "Attempts": 2 },
+                    { "Group": "Elite Four", "Image": "img/trainers/crystal/koga.png", "Name": "Koga", "Time": "10d 12h 33m", "Attempts": 6 },
+                    { "Group": "Badges", "Image": "img/badges/zephyr.png", "Name": "Falkner", "Time": "1d 9h 39m", "Attempts": 1 },
+                    { "Group": "Badges", "Image": "img/badges/hive.png", "Name": "Bugsy", "Time": "2d 5h 1m", "Attempts": 2 },
+                    { "Group": "Badges", "Image": "img/badges/plain.png", "Name": "Whitney", "Time": "2d 18h 37m", "Attempts": 2 },
+                    { "Group": "Badges", "Image": "img/badges/fog.png", "Name": "Morty", "Time": "3d 16h 37m", "Attempts": 1 },
+                    { "Group": "Badges", "Image": "img/badges/glacier.png", "Name": "Pryce", "Time": "5d 16h 39m", "Attempts": 3 },
+                    { "Group": "Badges", "Image": "img/badges/storm.png", "Name": "Chuck", "Time": "6d 7h 48m", "Attempts": 3 },
+                    { "Group": "Badges", "Image": "img/badges/mineral.png", "Name": "Jasmine", "Time": "7d 14h 43m", "Attempts": 6 },
+                    { "Group": "Badges", "Image": "img/badges/rising.png", "Name": "Clair", "Time": "9d 0h 55m", "Attempts": 2 },
+                    //{ "Group": "Badges", "Image": "img/badges/rising.png", "Name": "Rising Badge", "Time": "9d 4h 17m", "Attempts": 2 }
                 ]
             }
         ]
