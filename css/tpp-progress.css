@@ -356,7 +356,7 @@ ul.controls > li > ul > li > * {
     background-size:cover;
 }
 
-.progressChart .run .event.bosses.pokesprite img {
+.progressChart .run .event.bosses.pokesprite img, .progressChart .run .event.mssions.pokesprite img {
     top: -8px;
     font-size:64px;
     background-image:url("../img/pokemon-large.png");
