@@ -15,19 +15,18 @@ function Scrape(run) {
                 run.Duration = new Date().toISOString();
         }
         var knownEvents = {};
-        run.Events.forEach(function (e) { return knownEvents[e.Name + e.Time] = e; });
+        run.Events.forEach(function (e) { return knownEvents[(e.Name + e.Time).toLowerCase()] = e; });
         $events.each(function (i, group) {
             var groupName = $(group).text();
             function parseEvents($table) {
                 $table.find('th a').remove();
                 $table.find('th').each(function (i, th) {
                     var $col = $table.find('tr td:nth-child(' + (i + 1) + ')');
-                    console.log($(th).text().trim());
                     if ($col.find('img').is('.greyed-out'))
                         return;
                     var title = $(th).text().trim();
                     var time = (($col.text().match(durationExp) || []).shift() || '').trim();
-                    if (time && Duration.canParse(time) && !knownEvents[title + time]) {
+                    if (time && Duration.canParse(time) && !knownEvents[(title + time).toLowerCase()]) {
                         run.Events.push({
                             Group: groupName,
                             Image: ($col.find('img').attr('src') || '').replace(/^\//, run.Scraper.url + "/"),
