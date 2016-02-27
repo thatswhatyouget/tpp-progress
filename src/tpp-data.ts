@@ -2938,7 +2938,8 @@ var tppData: TPP.Collection[] = [
                         Name: "AZURE",
                         Image: "img/trainers/crystal/azure.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46gsoo/azure_our_perky_exrival_animated/",
-                        Time: "12d 4h 25m"
+                        Time: "12d 4h 25m",
+                        Attempts: 2
                     },
                     {
                         Group: "Badges",
