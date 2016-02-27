@@ -362,6 +362,10 @@ ul.controls > li > ul > li > * {
     background-image:url("../img/pokemon-large.png");
 }
 
+.progressChart .run .event img[src="img/trainers/crystal/azure.gif"] {
+    transform:translateX(-35%);
+}
+
 .progressChart .run .event:hover {
 	z-index:5;
 	background-color:rgba(0,0,0,.5);
