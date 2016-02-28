@@ -39,6 +39,9 @@ function createChart(data) {
     chart.setAttribute("data-label", data.Name);
     setUniqueId(chart, data.Name);
     chart.setAttribute("data-scale", TPP.Scale[data.Scale]);
+    var offset = parseInt(QueryString["offset"] || "0") + (data.Offset || 0);
+    if (offset)
+        chart.setAttribute("data-offset", offset.toString());
     var pageTarget = fakeQuery(".charts")[0] || document.body;
     setTimeout(function () { return pageTarget.appendChild(chart); }, 1);
     var longestRun = new Duration(0);

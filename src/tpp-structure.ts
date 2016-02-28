@@ -44,6 +44,7 @@ module TPP {
         SingularName?: string;
         Scale: Scale;
         Runs: Run[];
+        Offset?: number;
     }
     
     export enum Scale {
@@ -125,3 +126,12 @@ class Duration {
         else this.days += <number>weeks * 7;
     }
 }
+
+var QueryString = (() => {
+    var retobj: { [key: string]: string } = {} 
+    window.location.search.substring(1).split("&").forEach(vars=> {
+        var pair = vars.split("=");
+        retobj[pair.shift()] = pair.join('=');
+    });
+    return retobj;
+})();

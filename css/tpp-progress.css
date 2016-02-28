@@ -381,10 +381,10 @@ ul.controls > li > ul > li > * {
     opacity: 0;   
 }
 
-.progressChart #touhoumon.run {
+.progressChart > .touhoumon.run {
 	margin-bottom:0;	
 }
-.progressChart #moemon.run:hover::before {
+.progressChart > .moemon.run:hover::before {
 	bottom:-1.5em;
 	top:auto;
 }
@@ -483,15 +483,15 @@ ul.controls > li > ul > li > * {
     margin-bottom: 75px;   
 }
 
-.progressChart #touhoumon.run .videos {
+.progressChart > .touhoumon.run .videos {
     display:none;   
 }
 
-.progressChart #moemon.run .videos a {
+.progressChart > .moemon.run .videos a {
     margin-bottom:-1em;
 }
 
-.progressChart #moemon.run .videos a .playhead {
+.progressChart > .moemon.run .videos a .playhead {
     height:100px;
     padding-bottom:1em;   
 }

@@ -1,4 +1,6 @@
 /// <reference path="tpp-structure" />
+/// <reference path="tpp-scraper" />
+/// <reference path="tpp-data" />
 /// <reference path="twitch-videos" />
 
 var fakeQuery: (selector: string) => Array<HTMLElement> = selector => Array.prototype.slice.call(document.querySelectorAll(selector));
@@ -46,6 +48,8 @@ function createChart(data: TPP.Collection) {
     chart.setAttribute("data-label", data.Name);
     setUniqueId(chart, data.Name);
     chart.setAttribute("data-scale", TPP.Scale[data.Scale]);
+    var offset = parseInt(QueryString["offset"] || "0") + (data.Offset || 0);
+    if (offset) chart.setAttribute("data-offset", offset.toString());
     var pageTarget = fakeQuery(".charts")[0] || document.body;
     setTimeout(() => pageTarget.appendChild(chart), 1);
     var longestRun = new Duration(0);

@@ -1,0 +1,90 @@
+<html>
+
+<head>
+	<title>TPP Progress Chart</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="bin/tpp-structure.js"></script>
+    <script src="bin/twitch-videos.js"></script>
+	<script src="bin/tpp-progress.js"></script>
+	<script src="bin/tpp-scraper.js"></script>
+	<script src="bin/tpp-data.js"></script>
+    <!--<script src="bin/poke-styles.js"></script>-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">	
+	<link rel="stylesheet" href="css/tpp-progress.css" />
+    <link rel="stylesheet" href="css/pokemon.css" />
+	<link rel="icon" href="img/icon.png" type="image/png">
+	<link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <meta property="og:title" content="TPP Progress Chart" />
+    <meta property="og:url" content="http://thatswhatyouget.github.io/tpp-progress/" />
+    <meta property="og:image" content="http://thatswhatyouget.github.io/tpp-progress/img/icon.png" />
+    <meta property="og:type" content="website" />
+</head>
+
+<body>
+	<div class="title">
+		<h1>Twitch Plays Pokemon</h1>
+	</div>
+	<div class="title">
+		<strong>Progress Chart</strong>
+		<div class="credits">
+			<span>Original Design: <a href="https://www.reddit.com/user/jim_needs_me" target="_blank">jim_needs_me</a></span>&nbsp;&nbsp;
+			<span>Interactive version: <a href="https://www.reddit.com/user/VorpalNorman" target="_blank">VorpalNorman</a></span>
+		</div>
+		<div class="credits">
+			Contributors:
+            <a href="https://www.reddit.com/user/TheSwordUser" target="_blank">TheSwordUser</a>,
+            <a href="https://www.reddit.com/user/UDie2day" target="_blank">UDie2day</a>,
+            <a href="https://www.reddit.com/user/AsterJ" target="_blank">AsterJ,</a>
+            <a href="https://www.reddit.com/user/Rabbeseking" target="_blank">Rabbeseking</a>,
+            <a href="https://www.reddit.com/user/Tiesoul" target="_blank">Tiesoul</a>,
+            <a href="https://www.reddit.com/user/Persona_Alio" target="_blank">valence_d</a>,
+            <a href="https://www.reddit.com/user/ChezMere" target="_blank">ChezMere</a>,
+            <a href="https://www.reddit.com/user/T-chan" target="_blank">T-chan</a>,
+            and <a href="https://www.reddit.com/user/yoshord" target="_blank">yoshord</a>,
+		</div>
+        <div class="credits">
+            Default sprites are from <a href="http://bulbapedia.bulbagarden.net/" target="_blank">Bulbapedia</a> and <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>. Custom sprites are linked to their sources.
+        </div>
+        <div class="credits">
+            <span class="doItLive">Most</span> run data provided by <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
+        </div>
+	</div>
+    <div class="charts">
+	   <script>
+            var data = [
+                { Name: "Crystal", Scale: tppData[0].Scale, Runs: [tppData[0].Runs[1]], Offset: -(Duration.parse("10d 0h 56m").TotalDays) },
+                { Name: "Randomized HeartGold", Scale: tppData[0].Scale, Runs: [tppData[0].Runs[5]], Offset: -(Duration.parse("11d 15h 9m").TotalDays) },
+                { Name: "Anniversary Crystal", Scale: tppData[2].Scale, Runs: [tppData[2].Runs[0]], Offset: -(Duration.parse("12d 6h 36m").TotalDays) },
+                { Name: "Vietnamese Crystal", Scale: tppData[3].Scale, Runs: [tppData[3].Runs[0]], Offset: -(Duration.parse("2015-09-14T18:37:36Z", 1427218920).TotalWeeks) },
+                { Name: "Kanto Runs", Scale: tppData[0].Scale, Runs: [].concat.apply([], [tppData[0].Runs, tppData[1].Runs]).filter(function (r) { return r.Region == "Kanto"; }).concat(tppData[2].Runs[0]) },
+                tppData[1]]; //to make sure VC can get its concurrent runs
+            createCharts(data);
+            setTimeout(function () { $('#season2').hide(); }, 1); //we don't need to SEE season 2
+       </script>
+    </div>
+	<ul class="controls">
+		<li><i class="fa fa-search-plus" title="Zoom In" onclick="zoomIn();"></i></li>
+		<li><i class="fa fa-search-minus" title="Zoom Out" onclick="zoomOut();"></i></li>
+		<li class="settings">
+			<i class="fa fa-gear" title="Settings"></i>
+			<ul>
+				<li>
+					<input type="checkbox" id="explode" onchange="toggleSetting(this);" />
+					<label for="explode">Stagger Clumps</label>
+				</li>
+                <!--<li>
+					<input type="checkbox" id="postgame" onchange="toggleSetting(this);" />
+					<label for="postgame">Show Postgame</label>
+				</li>-->
+			</ul>
+		</li>
+		<li class="groups">
+			<i class="fa fa-eye" title="Groups"></i>
+			<ul>
+			</ul>
+		</li>
+        <li><i class="fa fa-twitch" title="Twitch Videos" onclick="getTwitchVideos();"></i></li>
+	</ul>
+</body>
+
+</html>
