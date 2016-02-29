@@ -58,7 +58,7 @@
                 { Name: "Randomized HeartGold", Scale: tppData[0].Scale, Runs: [tppData[0].Runs[5]], Offset: -(Duration.parse("11d 15h 9m").TotalDays) },
                 { Name: "Anniversary Crystal", Scale: tppData[2].Scale, Runs: [tppData[2].Runs[0]], Offset: -(Duration.parse("12d 6h 36m").TotalDays) },
                 { Name: "Vietnamese Crystal", Scale: tppData[3].Scale, Runs: [tppData[3].Runs[0]], Offset: -(Duration.parse("2015-09-14T18:37:36Z", 1427218920).TotalWeeks) },
-                { Name: "Kanto Runs", Scale: tppData[0].Scale, Runs: [].concat.apply([], [tppData[0].Runs, tppData[1].Runs]).filter(function (r) { return r.Region == "Kanto"; }).concat(tppData[2].Runs[0]) },
+                { Name: "Kanto Runs", Scale: tppData[0].Scale, Runs: [].concat.apply([], [tppData[0].Runs, tppData[1].Runs]).filter(function (r) { return r.Region == "Kanto"; })/*.concat(tppData[2].Runs[0])*/ },
                 tppData[1]]; //to make sure VC can get its concurrent runs
             createCharts(data);
             setTimeout(function () { $('#season2').hide(); }, 1); //we don't need to SEE season 2
