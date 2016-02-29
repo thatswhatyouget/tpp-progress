@@ -39,8 +39,8 @@ function Scrape(run) {
                 });
             }
             var $element = $(group).parent();
-            while (!$element.next().is('h3'))
-                parseEvents($element = $element.next('.table-pokemon'));
+            while ($element.nextAll('h3, .table-pokemon').first().is('.table-pokemon'))
+                parseEvents($element = $element.nextAll('.table-pokemon').first());
         });
         if (run.Scraper.hostname) {
             run.HostName = $(page).find('td.text-left:contains("Trainer Name")').next('td.text-right').text() || run.HostName;
