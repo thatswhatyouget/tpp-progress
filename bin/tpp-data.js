@@ -2913,10 +2913,10 @@ var tppData = [
                         Attempts: 2
                     },
                     {
-                        Group: "Rematch Badges",
-                        Name: "Misty",
-                        Image: "img/badges/rematch/cascade.png",
-                        Time: "14d 18h 28m",
+                        Group: "Past Hosts",
+                        Image: "img/hosts/baba.png",
+                        Name: "BABA",
+                        Time: "15d 0h 53m",
                         Attempts: 2
                     },
                     { "Group": "Elite Four", "Image": "img/trainers/crystal/will.png", "Name": "Will", "Time": "10d 9h 58m", "Attempts": 2 },
