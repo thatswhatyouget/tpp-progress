@@ -1422,6 +1422,13 @@ var tppData = [
                         Attempts: 6
                     },
                     {
+                        Group: "Past Hosts",
+                        Name: "Dream RED",
+                        Image: "img/hosts/red.png",
+                        Time: "27d 19h 45m",
+                        Attempts: 1
+                    },
+                    {
                         Group: "Rematch Badges",
                         Name: "Boulder Badge",
                         Image: "img/badges/rematch/boulder.png",
@@ -2915,7 +2922,7 @@ var tppData = [
                     {
                         Group: "Past Hosts",
                         Image: "img/hosts/baba.png",
-                        Name: "BABA",
+                        Name: "Dream BABA",
                         Time: "15d 0h 53m",
                         Attempts: 2
                     },
