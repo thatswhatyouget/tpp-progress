@@ -1,6 +1,9 @@
 /// <reference path="../ref/jquery" />
 module Twitch {
+    var offsetExp = /offset=(\d*)/i;
+
     export interface TwitchCall {
+        _total: number;
         _links: { next: string; };
         videos: TwitchVideo[]
     }
@@ -24,7 +27,9 @@ module Twitch {
         var videos:Video[] = [], getAllVideos = (r: TwitchCall):(Video[] | JQueryPromise<Video[]>) => {
             if (r.videos.length) {
                 videos = videos.concat.apply(videos, r.videos.map(v=> new Video(v.recorded_at, v.length, v.url, "Twitch")));
-                if (getAll) return $.get(r._links.next).then(getAllVideos);
+                if (getAll && parseInt(offsetExp.exec(r._links.next)[1] || "700") <= r._total) {
+                    return $.get(r._links.next).then(getAllVideos);
+                }
             }
             return videos;
         };

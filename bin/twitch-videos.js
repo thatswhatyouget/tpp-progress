@@ -1,5 +1,6 @@
 var Twitch;
 (function (Twitch) {
+    var offsetExp = /offset=(\d*)/i;
     var Video = (function () {
         function Video(recorded_at, length, url, source) {
             this.recorded_at = recorded_at;
@@ -17,8 +18,9 @@ var Twitch;
         var videos = [], getAllVideos = function (r) {
             if (r.videos.length) {
                 videos = videos.concat.apply(videos, r.videos.map(function (v) { return new Video(v.recorded_at, v.length, v.url, "Twitch"); }));
-                if (getAll)
+                if (getAll && parseInt(offsetExp.exec(r._links.next)[1] || "700") <= r._total) {
                     return $.get(r._links.next).then(getAllVideos);
+                }
             }
             return videos;
         };
