@@ -6,11 +6,16 @@ function Scrape(run: TPP.Run) {
         durationExp = /(?:(\d*)w)? *(?:(\d*)d)? *(?:(\d*)h) *(?:(\d*)m) *(?:(\d*)s)?/im,
         attemptsExp = /Attempt[^\d]*(\d*)/i;
     $.ajax({
-        url: "https://crossorigin.me/" + run.Scraper.url,
+        url: "http://crossorigin.me/" + run.Scraper.url,
+        type: "GET",
+        dataType: "text",
+        timeout: 1000
+    }).then(r=> r, e=> $.ajax({
+        url: "http://cors.io/?u=" + run.Scraper.url,
         type: "GET",
         dataType: "text"
-    }).then(page=> {
-        //page.replace(/\bsrc=/ig, 'data-src=');
+    })).then(page=> {
+        page = page.replace(/\bsrc=/ig, 'crs=');
         var $lastUpdate = $(page).find('.last-update');
         run.Scraper.parts = run.Scraper.parts || ["Badge", "Elite Four"];
         var $events = $(page).find(run.Scraper.parts.map(p=> "h3 strong:contains(" + p + ")").join(','));
@@ -32,7 +37,7 @@ function Scrape(run: TPP.Run) {
                     if (time && Duration.canParse(time) && !knownEvents[(title + time).toLowerCase()]) {
                         run.Events.push({
                             Group: groupName,
-                            Image: ($col.find('img').attr('src') || '').replace(/^\//, run.Scraper.url + "/"),
+                            Image: ($col.find('img').attr('crs') || '').replace(/^\//, run.Scraper.url + "/"),
                             Name: title,
                             Time: time,
                             Attempts: parseInt(($col.text().match(attemptsExp) || []).pop() || '0'),
@@ -73,6 +78,6 @@ function Scrape(run: TPP.Run) {
         }
         deferred.resolve(run);
         $(page).find('img').attr('src', '');
-    }, (jqXHR, status, err) => deferred.reject(err));
+    }, () => deferred.reject("Could not load live run data."));
     return deferred.promise();
 }

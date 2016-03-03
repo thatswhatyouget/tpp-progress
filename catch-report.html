@@ -124,7 +124,6 @@
                         var realUpdatePage = updatePage;
                         updatePage = function(e) {
                             var search = '.' + cleanString(r.RunName) + ' .catchreport';
-                            console.log(search);
                             var runDur = Duration.parse(r.Duration, r.StartTime), count = countMons();
                             $(search).attr('data-label', count)
                                 .attr('data-time', !day || runDur.TotalDays < day ? !day || runDur.TotalDays >= day - 1 ? runDur.toString() : day - 1 + "d" : day + "d")
