@@ -119,13 +119,14 @@
                         r.Events.push({
                             Group: "Catch Report",
                             Name: countMons(),
-                            Time: day + "d",
+                            Time: "0d",
                         });
                         var realUpdatePage = updatePage;
                         updatePage = function(e) {
                             var search = '.' + cleanString(r.RunName) + ' .catchreport';
                             console.log(search);
-                            $(search).attr('data-label', countMons());
+                            var runDur = Duration.parse(r.Duration, r.StartTime);
+                            $(search).attr('data-label', countMons()).attr('data-time', runDur.TotalDays < day ? runDur.TotalDays >= day - 1 ? runDur.toString() : day - 1 + "d" : day + "d");
                             return realUpdatePage(e);
                         }
                         return r;
