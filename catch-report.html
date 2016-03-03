@@ -22,7 +22,7 @@
         .progressChart .run .event[data-label].catchreport, .progressChart .run .event[data-label].catchreport:hover {
             background-color:black;
         }
-.progressChart .run .event[data-label].catchreport::before, .progressChart .run .event[data-label].catchreport::before {
+.progressChart .run .event[data-label].catchreport::before {
 	content:'Caught';
 	border:solid 1px black;
     color:black;
@@ -40,15 +40,15 @@
     transform: translateX(-50%);
 	bottom:100%;
 	z-index:5;
+    padding:0;
 }
-.progressChart .run .event[data-label].catchreport::after, .progressChart .run .event[data-label].catchreport::after {
+.progressChart .run .event[data-label].catchreport::after {
 	content:attr(data-label);
 	margin-bottom:25px;
 	font-size:1.15em;
     font-weight:bold;
 	background-color: indianred;
 	border:solid 1px black;
-    border-bottom:none;
     border-radius:30px 30px 0 0;
     height:25px;
     width:50px;
@@ -64,6 +64,11 @@
 	white-space: pre;
 	transform: translateX(-50%);
     letter-spacing: 0;
+    transition:margin .2s ease-in-out;
+    padding:0;
+}
+.progressChart .run .event[data-label].catchreport:hover::after {
+    margin-bottom:35px;
 }
 .progressChart .run .event.catchreport img {
     display:none;
