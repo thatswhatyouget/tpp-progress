@@ -13,6 +13,7 @@ module TPP {
 		ColorPrimary: string;
 		ColorSecondary: string;
         Region?: string;
+        DexTotal?: number;
 		Scraper?: {
 			url: string;
             parts?: string[];

@@ -23,7 +23,7 @@
             background-color:black;
         }
 .progressChart .run .event[data-label].catchreport::before {
-	content:'Caught';
+	content:attr(data-percentage);
 	border:solid 1px black;
     color:black;
     background-color: white;
@@ -125,8 +125,10 @@
                         updatePage = function(e) {
                             var search = '.' + cleanString(r.RunName) + ' .catchreport';
                             console.log(search);
-                            var runDur = Duration.parse(r.Duration, r.StartTime);
-                            $(search).attr('data-label', countMons()).attr('data-time', runDur.TotalDays < day ? runDur.TotalDays >= day - 1 ? runDur.toString() : day - 1 + "d" : day + "d");
+                            var runDur = Duration.parse(r.Duration, r.StartTime), count = countMons();
+                            $(search).attr('data-label', count)
+                                .attr('data-time', runDur.TotalDays < day ? runDur.TotalDays >= day - 1 ? runDur.toString() : day - 1 + "d" : day + "d")
+                                .attr('data-percentage', r.DexTotal ? count == r.DexTotal ? "100%" : ((count / r.DexTotal) * 100).toFixed(1) + "%" : "Caught");
                             return realUpdatePage(e);
                         }
                         return r;

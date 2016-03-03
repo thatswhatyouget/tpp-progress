@@ -1328,6 +1328,7 @@ var tppData = [
                 HostImage: "img/hosts/aiiiaab.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Kanto",
+                DexTotal: 151,
                 Events: [
                     {
                         Group: "Badges",
@@ -2890,10 +2891,11 @@ var tppData = [
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46f9vw/evan_our_lethargic_protagonist_animated/",
                 HostName: "EVAN",
                 Region: "Kanto, Johto",
+                DexTotal: 251,
                 Scraper: {
                     url: "http://twitchplayspokemon.org",
                     runtime: true,
-                    parts: ["Badge", "Johto", "Elite Four"],
+                    parts: ["Badge", "Elite Four"],
                     pokemon: true
                 },
                 Events: [
