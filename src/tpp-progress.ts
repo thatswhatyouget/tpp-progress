@@ -128,8 +128,10 @@ function updateRun(runInfo: TPP.Run, run: HTMLDivElement, scale) {
     setTimeout(() => updateRun(runInfo, run, scale), 15 * 60000);
 }
 
+var cleanString = (str:string) => str.replace(/[^A-Z0-9]/ig, '').toLowerCase();
+
 function setUniqueId(element: HTMLElement, id: string) {
-    var original = id = id.replace(/[^A-Z0-9]/ig, '').toLowerCase();
+    var original = id = cleanString(id);
     for (var i = 1; document.getElementById(id); id = original + i++);
     element.setAttribute("id", id);
     element.classList.add(original);
@@ -164,7 +166,7 @@ function drawConcurrentRuns(baseRunInfo: TPP.Run, runElement: HTMLDivElement, sc
             innerRun.setAttribute("data-endtime", runEnd.toString(TPP.Scale.Weeks));
         }
         runEnd.TotalSeconds += runStart.TotalSeconds;
-        innerRun.classList.add("inner" + r.RunName.replace(/[^A-Z0-9]/ig, '').toLowerCase());
+        innerRun.classList.add("inner" + cleanString(r.RunName));
         innerRun.setAttribute('data-label', (c.SingularName || c.Name) + "\n" + r.RunName + "\nStarted: " + runStart.toString(scale) + (r.Ongoing ? "" : "\nEnded: " + runEnd.toString(scale)));
     }));
 }

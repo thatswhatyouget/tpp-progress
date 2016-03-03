@@ -1,0 +1,162 @@
+<html>
+
+<head>
+	<title>TPP Progress Chart</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="bin/tpp-structure.js"></script>
+    <script src="bin/twitch-videos.js"></script>
+	<script src="bin/tpp-progress.js"></script>
+	<script src="bin/tpp-scraper.js"></script>
+	<script src="bin/tpp-data.js"></script>
+    <!--<script src="bin/poke-styles.js"></script>-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">	
+	<link rel="stylesheet" href="css/tpp-progress.css" />
+    <link rel="stylesheet" href="css/pokemon.css" />
+	<link rel="icon" href="img/icon.png" type="image/png">
+	<link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <meta property="og:title" content="TPP Progress Chart" />
+    <meta property="og:url" content="http://thatswhatyouget.github.io/tpp-progress/" />
+    <meta property="og:image" content="http://thatswhatyouget.github.io/tpp-progress/img/icon.png" />
+    <meta property="og:type" content="website" />
+    <style>
+        .progressChart .run .event[data-label].catchreport, .progressChart .run .event[data-label].catchreport:hover {
+            background-color:black;
+        }
+.progressChart .run .event[data-label].catchreport::before, .progressChart .run .event[data-label].catchreport::before {
+	content:'Caught';
+	border:solid 1px black;
+    color:black;
+    background-color: white;
+    border-radius: 0 0 30px 30px;
+    font-size:.6em;
+	height:25px;
+    width:50px;
+    box-sizing: border-box;
+    line-height: 15px;
+	position:absolute;
+    font-weight:bold;
+	left:1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transform: translateX(-50%);
+    padding:0 .5em;
+	bottom:100%;
+	z-index:5;
+}
+.progressChart .run .event[data-label].catchreport::after, .progressChart .run .event[data-label].catchreport::after {
+	content:attr(data-label);
+	margin-bottom:25px;
+	font-size:1.2em;
+    font-weight:bold;
+	background-color: indianred;
+	border:solid 1px black;
+    border-bottom:none;
+    border-radius:30px 30px 0 0;
+    height:25px;
+    width:50px;
+    line-height: 25px;
+    box-sizing: border-box;
+	color:black;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	position: absolute;
+	left:1px;
+	bottom:100%;
+	z-index:5;
+	padding:0 .5em;
+	white-space: pre;
+	transform: translateX(-50%);
+    letter-spacing: 0;
+}
+.progressChart .run .event.catchreport img {
+    display:none;
+}
+    </style>
+</head>
+
+<body>
+	<div class="title">
+		<h1>Twitch Plays Pokemon</h1>
+	</div>
+	<div class="title">
+		<strong>Progress Chart</strong>
+		<div class="credits">
+			<span>Original Design: <a href="https://www.reddit.com/user/jim_needs_me" target="_blank">jim_needs_me</a></span>&nbsp;&nbsp;
+			<span>Interactive version: <a href="https://www.reddit.com/user/VorpalNorman" target="_blank">VorpalNorman</a></span>
+		</div>
+		<div class="credits">
+			Contributors:
+            <a href="https://www.reddit.com/user/TheSwordUser" target="_blank">TheSwordUser</a>,
+            <a href="https://www.reddit.com/user/UDie2day" target="_blank">UDie2day</a>,
+            <a href="https://www.reddit.com/user/AsterJ" target="_blank">AsterJ,</a>
+            <a href="https://www.reddit.com/user/Rabbeseking" target="_blank">Rabbeseking</a>,
+            <a href="https://www.reddit.com/user/Tiesoul" target="_blank">Tiesoul</a>,
+            <a href="https://www.reddit.com/user/Persona_Alio" target="_blank">valence_d</a>,
+            <a href="https://www.reddit.com/user/ChezMere" target="_blank">ChezMere</a>,
+            <a href="https://www.reddit.com/user/T-chan" target="_blank">T-chan</a>,
+            and <a href="https://www.reddit.com/user/yoshord" target="_blank">yoshord</a>,
+		</div>
+        <div class="credits">
+            Default sprites are from <a href="http://bulbapedia.bulbagarden.net/" target="_blank">Bulbapedia</a> and <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
+            Pokemon sprites are from <a href="http://pldh.net/dex/sprites/index" target="_blank">PLDHnet's SpriteDex</a>.<br/>
+            All custom sprites can be clicked for links to their sources.
+        </div>
+        <div class="credits">
+            <span class="doItLive">Most</span> run data provided by <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
+        </div>
+	</div>
+    <div class="charts">
+	   <script>
+            var day = Math.floor(QueryString.day || 1);
+            tppData = tppData.map(function (c) {
+                c.Offset = -(day - 1);
+                c.Runs = c.Runs.filter(function (r) { return (r.Scraper && r.Scraper.pokemon) || r.Events.filter(function (e) { return e.Group == "Pokemon"; }).length; })
+                    .map(function (r) {
+                        function countMons() {return r.Events.filter(e=>e.Group == "Pokemon" && e.Name != "Egg" && Duration.parse(e.Time).TotalDays < day ).length};
+                        r.StartTime = Date.parse(r.StartDate) / 1000;
+                        r.Events.push({
+                            Group: "Catch Report",
+                            Name: countMons(),
+                            Time: day + "d",
+                        });
+                        var realUpdatePage = updatePage;
+                        updatePage = function(e) {
+                            var search = '.' + cleanString(r.RunName) + ' .catchreport';
+                            console.log(search);
+                            $(search).attr('data-label', countMons());
+                            return realUpdatePage(e);
+                        }
+                        return r;
+                    });
+                return c;
+            })
+                .filter(function (c) { return c.Runs.length; });
+            globalPpd = 1024;
+            createCharts(tppData);
+       </script>
+    </div>
+	<ul class="controls">
+		<li><i class="fa fa-search-plus" title="Zoom In" onclick="zoomIn();"></i></li>
+		<li><i class="fa fa-search-minus" title="Zoom Out" onclick="zoomOut();"></i></li>
+		<li class="settings">
+			<i class="fa fa-gear" title="Settings"></i>
+			<ul>
+				<li>
+					<input type="checkbox" id="explode" onchange="toggleSetting(this);" />
+					<label for="explode">Stagger Clumps</label>
+				</li>
+                <!--<li>
+					<input type="checkbox" id="postgame" onchange="toggleSetting(this);" />
+					<label for="postgame">Show Postgame</label>
+				</li>-->
+			</ul>
+		</li>
+		<li class="groups">
+			<i class="fa fa-eye" title="Groups"></i>
+			<ul>
+			</ul>
+		</li>
+        <li><i class="fa fa-twitch" title="Twitch Videos" onclick="getTwitchVideos();"></i></li>
+	</ul>
+</body>
+
+</html>
