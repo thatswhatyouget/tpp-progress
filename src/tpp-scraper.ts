@@ -69,7 +69,7 @@ function Scrape(run: TPP.Run) {
                         New: true
                     };
             });
-            Object.keys(pkmn).forEach(mon=> run.Events.push(pkmn[mon]));
+            Object.keys(pkmn).filter(mon=>!knownEvents[(pkmn[mon].Name + pkmn[mon].Time).toLowerCase()]).forEach(mon=> run.Events.push(pkmn[mon]));
         }
         deferred.resolve(run);
         $(page).find('img').attr('src', '');

@@ -2987,7 +2987,14 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Badges", "Image": "img/badges/storm.png", "Name": "Chuck", "Time": "6d 7h 48m", "Attempts": 3 },
                     { "Group": "Badges", "Image": "img/badges/mineral.png", "Name": "Jasmine", "Time": "7d 14h 43m", "Attempts": 6 },
                     { "Group": "Badges", "Image": "img/badges/rising.png", "Name": "Clair", "Time": "9d 0h 55m", "Attempts": 2 },
-                    //{ "Group": "Badges", "Image": "img/badges/rising.png", "Name": "Rising Badge", "Time": "9d 4h 17m", "Attempts": 2 }
+                    //{ "Group": "Badges", "Image": "img/badges/rising.png", "Name": "Rising Badge", "Time": "9d 4h 17m", "Attempts": 2 },
+                    
+                    {"Name":"Yanma","Time":"17d 1h 38m","Group":"Pokemon"},
+                    {"Name":"Scizor","Time":"17d 1h 43m","Group":"Pokemon"},
+                    {"Name":"Metapod","Time":"17d 2h 5m","Group":"Pokemon"},
+                    {"Name":"Heracross","Time":"17d 3h 1m","Group":"Pokemon"},
+                    {"Name":"Venomoth","Time":"17d 5h 59m","Group":"Pokemon"},
+                    {"Name":"Butterfree","Time":"17d 6h 4m","Group":"Pokemon"},
                 ]
             }
         ]

@@ -93,8 +93,6 @@ function drawRun(runInfo, run, scale, events) {
     if (runInfo.HostImage && runInfo.HostName)
         run.appendChild(drawHost(runInfo, scale));
     if (events) {
-        if (runInfo.Scraper)
-            setTimeout(function () { return run.setAttribute("data-json", JSON.stringify(runInfo)); }, 10);
         importEvents(runInfo);
         runInfo.Events.filter(function (e) { return Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0; }).sort(function (e1, e2) { return Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
         runInfo.Events.forEach(function (e) { return delete e.New; });
@@ -108,6 +106,9 @@ function drawRun(runInfo, run, scale, events) {
             if (!$(this).siblings(".run:visible").is("*"))
                 $(this).parent().hide();
         }
+        else if (e.ctrlKey || e.metaKey) {
+            console.log(JSON.stringify(runInfo));
+        }
     });
 }
 function updateRun(runInfo, run, scale) {
@@ -118,7 +119,6 @@ function updateRun(runInfo, run, scale) {
         run.setAttribute("data-duration", runInfo.Duration);
         run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
         run.setAttribute("data-label", runInfo.RunName + ": " + Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale));
-        setTimeout(function () { return run.setAttribute("data-json", JSON.stringify(runInfo)); }, 10);
         runInfo.Events.filter(function (e) { return e.New; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
         updatePage();
         if ($(run).find('.videos a').is('*'))

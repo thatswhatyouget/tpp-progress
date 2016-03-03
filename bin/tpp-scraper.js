@@ -66,7 +66,7 @@ function Scrape(run) {
                         New: true
                     };
             });
-            Object.keys(pkmn).forEach(function (mon) { return run.Events.push(pkmn[mon]); });
+            Object.keys(pkmn).filter(function (mon) { return !knownEvents[(pkmn[mon].Name + pkmn[mon].Time).toLowerCase()]; }).forEach(function (mon) { return run.Events.push(pkmn[mon]); });
         }
         deferred.resolve(run);
         $(page).find('img').attr('src', '');

@@ -95,7 +95,6 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
     setUniqueId(run, runInfo.RunName);
     if (runInfo.HostImage && runInfo.HostName) run.appendChild(drawHost(runInfo, scale));
     if (events) {
-        if (runInfo.Scraper) setTimeout(() => run.setAttribute("data-json", JSON.stringify(runInfo)), 10);
         importEvents(runInfo);
         runInfo.Events.filter(e=> Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0).sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
         runInfo.Events.forEach(e=> delete e.New);
@@ -109,6 +108,9 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
             if (!$(this).siblings(".run:visible").is("*"))
                 $(this).parent().hide();
         }
+        else if (e.ctrlKey || e.metaKey) {
+            console.log(JSON.stringify(runInfo));
+        }
     });
 }
 
@@ -119,7 +121,6 @@ function updateRun(runInfo: TPP.Run, run: HTMLDivElement, scale) {
         run.setAttribute("data-duration", runInfo.Duration);
         run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
         run.setAttribute("data-label", runInfo.RunName + ": " + Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale));
-        setTimeout(() => run.setAttribute("data-json", JSON.stringify(runInfo)), 10);
         runInfo.Events.filter(e=> e.New).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
         updatePage();
         if ($(run).find('.videos a').is('*')) drawVideos(runInfo, run, scale, Twitch.GetVideos("twitchplayspokemon", false));
