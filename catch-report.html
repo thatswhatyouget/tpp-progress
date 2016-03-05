@@ -21,58 +21,42 @@
     <style>
         .progressChart .run .event[data-label].catchreport, .progressChart .run .event[data-label].catchreport:hover {
             background-color:black;
+        }        
+        .progressChart .run .event[data-label].catchreport::before, .progressChart .run .event[data-label].catchreport::after {
+            content:attr(data-percentage);
+            border:solid 1px black;
+            color:black;
+            background-color: white;
+            border-radius: 0 0 30px 30px;
+            font-size:.6em;
+            height:25px;
+            width:50px;
+            box-sizing: border-box;
+            line-height: 15px;
+            position:absolute;
+            font-weight:bold;
+            left:1px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            transform: translateX(-50%);
+            bottom:100%;
+            z-index:4;
+            padding:0;
+            transition: margin .2s ease-in-out;
         }
-.progressChart .run .event[data-label].catchreport::before {
-	content:attr(data-percentage);
-	border:solid 1px black;
-    color:black;
-    background-color: white;
-    border-radius: 0 0 30px 30px;
-    font-size:.6em;
-	height:25px;
-    width:50px;
-    box-sizing: border-box;
-    line-height: 15px;
-	position:absolute;
-    font-weight:bold;
-	left:1px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transform: translateX(-50%);
-	bottom:100%;
-	z-index:5;
-    padding:0;
-}
-.progressChart .run .event[data-label].catchreport::after {
-	content:attr(data-label);
-	margin-bottom:25px;
-	font-size:1.15em;
-    font-weight:bold;
-	background-color: indianred;
-	border:solid 1px black;
-    border-radius:30px 30px 0 0;
-    height:25px;
-    width:50px;
-    line-height: 25px;
-    box-sizing: border-box;
-	color:black;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	text-align: center;
-	position: absolute;
-	left:1px;
-	bottom:100%;
-	z-index:5;
-	white-space: pre;
-	transform: translateX(-50%);
-    letter-spacing: 0;
-    transition:margin .2s ease-in-out;
-    padding:0;
-}
-.progressChart .run .event[data-label].catchreport:hover::after {
-    margin-bottom:35px;
-}
-.progressChart .run .event.catchreport img {
-    display:none;
-}
+        .progressChart .run .event[data-label].catchreport::after {
+            content:attr(data-label);
+            margin-bottom:25px;
+            font-size:1.15em;
+            background-color: indianred;
+            border-radius:30px 30px 0 0;
+            line-height: 25px;
+        }
+        .progressChart .run .event[data-label].catchreport:hover::after {
+            margin-bottom:35px;
+        }
+        .progressChart .run .event.catchreport img {
+            display:none;
+        }
     </style>
 </head>
 
