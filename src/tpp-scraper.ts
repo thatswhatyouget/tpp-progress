@@ -13,7 +13,12 @@ function Scrape(run: TPP.Run) {
     }).then(r=> r, e=> $.ajax({
         url: "http://cors.io/?u=" + run.Scraper.url,
         type: "GET",
-        dataType: "text"
+        dataType: "text",
+        timeout: 1000
+    })).then(r=> r, e=> $.ajax({
+        url: "tpp.org/snapshot.html",
+        type: "GET",
+        dataType:"text",
     })).then(page=> {
         page = page.replace(/\bsrc=/ig, 'crs=');
         var $lastUpdate = $(page).find('.last-update');
