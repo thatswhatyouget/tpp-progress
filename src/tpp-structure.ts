@@ -1,45 +1,45 @@
 /// <reference path="twitch-videos" />
 module TPP {
-	export interface Run {
-		HostImage?: string;
-		HostImageSource?: string;
-		HostName?: string;
+    export interface Run {
+        HostImage?: string;
+        HostImageSource?: string;
+        HostName?: string;
         RunName: string;
         StartDate?: string;
         StartTime?: number;
         Duration: string;
         Ongoing?: boolean;
         EndDate?: string;
-		ColorPrimary: string;
-		ColorSecondary: string;
+        ColorPrimary: string;
+        ColorSecondary: string;
         Region?: string;
         DexTotal?: number;
-		Scraper?: {
-			url: string;
+        Scraper?: {
+            url: string;
             parts?: string[];
             runtime?: boolean;
             hostname?: boolean;
-			pokemon?: boolean;
+            pokemon?: boolean;
         };
         ContainsRunsFrom?: string[];
         Unfinished?: boolean;
         Events: Event[];
         CopyEvents?: string[];
         Videos?: Twitch.Video[];
-	}
+    }
 
-	export interface Event {
-		Group: string;
-		Image?: string;
+    export interface Event {
+        Group: string;
+        Image?: string;
         ImageSource?: string;
         Class?: string;
-		Name: string;
-		Estimate?: boolean;
-		Time: string;
+        Name: string;
+        Estimate?: boolean;
+        Time: string;
         Attempts?: number;
         New?: boolean;
-	}
-    
+    }
+
     export interface Collection {
         Name: string;
         SingularName?: string;
@@ -47,7 +47,7 @@ module TPP {
         Runs: Run[];
         Offset?: number;
     }
-    
+
     export enum Scale {
         Days,
         Weeks,
@@ -129,7 +129,7 @@ class Duration {
 }
 
 var QueryString = (() => {
-    var retobj: { [key: string]: string } = {} 
+    var retobj: { [key: string]: string } = {}
     window.location.search.substring(1).split("&").forEach(vars=> {
         var pair = vars.split("=");
         retobj[pair.shift()] = pair.join('=');
