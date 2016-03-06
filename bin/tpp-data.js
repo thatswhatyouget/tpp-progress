@@ -2914,6 +2914,12 @@ var tppData = [
                         Time: "15d 0h 53m",
                         Attempts: 2
                     },
+                    {
+                        Group: "Past Hosts",
+                        Name: "AJDNNW",
+                        Image: "img/hosts/ajdnnw.png",
+                        Time: "18d 19h 11m"
+                    },
                     { "Name": "Yanma", "Time": "17d 1h 38m", "Group": "Pokemon" },
                     { "Name": "Scizor", "Time": "17d 1h 43m", "Group": "Pokemon" },
                     { "Name": "Metapod", "Time": "17d 2h 5m", "Group": "Pokemon" },
@@ -2924,7 +2930,6 @@ var tppData = [
                     { "Name": "Ledian", "Time": "17d 6h 48m", "Group": "Pokemon" },
                     { "Name": "Paras", "Time": "4d 15h 11m", "Group": "Pokemon" },
                     { "Name": "Ledyba", "Time": "4d 15h 41m", "Group": "Pokemon" },
-                    { "Name": "Bellsprout", "Time": "18d 6h 38m", "Group": "Pokemon" },
                 ]
             }
         ]
