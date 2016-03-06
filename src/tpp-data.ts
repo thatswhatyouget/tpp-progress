@@ -2949,20 +2949,20 @@ var tppData: TPP.Collection[] = [
                         Time: "12d 4h 25m",
                         Attempts: 2
                     },
-                    {
-                        Group: "Badges",
-                        Image: "img/badges/boulder.png",
-                        Name: "Brock",
-                        Time: "0d 8h 28m",
-                        Attempts: 5
-                    },
-                    {
-                        Group: "Badges",
-                        Image: "img/badges/cascade.png",
-                        Name: "Misty",
-                        Time: "0d 17h 47m",
-                        Attempts: 2
-                    },
+                    // {
+                    //     Group: "Badges",
+                    //     Image: "img/badges/boulder.png",
+                    //     Name: "Brock",
+                    //     Time: "0d 8h 28m",
+                    //     Attempts: 5
+                    // },
+                    // {
+                    //     Group: "Badges",
+                    //     Image: "img/badges/cascade.png",
+                    //     Name: "Misty",
+                    //     Time: "0d 17h 47m",
+                    //     Attempts: 2
+                    // },
 
                     {
                         Group: "Past Hosts",
@@ -2978,16 +2978,16 @@ var tppData: TPP.Collection[] = [
                         Time: "14d 18h 27m",
                         Attempts: 2
                     },*/
-                    { "Group": "Elite Four", "Image": "img/trainers/crystal/will.png", "Name": "Will", "Time": "10d 9h 58m", "Attempts": 2 },
-                    { "Group": "Elite Four", "Image": "img/trainers/crystal/koga.png", "Name": "Koga", "Time": "10d 12h 33m", "Attempts": 6 },
-                    { "Group": "Badges", "Image": "img/badges/zephyr.png", "Name": "Falkner", "Time": "1d 9h 39m", "Attempts": 1 },
-                    { "Group": "Badges", "Image": "img/badges/hive.png", "Name": "Bugsy", "Time": "2d 5h 1m", "Attempts": 2 },
-                    { "Group": "Badges", "Image": "img/badges/plain.png", "Name": "Whitney", "Time": "2d 18h 37m", "Attempts": 2 },
-                    { "Group": "Badges", "Image": "img/badges/fog.png", "Name": "Morty", "Time": "3d 16h 37m", "Attempts": 1 },
-                    { "Group": "Badges", "Image": "img/badges/glacier.png", "Name": "Pryce", "Time": "5d 16h 39m", "Attempts": 3 },
-                    { "Group": "Badges", "Image": "img/badges/storm.png", "Name": "Chuck", "Time": "6d 7h 48m", "Attempts": 3 },
-                    { "Group": "Badges", "Image": "img/badges/mineral.png", "Name": "Jasmine", "Time": "7d 14h 43m", "Attempts": 6 },
-                    { "Group": "Badges", "Image": "img/badges/rising.png", "Name": "Clair", "Time": "9d 0h 55m", "Attempts": 2 },
+                    // { "Group": "Elite Four", "Image": "img/trainers/crystal/will.png", "Name": "Will", "Time": "10d 9h 58m", "Attempts": 2 },
+                    // { "Group": "Elite Four", "Image": "img/trainers/crystal/koga.png", "Name": "Koga", "Time": "10d 12h 33m", "Attempts": 6 },
+                    // { "Group": "Badges", "Image": "img/badges/zephyr.png", "Name": "Falkner", "Time": "1d 9h 39m", "Attempts": 1 },
+                    // { "Group": "Badges", "Image": "img/badges/hive.png", "Name": "Bugsy", "Time": "2d 5h 1m", "Attempts": 2 },
+                    // { "Group": "Badges", "Image": "img/badges/plain.png", "Name": "Whitney", "Time": "2d 18h 37m", "Attempts": 2 },
+                    // { "Group": "Badges", "Image": "img/badges/fog.png", "Name": "Morty", "Time": "3d 16h 37m", "Attempts": 1 },
+                    // { "Group": "Badges", "Image": "img/badges/glacier.png", "Name": "Pryce", "Time": "5d 16h 39m", "Attempts": 3 },
+                    // { "Group": "Badges", "Image": "img/badges/storm.png", "Name": "Chuck", "Time": "6d 7h 48m", "Attempts": 3 },
+                    // { "Group": "Badges", "Image": "img/badges/mineral.png", "Name": "Jasmine", "Time": "7d 14h 43m", "Attempts": 6 },
+                    // { "Group": "Badges", "Image": "img/badges/rising.png", "Name": "Clair", "Time": "9d 0h 55m", "Attempts": 2 },
                     //{ "Group": "Badges", "Image": "img/badges/rising.png", "Name": "Rising Badge", "Time": "9d 4h 17m", "Attempts": 2 },
                     
                     {"Name":"Yanma","Time":"17d 1h 38m","Group":"Pokemon"},
