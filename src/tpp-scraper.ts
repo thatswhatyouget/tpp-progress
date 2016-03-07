@@ -120,19 +120,18 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
             Image: "img/trainers/" + runFolder + t.name.toLowerCase() + ".png"
         })))
     ));
-    if (run.Scraper.pokemon) promises.push($.get("http://api.twitchplayspokemon.org/v1/pokemon-timeline").then((api: TPP.Org.V1.PokemonTimeline) =>
-        eventMerge(api.data.map(p=> (<TPP.Event>{
+    if (run.Scraper.pokemon) promises.push($.get("http://api.twitchplayspokemon.org/v1/pokemon-timeline").then((api: TPP.Org.V1.PokemonTimeline) => {
+        api.data.map(p=> (<TPP.Event>{
             Group: "Pokemon",
             Name: p.pokemon,
             Time: p.time
-        })).filter(p=> {
-            if (!pkmn[p.Name.toLowerCase()]) {
-                pkmn[p.Name.toLowerCase()] = p;
-                return true;
-            }
-            return false;
-        }))
-    ));
+        })).forEach(p=> {
+            var pkname = p.Name.toLowerCase();
+            if (!pkmn[pkname] || Duration.parse(pkmn[pkname].Time).TotalSeconds > Duration.parse(p.Time).TotalSeconds)
+                pkmn[pkname] = p;
+        });
+	return eventMerge(Object.keys(pkmn).map(k=>pkmn[k]));
+    }));
     if (!promises.length) deferred.reject("Nothing to fetch!");
     else {
         $.when.apply($, promises).then(() => {
