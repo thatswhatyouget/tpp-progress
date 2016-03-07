@@ -1180,6 +1180,7 @@ var tppData = [
                 HostName: "!12rtyhaszs",
                 HostImage: "img/hosts/rtyhaszs.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                BaseGame: "Emerald",
                 Region: "Hoenn",
                 Events: [
                     {
@@ -2293,6 +2294,7 @@ var tppData = [
                 HostName: "AAABBHM",
                 HostImage: "img/hosts/aaabbhm.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                BaseGame: "FireRed",
                 Region: "Kanto",
                 Events: [
                     {
@@ -2398,6 +2400,7 @@ var tppData = [
                 HostName: "AAtatat",
                 HostImage: "img/hosts/aatatat.png",
                 HostImageSource: "http://angelofsloths.tumblr.com/post/119327711600/my-atta-sprite",
+                BaseGame: "FireRed",
                 Region: "Kanto",
                 Events: [
                     {
@@ -2503,6 +2506,7 @@ var tppData = [
                 HostImage: "img/hosts/qq.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Hoenn",
+                BaseGame: "Emerald",
                 Events: [
                     {
                         Group: "Badges",
@@ -2893,7 +2897,7 @@ var tppData = [
                 Region: "Kanto, Johto",
                 DexTotal: 251,
                 Scraper: {
-                    url: "http://twitchplayspokemon.org",
+                    url: "http://twitchplayspokemon.org/",
                     runtime: true,
                     parts: ["Badge", "Elite Four"],
                     pokemon: true
@@ -2905,6 +2909,20 @@ var tppData = [
                         Image: "img/trainers/crystal/azure.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46gsoo/azure_our_perky_exrival_animated/",
                         Time: "12d 4h 25m",
+                        Attempts: 2
+                    },
+                    {
+                        Group: "Badges",
+                        Image: "img/badges/boulder.png",
+                        Name: "Boulder Badge",
+                        Time: "0d 8h 28m",
+                        Attempts: 5
+                    },
+                    {
+                        Group: "Badges",
+                        Image: "img/badges/cascade.png",
+                        Name: "Cascade Badge",
+                        Time: "0d 17h 47m",
                         Attempts: 2
                     },
                     {

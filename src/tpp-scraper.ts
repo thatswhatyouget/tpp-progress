@@ -5,6 +5,7 @@ function Scrape(run: TPP.Run) {
     var deferred = $.Deferred<TPP.Run>(),
         durationExp = /(?:(\d*)w)? *(?:(\d*)d)? *(?:(\d*)h) *(?:(\d*)m) *(?:(\d*)s)?/im,
         attemptsExp = /Attempt[^\d]*(\d*)/i;
+    if (run.Scraper.url == "http://twitchplayspokemon.org/") return TppOrgApi(run, deferred);
     $.ajax({
         url: "http://crossorigin.me/" + run.Scraper.url,
         type: "GET",
@@ -18,7 +19,7 @@ function Scrape(run: TPP.Run) {
     })).then(r=> r, e=> $.ajax({
         url: "tpp.org/snapshot.html",
         type: "GET",
-        dataType:"text",
+        dataType: "text",
     })).then(page=> {
         page = page.replace(/\bsrc=/ig, 'crs=');
         var $lastUpdate = $(page).find('.last-update');
@@ -79,10 +80,67 @@ function Scrape(run: TPP.Run) {
                         New: true
                     };
             });
-            Object.keys(pkmn).filter(mon=>!knownEvents[(pkmn[mon].Name + pkmn[mon].Time).toLowerCase()]).forEach(mon=> run.Events.push(pkmn[mon]));
+            Object.keys(pkmn).filter(mon=> !knownEvents[(pkmn[mon].Name + pkmn[mon].Time).toLowerCase()]).forEach(mon=> run.Events.push(pkmn[mon]));
         }
         deferred.resolve(run);
         $(page).find('img').attr('src', '');
     }, () => deferred.reject("Could not load live run data."));
+    return deferred.promise();
+}
+
+function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
+    interface EventDict { [key: string]: TPP.Event };
+    var promises: JQueryPromise<any>[] = [], knownEvents: EventDict = {}, pkmn: EventDict = {}, runFolder = "";
+    var eventMerge = (events: TPP.Event[]) =>
+        events.filter(e=> !!e.Time).forEach(e=> {
+            var key = (e.Name + e.Time).toLowerCase();
+            if (!knownEvents[key]) {
+                run.Events.push(e);
+                knownEvents[key] = e;
+            }
+        });
+    if (run.Scraper.runtime) promises.push($.get("http://api.twitchplayspokemon.org/v1/general").then((api: TPP.Org.V1.General) =>
+        run.Duration = api.data.pop().last_update
+    ));
+    if (run.Scraper.parts.indexOf("Badge") >= 0) promises.push($.get("http://api.twitchplayspokemon.org/v1/badges").then((api: TPP.Org.V1.Badges) =>
+        eventMerge(api.data.map(b=> (<TPP.Event>{
+            Group: (b.region.toLowerCase().indexOf("rematch") >= 0 ? "Rematch " : "") + "Badges",
+            Name: b.name + " Badge",
+            Time: b.time,
+            Attempts: b.attempts,
+            Image: "img/badges/" + b.name.toLowerCase() + ".png"
+        })))
+    ));
+    if (run.Scraper.parts.indexOf("Elite Four") >= 0) promises.push($.get("http://api.twitchplayspokemon.org/v1/elite-four").then((api: TPP.Org.V1.EliteFour) =>
+        eventMerge(api.data.map(t=> (<TPP.Event>{
+            Group: "Elite Four" + (t.is_rematch ? " Rematch" : ""),
+            Name: t.name,
+            Time: t.time,
+            Attempts: t.attempts,
+            Image: "img/trainers/" + runFolder + t.name.toLowerCase() + ".png"
+        })))
+    ));
+    if (run.Scraper.pokemon) promises.push($.get("http://api.twitchplayspokemon.org/v1/pokemon-timeline").then((api: TPP.Org.V1.PokemonTimeline) =>
+        eventMerge(api.data.map(p=> (<TPP.Event>{
+            Group: "Pokemon",
+            Name: p.pokemon,
+            Time: p.time
+        })).filter(p=> {
+            if (!pkmn[p.Name.toLowerCase()]) {
+                pkmn[p.Name.toLowerCase()] = p;
+                return true;
+            }
+            return false;
+        }))
+    ));
+    if (!promises.length) deferred.reject("Nothing to fetch!");
+    else {
+        $.when.apply($, promises).then(() => {
+            deferred.resolve(run);
+        }, deferred.reject);
+        run.Events.forEach(e=> knownEvents[(e.Name + e.Time).toLowerCase()] = e);
+        run.Events.filter(e=> e.Group == "Pokemon").forEach(e=> pkmn[e.Name.toLowerCase()] = e);
+        runFolder = (run.BaseGame ? run.BaseGame : run.RunName).toLowerCase().replace(/(randomized)|(anniversary)|([^a-z0-9]*)/gi,'') + "/";
+    }
     return deferred.promise();
 }

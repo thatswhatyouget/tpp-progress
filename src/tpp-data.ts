@@ -1181,6 +1181,7 @@ var tppData: TPP.Collection[] = [
                 HostName: "!12rtyhaszs",
                 HostImage: "img/hosts/rtyhaszs.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                BaseGame: "Emerald",
                 Region: "Hoenn",
                 Events: [
                     {
@@ -2294,6 +2295,7 @@ var tppData: TPP.Collection[] = [
                 HostName: "AAABBHM",
                 HostImage: "img/hosts/aaabbhm.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                BaseGame: "FireRed",
                 Region: "Kanto",
                 Events: [
                     {
@@ -2399,6 +2401,7 @@ var tppData: TPP.Collection[] = [
                 HostName: "AAtatat",
                 HostImage: "img/hosts/aatatat.png",
                 HostImageSource: "http://angelofsloths.tumblr.com/post/119327711600/my-atta-sprite",
+                BaseGame: "FireRed",
                 Region: "Kanto",
                 Events: [
                     {
@@ -2504,6 +2507,7 @@ var tppData: TPP.Collection[] = [
                 HostImage: "img/hosts/qq.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Hoenn",
+                BaseGame: "Emerald",
                 // Scraper: {
                 //     url: "http://twitchplayspokemon.org/alphasapphire",
                 //     parts: [],
@@ -2935,7 +2939,7 @@ var tppData: TPP.Collection[] = [
                 Region: "Kanto, Johto",
                 DexTotal: 251,
                 Scraper: {
-                    url: "http://twitchplayspokemon.org",
+                    url: "http://twitchplayspokemon.org/",
                     runtime: true,
                     parts: ["Badge", "Elite Four"],
                     pokemon: true
@@ -2949,20 +2953,20 @@ var tppData: TPP.Collection[] = [
                         Time: "12d 4h 25m",
                         Attempts: 2
                     },
-                    // {
-                    //     Group: "Badges",
-                    //     Image: "img/badges/boulder.png",
-                    //     Name: "Brock",
-                    //     Time: "0d 8h 28m",
-                    //     Attempts: 5
-                    // },
-                    // {
-                    //     Group: "Badges",
-                    //     Image: "img/badges/cascade.png",
-                    //     Name: "Misty",
-                    //     Time: "0d 17h 47m",
-                    //     Attempts: 2
-                    // },
+                    {
+                        Group: "Badges",
+                        Image: "img/badges/boulder.png",
+                        Name: "Boulder Badge",
+                        Time: "0d 8h 28m",
+                        Attempts: 5
+                    },
+                    {
+                        Group: "Badges",
+                        Image: "img/badges/cascade.png",
+                        Name: "Cascade Badge",
+                        Time: "0d 17h 47m",
+                        Attempts: 2
+                    },
 
                     {
                         Group: "Past Hosts",
@@ -2971,23 +2975,7 @@ var tppData: TPP.Collection[] = [
                         Time: "15d 0h 53m",
                         Attempts: 2
                     },
-                    /*{
-                        Group: "Rematch Badges",
-                        Name: "Misty",
-                        Image: "img/badges/rematch/cascade.png",
-                        Time: "14d 18h 27m",
-                        Attempts: 2
-                    },*/
-                    // { "Group": "Elite Four", "Image": "img/trainers/crystal/will.png", "Name": "Will", "Time": "10d 9h 58m", "Attempts": 2 },
-                    // { "Group": "Elite Four", "Image": "img/trainers/crystal/koga.png", "Name": "Koga", "Time": "10d 12h 33m", "Attempts": 6 },
-                    // { "Group": "Badges", "Image": "img/badges/zephyr.png", "Name": "Falkner", "Time": "1d 9h 39m", "Attempts": 1 },
-                    // { "Group": "Badges", "Image": "img/badges/hive.png", "Name": "Bugsy", "Time": "2d 5h 1m", "Attempts": 2 },
-                    // { "Group": "Badges", "Image": "img/badges/plain.png", "Name": "Whitney", "Time": "2d 18h 37m", "Attempts": 2 },
-                    // { "Group": "Badges", "Image": "img/badges/fog.png", "Name": "Morty", "Time": "3d 16h 37m", "Attempts": 1 },
-                    // { "Group": "Badges", "Image": "img/badges/glacier.png", "Name": "Pryce", "Time": "5d 16h 39m", "Attempts": 3 },
-                    // { "Group": "Badges", "Image": "img/badges/storm.png", "Name": "Chuck", "Time": "6d 7h 48m", "Attempts": 3 },
-                    // { "Group": "Badges", "Image": "img/badges/mineral.png", "Name": "Jasmine", "Time": "7d 14h 43m", "Attempts": 6 },
-                    // { "Group": "Badges", "Image": "img/badges/rising.png", "Name": "Clair", "Time": "9d 0h 55m", "Attempts": 2 },
+
                     //{ "Group": "Badges", "Image": "img/badges/rising.png", "Name": "Rising Badge", "Time": "9d 4h 17m", "Attempts": 2 },
                     
                     {

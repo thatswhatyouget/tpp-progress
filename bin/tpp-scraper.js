@@ -1,6 +1,8 @@
 function Scrape(run) {
     $('.doItLive').text('Live');
     var deferred = $.Deferred(), durationExp = /(?:(\d*)w)? *(?:(\d*)d)? *(?:(\d*)h) *(?:(\d*)m) *(?:(\d*)s)?/im, attemptsExp = /Attempt[^\d]*(\d*)/i;
+    if (run.Scraper.url == "http://twitchplayspokemon.org/")
+        return TppOrgApi(run, deferred);
     $.ajax({
         url: "http://crossorigin.me/" + run.Scraper.url,
         type: "GET",
@@ -82,5 +84,67 @@ function Scrape(run) {
         deferred.resolve(run);
         $(page).find('img').attr('src', '');
     }, function () { return deferred.reject("Could not load live run data."); });
+    return deferred.promise();
+}
+function TppOrgApi(run, deferred) {
+    ;
+    var promises = [], knownEvents = {}, pkmn = {}, runFolder = "";
+    var eventMerge = function (events) {
+        return events.filter(function (e) { return !!e.Time; }).forEach(function (e) {
+            var key = (e.Name + e.Time).toLowerCase();
+            if (!knownEvents[key]) {
+                run.Events.push(e);
+                knownEvents[key] = e;
+            }
+        });
+    };
+    if (run.Scraper.runtime)
+        promises.push($.get("http://api.twitchplayspokemon.org/v1/general").then(function (api) {
+            return run.Duration = api.data.pop().last_update;
+        }));
+    if (run.Scraper.parts.indexOf("Badge") >= 0)
+        promises.push($.get("http://api.twitchplayspokemon.org/v1/badges").then(function (api) {
+            return eventMerge(api.data.map(function (b) { return ({
+                Group: (b.region.toLowerCase().indexOf("rematch") >= 0 ? "Rematch " : "") + "Badges",
+                Name: b.name + " Badge",
+                Time: b.time,
+                Attempts: b.attempts,
+                Image: "img/badges/" + b.name.toLowerCase() + ".png"
+            }); }));
+        }));
+    if (run.Scraper.parts.indexOf("Elite Four") >= 0)
+        promises.push($.get("http://api.twitchplayspokemon.org/v1/elite-four").then(function (api) {
+            return eventMerge(api.data.map(function (t) { return ({
+                Group: "Elite Four" + (t.is_rematch ? " Rematch" : ""),
+                Name: t.name,
+                Time: t.time,
+                Attempts: t.attempts,
+                Image: "img/trainers/" + runFolder + t.name.toLowerCase() + ".png"
+            }); }));
+        }));
+    if (run.Scraper.pokemon)
+        promises.push($.get("http://api.twitchplayspokemon.org/v1/pokemon-timeline").then(function (api) {
+            return eventMerge(api.data.map(function (p) { return ({
+                Group: "Pokemon",
+                Name: p.pokemon,
+                Time: p.time
+            }); }).filter(function (p) {
+                if (!pkmn[p.Name.toLowerCase()]) {
+                    pkmn[p.Name.toLowerCase()] = p;
+                    return true;
+                }
+                return false;
+            }));
+        }));
+    if (!promises.length)
+        deferred.reject("Nothing to fetch!");
+    else {
+        $.when.apply($, promises).then(function () {
+            deferred.resolve(run);
+        }, deferred.reject);
+        run.Events.forEach(function (e) { return knownEvents[(e.Name + e.Time).toLowerCase()] = e; });
+        run.Events.filter(function (e) { return e.Group == "Pokemon"; }).forEach(function (e) { return pkmn[e.Name.toLowerCase()] = e; });
+        runFolder = (run.BaseGame ? run.BaseGame : run.RunName).toLowerCase().replace(/(randomized)|(anniversary)|([^a-z0-9]*)/gi, '') + "/";
+    }
     return deferred.promise();
 }
