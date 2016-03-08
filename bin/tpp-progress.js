@@ -271,7 +271,7 @@ function staggerStackedRuns(runs, runHeight) {
     });
 }
 function staggerStackedEvents(allEvents, runHeight) {
-    var dir = .15;
+    var dir = .1;
     [allEvents.filter(function (e) { return e.className.indexOf("pokemon") < 0; }), allEvents.filter(function (e) { return e.className.indexOf("pokemon") >= 0; })].forEach(function (events) {
         var width = function (element, pokeMode) { return pokeMode ? 25 : getWidth(element) || runHeight; };
         events.forEach(function (e, i) {

@@ -276,7 +276,7 @@ function staggerStackedRuns(runs: HTMLElement[], runHeight: number) {
 }
 
 function staggerStackedEvents(allEvents: HTMLElement[], runHeight: number) {
-    var dir = .15;
+    var dir = .1;
     [allEvents.filter(e=> e.className.indexOf("pokemon") < 0), allEvents.filter(e=> e.className.indexOf("pokemon") >= 0)].forEach(events=> {
         var width = (element: HTMLElement, pokeMode?: boolean) => pokeMode ? 25 : getWidth(element) || runHeight;
         events.forEach((e, i) => {
