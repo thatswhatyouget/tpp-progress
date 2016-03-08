@@ -343,6 +343,10 @@ ul.controls > li > ul > li > * {
 	left:-14px;
 }
 
+.progressChart .run .event.hosts ~ .event.hosts:hover:after {
+    content:"New Host\A" attr(data-label);
+}
+
 .progressChart .run .run .event img {
     transform:scale(.75) translateX(-75%);   
 }
