@@ -97,6 +97,7 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
             if (!knownEvents[key]) {
                 run.Events.push(e);
                 knownEvents[key] = e;
+                e.New = true;
             }
         });
     if (run.Scraper.runtime) promises.push($.get("http://api.twitchplayspokemon.org/v1/general").then((api: TPP.Org.V1.General) =>

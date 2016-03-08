@@ -95,6 +95,7 @@ function TppOrgApi(run, deferred) {
             if (!knownEvents[key]) {
                 run.Events.push(e);
                 knownEvents[key] = e;
+                e.New = true;
             }
         });
     };
