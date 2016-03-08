@@ -108,7 +108,7 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
             Name: b.name + " Badge",
             Time: b.time,
             Attempts: b.attempts,
-            Image: "img/badges/" + b.name.toLowerCase() + ".png"
+            Image: "img/badges/" + (b.region.toLowerCase().indexOf("rematch") >= 0 ? "rematch/" : "") + b.name.toLowerCase() + ".png"
         })))
     ));
     if (run.Scraper.parts.indexOf("Elite Four") >= 0) promises.push($.get("http://api.twitchplayspokemon.org/v1/elite-four").then((api: TPP.Org.V1.EliteFour) =>

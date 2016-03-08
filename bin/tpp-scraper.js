@@ -109,7 +109,7 @@ function TppOrgApi(run, deferred) {
                 Name: b.name + " Badge",
                 Time: b.time,
                 Attempts: b.attempts,
-                Image: "img/badges/" + b.name.toLowerCase() + ".png"
+                Image: "img/badges/" + (b.region.toLowerCase().indexOf("rematch") >= 0 ? "rematch/" : "") + b.name.toLowerCase() + ".png"
             }); }));
         }));
     if (run.Scraper.parts.indexOf("Elite Four") >= 0)

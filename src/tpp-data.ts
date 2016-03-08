@@ -2927,14 +2927,14 @@ var tppData: TPP.Collection[] = [
             {
                 RunName: "Anniversary Crystal",
                 StartDate: "2016-02-14T21:00:00Z",
-                Duration: "20d",
+                Duration: "40d",
                 Ongoing: true,
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
-                //HostImage: "img/hosts/evan.png",
-                //HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46elnh/evan_sprites/",
-                HostImage: "img/hosts/evan.gif",
-                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46f9vw/evan_our_lethargic_protagonist_animated/",
+                HostImage: "img/hosts/evan.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46elnh/evan_sprites/",
+                // HostImage: "img/hosts/evan.gif",
+                // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46f9vw/evan_our_lethargic_protagonist_animated/",
                 HostName: "EVAN",
                 Region: "Kanto, Johto",
                 DexTotal: 251,
@@ -2948,8 +2948,9 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Champions",
                         Name: "AZURE",
-                        Image: "img/trainers/crystal/azure.gif",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46gsoo/azure_our_perky_exrival_animated/",
+                        Image: "img/trainers/crystal/azure.png",
+                        // Image: "img/trainers/crystal/azure.gif",
+                        // ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46gsoo/azure_our_perky_exrival_animated/",
                         Time: "12d 4h 25m",
                         Attempts: 2
                     },
@@ -2984,19 +2985,17 @@ var tppData: TPP.Collection[] = [
                         Image: "img/hosts/ajdnnw.png",
                         Time: "18d 19h 11m"
                     },
-                    
-                    {"Name":"Yanma","Time":"17d 1h 38m","Group":"Pokemon"},
-                    {"Name":"Scizor","Time":"17d 1h 43m","Group":"Pokemon"},
-                    {"Name":"Metapod","Time":"17d 2h 5m","Group":"Pokemon"},
-                    {"Name":"Heracross","Time":"17d 3h 1m","Group":"Pokemon"},
-                    {"Name":"Venomoth","Time":"17d 5h 59m","Group":"Pokemon"},
-                    {"Name":"Butterfree","Time":"17d 6h 4m","Group":"Pokemon"},
-                    {"Name":"Pinsir","Time":"17d 6h 26m","Group":"Pokemon"},
-                    {"Name":"Ledian","Time":"17d 6h 48m","Group":"Pokemon"},
-                    {"Name":"Paras","Time":"4d 15h 11m","Group":"Pokemon"},
-                    {"Name":"Ledyba","Time":"4d 15h 41m","Group":"Pokemon"},                   
 
-                    {"Name":"Rhydon","Time":"21d 18h 13m","Group":"Pokemon"},                   
+                    { "Name": "Yanma", "Time": "17d 1h 38m", "Group": "Pokemon" },
+                    { "Name": "Scizor", "Time": "17d 1h 43m", "Group": "Pokemon" },
+                    { "Name": "Metapod", "Time": "17d 2h 5m", "Group": "Pokemon" },
+                    { "Name": "Heracross", "Time": "17d 3h 1m", "Group": "Pokemon" },
+                    { "Name": "Venomoth", "Time": "17d 5h 59m", "Group": "Pokemon" },
+                    { "Name": "Butterfree", "Time": "17d 6h 4m", "Group": "Pokemon" },
+                    { "Name": "Pinsir", "Time": "17d 6h 26m", "Group": "Pokemon" },
+                    { "Name": "Ledian", "Time": "17d 6h 48m", "Group": "Pokemon" },
+                    { "Name": "Paras", "Time": "4d 15h 11m", "Group": "Pokemon" },
+                    { "Name": "Ledyba", "Time": "4d 15h 41m", "Group": "Pokemon" },
                 ]
             }
         ]

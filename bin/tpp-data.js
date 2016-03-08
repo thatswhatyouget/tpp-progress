@@ -2887,12 +2887,12 @@ var tppData = [
             {
                 RunName: "Anniversary Crystal",
                 StartDate: "2016-02-14T21:00:00Z",
-                Duration: "20d",
+                Duration: "40d",
                 Ongoing: true,
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
-                HostImage: "img/hosts/evan.gif",
-                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46f9vw/evan_our_lethargic_protagonist_animated/",
+                HostImage: "img/hosts/evan.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46elnh/evan_sprites/",
                 HostName: "EVAN",
                 Region: "Kanto, Johto",
                 DexTotal: 251,
@@ -2906,8 +2906,7 @@ var tppData = [
                     {
                         Group: "Champions",
                         Name: "AZURE",
-                        Image: "img/trainers/crystal/azure.gif",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46gsoo/azure_our_perky_exrival_animated/",
+                        Image: "img/trainers/crystal/azure.png",
                         Time: "12d 4h 25m",
                         Attempts: 2
                     },
@@ -2948,7 +2947,6 @@ var tppData = [
                     { "Name": "Ledian", "Time": "17d 6h 48m", "Group": "Pokemon" },
                     { "Name": "Paras", "Time": "4d 15h 11m", "Group": "Pokemon" },
                     { "Name": "Ledyba", "Time": "4d 15h 41m", "Group": "Pokemon" },
-                    { "Name": "Rhydon", "Time": "21d 18h 13m", "Group": "Pokemon" },
                 ]
             }
         ]
