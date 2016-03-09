@@ -323,8 +323,7 @@ function updatePage(ppd = globalPpd) {
 
 function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP.Scale, videoCollection = videos) {
     var vidDiv = $('<div class="videos">').appendTo(runElement);
-    videoCollection.then(vids=> Array.prototype.concat.apply(vids, extraVids))
-        .then(vids=> vids.filter(vid=> (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime)
+    videoCollection.then(vids=> vids.filter(vid=> (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime)
         ).forEach(vid=> {
             var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0),
                 runEnd = baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds;

@@ -321,8 +321,7 @@ function updatePage(ppd) {
 function drawVideos(baseRunInfo, runElement, scale, videoCollection) {
     if (videoCollection === void 0) { videoCollection = videos; }
     var vidDiv = $('<div class="videos">').appendTo(runElement);
-    videoCollection.then(function (vids) { return Array.prototype.concat.apply(vids, extraVids); })
-        .then(function (vids) { return vids.filter(function (vid) { return (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime); }).forEach(function (vid) {
+    videoCollection.then(function (vids) { return vids.filter(function (vid) { return (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime); }).forEach(function (vid) {
         var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0), runEnd = baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds;
         if (vid.StartTime < baseRunInfo.StartTime) {
             time = 0;

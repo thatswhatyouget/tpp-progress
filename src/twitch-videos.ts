@@ -27,12 +27,15 @@ module Twitch {
         var videos:Video[] = [], getAllVideos = (r: TwitchCall):(Video[] | JQueryPromise<Video[]>) => {
             if (r.videos.length) {
                 videos = videos.concat.apply(videos, r.videos.map(v=> new Video(v.recorded_at, v.length, v.url, "Twitch")));
-                if (getAll && parseInt(offsetExp.exec(r._links.next)[1] || "700") <= r._total) {
+                if (getAll && r._total) {
                     return $.get(r._links.next).then(getAllVideos);
                 }
             }
             return videos;
         };
-        return $.get("https://api.twitch.tv/kraken/channels/" + channel + "/videos?broadcasts=true&limit=100").then(getAllVideos);
+        return $.when(
+            $.get("https://api.twitch.tv/kraken/channels/" + channel + "/videos?broadcasts=true&limit=100").then(getAllVideos), //past broadcasts
+            $.get("https://api.twitch.tv/kraken/channels/" + channel + "/videos?limit=100").then(getAllVideos)                  //highlights
+        );
     }
 }
