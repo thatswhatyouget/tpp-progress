@@ -1,4 +1,4 @@
-/// <reference path="twitch-videos" />
+/// <reference path="twitch-videos.ts" />
 module TPP {
     export interface Run {
         HostImage?: string;

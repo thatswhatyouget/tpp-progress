@@ -1,5 +1,5 @@
 /// <reference path="../ref/angular.d.ts" />
-/// <reference path="tpp-structure" />
+/// <reference path="tpp-structure.ts" />
 
 var tppNg = angular.module('tpp-progress', []), tppData: TPP.Collection[] = tppData;
 tppNg.controller("credits", function($scope) {

@@ -1,4 +1,4 @@
-/// <reference path="tpp-structure" />
+/// <reference path="tpp-structure.ts" />
 var tppData: TPP.Collection[] = [
     {
         Name: "Season 1",

@@ -1,5 +1,5 @@
-/// <reference path="tpp-structure" />
-/// <reference path="../ref/jquery" />
+/// <reference path="tpp-structure.ts" />
+/// <reference path="../ref/jquery.d.ts" />
 function Scrape(run: TPP.Run) {
     $('.doItLive').text('Live');
     var deferred = $.Deferred<TPP.Run>(),

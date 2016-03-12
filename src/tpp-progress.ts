@@ -1,7 +1,7 @@
-/// <reference path="tpp-structure" />
-/// <reference path="tpp-scraper" />
-/// <reference path="tpp-data" />
-/// <reference path="twitch-videos" />
+/// <reference path="tpp-structure.ts" />
+/// <reference path="tpp-scraper.ts" />
+/// <reference path="tpp-data.ts" />
+/// <reference path="twitch-videos.ts" />
 
 var fakeQuery: (selector: string) => Array<HTMLElement> = selector => Array.prototype.slice.call(document.querySelectorAll(selector));
 var $find: (elements: Array<HTMLElement>, selector: string) => Array<Array<HTMLElement>> = (elements, selector) => elements.map(e=> e ? Array.prototype.slice.call(e.querySelectorAll(selector)) : []);

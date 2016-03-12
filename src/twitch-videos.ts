@@ -1,4 +1,4 @@
-/// <reference path="../ref/jquery" />
+/// <reference path="../ref/jquery.d.ts" />
 module Twitch {
     var offsetExp = /offset=(\d*)/i;
 
