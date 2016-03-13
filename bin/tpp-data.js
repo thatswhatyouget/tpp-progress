@@ -764,7 +764,7 @@ var tppData = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Will",
-                        Image: "img/heartgold/will.png",
+                        Image: "img/heartgold/rematch/will.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/272tjl/archeologists_and_diggers_have_already_been_done/",
                         Time: "15d 6h 33m",
                         Attempts: 4
@@ -772,7 +772,7 @@ var tppData = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Koga",
-                        Image: "img/heartgold/koga.png",
+                        Image: "img/heartgold/rematch/koga.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/272wf0/couldnt_think_of_what_a_psychic_type_koga_would/",
                         Time: "15d 12h 15m",
                         Attempts: 4
@@ -780,7 +780,7 @@ var tppData = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Bruno",
-                        Image: "img/heartgold/bruno.png",
+                        Image: "img/heartgold/rematch/bruno.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27cgk2/so_before_i_forget_here_are_bruno_and_karens/",
                         Time: "15d 14h 46m",
                         Attempts: 2
@@ -788,7 +788,7 @@ var tppData = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Karen",
-                        Image: "img/heartgold/karen.png",
+                        Image: "img/heartgold/rematch/karen.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27cgk2/so_before_i_forget_here_are_bruno_and_karens/",
                         Time: "15d 18h 56m",
                         Attempts: 8
@@ -796,7 +796,7 @@ var tppData = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Lance",
-                        Image: "img/heartgold/lance.png",
+                        Image: "img/heartgold/rematch/lance.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27iqep/displaying_them_all_in_one_go_all_sprites_for_gym/",
                         Time: "16d 10h 56m",
                         Attempts: 5
@@ -1279,35 +1279,35 @@ var tppData = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Sidney",
-                        Image: "img/trainers/emerald/sidney.png",
+                        Image: "img/trainers/emerald/rematch/sidney.png",
                         Time: "7d 12h 33m",
                         Attempts: 1
                     },
                     {
                         Group: "Elite Four Rematch",
                         Name: "Phoebe",
-                        Image: "img/trainers/emerald/phoebe.png",
+                        Image: "img/trainers/emerald/rematch/phoebe.png",
                         Time: "7d 14h 48m",
                         Attempts: 5
                     },
                     {
                         Group: "Elite Four Rematch",
                         Name: "Glacia",
-                        Image: "img/trainers/emerald/glacia.png",
+                        Image: "img/trainers/emerald/rematch/glacia.png",
                         Time: "7d 19h 13m",
                         Attempts: 5
                     },
                     {
                         Group: "Elite Four Rematch",
                         Name: "Drake",
-                        Image: "img/trainers/emerald/drake.png",
+                        Image: "img/trainers/emerald/rematch/drake.png",
                         Time: "8d 5h 30m",
                         Attempts: 9
                     },
                     {
                         Group: "Champions",
                         Name: "Steven",
-                        Image: "img/trainers/emerald/steven.png",
+                        Image: "img/trainers/emerald/rematch/steven.png",
                         Time: "8d 5h 42m",
                         Attempts: 1
                     }
@@ -1489,35 +1489,35 @@ var tppData = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Lorelei",
-                        Image: "img/trainers/yellow/lorelei.png",
+                        Image: "img/trainers/red/rematch/lorelei.png",
                         Time: "38d 23h 42m",
                         Attempts: 1
                     },
                     {
                         Group: "Elite Four Rematch",
                         Name: "Bruno",
-                        Image: "img/trainers/yellow/bruno.png",
+                        Image: "img/trainers/red/rematch/bruno.png",
                         Time: "38d 23h 50m",
                         Attempts: 1
                     },
                     {
                         Group: "Elite Four Rematch",
                         Name: "Agatha",
-                        Image: "img/trainers/yellow/agatha.png",
+                        Image: "img/trainers/red/rematch/agatha.png",
                         Time: "38d 23h 57m",
                         Attempts: 1
                     },
                     {
                         Group: "Elite Four Rematch",
                         Name: "Lance",
-                        Image: "img/trainers/yellow/lance.png",
+                        Image: "img/trainers/red/rematch/lance.png",
                         Time: "39d 0h 4m",
                         Attempts: 1
                     },
                     {
                         Group: "Elite Four Rematch",
                         Name: "BLUE",
-                        Image: "img/trainers/yellow/blue.png",
+                        Image: "img/trainers/red/rematch/blue.png",
                         Time: "39d 6h 56m",
                         Attempts: 4
                     },
@@ -2622,7 +2622,7 @@ var tppData = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Espen (Sidney)",
-                        Image: "img/alphasapphire/sidney.gif",
+                        Image: "img/alphasapphire/rematch/sidney.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3e2urn/sidney_espen_hoenns_master_illusionist_animated/",
                         Time: "12d 1h 18m",
                         Attempts: 1
@@ -2630,7 +2630,7 @@ var tppData = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Fantasia (Phoebe)",
-                        Image: "img/alphasapphire/phoebe.gif",
+                        Image: "img/alphasapphire/rematch/phoebe.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3e8k5f/phoebe_fantasia_hoenns_reclusive_noble_animated/",
                         Time: "12d 4h 58m",
                         Attempts: 9
@@ -2638,7 +2638,7 @@ var tppData = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Evia (Glacia)",
-                        Image: "img/alphasapphire/glacia.gif",
+                        Image: "img/alphasapphire/rematch/glacia.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3eh6dj/glacia_evia_hoenns_prideful_secret_agent_animated/",
                         Time: "13d 21h 33m",
                         Attempts: 10
@@ -2646,7 +2646,7 @@ var tppData = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Nox (Drake)",
-                        Image: "img/alphasapphire/drake.gif",
+                        Image: "img/alphasapphire/rematch/drake.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3ey4q1/drake_nox_hoenns_expert_ranger_animated/",
                         Time: "13d 21h 38m",
                         Attempts: 1
@@ -2654,7 +2654,7 @@ var tppData = [
                     {
                         Group: "Champions",
                         Name: "Steven",
-                        Image: "img/trainers/emerald/steven.png",
+                        Image: "img/trainers/emerald/rematch/steven.png",
                         Time: "14d 1h 27m",
                         Attempts: 6
                     }

@@ -120,7 +120,7 @@ function TppOrgApi(run, deferred) {
                 Name: t.name,
                 Time: t.time,
                 Attempts: t.attempts,
-                Image: "img/trainers/" + runFolder + t.name.toLowerCase() + ".png"
+                Image: "img/trainers/" + runFolder + (t.is_rematch ? "rematch/" : "") + t.name.toLowerCase() + ".png"
             }); }));
         }));
     if (run.Scraper.pokemon)
