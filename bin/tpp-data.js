@@ -105,7 +105,160 @@ var tppData = [
                         Image: "img/trainers/red/blue.png",
                         Time: "16d 7h 45m 30s",
                         Attempts: 2
-                    }
+                    },
+                    {
+                        Name: "Charmander",
+                        Time: "5m",
+                        Group: "Pokemon",
+                        Estimate: true
+                    },
+                    {
+                        Name: "Charmeleon",
+                        Time: "13h36m",
+                        Group: "Pokemon",
+                        Estimate: true
+                    },
+                    {
+                        Name: "Pidgey",
+                        Time: "12h46m",
+                        Group: "Pokemon",
+                        Estimate: true
+                    },
+                    {
+                        Name: "Pidgeotto",
+                        Time: "1d14h23m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Pidgeot",
+                        Time: "3d17h13m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Rattata",
+                        Time: "1d11h32m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Raticate",
+                        Time: "7d13h18m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Spearow",
+                        Time: "2d 2h 49m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "NidoranM",
+                        Time: "8d8h10m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Nidorino",
+                        Time: "8d12h29m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Nidoking",
+                        Time: "11d6h44m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Zubat",
+                        Time: "6d14h4m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Oddish",
+                        Time: "4d11h32m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Gloom",
+                        Time: "8d1h15m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Paras",
+                        Time: "8d8h24m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Venonat",
+                        Time: "8d8h5m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Venomoth",
+                        Time: "8d14h37m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Geodude",
+                        Time: "10d9h54m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Farfetch'd",
+                        Time: "2d6h59m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Gastly",
+                        Time: "6d23h49m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Drowzee",
+                        Time: "2d2h37m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Exeggcute",
+                        Time: "8d9h47m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Hitmonlee",
+                        Time: "6d22h3m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Rhyhorn",
+                        Time: "8d12h57m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Lapras",
+                        Time: "8d22h59m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Eevee",
+                        Time: "4d1h48m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Flareon",
+                        Time: "4d14h16m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Omanyte",
+                        Time: "11d10h36m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Omastar",
+                        Time: "14d17h58m",
+                        Group: "Pokemon"
+                    },
+                    {
+                        Name: "Zapdos",
+                        Time: "10d7h49m",
+                        Group: "Pokemon"
+                    },
                 ]
             },
             {

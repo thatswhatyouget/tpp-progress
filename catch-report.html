@@ -102,7 +102,7 @@
             var day = Math.floor(QueryString.day || 0);
             tppData = tppData.map(function (c) {
                 if (day) c.Offset = -(day - 1);
-                c.Runs = c.Runs.filter(function (r) { return (r.Scraper && r.Scraper.pokemon) || r.Events.filter(function (e) { return e.Group == "Pokemon"; }).length; })
+                c.Runs = c.Runs.filter(function (r) { return (r.Scraper && r.Scraper.pokemon) || ((r.DexTotal || !QueryString.fulldex) && r.Events.filter(function (e) { return e.Group == "Pokemon"; }).length); })
                     .map(function (r) {
                         function countMons() {return r.Events.filter(e=>e.Group == "Pokemon" && e.Name != "Egg" && (!day || Duration.parse(e.Time).TotalDays < day)).length};
                         r.StartTime = Date.parse(r.StartDate) / 1000;
