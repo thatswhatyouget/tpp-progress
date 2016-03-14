@@ -106,6 +106,7 @@
                     .map(function (r) {
                         function countMons() {return r.Events.filter(e=>e.Group == "Pokemon" && e.Name != "Egg" && (!day || Duration.parse(e.Time).TotalDays < day)).length};
                         r.StartTime = Date.parse(r.StartDate) / 1000;
+                        r.Ongoing = true;
                         r.Events.push({
                             Group: "Catch Report",
                             Name: countMons(),
