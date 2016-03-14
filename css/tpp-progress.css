@@ -398,7 +398,7 @@ ul.controls > li > ul > li > * {
 }
 
 .progressChart > .touhoumon.run {
-	margin-bottom:0;	
+	margin-bottom:0!important;	
 }
 .progressChart > .moemon.run:hover::before {
 	bottom:-1.5em;
