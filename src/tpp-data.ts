@@ -2989,8 +2989,7 @@ var tppData: TPP.Collection[] = [
             {
                 RunName: "Anniversary Crystal",
                 StartDate: "2016-02-14T21:00:00Z",
-                Duration: "30d 4h 34m",
-                Ongoing: true,
+                Duration: "31d",
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
                 HostImage: "img/hosts/evan.png",
@@ -3000,12 +2999,12 @@ var tppData: TPP.Collection[] = [
                 HostName: "EVAN",
                 Region: "Kanto, Johto",
                 DexTotal: 251,
-                Scraper: {
-                    url: "http://twitchplayspokemon.org/",
-                    runtime: true,
-                    parts: [],
-                    //pokemon: true
-                },
+                // Scraper: {
+                //     url: "http://twitchplayspokemon.org/",
+                //     runtime: true,
+                //     parts: [],
+                //     pokemon: true
+                // },
                 Events: [
                     {
                         Group: "Champions",
@@ -3332,6 +3331,26 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Jumpluff", "Time": "29d 14h 22m" },
                     { "Group": "Pokemon", "Name": "Chikorita", "Time": "29d 16h 18m" },
                     { "Group": "Pokemon", "Name": "Meganium", "Time": "29d 15h 51m" }
+                ]
+            },
+            {
+                RunName: "Telefang",
+                StartDate: "2016-03-16T21:00:00Z",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                ColorPrimary: "#353535",
+                ColorSecondary: "goldenrod",
+                HostImage: "img/hosts/shigeki.png",
+                HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
+                HostName: "Shigeki",
+                Region: "Denjū World",
+                // Scraper: {
+                //     url: "http://twitchplayspokemon.org/",
+                //     runtime: true,
+                //     parts: [],
+                //     pokemon: true
+                // },
+                Events: [
                 ]
             }
         ]
