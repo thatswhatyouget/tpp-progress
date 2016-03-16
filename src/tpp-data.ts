@@ -2989,7 +2989,7 @@ var tppData: TPP.Collection[] = [
             {
                 RunName: "Anniversary Crystal",
                 StartDate: "2016-02-14T21:00:00Z",
-                Duration: "31d",
+                Duration: "30d 20h 51m",
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
                 HostImage: "img/hosts/evan.png",
