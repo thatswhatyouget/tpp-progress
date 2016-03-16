@@ -2949,7 +2949,7 @@ var tppData = [
             {
                 RunName: "Anniversary Crystal",
                 StartDate: "2016-02-14T21:00:00Z",
-                Duration: "40d",
+                Duration: "30d 4h 34m",
                 Ongoing: true,
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
@@ -2961,7 +2961,7 @@ var tppData = [
                 Scraper: {
                     url: "http://twitchplayspokemon.org/",
                     runtime: true,
-                    parts: ["Elite Four"],
+                    parts: [],
                 },
                 Events: [
                     {
@@ -2971,10 +2971,26 @@ var tppData = [
                         Time: "12d 4h 25m",
                         Attempts: 2
                     },
+                    {
+                        Group: "Champions",
+                        Name: "AZURE",
+                        Image: "img/trainers/crystal/rematch/azure.png",
+                        Time: "30d 1h 14m",
+                        Attempts: 1
+                    },
+                    {
+                        Group: "Champions",
+                        Name: "Professor Elm",
+                        Image: "img/trainers/crystal/elm.png",
+                        Time: "30d 4h 34m",
+                        Attempts: 1
+                    },
                     { "Group": "Badges", "Image": "img/badges/boulder.png", "Name": "Boulder Badge", "Time": "0d 8h 28m", "Attempts": 5 },
                     { "Group": "Badges", "Image": "img/badges/cascade.png", "Name": "Cascade Badge", "Time": "0d 17h 47m", "Attempts": 2 },
                     { "Group": "Past Hosts", "Image": "img/hosts/baba.png", "Name": "Dream BABA", "Time": "15d 0h 53m", "Attempts": 2 },
                     { "Group": "Past Hosts", "Name": "AJDNNW", "Image": "img/hosts/ajdnnw.png", "Time": "18d 19h 11m" },
+                    { "Group": "Past Hosts", "Name": "RED", "Image": "img/hosts/red.png", "Time": "30d 2h 29m", "Attempts": 1 },
+                    { "Group": "Past Hosts", "Name": "AIIIAAB", "Image": "img/hosts/aiiiaab.png", "Time": "30d 3h 23m", "Attempts": 1 },
                     { "Group": "Badges", "Name": "Boulder Badge", "Time": "14d 1h 30m", "Attempts": 1, "Image": "img/badges/boulder.png" },
                     { "Group": "Badges", "Name": "Cascade Badge", "Time": "12d 21h 32m", "Attempts": 2, "Image": "img/badges/cascade.png" },
                     { "Group": "Badges", "Name": "Thunder Badge", "Time": "12d 8h 10m", "Attempts": 2, "Image": "img/badges/thunder.png" },
@@ -3013,6 +3029,10 @@ var tppData = [
                     { "Group": "Elite Four", "Name": "Karen", "Time": "11d 11h 58m", "Attempts": 2, "Image": "img/trainers/crystal/karen.png" },
                     { "Group": "Elite Four", "Name": "Lance", "Time": "11d 23h 14m", "Attempts": 5, "Image": "img/trainers/crystal/lance.png" },
                     { "Group": "Elite Four Rematch", "Name": "Will", "Time": "26d 18h 39m", "Attempts": 1, "Image": "img/trainers/crystal/rematch/will.png" },
+                    { "Group": "Elite Four Rematch", "Name": "Koga", "Time": "29d 23h 22m", "Attempts": 4, "Image": "img/trainers/crystal/rematch/koga.png" },
+                    { "Group": "Elite Four Rematch", "Name": "Bruno", "Time": "30d 0h 26m", "Attempts": 2, "Image": "img/trainers/crystal/rematch/bruno.png" },
+                    { "Group": "Elite Four Rematch", "Name": "Karen", "Time": "30d 0h 47m", "Attempts": 1, "Image": "img/trainers/crystal/rematch/karen.png" },
+                    { "Group": "Elite Four Rematch", "Name": "Lance", "Time": "30d 1h 5m", "Attempts": 1, "Image": "img/trainers/crystal/rematch/lance.png" },
                     { "Name": "Yanma", "Time": "17d 1h 38m", "Group": "Pokemon" },
                     { "Name": "Scizor", "Time": "17d 1h 43m", "Group": "Pokemon" },
                     { "Name": "Metapod", "Time": "17d 2h 5m", "Group": "Pokemon" },
