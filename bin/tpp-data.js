@@ -2949,7 +2949,8 @@ var tppData = [
             {
                 RunName: "Anniversary Crystal",
                 StartDate: "2016-02-14T21:00:00Z",
-                Duration: "30d 20h 51m",
+                Duration: "30d 4h 34m",
+                EndDate: "31d",
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
                 HostImage: "img/hosts/evan.png",
