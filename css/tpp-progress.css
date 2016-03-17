@@ -307,10 +307,8 @@ ul.controls > li > ul > li > * {
 .progressChart .run .event.elitefour img,
 .progressChart .run .event.elitefourrematch img,
 .progressChart .run .event.pasthosts img ,
-.progressChart .run.colosseum .event.bosses img,
-.progressChart .run.colosseum .event.finalbosses img
-.progressChart .run.xd .event.bosses img,
-.progressChart .run.xd .event.finalbosses img {
+.progressChart .run .event.bosses img,
+.progressChart .run .event.finalbosses img {
 	height:70px;
 	top:-15px;	
 }
@@ -379,10 +377,23 @@ ul.controls > li > ul > li > * {
     background-size:cover;
 }
 
-.progressChart .run .event.bosses.pokesprite img, .progressChart .run .event.mssions.pokesprite img {
+.progressChart .run .event.bosses.pokesprite img, .progressChart .run .event.missions.pokesprite img {
     top: -8px;
     font-size:64px;
     background-image:url("../img/pokemon-large.png");
+}
+
+.progressChart .run.telefang .event.pokemon.pokesprite img {
+    font-size: 16px;
+    margin:10%;
+    transform: translateX(-45%);
+    background-image:url("../img/telefang/denjuu.png");
+    top: 75%;
+}
+
+.progressChart .run.telefang .event.bosses.pokesprite img {
+    font-size: 64px;
+    background-image:url("../img/telefang/denjuu-large.png");
 }
 
 .progressChart .run .event img[src="img/trainers/crystal/azure.gif"] {

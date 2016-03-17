@@ -1,721 +1,1070 @@
-.progressChart .event.pokeSprite.bulbasaur img { background-position: left -1em!important; }
-.progressChart .event.pokeSprite.ivysaur img { background-position: left -2em!important; }
-.progressChart .event.pokeSprite.venusaur img { background-position: left -3em!important; }
-.progressChart .event.pokeSprite.charmander img { background-position: left -4em!important; }
-.progressChart .event.pokeSprite.charmeleon img { background-position: left -5em!important; }
-.progressChart .event.pokeSprite.charizard img { background-position: left -6em!important; }
-.progressChart .event.pokeSprite.squirtle img { background-position: left -7em!important; }
-.progressChart .event.pokeSprite.wartortle img { background-position: left -8em!important; }
-.progressChart .event.pokeSprite.blastoise img { background-position: left -9em!important; }
-.progressChart .event.pokeSprite.caterpie img { background-position: left -10em!important; }
-.progressChart .event.pokeSprite.metapod img { background-position: left -11em!important; }
-.progressChart .event.pokeSprite.butterfree img { background-position: left -12em!important; }
-.progressChart .event.pokeSprite.weedle img { background-position: left -13em!important; }
-.progressChart .event.pokeSprite.kakuna img { background-position: left -14em!important; }
-.progressChart .event.pokeSprite.beedrill img { background-position: left -15em!important; }
-.progressChart .event.pokeSprite.pidgey img { background-position: left -16em!important; }
-.progressChart .event.pokeSprite.pidgeotto img { background-position: left -17em!important; }
-.progressChart .event.pokeSprite.pidgeot img { background-position: left -18em!important; }
-.progressChart .event.pokeSprite.rattata img { background-position: left -19em!important; }
-.progressChart .event.pokeSprite.raticate img { background-position: left -20em!important; }
-.progressChart .event.pokeSprite.spearow img { background-position: left -21em!important; }
-.progressChart .event.pokeSprite.fearow img { background-position: left -22em!important; }
-.progressChart .event.pokeSprite.ekans img { background-position: left -23em!important; }
-.progressChart .event.pokeSprite.arbok img { background-position: left -24em!important; }
-.progressChart .event.pokeSprite.pikachu img { background-position: left -25em!important; }
-.progressChart .event.pokeSprite.raichu img { background-position: left -26em!important; }
-.progressChart .event.pokeSprite.sandshrew img { background-position: left -27em!important; }
-.progressChart .event.pokeSprite.sandslash img { background-position: left -28em!important; }
-.progressChart .event.pokeSprite.nidoranf img { background-position: left -29em!important; }
-.progressChart .event.pokeSprite.nidorina img { background-position: left -30em!important; }
-.progressChart .event.pokeSprite.nidoqueen img { background-position: left -31em!important; }
-.progressChart .event.pokeSprite.nidoranm img { background-position: left -32em!important; }
-.progressChart .event.pokeSprite.nidorino img { background-position: left -33em!important; }
-.progressChart .event.pokeSprite.nidoking img { background-position: left -34em!important; }
-.progressChart .event.pokeSprite.clefairy img { background-position: left -35em!important; }
-.progressChart .event.pokeSprite.clefable img { background-position: left -36em!important; }
-.progressChart .event.pokeSprite.vulpix img { background-position: left -37em!important; }
-.progressChart .event.pokeSprite.ninetales img { background-position: left -38em!important; }
-.progressChart .event.pokeSprite.jigglypuff img { background-position: left -39em!important; }
-.progressChart .event.pokeSprite.wigglytuff img { background-position: left -40em!important; }
-.progressChart .event.pokeSprite.zubat img { background-position: left -41em!important; }
-.progressChart .event.pokeSprite.golbat img { background-position: left -42em!important; }
-.progressChart .event.pokeSprite.oddish img { background-position: left -43em!important; }
-.progressChart .event.pokeSprite.gloom img { background-position: left -44em!important; }
-.progressChart .event.pokeSprite.vileplume img { background-position: left -45em!important; }
-.progressChart .event.pokeSprite.paras img { background-position: left -46em!important; }
-.progressChart .event.pokeSprite.parasect img { background-position: left -47em!important; }
-.progressChart .event.pokeSprite.venonat img { background-position: left -48em!important; }
-.progressChart .event.pokeSprite.venomoth img { background-position: left -49em!important; }
-.progressChart .event.pokeSprite.diglett img { background-position: left -50em!important; }
-.progressChart .event.pokeSprite.dugtrio img { background-position: left -51em!important; }
-.progressChart .event.pokeSprite.meowth img { background-position: left -52em!important; }
-.progressChart .event.pokeSprite.persian img { background-position: left -53em!important; }
-.progressChart .event.pokeSprite.psyduck img { background-position: left -54em!important; }
-.progressChart .event.pokeSprite.golduck img { background-position: left -55em!important; }
-.progressChart .event.pokeSprite.mankey img { background-position: left -56em!important; }
-.progressChart .event.pokeSprite.primeape img { background-position: left -57em!important; }
-.progressChart .event.pokeSprite.growlithe img { background-position: left -58em!important; }
-.progressChart .event.pokeSprite.arcanine img { background-position: left -59em!important; }
-.progressChart .event.pokeSprite.poliwag img { background-position: left -60em!important; }
-.progressChart .event.pokeSprite.poliwhirl img { background-position: left -61em!important; }
-.progressChart .event.pokeSprite.poliwrath img { background-position: left -62em!important; }
-.progressChart .event.pokeSprite.abra img { background-position: left -63em!important; }
-.progressChart .event.pokeSprite.kadabra img { background-position: left -64em!important; }
-.progressChart .event.pokeSprite.alakazam img { background-position: left -65em!important; }
-.progressChart .event.pokeSprite.machop img { background-position: left -66em!important; }
-.progressChart .event.pokeSprite.machoke img { background-position: left -67em!important; }
-.progressChart .event.pokeSprite.machamp img { background-position: left -68em!important; }
-.progressChart .event.pokeSprite.bellsprout img { background-position: left -69em!important; }
-.progressChart .event.pokeSprite.weepinbell img { background-position: left -70em!important; }
-.progressChart .event.pokeSprite.victreebel img { background-position: left -71em!important; }
-.progressChart .event.pokeSprite.tentacool img { background-position: left -72em!important; }
-.progressChart .event.pokeSprite.tentacruel img { background-position: left -73em!important; }
-.progressChart .event.pokeSprite.geodude img { background-position: left -74em!important; }
-.progressChart .event.pokeSprite.graveler img { background-position: left -75em!important; }
-.progressChart .event.pokeSprite.golem img { background-position: left -76em!important; }
-.progressChart .event.pokeSprite.ponyta img { background-position: left -77em!important; }
-.progressChart .event.pokeSprite.rapidash img { background-position: left -78em!important; }
-.progressChart .event.pokeSprite.slowpoke img { background-position: left -79em!important; }
-.progressChart .event.pokeSprite.slowbro img { background-position: left -80em!important; }
-.progressChart .event.pokeSprite.magnemite img { background-position: left -81em!important; }
-.progressChart .event.pokeSprite.magneton img { background-position: left -82em!important; }
-.progressChart .event.pokeSprite.farfetchd img { background-position: left -83em!important; }
-.progressChart .event.pokeSprite.doduo img { background-position: left -84em!important; }
-.progressChart .event.pokeSprite.dodrio img { background-position: left -85em!important; }
-.progressChart .event.pokeSprite.seel img { background-position: left -86em!important; }
-.progressChart .event.pokeSprite.dewgong img { background-position: left -87em!important; }
-.progressChart .event.pokeSprite.grimer img { background-position: left -88em!important; }
-.progressChart .event.pokeSprite.muk img { background-position: left -89em!important; }
-.progressChart .event.pokeSprite.shellder img { background-position: left -90em!important; }
-.progressChart .event.pokeSprite.cloyster img { background-position: left -91em!important; }
-.progressChart .event.pokeSprite.gastly img { background-position: left -92em!important; }
-.progressChart .event.pokeSprite.haunter img { background-position: left -93em!important; }
-.progressChart .event.pokeSprite.gengar img { background-position: left -94em!important; }
-.progressChart .event.pokeSprite.onix img { background-position: left -95em!important; }
-.progressChart .event.pokeSprite.drowzee img { background-position: left -96em!important; }
-.progressChart .event.pokeSprite.hypno img { background-position: left -97em!important; }
-.progressChart .event.pokeSprite.krabby img { background-position: left -98em!important; }
-.progressChart .event.pokeSprite.kingler img { background-position: left -99em!important; }
-.progressChart .event.pokeSprite.voltorb img { background-position: left -100em!important; }
-.progressChart .event.pokeSprite.electrode img { background-position: left -101em!important; }
-.progressChart .event.pokeSprite.exeggcute img { background-position: left -102em!important; }
-.progressChart .event.pokeSprite.exeggutor img { background-position: left -103em!important; }
-.progressChart .event.pokeSprite.cubone img { background-position: left -104em!important; }
-.progressChart .event.pokeSprite.marowak img { background-position: left -105em!important; }
-.progressChart .event.pokeSprite.hitmonlee img { background-position: left -106em!important; }
-.progressChart .event.pokeSprite.hitmonchan img { background-position: left -107em!important; }
-.progressChart .event.pokeSprite.lickitung img { background-position: left -108em!important; }
-.progressChart .event.pokeSprite.koffing img { background-position: left -109em!important; }
-.progressChart .event.pokeSprite.weezing img { background-position: left -110em!important; }
-.progressChart .event.pokeSprite.rhyhorn img { background-position: left -111em!important; }
-.progressChart .event.pokeSprite.rhydon img { background-position: left -112em!important; }
-.progressChart .event.pokeSprite.chansey img { background-position: left -113em!important; }
-.progressChart .event.pokeSprite.tangela img { background-position: left -114em!important; }
-.progressChart .event.pokeSprite.kangaskhan img { background-position: left -115em!important; }
-.progressChart .event.pokeSprite.horsea img { background-position: left -116em!important; }
-.progressChart .event.pokeSprite.seadra img { background-position: left -117em!important; }
-.progressChart .event.pokeSprite.goldeen img { background-position: left -118em!important; }
-.progressChart .event.pokeSprite.seaking img { background-position: left -119em!important; }
-.progressChart .event.pokeSprite.staryu img { background-position: left -120em!important; }
-.progressChart .event.pokeSprite.starmie img { background-position: left -121em!important; }
-.progressChart .event.pokeSprite.mrmime img { background-position: left -122em!important; }
-.progressChart .event.pokeSprite.scyther img { background-position: left -123em!important; }
-.progressChart .event.pokeSprite.jynx img { background-position: left -124em!important; }
-.progressChart .event.pokeSprite.electabuzz img { background-position: left -125em!important; }
-.progressChart .event.pokeSprite.magmar img { background-position: left -126em!important; }
-.progressChart .event.pokeSprite.pinsir img { background-position: left -127em!important; }
-.progressChart .event.pokeSprite.tauros img { background-position: left -128em!important; }
-.progressChart .event.pokeSprite.magikarp img { background-position: left -129em!important; }
-.progressChart .event.pokeSprite.gyarados img { background-position: left -130em!important; }
-.progressChart .event.pokeSprite.lapras img { background-position: left -131em!important; }
-.progressChart .event.pokeSprite.ditto img { background-position: left -132em!important; }
-.progressChart .event.pokeSprite.eevee img { background-position: left -133em!important; }
-.progressChart .event.pokeSprite.vaporeon img { background-position: left -134em!important; }
-.progressChart .event.pokeSprite.jolteon img { background-position: left -135em!important; }
-.progressChart .event.pokeSprite.flareon img { background-position: left -136em!important; }
-.progressChart .event.pokeSprite.porygon img { background-position: left -137em!important; }
-.progressChart .event.pokeSprite.omanyte img { background-position: left -138em!important; }
-.progressChart .event.pokeSprite.omastar img { background-position: left -139em!important; }
-.progressChart .event.pokeSprite.kabuto img { background-position: left -140em!important; }
-.progressChart .event.pokeSprite.kabutops img { background-position: left -141em!important; }
-.progressChart .event.pokeSprite.aerodactyl img { background-position: left -142em!important; }
-.progressChart .event.pokeSprite.snorlax img { background-position: left -143em!important; }
-.progressChart .event.pokeSprite.articuno img { background-position: left -144em!important; }
-.progressChart .event.pokeSprite.zapdos img { background-position: left -145em!important; }
-.progressChart .event.pokeSprite.moltres img { background-position: left -146em!important; }
-.progressChart .event.pokeSprite.dratini img { background-position: left -147em!important; }
-.progressChart .event.pokeSprite.dragonair img { background-position: left -148em!important; }
-.progressChart .event.pokeSprite.dragonite img { background-position: left -149em!important; }
-.progressChart .event.pokeSprite.mewtwo img { background-position: left -150em!important; }
-.progressChart .event.pokeSprite.mew img { background-position: left -151em!important; }
-.progressChart .event.pokeSprite.chikorita img { background-position: left -152em!important; }
-.progressChart .event.pokeSprite.bayleef img { background-position: left -153em!important; }
-.progressChart .event.pokeSprite.meganium img { background-position: left -154em!important; }
-.progressChart .event.pokeSprite.cyndaquil img { background-position: left -155em!important; }
-.progressChart .event.pokeSprite.quilava img { background-position: left -156em!important; }
-.progressChart .event.pokeSprite.typhlosion img { background-position: left -157em!important; }
-.progressChart .event.pokeSprite.totodile img { background-position: left -158em!important; }
-.progressChart .event.pokeSprite.croconaw img { background-position: left -159em!important; }
-.progressChart .event.pokeSprite.feraligatr img { background-position: left -160em!important; }
-.progressChart .event.pokeSprite.sentret img { background-position: left -161em!important; }
-.progressChart .event.pokeSprite.furret img { background-position: left -162em!important; }
-.progressChart .event.pokeSprite.hoothoot img { background-position: left -163em!important; }
-.progressChart .event.pokeSprite.noctowl img { background-position: left -164em!important; }
-.progressChart .event.pokeSprite.ledyba img { background-position: left -165em!important; }
-.progressChart .event.pokeSprite.ledian img { background-position: left -166em!important; }
-.progressChart .event.pokeSprite.spinarak img { background-position: left -167em!important; }
-.progressChart .event.pokeSprite.ariados img { background-position: left -168em!important; }
-.progressChart .event.pokeSprite.crobat img { background-position: left -169em!important; }
-.progressChart .event.pokeSprite.chinchou img { background-position: left -170em!important; }
-.progressChart .event.pokeSprite.lanturn img { background-position: left -171em!important; }
-.progressChart .event.pokeSprite.pichu img { background-position: left -172em!important; }
-.progressChart .event.pokeSprite.cleffa img { background-position: left -173em!important; }
-.progressChart .event.pokeSprite.igglybuff img { background-position: left -174em!important; }
-.progressChart .event.pokeSprite.togepi img { background-position: left -175em!important; }
-.progressChart .event.pokeSprite.togetic img { background-position: left -176em!important; }
-.progressChart .event.pokeSprite.natu img { background-position: left -177em!important; }
-.progressChart .event.pokeSprite.xatu img { background-position: left -178em!important; }
-.progressChart .event.pokeSprite.mareep img { background-position: left -179em!important; }
-.progressChart .event.pokeSprite.flaaffy img { background-position: left -180em!important; }
-.progressChart .event.pokeSprite.ampharos img { background-position: left -181em!important; }
-.progressChart .event.pokeSprite.bellossom img { background-position: left -182em!important; }
-.progressChart .event.pokeSprite.marill img { background-position: left -183em!important; }
-.progressChart .event.pokeSprite.azumarill img { background-position: left -184em!important; }
-.progressChart .event.pokeSprite.sudowoodo img { background-position: left -185em!important; }
-.progressChart .event.pokeSprite.politoed img { background-position: left -186em!important; }
-.progressChart .event.pokeSprite.hoppip img { background-position: left -187em!important; }
-.progressChart .event.pokeSprite.skiploom img { background-position: left -188em!important; }
-.progressChart .event.pokeSprite.jumpluff img { background-position: left -189em!important; }
-.progressChart .event.pokeSprite.aipom img { background-position: left -190em!important; }
-.progressChart .event.pokeSprite.sunkern img { background-position: left -191em!important; }
-.progressChart .event.pokeSprite.sunflora img { background-position: left -192em!important; }
-.progressChart .event.pokeSprite.yanma img { background-position: left -193em!important; }
-.progressChart .event.pokeSprite.wooper img { background-position: left -194em!important; }
-.progressChart .event.pokeSprite.quagsire img { background-position: left -195em!important; }
-.progressChart .event.pokeSprite.espeon img { background-position: left -196em!important; }
-.progressChart .event.pokeSprite.umbreon img { background-position: left -197em!important; }
-.progressChart .event.pokeSprite.murkrow img { background-position: left -198em!important; }
-.progressChart .event.pokeSprite.slowking img { background-position: left -199em!important; }
-.progressChart .event.pokeSprite.misdreavus img { background-position: left -200em!important; }
-.progressChart .event.pokeSprite.unown img { background-position: left -201em!important; }
-.progressChart .event.pokeSprite.wobbuffet img { background-position: left -202em!important; }
-.progressChart .event.pokeSprite.girafarig img { background-position: left -203em!important; }
-.progressChart .event.pokeSprite.pineco img { background-position: left -204em!important; }
-.progressChart .event.pokeSprite.forretress img { background-position: left -205em!important; }
-.progressChart .event.pokeSprite.dunsparce img { background-position: left -206em!important; }
-.progressChart .event.pokeSprite.gligar img { background-position: left -207em!important; }
-.progressChart .event.pokeSprite.steelix img { background-position: left -208em!important; }
-.progressChart .event.pokeSprite.snubbull img { background-position: left -209em!important; }
-.progressChart .event.pokeSprite.granbull img { background-position: left -210em!important; }
-.progressChart .event.pokeSprite.qwilfish img { background-position: left -211em!important; }
-.progressChart .event.pokeSprite.scizor img { background-position: left -212em!important; }
-.progressChart .event.pokeSprite.shuckle img { background-position: left -213em!important; }
-.progressChart .event.pokeSprite.heracross img { background-position: left -214em!important; }
-.progressChart .event.pokeSprite.sneasel img { background-position: left -215em!important; }
-.progressChart .event.pokeSprite.teddiursa img { background-position: left -216em!important; }
-.progressChart .event.pokeSprite.ursaring img { background-position: left -217em!important; }
-.progressChart .event.pokeSprite.slugma img { background-position: left -218em!important; }
-.progressChart .event.pokeSprite.magcargo img { background-position: left -219em!important; }
-.progressChart .event.pokeSprite.swinub img { background-position: left -220em!important; }
-.progressChart .event.pokeSprite.piloswine img { background-position: left -221em!important; }
-.progressChart .event.pokeSprite.corsola img { background-position: left -222em!important; }
-.progressChart .event.pokeSprite.remoraid img { background-position: left -223em!important; }
-.progressChart .event.pokeSprite.octillery img { background-position: left -224em!important; }
-.progressChart .event.pokeSprite.delibird img { background-position: left -225em!important; }
-.progressChart .event.pokeSprite.mantine img { background-position: left -226em!important; }
-.progressChart .event.pokeSprite.skarmory img { background-position: left -227em!important; }
-.progressChart .event.pokeSprite.houndour img { background-position: left -228em!important; }
-.progressChart .event.pokeSprite.houndoom img { background-position: left -229em!important; }
-.progressChart .event.pokeSprite.kingdra img { background-position: left -230em!important; }
-.progressChart .event.pokeSprite.phanpy img { background-position: left -231em!important; }
-.progressChart .event.pokeSprite.donphan img { background-position: left -232em!important; }
-.progressChart .event.pokeSprite.porygon2 img { background-position: left -233em!important; }
-.progressChart .event.pokeSprite.stantler img { background-position: left -234em!important; }
-.progressChart .event.pokeSprite.smeargle img { background-position: left -235em!important; }
-.progressChart .event.pokeSprite.tyrogue img { background-position: left -236em!important; }
-.progressChart .event.pokeSprite.hitmontop img { background-position: left -237em!important; }
-.progressChart .event.pokeSprite.smoochum img { background-position: left -238em!important; }
-.progressChart .event.pokeSprite.elekid img { background-position: left -239em!important; }
-.progressChart .event.pokeSprite.magby img { background-position: left -240em!important; }
-.progressChart .event.pokeSprite.miltank img { background-position: left -241em!important; }
-.progressChart .event.pokeSprite.blissey img { background-position: left -242em!important; }
-.progressChart .event.pokeSprite.raikou img { background-position: left -243em!important; }
-.progressChart .event.pokeSprite.entei img { background-position: left -244em!important; }
-.progressChart .event.pokeSprite.suicune img { background-position: left -245em!important; }
-.progressChart .event.pokeSprite.larvitar img { background-position: left -246em!important; }
-.progressChart .event.pokeSprite.pupitar img { background-position: left -247em!important; }
-.progressChart .event.pokeSprite.tyranitar img { background-position: left -248em!important; }
-.progressChart .event.pokeSprite.lugia img { background-position: left -249em!important; }
-.progressChart .event.pokeSprite.hooh img { background-position: left -250em!important; }
-.progressChart .event.pokeSprite.celebi img { background-position: left -251em!important; }
-.progressChart .event.pokeSprite.treecko img { background-position: left -252em!important; }
-.progressChart .event.pokeSprite.grovyle img { background-position: left -253em!important; }
-.progressChart .event.pokeSprite.sceptile img { background-position: left -254em!important; }
-.progressChart .event.pokeSprite.torchic img { background-position: left -255em!important; }
-.progressChart .event.pokeSprite.combusken img { background-position: left -256em!important; }
-.progressChart .event.pokeSprite.blaziken img { background-position: left -257em!important; }
-.progressChart .event.pokeSprite.mudkip img { background-position: left -258em!important; }
-.progressChart .event.pokeSprite.marshtomp img { background-position: left -259em!important; }
-.progressChart .event.pokeSprite.swampert img { background-position: left -260em!important; }
-.progressChart .event.pokeSprite.poochyena img { background-position: left -261em!important; }
-.progressChart .event.pokeSprite.mightyena img { background-position: left -262em!important; }
-.progressChart .event.pokeSprite.zigzagoon img { background-position: left -263em!important; }
-.progressChart .event.pokeSprite.linoone img { background-position: left -264em!important; }
-.progressChart .event.pokeSprite.wurmple img { background-position: left -265em!important; }
-.progressChart .event.pokeSprite.silcoon img { background-position: left -266em!important; }
-.progressChart .event.pokeSprite.beautifly img { background-position: left -267em!important; }
-.progressChart .event.pokeSprite.cascoon img { background-position: left -268em!important; }
-.progressChart .event.pokeSprite.dustox img { background-position: left -269em!important; }
-.progressChart .event.pokeSprite.lotad img { background-position: left -270em!important; }
-.progressChart .event.pokeSprite.lombre img { background-position: left -271em!important; }
-.progressChart .event.pokeSprite.ludicolo img { background-position: left -272em!important; }
-.progressChart .event.pokeSprite.seedot img { background-position: left -273em!important; }
-.progressChart .event.pokeSprite.nuzleaf img { background-position: left -274em!important; }
-.progressChart .event.pokeSprite.shiftry img { background-position: left -275em!important; }
-.progressChart .event.pokeSprite.taillow img { background-position: left -276em!important; }
-.progressChart .event.pokeSprite.swellow img { background-position: left -277em!important; }
-.progressChart .event.pokeSprite.wingull img { background-position: left -278em!important; }
-.progressChart .event.pokeSprite.pelipper img { background-position: left -279em!important; }
-.progressChart .event.pokeSprite.ralts img { background-position: left -280em!important; }
-.progressChart .event.pokeSprite.kirlia img { background-position: left -281em!important; }
-.progressChart .event.pokeSprite.gardevoir img { background-position: left -282em!important; }
-.progressChart .event.pokeSprite.surskit img { background-position: left -283em!important; }
-.progressChart .event.pokeSprite.masquerain img { background-position: left -284em!important; }
-.progressChart .event.pokeSprite.shroomish img { background-position: left -285em!important; }
-.progressChart .event.pokeSprite.breloom img { background-position: left -286em!important; }
-.progressChart .event.pokeSprite.slakoth img { background-position: left -287em!important; }
-.progressChart .event.pokeSprite.vigoroth img { background-position: left -288em!important; }
-.progressChart .event.pokeSprite.slaking img { background-position: left -289em!important; }
-.progressChart .event.pokeSprite.nincada img { background-position: left -290em!important; }
-.progressChart .event.pokeSprite.ninjask img { background-position: left -291em!important; }
-.progressChart .event.pokeSprite.shedinja img { background-position: left -292em!important; }
-.progressChart .event.pokeSprite.whismur img { background-position: left -293em!important; }
-.progressChart .event.pokeSprite.loudred img { background-position: left -294em!important; }
-.progressChart .event.pokeSprite.exploud img { background-position: left -295em!important; }
-.progressChart .event.pokeSprite.makuhita img { background-position: left -296em!important; }
-.progressChart .event.pokeSprite.hariyama img { background-position: left -297em!important; }
-.progressChart .event.pokeSprite.azurill img { background-position: left -298em!important; }
-.progressChart .event.pokeSprite.nosepass img { background-position: left -299em!important; }
-.progressChart .event.pokeSprite.skitty img { background-position: left -300em!important; }
-.progressChart .event.pokeSprite.delcatty img { background-position: left -301em!important; }
-.progressChart .event.pokeSprite.sableye img { background-position: left -302em!important; }
-.progressChart .event.pokeSprite.mawile img { background-position: left -303em!important; }
-.progressChart .event.pokeSprite.aron img { background-position: left -304em!important; }
-.progressChart .event.pokeSprite.lairon img { background-position: left -305em!important; }
-.progressChart .event.pokeSprite.aggron img { background-position: left -306em!important; }
-.progressChart .event.pokeSprite.meditite img { background-position: left -307em!important; }
-.progressChart .event.pokeSprite.medicham img { background-position: left -308em!important; }
-.progressChart .event.pokeSprite.electrike img { background-position: left -309em!important; }
-.progressChart .event.pokeSprite.manectric img { background-position: left -310em!important; }
-.progressChart .event.pokeSprite.plusle img { background-position: left -311em!important; }
-.progressChart .event.pokeSprite.minun img { background-position: left -312em!important; }
-.progressChart .event.pokeSprite.volbeat img { background-position: left -313em!important; }
-.progressChart .event.pokeSprite.illumise img { background-position: left -314em!important; }
-.progressChart .event.pokeSprite.roselia img { background-position: left -315em!important; }
-.progressChart .event.pokeSprite.gulpin img { background-position: left -316em!important; }
-.progressChart .event.pokeSprite.swalot img { background-position: left -317em!important; }
-.progressChart .event.pokeSprite.carvanha img { background-position: left -318em!important; }
-.progressChart .event.pokeSprite.sharpedo img { background-position: left -319em!important; }
-.progressChart .event.pokeSprite.wailmer img { background-position: left -320em!important; }
-.progressChart .event.pokeSprite.wailord img { background-position: left -321em!important; }
-.progressChart .event.pokeSprite.numel img { background-position: left -322em!important; }
-.progressChart .event.pokeSprite.camerupt img { background-position: left -323em!important; }
-.progressChart .event.pokeSprite.torkoal img { background-position: left -324em!important; }
-.progressChart .event.pokeSprite.spoink img { background-position: left -325em!important; }
-.progressChart .event.pokeSprite.grumpig img { background-position: left -326em!important; }
-.progressChart .event.pokeSprite.spinda img { background-position: left -327em!important; }
-.progressChart .event.pokeSprite.trapinch img { background-position: left -328em!important; }
-.progressChart .event.pokeSprite.vibrava img { background-position: left -329em!important; }
-.progressChart .event.pokeSprite.flygon img { background-position: left -330em!important; }
-.progressChart .event.pokeSprite.cacnea img { background-position: left -331em!important; }
-.progressChart .event.pokeSprite.cacturne img { background-position: left -332em!important; }
-.progressChart .event.pokeSprite.swablu img { background-position: left -333em!important; }
-.progressChart .event.pokeSprite.altaria img { background-position: left -334em!important; }
-.progressChart .event.pokeSprite.zangoose img { background-position: left -335em!important; }
-.progressChart .event.pokeSprite.seviper img { background-position: left -336em!important; }
-.progressChart .event.pokeSprite.lunatone img { background-position: left -337em!important; }
-.progressChart .event.pokeSprite.solrock img { background-position: left -338em!important; }
-.progressChart .event.pokeSprite.barboach img { background-position: left -339em!important; }
-.progressChart .event.pokeSprite.whiscash img { background-position: left -340em!important; }
-.progressChart .event.pokeSprite.corphish img { background-position: left -341em!important; }
-.progressChart .event.pokeSprite.crawdaunt img { background-position: left -342em!important; }
-.progressChart .event.pokeSprite.baltoy img { background-position: left -343em!important; }
-.progressChart .event.pokeSprite.claydol img { background-position: left -344em!important; }
-.progressChart .event.pokeSprite.lileep img { background-position: left -345em!important; }
-.progressChart .event.pokeSprite.cradily img { background-position: left -346em!important; }
-.progressChart .event.pokeSprite.anorith img { background-position: left -347em!important; }
-.progressChart .event.pokeSprite.armaldo img { background-position: left -348em!important; }
-.progressChart .event.pokeSprite.feebas img { background-position: left -349em!important; }
-.progressChart .event.pokeSprite.milotic img { background-position: left -350em!important; }
-.progressChart .event.pokeSprite.castform img { background-position: left -351em!important; }
-.progressChart .event.pokeSprite.kecleon img { background-position: left -352em!important; }
-.progressChart .event.pokeSprite.shuppet img { background-position: left -353em!important; }
-.progressChart .event.pokeSprite.banette img { background-position: left -354em!important; }
-.progressChart .event.pokeSprite.duskull img { background-position: left -355em!important; }
-.progressChart .event.pokeSprite.dusclops img { background-position: left -356em!important; }
-.progressChart .event.pokeSprite.tropius img { background-position: left -357em!important; }
-.progressChart .event.pokeSprite.chimecho img { background-position: left -358em!important; }
-.progressChart .event.pokeSprite.absol img { background-position: left -359em!important; }
-.progressChart .event.pokeSprite.wynaut img { background-position: left -360em!important; }
-.progressChart .event.pokeSprite.snorunt img { background-position: left -361em!important; }
-.progressChart .event.pokeSprite.glalie img { background-position: left -362em!important; }
-.progressChart .event.pokeSprite.spheal img { background-position: left -363em!important; }
-.progressChart .event.pokeSprite.sealeo img { background-position: left -364em!important; }
-.progressChart .event.pokeSprite.walrein img { background-position: left -365em!important; }
-.progressChart .event.pokeSprite.clamperl img { background-position: left -366em!important; }
-.progressChart .event.pokeSprite.huntail img { background-position: left -367em!important; }
-.progressChart .event.pokeSprite.gorebyss img { background-position: left -368em!important; }
-.progressChart .event.pokeSprite.relicanth img { background-position: left -369em!important; }
-.progressChart .event.pokeSprite.luvdisc img { background-position: left -370em!important; }
-.progressChart .event.pokeSprite.bagon img { background-position: left -371em!important; }
-.progressChart .event.pokeSprite.shelgon img { background-position: left -372em!important; }
-.progressChart .event.pokeSprite.salamence img { background-position: left -373em!important; }
-.progressChart .event.pokeSprite.beldum img { background-position: left -374em!important; }
-.progressChart .event.pokeSprite.metang img { background-position: left -375em!important; }
-.progressChart .event.pokeSprite.metagross img { background-position: left -376em!important; }
-.progressChart .event.pokeSprite.regirock img { background-position: left -377em!important; }
-.progressChart .event.pokeSprite.regice img { background-position: left -378em!important; }
-.progressChart .event.pokeSprite.registeel img { background-position: left -379em!important; }
-.progressChart .event.pokeSprite.latias img { background-position: left -380em!important; }
-.progressChart .event.pokeSprite.latios img { background-position: left -381em!important; }
-.progressChart .event.pokeSprite.kyogre img { background-position: left -382em!important; }
-.progressChart .event.pokeSprite.groudon img { background-position: left -383em!important; }
-.progressChart .event.pokeSprite.rayquaza img { background-position: left -384em!important; }
-.progressChart .event.pokeSprite.jirachi img { background-position: left -385em!important; }
-.progressChart .event.pokeSprite.deoxys img { background-position: left -386em!important; }
-.progressChart .event.pokeSprite.turtwig img { background-position: left -387em!important; }
-.progressChart .event.pokeSprite.grotle img { background-position: left -388em!important; }
-.progressChart .event.pokeSprite.torterra img { background-position: left -389em!important; }
-.progressChart .event.pokeSprite.chimchar img { background-position: left -390em!important; }
-.progressChart .event.pokeSprite.monferno img { background-position: left -391em!important; }
-.progressChart .event.pokeSprite.infernape img { background-position: left -392em!important; }
-.progressChart .event.pokeSprite.piplup img { background-position: left -393em!important; }
-.progressChart .event.pokeSprite.prinplup img { background-position: left -394em!important; }
-.progressChart .event.pokeSprite.empoleon img { background-position: left -395em!important; }
-.progressChart .event.pokeSprite.starly img { background-position: left -396em!important; }
-.progressChart .event.pokeSprite.staravia img { background-position: left -397em!important; }
-.progressChart .event.pokeSprite.staraptor img { background-position: left -398em!important; }
-.progressChart .event.pokeSprite.bidoof img { background-position: left -399em!important; }
-.progressChart .event.pokeSprite.bibarel img { background-position: left -400em!important; }
-.progressChart .event.pokeSprite.kricketot img { background-position: left -401em!important; }
-.progressChart .event.pokeSprite.kricketune img { background-position: left -402em!important; }
-.progressChart .event.pokeSprite.shinx img { background-position: left -403em!important; }
-.progressChart .event.pokeSprite.luxio img { background-position: left -404em!important; }
-.progressChart .event.pokeSprite.luxray img { background-position: left -405em!important; }
-.progressChart .event.pokeSprite.budew img { background-position: left -406em!important; }
-.progressChart .event.pokeSprite.roserade img { background-position: left -407em!important; }
-.progressChart .event.pokeSprite.cranidos img { background-position: left -408em!important; }
-.progressChart .event.pokeSprite.rampardos img { background-position: left -409em!important; }
-.progressChart .event.pokeSprite.shieldon img { background-position: left -410em!important; }
-.progressChart .event.pokeSprite.bastiodon img { background-position: left -411em!important; }
-.progressChart .event.pokeSprite.burmy img { background-position: left -412em!important; }
-.progressChart .event.pokeSprite.wormadam img { background-position: left -413em!important; }
-.progressChart .event.pokeSprite.mothim img { background-position: left -414em!important; }
-.progressChart .event.pokeSprite.combee img { background-position: left -415em!important; }
-.progressChart .event.pokeSprite.vespiquen img { background-position: left -416em!important; }
-.progressChart .event.pokeSprite.pachirisu img { background-position: left -417em!important; }
-.progressChart .event.pokeSprite.buizel img { background-position: left -418em!important; }
-.progressChart .event.pokeSprite.floatzel img { background-position: left -419em!important; }
-.progressChart .event.pokeSprite.cherubi img { background-position: left -420em!important; }
-.progressChart .event.pokeSprite.cherrim img { background-position: left -421em!important; }
-.progressChart .event.pokeSprite.shellos img { background-position: left -422em!important; }
-.progressChart .event.pokeSprite.gastrodon img { background-position: left -423em!important; }
-.progressChart .event.pokeSprite.ambipom img { background-position: left -424em!important; }
-.progressChart .event.pokeSprite.drifloon img { background-position: left -425em!important; }
-.progressChart .event.pokeSprite.drifblim img { background-position: left -426em!important; }
-.progressChart .event.pokeSprite.buneary img { background-position: left -427em!important; }
-.progressChart .event.pokeSprite.lopunny img { background-position: left -428em!important; }
-.progressChart .event.pokeSprite.mismagius img { background-position: left -429em!important; }
-.progressChart .event.pokeSprite.honchkrow img { background-position: left -430em!important; }
-.progressChart .event.pokeSprite.glameow img { background-position: left -431em!important; }
-.progressChart .event.pokeSprite.purugly img { background-position: left -432em!important; }
-.progressChart .event.pokeSprite.chingling img { background-position: left -433em!important; }
-.progressChart .event.pokeSprite.stunky img { background-position: left -434em!important; }
-.progressChart .event.pokeSprite.skuntank img { background-position: left -435em!important; }
-.progressChart .event.pokeSprite.bronzor img { background-position: left -436em!important; }
-.progressChart .event.pokeSprite.bronzong img { background-position: left -437em!important; }
-.progressChart .event.pokeSprite.bonsly img { background-position: left -438em!important; }
-.progressChart .event.pokeSprite.mimejr img { background-position: left -439em!important; }
-.progressChart .event.pokeSprite.happiny img { background-position: left -440em!important; }
-.progressChart .event.pokeSprite.chatot img { background-position: left -441em!important; }
-.progressChart .event.pokeSprite.spiritomb img { background-position: left -442em!important; }
-.progressChart .event.pokeSprite.gible img { background-position: left -443em!important; }
-.progressChart .event.pokeSprite.gabite img { background-position: left -444em!important; }
-.progressChart .event.pokeSprite.garchomp img { background-position: left -445em!important; }
-.progressChart .event.pokeSprite.munchlax img { background-position: left -446em!important; }
-.progressChart .event.pokeSprite.riolu img { background-position: left -447em!important; }
-.progressChart .event.pokeSprite.lucario img { background-position: left -448em!important; }
-.progressChart .event.pokeSprite.hippopotas img { background-position: left -449em!important; }
-.progressChart .event.pokeSprite.hippowdon img { background-position: left -450em!important; }
-.progressChart .event.pokeSprite.skorupi img { background-position: left -451em!important; }
-.progressChart .event.pokeSprite.drapion img { background-position: left -452em!important; }
-.progressChart .event.pokeSprite.croagunk img { background-position: left -453em!important; }
-.progressChart .event.pokeSprite.toxicroak img { background-position: left -454em!important; }
-.progressChart .event.pokeSprite.carnivine img { background-position: left -455em!important; }
-.progressChart .event.pokeSprite.finneon img { background-position: left -456em!important; }
-.progressChart .event.pokeSprite.lumineon img { background-position: left -457em!important; }
-.progressChart .event.pokeSprite.mantyke img { background-position: left -458em!important; }
-.progressChart .event.pokeSprite.snover img { background-position: left -459em!important; }
-.progressChart .event.pokeSprite.abomasnow img { background-position: left -460em!important; }
-.progressChart .event.pokeSprite.weavile img { background-position: left -461em!important; }
-.progressChart .event.pokeSprite.magnezone img { background-position: left -462em!important; }
-.progressChart .event.pokeSprite.lickilicky img { background-position: left -463em!important; }
-.progressChart .event.pokeSprite.rhyperior img { background-position: left -464em!important; }
-.progressChart .event.pokeSprite.tangrowth img { background-position: left -465em!important; }
-.progressChart .event.pokeSprite.electivire img { background-position: left -466em!important; }
-.progressChart .event.pokeSprite.magmortar img { background-position: left -467em!important; }
-.progressChart .event.pokeSprite.togekiss img { background-position: left -468em!important; }
-.progressChart .event.pokeSprite.yanmega img { background-position: left -469em!important; }
-.progressChart .event.pokeSprite.leafeon img { background-position: left -470em!important; }
-.progressChart .event.pokeSprite.glaceon img { background-position: left -471em!important; }
-.progressChart .event.pokeSprite.gliscor img { background-position: left -472em!important; }
-.progressChart .event.pokeSprite.mamoswine img { background-position: left -473em!important; }
-.progressChart .event.pokeSprite.porygonz img { background-position: left -474em!important; }
-.progressChart .event.pokeSprite.gallade img { background-position: left -475em!important; }
-.progressChart .event.pokeSprite.probopass img { background-position: left -476em!important; }
-.progressChart .event.pokeSprite.dusknoir img { background-position: left -477em!important; }
-.progressChart .event.pokeSprite.froslass img { background-position: left -478em!important; }
-.progressChart .event.pokeSprite.rotom img { background-position: left -479em!important; }
-.progressChart .event.pokeSprite.uxie img { background-position: left -480em!important; }
-.progressChart .event.pokeSprite.mesprit img { background-position: left -481em!important; }
-.progressChart .event.pokeSprite.azelf img { background-position: left -482em!important; }
-.progressChart .event.pokeSprite.dialga img { background-position: left -483em!important; }
-.progressChart .event.pokeSprite.palkia img { background-position: left -484em!important; }
-.progressChart .event.pokeSprite.heatran img { background-position: left -485em!important; }
-.progressChart .event.pokeSprite.regigigas img { background-position: left -486em!important; }
-.progressChart .event.pokeSprite.giratina img { background-position: left -487em!important; }
-.progressChart .event.pokeSprite.cresselia img { background-position: left -488em!important; }
-.progressChart .event.pokeSprite.phione img { background-position: left -489em!important; }
-.progressChart .event.pokeSprite.manaphy img { background-position: left -490em!important; }
-.progressChart .event.pokeSprite.darkrai img { background-position: left -491em!important; }
-.progressChart .event.pokeSprite.shaymin img { background-position: left -492em!important; }
-.progressChart .event.pokeSprite.arceus img { background-position: left -493em!important; }
-.progressChart .event.pokeSprite.victini img { background-position: left -494em!important; }
-.progressChart .event.pokeSprite.snivy img { background-position: left -495em!important; }
-.progressChart .event.pokeSprite.servine img { background-position: left -496em!important; }
-.progressChart .event.pokeSprite.serperior img { background-position: left -497em!important; }
-.progressChart .event.pokeSprite.tepig img { background-position: left -498em!important; }
-.progressChart .event.pokeSprite.pignite img { background-position: left -499em!important; }
-.progressChart .event.pokeSprite.emboar img { background-position: left -500em!important; }
-.progressChart .event.pokeSprite.oshawott img { background-position: left -501em!important; }
-.progressChart .event.pokeSprite.dewott img { background-position: left -502em!important; }
-.progressChart .event.pokeSprite.samurott img { background-position: left -503em!important; }
-.progressChart .event.pokeSprite.patrat img { background-position: left -504em!important; }
-.progressChart .event.pokeSprite.watchog img { background-position: left -505em!important; }
-.progressChart .event.pokeSprite.lillipup img { background-position: left -506em!important; }
-.progressChart .event.pokeSprite.herdier img { background-position: left -507em!important; }
-.progressChart .event.pokeSprite.stoutland img { background-position: left -508em!important; }
-.progressChart .event.pokeSprite.purrloin img { background-position: left -509em!important; }
-.progressChart .event.pokeSprite.liepard img { background-position: left -510em!important; }
-.progressChart .event.pokeSprite.pansage img { background-position: left -511em!important; }
-.progressChart .event.pokeSprite.simisage img { background-position: left -512em!important; }
-.progressChart .event.pokeSprite.pansear img { background-position: left -513em!important; }
-.progressChart .event.pokeSprite.simisear img { background-position: left -514em!important; }
-.progressChart .event.pokeSprite.panpour img { background-position: left -515em!important; }
-.progressChart .event.pokeSprite.simipour img { background-position: left -516em!important; }
-.progressChart .event.pokeSprite.munna img { background-position: left -517em!important; }
-.progressChart .event.pokeSprite.musharna img { background-position: left -518em!important; }
-.progressChart .event.pokeSprite.pidove img { background-position: left -519em!important; }
-.progressChart .event.pokeSprite.tranquill img { background-position: left -520em!important; }
-.progressChart .event.pokeSprite.unfezant img { background-position: left -521em!important; }
-.progressChart .event.pokeSprite.blitzle img { background-position: left -522em!important; }
-.progressChart .event.pokeSprite.zebstrika img { background-position: left -523em!important; }
-.progressChart .event.pokeSprite.roggenrola img { background-position: left -524em!important; }
-.progressChart .event.pokeSprite.boldore img { background-position: left -525em!important; }
-.progressChart .event.pokeSprite.gigalith img { background-position: left -526em!important; }
-.progressChart .event.pokeSprite.woobat img { background-position: left -527em!important; }
-.progressChart .event.pokeSprite.swoobat img { background-position: left -528em!important; }
-.progressChart .event.pokeSprite.drilbur img { background-position: left -529em!important; }
-.progressChart .event.pokeSprite.excadrill img { background-position: left -530em!important; }
-.progressChart .event.pokeSprite.audino img { background-position: left -531em!important; }
-.progressChart .event.pokeSprite.timburr img { background-position: left -532em!important; }
-.progressChart .event.pokeSprite.gurdurr img { background-position: left -533em!important; }
-.progressChart .event.pokeSprite.conkeldurr img { background-position: left -534em!important; }
-.progressChart .event.pokeSprite.tympole img { background-position: left -535em!important; }
-.progressChart .event.pokeSprite.palpitoad img { background-position: left -536em!important; }
-.progressChart .event.pokeSprite.seismitoad img { background-position: left -537em!important; }
-.progressChart .event.pokeSprite.throh img { background-position: left -538em!important; }
-.progressChart .event.pokeSprite.sawk img { background-position: left -539em!important; }
-.progressChart .event.pokeSprite.sewaddle img { background-position: left -540em!important; }
-.progressChart .event.pokeSprite.swadloon img { background-position: left -541em!important; }
-.progressChart .event.pokeSprite.leavanny img { background-position: left -542em!important; }
-.progressChart .event.pokeSprite.venipede img { background-position: left -543em!important; }
-.progressChart .event.pokeSprite.whirlipede img { background-position: left -544em!important; }
-.progressChart .event.pokeSprite.scolipede img { background-position: left -545em!important; }
-.progressChart .event.pokeSprite.cottonee img { background-position: left -546em!important; }
-.progressChart .event.pokeSprite.whimsicott img { background-position: left -547em!important; }
-.progressChart .event.pokeSprite.petilil img { background-position: left -548em!important; }
-.progressChart .event.pokeSprite.lilligant img { background-position: left -549em!important; }
-.progressChart .event.pokeSprite.basculin img { background-position: left -550em!important; }
-.progressChart .event.pokeSprite.sandile img { background-position: left -551em!important; }
-.progressChart .event.pokeSprite.krokorok img { background-position: left -552em!important; }
-.progressChart .event.pokeSprite.krookodile img { background-position: left -553em!important; }
-.progressChart .event.pokeSprite.darumaka img { background-position: left -554em!important; }
-.progressChart .event.pokeSprite.darmanitan img { background-position: left -555em!important; }
-.progressChart .event.pokeSprite.maractus img { background-position: left -556em!important; }
-.progressChart .event.pokeSprite.dwebble img { background-position: left -557em!important; }
-.progressChart .event.pokeSprite.crustle img { background-position: left -558em!important; }
-.progressChart .event.pokeSprite.scraggy img { background-position: left -559em!important; }
-.progressChart .event.pokeSprite.scrafty img { background-position: left -560em!important; }
-.progressChart .event.pokeSprite.sigilyph img { background-position: left -561em!important; }
-.progressChart .event.pokeSprite.yamask img { background-position: left -562em!important; }
-.progressChart .event.pokeSprite.cofagrigus img { background-position: left -563em!important; }
-.progressChart .event.pokeSprite.tirtouga img { background-position: left -564em!important; }
-.progressChart .event.pokeSprite.carracosta img { background-position: left -565em!important; }
-.progressChart .event.pokeSprite.archen img { background-position: left -566em!important; }
-.progressChart .event.pokeSprite.archeops img { background-position: left -567em!important; }
-.progressChart .event.pokeSprite.trubbish img { background-position: left -568em!important; }
-.progressChart .event.pokeSprite.garbodor img { background-position: left -569em!important; }
-.progressChart .event.pokeSprite.zorua img { background-position: left -570em!important; }
-.progressChart .event.pokeSprite.zoroark img { background-position: left -571em!important; }
-.progressChart .event.pokeSprite.minccino img { background-position: left -572em!important; }
-.progressChart .event.pokeSprite.cinccino img { background-position: left -573em!important; }
-.progressChart .event.pokeSprite.gothita img { background-position: left -574em!important; }
-.progressChart .event.pokeSprite.gothorita img { background-position: left -575em!important; }
-.progressChart .event.pokeSprite.gothitelle img { background-position: left -576em!important; }
-.progressChart .event.pokeSprite.solosis img { background-position: left -577em!important; }
-.progressChart .event.pokeSprite.duosion img { background-position: left -578em!important; }
-.progressChart .event.pokeSprite.reuniclus img { background-position: left -579em!important; }
-.progressChart .event.pokeSprite.ducklett img { background-position: left -580em!important; }
-.progressChart .event.pokeSprite.swanna img { background-position: left -581em!important; }
-.progressChart .event.pokeSprite.vanillite img { background-position: left -582em!important; }
-.progressChart .event.pokeSprite.vanillish img { background-position: left -583em!important; }
-.progressChart .event.pokeSprite.vanilluxe img { background-position: left -584em!important; }
-.progressChart .event.pokeSprite.deerling img { background-position: left -585em!important; }
-.progressChart .event.pokeSprite.sawsbuck img { background-position: left -586em!important; }
-.progressChart .event.pokeSprite.emolga img { background-position: left -587em!important; }
-.progressChart .event.pokeSprite.karrablast img { background-position: left -588em!important; }
-.progressChart .event.pokeSprite.escavalier img { background-position: left -589em!important; }
-.progressChart .event.pokeSprite.foongus img { background-position: left -590em!important; }
-.progressChart .event.pokeSprite.amoonguss img { background-position: left -591em!important; }
-.progressChart .event.pokeSprite.frillish img { background-position: left -592em!important; }
-.progressChart .event.pokeSprite.jellicent img { background-position: left -593em!important; }
-.progressChart .event.pokeSprite.alomomola img { background-position: left -594em!important; }
-.progressChart .event.pokeSprite.joltik img { background-position: left -595em!important; }
-.progressChart .event.pokeSprite.galvantula img { background-position: left -596em!important; }
-.progressChart .event.pokeSprite.ferroseed img { background-position: left -597em!important; }
-.progressChart .event.pokeSprite.ferrothorn img { background-position: left -598em!important; }
-.progressChart .event.pokeSprite.klink img { background-position: left -599em!important; }
-.progressChart .event.pokeSprite.klang img { background-position: left -600em!important; }
-.progressChart .event.pokeSprite.klinklang img { background-position: left -601em!important; }
-.progressChart .event.pokeSprite.tynamo img { background-position: left -602em!important; }
-.progressChart .event.pokeSprite.eelektrik img { background-position: left -603em!important; }
-.progressChart .event.pokeSprite.eelektross img { background-position: left -604em!important; }
-.progressChart .event.pokeSprite.elgyem img { background-position: left -605em!important; }
-.progressChart .event.pokeSprite.beheeyem img { background-position: left -606em!important; }
-.progressChart .event.pokeSprite.litwick img { background-position: left -607em!important; }
-.progressChart .event.pokeSprite.lampent img { background-position: left -608em!important; }
-.progressChart .event.pokeSprite.chandelure img { background-position: left -609em!important; }
-.progressChart .event.pokeSprite.axew img { background-position: left -610em!important; }
-.progressChart .event.pokeSprite.fraxure img { background-position: left -611em!important; }
-.progressChart .event.pokeSprite.haxorus img { background-position: left -612em!important; }
-.progressChart .event.pokeSprite.cubchoo img { background-position: left -613em!important; }
-.progressChart .event.pokeSprite.beartic img { background-position: left -614em!important; }
-.progressChart .event.pokeSprite.cryogonal img { background-position: left -615em!important; }
-.progressChart .event.pokeSprite.shelmet img { background-position: left -616em!important; }
-.progressChart .event.pokeSprite.accelgor img { background-position: left -617em!important; }
-.progressChart .event.pokeSprite.stunfisk img { background-position: left -618em!important; }
-.progressChart .event.pokeSprite.mienfoo img { background-position: left -619em!important; }
-.progressChart .event.pokeSprite.mienshao img { background-position: left -620em!important; }
-.progressChart .event.pokeSprite.druddigon img { background-position: left -621em!important; }
-.progressChart .event.pokeSprite.golett img { background-position: left -622em!important; }
-.progressChart .event.pokeSprite.golurk img { background-position: left -623em!important; }
-.progressChart .event.pokeSprite.pawniard img { background-position: left -624em!important; }
-.progressChart .event.pokeSprite.bisharp img { background-position: left -625em!important; }
-.progressChart .event.pokeSprite.bouffalant img { background-position: left -626em!important; }
-.progressChart .event.pokeSprite.rufflet img { background-position: left -627em!important; }
-.progressChart .event.pokeSprite.braviary img { background-position: left -628em!important; }
-.progressChart .event.pokeSprite.vullaby img { background-position: left -629em!important; }
-.progressChart .event.pokeSprite.mandibuzz img { background-position: left -630em!important; }
-.progressChart .event.pokeSprite.heatmor img { background-position: left -631em!important; }
-.progressChart .event.pokeSprite.durant img { background-position: left -632em!important; }
-.progressChart .event.pokeSprite.deino img { background-position: left -633em!important; }
-.progressChart .event.pokeSprite.zweilous img { background-position: left -634em!important; }
-.progressChart .event.pokeSprite.hydreigon img { background-position: left -635em!important; }
-.progressChart .event.pokeSprite.larvesta img { background-position: left -636em!important; }
-.progressChart .event.pokeSprite.volcarona img { background-position: left -637em!important; }
-.progressChart .event.pokeSprite.cobalion img { background-position: left -638em!important; }
-.progressChart .event.pokeSprite.terrakion img { background-position: left -639em!important; }
-.progressChart .event.pokeSprite.virizion img { background-position: left -640em!important; }
-.progressChart .event.pokeSprite.tornadus img { background-position: left -641em!important; }
-.progressChart .event.pokeSprite.thundurus img { background-position: left -642em!important; }
-.progressChart .event.pokeSprite.reshiram img { background-position: left -643em!important; }
-.progressChart .event.pokeSprite.zekrom img { background-position: left -644em!important; }
-.progressChart .event.pokeSprite.landorus img { background-position: left -645em!important; }
-.progressChart .event.pokeSprite.kyurem img { background-position: left -646em!important; }
-.progressChart .event.pokeSprite.keldeo img { background-position: left -647em!important; }
-.progressChart .event.pokeSprite.meloetta img { background-position: left -648em!important; }
-.progressChart .event.pokeSprite.genesect img { background-position: left -649em!important; }
-.progressChart .event.pokeSprite.chespin img { background-position: left -650em!important; }
-.progressChart .event.pokeSprite.quilladin img { background-position: left -651em!important; }
-.progressChart .event.pokeSprite.chesnaught img { background-position: left -652em!important; }
-.progressChart .event.pokeSprite.fennekin img { background-position: left -653em!important; }
-.progressChart .event.pokeSprite.braixen img { background-position: left -654em!important; }
-.progressChart .event.pokeSprite.delphox img { background-position: left -655em!important; }
-.progressChart .event.pokeSprite.froakie img { background-position: left -656em!important; }
-.progressChart .event.pokeSprite.frogadier img { background-position: left -657em!important; }
-.progressChart .event.pokeSprite.greninja img { background-position: left -658em!important; }
-.progressChart .event.pokeSprite.bunnelby img { background-position: left -659em!important; }
-.progressChart .event.pokeSprite.diggersby img { background-position: left -660em!important; }
-.progressChart .event.pokeSprite.fletchling img { background-position: left -661em!important; }
-.progressChart .event.pokeSprite.fletchinder img { background-position: left -662em!important; }
-.progressChart .event.pokeSprite.talonflame img { background-position: left -663em!important; }
-.progressChart .event.pokeSprite.scatterbug img { background-position: left -664em!important; }
-.progressChart .event.pokeSprite.spewpa img { background-position: left -665em!important; }
-.progressChart .event.pokeSprite.vivillon img { background-position: left -666em!important; }
-.progressChart .event.pokeSprite.litleo img { background-position: left -667em!important; }
-.progressChart .event.pokeSprite.pyroar img { background-position: left -668em!important; }
-.progressChart .event.pokeSprite.flabebe img { background-position: left -669em!important; }
-.progressChart .event.pokeSprite.floette img { background-position: left -670em!important; }
-.progressChart .event.pokeSprite.florges img { background-position: left -671em!important; }
-.progressChart .event.pokeSprite.skiddo img { background-position: left -672em!important; }
-.progressChart .event.pokeSprite.gogoat img { background-position: left -673em!important; }
-.progressChart .event.pokeSprite.pancham img { background-position: left -674em!important; }
-.progressChart .event.pokeSprite.pangoro img { background-position: left -675em!important; }
-.progressChart .event.pokeSprite.furfrou img { background-position: left -676em!important; }
-.progressChart .event.pokeSprite.espurr img { background-position: left -677em!important; }
-.progressChart .event.pokeSprite.meowstic img { background-position: left -678em!important; }
-.progressChart .event.pokeSprite.honedge img { background-position: left -679em!important; }
-.progressChart .event.pokeSprite.doublade img { background-position: left -680em!important; }
-.progressChart .event.pokeSprite.aegislash img { background-position: left -681em!important; }
-.progressChart .event.pokeSprite.spritzee img { background-position: left -682em!important; }
-.progressChart .event.pokeSprite.aromatisse img { background-position: left -683em!important; }
-.progressChart .event.pokeSprite.swirlix img { background-position: left -684em!important; }
-.progressChart .event.pokeSprite.slurpuff img { background-position: left -685em!important; }
-.progressChart .event.pokeSprite.inkay img { background-position: left -686em!important; }
-.progressChart .event.pokeSprite.malamar img { background-position: left -687em!important; }
-.progressChart .event.pokeSprite.binacle img { background-position: left -688em!important; }
-.progressChart .event.pokeSprite.barbaracle img { background-position: left -689em!important; }
-.progressChart .event.pokeSprite.skrelp img { background-position: left -690em!important; }
-.progressChart .event.pokeSprite.dragalge img { background-position: left -691em!important; }
-.progressChart .event.pokeSprite.clauncher img { background-position: left -692em!important; }
-.progressChart .event.pokeSprite.clawitzer img { background-position: left -693em!important; }
-.progressChart .event.pokeSprite.helioptile img { background-position: left -694em!important; }
-.progressChart .event.pokeSprite.heliolisk img { background-position: left -695em!important; }
-.progressChart .event.pokeSprite.tyrunt img { background-position: left -696em!important; }
-.progressChart .event.pokeSprite.tyrantrum img { background-position: left -697em!important; }
-.progressChart .event.pokeSprite.amaura img { background-position: left -698em!important; }
-.progressChart .event.pokeSprite.aurorus img { background-position: left -699em!important; }
-.progressChart .event.pokeSprite.sylveon img { background-position: left -700em!important; }
-.progressChart .event.pokeSprite.hawlucha img { background-position: left -701em!important; }
-.progressChart .event.pokeSprite.dedenne img { background-position: left -702em!important; }
-.progressChart .event.pokeSprite.carbink img { background-position: left -703em!important; }
-.progressChart .event.pokeSprite.goomy img { background-position: left -704em!important; }
-.progressChart .event.pokeSprite.sliggoo img { background-position: left -705em!important; }
-.progressChart .event.pokeSprite.goodra img { background-position: left -706em!important; }
-.progressChart .event.pokeSprite.klefki img { background-position: left -707em!important; }
-.progressChart .event.pokeSprite.phantump img { background-position: left -708em!important; }
-.progressChart .event.pokeSprite.trevenant img { background-position: left -709em!important; }
-.progressChart .event.pokeSprite.pumpkaboo img { background-position: left -710em!important; }
-.progressChart .event.pokeSprite.gourgeist img { background-position: left -711em!important; }
-.progressChart .event.pokeSprite.bergmite img { background-position: left -712em!important; }
-.progressChart .event.pokeSprite.avalugg img { background-position: left -713em!important; }
-.progressChart .event.pokeSprite.noibat img { background-position: left -714em!important; }
-.progressChart .event.pokeSprite.noivern img { background-position: left -715em!important; }
-.progressChart .event.pokeSprite.xerneas img { background-position: left -716em!important; }
-.progressChart .event.pokeSprite.yveltal img { background-position: left -717em!important; }
-.progressChart .event.pokeSprite.zygarde img { background-position: left -718em!important; }
-.progressChart .event.pokeSprite.diancie img { background-position: left -719em!important; }
-.progressChart .event.pokeSprite.hoopa img { background-position: left -720em!important; }
-.progressChart .event.pokeSprite.volcanion img { background-position: left -721em!important; }
+.pokesprite.bulbasaur img { background-position: 0px -1em!important; }
+.pokesprite.ivysaur img { background-position: 0px -2em!important; }
+.pokesprite.venusaur img { background-position: 0px -3em!important; }
+.pokesprite.charmander img { background-position: 0px -4em!important; }
+.pokesprite.charmeleon img { background-position: 0px -5em!important; }
+.pokesprite.charizard img { background-position: 0px -6em!important; }
+.pokesprite.squirtle img { background-position: 0px -7em!important; }
+.pokesprite.wartortle img { background-position: 0px -8em!important; }
+.pokesprite.blastoise img { background-position: 0px -9em!important; }
+.pokesprite.caterpie img { background-position: 0px -10em!important; }
+.pokesprite.metapod img { background-position: 0px -11em!important; }
+.pokesprite.butterfree img { background-position: 0px -12em!important; }
+.pokesprite.weedle img { background-position: 0px -13em!important; }
+.pokesprite.kakuna img { background-position: 0px -14em!important; }
+.pokesprite.beedrill img { background-position: 0px -15em!important; }
+.pokesprite.pidgey img { background-position: 0px -16em!important; }
+.pokesprite.pidgeotto img { background-position: 0px -17em!important; }
+.pokesprite.pidgeot img { background-position: 0px -18em!important; }
+.pokesprite.rattata img { background-position: 0px -19em!important; }
+.pokesprite.raticate img { background-position: 0px -20em!important; }
+.pokesprite.spearow img { background-position: 0px -21em!important; }
+.pokesprite.fearow img { background-position: 0px -22em!important; }
+.pokesprite.ekans img { background-position: 0px -23em!important; }
+.pokesprite.arbok img { background-position: 0px -24em!important; }
+.pokesprite.pikachu img { background-position: 0px -25em!important; }
+.pokesprite.raichu img { background-position: 0px -26em!important; }
+.pokesprite.sandshrew img { background-position: 0px -27em!important; }
+.pokesprite.sandslash img { background-position: 0px -28em!important; }
+.pokesprite.nidoranf img { background-position: 0px -29em!important; }
+.pokesprite.nidorina img { background-position: 0px -30em!important; }
+.pokesprite.nidoqueen img { background-position: 0px -31em!important; }
+.pokesprite.nidoranm img { background-position: 0px -32em!important; }
+.pokesprite.nidorino img { background-position: 0px -33em!important; }
+.pokesprite.nidoking img { background-position: 0px -34em!important; }
+.pokesprite.clefairy img { background-position: 0px -35em!important; }
+.pokesprite.clefable img { background-position: 0px -36em!important; }
+.pokesprite.vulpix img { background-position: 0px -37em!important; }
+.pokesprite.ninetales img { background-position: 0px -38em!important; }
+.pokesprite.jigglypuff img { background-position: 0px -39em!important; }
+.pokesprite.wigglytuff img { background-position: 0px -40em!important; }
+.pokesprite.zubat img { background-position: 0px -41em!important; }
+.pokesprite.golbat img { background-position: 0px -42em!important; }
+.pokesprite.oddish img { background-position: 0px -43em!important; }
+.pokesprite.gloom img { background-position: 0px -44em!important; }
+.pokesprite.vileplume img { background-position: 0px -45em!important; }
+.pokesprite.paras img { background-position: 0px -46em!important; }
+.pokesprite.parasect img { background-position: 0px -47em!important; }
+.pokesprite.venonat img { background-position: 0px -48em!important; }
+.pokesprite.venomoth img { background-position: 0px -49em!important; }
+.pokesprite.diglett img { background-position: 0px -50em!important; }
+.pokesprite.dugtrio img { background-position: 0px -51em!important; }
+.pokesprite.meowth img { background-position: 0px -52em!important; }
+.pokesprite.persian img { background-position: 0px -53em!important; }
+.pokesprite.psyduck img { background-position: 0px -54em!important; }
+.pokesprite.golduck img { background-position: 0px -55em!important; }
+.pokesprite.mankey img { background-position: 0px -56em!important; }
+.pokesprite.primeape img { background-position: 0px -57em!important; }
+.pokesprite.growlithe img { background-position: 0px -58em!important; }
+.pokesprite.arcanine img { background-position: 0px -59em!important; }
+.pokesprite.poliwag img { background-position: 0px -60em!important; }
+.pokesprite.poliwhirl img { background-position: 0px -61em!important; }
+.pokesprite.poliwrath img { background-position: 0px -62em!important; }
+.pokesprite.abra img { background-position: 0px -63em!important; }
+.pokesprite.kadabra img { background-position: 0px -64em!important; }
+.pokesprite.alakazam img { background-position: 0px -65em!important; }
+.pokesprite.machop img { background-position: 0px -66em!important; }
+.pokesprite.machoke img { background-position: 0px -67em!important; }
+.pokesprite.machamp img { background-position: 0px -68em!important; }
+.pokesprite.bellsprout img { background-position: 0px -69em!important; }
+.pokesprite.weepinbell img { background-position: 0px -70em!important; }
+.pokesprite.victreebel img { background-position: 0px -71em!important; }
+.pokesprite.tentacool img { background-position: 0px -72em!important; }
+.pokesprite.tentacruel img { background-position: 0px -73em!important; }
+.pokesprite.geodude img { background-position: 0px -74em!important; }
+.pokesprite.graveler img { background-position: 0px -75em!important; }
+.pokesprite.golem img { background-position: 0px -76em!important; }
+.pokesprite.ponyta img { background-position: 0px -77em!important; }
+.pokesprite.rapidash img { background-position: 0px -78em!important; }
+.pokesprite.slowpoke img { background-position: 0px -79em!important; }
+.pokesprite.slowbro img { background-position: 0px -80em!important; }
+.pokesprite.magnemite img { background-position: 0px -81em!important; }
+.pokesprite.magneton img { background-position: 0px -82em!important; }
+.pokesprite.farfetchd img { background-position: 0px -83em!important; }
+.pokesprite.doduo img { background-position: 0px -84em!important; }
+.pokesprite.dodrio img { background-position: 0px -85em!important; }
+.pokesprite.seel img { background-position: 0px -86em!important; }
+.pokesprite.dewgong img { background-position: 0px -87em!important; }
+.pokesprite.grimer img { background-position: 0px -88em!important; }
+.pokesprite.muk img { background-position: 0px -89em!important; }
+.pokesprite.shellder img { background-position: 0px -90em!important; }
+.pokesprite.cloyster img { background-position: 0px -91em!important; }
+.pokesprite.gastly img { background-position: 0px -92em!important; }
+.pokesprite.haunter img { background-position: 0px -93em!important; }
+.pokesprite.gengar img { background-position: 0px -94em!important; }
+.pokesprite.onix img { background-position: 0px -95em!important; }
+.pokesprite.drowzee img { background-position: 0px -96em!important; }
+.pokesprite.hypno img { background-position: 0px -97em!important; }
+.pokesprite.krabby img { background-position: 0px -98em!important; }
+.pokesprite.kingler img { background-position: 0px -99em!important; }
+.pokesprite.voltorb img { background-position: 0px -100em!important; }
+.pokesprite.electrode img { background-position: 0px -101em!important; }
+.pokesprite.exeggcute img { background-position: 0px -102em!important; }
+.pokesprite.exeggutor img { background-position: 0px -103em!important; }
+.pokesprite.cubone img { background-position: 0px -104em!important; }
+.pokesprite.marowak img { background-position: 0px -105em!important; }
+.pokesprite.hitmonlee img { background-position: 0px -106em!important; }
+.pokesprite.hitmonchan img { background-position: 0px -107em!important; }
+.pokesprite.lickitung img { background-position: 0px -108em!important; }
+.pokesprite.koffing img { background-position: 0px -109em!important; }
+.pokesprite.weezing img { background-position: 0px -110em!important; }
+.pokesprite.rhyhorn img { background-position: 0px -111em!important; }
+.pokesprite.rhydon img { background-position: 0px -112em!important; }
+.pokesprite.chansey img { background-position: 0px -113em!important; }
+.pokesprite.tangela img { background-position: 0px -114em!important; }
+.pokesprite.kangaskhan img { background-position: 0px -115em!important; }
+.pokesprite.horsea img { background-position: 0px -116em!important; }
+.pokesprite.seadra img { background-position: 0px -117em!important; }
+.pokesprite.goldeen img { background-position: 0px -118em!important; }
+.pokesprite.seaking img { background-position: 0px -119em!important; }
+.pokesprite.staryu img { background-position: 0px -120em!important; }
+.pokesprite.starmie img { background-position: 0px -121em!important; }
+.pokesprite.mrmime img { background-position: 0px -122em!important; }
+.pokesprite.scyther img { background-position: 0px -123em!important; }
+.pokesprite.jynx img { background-position: 0px -124em!important; }
+.pokesprite.electabuzz img { background-position: 0px -125em!important; }
+.pokesprite.magmar img { background-position: 0px -126em!important; }
+.pokesprite.pinsir img { background-position: 0px -127em!important; }
+.pokesprite.tauros img { background-position: 0px -128em!important; }
+.pokesprite.magikarp img { background-position: 0px -129em!important; }
+.pokesprite.gyarados img { background-position: 0px -130em!important; }
+.pokesprite.lapras img { background-position: 0px -131em!important; }
+.pokesprite.ditto img { background-position: 0px -132em!important; }
+.pokesprite.eevee img { background-position: 0px -133em!important; }
+.pokesprite.vaporeon img { background-position: 0px -134em!important; }
+.pokesprite.jolteon img { background-position: 0px -135em!important; }
+.pokesprite.flareon img { background-position: 0px -136em!important; }
+.pokesprite.porygon img { background-position: 0px -137em!important; }
+.pokesprite.omanyte img { background-position: 0px -138em!important; }
+.pokesprite.omastar img { background-position: 0px -139em!important; }
+.pokesprite.kabuto img { background-position: 0px -140em!important; }
+.pokesprite.kabutops img { background-position: 0px -141em!important; }
+.pokesprite.aerodactyl img { background-position: 0px -142em!important; }
+.pokesprite.snorlax img { background-position: 0px -143em!important; }
+.pokesprite.articuno img { background-position: 0px -144em!important; }
+.pokesprite.zapdos img { background-position: 0px -145em!important; }
+.pokesprite.moltres img { background-position: 0px -146em!important; }
+.pokesprite.dratini img { background-position: 0px -147em!important; }
+.pokesprite.dragonair img { background-position: 0px -148em!important; }
+.pokesprite.dragonite img { background-position: 0px -149em!important; }
+.pokesprite.mewtwo img { background-position: 0px -150em!important; }
+.pokesprite.mew img { background-position: 0px -151em!important; }
+.pokesprite.chikorita img { background-position: 0px -152em!important; }
+.pokesprite.bayleef img { background-position: 0px -153em!important; }
+.pokesprite.meganium img { background-position: 0px -154em!important; }
+.pokesprite.cyndaquil img { background-position: 0px -155em!important; }
+.pokesprite.quilava img { background-position: 0px -156em!important; }
+.pokesprite.typhlosion img { background-position: 0px -157em!important; }
+.pokesprite.totodile img { background-position: 0px -158em!important; }
+.pokesprite.croconaw img { background-position: 0px -159em!important; }
+.pokesprite.feraligatr img { background-position: 0px -160em!important; }
+.pokesprite.sentret img { background-position: 0px -161em!important; }
+.pokesprite.furret img { background-position: 0px -162em!important; }
+.pokesprite.hoothoot img { background-position: 0px -163em!important; }
+.pokesprite.noctowl img { background-position: 0px -164em!important; }
+.pokesprite.ledyba img { background-position: 0px -165em!important; }
+.pokesprite.ledian img { background-position: 0px -166em!important; }
+.pokesprite.spinarak img { background-position: 0px -167em!important; }
+.pokesprite.ariados img { background-position: 0px -168em!important; }
+.pokesprite.crobat img { background-position: 0px -169em!important; }
+.pokesprite.chinchou img { background-position: 0px -170em!important; }
+.pokesprite.lanturn img { background-position: 0px -171em!important; }
+.pokesprite.pichu img { background-position: 0px -172em!important; }
+.pokesprite.cleffa img { background-position: 0px -173em!important; }
+.pokesprite.igglybuff img { background-position: 0px -174em!important; }
+.pokesprite.togepi img { background-position: 0px -175em!important; }
+.pokesprite.togetic img { background-position: 0px -176em!important; }
+.pokesprite.natu img { background-position: 0px -177em!important; }
+.pokesprite.xatu img { background-position: 0px -178em!important; }
+.pokesprite.mareep img { background-position: 0px -179em!important; }
+.pokesprite.flaaffy img { background-position: 0px -180em!important; }
+.pokesprite.ampharos img { background-position: 0px -181em!important; }
+.pokesprite.bellossom img { background-position: 0px -182em!important; }
+.pokesprite.marill img { background-position: 0px -183em!important; }
+.pokesprite.azumarill img { background-position: 0px -184em!important; }
+.pokesprite.sudowoodo img { background-position: 0px -185em!important; }
+.pokesprite.politoed img { background-position: 0px -186em!important; }
+.pokesprite.hoppip img { background-position: 0px -187em!important; }
+.pokesprite.skiploom img { background-position: 0px -188em!important; }
+.pokesprite.jumpluff img { background-position: 0px -189em!important; }
+.pokesprite.aipom img { background-position: 0px -190em!important; }
+.pokesprite.sunkern img { background-position: 0px -191em!important; }
+.pokesprite.sunflora img { background-position: 0px -192em!important; }
+.pokesprite.yanma img { background-position: 0px -193em!important; }
+.pokesprite.wooper img { background-position: 0px -194em!important; }
+.pokesprite.quagsire img { background-position: 0px -195em!important; }
+.pokesprite.espeon img { background-position: 0px -196em!important; }
+.pokesprite.umbreon img { background-position: 0px -197em!important; }
+.pokesprite.murkrow img { background-position: 0px -198em!important; }
+.pokesprite.slowking img { background-position: 0px -199em!important; }
+.pokesprite.misdreavus img { background-position: 0px -200em!important; }
+.pokesprite.unown img { background-position: 0px -201em!important; }
+.pokesprite.wobbuffet img { background-position: 0px -202em!important; }
+.pokesprite.girafarig img { background-position: 0px -203em!important; }
+.pokesprite.pineco img { background-position: 0px -204em!important; }
+.pokesprite.forretress img { background-position: 0px -205em!important; }
+.pokesprite.dunsparce img { background-position: 0px -206em!important; }
+.pokesprite.gligar img { background-position: 0px -207em!important; }
+.pokesprite.steelix img { background-position: 0px -208em!important; }
+.pokesprite.snubbull img { background-position: 0px -209em!important; }
+.pokesprite.granbull img { background-position: 0px -210em!important; }
+.pokesprite.qwilfish img { background-position: 0px -211em!important; }
+.pokesprite.scizor img { background-position: 0px -212em!important; }
+.pokesprite.shuckle img { background-position: 0px -213em!important; }
+.pokesprite.heracross img { background-position: 0px -214em!important; }
+.pokesprite.sneasel img { background-position: 0px -215em!important; }
+.pokesprite.teddiursa img { background-position: 0px -216em!important; }
+.pokesprite.ursaring img { background-position: 0px -217em!important; }
+.pokesprite.slugma img { background-position: 0px -218em!important; }
+.pokesprite.magcargo img { background-position: 0px -219em!important; }
+.pokesprite.swinub img { background-position: 0px -220em!important; }
+.pokesprite.piloswine img { background-position: 0px -221em!important; }
+.pokesprite.corsola img { background-position: 0px -222em!important; }
+.pokesprite.remoraid img { background-position: 0px -223em!important; }
+.pokesprite.octillery img { background-position: 0px -224em!important; }
+.pokesprite.delibird img { background-position: 0px -225em!important; }
+.pokesprite.mantine img { background-position: 0px -226em!important; }
+.pokesprite.skarmory img { background-position: 0px -227em!important; }
+.pokesprite.houndour img { background-position: 0px -228em!important; }
+.pokesprite.houndoom img { background-position: 0px -229em!important; }
+.pokesprite.kingdra img { background-position: 0px -230em!important; }
+.pokesprite.phanpy img { background-position: 0px -231em!important; }
+.pokesprite.donphan img { background-position: 0px -232em!important; }
+.pokesprite.porygon2 img { background-position: 0px -233em!important; }
+.pokesprite.stantler img { background-position: 0px -234em!important; }
+.pokesprite.smeargle img { background-position: 0px -235em!important; }
+.pokesprite.tyrogue img { background-position: 0px -236em!important; }
+.pokesprite.hitmontop img { background-position: 0px -237em!important; }
+.pokesprite.smoochum img { background-position: 0px -238em!important; }
+.pokesprite.elekid img { background-position: 0px -239em!important; }
+.pokesprite.magby img { background-position: 0px -240em!important; }
+.pokesprite.miltank img { background-position: 0px -241em!important; }
+.pokesprite.blissey img { background-position: 0px -242em!important; }
+.pokesprite.raikou img { background-position: 0px -243em!important; }
+.pokesprite.entei img { background-position: 0px -244em!important; }
+.pokesprite.suicune img { background-position: 0px -245em!important; }
+.pokesprite.larvitar img { background-position: 0px -246em!important; }
+.pokesprite.pupitar img { background-position: 0px -247em!important; }
+.pokesprite.tyranitar img { background-position: 0px -248em!important; }
+.pokesprite.lugia img { background-position: 0px -249em!important; }
+.pokesprite.hooh img { background-position: 0px -250em!important; }
+.pokesprite.celebi img { background-position: 0px -251em!important; }
+.pokesprite.treecko img { background-position: 0px -252em!important; }
+.pokesprite.grovyle img { background-position: 0px -253em!important; }
+.pokesprite.sceptile img { background-position: 0px -254em!important; }
+.pokesprite.torchic img { background-position: 0px -255em!important; }
+.pokesprite.combusken img { background-position: 0px -256em!important; }
+.pokesprite.blaziken img { background-position: 0px -257em!important; }
+.pokesprite.mudkip img { background-position: 0px -258em!important; }
+.pokesprite.marshtomp img { background-position: 0px -259em!important; }
+.pokesprite.swampert img { background-position: 0px -260em!important; }
+.pokesprite.poochyena img { background-position: 0px -261em!important; }
+.pokesprite.mightyena img { background-position: 0px -262em!important; }
+.pokesprite.zigzagoon img { background-position: 0px -263em!important; }
+.pokesprite.linoone img { background-position: 0px -264em!important; }
+.pokesprite.wurmple img { background-position: 0px -265em!important; }
+.pokesprite.silcoon img { background-position: 0px -266em!important; }
+.pokesprite.beautifly img { background-position: 0px -267em!important; }
+.pokesprite.cascoon img { background-position: 0px -268em!important; }
+.pokesprite.dustox img { background-position: 0px -269em!important; }
+.pokesprite.lotad img { background-position: 0px -270em!important; }
+.pokesprite.lombre img { background-position: 0px -271em!important; }
+.pokesprite.ludicolo img { background-position: 0px -272em!important; }
+.pokesprite.seedot img { background-position: 0px -273em!important; }
+.pokesprite.nuzleaf img { background-position: 0px -274em!important; }
+.pokesprite.shiftry img { background-position: 0px -275em!important; }
+.pokesprite.taillow img { background-position: 0px -276em!important; }
+.pokesprite.swellow img { background-position: 0px -277em!important; }
+.pokesprite.wingull img { background-position: 0px -278em!important; }
+.pokesprite.pelipper img { background-position: 0px -279em!important; }
+.pokesprite.ralts img { background-position: 0px -280em!important; }
+.pokesprite.kirlia img { background-position: 0px -281em!important; }
+.pokesprite.gardevoir img { background-position: 0px -282em!important; }
+.pokesprite.surskit img { background-position: 0px -283em!important; }
+.pokesprite.masquerain img { background-position: 0px -284em!important; }
+.pokesprite.shroomish img { background-position: 0px -285em!important; }
+.pokesprite.breloom img { background-position: 0px -286em!important; }
+.pokesprite.slakoth img { background-position: 0px -287em!important; }
+.pokesprite.vigoroth img { background-position: 0px -288em!important; }
+.pokesprite.slaking img { background-position: 0px -289em!important; }
+.pokesprite.nincada img { background-position: 0px -290em!important; }
+.pokesprite.ninjask img { background-position: 0px -291em!important; }
+.pokesprite.shedinja img { background-position: 0px -292em!important; }
+.pokesprite.whismur img { background-position: 0px -293em!important; }
+.pokesprite.loudred img { background-position: 0px -294em!important; }
+.pokesprite.exploud img { background-position: 0px -295em!important; }
+.pokesprite.makuhita img { background-position: 0px -296em!important; }
+.pokesprite.hariyama img { background-position: 0px -297em!important; }
+.pokesprite.azurill img { background-position: 0px -298em!important; }
+.pokesprite.nosepass img { background-position: 0px -299em!important; }
+.pokesprite.skitty img { background-position: 0px -300em!important; }
+.pokesprite.delcatty img { background-position: 0px -301em!important; }
+.pokesprite.sableye img { background-position: 0px -302em!important; }
+.pokesprite.mawile img { background-position: 0px -303em!important; }
+.pokesprite.aron img { background-position: 0px -304em!important; }
+.pokesprite.lairon img { background-position: 0px -305em!important; }
+.pokesprite.aggron img { background-position: 0px -306em!important; }
+.pokesprite.meditite img { background-position: 0px -307em!important; }
+.pokesprite.medicham img { background-position: 0px -308em!important; }
+.pokesprite.electrike img { background-position: 0px -309em!important; }
+.pokesprite.manectric img { background-position: 0px -310em!important; }
+.pokesprite.plusle img { background-position: 0px -311em!important; }
+.pokesprite.minun img { background-position: 0px -312em!important; }
+.pokesprite.volbeat img { background-position: 0px -313em!important; }
+.pokesprite.illumise img { background-position: 0px -314em!important; }
+.pokesprite.roselia img { background-position: 0px -315em!important; }
+.pokesprite.gulpin img { background-position: 0px -316em!important; }
+.pokesprite.swalot img { background-position: 0px -317em!important; }
+.pokesprite.carvanha img { background-position: 0px -318em!important; }
+.pokesprite.sharpedo img { background-position: 0px -319em!important; }
+.pokesprite.wailmer img { background-position: 0px -320em!important; }
+.pokesprite.wailord img { background-position: 0px -321em!important; }
+.pokesprite.numel img { background-position: 0px -322em!important; }
+.pokesprite.camerupt img { background-position: 0px -323em!important; }
+.pokesprite.torkoal img { background-position: 0px -324em!important; }
+.pokesprite.spoink img { background-position: 0px -325em!important; }
+.pokesprite.grumpig img { background-position: 0px -326em!important; }
+.pokesprite.spinda img { background-position: 0px -327em!important; }
+.pokesprite.trapinch img { background-position: 0px -328em!important; }
+.pokesprite.vibrava img { background-position: 0px -329em!important; }
+.pokesprite.flygon img { background-position: 0px -330em!important; }
+.pokesprite.cacnea img { background-position: 0px -331em!important; }
+.pokesprite.cacturne img { background-position: 0px -332em!important; }
+.pokesprite.swablu img { background-position: 0px -333em!important; }
+.pokesprite.altaria img { background-position: 0px -334em!important; }
+.pokesprite.zangoose img { background-position: 0px -335em!important; }
+.pokesprite.seviper img { background-position: 0px -336em!important; }
+.pokesprite.lunatone img { background-position: 0px -337em!important; }
+.pokesprite.solrock img { background-position: 0px -338em!important; }
+.pokesprite.barboach img { background-position: 0px -339em!important; }
+.pokesprite.whiscash img { background-position: 0px -340em!important; }
+.pokesprite.corphish img { background-position: 0px -341em!important; }
+.pokesprite.crawdaunt img { background-position: 0px -342em!important; }
+.pokesprite.baltoy img { background-position: 0px -343em!important; }
+.pokesprite.claydol img { background-position: 0px -344em!important; }
+.pokesprite.lileep img { background-position: 0px -345em!important; }
+.pokesprite.cradily img { background-position: 0px -346em!important; }
+.pokesprite.anorith img { background-position: 0px -347em!important; }
+.pokesprite.armaldo img { background-position: 0px -348em!important; }
+.pokesprite.feebas img { background-position: 0px -349em!important; }
+.pokesprite.milotic img { background-position: 0px -350em!important; }
+.pokesprite.castform img { background-position: 0px -351em!important; }
+.pokesprite.kecleon img { background-position: 0px -352em!important; }
+.pokesprite.shuppet img { background-position: 0px -353em!important; }
+.pokesprite.banette img { background-position: 0px -354em!important; }
+.pokesprite.duskull img { background-position: 0px -355em!important; }
+.pokesprite.dusclops img { background-position: 0px -356em!important; }
+.pokesprite.tropius img { background-position: 0px -357em!important; }
+.pokesprite.chimecho img { background-position: 0px -358em!important; }
+.pokesprite.absol img { background-position: 0px -359em!important; }
+.pokesprite.wynaut img { background-position: 0px -360em!important; }
+.pokesprite.snorunt img { background-position: 0px -361em!important; }
+.pokesprite.glalie img { background-position: 0px -362em!important; }
+.pokesprite.spheal img { background-position: 0px -363em!important; }
+.pokesprite.sealeo img { background-position: 0px -364em!important; }
+.pokesprite.walrein img { background-position: 0px -365em!important; }
+.pokesprite.clamperl img { background-position: 0px -366em!important; }
+.pokesprite.huntail img { background-position: 0px -367em!important; }
+.pokesprite.gorebyss img { background-position: 0px -368em!important; }
+.pokesprite.relicanth img { background-position: 0px -369em!important; }
+.pokesprite.luvdisc img { background-position: 0px -370em!important; }
+.pokesprite.bagon img { background-position: 0px -371em!important; }
+.pokesprite.shelgon img { background-position: 0px -372em!important; }
+.pokesprite.salamence img { background-position: 0px -373em!important; }
+.pokesprite.beldum img { background-position: 0px -374em!important; }
+.pokesprite.metang img { background-position: 0px -375em!important; }
+.pokesprite.metagross img { background-position: 0px -376em!important; }
+.pokesprite.regirock img { background-position: 0px -377em!important; }
+.pokesprite.regice img { background-position: 0px -378em!important; }
+.pokesprite.registeel img { background-position: 0px -379em!important; }
+.pokesprite.latias img { background-position: 0px -380em!important; }
+.pokesprite.latios img { background-position: 0px -381em!important; }
+.pokesprite.kyogre img { background-position: 0px -382em!important; }
+.pokesprite.groudon img { background-position: 0px -383em!important; }
+.pokesprite.rayquaza img { background-position: 0px -384em!important; }
+.pokesprite.jirachi img { background-position: 0px -385em!important; }
+.pokesprite.deoxys img { background-position: 0px -386em!important; }
+.pokesprite.turtwig img { background-position: 0px -387em!important; }
+.pokesprite.grotle img { background-position: 0px -388em!important; }
+.pokesprite.torterra img { background-position: 0px -389em!important; }
+.pokesprite.chimchar img { background-position: 0px -390em!important; }
+.pokesprite.monferno img { background-position: 0px -391em!important; }
+.pokesprite.infernape img { background-position: 0px -392em!important; }
+.pokesprite.piplup img { background-position: 0px -393em!important; }
+.pokesprite.prinplup img { background-position: 0px -394em!important; }
+.pokesprite.empoleon img { background-position: 0px -395em!important; }
+.pokesprite.starly img { background-position: 0px -396em!important; }
+.pokesprite.staravia img { background-position: 0px -397em!important; }
+.pokesprite.staraptor img { background-position: 0px -398em!important; }
+.pokesprite.bidoof img { background-position: 0px -399em!important; }
+.pokesprite.bibarel img { background-position: 0px -400em!important; }
+.pokesprite.kricketot img { background-position: 0px -401em!important; }
+.pokesprite.kricketune img { background-position: 0px -402em!important; }
+.pokesprite.shinx img { background-position: 0px -403em!important; }
+.pokesprite.luxio img { background-position: 0px -404em!important; }
+.pokesprite.luxray img { background-position: 0px -405em!important; }
+.pokesprite.budew img { background-position: 0px -406em!important; }
+.pokesprite.roserade img { background-position: 0px -407em!important; }
+.pokesprite.cranidos img { background-position: 0px -408em!important; }
+.pokesprite.rampardos img { background-position: 0px -409em!important; }
+.pokesprite.shieldon img { background-position: 0px -410em!important; }
+.pokesprite.bastiodon img { background-position: 0px -411em!important; }
+.pokesprite.burmy img { background-position: 0px -412em!important; }
+.pokesprite.wormadam img { background-position: 0px -413em!important; }
+.pokesprite.mothim img { background-position: 0px -414em!important; }
+.pokesprite.combee img { background-position: 0px -415em!important; }
+.pokesprite.vespiquen img { background-position: 0px -416em!important; }
+.pokesprite.pachirisu img { background-position: 0px -417em!important; }
+.pokesprite.buizel img { background-position: 0px -418em!important; }
+.pokesprite.floatzel img { background-position: 0px -419em!important; }
+.pokesprite.cherubi img { background-position: 0px -420em!important; }
+.pokesprite.cherrim img { background-position: 0px -421em!important; }
+.pokesprite.shellos img { background-position: 0px -422em!important; }
+.pokesprite.gastrodon img { background-position: 0px -423em!important; }
+.pokesprite.ambipom img { background-position: 0px -424em!important; }
+.pokesprite.drifloon img { background-position: 0px -425em!important; }
+.pokesprite.drifblim img { background-position: 0px -426em!important; }
+.pokesprite.buneary img { background-position: 0px -427em!important; }
+.pokesprite.lopunny img { background-position: 0px -428em!important; }
+.pokesprite.mismagius img { background-position: 0px -429em!important; }
+.pokesprite.honchkrow img { background-position: 0px -430em!important; }
+.pokesprite.glameow img { background-position: 0px -431em!important; }
+.pokesprite.purugly img { background-position: 0px -432em!important; }
+.pokesprite.chingling img { background-position: 0px -433em!important; }
+.pokesprite.stunky img { background-position: 0px -434em!important; }
+.pokesprite.skuntank img { background-position: 0px -435em!important; }
+.pokesprite.bronzor img { background-position: 0px -436em!important; }
+.pokesprite.bronzong img { background-position: 0px -437em!important; }
+.pokesprite.bonsly img { background-position: 0px -438em!important; }
+.pokesprite.mimejr img { background-position: 0px -439em!important; }
+.pokesprite.happiny img { background-position: 0px -440em!important; }
+.pokesprite.chatot img { background-position: 0px -441em!important; }
+.pokesprite.spiritomb img { background-position: 0px -442em!important; }
+.pokesprite.gible img { background-position: 0px -443em!important; }
+.pokesprite.gabite img { background-position: 0px -444em!important; }
+.pokesprite.garchomp img { background-position: 0px -445em!important; }
+.pokesprite.munchlax img { background-position: 0px -446em!important; }
+.pokesprite.riolu img { background-position: 0px -447em!important; }
+.pokesprite.lucario img { background-position: 0px -448em!important; }
+.pokesprite.hippopotas img { background-position: 0px -449em!important; }
+.pokesprite.hippowdon img { background-position: 0px -450em!important; }
+.pokesprite.skorupi img { background-position: 0px -451em!important; }
+.pokesprite.drapion img { background-position: 0px -452em!important; }
+.pokesprite.croagunk img { background-position: 0px -453em!important; }
+.pokesprite.toxicroak img { background-position: 0px -454em!important; }
+.pokesprite.carnivine img { background-position: 0px -455em!important; }
+.pokesprite.finneon img { background-position: 0px -456em!important; }
+.pokesprite.lumineon img { background-position: 0px -457em!important; }
+.pokesprite.mantyke img { background-position: 0px -458em!important; }
+.pokesprite.snover img { background-position: 0px -459em!important; }
+.pokesprite.abomasnow img { background-position: 0px -460em!important; }
+.pokesprite.weavile img { background-position: 0px -461em!important; }
+.pokesprite.magnezone img { background-position: 0px -462em!important; }
+.pokesprite.lickilicky img { background-position: 0px -463em!important; }
+.pokesprite.rhyperior img { background-position: 0px -464em!important; }
+.pokesprite.tangrowth img { background-position: 0px -465em!important; }
+.pokesprite.electivire img { background-position: 0px -466em!important; }
+.pokesprite.magmortar img { background-position: 0px -467em!important; }
+.pokesprite.togekiss img { background-position: 0px -468em!important; }
+.pokesprite.yanmega img { background-position: 0px -469em!important; }
+.pokesprite.leafeon img { background-position: 0px -470em!important; }
+.pokesprite.glaceon img { background-position: 0px -471em!important; }
+.pokesprite.gliscor img { background-position: 0px -472em!important; }
+.pokesprite.mamoswine img { background-position: 0px -473em!important; }
+.pokesprite.porygonz img { background-position: 0px -474em!important; }
+.pokesprite.gallade img { background-position: 0px -475em!important; }
+.pokesprite.probopass img { background-position: 0px -476em!important; }
+.pokesprite.dusknoir img { background-position: 0px -477em!important; }
+.pokesprite.froslass img { background-position: 0px -478em!important; }
+.pokesprite.rotom img { background-position: 0px -479em!important; }
+.pokesprite.uxie img { background-position: 0px -480em!important; }
+.pokesprite.mesprit img { background-position: 0px -481em!important; }
+.pokesprite.azelf img { background-position: 0px -482em!important; }
+.pokesprite.dialga img { background-position: 0px -483em!important; }
+.pokesprite.palkia img { background-position: 0px -484em!important; }
+.pokesprite.heatran img { background-position: 0px -485em!important; }
+.pokesprite.regigigas img { background-position: 0px -486em!important; }
+.pokesprite.giratina img { background-position: 0px -487em!important; }
+.pokesprite.cresselia img { background-position: 0px -488em!important; }
+.pokesprite.phione img { background-position: 0px -489em!important; }
+.pokesprite.manaphy img { background-position: 0px -490em!important; }
+.pokesprite.darkrai img { background-position: 0px -491em!important; }
+.pokesprite.shaymin img { background-position: 0px -492em!important; }
+.pokesprite.arceus img { background-position: 0px -493em!important; }
+.pokesprite.victini img { background-position: 0px -494em!important; }
+.pokesprite.snivy img { background-position: 0px -495em!important; }
+.pokesprite.servine img { background-position: 0px -496em!important; }
+.pokesprite.serperior img { background-position: 0px -497em!important; }
+.pokesprite.tepig img { background-position: 0px -498em!important; }
+.pokesprite.pignite img { background-position: 0px -499em!important; }
+.pokesprite.emboar img { background-position: 0px -500em!important; }
+.pokesprite.oshawott img { background-position: 0px -501em!important; }
+.pokesprite.dewott img { background-position: 0px -502em!important; }
+.pokesprite.samurott img { background-position: 0px -503em!important; }
+.pokesprite.patrat img { background-position: 0px -504em!important; }
+.pokesprite.watchog img { background-position: 0px -505em!important; }
+.pokesprite.lillipup img { background-position: 0px -506em!important; }
+.pokesprite.herdier img { background-position: 0px -507em!important; }
+.pokesprite.stoutland img { background-position: 0px -508em!important; }
+.pokesprite.purrloin img { background-position: 0px -509em!important; }
+.pokesprite.liepard img { background-position: 0px -510em!important; }
+.pokesprite.pansage img { background-position: 0px -511em!important; }
+.pokesprite.simisage img { background-position: 0px -512em!important; }
+.pokesprite.pansear img { background-position: 0px -513em!important; }
+.pokesprite.simisear img { background-position: 0px -514em!important; }
+.pokesprite.panpour img { background-position: 0px -515em!important; }
+.pokesprite.simipour img { background-position: 0px -516em!important; }
+.pokesprite.munna img { background-position: 0px -517em!important; }
+.pokesprite.musharna img { background-position: 0px -518em!important; }
+.pokesprite.pidove img { background-position: 0px -519em!important; }
+.pokesprite.tranquill img { background-position: 0px -520em!important; }
+.pokesprite.unfezant img { background-position: 0px -521em!important; }
+.pokesprite.blitzle img { background-position: 0px -522em!important; }
+.pokesprite.zebstrika img { background-position: 0px -523em!important; }
+.pokesprite.roggenrola img { background-position: 0px -524em!important; }
+.pokesprite.boldore img { background-position: 0px -525em!important; }
+.pokesprite.gigalith img { background-position: 0px -526em!important; }
+.pokesprite.woobat img { background-position: 0px -527em!important; }
+.pokesprite.swoobat img { background-position: 0px -528em!important; }
+.pokesprite.drilbur img { background-position: 0px -529em!important; }
+.pokesprite.excadrill img { background-position: 0px -530em!important; }
+.pokesprite.audino img { background-position: 0px -531em!important; }
+.pokesprite.timburr img { background-position: 0px -532em!important; }
+.pokesprite.gurdurr img { background-position: 0px -533em!important; }
+.pokesprite.conkeldurr img { background-position: 0px -534em!important; }
+.pokesprite.tympole img { background-position: 0px -535em!important; }
+.pokesprite.palpitoad img { background-position: 0px -536em!important; }
+.pokesprite.seismitoad img { background-position: 0px -537em!important; }
+.pokesprite.throh img { background-position: 0px -538em!important; }
+.pokesprite.sawk img { background-position: 0px -539em!important; }
+.pokesprite.sewaddle img { background-position: 0px -540em!important; }
+.pokesprite.swadloon img { background-position: 0px -541em!important; }
+.pokesprite.leavanny img { background-position: 0px -542em!important; }
+.pokesprite.venipede img { background-position: 0px -543em!important; }
+.pokesprite.whirlipede img { background-position: 0px -544em!important; }
+.pokesprite.scolipede img { background-position: 0px -545em!important; }
+.pokesprite.cottonee img { background-position: 0px -546em!important; }
+.pokesprite.whimsicott img { background-position: 0px -547em!important; }
+.pokesprite.petilil img { background-position: 0px -548em!important; }
+.pokesprite.lilligant img { background-position: 0px -549em!important; }
+.pokesprite.basculin img { background-position: 0px -550em!important; }
+.pokesprite.sandile img { background-position: 0px -551em!important; }
+.pokesprite.krokorok img { background-position: 0px -552em!important; }
+.pokesprite.krookodile img { background-position: 0px -553em!important; }
+.pokesprite.darumaka img { background-position: 0px -554em!important; }
+.pokesprite.darmanitan img { background-position: 0px -555em!important; }
+.pokesprite.maractus img { background-position: 0px -556em!important; }
+.pokesprite.dwebble img { background-position: 0px -557em!important; }
+.pokesprite.crustle img { background-position: 0px -558em!important; }
+.pokesprite.scraggy img { background-position: 0px -559em!important; }
+.pokesprite.scrafty img { background-position: 0px -560em!important; }
+.pokesprite.sigilyph img { background-position: 0px -561em!important; }
+.pokesprite.yamask img { background-position: 0px -562em!important; }
+.pokesprite.cofagrigus img { background-position: 0px -563em!important; }
+.pokesprite.tirtouga img { background-position: 0px -564em!important; }
+.pokesprite.carracosta img { background-position: 0px -565em!important; }
+.pokesprite.archen img { background-position: 0px -566em!important; }
+.pokesprite.archeops img { background-position: 0px -567em!important; }
+.pokesprite.trubbish img { background-position: 0px -568em!important; }
+.pokesprite.garbodor img { background-position: 0px -569em!important; }
+.pokesprite.zorua img { background-position: 0px -570em!important; }
+.pokesprite.zoroark img { background-position: 0px -571em!important; }
+.pokesprite.minccino img { background-position: 0px -572em!important; }
+.pokesprite.cinccino img { background-position: 0px -573em!important; }
+.pokesprite.gothita img { background-position: 0px -574em!important; }
+.pokesprite.gothorita img { background-position: 0px -575em!important; }
+.pokesprite.gothitelle img { background-position: 0px -576em!important; }
+.pokesprite.solosis img { background-position: 0px -577em!important; }
+.pokesprite.duosion img { background-position: 0px -578em!important; }
+.pokesprite.reuniclus img { background-position: 0px -579em!important; }
+.pokesprite.ducklett img { background-position: 0px -580em!important; }
+.pokesprite.swanna img { background-position: 0px -581em!important; }
+.pokesprite.vanillite img { background-position: 0px -582em!important; }
+.pokesprite.vanillish img { background-position: 0px -583em!important; }
+.pokesprite.vanilluxe img { background-position: 0px -584em!important; }
+.pokesprite.deerling img { background-position: 0px -585em!important; }
+.pokesprite.sawsbuck img { background-position: 0px -586em!important; }
+.pokesprite.emolga img { background-position: 0px -587em!important; }
+.pokesprite.karrablast img { background-position: 0px -588em!important; }
+.pokesprite.escavalier img { background-position: 0px -589em!important; }
+.pokesprite.foongus img { background-position: 0px -590em!important; }
+.pokesprite.amoonguss img { background-position: 0px -591em!important; }
+.pokesprite.frillish img { background-position: 0px -592em!important; }
+.pokesprite.jellicent img { background-position: 0px -593em!important; }
+.pokesprite.alomomola img { background-position: 0px -594em!important; }
+.pokesprite.joltik img { background-position: 0px -595em!important; }
+.pokesprite.galvantula img { background-position: 0px -596em!important; }
+.pokesprite.ferroseed img { background-position: 0px -597em!important; }
+.pokesprite.ferrothorn img { background-position: 0px -598em!important; }
+.pokesprite.klink img { background-position: 0px -599em!important; }
+.pokesprite.klang img { background-position: 0px -600em!important; }
+.pokesprite.klinklang img { background-position: 0px -601em!important; }
+.pokesprite.tynamo img { background-position: 0px -602em!important; }
+.pokesprite.eelektrik img { background-position: 0px -603em!important; }
+.pokesprite.eelektross img { background-position: 0px -604em!important; }
+.pokesprite.elgyem img { background-position: 0px -605em!important; }
+.pokesprite.beheeyem img { background-position: 0px -606em!important; }
+.pokesprite.litwick img { background-position: 0px -607em!important; }
+.pokesprite.lampent img { background-position: 0px -608em!important; }
+.pokesprite.chandelure img { background-position: 0px -609em!important; }
+.pokesprite.axew img { background-position: 0px -610em!important; }
+.pokesprite.fraxure img { background-position: 0px -611em!important; }
+.pokesprite.haxorus img { background-position: 0px -612em!important; }
+.pokesprite.cubchoo img { background-position: 0px -613em!important; }
+.pokesprite.beartic img { background-position: 0px -614em!important; }
+.pokesprite.cryogonal img { background-position: 0px -615em!important; }
+.pokesprite.shelmet img { background-position: 0px -616em!important; }
+.pokesprite.accelgor img { background-position: 0px -617em!important; }
+.pokesprite.stunfisk img { background-position: 0px -618em!important; }
+.pokesprite.mienfoo img { background-position: 0px -619em!important; }
+.pokesprite.mienshao img { background-position: 0px -620em!important; }
+.pokesprite.druddigon img { background-position: 0px -621em!important; }
+.pokesprite.golett img { background-position: 0px -622em!important; }
+.pokesprite.golurk img { background-position: 0px -623em!important; }
+.pokesprite.pawniard img { background-position: 0px -624em!important; }
+.pokesprite.bisharp img { background-position: 0px -625em!important; }
+.pokesprite.bouffalant img { background-position: 0px -626em!important; }
+.pokesprite.rufflet img { background-position: 0px -627em!important; }
+.pokesprite.braviary img { background-position: 0px -628em!important; }
+.pokesprite.vullaby img { background-position: 0px -629em!important; }
+.pokesprite.mandibuzz img { background-position: 0px -630em!important; }
+.pokesprite.heatmor img { background-position: 0px -631em!important; }
+.pokesprite.durant img { background-position: 0px -632em!important; }
+.pokesprite.deino img { background-position: 0px -633em!important; }
+.pokesprite.zweilous img { background-position: 0px -634em!important; }
+.pokesprite.hydreigon img { background-position: 0px -635em!important; }
+.pokesprite.larvesta img { background-position: 0px -636em!important; }
+.pokesprite.volcarona img { background-position: 0px -637em!important; }
+.pokesprite.cobalion img { background-position: 0px -638em!important; }
+.pokesprite.terrakion img { background-position: 0px -639em!important; }
+.pokesprite.virizion img { background-position: 0px -640em!important; }
+.pokesprite.tornadus img { background-position: 0px -641em!important; }
+.pokesprite.thundurus img { background-position: 0px -642em!important; }
+.pokesprite.reshiram img { background-position: 0px -643em!important; }
+.pokesprite.zekrom img { background-position: 0px -644em!important; }
+.pokesprite.landorus img { background-position: 0px -645em!important; }
+.pokesprite.kyurem img { background-position: 0px -646em!important; }
+.pokesprite.keldeo img { background-position: 0px -647em!important; }
+.pokesprite.meloetta img { background-position: 0px -648em!important; }
+.pokesprite.genesect img { background-position: 0px -649em!important; }
+.pokesprite.chespin img { background-position: 0px -650em!important; }
+.pokesprite.quilladin img { background-position: 0px -651em!important; }
+.pokesprite.chesnaught img { background-position: 0px -652em!important; }
+.pokesprite.fennekin img { background-position: 0px -653em!important; }
+.pokesprite.braixen img { background-position: 0px -654em!important; }
+.pokesprite.delphox img { background-position: 0px -655em!important; }
+.pokesprite.froakie img { background-position: 0px -656em!important; }
+.pokesprite.frogadier img { background-position: 0px -657em!important; }
+.pokesprite.greninja img { background-position: 0px -658em!important; }
+.pokesprite.bunnelby img { background-position: 0px -659em!important; }
+.pokesprite.diggersby img { background-position: 0px -660em!important; }
+.pokesprite.fletchling img { background-position: 0px -661em!important; }
+.pokesprite.fletchinder img { background-position: 0px -662em!important; }
+.pokesprite.talonflame img { background-position: 0px -663em!important; }
+.pokesprite.scatterbug img { background-position: 0px -664em!important; }
+.pokesprite.spewpa img { background-position: 0px -665em!important; }
+.pokesprite.vivillon img { background-position: 0px -666em!important; }
+.pokesprite.litleo img { background-position: 0px -667em!important; }
+.pokesprite.pyroar img { background-position: 0px -668em!important; }
+.pokesprite.flabb img { background-position: 0px -669em!important; }
+.pokesprite.floette img { background-position: 0px -670em!important; }
+.pokesprite.florges img { background-position: 0px -671em!important; }
+.pokesprite.skiddo img { background-position: 0px -672em!important; }
+.pokesprite.gogoat img { background-position: 0px -673em!important; }
+.pokesprite.pancham img { background-position: 0px -674em!important; }
+.pokesprite.pangoro img { background-position: 0px -675em!important; }
+.pokesprite.furfrou img { background-position: 0px -676em!important; }
+.pokesprite.espurr img { background-position: 0px -677em!important; }
+.pokesprite.meowstic img { background-position: 0px -678em!important; }
+.pokesprite.honedge img { background-position: 0px -679em!important; }
+.pokesprite.doublade img { background-position: 0px -680em!important; }
+.pokesprite.aegislash img { background-position: 0px -681em!important; }
+.pokesprite.spritzee img { background-position: 0px -682em!important; }
+.pokesprite.aromatisse img { background-position: 0px -683em!important; }
+.pokesprite.swirlix img { background-position: 0px -684em!important; }
+.pokesprite.slurpuff img { background-position: 0px -685em!important; }
+.pokesprite.inkay img { background-position: 0px -686em!important; }
+.pokesprite.malamar img { background-position: 0px -687em!important; }
+.pokesprite.binacle img { background-position: 0px -688em!important; }
+.pokesprite.barbaracle img { background-position: 0px -689em!important; }
+.pokesprite.skrelp img { background-position: 0px -690em!important; }
+.pokesprite.dragalge img { background-position: 0px -691em!important; }
+.pokesprite.clauncher img { background-position: 0px -692em!important; }
+.pokesprite.clawitzer img { background-position: 0px -693em!important; }
+.pokesprite.helioptile img { background-position: 0px -694em!important; }
+.pokesprite.heliolisk img { background-position: 0px -695em!important; }
+.pokesprite.tyrunt img { background-position: 0px -696em!important; }
+.pokesprite.tyrantrum img { background-position: 0px -697em!important; }
+.pokesprite.amaura img { background-position: 0px -698em!important; }
+.pokesprite.aurorus img { background-position: 0px -699em!important; }
+.pokesprite.sylveon img { background-position: 0px -700em!important; }
+.pokesprite.hawlucha img { background-position: 0px -701em!important; }
+.pokesprite.dedenne img { background-position: 0px -702em!important; }
+.pokesprite.carbink img { background-position: 0px -703em!important; }
+.pokesprite.goomy img { background-position: 0px -704em!important; }
+.pokesprite.sliggoo img { background-position: 0px -705em!important; }
+.pokesprite.goodra img { background-position: 0px -706em!important; }
+.pokesprite.klefki img { background-position: 0px -707em!important; }
+.pokesprite.phantump img { background-position: 0px -708em!important; }
+.pokesprite.trevenant img { background-position: 0px -709em!important; }
+.pokesprite.pumpkaboo img { background-position: 0px -710em!important; }
+.pokesprite.gourgeist img { background-position: 0px -711em!important; }
+.pokesprite.bergmite img { background-position: 0px -712em!important; }
+.pokesprite.avalugg img { background-position: 0px -713em!important; }
+.pokesprite.noibat img { background-position: 0px -714em!important; }
+.pokesprite.noivern img { background-position: 0px -715em!important; }
+.pokesprite.xerneas img { background-position: 0px -716em!important; }
+.pokesprite.yveltal img { background-position: 0px -717em!important; }
+.pokesprite.zygarde img { background-position: 0px -718em!important; }
+.pokesprite.diancie img { background-position: 0px -719em!important; }
+.pokesprite.hoopa img { background-position: 0px -720em!important; }
+.pokesprite.volcanion img { background-position: 0px -721em!important; }
+
+.telefang .pokemon.pokesprite.tsunonasu img, .telefang .pokemon.pokesprite.zinunas img  { background-position: 0px -1em!important; } 
+.telefang .pokemon.pokesprite.kochia img, .telefang .pokemon.pokesprite.kokia img  { background-position: 0px -2em!important; } 
+.telefang .pokemon.pokesprite.oshe img, .telefang .pokemon.pokesprite.osie img  { background-position: 0px -3em!important; } 
+.telefang .pokemon.pokesprite.keshi img, .telefang .pokemon.pokesprite.kesi img  { background-position: 0px -4em!important; } 
+.telefang .pokemon.pokesprite.crypto img, .telefang .pokemon.pokesprite.kuribute img  { background-position: 0px -5em!important; } 
+.telefang .pokemon.pokesprite.monstera img, .telefang .pokemon.pokesprite.manstla img  { background-position: 0px -6em!important; } 
+.telefang .pokemon.pokesprite.fungus img, .telefang .pokemon.pokesprite.fanges img  { background-position: 0px -7em!important; } 
+.telefang .pokemon.pokesprite.hiougi img, .telefang .pokemon.pokesprite.hiougi img  { background-position: 0px -8em!important; } 
+.telefang .pokemon.pokesprite.punica img, .telefang .pokemon.pokesprite.punika img  { background-position: 0px -9em!important; } 
+.telefang .pokemon.pokesprite.gumi img, .telefang .pokemon.pokesprite.gumi img  { background-position: 0px -10em!important; } 
+.telefang .pokemon.pokesprite.suguri img, .telefang .pokemon.pokesprite.sukori img  { background-position: 0px -11em!important; } 
+.telefang .pokemon.pokesprite.ganraikou img, .telefang .pokemon.pokesprite.tampala img  { background-position: 0px -12em!important; } 
+.telefang .pokemon.pokesprite.byakubu img, .telefang .pokemon.pokesprite.baibu img  { background-position: 0px -13em!important; } 
+.telefang .pokemon.pokesprite.telopea img, .telefang .pokemon.pokesprite.teropea img  { background-position: 0px -14em!important; } 
+.telefang .pokemon.pokesprite.mantea img, .telefang .pokemon.pokesprite.mantea img  { background-position: 0px -15em!important; } 
+.telefang .pokemon.pokesprite.ixora img, .telefang .pokemon.pokesprite.ikusora img  { background-position: 0px -16em!important; } 
+.telefang .pokemon.pokesprite.myrtus img, .telefang .pokemon.pokesprite.mierths img  { background-position: 0px -17em!important; } 
+.telefang .pokemon.pokesprite.lychnis img, .telefang .pokemon.pokesprite.liknis img  { background-position: 0px -18em!important; } 
+.telefang .pokemon.pokesprite.lapeirousia img, .telefang .pokemon.pokesprite.luyigia img  { background-position: 0px -19em!important; } 
+.telefang .pokemon.pokesprite.bubaria img, .telefang .pokemon.pokesprite.bubaria img  { background-position: 0px -20em!important; } 
+.telefang .pokemon.pokesprite.angios img, .telefang .pokemon.pokesprite.anjiosi img  { background-position: 0px -21em!important; } 
+.telefang .pokemon.pokesprite.gymnos img, .telefang .pokemon.pokesprite.jimunosi img  { background-position: 0px -22em!important; } 
+.telefang .pokemon.pokesprite.liriope img, .telefang .pokemon.pokesprite.ririope img  { background-position: 0px -23em!important; } 
+.telefang .pokemon.pokesprite.waratah img, .telefang .pokemon.pokesprite.warata img  { background-position: 0px -24em!important; } 
+.telefang .pokemon.pokesprite.sorghum img, .telefang .pokemon.pokesprite.surugem img  { background-position: 0px -25em!important; } 
+.telefang .pokemon.pokesprite.eryngo img, .telefang .pokemon.pokesprite.erinko img  { background-position: 0px -26em!important; } 
+.telefang .pokemon.pokesprite.noriutsugi img, .telefang .pokemon.pokesprite.noriwuts img  { background-position: 0px -27em!important; } 
+.telefang .pokemon.pokesprite.pampas img, .telefang .pokemon.pokesprite.banles img  { background-position: 0px -28em!important; } 
+.telefang .pokemon.pokesprite.rhodanthe img, .telefang .pokemon.pokesprite.rodansa img  { background-position: 0px -29em!important; } 
+.telefang .pokemon.pokesprite.licorice img, .telefang .pokemon.pokesprite.rikoris img  { background-position: 0px -30em!important; } 
+.telefang .pokemon.pokesprite.viburnum img, .telefang .pokemon.pokesprite.bibanam img  { background-position: 0px -31em!important; } 
+.telefang .pokemon.pokesprite.funnel img, .telefang .pokemon.pokesprite.phanel img  { background-position: 0px -32em!important; } 
+.telefang .pokemon.pokesprite.vanda img, .telefang .pokemon.pokesprite.banda img  { background-position: 0px -33em!important; } 
+.telefang .pokemon.pokesprite.uikyou img, .telefang .pokemon.pokesprite.wuikyo img  { background-position: 0px -34em!important; } 
+.telefang .pokemon.pokesprite.obana img, .telefang .pokemon.pokesprite.obana img  { background-position: 0px -35em!important; } 
+.telefang .pokemon.pokesprite.firekokko img, .telefang .pokemon.pokesprite.faikke img  { background-position: 0px -12em!important; } 
+.telefang .pokemon.pokesprite.raygoten img, .telefang .pokemon.pokesprite.rigoden img  { background-position: 0px -2em!important; } 
+.telefang .pokemon.pokesprite.drilarmor img, .telefang .pokemon.pokesprite.doria img  { background-position: 0px -3em!important; } 
+.telefang .pokemon.pokesprite.chamelan img, .telefang .pokemon.pokesprite.kameran img  { background-position: 0px -4em!important; } 
+.telefang .pokemon.pokesprite.cryptoarm img, .telefang .pokemon.pokesprite.kuribute img  { background-position: 0px -5em!important; } 
+.telefang .pokemon.pokesprite.shellstera img, .telefang .pokemon.pokesprite.sherstla img  { background-position: 0px -6em!important; } 
+.telefang .pokemon.pokesprite.fungeist img, .telefang .pokemon.pokesprite.fangist img  { background-position: 0px -7em!important; } 
+.telefang .pokemon.pokesprite.balltamus img, .telefang .pokemon.pokesprite.bourtama img  { background-position: 0px -8em!important; } 
+.telefang .pokemon.pokesprite.burenica img, .telefang .pokemon.pokesprite.branika img  { background-position: 0px -9em!important; } 
+.telefang .pokemon.pokesprite.geron img, .telefang .pokemon.pokesprite.geron img  { background-position: 0px -10em!important; } 
+.telefang .pokemon.pokesprite.berzelia img, .telefang .pokemon.pokesprite.bazeria img  { background-position: 0px -36em!important; } 
+.telefang .pokemon.pokesprite.nigella img, .telefang .pokemon.pokesprite.nigera img  { background-position: 0px -37em!important; } 
+.telefang .pokemon.pokesprite.musa img, .telefang .pokemon.pokesprite.musa img  { background-position: 0px -38em!important; } 
+.telefang .pokemon.pokesprite.netaro img, .telefang .pokemon.pokesprite.netaro img  { background-position: 0px -39em!important; } 
+.telefang .pokemon.pokesprite.nejiro img, .telefang .pokemon.pokesprite.nejiro img  { background-position: 0px -40em!important; } 
+.telefang .pokemon.pokesprite.godetia img, .telefang .pokemon.pokesprite.gedejia img  { background-position: 0px -41em!important; } 
+.telefang .pokemon.pokesprite.curcuma img, .telefang .pokemon.pokesprite.kukuma img  { background-position: 0px -42em!important; } 
+.telefang .pokemon.pokesprite.tessen img, .telefang .pokemon.pokesprite.rasen img  { background-position: 0px -43em!important; } 
+.telefang .pokemon.pokesprite.heliopsis img, .telefang .pokemon.pokesprite.heriops img  { background-position: 0px -44em!important; } 
+.telefang .pokemon.pokesprite.hagumanoki img, .telefang .pokemon.pokesprite.sumac img  { background-position: 0px -45em!important; } 
+.telefang .pokemon.pokesprite.gilerth img, .telefang .pokemon.pokesprite.jieas img  { background-position: 0px -1em!important; } 
+.telefang .pokemon.pokesprite.raygirth img, .telefang .pokemon.pokesprite.larjias img  { background-position: 0px -2em!important; } 
+.telefang .pokemon.pokesprite.armaru img, .telefang .pokemon.pokesprite.armory img  { background-position: 0px -3em!important; } 
+.telefang .pokemon.pokesprite.chameraid img, .telefang .pokemon.pokesprite.icecream img  { background-position: 0px -4em!important; } 
+.telefang .pokemon.pokesprite.cryptoride img, .telefang .pokemon.pokesprite.kuripute img  { background-position: 0px -5em!important; } 
+.telefang .pokemon.pokesprite.wormiterala img, .telefang .pokemon.pokesprite.wamitera img  { background-position: 0px -6em!important; } 
+.telefang .pokemon.pokesprite.fungblade img, .telefang .pokemon.pokesprite.fenbuled img  { background-position: 0px -7em!important; } 
+.telefang .pokemon.pokesprite.bulltamus img, .telefang .pokemon.pokesprite.burtamas img  { background-position: 0px -8em!important; } 
+.telefang .pokemon.pokesprite.puneedle img, .telefang .pokemon.pokesprite.bunider img  { background-position: 0px -9em!important; } 
+.telefang .pokemon.pokesprite.kerorin img, .telefang .pokemon.pokesprite.gerlin img  { background-position: 0px -10em!important; } 
+.telefang .pokemon.pokesprite.sugulai img, .telefang .pokemon.pokesprite.sigeray img  { background-position: 0px -11em!important; } 
+.telefang .pokemon.pokesprite.cortos img, .telefang .pokemon.pokesprite.kaotes img  { background-position: 0px -12em!important; } 
+.telefang .pokemon.pokesprite.gaiurus img, .telefang .pokemon.pokesprite.geiwurus img  { background-position: 0px -13em!important; } 
+.telefang .pokemon.pokesprite.midotor img, .telefang .pokemon.pokesprite.medter img  { background-position: 0px -14em!important; } 
+.telefang .pokemon.pokesprite.octor img, .telefang .pokemon.pokesprite.aokuteru img  { background-position: 0px -15em!important; } 
+.telefang .pokemon.pokesprite.hitodeight img, .telefang .pokemon.pokesprite.hitodei img  { background-position: 0px -16em!important; } 
+.telefang .pokemon.pokesprite.ghosboar img, .telefang .pokemon.pokesprite.gaosboya img  { background-position: 0px -17em!important; } 
+.telefang .pokemon.pokesprite.rasenmai img, .telefang .pokemon.pokesprite.rasenmai img  { background-position: 0px -46em!important; } 
+.telefang .pokemon.pokesprite.scorpil img, .telefang .pokemon.pokesprite.skirpeal img  { background-position: 0px -19em!important; } 
+.telefang .pokemon.pokesprite.armcrab img, .telefang .pokemon.pokesprite.armkurab img  { background-position: 0px -20em!important; } 
+.telefang .pokemon.pokesprite.angiorn img, .telefang .pokemon.pokesprite.anjioen img  { background-position: 0px -21em!important; } 
+.telefang .pokemon.pokesprite.gymrace img, .telefang .pokemon.pokesprite.jimures img  { background-position: 0px -22em!important; } 
+.telefang .pokemon.pokesprite.lirionpu img, .telefang .pokemon.pokesprite.ririonpu img  { background-position: 0px -23em!important; } 
+.telefang .pokemon.pokesprite.whitah img, .telefang .pokemon.pokesprite.waita img  { background-position: 0px -24em!important; } 
+.telefang .pokemon.pokesprite.potzal img, .telefang .pokemon.pokesprite.bozuaru img  { background-position: 0px -25em!important; } 
+.telefang .pokemon.pokesprite.araneida img, .telefang .pokemon.pokesprite.aranita img  { background-position: 0px -26em!important; } 
+.telefang .pokemon.pokesprite.gadhoro img, .telefang .pokemon.pokesprite.jiadhelo img  { background-position: 0px -27em!important; } 
+.telefang .pokemon.pokesprite.cliogera img, .telefang .pokemon.pokesprite.kliaoger img  { background-position: 0px -28em!important; } 
+.telefang .pokemon.pokesprite.gust img, .telefang .pokemon.pokesprite.gust img  { background-position: 0px -29em!important; } 
+.telefang .pokemon.pokesprite.reige img, .telefang .pokemon.pokesprite.reige img  { background-position: 0px -30em!important; } 
+.telefang .pokemon.pokesprite.togeruka img, .telefang .pokemon.pokesprite.tegerka img  { background-position: 0px -31em!important; } 
+.telefang .pokemon.pokesprite.raigaleon img, .telefang .pokemon.pokesprite.raigarin img  { background-position: 0px -32em!important; } 
+.telefang .pokemon.pokesprite.gadorkuma img, .telefang .pokemon.pokesprite.gadoruk img  { background-position: 0px -33em!important; } 
+.telefang .pokemon.pokesprite.abiras img, .telefang .pokemon.pokesprite.agilis img  { background-position: 0px -34em!important; } 
+.telefang .pokemon.pokesprite.alphagos img, .telefang .pokemon.pokesprite.arfages img  { background-position: 0px -35em!important; } 
+.telefang .pokemon.pokesprite.kiyoruka img, .telefang .pokemon.pokesprite.kyoruka img  { background-position: 0px -31em!important; } 
+.telefang .pokemon.pokesprite.gymgarth img, .telefang .pokemon.pokesprite.jimges img  { background-position: 0px -22em!important; } 
+.telefang .pokemon.pokesprite.baionpu img, .telefang .pokemon.pokesprite.baionpu img  { background-position: 0px -23em!important; } 
+.telefang .pokemon.pokesprite.warutah img, .telefang .pokemon.pokesprite.warta img  { background-position: 0px -24em!important; } 
+.telefang .pokemon.pokesprite.guntzatl img, .telefang .pokemon.pokesprite.gantsu img  { background-position: 0px -25em!important; } 
+.telefang .pokemon.pokesprite.arakuida img, .telefang .pokemon.pokesprite.arakuita img  { background-position: 0px -47em!important; } 
+.telefang .pokemon.pokesprite.badhoro img, .telefang .pokemon.pokesprite.badhelo img  { background-position: 0px -27em!important; } 
+.telefang .pokemon.pokesprite.lampgera img, .telefang .pokemon.pokesprite.ranbrage img  { background-position: 0px -28em!important; } 
+.telefang .pokemon.pokesprite.tempest img, .telefang .pokemon.pokesprite.storm img  { background-position: 0px -29em!important; } 
+.telefang .pokemon.pokesprite.zudoon img, .telefang .pokemon.pokesprite.stone img  { background-position: 0px -30em!important; } 
+.telefang .pokemon.pokesprite.hiyu img, .telefang .pokemon.pokesprite.amaranth img  { background-position: 0px -48em!important; } 
+.telefang .pokemon.pokesprite.gamazumi img, .telefang .pokemon.pokesprite.biburnum img  { background-position: 0px -49em!important; } 
+.telefang .pokemon.pokesprite.papaver img, .telefang .pokemon.pokesprite.babarwur img  { background-position: 0px -50em!important; } 
+.telefang .pokemon.pokesprite.gamuru img, .telefang .pokemon.pokesprite.jiarm img  { background-position: 0px -51em!important; } 
+.telefang .pokemon.pokesprite.bouvardi img, .telefang .pokemon.pokesprite.bubarti img  { background-position: 0px -52em!important; } 
+.telefang .pokemon.pokesprite.gaultheria img, .telefang .pokemon.pokesprite.goteria img  { background-position: 0px -53em!important; } 
+.telefang .pokemon.pokesprite.dipsacus img, .telefang .pokemon.pokesprite.dipusaks img  { background-position: 0px -54em!important; } 
+.telefang .pokemon.pokesprite.kaya img, .telefang .pokemon.pokesprite.kaya img  { background-position: 0px -55em!important; } 
+.telefang .pokemon.pokesprite.denfare img, .telefang .pokemon.pokesprite.danver img  { background-position: 0px -56em!important; } 
+.telefang .pokemon.pokesprite.angieon img, .telefang .pokemon.pokesprite.andion img  { background-position: 0px -21em!important; } 
+.telefang .pokemon.pokesprite.easydog img, .telefang .pokemon.pokesprite.hat img  { background-position: 0px -57em!important; } 
+.telefang .pokemon.pokesprite.tricerarmor img, .telefang .pokemon.pokesprite.toriker img  { background-position: 0px -3em!important; } 
+.telefang .pokemon.pokesprite.cryptosnipe img, .telefang .pokemon.pokesprite.kuriputo img  { background-position: 0px -5em!important; } 
+.telefang .pokemon.pokesprite.fungboost img, .telefang .pokemon.pokesprite.fanbus img  { background-position: 0px -7em!important; } 
+.telefang .pokemon.pokesprite.veenica img, .telefang .pokemon.pokesprite.buinika img  { background-position: 0px -9em!important; } 
+.telefang .pokemon.pokesprite.saiguliger img, .telefang .pokemon.pokesprite.sagrika img  { background-position: 0px -11em!important; } 
+.telefang .pokemon.pokesprite.armedurus img, .telefang .pokemon.pokesprite.amdourus img  { background-position: 0px -13em!important; } 
+.telefang .pokemon.pokesprite.octorifle img, .telefang .pokemon.pokesprite.octobre img  { background-position: 0px -15em!important; } 
+.telefang .pokemon.pokesprite.eraserboar img, .telefang .pokemon.pokesprite.ireizab img  { background-position: 0px -17em!important; } 
+.telefang .pokemon.pokesprite.spearneedle img, .telefang .pokemon.pokesprite.spianid img  { background-position: 0px -19em!important; } 
+.telefang .pokemon.pokesprite.gilgierth img, .telefang .pokemon.pokesprite.girugias img  { background-position: 0px -1em!important; } 
+.telefang .pokemon.pokesprite.uniarmor img, .telefang .pokemon.pokesprite.uniama img  { background-position: 0px -3em!important; } 
+.telefang .pokemon.pokesprite.cryptoburn img, .telefang .pokemon.pokesprite.kuribute img  { background-position: 0px -5em!important; } 
+.telefang .pokemon.pokesprite.fungmachine img, .telefang .pokemon.pokesprite.gameboy img  { background-position: 0px -7em!important; } 
+.telefang .pokemon.pokesprite.punisto img, .telefang .pokemon.pokesprite.punisuto img  { background-position: 0px -9em!important; } 
+.telefang .pokemon.pokesprite.suguline img, .telefang .pokemon.pokesprite.sugurain img  { background-position: 0px -11em!important; } 
+.telefang .pokemon.pokesprite.machurus img, .telefang .pokemon.pokesprite.maharas img  { background-position: 0px -13em!important; } 
+.telefang .pokemon.pokesprite.octagun img, .telefang .pokemon.pokesprite.okutagan img  { background-position: 0px -15em!important; } 
+.telefang .pokemon.pokesprite.mummyboar img, .telefang .pokemon.pokesprite.amiboa img  { background-position: 0px -17em!important; } 
+.telefang .pokemon.pokesprite.kingpin img, .telefang .pokemon.pokesprite.kingpin img  { background-position: 0px -19em!important; } 
+.telefang .pokemon.pokesprite.beebalm img, .telefang .pokemon.pokesprite.beavermu img  { background-position: 0px -57em!important; } 
+.telefang .pokemon.pokesprite.salal img, .telefang .pokemon.pokesprite.sarae img  { background-position: 0px -58em!important; } 
+.telefang .pokemon.pokesprite.enishida img, .telefang .pokemon.pokesprite.genista img  { background-position: 0px -59em!important; } 
+.telefang .pokemon.pokesprite.tulbaghia img, .telefang .pokemon.pokesprite.tsurubak img  { background-position: 0px -60em!important; } 
+.telefang .pokemon.pokesprite.kiringiku img, .telefang .pokemon.pokesprite.chrysant img  { background-position: 0px -61em!important; } 
+.telefang .pokemon.pokesprite.angilance img, .telefang .pokemon.pokesprite.andirans img  { background-position: 0px -21em!important; } 
+.telefang .pokemon.pokesprite.gymganon img, .telefang .pokemon.pokesprite.gimugan img  { background-position: 0px -22em!important; } 
+.telefang .pokemon.pokesprite.saiope img, .telefang .pokemon.pokesprite.saiope img  { background-position: 0px -23em!important; } 
+.telefang .pokemon.pokesprite.wattah img, .telefang .pokemon.pokesprite.watta img  { background-position: 0px -24em!important; } 
+.telefang .pokemon.pokesprite.quetzaking img, .telefang .pokemon.pokesprite.kessarin img  { background-position: 0px -25em!important; } 
+.telefang .pokemon.pokesprite.arakudabaran img, .telefang .pokemon.pokesprite.arakudab img  { background-position: 0px -26em!important; } 
+.telefang .pokemon.pokesprite.punkhoro img, .telefang .pokemon.pokesprite.bangupal img  { background-position: 0px -27em!important; } 
+.telefang .pokemon.pokesprite.vikingurin img, .telefang .pokemon.pokesprite.baikingu img  { background-position: 0px -28em!important; } 
+.telefang .pokemon.pokesprite.storm img, .telefang .pokemon.pokesprite.storm img  { background-position: 0px -29em!important; } 
+.telefang .pokemon.pokesprite.mutoom img, .telefang .pokemon.pokesprite.mutomu img  { background-position: 0px -30em!important; } 
+.telefang .pokemon.pokesprite.gypsophi img, .telefang .pokemon.pokesprite.gipusofi img  { background-position: 0px -62em!important; } 
+.telefang .pokemon.pokesprite.ruscus img, .telefang .pokemon.pokesprite.husukasu img  { background-position: 0px -63em!important; } 
+.telefang .pokemon.pokesprite.maoran img, .telefang .pokemon.pokesprite.meolan img  { background-position: 0px -64em!important; } 
+.telefang .pokemon.pokesprite.zea img, .telefang .pokemon.pokesprite.zea img  { background-position: 0px -65em!important; } 
+.telefang .pokemon.pokesprite.gonum img, .telefang .pokemon.pokesprite.gonomu img  { background-position: 0px -66em!important; } 
+.telefang .pokemon.pokesprite.angipower img, .telefang .pokemon.pokesprite.angipao img  { background-position: 0px -21em!important; } 
+.telefang .pokemon.pokesprite.gymzyrus img, .telefang .pokemon.pokesprite.gimuzai img  { background-position: 0px -22em!important; } 
+.telefang .pokemon.pokesprite.canonope img, .telefang .pokemon.pokesprite.kanonope img  { background-position: 0px -23em!important; } 
+.telefang .pokemon.pokesprite.calm img, .telefang .pokemon.pokesprite.calm img  { background-position: 0px -29em!important; } 
+.telefang .pokemon.pokesprite.ryuuguu img, .telefang .pokemon.pokesprite.ryugu img  { background-position: 0px -63em!important; } 
+.telefang .pokemon.pokesprite.gigagigerth img, .telefang .pokemon.pokesprite.gigagigas img  { background-position: 0px -1em!important; } 
+.telefang .pokemon.pokesprite.barriarm img, .telefang .pokemon.pokesprite.barimu img  { background-position: 0px -3em!important; } 
+.telefang .pokemon.pokesprite.cryptoknight img, .telefang .pokemon.pokesprite.kuriput img  { background-position: 0px -5em!important; } 
+.telefang .pokemon.pokesprite.fungwar img, .telefang .pokemon.pokesprite.fanguo img  { background-position: 0px -7em!important; } 
+.telefang .pokemon.pokesprite.bashou img, .telefang .pokemon.pokesprite.bargier img  { background-position: 0px -63em!important; } 
+.telefang .pokemon.pokesprite.angigorgo img, .telefang .pokemon.pokesprite.angigogo img  { background-position: 0px -21em!important; } 
+.telefang .pokemon.pokesprite.gymbaron img, .telefang .pokemon.pokesprite.gimubar img  { background-position: 0px -22em!important; } 
+.telefang .pokemon.pokesprite.lirimonarch img, .telefang .pokemon.pokesprite.ririmona img  { background-position: 0px -23em!important; } 
+.telefang .pokemon.pokesprite.enteioh img, .telefang .pokemon.pokesprite.entio img  { background-position: 0px -24em!important; } 
+.telefang .pokemon.pokesprite.golaking img, .telefang .pokemon.pokesprite.gawerk img  { background-position: 0px -67em!important; } 
+.telefang .pokemon.pokesprite.kanzou img, .telefang .pokemon.pokesprite.lily img  { background-position: 0px -68em!important; } 
+.telefang .pokemon.pokesprite.ornithogalum img, .telefang .pokemon.pokesprite.ornith img  { background-position: 0px -69em!important; } 
+.telefang .pokemon.pokesprite.gentiana img, .telefang .pokemon.pokesprite.dragon img  { background-position: 0px -70em!important; } 
+.telefang .pokemon.pokesprite.yarrow img, .telefang .pokemon.pokesprite.chap img  { background-position: 0px -71em!important; } 
+.telefang .pokemon.pokesprite.angioros img, .telefang .pokemon.pokesprite.angioros img  { background-position: 0px -21em!important; } 
+.telefang .pokemon.pokesprite.gymzatan img, .telefang .pokemon.pokesprite.gimuzata img  { background-position: 0px -22em!important; } 
+.telefang .pokemon.pokesprite.doomsday img, .telefang .pokemon.pokesprite.domesday img  { background-position: 0px -71em!important; } 
+.telefang .pokemon.pokesprite.dendel img, .telefang .pokemon.pokesprite.dandel img  { background-position: 0px -72em!important; } 
+.telefang .pokemon.pokesprite.teletel img, .telefang .pokemon.pokesprite.tlaitlu img  { background-position: 0px -73em!important; } 
+
+.telefang .bosses.pokesprite.kochia img, .telefang .bosses.pokesprite.kokia img  { background-position: 0px -1em!important; } 
+.telefang .bosses.pokesprite.oshe img, .telefang .bosses.pokesprite.osie img  { background-position: 0px -2em!important; } 
+.telefang .bosses.pokesprite.keshi img, .telefang .bosses.pokesprite.kesi img  { background-position: 0px -3em!important; } 
+.telefang .bosses.pokesprite.crypto img, .telefang .bosses.pokesprite.kuribute img  { background-position: 0px -4em!important; } 
+.telefang .bosses.pokesprite.monstera img, .telefang .bosses.pokesprite.manstla img  { background-position: 0px -5em!important; } 
+.telefang .bosses.pokesprite.fungus img, .telefang .bosses.pokesprite.fanges img  { background-position: 0px -6em!important; } 
+.telefang .bosses.pokesprite.hiougi img, .telefang .bosses.pokesprite.hiougi img  { background-position: 0px -7em!important; } 
+.telefang .bosses.pokesprite.punica img, .telefang .bosses.pokesprite.punika img  { background-position: 0px -8em!important; } 
+.telefang .bosses.pokesprite.gumi img, .telefang .bosses.pokesprite.gumi img  { background-position: 0px -9em!important; } 
+.telefang .bosses.pokesprite.suguri img, .telefang .bosses.pokesprite.sukori img  { background-position: 0px -10em!important; } 
+.telefang .bosses.pokesprite.ganraikou img, .telefang .bosses.pokesprite.tampala img  { background-position: 0px -11em!important; } 
+.telefang .bosses.pokesprite.byakubu img, .telefang .bosses.pokesprite.baibu img  { background-position: 0px -12em!important; } 
+.telefang .bosses.pokesprite.telopea img, .telefang .bosses.pokesprite.teropea img  { background-position: 0px -13em!important; } 
+.telefang .bosses.pokesprite.mantea img, .telefang .bosses.pokesprite.mantea img  { background-position: 0px -14em!important; } 
+.telefang .bosses.pokesprite.ixora img, .telefang .bosses.pokesprite.ikusora img  { background-position: 0px -15em!important; } 
+.telefang .bosses.pokesprite.myrtus img, .telefang .bosses.pokesprite.mierths img  { background-position: 0px -16em!important; } 
+.telefang .bosses.pokesprite.lychnis img, .telefang .bosses.pokesprite.liknis img  { background-position: 0px -17em!important; } 
+.telefang .bosses.pokesprite.lapeirousia img, .telefang .bosses.pokesprite.luyigia img  { background-position: 0px -18em!important; } 
+.telefang .bosses.pokesprite.bubaria img, .telefang .bosses.pokesprite.bubaria img  { background-position: 0px -19em!important; } 
+.telefang .bosses.pokesprite.angios img, .telefang .bosses.pokesprite.anjiosi img  { background-position: 0px -20em!important; } 
+.telefang .bosses.pokesprite.gymnos img, .telefang .bosses.pokesprite.jimunosi img  { background-position: 0px -21em!important; } 
+.telefang .bosses.pokesprite.liriope img, .telefang .bosses.pokesprite.ririope img  { background-position: 0px -22em!important; } 
+.telefang .bosses.pokesprite.waratah img, .telefang .bosses.pokesprite.warata img  { background-position: 0px -23em!important; } 
+.telefang .bosses.pokesprite.sorghum img, .telefang .bosses.pokesprite.surugem img  { background-position: 0px -24em!important; } 
+.telefang .bosses.pokesprite.eryngo img, .telefang .bosses.pokesprite.erinko img  { background-position: 0px -25em!important; } 
+.telefang .bosses.pokesprite.noriutsugi img, .telefang .bosses.pokesprite.noriwuts img  { background-position: 0px -26em!important; } 
+.telefang .bosses.pokesprite.pampas img, .telefang .bosses.pokesprite.banles img  { background-position: 0px -27em!important; } 
+.telefang .bosses.pokesprite.rhodanthe img, .telefang .bosses.pokesprite.rodansa img  { background-position: 0px -28em!important; } 
+.telefang .bosses.pokesprite.licorice img, .telefang .bosses.pokesprite.rikoris img  { background-position: 0px -29em!important; } 
+.telefang .bosses.pokesprite.viburnum img, .telefang .bosses.pokesprite.bibanam img  { background-position: 0px -30em!important; } 
+.telefang .bosses.pokesprite.funnel img, .telefang .bosses.pokesprite.phanel img  { background-position: 0px -31em!important; } 
+.telefang .bosses.pokesprite.vanda img, .telefang .bosses.pokesprite.banda img  { background-position: 0px -32em!important; } 
+.telefang .bosses.pokesprite.uikyou img, .telefang .bosses.pokesprite.wuikyo img  { background-position: 0px -33em!important; } 
+.telefang .bosses.pokesprite.obana img, .telefang .bosses.pokesprite.obana img  { background-position: 0px -34em!important; } 
+.telefang .bosses.pokesprite.firekokko img, .telefang .bosses.pokesprite.faikke img  { background-position: 0px -35em!important; } 
+.telefang .bosses.pokesprite.raygoten img, .telefang .bosses.pokesprite.rigoden img  { background-position: 0px -36em!important; } 
+.telefang .bosses.pokesprite.drilarmor img, .telefang .bosses.pokesprite.doria img  { background-position: 0px -37em!important; } 
+.telefang .bosses.pokesprite.chamelan img, .telefang .bosses.pokesprite.kameran img  { background-position: 0px -38em!important; } 
+.telefang .bosses.pokesprite.cryptoarm img, .telefang .bosses.pokesprite.kuribute img  { background-position: 0px -39em!important; } 
+.telefang .bosses.pokesprite.shellstera img, .telefang .bosses.pokesprite.sherstla img  { background-position: 0px -40em!important; } 
+.telefang .bosses.pokesprite.fungeist img, .telefang .bosses.pokesprite.fangist img  { background-position: 0px -41em!important; } 
+.telefang .bosses.pokesprite.balltamus img, .telefang .bosses.pokesprite.bourtama img  { background-position: 0px -42em!important; } 
+.telefang .bosses.pokesprite.burenica img, .telefang .bosses.pokesprite.branika img  { background-position: 0px -43em!important; } 
+.telefang .bosses.pokesprite.geron img, .telefang .bosses.pokesprite.geron img  { background-position: 0px -44em!important; } 
+.telefang .bosses.pokesprite.berzelia img, .telefang .bosses.pokesprite.bazeria img  { background-position: 0px -45em!important; } 
+.telefang .bosses.pokesprite.nigella img, .telefang .bosses.pokesprite.nigera img  { background-position: 0px -46em!important; } 
+.telefang .bosses.pokesprite.musa img, .telefang .bosses.pokesprite.musa img  { background-position: 0px -47em!important; } 
+.telefang .bosses.pokesprite.netaro img, .telefang .bosses.pokesprite.netaro img  { background-position: 0px -48em!important; } 
+.telefang .bosses.pokesprite.nejiro img, .telefang .bosses.pokesprite.nejiro img  { background-position: 0px -49em!important; } 
+.telefang .bosses.pokesprite.godetia img, .telefang .bosses.pokesprite.gedejia img  { background-position: 0px -50em!important; } 
+.telefang .bosses.pokesprite.curcuma img, .telefang .bosses.pokesprite.kukuma img  { background-position: 0px -51em!important; } 
+.telefang .bosses.pokesprite.tessen img, .telefang .bosses.pokesprite.rasen img  { background-position: 0px -52em!important; } 
+.telefang .bosses.pokesprite.heliopsis img, .telefang .bosses.pokesprite.heriops img  { background-position: 0px -53em!important; } 
+.telefang .bosses.pokesprite.hagumanoki img, .telefang .bosses.pokesprite.sumac img  { background-position: 0px -54em!important; } 
+.telefang .bosses.pokesprite.gilerth img, .telefang .bosses.pokesprite.jieas img  { background-position: 0px -55em!important; } 
+.telefang .bosses.pokesprite.raygirth img, .telefang .bosses.pokesprite.larjias img  { background-position: 0px -56em!important; } 
+.telefang .bosses.pokesprite.armaru img, .telefang .bosses.pokesprite.armory img  { background-position: 0px -57em!important; } 
+.telefang .bosses.pokesprite.chameraid img, .telefang .bosses.pokesprite.icecream img  { background-position: 0px -58em!important; } 
+.telefang .bosses.pokesprite.cryptoride img, .telefang .bosses.pokesprite.kuripute img  { background-position: 0px -59em!important; } 
+.telefang .bosses.pokesprite.wormiterala img, .telefang .bosses.pokesprite.wamitera img  { background-position: 0px -60em!important; } 
+.telefang .bosses.pokesprite.fungblade img, .telefang .bosses.pokesprite.fenbuled img  { background-position: 0px -61em!important; } 
+.telefang .bosses.pokesprite.bulltamus img, .telefang .bosses.pokesprite.burtamas img  { background-position: 0px -62em!important; } 
+.telefang .bosses.pokesprite.puneedle img, .telefang .bosses.pokesprite.bunider img  { background-position: 0px -63em!important; } 
+.telefang .bosses.pokesprite.kerorin img, .telefang .bosses.pokesprite.gerlin img  { background-position: 0px -64em!important; } 
+.telefang .bosses.pokesprite.sugulai img, .telefang .bosses.pokesprite.sigeray img  { background-position: 0px -65em!important; } 
+.telefang .bosses.pokesprite.cortos img, .telefang .bosses.pokesprite.kaotes img  { background-position: 0px -66em!important; } 
+.telefang .bosses.pokesprite.gaiurus img, .telefang .bosses.pokesprite.geiwurus img  { background-position: 0px -67em!important; } 
+.telefang .bosses.pokesprite.midotor img, .telefang .bosses.pokesprite.medter img  { background-position: 0px -68em!important; } 
+.telefang .bosses.pokesprite.octor img, .telefang .bosses.pokesprite.aokuteru img  { background-position: 0px -69em!important; } 
+.telefang .bosses.pokesprite.hitodeight img, .telefang .bosses.pokesprite.hitodei img  { background-position: 0px -70em!important; } 
+.telefang .bosses.pokesprite.ghosboar img, .telefang .bosses.pokesprite.gaosboya img  { background-position: 0px -71em!important; } 
+.telefang .bosses.pokesprite.rasenmai img, .telefang .bosses.pokesprite.rasenmai img  { background-position: 0px -72em!important; } 
+.telefang .bosses.pokesprite.scorpil img, .telefang .bosses.pokesprite.skirpeal img  { background-position: 0px -73em!important; } 
+.telefang .bosses.pokesprite.armcrab img, .telefang .bosses.pokesprite.armkurab img  { background-position: 0px -74em!important; } 
+.telefang .bosses.pokesprite.angiorn img, .telefang .bosses.pokesprite.anjioen img  { background-position: 0px -75em!important; } 
+.telefang .bosses.pokesprite.gymrace img, .telefang .bosses.pokesprite.jimures img  { background-position: 0px -76em!important; } 
+.telefang .bosses.pokesprite.lirionpu img, .telefang .bosses.pokesprite.ririonpu img  { background-position: 0px -77em!important; } 
+.telefang .bosses.pokesprite.whitah img, .telefang .bosses.pokesprite.waita img  { background-position: 0px -78em!important; } 
+.telefang .bosses.pokesprite.potzal img, .telefang .bosses.pokesprite.bozuaru img  { background-position: 0px -79em!important; } 
+.telefang .bosses.pokesprite.araneida img, .telefang .bosses.pokesprite.aranita img  { background-position: 0px -80em!important; } 
+.telefang .bosses.pokesprite.gadhoro img, .telefang .bosses.pokesprite.jiadhelo img  { background-position: 0px -81em!important; } 
+.telefang .bosses.pokesprite.cliogera img, .telefang .bosses.pokesprite.kliaoger img  { background-position: 0px -82em!important; } 
+.telefang .bosses.pokesprite.gust img, .telefang .bosses.pokesprite.gust img  { background-position: 0px -83em!important; } 
+.telefang .bosses.pokesprite.reige img, .telefang .bosses.pokesprite.reige img  { background-position: 0px -84em!important; } 
+.telefang .bosses.pokesprite.togeruka img, .telefang .bosses.pokesprite.tegerka img  { background-position: 0px -85em!important; } 
+.telefang .bosses.pokesprite.raigaleon img, .telefang .bosses.pokesprite.raigarin img  { background-position: 0px -86em!important; } 
+.telefang .bosses.pokesprite.gadorkuma img, .telefang .bosses.pokesprite.gadoruk img  { background-position: 0px -87em!important; } 
+.telefang .bosses.pokesprite.abiras img, .telefang .bosses.pokesprite.agilis img  { background-position: 0px -88em!important; } 
+.telefang .bosses.pokesprite.alphagos img, .telefang .bosses.pokesprite.arfages img  { background-position: 0px -89em!important; } 
+.telefang .bosses.pokesprite.kiyoruka img, .telefang .bosses.pokesprite.kyoruka img  { background-position: 0px -90em!important; } 
+.telefang .bosses.pokesprite.gymgarth img, .telefang .bosses.pokesprite.jimges img  { background-position: 0px -91em!important; } 
+.telefang .bosses.pokesprite.baionpu img, .telefang .bosses.pokesprite.baionpu img  { background-position: 0px -92em!important; } 
+.telefang .bosses.pokesprite.warutah img, .telefang .bosses.pokesprite.warta img  { background-position: 0px -93em!important; } 
+.telefang .bosses.pokesprite.guntzatl img, .telefang .bosses.pokesprite.gantsu img  { background-position: 0px -94em!important; } 
+.telefang .bosses.pokesprite.arakuida img, .telefang .bosses.pokesprite.arakuita img  { background-position: 0px -95em!important; } 
+.telefang .bosses.pokesprite.badhoro img, .telefang .bosses.pokesprite.badhelo img  { background-position: 0px -96em!important; } 
+.telefang .bosses.pokesprite.lampgera img, .telefang .bosses.pokesprite.ranbrage img  { background-position: 0px -97em!important; } 
+.telefang .bosses.pokesprite.tempest img, .telefang .bosses.pokesprite.storm img  { background-position: 0px -98em!important; } 
+.telefang .bosses.pokesprite.zudoon img, .telefang .bosses.pokesprite.stone img  { background-position: 0px -99em!important; } 
+.telefang .bosses.pokesprite.hiyu img, .telefang .bosses.pokesprite.amaranth img  { background-position: 0px -100em!important; } 
+.telefang .bosses.pokesprite.gamazumi img, .telefang .bosses.pokesprite.biburnum img  { background-position: 0px -101em!important; } 
+.telefang .bosses.pokesprite.papaver img, .telefang .bosses.pokesprite.babarwur img  { background-position: 0px -102em!important; } 
+.telefang .bosses.pokesprite.gamuru img, .telefang .bosses.pokesprite.jiarm img  { background-position: 0px -103em!important; } 
+.telefang .bosses.pokesprite.bouvardi img, .telefang .bosses.pokesprite.bubarti img  { background-position: 0px -104em!important; } 
+.telefang .bosses.pokesprite.gaultheria img, .telefang .bosses.pokesprite.goteria img  { background-position: 0px -105em!important; } 
+.telefang .bosses.pokesprite.dipsacus img, .telefang .bosses.pokesprite.dipusaks img  { background-position: 0px -106em!important; } 
+.telefang .bosses.pokesprite.kaya img, .telefang .bosses.pokesprite.kaya img  { background-position: 0px -107em!important; } 
+.telefang .bosses.pokesprite.denfare img, .telefang .bosses.pokesprite.danver img  { background-position: 0px -108em!important; } 
+.telefang .bosses.pokesprite.angieon img, .telefang .bosses.pokesprite.andion img  { background-position: 0px -109em!important; } 
+.telefang .bosses.pokesprite.easydog img, .telefang .bosses.pokesprite.hat img  { background-position: 0px -110em!important; } 
+.telefang .bosses.pokesprite.tricerarmor img, .telefang .bosses.pokesprite.toriker img  { background-position: 0px -111em!important; } 
+.telefang .bosses.pokesprite.cryptosnipe img, .telefang .bosses.pokesprite.kuriputo img  { background-position: 0px -112em!important; } 
+.telefang .bosses.pokesprite.fungboost img, .telefang .bosses.pokesprite.fanbus img  { background-position: 0px -113em!important; } 
+.telefang .bosses.pokesprite.veenica img, .telefang .bosses.pokesprite.buinika img  { background-position: 0px -114em!important; } 
+.telefang .bosses.pokesprite.saiguliger img, .telefang .bosses.pokesprite.sagrika img  { background-position: 0px -115em!important; } 
+.telefang .bosses.pokesprite.armedurus img, .telefang .bosses.pokesprite.amdourus img  { background-position: 0px -116em!important; } 
+.telefang .bosses.pokesprite.octorifle img, .telefang .bosses.pokesprite.octobre img  { background-position: 0px -117em!important; } 
+.telefang .bosses.pokesprite.eraserboar img, .telefang .bosses.pokesprite.ireizab img  { background-position: 0px -118em!important; } 
+.telefang .bosses.pokesprite.spearneedle img, .telefang .bosses.pokesprite.spianid img  { background-position: 0px -119em!important; } 
+.telefang .bosses.pokesprite.gilgierth img, .telefang .bosses.pokesprite.girugias img  { background-position: 0px -120em!important; } 
+.telefang .bosses.pokesprite.uniarmor img, .telefang .bosses.pokesprite.uniama img  { background-position: 0px -121em!important; } 
+.telefang .bosses.pokesprite.cryptoburn img, .telefang .bosses.pokesprite.kuribute img  { background-position: 0px -122em!important; } 
+.telefang .bosses.pokesprite.fungmachine img, .telefang .bosses.pokesprite.gameboy img  { background-position: 0px -123em!important; } 
+.telefang .bosses.pokesprite.punisto img, .telefang .bosses.pokesprite.punisuto img  { background-position: 0px -124em!important; } 
+.telefang .bosses.pokesprite.suguline img, .telefang .bosses.pokesprite.sugurain img  { background-position: 0px -125em!important; } 
+.telefang .bosses.pokesprite.machurus img, .telefang .bosses.pokesprite.maharas img  { background-position: 0px -126em!important; } 
+.telefang .bosses.pokesprite.octagun img, .telefang .bosses.pokesprite.okutagan img  { background-position: 0px -127em!important; } 
+.telefang .bosses.pokesprite.mummyboar img, .telefang .bosses.pokesprite.amiboa img  { background-position: 0px -128em!important; } 
+.telefang .bosses.pokesprite.kingpin img, .telefang .bosses.pokesprite.kingpin img  { background-position: 0px -129em!important; } 
+.telefang .bosses.pokesprite.beebalm img, .telefang .bosses.pokesprite.beavermu img  { background-position: 0px -130em!important; } 
+.telefang .bosses.pokesprite.salal img, .telefang .bosses.pokesprite.sarae img  { background-position: 0px -131em!important; } 
+.telefang .bosses.pokesprite.enishida img, .telefang .bosses.pokesprite.genista img  { background-position: 0px -132em!important; } 
+.telefang .bosses.pokesprite.tulbaghia img, .telefang .bosses.pokesprite.tsurubak img  { background-position: 0px -133em!important; } 
+.telefang .bosses.pokesprite.kiringiku img, .telefang .bosses.pokesprite.chrysant img  { background-position: 0px -134em!important; } 
+.telefang .bosses.pokesprite.angilance img, .telefang .bosses.pokesprite.andirans img  { background-position: 0px -135em!important; } 
+.telefang .bosses.pokesprite.gymganon img, .telefang .bosses.pokesprite.gimugan img  { background-position: 0px -136em!important; } 
+.telefang .bosses.pokesprite.saiope img, .telefang .bosses.pokesprite.saiope img  { background-position: 0px -137em!important; } 
+.telefang .bosses.pokesprite.wattah img, .telefang .bosses.pokesprite.watta img  { background-position: 0px -138em!important; } 
+.telefang .bosses.pokesprite.quetzaking img, .telefang .bosses.pokesprite.kessarin img  { background-position: 0px -139em!important; } 
+.telefang .bosses.pokesprite.arakudabaran img, .telefang .bosses.pokesprite.arakudab img  { background-position: 0px -140em!important; } 
+.telefang .bosses.pokesprite.punkhoro img, .telefang .bosses.pokesprite.bangupal img  { background-position: 0px -141em!important; } 
+.telefang .bosses.pokesprite.vikingurin img, .telefang .bosses.pokesprite.baikingu img  { background-position: 0px -142em!important; } 
+.telefang .bosses.pokesprite.storm img, .telefang .bosses.pokesprite.storm img  { background-position: 0px -143em!important; } 
+.telefang .bosses.pokesprite.mutoom img, .telefang .bosses.pokesprite.mutomu img  { background-position: 0px -144em!important; } 
+.telefang .bosses.pokesprite.gypsophi img, .telefang .bosses.pokesprite.gipusofi img  { background-position: 0px -145em!important; } 
+.telefang .bosses.pokesprite.ruscus img, .telefang .bosses.pokesprite.husukasu img  { background-position: 0px -146em!important; } 
+.telefang .bosses.pokesprite.maoran img, .telefang .bosses.pokesprite.meolan img  { background-position: 0px -147em!important; } 
+.telefang .bosses.pokesprite.zea img, .telefang .bosses.pokesprite.zea img  { background-position: 0px -148em!important; } 
+.telefang .bosses.pokesprite.gonum img, .telefang .bosses.pokesprite.gonomu img  { background-position: 0px -149em!important; } 
+.telefang .bosses.pokesprite.angipower img, .telefang .bosses.pokesprite.angipao img  { background-position: 0px -150em!important; } 
+.telefang .bosses.pokesprite.gymzyrus img, .telefang .bosses.pokesprite.gimuzai img  { background-position: 0px -151em!important; } 
+.telefang .bosses.pokesprite.canonope img, .telefang .bosses.pokesprite.kanonope img  { background-position: 0px -152em!important; } 
+.telefang .bosses.pokesprite.calm img, .telefang .bosses.pokesprite.calm img  { background-position: 0px -153em!important; } 
+.telefang .bosses.pokesprite.ryuuguu img, .telefang .bosses.pokesprite.ryugu img  { background-position: 0px -154em!important; } 
+.telefang .bosses.pokesprite.gigagigerth img, .telefang .bosses.pokesprite.gigagigas img  { background-position: 0px -155em!important; } 
+.telefang .bosses.pokesprite.barriarm img, .telefang .bosses.pokesprite.barimu img  { background-position: 0px -156em!important; } 
+.telefang .bosses.pokesprite.cryptoknight img, .telefang .bosses.pokesprite.kuriput img  { background-position: 0px -157em!important; } 
+.telefang .bosses.pokesprite.fungwar img, .telefang .bosses.pokesprite.fanguo img  { background-position: 0px -158em!important; } 
+.telefang .bosses.pokesprite.bashou img, .telefang .bosses.pokesprite.bargier img  { background-position: 0px -159em!important; } 
+.telefang .bosses.pokesprite.angigorgo img, .telefang .bosses.pokesprite.angigogo img  { background-position: 0px -160em!important; } 
+.telefang .bosses.pokesprite.gymbaron img, .telefang .bosses.pokesprite.gimubar img  { background-position: 0px -161em!important; } 
+.telefang .bosses.pokesprite.lirimonarch img, .telefang .bosses.pokesprite.ririmona img  { background-position: 0px -162em!important; } 
+.telefang .bosses.pokesprite.enteioh img, .telefang .bosses.pokesprite.entio img  { background-position: 0px -163em!important; } 
+.telefang .bosses.pokesprite.golaking img, .telefang .bosses.pokesprite.gawerk img  { background-position: 0px -164em!important; } 
+.telefang .bosses.pokesprite.kanzou img, .telefang .bosses.pokesprite.lily img  { background-position: 0px -165em!important; } 
+.telefang .bosses.pokesprite.ornithogalum img, .telefang .bosses.pokesprite.ornith img  { background-position: 0px -166em!important; } 
+.telefang .bosses.pokesprite.gentiana img, .telefang .bosses.pokesprite.dragon img  { background-position: 0px -167em!important; } 
+.telefang .bosses.pokesprite.yarrow img, .telefang .bosses.pokesprite.chap img  { background-position: 0px -168em!important; } 
+.telefang .bosses.pokesprite.angioros img, .telefang .bosses.pokesprite.angioros img  { background-position: 0px -169em!important; } 
+.telefang .bosses.pokesprite.gymzatan img, .telefang .bosses.pokesprite.gimuzata img  { background-position: 0px -170em!important; } 
+.telefang .bosses.pokesprite.doomsday img, .telefang .bosses.pokesprite.domesday img  { background-position: 0px -171em!important; } 
+.telefang .bosses.pokesprite.dendel img, .telefang .bosses.pokesprite.dandel img  { background-position: 0px -172em!important; } 
+.telefang .bosses.pokesprite.teletel img, .telefang .bosses.pokesprite.tlaitlu img  { background-position: 0px -173em!important; } 

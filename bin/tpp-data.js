@@ -3307,11 +3307,14 @@ var tppData = [
                     { Group: "Pokemon", Name: "Kesi", Time: "0d 1h 32m" },
                     { Group: "Pokemon", Name: "Manstla", Time: "2h34m" },
                     { Group: "Pokemon", Name: "Kokia", Time: "0d 2h 39m" },
-                    { Group: "Bosses", Name: "Nejiro", Time: "0d 4h 3m", Image: "http://vignette4.wikia.nocookie.net/telefang/images/2/2f/T1-050.gif/revision/latest?cb=20080524164419" },
                     { Group: "Pokemon", Name: "Nejiro", Time: "4h7m" },
                     { Group: "Pokemon", Name: "Punika", Time: "4h20m" },
                     { Group: "Pokemon", Name: "Netaro", Time: "4h37m" },
-                    { Group: "Bosses", Name: "Tabasuko", Time: "0d 4h 34m", Image: "http://wiki.telefang.net/images/c/c1/T1-TF-Tabasco.gif" },
+                    { Group: "Bosses", Name: "Tabasuko", Time: "0d 4h 34m", Image: "img/telefang/tabasco.gif" },
+                    { Group: "Pokemon", Name: "Gumi", Time: "5h38m" },
+                    { Group: "Pokemon", Name: "Rodansa", Time: "6h49m" },
+                    { Group: "Pokemon", Name: "Noriwuts", Time: "6h53m" },
+                    { Group: "Pokemon", Name: "Rikoris", Time: "7h9m" },
                 ]
             }
         ]

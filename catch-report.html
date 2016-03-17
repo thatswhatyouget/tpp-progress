@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>TPP Progress Chart</title>
+	<title>TPP Progress Chart - Catch Report</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="bin/tpp-structure.js"></script>
     <script src="bin/twitch-videos.js"></script>
@@ -18,6 +18,7 @@
     <meta property="og:url" content="http://thatswhatyouget.github.io/tpp-progress/" />
     <meta property="og:image" content="http://thatswhatyouget.github.io/tpp-progress/img/icon.png" />
     <meta property="og:type" content="website" />
+    <meta charset="utf-8" />
     <style>
         .progressChart .run .event[data-label].catchreport, .progressChart .run .event[data-label].catchreport:hover {
             background-color:black;
@@ -104,7 +105,8 @@
                 if (day) c.Offset = -(day - 1);
                 c.Runs = c.Runs.filter(function (r) { return (r.Scraper && r.Scraper.pokemon) || ((r.DexTotal || !QueryString.fulldex) && r.Events.filter(function (e) { return e.Group == "Pokemon"; }).length); })
                     .map(function (r) {
-                        function countMons() {return r.Events.filter(e=>e.Group == "Pokemon" && e.Name != "Egg" && (!day || Duration.parse(e.Time).TotalDays < day)).length};
+                        var startFrom = Duration.parse((r.Events.filter(function(e) { return e.Group == "Hosts" && (!day || Duration.parse(e.Time).TotalDays < day); }).pop() || {Time:"0d"}).Time).TotalDays;
+                        function countMons() {return r.Events.filter(function(e) { var t = Duration.parse(e.Time).TotalDays; return e.Group == "Pokemon" && e.Name != "Egg" && (!day || t < day) && (t >= startFrom);}).length};
                         r.StartTime = Date.parse(r.StartDate) / 1000;
                         r.Ongoing = true;
                         r.Events.push({
@@ -118,7 +120,7 @@
                             var runDur = Duration.parse(r.Duration, r.StartTime), count = countMons();
                             $(search).attr('data-label', count)
                                 .attr('data-time', !day || runDur.TotalDays < day ? !day || runDur.TotalDays >= day - 1 ? runDur.toString() : day - 1 + "d" : day + "d")
-                                .attr('data-percentage', r.DexTotal ? count == r.DexTotal ? "100%" : ((count / r.DexTotal) * 100).toFixed(1) + "%" : "Caught");
+                                .attr('data-percentage', r.DexTotal ? count == r.DexTotal ? "100%" : ((count / r.DexTotal) * 100).toFixed(1) + "%" : r.Region == "Denjuu World" ? "Friends" : "Caught");
                             return realUpdatePage(e);
                         }
                         return r;
