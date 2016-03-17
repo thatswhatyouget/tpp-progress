@@ -3369,14 +3369,18 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Nejiro", Time: "4h7m" },
                     { Group: "Pokemon", Name: "Punika", Time: "4h20m" },
                     { Group: "Pokemon", Name: "Netaro", Time: "4h37m" },
-                    { Group: "Bosses", Name: "Tabasuko", Time: "0d 4h 34m", Image: "img/telefang/tabasco.gif" },
+                    { Group: "Bosses", Name: "Tabasuko", Time: "0d 4h 34m", Image: "img/telefang/tabasco.gif", Attempts: 1 },
                     { Group: "Pokemon", Name: "Gumi", Time: "5h38m" },
                     { Group: "Pokemon", Name: "Rodansa", Time: "6h49m" },
                     { Group: "Pokemon", Name: "Noriwuts", Time: "6h53m" },
                     { Group: "Pokemon", Name: "Rikoris", Time: "7h9m" },
                     { Group: "Pokemon", Name: "Luyigia", Time: "7h27m" },
                     //{ Group: "Pokemon", Name: "Luyigia", Time: "7h36m" },
-                    { Group: "Bosses", Name: "Tabasuko", Time: "0d 8h 7m", Image: "img/telefang/tabasco.gif" },
+                    { Group: "Bosses", Name: "Tabasuko", Time: "0d 8h 7m", Image: "img/telefang/tabasco.gif", Attempts: 1 },
+                    { Group: "Pokemon", Name: "Liliabob", Time: "10h17m" },
+                    { Group: "Pokemon", Name: "Mantea", Time: "10h58m" },
+                    { Group: "Bosses", Name: "Boundary", Time: "12h12m", Image: "img/telefang/kai.gif", Attempts: 3 },
+                    { Group: "Pokemon", Name: "Wuikyo", Time: "15h50m" },
                 ]
             }
         ]
