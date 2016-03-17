@@ -3345,12 +3345,6 @@ var tppData: TPP.Collection[] = [
                 HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
                 HostName: "lゲg",
                 Region: "Denjuu World",
-                // Scraper: {
-                //     url: "http://twitchplayspokemon.org/",
-                //     runtime: true,
-                //     parts: [],
-                //     pokemon: true
-                // },
                 Events: [
                     { Group: "Pokemon", Name: "Kuribute", Time: "0d 0h 41m" },
                     {
@@ -3384,6 +3378,8 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Kuripute", Time: "16h6m" },
                     { Group: "Pokemon", Name: "Banles", Time: "16h31m" },
                     { Group: "Pokemon", Name: "Liknis", Time: "16h34m" },
+                    { Group: "Pokemon", Name: "Bazeria", Time: "19h31m" },
+                    { Group: "Pokemon", Name: "Baibu", Time: "19h52m" },
                 ]
             }
         ]
