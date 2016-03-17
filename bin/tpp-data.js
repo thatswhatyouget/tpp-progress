@@ -3287,20 +3287,28 @@ var tppData = [
                 StartDate: "2016-03-16T21:00:00Z",
                 Duration: new Date().toISOString(),
                 Ongoing: true,
-                ColorPrimary: "#FEBE04",
-                ColorSecondary: "#0677BD",
+                ColorPrimary: "#EFFE24",
+                ColorSecondary: "#120291",
                 HostImage: "img/hosts/shigeki.png",
                 HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
                 HostName: "lゲg",
                 Region: "Denjuu World",
                 Events: [
+                    { Group: "Pokemon", Name: "Kuribute", Time: "0d 0h 41m" },
                     {
                         Group: "Hosts",
                         Name: "lゲg",
-                        Time: "0d 1h 16m",
+                        Time: "0d 1h 7m",
                         Image: "img/hosts/shigeki.png",
                         ImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
                     },
+                    { Group: "Pokemon", Name: "Kuribute", Time: "0d 1h 16m" },
+                    { Group: "Pokemon", Name: "Osie", Time: "0d 1h 28m" },
+                    { Group: "Pokemon", Name: "Kesi", Time: "0d 1h 32m" },
+                    { Group: "Pokemon", Name: "Manstla", Time: "2h34m" },
+                    { Group: "Pokemon", Name: "Kokia", Time: "0d 2h 39m" },
+                    { Group: "Bosses", Name: "Nejiro", Time: "0d 4h 3m", Image: "http://vignette4.wikia.nocookie.net/telefang/images/2/2f/T1-050.gif/revision/latest?cb=20080524164419" },
+                    { Group: "Pokemon", Name: "Nejiro", Time: "4h7m" },
                 ]
             }
         ]
