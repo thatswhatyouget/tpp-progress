@@ -3309,6 +3309,9 @@ var tppData = [
                     { Group: "Pokemon", Name: "Kokia", Time: "0d 2h 39m" },
                     { Group: "Bosses", Name: "Nejiro", Time: "0d 4h 3m", Image: "http://vignette4.wikia.nocookie.net/telefang/images/2/2f/T1-050.gif/revision/latest?cb=20080524164419" },
                     { Group: "Pokemon", Name: "Nejiro", Time: "4h7m" },
+                    { Group: "Pokemon", Name: "Punika", Time: "4h20m" },
+                    { Group: "Pokemon", Name: "Netaro", Time: "4h37m" },
+                    { Group: "Bosses", Name: "Tabasuko", Time: "0d 4h 34m", Image: "http://wiki.telefang.net/images/c/c1/T1-TF-Tabasco.gif" },
                 ]
             }
         ]
