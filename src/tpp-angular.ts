@@ -12,7 +12,8 @@ tppNg.controller("credits", function($scope) {
         { Name: "valence_d", User: "Persona_Alio" },
         { Name: "ChezMere" },
         { Name: "T-chan" },
-        { Name: "yoshord" }
+        { Name: "yoshord" },
+        { Name: "Sir_WRA", User:"Sir_W_R_Armchair"}
     ];
     $scope.live = tppData.filter(c=> c.Runs.filter(r=> r.Scraper && true).length > 0).length > 0 ? "Live" : "Most";
 });
