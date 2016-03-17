@@ -3291,9 +3291,17 @@ var tppData = [
                 ColorSecondary: "#0677BD",
                 HostImage: "img/hosts/shigeki.png",
                 HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
-                HostName: "Shigeki",
-                Region: "Denjū World",
-                Events: []
+                HostName: "lゲg",
+                Region: "Denjuu World",
+                Events: [
+                    {
+                        Group: "Hosts",
+                        Name: "lゲg",
+                        Time: "0d 1h 16m",
+                        Image: "img/hosts/shigeki.png",
+                        ImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
+                    },
+                ]
             }
         ]
     },

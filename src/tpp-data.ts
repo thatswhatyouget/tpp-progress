@@ -3343,8 +3343,8 @@ var tppData: TPP.Collection[] = [
                 ColorSecondary: "#0677BD",
                 HostImage: "img/hosts/shigeki.png",
                 HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
-                HostName: "Shigeki",
-                Region: "Denjū World",
+                HostName: "lゲg",
+                Region: "Denjuu World",
                 // Scraper: {
                 //     url: "http://twitchplayspokemon.org/",
                 //     runtime: true,
@@ -3352,6 +3352,13 @@ var tppData: TPP.Collection[] = [
                 //     pokemon: true
                 // },
                 Events: [
+                    {
+                        Group:"Hosts",
+                        Name:"lゲg",
+                        Time:"0d 1h 7m",
+                        Image: "img/hosts/shigeki.png",
+                        ImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
+                    },
                 ]
             }
         ]
