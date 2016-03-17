@@ -383,12 +383,21 @@ ul.controls > li > ul > li > * {
     background-image:url("../img/pokemon-large.png");
 }
 
+.progressChart .run.telefang .event.pokemon.pokesprite {
+    z-index:auto;
+}
+
 .progressChart .run.telefang .event.pokemon.pokesprite img {
     font-size: 16px;
     margin:10%;
     transform: translateX(-45%);
     background-image:url("../img/telefang/denjuu.png");
     top: 75%;
+    z-index: 6;
+}
+
+.progressChart .run.telefang .event.pokemon.pokesprite:hover img {
+    z-index: 7;   
 }
 
 .progressChart .run.telefang .event.bosses.pokesprite img {
