@@ -189,7 +189,7 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
         event.classList.add("pokesprite");
     }
     if (event.classList.contains("pokesprite")) {
-        event.classList.add(eventInfo.Name.replace(/[^A-Z0-9]/ig, '').toLowerCase());
+        event.classList.add(eventInfo.Name.replace(/[^A-Z0-9]/ig, '').toLowerCase() || "missingno");
     }
     var imageUrl = eventInfo.Image || "img/missingno.png";
     if (eventInfo.ImageSource) {
