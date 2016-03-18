@@ -3359,7 +3359,7 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Kesi", Time: "0d 1h 32m" },
                     { Group: "Pokemon", Name: "Manstla", Time: "2h34m" },
                     { Group: "Pokemon", Name: "Kokia", Time: "0d 2h 39m" },
-                    //{ Group: "Bosses", Name: "Nejiro", Time: "0d 4h 3m", Image: "http://vignette4.wikia.nocookie.net/telefang/images/2/2f/T1-050.gif/revision/latest?cb=20080524164419" },
+                    { Group: "Bosses", Name: "Nejiro", Time: "0d 4h 3m", Class:"pokeSprite", Attempts:1 },
                     { Group: "Pokemon", Name: "Nejiro", Time: "4h7m" },
                     { Group: "Pokemon", Name: "Punika", Time: "4h20m" },
                     { Group: "Pokemon", Name: "Netaro", Time: "4h37m" },
@@ -3411,6 +3411,13 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Jiarm", Time: "1d15h20m" },
                     { Group: "Pokemon", Name: "Kuribute", Time: "1d17h27m" },
                     { Group: "Pokemon", Name: "Warata", Time: "1d17h44m" },
+                    { Group: "Bosses", Name: "Kaotes", Time: "21h47m", Class: "pokeSprite", Attempts: 1 },
+                    { Group: "Bosses", Name: "Bangupal", Time: "1d6h21m", Class: "pokeSprite", Attempts: 1 },
+                    { Group: "Bosses", Name: "Octobre", Time: "1d16h36m", Class: "pokeSprite", Attempts: 1 },
+                    { Group: "Bosses", Name: "Saiope", Time: "1d22h43m", Class: "pokeSprite", Attempts: 1 },
+                    { Group: "Pokemon", Name: "Bibanam", Time: "2d7m" },
+                    { Group: "Pokemon", Name: "Geiwurus", Time: "2d24m" },
+                    { Group: "Pokemon", Name: "Medter", Time: "2d30m" },
                 ]
             }
         ]
