@@ -4433,3 +4433,4 @@ var tppData = [
         ]
     }
 ];
+tppData.forEach(function (c) { return c.Runs.forEach(function (r) { return r.StartTime = r.StartTime || (r.StartDate ? Math.floor(Date.parse(r.StartDate) / 1000) : 0); }); });

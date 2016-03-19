@@ -37,7 +37,6 @@ function makeGrid(ppd: number) {
 }
 
 function createCharts(data: TPP.Collection[]) {
-    data.forEach(c=> c.Runs.forEach(r=> r.StartTime = r.StartTime || (r.StartDate ? Math.floor(Date.parse(r.StartDate) / 1000) : 0)));
     data.filter(c=> c.Runs.filter(r=> r.StartTime < Date.now() / 1000).length > 0).forEach(createChart);
     setTimeout(() => updatePage(), 1);
 }

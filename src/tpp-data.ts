@@ -4520,3 +4520,4 @@ var tppData: TPP.Collection[] = [
         ]
     }
 ];
+tppData.forEach(c=> c.Runs.forEach(r=> r.StartTime = r.StartTime || (r.StartDate ? Math.floor(Date.parse(r.StartDate) / 1000) : 0)));

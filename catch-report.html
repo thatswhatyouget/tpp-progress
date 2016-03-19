@@ -102,13 +102,13 @@
     <div class="charts">
 	   <script>
             var day = Math.floor(QueryString.day || 0);
-            tppData = tppData.map(function (c) {
-                if (day) c.Offset = -(day - 1);
-                c.Runs = c.Runs.filter(function (r) { return (r.Scraper && r.Scraper.pokemon) || ((r.DexTotal || !QueryString.fulldex) && r.Events.filter(function (e) { return e.Group == "Pokemon"; }).length); })
+            var data = tppData.map(function (c) {
+                var newC = { Scale: c.Scale, Name: c.Name, SingularName: c.SingularName, Offset:c.Offset};
+                if (day) newC.Offset = -(day - 1);
+                newC.Runs = c.Runs.filter(function (r) { return (r.Scraper && r.Scraper.pokemon) || ((r.DexTotal || !QueryString.fulldex) && r.Events.filter(function (e) { return e.Group == "Pokemon"; }).length); })
                     .map(function (r) {
                         var startFrom = Duration.parse((r.Events.filter(function(e) { return e.Group == "Hosts" && (!day || Duration.parse(e.Time).TotalDays < day); }).pop() || {Time:"0d"}).Time).TotalDays;
                         function countMons() {return r.Events.filter(function(e) { var t = Duration.parse(e.Time).TotalDays; return e.Group == "Pokemon" && e.Name != "Egg" && (!day || t < day) && (t >= startFrom);}).length};
-                        r.StartTime = Date.parse(r.StartDate) / 1000;
                         r.Ongoing = true;
                         r.Events.push({
                             Group: "Catch Report",
@@ -126,11 +126,10 @@
                         }
                         return r;
                     });
-                return c;
-            })
-                .filter(function (c) { return c.Runs.length; });
+                return newC;
+            }).filter(function (c) { return c.Runs.length; });
             if (day) globalPpd = 1024;
-            createCharts(tppData);
+            createCharts(data);
        </script>
     </div>
 	<ul class="controls">

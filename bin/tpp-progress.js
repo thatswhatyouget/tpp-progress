@@ -29,7 +29,6 @@ function makeGrid(ppd) {
     return bgImageSrc.toDataURL();
 }
 function createCharts(data) {
-    data.forEach(function (c) { return c.Runs.forEach(function (r) { return r.StartTime = r.StartTime || (r.StartDate ? Math.floor(Date.parse(r.StartDate) / 1000) : 0); }); });
     data.filter(function (c) { return c.Runs.filter(function (r) { return r.StartTime < Date.now() / 1000; }).length > 0; }).forEach(createChart);
     setTimeout(function () { return updatePage(); }, 1);
 }
