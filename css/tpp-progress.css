@@ -441,6 +441,10 @@ ul.controls > li > ul > li > * {
     top:0;
 }
 
+.progressChart .run.pokkntournament {
+    background-image: radial-gradient(ellipse at center, rgba(162,228,239,1) 0%,rgba(48,48,204,1) 41%,rgba(0,0,0,1) 100%);   
+}
+
 @media print {
     body {
         -webkit-print-color-adjust: exact;

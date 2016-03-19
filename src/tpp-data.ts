@@ -3345,6 +3345,7 @@ var tppData: TPP.Collection[] = [
                 HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
                 HostName: "lゲg",
                 Region: "Denjuu World",
+                ContainsRunsFrom: ["Intermissions"],
                 Events: [
                     { Group: "Pokemon", Name: "Kuribute", Time: "0d 0h 41m" },
                     {
@@ -3359,7 +3360,7 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Kesi", Time: "0d 1h 32m" },
                     { Group: "Pokemon", Name: "Manstla", Time: "2h34m" },
                     { Group: "Pokemon", Name: "Kokia", Time: "0d 2h 39m" },
-                    { Group: "Bosses", Name: "Nejiro", Time: "0d 4h 3m", Class:"pokeSprite", Attempts:1 },
+                    { Group: "Bosses", Name: "Nejiro", Time: "0d 4h 3m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Pokemon", Name: "Nejiro", Time: "4h7m" },
                     { Group: "Pokemon", Name: "Punika", Time: "4h20m" },
                     { Group: "Pokemon", Name: "Netaro", Time: "4h37m" },
@@ -3418,6 +3419,7 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Bibanam", Time: "2d7m" },
                     { Group: "Pokemon", Name: "Geiwurus", Time: "2d24m" },
                     { Group: "Pokemon", Name: "Medter", Time: "2d30m" },
+                    //{ Group: "Pokemon", Name: "Bubarti", Time: "2d3h7m" },
                 ]
             }
         ]
@@ -4467,6 +4469,18 @@ var tppData: TPP.Collection[] = [
                         Time: "-1s"
                     },
                 ]
+            },
+            {
+                RunName: "Pokkén Tournament",
+                ColorPrimary: "darkblue",
+                ColorSecondary: "black",
+                StartDate: "2016-03-19T01:09:10.000Z",
+                Duration: new Date().toISOString(),
+                HostName: "TwitchPlays",
+                HostImage: "img/hosts/twitchplays.png",
+                Region: "Ferrum",
+                Ongoing: true,
+                Events: []
             },
         ]
     },

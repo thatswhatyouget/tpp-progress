@@ -3293,6 +3293,7 @@ var tppData = [
                 HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
                 HostName: "lゲg",
                 Region: "Denjuu World",
+                ContainsRunsFrom: ["Intermissions"],
                 Events: [
                     { Group: "Pokemon", Name: "Kuribute", Time: "0d 0h 41m" },
                     {
@@ -4383,6 +4384,18 @@ var tppData = [
                         Time: "-1s"
                     },
                 ]
+            },
+            {
+                RunName: "Pokkén Tournament",
+                ColorPrimary: "darkblue",
+                ColorSecondary: "black",
+                StartDate: "2016-03-19T01:09:10.000Z",
+                Duration: new Date().toISOString(),
+                HostName: "TwitchPlays",
+                HostImage: "img/hosts/twitchplays.png",
+                Region: "Ferrum",
+                Ongoing: true,
+                Events: []
             },
         ]
     },
