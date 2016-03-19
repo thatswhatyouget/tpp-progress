@@ -89,7 +89,7 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
     run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
     run.setAttribute("data-start", runInfo.StartTime.toString());
     run.setAttribute("data-label", runInfo.RunName + ": " + duration.toString(scale));
-    run.style.backgroundColor = runInfo.ColorPrimary;
+    run.style.background = runInfo.ColorPrimary;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
     setUniqueId(run, runInfo.RunName);
     if (runInfo.HostImage && runInfo.HostName) run.appendChild(drawHost(runInfo, scale));

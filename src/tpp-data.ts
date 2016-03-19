@@ -4471,7 +4471,7 @@ var tppData: TPP.Collection[] = [
             },
             {
                 RunName: "Pokkén Tournament",
-                ColorPrimary: "darkblue",
+                ColorPrimary: "radial-gradient(ellipse at center, rgba(162,228,239,1) 0%,rgba(48,48,204,1) 41%,rgba(0,0,0,1) 100%)",
                 ColorSecondary: "black",
                 StartDate: "2016-03-19T01:09:10.000Z",
                 Duration: new Date().toISOString(),
