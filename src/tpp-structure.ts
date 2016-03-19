@@ -12,6 +12,7 @@ module TPP {
         EndDate?: string;
         ColorPrimary: string;
         ColorSecondary: string;
+        BackgroundImage?: string;
         Region?: string;
         DexTotal?: number;
         Scraper?: {

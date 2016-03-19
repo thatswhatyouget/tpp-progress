@@ -4471,9 +4471,10 @@ var tppData: TPP.Collection[] = [
             },
             {
                 RunName: "Pokkén Tournament",
-                ColorPrimary: "radial-gradient(ellipse at center, rgba(162,228,239,1) 0%,rgba(48,48,204,1) 41%,rgba(0,0,0,1) 100%)",
+                ColorPrimary: "darkblue",
                 ColorSecondary: "black",
-                StartDate: "2016-03-19T01:09:10.000Z",
+                BackgroundImage: "radial-gradient(ellipse at center, rgba(162,228,239,1) 0%,rgba(48,48,204,1) 41%,rgba(0,0,0,1) 100%)",
+                StartDate: "2016-03-19T01:00:00Z",
                 Duration: new Date().toISOString(),
                 HostName: "TwitchPlays",
                 HostImage: "img/hosts/twitchplays.png",

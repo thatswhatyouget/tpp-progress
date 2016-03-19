@@ -86,7 +86,8 @@ function drawRun(runInfo, run, scale, events) {
     run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
     run.setAttribute("data-start", runInfo.StartTime.toString());
     run.setAttribute("data-label", runInfo.RunName + ": " + duration.toString(scale));
-    run.style.background = runInfo.ColorPrimary;
+    run.style.backgroundColor = runInfo.ColorPrimary;
+    run.style.backgroundImage = runInfo.BackgroundImage;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
     setUniqueId(run, runInfo.RunName);
     if (runInfo.HostImage && runInfo.HostName)
