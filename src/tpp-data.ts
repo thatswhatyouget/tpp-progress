@@ -4487,8 +4487,7 @@ var tppData: TPP.Collection[] = [
                 ColorSecondary: "#ddac30",
                 BackgroundImage: "linear-gradient(to bottom, #6a3f78 0%, #e1642f 100%)",
                 StartDate: "2016-03-20T03:41:00.000Z",
-                Duration: new Date().toISOString(),
-                Ongoing: true,
+                Duration: "2016-03-21T10:07:00.000Z",
                 HostName: "AA-•",
                 HostImage: "img/hosts/ness.png",
                 HostImageSource: "https://starmen.net/vote/vote.php?id=20211",
@@ -4506,69 +4505,6 @@ var tppData: TPP.Collection[] = [
                         Image: "http://vignette1.wikia.nocookie.net/earthbound/images/7/79/FrankysteinMarkII.gif/revision/latest?cb=20090221132344",
                         Time: "2016-03-20T20:04:00.000Z",
                         Attempts: 2
-                    },
-                    {
-                        Group: "Bosses",
-                        Name: "Titanic Ant",
-                        Image: "http://vignette1.wikia.nocookie.net/earthbound/images/9/9f/Titanic_Ant_In-Battle.gif/revision/latest",
-                        Time: "???",
-                        Attempts: 0
-                    },
-                    {
-                        Group: "Bosses",
-                        Name: "Mondo Mole",
-                        Image: "http://vignette2.wikia.nocookie.net/earthbound/images/a/a9/2_-_Mondo_Mole.gif/revision/latest",
-                        Time: "???",
-                        Attempts: 0
-                    },
-                    {
-                        Group: "Bosses",
-                        Name: "Trillionage Sprout",
-                        Image: "http://vignette4.wikia.nocookie.net/earthbound/images/8/81/Trillionage_Sprout.png/revision/latest",
-                        Time: "???",
-                        Attempts: 0
-                    },
-                    {
-                        Group: "Bosses",
-                        Name: "Shrooom!",
-                        Image: "http://vignette3.wikia.nocookie.net/earthbound/images/f/ff/4_-_Shrooom%21.gif/revision/latest",
-                        Time: "???",
-                        Attempts: 0
-                    },
-                    {
-                        Group: "Bosses",
-                        Name: "Plague Rat of Doom",
-                        Image: "http://vignette1.wikia.nocookie.net/earthbound/images/8/80/5_-_Plague_Rat_of_Doom.gif/revision/latest",
-                        Time: "???",
-                        Attempts: 0
-                    },
-                    {
-                        Group: "Bosses",
-                        Name: "Thunder and Storm",
-                        Image: "http://vignette1.wikia.nocookie.net/earthbound/images/5/53/6_-_Thunder_and_Storm.gif/revision/latest",
-                        Time: "???",
-                        Attempts: 0
-                    },
-                    {
-                        Group: "Bosses",
-                        Name: "Electro Specter",
-                        Image: "http://vignette1.wikia.nocookie.net/earthbound/images/b/b2/Electro_Specter_In-Battle.gif/revision/latest",
-                        Time: "???",
-                        Attempts: 0
-                    },
-                    {
-                        Group: "Bosses",
-                        Name: "Diamond Dog",
-                        Image: "http://vignette1.wikia.nocookie.net/earthbound/images/7/73/Diamond_Dog_In-Battle.gif/revision/latest",
-                        Time: "???",
-                        Attempts: 0
-                    },
-                    {
-                        Group: "Champions",
-                        Name: "Giygas",
-                        Image: "http://vignette2.wikia.nocookie.net/earthbound/images/1/10/Giygas_In-Battle_Mother.png/revision/latest",
-                        Time: "???",
-                        Attempts: 0
                     },
                 ]
             },
