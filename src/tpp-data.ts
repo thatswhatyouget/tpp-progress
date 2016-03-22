@@ -3365,7 +3365,7 @@ var tppData: TPP.Collection[] = [
                     { Group: "Bosses", Name: "Saiope", Time: "1d22h43m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Bosses", Name: "Dipusaks", Time: "4d16h29m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Bosses", Name: "Gipusofi", Time: "5d7h22m", Class: "pokeSprite", Attempts: 1 },
-                    { Group: "Bosses", Name: "Sanarba", Time: "???", Attempts: 0 },
+                    { Group: "Bosses", Name: "Chap", Time: "5d14h49m", Class: "pokeSprite", Attempts: 2 },
                     { Group: "Bosses", Name: "Boundary", Time: "???", Image: "img/telefang/kai.gif", Attempts: 0 },
                     { Group: "Bosses", Name: "Gawerk", Time: "???", Class: "pokeSprite", Attempts: 0 },
                     { Group: "Bosses", Name: "Sanarba", Time: "???", Attempts: 0 },
@@ -3443,6 +3443,9 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Kukuma", Time: "5d6h51m" },
                     { Group: "Pokemon", Name: "Larjias", Time: "5d11h33m" },
                     { Group: "Pokemon", Name: "Heriops", Time: "5d12h32m" },
+                    { Group: "Pokemon", Name: "Gantsu", Time: "5d13h20m" },
+                    { Group: "Pokemon", Name: "Hitodei", Time: "5d13h34m" },
+                    { Group: "Pokemon", Name: "Gerlin", Time: "5d15h1m" },
                 ]
             }
         ]
