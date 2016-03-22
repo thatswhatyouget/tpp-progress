@@ -3312,7 +3312,7 @@ var tppData = [
                     { Group: "Bosses", Name: "Octobre", Time: "1d16h36m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Bosses", Name: "Saiope", Time: "1d22h43m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Bosses", Name: "Dipusaks", Time: "4d16h29m", Class: "pokeSprite", Attempts: 1 },
-                    { Group: "Bosses", Name: "Gipusofi", Time: "???", Class: "pokeSprite", Attempts: 0 },
+                    { Group: "Bosses", Name: "Gipusofi", Time: "5d7h22m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Bosses", Name: "Sanarba", Time: "???", Attempts: 0 },
                     { Group: "Bosses", Name: "Boundary", Time: "???", Image: "img/telefang/kai.gif", Attempts: 0 },
                     { Group: "Bosses", Name: "Gawerk", Time: "???", Class: "pokeSprite", Attempts: 0 },
@@ -3382,6 +3382,14 @@ var tppData = [
                     { Group: "Pokemon", Name: "Bozuaru", Time: "4d19h25m" },
                     { Group: "Pokemon", Name: "Biburnum", Time: "4d19h58m" },
                     { Group: "Pokemon", Name: "Raigarin", Time: "4d20h23m" },
+                    { Group: "Pokemon", Name: "Faikke", Time: "5d40m" },
+                    { Group: "Pokemon", Name: "Kameran", Time: "5d54m" },
+                    { Group: "Pokemon", Name: "Rigoden", Time: "5d1h24m" },
+                    { Group: "Pokemon", Name: "Branika", Time: "5d1h27m" },
+                    { Group: "Pokemon", Name: "Geron", Time: "5d25m" },
+                    { Group: "Pokemon", Name: "Arfages", Time: "5d3h21m" },
+                    { Group: "Pokemon", Name: "Kukuma", Time: "5d6h51m" },
+                    { Group: "Pokemon", Name: "Larjias", Time: "5d11h33m" },
                 ]
             }
         ]
@@ -3673,7 +3681,7 @@ var tppData = [
                     {
                         Group: "Bosses",
                         Name: "Team Meanies",
-                        Time: "-1d",
+                        Time: "2016-03-22T05:58:15Z",
                         Class: "pokesprite Gengar"
                     },
                     {
