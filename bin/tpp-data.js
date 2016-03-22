@@ -3390,6 +3390,7 @@ var tppData = [
                     { Group: "Pokemon", Name: "Arfages", Time: "5d3h21m" },
                     { Group: "Pokemon", Name: "Kukuma", Time: "5d6h51m" },
                     { Group: "Pokemon", Name: "Larjias", Time: "5d11h33m" },
+                    { Group: "Pokemon", Name: "Heriops", Time: "5d12h32m" },
                 ]
             }
         ]
