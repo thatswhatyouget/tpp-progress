@@ -3316,7 +3316,7 @@ var tppData = [
                     { Group: "Bosses", Name: "Chap", Time: "5d14h49m", Class: "pokeSprite", Attempts: 2 },
                     { Group: "Bosses", Name: "Boundary", Time: "5d20h52m", Image: "img/telefang/kai.gif", Attempts: 1 },
                     { Group: "Bosses", Name: "Gawerk", Time: "6d23h44m", Class: "pokeSprite", Attempts: 1 },
-                    { Group: "Bosses", Name: "Sanarba", Image: "img/telefang/sanarba.png", Time: "???", Attempts: 1 },
+                    { Group: "Bosses", Name: "Sanarba", Image: "img/telefang/sanarba.png", Time: "7d1h29m", Attempts: 2 },
                     { Group: "Bosses", Name: "Domesday", Time: "???", Class: "pokeSprite", Attempts: 0 },
                     { Group: "Pokemon", Name: "Kuribute", Time: "0d 1h 16m" },
                     { Group: "Pokemon", Name: "Osie", Time: "0d 1h 28m" },
