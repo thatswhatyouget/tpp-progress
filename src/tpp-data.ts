@@ -3366,8 +3366,8 @@ var tppData: TPP.Collection[] = [
                     { Group: "Bosses", Name: "Dipusaks", Time: "4d16h29m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Bosses", Name: "Gipusofi", Time: "5d7h22m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Bosses", Name: "Chap", Time: "5d14h49m", Class: "pokeSprite", Attempts: 2 },
-                    { Group: "Bosses", Name: "Boundary", Time: "5d20h52m", Image: "img/telefang/kai.gif", Attempts: 0 },
-                    { Group: "Bosses", Name: "Gawerk", Time: "???", Class: "pokeSprite", Attempts: 0 },
+                    { Group: "Bosses", Name: "Boundary", Time: "5d20h52m", Image: "img/telefang/kai.gif", Attempts: 1 },
+                    { Group: "Bosses", Name: "Gawerk", Time: "6d23h44m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Bosses", Name: "Sanarba", Time: "???", Attempts: 0 },
                     { Group: "Bosses", Name: "Domesday", Time: "???", Class: "pokeSprite", Attempts: 0 },
                     { Group: "Pokemon", Name: "Kuribute", Time: "0d 1h 16m" },
@@ -3455,6 +3455,8 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Burtamas", Time: "5d20h8m" },
                     { Group: "Pokemon", Name: "Sukori", Time: "5d17h58m" },
                     { Group: "Pokemon", Name: "Waita", Time: "5d20h41m" },
+                    { Group: "Pokemon", Name: "Borutama", Time: "6d18h40m" },
+                    { Group: "Pokemon", Name: "Anjiosi", Time: "6d22h32m" },
                 ]
             }
         ]
