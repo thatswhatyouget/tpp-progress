@@ -3314,7 +3314,7 @@ var tppData = [
                     { Group: "Bosses", Name: "Dipusaks", Time: "4d16h29m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Bosses", Name: "Gipusofi", Time: "5d7h22m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Bosses", Name: "Chap", Time: "5d14h49m", Class: "pokeSprite", Attempts: 2 },
-                    { Group: "Bosses", Name: "Boundary", Time: "???", Image: "img/telefang/kai.gif", Attempts: 0 },
+                    { Group: "Bosses", Name: "Boundary", Time: "5d20h52m", Image: "img/telefang/kai.gif", Attempts: 0 },
                     { Group: "Bosses", Name: "Gawerk", Time: "???", Class: "pokeSprite", Attempts: 0 },
                     { Group: "Bosses", Name: "Sanarba", Time: "???", Attempts: 0 },
                     { Group: "Bosses", Name: "Domesday", Time: "???", Class: "pokeSprite", Attempts: 0 },
@@ -3402,6 +3402,7 @@ var tppData = [
                     { Group: "Pokemon", Name: "Dipusaks", Time: "5d23h3m" },
                     { Group: "Pokemon", Name: "Burtamas", Time: "5d20h8m" },
                     { Group: "Pokemon", Name: "Sukori", Time: "5d17h58m" },
+                    { Group: "Pokemon", Name: "Waita", Time: "5d20h41m" },
                 ]
             }
         ]
