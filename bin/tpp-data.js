@@ -4481,7 +4481,7 @@ var tppData = [
                 Duration: new Date().toISOString(),
                 Ongoing: true,
                 HostName: "TwitchPlays",
-                HostImage: "img/hosts/twitchplays.png",
+                HostImage: "img/hosts/twitchplays2.png",
                 Region: "Ferrum",
                 Events: []
             },
