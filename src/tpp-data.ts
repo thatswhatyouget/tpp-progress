@@ -3354,9 +3354,9 @@ var tppData: TPP.Collection[] = [
                         Image: "img/hosts/shigeki.png",
                         ImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
                     },
-                    { Group: "Bosses", Name: "Nejiro", Time: "0d 4h 3m", Class: "pokeSprite", Attempts: 1 },
-                    { Group: "Bosses", Name: "Tabasuko", Time: "0d 4h 34m", Image: "img/telefang/tabasco.gif", Attempts: 1 },
-                    { Group: "Bosses", Name: "Tabasuko", Time: "0d 8h 7m", Image: "img/telefang/tabasco.gif", Attempts: 1 },
+                    { Group: "Bosses", Name: "Nejiro", Time: "4h3m", Class: "pokeSprite", Attempts: 1 },
+                    { Group: "Bosses", Name: "Tabasuko", Time: "4h34m", Image: "img/telefang/tabasco.gif", Attempts: 1 },
+                    { Group: "Bosses", Name: "Tabasuko", Time: "8h7m", Image: "img/telefang/tabasco.gif", Attempts: 1 },
                     { Group: "Bosses", Name: "Boundary", Time: "12h12m", Image: "img/telefang/kai.gif", Attempts: 3 },
                     { Group: "Bosses", Name: "Kaotes", Time: "21h47m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Bosses", Name: "Bangupal", Time: "1d6h21m", Class: "pokeSprite", Attempts: 1 },
@@ -3369,11 +3369,11 @@ var tppData: TPP.Collection[] = [
                     { Group: "Bosses", Name: "Gawerk", Time: "6d23h44m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Bosses", Name: "Sanarba", Image: "img/telefang/sanarba.png", Time: "7d1h29m", Attempts: 2 },
                     { Group: "Bosses", Name: "Domesday", Time: "7d3h20m", Class: "pokeSprite", Attempts: 1 },
-                    { Group: "Pokemon", Name: "Kuribute", Time: "0d 1h 16m" },
-                    { Group: "Pokemon", Name: "Osie", Time: "0d 1h 28m" },
-                    { Group: "Pokemon", Name: "Kesi", Time: "0d 1h 32m" },
+                    { Group: "Pokemon", Name: "Kuribute", Time: "1h16m" },
+                    { Group: "Pokemon", Name: "Osie", Time: "1h28m" },
+                    { Group: "Pokemon", Name: "Kesi", Time: "1h32m" },
                     { Group: "Pokemon", Name: "Manstla", Time: "2h34m" },
-                    { Group: "Pokemon", Name: "Kokia", Time: "0d 2h 39m" },
+                    { Group: "Pokemon", Name: "Kokia", Time: "2h39m" },
                     { Group: "Pokemon", Name: "Nejiro", Time: "4h7m" },
                     { Group: "Pokemon", Name: "Punika", Time: "4h20m" },
                     { Group: "Pokemon", Name: "Netaro", Time: "4h37m" },
@@ -4549,6 +4549,19 @@ var tppData: TPP.Collection[] = [
                         Attempts: 1
                     }
                 ]
+            },
+            {
+                RunName: "Pokkén Tournament",
+                ColorPrimary: "darkblue",
+                ColorSecondary: "black",
+                BackgroundImage: "radial-gradient(ellipse at center, rgba(162,228,239,1) 0%,rgba(48,48,204,1) 41%,rgba(0,0,0,1) 100%)",
+                StartDate: "2016-03-24T01:55:00Z",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                HostName: "TwitchPlays",
+                HostImage: "img/hosts/twitchplays.png",
+                Region: "Ferrum",
+                Events: []
             },
         ]
     },
