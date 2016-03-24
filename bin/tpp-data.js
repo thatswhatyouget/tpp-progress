@@ -3285,8 +3285,7 @@ var tppData = [
             {
                 RunName: "Telefang",
                 StartDate: "2016-03-16T21:00:00Z",
-                Duration: new Date().toISOString(),
-                Ongoing: true,
+                Duration: "7d3h21m",
                 ColorPrimary: "#EFFE24",
                 ColorSecondary: "#120291",
                 HostImage: "img/hosts/shigeki.png",
@@ -3317,7 +3316,7 @@ var tppData = [
                     { Group: "Bosses", Name: "Boundary", Time: "5d20h52m", Image: "img/telefang/kai.gif", Attempts: 1 },
                     { Group: "Bosses", Name: "Gawerk", Time: "6d23h44m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Bosses", Name: "Sanarba", Image: "img/telefang/sanarba.png", Time: "7d1h29m", Attempts: 2 },
-                    { Group: "Bosses", Name: "Domesday", Time: "???", Class: "pokeSprite", Attempts: 0 },
+                    { Group: "Bosses", Name: "Domesday", Time: "7d3h20m", Class: "pokeSprite", Attempts: 1 },
                     { Group: "Pokemon", Name: "Kuribute", Time: "0d 1h 16m" },
                     { Group: "Pokemon", Name: "Osie", Time: "0d 1h 28m" },
                     { Group: "Pokemon", Name: "Kesi", Time: "0d 1h 32m" },
