@@ -13,10 +13,6 @@ function Scrape(run) {
         type: "GET",
         dataType: "text",
         timeout: 1000
-    }); }).then(function (r) { return r; }, function (e) { return $.ajax({
-        url: "tpp.org/snapshot.html",
-        type: "GET",
-        dataType: "text",
     }); }).then(function (page) {
         page = page.replace(/\bsrc=/ig, 'crs=');
         var $lastUpdate = $(page).find('.last-update');

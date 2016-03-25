@@ -16,10 +16,6 @@ function Scrape(run: TPP.Run) {
         type: "GET",
         dataType: "text",
         timeout: 1000
-    })).then(r => r, e => $.ajax({
-        url: "tpp.org/snapshot.html",
-        type: "GET",
-        dataType: "text",
     })).then(page => {
         page = page.replace(/\bsrc=/ig, 'crs=');
         var $lastUpdate = $(page).find('.last-update');
