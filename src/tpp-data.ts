@@ -4780,7 +4780,20 @@ var tppData: TPP.Collection[] = [
                 HostName: "TwitchPlays",
                 HostImage: "img/hosts/twitchplays2.png",
                 Region: "Ferrum",
-                Events: []
+                Events: [
+                    // {
+                    //     Group: "Hosts",
+                    //     Name: "TwitchPlays",
+                    //     Image: "img/hosts/twitchplays2.png",
+                    //     Time: "2016-03-24T04:02:00Z"
+                    // },
+                    {
+                        Group: "Hosts",
+                        Name: "TwitchPlays",
+                        Image: "img/hosts/twitchplays3.png",
+                        Time: "2016-03-26T00:10:00Z"
+                    }
+                ]
             },
         ]
     },
