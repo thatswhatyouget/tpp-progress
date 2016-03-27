@@ -3628,6 +3628,29 @@ var tppData = [
                     { Group: "Pokemon", Name: "Maharus", Time: "7d43m" },
                     { Group: "Pokemon", Name: "Amiboa", Time: "7d45m" },
                 ]
+            },
+            {
+                RunName: "Robopon",
+                StartDate: "2016-03-27T16:50:00Z",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                ColorPrimary: "#deab76",
+                ColorSecondary: "#a51e36",
+                BackgroundImage: 'url("img/robopon/background.gif")',
+                HostImage: "img/hosts/cody.gif",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                HostName: "AAAA",
+                Region: "Robopon World",
+                ContainsRunsFrom: ["Intermissions", "Short Intermissions"],
+                Events: [
+                    {
+                        Group: "Hosts",
+                        Name: "Cody",
+                        Time: "2016-03-27T20:46:00Z",
+                        Image: "img/hosts/cody.gif",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                    },
+                ]
             }
         ]
     },
@@ -4652,6 +4675,7 @@ var tppData = [
                 BackgroundImage: "radial-gradient(ellipse at center, rgba(162,228,239,1) 0%,rgba(48,48,204,1) 41%,rgba(0,0,0,1) 100%)",
                 StartDate: "2016-03-19T01:00:00Z",
                 Duration: "2016-03-20T03:35:00.000Z",
+                Unfinished: true,
                 HostName: "TwitchPlays",
                 HostImage: "img/hosts/twitchplays.png",
                 Region: "Ferrum",
@@ -4664,6 +4688,7 @@ var tppData = [
                 BackgroundImage: "linear-gradient(to bottom, #6a3f78 0%, #e1642f 100%)",
                 StartDate: "2016-03-20T03:41:00.000Z",
                 Duration: "2016-03-21T10:07:00.000Z",
+                Unfinished: true,
                 HostName: "AA-•",
                 HostImage: "img/hosts/ness.png",
                 HostImageSource: "https://starmen.net/vote/vote.php?id=20211",
@@ -4697,8 +4722,8 @@ var tppData = [
                 ColorSecondary: "black",
                 BackgroundImage: "radial-gradient(ellipse at center, rgba(162,228,239,1) 0%,rgba(48,48,204,1) 41%,rgba(0,0,0,1) 100%)",
                 StartDate: "2016-03-24T01:55:00Z",
-                Duration: new Date().toISOString(),
-                Ongoing: true,
+                Duration: "2016-03-27T16:50:00Z",
+                Unfinished: true,
                 HostName: "TwitchPlays",
                 HostImage: "img/hosts/twitchplays2.png",
                 Region: "Ferrum",
