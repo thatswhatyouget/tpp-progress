@@ -405,6 +405,15 @@ ul.controls > li > ul > li > * {
     background-image:url("../img/telefang/denjuu-large.gif");
 }
 
+.progressChart .run.robopon .event.pokemon.pokesprite img {
+    font-size: 64px;
+    top:10%;
+    transform: translateX(-50%) scale(.6);
+    background-image:url("../img/robopon/robopon.gif");
+    background-position: -20px -1110px;
+    background-size:auto;
+}
+
 .progressChart .run .event img[src="img/trainers/crystal/azure.gif"] {
     transform:translateX(-35%);
 }

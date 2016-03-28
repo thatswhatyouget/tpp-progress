@@ -22,3 +22,30 @@ denjuu.forEach((d, i) => {
     document.write(" { background-position: 0px -" + i + "em!important; } \n");
 });
 document.write("</style>");
+
+var robopon = ["Rocker", "Sunny", "Ramjet", "Molbot", "Digger", "Cookey", "Boomer", "Coball", "Unix", "Timzup", "Romby", "Ramby", "Zap", "Dotcom", "Dosbot", "Punchy", "K.O.", "Brute", "Card", "Viggy", "HogBot", "Teabot", "Gidget", "Betty", "Granny", "Gramps", "B-Bot", "Signor", "Crowle", "Unibot", "Cycool", "Speedy", "Tread", "Dollby", "Moabot", "Topaz", "Sputer", "Rotor", "Topbot", "Sammi", "Muri", "Sumito", "Sumo", "Yokomo", "Q. B.", "Vic", "Ralph", "Screwy", "Skulby", "Pirate", "Rex", "Fetch", "Gidyup", "Pegs", "Medbot", "Meddy", "Docbot", "Snipes", "Deemo", "Cadet", "Pss't", "Major", "Toona", "Ping", "Hydro", "Leachy", "Boobot", "Jackey", "Virus", "Hexbot", "Chimp", "Sandy", "Whacky", "Filrup", "Batty", "Wolfe", "Bolton", "Boiler", "Urchy", "SubRio", "SumiSu", "Loopy", "Chubba", "Boom", "Kaboom", "Chomps", "Digit", "B-Cell", "C-Cell", "Robby", "Rob-O", "Bella", "Charm", "Egger", "Quak'D", "Cluck", "Razor", "Rootix", "Rooter", "Ribbot", "Palmer", "Spike", "Woody", "Zappa", "Viper", "Detno", "Paws", "Heylow", "Angie", "Uggy", "Scorch", "Crysty", "Beaker", "Granit", "Snorks", "Peach", "Apebot", "Orbit", "Smacks", "Peedo", "Zeppi", "Splat", "Johnny", "Slots", "Checks", "Mack", "Honey", "Seabee", "Puff", "Draco", "Gigo", "S-Bot", "SV-Bot", "SSTbot", "G-Bot", "GY-Bot", "GGTbot", "Stimy", "Hyme", "Chills", "Stinky", "Inviso", "Mochi", "Tacbot", "Gello", "Ticker", "Recyco", "Zombot", "Rudy", "Jesto", "Buddy", "Nobone", "Scar", "Flyboy", "Xerkon", "Jonah", "Zariga", "V-Zarg", "YonArm", "HexArm", "Cloudy", "Cutesy", "Micro", "Macro", "Necro", "Musher", "Saucer", "Volco"];
+
+
+var roboxPos = i => {
+    var n = i % 6;
+    if (i >= 84) n += 6;
+    switch (n) {
+        case 0: return 20;
+        case 1: return 90;
+        case 2: return 162;
+        case 3: return 234;
+        case 4: return 298;
+        case 5: return 362;
+        case 6: return 491;
+        case 7: return 558;
+        case 8: return 622;
+        case 9: return 690;
+        case 10: return 760;
+        case 11: return 831;
+    }
+};
+var roboyPos = i => Math.floor((i%84) / 6) * 80;
+
+document.write("<style>");
+robopon.forEach((p, i) => document.write(".robopon .pokemon.pokesprite." + p.replace(/[^A-Z0-9]/ig, '').toLowerCase() + " img { background-position: -" + roboxPos(i) + "px -" + roboyPos(i) + "px!important; }\n"));
+document.write("</style>");
