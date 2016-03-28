@@ -450,6 +450,10 @@ ul.controls > li > ul > li > * {
     top:0;
 }
 
+.progressChart .harvestmoongbc .event.hosts img {
+    transform: translateX(-30%);   
+}
+
 @media print {
     body {
         -webkit-print-color-adjust: exact;

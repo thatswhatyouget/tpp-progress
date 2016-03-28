@@ -4800,8 +4800,8 @@ var tppData: TPP.Collection[] = [
             {
                 RunName: "Robopon",
                 StartDate: "2016-03-27T16:50:00Z",
-                Duration: new Date().toISOString(),
-                Ongoing: true,
+                Duration: "2016-03-28T06:42:00Z",
+                Unfinished: true,
                 ColorPrimary: "#deab76",
                 ColorSecondary: "#a51e36",
                 BackgroundImage: 'url("img/robopon/background.gif")',
@@ -4871,7 +4871,20 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Robby", Time: "2016-03-27T23:04:00Z" },
                 ]
             },
-
+            {
+                RunName: "Harvest Moon GBC",
+                StartDate: "2016-03-28T06:42:00Z",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                ColorSecondary: "#745117",
+                ColorPrimary: "#f3c64a",
+                BackgroundImage: 'url("img/harvestmoon/dirt.gif")',
+                HostImage: "img/hosts/ceen.png",
+                HostImageSource: "http://uniyuki.deviantart.com/art/Harvest-Moon-Trainer-Sprites-360794228",
+                HostName: "CEEN",
+                Region: "Farm",
+                Events: []
+            }
         ]
     },
     {
