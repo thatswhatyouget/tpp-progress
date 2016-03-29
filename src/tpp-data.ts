@@ -4910,7 +4910,16 @@ var tppData: TPP.Collection[] = [
                 HostImageSource: "http://biggysprites.smackjeeves.com/comics/678645/hamtaro-sprite-sheet-2/",
                 HostName: "...6S?",
                 Region: "Hamtaro",
-                Events: []
+                Events: [
+                    {
+                        Group: "Hosts",
+                        Name: "AA,4444",
+                        Time: "2016-03-29T11:05:00Z",
+                        Image: "img/hosts/hamtaro.gif",
+                        ImageSource: "http://biggysprites.smackjeeves.com/comics/678645/hamtaro-sprite-sheet-2/",
+                    },
+
+                ]
             }
         ]
     },
