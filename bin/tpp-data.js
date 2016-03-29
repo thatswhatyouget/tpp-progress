@@ -4790,15 +4790,42 @@ var tppData = [
             {
                 RunName: "Harvest Moon GBC",
                 StartDate: "2016-03-28T06:42:00Z",
-                Duration: new Date().toISOString(),
-                Ongoing: true,
+                Duration: "2016-03-28T17:09:00Z",
+                Unfinished: true,
                 ColorSecondary: "#745117",
                 ColorPrimary: "#f3c64a",
                 BackgroundImage: 'url("img/harvestmoon/dirt.gif")',
-                HostImage: "img/hosts/ceen.png",
+                HostImage: "img/hosts/pete.png",
                 HostImageSource: "http://uniyuki.deviantart.com/art/Harvest-Moon-Trainer-Sprites-360794228",
                 HostName: "CEEN",
                 Region: "Farm",
+                Events: []
+            },
+            {
+                RunName: "Harvest Moon GBC 2",
+                StartDate: "2016-03-28T17:09:00Z",
+                Duration: "2016-03-29T01:12:00Z",
+                Unfinished: true,
+                ColorSecondary: "#d20b08",
+                ColorPrimary: "#f3c64a",
+                BackgroundImage: 'url("img/harvestmoon/dirt.gif")',
+                HostImage: "img/hosts/pete.png",
+                HostImageSource: "http://uniyuki.deviantart.com/art/Harvest-Moon-Trainer-Sprites-360794228",
+                HostName: "88」",
+                Region: "Farm",
+                Events: []
+            },
+            {
+                RunName: "Hamtaro: Ham-Hams Unite!",
+                StartDate: "2016-03-29T01:12:00Z",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                ColorPrimary: "#e59910",
+                ColorSecondary: "#480052",
+                HostImage: "img/hosts/hamtaro.gif",
+                HostImageSource: "http://biggysprites.smackjeeves.com/comics/678645/hamtaro-sprite-sheet-2/",
+                HostName: "...6S?",
+                Region: "Hamtaro",
                 Events: []
             }
         ]
