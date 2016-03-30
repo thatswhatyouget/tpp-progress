@@ -4818,8 +4818,8 @@ var tppData = [
             {
                 RunName: "Hamtaro: Ham-Hams Unite!",
                 StartDate: "2016-03-29T01:12:00Z",
-                Duration: new Date().toISOString(),
-                Ongoing: true,
+                Duration: "2016-03-29T21:10:00Z",
+                Unfinished: true,
                 ColorPrimary: "#e59910",
                 ColorSecondary: "#480052",
                 HostImage: "img/hosts/hamtaro.gif",
@@ -4834,7 +4834,28 @@ var tppData = [
                         Image: "img/hosts/hamtaro.gif",
                         ImageSource: "http://biggysprites.smackjeeves.com/comics/678645/hamtaro-sprite-sheet-2/",
                     },
+                    {
+                        Group: "Hosts",
+                        Name: "PBR2.0",
+                        Time: "2016-03-29T16:15:00Z",
+                        Image: "img/hosts/hamtaro.gif",
+                        ImageSource: "http://biggysprites.smackjeeves.com/comics/678645/hamtaro-sprite-sheet-2/",
+                    },
                 ]
+            },
+            {
+                RunName: "Trading Card Game 2: The Invasion of Team GR!",
+                StartDate: "2016-03-29T22:18:00Z",
+                ColorPrimary: "#abd6fd",
+                ColorSecondary: "#002c94",
+                Ongoing: true,
+                Duration: new Date().toISOString(),
+                HostName: "Mint",
+                HostImage: "img/hosts/mint.png",
+                HostImageSource: "http://ryuki-stardust.deviantart.com/art/Pokemon-TCG-Mark-and-Mint-160913403",
+                Region: "TCG Island, GR Island",
+                Events: [],
+                CopyEvents: ["Trading Card Game 2: The Invasion of Team GR!"]
             }
         ]
     },
@@ -4867,6 +4888,20 @@ var tppData = [
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
                 Region: "Pokemon World",
                 Unfinished: true,
+                Events: []
+            },
+            {
+                RunName: "Harvest Moon GBC 3",
+                StartDate: "2016-03-29T21:10:00Z",
+                Duration: "2016-03-29T22:18:00Z",
+                Unfinished: true,
+                ColorSecondary: "#d20b08",
+                ColorPrimary: "#f3c64a",
+                BackgroundImage: 'url("img/harvestmoon/dirt.gif")',
+                HostImage: "img/hosts/pete.png",
+                HostImageSource: "http://uniyuki.deviantart.com/art/Harvest-Moon-Trainer-Sprites-360794228",
+                HostName: "A__",
+                Region: "Farm",
                 Events: []
             },
         ]
