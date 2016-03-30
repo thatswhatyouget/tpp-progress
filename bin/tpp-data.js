@@ -4531,9 +4531,9 @@ var tppData = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Pikachu Coin",
+                        Name: "Lightning Coin",
                         Image: "http://cdn.bulbagarden.net/upload/f/f0/Coin_Pikachu_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-03-30T21:32:00Z"
                     },
                     {
                         Group: "Badges",
