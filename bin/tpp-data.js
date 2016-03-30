@@ -4519,9 +4519,9 @@ var tppData = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Charmander Coin",
+                        Name: "Fire Coin",
                         Image: "http://cdn.bulbagarden.net/upload/0/0b/Coin_Charmander_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-03-30T05:12:30Z"
                     },
                     {
                         Group: "Badges",
@@ -4895,10 +4895,10 @@ var tppData = [
                 StartDate: "2016-03-29T21:10:00Z",
                 Duration: "2016-03-29T22:18:00Z",
                 Unfinished: true,
-                ColorSecondary: "#d20b08",
+                ColorSecondary: "#3561e6",
                 ColorPrimary: "#f3c64a",
                 BackgroundImage: 'url("img/harvestmoon/dirt.gif")',
-                HostImage: "img/hosts/pete.png",
+                HostImage: "img/hosts/chelsea.gif",
                 HostImageSource: "http://uniyuki.deviantart.com/art/Harvest-Moon-Trainer-Sprites-360794228",
                 HostName: "A__",
                 Region: "Farm",

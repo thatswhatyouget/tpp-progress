@@ -4597,9 +4597,9 @@ var tppData: TPP.Collection[] = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Charmander Coin",
+                        Name: "Fire Coin", //"Charmander Coin",
                         Image: "http://cdn.bulbagarden.net/upload/0/0b/Coin_Charmander_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-03-30T05:12:30Z"
                     },
                     {
                         Group: "Badges",
@@ -4918,7 +4918,7 @@ var tppData: TPP.Collection[] = [
                         Image: "img/hosts/hamtaro.gif",
                         ImageSource: "http://biggysprites.smackjeeves.com/comics/678645/hamtaro-sprite-sheet-2/",
                     },
-{
+                    {
                         Group: "Hosts",
                         Name: "PBR2.0",
                         Time: "2016-03-29T16:15:00Z",
