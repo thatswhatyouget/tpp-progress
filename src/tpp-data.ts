@@ -4587,7 +4587,7 @@ var tppData: TPP.Collection[] = [
                         Group: "Badges",
                         Name: "GR Coin",
                         Image: "http://cdn.bulbagarden.net/upload/0/06/Coin_GR_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-03-31T20:33:00Z"
                     },
                     {
                         Group: "Badges",
@@ -4615,9 +4615,9 @@ var tppData: TPP.Collection[] = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Alakazam Coin",
+                        Name: "Psychic Coin", //"Alakazam Coin",
                         Image: "http://cdn.bulbagarden.net/upload/9/91/Coin_Alakazam_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-03-31T15:06:00Z"
                     },
                     {
                         Group: "Badges",
