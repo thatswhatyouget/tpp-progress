@@ -4513,9 +4513,9 @@ var tppData = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Oddish Coin",
+                        Name: "Grass Coin",
                         Image: "http://cdn.bulbagarden.net/upload/f/fb/Coin_Oddish_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-03-31T09:05:00Z"
                     },
                     {
                         Group: "Badges",
