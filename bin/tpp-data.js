@@ -4549,9 +4549,9 @@ var tppData = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Golbat Coin",
+                        Name: "GR Grass Coin",
                         Image: "http://cdn.bulbagarden.net/upload/9/99/Coin_Golbat_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-04-01T11:17:20Z"
                     },
                     {
                         Group: "Badges",
