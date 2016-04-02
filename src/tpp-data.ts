@@ -4943,7 +4943,7 @@ var tppData: TPP.Collection[] = [
                 CopyEvents: ["Trading Card Game 2: The Invasion of Team GR!"]
             },
             {
-                RunName: "Anniversary Crystal: April Fools Edition",
+                RunName: "Anniversary Crystal: OLDEN Edition",
                 StartDate: "2016-04-01T20:16:00Z",
                 Duration: new Date().toISOString(),
                 Ongoing: true,
@@ -4954,10 +4954,14 @@ var tppData: TPP.Collection[] = [
                 HostName: "QJv[",
                 Region: "Kanto, Johto",
                 Events: [
+                    { Group: "Badges", Image: "img/badges/boulder.png", Name: "Boulder Badge", Time: "2016-04-02T12:35:00Z" },
                     { Group: "Pokemon", Name: "OLDEN", Class: "Charmander", Time: "2016-04-01T20:28:00Z" },
                     { Group: "Pokemon", Name: "OLDEN", Class: "Pikachu", Time: "2016-04-01T21:48:00Z" },
                     { Group: "Pokemon", Name: "OLDEN", Class: "Pidgey", Time: "2016-04-01T22:24:00Z" },
                     { Group: "Pokemon", Name: "OLDEN", Class: "Cubone", Time: "2016-04-01T22:29:00Z" },
+                    { Group: "Pokemon", Name: "OLDEN", Class: "Grimer", Time: "2016-04-02T07:13:00Z" },
+                    { Group: "Pokemon", Name: "OLDEN", Class: "Caterpie", Time: "2016-04-02T07:20:00Z" },
+                    { Group: "Pokemon", Name: "OLDEN", Class: "Charmeleon", Time: "2016-04-02T13:14:00Z" },
                 ]
             }
         ]
