@@ -103,7 +103,7 @@
 	   <script>
             var day = Math.floor(QueryString.day || 0);
             var data = tppData.map(function (c) {
-                var newC = { Scale: c.Scale, Name: c.Name, SingularName: c.SingularName, Offset:c.Offset};
+                var newC = { Scale: c.Scale == TPP.Scale.Weeks ? c.Scale : TPP.Scale.Days, Name: c.Name, SingularName: c.SingularName, Offset:c.Offset};
                 if (day) newC.Offset = -(day - 1);
                 newC.Runs = c.Runs.filter(function (r) { return (r.Scraper && r.Scraper.pokemon) || ((r.DexTotal || !QueryString.fulldex) && r.Events.filter(function (e) { return e.Group == "Pokemon"; }).length); })
                     .map(function (r) {

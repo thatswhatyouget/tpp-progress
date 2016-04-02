@@ -4855,7 +4855,26 @@ var tppData = [
                 HostImageSource: "http://ryuki-stardust.deviantart.com/art/Pokemon-TCG-Mark-and-Mint-160913403",
                 Region: "TCG Island, GR Island",
                 Events: [],
+                ContainsRunsFrom: ["Intermissions"],
                 CopyEvents: ["Trading Card Game 2: The Invasion of Team GR!"]
+            },
+            {
+                RunName: "Anniversary Crystal: April Fools Edition",
+                StartDate: "2016-04-01T20:16:00Z",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                ColorPrimary: "#008bff",
+                ColorSecondary: "#0021b4",
+                HostImage: "img/trainers/crystal/azure.gif",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46gsoo/azure_our_perky_exrival_animated/",
+                HostName: "QJv[",
+                Region: "Kanto, Johto",
+                Events: [
+                    { Group: "Pokemon", Name: "OLDEN", Class: "Charmander", Time: "2016-04-01T20:28:00Z" },
+                    { Group: "Pokemon", Name: "OLDEN", Class: "Pikachu", Time: "2016-04-01T21:48:00Z" },
+                    { Group: "Pokemon", Name: "OLDEN", Class: "Pidgey", Time: "2016-04-01T22:24:00Z" },
+                    { Group: "Pokemon", Name: "OLDEN", Class: "Cubone", Time: "2016-04-01T22:29:00Z" },
+                ]
             }
         ]
     },
