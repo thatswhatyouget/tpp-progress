@@ -4927,6 +4927,11 @@ var tppData = [
                     { Group: "Pokemon", Name: "OLDEN", Class: "Charmeleon", Time: "2016-04-02T13:14:00Z" },
                     { Group: "Pokemon", Name: "OLDEN", Class: "Metapod", Time: "2016-04-02T21:59:00Z" },
                     { Group: "Badges", Image: "img/badges/cascade.png", Name: "Cascade Badge", Time: "2016-04-03T11:35:00Z" },
+                    { Group: "Pokemon", Name: "OLDEN", Class: "Oddish", Time: "2016-04-03T11:56:00Z" },
+                    { Group: "Pokemon", Name: "OLDEN", Class: "Meganium", Time: "2016-04-03T13:21:00Z" },
+                    { Group: "Pokemon", Name: "OLDEN", Class: "Feraligatr", Time: "2016-04-03T13:49:00Z" },
+                    { Group: "Pokemon", Name: "OLDEN", Class: "Sneasel", Time: "2016-04-03T14:20:00Z" },
+                    { Group: "Pokemon", Name: "OLDEN", Class: "Misdreavus", Time: "2016-04-03T14:23:00Z" },
                 ]
             }
         ]
