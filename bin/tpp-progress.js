@@ -86,6 +86,7 @@ function drawRun(runInfo, run, scale, events) {
     run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
     run.setAttribute("data-start", runInfo.StartTime.toString());
     run.setAttribute("data-label", runInfo.RunName + ": " + duration.toString(scale));
+    run.setAttribute("data-startDate", new Date(runInfo.StartDate).toISOString().replace(/-/g, '/').replace(/T/, ' ').replace(/:\d+\.\d+/, '').replace(/Z/, ' UTC'));
     run.style.backgroundColor = runInfo.ColorPrimary;
     run.style.backgroundImage = runInfo.BackgroundImage;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
