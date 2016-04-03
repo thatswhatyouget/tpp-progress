@@ -4926,6 +4926,7 @@ var tppData = [
                     { Group: "Pokemon", Name: "OLDEN", Class: "Caterpie", Time: "2016-04-02T07:20:00Z" },
                     { Group: "Pokemon", Name: "OLDEN", Class: "Charmeleon", Time: "2016-04-02T13:14:00Z" },
                     { Group: "Pokemon", Name: "OLDEN", Class: "Metapod", Time: "2016-04-02T21:59:00Z" },
+                    { Group: "Badges", Image: "img/badges/cascade.png", Name: "Cascade Badge", Time: "2016-04-03T11:35:00Z" },
                 ]
             }
         ]
