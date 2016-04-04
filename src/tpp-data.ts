@@ -4551,9 +4551,9 @@ var tppData: TPP.Collection[] = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Psyduck Coin",
+                        Name: "GR Water Coin", //"Psyduck Coin",
                         Image: "http://cdn.bulbagarden.net/upload/c/ce/Coin_Psyduck_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-04-04T17:58:00Z"
                     },
                     {
                         Group: "Badges",

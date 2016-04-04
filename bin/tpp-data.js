@@ -4471,9 +4471,9 @@ var tppData = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Psyduck Coin",
+                        Name: "GR Water Coin",
                         Image: "http://cdn.bulbagarden.net/upload/c/ce/Coin_Psyduck_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-04-04T17:58:00Z"
                     },
                     {
                         Group: "Badges",
