@@ -4459,9 +4459,9 @@ var tppData = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Magnemite Coin",
+                        Name: "GR Thunder Coin",
                         Image: "http://cdn.bulbagarden.net/upload/8/85/Coin_Magnemite_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-04-04T00:50:00Z"
                     },
                     {
                         Group: "Badges",
@@ -4907,15 +4907,13 @@ var tppData = [
             {
                 RunName: "Anniversary Crystal: OLDEN Edition",
                 StartDate: "2016-04-01T20:16:00Z",
-                Duration: new Date().toISOString(),
-                Ongoing: true,
+                Duration: "2016-04-03T18:50:00Z",
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
                 HostImage: "img/trainers/crystal/azure.gif",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46gsoo/azure_our_perky_exrival_animated/",
                 HostName: "QJv[",
                 Region: "Kanto, Johto",
-                DexTotal: 251,
                 Events: [
                     { Group: "Badges", Image: "img/badges/boulder.png", Name: "Boulder Badge", Time: "2016-04-02T12:35:00Z" },
                     { Group: "Pokemon", Name: "OLDEN", Class: "Charmander", Time: "2016-04-01T20:28:00Z" },
