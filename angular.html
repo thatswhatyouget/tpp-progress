@@ -58,7 +58,7 @@
                 <div ng-repeat="i in steps(chart)" class="stop" data-scale="{{scale(chart.Scale)}}" style="left: {{i * ppd}}px;"></div>
             </div>
             <div ng-repeat="run in chart.Runs" class="run {{cleanText(run.RunName)}}" data-label="{{run.RunName}}: {{duration(run.Duration, chart.Scale, run.StartTime)}}"
-            id="{{cleanText(run.RunName)}}" style="color: {{run.ColorSecondary}}; border-color: {{run.ColorSecondary}}; width: {{width(run.Duration, chart.Scale, run.StartTime)}}px; background-color: {{run.ColorPrimary}}">
+            id="{{cleanText(run.RunName)}}" style="color: {{run.ColorSecondary}}; border-color: {{run.ColorSecondary}}; width: {{width(run.Duration, chart.Scale, run.StartTime)}}px; background-color: {{run.ColorPrimary}}; background-image: {{run.BackgroundImage || 'none'}};">
                 <!--<div ng-repeat="cr in concurrentRuns(run, chart.Scale)" class="run {{cleanText(cr.RunName)}}" data-label="{{cr.Label}}:"
                 style="color: {{cr.ColorSecondary}}; border-color: {{cr.ColorSecondary}}; left:{{width(cr.StartTime, chart.Scale, run.StartTime)}}px; width: {{width(cr.Duration, chart.Scale, cr.StartTime)}}px; background-color: {{cr.ColorPrimary}}">
                     <div ng-if="cr.HostName && cr.HostImage" class="event hosts" data-label="{{cr.HostName}}">
@@ -74,7 +74,7 @@
                     </a>
                     <img ng-if="!run.HostImageSource" ng-src="{{run.HostImage}}" alt="{{run.HostName}}" />
                 </div>
-                <div ng-repeat="event in run.Events" ng-if="time(event.Time, chart.Scale, run.StartTime) > 0" class="event {{cleanText(event.Group)}} {{event.Group == 'Pokemon' || event.Class.indexOf('pokesprite') >= 0 ? cleanText(event.Name) + ' pokesprite' : ''}} {{event.Class}}"
+                <div ng-repeat="event in run.Events" ng-if="time(event.Time, chart.Scale, run.StartTime) > 0" class="event {{cleanText(event.Group)}} {{event.Group == 'Pokemon' || event.Class.indexOf('pokeSprite') >= 0 ? cleanText(event.Name) + ' pokeSprite' : ''}} {{event.Class}}"
                 data-label="{{event.Name + '\n' + duration(event.Time, chart.Scale, run.StartTime)}}" style="left:{{width(event.Time, chart.Scale, run.StartTime)}}px;">
                     <a ng-if="event.ImageSource" href="{{event.ImageSource}}" target="_blank">
                         <img ng-src="{{event.Image}}" alt="{{event.Name}}" />
