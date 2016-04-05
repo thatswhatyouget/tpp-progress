@@ -28,6 +28,8 @@ module TPP {
         Events: Event[];
         CopyEvents?: string[];
         Videos?: Twitch.Video[];
+        GoogleDocLink?: string;
+        TPPOrgLink?: string;
     }
 
     export interface Event {

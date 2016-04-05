@@ -13,6 +13,8 @@ var tppData = [
                 HostName: "RED",
                 HostImage: "img/hosts/red.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                TPPOrgLink: "http://twitchplayspokemon.org/red",
+                GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/red-archive",
                 Region: "Kanto",
                 Events: [
                     {
@@ -148,6 +150,8 @@ var tppData = [
                 HostName: "AJDNNW",
                 HostImage: "img/hosts/ajdnnw.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                TPPOrgLink: "http://twitchplayspokemon.org/crystal",
+                GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/crystal-archive",
                 Region: "Kanto, Johto",
                 Events: [
                     {
@@ -333,6 +337,8 @@ var tppData = [
                 HostName: "A",
                 HostImage: "img/hosts/a.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                TPPOrgLink: "http://twitchplayspokemon.org/emerald",
+                GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/emerald-archive",
                 Region: "Hoenn",
                 Events: [
                     {
@@ -439,6 +445,8 @@ var tppData = [
                 HostImage: "img/hosts/a2.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Kanto",
+                TPPOrgLink: "http://twitchplayspokemon.org/firered",
+                GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/firered-archive",
                 Events: [
                     {
                         Group: "Badges",
@@ -555,6 +563,8 @@ var tppData = [
                 HostImage: "img/hosts/nqpppnl.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Sinnoh",
+                TPPOrgLink: "http://twitchplayspokemon.org/platinum",
+                GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/platinum-archive",
                 Events: [
                     {
                         Group: "Badges",
@@ -659,6 +669,8 @@ var tppData = [
                 HostImage: "img/hosts/aoooo.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Kanto, Johto",
+                TPPOrgLink: "http://twitchplayspokemon.org/heartgold",
+                GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/heartgold-archive",
                 Events: [
                     {
                         Group: "Badges",
@@ -882,6 +894,8 @@ var tppData = [
                 HostImage: "img/hosts/gmyc.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Unova",
+                TPPOrgLink: "http://twitchplayspokemon.org/black",
+                GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/black-archive",
                 Events: [
                     {
                         Group: "Badges",
@@ -993,6 +1007,8 @@ var tppData = [
                 HostImage: "img/hosts/cly.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Unova",
+                TPPOrgLink: "http://twitchplayspokemon.org/black2",
+                GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/black-2-archive",
                 Events: [
                     {
                         Group: "Badges",
@@ -1139,6 +1155,8 @@ var tppData = [
                 HostImage: "img/hosts/d.png",
                 HostImageSource: "http://haykira.deviantart.com/art/Li-l-d-from-Twitch-Plays-Pokemon-X-Y-471845274",
                 Region: "Kalos",
+                TPPOrgLink: "http://twitchplayspokemon.org/x",
+                GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/x-archive",
                 Events: [
                     {
                         Group: "Badges",
@@ -1244,6 +1262,8 @@ var tppData = [
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 BaseGame: "Emerald",
                 Region: "Hoenn",
+                TPPOrgLink: "http://twitchplayspokemon.org/omegaruby",
+                GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/omegaruby-archive",
                 Events: [
                     {
                         Group: "Badges",
@@ -1392,6 +1412,8 @@ var tppData = [
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Kanto",
                 DexTotal: 151,
+                TPPOrgLink: "http://twitchplayspokemon.org/ar",
+                GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/red-anniversary",
                 Events: [
                     {
                         Group: "Badges",
@@ -2569,6 +2591,7 @@ var tppData = [
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Hoenn",
                 BaseGame: "Emerald",
+                TPPOrgLink: "http://twitchplayspokemon.org/alphasapphire",
                 Events: [
                     {
                         Group: "Badges",
@@ -2900,6 +2923,7 @@ var tppData = [
                 HostImage: "img/hosts/aaaaaaa.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Orre",
+                TPPOrgLink: "http://twitchplayspokemon.org/colosseum",
                 Events: [
                     {
                         Group: "Bosses",
@@ -3014,6 +3038,7 @@ var tppData = [
                 HostImage: "img/hosts/abbbcc.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3woea1/alphab%C4%93tos_av%C4%ABci/",
                 Region: "Orre",
+                TPPOrgLink: "http://twitchplayspokemon.org/xd",
                 Events: [
                     {
                         "Group": "Bosses",
@@ -3177,6 +3202,7 @@ var tppData = [
                 HostName: "EVAN",
                 Region: "Kanto, Johto",
                 DexTotal: 251,
+                TPPOrgLink: "http://twitchplayspokemon.org/",
                 Events: [
                     {
                         Group: "Champions",
@@ -3190,6 +3216,13 @@ var tppData = [
                         Name: "AZURE",
                         Image: "img/trainers/crystal/rematch/azure.png",
                         Time: "30d 1h 14m",
+                        Attempts: 1
+                    },
+                    {
+                        Group: "Champions",
+                        Name: "Professor Oak",
+                        Image: "img/trainers/crystal/oak.png",
+                        Time: "26d 17h 22m",
                         Attempts: 1
                     },
                     {
@@ -4147,6 +4180,7 @@ var tppData = [
                 HostImage: "img/hosts/orlando.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Hoenn",
+                GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/orasdemo",
                 Events: [
                     {
                         Name: "Mission 1\nCatch Glalie",
@@ -4954,6 +4988,7 @@ var tppData = [
                 Duration: "2016-04-04T12:37:00Z",
                 HostName: "Mystery Inc.",
                 HostImage: "img/hosts/other/scoob.gif",
+                HostImageSource: "https://scratch.mit.edu/projects/96266342/",
                 Events: [],
             },
         ]
