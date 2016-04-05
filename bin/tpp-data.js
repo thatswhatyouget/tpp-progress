@@ -4499,9 +4499,9 @@ var tppData = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Magmar Coin",
+                        Name: "GR Fire Coin",
                         Image: "http://cdn.bulbagarden.net/upload/c/cb/Coin_Magmar_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-04-05T03:13:00Z"
                     },
                     {
                         Group: "Badges",
