@@ -4603,9 +4603,9 @@ TPPOrgLink: "http://twitchplayspokemon.org/alphasapphire",
                     },
                     {
                         Group: "Badges",
-                        Name: "Snorlax Coin",
+                        Name: "GR Colorless Coin", //"Snorlax Coin",
                         Image: "http://cdn.bulbagarden.net/upload/3/36/Coin_Snorlax_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-04-06T21:36:00Z"
                     },
                     {
                         Group: "Badges",
