@@ -4597,9 +4597,9 @@ TPPOrgLink: "http://twitchplayspokemon.org/alphasapphire",
                     },
                     {
                         Group: "Badges",
-                        Name: "Machamp Coin",
+                        Name: "GR Fighting Coin", //"Machamp Coin",
                         Image: "http://cdn.bulbagarden.net/upload/d/db/Coin_Machamp_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-04-05T10:31:00Z"
                     },
                     {
                         Group: "Badges",
