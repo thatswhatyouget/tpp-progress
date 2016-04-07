@@ -4538,7 +4538,8 @@ var tppData = [
                         Group: "Elite Four",
                         Name: "Steve",
                         Image: "img/tcg/steve.png",
-                        Time: "-1d",
+                        Time: "2016-04-07T14:30:00Z",
+                        Attempts: 1
                     },
                     {
                         Group: "Elite Four",

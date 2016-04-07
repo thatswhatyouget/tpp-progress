@@ -445,7 +445,7 @@ ul.controls > li > ul > li > * {
     display: none;
 }
 
-.progressChart .tradingcardgame .event.elitefour img {
+.progressChart .tradingcardgame .event.elitefour img, .progressChart .tradingcardgame2theinvasionofteamgr .event.elitefour img {
     height:48px;
     top:0;
 }
