@@ -4609,9 +4609,9 @@ TPPOrgLink: "http://twitchplayspokemon.org/alphasapphire",
                     },
                     {
                         Group: "Badges",
-                        Name: "Mew Coin",
+                        Name: "GR Psychic Coin", //"Mew Coin",
                         Image: "http://cdn.bulbagarden.net/upload/1/1b/Coin_Mew_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-04-07T05:31:00Z"
                     },
                     {
                         Group: "Badges",
