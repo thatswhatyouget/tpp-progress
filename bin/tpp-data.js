@@ -4528,6 +4528,31 @@ var tppData = [
                         Time: "2016-04-07T05:31:00Z"
                     },
                     {
+                        Group: "Elite Four",
+                        Name: "Courtney",
+                        Image: "img/tcg/courtney.png",
+                        Time: "2016-04-07T12:21:00Z",
+                        Attempts: 1
+                    },
+                    {
+                        Group: "Elite Four",
+                        Name: "Steve",
+                        Image: "img/tcg/steve.png",
+                        Time: "-1d",
+                    },
+                    {
+                        Group: "Elite Four",
+                        Name: "Jack",
+                        Image: "img/tcg/jack.png",
+                        Time: "-1d",
+                    },
+                    {
+                        Group: "Elite Four",
+                        Name: "Rod",
+                        Image: "img/tcg/rod.png",
+                        Time: "-1d",
+                    },
+                    {
                         Group: "Badges",
                         Name: "Togepi Coin",
                         Image: "http://cdn.bulbagarden.net/upload/8/81/Coin_Togepi_GB2.png",

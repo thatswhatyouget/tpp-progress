@@ -670,7 +670,7 @@ var tppData: TPP.Collection[] = [
                 HostImage: "img/hosts/aoooo.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Kanto, Johto",
-TPPOrgLink: "http://twitchplayspokemon.org/heartgold",
+                TPPOrgLink: "http://twitchplayspokemon.org/heartgold",
                 GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/heartgold-archive",
                 Events: [
                     {
@@ -895,7 +895,7 @@ TPPOrgLink: "http://twitchplayspokemon.org/heartgold",
                 HostImage: "img/hosts/gmyc.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Unova",
-TPPOrgLink: "http://twitchplayspokemon.org/black",
+                TPPOrgLink: "http://twitchplayspokemon.org/black",
                 GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/black-archive",
                 Events: [
                     {
@@ -2597,7 +2597,7 @@ TPPOrgLink: "http://twitchplayspokemon.org/black",
                 //     parts: [],
                 //     pokemon: true
                 // },
-TPPOrgLink: "http://twitchplayspokemon.org/alphasapphire",
+                TPPOrgLink: "http://twitchplayspokemon.org/alphasapphire",
                 Events: [
                     {
                         Group: "Badges",
@@ -4612,6 +4612,34 @@ TPPOrgLink: "http://twitchplayspokemon.org/alphasapphire",
                         Name: "GR Psychic Coin", //"Mew Coin",
                         Image: "http://cdn.bulbagarden.net/upload/1/1b/Coin_Mew_GB2.png",
                         Time: "2016-04-07T05:31:00Z"
+                    },
+                    {
+                        Group: "Elite Four",
+                        Name: "Courtney",
+                        Image: "img/tcg/courtney.png",
+                        Time: "2016-04-07T12:21:00Z",
+                        Attempts: 1
+                    },
+                    {
+                        Group: "Elite Four",
+                        Name: "Steve",
+                        Image: "img/tcg/steve.png",
+                        Time: "-1d",
+                        //Attempts: 2
+                    },
+                    {
+                        Group: "Elite Four",
+                        Name: "Jack",
+                        Image: "img/tcg/jack.png",
+                        Time: "-1d",
+                        //Attempts: 1
+                    },
+                    {
+                        Group: "Elite Four",
+                        Name: "Rod",
+                        Image: "img/tcg/rod.png",
+                        Time: "-1d",
+                        //Attempts: 1
                     },
                     {
                         Group: "Badges",
