@@ -4638,7 +4638,7 @@ var tppData: TPP.Collection[] = [
                         Group: "Elite Four",
                         Name: "Rod",
                         Image: "img/tcg/rod.png",
-                        Time: "-1d",
+                        Time: "2016-04-07T20:19:00Z",
                         Attempts: 1
                     },
                     {
