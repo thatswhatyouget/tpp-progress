@@ -4545,13 +4545,15 @@ var tppData = [
                         Group: "Elite Four",
                         Name: "Jack",
                         Image: "img/tcg/jack.png",
-                        Time: "-1d",
+                        Time: "2016-04-07T17:49:00Z",
+                        Attempts: 1
                     },
                     {
                         Group: "Elite Four",
                         Name: "Rod",
                         Image: "img/tcg/rod.png",
                         Time: "-1d",
+                        Attempts: 1
                     },
                     {
                         Group: "Badges",
