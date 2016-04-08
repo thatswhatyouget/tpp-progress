@@ -4557,9 +4557,9 @@ var tppData = [
                     },
                     {
                         Group: "Badges",
-                        Name: "Togepi Coin",
+                        Name: "GR King Coin",
                         Image: "http://cdn.bulbagarden.net/upload/8/81/Coin_Togepi_GB2.png",
-                        Time: "-1s"
+                        Time: "2016-04-08T08:14:00Z",
                     },
                     {
                         Group: "Badges",
@@ -4956,8 +4956,7 @@ var tppData = [
                 StartDate: "2016-03-29T22:18:00Z",
                 ColorPrimary: "#abd6fd",
                 ColorSecondary: "#002c94",
-                Ongoing: true,
-                Duration: new Date().toISOString(),
+                Duration: "2016-04-08T08:55:00Z",
                 HostName: "Mint",
                 HostImage: "img/hosts/mint.png",
                 HostImageSource: "http://ryuki-stardust.deviantart.com/art/Pokemon-TCG-Mark-and-Mint-160913403",
