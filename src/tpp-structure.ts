@@ -23,6 +23,7 @@ module TPP {
             pokemon?: boolean;
         };
         BaseGame?: string;
+        Class?: string;
         ContainsRunsFrom?: string[];
         Unfinished?: boolean;
         Events: Event[];

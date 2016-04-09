@@ -5120,6 +5120,7 @@ var tppData: TPP.Collection[] = [
                 HostName: "Wario",
                 HostImage: "http://www.mariowiki.com/images/4/41/WLIIWarioSprite.png",
                 HostImageSource: "http://www.mariowiki.com/Wario_Land_II",
+                Class: "squarehost",
                 Events: [],
             },
             {
@@ -5131,14 +5132,15 @@ var tppData: TPP.Collection[] = [
                 Unfinished: true,
                 Duration: "2016-04-08T22:05:00Z",
                 HostName: "Eirika",
-                HostImage: "http://vignette4.wikia.nocookie.net/fireemblem/images/c/c9/Eirika.png/revision/latest?cb=20101101182609",
+                HostImage: "http://vignette1.wikia.nocookie.net/fireemblem/images/b/b0/Eirikaingame.gif/revision/latest?cb=20090813125046",
                 HostImageSource: "http://fireemblem.wikia.com/wiki/Eirika",
+                Class: "squarehost",
                 Events: [
                     {
                         Group: "Hosts",
                         Name: "Eirika",
                         Time: "2016-04-08T14:03:00Z",
-                        Image: "http://vignette4.wikia.nocookie.net/fireemblem/images/c/c9/Eirika.png/revision/latest?cb=20101101182609",
+                        Image: "http://vignette1.wikia.nocookie.net/fireemblem/images/b/b0/Eirikaingame.gif/revision/latest?cb=20090813125046",
                         ImageSource: "http://fireemblem.wikia.com/wiki/Eirika",
                     },
                 ],
@@ -5154,6 +5156,7 @@ var tppData: TPP.Collection[] = [
                 HostName: "Harry Potter",
                 HostImage: "http://1.bp.blogspot.com/-vvGvLKIwMHU/Tjc-BMYrBhI/AAAAAAAABlg/a8fCwZttUj0/s1600/Harry%2B2.gif",
                 HostImageSource: "http://dollsparablogs.blogspot.com/2015/08/harry-potter.html",
+                Class: "squarehost",
                 Events: [],
             },
             {
@@ -5162,15 +5165,28 @@ var tppData: TPP.Collection[] = [
                 ColorPrimary: "#e6d746",
                 ColorSecondary: "#43050a",
                 BackgroundImage: "linear-gradient(to bottom, rgba(230,215,70,1) 20%,rgba(251,251,215,1) 45%,rgba(251,251,215,1) 55%,rgba(230,215,70,1) 80%)",
-                Ongoing: true,
-                Duration: new Date().toISOString(),
+                Unfinished: true,
+                Duration: "2016-04-09T01:25:00Z",
                 HostName: "Lute",
-                HostImage: "http://vignette3.wikia.nocookie.net/fireemblem/images/5/57/Lute.png/revision/latest?cb=20101101183650",
+                HostImage: "http://vignette1.wikia.nocookie.net/fireemblem/images/0/04/Luteingame.gif/revision/latest?cb=20090813133523",
                 HostImageSource: "http://fireemblem.wikia.com/wiki/Lute",
-                Events: [
-                ],
+                Class: "squarehost",
+                Events: [],
                 ContainsRunsFrom: ["Intermissions", "Short Intermissions", "Long Intermissions"],
             },
+            {
+                RunName: "Randomized Trading Card Game",
+                StartDate: "2016-04-09T01:25:00Z",
+                ColorPrimary: "#e0e0c0",
+                ColorSecondary: "#e00000",
+                Duration: new Date().toISOString(),
+                HostName: "66",
+                HostImage: "img/hosts/mark.png",
+                HostImageSource: "http://ryuki-stardust.deviantart.com/art/Pokemon-TCG-Mark-and-Mint-160913403",
+                Region: "TCG Island",
+                Events: []
+            },
+
         ]
     },
     {

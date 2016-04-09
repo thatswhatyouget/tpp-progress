@@ -83,6 +83,7 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
     run = run || document.createElement("div");
     run.className = "run";
     if (runInfo.Ongoing) run.className += " ongoing";
+    if (runInfo.Class) run.className += " " + runInfo.Class;
     var duration = Duration.parse(runInfo.Duration, runInfo.StartTime);
     runInfo.Duration = duration.toString(TPP.Scale.Weeks);
     run.setAttribute("data-duration", runInfo.Duration);

@@ -80,6 +80,8 @@ function drawRun(runInfo, run, scale, events) {
     run.className = "run";
     if (runInfo.Ongoing)
         run.className += " ongoing";
+    if (runInfo.Class)
+        run.className += " " + runInfo.Class;
     var duration = Duration.parse(runInfo.Duration, runInfo.StartTime);
     runInfo.Duration = duration.toString(TPP.Scale.Weeks);
     run.setAttribute("data-duration", runInfo.Duration);

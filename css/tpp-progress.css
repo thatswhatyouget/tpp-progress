@@ -327,6 +327,12 @@ ul.controls > li > ul > li > * {
     top:-30px;
 }
 
+.progressChart .run.squarehost .event.hosts img {
+    height:50px;
+    top:50%;
+    transform:translateY(-55%) translateX(-50%);   
+}
+
 .progressChart .run .event.hosts:first-of-type img {
 	left:-14px;
 }
