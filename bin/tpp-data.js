@@ -5074,7 +5074,7 @@ var tppData = [
                 ColorSecondary: "#43050a",
                 BackgroundImage: "linear-gradient(to bottom, rgba(230,215,70,1) 20%,rgba(251,251,215,1) 45%,rgba(251,251,215,1) 55%,rgba(230,215,70,1) 80%)",
                 Unfinished: true,
-                Duration: "2016-04-09T01:25:00Z",
+                Duration: "2016-04-09T01:24:00Z",
                 HostName: "Lute",
                 HostImage: "http://vignette1.wikia.nocookie.net/fireemblem/images/0/04/Luteingame.gif/revision/latest?cb=20090813133523",
                 HostImageSource: "http://fireemblem.wikia.com/wiki/Lute",
