@@ -5087,11 +5087,25 @@ var tppData = [
                 StartDate: "2016-04-09T01:25:00Z",
                 ColorPrimary: "#e0e0c0",
                 ColorSecondary: "#e00000",
-                Duration: new Date().toISOString(),
+                Duration: "2016-04-09T05:55:00Z",
+                Unfinished: true,
                 HostName: "66",
                 HostImage: "img/hosts/mark.png",
                 HostImageSource: "http://ryuki-stardust.deviantart.com/art/Pokemon-TCG-Mark-and-Mint-160913403",
                 Region: "TCG Island",
+                Events: []
+            },
+            {
+                RunName: "Hamtaro: Ham-Hams Unite!",
+                StartDate: "2016-04-09T06:15:00Z",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                ColorPrimary: "#e59910",
+                ColorSecondary: "#480052",
+                HostImage: "img/hosts/other/hamtaro.gif",
+                HostImageSource: "http://biggysprites.smackjeeves.com/comics/678645/hamtaro-sprite-sheet-2/",
+                HostName: "98866IQ",
+                Region: "Hamtaro",
                 Events: []
             },
         ]
