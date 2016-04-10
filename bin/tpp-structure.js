@@ -103,7 +103,7 @@ var QueryString = (function () {
     var retobj = {};
     window.location.search.substring(1).split("&").forEach(function (vars) {
         var pair = vars.split("=");
-        retobj[pair.shift()] = pair.join('=');
+        retobj[pair.shift()] = decodeURI(pair.join('='));
     });
     return retobj;
 })();

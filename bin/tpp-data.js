@@ -152,7 +152,8 @@ var tppData = [
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 TPPOrgLink: "http://twitchplayspokemon.org/crystal",
                 GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/crystal-archive",
-                Region: "Kanto, Johto",
+                Region: "Johto",
+                AdditionalRegions: [{ Name: "Kanto", Time: "10d 0h 56m" }],
                 Events: [
                     {
                         Group: "Badges",
@@ -668,7 +669,8 @@ var tppData = [
                 HostName: "aoooo",
                 HostImage: "img/hosts/aoooo.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
-                Region: "Kanto, Johto",
+                Region: "Johto",
+                AdditionalRegions: [{ Name: "Kanto", Time: "11d 15h 9m" }],
                 TPPOrgLink: "http://twitchplayspokemon.org/heartgold",
                 GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/heartgold-archive",
                 Events: [
@@ -3200,7 +3202,11 @@ var tppData = [
                 HostImage: "img/hosts/evan.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46elnh/evan_sprites/",
                 HostName: "EVAN",
-                Region: "Kanto, Johto",
+                Region: "Kanto",
+                AdditionalRegions: [
+                    { Name: "Johto", Time: "1d 3h 21m" },
+                    { Name: "Kanto", Time: "12d 6h 36m" }
+                ],
                 DexTotal: 251,
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Events: [
@@ -3551,7 +3557,8 @@ var tppData = [
                 HostName: "BABA",
                 HostImage: "img/hosts/baba.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
-                Region: "Kanto, Johto",
+                Region: "Johto",
+                AdditionalRegions: [{ Name: "Kanto", Time: "2015-09-14T18:37:36Z" }],
                 Events: [
                     {
                         Group: "Badges",
@@ -4620,7 +4627,7 @@ var tppData = [
                 HostImage: "img/hosts/other/shigeki.png",
                 HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
                 HostName: "lゲg",
-                Region: "Denjuu World",
+                Region: "E-Monsters World",
                 ContainsRunsFrom: ["Intermissions", "Short Intermissions"],
                 Events: [
                     { Group: "Pokemon", Name: "Kuribute", Time: "0d 0h 41m" },
@@ -5119,7 +5126,7 @@ var tppData = [
                     { Group: "Badges", Name: "Maxwell", Image: "img/hamhams/maxwell.gif", Time: "2016-04-09T10:34:00Z" },
                     { Group: "Badges", Name: "Oxnard", Image: "img/hamhams/oxnard.gif", Time: "2016-04-09T11:43:00Z" },
                     { Group: "Badges", Name: "Panda", Image: "img/hamhams/panda.gif", Time: "2016-04-09T19:08:00Z" },
-                    { Group: "Badges", Name: "Pashmina", Image: "img/hamhams/pashmina.gif", Time: "-1d" },
+                    { Group: "Badges", Name: "Pashmina", Image: "img/hamhams/pashmina.gif", Time: "2016-04-10T02:04:00Z" },
                     { Group: "Badges", Name: "Penelope", Image: "img/hamhams/penelope.gif", Time: "-1d" },
                     { Group: "Badges", Name: "Sandy", Image: "img/hamhams/sandy.gif", Time: "-1d" },
                     { Group: "Badges", Name: "Stan", Image: "img/hamhams/stan.gif", Time: "-1d" },

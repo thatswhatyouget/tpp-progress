@@ -25,7 +25,7 @@
 	<div class="title">
 		<h1>Twitch Plays Pokemon</h1>
         <div class="subtitle">
-            <span class="Region">Region</span> Race
+            <span class="Region" style="text-transform:capitalize;">Region</span> Race
             <a href="index.html">See Full Progress Chart</a>
         </div>
 	</div>
@@ -60,13 +60,30 @@
     <div class="charts">
 	   <script>
             var day = Math.floor(QueryString.day || 0);
+            var pure = !!QueryString.pure;
             var region = QueryString.region || "Kanto", reeg = region.toLowerCase();;
-            var data = tppData.map(function (c) {
-                var newC = { Scale: day ? c.Scale == TPP.Scale.Weeks ? c.Scale : TPP.Scale.Days : c.Scale, Name: c.Name, SingularName: c.SingularName, Offset:c.Offset};
-                if (day) newC.Offset = -(day - 1);
-                newC.Runs = c.Runs.filter(function (r) { return r.Region && r.Region.toLowerCase().indexOf(reeg) >= 0; });
-                return newC;
-            }).filter(function (c) { return c.Runs.length; });
+            var data = Array.prototype.concat.apply([], tppData.map(function (c) {
+                var newC = { Scale: day ? c.Scale == TPP.Scale.Weeks ? c.Scale : TPP.Scale.Days : c.Scale, Name: c.Name, SingularName: c.SingularName, Offset: c.Offset};
+                newC.Offset = day ? -(day - 1) : day;
+                newC.Runs = c.Runs.map(function (r) {
+                   if (!r.AdditionalRegions) return r;
+                   var newR = {};
+                   Object.keys(r).forEach(function(k) { newR[k] = r[k]; });
+                   newR.EndDate = newR.Duration = r.AdditionalRegions[0].Time;
+                   return newR;
+                }).filter(function (r) { return r.Region && r.Region.toLowerCase().trim() == reeg && Duration.parse(r.Duration, r.StartTime).TotalDays > (day - 1); });
+                return Array.prototype.concat.apply([newC], pure ? [] : Array.prototype.concat.apply([], c.Runs.map(function(r) {
+                    return (r.AdditionalRegions || []).map(function (ar, i, ararray) {
+                        if (ar.Name.toLowerCase() != reeg) return;
+                        var nc = { Scale: newC.Scale, Name: r.RunName + " (Starting at " + Duration.parse(ar.Time, r.StartTime).toString(newC.Scale) + ")", SingularName: c.SingularName, Offset: newC.Offset - Duration.parse(ar.Time, r.StartTime).TotalTime(newC.Scale)};
+                        var newR = {};
+                        Object.keys(r).forEach(function(k) { newR[k] = r[k]; });
+                        if (ararray.length > (i + 1)) newR.EndDate = newR.Duration = ararray[i + 1].Time;
+                        nc.Runs = [newR];
+                        return nc;
+                    }).filter(function(r) { return r; });
+                }).filter(function(r) { return r; })));
+            })).filter(function (c) { return c.Runs.length; });
             if (day) globalPpd = 1024;
             $('span.region').text(region);
             createCharts(data);

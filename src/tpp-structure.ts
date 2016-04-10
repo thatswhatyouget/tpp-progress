@@ -14,6 +14,10 @@ module TPP {
         ColorSecondary: string;
         BackgroundImage?: string;
         Region?: string;
+        AdditionalRegions?: {
+            Name: string,
+            Time: string,
+        }[];
         DexTotal?: number;
         Scraper?: {
             url: string;
@@ -182,9 +186,9 @@ class Duration {
 
 var QueryString = (() => {
     var retobj: { [key: string]: string } = {}
-    window.location.search.substring(1).split("&").forEach(vars=> {
+    window.location.search.substring(1).split("&").forEach(vars => {
         var pair = vars.split("=");
-        retobj[pair.shift()] = pair.join('=');
+        retobj[pair.shift()] = decodeURI(pair.join('='));
     });
     return retobj;
 })();
