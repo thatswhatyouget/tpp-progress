@@ -4921,6 +4921,9 @@ var tppData = [
                 HostName: "...6S?",
                 Region: "Hamtaro",
                 Events: [
+                    { Group: "Badges", Name: "Bijou", Image: "img/hamhams/bijou.gif", Time: "2016-03-29T05:55:00Z" },
+                    { Group: "Badges", Name: "Maxwell", Image: "img/hamhams/maxwell.gif", Time: "2016-03-29T07:51:00Z" },
+                    { Group: "Badges", Name: "Oxnard", Image: "img/hamhams/oxnard.gif", Time: "2016-03-29T10:03:00Z" },
                     {
                         Group: "Hosts",
                         Name: "AA,4444",
@@ -4928,6 +4931,7 @@ var tppData = [
                         Image: "img/hosts/other/hamtaro.gif",
                         ImageSource: "http://biggysprites.smackjeeves.com/comics/678645/hamtaro-sprite-sheet-2/",
                     },
+                    { Group: "Badges", Name: "Bijou", Image: "img/hamhams/bijou.gif", Time: "2016-03-29T13:35:00Z" },
                     {
                         Group: "Hosts",
                         Name: "PBR2.0",
