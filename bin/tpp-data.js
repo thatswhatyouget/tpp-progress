@@ -4972,7 +4972,7 @@ var tppData = [
                 HostName: "Mint",
                 HostImage: "img/hosts/mint.png",
                 HostImageSource: "http://ryuki-stardust.deviantart.com/art/Pokemon-TCG-Mark-and-Mint-160913403",
-                Region: "TCG Island, GR Island",
+                Region: "TCG Island",
                 Events: [],
                 ContainsRunsFrom: ["Intermissions", "Short Intermissions", "Long Intermissions"],
                 CopyEvents: ["Trading Card Game 2: The Invasion of Team GR!"]
@@ -5130,8 +5130,8 @@ var tppData = [
                     { Group: "Badges", Name: "Panda", Image: "img/hamhams/panda.gif", Time: "2016-04-09T19:08:00Z" },
                     { Group: "Badges", Name: "Pashmina", Image: "img/hamhams/pashmina.gif", Time: "2016-04-10T02:04:00Z" },
                     { Group: "Badges", Name: "Penelope", Image: "img/hamhams/penelope.gif", Time: "2016-04-10T08:23:00Z" },
-                    { Group: "Badges", Name: "Sandy", Image: "img/hamhams/sandy.gif", Time: "-1d" },
-                    { Group: "Badges", Name: "Stan", Image: "img/hamhams/stan.gif", Time: "-1d" },
+                    { Group: "Badges", Name: "Sandy", Image: "img/hamhams/sandy.gif", Time: "2016-04-10T21:34:00Z" },
+                    { Group: "Badges", Name: "Stan", Image: "img/hamhams/stan.gif", Time: "2016-04-10T21:34:00Z" },
                 ]
             },
         ]

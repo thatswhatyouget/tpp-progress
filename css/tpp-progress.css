@@ -241,6 +241,7 @@ ul.controls > li > ul > li > * {
 	transform: translateX(-50%);
 	transition: all 2s ease-in-out;
 	border:none;
+    font-size:1px;
 }
 
 .progressChart .run .event.fastforward::before {
@@ -458,6 +459,10 @@ ul.controls > li > ul > li > * {
 
 .progressChart .harvestmoongbc .event.hosts img, .progressChart .harvestmoongbc2 .event.hosts img {
     transform: translateX(-30%);   
+}
+
+.progressChart .run.hamtaro .event img {
+    font-size:2px;
 }
 
 @media print {

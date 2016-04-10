@@ -15,7 +15,7 @@ function findImage(element: HTMLElement) {
     return $find([element], "img").pop().pop() || new Image();
 }
 function marginTop(element: HTMLElement) {
-    return parseInt((element.style.marginTop || '0').replace('px', '')) || 0;
+    return parseInt((element.style.marginTop || '0').replace('/(px)|(em)/g', '')) || 0;
 }
 var globalPpd: number = 64, groups: { [key: string]: string } = {};
 var vidWait: JQueryDeferred<Twitch.Video[]> = $.Deferred(), videos = vidWait.promise(),
@@ -84,6 +84,7 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
     run.className = "run";
     if (runInfo.Ongoing) run.className += " ongoing";
     if (runInfo.Class) run.className += " " + runInfo.Class;
+    if (runInfo.Region) run.className += " " + cleanString(runInfo.Region);
     var duration = Duration.parse(runInfo.Duration, runInfo.StartTime);
     runInfo.Duration = duration.toString(TPP.Scale.Weeks);
     run.setAttribute("data-duration", runInfo.Duration);
@@ -293,15 +294,17 @@ function staggerStackedEvents(allEvents: HTMLElement[], runHeight: number) {
                 var thisWidth = width(thisImg, pokeMode);
                 var thisLeft = getLeft(event) - thisWidth / 2;
                 if (thisLeft + thisWidth > myLeft && thisLeft < myLeft + myWidth) {
-                    thisImg.style.marginTop = (marginTop(thisImg) - (thisLeft + thisWidth - myLeft) * d) + "px";
-                    myImg.style.marginTop = (marginTop(myImg) + (thisLeft + thisWidth - myLeft) * d) + "px";
+                    thisImg.style.marginTop = (marginTop(thisImg) - (thisLeft + thisWidth - myLeft) * d) + "em";
+                    myImg.style.marginTop = (marginTop(myImg) + (thisLeft + thisWidth - myLeft) * d) + "em";
                 }
             }
             if (i > 1 && events[i - 1]) pushEvent(events[i - 1]);
             if (events[i + 1]) pushEvent(events[i + 1]);
         });
     });
-    findImage(allEvents[0]).style.marginTop = findImage(allEvents[allEvents.length - 1]).style.marginTop = "0";
+    findImage(allEvents[0]).style.marginTop = "0";
+    if (!$(allEvents[0]).parents('.run').is('.ongoing'))
+        findImage(allEvents[allEvents.length - 1]).style.marginTop = "0";
 }
 
 function updatePage(ppd = globalPpd) {
