@@ -5019,6 +5019,7 @@ var tppData: TPP.Collection[] = [
                 HostImageSource: "http://biggysprites.smackjeeves.com/comics/678645/hamtaro-sprite-sheet-2/",
                 HostName: "...6S?",
                 Region: "Hamtaro",
+                Class: "squarehost",
                 Events: [
                     { Group: "Badges", Name: "Bijou", Image: "img/hamhams/bijou.gif", Time: "2016-03-29T05:55:00Z" },
                     { Group: "Badges", Name: "Maxwell", Image: "img/hamhams/maxwell.gif", Time: "2016-03-29T07:51:00Z" },
@@ -5209,6 +5210,7 @@ var tppData: TPP.Collection[] = [
                 HostImageSource: "http://biggysprites.smackjeeves.com/comics/678645/hamtaro-sprite-sheet-2/",
                 HostName: "98866IQ",
                 Region: "Hamtaro",
+                Class: "squarehost",
                 Events: [
                     { Group: "Badges", Name: "Bijou", Image: "img/hamhams/bijou.gif", Time: "2016-04-09T08:53:00Z" },
                     { Group: "Badges", Name: "Cappy", Image: "img/hamhams/cappy.gif", Time: "-1d" },
