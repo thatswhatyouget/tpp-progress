@@ -4983,10 +4983,10 @@ var tppData = [
                 Duration: "2016-04-03T18:50:00Z",
                 ColorPrimary: "#008bff",
                 ColorSecondary: "#0021b4",
-                HostImage: "img/trainers/crystal/azure.gif",
-                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46gsoo/azure_our_perky_exrival_animated/",
+                HostImage: "img/hosts/qjv[.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4e7ehd/jamie_of_bracket_queen_of_april_fools/",
                 HostName: "QJv[",
-                Region: "Kanto, Johto",
+                Region: "Kanto",
                 Events: [
                     { Group: "Badges", Image: "img/badges/boulder.png", Name: "Boulder Badge", Time: "2016-04-02T12:35:00Z" },
                     { Group: "Pokemon", Name: "OLDEN", Class: "Charmander", Time: "2016-04-01T20:28:00Z" },
