@@ -461,10 +461,6 @@ ul.controls > li > ul > li > * {
     transform: translateX(-30%);   
 }
 
-.progressChart .run.hamtaro .event img {
-    font-size:2px;
-}
-
 @media print {
     body {
         -webkit-print-color-adjust: exact;
