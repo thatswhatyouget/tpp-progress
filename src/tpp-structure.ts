@@ -30,6 +30,10 @@ module TPP {
         Class?: string;
         ContainsRunsFrom?: string[];
         Unfinished?: boolean;
+        Revisit?: {
+            Collection: string;
+            Run: string;
+        },
         Events: Event[];
         CopyEvents?: string[];
         Videos?: Twitch.Video[];

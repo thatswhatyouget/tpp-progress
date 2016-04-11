@@ -71,7 +71,7 @@
                    Object.keys(r).forEach(function(k) { newR[k] = r[k]; });
                    newR.EndDate = newR.Duration = r.AdditionalRegions[0].Time;
                    return newR;
-                }).filter(function (r) { return r.Region && r.Region.toLowerCase().trim() == reeg && Duration.parse(r.Duration, r.StartTime).TotalDays > (day - 1); });
+                }).filter(function (r) { return !r.Revisit && r.Region && r.Region.toLowerCase().trim() == reeg && Duration.parse(r.Duration, r.StartTime).TotalDays > (day - 1); });
                 return Array.prototype.concat.apply([newC], pure ? [] : Array.prototype.concat.apply([], c.Runs.map(function(r) {
                     return (r.AdditionalRegions || []).map(function (ar, i, ararray) {
                         if (ar.Name.toLowerCase() != reeg) return;

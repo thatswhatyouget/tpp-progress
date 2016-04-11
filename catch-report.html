@@ -112,13 +112,13 @@
             var data = tppData.map(function (c) {
                 var newC = { Scale: c.Scale == TPP.Scale.Weeks ? c.Scale : TPP.Scale.Days, Name: c.Name, SingularName: c.SingularName, Offset:c.Offset};
                 if (day) newC.Offset = -(day - 1);
-                newC.Runs = c.Runs.filter(function (r) { return (!r.Unfinished || r.Ongoing) && ((r.Scraper && r.Scraper.pokemon) || ((r.DexTotal || !QueryString.fulldex) && r.Events.filter(function (e) { return e.Group == "Pokemon"; }).length)); })
+                newC.Runs = c.Runs.filter(function (r) { return (!r.Revisit || r.CopyEvents) && (!r.Unfinished || r.Ongoing) && ((r.Scraper && r.Scraper.pokemon) || ((r.DexTotal || !QueryString.fulldex) && r.Events.filter(function (e) { return e.Group == "Pokemon"; }).length)); })
                     .map(function (r) {
                         var startFrom = Duration.parse((r.Events.filter(function(e) { 
                             return e.Group == "Hosts" && (!day || Duration.parse(e.Time, r.StartTime).TotalDays < day);
                          }).sort(function(e) { 
                              return Duration.parse(e.Time, r.StartTime).TotalSeconds;
-                        }).pop() || {Time:"0d"}).Time, r.StartTime).TotalDays;
+                        }).pop() || { Time: 0 }).Time || "2014-01-01T00:00:00Z", r.StartTime).TotalDays;
                         function countMons() {return r.Events.filter(function(e) { var t = Duration.parse(e.Time, r.StartTime).TotalDays; return e.Group == "Pokemon" && e.Name != "Egg" && (!day || t < day) && (t >= startFrom);}).length};
                         r.Ongoing = true;
                         r.Events.push({

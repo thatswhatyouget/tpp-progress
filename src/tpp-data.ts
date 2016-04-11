@@ -552,7 +552,63 @@ var tppData: TPP.Collection[] = [
                         Image: "img/trainers/firered/green.png",
                         Time: "15d 2h 1m",
                         Attempts: 3
-                    }
+                    },
+                    { Name: "Charizard", Time: "10d 16h 9m", Group: "Pokemon" },
+                    { Name: "Squirtle", Time: "1d 23h 20m", Group: "Pokemon" },
+                    { Name: "Wartortle", Time: "7d 1h 57m", Group: "Pokemon" },
+                    { Name: "Blastoise", Time: "10d 8h 43m", Group: "Pokemon" },
+                    { Name: "Metapod", Time: "6d 5h 55m", Group: "Pokemon" },
+                    { Name: "Pidgey", Time: "0d 3h 39m", Group: "Pokemon" },
+                    { Name: "Rattata", Time: "2d 13h 40m", Group: "Pokemon" },
+                    { Name: "Pikachu", Time: "2d 13h 37m", Group: "Pokemon" },
+                    { Name: "Sandslash", Time: "0d 21h 37m", Group: "Pokemon" },
+                    { Name: "NidoranF", Time: "0d 3h 35m", Group: "Pokemon" },
+                    { Name: "NidoranM", Time: "9d 5h 35m", Group: "Pokemon" },
+                    { Name: "Gloom", Time: "9d 1h 4m", Group: "Pokemon" },
+                    { Name: "Mankey", Time: "7d 0h 14m", Group: "Pokemon" },
+                    { Name: "Poliwag", Time: "9d 1h 10m", Group: "Pokemon" },
+                    { Name: "Machop", Time: "0d 0h 4m", Group: "Pokemon" },
+                    { Name: "Tentacool", Time: "9d 1h 0m", Group: "Pokemon" },
+                    { Name: "Ponyta", Time: "9d 15h 36m", Group: "Pokemon" },
+                    { Name: "Seel", Time: "9d 0h 43m", Group: "Pokemon" },
+                    { Name: "Marowak", Time: "8d 4h 59m", Group: "Pokemon" },
+                    { Name: "Koffing", Time: "8d 15h 10m", Group: "Pokemon" },
+                    { Name: "Rhyhorn", Time: "9d 1h 21m", Group: "Pokemon" },
+                    { Name: "Eevee", Time: "6d 23h 12m", Group: "Pokemon" },
+                    { Name: "Mew", Time: "9d 8h 15m", Group: "Pokemon" },
+                    { Name: "Ledyba", Time: "14d 6h 51m", Group: "Pokemon" },
+                    { Name: "Ariados", Time: "10d 16h 2m", Group: "Pokemon" },
+                    { Name: "Togepi", Time: "8d 6h 38m", Group: "Pokemon" },
+                    { Name: "Marill", Time: "0d 2h 1m", Group: "Pokemon" },
+                    { Name: "Hoppip", Time: "6d 16h 45m", Group: "Pokemon" },
+                    { Name: "Jumpluff", Time: "7d 20h 57m", Group: "Pokemon" },
+                    { Name: "Wooper", Time: "1d 16h 47m", Group: "Pokemon" },
+                    { Name: "Quagsire", Time: "7d 11h 52m", Group: "Pokemon" },
+                    { Name: "Slugma", Time: "0d 2h 5m", Group: "Pokemon" },
+                    { Name: "Corsola", Time: "11d 3h 17m", Group: "Pokemon" },
+                    { Name: "Larvitar", Time: "9d 2h 36m", Group: "Pokemon" },
+                    { Name: "Treecko", Time: "7d 15h 51m", Group: "Pokemon" },
+                    { Name: "Torchic", Time: "7d 15h 46m", Group: "Pokemon" },
+                    { Name: "Zigzagoon", Time: "0d 2h 18m", Group: "Pokemon" },
+                    { Name: "Wingull", Time: "2d 13h 39m", Group: "Pokemon" },
+                    { Name: "Kirlia", Time: "0d 3h 40m", Group: "Pokemon" },
+                    { Name: "Surskit", Time: "0d 1h 29m", Group: "Pokemon" },
+                    { Name: "Masquerain", Time: "4d 7h 45m", Group: "Pokemon" },
+                    { Name: "Slakoth", Time: "8d 6h 36m", Group: "Pokemon" },
+                    { Name: "Vigoroth", Time: "8d 17h 37m", Group: "Pokemon" },
+                    { Name: "Slaking", Time: "11d 1h 20m", Group: "Pokemon" },
+                    { Name: "Nincada", Time: "1d 21h 59m", Group: "Pokemon" },
+                    { Name: "Skitty", Time: "0d 2h 8m", Group: "Pokemon" },
+                    { Name: "Aron", Time: "9d 5h 29m", Group: "Pokemon" },
+                    { Name: "Electrike", Time: "8d 6h 4m", Group: "Pokemon" },
+                    { Name: "Carvanha", Time: "9d 1h 20m", Group: "Pokemon" },
+                    { Name: "Torkoal", Time: "11d 19h 52m", Group: "Pokemon" },
+                    { Name: "Cacnea", Time: "2d 13h 31m", Group: "Pokemon" },
+                    { Name: "Swablu", Time: "4d 8h 47m", Group: "Pokemon" },
+                    { Name: "Altaria", Time: "10d 17h 14m", Group: "Pokemon" },
+                    { Name: "Lileep", Time: "9d 0h 53m", Group: "Pokemon" },
+                    { Name: "Shuppet", Time: "9d 0h 57m", Group: "Pokemon" },
+                    { Name: "Glalie", Time: "7d 13h 13m", Group: "Pokemon" },
                 ]
             },
             {
@@ -4006,6 +4062,34 @@ var tppData: TPP.Collection[] = [
         ]
     },
     {
+        Name: "Revisits",
+        SingularName: "Revisit",
+        Scale: TPP.Scale.Hours,
+        Runs: [
+            {
+                RunName: "Randomized FireRed Revisit",
+                ColorPrimary: "#ff7e1b",
+                ColorSecondary: "#8b5325",
+                StartDate: "2016-04-11T05:38:00Z",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                HostName: "A",
+                HostImage: "img/hosts/a2.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Kanto",
+                Events: [
+                    { Group: "Pokemon", Name: "Spinarak", Time: "2016-04-11T06:01:00Z" },
+                    { Group: "Pokemon", Name: "Swinub", Time: "2016-04-11T06:04:00Z" },
+                    { Group: "Pokemon", Name: "Hoothoot", Time: "2016-04-11T08:41:00Z" },
+                    { Group: "Pokemon", Name: "Smeargle", Time: "2016-04-11T08:48:00Z" },
+                ],
+                Revisit: { Collection: "Season 1", Run: "Randomized FireRed" },
+                CopyEvents: ["Randomized FireRed"],
+            }
+        ]
+
+    },
+    {
         Name: "Long Intermissions",
         SingularName: "Long Intermission",
         Scale: TPP.Scale.Days,
@@ -5241,3 +5325,20 @@ var Intermissions = tppData.filter(c => c.Name == "Intermissions").pop(),
 ShortIntermissions.Runs = [].concat.apply(ShortIntermissions.Runs, Intermissions.Runs.filter(r => Duration.parse(r.Duration, r.StartTime).TotalHours < 4));
 LongIntermissions.Runs = [].concat.apply(LongIntermissions.Runs, Intermissions.Runs.filter(r => Duration.parse(r.Duration, r.StartTime).TotalHours >= 100));
 Intermissions.Runs = Intermissions.Runs.filter(r => { var d = Duration.parse(r.Duration, r.StartTime).TotalHours; return d >= 4 && d < 100; });
+tppData.forEach(c => c.Runs.forEach(baseRunInfo => {
+    if (!baseRunInfo.CopyEvents) return;
+    var events: TPP.Event[] = [];
+    tppData.forEach(c => c.Runs.filter(r => baseRunInfo != r && baseRunInfo.CopyEvents.indexOf(r.RunName) >= 0).forEach(r => events = events.concat.apply(events, r.Events.map(e => {
+        var newE = <TPP.Event>{};
+        Object.keys(e).forEach(k => newE[k] = e[k]);
+        try {
+            newE.Time = new Date((Duration.parse(e.Time, r.StartTime).TotalSeconds + r.StartTime) * 1000).toISOString();
+        }
+        catch (ex) {
+            newE.Time = e.Time;
+        }
+        return newE;
+    }))));
+    events.forEach(e => !baseRunInfo.Events.filter(e2 => e2.Name == e.Name && e2.Time == e.Time).length ? baseRunInfo.Events.push(e) : console.log("Skipped event " + e.Name));
+
+}));

@@ -4,7 +4,7 @@
 /// <reference path="twitch-videos.ts" />
 
 var fakeQuery: (selector: string) => Array<HTMLElement> = selector => Array.prototype.slice.call(document.querySelectorAll(selector));
-var $find: (elements: Array<HTMLElement>, selector: string) => Array<Array<HTMLElement>> = (elements, selector) => elements.map(e=> e ? Array.prototype.slice.call(e.querySelectorAll(selector)) : []);
+var $find: (elements: Array<HTMLElement>, selector: string) => Array<Array<HTMLElement>> = (elements, selector) => elements.map(e => e ? Array.prototype.slice.call(e.querySelectorAll(selector)) : []);
 function getLeft(element: HTMLElement) {
     return parseInt(element.style.left.replace('px', ''));
 }
@@ -37,7 +37,7 @@ function makeGrid(ppd: number) {
 }
 
 function createCharts(data: TPP.Collection[]) {
-    data.filter(c=> c.Runs.filter(r=> r.StartTime < Date.now() / 1000).length > 0).forEach(createChart);
+    data.filter(c => c.Runs.filter(r => r.StartTime < Date.now() / 1000).length > 0).forEach(createChart);
     setTimeout(() => updatePage(), 1);
 }
 
@@ -52,7 +52,7 @@ function createChart(data: TPP.Collection) {
     var pageTarget = fakeQuery(".charts")[0] || document.body;
     setTimeout(() => pageTarget.appendChild(chart), 1);
     var longestRun = new Duration(0);
-    data.Runs.filter(r=> r.StartTime < Date.now() / 1000).forEach(run=> {
+    data.Runs.filter(r => r.StartTime < Date.now() / 1000).forEach(run => {
         var runLength = Duration.parse(run.EndDate || run.Duration, run.StartTime);
         if (longestRun.TotalSeconds < runLength.TotalSeconds) longestRun = runLength;
         chart.appendChild(queueRun(run, data.Scale));
@@ -71,7 +71,7 @@ function createChart(data: TPP.Collection) {
 
 function queueRun(runInfo: TPP.Run, scale = TPP.Scale.Days) {
     var div = document.createElement("div");
-    if (runInfo.Scraper) Scrape(runInfo).then(r=> {
+    if (runInfo.Scraper) Scrape(runInfo).then(r => {
         drawRun(r, div, scale);
         setTimeout(() => updatePage(), 0);
     }, console.error);
@@ -91,16 +91,15 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
     run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
     run.setAttribute("data-start", runInfo.StartTime.toString());
     run.setAttribute("data-label", runInfo.RunName + ": " + duration.toString(scale));
-    run.setAttribute("data-startDate", new Date(runInfo.StartDate).toISOString().replace(/-/g, '/').replace(/T/, ' ').replace(/:\d+\.\d+/,'').replace(/Z/, ' UTC'));
+    run.setAttribute("data-startDate", new Date(runInfo.StartDate).toISOString().replace(/-/g, '/').replace(/T/, ' ').replace(/:\d+\.\d+/, '').replace(/Z/, ' UTC'));
     run.style.backgroundColor = runInfo.ColorPrimary;
     run.style.backgroundImage = runInfo.BackgroundImage;
     run.style.borderColor = run.style.color = runInfo.ColorSecondary;
     setUniqueId(run, runInfo.RunName);
     if (runInfo.HostImage && runInfo.HostName) run.appendChild(drawHost(runInfo, scale));
     if (events) {
-        importEvents(runInfo);
-        runInfo.Events.filter(e=> Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0).sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
-        runInfo.Events.forEach(e=> delete e.New);
+        runInfo.Events.filter(e => Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0).sort((e1, e2) => Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds).forEach(event => run.appendChild(drawEvent(event, runInfo, scale)));
+        runInfo.Events.forEach(e => delete e.New);
         drawVideos(runInfo, run, scale);
         setTimeout(() => updateRun(runInfo, run, scale), 15 * 60000);
     }
@@ -119,19 +118,19 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
 
 function updateRun(runInfo: TPP.Run, run: HTMLDivElement, scale) {
     if (!(runInfo.Scraper && runInfo.Ongoing)) return;
-    Scrape(runInfo).then(r=> {
+    Scrape(runInfo).then(r => {
         console.log("Updating " + runInfo.RunName + " to " + runInfo.Duration);
         run.setAttribute("data-duration", runInfo.Duration);
         run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
         run.setAttribute("data-label", runInfo.RunName + ": " + Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale));
-        runInfo.Events.filter(e=> e.New).forEach(event=> run.appendChild(drawEvent(event, runInfo, scale)));
+        runInfo.Events.filter(e => e.New).forEach(event => run.appendChild(drawEvent(event, runInfo, scale)));
         updatePage();
         if ($(run).find('.videos a').is('*')) drawVideos(runInfo, run, scale, Twitch.GetVideos("twitchplayspokemon", false));
     });
     setTimeout(() => updateRun(runInfo, run, scale), 15 * 60000);
 }
 
-var cleanString = (str:string) => str.replace(/[^A-Z0-9]/ig, '').toLowerCase();
+var cleanString = (str: string) => str.replace(/[^A-Z0-9]/ig, '').toLowerCase();
 
 function setUniqueId(element: HTMLElement, id: string) {
     var original = id = cleanString(id);
@@ -156,7 +155,7 @@ function drawConcurrentRuns(baseRunInfo: TPP.Run, runElement: HTMLDivElement, sc
     if (!baseRunInfo.ContainsRunsFrom || !baseRunInfo.ContainsRunsFrom.length) return;
     var baseDuration = Duration.parse(baseRunInfo.Duration),
         baseEndTime = baseRunInfo.StartTime + baseDuration.TotalSeconds;
-    tppData.filter(c=> baseRunInfo.ContainsRunsFrom.indexOf(c.Name) >= 0).map(c=> c.Runs.filter(r=> baseRunInfo.StartTime < r.StartTime && baseEndTime > r.StartTime).forEach(r=> {
+    tppData.filter(c => baseRunInfo.ContainsRunsFrom.indexOf(c.Name) >= 0).map(c => c.Runs.filter(r => baseRunInfo.StartTime < r.StartTime && baseEndTime > r.StartTime).forEach(r => {
         var innerRun = document.createElement("div");
         var runStart = Duration.parse(r.StartDate, baseRunInfo.StartTime),
             runEnd = Duration.parse(r.Duration, r.StartTime);
@@ -174,20 +173,13 @@ function drawConcurrentRuns(baseRunInfo: TPP.Run, runElement: HTMLDivElement, sc
     }));
 }
 
-function importEvents(baseRunInfo: TPP.Run) {
-    if (!baseRunInfo.CopyEvents) return;
-    var events: TPP.Event[] = [];
-    tppData.forEach(c=> c.Runs.filter(r=> baseRunInfo.CopyEvents.indexOf(r.RunName) >= 0).forEach(r=> events = events.concat.apply(events, r.Events)));
-    events.forEach(e=> !baseRunInfo.Events.filter(e2=> e2.Name == e.Name && e2.Time == e.Time).length ? baseRunInfo.Events.push(e) : console.log("Skipped event " + e.Name));
-}
-
 function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
     delete eventInfo.New;
     var groupName = eventInfo.Group.replace(/[^A-Z0-9]/ig, '').toLowerCase();
     var event = document.createElement("div");
     var eventImg = document.createElement("img");
     event.classList.add("event");
-    if (eventInfo.Class) eventInfo.Class.split(' ').forEach(c=> event.classList.add(c.replace(/[^A-Z0-9]/ig, '').toLowerCase()));
+    if (eventInfo.Class) eventInfo.Class.split(' ').forEach(c => event.classList.add(c.replace(/[^A-Z0-9]/ig, '').toLowerCase()));
     if (eventInfo.Group.toLowerCase() == "pokemon") {
         event.classList.add("pokesprite");
     }
@@ -223,22 +215,22 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
 
 function applyScale(ppd?: number) {
     globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || 64) / Math.log(2))); //floor to power of 2
-    fakeQuery('.progressChart').forEach(chart=> {
+    fakeQuery('.progressChart').forEach(chart => {
         chart.style.backgroundImage = 'url("' + makeGrid(ppd) + '")';
     });
-    $find(fakeQuery(".progressChart .ruler"), ".stop").forEach(ruler=> ruler.forEach((stop, i) => {
+    $find(fakeQuery(".progressChart .ruler"), ".stop").forEach(ruler => ruler.forEach((stop, i) => {
         var offset = parseFloat($(stop).parents('.progressChart').data('offset') || '0');
         stop.style.left = (i + offset) * ppd + "px";
     }));
-    fakeQuery(".progressChart > .run").forEach(run=> {
+    fakeQuery(".progressChart > .run").forEach(run => {
         var scale = TPP.Scale[run.parentElement.getAttribute('data-scale')] || TPP.Scale[run.parentElement.parentElement.getAttribute('data-scale')] || 0;
         var durationAttribute = settings["postgame"] ? "data-endtime" : "data-duration",
             duration = Duration.parse(run.getAttribute(durationAttribute));
         if (run.getAttribute(durationAttribute)) run.style.width = duration.TotalTime(scale) * ppd + "px";
         var runs = $find([run], ".run").pop(),
-            events = $find([run], ".event").pop().filter(e=> !e.classList.contains('hidden') && e.parentElement == run),
+            events = $find([run], ".event").pop().filter(e => !e.classList.contains('hidden') && e.parentElement == run),
             videos = $find([run], ".videos a").pop();
-        [].concat(events).concat(runs).concat(videos).forEach(event=> {
+        [].concat(events).concat(runs).concat(videos).forEach(event => {
             if (event.getAttribute('data-time')) {
                 var time = Duration.parse(event.getAttribute('data-time'))
                 event.style.left = time.TotalTime(scale) * ppd + "px";
@@ -250,7 +242,7 @@ function applyScale(ppd?: number) {
         });
         staggerStackedRuns(runs, run.offsetHeight);
         if (settings["explode"]) {
-            staggerStackedEvents(events.filter(e=> e.style.display != "none"), run.offsetHeight);
+            staggerStackedEvents(events.filter(e => e.style.display != "none"), run.offsetHeight);
         }
         var offset = parseFloat($(run).parents('.progressChart').data('offset') || '0');
         run.style.marginLeft = offset * ppd + "px";
@@ -280,7 +272,7 @@ function staggerStackedRuns(runs: HTMLElement[], runHeight: number) {
 
 function staggerStackedEvents(allEvents: HTMLElement[], runHeight: number) {
     var dir = .1;
-    [allEvents.filter(e=> e.className.indexOf("pokemon") < 0), allEvents.filter(e=> e.className.indexOf("pokemon") >= 0)].forEach(events=> {
+    [allEvents.filter(e => e.className.indexOf("pokemon") < 0), allEvents.filter(e => e.className.indexOf("pokemon") >= 0)].forEach(events => {
         var width = (element: HTMLElement, pokeMode?: boolean) => pokeMode ? 25 : getWidth(element) || runHeight;
         events.forEach((e, i) => {
             var d = dir *= -1;
@@ -309,9 +301,9 @@ function staggerStackedEvents(allEvents: HTMLElement[], runHeight: number) {
 
 function updatePage(ppd = globalPpd) {
     setTimeout(() => applyScale(ppd), 0);
-    var extant = fakeQuery(".groups input").map(i=> i.id.split('-').pop()) || [];
+    var extant = fakeQuery(".groups input").map(i => i.id.split('-').pop()) || [];
     var groupList = fakeQuery(".groups ul").pop();
-    Object.keys(groups).filter(g=> extant.indexOf(g) < 0).forEach(g=> {
+    Object.keys(groups).filter(g => extant.indexOf(g) < 0).forEach(g => {
         var li = document.createElement("li");
         var input = document.createElement("input");
         var label = document.createElement("label");
@@ -328,36 +320,36 @@ function updatePage(ppd = globalPpd) {
 
 function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP.Scale, videoCollection = videos) {
     var vidDiv = $('<div class="videos">').appendTo(runElement);
-    videoCollection.then(vids=> vids.filter(vid=> (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime)
-        ).forEach(vid=> {
-            var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0),
-                runEnd = baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds;
-            if (vid.StartTime < baseRunInfo.StartTime) {
-                time = 0;
-                duration -= (startOffset = baseRunInfo.StartTime - vid.StartTime);
-            }
-            if (vid.EndTime > runEnd && !baseRunInfo.Ongoing) duration -= vid.EndTime - runEnd;
-            vidStart.TotalSeconds = time;
-            vidEnd.TotalSeconds = duration;
-            var $video = $(runElement).find('.videos a[href="' + vid.url + '"]');
-            if (!$video.is('*')) {
-                $video = $("<a target='_blank'>").addClass(vid.source.toLowerCase()).attr('href', vid.url).appendTo(vidDiv).mousemove(function(e) {
-                    var vidTime = new Duration(0), runTime = new Duration(0), percentage = (Math.abs(e.pageX - $(this).offset().left) / $(this).width()),
-                        time = Duration.parse($(this).data('time')).TotalSeconds, duration = Duration.parse($(this).data('duration')).TotalSeconds;
-                    vidTime.TotalSeconds = (percentage * duration) + startOffset;
-                    runTime.TotalSeconds = (percentage * duration) + time;
-                    $(this).attr('href', vid.url + "?t=" + vidTime.toString(TPP.Scale.Hours).replace(/\s/g, ''));
-                    $(this).find('.playhead').css('left', percentage * $(this).width()).attr('data-label', runTime.toString(scale));
-                }).click(e=> e.stopPropagation()).append($("<div class='playhead'>"));
-            }
-            $video.attr('data-time', vidStart.toString()).attr('data-duration', vidEnd.toString());
-            $(runElement).addClass("hasVideos");
-            if (!$("#group-videos").is('*'))
-                $("<li>")
-                    .append($('<input type="checkbox" id="group-videos" checked>').change(function() { $("div.videos").toggleClass('hidden', $(this).val()); }))
-                    .append($('<label for="group-videos">').text("Videos"))
-                    .appendTo($("li.groups ul"));
-        })).then(() => updatePage());
+    videoCollection.then(vids => vids.filter(vid => (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime)
+    ).forEach(vid => {
+        var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0),
+            runEnd = baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds;
+        if (vid.StartTime < baseRunInfo.StartTime) {
+            time = 0;
+            duration -= (startOffset = baseRunInfo.StartTime - vid.StartTime);
+        }
+        if (vid.EndTime > runEnd && !baseRunInfo.Ongoing) duration -= vid.EndTime - runEnd;
+        vidStart.TotalSeconds = time;
+        vidEnd.TotalSeconds = duration;
+        var $video = $(runElement).find('.videos a[href="' + vid.url + '"]');
+        if (!$video.is('*')) {
+            $video = $("<a target='_blank'>").addClass(vid.source.toLowerCase()).attr('href', vid.url).appendTo(vidDiv).mousemove(function(e) {
+                var vidTime = new Duration(0), runTime = new Duration(0), percentage = (Math.abs(e.pageX - $(this).offset().left) / $(this).width()),
+                    time = Duration.parse($(this).data('time')).TotalSeconds, duration = Duration.parse($(this).data('duration')).TotalSeconds;
+                vidTime.TotalSeconds = (percentage * duration) + startOffset;
+                runTime.TotalSeconds = (percentage * duration) + time;
+                $(this).attr('href', vid.url + "?t=" + vidTime.toString(TPP.Scale.Hours).replace(/\s/g, ''));
+                $(this).find('.playhead').css('left', percentage * $(this).width()).attr('data-label', runTime.toString(scale));
+            }).click(e => e.stopPropagation()).append($("<div class='playhead'>"));
+        }
+        $video.attr('data-time', vidStart.toString()).attr('data-duration', vidEnd.toString());
+        $(runElement).addClass("hasVideos");
+        if (!$("#group-videos").is('*'))
+            $("<li>")
+                .append($('<input type="checkbox" id="group-videos" checked>').change(function() { $("div.videos").toggleClass('hidden', $(this).val()); }))
+                .append($('<label for="group-videos">').text("Videos"))
+                .appendTo($("li.groups ul"));
+    })).then(() => updatePage());
 }
 
 //controls and settings

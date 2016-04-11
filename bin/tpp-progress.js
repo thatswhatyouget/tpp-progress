@@ -98,7 +98,6 @@ function drawRun(runInfo, run, scale, events) {
     if (runInfo.HostImage && runInfo.HostName)
         run.appendChild(drawHost(runInfo, scale));
     if (events) {
-        importEvents(runInfo);
         runInfo.Events.filter(function (e) { return Duration.parse(e.Time, runInfo.StartTime).TotalSeconds >= 0; }).sort(function (e1, e2) { return Duration.parse(e1.Time, runInfo.StartTime).TotalSeconds - Duration.parse(e2.Time, runInfo.StartTime).TotalSeconds; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
         runInfo.Events.forEach(function (e) { return delete e.New; });
         drawVideos(runInfo, run, scale);
@@ -169,13 +168,6 @@ function drawConcurrentRuns(baseRunInfo, runElement, scale) {
         innerRun.classList.add("inner" + cleanString(r.RunName));
         innerRun.setAttribute('data-label', (c.SingularName || c.Name) + "\n" + r.RunName + "\nStarted: " + runStart.toString(scale) + (r.Ongoing ? "" : "\nEnded: " + runEnd.toString(scale)));
     }); });
-}
-function importEvents(baseRunInfo) {
-    if (!baseRunInfo.CopyEvents)
-        return;
-    var events = [];
-    tppData.forEach(function (c) { return c.Runs.filter(function (r) { return baseRunInfo.CopyEvents.indexOf(r.RunName) >= 0; }).forEach(function (r) { return events = events.concat.apply(events, r.Events); }); });
-    events.forEach(function (e) { return !baseRunInfo.Events.filter(function (e2) { return e2.Name == e.Name && e2.Time == e.Time; }).length ? baseRunInfo.Events.push(e) : console.log("Skipped event " + e.Name); });
 }
 function drawEvent(eventInfo, runInfo, scale) {
     delete eventInfo.New;
