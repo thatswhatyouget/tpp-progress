@@ -5213,7 +5213,7 @@ var tppData: TPP.Collection[] = [
                 Class: "squarehost",
                 Events: [
                     { Group: "Badges", Name: "Bijou", Image: "img/hamhams/bijou.gif", Time: "2016-04-09T08:53:00Z" },
-                    { Group: "Badges", Name: "Cappy", Image: "img/hamhams/cappy.gif", Time: "-1d" },
+                    { Group: "Badges", Name: "Cappy", Image: "img/hamhams/cappy.gif", Time: "2016-04-11T00:40:00Z" },
                     { Group: "Badges", Name: "Howdy", Image: "img/hamhams/howdy.gif", Time: "2016-04-10T14:44:00Z" },
                     { Group: "Badges", Name: "Dexter", Image: "img/hamhams/dexter.gif", Time: "2016-04-10T14:44:00Z" },
                     { Group: "Badges", Name: "Jingle", Image: "img/hamhams/jingle.gif", Time: "2016-04-10T07:24:00Z" },
