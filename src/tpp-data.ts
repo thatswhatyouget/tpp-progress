@@ -5202,8 +5202,7 @@ var tppData: TPP.Collection[] = [
             {
                 RunName: "Hamtaro: Ham-Hams Unite!",
                 StartDate: "2016-04-09T06:15:00Z",
-                Duration: new Date().toISOString(),
-                Ongoing: true,
+                Duration: "2016-04-11T00:48:00Z",
                 ColorPrimary: "#e59910",
                 ColorSecondary: "#480052",
                 HostImage: "img/hosts/other/hamtaro.gif",
