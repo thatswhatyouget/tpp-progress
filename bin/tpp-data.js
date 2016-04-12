@@ -4042,6 +4042,7 @@ var tppData = [
                     { Group: "Pokemon", Name: "Goldeen", Time: "2016-04-11T14:44:00Z" },
                     { Group: "Pokemon", Name: "Nidorino", Time: "2016-04-11T16:28:00Z" },
                     { Group: "Pokemon", Name: "Pichu", Time: "2016-04-11T17:26:00Z" },
+                    { Group: "Pokemon", Name: "Sentret", Time: "2016-04-12T00:21:00Z" },
                 ],
                 Revisit: { Collection: "Season 1", Run: "Randomized FireRed" },
                 CopyEvents: ["Randomized FireRed"],
