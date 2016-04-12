@@ -4071,8 +4071,7 @@ var tppData: TPP.Collection[] = [
                 ColorPrimary: "#ff7e1b",
                 ColorSecondary: "#8b5325",
                 StartDate: "2016-04-11T05:38:00Z",
-                Duration: new Date().toISOString(),
-                Ongoing: true,
+                Duration: "2016-04-12T23:00:00Z",
                 HostName: "A",
                 HostImage: "img/hosts/a2.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
@@ -4100,6 +4099,52 @@ var tppData: TPP.Collection[] = [
                 ],
                 Revisit: { Collection: "Season 1", Run: "Randomized FireRed" },
                 CopyEvents: ["Randomized FireRed"],
+            },
+            {
+                RunName: "Emerald Revisit",
+                ColorPrimary: "#9bbb59",
+                ColorSecondary: "#71893f",
+                Duration: "2d",
+                StartDate: "2016-04-12T23:00:00Z",
+                HostName: "A",
+                HostImage: "img/hosts/a.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Hoenn",
+                Events: [
+                ],
+                Revisit: { Collection: "Season 1", Run: "Emerald" },
+                CopyEvents: ["Emerald"],
+            },
+            {
+                RunName: "Crystal Revisit",
+                ColorPrimary: "#4f81bd",
+                ColorSecondary: "#385d8a",
+                Duration: "2d",
+                StartDate: "2016-04-14T23:00:00Z",
+                HostName: "AJDNNW",
+                HostImage: "img/hosts/ajdnnw.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Johto",
+                AdditionalRegions: [{ Name: "Kanto", Time: "10d 0h 56m" }],
+                Events: [
+                ],
+                Revisit: { Collection: "Season 1", Run: "Crystal" },
+                CopyEvents: ["Crystal"],
+            },
+            {
+                RunName: "Red Revisit",
+                ColorPrimary: "#c0504d",
+                ColorSecondary: "#8c3836",
+                Duration: "1d",
+                StartDate: "2016-04-16T23:00:00Z",
+                HostName: "RED",
+                HostImage: "img/hosts/red.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Kanto",
+                Events: [
+                ],
+                Revisit: { Collection: "Season 1", Run: "Red" },
+                CopyEvents: ["Red"],
             }
         ]
 
@@ -5333,7 +5378,13 @@ var tppData: TPP.Collection[] = [
         Runs: []
     }
 ];
-tppData.forEach(c => c.Runs.forEach(r => r.StartTime = r.StartTime || (r.StartDate ? Math.floor(Date.parse(r.StartDate) / 1000) : 0)));
+tppData.forEach(c => c.Runs.forEach(r => {
+    r.StartTime = r.StartTime || (r.StartDate ? Math.floor(Date.parse(r.StartDate) / 1000) : 0);
+    if (Duration.parse(r.Duration, r.StartTime).TotalSeconds > ((Date.now() / 1000) - r.StartTime)) {
+        r.Duration = new Date().toISOString();
+        r.Ongoing = true;
+    }
+}));
 var Intermissions = tppData.filter(c => c.Name == "Intermissions").pop(),
     ShortIntermissions = tppData.filter(c => c.Name == "Short Intermissions").pop(),
     LongIntermissions = tppData.filter(c => c.Name == "Long Intermissions").pop();
