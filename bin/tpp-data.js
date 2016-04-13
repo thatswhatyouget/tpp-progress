@@ -4105,6 +4105,7 @@ var tppData = [
                 Region: "Hoenn",
                 Events: [
                     { Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png", Time: "2016-04-13T09:21:00Z", Attempts: 1 },
+                    { Group: "Pokemon", Name: "Kecleon", Time: "2016-04-13T23:18:00Z" },
                 ],
                 Revisit: { Collection: "Season 1", Run: "Emerald" },
                 CopyEvents: ["Emerald"],
