@@ -4142,6 +4142,7 @@ var tppData: TPP.Collection[] = [
                     { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/firered/rematch/lance.png", Time: "2016-04-12T13:18:00Z", Attempts: 2 },
                     { Group: "Champions", Name: "Green", Image: "img/trainers/firered/rematch/green.png", Time: "2016-04-13T00:15:00Z", Attempts: 5 },
                     { Group: "Pokemon", Name: "Lugia", Time: "2016-04-13T02:50:00Z" },
+                    { Group: "Pokemon", Name: "Huntail", Time: "2016-04-13T03:57:00Z" },
 
                 ],
                 Revisit: { Collection: "Season 1", Run: "Randomized FireRed" },
