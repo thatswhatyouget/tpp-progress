@@ -4103,7 +4103,9 @@ var tppData = [
                 HostImage: "img/hosts/a.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Hoenn",
-                Events: [],
+                Events: [
+                    { Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png", Time: "2016-04-13T09:21:00Z", Attempts: 1 },
+                ],
                 Revisit: { Collection: "Season 1", Run: "Emerald" },
                 CopyEvents: ["Emerald"],
             },
