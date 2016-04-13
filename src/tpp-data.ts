@@ -4141,6 +4141,8 @@ var tppData: TPP.Collection[] = [
                     { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/firered/rematch/agatha.png", Time: "2016-04-12T11:38:00Z", Attempts: 2 },
                     { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/firered/rematch/lance.png", Time: "2016-04-12T13:18:00Z", Attempts: 2 },
                     { Group: "Champions", Name: "Green", Image: "img/trainers/firered/rematch/green.png", Time: "2016-04-13T00:15:00Z", Attempts: 5 },
+                    { Group: "Pokemon", Name: "Lugia", Time: "2016-04-13T02:50:00Z" },
+
                 ],
                 Revisit: { Collection: "Season 1", Run: "Randomized FireRed" },
                 CopyEvents: ["Randomized FireRed"],
@@ -4150,7 +4152,7 @@ var tppData: TPP.Collection[] = [
                 ColorPrimary: "#9bbb59",
                 ColorSecondary: "#71893f",
                 Duration: "2d",
-                StartDate: "2016-04-13T11:00:00Z",
+                StartDate: "2016-04-13T05:00:00Z",
                 HostName: "A",
                 HostImage: "img/hosts/a.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
@@ -5031,6 +5033,7 @@ var tppData: TPP.Collection[] = [
                 Unfinished: true,
                 HostName: "TwitchPlays",
                 HostImage: "img/hosts/twitchplays.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4ei1ew/the_evolution_of_twitchplays/",
                 Region: "Ferrum",
                 Events: []
             },
@@ -5078,22 +5081,26 @@ var tppData: TPP.Collection[] = [
                 Duration: "2016-03-27T16:50:00Z",
                 Unfinished: true,
                 HostName: "TwitchPlays",
-                HostImage: "img/hosts/twitchplays2.png",
+                HostImage: "img/hosts/twitchplays.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4ei1ew/the_evolution_of_twitchplays/",
                 Region: "Ferrum",
                 Events: [
-                    // {
-                    //     Group: "Hosts",
-                    //     Name: "TwitchPlays",
-                    //     Image: "img/hosts/twitchplays2.png",
-                    //     Time: "2016-03-24T04:02:00Z"
-                    // },
+                    {
+                        Group: "Hosts",
+                        Name: "TwitchPlays",
+                        Image: "img/hosts/twitchplays2.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4ei1ew/the_evolution_of_twitchplays/",
+                        Time: "2016-03-24T04:02:00Z"
+                    },
                     {
                         Group: "Hosts",
                         Name: "TwitchPlays",
                         Image: "img/hosts/twitchplays3.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4ei1ew/the_evolution_of_twitchplays/",
                         Time: "2016-03-26T00:10:00Z"
                     }
-                ]
+                ],
+                Revisit: { Collection: "Intermissions", Run: "Pokkén Tournament" },
             },
             {
                 RunName: "Robopon",
