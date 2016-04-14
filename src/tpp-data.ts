@@ -4161,6 +4161,7 @@ var tppData: TPP.Collection[] = [
                 Events: [
                     { Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png", Time: "2016-04-13T09:21:00Z", Attempts: 1 },
                     { Group: "Pokemon", Name: "Kecleon", Time: "2016-04-13T23:18:00Z" },
+                    { Group: "Rematch Badges", Name: "Feather Badge", Image: "img/badges/rematch/feather.png", Time: "2016-04-14T01:53:00Z", Attempts: 1 },
                 ],
                 Revisit: { Collection: "Season 1", Run: "Emerald" },
                 CopyEvents: ["Emerald"],
