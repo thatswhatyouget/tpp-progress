@@ -4185,6 +4185,12 @@ var tppData: TPP.Collection[] = [
                 //AdditionalRegions: [{ Name: "Kanto", Time: "10d 0h 56m" }],
                 Events: [
                     { Group: "Pokemon", Name: "Spinarak", Time: "2016-04-15T23:24:00Z" },
+                    { Group: "Past Hosts", Name: "RED", Image: "img/hosts/red.png", Time: "2016-04-16T04:37:00Z", Attempts: 1 },
+                    { Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png", Time: "2016-04-16T05:47:00Z", Attempts: 1 },
+                    { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "2016-04-16T05:53:00Z", Attempts: 1 },
+                    { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "2016-04-16T06:01:00Z", Attempts: 1 },
+                    { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "2016-04-16T06:15:00Z", Attempts: 1 },
+                    { Group: "Champions", Name: "Lance", Image: "img/trainers/crystal/lance.png", Time: "2016-04-16T06:25:00Z", Attempts: 1 },
                 ],
                 Revisit: { Collection: "Season 1", Run: "Crystal" },
                 CopyEvents: ["Crystal"],
