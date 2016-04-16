@@ -4127,8 +4127,9 @@ var tppData = [
                 HostImage: "img/hosts/ajdnnw.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Johto",
-                AdditionalRegions: [{ Name: "Kanto", Time: "10d 0h 56m" }],
-                Events: [],
+                Events: [
+                    { Group: "Pokemon", Name: "Spinarak", Time: "2016-04-15T23:24:00Z" },
+                ],
                 Revisit: { Collection: "Season 1", Run: "Crystal" },
                 CopyEvents: ["Crystal"],
             },
