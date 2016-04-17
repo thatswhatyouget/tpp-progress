@@ -4158,6 +4158,7 @@ var tppData = [
                 Region: "Kanto",
                 Events: [
                     { Group: "Pokemon", Name: "Tentacool", Time: "2016-04-17T01:16:00Z" },
+                    { Group: "Pokemon", Name: "MissingNo.", Time: "2016-04-17T04:37:00Z", Image: "img/missingno.png" },
                 ],
                 Revisit: { Collection: "Season 1", Run: "Red" },
                 CopyEvents: ["Red"],

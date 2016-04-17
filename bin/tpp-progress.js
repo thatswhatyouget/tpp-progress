@@ -177,7 +177,7 @@ function drawEvent(eventInfo, runInfo, scale) {
     event.classList.add("event");
     if (eventInfo.Class)
         eventInfo.Class.split(' ').forEach(function (c) { return event.classList.add(c.replace(/[^A-Z0-9]/ig, '').toLowerCase()); });
-    if (eventInfo.Group.toLowerCase() == "pokemon") {
+    if (eventInfo.Group.toLowerCase() == "pokemon" && !eventInfo.Image) {
         event.classList.add("pokesprite");
     }
     if (event.classList.contains("pokesprite")) {

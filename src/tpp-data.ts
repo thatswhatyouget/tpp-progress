@@ -4198,7 +4198,6 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Paras", Time: "2016-04-16T18:46:00Z" },
                     { Group: "Pokemon", Name: "Rhyhorn", Time: "2016-04-16T18:57:00Z" },
                     { Group: "Pokemon", Name: "NidoranF", Time: "2016-04-16T19:19:00Z" },
-
                 ],
                 Revisit: { Collection: "Season 1", Run: "Crystal" },
                 CopyEvents: ["Crystal"],
@@ -4215,6 +4214,7 @@ var tppData: TPP.Collection[] = [
                 Region: "Kanto",
                 Events: [
                     { Group: "Pokemon", Name: "Tentacool", Time: "2016-04-17T01:16:00Z" },
+                    { Group: "Pokemon", Name: "MissingNo.", Time: "2016-04-17T04:37:00Z", Image: "img/missingno.png" },
                 ],
                 Revisit: { Collection: "Season 1", Run: "Red" },
                 CopyEvents: ["Red"],
