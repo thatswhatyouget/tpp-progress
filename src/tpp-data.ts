@@ -4195,6 +4195,10 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Rattata", Time: "2016-04-16T06:50:00Z" },
                     { Group: "Pokemon", Name: "Krabby", Time: "2016-04-16T13:09:00Z" },
                     { Group: "Pokemon", Name: "Unown", Time: "2016-04-16T14:37:00Z" },
+                    { Group: "Pokemon", Name: "Paras", Time: "2016-04-16T18:46:00Z" },
+                    { Group: "Pokemon", Name: "Rhyhorn", Time: "2016-04-16T18:57:00Z" },
+                    { Group: "Pokemon", Name: "NidoranF", Time: "2016-04-16T19:19:00Z" },
+
                 ],
                 Revisit: { Collection: "Season 1", Run: "Crystal" },
                 CopyEvents: ["Crystal"],
@@ -4210,6 +4214,7 @@ var tppData: TPP.Collection[] = [
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 Region: "Kanto",
                 Events: [
+                    { Group: "Pokemon", Name: "Tentacool", Time: "2016-04-17T01:16:00Z" },
                 ],
                 Revisit: { Collection: "Season 1", Run: "Red" },
                 CopyEvents: ["Red"],
