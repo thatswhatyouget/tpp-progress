@@ -314,7 +314,7 @@ ul.controls > li > ul > li > * {
 	top:-15px;	
 }
 
-.progressChart .run .event.pasthosts img {
+.progressChart .run .event.pasthosts img, .progressChart .run .event.flip img {
     transform: translateX(-50%) rotateY(180deg);
 }
 
