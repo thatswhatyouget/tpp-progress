@@ -3636,6 +3636,24 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Meganium", "Time": "29d 15h 51m" }
                 ]
             },
+            {
+                RunName: "Brown",
+                ColorPrimary: "brown",
+                ColorSecondary: "#644d2e",
+                StartDate: "2016-06-16T01:22:45Z",
+                Duration: "255d",
+                HostName: "???",
+                HostImage: "img/trainers/red/red.png",
+                TPPOrgLink: "http://twitchplayspokemon.org/",
+                Scraper: {
+                    url: "http://twitchplayspokemon.org/",
+                    runtime: true,
+                    parts: ["Badge", "Elite Four"],
+                    pokemon: true
+                },
+                Region: "Rijon",
+                Events: []
+            }
         ]
     },
     {

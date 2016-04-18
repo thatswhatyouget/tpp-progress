@@ -3688,6 +3688,125 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Meganium", "Time": "29d 15h 51m" }
                 ]
             },
+            {
+                RunName: "Brown",
+                ColorPrimary: "brown",
+                ColorSecondary: "#644d2e",
+                StartDate: "2016-06-16T01:22:45Z",
+                Duration: "255d",
+                HostName: "???",
+                HostImage: "img/trainers/red/red.png",
+                TPPOrgLink: "http://twitchplayspokemon.org/",
+                Scraper: {
+                    url: "http://twitchplayspokemon.org/",
+                    runtime: true,
+                    parts: ["Badge", "Elite Four"],
+                    pokemon: true
+                },
+                Region: "Rijon",
+                Events: [
+                    // {
+                    //     Group: "Badges",
+                    //     Name: "Marine Badge",
+                    //     Image: "img/badges/cascade.png",
+                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Time: "-1d",
+                    //     Attempts: 0
+                    // },
+                    // {
+                    //     Group: "Badges",
+                    //     Name: "Hail Badge",
+                    //     Image: "img/badges/boulder.png",
+                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Time: "-1d",
+                    //     Attempts: 0
+                    // },
+
+                    // {
+                    //     Group: "Badges",
+                    //     Name: "Sparky Badge",
+                    //     Image: "img/badges/thunder.png",
+                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Time: "-1d",
+                    //     Attempts: 0
+                    // },
+                    // {
+                    //     Group: "Badges",
+                    //     Name: "Sprout Badge",
+                    //     Image: "img/badges/rainbow.png",
+                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Time: "-1d",
+                    //     Attempts: 0
+                    // },
+                    // {
+                    //     Group: "Badges",
+                    //     Name: "Fist Badge",
+                    //     Image: "img/badges/soul.png",
+                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Time: "-1d",
+                    //     Attempts: 0
+                    // },
+                    // {
+                    //     Group: "Badges",
+                    //     Name: "Psi Badge",
+                    //     Image: "img/badges/marsh.png",
+                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Time: "-1d",
+                    //     Attempts: 0
+                    // },
+                    // {
+                    //     Group: "Badges",
+                    //     Name: "White Badge",
+                    //     Image: "img/badges/volcano.png",
+                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Time: "-1d",
+                    //     Attempts: 0
+                    // },
+                    // {
+                    //     Group: "Badges",
+                    //     Name: "Star Badge",
+                    //     Image: "img/badges/earth.png",
+                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Time: "-1d",
+                    //     Attempts: 0
+                    // },
+                    // {
+                    //     Group: "Elite Four",
+                    //     Name: "Red",
+                    //     Image: "img/trainers/red/lorelei.png",
+                    //     Time: "-1d",
+                    //     Attempts: 0
+                    // },
+                    // {
+                    //     Group: "Elite Four",
+                    //     Name: "Jared",
+                    //     Image: "img/trainers/red/bruno.png",
+                    //     Time: "-1d",
+                    //     Attempts: 0
+                    // },
+                    // {
+                    //     Group: "Elite Four",
+                    //     Name: "Agatha",
+                    //     Image: "img/trainers/red/agatha.png",
+                    //     Time: "-1d",
+                    //     Attempts: 0
+                    // },
+                    // {
+                    //     Group: "Elite Four",
+                    //     Name: "Drake",
+                    //     Image: "img/trainers/red/lance.png",
+                    //     Time: "-1d",
+                    //     Attempts: 0
+                    // },
+                    // {
+                    //     Group: "Champions",
+                    //     Name: "Mura",
+                    //     Image: "img/trainers/red/blue.png",
+                    //     Time: "-1d",
+                    //     Attempts: 0
+                    // },
+                ]
+            }
         ]
     },
     {
