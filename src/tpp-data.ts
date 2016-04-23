@@ -3121,8 +3121,8 @@ var tppData: TPP.Collection[] = [
                         Attempts: 6
                     },
                     { "Name": "Spoink", "Time": "1d 13h 1m", "Group": "Pokemon" },
-                    { "Name": "Aipom", "Time": "4d 6h 33m", "Group": "Pokemon" },
-                    { "Name": "Farfetch'd", "Time": "2d 23h 15m", "Group": "Pokemon" },
+                    { "Name": "Aipom", "Time": "4d 6h 31m", "Group": "Pokemon" },
+                    { "Name": "Farfetch'd", "Time": "2d 23h 14m", "Group": "Pokemon" },
                     { "Name": "Staryu", "Time": "255d", "Group": "Pokemon" },
                     { "Name": "Infernape", "Time": "7d 7h 14m", "Group": "Pokemon" },
                     { "Name": "Torchic", "Time": "0d 0h 26m", "Group": "Pokemon" },
