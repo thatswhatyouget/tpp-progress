@@ -3123,7 +3123,7 @@ var tppData: TPP.Collection[] = [
                     { "Name": "Spoink", "Time": "1d 13h 1m", "Group": "Pokemon" },
                     { "Name": "Aipom", "Time": "4d 6h 31m", "Group": "Pokemon" },
                     { "Name": "Farfetch'd", "Time": "2d 23h 14m", "Group": "Pokemon" },
-                    { "Name": "Staryu", "Time": "255d", "Group": "Pokemon" },
+                    { "Name": "Staryu", "Time": "9d 13h 19m", "Group": "Pokemon" },
                     { "Name": "Infernape", "Time": "7d 7h 14m", "Group": "Pokemon" },
                     { "Name": "Torchic", "Time": "0d 0h 26m", "Group": "Pokemon" },
                     { "Name": "Rufflet", "Time": "0d 1h 26m", "Group": "Pokemon" },
@@ -5443,6 +5443,8 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Chrysant", Time: "7d40m" },
                     { Group: "Pokemon", Name: "Maharus", Time: "7d43m" },
                     { Group: "Pokemon", Name: "Amiboa", Time: "7d45m" },
+                    { Group: "Pokemon", Name: "Zea", Time: "1d14h18m" },
+                    { Group: "Pokemon", Name: "Ikusora", Time: "5d8h" },
                 ]
             },
             {
