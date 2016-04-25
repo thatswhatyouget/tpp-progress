@@ -1629,6 +1629,7 @@ var tppData: TPP.Collection[] = [
                 ColorSecondary: "#c6223b",
                 Duration: "8d 5h 42m",
                 StartDate: "2014-11-22T03:00:00Z",
+                EndDate: "10d",
                 HostName: "!12rtyhaszs",
                 HostImage: "img/hosts/rtyhaszs.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
@@ -2745,7 +2746,7 @@ var tppData: TPP.Collection[] = [
                 RunName: "Touhoumon",
                 ColorPrimary: "#fa83bb",
                 ColorSecondary: "#c40962",
-                Duration: "13d 15h 44m",
+                Duration: "13d 15h 52m",
                 StartDate: "2015-05-10T21:00:00Z",
                 HostName: "AAABBHM",
                 HostImage: "img/hosts/aaabbhm.png",
@@ -2765,13 +2766,13 @@ var tppData: TPP.Collection[] = [
                         Name: "Cascade Badge",
                         Image: "img/badges/cascade.png",
                         Time: "2d 0h 16m",
-                        Attempts: 2
+                        Attempts: 6
                     },
                     {
                         Group: "Badges",
                         Name: "Thunder Badge",
                         Image: "img/badges/thunder.png",
-                        Time: "2d 22h 28m",
+                        Time: "2d 22h 29m",
                         Attempts: 2
                     },
                     {
@@ -2785,7 +2786,7 @@ var tppData: TPP.Collection[] = [
                         Group: "Badges",
                         Name: "Soul Badge",
                         Image: "img/badges/soul.png",
-                        Time: "6d 11h 37m",
+                        Time: "6d 11h 35m",
                         Attempts: 5
                     },
                     {
@@ -2806,7 +2807,7 @@ var tppData: TPP.Collection[] = [
                         Group: "Badges",
                         Name: "Earth Badge",
                         Image: "img/badges/earth.png",
-                        Time: "9d 13h 50m",
+                        Time: "9d 13h 49m",
                         Attempts: 3
                     },
                     {
@@ -2844,14 +2845,56 @@ var tppData: TPP.Collection[] = [
                         ImageSource: "http://www.pokecommunity.com/showthread.php?t=293880",
                         Time: "13d 15h 44m",
                         Attempts: 1
-                    }
+                    },
+                    { Name: "CSanae", Time: "0d 0h 7m", Group: "Pokemon" },
+                    { Name: "Sanae", Time: "4d 0h 48m", Group: "Pokemon" },
+                    { Name: "CMomiji", Time: "2d 4h 16m", Group: "Pokemon" },
+                    { Name: "Momiji", Time: "5d 3h 25m", Group: "Pokemon" },
+                    { Name: "CMedicine", Time: "8d 21h 6m", Group: "Pokemon" },
+                    { Name: "CKoakuma", Time: "6d 22h 26m", Group: "Pokemon" },
+                    { Name: "CNazrin", Time: "0d 3h 46m", Group: "Pokemon" },
+                    { Name: "CTokiko", Time: "0d 4h 1m", Group: "Pokemon" },
+                    { Name: "Tokiko", Time: "2d 3h 8m", Group: "Pokemon" },
+                    { Name: "CCirno", Time: "4d 13h 26m", Group: "Pokemon" },
+                    { Name: "Cirno", Time: "7d 3h 57m", Group: "Pokemon" },
+                    { Name: "CRumia", Time: "11d 1h 24m", Group: "Pokemon" },
+                    { Name: "Hourai", Time: "6d 7h 42m", Group: "Pokemon" },
+                    { Name: "CMystia", Time: "3d 16h 27m", Group: "Pokemon" },
+                    { Name: "CKeine", Time: "6d 13h 49m", Group: "Pokemon" },
+                    { Name: "CLetty", Time: "11d 8h 26m", Group: "Pokemon" },
+                    { Name: "CPatchouli", Time: "7d 0h 24m", Group: "Pokemon" },
+                    { Name: "CParsee", Time: "3d 8h 29m", Group: "Pokemon" },
+                    { Name: "CMurasa", Time: "7d 0h 37m", Group: "Pokemon" },
+                    { Name: "CKogasa", Time: "6d 7h 24m", Group: "Pokemon" },
+                    { Name: "CSatori", Time: "1d 0h 36m", Group: "Pokemon" },
+                    { Name: "Satori", Time: "6d 10h 44m", Group: "Pokemon" },
+                    { Name: "CEirin", Time: "8d 23h 35m", Group: "Pokemon" },
+                    { Name: "CRan", Time: "6d 8h 17m", Group: "Pokemon" },
+                    { Name: "Yousei", Time: "0d 3h 58m", Group: "Pokemon" },
+                    { Name: "CNitori", Time: "11d 0h 0m", Group: "Pokemon" },
+                    { Name: "CKomachi", Time: "6d 7h 56m", Group: "Pokemon" },
+                    { Name: "CYuyuko", Time: "5d 2h 22m", Group: "Pokemon" },
+                    { Name: "CMeiling", Time: "4d 0h 31m", Group: "Pokemon" },
+                    { Name: "CSakuya", Time: "6d 21h 51m", Group: "Pokemon" },
+                    { Name: "CLunasa", Time: "4d 23h 9m", Group: "Pokemon" },
+                    { Name: "CMerlin", Time: "5d 0h 3m", Group: "Pokemon" },
+                    { Name: "CLyrica", Time: "4d 23h 57m", Group: "Pokemon" },
+                    { Name: "CRin", Time: "8d 1h 27m", Group: "Pokemon" },
+                    { Name: "CSunny", Time: "0d 7h 40m", Group: "Pokemon" },
+                    { Name: "CStar", Time: "0d 7h 38m", Group: "Pokemon" },
+                    { Name: "Kedama", Time: "6d 7h 47m", Group: "Pokemon" },
+                    { Name: "CReimu", Time: "8d 0h 36m", Group: "Pokemon" },
+                    { Name: "CByakuren", Time: "8d 0h 44m", Group: "Pokemon" },
+                    { Name: "CToyohime", Time: "5d 16h 1m", Group: "Pokemon" },
+                    { Name: "Mima", Time: "9d 3h 52m", Group: "Pokemon" },
+                    { Name: "Rinnosuke", Time: "7d 3h 3m", Group: "Pokemon" },
                 ]
             },
             {
                 RunName: "Moemon",
                 ColorPrimary: "#a779d0",
                 ColorSecondary: "#683597",
-                Duration: "13d 15h 44m",
+                Duration: "13d 15h 52m",
                 StartDate: "2015-05-10T21:00:00Z",
                 HostName: "AAtatat",
                 HostImage: "img/hosts/aatatat.png",
@@ -2871,7 +2914,7 @@ var tppData: TPP.Collection[] = [
                         Name: "Cascade Badge",
                         Image: "img/badges/cascade.png",
                         Time: "1d 21h 24m",
-                        Attempts: 6
+                        Attempts: 2
                     },
                     {
                         Group: "Badges",

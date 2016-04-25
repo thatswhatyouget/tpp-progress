@@ -446,12 +446,17 @@ ul.controls > li > ul > li > * {
     opacity: 0;   
 }
 
-.progressChart > .touhoumon.run {
-	margin-bottom:0!important;	
+.progressChart > #touhoumon.run + #moemon.run {
+	margin-top:-50px!important;	
 }
-.progressChart > .moemon.run:hover::before {
+.progressChart > #touhoumon.run + #moemon.run :hover::before {
 	bottom:-1.5em;
 	top:auto;
+}
+
+.progressChart  #touhoumon.run .event.pokemon.pokesprite img {
+	top:-50%;
+	background-image:url("../img/touhoumon_small.png");
 }
 
 .progressChart .tradingcardgame .innertradingcardgame .event {
