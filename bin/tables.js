@@ -5,7 +5,7 @@ var RunSummary = (function () {
         this.Duration = Duration.parse(run.Duration, run.StartTime);
         this.HostName = run.HostName;
         this.Badges = run.Events.filter(function (e) { return e.Group == "Badges"; }).length;
-        this.Pokedex = run.Events.filter(function (e) { return e.Group == "Pokemon"; }).length;
+        this.Pokedex = run.Events.filter(function (e) { return e.Group == "Pokemon" && e.Name != "Egg"; }).length;
     }
     return RunSummary;
 })();

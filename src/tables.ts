@@ -13,7 +13,7 @@ class RunSummary {
         this.Duration = Duration.parse(run.Duration, run.StartTime);
         this.HostName = run.HostName;
         this.Badges = run.Events.filter(e => e.Group == "Badges").length;
-        this.Pokedex = run.Events.filter(e => e.Group == "Pokemon").length;
+        this.Pokedex = run.Events.filter(e => e.Group == "Pokemon" && e.Name != "Egg").length;
     }
 }
 
