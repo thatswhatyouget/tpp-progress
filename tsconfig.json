@@ -8,7 +8,8 @@
 		"./src/tpp-data.ts",
 		"./src/tpp-progress.ts",
 		"./src/tpp-scraper.ts",
-        "./src/tpp-angular.ts",
-        "./src/poke-styles.ts"
+		"./src/tpp-angular.ts",
+		"./src/poke-styles.ts",
+		"./src/tables.ts"
 	]
 }

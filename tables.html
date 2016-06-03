@@ -1,0 +1,58 @@
+<html>
+
+<head>
+	<title>TPP Progress Chart</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="bin/tpp-structure.js"></script>
+    <script src="bin/twitch-videos.js"></script>
+	<script src="bin/tpp-progress.js"></script>
+	<script src="bin/tpp-scraper.js"></script>
+	<script src="bin/tpp-data.js"></script>
+    <script src="bin/tables.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">	
+	<link rel="stylesheet" href="css/tpp-progress.css" />
+    <link rel="stylesheet" href="css/pokemon.css" />
+	<link rel="icon" href="img/icon.png" type="image/png">
+	<link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <meta property="og:title" content="TPP Progress Chart" />
+    <meta property="og:url" content="http://thatswhatyouget.github.io/tpp-progress/" />
+    <meta property="og:image" content="http://thatswhatyouget.github.io/tpp-progress/img/icon.png" />
+    <meta property="og:type" content="website" />
+    <meta charset="utf-8" />
+    <style>
+        .tables table {
+            background-color:white;
+            border-collapse: collapse;
+            border: 1px solid black;
+            margin:auto;
+        }
+        
+        .tables table td, .tables table th {
+            border: 1px solid black;
+            border-color:inherit;
+            min-width:10%;
+        }
+    </style>
+</head>
+
+<body>
+	<div class="title">
+		<h1>Twitch Plays Pokemon</h1>
+	</div>
+	<div class="title">
+		<strong>Progress Tables</strong>
+        <div class="credits">
+            <span class="doItLive">Most</span> run data provided by <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
+        </div>
+	</div>
+    <div class="tables" id="runSummary">
+        <h3>Run Summary</h3>
+	   <script>$("#runSummary").append(generateRunSummary(tppData));</script>
+    </div>
+    <div class="tables" id="pokedexSummary">
+        <h3>Pokedex Summary</h3>
+	   <script>$("#pokedexSummary").append(generatePokedexSummary(tppData));</script>
+    </div>
+</body>
+
+</html>
