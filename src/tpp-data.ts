@@ -4486,7 +4486,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Bosses",
                         Name: "Zapdos",
-                        Time: "-1d",
+                        Time: "2016-06-03T20:18:30Z",
                         Class: "pokesprite"
                     },
                     {
