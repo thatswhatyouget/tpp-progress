@@ -3685,7 +3685,7 @@ var tppData = [
                     { Name: "Kanto", Time: "12d 6h 36m" }
                 ],
                 DexTotal: 251,
-                TPPOrgLink: "http://twitchplayspokemon.org/",
+                TPPOrgLink: "http://twitchplayspokemon.org/ac/",
                 Events: [
                     {
                         Group: "Champions",
@@ -4021,7 +4021,7 @@ var tppData = [
                 RunName: "Brown",
                 ColorPrimary: "brown",
                 ColorSecondary: "#644d2e",
-                StartDate: "2016-06-16T01:22:45Z",
+                StartDate: "2016-06-16T21:00:00Z",
                 Duration: "255d",
                 HostName: "???",
                 HostImage: "img/trainers/red/red.png",
