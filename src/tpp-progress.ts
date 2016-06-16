@@ -155,14 +155,14 @@ function drawConcurrentRuns(baseRunInfo: TPP.Run, runElement: HTMLDivElement, sc
     if (!baseRunInfo.ContainsRunsFrom || !baseRunInfo.ContainsRunsFrom.length) return;
     var baseDuration = Duration.parse(baseRunInfo.Duration),
         baseEndTime = baseRunInfo.StartTime + baseDuration.TotalSeconds;
-    tppData.filter(c => baseRunInfo.ContainsRunsFrom.indexOf(c.Name) >= 0).map(c => c.Runs.filter(r => baseRunInfo.StartTime < r.StartTime && baseEndTime > r.StartTime).forEach(r => {
+    tppData.filter(c => baseRunInfo.ContainsRunsFrom.indexOf(c.Name) >= 0).map(c => c.Runs.filter(r => baseRunInfo != r && baseRunInfo.StartTime <= r.StartTime && baseEndTime > r.StartTime).forEach(r => {
         var innerRun = document.createElement("div");
         var runStart = Duration.parse(r.StartDate, baseRunInfo.StartTime),
             runEnd = Duration.parse(r.Duration, r.StartTime);
         innerRun.setAttribute("data-time", runStart.toString(TPP.Scale.Weeks));
         runElement.appendChild(innerRun);
         drawRun(r, innerRun, scale, false);
-        if (runEnd.TotalSeconds + runStart.TotalSeconds > baseDuration.TotalSeconds) {
+        if (runEnd.TotalSeconds + runStart.TotalSeconds >= baseDuration.TotalSeconds) {
             runEnd.TotalSeconds = baseDuration.TotalSeconds - runStart.TotalSeconds;
             innerRun.setAttribute("data-duration", runEnd.toString(TPP.Scale.Weeks));
             innerRun.setAttribute("data-endtime", runEnd.toString(TPP.Scale.Weeks));

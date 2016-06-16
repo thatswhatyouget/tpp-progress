@@ -153,13 +153,13 @@ function drawConcurrentRuns(baseRunInfo, runElement, scale) {
     if (!baseRunInfo.ContainsRunsFrom || !baseRunInfo.ContainsRunsFrom.length)
         return;
     var baseDuration = Duration.parse(baseRunInfo.Duration), baseEndTime = baseRunInfo.StartTime + baseDuration.TotalSeconds;
-    tppData.filter(function (c) { return baseRunInfo.ContainsRunsFrom.indexOf(c.Name) >= 0; }).map(function (c) { return c.Runs.filter(function (r) { return baseRunInfo.StartTime < r.StartTime && baseEndTime > r.StartTime; }).forEach(function (r) {
+    tppData.filter(function (c) { return baseRunInfo.ContainsRunsFrom.indexOf(c.Name) >= 0; }).map(function (c) { return c.Runs.filter(function (r) { return baseRunInfo != r && baseRunInfo.StartTime <= r.StartTime && baseEndTime > r.StartTime; }).forEach(function (r) {
         var innerRun = document.createElement("div");
         var runStart = Duration.parse(r.StartDate, baseRunInfo.StartTime), runEnd = Duration.parse(r.Duration, r.StartTime);
         innerRun.setAttribute("data-time", runStart.toString(TPP.Scale.Weeks));
         runElement.appendChild(innerRun);
         drawRun(r, innerRun, scale, false);
-        if (runEnd.TotalSeconds + runStart.TotalSeconds > baseDuration.TotalSeconds) {
+        if (runEnd.TotalSeconds + runStart.TotalSeconds >= baseDuration.TotalSeconds) {
             runEnd.TotalSeconds = baseDuration.TotalSeconds - runStart.TotalSeconds;
             innerRun.setAttribute("data-duration", runEnd.toString(TPP.Scale.Weeks));
             innerRun.setAttribute("data-endtime", runEnd.toString(TPP.Scale.Weeks));

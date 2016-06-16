@@ -4758,6 +4758,10 @@ var tppData: TPP.Collection[] = [
                     { Group: "Elite Four", Name: "SIBA", Image: "img/trainers/crystal/bruno.png", Time: "2016-06-16T10:28:00Z", Attempts: 1 },
                     { Group: "Elite Four", Name: "JIALUN", Image: "img/trainers/crystal/karen.png", Time: "2016-06-16T10:41:00Z", Attempts: 1 },
                     { Group: "Champions", Name: "DU", Image: "img/trainers/crystal/lance.png", Time: "2016-06-16T11:51:00Z", Attempts: 2 },
+                    { Name: "YED", Time: "2016-06-16T15:46:00Z", Group: "Pokemon", Class: "Slowpoke" },
+                    { Name: "LAT", Time: "2016-06-16T16:20:00Z", Group: "Pokemon", Class: "Raticate" },
+                    { Name: "YEDEA", Time: "2016-06-16T16:32:00Z", Group: "Pokemon", Class: "Noctowl" },
+
                 ],
                 Revisit: { Collection: "Sidegames", Run: "Vietnamese Crystal" },
                 CopyEvents: ["Vietnamese Crystal"],
