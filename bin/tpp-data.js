@@ -4588,6 +4588,7 @@ var tppData = [
                     { Name: "PEDAL", Time: "2016-06-15T22:01:00Z", Group: "Pokemon", Class: "Caterpie" },
                     { Name: "NUXI", Time: "2016-06-15T22:13:00Z", Group: "Pokemon", Class: "Ledyba" },
                     { Name: "MADAQ", Time: "2016-06-15T22:45:00Z", Group: "Pokemon", Class: "Bellsprout" },
+                    { Name: "YUZI", Time: "2016-06-16T02:19:00Z", Group: "Pokemon", Class: "Hoppip" },
                 ],
                 Revisit: { Collection: "Sidegames", Run: "Vietnamese Crystal" },
                 CopyEvents: ["Vietnamese Crystal"],
