@@ -4026,12 +4026,6 @@ var tppData = [
                 HostName: "???",
                 HostImage: "img/trainers/red/red.png",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
-                Scraper: {
-                    url: "http://twitchplayspokemon.org/",
-                    runtime: true,
-                    parts: ["Badge", "Elite Four"],
-                    pokemon: true
-                },
                 Region: "Rijon",
                 Events: []
             }

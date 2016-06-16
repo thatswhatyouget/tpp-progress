@@ -4078,12 +4078,12 @@ var tppData: TPP.Collection[] = [
                 HostName: "???",
                 HostImage: "img/trainers/red/red.png",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
-                Scraper: {
-                    url: "http://twitchplayspokemon.org/",
-                    runtime: true,
-                    parts: ["Badge", "Elite Four"],
-                    pokemon: true
-                },
+                // Scraper: {
+                //     url: "http://twitchplayspokemon.org/",
+                //     runtime: true,
+                //     parts: ["Badge", "Elite Four"],
+                //     pokemon: true
+                // },
                 Region: "Rijon",
                 Events: [
                     // {
