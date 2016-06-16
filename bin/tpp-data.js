@@ -4585,7 +4585,7 @@ var tppData = [
                 StartDate: "2016-06-15T21:00:00Z",
                 ColorPrimary: "#77b2ff",
                 ColorSecondary: "#416fcc",
-                Duration: "1d",
+                Duration: "23h",
                 Ongoing: true,
                 HostName: "BABA",
                 HostImage: "img/hosts/baba.png",
