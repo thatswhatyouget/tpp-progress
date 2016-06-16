@@ -4349,7 +4349,20 @@ var tppData: TPP.Collection[] = [
                         Image: "img/trainers/crystal/sorcererssho.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",
                         Time: "2015-11-10T10:09:48Z"
-                    }
+                    },
+                    { Name: "RIDED", Time: "2015-03-26T06:44:48Z", Group: "Pokemon", Class: "Cyndaquil" },
+                    { Name: "MADAM", Time: "2015-04-10T06:52:36Z", Group: "Pokemon", Class: "Quilava" },
+                    { Name: "BAGEP", Time: "2015-06-06T12:09:13Z", Group: "Pokemon", Class: "Typhlosion" },
+                    { Name: "LAP", Time: "2015-04-04T06:07:00Z", Group: "Pokemon", Class: "Pidgey" },
+                    { Name: "BIRD", Time: "2015-04-28T08:33:19Z", Group: "Pokemon", Class: "Spearow" },
+                    { Name: "DEKE", Time: "2015-06-03T12:05:26Z", Group: "Pokemon", Class: "Togepi" },
+                    { Name: "ANNAN", Time: "2015-11-25T15:56:56Z", Group: "Pokemon", Class: "Unown" },
+                    { Name: "NILEM", Time: "2015-04-03T11:50:19Z", Group: "Pokemon", Class: "Poliwag" },
+                    { Name: "JINDE", Time: "2015-06-23T00:56:44Z", Group: "Pokemon", Class: "Gyarados" },
+                    { Name: "HUSHU", Time: "2015-05-08T01:24:33Z", Group: "Pokemon", Class: "Sudowoodo" },
+                    { Name: "JELLY", Time: "2015-06-08T16:28:43Z", Group: "Pokemon", Class: "Tentacruel" },
+                    { Name: "DON", Time: "2015-08-23T15:08:34Z", Group: "Pokemon", Class: "Suicune" },
+                    { Name: "LUJ", Time: "2015-11-17T19:07:11Z", Group: "Pokemon", Class: "Lugia" },
                 ]
             },
             {
@@ -4722,6 +4735,25 @@ var tppData: TPP.Collection[] = [
                 ],
                 Revisit: { Collection: "Season 1", Run: "Red" },
                 CopyEvents: ["Red"],
+            },
+            {
+                RunName: "Vietnamese Crystal Revisit",
+                StartDate: "2016-06-15T21:00:00Z",
+                ColorPrimary: "#77b2ff",
+                ColorSecondary: "#416fcc",
+                Duration: "1d",
+                Ongoing: true,
+                HostName: "BABA",
+                HostImage: "img/hosts/baba.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+                Region: "Johto",
+                Events: [
+                    { Name: "PEDAL", Time: "2016-06-15T22:01:00Z", Group: "Pokemon", Class: "Caterpie" },
+                    { Name: "NUXI", Time: "2016-06-15T22:13:00Z", Group: "Pokemon", Class: "Ledyba" },
+                    { Name: "MADAQ", Time: "2016-06-15T22:45:00Z", Group: "Pokemon", Class: "Bellsprout" },
+                ],
+                Revisit: { Collection: "Sidegames", Run: "Vietnamese Crystal" },
+                CopyEvents: ["Vietnamese Crystal"],
             }
         ]
 
