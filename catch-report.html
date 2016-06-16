@@ -119,7 +119,7 @@
                          }).sort(function(e) { 
                              return Duration.parse(e.Time, r.StartTime).TotalSeconds;
                         }).pop() || { Time: 0 }).Time || "2014-01-01T00:00:00Z", r.StartTime).TotalDays;
-                        function countMons() {return r.Events.filter(function(e) { var t = Duration.parse(e.Time, r.StartTime).TotalDays; return e.Group == "Pokemon" && e.Name != "Egg" && (!day || t < day) && (t >= startFrom);}).length};
+                        function countMons() {return r.Events.filter(function(e) { var t = Duration.parse(e.Time, r.StartTime).TotalTime(c.Scale); return e.Group == "Pokemon" && e.Name != "Egg" && (!day || t < day) && (t >= startFrom);}).length};
                         r.Ongoing = true;
                         r.Events.push({
                             Group: "Catch Report",
@@ -130,8 +130,10 @@
                         updatePage = function(e) {
                             var search = '.' + cleanString(r.RunName) + ' .catchreport';
                             var runDur = Duration.parse(r.Duration, r.StartTime), count = countMons();
+                            var scaleChar = "d";
+                            if (c.Scale == TPP.Scale.Weeks) scaleChar = "w";
                             $(search).attr('data-label', count)
-                                .attr('data-time', !day || runDur.TotalDays < day ? !day || runDur.TotalDays >= day - 1 ? runDur.toString() : day - 1 + "d" : day + "d")
+                                .attr('data-time', !day || runDur.TotalTime(c.Scale) < day ? !day || runDur.TotalTime(c.Scale) >= day - 1 ? runDur.toString() : day - 1 + scaleChar : day + scaleChar)
                                 .attr('data-percentage', r.DexTotal ? count == r.DexTotal ? "100%" : ((count / r.DexTotal) * 100).toFixed(1) + "%" : r.Region == "Denjuu World" ? "Friends" : "Caught");
                             return realUpdatePage(e);
                         }

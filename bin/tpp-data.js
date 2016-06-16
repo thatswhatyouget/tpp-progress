@@ -4023,9 +4023,16 @@ var tppData = [
                 ColorSecondary: "#644d2e",
                 StartDate: "2016-06-16T21:00:00Z",
                 Duration: "255d",
+                Ongoing: true,
                 HostName: "???",
                 HostImage: "img/trainers/red/red.png",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
+                Scraper: {
+                    url: "http://twitchplayspokemon.org/",
+                    runtime: true,
+                    parts: ["Badge", "Elite Four"],
+                    pokemon: true
+                },
                 Region: "Rijon",
                 Events: []
             }
