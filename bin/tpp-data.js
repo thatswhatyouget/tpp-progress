@@ -4029,6 +4029,7 @@ var tppData = [
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Scraper: {
                     url: "http://twitchplayspokemon.org/",
+                    runtime: true,
                     parts: ["Badge", "Elite Four"],
                     pokemon: true
                 },

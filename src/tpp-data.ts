@@ -4081,7 +4081,7 @@ var tppData: TPP.Collection[] = [
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Scraper: {
                     url: "http://twitchplayspokemon.org/",
-                    //runtime: true,
+                    runtime: true,
                     parts: ["Badge", "Elite Four"],
                     pokemon: true
                 },
