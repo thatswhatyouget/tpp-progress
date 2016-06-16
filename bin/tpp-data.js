@@ -4024,12 +4024,11 @@ var tppData = [
                 StartDate: "2016-06-16T21:00:00Z",
                 Duration: "255d",
                 Ongoing: true,
-                HostName: "???",
+                HostName: "Paul",
                 HostImage: "img/trainers/red/red.png",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Scraper: {
                     url: "http://twitchplayspokemon.org/",
-                    runtime: true,
                     parts: ["Badge", "Elite Four"],
                     pokemon: true
                 },
@@ -4586,7 +4585,6 @@ var tppData = [
                 ColorPrimary: "#77b2ff",
                 ColorSecondary: "#416fcc",
                 Duration: "23h",
-                Ongoing: true,
                 HostName: "BABA",
                 HostImage: "img/hosts/baba.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
