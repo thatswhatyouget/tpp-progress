@@ -89,7 +89,7 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
     var promises: JQueryPromise<any>[] = [], knownEvents: EventDict = {}, pkmn: EventDict = {}, runFolder = "";
     var eventMerge = (events: TPP.Event[]) =>
         events.filter(e => !!e.Time).forEach(e => {
-            var key = (e.Name + e.Time).toLowerCase();
+            var key = (e.Name + Duration.parse(e.Time, run.StartTime).toString()).toLowerCase();
             if (!knownEvents[key]) {
                 run.Events.push(e);
                 knownEvents[key] = e;
@@ -102,7 +102,7 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
     if (run.Scraper.parts.indexOf("Badge") >= 0) promises.push($.get("http://api.twitchplayspokemon.org/v1/badges").then((api: TPP.Org.V1.Badges) =>
         eventMerge(api.data.map(b => (<TPP.Event>{
             Group: (b.region.toLowerCase().indexOf("rematch") >= 0 ? "Rematch " : "") + "Badges",
-            Name: b.name + " Badge",
+            Name: b.name.trim() + " Badge",
             Time: new Date(b.time_unix * 1000).toISOString(),
             Attempts: b.attempts,
             Image: "img/badges/" + (b.region.toLowerCase().indexOf("rematch") >= 0 ? "rematch/" : "") + b.name.toLowerCase() + ".png"
@@ -111,7 +111,7 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
     if (run.Scraper.parts.indexOf("Elite Four") >= 0) promises.push($.get("http://api.twitchplayspokemon.org/v1/elite-four").then((api: TPP.Org.V1.EliteFour) =>
         eventMerge(api.data.map(t => (<TPP.Event>{
             Group: "Elite Four" + (t.is_rematch ? " Rematch" : ""),
-            Name: t.name,
+            Name: t.name.trim(),
             Time: new Date(t.time_unix * 1000).toISOString(),
             Attempts: t.attempts,
             Image: "img/trainers/" + runFolder + (t.is_rematch ? "rematch/" : "") + t.name.toLowerCase() + ".png"
@@ -120,7 +120,7 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
     if (run.Scraper.pokemon) promises.push($.get("http://api.twitchplayspokemon.org/v1/pokemon-timeline").then((api: TPP.Org.V1.PokemonTimeline) => {
         api.data.map(p => (<TPP.Event>{
             Group: "Pokemon",
-            Name: p.pokemon,
+            Name: p.pokemon.trim(),
             Time: new Date(p.time_unix * 1000).toISOString(),
         })).forEach(p => {
             var pkname = p.Name.toLowerCase();
@@ -134,7 +134,7 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
         $.when.apply($, promises).then(() => {
             deferred.resolve(run);
         }, deferred.reject);
-        run.Events.forEach(e => knownEvents[(e.Name + e.Time).toLowerCase()] = e);
+        run.Events.forEach(e => knownEvents[(e.Name + Duration.parse(e.Time, run.StartTime).toString()).toLowerCase()] = e);
         run.Events.filter(e => e.Group == "Pokemon").forEach(e => pkmn[e.Name.toLowerCase()] = e);
         runFolder = (run.BaseGame ? run.BaseGame : run.RunName).toLowerCase().replace(/(randomized)|(anniversary)|([^a-z0-9]*)/gi, '') + "/";
     }

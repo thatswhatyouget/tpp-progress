@@ -4077,7 +4077,8 @@ var tppData: TPP.Collection[] = [
                 Duration: "255d",
                 Ongoing: true,
                 HostName: "Paul",
-                HostImage: "img/trainers/red/red.png",
+                HostImage: "img/hosts/paul.gif",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4ohl3p/paul_our_easily_distracted_protagonist_animated/",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Scraper: {
                     url: "http://twitchplayspokemon.org/",
@@ -4087,14 +4088,14 @@ var tppData: TPP.Collection[] = [
                 },
                 Region: "Rijon",
                 Events: [
-                    // {
-                    //     Group: "Badges",
-                    //     Name: "Marine Badge",
-                    //     Image: "img/badges/cascade.png",
-                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                    //     Time: "-1d",
-                    //     Attempts: 0
-                    // },
+                    {
+                        Group: "Badges",
+                        Name: "Marine Badge",
+                        Image: "img/badges/marine.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4oi54q/8bit_karpman_marine_badge/",
+                        Time: "8h3m",
+                        Attempts: 1
+                    },
                     // {
                     //     Group: "Badges",
                     //     Name: "Hail Badge",

@@ -4025,7 +4025,8 @@ var tppData = [
                 Duration: "255d",
                 Ongoing: true,
                 HostName: "Paul",
-                HostImage: "img/trainers/red/red.png",
+                HostImage: "img/hosts/paul.gif",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4ohl3p/paul_our_easily_distracted_protagonist_animated/",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Scraper: {
                     url: "http://twitchplayspokemon.org/",
@@ -4034,7 +4035,16 @@ var tppData = [
                     pokemon: true
                 },
                 Region: "Rijon",
-                Events: []
+                Events: [
+                    {
+                        Group: "Badges",
+                        Name: "Marine Badge",
+                        Image: "img/badges/marine.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4oi54q/8bit_karpman_marine_badge/",
+                        Time: "8h3m",
+                        Attempts: 1
+                    },
+                ]
             }
         ]
     },

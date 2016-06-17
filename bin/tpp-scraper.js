@@ -87,7 +87,7 @@ function TppOrgApi(run, deferred) {
     var promises = [], knownEvents = {}, pkmn = {}, runFolder = "";
     var eventMerge = function (events) {
         return events.filter(function (e) { return !!e.Time; }).forEach(function (e) {
-            var key = (e.Name + e.Time).toLowerCase();
+            var key = (e.Name + Duration.parse(e.Time, run.StartTime).toString()).toLowerCase();
             if (!knownEvents[key]) {
                 run.Events.push(e);
                 knownEvents[key] = e;
@@ -103,7 +103,7 @@ function TppOrgApi(run, deferred) {
         promises.push($.get("http://api.twitchplayspokemon.org/v1/badges").then(function (api) {
             return eventMerge(api.data.map(function (b) { return ({
                 Group: (b.region.toLowerCase().indexOf("rematch") >= 0 ? "Rematch " : "") + "Badges",
-                Name: b.name + " Badge",
+                Name: b.name.trim() + " Badge",
                 Time: new Date(b.time_unix * 1000).toISOString(),
                 Attempts: b.attempts,
                 Image: "img/badges/" + (b.region.toLowerCase().indexOf("rematch") >= 0 ? "rematch/" : "") + b.name.toLowerCase() + ".png"
@@ -113,7 +113,7 @@ function TppOrgApi(run, deferred) {
         promises.push($.get("http://api.twitchplayspokemon.org/v1/elite-four").then(function (api) {
             return eventMerge(api.data.map(function (t) { return ({
                 Group: "Elite Four" + (t.is_rematch ? " Rematch" : ""),
-                Name: t.name,
+                Name: t.name.trim(),
                 Time: new Date(t.time_unix * 1000).toISOString(),
                 Attempts: t.attempts,
                 Image: "img/trainers/" + runFolder + (t.is_rematch ? "rematch/" : "") + t.name.toLowerCase() + ".png"
@@ -123,7 +123,7 @@ function TppOrgApi(run, deferred) {
         promises.push($.get("http://api.twitchplayspokemon.org/v1/pokemon-timeline").then(function (api) {
             api.data.map(function (p) { return ({
                 Group: "Pokemon",
-                Name: p.pokemon,
+                Name: p.pokemon.trim(),
                 Time: new Date(p.time_unix * 1000).toISOString(),
             }); }).forEach(function (p) {
                 var pkname = p.Name.toLowerCase();
@@ -138,7 +138,7 @@ function TppOrgApi(run, deferred) {
         $.when.apply($, promises).then(function () {
             deferred.resolve(run);
         }, deferred.reject);
-        run.Events.forEach(function (e) { return knownEvents[(e.Name + e.Time).toLowerCase()] = e; });
+        run.Events.forEach(function (e) { return knownEvents[(e.Name + Duration.parse(e.Time, run.StartTime).toString()).toLowerCase()] = e; });
         run.Events.filter(function (e) { return e.Group == "Pokemon"; }).forEach(function (e) { return pkmn[e.Name.toLowerCase()] = e; });
         runFolder = (run.BaseGame ? run.BaseGame : run.RunName).toLowerCase().replace(/(randomized)|(anniversary)|([^a-z0-9]*)/gi, '') + "/";
     }
