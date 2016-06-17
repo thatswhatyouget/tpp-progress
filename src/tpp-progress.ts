@@ -19,7 +19,7 @@ function marginTop(element: HTMLElement) {
 }
 var globalPpd: number = 64, groups: { [key: string]: string } = {};
 var vidWait: JQueryDeferred<Twitch.Video[]> = $.Deferred(), videos = vidWait.promise(),
-    getTwitchVideos = function() {
+    getTwitchVideos = function () {
         var $li = $('.controls .fa-twitch').removeClass('fa-twitch').addClass('fa-pulse fa-spinner').removeAttr('onclick').attr('title', 'Loading...').parent();
         Twitch.GetVideos("twitchplayspokemon").then(vidWait.resolve, vidWait.reject).then(() => $li.fadeOut());
     };
@@ -71,10 +71,7 @@ function createChart(data: TPP.Collection) {
 
 function queueRun(runInfo: TPP.Run, scale = TPP.Scale.Days) {
     var div = document.createElement("div");
-    if (runInfo.Scraper) Scrape(runInfo).then(r => {
-        drawRun(r, div, scale);
-        setTimeout(() => updatePage(), 0);
-    }, console.error);
+    if (runInfo.Scraper) Scrape(runInfo).then(r => drawRun(r, div, scale), console.error);
     else setTimeout(() => drawRun(runInfo, div, scale), 0);
     return div;
 }
@@ -104,7 +101,7 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
         setTimeout(() => updateRun(runInfo, run, scale), 15 * 60000);
         drawConcurrentRuns(runInfo, run, scale);
     }
-    $(run).on('click', function(e) {
+    $(run).on('click', function (e) {
         if (e.shiftKey) {
             $(this).hide();
             if (!$(this).siblings(".run:visible").is("*"))
@@ -114,6 +111,7 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
             console.log(JSON.stringify(runInfo));
         }
     });
+    setTimeout(() => scaleRun(run), 0);
 }
 
 function updateRun(runInfo: TPP.Run, run: HTMLDivElement, scale) {
@@ -124,7 +122,7 @@ function updateRun(runInfo: TPP.Run, run: HTMLDivElement, scale) {
         run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
         run.setAttribute("data-label", runInfo.RunName + ": " + Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale));
         runInfo.Events.filter(e => e.New).forEach(event => run.appendChild(drawEvent(event, runInfo, scale)));
-        updatePage();
+        scaleRun(run);
         if ($(run).find('.videos a').is('*')) drawVideos(runInfo, run, scale, Twitch.GetVideos("twitchplayspokemon", false));
     });
     setTimeout(() => updateRun(runInfo, run, scale), 15 * 60000);
@@ -214,7 +212,7 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
 }
 
 function applyScale(ppd?: number) {
-    globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || 64) / Math.log(2))); //floor to power of 2
+    globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || globalPpd || 64) / Math.log(2))); //floor to power of 2
     fakeQuery('.progressChart').forEach(chart => {
         chart.style.backgroundImage = 'url("' + makeGrid(ppd) + '")';
     });
@@ -222,32 +220,35 @@ function applyScale(ppd?: number) {
         var offset = parseFloat($(stop).parents('.progressChart').data('offset') || '0');
         stop.style.left = (i + offset) * ppd + "px";
     }));
-    fakeQuery(".progressChart > .run").forEach(run => {
-        var scale = TPP.Scale[run.parentElement.getAttribute('data-scale')] || TPP.Scale[run.parentElement.parentElement.getAttribute('data-scale')] || 0;
-        var durationAttribute = settings["postgame"] ? "data-endtime" : "data-duration",
-            duration = Duration.parse(run.getAttribute(durationAttribute));
-        if (run.getAttribute(durationAttribute)) run.style.width = duration.TotalTime(scale) * ppd + "px";
-        var runs = $find([run], ".run").pop(),
-            events = $find([run], ".event").pop().filter(e => !e.classList.contains('hidden') && e.parentElement == run),
-            videos = $find([run], ".videos a").pop();
-        [].concat(events).concat(runs).concat(videos).forEach(event => {
-            if (event.getAttribute('data-time')) {
-                var time = Duration.parse(event.getAttribute('data-time'))
-                event.style.left = time.TotalTime(scale) * ppd + "px";
-                event.style.display = !settings["postgame"] && !$(event).parents('.run').is('.ongoing') && time.TotalSeconds > duration.TotalSeconds ? "none" : "block";
-            }
-            if (event.getAttribute(durationAttribute)) event.style.width = Duration.parse(event.getAttribute(durationAttribute)).TotalTime(scale) * ppd + "px";
-            var img = findImage(event);
-            if (img) img.style.marginTop = event.style.marginTop = "0";
-        });
-        staggerStackedRuns(runs, run.offsetHeight);
-        if (settings["explode"]) {
-            staggerStackedEvents(events.filter(e => e.style.display != "none"), run.offsetHeight);
+    fakeQuery(".progressChart > .run").forEach(run => scaleRun(run, ppd));
+}
+
+function scaleRun(run: HTMLElement, ppd?: number) {
+    ppd = ppd || globalPpd;
+    var scale = TPP.Scale[run.parentElement.getAttribute('data-scale')] || TPP.Scale[run.parentElement.parentElement.getAttribute('data-scale')] || 0;
+    var durationAttribute = settings["postgame"] ? "data-endtime" : "data-duration",
+        duration = Duration.parse(run.getAttribute(durationAttribute));
+    if (run.getAttribute(durationAttribute)) run.style.width = duration.TotalTime(scale) * ppd + "px";
+    var runs = $find([run], ".run").pop(),
+        events = $find([run], ".event").pop().filter(e => !e.classList.contains('hidden') && e.parentElement == run),
+        videos = $find([run], ".videos a").pop();
+    [].concat(events).concat(runs).concat(videos).forEach(event => {
+        if (event.getAttribute('data-time')) {
+            var time = Duration.parse(event.getAttribute('data-time'))
+            event.style.left = time.TotalTime(scale) * ppd + "px";
+            event.style.display = !settings["postgame"] && !$(event).parents('.run').is('.ongoing') && time.TotalSeconds > duration.TotalSeconds ? "none" : "block";
         }
-        var offset = parseFloat($(run).parents('.progressChart').data('offset') || '0');
-        run.style.marginLeft = offset * ppd + "px";
-        $(run).find('.hosts').first().css('margin-left', -offset * ppd + "px");
+        if (event.getAttribute(durationAttribute)) event.style.width = Duration.parse(event.getAttribute(durationAttribute)).TotalTime(scale) * ppd + "px";
+        var img = findImage(event);
+        if (img) img.style.marginTop = event.style.marginTop = "0";
     });
+    staggerStackedRuns(runs, run.offsetHeight);
+    if (settings["explode"]) {
+        staggerStackedEvents(events.filter(e => e.style.display != "none"), run.offsetHeight);
+    }
+    var offset = parseFloat($(run).parents('.progressChart').data('offset') || '0');
+    run.style.marginLeft = offset * ppd + "px";
+    $(run).find('.hosts').first().css('margin-left', -offset * ppd + "px");
 }
 
 function staggerStackedRuns(runs: HTMLElement[], runHeight: number) {
@@ -299,24 +300,30 @@ function staggerStackedEvents(allEvents: HTMLElement[], runHeight: number) {
         findImage(allEvents[allEvents.length - 1]).style.marginTop = "0";
 }
 
+var pageUpdateTimeout = null;
+
 function updatePage(ppd = globalPpd) {
-    setTimeout(() => applyScale(ppd), 0);
-    var extant = fakeQuery(".groups input").map(i => i.id.split('-').pop()) || [];
-    var groupList = fakeQuery(".groups ul").pop();
-    Object.keys(groups).filter(g => extant.indexOf(g) < 0).forEach(g => {
-        var li = document.createElement("li");
-        var input = document.createElement("input");
-        var label = document.createElement("label");
-        li.appendChild(input);
-        li.appendChild(label);
-        groupList.appendChild(li);
-        input.type = "checkbox";
-        label.htmlFor = input.id = "group-" + g;
-        input.checked = showGroups[g] !== false;
-        label.innerText = groups[g];
-        input.onchange = () => toggleGroup(input);
-    });
+    if (pageUpdateTimeout) clearTimeout(pageUpdateTimeout);
+    pageUpdateTimeout = setTimeout(() => {
+        setTimeout(() => applyScale(ppd), 0);
+        var extant = fakeQuery(".groups input").map(i => i.id.split('-').pop()) || [];
+        var groupList = fakeQuery(".groups ul").pop();
+        Object.keys(groups).filter(g => extant.indexOf(g) < 0).forEach(g => {
+            var li = document.createElement("li");
+            var input = document.createElement("input");
+            var label = document.createElement("label");
+            li.appendChild(input);
+            li.appendChild(label);
+            groupList.appendChild(li);
+            input.type = "checkbox";
+            label.htmlFor = input.id = "group-" + g;
+            input.checked = showGroups[g] !== false;
+            label.innerText = groups[g];
+            input.onchange = () => toggleGroup(input);
+        });
+    }, 0);
 }
+
 
 function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP.Scale, videoCollection = videos) {
     var vidDiv = $('<div class="videos">').appendTo(runElement);
@@ -333,7 +340,7 @@ function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP
         vidEnd.TotalSeconds = duration;
         var $video = $(runElement).find('.videos a[href="' + vid.url + '"]');
         if (!$video.is('*')) {
-            $video = $("<a target='_blank'>").addClass(vid.source.toLowerCase()).attr('href', vid.url).appendTo(vidDiv).mousemove(function(e) {
+            $video = $("<a target='_blank'>").addClass(vid.source.toLowerCase()).attr('href', vid.url).appendTo(vidDiv).mousemove(function (e) {
                 var vidTime = new Duration(0), runTime = new Duration(0), percentage = (Math.abs(e.pageX - $(this).offset().left) / $(this).width()),
                     time = Duration.parse($(this).data('time')).TotalSeconds, duration = Duration.parse($(this).data('duration')).TotalSeconds;
                 vidTime.TotalSeconds = (percentage * duration) + startOffset;
@@ -346,10 +353,10 @@ function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP
         $(runElement).addClass("hasVideos");
         if (!$("#group-videos").is('*'))
             $("<li>")
-                .append($('<input type="checkbox" id="group-videos" checked>').change(function() { $("div.videos").toggleClass('hidden', $(this).val()); }))
+                .append($('<input type="checkbox" id="group-videos" checked>').change(function () { $("div.videos").toggleClass('hidden', $(this).val()); }))
                 .append($('<label for="group-videos">').text("Videos"))
                 .appendTo($("li.groups ul"));
-    })).then(() => updatePage());
+    })).then(() => setTimeout(() => scaleRun(runElement), 0));
 }
 
 //controls and settings

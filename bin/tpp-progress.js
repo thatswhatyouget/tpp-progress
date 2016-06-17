@@ -65,10 +65,7 @@ function queueRun(runInfo, scale) {
     if (scale === void 0) { scale = TPP.Scale.Days; }
     var div = document.createElement("div");
     if (runInfo.Scraper)
-        Scrape(runInfo).then(function (r) {
-            drawRun(r, div, scale);
-            setTimeout(function () { return updatePage(); }, 0);
-        }, console.error);
+        Scrape(runInfo).then(function (r) { return drawRun(r, div, scale); }, console.error);
     else
         setTimeout(function () { return drawRun(runInfo, div, scale); }, 0);
     return div;
@@ -114,6 +111,7 @@ function drawRun(runInfo, run, scale, events) {
             console.log(JSON.stringify(runInfo));
         }
     });
+    setTimeout(function () { return scaleRun(run); }, 0);
 }
 function updateRun(runInfo, run, scale) {
     if (!(runInfo.Scraper && runInfo.Ongoing))
@@ -124,7 +122,7 @@ function updateRun(runInfo, run, scale) {
         run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
         run.setAttribute("data-label", runInfo.RunName + ": " + Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale));
         runInfo.Events.filter(function (e) { return e.New; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
-        updatePage();
+        scaleRun(run);
         if ($(run).find('.videos a').is('*'))
             drawVideos(runInfo, run, scale, Twitch.GetVideos("twitchplayspokemon", false));
     });
@@ -213,7 +211,7 @@ function drawEvent(eventInfo, runInfo, scale) {
     return event;
 }
 function applyScale(ppd) {
-    globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || 64) / Math.log(2)));
+    globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || globalPpd || 64) / Math.log(2)));
     fakeQuery('.progressChart').forEach(function (chart) {
         chart.style.backgroundImage = 'url("' + makeGrid(ppd) + '")';
     });
@@ -221,32 +219,34 @@ function applyScale(ppd) {
         var offset = parseFloat($(stop).parents('.progressChart').data('offset') || '0');
         stop.style.left = (i + offset) * ppd + "px";
     }); });
-    fakeQuery(".progressChart > .run").forEach(function (run) {
-        var scale = TPP.Scale[run.parentElement.getAttribute('data-scale')] || TPP.Scale[run.parentElement.parentElement.getAttribute('data-scale')] || 0;
-        var durationAttribute = settings["postgame"] ? "data-endtime" : "data-duration", duration = Duration.parse(run.getAttribute(durationAttribute));
-        if (run.getAttribute(durationAttribute))
-            run.style.width = duration.TotalTime(scale) * ppd + "px";
-        var runs = $find([run], ".run").pop(), events = $find([run], ".event").pop().filter(function (e) { return !e.classList.contains('hidden') && e.parentElement == run; }), videos = $find([run], ".videos a").pop();
-        [].concat(events).concat(runs).concat(videos).forEach(function (event) {
-            if (event.getAttribute('data-time')) {
-                var time = Duration.parse(event.getAttribute('data-time'));
-                event.style.left = time.TotalTime(scale) * ppd + "px";
-                event.style.display = !settings["postgame"] && !$(event).parents('.run').is('.ongoing') && time.TotalSeconds > duration.TotalSeconds ? "none" : "block";
-            }
-            if (event.getAttribute(durationAttribute))
-                event.style.width = Duration.parse(event.getAttribute(durationAttribute)).TotalTime(scale) * ppd + "px";
-            var img = findImage(event);
-            if (img)
-                img.style.marginTop = event.style.marginTop = "0";
-        });
-        staggerStackedRuns(runs, run.offsetHeight);
-        if (settings["explode"]) {
-            staggerStackedEvents(events.filter(function (e) { return e.style.display != "none"; }), run.offsetHeight);
+    fakeQuery(".progressChart > .run").forEach(function (run) { return scaleRun(run, ppd); });
+}
+function scaleRun(run, ppd) {
+    ppd = ppd || globalPpd;
+    var scale = TPP.Scale[run.parentElement.getAttribute('data-scale')] || TPP.Scale[run.parentElement.parentElement.getAttribute('data-scale')] || 0;
+    var durationAttribute = settings["postgame"] ? "data-endtime" : "data-duration", duration = Duration.parse(run.getAttribute(durationAttribute));
+    if (run.getAttribute(durationAttribute))
+        run.style.width = duration.TotalTime(scale) * ppd + "px";
+    var runs = $find([run], ".run").pop(), events = $find([run], ".event").pop().filter(function (e) { return !e.classList.contains('hidden') && e.parentElement == run; }), videos = $find([run], ".videos a").pop();
+    [].concat(events).concat(runs).concat(videos).forEach(function (event) {
+        if (event.getAttribute('data-time')) {
+            var time = Duration.parse(event.getAttribute('data-time'));
+            event.style.left = time.TotalTime(scale) * ppd + "px";
+            event.style.display = !settings["postgame"] && !$(event).parents('.run').is('.ongoing') && time.TotalSeconds > duration.TotalSeconds ? "none" : "block";
         }
-        var offset = parseFloat($(run).parents('.progressChart').data('offset') || '0');
-        run.style.marginLeft = offset * ppd + "px";
-        $(run).find('.hosts').first().css('margin-left', -offset * ppd + "px");
+        if (event.getAttribute(durationAttribute))
+            event.style.width = Duration.parse(event.getAttribute(durationAttribute)).TotalTime(scale) * ppd + "px";
+        var img = findImage(event);
+        if (img)
+            img.style.marginTop = event.style.marginTop = "0";
     });
+    staggerStackedRuns(runs, run.offsetHeight);
+    if (settings["explode"]) {
+        staggerStackedEvents(events.filter(function (e) { return e.style.display != "none"; }), run.offsetHeight);
+    }
+    var offset = parseFloat($(run).parents('.progressChart').data('offset') || '0');
+    run.style.marginLeft = offset * ppd + "px";
+    $(run).find('.hosts').first().css('margin-left', -offset * ppd + "px");
 }
 function staggerStackedRuns(runs, runHeight) {
     var dir = -((runHeight / 2) - 2);
@@ -298,24 +298,29 @@ function staggerStackedEvents(allEvents, runHeight) {
     if (!$(allEvents[0]).parents('.run').is('.ongoing'))
         findImage(allEvents[allEvents.length - 1]).style.marginTop = "0";
 }
+var pageUpdateTimeout = null;
 function updatePage(ppd) {
     if (ppd === void 0) { ppd = globalPpd; }
-    setTimeout(function () { return applyScale(ppd); }, 0);
-    var extant = fakeQuery(".groups input").map(function (i) { return i.id.split('-').pop(); }) || [];
-    var groupList = fakeQuery(".groups ul").pop();
-    Object.keys(groups).filter(function (g) { return extant.indexOf(g) < 0; }).forEach(function (g) {
-        var li = document.createElement("li");
-        var input = document.createElement("input");
-        var label = document.createElement("label");
-        li.appendChild(input);
-        li.appendChild(label);
-        groupList.appendChild(li);
-        input.type = "checkbox";
-        label.htmlFor = input.id = "group-" + g;
-        input.checked = showGroups[g] !== false;
-        label.innerText = groups[g];
-        input.onchange = function () { return toggleGroup(input); };
-    });
+    if (pageUpdateTimeout)
+        clearTimeout(pageUpdateTimeout);
+    pageUpdateTimeout = setTimeout(function () {
+        setTimeout(function () { return applyScale(ppd); }, 0);
+        var extant = fakeQuery(".groups input").map(function (i) { return i.id.split('-').pop(); }) || [];
+        var groupList = fakeQuery(".groups ul").pop();
+        Object.keys(groups).filter(function (g) { return extant.indexOf(g) < 0; }).forEach(function (g) {
+            var li = document.createElement("li");
+            var input = document.createElement("input");
+            var label = document.createElement("label");
+            li.appendChild(input);
+            li.appendChild(label);
+            groupList.appendChild(li);
+            input.type = "checkbox";
+            label.htmlFor = input.id = "group-" + g;
+            input.checked = showGroups[g] !== false;
+            label.innerText = groups[g];
+            input.onchange = function () { return toggleGroup(input); };
+        });
+    }, 0);
 }
 function drawVideos(baseRunInfo, runElement, scale, videoCollection) {
     if (videoCollection === void 0) { videoCollection = videos; }
@@ -347,7 +352,7 @@ function drawVideos(baseRunInfo, runElement, scale, videoCollection) {
                 .append($('<input type="checkbox" id="group-videos" checked>').change(function () { $("div.videos").toggleClass('hidden', $(this).val()); }))
                 .append($('<label for="group-videos">').text("Videos"))
                 .appendTo($("li.groups ul"));
-    }); }).then(function () { return updatePage(); });
+    }); }).then(function () { return setTimeout(function () { return scaleRun(runElement); }, 0); });
 }
 var zoomIn = function () { return applyScale(globalPpd * 2); };
 var zoomOut = function () { return applyScale(globalPpd / 2); };
