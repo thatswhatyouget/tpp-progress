@@ -117,8 +117,9 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
 function updateRun(runInfo: TPP.Run, run: HTMLDivElement, scale) {
     if (!(runInfo.Scraper && runInfo.Ongoing)) return;
     Scrape(runInfo).then(r => {
-        console.log("Updating " + runInfo.RunName + " to " + runInfo.Duration);
-        run.setAttribute("data-duration", runInfo.Duration);
+	var duration = Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale);
+        console.log("Updating " + runInfo.RunName + " to " + duration);
+        run.setAttribute("data-duration", duration);
         run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
         run.setAttribute("data-label", runInfo.RunName + ": " + Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale));
         runInfo.Events.filter(e => e.New).forEach(event => run.appendChild(drawEvent(event, runInfo, scale)));

@@ -117,8 +117,9 @@ function updateRun(runInfo, run, scale) {
     if (!(runInfo.Scraper && runInfo.Ongoing))
         return;
     Scrape(runInfo).then(function (r) {
-        console.log("Updating " + runInfo.RunName + " to " + runInfo.Duration);
-        run.setAttribute("data-duration", runInfo.Duration);
+        var duration = Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale);
+        console.log("Updating " + runInfo.RunName + " to " + duration);
+        run.setAttribute("data-duration", duration);
         run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
         run.setAttribute("data-label", runInfo.RunName + ": " + Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale));
         runInfo.Events.filter(function (e) { return e.New; }).forEach(function (event) { return run.appendChild(drawEvent(event, runInfo, scale)); });
