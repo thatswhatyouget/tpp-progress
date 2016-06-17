@@ -97,13 +97,13 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
             }
         });
     if (run.Scraper.runtime) promises.push($.get("http://api.twitchplayspokemon.org/v1/general").then((api: TPP.Org.V1.General) =>
-        run.Duration = new Date(api.data.pop().last_update_unix * 1000).toISOString()
+        run.Duration = api.data.pop().last_update //new Date(api.data.pop().last_update_unix * 1000).toISOString()
     ));
     if (run.Scraper.parts.indexOf("Badge") >= 0) promises.push($.get("http://api.twitchplayspokemon.org/v1/badges").then((api: TPP.Org.V1.Badges) =>
         eventMerge(api.data.map(b => (<TPP.Event>{
             Group: (b.region.toLowerCase().indexOf("rematch") >= 0 ? "Rematch " : "") + "Badges",
             Name: b.name.trim() + " Badge",
-            Time: new Date(b.time_unix * 1000).toISOString(),
+            Time: b.time, //new Date(b.time_unix * 1000).toISOString(),
             Attempts: b.attempts,
             Image: "img/badges/" + (b.region.toLowerCase().indexOf("rematch") >= 0 ? "rematch/" : "") + b.name.toLowerCase() + ".png"
         })))
@@ -112,7 +112,7 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
         eventMerge(api.data.map(t => (<TPP.Event>{
             Group: "Elite Four" + (t.is_rematch ? " Rematch" : ""),
             Name: t.name.trim(),
-            Time: new Date(t.time_unix * 1000).toISOString(),
+            Time: t.time, //new Date(t.time_unix * 1000).toISOString(),
             Attempts: t.attempts,
             Image: "img/trainers/" + runFolder + (t.is_rematch ? "rematch/" : "") + t.name.toLowerCase() + ".png"
         })))
@@ -121,7 +121,7 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
         api.data.map(p => (<TPP.Event>{
             Group: "Pokemon",
             Name: p.pokemon.trim(),
-            Time: new Date(p.time_unix * 1000).toISOString(),
+            Time: p.time, //new Date(p.time_unix * 1000).toISOString(),
         })).forEach(p => {
             var pkname = p.Name.toLowerCase();
             if (!pkmn[pkname] || Duration.parse(pkmn[pkname].Time).TotalSeconds > Duration.parse(p.Time).TotalSeconds)

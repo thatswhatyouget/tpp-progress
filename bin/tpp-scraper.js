@@ -97,14 +97,14 @@ function TppOrgApi(run, deferred) {
     };
     if (run.Scraper.runtime)
         promises.push($.get("http://api.twitchplayspokemon.org/v1/general").then(function (api) {
-            return run.Duration = new Date(api.data.pop().last_update_unix * 1000).toISOString();
+            return run.Duration = api.data.pop().last_update;
         }));
     if (run.Scraper.parts.indexOf("Badge") >= 0)
         promises.push($.get("http://api.twitchplayspokemon.org/v1/badges").then(function (api) {
             return eventMerge(api.data.map(function (b) { return ({
                 Group: (b.region.toLowerCase().indexOf("rematch") >= 0 ? "Rematch " : "") + "Badges",
                 Name: b.name.trim() + " Badge",
-                Time: new Date(b.time_unix * 1000).toISOString(),
+                Time: b.time,
                 Attempts: b.attempts,
                 Image: "img/badges/" + (b.region.toLowerCase().indexOf("rematch") >= 0 ? "rematch/" : "") + b.name.toLowerCase() + ".png"
             }); }));
@@ -114,7 +114,7 @@ function TppOrgApi(run, deferred) {
             return eventMerge(api.data.map(function (t) { return ({
                 Group: "Elite Four" + (t.is_rematch ? " Rematch" : ""),
                 Name: t.name.trim(),
-                Time: new Date(t.time_unix * 1000).toISOString(),
+                Time: t.time,
                 Attempts: t.attempts,
                 Image: "img/trainers/" + runFolder + (t.is_rematch ? "rematch/" : "") + t.name.toLowerCase() + ".png"
             }); }));
@@ -124,7 +124,7 @@ function TppOrgApi(run, deferred) {
             api.data.map(function (p) { return ({
                 Group: "Pokemon",
                 Name: p.pokemon.trim(),
-                Time: new Date(p.time_unix * 1000).toISOString(),
+                Time: p.time,
             }); }).forEach(function (p) {
                 var pkname = p.Name.toLowerCase();
                 if (!pkmn[pkname] || Duration.parse(pkmn[pkname].Time).TotalSeconds > Duration.parse(p.Time).TotalSeconds)
