@@ -102,8 +102,8 @@ function drawRun(runInfo, run, scale, events) {
         runInfo.Events.forEach(function (e) { return delete e.New; });
         drawVideos(runInfo, run, scale);
         setTimeout(function () { return updateRun(runInfo, run, scale); }, 15 * 60000);
+        drawConcurrentRuns(runInfo, run, scale);
     }
-    drawConcurrentRuns(runInfo, run, scale);
     $(run).on('click', function (e) {
         if (e.shiftKey) {
             $(this).hide();

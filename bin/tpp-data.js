@@ -4034,9 +4034,7 @@ var tppData = [
                     pokemon: true
                 },
                 Region: "Rijon",
-                Events: [
-                    { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "0d 0h 5m" },
-                ]
+                Events: []
             }
         ]
     },

@@ -1,0 +1,130 @@
+<html>
+
+<head>
+	<title>TPP Progress Chart</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="bin/tpp-structure.js"></script>
+    <script src="bin/twitch-videos.js"></script>
+	<script src="bin/tpp-progress.js"></script>
+	<script src="bin/tpp-scraper.js"></script>
+	<script src="bin/tpp-data.js"></script>
+    <!--<script src="bin/poke-styles.js"></script>-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">	
+	<link rel="stylesheet" href="css/tpp-progress.css" />
+    <link rel="stylesheet" href="css/pokemon.css" />
+	<link rel="icon" href="img/icon.png" type="image/png">
+	<link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <meta property="og:title" content="TPP Progress Chart" />
+    <meta property="og:url" content="http://thatswhatyouget.github.io/tpp-progress/" />
+    <meta property="og:image" content="http://thatswhatyouget.github.io/tpp-progress/img/icon.png" />
+    <meta property="og:type" content="website" />
+    <meta charset="utf-8" />
+    <style>
+        .run.twitchplayspokemon {
+            margin-bottom:100px;
+        }
+        .run.twitchplayspokemon:before {
+            color:black
+        }
+        .run.twitchplayspokemon [data-label^="Sidegame"] {
+            top:100%;
+        }
+        .run#touhoumon, .run#moemon {
+            height:22px;
+        }
+        .run#moemon {
+            top:22px;
+        }
+    </style>
+</head>
+
+<body>
+	<div class="title">
+		<h1>Twitch Plays Pokemon</h1>
+        <div class="subtitle">
+            Timeline
+            <a href="index.html">See Normal Progress Chart</a>
+        </div>
+	</div>
+	<div class="title">
+		<strong>Progress Chart</strong>
+		<div class="credits">
+			<span>Original Design: <a href="https://www.reddit.com/user/jim_needs_me" target="_blank">jim_needs_me</a></span>&nbsp;&nbsp;
+			<span>Interactive version: <a href="https://www.reddit.com/user/VorpalNorman" target="_blank">VorpalNorman</a></span>
+		</div>
+		<div class="credits">
+			Contributors:
+            <a href="https://www.reddit.com/user/TheSwordUser" target="_blank">TheSwordUser</a>,
+            <a href="https://www.reddit.com/user/UDie2day" target="_blank">UDie2day</a>,
+            <a href="https://www.reddit.com/user/AsterJ" target="_blank">AsterJ,</a>
+            <a href="https://www.reddit.com/user/Rabbeseking" target="_blank">Rabbeseking</a>,
+            <a href="https://www.reddit.com/user/Tiesoul" target="_blank">Tiesoul</a>,
+            <a href="https://www.reddit.com/user/Persona_Alio" target="_blank">valence_d</a>,
+            <a href="https://www.reddit.com/user/ChezMere" target="_blank">ChezMere</a>,
+            <a href="https://www.reddit.com/user/T-chan" target="_blank">T-chan</a>,
+            <a href="https://www.reddit.com/user/yoshord" target="_blank">yoshord</a>,
+            and <a href="https://www.reddit.com/user/Sir_W_R_Armchair" target="_blank">Sir_WRA</a>
+		</div>
+        <div class="credits">
+            Default sprites are from <a href="http://bulbapedia.bulbagarden.net/" target="_blank">Bulbapedia</a> and <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
+            Pokemon sprites are from <a href="http://pldh.net/dex/sprites/index" target="_blank">PLDHnet's SpriteDex</a>.<br/>
+            All custom sprites can be clicked for links to their sources.
+        </div>
+        <div class="credits">
+            <span class="doItLive">Most</span> run data provided by <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
+        </div>
+	</div>
+    <div class="charts">
+	   <script>
+            function staggerStackedRuns(runs, runHeight) {
+                return null;
+            }
+            //tppData.push(bettingRuns);
+            createCharts([
+                { 
+                    Scale: QueryString.scale ? TPP.Scale[QueryString.scale] : TPP.Scale.Weeks,
+                    Name: "Timeline",
+                    SingularName: "Timeline",
+                    Runs: [
+                        {
+                            RunName: "Twitch Plays Pokemon",
+                            ColorPrimary: "transparent",
+                            ColorSecondary: "transparent",
+                            Ongoing: true,
+                            StartDate: "2014-02-13T01:22:45Z",
+                            StartTime: Date.parse("2014-02-13T01:22:45Z") / 1000,
+                            Duration: new Date().toISOString(),
+                            Events: [],
+                            ContainsRunsFrom: tppData.sort(function(c1, c2) { return c1.Scale - c2.Scale}).map(function(c) { return c.Name; })
+                        }
+                    ]
+                }
+            ]);
+       </script>
+    </div>
+	<ul class="controls">
+		<li><i class="fa fa-search-plus" title="Zoom In" onclick="zoomIn();"></i></li>
+		<li><i class="fa fa-search-minus" title="Zoom Out" onclick="zoomOut();"></i></li>
+		<li class="settings">
+			<i class="fa fa-gear" title="Settings"></i>
+			<ul>
+				<li>
+					<input type="checkbox" id="explode" onchange="toggleSetting(this);" />
+					<label for="explode">Stagger Clumps</label>
+				</li>
+                <!--<li>
+					<input type="checkbox" id="postgame" onchange="toggleSetting(this);" />
+					<label for="postgame">Show Postgame</label>
+				</li>-->
+			</ul>
+		</li>
+		<li class="groups">
+			<i class="fa fa-eye" title="Groups"></i>
+			<ul>
+			</ul>
+		</li>
+        <li><i class="fa fa-twitch" title="Twitch Videos" onclick="getTwitchVideos();"></i></li>
+	</ul>
+</body>
+
+</html>

@@ -102,8 +102,8 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
         runInfo.Events.forEach(e => delete e.New);
         drawVideos(runInfo, run, scale);
         setTimeout(() => updateRun(runInfo, run, scale), 15 * 60000);
+        drawConcurrentRuns(runInfo, run, scale);
     }
-    drawConcurrentRuns(runInfo, run, scale);
     $(run).on('click', function(e) {
         if (e.shiftKey) {
             $(this).hide();
