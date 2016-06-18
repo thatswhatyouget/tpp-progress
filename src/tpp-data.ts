@@ -4071,8 +4071,8 @@ var tppData: TPP.Collection[] = [
             },
             {
                 RunName: "Brown",
-                ColorPrimary: "brown",
-                ColorSecondary: "#644d2e",
+                ColorSecondary: "#805015",
+                ColorPrimary: "#ba8a28",
                 StartDate: "2016-06-16T21:00:00Z",
                 Duration: "255d",
                 Ongoing: true,
@@ -4099,8 +4099,8 @@ var tppData: TPP.Collection[] = [
                     // {
                     //     Group: "Badges",
                     //     Name: "Hail Badge",
-                    //     Image: "img/badges/boulder.png",
-                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Image: "img/badges/hail.png",
+                    //     ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4om5zd/8bit_lily_hail_badge/",
                     //     Time: "-1d",
                     //     Attempts: 0
                     // },
@@ -4108,48 +4108,48 @@ var tppData: TPP.Collection[] = [
                     // {
                     //     Group: "Badges",
                     //     Name: "Sparky Badge",
-                    //     Image: "img/badges/thunder.png",
-                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Image: "img/badges/sparky.png",
+                    //     ImageSource: "",
                     //     Time: "-1d",
                     //     Attempts: 0
                     // },
                     // {
                     //     Group: "Badges",
                     //     Name: "Sprout Badge",
-                    //     Image: "img/badges/rainbow.png",
-                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Image: "img/badges/sprout.png",
+                    //     ImageSource: "",
                     //     Time: "-1d",
                     //     Attempts: 0
                     // },
                     // {
                     //     Group: "Badges",
                     //     Name: "Fist Badge",
-                    //     Image: "img/badges/soul.png",
-                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Image: "img/badges/fist.png",
+                    //     ImageSource: "",
                     //     Time: "-1d",
                     //     Attempts: 0
                     // },
                     // {
                     //     Group: "Badges",
                     //     Name: "Psi Badge",
-                    //     Image: "img/badges/marsh.png",
-                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Image: "img/badges/psi.png",
+                    //     ImageSource: "",
                     //     Time: "-1d",
                     //     Attempts: 0
                     // },
                     // {
                     //     Group: "Badges",
                     //     Name: "White Badge",
-                    //     Image: "img/badges/volcano.png",
-                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Image: "img/badges/white.png",
+                    //     ImageSource: "",
                     //     Time: "-1d",
                     //     Attempts: 0
                     // },
                     // {
                     //     Group: "Badges",
                     //     Name: "Star Badge",
-                    //     Image: "img/badges/earth.png",
-                    //     ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                    //     Image: "img/badges/star.png",
+                    //     ImageSource: "",
                     //     Time: "-1d",
                     //     Attempts: 0
                     // },
@@ -4740,10 +4740,10 @@ var tppData: TPP.Collection[] = [
             },
             {
                 RunName: "Vietnamese Crystal Revisit",
-                StartDate: "2016-06-15T21:00:00Z",
+                StartDate: "2016-06-15T21:17:30Z",
                 ColorPrimary: "#77b2ff",
                 ColorSecondary: "#416fcc",
-                Duration: "23h",
+                Duration: "2016-06-16T20:00:00Z",
                 HostName: "BABA",
                 HostImage: "img/hosts/baba.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",

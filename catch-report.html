@@ -20,6 +20,14 @@
     <meta property="og:type" content="website" />
     <meta charset="utf-8" />
     <style>
+        .progressChart .run .event[data-label].catchreport {
+            display:none;
+        }
+        
+        .progressChart .run .event[data-label].catchreport.ready {
+            display:block;
+        }
+
         .progressChart .run .event[data-label].catchreport,
         .progressChart .run .event[data-label].catchreport:hover {
             background-color: black;
@@ -126,21 +134,29 @@
                             Name: countMons(),
                             Time:  Duration.parse(r.Duration, r.StartTime).toString(),
                         });
-                        var realUpdatePage = updatePage;
-                        updatePage = function(e) {
-                            var search = '.' + cleanString(r.RunName) + ' .catchreport';
-                            var runDur = Duration.parse(r.Duration, r.StartTime), count = countMons();
-                            var scaleChar = "d";
-                            if (c.Scale == TPP.Scale.Weeks) scaleChar = "w";
-                            $(search).attr('data-label', count)
-                                .attr('data-time', !day || runDur.TotalTime(c.Scale) < day ? !day || runDur.TotalTime(c.Scale) >= day - 1 ? runDur.toString() : day - 1 + scaleChar : day + scaleChar)
-                                .attr('data-percentage', r.DexTotal ? count == r.DexTotal ? "100%" : ((count / r.DexTotal) * 100).toFixed(1) + "%" : r.Region == "Denjuu World" ? "Friends" : "Caught");
-                            return realUpdatePage(e);
+                        var runElement = null;
+                        var realDrawRun = drawRun
+                        drawRun = function (runInfo, run, scale, events) {
+                            if (!runElement && events !== false && runInfo == r) runElement = run;
+                            return realDrawRun(runInfo, run, scale, events);
+                        }
+                        var realScaleRun = scaleRun;
+                        scaleRun = function(run, ppd) {
+                            if (run == runElement) { 
+                                var search = ' .catchreport';
+                                var runDur = Duration.parse(r.Duration, r.StartTime), count = countMons();
+                                var scaleChar = "d";
+                                if (c.Scale == TPP.Scale.Weeks) scaleChar = "w";
+                                $(run).find(search).attr('data-label', count).addClass('ready')
+                                    .attr('data-time', !day || runDur.TotalTime(c.Scale) < day ? !day || runDur.TotalTime(c.Scale) >= day - 1 ? runDur.toString() : day - 1 + scaleChar : day + scaleChar)
+                                    .attr('data-percentage', r.DexTotal ? count == r.DexTotal ? "100%" : ((count / r.DexTotal) * 100).toFixed(1) + "%" : r.Region == "Denjuu World" ? "Friends" : "Caught");
+                            }
+                            return realScaleRun(run, ppd);
                         }
                         return r;
                     });
                 return newC;
-            }).filter(function (c) { return c.Runs.length; });
+            }).filter(function (c) { return (day ? c.SingularName != "Revisit" : true) && c.Runs.length; });
             if (day) globalPpd = 1024;
             createCharts(data);
         </script>

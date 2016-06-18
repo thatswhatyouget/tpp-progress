@@ -4019,8 +4019,8 @@ var tppData = [
             },
             {
                 RunName: "Brown",
-                ColorPrimary: "brown",
-                ColorSecondary: "#644d2e",
+                ColorSecondary: "#805015",
+                ColorPrimary: "#ba8a28",
                 StartDate: "2016-06-16T21:00:00Z",
                 Duration: "255d",
                 Ongoing: true,
@@ -4592,10 +4592,10 @@ var tppData = [
             },
             {
                 RunName: "Vietnamese Crystal Revisit",
-                StartDate: "2016-06-15T21:00:00Z",
+                StartDate: "2016-06-15T21:17:30Z",
                 ColorPrimary: "#77b2ff",
                 ColorSecondary: "#416fcc",
-                Duration: "23h",
+                Duration: "2016-06-16T20:00:00Z",
                 HostName: "BABA",
                 HostImage: "img/hosts/baba.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
