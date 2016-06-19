@@ -4092,35 +4092,34 @@ var tppData: TPP.Collection[] = [
                         Group: "Badges",
                         Name: "Marine Badge",
                         Image: "img/badges/marine.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4oi54q/8bit_karpman_marine_badge/",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4otht9/first_four_badges_updated/",
                         Time: "8h3m",
                         Attempts: 1
                     },
-                    // {
-                    //     Group: "Badges",
-                    //     Name: "Hail Badge",
-                    //     Image: "img/badges/hail.png",
-                    //     ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4om5zd/8bit_lily_hail_badge/",
-                    //     Time: "-1d",
-                    //     Attempts: 0
-                    // },
-
-                    // {
-                    //     Group: "Badges",
-                    //     Name: "Sparky Badge",
-                    //     Image: "img/badges/sparky.png",
-                    //     ImageSource: "",
-                    //     Time: "-1d",
-                    //     Attempts: 0
-                    // },
-                    // {
-                    //     Group: "Badges",
-                    //     Name: "Sprout Badge",
-                    //     Image: "img/badges/sprout.png",
-                    //     ImageSource: "",
-                    //     Time: "-1d",
-                    //     Attempts: 0
-                    // },
+                    {
+                        Group: "Badges",
+                        Name: "Hail Badge",
+                        Image: "img/badges/hail.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4otht9/first_four_badges_updated/",
+                        Time: "1d9h37m",
+                        Attempts: 6
+                    },
+                    {
+                        Group: "Badges",
+                        Name: "Sparky Badge",
+                        Image: "img/badges/sparky.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4otht9/first_four_badges_updated/",
+                        Time: "2d16h24m",
+                        Attempts: 2
+                    },
+                    {
+                        Group: "Badges",
+                        Name: "Sprout Badge",
+                        Image: "img/badges/sprout.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4otht9/first_four_badges_updated/",
+                        Time: "2d14h34m",
+                        Attempts: 1
+                    },
                     // {
                     //     Group: "Badges",
                     //     Name: "Fist Badge",
