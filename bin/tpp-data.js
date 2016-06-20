@@ -4068,6 +4068,7 @@ var tppData = [
                         Time: "2d14h34m",
                         Attempts: 1
                     },
+                    { "Group": "Pokemon", "Name": "Persian", "Time": "3d 18h 19m" },
                 ]
             }
         ]

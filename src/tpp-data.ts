@@ -4187,6 +4187,7 @@ var tppData: TPP.Collection[] = [
                     //     Time: "-1d",
                     //     Attempts: 0
                     // },
+                    { "Group": "Pokemon", "Name": "Persian", "Time": "3d 18h 19m" },
                 ]
             }
         ]
