@@ -4086,12 +4086,9 @@ var tppData = [
                     },
                     { "Group": "Badges", "Name": "Hive Badge", "Time": "6d 10h 23m", "Attempts": 3, "Image": "img/badges/hive.png" },
                     { "Group": "Pokemon", "Name": "Persian", "Time": "3d 18h 19m" },
-                    { "Group": "Pokemon", "Name": "Gligar", "Time": "6d 10h 25m" },
                     { "Group": "Pokemon", "Name": "Yanma", "Time": "6d 12h 31m" },
                     { "Group": "Pokemon", "Name": "Phanpy", "Time": "6d 12h 36m" },
                     { "Group": "Pokemon", "Name": "Slowpoke", "Time": "6d 12h 49m" },
-                    { "Group": "Pokemon", "Name": "Cubone", "Time": "6d 13h 01m" },
-                    { "Group": "Pokemon", "Name": "Natu", "Time": "6d 13h 29m" },
                 ]
             }
         ]
