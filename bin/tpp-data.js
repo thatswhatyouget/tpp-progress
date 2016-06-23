@@ -4040,7 +4040,7 @@ var tppData = [
                         Group: "Badges",
                         Name: "Marine Badge",
                         Image: "img/badges/marine.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4otht9/first_four_badges_updated/",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4pflbv/better_quality_badge_picsart/",
                         Time: "8h3m",
                         Attempts: 1
                     },
@@ -4048,7 +4048,7 @@ var tppData = [
                         Group: "Badges",
                         Name: "Hail Badge",
                         Image: "img/badges/hail.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4otht9/first_four_badges_updated/",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4pflbv/better_quality_badge_picsart/",
                         Time: "1d9h37m",
                         Attempts: 6
                     },
@@ -4056,7 +4056,7 @@ var tppData = [
                         Group: "Badges",
                         Name: "Sparky Badge",
                         Image: "img/badges/sparky.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4otht9/first_four_badges_updated/",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4pflbv/better_quality_badge_picsart/",
                         Time: "2d16h24m",
                         Attempts: 2
                     },
@@ -4064,11 +4064,34 @@ var tppData = [
                         Group: "Badges",
                         Name: "Sprout Badge",
                         Image: "img/badges/sprout.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4otht9/first_four_badges_updated/",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4pflbv/better_quality_badge_picsart/",
                         Time: "2d14h34m",
                         Attempts: 1
                     },
+                    {
+                        Group: "Badges",
+                        Name: "Fist Badge",
+                        Image: "img/badges/fist.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4pflbv/better_quality_badge_picsart/",
+                        Time: "3d17h56m",
+                        Attempts: 2
+                    },
+                    {
+                        Group: "Badges",
+                        Name: "Psi Badge",
+                        Image: "img/badges/psi.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4pflbv/better_quality_badge_picsart/",
+                        Time: "5d7h38m",
+                        Attempts: 1
+                    },
+                    { "Group": "Badges", "Name": "Hive Badge", "Time": "6d 10h 23m", "Attempts": 3, "Image": "img/badges/hive.png" },
                     { "Group": "Pokemon", "Name": "Persian", "Time": "3d 18h 19m" },
+                    { "Group": "Pokemon", "Name": "Gligar", "Time": "6d 10h 25m" },
+                    { "Group": "Pokemon", "Name": "Yanma", "Time": "6d 12h 31m" },
+                    { "Group": "Pokemon", "Name": "Phanpy", "Time": "6d 12h 36m" },
+                    { "Group": "Pokemon", "Name": "Slowpoke", "Time": "6d 12h 49m" },
+                    { "Group": "Pokemon", "Name": "Cubone", "Time": "6d 13h 01m" },
+                    { "Group": "Pokemon", "Name": "Natu", "Time": "6d 13h 29m" },
                 ]
             }
         ]
