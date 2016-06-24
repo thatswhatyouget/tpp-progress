@@ -121,13 +121,13 @@ function TppOrgApi(run, deferred) {
         }));
     if (run.Scraper.pokemon)
         promises.push($.get("http://api.twitchplayspokemon.org/v1/pokemon-timeline").then(function (api) {
-            api.data.map(function (p) { return ({
+            api.data.sort(function (p1, p2) { return p2.time_unix - p1.time_unix; }).map(function (p) { return ({
                 Group: "Pokemon",
                 Name: p.pokemon.trim(),
                 Time: new Date(p.time_unix * 1000).toISOString(),
             }); }).forEach(function (p) {
                 var pkname = p.Name.toLowerCase();
-                if (!pkmn[pkname] || Duration.parse(pkmn[pkname].Time).TotalSeconds > Duration.parse(p.Time).TotalSeconds)
+                if (!pkmn[pkname] || Duration.parse(pkmn[pkname].Time, run.StartTime).TotalSeconds > Duration.parse(p.Time, run.StartTime).TotalSeconds)
                     pkmn[pkname] = p;
             });
             return eventMerge(Object.keys(pkmn).map(function (k) { return pkmn[k]; }));

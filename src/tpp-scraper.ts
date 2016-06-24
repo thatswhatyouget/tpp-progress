@@ -118,13 +118,13 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
         })))
     ));
     if (run.Scraper.pokemon) promises.push($.get("http://api.twitchplayspokemon.org/v1/pokemon-timeline").then((api: TPP.Org.V1.PokemonTimeline) => {
-        api.data.map(p => (<TPP.Event>{
+        api.data.sort((p1, p2) => p2.time_unix - p1.time_unix).map(p => (<TPP.Event>{
             Group: "Pokemon",
             Name: p.pokemon.trim(),
             Time: new Date(p.time_unix * 1000).toISOString(),
         })).forEach(p => {
             var pkname = p.Name.toLowerCase();
-            if (!pkmn[pkname] || Duration.parse(pkmn[pkname].Time).TotalSeconds > Duration.parse(p.Time).TotalSeconds)
+            if (!pkmn[pkname] || Duration.parse(pkmn[pkname].Time, run.StartTime).TotalSeconds > Duration.parse(p.Time, run.StartTime).TotalSeconds)
                 pkmn[pkname] = p;
         });
         return eventMerge(Object.keys(pkmn).map(k => pkmn[k]));
