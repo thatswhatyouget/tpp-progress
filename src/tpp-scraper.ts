@@ -118,7 +118,7 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
         })))
     ));
     if (run.Scraper.pokemon) promises.push($.get("http://api.twitchplayspokemon.org/v1/pokemon-timeline").then((api: TPP.Org.V1.PokemonTimeline) => {
-        api.data.sort((p1, p2) => p2.time_unix - p1.time_unix).map(p => (<TPP.Event>{
+        api.data.map(p => (<TPP.Event>{
             Group: "Pokemon",
             Name: p.pokemon.trim(),
             Time: new Date(p.time_unix * 1000).toISOString(),
