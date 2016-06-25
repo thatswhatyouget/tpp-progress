@@ -4189,6 +4189,15 @@ var tppData: TPP.Collection[] = [
                     //     Attempts: 0
                     // },
                     { "Group": "Pokemon", "Name": "Yanma", "Time": "6d 12h 31m" },
+                    { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "8d 11h 7m" },
+                    //{ "Group": "Pokemon", "Name": "Seel", "Time": "8d 13h 7m" },
+                    { "Group": "Pokemon", "Name": "Nidorina", "Time": "8d 13h 29m" },
+                    { "Group": "Pokemon", "Name": "Bellsprout", "Time": "8d 13h 51m" },
+                    { "Group": "Pokemon", "Name": "Growlithe", "Time": "8d 14h 28m" },
+                    { "Group": "Pokemon", "Name": "Magmar", "Time": "8d 15h 23m" },
+                    //{ "Group": "Pokemon", "Name": "NidoranM", "Time": "8d 15h 30m" },
+                    { "Group": "Pokemon", "Name": "Magmar", "Time": "8d 15h 43m" },
+                    //{ "Group": "Pokemon", "Name": "Rhyhorn", "Time": "8d 15h 48m" },
                 ]
             }
         ]
