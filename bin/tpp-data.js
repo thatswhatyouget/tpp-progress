@@ -4086,12 +4086,9 @@ var tppData = [
                     },
                     { "Group": "Badges", "Name": "Hive Badge", "Time": "6d 10h 23m", "Attempts": 3, "Image": "img/badges/hive.png" },
                     { "Group": "Pokemon", "Name": "Yanma", "Time": "6d 12h 31m" },
-                    { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "8d 11h 7m" },
-                    { "Group": "Pokemon", "Name": "Nidorina", "Time": "8d 13h 29m" },
-                    { "Group": "Pokemon", "Name": "Bellsprout", "Time": "8d 13h 51m" },
-                    { "Group": "Pokemon", "Name": "Growlithe", "Time": "8d 14h 28m" },
-                    { "Group": "Pokemon", "Name": "Magmar", "Time": "8d 15h 23m" },
-                    { "Group": "Pokemon", "Name": "Magmar", "Time": "8d 15h 43m" },
+                    { "Group": "Pokemon", "Name": "Nidorino", "Time": "8d 15h 43m" },
+                    { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "8d 15h 48m" },
+                    { "Group": "Pokemon", "Name": "Onix", "Time": "8d 16h 33m" },
                 ]
             }
         ]
