@@ -4086,9 +4086,7 @@ var tppData = [
                     },
                     { "Group": "Badges", "Name": "Hive Badge", "Time": "6d 10h 23m", "Attempts": 3, "Image": "img/badges/hive.png" },
                     { "Group": "Pokemon", "Name": "Yanma", "Time": "6d 12h 31m" },
-                    { "Group": "Pokemon", "Name": "Nidorino", "Time": "8d 15h 43m" },
-                    { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "8d 15h 48m" },
-                    { "Group": "Pokemon", "Name": "Onix", "Time": "8d 16h 33m" },
+                    { Group: "Champions", Name: "Pallet Patrol", Time: "10d 8h 30m", Attempts: 2, Image: "img/trainers/brown/palletpatrol.png" }
                 ]
             }
         ]
