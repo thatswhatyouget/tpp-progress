@@ -4040,7 +4040,7 @@ var tppData = [
                         Group: "Badges",
                         Name: "Marine Badge",
                         Image: "img/badges/marine.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4pflbv/better_quality_badge_picsart/",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4q2k6b/all_eight_rijon_badges/",
                         Time: "8h3m",
                         Attempts: 1
                     },
@@ -4048,7 +4048,7 @@ var tppData = [
                         Group: "Badges",
                         Name: "Hail Badge",
                         Image: "img/badges/hail.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4pflbv/better_quality_badge_picsart/",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4q2k6b/all_eight_rijon_badges/",
                         Time: "1d9h37m",
                         Attempts: 6
                     },
@@ -4056,7 +4056,7 @@ var tppData = [
                         Group: "Badges",
                         Name: "Sparky Badge",
                         Image: "img/badges/sparky.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4pflbv/better_quality_badge_picsart/",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4q2k6b/all_eight_rijon_badges/",
                         Time: "2d16h24m",
                         Attempts: 2
                     },
@@ -4064,7 +4064,7 @@ var tppData = [
                         Group: "Badges",
                         Name: "Sprout Badge",
                         Image: "img/badges/sprout.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4pflbv/better_quality_badge_picsart/",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4q2k6b/all_eight_rijon_badges/",
                         Time: "2d14h34m",
                         Attempts: 1
                     },
@@ -4072,7 +4072,7 @@ var tppData = [
                         Group: "Badges",
                         Name: "Fist Badge",
                         Image: "img/badges/fist.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4pflbv/better_quality_badge_picsart/",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4q2k6b/all_eight_rijon_badges/",
                         Time: "3d17h56m",
                         Attempts: 2
                     },
@@ -4080,12 +4080,27 @@ var tppData = [
                         Group: "Badges",
                         Name: "Psi Badge",
                         Image: "img/badges/psi.png",
-                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4pflbv/better_quality_badge_picsart/",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4q2k6b/all_eight_rijon_badges/",
                         Time: "5d7h38m",
                         Attempts: 1
                     },
                     { "Group": "Badges", "Name": "Hive Badge", "Time": "6d 10h 23m", "Attempts": 3, "Image": "img/badges/hive.png" },
-                    { "Group": "Pokemon", "Name": "Yanma", "Time": "6d 12h 31m" },
+                    {
+                        Group: "Badges",
+                        Name: "White Badge",
+                        Image: "img/badges/white.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4q2k6b/all_eight_rijon_badges/",
+                        Time: "6d21h47m",
+                        Attempts: 1
+                    },
+                    {
+                        Group: "Badges",
+                        Name: "Star Badge",
+                        Image: "img/badges/star.png",
+                        ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4q2k6b/all_eight_rijon_badges/",
+                        Time: "7d12h33m",
+                        Attempts: 2
+                    },
                     { Group: "Champions", Name: "Pallet Patrol", Time: "10d 8h 30m", Attempts: 2, Image: "img/trainers/brown/palletpatrol.png" }
                 ]
             }
