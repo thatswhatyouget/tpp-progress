@@ -4102,7 +4102,26 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Geodude", "Time": "2016-06-16T21:47:00.000Z" },
                     { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "2016-06-16T21:05:00.000Z" }
                 ]
-            }
+            },
+            {
+                RunName: "Randomized Platinum",
+                ColorPrimary: "#afafaf",
+                ColorSecondary: "#606060",
+                Duration: "255d",
+                StartDate: "2016-07-31T21:00:00Z",
+                Ongoing: true,
+                HostName: "???",
+                HostImage: "http://cdn.bulbagarden.net/upload/d/d6/Spr_Pt_Dawn.png",
+                Region: "Sinnoh",
+                TPPOrgLink: "http://twitchplayspokemon.org/",
+                Scraper: {
+                    url: "http://twitchplayspokemon.org/",
+                    runtime: true,
+                    parts: ["Badge", "Elite Four"],
+                    pokemon: true
+                },
+                Events: []
+            },
         ]
     },
     {
