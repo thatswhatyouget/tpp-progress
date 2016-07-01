@@ -4105,8 +4105,8 @@ var tppData = [
             },
             {
                 RunName: "Randomized Platinum",
-                ColorPrimary: "#afafaf",
-                ColorSecondary: "#606060",
+                ColorPrimary: "#afbfbf",
+                ColorSecondary: "#506060",
                 Duration: "255d",
                 StartDate: "2016-07-31T21:00:00Z",
                 Ongoing: true,
