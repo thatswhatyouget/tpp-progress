@@ -4437,7 +4437,7 @@ var tppData = [
                     {
                         Group: "Bosses",
                         Name: "Moltres",
-                        Time: "-1d",
+                        Time: "2016-07-02T15:49:37Z",
                         Class: "pokesprite"
                     },
                     {
