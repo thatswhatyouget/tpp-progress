@@ -1,6 +1,7 @@
 var Twitch;
 (function (Twitch) {
     var offsetExp = /offset=(\d*)/i;
+    var clientId = 'l6ejgsj101ymei0f6v4a6nkjw9upml9';
     var Video = (function () {
         function Video(recorded_at, length, url, source) {
             this.recorded_at = recorded_at;
@@ -19,12 +20,15 @@ var Twitch;
             if (r.videos.length) {
                 videos = videos.concat.apply(videos, r.videos.map(function (v) { return new Video(v.recorded_at, v.length, v.url, "Twitch"); }));
                 if (getAll && r._total) {
-                    return $.get(r._links.next).then(getAllVideos);
+                    return callApi(r._links.next).then(getAllVideos);
                 }
             }
             return videos;
         };
-        return $.when($.get("https://api.twitch.tv/kraken/channels/" + channel + "/videos?broadcasts=true&limit=100").then(getAllVideos), $.get("https://api.twitch.tv/kraken/channels/" + channel + "/videos?limit=100").then(getAllVideos));
+        return $.when(callApi("https://api.twitch.tv/kraken/channels/" + channel + "/videos?broadcasts=true&limit=100").then(getAllVideos), callApi("https://api.twitch.tv/kraken/channels/" + channel + "/videos?limit=100").then(getAllVideos));
     }
     Twitch.GetVideos = GetVideos;
+    function callApi(url) {
+        return $.get(url + (url.indexOf('?') > 0 ? '&' : '?') + "client_id=" + clientId);
+    }
 })(Twitch || (Twitch = {}));

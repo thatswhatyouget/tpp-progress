@@ -1,6 +1,7 @@
 /// <reference path="../ref/jquery.d.ts" />
 module Twitch {
     var offsetExp = /offset=(\d*)/i;
+    var clientId = 'l6ejgsj101ymei0f6v4a6nkjw9upml9'; //hardcoded 'cause it doesn't matter
 
     export interface TwitchCall {
         _total: number;
@@ -28,14 +29,18 @@ module Twitch {
             if (r.videos.length) {
                 videos = videos.concat.apply(videos, r.videos.map(v=> new Video(v.recorded_at, v.length, v.url, "Twitch")));
                 if (getAll && r._total) {
-                    return $.get(r._links.next).then(getAllVideos);
+                    return callApi(r._links.next).then(getAllVideos);
                 }
             }
             return videos;
         };
         return $.when(
-            $.get("https://api.twitch.tv/kraken/channels/" + channel + "/videos?broadcasts=true&limit=100").then(getAllVideos), //past broadcasts
-            $.get("https://api.twitch.tv/kraken/channels/" + channel + "/videos?limit=100").then(getAllVideos)                  //highlights
+            callApi("https://api.twitch.tv/kraken/channels/" + channel + "/videos?broadcasts=true&limit=100").then(getAllVideos), //past broadcasts
+            callApi("https://api.twitch.tv/kraken/channels/" + channel + "/videos?limit=100").then(getAllVideos)                  //highlights
         );
     }
+
+    function callApi(url: string) {
+        return $.get(url + (url.indexOf('?') > 0 ? '&' : '?') + "client_id=" + clientId);
+    } 
 }
