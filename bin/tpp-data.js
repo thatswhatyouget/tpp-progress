@@ -5890,6 +5890,19 @@ var tppData = [
                     { Group: "Badges", Name: "Stan", Image: "img/hamhams/stan.gif", Time: "2016-04-10T21:34:00Z" },
                 ]
             },
+            {
+                RunName: "Animal Crossing: Wild World",
+                StartDate: "2016-07-29T22:18:47Z",
+                ColorPrimary: "forestgreen",
+                ColorSecondary: "brown",
+                Duration: "2016-07-31T21:00:00Z",
+                Ongoing: true,
+                HostName: "111",
+                HostImage: "https://nookipedia.com/w/images/2/2d/BoyAAA.png",
+                HostImageSource: "https://nookipedia.com/wiki/File:BoyAAA.png",
+                Region: "Animal Crossing",
+                Events: []
+            },
         ]
     },
     {
