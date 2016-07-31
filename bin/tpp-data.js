@@ -4110,8 +4110,8 @@ var tppData = [
                 Duration: "255d",
                 StartDate: "2016-07-31T21:00:00Z",
                 Ongoing: true,
-                HostName: "???",
-                HostImage: "http://cdn.bulbagarden.net/upload/d/d6/Spr_Pt_Dawn.png",
+                HostName: "PP",
+                HostImage: "http://archives.bulbagarden.net/media/upload/6/6b/Spr_Pt_Lucas.png",
                 Region: "Sinnoh",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Events: []
