@@ -4114,7 +4114,9 @@ var tppData = [
                 HostImage: "http://archives.bulbagarden.net/media/upload/6/6b/Spr_Pt_Lucas.png",
                 Region: "Sinnoh",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
-                Events: []
+                Events: [
+                    { "Group": "Pokemon", "Name": "Bidoof", "Time": "2016-07-31T21:18:00Z" }
+                ]
             },
         ]
     },

@@ -4181,6 +4181,7 @@ var tppData: TPP.Collection[] = [
                 //     pokemon: true
                 // },
                 Events: [
+                    { "Group": "Pokemon", "Name": "Bidoof", "Time": "2016-07-31T21:18:00Z" }
                 ]
             },
         ]
