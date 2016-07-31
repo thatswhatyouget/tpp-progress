@@ -4114,12 +4114,6 @@ var tppData = [
                 HostImage: "http://cdn.bulbagarden.net/upload/d/d6/Spr_Pt_Dawn.png",
                 Region: "Sinnoh",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
-                Scraper: {
-                    url: "http://twitchplayspokemon.org/",
-                    runtime: true,
-                    parts: ["Badge", "Elite Four"],
-                    pokemon: true
-                },
                 Events: []
             },
         ]

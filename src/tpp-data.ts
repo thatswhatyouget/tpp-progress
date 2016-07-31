@@ -4174,12 +4174,12 @@ var tppData: TPP.Collection[] = [
                 //HostImageSource: "",
                 Region: "Sinnoh",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
-                Scraper: {
-                    url: "http://twitchplayspokemon.org/",
-                    runtime: true,
-                    parts: ["Badge", "Elite Four"],
-                    pokemon: true
-                },
+                // Scraper: {
+                //     url: "http://twitchplayspokemon.org/",
+                //     runtime: true,
+                //     parts: ["Badge", "Elite Four"],
+                //     pokemon: true
+                // },
                 Events: [
                 ]
             },
