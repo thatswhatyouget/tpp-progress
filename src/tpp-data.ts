@@ -4170,7 +4170,7 @@ var tppData: TPP.Collection[] = [
                 Ongoing: true,
                 HostName: "PP",
                 //HostImage: "http://cdn.bulbagarden.net/upload/d/d6/Spr_Pt_Dawn.png",
-                HostImage: "http://archives.bulbagarden.net/media/upload/6/6b/Spr_Pt_Lucas.png",
+                HostImage: "http://cdn.bulbagarden.net/upload/9/9c/Pt_Lucas_Intro.png",
                 //HostImageSource: "",
                 Region: "Sinnoh",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
