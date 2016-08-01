@@ -4111,7 +4111,8 @@ var tppData = [
                 StartDate: "2016-07-31T21:00:00Z",
                 Ongoing: true,
                 HostName: "PP",
-                HostImage: "http://cdn.bulbagarden.net/upload/9/9c/Pt_Lucas_Intro.png",
+                HostImage: "img/hosts/pp.png",
+                HostImageSource: "http://angelofemus.tumblr.com/post/148263922673/meet-pepe",
                 Region: "Sinnoh",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Events: [
