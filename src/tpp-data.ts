@@ -4202,6 +4202,13 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "1d 23h 52m" },
                     { "Group": "Pokemon", "Name": "Koffing", "Time": "1d 23h 57m" },
                     { "Group": "Pokemon", "Name": "Horsea", "Time": "2d 0h 10m" },
+                    { "Group": "Pokemon", "Name": "Spheal", "Time": "2d 2h 11m" },
+                    { "Group": "Pokemon", "Name": "Shellder", "Time": "2d 3h 16m" },
+                    { "Group": "Pokemon", "Name": "Lotad", "Time": "2d 4h 0m" },
+                    { "Group": "Pokemon", "Name": "Swablu", "Time": "2d 4h 4m" },
+                    { "Group": "Pokemon", "Name": "Geodude", "Time": "2d 4h 13m" },
+                    { "Group": "Pokemon", "Name": "Nuzleaf", "Time": "2d 4h 17m" },
+                    { "Group": "Pokemon", "Name": "Cleffa", "Time": "2d 4h 45m" },
                 ]
             },
         ]
