@@ -58,7 +58,7 @@ function Scrape(run: TPP.Run) {
         if (run.Scraper.pokemon) {
             var pkmn: { [key: string]: TPP.Event } = {};
             run.Events.filter(e => e.Group == "Pokemon").forEach(e => pkmn[e.Name] = e);
-            $(page).find('.history-obtained').each(function() {
+            $(page).find('.history-obtained').each(function () {
                 var $element = $(this);
                 var $img = $element.find('img');
                 if (!$img.is('*')) {
@@ -100,7 +100,7 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
         run.Duration = new Date(api.data.pop().last_update_unix * 1000).toISOString()
     ));
     if (run.Scraper.parts.indexOf("Badge") >= 0) promises.push($.get("http://api.twitchplayspokemon.org/v1/badges").then((api: TPP.Org.V1.Badges) =>
-        eventMerge(api.data.map(b => (<TPP.Event>{
+        eventMerge(api.data.filter(b => b.time_unix >= run.StartTime).map(b => (<TPP.Event>{
             Group: (b.region.toLowerCase().indexOf("rematch") >= 0 ? "Rematch " : "") + "Badges",
             Name: b.name.trim() + " Badge",
             Time: new Date(b.time_unix * 1000).toISOString(),
@@ -109,7 +109,7 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
         })))
     ));
     if (run.Scraper.parts.indexOf("Elite Four") >= 0) promises.push($.get("http://api.twitchplayspokemon.org/v1/elite-four").then((api: TPP.Org.V1.EliteFour) =>
-        eventMerge(api.data.map(t => (<TPP.Event>{
+        eventMerge(api.data.filter(t => t.time_unix >= run.StartTime).map(t => (<TPP.Event>{
             Group: "Elite Four" + (t.is_rematch ? " Rematch" : ""),
             Name: t.name.trim(),
             Time: new Date(t.time_unix * 1000).toISOString(),
@@ -118,7 +118,7 @@ function TppOrgApi(run: TPP.Run, deferred: JQueryDeferred<TPP.Run>) {
         })))
     ));
     if (run.Scraper.pokemon) promises.push($.get("http://api.twitchplayspokemon.org/v1/pokemon-timeline").then((api: TPP.Org.V1.PokemonTimeline) => {
-        api.data.map(p => (<TPP.Event>{
+        api.data.filter(p => p.time_unix >= run.StartTime).map(p => (<TPP.Event>{
             Group: "Pokemon",
             Name: p.pokemon.trim(),
             Time: new Date(p.time_unix * 1000).toISOString(),

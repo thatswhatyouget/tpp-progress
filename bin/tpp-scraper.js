@@ -101,7 +101,7 @@ function TppOrgApi(run, deferred) {
         }));
     if (run.Scraper.parts.indexOf("Badge") >= 0)
         promises.push($.get("http://api.twitchplayspokemon.org/v1/badges").then(function (api) {
-            return eventMerge(api.data.map(function (b) { return ({
+            return eventMerge(api.data.filter(function (b) { return b.time_unix >= run.StartTime; }).map(function (b) { return ({
                 Group: (b.region.toLowerCase().indexOf("rematch") >= 0 ? "Rematch " : "") + "Badges",
                 Name: b.name.trim() + " Badge",
                 Time: new Date(b.time_unix * 1000).toISOString(),
@@ -111,7 +111,7 @@ function TppOrgApi(run, deferred) {
         }));
     if (run.Scraper.parts.indexOf("Elite Four") >= 0)
         promises.push($.get("http://api.twitchplayspokemon.org/v1/elite-four").then(function (api) {
-            return eventMerge(api.data.map(function (t) { return ({
+            return eventMerge(api.data.filter(function (t) { return t.time_unix >= run.StartTime; }).map(function (t) { return ({
                 Group: "Elite Four" + (t.is_rematch ? " Rematch" : ""),
                 Name: t.name.trim(),
                 Time: new Date(t.time_unix * 1000).toISOString(),
@@ -121,7 +121,7 @@ function TppOrgApi(run, deferred) {
         }));
     if (run.Scraper.pokemon)
         promises.push($.get("http://api.twitchplayspokemon.org/v1/pokemon-timeline").then(function (api) {
-            api.data.map(function (p) { return ({
+            api.data.filter(function (p) { return p.time_unix >= run.StartTime; }).map(function (p) { return ({
                 Group: "Pokemon",
                 Name: p.pokemon.trim(),
                 Time: new Date(p.time_unix * 1000).toISOString(),
