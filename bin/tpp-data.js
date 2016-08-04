@@ -4158,6 +4158,12 @@ var tppData = [
                     { Group: "Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png", Time: "3d 15h 53m", Attempts: 2 },
                     { "Group": "Pokemon", "Name": "Pachirisu", "Time": "3d 17h 2m" },
                     { "Group": "Pokemon", "Name": "Voltorb", "Time": "3d 17h 6m" },
+                    { "Group": "Pokemon", "Name": "Spinda", "Time": "3d 17h 43m" },
+                    { "Group": "Pokemon", "Name": "Aipom", "Time": "3d 18h 43m" },
+                    { "Group": "Pokemon", "Name": "Gulpin", "Time": "3d 18h 46m" },
+                    { "Group": "Pokemon", "Name": "Marill", "Time": "3d 19h 5m" },
+                    { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "3d 19h 24m" },
+                    { "Group": "Pokemon", "Name": "Weedle", "Time": "3d 20h 11m" },
                 ]
             },
         ]
