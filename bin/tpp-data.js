@@ -4213,6 +4213,11 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Buneary", "Time": "7d 11h 37m" },
                     { "Group": "Pokemon", "Name": "Carnivine", "Time": "7d 14h 41m" },
                     { "Group": "Pokemon", "Name": "NidoranM", "Time": "7d 20h 3m" },
+                    { "Group": "Pokemon", "Name": "Hoothoot", "Time": "7d 20h 37m" },
+                    { "Group": "Pokemon", "Name": "Budew", "Time": "7d 21h 1m" },
+                    { "Group": "Pokemon", "Name": "Sandshrew", "Time": "7d 22h 1m" },
+                    { "Group": "Pokemon", "Name": "Marowak", "Time": "7d 23h 59m" },
+                    { "Group": "Pokemon", "Name": "Carvanha", "Time": "8d 2m" },
                 ]
             },
         ]
