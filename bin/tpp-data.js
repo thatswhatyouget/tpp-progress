@@ -4207,6 +4207,11 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Castform", "Time": "7d 2h 26m" },
                     { "Group": "Pokemon", "Name": "Gible", "Time": "7d 2h 30m" },
                     { "Group": "Pokemon", "Name": "Whismur", "Time": "7d 7h 51m" },
+                    { "Group": "Pokemon", "Name": "Charmander", "Time": "7d 9h 11m" },
+                    { "Group": "Pokemon", "Name": "Empoleon", "Time": "7d 10h 18m" },
+                    { "Group": "Pokemon", "Name": "Banette", "Time": "7d 11h 34m" },
+                    { "Group": "Pokemon", "Name": "Buneary", "Time": "7d 11h 37m" },
+                    { "Group": "Pokemon", "Name": "Carnivine", "Time": "7d 14h 41m" },
                 ]
             },
         ]
