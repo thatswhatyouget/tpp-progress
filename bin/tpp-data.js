@@ -4253,6 +4253,15 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Gardevoir", "Time": "11d 9h 43m" },
                     { "Group": "Pokemon", "Name": "Flaaffy", "Time": "11d 9h 49m" },
                     { Group: "Champions", Name: "Jasmine", Image: "img/trainers/platinum/cynthia.png", Time: "11d 15h 27m", Attempts: 6 },
+                    { "Group": "Pokemon", "Name": "Kingler", "Time": "11d 17h 26m" },
+                    { "Group": "Pokemon", "Name": "Lumineon", "Time": "11d 20h 16m" },
+                    { "Group": "Pokemon", "Name": "Murkrow", "Time": "11d 20h 29m" },
+                    { "Group": "Pokemon", "Name": "Blaziken", "Time": "11d 20h 34m" },
+                    { "Group": "Pokemon", "Name": "Spoink", "Time": "11d 20h 58m" },
+                    { "Group": "Pokemon", "Name": "Politoed", "Time": "11d 21h 11m" },
+                    { "Group": "Pokemon", "Name": "Victreebel", "Time": "11d 21h 20m" },
+                    { "Group": "Pokemon", "Name": "Togekiss", "Time": "11d 21h 32m" },
+                    { "Group": "Pokemon", "Name": "Floatzel", "Time": "11d 21h 43m" },
                 ]
             },
         ]
