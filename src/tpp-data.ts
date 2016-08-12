@@ -4313,8 +4313,8 @@ var tppData: TPP.Collection[] = [
                     { Group: "Elite Four", Name: "Crystal", Image: "img/trainers/platinum/aaron.png", Time: "11d 1h 19m", Attempts: 2 },
                     { Group: "Elite Four", Name: "Esteban", Image: "img/trainers/platinum/bertha.png", Time: "11d 1h 28m", Attempts: 1 },
                     { Group: "Elite Four", Name: "Tristian", Image: "img/trainers/platinum/flint.png", Time: "11d 3h 46m ", Attempts: 5 },
-                    //{ Group: "Elite Four", Name: "Mallorie", Image: "img/trainers/platinum/lucian.png", Time: "11d ", Attempts: 0 },
-                    //{ Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png", Time: "11d ", Attempts: 0 },
+                    { Group: "Elite Four", Name: "Mallorie", Image: "img/trainers/platinum/lucian.png", Time: "11d 6h 55m", Attempts: 3 },
+                    //{ Group: "Champions", Name: "Jasmine", Image: "img/trainers/platinum/cynthia.png", Time: "11d ", Attempts: 0 },
                 ]
             },
         ]
