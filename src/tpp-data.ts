@@ -4310,12 +4310,12 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Riolu", "Time": "10d 16h 5m" },
                     { "Group": "Pokemon", "Name": "Monferno", "Time": "10d 16h 40m" },
                     { "Group": "Pokemon", "Name": "Plusle", "Time": "10d 20h 59m" },
-                    { Group: "Elite Four",  Name: "Crystal", Image: "img/trainers/platinum/aaron.png", Time: "11d 1h 19m", Attempts: 2 },
+                    { Group: "Elite Four", Name: "Crystal", Image: "img/trainers/platinum/aaron.png", Time: "11d 1h 19m", Attempts: 2 },
                     { Group: "Elite Four", Name: "Esteban", Image: "img/trainers/platinum/bertha.png", Time: "11d 1h 28m", Attempts: 1 },
-                    //{ Group: "Elite Four", Name: "Tristian", Image: "img/trainers/platinum/flint.png", Time: "11d ", Attempts: },
-                    //{ Group: "Elite Four", Name: "Lucian", Image: "img/trainers/platinum/lucian.png", Time: "11d ", Attempts: },
-                    //{ Group: "Champions",  Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",  Time: "11d ", Attempts: },
-               ]
+                    { Group: "Elite Four", Name: "Tristian", Image: "img/trainers/platinum/flint.png", Time: "11d 3h 46m ", Attempts: 5 },
+                    //{ Group: "Elite Four", Name: "Mallorie", Image: "img/trainers/platinum/lucian.png", Time: "11d ", Attempts: 0 },
+                    //{ Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png", Time: "11d ", Attempts: 0 },
+                ]
             },
         ]
     },
