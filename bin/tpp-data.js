@@ -793,7 +793,7 @@ var tppData = [
                     { Name: "Tropius", Time: "5d 8h 52m", Group: "Pokemon" },
                     { Name: "Chimchar", Time: "0d 0h 34m", Group: "Pokemon" },
                     { Name: "Starly", Time: "0d 1h 25m", Group: "Pokemon" },
-                    { Name: "Staravaia", Time: "11d 0h 56m", Group: "Pokemon" },
+                    { Name: "Staravia", Time: "11d 0h 56m", Group: "Pokemon" },
                     { Name: "Bidoof", Time: "0d 1h 27m", Group: "Pokemon" },
                     { Name: "Bibarel", Time: "5d 8h 36m", Group: "Pokemon" },
                     { Name: "Kricketot", Time: "0d 1h 45m", Group: "Pokemon" },
@@ -4271,6 +4271,8 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Quilava", "Time": "12d 10h 16m" },
                     { "Group": "Pokemon", "Name": "Skarmory", "Time": "12d 11h 52m" },
                     { "Group": "Pokemon", "Name": "Houndour", "Time": "12d 11h 59m" },
+                    { "Group": "Pokemon", "Name": "Venusaur", "Time": "12d 12h 7m" },
+                    { "Group": "Pokemon", "Name": "Butterfree", "Time": "12d 12h 14m" },
                 ]
             },
         ]
