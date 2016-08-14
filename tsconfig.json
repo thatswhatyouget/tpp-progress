@@ -10,6 +10,7 @@
 		"./src/tpp-scraper.ts",
 		"./src/tpp-angular.ts",
 		"./src/poke-styles.ts",
-		"./src/tables.ts"
+		"./src/tables.ts",
+		"./src/catch-graph.ts"
 	]
 }

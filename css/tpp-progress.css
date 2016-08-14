@@ -277,7 +277,7 @@ ul.controls > li > ul > li > * {
 	bottom:100%;
 	z-index:6;
 }
-.progressChart .run .event[data-label]:hover::after, .progressChart .run .run:hover::after, .progressChart .run .videos a .playhead:after {
+.progressChart .run .event[data-label]:hover::after, .progressChart .run .run:hover::after, .progressChart .run .videos a .playhead:after, .tooltip:after {
 	content:attr(data-label);
 	margin-bottom:1em;
 	font-size:.75em;

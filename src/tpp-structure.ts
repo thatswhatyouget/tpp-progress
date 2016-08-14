@@ -122,13 +122,6 @@ class Duration {
     get TotalSeconds() {
         return this.seconds + (this.minutes * 60) + (this.hours * 60 * 60) + (this.days * 60 * 60 * 24);
     }
-    set TotalSeconds(value) {
-        this.seconds = Math.floor(value % 60);
-        this.minutes = Math.floor(value / 60) % 60;
-        this.hours = Math.floor(value / 60 / 60) % 24;
-        this.days = Math.floor(value / 60 / 60 / 24);
-    }
-
     get TotalHours() {
         return this.TotalSeconds / 60 / 60;
     }
@@ -137,6 +130,22 @@ class Duration {
     }
     get TotalWeeks() {
         return this.TotalDays / 7;
+    }
+
+    set TotalSeconds(value) {
+        this.seconds = Math.floor(value % 60);
+        this.minutes = Math.floor(value / 60) % 60;
+        this.hours = Math.floor(value / 60 / 60) % 24;
+        this.days = Math.floor(value / 60 / 60 / 24);
+    }
+    set TotalHours(value) {
+        this.TotalSeconds = value * 60 * 60;
+    }
+    set TotalDays(value) {
+        this.TotalHours = value * 24;
+    }
+    set TotalWeeks(value) {
+        this.TotalDays = value * 7;
     }
 
     TotalTime(scale: TPP.Scale) {
@@ -176,7 +185,7 @@ class Duration {
         return this.parseReg.test(time);
     }
 
-    constructor(weeks: string | number, public days = 0, public hours = 0, public minutes = 0, public seconds = 0) {
+    constructor(weeks: string | number, private days = 0, private hours = 0, private minutes = 0, private seconds = 0) {
         if (typeof (weeks) === "string") {
             var parsed = Duration.parse(<string>weeks);
             this.days = parsed.days;

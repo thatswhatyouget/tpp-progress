@@ -45,6 +45,9 @@ var Duration = (function () {
         get: function () {
             return this.TotalSeconds / 60 / 60;
         },
+        set: function (value) {
+            this.TotalSeconds = value * 60 * 60;
+        },
         enumerable: true,
         configurable: true
     });
@@ -52,12 +55,18 @@ var Duration = (function () {
         get: function () {
             return this.TotalHours / 24;
         },
+        set: function (value) {
+            this.TotalHours = value * 24;
+        },
         enumerable: true,
         configurable: true
     });
     Object.defineProperty(Duration.prototype, "TotalWeeks", {
         get: function () {
             return this.TotalDays / 7;
+        },
+        set: function (value) {
+            this.TotalDays = value * 7;
         },
         enumerable: true,
         configurable: true
