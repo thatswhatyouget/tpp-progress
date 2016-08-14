@@ -4370,6 +4370,13 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Vaporeon", "Time": "13d 9h 47m" },
                     { "Group": "Pokemon", "Name": "Solrock", "Time": "13d 10h 5m" },
                     { "Group": "Pokemon", "Name": "Shuppet", "Time": "13d 10h 14m" },
+                    { Group: "Rematch Badges", Name: "Relic Badge", Image: "img/badges/rematch/relic.png", Time: "13d 11h 25m", Attempts: 1 },
+                    { Group: "Rematch Badges", Name: "Beacon Badge", Image: "img/badges/rematch/beacon.png", Time: "13d 11h 52m", Attempts: 2 },
+                    { Group: "Rematch Badges", Name: "Coal Badge", Image: "img/badges/rematch/coal.png", Time: "13d 12h 10m", Attempts: 2 },
+                    { "Group": "Pokemon", "Name": "Regice", "Time": "13d 14h 37m" },
+                    { "Group": "Pokemon", "Name": "Froslass", "Time": "13d 15h 6m" },
+                    { "Group": "Pokemon", "Name": "Miltank", "Time": "13d 15h 28m" },
+                    { "Group": "Pokemon", "Name": "Golbat", "Time": "13d 15h 47m" },
                 ]
             },
         ]
