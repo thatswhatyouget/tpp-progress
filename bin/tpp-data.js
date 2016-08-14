@@ -4317,6 +4317,8 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Grumpig", "Time": "13d 19h" },
                     { "Group": "Pokemon", "Name": "Zangoose", "Time": "13d 19h 28m" },
                     { Group: "Elite Four Rematch", Name: "Crystal", Image: "img/trainers/platinum/rematch/aaron.png", Time: "13d 19h 56m", Attempts: 1 },
+                    { Group: "Elite Four Rematch", Name: "Esteban", Image: "img/trainers/platinum/rematch/bertha.png", Time: "13d 20h 6m", Attempts: 1 },
+                    { "Group": "Pokemon", "Name": "Tauros", "Time": "13d 20h 32m" },
                 ]
             },
         ]
