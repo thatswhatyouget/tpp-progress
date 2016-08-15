@@ -4327,6 +4327,8 @@ var tppData = [
                     { Group: "Elite Four Rematch", Name: "Tristian", Image: "img/trainers/platinum/rematch/flint.png", Time: "14d 7h 13m", Attempts: 8 },
                     { Group: "Elite Four Rematch", Name: "Mallorie", Image: "img/trainers/platinum/rematch/lucian.png", Time: "14d 7h 20m", Attempts: 1 },
                     { Group: "Champions", Name: "Jasmine", Image: "img/trainers/platinum/rematch/cynthia.png", Time: "14d 7h 27m", Attempts: 1 },
+                    { "Group": "Pokemon", "Name": "Totodile", "Time": "14d 13h 36m" },
+                    { "Group": "Pokemon", "Name": "Beautifly", "Time": "14d 14h 14m" },
                 ]
             },
         ]
