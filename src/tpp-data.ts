@@ -494,7 +494,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Cocoon (Boulder) Badge",
-                        Image: "img/firered/cocoon.png",
+                        Image: "img/randomized/firered/cocoon.png",
                         Time: "0d 19h 44m",
                         Attempts: 2,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/2318l8/i_decided_to_try_and_make_custom_badges_to_fit/"
@@ -502,7 +502,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Chemical (Cascade) Badge",
-                        Image: "img/firered/chemical.png",
+                        Image: "img/randomized/firered/chemical.png",
                         Time: "1d 16h 1m",
                         Attempts: 1,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/2318l8/i_decided_to_try_and_make_custom_badges_to_fit/"
@@ -510,7 +510,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Shale (Thunder) Badge",
-                        Image: "img/firered/shale.png",
+                        Image: "img/randomized/firered/shale.png",
                         Time: "2d 12h 12m",
                         Attempts: 4,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/2318l8/i_decided_to_try_and_make_custom_badges_to_fit/"
@@ -518,7 +518,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Snowflake (Rainbow) Badge",
-                        Image: "img/firered/snowflake.png",
+                        Image: "img/randomized/firered/snowflake.png",
                         Time: "6d 15h 12m",
                         Attempts: 2,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/23d9sj/snow_princess_erica_and_snowflake_badge/"
@@ -526,7 +526,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Seraphim (Soul) Badge",
-                        Image: "img/firered/seraphim.png",
+                        Image: "img/randomized/firered/seraphim.png",
                         Time: "10d 4h 50m",
                         Attempts: 7,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/23lect/flying_type_koga_and_seraphim_badge/"
@@ -534,7 +534,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Target (Marsh) Badge",
-                        Image: "img/firered/target.png",
+                        Image: "img/randomized/firered/target.png",
                         Time: "8d 12h 37m",
                         Attempts: 1,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/23irff/sabrinas_new_badge_the_target_badge/"
@@ -542,7 +542,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Fossil (Volcano) Badge",
-                        Image: "img/firered/fossil.png",
+                        Image: "img/randomized/firered/fossil.png",
                         Time: "11d 4h 1m",
                         Attempts: 1,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/23qqwb/rocktype_blaines_badge_the_fossil_badge_name/?ref=search_posts"
@@ -550,7 +550,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Discipline (Earth) Badge",
-                        Image: "img/firered/impact.png",
+                        Image: "img/randomized/firered/impact.png",
                         Time: "11d 13h 39m",
                         Attempts: 1,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/23rzlb/and_heres_a_possible_design_for_giovannis_badge/"
@@ -558,7 +558,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four",
                         Name: "Lorelei",
-                        Image: "img/firered/lorelei.png",
+                        Image: "img/randomized/firered/lorelei.png",
                         Time: "14d 21h 10m",
                         Attempts: 2,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/24321f/elite_four_sprites/"
@@ -566,7 +566,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four",
                         Name: "Bruno",
-                        Image: "img/firered/bruno.png",
+                        Image: "img/randomized/firered/bruno.png",
                         Time: "14d 21h 15m",
                         Attempts: 1,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/24321f/elite_four_sprites/"
@@ -574,7 +574,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four",
                         Name: "Agatha",
-                        Image: "img/firered/agatha.png",
+                        Image: "img/randomized/firered/agatha.png",
                         Time: "14d 21h 21m",
                         Attempts: 1,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/24321f/elite_four_sprites/"
@@ -582,7 +582,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four",
                         Name: "Lance",
-                        Image: "img/firered/lance.png",
+                        Image: "img/randomized/firered/lance.png",
                         Time: "15d 0h 31m",
                         Attempts: 4,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/24321f/elite_four_sprites/"
@@ -832,7 +832,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Jet (Zephyr) Badge",
-                        Image: "img/heartgold/jet.png",
+                        Image: "img/randomized/heartgold/jet.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26e3fo/jet_badge_design_idea/",
                         Time: "0d 14h 23m",
                         Attempts: 2
@@ -840,7 +840,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Powers (Hive) Badge",
-                        Image: "img/heartgold/powers.png",
+                        Image: "img/randomized/heartgold/powers.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26h4hi/the_new_badges_i_made_for_the_side_bar_d/",
                         Time: "1d 7h 24m",
                         Attempts: 3
@@ -848,7 +848,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Magnetic (Plain) Badge",
-                        Image: "img/heartgold/magnetic.png",
+                        Image: "img/randomized/heartgold/magnetic.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26h4hi/the_new_badges_i_made_for_the_side_bar_d/",
                         Time: "1d 16h 34m",
                         Attempts: 1
@@ -856,7 +856,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Rock (Fog) Badge",
-                        Image: "img/heartgold/rock.png",
+                        Image: "img/randomized/heartgold/rock.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26mv9h/the_rock_badge/",
                         Time: "3d 10h 25m",
                         Attempts: 1
@@ -864,7 +864,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Sabselkrow (Glacier) Badge",
-                        Image: "img/heartgold/glacier.png",
+                        Image: "img/randomized/heartgold/glacier.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                         Time: "4d 9h 45m",
                         Attempts: 2
@@ -872,7 +872,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Hitcross (Storm) Badge",
-                        Image: "img/heartgold/storm.png",
+                        Image: "img/randomized/heartgold/storm.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                         Time: "4d 14h 33m",
                         Attempts: 2
@@ -880,7 +880,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Mythical (Mineral) Badge",
-                        Image: "img/heartgold/mythical.png",
+                        Image: "img/randomized/heartgold/mythical.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26qu89/mythical_badge/",
                         Time: "5d 4h 9m",
                         Attempts: 6
@@ -888,7 +888,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Thief (Rising) Badge",
-                        Image: "img/heartgold/thief.png",
+                        Image: "img/randomized/heartgold/thief.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26wvte/the_thief_badge/",
                         Time: "6d 19h 40m",
                         Attempts: 3
@@ -896,42 +896,42 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four",
                         Name: "Will",
-                        Image: "img/heartgold/will.png",
+                        Image: "img/randomized/heartgold/will.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/272tjl/archeologists_and_diggers_have_already_been_done/",
                         Time: "8d 21h 53m"
                     },
                     {
                         Group: "Elite Four",
                         Name: "Koga",
-                        Image: "img/heartgold/koga.png",
+                        Image: "img/randomized/heartgold/koga.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/272wf0/couldnt_think_of_what_a_psychic_type_koga_would/",
                         Time: "11d 3h 58m"
                     },
                     {
                         Group: "Elite Four",
                         Name: "Bruno",
-                        Image: "img/heartgold/bruno.png",
+                        Image: "img/randomized/heartgold/bruno.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27cgk2/so_before_i_forget_here_are_bruno_and_karens/",
                         Time: "11d 4h 2m"
                     },
                     {
                         Group: "Elite Four",
                         Name: "Karen",
-                        Image: "img/heartgold/karen.png",
+                        Image: "img/randomized/heartgold/karen.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27cgk2/so_before_i_forget_here_are_bruno_and_karens/",
                         Time: "11d 8h 16m"
                     },
                     {
                         Group: "Champions",
                         Name: "Lance",
-                        Image: "img/heartgold/lance.png",
+                        Image: "img/randomized/heartgold/lance.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27iqep/displaying_them_all_in_one_go_all_sprites_for_gym/",
                         Time: "11d 9h 9m"
                     },
                     {
                         Group: "Badges",
                         Name: "Glacier (Boulder) Badge",
-                        Image: "img/heartgold/boulder.png",
+                        Image: "img/randomized/heartgold/boulder.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                         Time: "13d 0h 2m",
                         Attempts: 1
@@ -939,7 +939,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Fire (Cascade) Badge",
-                        Image: "img/heartgold/cascade.png",
+                        Image: "img/randomized/heartgold/cascade.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                         Time: "12d 17h 54m",
                         Attempts: 1
@@ -947,7 +947,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Collector (Thunder) Badge",
-                        Image: "img/heartgold/collector.png",
+                        Image: "img/randomized/heartgold/collector.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27d3fu/the_collector_badge/",
                         Time: "12d 2h 3m",
                         Attempts: 2
@@ -955,7 +955,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Spark (Rainbow) Badge",
-                        Image: "img/heartgold/rainbow.png",
+                        Image: "img/randomized/heartgold/rainbow.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                         Time: "12d 7h 33m",
                         Attempts: 2
@@ -963,7 +963,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Leaf (Soul) Badge",
-                        Image: "img/heartgold/soul.png",
+                        Image: "img/randomized/heartgold/soul.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                         Time: "12d 9h 19m",
                         Attempts: 1
@@ -971,15 +971,15 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Harmony (Marsh) Badge",
-                        Image: "img/heartgold/harmony.png",
+                        Image: "img/randomized/heartgold/harmony.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/23iywq/sabrinas_harmony_badge/",
                         Time: "12d 4h 40m",
                         Attempts: 1
                     },
                     {
                         Group: "Badges",
-                        Name: "??? (Volcano) Badge",
-                        Image: "img/heartgold/volcano.png",
+                        Name: "Poison (Volcano) Badge",
+                        Image: "img/randomized/heartgold/volcano.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                         Time: "13d 4h 41m",
                         Attempts: 1
@@ -987,7 +987,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Multi-Type (Earth) Badge",
-                        Image: "img/heartgold/earth.png",
+                        Image: "img/randomized/heartgold/earth.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xjd8u/randomized_heartgold_custom_badge_artwork_anyone/cy58xhp",
                         Time: "14d 9h 23m",
                         Attempts: 2
@@ -995,7 +995,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Will",
-                        Image: "img/heartgold/rematch/will.png",
+                        Image: "img/randomized/heartgold/rematch/will.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/272tjl/archeologists_and_diggers_have_already_been_done/",
                         Time: "15d 6h 33m",
                         Attempts: 4
@@ -1003,7 +1003,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Koga",
-                        Image: "img/heartgold/rematch/koga.png",
+                        Image: "img/randomized/heartgold/rematch/koga.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/272wf0/couldnt_think_of_what_a_psychic_type_koga_would/",
                         Time: "15d 12h 15m",
                         Attempts: 4
@@ -1011,7 +1011,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Bruno",
-                        Image: "img/heartgold/rematch/bruno.png",
+                        Image: "img/randomized/heartgold/rematch/bruno.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27cgk2/so_before_i_forget_here_are_bruno_and_karens/",
                         Time: "15d 14h 46m",
                         Attempts: 2
@@ -1019,7 +1019,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Karen",
-                        Image: "img/heartgold/rematch/karen.png",
+                        Image: "img/randomized/heartgold/rematch/karen.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27cgk2/so_before_i_forget_here_are_bruno_and_karens/",
                         Time: "15d 18h 56m",
                         Attempts: 8
@@ -1027,7 +1027,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Lance",
-                        Image: "img/heartgold/rematch/lance.png",
+                        Image: "img/randomized/heartgold/rematch/lance.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27iqep/displaying_them_all_in_one_go_all_sprites_for_gym/",
                         Time: "16d 10h 56m",
                         Attempts: 5
@@ -3081,7 +3081,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Cocoon (Stone) Badge",
-                        Image: "img/alphasapphire/cocoon.png",
+                        Image: "img/randomized/alphasapphire/cocoon.png",
                         Time: "0d 5h 43m",
                         Attempts: 1,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3d3lg8/randomized_gym_badges_stone_badge_cocoon_badge/"
@@ -3089,7 +3089,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "SnareDrum (Knuckle) Badge",
-                        Image: "img/alphasapphire/snaredrum.png",
+                        Image: "img/randomized/alphasapphire/snaredrum.png",
                         Time: "0d 11h 33m",
                         Attempts: 1,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3d4lgx/randomized_gym_badges_knuckle_badge_snaredrum/"
@@ -3097,7 +3097,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Helmet (Dynamo) Badge",
-                        Image: "img/alphasapphire/helmet.png",
+                        Image: "img/randomized/alphasapphire/helmet.png",
                         Time: "0d 21h 10m",
                         Attempts: 2,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3d7xoy/randomized_gym_badges_dynamo_badge_helmet_badge/"
@@ -3105,7 +3105,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Scale (Heat) Badge",
-                        Image: "img/alphasapphire/scale.png",
+                        Image: "img/randomized/alphasapphire/scale.png",
                         Time: "1d 23h 21m",
                         Attempts: 3,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3dbdp0/randomized_gym_badges_heat_badge_scale_badge/"
@@ -3113,7 +3113,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Star (Balance) Badge",
-                        Image: "img/alphasapphire/star.png",
+                        Image: "img/randomized/alphasapphire/star.png",
                         Time: "2d 0h 18m",
                         Attempts: 1,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3dcw18/randomized_gym_badges_balance_badge_star_badge/"
@@ -3121,7 +3121,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Pine (Feather) Badge",
-                        Image: "img/alphasapphire/pine.png",
+                        Image: "img/randomized/alphasapphire/pine.png",
                         Time: "4d 3h 40m",
                         Attempts: 6,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3disqu/randomized_gym_badges_feather_badge_pine_badge/"
@@ -3129,7 +3129,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Mask (Mind) Badge",
-                        Image: "img/alphasapphire/mask.png",
+                        Image: "img/randomized/alphasapphire/mask.png",
                         Time: "5d 2h 31m",
                         Attempts: 5,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3dotfy/randomized_gym_badges_mind_badge_mask_badge/"
@@ -3137,7 +3137,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Badges",
                         Name: "Sky (Rain) Badge",
-                        Image: "img/alphasapphire/sky.png",
+                        Image: "img/randomized/alphasapphire/sky.png",
                         Time: "6d 12h 38m",
                         Attempts: 3,
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3dtdkn/randomized_gym_badges_rain_badge_sky_badge/"
@@ -3145,7 +3145,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four",
                         Name: "Espen (Sidney)",
-                        Image: "img/alphasapphire/sidney.gif",
+                        Image: "img/randomized/alphasapphire/sidney.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3e2urn/sidney_espen_hoenns_master_illusionist_animated/",
                         Time: "7d 15h 9m",
                         Attempts: 2
@@ -3153,7 +3153,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four",
                         Name: "Fantasia (Phoebe)",
-                        Image: "img/alphasapphire/phoebe.gif",
+                        Image: "img/randomized/alphasapphire/phoebe.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3e8k5f/phoebe_fantasia_hoenns_reclusive_noble_animated/",
                         Time: "8d 4h 39m",
                         Attempts: 12
@@ -3161,7 +3161,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four",
                         Name: "Evia (Glacia)",
-                        Image: "img/alphasapphire/glacia.gif",
+                        Image: "img/randomized/alphasapphire/glacia.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3eh6dj/glacia_evia_hoenns_prideful_secret_agent_animated/",
                         Time: "8d 9h 5m",
                         Attempts: 5
@@ -3169,7 +3169,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four",
                         Name: "Nox (Drake)",
-                        Image: "img/alphasapphire/drake.gif",
+                        Image: "img/randomized/alphasapphire/drake.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3ey4q1/drake_nox_hoenns_expert_ranger_animated/",
                         Time: "8d 20h 50m",
                         Attempts: 8
@@ -3192,7 +3192,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Espen (Sidney)",
-                        Image: "img/alphasapphire/rematch/sidney.gif",
+                        Image: "img/randomized/alphasapphire/rematch/sidney.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3e2urn/sidney_espen_hoenns_master_illusionist_animated/",
                         Time: "12d 1h 18m",
                         Attempts: 1
@@ -3200,7 +3200,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Fantasia (Phoebe)",
-                        Image: "img/alphasapphire/rematch/phoebe.gif",
+                        Image: "img/randomized/alphasapphire/rematch/phoebe.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3e8k5f/phoebe_fantasia_hoenns_reclusive_noble_animated/",
                         Time: "12d 4h 58m",
                         Attempts: 9
@@ -3208,7 +3208,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Evia (Glacia)",
-                        Image: "img/alphasapphire/rematch/glacia.gif",
+                        Image: "img/randomized/alphasapphire/rematch/glacia.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3eh6dj/glacia_evia_hoenns_prideful_secret_agent_animated/",
                         Time: "13d 21h 33m",
                         Attempts: 10
@@ -3216,7 +3216,7 @@ var tppData: TPP.Collection[] = [
                     {
                         Group: "Elite Four Rematch",
                         Name: "Nox (Drake)",
-                        Image: "img/alphasapphire/rematch/drake.gif",
+                        Image: "img/randomized/alphasapphire/rematch/drake.gif",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3ey4q1/drake_nox_hoenns_expert_ranger_animated/",
                         Time: "13d 21h 38m",
                         Attempts: 1
@@ -4388,9 +4388,9 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Electrode", "Time": "13d 21h 50m" },
                     { "Group": "Pokemon", "Name": "Dunsparce", "Time": "13d 22h 43m" },
                     { "Group": "Pokemon", "Name": "Rayquaza", "Time": "14d 2h 36m" },
-                    // { Group: "Elite Four Rematch", Name: "Tristian", Image: "img/trainers/platinum/rematch/flint.png", Time: "", Attempts: 1 },
-                    // { Group: "Elite Four Rematch", Name: "Mallorie", Image: "img/trainers/platinum/rematch/lucian.png", Time: "", Attempts: 0 },
-                    // { Group: "Champions", Name: "Jasmine", Image: "img/trainers/platinum/rematch/cynthia.png", Time: "", Attempts: 0 },
+                    { Group: "Elite Four Rematch", Name: "Tristian", Image: "img/trainers/platinum/rematch/flint.png", Time: "14d 7h 13m", Attempts: 8 },
+                    { Group: "Elite Four Rematch", Name: "Mallorie", Image: "img/trainers/platinum/rematch/lucian.png", Time: "14d 7h 20m", Attempts: 1 },
+                    { Group: "Champions", Name: "Jasmine", Image: "img/trainers/platinum/rematch/cynthia.png", Time: "14d 7h 27m", Attempts: 1 },
                 ]
             },
         ]
