@@ -4329,6 +4329,7 @@ var tppData = [
                     { Group: "Champions", Name: "Jasmine", Image: "img/trainers/platinum/rematch/cynthia.png", Time: "14d 7h 27m", Attempts: 1 },
                     { "Group": "Pokemon", "Name": "Totodile", "Time": "14d 13h 36m" },
                     { "Group": "Pokemon", "Name": "Beautifly", "Time": "14d 14h 14m" },
+                    { "Group": "Pokemon", "Name": "Zapdos", "Time": "14d 18h 4m" },
                 ]
             },
         ]
@@ -4790,10 +4791,10 @@ var tppData = [
                     { Group: "Pokemon", Name: "Nidorino", Time: "2016-04-11T16:28:00Z" },
                     { Group: "Pokemon", Name: "Pichu", Time: "2016-04-11T17:26:00Z" },
                     { Group: "Pokemon", Name: "Sentret", Time: "2016-04-12T00:21:00Z" },
-                    { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/firered/rematch/lorelei.png", Time: "2016-04-12T09:12:00Z", Attempts: 1 },
-                    { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/firered/rematch/bruno.png", Time: "2016-04-12T09:24:00Z", Attempts: 1 },
-                    { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/firered/rematch/agatha.png", Time: "2016-04-12T11:38:00Z", Attempts: 2 },
-                    { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/firered/rematch/lance.png", Time: "2016-04-12T13:18:00Z", Attempts: 2 },
+                    { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/randomized/firered/rematch/lorelei.png", Time: "2016-04-12T09:12:00Z", Attempts: 1, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/24321f/elite_four_sprites/" },
+                    { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/randomized/firered/rematch/bruno.png", Time: "2016-04-12T09:24:00Z", Attempts: 1, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/24321f/elite_four_sprites/" },
+                    { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/randomized/firered/rematch/agatha.png", Time: "2016-04-12T11:38:00Z", Attempts: 2, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/24321f/elite_four_sprites/" },
+                    { Group: "Elite Four Rematch", Name: "Lance", Image: "img/randomized/firered/rematch/lance.png", Time: "2016-04-12T13:18:00Z", Attempts: 2, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/24321f/elite_four_sprites/" },
                     { Group: "Champions", Name: "Green", Image: "img/trainers/firered/rematch/green.png", Time: "2016-04-13T00:15:00Z", Attempts: 5 },
                     { Group: "Pokemon", Name: "Lugia", Time: "2016-04-13T02:50:00Z" },
                     { Group: "Pokemon", Name: "Huntail", Time: "2016-04-13T03:57:00Z" },
