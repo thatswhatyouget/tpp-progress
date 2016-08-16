@@ -4165,9 +4165,8 @@ var tppData: TPP.Collection[] = [
                 RunName: "Randomized Platinum",
                 ColorPrimary: "#afbfbf",
                 ColorSecondary: "#506060",
-                Duration: "255d",
+                Duration: "15d 4h 2m",
                 StartDate: "2016-07-31T21:00:00Z",
-                Ongoing: true,
                 HostName: "PP",
                 HostImage: "img/hosts/pp.png",
                 HostImageSource: "http://angelofemus.tumblr.com/post/148263922673/meet-pepe",
@@ -4401,6 +4400,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Grovyle", "Time": "15d 50m" },
                     { "Group": "Pokemon", "Name": "Wailord", "Time": "15d 1h 4m" },
                     { "Group": "Pokemon", "Name": "Tangela", "Time": "15d 1h 11m" },
+                    { "Group": "Pokemon", "Name": "Celebi", "Time": "15d 4h" },
                 ]
             },
         ]
