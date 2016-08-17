@@ -4858,7 +4858,7 @@ var tppData: TPP.Collection[] = [
                 StartDate: "2016-08-16T23:39:00Z",
                 Duration: new Date().toISOString(),
                 Ongoing: true,
-                HostName: "???",
+                HostName: "PEE",
                 HostImage: "http://cdn.bulbagarden.net/upload/d/d0/FRLG_Red_Intro.png",
                 HostImageSource: "http://bulbapedia.bulbagarden.net/wiki/File:FRLG_Red_Intro.png",
                 Region: "Ultra",
