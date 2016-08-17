@@ -4715,8 +4715,8 @@ var tppData: TPP.Collection[] = [
                 ColorPrimary: "#c6223b",
                 ColorSecondary: "#c6223b",
                 StartDate: "2016-02-12T03:13:00Z",
-                Duration: new Date().toISOString(),
-                Ongoing: true,
+                Duration: "2016-08-16T23:38:00Z",
+                Unfinished: true,
                 HostName: "SquirtLee",
                 HostImage: "img/hosts/pmd/squirtlee.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
@@ -4850,6 +4850,19 @@ var tppData: TPP.Collection[] = [
                         Class: "pokesprite"
                     }
                 ]
+            },
+            {
+                RunName: "Ultra",
+                ColorPrimary: "purple",
+                ColorSecondary: "yellow",
+                StartDate: "2016-08-16T23:39:00Z",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                HostName: "???",
+                HostImage: "http://cdn.bulbagarden.net/upload/d/d0/FRLG_Red_Intro.png",
+                HostImageSource: "http://bulbapedia.bulbagarden.net/wiki/File:FRLG_Red_Intro.png",
+                Region: "Ultra",
+                Events: []
             },
         ]
     },
