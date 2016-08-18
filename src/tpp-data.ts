@@ -4862,7 +4862,9 @@ var tppData: TPP.Collection[] = [
                 HostImage: "http://cdn.bulbagarden.net/upload/d/d0/FRLG_Red_Intro.png",
                 HostImageSource: "http://bulbapedia.bulbagarden.net/wiki/File:FRLG_Red_Intro.png",
                 Region: "Ultra",
-                Events: []
+                Events: [
+                    { "Group": "Pokemon", "Name": "Squirtle", "Time": "2016-08-17T21:21:34Z" },
+                ]
             },
         ]
     },
