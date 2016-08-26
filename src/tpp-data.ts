@@ -4864,6 +4864,7 @@ var tppData: TPP.Collection[] = [
                 Region: "Ultra",
                 Events: [
                     { "Group": "Pokemon", "Name": "Squirtle", "Time": "2016-08-17T21:21:34Z" },
+                    { "Group": "Badges", "Name": "Boulder Badge", "Time": "2016-08-26T04:57:51Z", "Attempts": 1, "Image": "img/badges/boulder.png" },
                 ]
             },
         ]
