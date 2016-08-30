@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<title>TPP Progress Chart</title>
+	<title>TPP Global Pokédex</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="bin/tpp-structure.js"></script>
     <script src="bin/twitch-videos.js"></script>
@@ -23,11 +23,12 @@
             .dexEntry {
                 display:inline-block;
                 margin:auto;
-                opacity:.3;
-                background-color:white;
+                opacity:.2;
+                background-color:transparent;
                 border: 1px solid black;
                 padding:10px;
                 min-width:100px;
+                /*text-shadow: 0 0 4px white;*/
             }
             .dexEntry > * {
                 margin:auto;
@@ -54,20 +55,20 @@
             .dexEntry .pokesprite.missingno img {
                 height:100%;
             }
-            
+
     </style>
 </head>
 
 <body>
 	<div class="title">
-		<h1>Twitch Plays Pokemon</h1>
+		<h1>Twitch Plays Pokémon</h1>
         <div class="subtitle">
-            Global Pokedex
-            <a href="index.html">See Progress Chart</a>
+            Global Pokédex
+            <a href="catch-report.html">See Catch Report</a>
         </div>
 	</div>
 	<div class="title">
-		<strong>Pokedex</strong>
+		<strong>Pokédex</strong>
         <div class="credits">
             <span class="doItLive">Most</span> catch data provided by <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
         </div>

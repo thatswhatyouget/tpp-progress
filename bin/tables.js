@@ -81,7 +81,8 @@ function generateGlobalDex(tppData) {
             $entry.attr('title', 'Owned by:\n' + ownedBy.join('\n'));
         else
             $entry.attr('title', 'Never Caught');
-        $entry.css('background-color', bgColor || "white");
+        if (bgColor)
+            $entry.css('background-color', bgColor);
         return $entry;
     })).prepend("<h2 class='total'>Owned: <span>" + (Object.keys(fullList).length - 1) + "/" + (PokeList.length - 1) + "</span></div>");
 }
