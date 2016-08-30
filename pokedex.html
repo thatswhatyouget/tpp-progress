@@ -23,31 +23,38 @@
             .dexEntry {
                 display:inline-block;
                 margin:auto;
-                opacity:.6;
+                opacity:.3;
                 background-color:white;
                 border: 1px solid black;
+                padding:10px;
+                min-width:100px;
+            }
+            .dexEntry > * {
+                margin:auto;
             }
             .dexEntry.owned {
                 opacity:1;
-                background-color:goldenrod;
+                background-color:#AFA;
             }
-            .pokesprite {
+            .dexEntry .pokesprite {
                 display:inline-block;
-                width:100px;
-                height:100px;
+                font-size:64px;
+                width:1em;
+                height:1em;
+                margin:5px 0;
             }
-            .pokesprite:not(.missingno) img {
+            .dexEntry .pokesprite:not(.missingno) img {
                 height:0;
                 width:0;
-                font-size:100px;
                 padding:.5em;
                 background-image:url("img/pokemon-large.png");
                 background-repeat: no-repeat;
                 background-size: cover;
             }
-            .pokesprite.missingno img {
+            .dexEntry .pokesprite.missingno img {
                 height:100%;
             }
+            
     </style>
 </head>
 
