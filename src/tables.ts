@@ -18,15 +18,15 @@ class RunSummary {
 }
 
 class PokedexSummary {
-    public OwnedDict: { [key: string]: boolean };
+    public OwnedDict: { [key: string]: boolean|number };
     constructor(public Run: TPP.Run) {
         this.OwnedDict = {};
         PokeList.forEach(p => this.OwnedDict[p] = false);
         Run.Events.filter(e => e.Group == "Pokemon").forEach(p => {
             if (PokeList.indexOf(p.Name) >= 0)
-                this.OwnedDict[p.Name] = true
+                this.OwnedDict[p.Name] = Duration.parse(p.Time, Run.StartTime).TotalSeconds + Run.StartTime
             else if (PokeList.indexOf(p.Class) >= 0)    //catch Pokemon with unusual names
-                this.OwnedDict[p.Class] = true
+                this.OwnedDict[p.Class] = Duration.parse(p.Time, Run.StartTime).TotalSeconds + Run.StartTime
         });
     }
 }
@@ -68,6 +68,9 @@ function generatePokedexSummary(tppData: TPP.Collection[]) {
 }
 
 function generateGlobalDex(tppData: TPP.Collection[]) {
+    if (QueryString["nowifi"]) {
+        tppData.forEach(c => c.Runs.forEach(r => r.Events = r.Events.filter(e => e.Class != "WifiTrade")));
+    }
     var summaries = dexSummarize(tppData).sort((s1, s2) => s1.Run.StartTime - s2.Run.StartTime);
     var fullList = {};
     return $("<div>").append(PokeList.map((p, i) => {
@@ -79,12 +82,18 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
         var ownedBy = [];
         var bgColor;
         summaries.forEach(s => {
+            var addHost = ownedBy.push;
             if (s.OwnedDict[p]) {
                 $entry.addClass('owned');
-                if (!s.Run.Revisit || ownedBy.indexOf(s.Run.HostName + " (" + s.Run.Revisit.Run + ")") < 0)
-                    ownedBy.push(s.Run.HostName + " (" + s.Run.RunName + ")");
+                fullList[p] = fullList[p] || s.OwnedDict[p];
                 bgColor = bgColor || s.Run.ColorPrimary;
-                fullList[p]++;
+                if (s.OwnedDict[p] < fullList[p]) { //claim it
+                    fullList[p] = s.OwnedDict[p];
+                    bgColor = s.Run.ColorPrimary;
+                    addHost = ownedBy.unshift;
+                }
+                if (!s.Run.Revisit || ownedBy.indexOf(s.Run.HostName + " (" + s.Run.Revisit.Run + ")") < 0)
+                    addHost.call(ownedBy, s.Run.HostName + " (" + s.Run.RunName + ")");
             }
         });
         if (ownedBy.length)

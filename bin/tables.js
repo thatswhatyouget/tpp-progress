@@ -17,9 +17,9 @@ var PokedexSummary = (function () {
         PokeList.forEach(function (p) { return _this.OwnedDict[p] = false; });
         Run.Events.filter(function (e) { return e.Group == "Pokemon"; }).forEach(function (p) {
             if (PokeList.indexOf(p.Name) >= 0)
-                _this.OwnedDict[p.Name] = true;
+                _this.OwnedDict[p.Name] = Duration.parse(p.Time, Run.StartTime).TotalSeconds + Run.StartTime;
             else if (PokeList.indexOf(p.Class) >= 0)
-                _this.OwnedDict[p.Class] = true;
+                _this.OwnedDict[p.Class] = Duration.parse(p.Time, Run.StartTime).TotalSeconds + Run.StartTime;
         });
     }
     return PokedexSummary;
@@ -58,6 +58,9 @@ function generatePokedexSummary(tppData) {
     return $table;
 }
 function generateGlobalDex(tppData) {
+    if (QueryString["nowifi"]) {
+        tppData.forEach(function (c) { return c.Runs.forEach(function (r) { return r.Events = r.Events.filter(function (e) { return e.Class != "WifiTrade"; }); }); });
+    }
     var summaries = dexSummarize(tppData).sort(function (s1, s2) { return s1.Run.StartTime - s2.Run.StartTime; });
     var fullList = {};
     return $("<div>").append(PokeList.map(function (p, i) {
@@ -69,12 +72,18 @@ function generateGlobalDex(tppData) {
         var ownedBy = [];
         var bgColor;
         summaries.forEach(function (s) {
+            var addHost = ownedBy.push;
             if (s.OwnedDict[p]) {
                 $entry.addClass('owned');
-                if (!s.Run.Revisit || ownedBy.indexOf(s.Run.HostName + " (" + s.Run.Revisit.Run + ")") < 0)
-                    ownedBy.push(s.Run.HostName + " (" + s.Run.RunName + ")");
+                fullList[p] = fullList[p] || s.OwnedDict[p];
                 bgColor = bgColor || s.Run.ColorPrimary;
-                fullList[p]++;
+                if (s.OwnedDict[p] < fullList[p]) {
+                    fullList[p] = s.OwnedDict[p];
+                    bgColor = s.Run.ColorPrimary;
+                    addHost = ownedBy.unshift;
+                }
+                if (!s.Run.Revisit || ownedBy.indexOf(s.Run.HostName + " (" + s.Run.Revisit.Run + ")") < 0)
+                    addHost.call(ownedBy, s.Run.HostName + " (" + s.Run.RunName + ")");
             }
         });
         if (ownedBy.length)
