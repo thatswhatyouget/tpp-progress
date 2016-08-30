@@ -22,7 +22,12 @@ class PokedexSummary {
     constructor(public Run: TPP.Run) {
         this.OwnedDict = {};
         PokeList.forEach(p => this.OwnedDict[p] = false);
-        Run.Events.filter(e => e.Group == "Pokemon" && PokeList.indexOf(e.Name) >= 0).forEach(p => this.OwnedDict[p.Name] = true);
+        Run.Events.filter(e => e.Group == "Pokemon").forEach(p => {
+            if (PokeList.indexOf(p.Name) >= 0)
+                this.OwnedDict[p.Name] = true
+            else if (PokeList.indexOf(p.Class) >= 0)    //catch Pokemon with unusual names
+                this.OwnedDict[p.Class] = true
+        });
     }
 }
 
@@ -48,7 +53,7 @@ function generateRunSummary(tppData: TPP.Collection[]) {
 function dexSummarize(tppData: TPP.Collection[]) {
     var summaries: PokedexSummary[] = [];
     tppData.forEach(c => c.Runs.forEach(r => {
-        if (r.Events.filter(e => e.Group == "Pokemon" && PokeList.indexOf(e.Name) >= 0).length) {
+        if (r.Events.filter(e => e.Group == "Pokemon" && (PokeList.indexOf(e.Name) >= 0 || PokeList.indexOf(e.Class) >= 0)).length) {
             summaries.push(new PokedexSummary(r));
         }
     }));
@@ -63,7 +68,7 @@ function generatePokedexSummary(tppData: TPP.Collection[]) {
 }
 
 function generateGlobalDex(tppData: TPP.Collection[]) {
-    var summaries = dexSummarize(tppData);
+    var summaries = dexSummarize(tppData).sort((s1, s2) => s1.Run.StartTime - s2.Run.StartTime);
     var fullList = {};
     return $("<div>").append(PokeList.map((p, i) => {
         var idx = i.toString(), index = ('000' + idx).substring(idx.length);
@@ -76,7 +81,8 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
         summaries.forEach(s => {
             if (s.OwnedDict[p]) {
                 $entry.addClass('owned');
-                ownedBy.push(s.Run.HostName + " (" + s.Run.RunName + ")");
+                if (!s.Run.Revisit || ownedBy.indexOf(s.Run.HostName + " (" + s.Run.Revisit.Run + ")") < 0)
+                    ownedBy.push(s.Run.HostName + " (" + s.Run.RunName + ")");
                 bgColor = bgColor || s.Run.ColorPrimary;
                 fullList[p]++;
             }

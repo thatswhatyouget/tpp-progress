@@ -15,7 +15,12 @@ var PokedexSummary = (function () {
         this.Run = Run;
         this.OwnedDict = {};
         PokeList.forEach(function (p) { return _this.OwnedDict[p] = false; });
-        Run.Events.filter(function (e) { return e.Group == "Pokemon" && PokeList.indexOf(e.Name) >= 0; }).forEach(function (p) { return _this.OwnedDict[p.Name] = true; });
+        Run.Events.filter(function (e) { return e.Group == "Pokemon"; }).forEach(function (p) {
+            if (PokeList.indexOf(p.Name) >= 0)
+                _this.OwnedDict[p.Name] = true;
+            else if (PokeList.indexOf(p.Class) >= 0)
+                _this.OwnedDict[p.Class] = true;
+        });
     }
     return PokedexSummary;
 })();
@@ -40,7 +45,7 @@ function generateRunSummary(tppData) {
 function dexSummarize(tppData) {
     var summaries = [];
     tppData.forEach(function (c) { return c.Runs.forEach(function (r) {
-        if (r.Events.filter(function (e) { return e.Group == "Pokemon" && PokeList.indexOf(e.Name) >= 0; }).length) {
+        if (r.Events.filter(function (e) { return e.Group == "Pokemon" && (PokeList.indexOf(e.Name) >= 0 || PokeList.indexOf(e.Class) >= 0); }).length) {
             summaries.push(new PokedexSummary(r));
         }
     }); });
@@ -53,7 +58,7 @@ function generatePokedexSummary(tppData) {
     return $table;
 }
 function generateGlobalDex(tppData) {
-    var summaries = dexSummarize(tppData);
+    var summaries = dexSummarize(tppData).sort(function (s1, s2) { return s1.Run.StartTime - s2.Run.StartTime; });
     var fullList = {};
     return $("<div>").append(PokeList.map(function (p, i) {
         var idx = i.toString(), index = ('000' + idx).substring(idx.length);
@@ -66,7 +71,8 @@ function generateGlobalDex(tppData) {
         summaries.forEach(function (s) {
             if (s.OwnedDict[p]) {
                 $entry.addClass('owned');
-                ownedBy.push(s.Run.HostName + " (" + s.Run.RunName + ")");
+                if (!s.Run.Revisit || ownedBy.indexOf(s.Run.HostName + " (" + s.Run.Revisit.Run + ")") < 0)
+                    ownedBy.push(s.Run.HostName + " (" + s.Run.RunName + ")");
                 bgColor = bgColor || s.Run.ColorPrimary;
                 fullList[p]++;
             }
