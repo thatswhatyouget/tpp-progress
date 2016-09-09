@@ -418,6 +418,15 @@ ul.controls > li > ul > li > * {
     background-image:url("../img/telefang/denjuu-large.gif");
 }
 
+.progressChart .run.animorphs .event.pokemon.pokesprite img {
+    font-size: 16px;
+    margin:10%;
+    transform: translateX(-45%);
+    background-image:url("../img/animorphs/anisprites.gif");
+    top: 75%;
+    z-index: 6;
+}
+
 .progressChart .run.robopon .event.pokemon.pokesprite img {
     font-size: 64px;
     top:10%;

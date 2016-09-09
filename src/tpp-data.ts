@@ -1751,7 +1751,7 @@ var tppData: TPP.Collection[] = [
                     { Name: "Yveltal", Time: "6d3h12m", Group: "Pokemon", Class: "WifiTrade" },
                     { Name: "Mankey", Time: "6d4h9m", Group: "Pokemon" },
                     { Name: "Throh", Time: "6d4h12m", Group: "Pokemon" },
-                    { Name: "Thundurus", Time: "6d4h29m", Group: "Pokemon", Class:"WifiTrade" },
+                    { Name: "Thundurus", Time: "6d4h29m", Group: "Pokemon", Class: "WifiTrade" },
                     { Name: "Zoroark", Time: "6d5h12m", Group: "Pokemon", Class: "WifiTrade" },
                     { Name: "Drifblim", Time: "6d5h16m", Group: "Pokemon", Class: "WifiTrade" },
                     { Name: "Hydreigon", Time: "6d5h20m", Group: "Pokemon", Class: "WifiTrade" },
@@ -6191,6 +6191,7 @@ var tppData: TPP.Collection[] = [
                 HostImage: "img/hosts/twitchplays.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4ei1ew/the_evolution_of_twitchplays/",
                 Region: "Ferrum",
+                ContainsRunsFrom: ["Intermissions", "Short Intermissions"],
                 Events: [
                     {
                         Group: "Hosts",
@@ -6208,6 +6209,24 @@ var tppData: TPP.Collection[] = [
                     }
                 ],
                 Revisit: { Collection: "Intermissions", Run: "Pokkén Tournament" },
+            },
+            {
+                RunName: "Animorphs",
+                ColorPrimary: "#217331",
+                ColorSecondary: "#39bd42",
+                StartDate: "2016-03-25T19:08:00Z",
+                Duration: "2016-03-25T19:32:30.000Z",
+                Unfinished: true,
+                HostName: "CASSIE",
+                HostImage: "img/hosts/other/cassie.gif",
+                Class: "squarehost",
+                Region: "Animorphs",
+                Events: [
+                    { Group: "Pokemon", Name: "Dog", Time: "2016-03-25T19:08:28Z" },
+                    { Group: "Pokemon", Name: "Goat", Time: "2016-03-25T19:12:29Z" },
+                    { Group: "Pokemon", Name: "Raccoon", Time: "2016-03-25T19:18:22Z" },
+                    { Group: "Pokemon", Name: "Mouse", Time: "2016-03-25T19:25:01Z" },
+                ]
             },
             {
                 RunName: "Robopon",

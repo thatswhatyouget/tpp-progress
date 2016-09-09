@@ -1441,6 +1441,11 @@
 .telefang .bosses.pokesprite.dendel img, .telefang .bosses.pokesprite.dandel img  { background-position: 0px -172em!important; } 
 .telefang .bosses.pokesprite.teletel img, .telefang .bosses.pokesprite.tlaitlu img  { background-position: 0px -173em!important; } 
 
+.animorphs .pokemon.pokesprite.dog img { background-position: 0px -0em!important; }
+.animorphs .pokemon.pokesprite.mouse img { background-position: 0px -1em!important; }
+.animorphs .pokemon.pokesprite.goat img { background-position: 0px -2em!important; }
+.animorphs .pokemon.pokesprite.raccoon img { background-position: 0px -3em!important; }
+
 .robopon .pokemon.pokesprite.rocker img { background-position: -20px -0px!important; }
 .robopon .pokemon.pokesprite.sunny img { background-position: -90px -0px!important; }
 .robopon .pokemon.pokesprite.ramjet img { background-position: -162px -0px!important; }
