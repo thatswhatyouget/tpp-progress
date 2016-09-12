@@ -8,7 +8,7 @@ var RunSummary = (function () {
         this.Pokedex = run.Events.filter(function (e) { return e.Group == "Pokemon" && e.Name != "Egg"; }).length;
     }
     return RunSummary;
-})();
+}());
 var PokedexSummary = (function () {
     function PokedexSummary(Run) {
         var _this = this;
@@ -23,7 +23,7 @@ var PokedexSummary = (function () {
         });
     }
     return PokedexSummary;
-})();
+}());
 function generateRunSummary(tppData) {
     var $table = $("<table>").append($("<thead>").append($("<tr>").append(["Run", "Started", "Duration", "Host", "Badges Earned", "Species Caught"].map(function (th) { return $("<th>").text(th); }))));
     var $tbody = $('<tbody>').appendTo($table);

@@ -19,6 +19,7 @@ module TPP {
             Time: string,
         }[];
         DexTotal?: number;
+        EliteFourStartTime?: string;
         Scraper?: {
             url: string;
             parts?: string[];

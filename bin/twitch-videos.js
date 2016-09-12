@@ -12,7 +12,7 @@ var Twitch;
             this.EndTime = this.StartTime + length;
         }
         return Video;
-    })();
+    }());
     Twitch.Video = Video;
     function GetVideos(channel, getAll) {
         if (getAll === void 0) { getAll = true; }

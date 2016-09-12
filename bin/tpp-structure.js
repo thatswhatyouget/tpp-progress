@@ -107,7 +107,7 @@ var Duration = (function () {
     };
     Duration.parseReg = /^\s*(?:(\d*)w)?\s*(?:(\d*)d)?\s*(?:(\d*)h)?\s*(?:(\d*)m)?\s*(?:(\d*)s)?\s*$/i;
     return Duration;
-})();
+}());
 var QueryString = (function () {
     var retobj = {};
     window.location.search.substring(1).split("&").forEach(function (vars) {
