@@ -39,6 +39,7 @@ module TPP {
         CopyEvents?: string[];
         Videos?: Twitch.Video[];
         GoogleDocLink?: string;
+        LiveUpdaterArchive?: string;
         TPPOrgLink?: string;
     }
 

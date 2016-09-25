@@ -16,6 +16,7 @@ var tppData: TPP.Collection[] = [
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 TPPOrgLink: "http://twitchplayspokemon.org/red",
                 GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/red-archive",
+                LiveUpdaterArchive: "https://paste.ee/p/E6NvL",
                 Region: "Kanto",
                 Events: [
                     {
@@ -153,6 +154,7 @@ var tppData: TPP.Collection[] = [
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 TPPOrgLink: "http://twitchplayspokemon.org/crystal",
                 GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/crystal-archive",
+                LiveUpdaterArchive: "https://paste.ee/p/fmVbC",
                 Region: "Johto",
                 AdditionalRegions: [{ Name: "Kanto", Time: "10d 0h 56m" }],
                 Events: [
@@ -342,6 +344,7 @@ var tppData: TPP.Collection[] = [
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
                 TPPOrgLink: "http://twitchplayspokemon.org/emerald",
                 GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/emerald-archive",
+                LiveUpdaterArchive: "https://paste.ee/p/mVTkx",
                 Region: "Hoenn",
                 Events: [
                     {
@@ -5149,6 +5152,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Badges", "Name": "Soul Badge", "Time": "2016-09-15T03:50:41Z", "Attempts": 1, "Image": "img/badges/soul.png" },
                     { "Group": "Badges", "Name": "Thunder Badge", "Time": "2016-09-17T21:18:15Z", "Attempts": 2, "Image": "img/badges/thunder.png" },
                     { "Group": "Badges", "Name": "Cascade Badge", "Time": "2016-09-20T20:38:26Z", "Attempts": 2, "Image": "img/badges/cascade.png" },
+                    { "Group": "Pokemon", "Name": "Shuppet", "Time": "2016-09-25T12:51:46Z" },
                 ]
             },
         ]

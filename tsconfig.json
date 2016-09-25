@@ -11,6 +11,7 @@
 		"./src/tpp-angular.ts",
 		"./src/poke-styles.ts",
 		"./src/tables.ts",
-		"./src/catch-graph.ts"
+		"./src/catch-graph.ts",
+		"./src/reddit-pasteee.ts"
 	]
 }
