@@ -4448,7 +4448,7 @@ var tppData: TPP.Collection[] = [
                 StartDate: "2016-07-31T21:00:00Z",
                 HostName: "PP",
                 HostImage: "img/hosts/pp.png",
-                HostImageSource: "http://angelofemus.tumblr.com/post/148263922673/meet-pepe",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4vj5qp/meet_pepe/",
                 Region: "Sinnoh",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 // Scraper: {
