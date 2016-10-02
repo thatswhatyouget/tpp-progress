@@ -2,6 +2,9 @@
 /// <reference path="tpp-scraper.ts" />
 /// <reference path="tpp-data.ts" />
 /// <reference path="twitch-videos.ts" />
+/// <reference path="reddit-pasteee.ts" />
+
+var pageData: TPP.Collection[];
 
 var fakeQuery: (selector: string) => Array<HTMLElement> = selector => Array.prototype.slice.call(document.querySelectorAll(selector));
 var $find: (elements: Array<HTMLElement>, selector: string) => Array<Array<HTMLElement>> = (elements, selector) => elements.map(e => e ? Array.prototype.slice.call(e.querySelectorAll(selector)) : []);
@@ -37,7 +40,8 @@ function makeGrid(ppd: number) {
 }
 
 function createCharts(data: TPP.Collection[]) {
-    data.filter(c => c.Runs.filter(r => r.StartTime < Date.now() / 1000).length > 0).forEach(createChart);
+    pageData = data.filter(c => c.Runs.filter(r => r.StartTime < Date.now() / 1000).length > 0);
+    pageData.forEach(createChart)
     setTimeout(() => updatePage(), 1);
 }
 
@@ -69,11 +73,18 @@ function createChart(data: TPP.Collection) {
     }
 }
 
+function reprocessCharts(data: TPP.Collection[] = pageData) {
+    data.forEach(c => c.Runs.filter(r => r.StartTime < Date.now() / 1000).forEach(r => queueRun(r)));
+}
+
 function queueRun(runInfo: TPP.Run, scale = TPP.Scale.Days) {
-    var div = document.createElement("div");
-    if (runInfo.Scraper) Scrape(runInfo).then(r => drawRun(r, div, scale), console.error);
-    else setTimeout(() => drawRun(runInfo, div, scale), 0);
-    return div;
+    runInfo.Element = runInfo.Element || document.createElement("div");
+    runInfo.Hidden = (settings["hideUnfinished"] && (runInfo.Unfinished && !runInfo.Ongoing));
+    if (runInfo.Hidden) runInfo.Element.classList.add('hidden'); //if hidden, don't do any more work
+    else if (runInfo.Element.hasAttribute('data-label')) runInfo.Element.classList.remove('hidden'); //if element has data, just un-hide
+    else if (runInfo.Scraper) Scrape(runInfo).then(r => drawRun(r, runInfo.Element, scale), console.error);
+    else setTimeout(() => drawRun(runInfo, runInfo.Element, scale), 0);
+    return runInfo.Element;
 }
 
 function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days, events = true) {
@@ -112,12 +123,13 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
         }
     });
     setTimeout(() => scaleRun(run), 0);
+    return run;
 }
 
 function updateRun(runInfo: TPP.Run, run: HTMLDivElement, scale) {
     if (!(runInfo.Scraper && runInfo.Ongoing)) return;
     Scrape(runInfo).then(r => {
-	var duration = Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale);
+        var duration = Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale);
         console.log("Updating " + runInfo.RunName + " to " + duration);
         run.setAttribute("data-duration", duration);
         run.setAttribute("data-endtime", Duration.parse(runInfo.EndDate || runInfo.Duration, runInfo.StartTime).toString(TPP.Scale.Weeks));
@@ -216,6 +228,10 @@ function applyScale(ppd?: number) {
     globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || globalPpd || 64) / Math.log(2))); //floor to power of 2
     fakeQuery('.progressChart').forEach(chart => {
         chart.style.backgroundImage = 'url("' + makeGrid(ppd) + '")';
+        if (!$(chart).find('.run:not(.hidden)').is('*'))
+            chart.classList.add('hidden');
+        else
+            chart.classList.remove('hidden');
     });
     $find(fakeQuery(".progressChart .ruler"), ".stop").forEach(ruler => ruler.forEach((stop, i) => {
         var offset = parseFloat($(stop).parents('.progressChart').data('offset') || '0');
@@ -360,11 +376,34 @@ function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP
     })).then(() => setTimeout(() => scaleRun(runElement), 0));
 }
 
+class HeatMap {
+    Color: (current: number) => string;
+    constructor(low: number, high: number) {
+        this.Color = (current: number) => {
+            var num = ((current - low) / (high - low)) * Math.PI;
+            return "rgb(" + Math.sin(num).toFixed(0) + ",0," + Math.cos(num).toFixed(0) + ")";
+        }
+    }
+}
+
+function drawRedditLive(baseRunInfo: TPP.Run, runElement: HTMLDivElement, entries: JQueryPromise<Reddit.Pasteee.Live.EntryCollection>) {
+    var vidDiv = $('<div class="videos">').appendTo(runElement);
+    var totalDuration = new Duration(baseRunInfo.Duration).TotalSeconds;
+    //TODO: Finish this
+
+}
+
 //controls and settings
 var zoomIn = () => applyScale(globalPpd * 2);
 var zoomOut = () => applyScale(globalPpd / 2);
 
-var settings: { [key: string]: boolean } = JSON.parse(localStorage.getItem("settings") || '{"explode":true}');
+var defaultSettings: { [key: string]: boolean } = {
+    "explode": true,
+    "hideUnfinished": true
+};
+
+var settings: { [key: string]: boolean } = JSON.parse(localStorage.getItem("settings") || '{}');
+Object.keys(defaultSettings).forEach(s => settings[s] = typeof (settings[s]) === "boolean" ? settings[s] : defaultSettings[s]);
 var showGroups: { [key: string]: boolean } = JSON.parse(localStorage.getItem("showGroups") || "{}");
 window.addEventListener("load", () => {
     fakeQuery('.settings input').forEach(element => (<HTMLInputElement>element).checked = settings[element.id]);
@@ -372,8 +411,10 @@ window.addEventListener("load", () => {
     updatePage();
 });
 function toggleSetting(element: HTMLInputElement) {
-    settings[element.id] = element.checked;
+    var setting = element.id;
+    settings[setting] = element.checked;
     localStorage.setItem("settings", JSON.stringify(settings));
+    if (setting == "hideUnfinished") reprocessCharts();
     updatePage();
 }
 function toggleGroup(element: HTMLInputElement) {

@@ -4691,9 +4691,9 @@ var tppData: TPP.Collection[] = [
                 Duration: "255d",
                 BackgroundImage: "linear-gradient(to bottom, #f99 0%, #ff9 26%, #9f9 42%,#9ff 58%,#99f 74%,#f9f 90%)",
                 Ongoing: true,
-                //HostName: "Paul",
-                //HostImage: "img/hosts/paul.png",
-                //HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4ohl3p/paul_our_easily_distracted_protagonist_animated/",
+                //HostName: "",
+                //HostImage: "img/hosts/.png",
+                //HostImageSource: "",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Scraper: {
                     url: "http://twitchplayspokemon.org/",

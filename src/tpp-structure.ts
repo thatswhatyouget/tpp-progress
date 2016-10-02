@@ -41,6 +41,8 @@ module TPP {
         GoogleDocLink?: string;
         LiveUpdaterArchive?: string;
         TPPOrgLink?: string;
+        Hidden?: boolean;
+        Element?: HTMLDivElement;
     }
 
     export interface Event {
@@ -53,6 +55,7 @@ module TPP {
         Time: string;
         Attempts?: number;
         New?: boolean;
+        Element?: HTMLDivElement;
     }
 
     export interface Collection {
@@ -61,6 +64,7 @@ module TPP {
         Scale: Scale;
         Runs: Run[];
         Offset?: number;
+        Element?: HTMLDivElement;
     }
 
     export enum Scale {

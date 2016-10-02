@@ -1,3 +1,4 @@
+var pageData;
 var fakeQuery = function (selector) { return Array.prototype.slice.call(document.querySelectorAll(selector)); };
 var $find = function (elements, selector) { return elements.map(function (e) { return e ? Array.prototype.slice.call(e.querySelectorAll(selector)) : []; }); };
 function getLeft(element) {
@@ -29,7 +30,8 @@ function makeGrid(ppd) {
     return bgImageSrc.toDataURL();
 }
 function createCharts(data) {
-    data.filter(function (c) { return c.Runs.filter(function (r) { return r.StartTime < Date.now() / 1000; }).length > 0; }).forEach(createChart);
+    pageData = data.filter(function (c) { return c.Runs.filter(function (r) { return r.StartTime < Date.now() / 1000; }).length > 0; });
+    pageData.forEach(createChart);
     setTimeout(function () { return updatePage(); }, 1);
 }
 function createChart(data) {
@@ -61,14 +63,23 @@ function createChart(data) {
         stop.setAttribute("data-scale", TPP.Scale[data.Scale]);
     }
 }
+function reprocessCharts(data) {
+    if (data === void 0) { data = pageData; }
+    data.forEach(function (c) { return c.Runs.filter(function (r) { return r.StartTime < Date.now() / 1000; }).forEach(function (r) { return queueRun(r); }); });
+}
 function queueRun(runInfo, scale) {
     if (scale === void 0) { scale = TPP.Scale.Days; }
-    var div = document.createElement("div");
-    if (runInfo.Scraper)
-        Scrape(runInfo).then(function (r) { return drawRun(r, div, scale); }, console.error);
+    runInfo.Element = runInfo.Element || document.createElement("div");
+    runInfo.Hidden = (settings["hideUnfinished"] && (runInfo.Unfinished && !runInfo.Ongoing));
+    if (runInfo.Hidden)
+        runInfo.Element.classList.add('hidden');
+    else if (runInfo.Element.hasAttribute('data-label'))
+        runInfo.Element.classList.remove('hidden');
+    else if (runInfo.Scraper)
+        Scrape(runInfo).then(function (r) { return drawRun(r, runInfo.Element, scale); }, console.error);
     else
-        setTimeout(function () { return drawRun(runInfo, div, scale); }, 0);
-    return div;
+        setTimeout(function () { return drawRun(runInfo, runInfo.Element, scale); }, 0);
+    return runInfo.Element;
 }
 function drawRun(runInfo, run, scale, events) {
     if (scale === void 0) { scale = TPP.Scale.Days; }
@@ -112,6 +123,7 @@ function drawRun(runInfo, run, scale, events) {
         }
     });
     setTimeout(function () { return scaleRun(run); }, 0);
+    return run;
 }
 function updateRun(runInfo, run, scale) {
     if (!(runInfo.Scraper && runInfo.Ongoing))
@@ -215,6 +227,10 @@ function applyScale(ppd) {
     globalPpd = ppd = Math.pow(2, Math.floor(Math.log(ppd || globalPpd || 64) / Math.log(2)));
     fakeQuery('.progressChart').forEach(function (chart) {
         chart.style.backgroundImage = 'url("' + makeGrid(ppd) + '")';
+        if (!$(chart).find('.run:not(.hidden)').is('*'))
+            chart.classList.add('hidden');
+        else
+            chart.classList.remove('hidden');
     });
     $find(fakeQuery(".progressChart .ruler"), ".stop").forEach(function (ruler) { return ruler.forEach(function (stop, i) {
         var offset = parseFloat($(stop).parents('.progressChart').data('offset') || '0');
@@ -355,9 +371,27 @@ function drawVideos(baseRunInfo, runElement, scale, videoCollection) {
                 .appendTo($("li.groups ul"));
     }); }).then(function () { return setTimeout(function () { return scaleRun(runElement); }, 0); });
 }
+var HeatMap = (function () {
+    function HeatMap(low, high) {
+        this.Color = function (current) {
+            var num = ((current - low) / (high - low)) * Math.PI;
+            return "rgb(" + Math.sin(num).toFixed(0) + ",0," + Math.cos(num).toFixed(0) + ")";
+        };
+    }
+    return HeatMap;
+}());
+function drawRedditLive(baseRunInfo, runElement, entries) {
+    var vidDiv = $('<div class="videos">').appendTo(runElement);
+    var totalDuration = new Duration(baseRunInfo.Duration).TotalSeconds;
+}
 var zoomIn = function () { return applyScale(globalPpd * 2); };
 var zoomOut = function () { return applyScale(globalPpd / 2); };
-var settings = JSON.parse(localStorage.getItem("settings") || '{"explode":true}');
+var defaultSettings = {
+    "explode": true,
+    "hideUnfinished": true
+};
+var settings = JSON.parse(localStorage.getItem("settings") || '{}');
+Object.keys(defaultSettings).forEach(function (s) { return settings[s] = typeof (settings[s]) === "boolean" ? settings[s] : defaultSettings[s]; });
 var showGroups = JSON.parse(localStorage.getItem("showGroups") || "{}");
 window.addEventListener("load", function () {
     fakeQuery('.settings input').forEach(function (element) { return element.checked = settings[element.id]; });
@@ -365,8 +399,11 @@ window.addEventListener("load", function () {
     updatePage();
 });
 function toggleSetting(element) {
-    settings[element.id] = element.checked;
+    var setting = element.id;
+    settings[setting] = element.checked;
     localStorage.setItem("settings", JSON.stringify(settings));
+    if (setting == "hideUnfinished")
+        reprocessCharts();
     updatePage();
 }
 function toggleGroup(element) {

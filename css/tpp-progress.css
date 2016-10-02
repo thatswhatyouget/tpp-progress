@@ -450,6 +450,10 @@ ul.controls > li > ul > li > * {
     top:-2px;
 }
 
+.progressChart .run.hidden, .progressChart.hidden {
+	display: none;
+}
+
 .progressChart .run .event.hidden, .progressChart .run .videos.hidden {
 	pointer-events: none;
     opacity: 0;   
