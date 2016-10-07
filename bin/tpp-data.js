@@ -5065,6 +5065,7 @@ var tppData = [
                 HostImage: "http://cdn.bulbagarden.net/upload/d/d0/FRLG_Red_Intro.png",
                 HostImageSource: "http://bulbapedia.bulbagarden.net/wiki/File:FRLG_Red_Intro.png",
                 Region: "Ultra",
+                EliteFourStartTime: "2016-10-07T03:56:27Z",
                 Events: [
                     { "Group": "Pokemon", "Name": "Squirtle", "Time": "2016-08-17T21:21:34Z" },
                     { "Group": "Badges", "Name": "Boulder Badge", "Time": "2016-08-26T04:57:51Z", "Attempts": 1, "Image": "img/badges/boulder.png" },
@@ -5083,6 +5084,7 @@ var tppData = [
                     { "Group": "Badges", "Name": "Volcano Badge", "Time": "2016-10-03T17:06:08Z", "Attempts": 1, "Image": "img/badges/volcano.png" },
                     { "Group": "Pokemon", "Name": "Zubat", "Time": "2016-10-05T01:32:11Z" },
                     { "Group": "Badges", "Name": "Earth Badge", "Time": "2016-10-06T04:52:11Z", "Attempts": 1, "Image": "img/badges/earth.png" },
+                    { Group: "Elite Four", Name: "JAX", Image: "img/trainers/firered/bruno.png", Time: "2016-10-07T11:47:10Z", Attempts: 1 },
                 ]
             },
         ]
