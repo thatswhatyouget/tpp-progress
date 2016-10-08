@@ -5138,8 +5138,8 @@ var tppData: TPP.Collection[] = [
                 Duration: new Date().toISOString(),
                 Ongoing: true,
                 HostName: "PEE",
-                HostImage: "http://cdn.bulbagarden.net/upload/d/d0/FRLG_Red_Intro.png",
-                HostImageSource: "http://bulbapedia.bulbagarden.net/wiki/File:FRLG_Red_Intro.png",
+                HostImage: "img/hosts/pee.png",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/568gkg/the_ultra_crew_so_far_v_30/d8i7kwk",
                 Region: "Ultra",
                 EliteFourStartTime: "2016-10-07T03:56:27Z",
                 Events: [
@@ -5161,8 +5161,9 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Zubat", "Time": "2016-10-05T01:32:11Z" },
                     { "Group": "Badges", "Name": "Earth Badge", "Time": "2016-10-06T04:52:11Z", "Attempts": 1, "Image": "img/badges/earth.png" },
                     { Group: "Elite Four", Name: "JAX", Image: "img/trainers/firered/bruno.png", Time: "2016-10-07T11:47:10Z", Attempts: 1 },
-                    // { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png", Time: "2016-10-07T11:47:10Z", Attempts: 1 },
-                    // { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png", Time: "2016-10-07T11:47:10Z", Attempts: 1 },
+                    { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png", Time: "Fri Oct 07 2016 22:45:01 GMT+0000 (UTC)", Attempts: 1 },
+                    //{ Group: "Elite Four", Name: "DEATHLORD", Image: "img/ultra/deathlord.png", Time: "", Attempts: 1 },
+                    //{ Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png", Time: "2016-10-07T11:47:10Z", Attempts: 1 },
                     // { Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png", Time: "2016-10-07T11:47:10Z", Attempts: 1 },
                     // { Group: "Champions", Name: "Green", Image: "img/trainers/firered/green.png", Time: "2016-10-07T11:47:10Z", Attempts: 1 },
                 ]
