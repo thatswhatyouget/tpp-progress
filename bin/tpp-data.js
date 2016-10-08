@@ -4919,12 +4919,13 @@ var tppData = [
                 ColorPrimary: "#c6223b",
                 ColorSecondary: "#c6223b",
                 StartDate: "2016-02-12T03:13:00Z",
-                Duration: "2016-08-16T23:38:00Z",
-                Unfinished: true,
+                Duration: new Date().toISOString(),
+                Ongoing: true,
                 HostName: "SquirtLee",
                 HostImage: "img/hosts/pmd/squirtlee.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
                 Region: "Pokemon World",
+                ContainsRunsFrom: ["Sidegames"],
                 Events: [
                     {
                         Group: "Bosses",
@@ -5059,8 +5060,8 @@ var tppData = [
                 ColorPrimary: "purple",
                 ColorSecondary: "yellow",
                 StartDate: "2016-08-16T23:39:00Z",
-                Duration: new Date().toISOString(),
-                Ongoing: true,
+                Duration: 'Sat Oct 08 2016 21:10:42 GMT+0000 (UTC)',
+                Unfinished: true,
                 HostName: "PEE",
                 HostImage: "img/hosts/pee.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/568gkg/the_ultra_crew_so_far_v_30/d8i7kwk",
@@ -5086,6 +5087,7 @@ var tppData = [
                     { "Group": "Badges", "Name": "Earth Badge", "Time": "2016-10-06T04:52:11Z", "Attempts": 1, "Image": "img/badges/earth.png" },
                     { Group: "Elite Four", Name: "JAX", Image: "img/trainers/firered/bruno.png", Time: "2016-10-07T11:47:10Z", Attempts: 1 },
                     { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png", Time: "Fri Oct 07 2016 22:45:01 GMT+0000 (UTC)", Attempts: 1 },
+                    { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png", Time: "Sat Oct 08 2016 20:56:11 GMT+0000 (UTC)", Attempts: 1 },
                 ]
             },
         ]
@@ -5236,6 +5238,21 @@ var tppData = [
                 ],
                 Revisit: { Collection: "Sidegames", Run: "Vietnamese Crystal" },
                 CopyEvents: ["Vietnamese Crystal"],
+            },
+            {
+                RunName: "Telefang Revisit",
+                StartDate: "2016-10-08T21:37:00Z",
+                Duration: "2016-10-09T21:00:00Z",
+                Ongoing: true,
+                ColorPrimary: "#EFFE24",
+                ColorSecondary: "#120291",
+                HostImage: "img/hosts/other/shigeki.png",
+                HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
+                HostName: "lゲg",
+                Region: "E-Monsters World",
+                Events: [],
+                Revisit: { Collection: "Long Intermissions", Run: "Telefang" },
+                CopyEvents: ["Telefang"],
             }
         ]
     },
