@@ -5250,7 +5250,9 @@ var tppData = [
                 HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
                 HostName: "lゲg",
                 Region: "E-Monsters World",
-                Events: [],
+                Events: [
+                    { Group: "Pokemon", Name: "Mierths", Time: "2016-10-09T00:19:00Z" },
+                ],
                 Revisit: { Collection: "Long Intermissions", Run: "Telefang" },
                 CopyEvents: ["Telefang"],
             }

@@ -5332,7 +5332,7 @@ var tppData: TPP.Collection[] = [
                 HostName: "lゲg",
                 Region: "E-Monsters World",
                 Events: [
-
+                    { Group: "Pokemon", Name: "Mierths", Time: "2016-10-09T00:19:00Z" },
                 ],
                 Revisit: { Collection: "Long Intermissions", Run: "Telefang" },
                 CopyEvents: ["Telefang"],
