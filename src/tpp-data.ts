@@ -5336,6 +5336,8 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Mierths", Time: "2016-10-09T00:19:00Z" },
                     { Group: "Bosses", Name: "Stream", Time: "2016-10-09T00:38:00Z", Image: "img/telefang/ogawa.gif", Attempts: 1 },
                     { Group: "Pokemon", Name: "Tlaitlu", Time: "2016-10-09T03:38:00Z" },
+                    { Group: "Pokemon", Name: "Chap", Time: "2016-10-09T11:27:00Z" },
+
                 ],
                 Revisit: { Collection: "Long Intermissions", Run: "Telefang" },
                 CopyEvents: ["Telefang"],
