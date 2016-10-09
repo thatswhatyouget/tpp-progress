@@ -4626,7 +4626,9 @@ var tppData = [
                 HostImage: "img/hosts/cyan.png",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Region: "Naljo",
-                Events: []
+                Events: [
+                    { "Group": "Pokemon", "Name": "Larvitar", "Time": "8m" },
+                ]
             }
         ]
     },
