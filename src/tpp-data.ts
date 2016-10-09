@@ -5324,7 +5324,7 @@ var tppData: TPP.Collection[] = [
                 RunName: "Telefang Revisit",
                 Class: "Telefang",
                 StartDate: "2016-10-08T21:37:00Z",
-                Duration: "2016-10-09T18:00:00Z",
+                Duration: "2016-10-09T18:02:00Z",
                 Ongoing: true,
                 ColorPrimary: "#EFFE24",
                 ColorSecondary: "#120291",
