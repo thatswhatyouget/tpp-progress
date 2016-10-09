@@ -5241,6 +5241,7 @@ var tppData = [
             },
             {
                 RunName: "Telefang Revisit",
+                Class: "Telefang",
                 StartDate: "2016-10-08T21:37:00Z",
                 Duration: "2016-10-09T21:00:00Z",
                 Ongoing: true,
@@ -5252,6 +5253,7 @@ var tppData = [
                 Region: "E-Monsters World",
                 Events: [
                     { Group: "Pokemon", Name: "Mierths", Time: "2016-10-09T00:19:00Z" },
+                    { Group: "Bosses", Name: "Stream", Time: "2016-10-09T00:38:00Z", Image: "img/telefang/ogawa.gif", Attempts: 1 },
                 ],
                 Revisit: { Collection: "Long Intermissions", Run: "Telefang" },
                 CopyEvents: ["Telefang"],
