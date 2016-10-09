@@ -4622,13 +4622,9 @@ var tppData = [
                 Duration: "255d",
                 BackgroundImage: "linear-gradient(to bottom, #f99 0%, #ff9 26%, #9f9 42%,#9ff 58%,#99f 74%,#f9f 90%)",
                 Ongoing: true,
+                HostName: "Cyan",
+                HostImage: "img/hosts/cyan.png",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
-                Scraper: {
-                    url: "http://twitchplayspokemon.org/",
-                    runtime: true,
-                    parts: ["Badge", "Elite Four"],
-                    pokemon: true
-                },
                 Region: "Naljo",
                 Events: []
             }
