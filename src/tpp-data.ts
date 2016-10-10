@@ -4693,7 +4693,7 @@ var tppData: TPP.Collection[] = [
                 Ongoing: true,
                 HostName: "Cyan",
                 HostImage: "img/hosts/cyan.png",
-                //HostImageSource: "",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/56oyn1/cyan_larvitarleervitar/",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 // Scraper: {
                 //     url: "http://twitchplayspokemon.org/",
