@@ -4626,16 +4626,14 @@ var tppData = [
                 HostImage: "img/hosts/cyan.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/56oyn1/cyan_larvitarleervitar/",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
+                Scraper: {
+                    url: "http://twitchplayspokemon.org/",
+                    runtime: true,
+                    parts: ["Badge"],
+                    pokemon: true
+                },
                 Region: "Naljo",
-                Events: [
-                    { "Group": "Pokemon", "Name": "Larvitar", "Time": "8m" },
-                    { "Group": "Pokemon", "Name": "Taillow", "Time": "3h 48m" },
-                    { "Group": "Pokemon", "Name": "Ralts", "Time": "4h 55m" },
-                    { "Group": "Pokemon", "Name": "Marill", "Time": "6h 15m" },
-                    { "Group": "Badges", "Name": "Pyre Badge", "Image": "img/badges/pyre.png", "Time": "7h 6m", "Attempts": 1 },
-                    { "Group": "Pokemon", "Name": "Vulpix", "Time": "8h 8m" },
-                    { "Group": "Pokemon", "Name": "Mareep", "Time": "8h 23m" },
-                ]
+                Events: []
             }
         ]
     },
