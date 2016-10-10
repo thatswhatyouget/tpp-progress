@@ -4633,7 +4633,10 @@ var tppData = [
                     pokemon: true
                 },
                 Region: "Naljo",
-                Events: []
+                Events: [
+                    { "Group": "Pokemon", "Name": "Shinx", "Time": "17h 35m" },
+                    { "Group": "Pokemon", "Name": "Geodude", "Time": "17h 55m" },
+                ]
             }
         ]
     },
