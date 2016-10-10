@@ -4708,7 +4708,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Ralts", "Time": "4h 55m" },
                     { "Group": "Pokemon", "Name": "Marill", "Time": "6h 15m" },
                     { "Group": "Badges", "Name": "Pyre Badge", "Image": "img/badges/pyre.png", "Time": "7h 6m", "Attempts": 1 },
-                    
+                    { "Group": "Pokemon", "Name": "Vulpix", "Time": "8h 8m" },
                     // { "Group": "Badges", "Name": "Marine Badge", "Image": "img/badges/marine.png", "ImageSource": "https://www.reddit.com/r/twitchplayspokemon/comments/4oi54q/8bit_karpman_marine_badge/", "Time": "-1d", "Attempts": 0 },
                     // { "Group": "Badges", "Name": "Hail Badge", "Image": "img/badges/hail.png", "ImageSource": "https://www.reddit.com/r/twitchplayspokemon/comments/4om5zd/8bit_lily_hail_badge/", "Time": "1d9h37m", "Attempts": 0 },
                     // { "Group": "Badges", "Name": "Sprout Badge", "Image": "img/badges/sprout.png", "ImageSource": "https://www.reddit.com/r/twitchplayspokemon/comments/4otm9b/8bit_lois_sprout_badge/", "Time": "-1d", "Attempts": 0 },
