@@ -22,7 +22,7 @@ module TPP {
         EliteFourStartTime?: string;
         Scraper?: {
             url: string;
-            parts?: string[];
+            parts: string[];
             runtime?: boolean;
             hostname?: boolean;
             pokemon?: boolean;
