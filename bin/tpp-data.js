@@ -4623,8 +4623,8 @@ var tppData = [
                 BackgroundImage: "linear-gradient(to bottom, #f99 0%, #ff9 26%, #9f9 42%,#9ff 58%,#99f 74%,#f9f 90%)",
                 Ongoing: true,
                 HostName: "Cyan",
-                HostImage: "img/hosts/cyan.png",
-                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/56oyn1/cyan_larvitarleervitar/",
+                HostImage: "img/hosts/cyan.gif",
+                HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/56v3w5/cyan_our_shy_and_demure_protagonist_animated/",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Scraper: {
                     url: "http://twitchplayspokemon.org/",
