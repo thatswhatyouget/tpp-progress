@@ -4636,6 +4636,8 @@ var tppData = [
                 Events: [
                     { "Group": "Pokemon", "Name": "Butterfree", "Time": "2d4h57m" },
                     { "Group": "Pokemon", "Name": "Kirlia", "Time": "2d 11h 50m" },
+                    { "Group": "Pokemon", "Name": "Totodile", "Time": "2d 15h 1m" },
+                    { "Group": "Badges", "Name": "Charm Badge", "Time": "2d 14h 57m", "Attempts": 1, "Image": "img/badges/charm.png" },
                 ]
             }
         ]
