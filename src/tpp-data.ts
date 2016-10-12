@@ -4706,6 +4706,7 @@ var tppData: TPP.Collection[] = [
                 Region: "Naljo",
                 Events: [
                     { "Group": "Pokemon", "Name": "Butterfree", "Time": "2d4h57m" },
+                    { "Group": "Pokemon", "Name": "Kirlia", "Time": "2d 11h 50m" },
                 ]
             }
         ]
