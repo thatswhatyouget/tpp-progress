@@ -70,6 +70,12 @@ function generateGlobalDex(tppData) {
     if (QueryString["only"]) {
         tppData = tppData.filter(function (c) { return QueryString["only"].split(',').filter(function (f) { return c.Name.indexOf(f.trim()) >= 0; }).length > 0; });
     }
+    if (QueryString["run"]) {
+        tppData = tppData.map(function (c) {
+            c.Runs = c.Runs.filter(function (r) { return QueryString["run"].split(',').filter(function (f) { return r.RunName.indexOf(f.trim()) >= 0; }).length > 0; });
+            return c;
+        }).filter(function (c) { return c.Runs.length > 0; });
+    }
     if (QueryString["g"]) {
         PokeList = PokeList.slice(0, (GenSlice[parseInt(QueryString["g"] || "0")] || PokeList.length) + 1);
     }

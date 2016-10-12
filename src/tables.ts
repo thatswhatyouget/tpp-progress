@@ -78,6 +78,12 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
     if (QueryString["only"]) {
         tppData = tppData.filter(c => QueryString["only"].split(',').filter(f => c.Name.indexOf(f.trim()) >= 0).length > 0);
     }
+    if (QueryString["run"]) {
+        tppData = tppData.map(c=> {
+		c.Runs = c.Runs.filter(r=> QueryString["run"].split(',').filter(f=>r.RunName.indexOf(f.trim()) >= 0).length > 0);
+		return c;
+	}).filter(c => c.Runs.length > 0);
+    }
     if (QueryString["g"]) {
         PokeList = PokeList.slice(0, (GenSlice[parseInt(QueryString["g"] || "0")] || PokeList.length) + 1);
     }
