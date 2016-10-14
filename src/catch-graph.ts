@@ -18,7 +18,9 @@ Array.prototype.concat.apply([],
                     .filter((e, i) => qsFilter(e, r, i))
                     .map((e, i) => [Duration.parse(e.Time, r.StartTime).TotalTime(TPP.Scale.Days), i + 1]),
             };
-            dataSeries.data.push([Duration.parse(r.Duration, r.StartTime).TotalTime(TPP.Scale.Days), dataSeries.data.length - 1]);
+            var runTime = Duration.parse(r.Duration, r.StartTime).TotalTime(TPP.Scale.Days);
+            if (dataSeries.data[dataSeries.data.length - 1][0] < runTime)
+                dataSeries.data.push([runTime, dataSeries.data.length]);
             return dataSeries;
         }))))
 ).then((...data: jquery.flot.dataSeries[]) => {

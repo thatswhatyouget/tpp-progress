@@ -12,7 +12,9 @@ $.when.apply($, Array.prototype.concat.apply([], tppData.filter(function (c) { r
             .filter(function (e, i) { return qsFilter(e, r, i); })
             .map(function (e, i) { return [Duration.parse(e.Time, r.StartTime).TotalTime(TPP.Scale.Days), i + 1]; }),
     };
-    dataSeries.data.push([Duration.parse(r.Duration, r.StartTime).TotalTime(TPP.Scale.Days), dataSeries.data.length - 1]);
+    var runTime = Duration.parse(r.Duration, r.StartTime).TotalTime(TPP.Scale.Days);
+    if (dataSeries.data[dataSeries.data.length - 1][0] < runTime)
+        dataSeries.data.push([runTime, dataSeries.data.length]);
     return dataSeries;
 }); }); }))).then(function () {
     var data = [];
