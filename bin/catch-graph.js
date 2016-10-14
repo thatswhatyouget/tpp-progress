@@ -1,3 +1,7 @@
+function qsFilter(event, run, index) {
+    return !(QueryString["day"] && Duration.parse(event.Time, run.StartTime).TotalDays > parseFloat(QueryString["day"]))
+        && !(QueryString["pokemon"] && index >= parseInt(QueryString["pokemon"]));
+}
 $.when.apply($, Array.prototype.concat.apply([], tppData.filter(function (c) { return c.Name.indexOf("Season") == 0; })
     .map(function (c) { return c.Runs.filter(function (r) { return (r.Scraper && r.Scraper.pokemon) || r.Events.filter(function (e) { return e.Group == "Pokemon"; }).length > 0; }).map(function (r) { return $.when(r.Scraper ? Scrape(r) : r).then(function (r) {
     return {
@@ -5,6 +9,7 @@ $.when.apply($, Array.prototype.concat.apply([], tppData.filter(function (c) { r
         label: r.RunName,
         data: r.Events.filter(function (e) { return e.Group == "Pokemon" && e.Name != "Egg"; })
             .sort(function (e1, e2) { return Duration.parse(e1.Time, r.StartTime).TotalTime(c.Scale) - Duration.parse(e2.Time, r.StartTime).TotalTime(c.Scale); })
+            .filter(function (e, i) { return qsFilter(e, r, i); })
             .map(function (e, i) { return [Duration.parse(e.Time, r.StartTime).TotalTime(TPP.Scale.Days), i + 1]; }),
     };
 }); }); }))).then(function () {
@@ -37,6 +42,12 @@ $.when.apply($, Array.prototype.concat.apply([], tppData.filter(function (c) { r
             hoverable: true
         }
     });
+    var $chartTitle = $('<h3>').text('Pokédex "Owned" Over Time');
     $('.charts').append($("<div class='axisLabel'>").text('Days'))
-        .append($("<div class='axisLabel yaxisLabel'>").text('Pokémon'));
+        .append($("<div class='axisLabel yaxisLabel'>").text('Pokémon'))
+        .append($chartTitle);
+    if (QueryString["day"])
+        $chartTitle.append("<small>(First " + QueryString["day"] + " Days)</small>");
+    if (QueryString["pokemon"])
+        $chartTitle.append("<small>(First " + QueryString["pokemon"] + " Pokémon)</small>");
 });
