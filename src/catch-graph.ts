@@ -10,14 +10,16 @@ $.when.apply($,
 Array.prototype.concat.apply([],    
     tppData.filter(c => c.Name.indexOf("Season") == 0)
         .map(c => c.Runs.filter(r => (r.Scraper && r.Scraper.pokemon) || r.Events.filter(e => e.Group == "Pokemon").length > 0).map(r => $.when(r.Scraper ? Scrape(r) : r).then(r => {
-            return <jquery.flot.dataSeries>{
+            var dataSeries: jquery.flot.dataSeries = {
                 color: r.ColorPrimary,
                 label: r.RunName,
                 data: r.Events.filter(e => e.Group == "Pokemon" && e.Name != "Egg")
                     .sort((e1, e2) => Duration.parse(e1.Time, r.StartTime).TotalTime(c.Scale) - Duration.parse(e2.Time, r.StartTime).TotalTime(c.Scale))
                     .filter((e, i) => qsFilter(e, r, i))
                     .map((e, i) => [Duration.parse(e.Time, r.StartTime).TotalTime(TPP.Scale.Days), i + 1]),
-            }
+            };
+            dataSeries.data.push([Duration.parse(r.Duration, r.StartTime).TotalTime(TPP.Scale.Days), dataSeries.data.length - 1]);
+            return dataSeries;
         }))))
 ).then((...data: jquery.flot.dataSeries[]) => {
     console.dir(data);

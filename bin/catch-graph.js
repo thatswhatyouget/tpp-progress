@@ -4,7 +4,7 @@ function qsFilter(event, run, index) {
 }
 $.when.apply($, Array.prototype.concat.apply([], tppData.filter(function (c) { return c.Name.indexOf("Season") == 0; })
     .map(function (c) { return c.Runs.filter(function (r) { return (r.Scraper && r.Scraper.pokemon) || r.Events.filter(function (e) { return e.Group == "Pokemon"; }).length > 0; }).map(function (r) { return $.when(r.Scraper ? Scrape(r) : r).then(function (r) {
-    return {
+    var dataSeries = {
         color: r.ColorPrimary,
         label: r.RunName,
         data: r.Events.filter(function (e) { return e.Group == "Pokemon" && e.Name != "Egg"; })
@@ -12,6 +12,8 @@ $.when.apply($, Array.prototype.concat.apply([], tppData.filter(function (c) { r
             .filter(function (e, i) { return qsFilter(e, r, i); })
             .map(function (e, i) { return [Duration.parse(e.Time, r.StartTime).TotalTime(TPP.Scale.Days), i + 1]; }),
     };
+    dataSeries.data.push([Duration.parse(r.Duration, r.StartTime).TotalTime(TPP.Scale.Days), dataSeries.data.length - 1]);
+    return dataSeries;
 }); }); }))).then(function () {
     var data = [];
     for (var _i = 0; _i < arguments.length; _i++) {
