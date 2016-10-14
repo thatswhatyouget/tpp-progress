@@ -19,7 +19,7 @@ Array.prototype.concat.apply([],
                     .map((e, i) => [Duration.parse(e.Time, r.StartTime).TotalTime(TPP.Scale.Days), i + 1]),
             };
             var runTime = Duration.parse(r.Duration, r.StartTime).TotalTime(TPP.Scale.Days);
-            if (dataSeries.data[dataSeries.data.length - 1][0] < runTime)
+            if (dataSeries.data[dataSeries.data.length - 1][0] < runTime && (!QueryString['day'] || runTime <= parseFloat(QueryString['day'])))
                 dataSeries.data.push([runTime, dataSeries.data.length]);
             return dataSeries;
         }))))
