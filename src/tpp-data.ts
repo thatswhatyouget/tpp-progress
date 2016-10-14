@@ -4705,6 +4705,7 @@ var tppData: TPP.Collection[] = [
                 },
                 Region: "Naljo",
                 Events: [
+                    { "Group": "Pokemon", "Name": "Butterfree", "Time": "2d4h57m" },
                     { "Group": "Pokemon", "Name": "Numel", "Time": "4d 3h 26m" },
                     { "Group": "Pokemon", "Name": "Aron", "Time": "4d 3h 41m" },
                     // { "Group": "Badges", "Name": "Charm Badge", "Time": "2d 14h 57m", "Attempts": 1, "Image": "img/badges/charm.png" },
