@@ -2,80 +2,89 @@
 
 <head>
 	<title>TPP Global Pokédex</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="bin/tpp-structure.js"></script>
-    <script src="bin/twitch-videos.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="bin/tpp-structure.js"></script>
+	<script src="bin/twitch-videos.js"></script>
 	<script src="bin/tpp-progress.js"></script>
 	<script src="bin/tpp-scraper.js"></script>
 	<script src="bin/tpp-data.js"></script>
-    <script src="bin/tables.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">	
+	<script src="bin/tables.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/tpp-progress.css" />
-    <link rel="stylesheet" href="css/pokemon.css" />
+	<link rel="stylesheet" href="css/pokemon.css" />
 	<link rel="icon" href="img/icon.png" type="image/png">
 	<link rel="shortcut icon" href="img/icon.png" type="image/png">
-    <meta property="og:title" content="TPP Progress Chart" />
-    <meta property="og:url" content="http://thatswhatyouget.github.io/tpp-progress/" />
-    <meta property="og:image" content="http://thatswhatyouget.github.io/tpp-progress/img/icon.png" />
-    <meta property="og:type" content="website" />
-    <meta charset="utf-8" />
-    <style>
-            .dexEntry {
-                display:inline-block;
-                margin:auto;
-                opacity:.2;
-                background-color:transparent;
-                border: 1px solid black;
-                padding:10px;
-                min-width:100px;
-                /*text-shadow: 0 0 4px white;*/
-            }
-            .dexEntry > * {
-                margin:auto;
-            }
-            .dexEntry.owned {
-                opacity:1;
-                background-color:#AFA;
-            }
-            .dexEntry .pokesprite {
-                display:inline-block;
-                font-size:64px;
-                width:1em;
-                height:1em;
-                margin:5px 0;
-            }
-            .dexEntry .pokesprite:not(.missingno) img {
-                height:0;
-                width:0;
-                padding:.5em;
-                background-image:url("img/pokemon-large.png");
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-            .dexEntry .pokesprite.missingno img {
-                height:100%;
-            }
-
-    </style>
+	<meta property="og:title" content="TPP Progress Chart" />
+	<meta property="og:url" content="http://thatswhatyouget.github.io/tpp-progress/" />
+	<meta property="og:image" content="http://thatswhatyouget.github.io/tpp-progress/img/icon.png" />
+	<meta property="og:type" content="website" />
+	<meta charset="utf-8" />
+	<style>
+		.dexEntry {
+			display: inline-block;
+			margin: auto;
+			opacity: .2;
+			background-color: transparent;
+			border: 1px solid black;
+			padding: 10px;
+			min-width: 100px;
+			/*text-shadow: 0 0 4px white;*/
+		}
+		
+		.dexEntry > * {
+			margin: auto;
+		}
+		
+		.dexEntry:not(.owned) {
+			-webkit-filter: grayscale(100%);
+			filter: grayscale(100%);
+		}
+		
+		.dexEntry.owned {
+			opacity: 1;
+			background-color: #AFA;
+		}
+		
+		.dexEntry .pokesprite {
+			display: inline-block;
+			font-size: 64px;
+			width: 1em;
+			height: 1em;
+			margin: 5px 0;
+		}
+		
+		.dexEntry .pokesprite:not(.missingno) img {
+			height: 0;
+			width: 0;
+			padding: .5em;
+			background-image: url("img/pokemon-large.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		
+		.dexEntry .pokesprite.missingno img {
+			height: 100%;
+		}
+	</style>
 </head>
 
 <body>
 	<div class="title">
 		<h1>Twitch Plays Pokémon</h1>
-        <div class="subtitle">
-            Global Pokédex
-            <a href="catch-report.html">See Catch Report</a>
-        </div>
+		<div class="subtitle">
+			Global Pokédex
+			<a href="catch-report.html">See Catch Report</a>
+		</div>
 	</div>
 	<div class="title">
 		<strong>Pokédex</strong>
-        <div class="credits">
-            <span class="doItLive">Most</span> catch data provided by <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
-        </div>
+		<div class="credits">
+			<span class="doItLive">Most</span> catch data provided by <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
+		</div>
 	</div>
-    <div class="pokedex" id="pokedex">
-	   <script>$("#pokedex").append(generateGlobalDex(tppData));</script>
-    </div>
+	<div class="pokedex" id="pokedex">
+		<script>$("#pokedex").append(generateGlobalDex(tppData));</script>
+	</div>
 </body>
 
 </html>
