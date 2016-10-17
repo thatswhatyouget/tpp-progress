@@ -4706,9 +4706,10 @@ var tppData: TPP.Collection[] = [
                 Region: "Naljo",
                 Events: [
                     { "Group": "Pokemon", "Name": "Butterfree", "Time": "2d4h57m" },
-                    { "Group": "Pokemon", "Name": "Numel", "Time": "4d 3h 26m" },
-                    { "Group": "Pokemon", "Name": "Aron", "Time": "4d 3h 41m" },
                     // { "Group": "Badges", "Name": "Charm Badge", "Time": "2d 14h 57m", "Attempts": 1, "Image": "img/badges/charm.png" },
+                    { "Group": "Pokemon", "Name": "Swinub", "Time": "7d 10h 45m" },
+                    { "Group": "Pokemon", "Name": "Slowpoke", "Time": "7d 10h 50m" },
+                    { "Group": "Pokemon", "Name": "Piloswine", "Time": "7d 22h 2m" },
                 ]
             }
         ]
@@ -5471,13 +5472,13 @@ var tppData: TPP.Collection[] = [
                         Name: "Aurora",
                         Group: "Kingdoms",
                         Image: "img/conquest/aurora.png",
-                        Time: "Jun 28 2014 00:33:11 AM GMT"
+                        Time: "2014-06-27T:23:23:22Z"
                     },
                     {
                         Name: "Ignis",
                         Group: "Kingdoms",
                         Image: "img/conquest/ignis.png",
-                        Time: "2014-06-28T01:31:00Z"
+                        Time: "2014-06-28T01:28:00Z"
                     },
                     {
                         Name: "Greenleaf",
@@ -5574,7 +5575,10 @@ var tppData: TPP.Collection[] = [
                         Group: "Champions",
                         Image: "img/conquest/nobunaga.png",
                         Time: "Jul 2 2014 12:38 AM GMT"
-                    }
+                    },
+//                    { Group: "Pokemon", Name: "Eevee", Time: "2014-06-27T22:52:32Z" },
+//                    { Group: "Pokemon", Name: "Jigglypuff", Time: "2014-06-27T23:07:18Z" },
+//                    { Group: "Pokemon", Name: "Charmander", Time: "2014-06-28T02:11:11Z" },
                 ]
             },
             {

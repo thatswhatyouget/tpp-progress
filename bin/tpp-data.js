@@ -4635,8 +4635,9 @@ var tppData = [
                 Region: "Naljo",
                 Events: [
                     { "Group": "Pokemon", "Name": "Butterfree", "Time": "2d4h57m" },
-                    { "Group": "Pokemon", "Name": "Numel", "Time": "4d 3h 26m" },
-                    { "Group": "Pokemon", "Name": "Aron", "Time": "4d 3h 41m" },
+                    { "Group": "Pokemon", "Name": "Swinub", "Time": "7d 10h 45m" },
+                    { "Group": "Pokemon", "Name": "Slowpoke", "Time": "7d 10h 50m" },
+                    { "Group": "Pokemon", "Name": "Piloswine", "Time": "7d 22h 2m" },
                 ]
             }
         ]
@@ -5388,13 +5389,13 @@ var tppData = [
                         Name: "Aurora",
                         Group: "Kingdoms",
                         Image: "img/conquest/aurora.png",
-                        Time: "Jun 28 2014 00:33:11 AM GMT"
+                        Time: "2014-06-27T:23:23:22Z"
                     },
                     {
                         Name: "Ignis",
                         Group: "Kingdoms",
                         Image: "img/conquest/ignis.png",
-                        Time: "2014-06-28T01:31:00Z"
+                        Time: "2014-06-28T01:28:00Z"
                     },
                     {
                         Name: "Greenleaf",
@@ -5491,7 +5492,7 @@ var tppData = [
                         Group: "Champions",
                         Image: "img/conquest/nobunaga.png",
                         Time: "Jul 2 2014 12:38 AM GMT"
-                    }
+                    },
                 ]
             },
             {
