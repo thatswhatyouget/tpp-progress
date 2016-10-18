@@ -4704,6 +4704,7 @@ var tppData: TPP.Collection[] = [
                     pokemon: true
                 },
                 Region: "Naljo",
+                //EliteFourStart: "8d16h16m",
                 Events: [
                     { "Group": "Pokemon", "Name": "Butterfree", "Time": "2d4h57m" },
                     { "Group": "Pokemon", "Name": "Eevee", "Time": "2016-10-17T19:18:00.000Z" },
@@ -4784,6 +4785,9 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Graveler", "Time": "8d12h30m" },
                     { "Group": "Pokemon", "Name": "Ponyta", "Time": "8d12h35m" },
                     { "Group": "Pokemon", "Name": "Machoke", "Time": "8d12h38m" },
+                    { "Group": "Elite Four", "Name": "Yuki", "Time": "8d 16h 23m", "Attempts": 2, "Image": "img/trainers/prism/yuki.png" },
+                    { "Group": "Elite Four", "Name": "Sora", "Time": "8d 17h 14m", "Attempts": 2, "Image": "img/trainers/prism/sora.png" },
+                    //{ "Group": "Elite Four", "Name": "Daichi", "Time": "", "Attempts": 2, "Image": "img/trainers/prism/daichi.png" },
                 ]
             }
         ]
