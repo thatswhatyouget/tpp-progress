@@ -4700,7 +4700,7 @@ var tppData: TPP.Collection[] = [
                 Scraper: {
                     url: "http://twitchplayspokemon.org/",
                     runtime: true,
-                    parts: ["Badge"/*, "Elite Four"*/],
+                    parts: ["Badge", "Elite Four"],
                     pokemon: true
                 },
                 Region: "Naljo",
@@ -4775,6 +4775,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Badges", "Name": "Muscle Badge", "Time": "2016-10-14T14:34:00.000Z", "Attempts": 2, "Image": "img/badges/muscle.png" },
                     { "Group": "Badges", "Name": "Haze Badge", "Time": "2016-10-15T16:47:00.000Z", "Attempts": 3, "Image": "img/badges/haze.png" },
                     { "Group": "Badges", "Name": "Raucous Badge", "Time": "2016-10-17T00:30:00.000Z", "Attempts": 1, "Image": "img/badges/raucous.png" },
+                    { "Group": "Badges", "Name": "Naljo Badge", "Time": "2016-10-18T03:10:00.000Z", "Attempts": 1, "Image": "img/badges/naljo.png" }
                 ]
             }
         ]
