@@ -4786,9 +4786,9 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Ponyta", "Time": "8d12h35m" },
                     { "Group": "Pokemon", "Name": "Machoke", "Time": "8d12h38m" },
                     { "Group": "Elite Four", "Name": "Yuki", "Time": "8d 16h 23m", "Attempts": 2, "Image": "img/trainers/prism/yuki.png" },
-                    { "Group": "Elite Four", "Name": "Sora", "Time": "8d 17h 14m", "Attempts": 2, "Image": "img/trainers/prism/sora.png" },
-                    { "Group": "Elite Four", "Name": "Daichi", "Time": "8d 19h 59m", "Attempts": 3, "Image": "img/trainers/prism/daichi.png" },
-                    //{ "Group": "Elite Four", "Name": "Mura", "Time": "", "Attempts": 1, "Image": "img/trainers/prism/mura.png" },
+                    { "Group": "Elite Four", "Name": "Sora", "Time": "8d 17h 14m", "Attempts": 3, "Image": "img/trainers/prism/sora.png" },
+                    { "Group": "Elite Four", "Name": "Daichi", "Time": "8d 19h 59m", "Attempts": 4, "Image": "img/trainers/prism/daichi.png" },
+                    //{ "Group": "Elite Four", "Name": "Mura", "Time": "", "Attempts": 2, "Image": "img/trainers/prism/mura.png" },
                 ]
             }
         ]
