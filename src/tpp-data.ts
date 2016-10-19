@@ -4790,7 +4790,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Elite Four", "Name": "Sora", "Time": "8d 17h 14m", "Attempts": 3, "Image": "img/trainers/prism/sora.png" },
                     { "Group": "Elite Four", "Name": "Daichi", "Time": "8d 19h 59m", "Attempts": 4, "Image": "img/trainers/prism/daichi.png" },
                     { "Group": "Elite Four", "Name": "Mura", "Time": "9d 1h 3m", "Attempts": 5, "Image": "img/trainers/prism/mura.png" },
-                    { "Group": "Champion", "Name": "Lance", "Time": "9d 11h 19m", "Attempts": 9, "Image": "img/trainers/prism/lance.png" },
+                    { "Group": "Champions", "Name": "Lance", "Time": "9d 11h 19m", "Attempts": 9, "Image": "img/trainers/prism/lance.png" },
                     // { "Group": "Badges", "Name": "Marine Badge", "Image": "img/badges/marine.png",  "Time": "", "Attempts": 0 },
                     // { "Group": "Badges", "Name": "Hail Badge", "Image": "img/badges/hail.png", "Time": "", "Attempts": 0 },
                     { "Group": "Badges", "Name": "Sparky Badge", "Image": "img/badges/sparky.png", "Time": "9d 17h 8m", "Attempts": 1 },
