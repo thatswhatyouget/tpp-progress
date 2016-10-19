@@ -4794,12 +4794,17 @@ var tppData: TPP.Collection[] = [
                     // { "Group": "Badges", "Name": "Marine Badge", "Image": "img/badges/marine.png",  "Time": "", "Attempts": 0 },
                     // { "Group": "Badges", "Name": "Hail Badge", "Image": "img/badges/hail.png", "Time": "", "Attempts": 0 },
                     // { "Group": "Badges", "Name": "Sparky Badge", "Image": "img/badges/sparky.png", "Time": "", "Attempts": 0 },
-                    // { "Group": "Badges", "Name": "Sprout Badge", "Image": "img/badges/sprout.png", "Time": "", "Attempts": 0 },
-                    { "Group": "Badges", "Name": "Fist Badge", "Image": "img/badges/fist.png",  "Time": "9d12h40m", "Attempts": 1 },
+                    { "Group": "Badges", "Name": "Sprout Badge", "Image": "img/badges/sprout.png", "Time": "9d 14h 59m", "Attempts": 1 },
+                    { "Group": "Badges", "Name": "Fist Badge", "Image": "img/badges/fist.png", "Time": "9d12h40m", "Attempts": 1 },
                     // { "Group": "Badges", "Name": "Psi Badge", "Image": "img/badges/psi.png","Time": "", "Attempts": 0 },
                     // { "Group": "Badges", "Name": "White Badge", "Image": "img/badges/white.png", "Time": "", "Attempts": 0 },
                     // { "Group": "Badges", "Name": "Star Badge", "Image": "img/badges/star.png", "Time": "", "Attempts": 0 },
-
+                    { "Group": "Pokemon", "Name": "Venomoth", "Time": "9d 13h 42m" },
+                    { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "9d 13h 59m" },
+                    { "Group": "Pokemon", "Name": "Abra", "Time": "9d 15h 7m" },
+                    { "Group": "Pokemon", "Name": "Magnemite", "Time": "9d 15h 16m" },
+                    { "Group": "Pokemon", "Name": "Manectric", "Time": "9d 15h 22m" },
+                    { "Group": "Pokemon", "Name": "Raichu", "Time": "9d 16h" },
                 ]
             }
         ]

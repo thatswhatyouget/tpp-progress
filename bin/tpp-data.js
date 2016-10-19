@@ -4720,7 +4720,14 @@ var tppData = [
                     { "Group": "Elite Four", "Name": "Daichi", "Time": "8d 19h 59m", "Attempts": 4, "Image": "img/trainers/prism/daichi.png" },
                     { "Group": "Elite Four", "Name": "Mura", "Time": "9d 1h 3m", "Attempts": 5, "Image": "img/trainers/prism/mura.png" },
                     { "Group": "Elite Four", "Name": "Lance", "Time": "9d 11h 19m", "Attempts": 9, "Image": "img/trainers/prism/lance.png" },
+                    { "Group": "Badges", "Name": "Sprout Badge", "Image": "img/badges/sprout.png", "Time": "9d 14h 59m", "Attempts": 1 },
                     { "Group": "Badges", "Name": "Fist Badge", "Image": "img/badges/fist.png", "Time": "9d12h40m", "Attempts": 1 },
+                    { "Group": "Pokemon", "Name": "Venomoth", "Time": "9d 13h 42m" },
+                    { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "9d 13h 59m" },
+                    { "Group": "Pokemon", "Name": "Abra", "Time": "9d 15h 7m" },
+                    { "Group": "Pokemon", "Name": "Magnemite", "Time": "9d 15h 16m" },
+                    { "Group": "Pokemon", "Name": "Manectric", "Time": "9d 15h 22m" },
+                    { "Group": "Pokemon", "Name": "Raichu", "Time": "9d 16h" },
                 ]
             }
         ]
