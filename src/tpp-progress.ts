@@ -241,6 +241,8 @@ function applyScale(ppd?: number) {
 }
 
 function scaleRun(run: HTMLElement, ppd?: number) {
+    if ($(run).is('.hidden')) return;
+    $(run).parents('.hidden').removeClass('hidden');
     ppd = ppd || globalPpd;
     var scale = TPP.Scale[run.parentElement.getAttribute('data-scale')] || TPP.Scale[run.parentElement.parentElement.getAttribute('data-scale')] || 0;
     var durationAttribute = settings["postgame"] ? "data-endtime" : "data-duration",

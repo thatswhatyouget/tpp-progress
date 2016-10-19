@@ -4704,7 +4704,8 @@ var tppData: TPP.Collection[] = [
                     pokemon: true
                 },
                 Region: "Naljo",
-                //EliteFourStart: "8d16h16m",
+                AdditionalRegions: [{ Name: "Rijon", Time: "9d 12h 12m" }],
+                EliteFourStartTime: "8d16h16m",
                 Events: [
                     { "Group": "Pokemon", "Name": "Butterfree", "Time": "2d4h57m" },
                     { "Group": "Pokemon", "Name": "Eevee", "Time": "2016-10-17T19:18:00.000Z" },
@@ -4788,7 +4789,8 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Elite Four", "Name": "Yuki", "Time": "8d 16h 23m", "Attempts": 2, "Image": "img/trainers/prism/yuki.png" },
                     { "Group": "Elite Four", "Name": "Sora", "Time": "8d 17h 14m", "Attempts": 3, "Image": "img/trainers/prism/sora.png" },
                     { "Group": "Elite Four", "Name": "Daichi", "Time": "8d 19h 59m", "Attempts": 4, "Image": "img/trainers/prism/daichi.png" },
-                    //{ "Group": "Elite Four", "Name": "Mura", "Time": "", "Attempts": 2, "Image": "img/trainers/prism/mura.png" },
+                    { "Group": "Elite Four", "Name": "Mura", "Time": "9d 1h 3m", "Attempts": 5, "Image": "img/trainers/prism/mura.png" },
+                    { "Group": "Elite Four", "Name": "Lance", "Time": "9d 11h 19m", "Attempts": 9, "Image": "img/trainers/prism/lance.png" },
                 ]
             }
         ]

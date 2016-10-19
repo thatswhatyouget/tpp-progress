@@ -239,6 +239,9 @@ function applyScale(ppd) {
     fakeQuery(".progressChart > .run").forEach(function (run) { return scaleRun(run, ppd); });
 }
 function scaleRun(run, ppd) {
+    if ($(run).is('.hidden'))
+        return;
+    $(run).parents('.hidden').removeClass('hidden');
     ppd = ppd || globalPpd;
     var scale = TPP.Scale[run.parentElement.getAttribute('data-scale')] || TPP.Scale[run.parentElement.parentElement.getAttribute('data-scale')] || 0;
     var durationAttribute = settings["postgame"] ? "data-endtime" : "data-duration", duration = Duration.parse(run.getAttribute(durationAttribute));
