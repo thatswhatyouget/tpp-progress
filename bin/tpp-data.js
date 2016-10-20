@@ -4724,6 +4724,7 @@ var tppData = [
                     { "Group": "Badges", "Name": "Sparky Badge", "Image": "img/badges/sparky.png", "Time": "9d 17h 8m", "Attempts": 1 },
                     { "Group": "Badges", "Name": "Sprout Badge", "Image": "img/badges/sprout.png", "Time": "9d 14h 59m", "Attempts": 1 },
                     { "Group": "Badges", "Name": "Fist Badge", "Image": "img/badges/fist.png", "Time": "9d12h40m", "Attempts": 1 },
+                    { "Group": "Badges", "Name": "Psi Badge", "Image": "img/badges/psi.png", "Time": "10d 17h", "Attempts": 1 },
                     { "Group": "Pokemon", "Name": "Venomoth", "Time": "9d 13h 42m" },
                     { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "9d 13h 59m" },
                     { "Group": "Pokemon", "Name": "Abra", "Time": "9d 15h 7m" },

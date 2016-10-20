@@ -4796,7 +4796,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Badges", "Name": "Sparky Badge", "Image": "img/badges/sparky.png", "Time": "9d 17h 8m", "Attempts": 1 },
                     { "Group": "Badges", "Name": "Sprout Badge", "Image": "img/badges/sprout.png", "Time": "9d 14h 59m", "Attempts": 1 },
                     { "Group": "Badges", "Name": "Fist Badge", "Image": "img/badges/fist.png", "Time": "9d12h40m", "Attempts": 1 },
-                    // { "Group": "Badges", "Name": "Psi Badge", "Image": "img/badges/psi.png","Time": "", "Attempts": 0 },
+                    { "Group": "Badges", "Name": "Psi Badge", "Image": "img/badges/psi.png","Time": "10d 17h", "Attempts": 1 },
                     // { "Group": "Badges", "Name": "White Badge", "Image": "img/badges/white.png", "Time": "", "Attempts": 0 },
                     // { "Group": "Badges", "Name": "Star Badge", "Image": "img/badges/star.png", "Time": "", "Attempts": 0 },
                     { "Group": "Pokemon", "Name": "Venomoth", "Time": "9d 13h 42m" },
