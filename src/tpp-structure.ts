@@ -74,6 +74,14 @@ module TPP {
         Minutes
     }
 
+    export interface HallOfFame extends Event {
+        Party: {
+            Pokemon: string;
+            Level: number;
+            Nickname?: string;
+        }[]
+    }
+
     export module Org {
         export module V1 {
             export interface General {
