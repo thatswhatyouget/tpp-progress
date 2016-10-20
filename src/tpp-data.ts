@@ -4688,7 +4688,7 @@ var tppData: TPP.Collection[] = [
                 ColorSecondary: "#5ac792",
                 ColorPrimary: "#32CD32",
                 StartDate: "2016-10-09T21:00:00Z",
-                Duration: "255d",
+                Duration: new Date().toISOString(),
                 BackgroundImage: "linear-gradient(to bottom, #f99 0%, #ff9 26%, #9f9 42%,#9ff 58%,#99f 74%,#f9f 90%)",
                 Ongoing: true,
                 HostName: "Cyan",
@@ -4699,8 +4699,8 @@ var tppData: TPP.Collection[] = [
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Scraper: {
                     url: "http://twitchplayspokemon.org/",
-                    runtime: true,
-                    parts: ["Badge"/*, "Elite Four"*/],
+                    //runtime: true,
+                    parts: [/*"Badge", "Elite Four"*/],
                     pokemon: true
                 },
                 Region: "Naljo",
