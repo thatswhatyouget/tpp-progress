@@ -214,8 +214,12 @@ class Duration {
 var QueryString = (() => {
     var retobj: { [key: string]: string } = {}
     window.location.search.substring(1).split("&").forEach(vars => {
-        var pair = vars.split("=");
-        retobj[pair.shift()] = decodeURI(pair.join('='));
+        if (vars.indexOf("=") > 0) {
+            var pair = vars.split("=");
+            retobj[pair.shift()] = decodeURI(pair.join('='));
+        }
+        else
+            retobj[vars] = "true";
     });
     return retobj;
 })();

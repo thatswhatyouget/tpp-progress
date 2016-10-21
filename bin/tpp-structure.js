@@ -111,8 +111,12 @@ var Duration = (function () {
 var QueryString = (function () {
     var retobj = {};
     window.location.search.substring(1).split("&").forEach(function (vars) {
-        var pair = vars.split("=");
-        retobj[pair.shift()] = decodeURI(pair.join('='));
+        if (vars.indexOf("=") > 0) {
+            var pair = vars.split("=");
+            retobj[pair.shift()] = decodeURI(pair.join('='));
+        }
+        else
+            retobj[vars] = "true";
     });
     return retobj;
 })();

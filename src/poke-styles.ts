@@ -61,7 +61,7 @@ document.write("<style>");
 robopon.forEach((p, i) => document.write(".robopon .pokemon.pokesprite." + p.replace(/[^A-Z0-9]/ig, '').toLowerCase() + " img { background-position: -" + roboxPos(i) + "px -" + roboyPos(i) + "px!important; }\n"));
 document.write("</style>");
 
-var fakemon = ["Unidentified", "Raiwato", "Varanieus"];
+var fakemon = ["Unidentified", "Raiwato", "Varanieus", "Prizmeon"];
 
 document.write("<style>");
 fakemon.forEach(f => {
