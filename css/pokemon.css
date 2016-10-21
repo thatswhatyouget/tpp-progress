@@ -1616,5 +1616,6 @@
 .robopon .pokemon.pokesprite.saucer img { background-position: -760px -1040px!important; }
 .robopon .pokemon.pokesprite.volco img { background-position: -831px -1040px!important; }
 
-.pokesprite.raiwato img  { background-image:url("img/fakemon/raiwato.png")!important; } 
-.pokesprite.varanieus img  { background-image:url("img/fakemon/varanieus.png")!important; } 
+.pokesprite.unidentified img  { background-image:url("../img/fakemon/unidentified.png")!important; } 
+.pokesprite.raiwato img  { background-image:url("../img/fakemon/raiwato.png")!important; } 
+.pokesprite.varanieus img  { background-image:url("../img/fakemon/varanieus.png")!important; } 

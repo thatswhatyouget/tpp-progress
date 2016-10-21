@@ -49,7 +49,7 @@ var roboyPos = function (i) { return Math.floor((i % 84) / 6) * 80; };
 document.write("<style>");
 robopon.forEach(function (p, i) { return document.write(".robopon .pokemon.pokesprite." + p.replace(/[^A-Z0-9]/ig, '').toLowerCase() + " img { background-position: -" + roboxPos(i) + "px -" + roboyPos(i) + "px!important; }\n"); });
 document.write("</style>");
-var fakemon = ["Raiwato", "Varanieus"];
+var fakemon = ["Unidentified", "Raiwato", "Varanieus"];
 document.write("<style>");
 fakemon.forEach(function (f) {
     var clean = f.replace(/[^A-Z0-9]/ig, '').toLowerCase();
