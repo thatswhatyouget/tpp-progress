@@ -4810,7 +4810,6 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Growlithe", "Time": "10d 20h 13m" },
                     { "Group": "Pokemon", "Name": "Banette", "Time": "11d 2h 30m" },
                     { "Group": "Pokemon", "Name": "Spiritomb", "Time": "11d 2h 44m" },
-
                 ]
             }
         ]
@@ -5142,8 +5141,8 @@ var tppData: TPP.Collection[] = [
                     },
                     {
                         Group: "Bosses",
-                        Name: "Mankies",
-                        Time: "-1d",
+                        Name: "Mankey Gang",
+                        Time: "2016-10-20T11:04:58Z",
                         Class: "pokesprite Mankey"
                     },
                     {

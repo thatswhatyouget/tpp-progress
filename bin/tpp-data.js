@@ -5067,8 +5067,8 @@ var tppData = [
                     },
                     {
                         Group: "Bosses",
-                        Name: "Mankies",
-                        Time: "-1d",
+                        Name: "Mankey Gang",
+                        Time: "2016-10-20T11:04:58Z",
                         Class: "pokesprite Mankey"
                     },
                     {
