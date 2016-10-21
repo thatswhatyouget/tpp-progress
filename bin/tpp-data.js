@@ -2258,16 +2258,8 @@ var tppData = [
                         Time: "39d 19h 17m",
                         Attempts: 4
                     },
-                    {
-                        "Name": "Charmander",
-                        "Time": "0d 0h 4m",
-                        "Group": "Pokemon"
-                    },
-                    {
-                        "Name": "Kakuna",
-                        "Time": "0d 2h 33m",
-                        "Group": "Pokemon"
-                    },
+                    { "Name": "Charmander", "Time": "0d 0h 4m", "Group": "Pokemon" },
+                    { "Name": "Kakuna", "Time": "0d 2h 33m", "Group": "Pokemon" },
                     {
                         "Name": "Charmeleon",
                         "Time": "0d 8h 47m",
