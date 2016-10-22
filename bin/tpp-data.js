@@ -4746,6 +4746,7 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Ditto", "Time": "12d 11h 8m" },
                     { "Group": "Badges", "Name": "Marsh Badge", "Image": "img/badges/marsh.png", "Time": "12d 12h 3m", "Attempts": 1 },
                     { "Group": "Pokemon", "Name": "Milotic", "Time": "12d 14h 38m" },
+                    { "Group": "Badges", "Name": "Blaze Badge", "Image": "img/badges/blaze.png", "Time": "12d 18h 41m", "Attempts": 1 },
                 ]
             }
         ]
