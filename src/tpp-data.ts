@@ -4817,6 +4817,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Jigglypuff", "Time": "12d 10h 48m" },
                     { "Group": "Pokemon", "Name": "Ditto", "Time": "12d 11h 8m" },
                     { "Group": "Badges", "Name": "Marsh Badge", "Image": "img/badges/marsh.png", "Time": "12d 12h 3m", "Attempts": 1 },
+                    { "Group": "Pokemon", "Name": "Milotic", "Time": "12d 14h 38m" },
                 ]
             }
         ]
