@@ -4618,11 +4618,6 @@ var tppData = [
                 HostImage: "img/hosts/cyan.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/56y6bj/cyan_cyanchan/",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
-                Scraper: {
-                    url: "http://twitchplayspokemon.org/",
-                    parts: [],
-                    pokemon: true
-                },
                 Region: "Naljo",
                 AdditionalRegions: [{ Name: "Rijon", Time: "9d 12h 12m" }],
                 EliteFourStartTime: "8d16h16m",
@@ -4711,7 +4706,7 @@ var tppData = [
                     { "Group": "Elite Four", "Name": "Daichi", "Time": "8d 19h 59m", "Attempts": 4, "Image": "img/trainers/prism/daichi.png" },
                     { "Group": "Elite Four", "Name": "Mura", "Time": "9d 1h 3m", "Attempts": 5, "Image": "img/trainers/prism/mura.png" },
                     { "Group": "Champions", "Name": "Lance", "Time": "9d 11h 19m", "Attempts": 9, "Image": "img/trainers/prism/lance.png" },
-                    { "Group": "Badges", "Name": "Marine Badge", "Image": "img/badges/marine.png", "Time": "10d 12h 57m", "Attempts": 1 },
+                    { "Group": "Badges", "Name": "Marine Badge", "Image": "img/badges/marine.png", "Time": "10d 12h 57m", "Attempts": 2 },
                     { "Group": "Badges", "Name": "Hail Badge", "Image": "img/badges/hail.png", "Time": "10d 8h 39m", "Attempts": 1 },
                     { "Group": "Badges", "Name": "Sparky Badge", "Image": "img/badges/sparky.png", "Time": "9d 17h 8m", "Attempts": 1 },
                     { "Group": "Badges", "Name": "Sprout Badge", "Image": "img/badges/sprout.png", "Time": "9d 14h 59m", "Attempts": 1 },
@@ -4754,6 +4749,7 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Makuhita", "Time": "13d 7h 29m" },
                     { "Group": "Pokemon", "Name": "Libabeel", "Time": "13d 8h 45m" },
                     { "Group": "Pokemon", "Name": "Phancero", "Time": "13d 16h 8m" },
+                    { "Group": "Pokemon", "Name": "Wailmer", "Time": "13d 21h 40m" },
                 ]
             }
         ]
