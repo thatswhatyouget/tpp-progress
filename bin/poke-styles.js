@@ -58,5 +58,5 @@ fakemon.forEach(function (f) {
     document.write(" { background-image:url(\"img/fakemon/" + clean + ".png\")!important; } \n");
 });
 document.write(fakemon.map(function (f) { return ".event.pokemon.pokesprite." + dexClean(f) + " img"; }).join(",\n"));
-document.write("\n{ background-size: 60%!important; background-position: center!important; }");
+document.write("\n{ background-size: 50%!important; background-position: center!important; }");
 document.write("</style>");
