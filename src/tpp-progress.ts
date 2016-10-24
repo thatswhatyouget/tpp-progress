@@ -40,6 +40,15 @@ function makeGrid(ppd: number) {
 }
 
 function createCharts(data: TPP.Collection[]) {
+    if (QueryString["only"]) {
+        data = data.filter(c => QueryString["only"].split(',').filter(f => c.Name.indexOf(f.trim()) >= 0).length > 0);
+    }
+    if (QueryString["run"]) {
+        data = data.map(c => {
+            c.Runs = c.Runs.filter(r => QueryString["run"].split(',').filter(f => r.RunName.indexOf(f.trim()) >= 0).length > 0);
+            return c;
+        }).filter(c => c.Runs.length > 0);
+    }
     pageData = data.filter(c => c.Runs.filter(r => r.StartTime < Date.now() / 1000).length > 0);
     pageData.forEach(createChart)
     setTimeout(() => updatePage(), 1);

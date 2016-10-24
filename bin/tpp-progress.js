@@ -30,6 +30,15 @@ function makeGrid(ppd) {
     return bgImageSrc.toDataURL();
 }
 function createCharts(data) {
+    if (QueryString["only"]) {
+        data = data.filter(function (c) { return QueryString["only"].split(',').filter(function (f) { return c.Name.indexOf(f.trim()) >= 0; }).length > 0; });
+    }
+    if (QueryString["run"]) {
+        data = data.map(function (c) {
+            c.Runs = c.Runs.filter(function (r) { return QueryString["run"].split(',').filter(function (f) { return r.RunName.indexOf(f.trim()) >= 0; }).length > 0; });
+            return c;
+        }).filter(function (c) { return c.Runs.length > 0; });
+    }
     pageData = data.filter(function (c) { return c.Runs.filter(function (r) { return r.StartTime < Date.now() / 1000; }).length > 0; });
     pageData.forEach(createChart);
     setTimeout(function () { return updatePage(); }, 1);
