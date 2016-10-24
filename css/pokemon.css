@@ -1622,11 +1622,13 @@
 .pokesprite.phancero:hover img  { background-image:url("../img/fakemon/phancero-hover.png")!important; } 
 .pokesprite.raiwato img  { background-image:url("../img/fakemon/raiwato.png")!important; } 
 .pokesprite.varanieus img  { background-image:url("../img/fakemon/varanieus.png")!important; }
+.pokesprite.fambaco img  { background-image:url("../img/fakemon/fambaco.png")!important; }  
 .pokesprite.libabeel img  { background-image:url("../img/fakemon/libabeel.png")!important; }  
 .event.pokemon.pokesprite.unidentified img,
 .event.pokemon.pokesprite.prizmeon img,
 .event.pokemon.pokesprite.phancero img,
 .event.pokemon.pokesprite.raiwato img,
 .event.pokemon.pokesprite.varanieus img,
+.event.pokemon.pokesprite.fambaco img,
 .event.pokemon.pokesprite.libabeel img
 { background-size: 50%!important; background-position: center!important; }
