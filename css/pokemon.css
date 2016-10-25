@@ -1620,8 +1620,8 @@
 .pokesprite.prizmeon img  { background-image:url("../img/fakemon/prizmeon.png")!important; } 
 .pokesprite.phancero img  { background-image:url("../img/fakemon/phancero.png")!important; } 
 .pokesprite.phancero:hover img  { background-image:url("../img/fakemon/phancero-hover.png")!important; } 
-.pokesprite.raiwato img  { background-image:url("../img/fakemon/raiwato.png")!important; } 
-.pokesprite.varanieus img  { background-image:url("../img/fakemon/varanieus.png")!important; }
+/*.pokesprite.raiwato img  { background-image:url("../img/fakemon/raiwato.png")!important; } 
+.pokesprite.varanieus img  { background-image:url("../img/fakemon/varanieus.png")!important; }*/
 .pokesprite.fambaco img  { background-image:url("../img/fakemon/fambaco.png")!important; }  
 .pokesprite.libabeel img  { background-image:url("../img/fakemon/libabeel.png")!important; }  
 .event.pokemon.pokesprite.unidentified img,
