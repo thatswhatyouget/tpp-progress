@@ -4766,6 +4766,7 @@ var tppData = [
                     { "Group": "Elite Four", "Name": "Yuki", "Time": "16d 3h 29m", "Attempts": 1, "Image": "img/trainers/prism/rematch/yuki.png" },
                     { "Group": "Elite Four", "Name": "Sora", "Time": "16d 3h 41m", "Attempts": 1, "Image": "img/trainers/prism/rematch/sora.png" },
                     { "Group": "Elite Four", "Name": "Daichi", "Time": "16d 3h 46m", "Attempts": 1, "Image": "img/trainers/prism/rematch/daichi.png" },
+                    { "Group": "Elite Four", "Name": "Mura", "Time": "16d 6h 21m", "Attempts": 3, "Image": "img/trainers/prism/rematch/mura.png" },
                 ]
             }
         ]
