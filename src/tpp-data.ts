@@ -4844,7 +4844,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Elite Four", "Name": "Sora", "Time": "16d 3h 41m", "Attempts": 1, "Image": "img/trainers/prism/rematch/sora.png" },
                     { "Group": "Elite Four", "Name": "Daichi", "Time": "16d 3h 46m", "Attempts": 1, "Image": "img/trainers/prism/rematch/daichi.png" },
                     { "Group": "Elite Four", "Name": "Mura", "Time": "16d 6h 21m", "Attempts": 3, "Image": "img/trainers/prism/rematch/mura.png" },
-                    // { "Group": "Champions", "Name": "Lance", "Time": "", "Attempts": 0, "Image": "img/trainers/prism/rematch/lance.png" },
+                    { "Group": "Champions", "Name": "Lance", "Time": "16d 9h 32m", "Attempts": 4, "Image": "img/trainers/prism/rematch/lance.png" },
                 ]
             }
         ]
