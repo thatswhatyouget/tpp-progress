@@ -4682,7 +4682,6 @@ var tppData: TPP.Collection[] = [
                 StartDate: "2016-10-09T21:00:00Z",
                 Duration: "16d23h18m",
                 BackgroundImage: "linear-gradient(to bottom, #f99 0%, #ff9 26%, #9f9 42%,#9ff 58%,#99f 74%,#f9f 90%)",
-                Ongoing: true,
                 HostName: "Cyan",
                 HostImage: "img/hosts/cyan.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/56y6bj/cyan_cyanchan/",
