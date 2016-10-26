@@ -4849,7 +4849,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Glalie", "Time": "16d 18h 34m" },
                     { "Group": "Elite Four", "Image": "img/hosts/paul.png", "Name": "Brown", "Time": "16d 22h 13m", "Attempts": 1 },
                     { "Group": "Elite Four", "Image": "img/hosts/ajdnnw.png", "Name": "Gold", "Time": "16d 22h 21m", "Attempts": 1 },
-                    //{ "Group": "Champion", "Image": "img/hosts/red.png", "Name": "Red", "Time": "16d 22h 21m", "Attempts": 1 },
+                    { "Group": "Champion", "Image": "img/hosts/red.png", "Name": "Red", "Time": "16d 22h 27m", "Attempts": 1 },
                 ]
             }
         ]
