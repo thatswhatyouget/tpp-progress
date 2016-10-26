@@ -4769,6 +4769,7 @@ var tppData = [
                     { "Group": "Elite Four", "Name": "Mura", "Time": "16d 6h 21m", "Attempts": 3, "Image": "img/trainers/prism/rematch/mura.png" },
                     { "Group": "Champions", "Name": "Lance", "Time": "16d 9h 32m", "Attempts": 4, "Image": "img/trainers/prism/rematch/lance.png" },
                     { "Group": "Pokemon", "Name": "Skorupi", "Time": "16d 17h 35m" },
+                    { "Group": "Pokemon", "Name": "Glalie", "Time": "16d 18h 34m" },
                 ]
             }
         ]
