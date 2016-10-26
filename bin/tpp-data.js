@@ -4611,7 +4611,7 @@ var tppData = [
                 ColorSecondary: "#5ac792",
                 ColorPrimary: "#32CD32",
                 StartDate: "2016-10-09T21:00:00Z",
-                Duration: new Date().toISOString(),
+                Duration: "16d23h",
                 BackgroundImage: "linear-gradient(to bottom, #f99 0%, #ff9 26%, #9f9 42%,#9ff 58%,#99f 74%,#f9f 90%)",
                 Ongoing: true,
                 HostName: "Cyan",
@@ -4772,7 +4772,7 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Glalie", "Time": "16d 18h 34m" },
                     { "Group": "Elite Four", "Image": "img/hosts/paul.png", "Name": "Brown", "Time": "16d 22h 13m", "Attempts": 1 },
                     { "Group": "Elite Four", "Image": "img/hosts/ajdnnw.png", "Name": "Gold", "Time": "16d 22h 21m", "Attempts": 1 },
-                    { "Group": "Champion", "Image": "img/hosts/red.png", "Name": "Red", "Time": "16d 22h 27m", "Attempts": 1 },
+                    { "Group": "Champions", "Image": "img/hosts/red.png", "Name": "Red", "Time": "16d 22h 27m", "Attempts": 1 },
                 ]
             }
         ]
