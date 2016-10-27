@@ -28,13 +28,14 @@
 			background-color: transparent;
 			border: 1px solid black;
 			padding: 10px;
-			min-width: 100px;
+			width: 100px;
 			/*text-shadow: 0 0 4px white;*/
 		}
 		
 		.dexEntry > * {
 			margin: auto;
 		}
+		
 		
 		.dexEntry:not(.owned) {
 			-webkit-filter: grayscale(100%);
@@ -46,6 +47,13 @@
 			background-color: lightgray;
 		}
 		
+		.dexEntry h4 {
+			width: 100%;
+			overflow-x: hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+		}
+
 		.dexEntry .pokesprite {
 			display: inline-block;
 			font-size: 64px;
@@ -66,6 +74,14 @@
 		.dexEntry .pokesprite.missingno img {
 			height: 100%;
 		}
+		
+		.telefang .dexEntry .pokesprite:not(.missingno) img {
+			background-image: url("img/telefang/denjuu-large.gif");
+		}
+		
+		.touhoumon .dexEntry .pokesprite:not(.missingno) img {
+			background-image: url("img/touhoumon_small.png");
+		}
 	</style>
 </head>
 
@@ -78,7 +94,7 @@
 		</div>
 	</div>
 	<div class="title">
-		<strong><span id="dexName">National</span> Pokédex</strong>
+		<strong id="dexName">National Pokédex</strong>
 		<div class="credits">
 			<span class="doItLive">Most</span> catch data provided by <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
 		</div>
