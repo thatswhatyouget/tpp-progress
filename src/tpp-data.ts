@@ -4373,6 +4373,28 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Elite Four", "Name": "Drake", "Time": "2016-06-26T00:53:00.000Z", "Attempts": 3, "Image": "img/trainers/brown/drake.png" },
                     { "Group": "Champions", "Name": "Mura", "Time": "2016-06-26T05:01:00.000Z", "Attempts": 2, "Image": "img/trainers/brown/mura.png" },
                     { "Group": "Champions", "Name": "Pallet Patrol", "Time": "10d 8h 30m", "Attempts": 2, "Image": "img/trainers/brown/palletpatrol.png" },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 8h 3m", Attempts: 12, Party: [
+                            { Pokemon: "Golduck", Nickname: "AAAAAAAAFF", Level: 56 },
+                            { Pokemon: "Sylveon", Nickname: "BBbkkkkk", Level: 55 },
+                            { Pokemon: "Golem", Nickname: "AJJJJJJaaa", Level: 50 },
+                            { Pokemon: "Beedrill", Nickname: "[[........", Level: 44 },
+                            { Pokemon: "Venusaur", Nickname: "----------", Level: 51 },
+                            { Pokemon: "Golbat", Nickname: "-πππππππ) (", Level: 75 },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d 22h 35m", Attempts: 3, Party: [
+                            { Pokemon: "Dugtrio", Nickname: "BKKTTTTTTT", Level: 57 },
+                            { Pokemon: "Sylveon", Nickname: "BBbkkkkk", Level: 62 },
+                            { Pokemon: "Golduck", Nickname: "AAAAAAAAFF", Level: 66 },
+                            { Pokemon: "Venusaur", Nickname: "----------", Level: 57 },
+                            { Pokemon: "Golbat", Nickname: "-πππππππ) (", Level: 86 },
+                            { Pokemon: "Golem", Nickname: "AJJJJJJaaa", Level: 60 },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                     { "Group": "Pokemon", "Name": "Dugtrio", "Time": "2016-06-27T04:20:00.000Z" },
                     { "Group": "Pokemon", "Name": "Nidorino", "Time": "2016-06-25T12:43:00.000Z" },
                     { "Group": "Pokemon", "Name": "Ariados", "Time": "2016-06-27T04:32:00.000Z" },
@@ -4587,6 +4609,17 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Gardevoir", "Time": "11d 9h 43m" },
                     { "Group": "Pokemon", "Name": "Flaaffy", "Time": "11d 9h 49m" },
                     { Group: "Champions", Name: "Jasmine", Image: "img/trainers/platinum/cynthia.png", Time: "11d 15h 27m", Attempts: 6 },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "11d 15h 30m", Attempts: 24, IDNo: "02503", Party: [
+                            { Nickname: "h   ☹7PL4", Pokemon: "Pachirisu", Gender: "Female", Level: 73, Met: "Route 214" },
+                            { Nickname: "GHHdg c''-", Pokemon: "Magnezone", Level: 51, Met: "Iron Island" },
+                            { Nickname: "E", Pokemon: "Quagsire", Gender: "Female", Level: 64, Met: "Great Marsh" },
+                            { Nickname: "A", Pokemon: "Donphan", Gender: "Female", Level: 76, Met: "Acuity Lakefront" },
+                            { Nickname: "R♀", Pokemon: "Sandslash", Gender: "Male", Level: 64, Met: "Hearthome City" },
+                            { Nickname: "AAAK", Pokemon: "Ponyta", Gender: "Male", Level: 73, Met: "Route 210" },
+                        ],
+                        Image: "img/ribbons/champion-sinnoh.png"
+                    },
                     { "Group": "Pokemon", "Name": "Kingler", "Time": "11d 17h 26m" },
                     { "Group": "Pokemon", "Name": "Lumineon", "Time": "11d 20h 16m" },
                     { "Group": "Pokemon", "Name": "Murkrow", "Time": "11d 20h 29m" },
@@ -4661,6 +4694,17 @@ var tppData: TPP.Collection[] = [
                     { Group: "Elite Four Rematch", Name: "Tristian", Image: "img/trainers/platinum/rematch/flint.png", Time: "14d 7h 13m", Attempts: 8 },
                     { Group: "Elite Four Rematch", Name: "Mallorie", Image: "img/trainers/platinum/rematch/lucian.png", Time: "14d 7h 20m", Attempts: 1 },
                     { Group: "Champions", Name: "Jasmine", Image: "img/trainers/platinum/rematch/cynthia.png", Time: "14d 7h 27m", Attempts: 1 },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "14d 7h 29m", Attempts: 0, IDNo: "02503", Party: [
+                            { Nickname: "h   ☹7PL4", Pokemon: "Pachirisu", Gender: "Female", Level: 77, Met: "Route 214" },
+                            { Nickname: "E", Pokemon: "Quagsire", Gender: "Female", Level: 74, Met: "Great Marsh" },
+                            { Nickname: "AAAK", Pokemon: "Kingler", Gender: "Male", Level: 79, Met: "Route 210" },
+                            { Nickname: "A", Pokemon: "Donphan", Gender: "Female", Level: 81, Met: "Acuity Lakefront" },
+                            { Nickname: "R♀", Pokemon: "Sandslash", Gender: "Male", Level: 72, Met: "Hearthome City" },
+                            { Nickname: "ll♠♠♠△", Pokemon: "Plusle", Shiny: true, Level: 78, Met: "Victory Road" },
+                        ],
+                        Image: "img/ribbons/champion-sinnoh.png"
+                    },
                     { Group: "Rematch Badges", Name: "Stinger (Cobble) Badge", Image: "img/randomized/platinum/rematch/stinger.png", Time: "14d 9h 18m", Attempts: 1, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4wd8ko/randomized_gym_badges_cobble_badge_stinger_badge/" },
                     { "Group": "Pokemon", "Name": "Totodile", "Time": "14d 13h 36m" },
                     { "Group": "Pokemon", "Name": "Beautifly", "Time": "14d 14h 14m" },
@@ -4782,6 +4826,17 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Elite Four", "Name": "Daichi", "Time": "8d 19h 59m", "Attempts": 4, "Image": "img/trainers/prism/daichi.png" },
                     { "Group": "Elite Four", "Name": "Mura", "Time": "9d 1h 3m", "Attempts": 5, "Image": "img/trainers/prism/mura.png" },
                     { "Group": "Champions", "Name": "Lance", "Time": "9d 11h 19m", "Attempts": 9, "Image": "img/trainers/prism/lance.png" },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 11h 20m", Attempts: 36, IdNo: "59484", Party: [
+                            { Number: 38, Pokemon: "Ninetales", Gender: "Female", Nickname: "FFFEEEF", Level: 83 },
+                            { Number: 24, Pokemon: "Lopunny", Gender: "Male", Nickname: "EEEE", Level: 59 },
+                            { Number: 181, Pokemon: "Ampharos", Gender: "Male", Level: 60 },
+                            { Number: 165, Pokemon: "Gardevoir", Gender: "Male", Nickname: "IMmMMLLIR", Level: 61 },
+                            { Number: 248, Pokemon: "Tyranitar", Gender: "Female", Nickname: "I!C", Level: 76 },
+                            { Number: 184, Pokemon: "Azumarill", Gender: "Female", Nickname: "YYYYXOOOOO", Level: 85 }
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                     { "Group": "Badges", "Name": "Marine Badge", "Image": "img/badges/marine.png", "Time": "10d 12h 57m", "Attempts": 2 },
                     { "Group": "Badges", "Name": "Hail Badge", "Image": "img/badges/hail.png", "Time": "10d 8h 39m", "Attempts": 1 },
                     { "Group": "Badges", "Name": "Sparky Badge", "Image": "img/badges/sparky.png", "Time": "9d 17h 8m", "Attempts": 1 },
@@ -4844,6 +4899,17 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Elite Four", "Name": "Daichi", "Time": "16d 3h 46m", "Attempts": 1, "Image": "img/trainers/prism/rematch/daichi.png" },
                     { "Group": "Elite Four", "Name": "Mura", "Time": "16d 6h 21m", "Attempts": 3, "Image": "img/trainers/prism/rematch/mura.png" },
                     { "Group": "Champions", "Name": "Lance", "Time": "16d 9h 32m", "Attempts": 4, "Image": "img/trainers/prism/rematch/lance.png" },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 9h 33m", Attempts: 10, IdNo: "59484", Party: [
+                            { Number: 38, Pokemon: "Ninetales", Gender: "Female", Nickname: "FFFEEEF", Level: 100 },
+                            { Number: 181, Pokemon: "Ampharos", Gender: "Male", Level: 88 },
+                            { Number: 248, Pokemon: "Tyranitar", Gender: "Female", Nickname: "I!C", Level: 100 },
+                            { Number: 165, Pokemon: "Gardevoir", Gender: "Male", Nickname: "IMmMMLLIR", Level: 86 },
+                            { Number: 184, Pokemon: "Azumarill", Shiny: true, Gender: "Female", Nickname: "YYYYXOOOOO", Level: 100 },
+                            { Number: 138, Pokemon: "Phancero", Nickname: "FFFFF", Level: 51 }
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                     { "Group": "Pokemon", "Name": "Skorupi", "Time": "16d 17h 35m" },
                     { "Group": "Pokemon", "Name": "Glalie", "Time": "16d 18h 34m" },
                     { "Group": "Elite Four", "Image": "img/hosts/paul.png", "Name": "Brown", "Time": "16d 22h 13m", "Attempts": 1 },

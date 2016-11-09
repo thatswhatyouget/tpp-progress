@@ -367,6 +367,12 @@ ul.controls > li > ul > li > * {
     left:14px;
 }
 
+.progressChart .run .event.halloffame img {
+	height:20px;
+	top:-20px;
+	z-index: 3;
+}
+
 .progressChart .run .event.pokemon {
 	z-index:3;
 }

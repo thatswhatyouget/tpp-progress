@@ -298,7 +298,7 @@ function staggerStackedRuns(runs, runHeight) {
 }
 function staggerStackedEvents(allEvents, runHeight) {
     var dir = .1;
-    [allEvents.filter(function (e) { return e.className.indexOf("pokemon") < 0; }), allEvents.filter(function (e) { return e.className.indexOf("pokemon") >= 0; })].forEach(function (events) {
+    [allEvents.filter(function (e) { return e.className.indexOf("pokemon") < 0 && e.className.indexOf("halloffame") < 0; }), allEvents.filter(function (e) { return e.className.indexOf("pokemon") >= 0; })].forEach(function (events) {
         var width = function (element, pokeMode) { return pokeMode ? 25 : getWidth(element) || runHeight; };
         events.forEach(function (e, i) {
             var d = dir *= -1;
