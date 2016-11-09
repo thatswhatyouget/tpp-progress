@@ -23,6 +23,7 @@ Array.prototype.concat.apply([],
                 runTime = parseFloat(QueryString['day']);
             if (dataSeries.data[dataSeries.data.length - 1][0] < runTime && (!QueryString['pokemon'] || dataSeries.data.length < parseInt(QueryString['pokemon'])))
                 dataSeries.data.push([runTime, dataSeries.data.length]);
+            dataSeries.data.unshift([0, 0]);
             return dataSeries;
         }))))
 ).then((...data: jquery.flot.dataSeries[]) => {
