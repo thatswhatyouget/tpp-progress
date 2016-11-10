@@ -802,6 +802,25 @@
 .pokesprite.magearna img { background-position: 0px -801em!important; }
 .pokesprite.marshadow img { background-position: 0px -802em!important; }
 
+.alolan .dexEntry .pokesprite.rattata img, .alolan .large.pokesprite.rattata img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -0em!important; }
+.alolan .dexEntry .pokesprite.raticate img, .alolan .large.pokesprite.raticate img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -1em!important; }
+.alolan .dexEntry .pokesprite.raichu img, .alolan .large.pokesprite.raichu img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -2em!important; }
+.alolan .dexEntry .pokesprite.sandshrew img, .alolan .large.pokesprite.sandshrew img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -3em!important; }
+.alolan .dexEntry .pokesprite.sandslash img, .alolan .large.pokesprite.sandslash img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -4em!important; }
+.alolan .dexEntry .pokesprite.vulpix img, .alolan .large.pokesprite.vulpix img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -5em!important; }
+.alolan .dexEntry .pokesprite.ninetales img, .alolan .large.pokesprite.ninetales img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -6em!important; }
+.alolan .dexEntry .pokesprite.diglett img, .alolan .large.pokesprite.diglett img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -7em!important; }
+.alolan .dexEntry .pokesprite.dugtrio img, .alolan .large.pokesprite.dugtrio img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -8em!important; }
+.alolan .dexEntry .pokesprite.meowth img, .alolan .large.pokesprite.meowth img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -9em!important; }
+.alolan .dexEntry .pokesprite.persian img, .alolan .large.pokesprite.persian img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -10em!important; }
+.alolan .dexEntry .pokesprite.geodude img, .alolan .large.pokesprite.geodude img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -11em!important; }
+.alolan .dexEntry .pokesprite.graveler img, .alolan .large.pokesprite.graveler img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -12em!important; }
+.alolan .dexEntry .pokesprite.golem img, .alolan .large.pokesprite.golem img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -13em!important; }
+.alolan .dexEntry .pokesprite.grimer img, .alolan .large.pokesprite.grimer img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -14em!important; }
+.alolan .dexEntry .pokesprite.muk img, .alolan .large.pokesprite.muk img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -15em!important; }
+.alolan .dexEntry .pokesprite.exeggutor img, .alolan .large.pokesprite.exeggutor img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -16em!important; }
+.alolan .dexEntry .pokesprite.marowak img, .alolan .large.pokesprite.marowak img { background-image:url('../img/pokemon-alola-large.png'); background-position: 0px -17em!important; }
+
 .touhoumon .pokesprite.csanae img { background-position: 0px -1em!important; }
 .touhoumon .pokesprite.sanae img { background-position: 0px -2em!important; }
 .touhoumon .pokesprite.calice img { background-position: 0px -3em!important; }
