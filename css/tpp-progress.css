@@ -613,11 +613,15 @@ ul.controls > li > ul > li > * {
 	position: relative;
 	padding:.5em;
 	display:inline-block;
-	margin:.25em auto;
+	margin:auto;
 	background-color:goldenrod;
 	border:2px solid black;
 	color:black;
 	text-align: center;
+}
+
+.hallOfFameDisplay + .hallOfFameDisplay {
+	margin-top:-2px;
 }
 
 .hallOfFameDisplay.extra {

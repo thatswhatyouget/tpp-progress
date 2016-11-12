@@ -20,6 +20,14 @@
 	<meta property="og:image" content="http://thatswhatyouget.github.io/tpp-progress/img/icon.png" />
 	<meta property="og:type" content="website" />
 	<meta charset="utf-8" />
+	<style>
+		#hof > h2 {
+			margin-bottom:0;
+			display: inline-block;
+			width:35em;
+			text-align: left;
+		}
+	</style>
 </head>
 
 <body>
@@ -43,10 +51,15 @@
 		<script>
 			tppData.forEach(function(c) {
 				c.Runs.forEach(function(r) {
+					var hofs = [];
 					r.Events.forEach(function(e) {
-						if (e.Party)
-							$("#hof").append(drawHallOfFame(e,r,c.Scale));
+						if (e.Party && Duration.parse(e.Time, r.StartTime).TotalSeconds > 0)
+							hofs.push(drawHallOfFame(e,r,c.Scale));
 					});
+					if (hofs.length) {
+						$("#hof").append($("<h2>").text(r.RunName));
+						$("#hof").append(hofs);
+					}
 				});
 			});
 		</script>

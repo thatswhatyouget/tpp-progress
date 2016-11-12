@@ -9,7 +9,7 @@ var tppData: TPP.Collection[] = [
                 ColorPrimary: "#c0504d",
                 ColorSecondary: "#8c3836",
                 StartDate: "2014-02-13T01:22:45Z",
-                Duration: "16d 7h 45m 30s",
+                Duration: "16d 7h 52m",
                 EndDate: "Mar 1 2014 9:13 AM GMT",
                 HostName: "RED",
                 HostImage: "img/hosts/red.png",
@@ -110,6 +110,17 @@ var tppData: TPP.Collection[] = [
                         Time: "16d 7h 45m 30s",
                         Attempts: 2
                     },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 7h 44m 42s", Attempts: 22, Party: [
+                            { Pokemon: "Zapdos", Nickname: "AA-j", Level: 81, Type1: "Electric", Type2: "Flying" },
+                            { Pokemon: "Nidoking", Nickname: "AAAAAAAAAA", Level: 54, Type1: "Poison", Type2: "Ground" },
+                            { Pokemon: "Omastar", Level: 52, Type1: "Rock", Type2: "Water" },
+                            { Pokemon: "Venomoth", Nickname: "AATTVVV", Level: 39, Type1: "Bug", Type2: "Poison" },
+                            { Pokemon: "Lapras", Nickname: "AIIIIIIRRR", Level: 31, Type1: "Water", Type2: "Ice" },
+                            { Pokemon: "Pidgeot", Nickname: "aaabaaajss", Level: 69, Type1: "Normal", Type2: "Flying" },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                     { Name: "Charmander", Time: "5m", Group: "Pokemon", Estimate: true },
                     { Name: "Charmeleon", Time: "13h36m", Group: "Pokemon", Estimate: true },
                     { Name: "Pidgey", Time: "12h46m", Group: "Pokemon", Estimate: true },
@@ -146,9 +157,9 @@ var tppData: TPP.Collection[] = [
                 RunName: "Crystal",
                 ColorPrimary: "#4f81bd",
                 ColorSecondary: "#385d8a",
-                Duration: "13d 2h 2m",
+                //Duration: "13d 2h 2m",
                 StartDate: "2014-03-02T12:00:00Z",
-                EndDate: "Mar 15 2014 8:58 PM GMT",
+                Duration: "Mar 15 2014 8:58 PM GMT",
                 HostName: "AJDNNW",
                 HostImage: "img/hosts/ajdnnw.png",
                 HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
@@ -297,6 +308,27 @@ var tppData: TPP.Collection[] = [
                         Time: "13d 2h 2m",
                         Attempts: 7
                     },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 21h 27m", IDNo: "47901", Attempts: 38, Party: [
+                            { Pokemon: "Espeon", Nickname: "AAAS RJ-1", Level: 49, Gender: "Male", Number: 196 },
+                            { Pokemon: "Steelix", Nickname: "AAJRR RRR", Level: 48, Gender: "Male", Number: 208 },
+                            { Pokemon: "Raticate", Nickname: "A", Level: 37, Gender: "Male", Number: 20 },
+                            { Pokemon: "Feraligatr", Nickname: "AAAAAtttta", Level: 78, Gender: "Male", Number: 160 },
+                            { Pokemon: "Dragonair", Nickname: "KT", Level: 47, Gender: "Female", Number: 148 },
+                            { Pokemon: "Pidgeot", Nickname: "BBBBBD", Level: 62, Gender: "Male", Number: 18 },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d 5h 56m", IDNo: "47901", Attempts: 2, Party: [
+                            { Pokemon: "Steelix", Nickname: "AAJRR RRR", Level: 73, Gender: "Male", Number: 208 },
+                            { Pokemon: "Dragonite", Nickname: "KT", Level: 63, Gender: "Female", Number: 149 },
+                            { Pokemon: "Espeon", Nickname: "AAAS RJ-1", Level: 54, Gender: "Male", Number: 196 },
+                            { Pokemon: "Feraligatr", Nickname: "AAAAAtttta", Level: 85, Gender: "Male", Number: 160 },
+                            { Pokemon: "Pidgeot", Nickname: "BBBBBD", Level: 64, Gender: "Male", Number: 18 },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                     { Name: "Totodile", Time: "0d0h15m", Group: "Pokemon" },
                     { Name: "Croconaw", Time: "1d10h16m", Group: "Pokemon" },
                     { Name: "Feraligatr", Time: "2d0h23m", Group: "Pokemon" },
@@ -437,6 +469,17 @@ var tppData: TPP.Collection[] = [
                         Image: "img/trainers/emerald/wallace.png",
                         Time: "20d 21h 56m 0s",
                         Attempts: 21
+                    },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "20d 21h 58m", IDNo: "61415", Attempts: 103, Party: [
+                            { Pokemon: "Hariyama", Nickname: "A♀NIIIIc33", Level: 79, Gender: "Female", Number: 49, },
+                            { Pokemon: "Mightyena ", Level: 50, Gender: "Male", Number: 11 },
+                            { Pokemon: "Vileplume", Level: 49, Gender: "Female", Number: 90 },
+                            { Pokemon: "Graveler", Nickname: "-5\"\"7\"Y", Level: 68, Gender: "Female", Number: 58 },
+                            { Pokemon: "Tentacruel", Nickname: "GJKLFFZ", Level: 80, Gender: "Female", Number: 67 },
+                            { Pokemon: "Azumarill", Nickname: "M ---/'/'4", Level: 100, Gender: "Female", Number: 56 },
+                        ],
+                        Image: "img/ribbons/champion.png"
                     },
                     { Name: "Torchic", Time: "2014-03-22T02:19:00Z", Group: "Pokemon" },
                     { Name: "Poochyena", Time: "0d 8h 2m", Group: "Pokemon" },
@@ -597,6 +640,17 @@ var tppData: TPP.Collection[] = [
                         Time: "15d 2h 1m",
                         Attempts: 3
                     },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "15d 2h 3m", IDNo: "56171", Attempts: 8, Party: [
+                            { Pokemon: "Altaria", Level: 54, Gender: "Female", Number: 334 },
+                            { Pokemon: "Mew", Nickname: "MARC", Level: 57, Number: 151, IDNo: "01239" },
+                            { Pokemon: "Masquerain", Nickname: "AATUUUUNN", Level: 58, Gender: "Male", Number: 284 },
+                            { Pokemon: "Blastoise", Nickname: "TTABCIJIJD", Level: 60, Gender: "Male", Number: 9 },
+                            { Pokemon: "Sandslash", Level: 63, Gender: "Female", Number: 28 },
+                            { Pokemon: "Slaking", Nickname: "CCCDJCCCC5", Level: 66, Gender: "Male", Number: 289 },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                     { Name: "Charizard", Time: "10d 16h 9m", Group: "Pokemon" },
                     { Name: "Squirtle", Time: "1d 23h 20m", Group: "Pokemon" },
                     { Name: "Wartortle", Time: "7d 1h 57m", Group: "Pokemon" },
@@ -659,7 +713,7 @@ var tppData: TPP.Collection[] = [
                 RunName: "Platinum",
                 ColorPrimary: "#a6a6a6",
                 ColorSecondary: "#404040",
-                Duration: "17d 11h 38m 42s",
+                Duration: "17d 12h 8m",
                 StartDate: "2014-05-03T04:00:00Z",
                 HostName: "nqpppnl",
                 HostImage: "img/hosts/nqpppnl.png",
@@ -758,6 +812,17 @@ var tppData: TPP.Collection[] = [
                         Image: "img/trainers/platinum/cynthia.png",
                         Time: "17d 11h 38m 42s",
                         Attempts: 13
+                    },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "17d 11h 40m", IDNo: "12339", Attempts: 49, Party: [
+                            { Pokemon: "Shinx", Nickname: "0”☀ ☀0☀☺ ☹", Level: 63, Gender: "Female", Met: "Route 203" },
+                            { Pokemon: "Bibarel", Nickname: "00  00 06", Level: 93, Gender: "Female", Met: "Route 209" },
+                            { Pokemon: "Flareon", Level: 97, Gender: "Male", Met: "Hearthome City" },
+                            { Pokemon: "Golbat", Level: 60, Gender: "Male", Met: "Mt. Coronet" },
+                            { Pokemon: "Bronzong", Level: 54, Met: "Mt. Coronet" },
+                            { Pokemon: "Roserade", Nickname: "!☂!!☀! !:1", Level: 71, Gender: "Male", Met: "Route 204" },
+                        ],
+                        Image: "img/ribbons/champion-sinnoh.png"
                     },
                     { Name: "Zubat", Time: "0d 3h 38m", Group: "Pokemon" },
                     { Name: "Golbat", Time: "4d 9h 49m", Group: "Pokemon" },
@@ -1042,6 +1107,28 @@ var tppData: TPP.Collection[] = [
                         Time: "18d 20h 33m",
                         Attempts: 5
                     },
+                    // <TPP.HallOfFame>{
+                    //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "17d 11h 40m", IDNo: "12339", Attempts: 49, Party: [
+                    //         { Pokemon: "Shinx", Nickname: "0”☀ ☀0☀☺ ☹", Level: 63, Gender: "Female", Met: "Route 203" },
+                    //         { Pokemon: "Bibarel", Nickname: "00  00 06", Level: 93, Gender: "Female", Met: "Route 209" },
+                    //         { Pokemon: "Flareon", Level: 97, Gender: "Male", Met: "Hearthome City" },
+                    //         { Pokemon: "Golbat", Level: 60, Gender: "Male", Met: "Mt. Coronet" },
+                    //         { Pokemon: "Bronzong", Level: 54, Met: "Mt. Coronet" },
+                    //         { Pokemon: "Roserade", Nickname: "!☂!!☀! !:1", Level: 71, Gender: "Male", Met: "Route 204" },
+                    //     ],
+                    //     Image: "img/ribbons/champion-sinnoh.png"
+                    // },
+                    // <TPP.HallOfFame>{
+                    //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "17d 11h 40m", IDNo: "12339", Attempts: 49, Party: [
+                    //         { Pokemon: "Shinx", Nickname: "0”☀ ☀0☀☺ ☹", Level: 63, Gender: "Female", Met: "Route 203" },
+                    //         { Pokemon: "Bibarel", Nickname: "00  00 06", Level: 93, Gender: "Female", Met: "Route 209" },
+                    //         { Pokemon: "Flareon", Level: 97, Gender: "Male", Met: "Hearthome City" },
+                    //         { Pokemon: "Golbat", Level: 60, Gender: "Male", Met: "Mt. Coronet" },
+                    //         { Pokemon: "Bronzong", Level: 54, Met: "Mt. Coronet" },
+                    //         { Pokemon: "Roserade", Nickname: "!☂!!☀! !:1", Level: 71, Gender: "Male", Met: "Route 204" },
+                    //     ],
+                    //     Image: "img/ribbons/champion-sinnoh.png"
+                    // },
                     { Name: "Caterpie", Time: "13d 14h 38m", Group: "Pokemon" },
                     { Name: "Weedle", Time: "10d 13h 35m", Group: "Pokemon" },
                     { Name: "Beedrill", Time: "14d 14h 3m", Group: "Pokemon" },
@@ -1174,7 +1261,7 @@ var tppData: TPP.Collection[] = [
                 RunName: "Black",
                 ColorPrimary: "#353535",
                 ColorSecondary: "black",
-                Duration: "12d 18h 19m",
+                Duration: "12d 18h 25m",
                 StartDate: "2014-06-15T04:00:00Z",
                 HostName: "GMYC",
                 HostImage: "img/hosts/gmyc.png",
@@ -1280,6 +1367,17 @@ var tppData: TPP.Collection[] = [
                         Image: "img/trainers/black/ghetsis.png",
                         Time: "12d 18h 19m",
                         Attempts: 1
+                    },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "First Game Clear", Time: "12d 18h 21m", IDNo:"12356", Attempts: 62, Party: [
+                            { Pokemon: "Deerling", Nickname: "5", Level: 63, Gender: "Female"},
+                            { Pokemon: "Joltik", Nickname: "    ~***", Level: 69, Gender: "Male"},
+                            { Pokemon: "Druddigon", Nickname: "Dru", Level: 68, Gender: "Male"},
+                            { Pokemon: "Zebstrika", Nickname: "aMH", Level: 75, Gender: "Male"},
+                            { Pokemon: "Tranquill", Nickname: "QQQQ", Level: 56, Gender: "Male"},
+                            { Pokemon: "Tympole", Nickname: "NONNQWMMSO", Level: 64, Gender: "Female" },
+                        ],
+                        Image: "img/ribbons/champion.png"
                     },
                     { Name: "Tepig", Time: "0d 01h 3m", Group: "Pokemon" },
                     { Name: "Patrat", Time: "0d 1h 34m", Group: "Pokemon" },
@@ -1467,6 +1565,17 @@ var tppData: TPP.Collection[] = [
                         Name: "RED",
                         Image: "img/hosts/red.png",
                         Time: "19d 2h 16m"
+                    },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 5h 35m", IDNo:"06648", Attempts: 67, Party: [
+                            { Pokemon: "Unfezant", Nickname: "qfwwqhhzwu", Level: 100, Gender: "Female"},
+                            { Pokemon: "Zoroark", Level: 100, Gender:"Male"},
+                            { Pokemon: "Leavanny", Nickname: "zzffzz zzw", Level: 85, Gender: "Male"},
+                            { Pokemon: "Sceptile", Nickname: "AEEEEOPM.J ", Level: 86, Gender: "Male"},
+                            { Pokemon: "Feraligatr", Nickname: "u2E!☂☂☂M☂'", Level: 100, Gender: "Male"},
+                            { Pokemon: "Emboar", Nickname: "VVUU", Level: 96, Gender: "Male" },
+                        ],
+                        Image: "img/ribbons/champion.png"
                     },
                     { Name: "Pikachu", Time: "16d 20h 3m", Group: "Pokemon" },
                     { Name: "Meowth", Time: "0d 7h 32m", Group: "Pokemon" },
@@ -4701,7 +4810,7 @@ var tppData: TPP.Collection[] = [
                             { Nickname: "AAAK", Pokemon: "Kingler", Gender: "Male", Level: 79, Met: "Route 210" },
                             { Nickname: "A", Pokemon: "Donphan", Gender: "Female", Level: 81, Met: "Acuity Lakefront" },
                             { Nickname: "R♀", Pokemon: "Sandslash", Gender: "Male", Level: 72, Met: "Hearthome City" },
-                            { Nickname: "ll♠♠♠△", Pokemon: "Plusle", Shiny: true, Gender:"Male", Level: 78, Met: "Victory Road" },
+                            { Nickname: "ll♠♠♠△", Pokemon: "Plusle", Shiny: true, Gender: "Male", Level: 78, Met: "Victory Road" },
                         ],
                         Image: "img/ribbons/champion-sinnoh.png"
                     },

@@ -241,6 +241,7 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
 function drawHallOfFame(hofInfo: TPP.HallOfFame, runInfo: TPP.Run, scale = TPP.Scale.Days) {
     var $hof = $("<div class='hallOfFameDisplay'>");
     $hof.css('background-color', runInfo.ColorPrimary);
+    $hof.css('border-color', runInfo.ColorSecondary);
     $hof.append($("<h3>").text(hofInfo.Name));
     $hof.append($("<h4>").text(Duration.parse(hofInfo.Time, runInfo.StartTime).toString(scale)));
     if (hofInfo.Attempts) $hof.append($("<h5>").text(hofInfo.Attempts + " Attempts"));
@@ -273,6 +274,9 @@ function drawHallOfFame(hofInfo: TPP.HallOfFame, runInfo: TPP.Run, scale = TPP.S
         if (p.IDNo) $info.append($("<div data-entry='IDNo'>").text(p.IDNo));
         $hofRow.append($("<td>").append($entry));
     });
+    for (var i = hofInfo.Party.length; i < 6; i++) {
+        $("<div class='entry'>").appendTo($("<td>").appendTo($hofRow));
+    }
 
     return $hof.get(0);
 }
