@@ -4632,7 +4632,7 @@ var tppData = [
                             { Nickname: "AAAK", Pokemon: "Kingler", Gender: "Male", Level: 79, Met: "Route 210" },
                             { Nickname: "A", Pokemon: "Donphan", Gender: "Female", Level: 81, Met: "Acuity Lakefront" },
                             { Nickname: "R♀", Pokemon: "Sandslash", Gender: "Male", Level: 72, Met: "Hearthome City" },
-                            { Nickname: "ll♠♠♠△", Pokemon: "Plusle", Shiny: true, Level: 78, Met: "Victory Road" },
+                            { Nickname: "ll♠♠♠△", Pokemon: "Plusle", Shiny: true, Gender: "Male", Level: 78, Met: "Victory Road" },
                         ],
                         Image: "img/ribbons/champion-sinnoh.png"
                     },

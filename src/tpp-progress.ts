@@ -230,7 +230,51 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
     event.setAttribute("data-time", time.toString(TPP.Scale.Weeks));
     if (showGroups[groupName] === false) event.classList.add('hidden');
     groups[groupName] = eventInfo.Group;
+    if ((<TPP.HallOfFame>eventInfo).Party) {
+        var hof = drawHallOfFame(<TPP.HallOfFame>eventInfo, runInfo, scale);
+        hof.classList.add("extra");
+        event.appendChild(hof);
+    }
     return event;
+}
+
+function drawHallOfFame(hofInfo: TPP.HallOfFame, runInfo: TPP.Run, scale = TPP.Scale.Days) {
+    var $hof = $("<div class='hallOfFameDisplay'>");
+    $hof.css('background-color', runInfo.ColorPrimary);
+    $hof.append($("<h3>").text(hofInfo.Name));
+    $hof.append($("<h4>").text(Duration.parse(hofInfo.Time, runInfo.StartTime).toString(scale)));
+    if (hofInfo.Attempts) $hof.append($("<h5>").text(hofInfo.Attempts + " Attempts"));
+    $hof.append($("<img>").attr('src', hofInfo.Image));
+    var $hofRow = $("<tr>").appendTo($("<table>").appendTo($hof));
+    var $host = $("<div class='entry host'>").appendTo($("<td>").appendTo($hofRow));
+    var $hostImg = $("<img>").attr('src', runInfo.HostImage).attr('alt', runInfo.HostName);
+    if (runInfo.HostImageSource) {
+        $hostImg = $("<a>").attr('href', runInfo.HostImageSource).append($hostImg);
+    }
+    $host.append($hostImg);
+    var $hostInfo = $('<div class="info">').append($('<div class="name">').text(runInfo.HostName)).appendTo($host);
+    if (hofInfo.IDNo) {
+        $hostInfo.append($('<div data-entry="IDNo">').text(hofInfo.IDNo));
+    }
+    hofInfo.Party.forEach(p => {
+        var name = (p.Nickname || p.Pokemon).replace(/π/g, "<i class='pk'></i>").replace(/µ/g, "<i class='mn'></i>");
+        var $entry = $("<div class='entry'>").addClass((p.Gender || '').toLowerCase());
+        $entry.append($("<span class='level'>").text(p.Level));
+        $entry.append($("<div class='pokesprite'><img src='img/missingno.png'/></div>").addClass(cleanString(p.Pokemon)).addClass(p.Shiny ? "shiny" : ""));
+        var $info = $("<div class='info'>").append($("<div class='name'>").html(name)).appendTo($entry);
+        if (p.Number) {
+            var idx = p.Number.toString(), index = ('000' + idx).substring(idx.length);
+            $info.append($("<div data-entry='" + index + "'>").text(p.Pokemon));
+        }
+        if (p.Met) $info.append($("<div data-entry='Met'>").text(p.Met));
+        if (p.Type1) $info.append($("<div data-entry='Type 1'>").text(p.Type1));
+        if (p.Type2) $info.append($("<div data-entry='Type 2'>").text(p.Type2));
+        if (p.OT) $info.append($("<div data-entry='OT'>").text(p.OT));
+        if (p.IDNo) $info.append($("<div data-entry='IDNo'>").text(p.IDNo));
+        $hofRow.append($("<td>").append($entry));
+    });
+
+    return $hof.get(0);
 }
 
 function applyScale(ppd?: number) {

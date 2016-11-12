@@ -323,6 +323,18 @@ ul.controls > li > ul > li > * {
 	top:5px;
 }
 
+.progressChart .run .event .extra {
+	position: absolute;
+	left:0;
+	bottom:100%;
+	transform: translateX(-50%);
+	z-index:7;
+}
+
+.progressChart .run .event:not(:hover) .extra, .progressChart .run .event .extra.hidden {
+	display:none;
+}
+
 .progressChart .run .event.hosts img {
 	height:90px;
     top:-30px;
@@ -595,4 +607,176 @@ ul.controls > li > ul > li > * {
 
 .progressChart .run .event.pokemon ~ .videos a .playhead {
     padding-bottom:.5em;   
+}
+
+.hallOfFameDisplay {
+	position: relative;
+	padding:.5em;
+	display:inline-block;
+	margin:.25em auto;
+	background-color:goldenrod;
+	border:2px solid black;
+	color:black;
+	text-align: center;
+}
+
+.hallOfFameDisplay.extra {
+	display: none;
+	position: absolute;
+	margin:0;
+	transform-origin: bottom;
+	transform:translateX(-50%)scale(.8)!important;
+}
+
+.hallOfFameDisplay > img {
+	position: absolute;
+	left:.5em!important;
+	top:.25em!important;
+	width:auto!important;
+	height:auto!important;
+	transform: none!important;
+}
+
+.hallOfFameDisplay h3, .hallOfFameDisplay h4, .hallOfFameDisplay h5 {
+	margin:.25em;
+}
+
+.hallOfFameDisplay h4, .hallOfFameDisplay h5 {
+	position: absolute;
+	right:.5em;
+	top:.25em;
+}
+
+.hallOfFameDisplay h5 {
+	top:2em;
+	font-size: .75em;
+}
+
+.hallOfFameDisplay table td {
+	background-color:rgba(255,255,255,.25);
+	border:.1em solid transparent;
+	text-align: center;
+}
+
+.hallOfFameDisplay .entry {
+	position: relative;
+	display: inline-block;
+	width:12em;
+	font-size:1em;
+	font-family: monospace;
+	height: 100%;
+	vertical-align: top;
+}
+
+.hallOfFameDisplay .entry.host {
+	width:8em;
+}
+
+.hallOfFameDisplay .entry.host img {
+	max-height: 64px;
+	max-width: 64px;
+}
+
+.hallOfFameDisplay.extra table tr td:first-child {
+	display: none;
+}
+
+.hallOfFameDisplay .entry .pokesprite img {
+	position: static;
+    height:0!important;
+    width:0!important;
+	transform: none!important;
+	font-size:64px;
+    padding:.5em;
+	margin:auto;
+    background-image:url("../img/pokemon-large.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size:cover;
+}
+
+.hallOfFameDisplay .entry .info > * {
+	text-align: center;
+	font-weight: bold;
+	white-space: pre-line;
+}
+.hallOfFameDisplay .entry .info > .name {
+	height:1.5em;
+	line-height:1.5em;
+	margin-bottom:.2em;
+}
+.hallOfFameDisplay .entry .info > *:not(.name) {
+	font-size:.9em
+}
+.hallOfFameDisplay .entry .info > *:not(.name):before {
+	content: attr(data-entry)':';
+	font-size:.9em;
+	font-weight: normal;
+}
+
+.hallOfFameDisplay .entry .level {
+	position: absolute;
+	left:.1em;
+	top:.1em;
+	font-weight: normal;
+}
+
+.hallOfFameDisplay .entry .level:before {
+	font-size:.8em;
+	content:"Lv.";
+}
+
+.hallOfFameDisplay .entry:before {
+	content:" ";
+	font-family: FontAwesome;
+	position: absolute;
+	right:.1em;
+	top:.1em;
+	width:1.5em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.hallOfFameDisplay .entry.female:before {
+	content:"";
+	color:darkmagenta;
+}
+
+.hallOfFameDisplay .entry.male:before {
+	content:"";
+	color:darkblue;
+}
+
+i.pk:before {
+	content:"P";
+	font-size: .75em;
+	position:relative;
+	top:-.25em;
+	font-style: normal;
+}
+
+i.pk:after {
+	content:"K";
+	font-size: .75em;
+	position:relative;
+	left:-.1em;
+	top:.25em;
+	font-style: normal;
+}
+
+i.mn:before {
+	content:"M";
+	font-size: .75em;
+	position:relative;
+	top:-.25em;
+	font-style: normal;
+}
+
+i.mn:after {
+	content:"N";
+	font-size: .75em;
+	position:relative;
+	left:-.1em;
+	top:.25em;
+	font-style: normal;
 }
