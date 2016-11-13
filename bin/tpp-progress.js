@@ -240,6 +240,7 @@ function drawEvent(eventInfo, runInfo, scale) {
 function drawHallOfFame(hofInfo, runInfo, scale) {
     if (scale === void 0) { scale = TPP.Scale.Days; }
     var $hof = $("<div class='hallOfFameDisplay'>");
+    $hof.addClass(cleanString(runInfo.RunName) + " " + runInfo.Class);
     $hof.css('background-color', runInfo.ColorPrimary);
     $hof.css('border-color', runInfo.ColorSecondary);
     $hof.append($("<h3>").text(hofInfo.Name));
@@ -259,10 +260,10 @@ function drawHallOfFame(hofInfo, runInfo, scale) {
         $hostInfo.append($('<div data-entry="IDNo">').text(hofInfo.IDNo));
     }
     hofInfo.Party.forEach(function (p) {
-        var name = (p.Nickname || p.Pokemon).replace(/π/g, "<i class='pk'></i>").replace(/µ/g, "<i class='mn'></i>");
+        var name = (p.Nickname || p.Pokemon).replace(/\s/g, "&nbsp;").replace(/π/g, "<i class='pk'></i>").replace(/µ/g, "<i class='mn'></i>");
         var $entry = $("<div class='entry'>").addClass((p.Gender || '').toLowerCase());
         $entry.append($("<span class='level'>").text(p.Level));
-        $entry.append($("<div class='pokesprite'><img src='img/missingno.png'/></div>").addClass(cleanString(p.Pokemon)).addClass(p.Shiny ? "shiny" : ""));
+        $entry.append($("<div class='pokesprite'><img src='img/missingno.png'/></div>").addClass(cleanString(p.Pokemon)).addClass(p.Shiny ? "shiny" : "").addClass(p.Gender));
         var $info = $("<div class='info'>").append($("<div class='name'>").html(name)).appendTo($entry);
         if (p.Number) {
             var idx = p.Number.toString(), index = ('000' + idx).substring(idx.length);
