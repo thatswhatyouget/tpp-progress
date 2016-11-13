@@ -243,7 +243,8 @@ function drawHallOfFame(hofInfo: TPP.HallOfFame, runInfo: TPP.Run, scale = TPP.S
     $hof.addClass(cleanString(runInfo.RunName) + " " + runInfo.Class);
     $hof.css('background-color', runInfo.ColorPrimary);
     $hof.css('border-color', runInfo.ColorSecondary);
-    $hof.append($("<h3>").text(hofInfo.Name));
+    var time = new Date((Duration.parse(hofInfo.Time, runInfo.StartTime).TotalSeconds + runInfo.StartTime) * 1000);
+    $hof.append($("<h3>").text(hofInfo.Name + " - " + time.toLocaleDateString()));
     $hof.append($("<h4>").text(Duration.parse(hofInfo.Time, runInfo.StartTime).toString(scale)));
     if (hofInfo.Attempts) $hof.append($("<h5>").text(hofInfo.Attempts + " Attempts"));
     $hof.append($("<img>").attr('src', hofInfo.Image));
