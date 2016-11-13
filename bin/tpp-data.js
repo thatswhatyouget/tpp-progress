@@ -308,22 +308,22 @@ var tppData = [
                     },
                     {
                         Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 21h 27m", IDNo: "47901", Attempts: 38, Party: [
-                            { Pokemon: "Espeon", Nickname: "AAAS RJ-1", Level: 49, Gender: "Male", Number: 196 },
-                            { Pokemon: "Steelix", Nickname: "AAJRR RRR", Level: 48, Gender: "Male", Number: 208 },
-                            { Pokemon: "Raticate", Nickname: "A", Level: 37, Gender: "Male", Number: 20 },
-                            { Pokemon: "Feraligatr", Nickname: "AAAAAtttta", Level: 78, Gender: "Male", Number: 160 },
-                            { Pokemon: "Dragonair", Nickname: "KT", Level: 47, Gender: "Female", Number: 148 },
-                            { Pokemon: "Pidgeot", Nickname: "BBBBBD", Level: 62, Gender: "Male", Number: 18 },
+                            { Pokemon: "Espeon", Nickname: "AAAS RJ-1", Level: 49, Gender: "Male", Number: 196, IDNo: "47901" },
+                            { Pokemon: "Steelix", Nickname: "AAJRR RRR", Level: 48, Gender: "Male", Number: 208, IDNo: "47901" },
+                            { Pokemon: "Raticate", Nickname: "A", Level: 37, Gender: "Male", Number: 20, IDNo: "47901" },
+                            { Pokemon: "Feraligatr", Nickname: "AAAAAtttta", Level: 78, Gender: "Male", Number: 160, IDNo: "47901" },
+                            { Pokemon: "Dragonair", Nickname: "KT", Level: 47, Gender: "Female", Number: 148, IDNo: "47901" },
+                            { Pokemon: "Pidgeot", Nickname: "BBBBBD", Level: 62, Gender: "Male", Number: 18, IDNo: "47901" },
                         ],
                         Image: "img/ribbons/champion.png"
                     },
                     {
                         Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d 5h 56m", IDNo: "47901", Attempts: 2, Party: [
-                            { Pokemon: "Steelix", Nickname: "AAJRR RRR", Level: 73, Gender: "Male", Number: 208 },
-                            { Pokemon: "Dragonite", Nickname: "KT", Level: 63, Gender: "Female", Number: 149 },
-                            { Pokemon: "Espeon", Nickname: "AAAS RJ-1", Level: 54, Gender: "Male", Number: 196 },
-                            { Pokemon: "Feraligatr", Nickname: "AAAAAtttta", Level: 85, Gender: "Male", Number: 160 },
-                            { Pokemon: "Pidgeot", Nickname: "BBBBBD", Level: 64, Gender: "Male", Number: 18 },
+                            { Pokemon: "Steelix", Nickname: "AAJRR RRR", Level: 73, Gender: "Male", Number: 208, IDNo: "47901" },
+                            { Pokemon: "Dragonite", Nickname: "KT", Level: 63, Gender: "Female", Number: 149, IDNo: "47901" },
+                            { Pokemon: "Espeon", Nickname: "AAAS RJ-1", Level: 54, Gender: "Male", Number: 196, IDNo: "47901" },
+                            { Pokemon: "Feraligatr", Nickname: "AAAAAtttta", Level: 85, Gender: "Male", Number: 160, IDNo: "47901" },
+                            { Pokemon: "Pidgeot", Nickname: "BBBBBD", Level: 64, Gender: "Male", Number: 18, IDNo: "47901" },
                         ],
                         Image: "img/ribbons/champion.png"
                     },
@@ -470,12 +470,12 @@ var tppData = [
                     },
                     {
                         Group: "Hall of Fame", Name: "Hall of Fame", Time: "20d 21h 58m", IDNo: "61415", Attempts: 103, Party: [
-                            { Pokemon: "Hariyama", Nickname: "A♀NIIIIc33", Level: 79, Gender: "Female", Number: 49, },
-                            { Pokemon: "Mightyena ", Level: 50, Gender: "Male", Number: 11 },
-                            { Pokemon: "Vileplume", Level: 49, Gender: "Female", Number: 90 },
-                            { Pokemon: "Graveler", Nickname: "-5\"\"7\"Y", Level: 68, Gender: "Female", Number: 58 },
-                            { Pokemon: "Tentacruel", Nickname: "GJKLFFZ", Level: 80, Gender: "Female", Number: 67 },
-                            { Pokemon: "Azumarill", Nickname: "M ---/'/'4", Level: 100, Gender: "Female", Number: 56 },
+                            { Pokemon: "Hariyama", Nickname: "A♀NIIIIc33", Level: 79, Gender: "Female", Number: 49, IDNo: "61415" },
+                            { Pokemon: "Mightyena ", Level: 50, Gender: "Male", Number: 11, IDNo: "61415" },
+                            { Pokemon: "Vileplume", Level: 49, Gender: "Female", Number: 90, IDNo: "61415" },
+                            { Pokemon: "Graveler", Nickname: "-5\"\"7\"Y", Level: 68, Gender: "Female", Number: 58, IDNo: "61415" },
+                            { Pokemon: "Tentacruel", Nickname: "GJKLFFZ", Level: 80, Gender: "Female", Number: 67, IDNo: "61415" },
+                            { Pokemon: "Azumarill", Nickname: "M ---/'/'4", Level: 100, Gender: "Female", Number: 56, IDNo: "61415" },
                         ],
                         Image: "img/ribbons/champion.png"
                     },
@@ -640,12 +640,12 @@ var tppData = [
                     },
                     {
                         Group: "Hall of Fame", Name: "Hall of Fame", Time: "15d 2h 3m", IDNo: "56171", Attempts: 8, Party: [
-                            { Pokemon: "Altaria", Level: 54, Gender: "Female", Number: 334 },
+                            { Pokemon: "Altaria", Level: 54, Gender: "Female", Number: 334, IDNo: "56171" },
                             { Pokemon: "Mew", Nickname: "MARC", Level: 57, Number: 151, IDNo: "01239" },
-                            { Pokemon: "Masquerain", Nickname: "AATUUUUNN", Level: 58, Gender: "Male", Number: 284 },
-                            { Pokemon: "Blastoise", Nickname: "TTABCIJIJD", Level: 60, Gender: "Male", Number: 9 },
-                            { Pokemon: "Sandslash", Level: 63, Gender: "Female", Number: 28 },
-                            { Pokemon: "Slaking", Nickname: "CCCDJCCCC5", Level: 66, Gender: "Male", Number: 289 },
+                            { Pokemon: "Masquerain", Nickname: "AATUUUUNN", Level: 58, Gender: "Male", Number: 284, IDNo: "56171" },
+                            { Pokemon: "Blastoise", Nickname: "TTABCIJIJD", Level: 60, Gender: "Male", Number: 9, IDNo: "56171" },
+                            { Pokemon: "Sandslash", Level: 63, Gender: "Female", Number: 28, IDNo: "56171" },
+                            { Pokemon: "Slaking", Nickname: "CCCDJCCCC5", Level: 66, Gender: "Male", Number: 289, IDNo: "56171" },
                         ],
                         Image: "img/ribbons/champion.png"
                     },
@@ -1353,7 +1353,7 @@ var tppData = [
                             { Pokemon: "Tranquill", Nickname: "QQQQ", Level: 56, Gender: "Male" },
                             { Pokemon: "Tympole", Nickname: "NONNQWMMSO", Level: 64, Gender: "Female" },
                         ],
-                        Image: "img/ribbons/champion.png"
+                        Image: "img/ribbons/event.png"
                     },
                     { Name: "Tepig", Time: "0d 01h 3m", Group: "Pokemon" },
                     { Name: "Patrat", Time: "0d 1h 34m", Group: "Pokemon" },
@@ -2170,7 +2170,7 @@ var tppData = [
                 RunName: "Anniversary Red",
                 ColorPrimary: "#bf0300",
                 ColorSecondary: "#5b0000",
-                Duration: "39d 19h 17m",
+                Duration: "39d 19h 55m",
                 StartDate: "2015-02-12T21:00:00Z",
                 HostName: "AIIIAAB",
                 HostImage: "img/hosts/aiiiaab.png",
@@ -2376,6 +2376,28 @@ var tppData = [
                         Image: "img/trainers/red/oak.png",
                         Time: "39d 19h 17m",
                         Attempts: 4
+                    },
+                    {
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "27d 19h 25m", Attempts: 18, Party: [
+                            { Pokemon: "Slowbro", Nickname: ",R  π,,,", Level: 92, Type1: "Water", Type2: "Psychic" },
+                            { Pokemon: "Kabutops", Nickname: "AAAACCDYY", Level: 76, Type1: "Rock", Type2: "Water" },
+                            { Pokemon: "Cloyster", Nickname: "IIII--??(U", Level: 97, Type1: "Water", Type2: "Ice" },
+                            { Pokemon: "Zapdos", Nickname: "(ssjj µ..,", Level: 94, Type1: "Electric", Type2: "Flying" },
+                            { Pokemon: "Parasect", Nickname: "-?", Level: 100, Type1: "Bug", Type2: "Grass" },
+                            { Pokemon: "Muk", Nickname: "A-----aaaa", Level: 65, Type1: "Poison" },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
+                    {
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "39d 19h 18m", Attempts: 23, Party: [
+                            { Pokemon: "Slowbro", Nickname: "AAbbABCabb", Level: 100, Type1: "Water", Type2: "Psychic" },
+                            { Pokemon: "Venomoth", Nickname: "RRRRIIIIH", Level: 97, Type1: "Bug", Type2: "Poison" },
+                            { Pokemon: "Cloyster", Nickname: "IIII--??(U", Level: 100, Type1: "Water", Type2: "Ice" },
+                            { Pokemon: "Dragonite", Nickname: "AAA--xxµµµ", Level: 61, Type1: "Dragon", Type2: "Flying" },
+                            { Pokemon: "Zapdos", Nickname: "(ssjj µ..,", Level: 100, Type1: "Electric", Type2: "Flying" },
+                            { Pokemon: "Victreebel", Nickname: "RRQPO:ππππ", Level: 92, Type1: "Grass", Type2: "Poison" },
+                        ],
+                        Image: "img/ribbons/champion.png"
                     },
                     { "Name": "Charmander", "Time": "0d 0h 4m", "Group": "Pokemon" },
                     { "Name": "Kakuna", "Time": "0d 2h 33m", "Group": "Pokemon" },
@@ -3230,6 +3252,17 @@ var tppData = [
                         Time: "13d 15h 44m",
                         Attempts: 1
                     },
+                    {
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d 15h 46m", IDNo: "29177", Attempts: 44, Party: [
+                            { Pokemon: "Sanae", Level: 79, Gender: "Female", Number: 2, IDNo: "29177" },
+                            { Pokemon: "Cirno", Nickname: "BB", Gender: "Female", Level: 60, Number: 26, IDNo: "29177" },
+                            { Pokemon: "Momiji", Nickname: "AUUUUABBBB", Level: 64, Gender: "Male", Number: 12, IDNo: "29177" },
+                            { Pokemon: "Satori", Nickname: "Chauzu", Level: 64, Gender: "Male", Number: 79, IDNo: "29177" },
+                            { Pokemon: "Tokiko", Nickname: "A", Level: 63, Gender: "Female", Number: 22, IDNo: "29177" },
+                            { Pokemon: "Mima", Level: 59, Gender: "Female", Number: "???", IDNo: "29177" },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                     { Name: "CSanae", Time: "0d 0h 7m", Group: "Pokemon" },
                     { Name: "Sanae", Time: "4d 0h 48m", Group: "Pokemon" },
                     { Name: "CMomiji", Time: "2d 4h 16m", Group: "Pokemon" },
@@ -3377,6 +3410,17 @@ var tppData = [
                         Time: "12d 4h 51m",
                         Attempts: 2
                     },
+                    {
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "12d 4h 52m", IDNo: "42115", Attempts: 40, Party: [
+                            { Pokemon: "Dugtrio", Nickname: "AHHHHHIIII", Level: 44, Gender: "Female", Number: 51, IDNo: "42115" },
+                            { Pokemon: "Vaporeon", Nickname: "ACCCIOOWWW", Gender: "Female", Level: 81, Number: 134, IDNo: "42115" },
+                            { Pokemon: "Pidgeot", Nickname: "T", Level: 50, Gender: "Female", Number: 18, IDNo: "42115" },
+                            { Pokemon: "Butterfree", Nickname: "BUTTERBAE", Level: 51, Gender: "Female", Number: 12, IDNo: "42115" },
+                            { Pokemon: "Charizard", Nickname: "FFF  ", Level: 63, Gender: "Female", Number: 6, IDNo: "42115" },
+                            { Pokemon: "Electabuzz", Nickname: "AAAVX", Level: 71, Gender: "Female", Number: 125, IDNo: "42115" },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                     { Name: "Charmander", Time: "0d 0h 6m", Group: "Pokemon" },
                     { Name: "Charmeleon", Time: "0d 14h 7m", Group: "Pokemon" },
                     { Name: "Charizard", Time: "4d 16h 17m", Group: "Pokemon" },
@@ -3448,7 +3492,7 @@ var tppData = [
                 RunName: "Randomized Alpha Sapphire",
                 ColorPrimary: "#242c86",
                 ColorSecondary: "#242c86",
-                Duration: "14d 1h 27m",
+                Duration: "14d 4h 33m",
                 StartDate: "2015-07-12T21:00:00Z",
                 HostName: "!!!0999   qq",
                 HostImage: "img/hosts/qq.png",
@@ -3606,6 +3650,28 @@ var tppData = [
                         Image: "img/trainers/emerald/rematch/steven.png",
                         Time: "14d 1h 27m",
                         Attempts: 6
+                    },
+                    {
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "8d 23h 12m", Attempts: 46, Party: [
+                            { Pokemon: "Cacturne", Nickname: "r", Level: 73, Gender: "Female" },
+                            { Pokemon: "Jellicent", Nickname: "Wingull9xx88", Level: 95, Gender: "Female" },
+                            { Pokemon: "Glaceon", Nickname: "Glaceonhfeer", Level: 83, Gender: "Female" },
+                            { Pokemon: "Jellicent", Nickname: "Duskugbe", Level: 96, Gender: "Male" },
+                            { Pokemon: "Wigglytuff", Nickname: "Chansey", Level: 100, Gender: "Female" },
+                            { Pokemon: "Lanturn", Nickname: "Swinu  1xcc", Level: 86, Gender: "Female" },
+                        ],
+                        Image: "img/ribbons/champion-hoenn.png"
+                    },
+                    {
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "14d 1h 29m", Attempts: 38, Party: [
+                            { Pokemon: "Cacturne", Nickname: "r", Level: 100, Gender: "Female" },
+                            { Pokemon: "Jellicent", Nickname: "Duskugbe", Level: 100, Gender: "Male" },
+                            { Pokemon: "Jellicent", Nickname: "Wingull9xx88", Level: 100, Gender: "Female" },
+                            { Pokemon: "Rayquaza", Nickname: "'999", Level: 100 },
+                            { Pokemon: "Wigglytuff", Nickname: "Chansey", Level: 100, Gender: "Female" },
+                            { Pokemon: "Lanturn", Nickname: ",,222", Level: 100, Gender: "Female" },
+                        ],
+                        Image: "img/ribbons/champion-hoenn.png"
                     },
                     { "Name": "Spoink", "Time": "1d 13h 1m", "Group": "Pokemon" },
                     { "Name": "Aipom", "Time": "4d 6h 31m", "Group": "Pokemon" },
@@ -3781,7 +3847,7 @@ var tppData = [
                 RunName: "Colosseum",
                 ColorPrimary: "#bba155",
                 ColorSecondary: "#644d2e",
-                Duration: "6d 3h 27m",
+                Duration: "6d 3h 31m",
                 StartDate: "2015-10-12T21:00:00Z",
                 HostName: "AAAAAAA",
                 HostImage: "img/hosts/aaaaaaa.png",
@@ -3877,6 +3943,17 @@ var tppData = [
                         Time: "6d 3h 27m",
                         Attempts: 2
                     },
+                    {
+                        Group: "Hall of Fame", Name: "First Game Clear", Time: "6d 3h 29m", Party: [
+                            { Pokemon: "Meganium", Level: 65, Gender: "Male" },
+                            { Pokemon: "Espeon", Nickname: "ABLLVVWW♀", Level: 65, Gender: "Male" },
+                            { Pokemon: "Jumpluff", Nickname: "AAAAKLV", Level: 50, Gender: "Female" },
+                            { Pokemon: "Misdreavus", Nickname: "AAAAAAAAAA", Level: 67, Gender: "Male" },
+                            { Pokemon: "Umbreon", Level: 59, Gender: "Male" },
+                            { Pokemon: "Quagsire", Nickname: "UUUUV???", Level: 50, Gender: "Female" },
+                        ],
+                        Image: "img/ribbons/national.png"
+                    },
                     { "Name": "Espeon", "Time": "0d 0h 0m", "Group": "Pokemon" },
                     { "Name": "Umbreon", "Time": "0d 0h 0m", "Group": "Pokemon" },
                     { "Name": "Bayleef", "Time": "0d 3h 23m", "Group": "Pokemon" },
@@ -3896,7 +3973,7 @@ var tppData = [
                 RunName: "XD",
                 ColorPrimary: "#532245",
                 ColorSecondary: "#793165",
-                Duration: "8d 4h 9m",
+                Duration: "8d 4h 32m",
                 StartDate: "2015-12-12T21:00:00Z",
                 HostName: "ABBBCC",
                 HostImage: "img/hosts/abbbcc.png",
@@ -4007,6 +4084,17 @@ var tppData = [
                         "Name": "Greevil",
                         "Time": "8d 4h 9m",
                         "Attempts": 6
+                    },
+                    {
+                        Group: "Hall of Fame", Name: "First Game Clear", Time: "8d 4h 11m", Party: [
+                            { Pokemon: "Ampharos", Nickname: "AAAAAAAAAA", Level: 48, Gender: "Female" },
+                            { Pokemon: "Swalot", Level: 48, Gender: "Female" },
+                            { Pokemon: "Claydol", Nickname: "cDddDDDDDD", Level: 45 },
+                            { Pokemon: "Sharpedo", Nickname: "AAAAAAAAAA", Level: 50, Gender: "Male" },
+                            { Pokemon: "Walrein", Nickname: "//z   ppp ", Level: 67, Gender: "Male" },
+                            { Pokemon: "Shiftry", Level: 49, Gender: "Male" },
+                        ],
+                        Image: "img/ribbons/national.png"
                     },
                     { "Name": "Eevee", "Time": "0d 0h 3m", "Group": "Pokemon" },
                     { "Name": "Teddiursa", "Time": "0d 1h 42m", "Group": "Pokemon" },
@@ -4869,13 +4957,13 @@ var tppData = [
                     { "Group": "Elite Four", "Name": "Mura", "Time": "9d 1h 3m", "Attempts": 5, "Image": "img/trainers/prism/mura.png" },
                     { "Group": "Champions", "Name": "Lance", "Time": "9d 11h 19m", "Attempts": 9, "Image": "img/trainers/prism/lance.png" },
                     {
-                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 11h 20m", Attempts: 36, IdNo: "59484", Party: [
-                            { Number: 38, Pokemon: "Ninetales", Gender: "Female", Nickname: "FFFEEEF", Level: 83 },
-                            { Number: 24, Pokemon: "Lopunny", Gender: "Male", Nickname: "EEEE", Level: 59 },
-                            { Number: 181, Pokemon: "Ampharos", Gender: "Male", Level: 60 },
-                            { Number: 165, Pokemon: "Gardevoir", Gender: "Male", Nickname: "IMmMMLLIR", Level: 61 },
-                            { Number: 248, Pokemon: "Tyranitar", Gender: "Female", Nickname: "I!C", Level: 76 },
-                            { Number: 184, Pokemon: "Azumarill", Gender: "Female", Nickname: "YYYYXOOOOO", Level: 85 }
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 11h 20m", Attempts: 36, IDNo: "59484", Party: [
+                            { Number: 38, Pokemon: "Ninetales", Gender: "Female", Nickname: "FFFEEEF", Level: 83, IDNo: "59484" },
+                            { Number: 24, Pokemon: "Lopunny", Gender: "Male", Nickname: "EEEE", Level: 59, IDNo: "59484" },
+                            { Number: 181, Pokemon: "Ampharos", Gender: "Male", Level: 60, IDNo: "59484" },
+                            { Number: 165, Pokemon: "Gardevoir", Gender: "Male", Nickname: "IMmMMLLIR", Level: 61, IDNo: "59484" },
+                            { Number: 248, Pokemon: "Tyranitar", Gender: "Female", Nickname: "I!C", Level: 76, IDNo: "59484" },
+                            { Number: 184, Pokemon: "Azumarill", Gender: "Female", Nickname: "YYYYXOOOOO", Level: 85, IDNo: "59484" }
                         ],
                         Image: "img/ribbons/champion.png"
                     },
@@ -4942,7 +5030,7 @@ var tppData = [
                     { "Group": "Elite Four", "Name": "Mura", "Time": "16d 6h 21m", "Attempts": 3, "Image": "img/trainers/prism/rematch/mura.png" },
                     { "Group": "Champions", "Name": "Lance", "Time": "16d 9h 32m", "Attempts": 4, "Image": "img/trainers/prism/rematch/lance.png" },
                     {
-                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 9h 33m", Attempts: 10, IdNo: "59484", Party: [
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 9h 33m", Attempts: 10, IDNo: "59484", Party: [
                             { Number: 38, Pokemon: "Ninetales", Gender: "Female", Nickname: "FFFEEEF", Level: 100 },
                             { Number: 181, Pokemon: "Ampharos", Gender: "Male", Level: 88 },
                             { Number: 248, Pokemon: "Tyranitar", Gender: "Female", Nickname: "I!C", Level: 100 },

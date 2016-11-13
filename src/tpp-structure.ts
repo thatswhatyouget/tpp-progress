@@ -80,7 +80,7 @@ module TPP {
             Pokemon: string;
             Level: number;
             Gender?: "Male" | "Female";
-            Number?: number;
+            Number?: number | string;
             Type1?: string;
             Type2?: string;
             OT?: string;
