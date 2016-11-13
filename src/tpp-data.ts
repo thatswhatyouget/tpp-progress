@@ -815,12 +815,12 @@ var tppData: TPP.Collection[] = [
                     },
                     <TPP.HallOfFame>{
                         Group: "Hall of Fame", Name: "Hall of Fame", Time: "17d 11h 40m", IDNo: "12339", Attempts: 49, Party: [
-                            { Pokemon: "Shinx", Nickname: "0”☀ ☀0☀☺ ☹", Level: 63, Gender: "Female", Met: "Route 203" },
-                            { Pokemon: "Bibarel", Nickname: "00  00 06", Level: 93, Gender: "Female", Met: "Route 209" },
-                            { Pokemon: "Flareon", Level: 97, Gender: "Male", Met: "Hearthome City" },
-                            { Pokemon: "Golbat", Level: 60, Gender: "Male", Met: "Mt. Coronet" },
-                            { Pokemon: "Bronzong", Level: 54, Met: "Mt. Coronet" },
-                            { Pokemon: "Roserade", Nickname: "!☂!!☀! !:1", Level: 71, Gender: "Male", Met: "Route 204" },
+                            { Pokemon: "Shinx", Nickname: "0”☀ ☀0☀☺ ☹", Level: 63, Gender: "Female", Met: "Route 203", OT: "nqpppnl" },
+                            { Pokemon: "Bibarel", Nickname: "00  00 06", Level: 93, Gender: "Female", Met: "Route 209", OT: "nqpppnl" },
+                            { Pokemon: "Flareon", Level: 97, Gender: "Male", Met: "Hearthome City", OT: "nqpppnl" },
+                            { Pokemon: "Golbat", Level: 60, Gender: "Male", Met: "Mt. Coronet", OT: "nqpppnl" },
+                            { Pokemon: "Bronzong", Level: 54, Met: "Mt. Coronet", OT: "nqpppnl" },
+                            { Pokemon: "Roserade", Nickname: "!☂!!☀! !:1", Level: 71, Gender: "Male", Met: "Route 204", OT: "nqpppnl" },
                         ],
                         Image: "img/ribbons/champion-sinnoh.png"
                     },
@@ -1097,7 +1097,7 @@ var tppData: TPP.Collection[] = [
                         Name: "Lance",
                         Image: "img/randomized/heartgold/rematch/lance.png",
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27iqep/displaying_them_all_in_one_go_all_sprites_for_gym/",
-                        Time: "16d 10h 56m",
+                        Time: "16d 11h 56m",
                         Attempts: 5
                     },
                     {
@@ -1107,28 +1107,27 @@ var tppData: TPP.Collection[] = [
                         Time: "18d 20h 33m",
                         Attempts: 5
                     },
-                    // <TPP.HallOfFame>{
-                    //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "17d 11h 40m", IDNo: "12339", Attempts: 49, Party: [
-                    //         { Pokemon: "Shinx", Nickname: "0”☀ ☀0☀☺ ☹", Level: 63, Gender: "Female", Met: "Route 203" },
-                    //         { Pokemon: "Bibarel", Nickname: "00  00 06", Level: 93, Gender: "Female", Met: "Route 209" },
-                    //         { Pokemon: "Flareon", Level: 97, Gender: "Male", Met: "Hearthome City" },
-                    //         { Pokemon: "Golbat", Level: 60, Gender: "Male", Met: "Mt. Coronet" },
-                    //         { Pokemon: "Bronzong", Level: 54, Met: "Mt. Coronet" },
-                    //         { Pokemon: "Roserade", Nickname: "!☂!!☀! !:1", Level: 71, Gender: "Male", Met: "Route 204" },
-                    //     ],
-                    //     Image: "img/ribbons/champion-sinnoh.png"
-                    // },
-                    // <TPP.HallOfFame>{
-                    //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "17d 11h 40m", IDNo: "12339", Attempts: 49, Party: [
-                    //         { Pokemon: "Shinx", Nickname: "0”☀ ☀0☀☺ ☹", Level: 63, Gender: "Female", Met: "Route 203" },
-                    //         { Pokemon: "Bibarel", Nickname: "00  00 06", Level: 93, Gender: "Female", Met: "Route 209" },
-                    //         { Pokemon: "Flareon", Level: 97, Gender: "Male", Met: "Hearthome City" },
-                    //         { Pokemon: "Golbat", Level: 60, Gender: "Male", Met: "Mt. Coronet" },
-                    //         { Pokemon: "Bronzong", Level: 54, Met: "Mt. Coronet" },
-                    //         { Pokemon: "Roserade", Nickname: "!☂!!☀! !:1", Level: 71, Gender: "Male", Met: "Route 204" },
-                    //     ],
-                    //     Image: "img/ribbons/champion-sinnoh.png"
-                    // },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "11d 9h 10m", IDNo: "28412", Attempts: 26, Party: [
+                            { Pokemon: "Sudowoodo", Nickname: "A", Level: 63, Gender: "Male", Met: "Mt. Mortar", OT: "aoooo" },
+                            { Pokemon: "Cranidos", Nickname: "6 ♢'j", Level: 37, Gender: "Male", Met: "Route 36", OT: "aoooo" },
+                            { Pokemon: "Bastiodon", Level: 57, Gender: "Male", Met: "Victory Road", OT: "aoooo" },
+                            { Pokemon: "Vibrava", Nickname: ",", Level: 65, Gender: "Female", Met: "New Bark Town", OT: "aoooo" },
+                            { Pokemon: "Xatu", Nickname: "xrr♂ ♢ ", Level: 67, Shiny: true, Met: "Lake of Rage", OT: "aoooo" },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 11h 57m", IDNo: "28412", Attempts: 34, Party: [
+                            { Pokemon: "Cranidos", Nickname: "6 ♢'j", Level: 48, Gender: "Male", Met: "Route 36", OT: "aoooo" },
+                            { Pokemon: "Omastar", Level: 92, Gender: "Male", Met: "Vermilion City", OT: "aoooo" },
+                            { Pokemon: "Bastiodon", Level: 78, Gender: "Male", Met: "Victory Road", OT: "aoooo" },
+                            { Pokemon: "Vibrava", Nickname: ",", Level: 82, Gender: "Female", Met: "New Bark Town", OT: "aoooo" },
+                            { Pokemon: "Xatu", Nickname: "xrr♂ ♢ ", Level: 93, Shiny: true, Met: "Lake of Rage", OT: "aoooo" },
+                            { Pokemon: "Sudowoodo", Nickname: "A", Level: 76, Gender: "Male", Met: "Mt. Mortar", OT: "aoooo" },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                     { Name: "Caterpie", Time: "13d 14h 38m", Group: "Pokemon" },
                     { Name: "Weedle", Time: "10d 13h 35m", Group: "Pokemon" },
                     { Name: "Beedrill", Time: "14d 14h 3m", Group: "Pokemon" },
