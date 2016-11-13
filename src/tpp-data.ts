@@ -5666,12 +5666,12 @@ var tppData: TPP.Collection[] = [
                     { Group: "Champions", Name: "LUM", Image: "img/trainers/firered/green.png", Time: "2016-10-28T10:19:28Z", Attempts: 1 },
                     <TPP.HallOfFame>{
                         Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "2016-10-28T15:12:58Z", IDNo: "", Attempts: 1, Party: [
-                            { Pokemon: "Zapdos", Nickname: "CHAT", Level: 54, Number: 0, IDNo: "" },
+                            { Pokemon: "Zapdos", Class:"ultra", Nickname: "CHAT", Level: 54, Number: 0, IDNo: "" },
                             { Pokemon: "Mewtwo", Nickname: "SAC", Level: 71, Number: 0, IDNo: "" },
                             { Pokemon: "Solrock", Nickname: "BOOB", Level: 8, Number: 0, IDNo: "" },
                             { Pokemon: "Paras", Nickname: "BEES", Level: 10, Gender: "Male", Number: 0, IDNo: "" },
                             { Pokemon: "Shuppet", Nickname: "Mmm!♂", Level: 20, Gender: "Male", Number: 0, IDNo: "" },
-                            { Pokemon: "Blastoise", Nickname: "LUL", Level: 39, Gender: "Male", Number: 0, IDNo: "" },
+                            { Pokemon: "Blastoise", Class:"ultra", Nickname: "LUL", Level: 39, Gender: "Male", Number: 0, IDNo: "" },
                         ],
                         Image: "img/ribbons/champion.png"
                     },
@@ -5722,7 +5722,7 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Lugia", Time: "2016-04-13T02:50:00Z" },
                     { Group: "Pokemon", Name: "Huntail", Time: "2016-04-13T03:57:00Z" },
                     <TPP.HallOfFame>{
-                        Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "2016-04-13T00:17:00Z", IDNo: "56171", Party: [
+                        Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "2016-04-13T00:17:00Z", IDNo: "56171", Party: [
                             { Pokemon: "Altaria", Level: 70, Gender: "Female", Number: 334, IDNo: "56171" },
                             { Pokemon: "Blastoise", Nickname: "TTABCIJIJD", Level: 65, Gender: "Male", Number: 9, IDNo: "56171" },
                             { Pokemon: "Masquerain", Nickname: "AATUUUUNN", Level: 61, Gender: "Male", Number: 284, IDNo: "56171" },
