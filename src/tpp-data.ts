@@ -310,7 +310,7 @@ var tppData: TPP.Collection[] = [
                     },
                     <TPP.HallOfFame>{
                         Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "9d 21h 27m", IDNo: "47901", Attempts: 38, Party: [
-                            { Pokemon: "Espeon", Nickname: "AAAS RJ-1", Level: 49, Gender: "Male", Number: 196, IDNo: "47901" },
+                            { Pokemon: "Espeon", Nickname: "AAAS RJ-I", Level: 49, Gender: "Male", Number: 196, IDNo: "47901" },
                             { Pokemon: "Steelix", Nickname: "AAJRR RRR", Level: 48, Gender: "Male", Number: 208, IDNo: "47901" },
                             { Pokemon: "Raticate", Nickname: "A", Level: 37, Gender: "Male", Number: 20, IDNo: "47901" },
                             { Pokemon: "Feraligatr", Nickname: "AAAAAtttta", Level: 78, Gender: "Male", Number: 160, IDNo: "47901" },
@@ -323,7 +323,7 @@ var tppData: TPP.Collection[] = [
                         Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "13d 5h 56m", IDNo: "47901", Attempts: 2, Party: [
                             { Pokemon: "Steelix", Nickname: "AAJRR RRR", Level: 73, Gender: "Male", Number: 208, IDNo: "47901" },
                             { Pokemon: "Dragonite", Nickname: "KT", Level: 63, Gender: "Female", Number: 149, IDNo: "47901" },
-                            { Pokemon: "Espeon", Nickname: "AAAS RJ-1", Level: 54, Gender: "Male", Number: 196, IDNo: "47901" },
+                            { Pokemon: "Espeon", Nickname: "AAAS RJ-I", Level: 54, Gender: "Male", Number: 196, IDNo: "47901" },
                             { Pokemon: "Feraligatr", Nickname: "AAAAAtttta", Level: 85, Gender: "Male", Number: 160, IDNo: "47901" },
                             { Pokemon: "Pidgeot", Nickname: "BBBBBD", Level: 64, Gender: "Male", Number: 18, IDNo: "47901" },
                         ],
@@ -5353,6 +5353,17 @@ var tppData: TPP.Collection[] = [
                         ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",
                         Time: "2015-11-10T10:09:48Z"
                     },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "2015-09-10T04:07:06Z", IDNo: "30818", Party: [
+                            { Number: 157, Pokemon: "BAGEP", Class: "Typhlosion", Gender: "Male", Nickname: "BEST", Level: 59, IDNo: "30818" },
+                            { Number: 245, Pokemon: "DON", Class: "Suicune", Nickname: "DONG", Level: 45, IDNo: "30818" },
+                            { Number: 16, Pokemon: "LAP", Class: "Pidgey", Gender: "Female", Nickname: "EVER", Level: 10, IDNo: "30818" },
+                            { Number: 185, Pokemon: "HUSHU", Class: "Sudowoodo", Gender: "Female", Nickname: "FAKE", Level: 20, IDNo: "30818" },
+                            { Number: 130, Pokemon: "JINDE", Class: "Gyarados", Shiny: true, Gender: "Male", Nickname: "DADA", Level: 31, IDNo: "30818" },
+                            { Number: 60, Pokemon: "NILEM", Class: "Poliwag", Nickname: "ORGY", Gender: "Female", Level: 12, IDNo: "30818" }
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                     { Name: "RIDED", Time: "2015-03-26T06:44:48Z", Group: "Pokemon", Class: "Cyndaquil" },
                     { Name: "MADAM", Time: "2015-04-10T06:52:36Z", Group: "Pokemon", Class: "Quilava" },
                     { Name: "BAGEP", Time: "2015-06-06T12:09:13Z", Group: "Pokemon", Class: "Typhlosion" },
@@ -5653,6 +5664,17 @@ var tppData: TPP.Collection[] = [
                     { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png", Time: "Sat Oct 08 2016 20:56:11 GMT+0000 (UTC)", Attempts: 1 },
                     { Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png", Time: "2016-10-27T12:17:15Z", Attempts: 1 },
                     { Group: "Champions", Name: "LUM", Image: "img/trainers/firered/green.png", Time: "2016-10-28T10:19:28Z", Attempts: 1 },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "2016-10-28T15:12:58Z", IDNo: "", Attempts: 1, Party: [
+                            { Pokemon: "Zapdos", Nickname: "CHAT", Level: 54, Number: 0, IDNo: "" },
+                            { Pokemon: "Mewtwo", Nickname: "SAC", Level: 71, Number: 0, IDNo: "" },
+                            { Pokemon: "Solrock", Nickname: "BOOB", Level: 8, Number: 0, IDNo: "" },
+                            { Pokemon: "Paras", Nickname: "BEES", Level: 10, Gender: "Male", Number: 0, IDNo: "" },
+                            { Pokemon: "Shuppet", Nickname: "Mmm!♂", Level: 20, Gender: "Male", Number: 0, IDNo: "" },
+                            { Pokemon: "Blastoise", Nickname: "LUL", Level: 39, Gender: "Male", Number: 0, IDNo: "" },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                 ]
             },
         ]
@@ -5699,7 +5721,17 @@ var tppData: TPP.Collection[] = [
                     { Group: "Champions", Name: "Green", Image: "img/trainers/firered/rematch/green.png", Time: "2016-04-13T00:15:00Z", Attempts: 5 },
                     { Group: "Pokemon", Name: "Lugia", Time: "2016-04-13T02:50:00Z" },
                     { Group: "Pokemon", Name: "Huntail", Time: "2016-04-13T03:57:00Z" },
-
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "2016-04-13T00:17:00Z", IDNo: "56171", Party: [
+                            { Pokemon: "Altaria", Level: 70, Gender: "Female", Number: 334, IDNo: "56171" },
+                            { Pokemon: "Blastoise", Nickname: "TTABCIJIJD", Level: 65, Gender: "Male", Number: 9, IDNo: "56171" },
+                            { Pokemon: "Masquerain", Nickname: "AATUUUUNN", Level: 61, Gender: "Male", Number: 284, IDNo: "56171" },
+                            { Pokemon: "Mew", Nickname: "MARC", Level: 71, Number: 151, IDNo: "01239" },
+                            { Pokemon: "Sandslash", Level: 65, Gender: "Female", Number: 28, IDNo: "56171" },
+                            { Pokemon: "Slaking", Nickname: "CCCDJCCCC5", Level: 80, Gender: "Male", Number: 289, IDNo: "56171" },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                 ],
                 Revisit: { Collection: "Season 1", Run: "Randomized FireRed" },
                 CopyEvents: ["Randomized FireRed"],
@@ -5754,6 +5786,17 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Paras", Time: "2016-04-16T18:46:00Z" },
                     { Group: "Pokemon", Name: "Rhyhorn", Time: "2016-04-16T18:57:00Z" },
                     { Group: "Pokemon", Name: "NidoranF", Time: "2016-04-16T19:19:00Z" },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame #3", Time: "2016-04-16T06:27:00Z", IDNo: "47901", Attempts: 1, Party: [
+                            { Pokemon: "Steelix", Nickname: "AAJRR RRR", Level: 77, Gender: "Male", Number: 208, IDNo: "47901" },
+                            { Pokemon: "Dragonite", Nickname: "KT", Level: 63, Gender: "Female", Number: 149, IDNo: "47901" },
+                            { Pokemon: "Espeon", Nickname: "AAAS RJ-I", Level: 55, Gender: "Male", Number: 196, IDNo: "47901" },
+                            { Pokemon: "Feraligatr", Nickname: "AAAAAtttta", Level: 85, Gender: "Male", Number: 160, IDNo: "47901" },
+                            { Pokemon: "Pidgeot", Nickname: "BBBBBD", Level: 64, Gender: "Male", Number: 18, IDNo: "47901" },
+                            { Pokemon: "Raticate", Nickname: "A", Level: 39, Gender: "Male", Number: 20, IDNo: "47901" },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                 ],
                 Revisit: { Collection: "Season 1", Run: "Crystal" },
                 CopyEvents: ["Crystal"],
@@ -5802,7 +5845,17 @@ var tppData: TPP.Collection[] = [
                     { Name: "YED", Time: "2016-06-16T15:46:00Z", Group: "Pokemon", Class: "Slowpoke" },
                     { Name: "LAT", Time: "2016-06-16T16:20:00Z", Group: "Pokemon", Class: "Raticate" },
                     { Name: "YEDEA", Time: "2016-06-16T16:32:00Z", Group: "Pokemon", Class: "Noctowl" },
-
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "2016-06-16T11:55:00Z", IDNo: "30818", Party: [
+                            { Number: 157, Pokemon: "BAGEP", Class: "Typhlosion", Gender: "Male", Nickname: "BEST", Level: 80, IDNo: "30818" },
+                            { Number: 245, Pokemon: "DON", Class: "Suicune", Nickname: "DONG", Level: 46, IDNo: "30818" },
+                            { Number: 16, Pokemon: "LAP", Class: "Pidgey", Gender: "Female", Nickname: "EVER", Level: 12, IDNo: "30818" },
+                            { Number: 130, Pokemon: "JINDE", Class: "Gyarados", Shiny: true, Gender: "Male", Nickname: "DADA", Level: 31, IDNo: "30818" },
+                            { Number: 60, Pokemon: "NILEM", Class: "Poliwag", Nickname: "ORGY", Gender: "Female", Level: 12, IDNo: "30818" },
+                            { Number: 175, Pokemon: "DEKE", Class: "Togepi", Nickname: "DEKU", Level: 5, IDNo: "30818" },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                 ],
                 Revisit: { Collection: "Sidegames", Run: "Vietnamese Crystal" },
                 CopyEvents: ["Vietnamese Crystal"],
