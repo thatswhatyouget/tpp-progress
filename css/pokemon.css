@@ -1768,3 +1768,6 @@
 { background-size: 50%!important; background-position: center!important; }
 
 .pokesprite.jellicent.female img  { background-image:url("../img/alternate/jellicent-female.png")!important; background-position: center!important; } 
+.pokesprite.azumarill.shiny img  { background-image:url("../img/alternate/azumarill-shiny.png")!important; background-position: center!important; } 
+.pokesprite.xatu.shiny img  { background-image:url("../img/alternate/xatu-shiny.png")!important; background-position: center!important; } 
+.pokesprite.plusle.shiny img  { background-image:url("../img/alternate/plusle-shiny.png")!important; background-position: center!important; } 
