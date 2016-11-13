@@ -110,7 +110,7 @@ var tppData = [
                         Attempts: 2
                     },
                     {
-                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 7h 44m 42s", Attempts: 22, Party: [
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 7h 44m", Attempts: 22, Party: [
                             { Pokemon: "Zapdos", Nickname: "AA-j", Level: 81, Type1: "Electric", Type2: "Flying" },
                             { Pokemon: "Nidoking", Nickname: "AAAAAAAAAA", Level: 54, Type1: "Poison", Type2: "Ground" },
                             { Pokemon: "Omastar", Level: 52, Type1: "Rock", Type2: "Water" },
@@ -1709,6 +1709,17 @@ var tppData = [
                         Time: "5d 4h 51m",
                         Attempts: 4
                     },
+                    {
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "5d 4h 53m", Attempts: 21, Party: [
+                            { Pokemon: "Lapras", Nickname: "! ♀o?04+6eAd", Level: 68, Gender: "Male" },
+                            { Pokemon: "Charizard", Nickname: "!taj11yygaaa", Level: 81, Gender: "Male" },
+                            { Pokemon: "Absol", Nickname: "QQYyy25o6wf7", Level: 70, Gender: "Female" },
+                            { Pokemon: "Xerneas", Level: 80 },
+                            { Pokemon: "Hawlucha", Level: 72, Gender: "Female" },
+                            { Pokemon: "Aegislash", Nickname: "Oi!oiswhhve!", Level: 93, Gender: "Female" },
+                        ],
+                        Image: "img/ribbons/champion-kalos.png"
+                    },
                     { Name: "Chespin", Time: "20m", Group: "Pokemon" },
                     { Name: "Weedle", Time: "54m", Group: "Pokemon" },
                     { Name: "Scatterbug", Time: "1h", Group: "Pokemon" },
@@ -2027,6 +2038,28 @@ var tppData = [
                         Image: "img/trainers/emerald/rematch/steven.png",
                         Time: "8d 5h 42m",
                         Attempts: 1
+                    },
+                    {
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "6d 20h 18m", Attempts: 19, Party: [
+                            { Pokemon: "Manectric", Nickname: "w6aa:nn5ek22", Level: 63, Gender: "Female" },
+                            { Pokemon: "Azumarill", Nickname: "!t44444’’’tu", Level: 79, Gender: "Female" },
+                            { Pokemon: "Minun", Nickname: "♀2e!0yy5ee2y", Level: 76, Gender: "Male" },
+                            { Pokemon: "Exploud", Nickname: "Whismur  v", Level: 69, Gender: "Male" },
+                            { Pokemon: "Latios", Level: 66, Gender: "Male" },
+                            { Pokemon: "Linoone", Nickname: "Zigzagoony  ", Level: 67, Gender: "Female" },
+                        ],
+                        Image: "img/ribbons/champion-hoenn.png"
+                    },
+                    {
+                        Group: "Hall of Fame", Name: "Hall of Fame", Time: "8d 5h 44m", Attempts: 27, Party: [
+                            { Pokemon: "Rayquaza", Nickname: "'strssss2stt", Level: 90 },
+                            { Pokemon: "Linoone", Nickname: "Zigzagoony  ", Level: 88, Gender: "Female" },
+                            { Pokemon: "Minun", Nickname: "♀2e!0yy5ee2y", Level: 100, Gender: "Male" },
+                            { Pokemon: "Latios", Level: 86, Gender: "Male" },
+                            { Pokemon: "Azumarill", Nickname: "!t44444’’’tu", Level: 100, Gender: "Female" },
+                            { Pokemon: "Exploud", Nickname: "Whismur  v", Level: 94, Gender: "Male" },
+                        ],
+                        Image: "img/ribbons/champion-hoenn.png"
                     },
                     { Name: "Torchic", Time: "12m", Group: "Pokemon" },
                     { Name: "Combusken", Time: "8h11m", Group: "Pokemon" },
