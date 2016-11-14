@@ -233,3 +233,9 @@ var QueryString = (() => {
     });
     return retobj;
 })();
+
+function SerializeQueryString() {
+    if (Object.keys(QueryString).filter(k=>QueryString[k]).length)
+        return "?" + Object.keys(QueryString).filter(k=>QueryString[k]).map(k => k + (QueryString[k] == "true" ? "" : "=" + encodeURI(QueryString[k]))).join('&');
+    return "";
+}

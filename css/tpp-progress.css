@@ -104,6 +104,30 @@ ul.controls > li > ul > li > * {
 	font-size:.8em;
 }
 
+ul.controls > li > ul > li > a {
+	color:black;
+	text-decoration: none;
+}
+
+ul.controls > li > ul > li > a:hover{
+	text-decoration: underline;
+}
+
+ul.controls > li > ul > li > a:before {
+	content:'';
+	font-family: FontAwesome;
+	padding-right:.25em;
+	text-decoration: none!important;
+}
+
+ul.controls > li > ul > li.selected > a {
+	font-weight: bold;
+}
+
+ul.controls > li > ul > li.selected > a:before {
+	content:'';
+}
+
 .progressChart {
 	box-sizing:content-box;
 	float:left;

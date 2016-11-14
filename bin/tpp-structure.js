@@ -120,3 +120,8 @@ var QueryString = (function () {
     });
     return retobj;
 })();
+function SerializeQueryString() {
+    if (Object.keys(QueryString).length)
+        return "?" + Object.keys(QueryString).filter(function (k) { return QueryString[k]; }).map(function (k) { return k + (QueryString[k] == "true" ? "" : "=" + encodeURI(QueryString[k])); }).join('&');
+    return "";
+}

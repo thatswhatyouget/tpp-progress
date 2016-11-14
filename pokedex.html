@@ -111,6 +111,65 @@
 	<div class="pokedex" id="pokedex">
 		<script>$("#pokedex").append(generateGlobalDex(tppData));</script>
 	</div>
+	<ul class="controls">
+		<li class="generations">
+			<i class="fa fa-gamepad" title="Generations"></i>
+			<ul>
+			</ul>
+		</li>
+		<li class="regional">
+			<i class="fa fa-globe" title="Regions"></i>
+			<ul>
+			</ul>
+		</li>
+        <li class="options">
+			<i class="fa fa-sliders" title="Options"></i>
+			<ul>
+			</ul>
+		</li>
+	</ul>
+	<script>
+		var gen = QueryString['g'];
+		QueryString['g'] = null;
+		for (var i = 0; i < GenSlice.length; i++) {
+			var $li = $('<li>');
+			var $a = $('<a>').appendTo($li);
+			if (!i) $a.text('All');
+			else $a.text('Generation ' + (QueryString['g'] = i));
+			$a.attr('href', window.location.href.split('?').shift() + SerializeQueryString());
+			if (i == gen) $li.addClass('selected');
+			$('li.generations ul').append($li);
+		}
+		QueryString['g'] = gen;
+		var dex = QueryString['dex'];
+		QueryString['dex'] = null;
+		Object.keys(Regional).forEach(function(region) {
+			var $li = $('<li>');
+			var $a = $('<a>').appendTo($li);
+			$a.text(region);
+			if (region == "National") region = null;
+			QueryString['dex'] = region;
+			$a.attr('href', window.location.href.split('?').shift() + SerializeQueryString());
+			if (region == dex) $li.addClass('selected');
+			$('li.regional ul').append($li);
+		});
+		QueryString['dex'] = dex;
+		[
+			["justmon", "Just List Pokémon"],
+			["nowifi", "Exclude Wi-Fi Trades"]
+		].forEach(function(opt) {
+			var $li = $('<li>');
+			var $a = $('<a>').appendTo($li);
+			$a.text(opt[1]);
+			var optVal = QueryString[opt[0]];
+			if (optVal === "true") QueryString[opt[0]] = null;
+			else QueryString[opt[0]] = "true";
+			$a.attr('href', window.location.href.split('?').shift() + SerializeQueryString());
+			QueryString[opt[0]] = optVal;
+			if (optVal === "true") $li.addClass('selected');
+			$('li.options ul').append($li);
+		});
+	</script>
 </body>
 
 </html>
