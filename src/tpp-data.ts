@@ -1113,7 +1113,7 @@ var tppData: TPP.Collection[] = [
                             { Pokemon: "Cranidos", Nickname: "6 ♢'j", Level: 37, Gender: "Male", Met: "Route 36", OT: "aoooo" },
                             { Pokemon: "Bastiodon", Level: 57, Gender: "Male", Met: "Victory Road", OT: "aoooo" },
                             { Pokemon: "Vibrava", Nickname: ",", Level: 65, Gender: "Female", Met: "New Bark Town", OT: "aoooo" },
-                            { Pokemon: "Xatu", Nickname: "xrr♂ ♢ ", Level: 67, Shiny: true, Met: "Lake of Rage", OT: "aoooo" },
+                            { Pokemon: "Xatu", Nickname: "xrr♂ ♢ ", Level: 67, Gender: "Female", Shiny: true, Met: "Lake of Rage", OT: "aoooo" },
                         ],
                         Image: "img/ribbons/champion.png"
                     },
@@ -1123,7 +1123,7 @@ var tppData: TPP.Collection[] = [
                             { Pokemon: "Omastar", Level: 92, Gender: "Male", Met: "Vermilion City", OT: "aoooo" },
                             { Pokemon: "Bastiodon", Level: 78, Gender: "Male", Met: "Victory Road", OT: "aoooo" },
                             { Pokemon: "Vibrava", Nickname: ",", Level: 82, Gender: "Female", Met: "New Bark Town", OT: "aoooo" },
-                            { Pokemon: "Xatu", Nickname: "xrr♂ ♢ ", Level: 93, Shiny: true, Met: "Lake of Rage", OT: "aoooo" },
+                            { Pokemon: "Xatu", Nickname: "xrr♂ ♢ ", Level: 93, Gender:"Female", Shiny: true, Met: "Lake of Rage", OT: "aoooo" },
                             { Pokemon: "Sudowoodo", Nickname: "A", Level: 76, Gender: "Male", Met: "Mt. Mortar", OT: "aoooo" },
                         ],
                         Image: "img/ribbons/champion.png"
@@ -5676,7 +5676,7 @@ var tppData: TPP.Collection[] = [
                     { Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png", Time: "2016-10-27T12:17:15Z", Attempts: 1 },
                     { Group: "Champions", Name: "LUM", Image: "img/trainers/firered/green.png", Time: "2016-10-28T10:19:28Z", Attempts: 1 },
                     <TPP.HallOfFame>{
-                        Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "2016-10-28T15:12:58Z", IDNo: "", Attempts: 1, Party: [
+                        Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "2016-10-28T15:12:58Z", IDNo: "", Attempts: 1, Party: [
                             { Pokemon: "Zapdos", Class:"ultra", Nickname: "CHAT", Level: 54, Number: 0, IDNo: "" },
                             { Pokemon: "Mewtwo", Nickname: "SAC", Level: 71, Number: 0, IDNo: "" },
                             { Pokemon: "Solrock", Nickname: "BOOB", Level: 8, Number: 0, IDNo: "" },
@@ -5863,7 +5863,7 @@ var tppData: TPP.Collection[] = [
                             { Number: 16, Pokemon: "LAP", Class: "Pidgey", Gender: "Female", Nickname: "EVER", Level: 12, IDNo: "30818" },
                             { Number: 130, Pokemon: "JINDE", Class: "Gyarados", Shiny: true, Gender: "Male", Nickname: "DADA", Level: 31, IDNo: "30818" },
                             { Number: 60, Pokemon: "NILEM", Class: "Poliwag", Nickname: "ORGY", Gender: "Female", Level: 12, IDNo: "30818" },
-                            { Number: 175, Pokemon: "DEKE", Class: "Togepi", Nickname: "DEKU", Level: 5, IDNo: "30818" },
+                            { Number: 175, Pokemon: "DEKE", Class: "Togepi", Nickname: "DEKU", Gender: "Male", Level: 5, IDNo: "30818" },
                         ],
                         Image: "img/ribbons/champion.png"
                     },
