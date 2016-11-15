@@ -265,7 +265,7 @@ function drawHallOfFame(hofInfo: TPP.HallOfFame, runInfo: TPP.Run, scale = TPP.S
         $entry.append($("<span class='level'>").text(p.Level));
         $entry.append($("<div class='pokesprite'><img src='img/missingno.png'/></div>").addClass(cleanString(p.Pokemon)).addClass(p.Shiny ? "shiny" : "").addClass((p.Gender || "").toLowerCase()).addClass(p.Class));
         var $info = $("<div class='info'>").append($("<div class='name'>").html(name)).appendTo($entry);
-        if (p.PreviousNick) $info.append($("<div data-entry='Née'>").text(p.PreviousNick));
+        //if (p.PreviousNick) $info.append($("<div data-entry='Née'>").text(p.PreviousNick));
         if (p.Number) {
             var idx = p.Number.toString(), index = ('000' + idx).substring(idx.length);
             $info.append($("<div data-entry='" + index + "'>").text(p.Pokemon));
