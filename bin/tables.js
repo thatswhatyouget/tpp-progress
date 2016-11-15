@@ -13,6 +13,7 @@ var PokedexSummary = (function () {
     function PokedexSummary(Run) {
         var _this = this;
         this.Run = Run;
+        this.HallOfFame = [];
         if (Run.Events.filter(function (e) { return e.Group == "Pokemon" && (PokeList.indexOf(e.Name) >= 0 || PokeList.indexOf(e.Class) >= 0); }).length) {
             this.OwnedDict = {};
             PokeList.forEach(function (p) { return _this.OwnedDict[p] = false; });
@@ -22,6 +23,19 @@ var PokedexSummary = (function () {
                 else if (PokeList.indexOf(p.Class) >= 0)
                     _this.OwnedDict[p.Class] = Duration.parse(p.Time, Run.StartTime).TotalSeconds + Run.StartTime;
             });
+            Run.Events.filter(function (e) { return e.Party && Duration.parse(e.Time, Run.StartTime).TotalSeconds >= 0; }).forEach(function (hof) { return hof.Party.forEach(function (p) {
+                var mon = PokeList.indexOf(p.Pokemon) >= 0 ? p.Pokemon : PokeList.indexOf(p.Class) >= 0 ? p.Class : null;
+                if (mon) {
+                    _this.HallOfFame.push({
+                        Pokemon: mon,
+                        Ribbon: hof.Image,
+                        RunName: Run.RunName,
+                        HostName: Run.HostName,
+                        Nickname: p.Nickname || p.Pokemon,
+                        Time: Duration.parse(hof.Time, Run.StartTime).TotalSeconds + Run.StartTime
+                    });
+                }
+            }); });
         }
     }
     return PokedexSummary;
@@ -66,6 +80,7 @@ function generateGlobalDex(tppData) {
     QueryString["g"] = QueryString["g"] || "6";
     var element = $("<div>").append("<i class='fa fa-spinner fa-pulse'>");
     var skipCheckOwnership = QueryString["justmon"];
+    var hofOnly = !!QueryString["hofonly"];
     if (QueryString["nowifi"]) {
         tppData.forEach(function (c) { return c.Runs.forEach(function (r) { return r.Events = r.Events.filter(function (e) { return e.Class != "WifiTrade"; }); }); });
     }
@@ -98,7 +113,9 @@ function generateGlobalDex(tppData) {
     }
     dexSummarize(tppData).then(function (summaries) {
         summaries = summaries.sort(function (s1, s2) { return s1.Run.StartTime - s2.Run.StartTime; });
+        var hofData = summaries.map(function (s) { return s.HallOfFame; }).reduce(function (a, b) { return a.concat(b); }).sort(function (h1, h2) { return h1.Time - h2.Time; });
         var fullList = {};
+        console.dir(hofData);
         element.find('*').remove();
         element.append(PokeList.map(function (p, i) {
             if (!p)
@@ -115,6 +132,17 @@ function generateGlobalDex(tppData) {
                 $entry.addClass('owned');
             }
             else {
+                var hofs = hofData.filter(function (mon) { return mon.Pokemon == p; });
+                if (hofs.length) {
+                    var $hofRibbons = $("<div>").addClass("hofRibbon").appendTo($entry);
+                    hofs.forEach(function (mon) {
+                        var title = mon.HostName + "'s " + mon.Nickname + " (" + mon.RunName + " - " + new Date(mon.Time * 1000).toLocaleDateString() + ")";
+                        $hofRibbons.append($("<img>").attr('src', mon.Ribbon).attr("alt", title).attr('title', title));
+                    });
+                }
+                else if (hofOnly) {
+                    return $entry.hide();
+                }
                 summaries.forEach(function (s) {
                     var addHost = ownedBy.push;
                     if (s.OwnedDict[p]) {

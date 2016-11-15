@@ -22,6 +22,7 @@
 	<meta charset="utf-8" />
 	<style>
 		.dexEntry {
+			position:relative;
 			display: inline-block;
 			margin: auto;
 			opacity: .2;
@@ -74,6 +75,17 @@
 		
 		.dexEntry .pokesprite.missingno img {
 			height: 100%;
+		}
+
+		.dexEntry .hofRibbon { 
+			position: absolute;
+			left:0;
+			top:0;
+			width:15%;
+		}
+
+		.dexEntry .hofRibbon img {
+			width:100%;
 		}
 
 		.ms .dexEntry .pokesprite:not(.missingno) img {
@@ -157,6 +169,7 @@
 		QueryString['dex'] = dex;
 		[
 			["justmon", "Just List Pokémon"],
+			["hofonly", "Only Show Hall of Fame Pokémon"],
 			["nowifi", "Exclude Wi-Fi Trades"]
 		].forEach(function(opt) {
 			var $li = $('<li>');
