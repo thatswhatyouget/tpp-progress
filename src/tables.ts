@@ -134,6 +134,7 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
     dexSummarize(tppData).then(summaries => {
         summaries = summaries.sort((s1, s2) => s1.Run.StartTime - s2.Run.StartTime);
         var hofData: HofInfo[] = summaries.map(s => s.HallOfFame).reduce((a,b)=>a.concat(b)).sort((h1, h2) => h1.Time - h2.Time);
+        hofData = hofData.filter(c=>hofData.filter(i=>i.HostName == c.HostName && i.Nickname == c.Nickname).shift() == c);
         var fullList = {};
         console.dir(hofData);
         element.find('*').remove();
@@ -155,7 +156,7 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
                 if (hofs.length) {
                     var $hofRibbons = $("<div>").addClass("hofRibbon").appendTo($entry);
                     hofs.forEach(mon => {
-                        var title = mon.HostName + "'s " + mon.Nickname + " (" + mon.RunName + " - " + new Date(mon.Time * 1000).toLocaleDateString() + ")";
+                        var title = mon.HostName + "'s " + mon.Nickname + " (" + mon.RunName + ")";
                         $hofRibbons.append($("<img>").attr('src', mon.Ribbon).attr("alt", title).attr('title', title));
                     });
                 }

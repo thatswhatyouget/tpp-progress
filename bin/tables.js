@@ -114,6 +114,7 @@ function generateGlobalDex(tppData) {
     dexSummarize(tppData).then(function (summaries) {
         summaries = summaries.sort(function (s1, s2) { return s1.Run.StartTime - s2.Run.StartTime; });
         var hofData = summaries.map(function (s) { return s.HallOfFame; }).reduce(function (a, b) { return a.concat(b); }).sort(function (h1, h2) { return h1.Time - h2.Time; });
+        hofData = hofData.filter(function (c) { return hofData.filter(function (i) { return i.HostName == c.HostName && i.Nickname == c.Nickname; }).shift() == c; });
         var fullList = {};
         console.dir(hofData);
         element.find('*').remove();
@@ -136,7 +137,7 @@ function generateGlobalDex(tppData) {
                 if (hofs.length) {
                     var $hofRibbons = $("<div>").addClass("hofRibbon").appendTo($entry);
                     hofs.forEach(function (mon) {
-                        var title = mon.HostName + "'s " + mon.Nickname + " (" + mon.RunName + " - " + new Date(mon.Time * 1000).toLocaleDateString() + ")";
+                        var title = mon.HostName + "'s " + mon.Nickname + " (" + mon.RunName + ")";
                         $hofRibbons.append($("<img>").attr('src', mon.Ribbon).attr("alt", title).attr('title', title));
                     });
                 }
