@@ -47,7 +47,7 @@ class PokedexSummary {
                         Ribbon: hof.Image,
                         RunName: Run.RunName,
                         HostName: Run.HostName,
-                        Nickname: p.Nickname || p.Pokemon,
+                        Nickname: (p.Nickname || p.Pokemon).replace(/π/g,'ᴾk').replace(/µ/g,'ᴹn'),
                         Time: Duration.parse(hof.Time, Run.StartTime).TotalSeconds + Run.StartTime
                     });
                 }
