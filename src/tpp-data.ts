@@ -5672,9 +5672,9 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Badges", "Name": "Earth Badge", "Time": "2016-10-06T04:52:11Z", "Attempts": 1, "Image": "img/badges/earth.png" },
                     { Group: "Elite Four", Name: "JAX", Image: "img/trainers/firered/bruno.png", Time: "2016-10-07T11:47:10Z", Attempts: 1 },
                     { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png", Time: "Fri Oct 07 2016 22:45:01 GMT+0000 (UTC)", Attempts: 1 },
-                    { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png", Time: "Sat Oct 08 2016 20:56:11 GMT+0000 (UTC)", Attempts: 1 },
-                    { Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png", Time: "2016-10-27T12:17:15Z", Attempts: 1 },
-                    { Group: "Champions", Name: "LUM", Image: "img/trainers/firered/green.png", Time: "2016-10-28T10:19:28Z", Attempts: 1 },
+                    { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/ultra/lorelei.png", Time: "Sat Oct 08 2016 20:56:11 GMT+0000 (UTC)", Attempts: 1 },
+                    { Group: "Elite Four", Name: "Lance", Image: "img/trainers/ultra/lance.png", Time: "2016-10-27T12:17:15Z", Attempts: 1 },
+                    { Group: "Champions", Name: "LUM", Image: "img/trainers/ultra/lum.png", Time: "2016-10-28T10:19:28Z", Attempts: 1 },
                     <TPP.HallOfFame>{
                         Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "2016-10-28T15:12:58Z", IDNo: "", Attempts: 1, Party: [
                             { Pokemon: "Zapdos", Class:"ultra", Nickname: "CHAT", Level: 54, Number: 0, IDNo: "" },

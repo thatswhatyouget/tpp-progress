@@ -1767,10 +1767,23 @@
 .event.pokemon.pokesprite.libabeel img
 { background-size: 50%!important; background-position: center!important; }
 
+.pokesprite.articuno.ultra img  { background-image:url("../img/alternate/ultra/articuno.png")!important; background-position: center!important; } 
+.pokesprite.blastoise.ultra img  { background-image:url("../img/alternate/ultra/blastoise.png")!important; background-position: center!important; } 
+.pokesprite.bulbasaur.ultra img  { background-image:url("../img/alternate/ultra/bulbasaur.png")!important; background-position: center!important; }
+.pokesprite.charizard.ultra img  { background-image:url("../img/alternate/ultra/charizard.png")!important; background-position: center!important; } 
+.pokesprite.charmander.ultra img  { background-image:url("../img/alternate/ultra/charmander.png")!important; background-position: center!important; } 
+.pokesprite.charmeleon.ultra img  { background-image:url("../img/alternate/ultra/charmeleon.png")!important; background-position: center!important; } 
+.pokesprite.ho-oh.ultra img  { background-image:url("../img/alternate/ultra/ho-oh.png")!important; background-position: center!important; } 
+.pokesprite.ivysaur.ultra img  { background-image:url("../img/alternate/ultra/ivysaur.png")!important; background-position: center!important; } 
+.pokesprite.lugia.ultra img  { background-image:url("../img/alternate/ultra/lugia.png")!important; background-position: center!important; } 
+.pokesprite.moltres.ultra img  { background-image:url("../img/alternate/ultra/moltres.png")!important; background-position: center!important; } 
+.pokesprite.squirtle.ultra img  { background-image:url("../img/alternate/ultra/squirtle.png")!important; background-position: center!important; } 
+.pokesprite.venusaur.ultra img  { background-image:url("../img/alternate/ultra/venusaur.png")!important; background-position: center!important; } 
+.pokesprite.wartortle.ultra img  { background-image:url("../img/alternate/ultra/wartortle.png")!important; background-position: center!important; } 
+.pokesprite.zapdos.ultra img  { background-image:url("../img/alternate/ultra/zapdos.png")!important; background-position: center!important; } 
+
 .pokesprite.jellicent.female img  { background-image:url("../img/alternate/jellicent-female.png")!important; background-position: center!important; } 
 .pokesprite.azumarill.shiny img  { background-image:url("../img/alternate/azumarill-shiny.png")!important; background-position: center!important; } 
 .pokesprite.xatu.shiny img  { background-image:url("../img/alternate/xatu-shiny.png")!important; background-position: center!important; } 
 .pokesprite.plusle.shiny img  { background-image:url("../img/alternate/plusle-shiny.png")!important; background-position: center!important; } 
 .pokesprite.gyarados.shiny img  { background-image:url("../img/alternate/gyarados-shiny.png")!important; background-position: center!important; } 
-.pokesprite.blastoise.ultra img  { background-image:url("../img/alternate/blastoise-ultra.png")!important; background-position: center!important; } 
-.pokesprite.zapdos.ultra img  { background-image:url("../img/alternate/zapdos-ultra.png")!important; background-position: center!important; } 
