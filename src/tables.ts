@@ -23,6 +23,7 @@ interface HofInfo {
         RunName: string;
         HostName: string;
         Nickname: string;
+        PreviousNick: string;
         Time: number;
     }
 
@@ -48,6 +49,7 @@ class PokedexSummary {
                         RunName: Run.RunName,
                         HostName: Run.HostName,
                         Nickname: (p.Nickname || p.Pokemon).replace(/π/g,'ᴾk').replace(/µ/g,'ᴹn'),
+                        PreviousNick: p.PreviousNick,
                         Time: Duration.parse(hof.Time, Run.StartTime).TotalSeconds + Run.StartTime
                     });
                 }
@@ -134,7 +136,7 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
     dexSummarize(tppData).then(summaries => {
         summaries = summaries.sort((s1, s2) => s1.Run.StartTime - s2.Run.StartTime);
         var hofData: HofInfo[] = summaries.map(s => s.HallOfFame).reduce((a,b)=>a.concat(b)).sort((h1, h2) => h1.Time - h2.Time);
-        hofData = hofData.filter(c=>hofData.filter(i=>i.HostName == c.HostName && i.Nickname == c.Nickname).shift() == c);
+        hofData = hofData.filter(c=>hofData.filter(i=>i.HostName == c.HostName && (i.Nickname == c.Nickname || i.PreviousNick == c.Nickname)).shift() == c);
         var fullList = {};
         console.dir(hofData);
         element.find('*').remove();

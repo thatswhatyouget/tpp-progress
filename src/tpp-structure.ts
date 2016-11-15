@@ -77,6 +77,7 @@ module TPP {
     export interface HallOfFame extends Event {
         Party: {
             Nickname?: string;
+            PreviousNick?: string;
             Pokemon: string;
             Level: number;
             Gender?: "Male" | "Female";

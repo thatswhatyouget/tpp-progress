@@ -2422,14 +2422,14 @@ var tppData: TPP.Collection[] = [
                             { Pokemon: "Alakazam", Nickname: "IIHNNMMMMM", Level: 83, Type1: "Psychic" },
                             { Pokemon: "Dragonite", Nickname: "AAA--xxµµµ", Level: 55, Type1: "Dragon", Type2: "Flying" },
                             { Pokemon: "Zapdos", Nickname: "(ssjj µ..,", Level: 100, Type1: "Electric", Type2: "Flying" },
-                            { Pokemon: "Slowbro", Nickname: "AAbbABCabb", Level: 100, Type1: "Water", Type2: "Psychic" },
+                            { Pokemon: "Slowbro", Nickname: "AAbbABCabb", Level: 100, Type1: "Water", Type2: "Psychic", PreviousNick: ",R  π,,," },
                             { Pokemon: "Cloyster", Nickname: "IIII--??(U", Level: 100, Type1: "Water", Type2: "Ice" },
                         ],
                         Image: "img/ribbons/champion.png"
                     },
                     <TPP.HallOfFame>{
                         Group: "Hall of Fame", Name: "Hall of Fame #3", Time: "39d 19h 18m", Attempts: 23, Party: [
-                            { Pokemon: "Slowbro", Nickname: "AAbbABCabb", Level: 100, Type1: "Water", Type2: "Psychic" },
+                            { Pokemon: "Slowbro", Nickname: "AAbbABCabb", Level: 100, Type1: "Water", Type2: "Psychic", PreviousNick: ",R  π,,," },
                             { Pokemon: "Venomoth", Nickname: "RRRRIIIIH", Level: 97, Type1: "Bug", Type2: "Poison" },
                             { Pokemon: "Cloyster", Nickname: "IIII--??(U", Level: 100, Type1: "Water", Type2: "Ice" },
                             { Pokemon: "Dragonite", Nickname: "AAA--xxµµµ", Level: 61, Type1: "Dragon", Type2: "Flying" },
