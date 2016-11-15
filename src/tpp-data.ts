@@ -5676,13 +5676,13 @@ var tppData: TPP.Collection[] = [
                     { Group: "Elite Four", Name: "Lance", Image: "img/trainers/ultra/lance.png", Time: "2016-10-27T12:17:15Z", Attempts: 1 },
                     { Group: "Champions", Name: "LUM", Image: "img/trainers/ultra/lum.png", Time: "2016-10-28T10:19:28Z", Attempts: 1 },
                     <TPP.HallOfFame>{
-                        Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "2016-10-28T15:12:58Z", IDNo: "", Attempts: 1, Party: [
-                            { Pokemon: "Zapdos", Class:"ultra", Nickname: "CHAT", Level: 54, Number: 0, IDNo: "" },
-                            { Pokemon: "Mewtwo", Nickname: "SAC", Level: 71, Number: 0, IDNo: "" },
-                            { Pokemon: "Solrock", Nickname: "BOOB", Level: 8, Number: 0, IDNo: "" },
-                            { Pokemon: "Paras", Nickname: "BEES", Level: 10, Gender: "Male", Number: 0, IDNo: "" },
-                            { Pokemon: "Shuppet", Nickname: "Mmm!♂", Level: 20, Gender: "Male", Number: 0, IDNo: "" },
-                            { Pokemon: "Blastoise", Class:"ultra", Nickname: "LUL", Level: 39, Gender: "Male", Number: 0, IDNo: "" },
+                        Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "2016-10-28T15:21:23Z", IDNo: "46904", Attempts: 1, Party: [
+                            { Pokemon: "Zapdos", Class:"ultra", Nickname: "CHAT", Level: 54, Number: 145, IDNo: "46904" },
+                            { Pokemon: "Mewtwo", Nickname: "SAC", Level: 71, Number: 150, IDNo: "46904" },
+                            { Pokemon: "Solrock", Nickname: "BOOB", Level: 8, Number: "???", IDNo: "46904" },
+                            { Pokemon: "Paras", Nickname: "BEES", Level: 10, Gender: "Male", Number: 46, IDNo: "46904" },
+                            { Pokemon: "Shuppet", Nickname: "Mmm!♂", Level: 20, Gender: "Male", Number: "???", IDNo: "46904" },
+                            { Pokemon: "Blastoise", Class:"ultra", Nickname: "LUL", Level: 39, Gender: "Male", Number: 9, IDNo: "46904" },
                         ],
                         Image: "img/ribbons/champion.png"
                     },
