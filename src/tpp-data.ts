@@ -3714,7 +3714,7 @@ var tppData: TPP.Collection[] = [
                             { Pokemon: "Jellicent", Nickname: "Wingull9xx88", Level: 100, Gender: "Female" },
                             { Pokemon: "Rayquaza", Nickname: "'999", Level: 100 },
                             { Pokemon: "Wigglytuff", Nickname: "Chansey", Level: 100, Gender: "Female" },
-                            { Pokemon: "Lanturn", Nickname: ",,222", Level: 100, Gender: "Female" },
+                            { Pokemon: "Lanturn", Nickname: ",,222", Level: 100, Gender: "Female", PreviousNick: "Swinu  1xcc" },
                         ],
                         Image: "img/ribbons/champion-hoenn.png"
                     },
