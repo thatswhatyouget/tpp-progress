@@ -5122,6 +5122,20 @@ var tppData = [
                     { "Group": "Elite Four", "Image": "img/hosts/ajdnnw.png", "Name": "Gold", "Time": "16d 22h 21m", "Attempts": 1 },
                     { "Group": "Champions", "Image": "img/hosts/red.png", "Name": "Red", "Time": "16d 22h 27m", "Attempts": 1 },
                 ]
+            },
+            {
+                RunName: "Sun",
+                ColorSecondary: "orange",
+                ColorPrimary: "#eac07a",
+                StartDate: "2016-11-18T21:00:00Z",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                BackgroundImage: "linear-gradient(to bottom, #eac07a 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,#f6eaab 100%)",
+                HostName: "???",
+                HostImage: "http://cdn.bulbagarden.net/upload/thumb/e/e7/Sun_Moon_Protagonist_male.png/53px-Sun_Moon_Protagonist_male.png",
+                TPPOrgLink: "http://twitchplayspokemon.org/",
+                Region: "Alola",
+                Events: []
             }
         ]
     },

@@ -1123,7 +1123,7 @@ var tppData: TPP.Collection[] = [
                             { Pokemon: "Omastar", Level: 92, Gender: "Male", Met: "Vermilion City", OT: "aoooo" },
                             { Pokemon: "Bastiodon", Level: 78, Gender: "Male", Met: "Victory Road", OT: "aoooo" },
                             { Pokemon: "Vibrava", Nickname: ",", Level: 82, Gender: "Female", Met: "New Bark Town", OT: "aoooo" },
-                            { Pokemon: "Xatu", Nickname: "xrr♂ ♢ ", Level: 93, Gender:"Female", Shiny: true, Met: "Lake of Rage", OT: "aoooo" },
+                            { Pokemon: "Xatu", Nickname: "xrr♂ ♢ ", Level: 93, Gender: "Female", Shiny: true, Met: "Lake of Rage", OT: "aoooo" },
                             { Pokemon: "Sudowoodo", Nickname: "A", Level: 76, Gender: "Male", Met: "Mt. Mortar", OT: "aoooo" },
                         ],
                         Image: "img/ribbons/champion.png"
@@ -5201,6 +5201,27 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Elite Four", "Image": "img/hosts/ajdnnw.png", "Name": "Gold", "Time": "16d 22h 21m", "Attempts": 1 },
                     { "Group": "Champions", "Image": "img/hosts/red.png", "Name": "Red", "Time": "16d 22h 27m", "Attempts": 1 },
                 ]
+            },
+            {
+                RunName: "Sun",
+                ColorSecondary: "orange",
+                ColorPrimary: "#eac07a",
+                StartDate: "2016-11-18T21:00:00Z",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                BackgroundImage: "linear-gradient(to bottom, #eac07a 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,#f6eaab 100%)",
+                HostName: "???",
+                HostImage: "http://cdn.bulbagarden.net/upload/thumb/e/e7/Sun_Moon_Protagonist_male.png/53px-Sun_Moon_Protagonist_male.png",
+                //HostImage: "http://cdn.bulbagarden.net/upload/thumb/7/74/Sun_Moon_Protagonist_female.png/54px-Sun_Moon_Protagonist_female.png",
+                TPPOrgLink: "http://twitchplayspokemon.org/",
+                // Scraper: {
+                //     url: "http://twitchplayspokemon.org/",
+                //     runtime: true,
+                //     parts: ["Badge", "Elite Four"],
+                //     pokemon: true
+                // },
+                Region: "Alola",
+                Events: []
             }
         ]
     },
@@ -5677,12 +5698,12 @@ var tppData: TPP.Collection[] = [
                     { Group: "Champions", Name: "LUM", Image: "img/trainers/ultra/lum.png", Time: "2016-10-28T10:19:28Z", Attempts: 1 },
                     <TPP.HallOfFame>{
                         Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "2016-10-28T15:21:23Z", IDNo: "46904", Attempts: 1, Party: [
-                            { Pokemon: "Zapdos", Class:"ultra", Nickname: "CHAT", Level: 54, Number: 145, IDNo: "46904" },
+                            { Pokemon: "Zapdos", Class: "ultra", Nickname: "CHAT", Level: 54, Number: 145, IDNo: "46904" },
                             { Pokemon: "Mewtwo", Nickname: "SAC", Level: 71, Number: 150, IDNo: "46904" },
                             { Pokemon: "Solrock", Nickname: "BOOB", Level: 8, Number: "???", IDNo: "46904" },
                             { Pokemon: "Paras", Nickname: "BEES", Level: 10, Gender: "Male", Number: 46, IDNo: "46904" },
                             { Pokemon: "Shuppet", Nickname: "Mmm!♂", Level: 20, Gender: "Male", Number: "???", IDNo: "46904" },
-                            { Pokemon: "Blastoise", Class:"ultra", Nickname: "LUL", Level: 39, Gender: "Male", Number: 9, IDNo: "46904" },
+                            { Pokemon: "Blastoise", Class: "ultra", Nickname: "LUL", Level: 39, Gender: "Male", Number: 9, IDNo: "46904" },
                         ],
                         Image: "img/ribbons/champion.png"
                     },
