@@ -116,7 +116,7 @@ function generateGlobalDex(tppData) {
     dexSummarize(tppData).then(function (summaries) {
         summaries = summaries.sort(function (s1, s2) { return s1.Run.StartTime - s2.Run.StartTime; });
         var hofData = summaries.map(function (s) { return s.HallOfFame; }).reduce(function (a, b) { return a.concat(b); }).sort(function (h1, h2) { return h1.Time - h2.Time; });
-        hofData = hofData.filter(function (c) { return hofData.filter(function (i) { return i.HostName == c.HostName && (i.Nickname == c.Nickname || c.PreviousNick == i.UnmodifiedNick); }).shift() == c; });
+        hofData = hofData.filter(function (c) { return hofData.filter(function (i) { return i.HostName == c.HostName && i.Pokemon == c.Pokemon && (i.Nickname == c.Nickname || c.PreviousNick == i.UnmodifiedNick); }).shift() == c; });
         var fullList = {};
         console.dir(hofData);
         element.find('*').remove();

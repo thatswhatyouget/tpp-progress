@@ -138,7 +138,7 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
     dexSummarize(tppData).then(summaries => {
         summaries = summaries.sort((s1, s2) => s1.Run.StartTime - s2.Run.StartTime);
         var hofData: HofInfo[] = summaries.map(s => s.HallOfFame).reduce((a,b)=>a.concat(b)).sort((h1, h2) => h1.Time - h2.Time);
-        hofData = hofData.filter(c=>hofData.filter(i=>i.HostName == c.HostName && (i.Nickname == c.Nickname || c.PreviousNick == i.UnmodifiedNick)).shift() == c);
+        hofData = hofData.filter(c=>hofData.filter(i=>i.HostName == c.HostName && i.Pokemon == c.Pokemon && (i.Nickname == c.Nickname || c.PreviousNick == i.UnmodifiedNick)).shift() == c);
         var fullList = {};
         console.dir(hofData);
         element.find('*').remove();
