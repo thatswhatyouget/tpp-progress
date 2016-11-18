@@ -7058,13 +7058,16 @@ var tppData = [
                 Duration: new Date().toISOString(),
                 Ongoing: true,
                 HostName: "Sun",
-                HostImage: "http://cdn.bulbagarden.net/upload/thumb/e/e7/Sun_Moon_Protagonist_male.png/53px-Sun_Moon_Protagonist_male.png",
+                HostImage: "img/hosts/sun.png",
+                HostImageSource: "http://drawnamu.deviantart.com/art/Sun-Moon-characters-612994192",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Region: "Alola",
                 Events: [
                     { Group: "Pokemon", Name: "Greninja", Time: "2016-11-18T03:01:00Z" },
                     { Group: "Pokemon", Name: "Pikachu", Time: "2016-11-18T03:33:00Z" },
                     { Group: "Bosses", Name: "Totem Hakamo-o", Class: "pokesprite Hakamo-o", Time: "2016-11-18T04:21:00Z", Attempts: 1 },
+                    { Group: "Pokemon", Name: "Pikipek", Time: "2016-11-18T05:17:00Z" },
+                    { Group: "Pokemon", Name: "Yungoos", Time: "2016-11-18T05:18:00Z" },
                 ]
             }
         ]
