@@ -7185,7 +7185,7 @@ var tppData: TPP.Collection[] = [
                 StartDate: "2016-11-18T03:00:00Z",
                 Duration: new Date().toISOString(),
                 Ongoing: true,
-                BackgroundImage: "linear-gradient(to bottom, #0094FF 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,#f6eaab 100%)",
+                BackgroundImage: "linear-gradient(to bottom, #0094FF 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,orange 100%)",
                 HostName: "Sun",
                 HostImage: "http://cdn.bulbagarden.net/upload/thumb/e/e7/Sun_Moon_Protagonist_male.png/53px-Sun_Moon_Protagonist_male.png",
                 //HostImage: "http://cdn.bulbagarden.net/upload/thumb/7/74/Sun_Moon_Protagonist_female.png/54px-Sun_Moon_Protagonist_female.png",
