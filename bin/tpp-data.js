@@ -5127,7 +5127,7 @@ var tppData = [
                 RunName: "Sun",
                 ColorSecondary: "orange",
                 ColorPrimary: "#eac07a",
-                StartDate: "2016-11-18T21:00:00Z",
+                StartDate: "2016-11-18T22:00:00Z",
                 Duration: new Date().toISOString(),
                 Ongoing: true,
                 BackgroundImage: "linear-gradient(to bottom, #eac07a 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,#f6eaab 100%)",
@@ -7050,6 +7050,22 @@ var tppData = [
                 Region: "Animal Crossing",
                 Events: []
             },
+            {
+                RunName: "Sun/Moon Demo",
+                ColorSecondary: "#0094FF",
+                ColorPrimary: "orange",
+                StartDate: "2016-11-18T03:00:00Z",
+                Duration: new Date().toISOString(),
+                Ongoing: true,
+                BackgroundImage: "linear-gradient(to bottom, #0094FF 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,#f6eaab 100%)",
+                HostName: "Sun",
+                HostImage: "http://cdn.bulbagarden.net/upload/thumb/e/e7/Sun_Moon_Protagonist_male.png/53px-Sun_Moon_Protagonist_male.png",
+                TPPOrgLink: "http://twitchplayspokemon.org/",
+                Region: "Alola",
+                Events: [
+                    { Group: "Pokemon", Name: "Greninja", Time: "0d" },
+                ]
+            }
         ]
     },
     {
