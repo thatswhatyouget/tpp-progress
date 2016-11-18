@@ -79,7 +79,6 @@ function generatePokedexSummary(tppData) {
     return $table;
 }
 function generateGlobalDex(tppData) {
-    QueryString["g"] = QueryString["g"] || "6";
     var element = $("<div>").append("<i class='fa fa-spinner fa-pulse'>");
     var skipCheckOwnership = QueryString["justmon"];
     var hofOnly = !!QueryString["hofonly"];

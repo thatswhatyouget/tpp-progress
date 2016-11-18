@@ -98,7 +98,6 @@ function generatePokedexSummary(tppData: TPP.Collection[]) {
 }
 
 function generateGlobalDex(tppData: TPP.Collection[]) {
-    QueryString["g"] = QueryString["g"] || "6"; //hide G7 mons for now unless asked
     var element = $("<div>").append("<i class='fa fa-spinner fa-pulse'>");
     var skipCheckOwnership = QueryString["justmon"];
     var hofOnly = !!QueryString["hofonly"];
