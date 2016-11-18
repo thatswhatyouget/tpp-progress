@@ -7051,7 +7051,7 @@ var tppData = [
                 Events: []
             },
             {
-                RunName: "Sun/Moon Demo",
+                RunName: "Sun/Moon Special Demo",
                 ColorSecondary: "#0094FF",
                 ColorPrimary: "orange",
                 StartDate: "2016-11-18T03:00:00Z",
@@ -7062,7 +7062,9 @@ var tppData = [
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Region: "Alola",
                 Events: [
-                    { Group: "Pokemon", Name: "Greninja", Time: "0d" },
+                    { Group: "Pokemon", Name: "Greninja", Time: "2016-11-18T03:01:00Z" },
+                    { Group: "Pokemon", Name: "Pikachu", Time: "2016-11-18T03:33:00Z" },
+                    { Group: "Bosses", Name: "Totem Hakamo-o", Class: "pokesprite Hakamo-o", Time: "2016-11-18T04:21:00Z", Attempts: 1 },
                 ]
             }
         ]
