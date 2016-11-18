@@ -5136,7 +5136,9 @@ var tppData = [
                 HostImageSource: "http://drawnamu.deviantart.com/art/Sun-Moon-characters-612994192",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Region: "Alola",
-                Events: []
+                Events: [
+                    { "Group": "Pokemon", "Name": "Popplio", "Time": "27m" },
+                ]
             }
         ]
     },

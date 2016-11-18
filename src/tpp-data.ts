@@ -5221,7 +5221,9 @@ var tppData: TPP.Collection[] = [
                 //     pokemon: true
                 // },
                 Region: "Alola",
-                Events: []
+                Events: [
+                    { "Group": "Pokemon", "Name": "Popplio", "Time": "27m" },
+                ]
             }
         ]
     },
