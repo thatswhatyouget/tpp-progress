@@ -5138,6 +5138,7 @@ var tppData = [
                 Region: "Alola",
                 Events: [
                     { "Group": "Pokemon", "Name": "Popplio", "Time": "27m" },
+                    { "Group": "Pokemon", "Name": "Pikipek", "Time": "47m" },
                 ]
             }
         ]
