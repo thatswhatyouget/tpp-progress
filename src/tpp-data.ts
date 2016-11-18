@@ -7183,7 +7183,7 @@ var tppData: TPP.Collection[] = [
                 ColorSecondary: "#0094FF",
                 ColorPrimary: "orange",
                 StartDate: "2016-11-18T03:00:00Z",
-                Duration: new Date().toISOString(),
+                Duration: "2016-11-18T21:00:00Z",
                 Ongoing: true,
                 // BackgroundImage: "linear-gradient(to bottom, #0094FF 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,orange 100%)",
                 HostName: "Sun",
@@ -7198,6 +7198,7 @@ var tppData: TPP.Collection[] = [
                     { Group: "Pokemon", Name: "Pikipek", Time: "2016-11-18T05:17:00Z" },
                     { Group: "Pokemon", Name: "Yungoos", Time: "2016-11-18T05:18:00Z" },
                     { Group: "Pokemon", Name: "Rockruff", Time: "2016-11-18T07:10:00Z" },
+                    { Group: "Bosses", Name: "Ace Trainer Sheri", Image: "http://cdn.bulbagarden.net/upload/thumb/a/a4/VSAce_Trainer_F_SM.png/150px-VSAce_Trainer_F_SM.png", Time: "2016-11-18T10:26:00Z", Attempts: 2 },
                 ]
             }
         ]
