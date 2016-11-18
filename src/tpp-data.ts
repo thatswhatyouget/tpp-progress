@@ -5210,9 +5210,9 @@ var tppData: TPP.Collection[] = [
                 Duration: new Date().toISOString(),
                 Ongoing: true,
                 BackgroundImage: "linear-gradient(to bottom, #eac07a 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,#f6eaab 100%)",
-                HostName: "???",
-                HostImage: "http://cdn.bulbagarden.net/upload/thumb/e/e7/Sun_Moon_Protagonist_male.png/53px-Sun_Moon_Protagonist_male.png",
-                //HostImage: "http://cdn.bulbagarden.net/upload/thumb/7/74/Sun_Moon_Protagonist_female.png/54px-Sun_Moon_Protagonist_female.png",
+                HostName: "9'l",
+                HostImage: "img/hosts/sun.png",
+                HostImageSource: "http://drawnamu.deviantart.com/art/Sun-Moon-characters-612994192",
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 // Scraper: {
                 //     url: "http://twitchplayspokemon.org/",
