@@ -7192,11 +7192,12 @@ var tppData: TPP.Collection[] = [
                 TPPOrgLink: "http://twitchplayspokemon.org/",
                 Region: "Alola",
                 Events: [
-                    { Group: "Pokemon", Name: "Greninja", Time:"2016-11-18T03:01:00Z" },
+                    { Group: "Pokemon", Name: "Greninja", Time: "2016-11-18T03:01:00Z" },
                     { Group: "Pokemon", Name: "Pikachu", Time: "2016-11-18T03:33:00Z" },
                     { Group: "Bosses", Name: "Totem Hakamo-o", Class: "pokesprite Hakamo-o", Time: "2016-11-18T04:21:00Z", Attempts: 1 },
-                    { Group: "Pokemon", Name: "Pikipek", Time:"2016-11-18T05:17:00Z"},
-                    { Group: "Pokemon", Name: "Yungoos", Time:"2016-11-18T05:18:00Z"},
+                    { Group: "Pokemon", Name: "Pikipek", Time: "2016-11-18T05:17:00Z" },
+                    { Group: "Pokemon", Name: "Yungoos", Time: "2016-11-18T05:18:00Z" },
+                    { Group: "Pokemon", Name: "Rockruff", Time: "2016-11-18T07:10:00Z" },
                 ]
             }
         ]
