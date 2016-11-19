@@ -5159,6 +5159,10 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Butterfree", "Time": "15h12m" },
                     { "Group": "Pokemon", "Name": "Cottonee", "Time": "15h31m" },
                     { "Group": "Pokemon", "Name": "Oricorio", "Time": "15h57m" },
+                    { "Group": "Badges", "Name": "Fightinium Z", "Image": "img/items/Fightinium Z.png", "Time": "17h5m", "Attempts": 1 },
+                    { "Group": "Pokemon", "Name": "Igglybuff", "Time": "20h41m" },
+                    { "Group": "Pokemon", "Name": "Mudbray", "Time": "20h46m" },
+                    { "Group": "Pokemon", "Name": "Lillipup", "Time": "20h50m" },
                 ]
             }
         ]
