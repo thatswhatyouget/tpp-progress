@@ -5256,6 +5256,10 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Wishiwashi", "Time": "1d5h35m" },
                     { "Group": "Badges", "Name": "Waterium Z", "Image": "img/items/Waterium Z.png", "Time": "1d6h38m", "Attempts": 2 },
                     { "Group": "Badges", "Name": "Firium Z", "Image": "img/items/Firium Z.png", "Time": "1d10h26m", "Attempts": 2 },
+                    { "Group": "Pokemon", "Name": "Trumbeak", "Time": "1d14h8m" },
+                    { "Group": "Pokemon", "Name": "Fletchinder", "Time": "1d14h23m" },
+                    { "Group": "Pokemon", "Name": "Salandit", "Time": "1d14h28m" },
+                    //{ "Group": "Badges", "Name": "Grassium Z", "Image": "img/items/Grassium Z.png", "Time": "", "Attempts": 2 },
                 ]
             }
         ]
