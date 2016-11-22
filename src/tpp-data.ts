@@ -5275,6 +5275,10 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Badges", "Name": "Rockium Z", "Image": "img/items/Rockium Z.png", "Time": "3d7h10m", "Attempts": 12 },
                     { "Group": "Pokemon", "Name": "Fearow", "Time": "3d12h2m" },
                     { "Group": "Pokemon", "Name": "Ariados", "Time": "3d13h23m" },
+                    { "Group": "Pokemon", "Name": "Minior", "Time": "3d15h56m" },
+                    // { "Group": "Badges", "Name": "Electrium Z", "Image": "img/items/Electrium Z.png", "Time": "", "Attempts": 0 },
+                    // { "Group": "Badges", "Name": "Ghostium Z", "Image": "img/items/Ghostium Z.png", "Time": "", "Attempts": 0 },
+                    // { "Group": "Badges", "Name": "Fairium Z", "Image": "img/items/Rockium Z.png", "Time": "", "Attempts": 0 },
                 ]
             }
         ]
