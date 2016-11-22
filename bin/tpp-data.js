@@ -5192,6 +5192,11 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Ariados", "Time": "3d13h23m" },
                     { "Group": "Pokemon", "Name": "Minior", "Time": "3d15h56m" },
                     { "Group": "Badges", "Name": "Electrium Z", "Image": "img/items/Electrium Z.png", "Time": "3d19h31m", "Attempts": 3 },
+                    { "Group": "Pokemon", "Name": "Pancham", "Time": "3d22h10m" },
+                    { "Group": "Pokemon", "Name": "Herdier", "Time": "3d22h26m" },
+                    { "Group": "Pokemon", "Name": "Komala", "Time": "3d22h54m" },
+                    { "Group": "Pokemon", "Name": "Poliwag", "Time": "3d23h50m" },
+                    { "Group": "Pokemon", "Name": "Paras", "Time": "4d11m" },
                 ]
             }
         ]
