@@ -5188,6 +5188,7 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Golbat", "Time": "2d23h17m" },
                     { "Group": "Pokemon", "Name": "Steenee", "Time": "3d3h42m" },
                     { "Group": "Badges", "Name": "Rockium Z", "Image": "img/items/Rockium Z.png", "Time": "3d7h10m", "Attempts": 12 },
+                    { "Group": "Pokemon", "Name": "Fearow", "Time": "3d12h2m" },
                 ]
             }
         ]
