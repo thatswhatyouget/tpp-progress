@@ -5272,7 +5272,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Wingull", "Time": "2d15h59m" },
                     { "Group": "Pokemon", "Name": "Golbat", "Time": "2d23h17m" },
                     { "Group": "Pokemon", "Name": "Steenee", "Time": "3d3h42m" },
-                    //{ "Group": "Badges", "Name": "Rockium Z", "Image": "img/items/Rockium Z.png", "Time": "", "Attempts": 8 },
+                    { "Group": "Badges", "Name": "Rockium Z", "Image": "img/items/Rockium Z.png", "Time": "3d7h10m", "Attempts": 12 },
                 ]
             }
         ]
