@@ -5204,6 +5204,13 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Crabrawler", "Time": "4d9h22m" },
                     { "Group": "Pokemon", "Name": "Kadabra", "Time": "4d12h5m" },
                     { "Group": "Pokemon", "Name": "Ribombee", "Time": "4d15h39m" },
+                    { "Group": "Badges", "Name": "Ghostium Z", "Image": "img/items/Ghostium Z.png", "Time": "5d7h32m", "Attempts": 15 },
+                    { "Group": "Pokemon", "Name": "Klefki", "Time": "5d7h36m" },
+                    { "Group": "Pokemon", "Name": "Haunter", "Time": "5d8h18m" },
+                    { "Group": "Pokemon", "Name": "Magikarp", "Time": "5d8h44m" },
+                    { "Group": "Pokemon", "Name": "Graveler", "Time": "5d9h3m" },
+                    { "Group": "Pokemon", "Name": "Golem", "Time": "5d9h3m" },
+                    { "Group": "Pokemon", "Name": "Vulpix", "Time": "5d9h9m" },
                 ]
             }
         ]
