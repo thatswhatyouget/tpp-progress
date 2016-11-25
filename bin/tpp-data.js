@@ -5214,6 +5214,9 @@ var tppData = [
                     { "Group": "Badges", "Name": "Darkium Z", "Image": "img/z-crystals/Darkium Z.png", "Time": "5d18h15m", "Attempts": 1 },
                     { "Group": "Pokemon", "Name": "Gastrodon", "Time": "6d20m" },
                     { "Group": "Badges", "Name": "Groundium Z", "Image": "img/z-crystals/Groundium Z.png", "Time": "6d9h39m", "Attempts": 9 },
+                    { "Group": "Pokemon", "Name": "Zygarde", "Time": "6d11h49m" },
+                    { "Group": "Pokemon", "Name": "Pelipper", "Time": "6d12h11m" },
+                    { "Group": "Pokemon", "Name": "Aerodactyl", "Time": "6d12h20m" },
                 ]
             }
         ]
