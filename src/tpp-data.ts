@@ -5298,7 +5298,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Vulpix", "Time": "5d9h9m" },
                     { "Group": "Badges", "Name": "Darkium Z", "Image": "img/z-crystals/Darkium Z.png", "Time": "5d18h15m", "Attempts": 1 },
                     { "Group": "Pokemon", "Name": "Gastrodon", "Time": "6d20m" },
-                    // { "Group": "Badges", "Name": "Groundium Z", "Image": "img/z-crystals/Groundium Z.png", "Time": "", "Attempts": 2 },
+                    { "Group": "Badges", "Name": "Groundium Z", "Image": "img/z-crystals/Groundium Z.png", "Time": "6d9h39m", "Attempts": 9 },
                     // { "Group": "Badges", "Name": "Dragonium Z", "Image": "img/z-crystals/Dragonium Z.png", "Time": "", "Attempts": 0 },
                 ]
             }
