@@ -88,6 +88,7 @@ module TPP {
             Met?: string;
             IDNo?: string;
             Shiny?: boolean;
+            Form?: string;
             Class?: string;
         }[];
         IDNo?: string;
