@@ -5307,11 +5307,12 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Solgaleo", "Time": "7d1h51m" },
                     { "Group": "Pokemon", "Name": "Roggenrola", "Time": "7d5h51m" },
                     { "Group": "Elite Four", "Name": "Hala", "Time": "7d9h41m", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/51/VSHala.png/200px-VSHala.png" },
+                    { "Group": "Pokemon", "Name": "Absol", "Time": "7d11h28m" },
                     // { "Group": "Elite Four", "Name": "Olivia", "Time": "", "Attempts": 2, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
-                    // { "Group": "Elite Four", "Name": "Acerola", "Time": "", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/6/6c/VSAcerola.png/150px-VSAcerola.png" },
+                    { "Group": "Elite Four", "Name": "Acerola", "Time": "7d14h22m", "Attempts": 5, "Image": "http://cdn.bulbagarden.net/upload/thumb/6/6c/VSAcerola.png/150px-VSAcerola.png" },
                     // { "Group": "Elite Four", "Name": "Kahili", "Time": "", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/3/37/VSKahili.png/250px-VSKahili.png" },
                     // <TPP.HallOfFame>{
-                    //     Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "8d", Attempts: 5, IDNo: "", Party: [
+                    //     Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "8d", Attempts: 9, IDNo: "", Party: [
                     //         { Number: 0, Pokemon: "Solgaleo", Nickname: "KMRR  WWL Nn", Level: 58 },
                     //         { Number: 0, Pokemon: "Fearow", Nickname: "3 \"\" ☃︎) %   ", Gender: "Male", Level: 57 },
                     //         { Number: 0, Pokemon: "Ariados", Nickname: " ⤵︎!?ro   s!h", Gender: "Female", Level: 61 },
@@ -5321,7 +5322,6 @@ var tppData: TPP.Collection[] = [
                     //     ],
                     //     Image: "img/ribbons/champion.png"
                     // }
-                    { "Group": "Pokemon", "Name": "Absol", "Time": "7d11h28m" },
                 ]
             }
         ]
