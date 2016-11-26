@@ -5308,8 +5308,8 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Roggenrola", "Time": "7d5h51m" },
                     { "Group": "Elite Four", "Name": "Hala", "Time": "7d9h41m", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/51/VSHala.png/200px-VSHala.png" },
                     { "Group": "Pokemon", "Name": "Absol", "Time": "7d11h28m" },
-                    // { "Group": "Elite Four", "Name": "Olivia", "Time": "", "Attempts": 2, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
                     { "Group": "Elite Four", "Name": "Acerola", "Time": "7d14h22m", "Attempts": 5, "Image": "http://cdn.bulbagarden.net/upload/thumb/6/6c/VSAcerola.png/150px-VSAcerola.png" },
+                    { "Group": "Elite Four", "Name": "Olivia", "Time": "7d18h29m", "Attempts": 3, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
                     // { "Group": "Elite Four", "Name": "Kahili", "Time": "", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/3/37/VSKahili.png/250px-VSKahili.png" },
                     // <TPP.HallOfFame>{
                     //     Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "8d", Attempts: 9, IDNo: "", Party: [
