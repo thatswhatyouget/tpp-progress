@@ -5221,7 +5221,8 @@ var tppData = [
                     { "Group": "Badges", "Name": "Dragonium Z", "Image": "img/z-crystals/Dragonium Z.png", "Time": "6d21h20m", "Attempts": 1 },
                     { "Group": "Pokemon", "Name": "Solgaleo", "Time": "7d1h51m" },
                     { "Group": "Pokemon", "Name": "Roggenrola", "Time": "7d5h51m" },
-                    { "Group": "Elite Four", "Name": "Hala", "Time": "7d 9h 41m", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/51/VSHala.png/200px-VSHala.png" },
+                    { "Group": "Elite Four", "Name": "Hala", "Time": "7d9h41m", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/51/VSHala.png/200px-VSHala.png" },
+                    { "Group": "Pokemon", "Name": "Absol", "Time": "7d11h28m" },
                 ]
             }
         ]
