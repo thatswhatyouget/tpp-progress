@@ -5323,7 +5323,8 @@ var tppData: TPP.Collection[] = [
                             { Pokemon: "Fearow", Nickname: "3 \"\" ☃︎) %   ", Gender: "Male", Level: 74 },
                         ],
                         Image: "img/ribbons/champion.png"
-                    }
+                    },
+                    { "Group": "Pokemon", "Name": "Type: Null", "Time": "8d21h50m" },
                 ]
             }
         ]
