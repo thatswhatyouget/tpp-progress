@@ -5226,6 +5226,7 @@ var tppData = [
                     { "Group": "Elite Four", "Name": "Acerola", "Time": "7d14h22m", "Attempts": 5, "Image": "http://cdn.bulbagarden.net/upload/thumb/6/6c/VSAcerola.png/150px-VSAcerola.png" },
                     { "Group": "Elite Four", "Name": "Olivia", "Time": "7d18h29m", "Attempts": 3, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
                     { "Group": "Elite Four", "Name": "Kahili", "Time": "8d42m", "Attempts": 2, "Image": "http://cdn.bulbagarden.net/upload/thumb/3/37/VSKahili.png/250px-VSKahili.png" },
+                    { "Group": "Pokemon", "Name": "Carbink", "Time": "8d2h38m" },
                 ]
             }
         ]
