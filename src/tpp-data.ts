@@ -5325,6 +5325,7 @@ var tppData: TPP.Collection[] = [
                         Image: "img/ribbons/champion.png"
                     },
                     { "Group": "Pokemon", "Name": "Type: Null", "Time": "8d21h50m" },
+                    { "Group": "Pokemon", "Name": "Nihilego", "Time": "9d2h17m" },
                 ]
             }
         ]
