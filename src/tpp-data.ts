@@ -5312,7 +5312,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Elite Four", "Name": "Olivia", "Time": "7d18h29m", "Attempts": 3, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
                     { "Group": "Elite Four", "Name": "Kahili", "Time": "8d42m", "Attempts": 2, "Image": "http://cdn.bulbagarden.net/upload/thumb/3/37/VSKahili.png/250px-VSKahili.png" },
                     { "Group": "Pokemon", "Name": "Carbink", "Time": "8d2h38m" },
-                    { "Group": "Elite Four", "Name": "Professor Kukui", "Time": "8d19h11m", "Attempts": 5, "Image": "http://cdn.bulbagarden.net/upload/e/ed/Sun_Moon_Professor_Kukui.png" },
+                    { "Group": "Champion", "Name": "Professor Kukui", "Time": "8d19h11m", "Attempts": 5, "Image": "http://cdn.bulbagarden.net/upload/e/ed/Sun_Moon_Professor_Kukui.png" },
                     <TPP.HallOfFame>{
                         Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "8d19h12m", Attempts: 41, Party: [
                             { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 77 },
@@ -5342,6 +5342,22 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Elekid", "Time": "9d18h49m" },
                     { "Group": "Pokemon", "Name": "Mankey", "Time": "9d20h57m" },
                     { "Group": "Pokemon", "Name": "Delibird", "Time": "9d21h7m" },
+                    { "Group": "Elite Four Rematch", "Name": "Hala", "Time": "10d1h5m", "Attempts": 3, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/51/VSHala.png/200px-VSHala.png" },
+                    // { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/6/6c/VSAcerola.png/150px-VSAcerola.png" },
+                    // { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
+                    // { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "http://cdn.bulbagarden.net/upload/thumb/3/37/VSKahili.png/250px-VSKahili.png" },
+                    // { "Group": "Champion", "Name": "Professor Kukui", "Time": "", "Attempts": 0, "Image": "http://cdn.bulbagarden.net/upload/e/ed/Sun_Moon_Professor_Kukui.png" },
+                    // <TPP.HallOfFame>{
+                    //     Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "", Attempts: 3, Party: [
+                    //         { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 77 },
+                    //         { Pokemon: "Solgaleo", Nickname: "KMRR  WWL Nn", Level: 72 },
+                    //         { Pokemon: "Buzzwole", Nickname: "! beb r", Level: 80 },
+                    //         { Pokemon: "Zygarde", Nickname: "      66  ", Form: "10%", Class: "percent10", Level: 71 },
+                    //         { Pokemon: "Raticate", Nickname: " SE", Gender: "Female", Form: "Alolan", Level: 74 },
+                    //         { Pokemon: "Fearow", Nickname: "3 \"\" ☃︎) %   ", Gender: "Male", Level: 74 },
+                    //     ],
+                    //     Image: "img/ribbons/champion.png"
+                    // },
                 ]
             }
         ]

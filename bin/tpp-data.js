@@ -5227,7 +5227,7 @@ var tppData = [
                     { "Group": "Elite Four", "Name": "Olivia", "Time": "7d18h29m", "Attempts": 3, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
                     { "Group": "Elite Four", "Name": "Kahili", "Time": "8d42m", "Attempts": 2, "Image": "http://cdn.bulbagarden.net/upload/thumb/3/37/VSKahili.png/250px-VSKahili.png" },
                     { "Group": "Pokemon", "Name": "Carbink", "Time": "8d2h38m" },
-                    { "Group": "Elite Four", "Name": "Professor Kukui", "Time": "8d19h11m", "Attempts": 5, "Image": "http://cdn.bulbagarden.net/upload/e/ed/Sun_Moon_Professor_Kukui.png" },
+                    { "Group": "Champion", "Name": "Professor Kukui", "Time": "8d19h11m", "Attempts": 5, "Image": "http://cdn.bulbagarden.net/upload/e/ed/Sun_Moon_Professor_Kukui.png" },
                     {
                         Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "8d19h12m", Attempts: 41, Party: [
                             { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 77 },
@@ -5257,6 +5257,7 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Elekid", "Time": "9d18h49m" },
                     { "Group": "Pokemon", "Name": "Mankey", "Time": "9d20h57m" },
                     { "Group": "Pokemon", "Name": "Delibird", "Time": "9d21h7m" },
+                    { "Group": "Elite Four Rematch", "Name": "Hala", "Time": "10d1h5m", "Attempts": 3, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/51/VSHala.png/200px-VSHala.png" },
                 ]
             }
         ]
