@@ -5258,6 +5258,9 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Mankey", "Time": "9d20h57m" },
                     { "Group": "Pokemon", "Name": "Delibird", "Time": "9d21h7m" },
                     { "Group": "Elite Four Rematch", "Name": "Hala", "Time": "10d1h5m", "Attempts": 3, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/51/VSHala.png/200px-VSHala.png" },
+                    { "Group": "Pokemon", "Name": "Xurkitree", "Time": "10d12h44m" },
+                    { "Group": "Pokemon", "Name": "Kartana", "Time": "10d13h27m" },
+                    { "Group": "Pokemon", "Name": "Guzzlord", "Time": "10d15h4m" },
                 ]
             }
         ]
