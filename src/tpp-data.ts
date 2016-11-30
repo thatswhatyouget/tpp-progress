@@ -5371,6 +5371,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Porygon", "Time": "11d18h32m" },
                     { "Group": "Pokemon", "Name": "Finneon", "Time": "11d 20h 8m" },
                     { "Group": "Pokemon", "Name": "Slowpoke", "Time": "11d 20h 25m" },
+                    { "Group": "Pokemon", "Name": "Ditto", "Time": "11d 23h 29m" },
                     // { "Group": "Champion", "Name": "", "Time": "", "Attempts": 1, "Image": "" },
                     // <TPP.HallOfFame>{
                     //     Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "", Attempts: 6, Party: [
