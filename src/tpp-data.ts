@@ -5368,9 +5368,10 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "11d11h51m", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/3/37/VSKahili.png/250px-VSKahili.png" },
                     { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "11d12h1m", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
                     { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "11d14h5m", "Attempts": 3, "Image": "http://cdn.bulbagarden.net/upload/thumb/6/6c/VSAcerola.png/150px-VSAcerola.png" },
-                    // { "Group": "Champion", "Name": "Professor Kukui", "Time": "", "Attempts": 0, "Image": "http://cdn.bulbagarden.net/upload/e/ed/Sun_Moon_Professor_Kukui.png" },
+                    { "Group": "Pokemon", "Name": "Porygon", "Time": "11d18h32m" },
+                    // { "Group": "Champion", "Name": "", "Time": "", "Attempts": 1, "Image": "" },
                     // <TPP.HallOfFame>{
-                    //     Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "", Attempts: 4, Party: [
+                    //     Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "", Attempts: 6, Party: [
                     //         { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 77 },
                     //         { Pokemon: "Solgaleo", Nickname: "KMRR  WWL Nn", Level: 72 },
                     //         { Pokemon: "Buzzwole", Nickname: "! beb r", Level: 80 },
