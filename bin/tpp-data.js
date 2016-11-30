@@ -1782,7 +1782,6 @@ var tppData = [
                     { Name: "Noctowl", Time: "4d9h32m", Group: "Pokemon" },
                     { Name: "Snubbull", Time: "1d12h6m", Group: "Pokemon" },
                     { Name: "Inkay", Time: "23h26m", Group: "Pokemon" },
-                    { Name: "Machop", Time: "20h23m", Group: "Pokemon" },
                     { Name: "Woobat", Time: "20h4m", Group: "Pokemon" },
                     { Name: "Bagon", Time: "17h30m", Group: "Pokemon" },
                     { Name: "Oddish", Time: "15h14m", Group: "Pokemon" },
