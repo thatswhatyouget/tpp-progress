@@ -5280,6 +5280,8 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Bonsly", "Time": "11d7h42m" },
                     { "Group": "Pokemon", "Name": "Munchlax", "Time": "11d8h" },
                     { "Group": "Pokemon", "Name": "Necrozma", "Time": "11d8h38m" },
+                    { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "11d11h51m", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/3/37/VSKahili.png/250px-VSKahili.png" },
+                    { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "11d12h1m", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
                 ]
             }
         ]

@@ -5365,12 +5365,12 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Bonsly", "Time": "11d7h42m" },
                     { "Group": "Pokemon", "Name": "Munchlax", "Time": "11d8h" },
                     { "Group": "Pokemon", "Name": "Necrozma", "Time": "11d8h38m" },
-                    // { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/6/6c/VSAcerola.png/150px-VSAcerola.png" },
-                    // { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
-                    // { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "http://cdn.bulbagarden.net/upload/thumb/3/37/VSKahili.png/250px-VSKahili.png" },
+                    { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "11d11h51m", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/3/37/VSKahili.png/250px-VSKahili.png" },
+                    { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "11d12h1m", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
+                    // { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "", "Attempts": 2, "Image": "http://cdn.bulbagarden.net/upload/thumb/6/6c/VSAcerola.png/150px-VSAcerola.png" },
                     // { "Group": "Champion", "Name": "Professor Kukui", "Time": "", "Attempts": 0, "Image": "http://cdn.bulbagarden.net/upload/e/ed/Sun_Moon_Professor_Kukui.png" },
                     // <TPP.HallOfFame>{
-                    //     Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "", Attempts: 3, Party: [
+                    //     Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "", Attempts: 4, Party: [
                     //         { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 77 },
                     //         { Pokemon: "Solgaleo", Nickname: "KMRR  WWL Nn", Level: 72 },
                     //         { Pokemon: "Buzzwole", Nickname: "! beb r", Level: 80 },
