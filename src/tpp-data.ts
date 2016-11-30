@@ -5369,6 +5369,8 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "11d12h1m", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
                     { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "11d14h5m", "Attempts": 3, "Image": "http://cdn.bulbagarden.net/upload/thumb/6/6c/VSAcerola.png/150px-VSAcerola.png" },
                     { "Group": "Pokemon", "Name": "Porygon", "Time": "11d18h32m" },
+                    { "Group": "Pokemon", "Name": "Finneon", "Time": "11d 20h 8m" },
+                    { "Group": "Pokemon", "Name": "Slowpoke", "Time": "11d 20h 25m" },
                     // { "Group": "Champion", "Name": "", "Time": "", "Attempts": 1, "Image": "" },
                     // <TPP.HallOfFame>{
                     //     Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "", Attempts: 6, Party: [
