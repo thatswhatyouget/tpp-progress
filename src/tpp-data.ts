@@ -5362,6 +5362,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Lycanroc", "Time": "11d6h13m" },
                     { "Group": "Pokemon", "Name": "Jangmo-o", "Time": "11d6h38m" },
                     { "Group": "Pokemon", "Name": "Tapu Koko", "Time": "11d7h11m" },
+                    { "Group": "Pokemon", "Name": "Bonsly", "Time": "11d7h42m" },
                     // { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "", "Attempts": 1, "Image": "http://cdn.bulbagarden.net/upload/thumb/6/6c/VSAcerola.png/150px-VSAcerola.png" },
                     // { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
                     // { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "http://cdn.bulbagarden.net/upload/thumb/3/37/VSKahili.png/250px-VSKahili.png" },
