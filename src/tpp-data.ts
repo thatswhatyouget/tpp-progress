@@ -5376,12 +5376,12 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Champions", "Name": "Hau", "Time": "12d2h45m", "Attempts": 2, "Image": "http://cdn.bulbagarden.net/upload/0/03/Sun_Moon_Hau.png" },
                     <TPP.HallOfFame>{
                         Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "12d2h45m", Attempts: 8, Party: [
-                            { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 83 },
-                            { Pokemon: "Solgaleo", Nickname: "KMRR  WWL Nn", Level: 78 },
-                            { Pokemon: "Buzzwole", Nickname: "! beb r", Level: 69 },
-                            { Pokemon: "Raticate", Nickname: " SE", Gender: "Female", Form: "Alolan", Level: 80 },
-                            { Pokemon: "Zygarde", Nickname: "      66  ", Form: "10%", Class: "percent10", Level: 76 },
-                            { Pokemon: "Fearow", Nickname: "3 \"\" ☃︎) %   ", Gender: "Male", Level: 79 },
+                            { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 84 },
+                            { Pokemon: "Solgaleo", Nickname: "KMRR  WWL Nn", Level: 80 },
+                            { Pokemon: "Buzzwole", Nickname: "! beb r", Level: 74 },
+                            { Pokemon: "Raticate", Nickname: " SE", Gender: "Female", Form: "Alolan", Level: 82 },
+                            { Pokemon: "Zygarde", Nickname: "      66  ", Form: "10%", Class: "percent10", Level: 80 },
+                            { Pokemon: "Fearow", Nickname: "3 \"\" ☃︎) %   ", Gender: "Male", Level:81 },
                         ],
                         Image: "img/ribbons/champion-alola.png"
                     },
