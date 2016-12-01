@@ -5373,18 +5373,19 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Slowpoke", "Time": "11d 20h 25m" },
                     { "Group": "Pokemon", "Name": "Ditto", "Time": "11d 23h 29m" },
                     { "Group": "Pokemon", "Name": "Beldum", "Time": "11d 23h 46m" },
-                    // { "Group": "Champion", "Name": "", "Time": "", "Attempts": 1, "Image": "" },
-                    // <TPP.HallOfFame>{
-                    //     Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "", Attempts: 6, Party: [
-                    //         { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 77 },
-                    //         { Pokemon: "Solgaleo", Nickname: "KMRR  WWL Nn", Level: 72 },
-                    //         { Pokemon: "Buzzwole", Nickname: "! beb r", Level: 80 },
-                    //         { Pokemon: "Zygarde", Nickname: "      66  ", Form: "10%", Class: "percent10", Level: 71 },
-                    //         { Pokemon: "Raticate", Nickname: " SE", Gender: "Female", Form: "Alolan", Level: 74 },
-                    //         { Pokemon: "Fearow", Nickname: "3 \"\" ☃︎) %   ", Gender: "Male", Level: 74 },
-                    //     ],
-                    //     Image: "img/ribbons/champion.png"
-                    // },
+                    { "Group": "Pokemon", "Name": "Snorunt", "Time": "12d 0h 43m" },
+                    { "Group": "Champion", "Name": "Hau", "Time": "12d2h45m", "Attempts": 2, "Image": "http://cdn.bulbagarden.net/upload/0/03/Sun_Moon_Hau.png" },
+                    <TPP.HallOfFame>{
+                        Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "12d2h45m", Attempts: 8, Party: [
+                            { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 83 },
+                            { Pokemon: "Solgaleo", Nickname: "KMRR  WWL Nn", Level: 78 },
+                            { Pokemon: "Buzzwole", Nickname: "! beb r", Level: 69 },
+                            { Pokemon: "Raticate", Nickname: " SE", Gender: "Female", Form: "Alolan", Level: 80 },
+                            { Pokemon: "Zygarde", Nickname: "      66  ", Form: "10%", Class: "percent10", Level: 76 },
+                            { Pokemon: "Fearow", Nickname: "3 \"\" ☃︎) %   ", Gender: "Male", Level: 79 },
+                        ],
+                        Image: "img/ribbons/champion.png"
+                    },
                 ]
             }
         ]
