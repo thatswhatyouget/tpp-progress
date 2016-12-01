@@ -5300,6 +5300,8 @@ var tppData = [
                         ],
                         Image: "img/ribbons/champion.png"
                     },
+                    { "Group": "Pokemon", "Name": "Skarmory", "Time": "12d11h18m", Class: "WifiTrade" },
+                    { "Group": "Pokemon", "Name": "Fomantis", "Time": "12d11h26m", Class: "WifiTrade" },
                 ]
             }
         ]
