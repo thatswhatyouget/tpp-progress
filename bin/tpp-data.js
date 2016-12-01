@@ -5135,7 +5135,7 @@ var tppData = [
                 ColorSecondary: "orange",
                 ColorPrimary: "#eac07a",
                 StartDate: "2016-11-18T22:00:00Z",
-                Duration: new Date().toISOString(),
+                Duration: "2016-12-02T10:00:00Z",
                 Ongoing: true,
                 BackgroundImage: "linear-gradient(to bottom, #eac07a 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,#f6eaab 100%)",
                 HostName: "9'l",
@@ -5234,7 +5234,7 @@ var tppData = [
                     { "Group": "Elite Four", "Name": "Olivia", "Time": "7d18h29m", "Attempts": 3, "Image": "http://cdn.bulbagarden.net/upload/thumb/5/5a/VSOlivia.png/200px-VSOlivia.png" },
                     { "Group": "Elite Four", "Name": "Kahili", "Time": "8d42m", "Attempts": 2, "Image": "http://cdn.bulbagarden.net/upload/thumb/3/37/VSKahili.png/250px-VSKahili.png" },
                     { "Group": "Pokemon", "Name": "Carbink", "Time": "8d2h38m" },
-                    { "Group": "Champion", "Name": "Professor Kukui", "Time": "8d19h11m", "Attempts": 5, "Image": "http://cdn.bulbagarden.net/upload/e/ed/Sun_Moon_Professor_Kukui.png" },
+                    { "Group": "Champions", "Name": "Professor Kukui", "Time": "8d19h11m", "Attempts": 5, "Image": "http://cdn.bulbagarden.net/upload/e/ed/Sun_Moon_Professor_Kukui.png" },
                     {
                         Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "8d19h12m", Attempts: 41, Party: [
                             { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 77 },
@@ -5288,7 +5288,7 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Slowpoke", "Time": "11d 20h 25m" },
                     { "Group": "Pokemon", "Name": "Ditto", "Time": "11d 23h 29m" },
                     { "Group": "Pokemon", "Name": "Beldum", "Time": "11d 23h 46m" },
-                    { "Group": "Champion", "Name": "Hau", "Time": "12d2h45m", "Attempts": 2, "Image": "http://cdn.bulbagarden.net/upload/0/03/Sun_Moon_Hau.png" },
+                    { "Group": "Champions", "Name": "Hau", "Time": "12d2h45m", "Attempts": 2, "Image": "http://cdn.bulbagarden.net/upload/0/03/Sun_Moon_Hau.png" },
                     {
                         Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "12d2h45m", Attempts: 8, Party: [
                             { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 83 },
@@ -5309,6 +5309,7 @@ var tppData = [
                     { "Group": "Pokemon", "Name": "Feebas", "Time": "12d14h29m", Class: "WifiTrade" },
                     { "Group": "Pokemon", "Name": "Staryu", "Time": "12d15h47m", Class: "WifiTrade" },
                     { "Group": "Pokemon", "Name": "Honedge", "Time": "12d16h22m", Class: "WifiTrade" },
+                    { "Group": "Pokemon", "Name": "Miltank", "Time": "12d22h31m", Class: "WifiTrade" },
                 ]
             }
         ]
