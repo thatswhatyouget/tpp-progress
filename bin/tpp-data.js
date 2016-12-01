@@ -5244,7 +5244,7 @@ var tppData = [
                             { Pokemon: "Raticate", Nickname: " SE", Gender: "Female", Form: "Alolan", Level: 74 },
                             { Pokemon: "Fearow", Nickname: "3 \"\" ☃︎) %   ", Gender: "Male", Level: 74 },
                         ],
-                        Image: "img/ribbons/champion.png"
+                        Image: "img/ribbons/champion-alola.png"
                     },
                     { "Group": "Pokemon", "Name": "Type: Null", "Time": "8d21h50m" },
                     { "Group": "Pokemon", "Name": "Nihilego", "Time": "9d2h17m" },
@@ -5298,7 +5298,7 @@ var tppData = [
                             { Pokemon: "Zygarde", Nickname: "      66  ", Form: "10%", Class: "percent10", Level: 76 },
                             { Pokemon: "Fearow", Nickname: "3 \"\" ☃︎) %   ", Gender: "Male", Level: 79 },
                         ],
-                        Image: "img/ribbons/champion.png"
+                        Image: "img/ribbons/champion-alola.png"
                     },
                     { "Group": "Pokemon", "Name": "Skarmory", "Time": "12d11h18m", Class: "WifiTrade" },
                     { "Group": "Pokemon", "Name": "Fomantis", "Time": "12d11h26m", Class: "WifiTrade" },
