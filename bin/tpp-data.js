@@ -5136,7 +5136,6 @@ var tppData = [
                 ColorPrimary: "#eac07a",
                 StartDate: "2016-11-18T22:00:00Z",
                 Duration: "2016-12-02T20:00:00Z",
-                Ongoing: true,
                 BackgroundImage: "linear-gradient(to bottom, #eac07a 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,#f6eaab 100%)",
                 HostName: "9'l",
                 HostImage: "img/hosts/sun.png",
