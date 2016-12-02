@@ -5397,7 +5397,11 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Miltank", "Time": "12d22h31m", Class: "WifiTrade" },
                     { "Group": "Pokemon", "Name": "Exeggutor", "Time": "13d4h50m" },
                     { "Group": "Pokemon", "Name": "Stufful", "Time": "13d5h37m", Class: "WifiTrade" },
-                    { "Group": "Pokemon", "Name": "Leafeon", "Time": "13d6h8m", Class: "WifiTrade" },
+                    { "Group": "Pokemon", "Name": "Leafeon", "Time": "13d6h8m", Class: "WifiTrade" }, //Traded as Level 1 Eevee
+                    { "Group": "Pokemon", "Name": "Staravia", "Time": "13d8h16m", Class: "WifiTrade" },
+                    { "Group": "Pokemon", "Name": "Pinsir", "Time": "13d8h18m", Class: "WifiTrade" },
+                    { "Group": "Pokemon", "Name": "Litten", "Time": "13d8h22m", Class: "WifiTrade" },
+                    { "Group": "Pokemon", "Name": "Decidueye", "Time": "13d8h24m", Class: "WifiTrade" },
                 ]
             }
         ]
