@@ -5405,6 +5405,8 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Togepi", "Time": "13d16h27m", Class: "WifiTrade" },
                     { "Group": "Pokemon", "Name": "Gible", "Time": "13d16h43m", Class: "WifiTrade" },
                     { "Group": "Pokemon", "Name": "Sableye", "Time": "13d17h5m", Class: "WifiTrade" },
+                    { "Group": "Pokemon", "Name": "Azurill", "Time": "13d17h46m", Class: "WifiTrade" },
+                    { "Group": "Pokemon", "Name": "Goldeen", "Time": "13d17h52m", Class: "WifiTrade" },
                 ]
             }
         ]
