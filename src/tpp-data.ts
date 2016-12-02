@@ -5214,7 +5214,7 @@ var tppData: TPP.Collection[] = [
                 ColorSecondary: "orange",
                 ColorPrimary: "#eac07a",
                 StartDate: "2016-11-18T22:00:00Z",
-                Duration: "2016-12-02T10:00:00Z",
+                Duration: "2016-12-02T20:00:00Z",
                 Ongoing: true,
                 BackgroundImage: "linear-gradient(to bottom, #eac07a 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,#f6eaab 100%)",
                 HostName: "9'l",
@@ -5402,8 +5402,9 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Pinsir", "Time": "13d8h18m", Class: "WifiTrade" },
                     { "Group": "Pokemon", "Name": "Litten", "Time": "13d8h22m", Class: "WifiTrade" },
                     { "Group": "Pokemon", "Name": "Decidueye", "Time": "13d8h24m", Class: "WifiTrade" },
-                    //{ "Group": "Pokemon", "Name": "Togepi", "Time": "13d16h??", Class: "WifiTrade" },
+                    { "Group": "Pokemon", "Name": "Togepi", "Time": "13d16h27m", Class: "WifiTrade" },
                     { "Group": "Pokemon", "Name": "Gible", "Time": "13d16h43m", Class: "WifiTrade" },
+                    { "Group": "Pokemon", "Name": "Sableye", "Time": "13d17h5m", Class: "WifiTrade" },
                 ]
             }
         ]
