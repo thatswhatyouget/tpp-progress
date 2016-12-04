@@ -7372,7 +7372,6 @@ var tppData: TPP.Collection[] = [
                 ColorPrimary: "orange",
                 StartDate: "2016-11-18T03:00:00Z",
                 Duration: "2016-11-18T21:00:00Z",
-                Ongoing: true,
                 // BackgroundImage: "linear-gradient(to bottom, #0094FF 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,orange 100%)",
                 HostName: "Sun",
                 HostImage: "img/hosts/sun.png",
