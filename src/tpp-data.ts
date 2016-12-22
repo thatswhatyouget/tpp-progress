@@ -5316,9 +5316,9 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Absol", "Time": "7d11h28m" },
                     { "Group": "Elite Four", "Name": "Acerola", "Time": "7d14h22m", "Attempts": 5, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
                     { "Group": "Elite Four", "Name": "Olivia", "Time": "7d18h29m", "Attempts": 3, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
-                    { "Group": "Elite Four", "Name": "Kahili", "Time": "8d42m", "Attempts": 2, "Image": "img/trainers/sun/kahili.gif", "ImageSource":"http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
+                    { "Group": "Elite Four", "Name": "Kahili", "Time": "8d42m", "Attempts": 2, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
                     { "Group": "Pokemon", "Name": "Carbink", "Time": "8d2h38m" },
-                    { "Group": "Champions", "Name": "Professor Kukui", "Time": "8d19h11m", "Attempts": 5, "Image": "img/trainers/sun/kukui.gif", "ImageSource":"http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
+                    { "Group": "Champions", "Name": "Professor Kukui", "Time": "8d19h11m", "Attempts": 5, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
                     <TPP.HallOfFame>{
                         Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "8d19h12m", Attempts: 41, Party: [
                             { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 77 },
@@ -5364,7 +5364,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Bonsly", "Time": "11d7h42m" },
                     { "Group": "Pokemon", "Name": "Munchlax", "Time": "11d8h" },
                     { "Group": "Pokemon", "Name": "Necrozma", "Time": "11d8h38m" },
-                    { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "11d11h51m", "Attempts": 1, "Image": "img/trainers/sun/rematch/kahili.gif", "ImageSource":"http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
+                    { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "11d11h51m", "Attempts": 1, "Image": "img/trainers/sun/rematch/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
                     { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "11d12h1m", "Attempts": 1, "Image": "img/trainers/sun/rematch/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
                     { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "11d14h5m", "Attempts": 3, "Image": "img/trainers/sun/rematch/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
                     { "Group": "Pokemon", "Name": "Porygon", "Time": "11d18h32m" },
@@ -5372,7 +5372,7 @@ var tppData: TPP.Collection[] = [
                     { "Group": "Pokemon", "Name": "Slowpoke", "Time": "11d 20h 25m" },
                     { "Group": "Pokemon", "Name": "Ditto", "Time": "11d 23h 29m" },
                     { "Group": "Pokemon", "Name": "Beldum", "Time": "11d 23h 46m" },
-                    { "Group": "Champions", "Name": "Hau", "Time": "12d2h45m", "Attempts": 2, "Image": "img/trainers/sun/hau.gif", "ImageSource":"http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
+                    { "Group": "Champions", "Name": "Hau", "Time": "12d2h45m", "Attempts": 2, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
                     <TPP.HallOfFame>{
                         Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "12d2h45m", Attempts: 8, Party: [
                             { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 84 },
@@ -5845,7 +5845,8 @@ var tppData: TPP.Collection[] = [
                         Name: "Deoxys",
                         Time: "-1d",
                         Class: "pokesprite"
-                    }
+                    },
+                    //{ Group: "Pokemon", Name: "Shuppet", Time: "Fri Dec 16 2016 11:15:01 GMT+0000" }
                 ]
             },
             {

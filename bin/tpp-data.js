@@ -5757,7 +5757,7 @@ var tppData = [
                         Name: "Deoxys",
                         Time: "-1d",
                         Class: "pokesprite"
-                    }
+                    },
                 ]
             },
             {
