@@ -9,4 +9,23 @@ As always, there's room for improvement. Visit [this Reddit thread](https://www.
 The source code is in [TypeScript](http://www.typescriptlang.org), but the compiled JS is also included. Should you just want to check this out and run it locally or on your own webserver, all that should be required is checking out the repo and opening index.html in your browser. All the code runs client-side. No database is required.
 
 ##Modifying
-I built the project using [Visual Studio Code](https://code.visualstudio.com) (hence the .vscode folder), but any text editor would work just fine. To compile the source TypeScript, you'll need a [TypeScript compiler](http://www.typescriptlang.org/#Download). The built JS isn't minified, so if you just want to experiment on your own, you can modify the built JS easily.
+I built the project using [Visual Studio Code](https://code.visualstudio.com) (hence the .vscode folder), but any text editor would work just fine. You can modify the compiled JS if you like, but if you want to modify the actual source, TypeScript and Gulp are required.
+
+To install [TypeScript](https://www.typescriptlang.org/#download-links) and [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md), first install [Node.js](https://nodejs.org/), and then run
+
+    $ npm install --global typescript gulp-cli
+
+Then check out this repository
+
+    $ git clone https://github.com/thatswhatyouget/tpp-progress.git
+
+Then make sure all dependencies are met
+
+    $ cd tpp-progress
+    $ npm install
+
+If all goes well, you can recompile the project by running
+
+    $ gulp build
+
+Or use the build shortcut (ctrl/cmd-shift-b) in Visual Studio Code.
