@@ -1,12 +1,12 @@
 var TPP;
 (function (TPP) {
+    var Scale;
     (function (Scale) {
         Scale[Scale["Weeks"] = 0] = "Weeks";
         Scale[Scale["Days"] = 1] = "Days";
         Scale[Scale["Hours"] = 2] = "Hours";
         Scale[Scale["Minutes"] = 3] = "Minutes";
-    })(TPP.Scale || (TPP.Scale = {}));
-    var Scale = TPP.Scale;
+    })(Scale = TPP.Scale || (TPP.Scale = {}));
 })(TPP || (TPP = {}));
 var Duration = (function () {
     function Duration(weeks, days, hours, minutes, seconds) {
@@ -105,9 +105,9 @@ var Duration = (function () {
     Duration.canParse = function (time) {
         return this.parseReg.test(time);
     };
-    Duration.parseReg = /^\s*(?:(\d*)w)?\s*(?:(\d*)d)?\s*(?:(\d*)h)?\s*(?:(\d*)m)?\s*(?:(\d*)s)?\s*$/i;
     return Duration;
 }());
+Duration.parseReg = /^\s*(?:(\d*)w)?\s*(?:(\d*)d)?\s*(?:(\d*)h)?\s*(?:(\d*)m)?\s*(?:(\d*)s)?\s*$/i;
 var QueryString = (function () {
     var retobj = {};
     window.location.search.substring(1).split("&").forEach(function (vars) {

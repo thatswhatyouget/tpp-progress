@@ -1,0 +1,23 @@
+{
+  "name": "tpp-progress",
+  "version": "1.0.0",
+  "description": "TPP Progress Bars",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thatswhatyouget/tpp-progress.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thatswhatyouget/tpp-progress/issues"
+  },
+  "homepage": "https://github.com/thatswhatyouget/tpp-progress#readme",
+  "private": true,
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.3",
+    "run-sequence": "^1.2.2",
+    "typescript": "^2.1.4"
+  }
+}

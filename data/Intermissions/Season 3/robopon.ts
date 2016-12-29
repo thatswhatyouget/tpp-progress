@@ -1,0 +1,77 @@
+/// <reference path="../../tpp-data.ts" />
+Intermissions.Runs.push(
+    {
+        RunName: "Robopon",
+        StartDate: "2016-03-27T16:50:00Z",
+        Duration: "2016-03-28T06:42:00Z",
+        Unfinished: true,
+        ColorPrimary: "#deab76",
+        ColorSecondary: "#a51e36",
+        BackgroundImage: 'url("img/background/robopon.gif")',
+        HostImage: "img/hosts/other/cody.gif",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+        HostName: "AAAA",
+        Region: "Porombo Island",
+        Events: [
+            { Group: "Pokemon", Name: "Sunny", Time: "2016-03-27T16:55:00Z" },
+            {
+                Group: "Hosts",
+                Name: "Cody",
+                Time: "2016-03-27T17:04:00Z",
+                Image: "img/hosts/other/cody.gif",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+            },
+            { Group: "Pokemon", Name: "Sunny", Time: "2016-03-27T17:08:00Z" },
+            { Group: "Pokemon", Name: "Robby", Time: "2016-03-27T17:35:00Z" },
+            {
+                Group: "Hosts",
+                Name: "AAAA",
+                Time: "2016-03-27T19:16:00Z",
+                Image: "img/hosts/other/cody.gif",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+            },
+            { Group: "Pokemon", Name: "Sunny", Time: "2016-03-27T19:20:00Z" },
+            {
+                Group: "Hosts",
+                Name: "Cody",
+                Time: "2016-03-27T19:32:00Z",
+                Image: "img/hosts/other/cody.gif",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+            },
+            { Group: "Pokemon", Name: "Sunny", Time: "2016-03-27T19:37:00Z" },
+            {
+                Group: "Hosts",
+                Name: "Cody",
+                Time: "2016-03-27T19:50:00Z",
+                Image: "img/hosts/other/cody.gif",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+            },
+            { Group: "Pokemon", Name: "Sunny", Time: "2016-03-27T19:54:00Z" },
+            {
+                Group: "Hosts",
+                Name: "AAAA",
+                Time: "2016-03-27T20:07:00Z",
+                Image: "img/hosts/other/cody.gif",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+            },
+            { Group: "Pokemon", Name: "Sunny", Time: "2016-03-27T20:11:00Z" },
+            {
+                Group: "Hosts",
+                Name: "Cody",
+                Time: "2016-03-27T20:32:00Z",
+                Image: "img/hosts/other/cody.gif",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+            },
+            { Group: "Pokemon", Name: "Sunny", Time: "2016-03-27T20:39:00Z" },
+            {
+                Group: "Hosts",
+                Name: "Cody",
+                Time: "2016-03-27T20:46:00Z",
+                Image: "img/hosts/other/cody.gif",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+            },
+            { Group: "Pokemon", Name: "Sunny", Time: "2016-03-27T20:50:00Z" },
+            { Group: "Pokemon", Name: "Robby", Time: "2016-03-27T23:04:00Z" },
+        ]
+    }
+);

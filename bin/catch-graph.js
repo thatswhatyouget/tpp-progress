@@ -22,7 +22,7 @@ $.when.apply($, Array.prototype.concat.apply([], tppData.filter(function (c) { r
 }); }); }))).then(function () {
     var data = [];
     for (var _i = 0; _i < arguments.length; _i++) {
-        data[_i - 0] = arguments[_i];
+        data[_i] = arguments[_i];
     }
     console.dir(data);
     var $tooltip = null;

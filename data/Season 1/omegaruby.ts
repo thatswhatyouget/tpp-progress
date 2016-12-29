@@ -1,0 +1,271 @@
+/// <reference path="../tpp-data.ts" />
+Season1.Runs.push(
+    {
+        RunName: "Omega Ruby",
+        ColorPrimary: "#c6223b",
+        ColorSecondary: "#c6223b",
+        //Duration: "8d 5h 42m",
+        StartDate: "2014-11-22T03:00:00Z",
+        Duration: "10d",
+        HostName: "!12rtyhaszs",
+        HostImage: "img/hosts/rtyhaszs.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+        BaseGame: "Emerald",
+        Region: "Hoenn",
+        TPPOrgLink: "http://twitchplayspokemon.org/omegaruby",
+        GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/omegaruby-archive",
+        Events: [
+            {
+                Group: "Badges",
+                Name: "Stone Badge",
+                Image: "img/badges/stone.png",
+                Time: "0d 8h 32m",
+                Attempts: 3
+            },
+            {
+                Group: "Badges",
+                Name: "Knuckle Badge",
+                Image: "img/badges/knuckle.png",
+                Time: "0d 14h 34m",
+                Attempts: 2
+            },
+            {
+                Group: "Badges",
+                Name: "Dynamo Badge",
+                Image: "img/badges/dynamo.png",
+                Time: "1d 0h 57m",
+                Attempts: 3
+            },
+            {
+                Group: "Badges",
+                Name: "Heat Badge",
+                Image: "img/badges/heat.png",
+                Time: "2d 14h 34m",
+                Attempts: 2
+            },
+            {
+                Group: "Badges",
+                Name: "Balance Badge",
+                Image: "img/badges/balance.png",
+                Time: "3d 1h 31m",
+                Attempts: 2
+            },
+            {
+                Group: "Badges",
+                Name: "Feather Badge",
+                Image: "img/badges/feather.png",
+                Time: "3d 21h 42m",
+                Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Mind Badge",
+                Image: "img/badges/mind.png",
+                Time: "4d 14h 30m",
+                Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Rain Badge",
+                Image: "img/badges/rain.png",
+                Time: "4d 23h 36m",
+                Attempts: 1
+            },
+            {
+                Group: "Elite Four",
+                Name: "Sidney",
+                Image: "img/trainers/emerald/sidney.png",
+                Time: "5d 19h 25m"
+            },
+            {
+                Group: "Elite Four",
+                Name: "Phoebe",
+                Image: "img/trainers/emerald/phoebe.png",
+                Time: "6d 13h 59m"
+            },
+            {
+                Group: "Elite Four",
+                Name: "Glacia",
+                Image: "img/trainers/emerald/glacia.png",
+                Time: "6d 15h 12m"
+            },
+            {
+                Group: "Elite Four",
+                Name: "Drake",
+                Image: "img/trainers/emerald/drake.png",
+                Time: "6d 18h 13m"
+            },
+            {
+                Group: "Champions",
+                Name: "Steven",
+                Image: "img/trainers/emerald/steven.png",
+                Time: "6d 20h 16m"
+            },
+            {
+                Group: "Champions",
+                Name: "Zinnia",
+                Image: "img/trainers/emerald/zinnia.png",
+                ImageSource: "http://kinectedwires.deviantart.com/art/OR-AS-Zinnia-Sprite-505257562",
+                Time: "7d 9h 4m"
+            },
+            {
+                Group: "Elite Four Rematch",
+                Name: "Sidney",
+                Image: "img/trainers/emerald/rematch/sidney.png",
+                Time: "7d 12h 33m",
+                Attempts: 1
+            },
+            {
+                Group: "Elite Four Rematch",
+                Name: "Phoebe",
+                Image: "img/trainers/emerald/rematch/phoebe.png",
+                Time: "7d 14h 48m",
+                Attempts: 5
+            },
+            {
+                Group: "Elite Four Rematch",
+                Name: "Glacia",
+                Image: "img/trainers/emerald/rematch/glacia.png",
+                Time: "7d 19h 13m",
+                Attempts: 5
+            },
+            {
+                Group: "Elite Four Rematch",
+                Name: "Drake",
+                Image: "img/trainers/emerald/rematch/drake.png",
+                Time: "8d 5h 30m",
+                Attempts: 9
+            },
+            {
+                Group: "Champions",
+                Name: "Steven",
+                Image: "img/trainers/emerald/rematch/steven.png",
+                Time: "8d 5h 42m",
+                Attempts: 1
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "6d 20h 18m", Attempts: 19, Party: [
+                    { Pokemon: "Manectric", Nickname: "w6aa:nn5ek22", Level: 63, Gender: "Female" },
+                    { Pokemon: "Azumarill", Nickname: "!t44444’’’tu", Level: 79, Gender: "Female" },
+                    { Pokemon: "Minun", Nickname: "♀2e!0yy5ee2y", Level: 76, Gender: "Male" },
+                    { Pokemon: "Exploud", Nickname: "Whismur  v", Level: 69, Gender: "Male" },
+                    { Pokemon: "Latios", Level: 66, Gender: "Male" },
+                    { Pokemon: "Linoone", Nickname: "Zigzagoony  ", Level: 67, Gender: "Female" },
+                ],
+                Image: "img/ribbons/champion-hoenn.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "8d 5h 44m", Attempts: 27, Party: [
+                    { Pokemon: "Rayquaza", Nickname: "'strssss2stt", Level: 90 },
+                    { Pokemon: "Linoone", Nickname: "Zigzagoony  ", Level: 88, Gender: "Female" },
+                    { Pokemon: "Minun", Nickname: "♀2e!0yy5ee2y", Level: 100, Gender: "Male" },
+                    { Pokemon: "Latios", Level: 86, Gender: "Male" },
+                    { Pokemon: "Azumarill", Nickname: "!t44444’’’tu", Level: 100, Gender: "Female" },
+                    { Pokemon: "Exploud", Nickname: "Whismur  v", Level: 94, Gender: "Male" },
+                ],
+                Image: "img/ribbons/champion-hoenn.png"
+            },
+            { Name: "Torchic", Time: "12m", Group: "Pokemon" },
+            { Name: "Combusken", Time: "8h11m", Group: "Pokemon" },
+            { Name: "Beldum", Time: "29m", Group: "Pokemon" },
+            { Name: "Seedot", Time: "1h12m", Group: "Pokemon" },
+            { Name: "Poochyena", Time: "1h13m", Group: "Pokemon" },
+            { Name: "Zigzagoon", Time: "1h39m", Group: "Pokemon" },
+            { Name: "Whismur", Time: "5h44m", Group: "Pokemon" },
+            { Name: "Zubat", Time: "10h43m", Group: "Pokemon" },
+            { Name: "Wingull", Time: "18h48m", Group: "Pokemon" },
+            { Name: "Skitty", Time: "1d4h34m", Group: "Pokemon" },
+            { Name: "Nincada", Time: "1d7h29m", Group: "Pokemon" },
+            { Name: "Marill", Time: "1d12h8m", Group: "Pokemon" },
+            { Name: "Electrike", Time: "1d13h9m", Group: "Pokemon" },
+            { Name: "Zangoose", Time: "2d5h20m", Group: "Pokemon" },
+            { Name: "Sandshrew", Time: "2d15h40m", Group: "Pokemon" },
+            { Name: "Numel", Time: "2d16h57m", Group: "Pokemon" },
+            { Name: "Tropius", Time: "3d20h27m", Group: "Pokemon" },
+            { Name: "Doduo", Time: "4d1h38m", Group: "Pokemon" },
+            { Name: "Golduck", Time: "4d1h41m", Group: "Pokemon" },
+            { Name: "Pikachu", Time: "18h13m", Group: "Pokemon" },
+            { Name: "Gloom", Time: "4d1h54m", Group: "Pokemon" },
+            { Name: "Psyduck", Time: "4d2h6m", Group: "Pokemon" },
+            { Name: "Duskull", Time: "4d2h47m", Group: "Pokemon" },
+            { Name: "Shuppet", Time: "4d2h49m", Group: "Pokemon" },
+            { Name: "Groudon", Time: "4d18h35m", Group: "Pokemon" },
+            { Name: "Azumarill", Time: "1d18h8m", Group: "Pokemon" },
+            { Name: "Linoone", Time: "2d19h45m", Group: "Pokemon" },
+            { Name: "Wurmple", Time: "3h30m", Group: "Pokemon" },
+            { Name: "Minun", Time: "18h26m", Group: "Pokemon" },
+            { Name: "Gulpin", Time: "21h58m", Group: "Pokemon" },
+            { Name: "Oddish", Time: "8h56m", Group: "Pokemon" },
+            { Name: "Spinda", Time: "2d19h45m", Group: "Pokemon" },
+            { Name: "Zubat", Time: "10h43m", Group: "Pokemon" },
+            { Name: "Skarmory", Time: "2d22h20m", Group: "Pokemon" },
+            { Name: "Kecleon", Time: "3d20h31m", Group: "Pokemon" },
+            { Name: "Trapinch", Time: "2d15h36m", Group: "Pokemon" },
+            { Name: "Loudred", Time: "2d4h26m", Group: "Pokemon" },
+            { Name: "Latios", Time: "3d4h14m", Group: "Pokemon" },
+            { Name: "Manectric", Time: "2d22h32m", Group: "Pokemon" },
+            { Name: "Swablu", Time: "2d23h4m", Group: "Pokemon" },
+            { Name: "Spheal", Time: "8d21h12m", Group: "Pokemon" },
+            { Name: "Sealeo", Time: "8d20h59m", Group: "Pokemon" },
+            { Name: "Exploud", Time: "6d8h5m", Group: "Pokemon" },
+            { Name: "Bagon", Time: "5d23h50m", Group: "Pokemon" },
+            { Name: "Golbat", Time: "5d23h34m", Group: "Pokemon" },
+            { Name: "Rayquaza", Time: "7d8h58m", Group: "Pokemon" },
+            { Name: "Azelf", Time: "5d1h4m", Group: "Pokemon" },
+            { Name: "Lairon", Time: "5d16h31m", Group: "Pokemon" },
+            { Name: "Magikarp", Time: "5d11h7m", Group: "Pokemon" },
+            { Name: "Solrock", Time: "5d23h19m", Group: "Pokemon" },
+            { Name: "Happiny", Time: "6d9h39m", Group: "Pokemon" },
+            { Name: "Audino", Time: "6d9h49m", Group: "Pokemon" },
+            { Name: "Ho-Oh", Time: "8d19h24m", Group: "Pokemon" },
+            { Name: "Snorunt", Time: "8d21h27m", Group: "Pokemon" },
+            { Name: "Tepig", Time: "7d9h25m", Group: "Pokemon" },
+            { Name: "Piplup", Time: "8d5h52m", Group: "Pokemon" },
+            { Name: "Chespin", Time: "9d1h32m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Entei", Time: "9d1h49m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Archeops", Time: "9d2h1m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Shinx", Time: "9d2h56m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Slowpoke", Time: "9d3h41m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Slowking", Time: "9d3h42m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Kricketune", Time: "9d3h53m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Flareon", Time: "9d3h58m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Glalie", Time: "9d6h12m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Joltik", Time: "9d6h20m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Lapras", Time: "9d6h27m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Chimchar", Time: "9d11h43m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Bellossom", Time: "9d11h49m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Machop", Time: "9d12h29m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Roserade", Time: "9d14h34m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Blaziken", Time: "9d16h13m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Metagross", Time: "9d16h50m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Mudkip", Time: "9d17h27m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Mewtwo", Time: "9d17h30m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Gallade", Time: "9d19h30m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Aerodactyl", Time: "9d19h38m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Jirachi", Time: "9d19h49m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Celebi", Time: "9d20h8m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Anorith", Time: "9d21h14m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Glaceon", Time: "9d21h35m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Diancie", Time: "9d22h9m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Mawile", Time: "9d22h24m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Magnezone", Time: "9d14h33m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Amaura", Time: "9d15h19m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Surskit", Time: "9d17h36m", Group: "Pokemon", Class: "WifiTrade" },
+            //Extra post-game trading
+            { Name: "Cascoon", Time: "13d11m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Kakuna", Time: "13d12m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Shroomish", Time: "13d17m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Chikorita", Time: "13d26m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Ralts", Time: "13d28m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Pinsir", Time: "13d29m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Zweilous", Time: "13d59m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Noibat", Time: "13d1h1m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Aron", Time: "13d1h8m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Dratini", Time: "13d1h11m", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Luvdisc", Time: "13d1h15m", Group: "Pokemon", Class: "WifiTrade" },
+            //Missing Pokémon
+            { Name: "Absol", Time: "-1d", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Rhyperior", Time: "-1d", Group: "Pokemon", Class: "WifiTrade" },
+        ]
+    }
+);

@@ -65,7 +65,7 @@ function dexSummarize(tppData) {
     return $.when.apply($, Array.prototype.concat.apply([], tppData.map(function (c) { return c.Runs.map(function (r) { return $.when(r.Scraper && r.Scraper.pokemon ? Scrape(r) : r).then(function (r) { return new PokedexSummary(r); }); }); }))).then(function () {
         var summaries = [];
         for (var _i = 0; _i < arguments.length; _i++) {
-            summaries[_i - 0] = arguments[_i];
+            summaries[_i] = arguments[_i];
         }
         return summaries.filter(function (s) { return !!s.OwnedDict; });
     });
