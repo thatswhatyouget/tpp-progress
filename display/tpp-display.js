@@ -1,0 +1,326 @@
+var fakeQuery = function (selector) { return Array.prototype.slice.call(document.querySelectorAll(selector)); };
+var $find = function (elements, selector) { return elements.map(function (e) { return e ? Array.prototype.slice.call(e.querySelectorAll(selector)) : []; }); };
+var updatePage = updatePage || function () { };
+var reprocessCharts = reprocessCharts || function () { };
+var baseSettings = {
+    "explode": {
+        displayName: "Stagger Clumps",
+        defaultValue: true
+    },
+    "hideUnfinished": {
+        displayName: "Hide Runs Left Unfinished",
+        defaultValue: true,
+        extraAction: reprocessCharts
+    }
+};
+var settings = JSON.parse(localStorage.getItem("settings") || '{}');
+Object.keys(baseSettings).forEach(function (s) { return settings[s] = typeof (settings[s]) === "boolean" ? settings[s] : baseSettings[s].defaultValue; });
+var showGroups = JSON.parse(localStorage.getItem("showGroups") || "{}");
+function toggleSetting(element) {
+    var setting = element.id;
+    settings[setting] = element.checked;
+    localStorage.setItem("settings", JSON.stringify(settings));
+    $.when((baseSettings[setting].extraAction || function () { })()).always(updatePage);
+}
+function toggleGroup(element) {
+    var group = element.id.split('-').pop(), visible = element.checked;
+    showGroups[group] = visible;
+    localStorage.setItem("showGroups", JSON.stringify(showGroups));
+    $('.' + group.replace(/[^A-Z0-9]/ig, '')).toggleClass("hidden", !visible);
+    updatePage();
+}
+var TPP;
+(function (TPP) {
+    var Scale;
+    (function (Scale) {
+        Scale[Scale["Weeks"] = 0] = "Weeks";
+        Scale[Scale["Days"] = 1] = "Days";
+        Scale[Scale["Hours"] = 2] = "Hours";
+        Scale[Scale["Minutes"] = 3] = "Minutes";
+    })(Scale = TPP.Scale || (TPP.Scale = {}));
+})(TPP || (TPP = {}));
+var Twitch;
+(function (Twitch) {
+    var offsetExp = /offset=(\d*)/i;
+    var clientId = 'l6ejgsj101ymei0f6v4a6nkjw9upml9';
+    var Video = (function () {
+        function Video(recorded_at, length, url, source) {
+            this.recorded_at = recorded_at;
+            this.length = length;
+            this.url = url;
+            this.source = source;
+            this.StartTime = new Date(recorded_at).valueOf() / 1000;
+            this.EndTime = this.StartTime + length;
+        }
+        return Video;
+    }());
+    Twitch.Video = Video;
+    function GetVideos(channel, getAll) {
+        if (getAll === void 0) { getAll = true; }
+        var videos = [], getAllVideos = function (r) {
+            if (r.videos.length) {
+                videos = videos.concat.apply(videos, r.videos.map(function (v) { return new Video(v.recorded_at, v.length, v.url, "Twitch"); }));
+                if (getAll && r._total) {
+                    return callApi(r._links.next).then(getAllVideos);
+                }
+            }
+            return videos;
+        };
+        return $.when(callApi("https://api.twitch.tv/kraken/channels/" + channel + "/videos?broadcasts=true&limit=100").then(getAllVideos), callApi("https://api.twitch.tv/kraken/channels/" + channel + "/videos?limit=100").then(getAllVideos));
+    }
+    Twitch.GetVideos = GetVideos;
+    function callApi(url) {
+        return $.get(url + (url.indexOf('?') > 0 ? '&' : '?') + "client_id=" + clientId);
+    }
+})(Twitch || (Twitch = {}));
+var TPP;
+(function (TPP) {
+    var Duration = (function () {
+        function Duration(weeks, days, hours, minutes, seconds) {
+            if (days === void 0) { days = 0; }
+            if (hours === void 0) { hours = 0; }
+            if (minutes === void 0) { minutes = 0; }
+            if (seconds === void 0) { seconds = 0; }
+            this.days = days;
+            this.hours = hours;
+            this.minutes = minutes;
+            this.seconds = seconds;
+            if (typeof (weeks) === "string") {
+                var parsed = Duration.parse(weeks);
+                this.days = parsed.days;
+                this.hours = parsed.hours;
+                this.minutes = parsed.minutes;
+                this.seconds = parsed.seconds;
+            }
+            else
+                this.days += weeks * 7;
+        }
+        Object.defineProperty(Duration.prototype, "TotalSeconds", {
+            get: function () {
+                return this.seconds + (this.minutes * 60) + (this.hours * 60 * 60) + (this.days * 60 * 60 * 24);
+            },
+            set: function (value) {
+                this.seconds = Math.floor(value % 60);
+                this.minutes = Math.floor(value / 60) % 60;
+                this.hours = Math.floor(value / 60 / 60) % 24;
+                this.days = Math.floor(value / 60 / 60 / 24);
+            },
+            enumerable: true,
+            configurable: true
+        });
+        Object.defineProperty(Duration.prototype, "TotalHours", {
+            get: function () {
+                return this.TotalSeconds / 60 / 60;
+            },
+            set: function (value) {
+                this.TotalSeconds = value * 60 * 60;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        Object.defineProperty(Duration.prototype, "TotalDays", {
+            get: function () {
+                return this.TotalHours / 24;
+            },
+            set: function (value) {
+                this.TotalHours = value * 24;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        Object.defineProperty(Duration.prototype, "TotalWeeks", {
+            get: function () {
+                return this.TotalDays / 7;
+            },
+            set: function (value) {
+                this.TotalDays = value * 7;
+            },
+            enumerable: true,
+            configurable: true
+        });
+        Duration.prototype.TotalTime = function (scale) {
+            switch (scale) {
+                case TPP.Scale.Weeks:
+                    return this.TotalWeeks;
+                case TPP.Scale.Hours:
+                    return this.TotalHours / 4;
+                case TPP.Scale.Minutes:
+                    return this.TotalHours * 6;
+            }
+            return this.TotalDays;
+        };
+        Duration.prototype.toString = function (scale) {
+            if (scale === void 0) { scale = TPP.Scale.Days; }
+            return (scale == TPP.Scale.Minutes ? (this.days * 24 + this.hours) * 60 + this.minutes : (scale == TPP.Scale.Hours ? this.days * 24 + this.hours : (scale == TPP.Scale.Weeks ? Math.floor(this.days / 7) + "w " + (this.days % 7) : this.days) + "d " + this.hours) + "h " + this.minutes) + "m" + (this.seconds ? " " + this.seconds + "s" : "");
+        };
+        Duration.parse = function (time, baseTime) {
+            var retval = new Duration(0, 0, 0, 0);
+            if (time) {
+                if (this.canParse(time)) {
+                    try {
+                        var matches = this.parseReg.exec(time);
+                        return new Duration(parseInt(matches[1]) || 0, parseInt(matches[2]) || 0, parseInt(matches[3]) || 0, parseInt(matches[4]) || 0, parseInt(matches[5]) || 0);
+                    }
+                    catch (e) { }
+                }
+                if (baseTime) {
+                    retval.TotalSeconds = (Date.parse(time) / 1000) - baseTime;
+                }
+            }
+            return retval;
+        };
+        Duration.canParse = function (time) {
+            return this.parseReg.test(time);
+        };
+        return Duration;
+    }());
+    Duration.parseReg = /^\s*(?:(\d*)w)?\s*(?:(\d*)d)?\s*(?:(\d*)h)?\s*(?:(\d*)m)?\s*(?:(\d*)s)?\s*$/i;
+    TPP.Duration = Duration;
+})(TPP || (TPP = {}));
+var QueryString = (function () {
+    var retobj = {};
+    window.location.search.substring(1).split("&").forEach(function (vars) {
+        if (vars.indexOf("=") > 0) {
+            var pair = vars.split("=");
+            retobj[pair.shift()] = decodeURI(pair.join('='));
+        }
+        else
+            retobj[vars] = "true";
+    });
+    return retobj;
+})();
+function SerializeQueryString() {
+    if (Object.keys(QueryString).filter(function (k) { return QueryString[k]; }).length)
+        return "?" + Object.keys(QueryString).filter(function (k) { return QueryString[k]; }).map(function (k) { return k + (QueryString[k] == "true" ? "" : "=" + encodeURI(QueryString[k])); }).join('&');
+    return "";
+}
+var groupList;
+var groups;
+function updateGroups() {
+    if (groups && groupList) {
+        var extant = $find([groupList], "input").pop().map(function (i) { return i.id.split('-').pop(); }) || [];
+        Object.keys(groups).filter(function (g) { return extant.indexOf(g) < 0; }).forEach(function (g) {
+            var li = document.createElement("li");
+            var input = document.createElement("input");
+            var label = document.createElement("label");
+            li.appendChild(input);
+            li.appendChild(label);
+            groupList.appendChild(li);
+            input.type = "checkbox";
+            label.htmlFor = input.id = "group-" + g;
+            input.checked = showGroups[g] !== false;
+            label.innerText = groups[g];
+            input.onchange = function () { return toggleGroup(input); };
+        });
+    }
+}
+function icon(ico, title, action) {
+    var icon = document.createElement("i");
+    icon.classList.add("fa", ico);
+    icon.title = title;
+    if (action)
+        icon.onclick = action;
+    return icon;
+}
+function listControl(ico, name) {
+    var control = document.createElement("li");
+    control.appendChild(icon(ico, name));
+    var list = document.createElement("ul");
+    control.appendChild(list);
+    return {
+        controlElement: control,
+        listElement: list
+    };
+}
+var zoomIn = zoomIn || function () { }, zoomOut = zoomOut || zoomIn;
+function zoomButtons() {
+    var zoomInButton = document.createElement("li");
+    var zoomOutButton = document.createElement("li");
+    zoomInButton.appendChild(icon("fa-search-plus", "Zoom In", function () { return zoomIn(); }));
+    zoomOutButton.appendChild(icon("fa-search-minus", "Zoom Out", function () { return zoomOut(); }));
+    return [zoomInButton, zoomOutButton];
+}
+function settingsMenu() {
+    var menu = listControl("fa-gear", "Settings");
+    Object.keys(baseSettings).forEach(function (s) {
+        var setting = document.createElement("li");
+        var checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.id = s;
+        checkbox.checked = settings[s];
+        checkbox.onchange = function () { return toggleSetting(checkbox); };
+        setting.appendChild(checkbox);
+        var label = document.createElement("label");
+        label.htmlFor = checkbox.id;
+        label.innerText = label.innerHTML = baseSettings[s].displayName;
+        setting.appendChild(label);
+        menu.listElement.appendChild(setting);
+    });
+    menu.controlElement.classList.add("settings");
+    return menu.controlElement;
+}
+function groupsMenu() {
+    var menu = listControl("fa-eye", "Groups");
+    groupList = menu.listElement;
+    menu.controlElement.classList.add("groups");
+    updateGroups();
+    return menu.controlElement;
+}
+function dayMenu(maxDaysParam) {
+    if (maxDaysParam === void 0) { maxDaysParam = 40; }
+    var maxDays = 0;
+    if (Array.isArray(maxDaysParam))
+        maxDaysParam.forEach(function (c) { return c.Runs.forEach(function (r) { return maxDays = Math.max(maxDays, TPP.Duration.parse(r.Duration, r.StartTime).TotalTime(c.Scale)); }); });
+    else
+        maxDays = maxDaysParam;
+    var menu = listControl("fa-calendar", "Day");
+    var setting = document.createElement("li");
+    var dropdown = document.createElement("select");
+    dropdown.id = "day";
+    for (var i = 0; i < maxDays; i++) {
+        var option = document.createElement("option");
+        if (i)
+            option.value = option.innerText = option.innerHTML = i.toFixed(0);
+        else
+            option.innerText = option.innerHTML = "All";
+        if (QueryString["day"] == i.toFixed(0))
+            option.selected = true;
+        dropdown.appendChild(option);
+    }
+    var label = document.createElement("label");
+    label.htmlFor = dropdown.id;
+    label.innerHTML = "Day:&nbsp;";
+    setting.appendChild(label);
+    setting.appendChild(dropdown);
+    menu.listElement.appendChild(setting);
+    dropdown.onchange = function () {
+        QueryString["day"] = dropdown.value == "All" ? null : dropdown.value;
+        window.location.href = window.location.href.split('?').shift() + SerializeQueryString();
+    };
+    return menu.controlElement;
+}
+var getTwitchVideos = getTwitchVideos || function () { };
+function twitchButton() {
+    var button = document.createElement("li");
+    button.appendChild(icon("fa-twitch", "Twitch Videos", function () { return getTwitchVideos(); }));
+    return button;
+}
+function defaultControls() {
+    var extraControls = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        extraControls[_i] = arguments[_i];
+    }
+    var controls = zoomButtons();
+    controls.push(settingsMenu());
+    controls.push(groupsMenu());
+    extraControls.forEach(function (c) { return controls.push(c); });
+    controls.push(twitchButton());
+    return controls;
+}
+function drawControls(controls, container) {
+    container = container || (document.currentScript || Array.prototype.concat.apply([], document.getElementsByTagName("script")).pop()).parentElement;
+    controls.forEach(function (c) {
+        container.appendChild(c);
+        container.appendChild(document.createTextNode("\n"));
+    });
+}

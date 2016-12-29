@@ -9,6 +9,7 @@
 	<script src="bin/tpp-progress.js"></script>
 	<script src="bin/tpp-scraper.js"></script>
 	<script src="bin/tpp-data.js"></script>
+	<script src="display/tpp-display.js"></script>
     <!--<script src="bin/poke-styles.js"></script>-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">	
 	<link rel="stylesheet" href="css/tpp-progress.css" />
@@ -58,31 +59,7 @@
 	   <script>createCharts(tppData);</script>
     </div>
 	<ul class="controls">
-		<li><i class="fa fa-search-plus" title="Zoom In" onclick="zoomIn();"></i></li>
-		<li><i class="fa fa-search-minus" title="Zoom Out" onclick="zoomOut();"></i></li>
-		<li class="settings">
-			<i class="fa fa-gear" title="Settings"></i>
-			<ul>
-				<li>
-					<input type="checkbox" id="explode" onchange="toggleSetting(this);" />
-					<label for="explode">Stagger Clumps</label>
-				</li>
-				<li>
-					<input type="checkbox" id="hideUnfinished" onchange="toggleSetting(this);" />
-					<label for="hideUnfinished">Hide Runs Left Unfinished</label>
-				</li>
-                <!--<li>
-					<input type="checkbox" id="postgame" onchange="toggleSetting(this);" />
-					<label for="postgame">Show Postgame</label>
-				</li>-->
-			</ul>
-		</li>
-		<li class="groups">
-			<i class="fa fa-eye" title="Groups"></i>
-			<ul>
-			</ul>
-		</li>
-        <li><i class="fa fa-twitch" title="Twitch Videos" onclick="getTwitchVideos();"></i></li>
+		<script>drawControls(defaultControls());</script>
 	</ul>
 </body>
 

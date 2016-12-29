@@ -1,0 +1,2 @@
+var fakeQuery: (selector: string) => Array<HTMLElement> = selector => Array.prototype.slice.call(document.querySelectorAll(selector));
+var $find: (elements: Array<HTMLElement>, selector: string) => Array<Array<HTMLElement>> = (elements, selector) => elements.map(e => e ? Array.prototype.slice.call(e.querySelectorAll(selector)) : []);
