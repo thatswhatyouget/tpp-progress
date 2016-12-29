@@ -56,6 +56,10 @@ function createChart(data) {
     setTimeout(function () { return pageTarget.appendChild(chart); }, 1);
     var longestRun = new Duration(0);
     data.Runs.filter(function (r) { return r.StartTime < Date.now() / 1000; }).forEach(function (run) {
+        if (Duration.parse(run.EndDate || run.Duration, run.StartTime).TotalSeconds > ((Date.now() / 1000) - run.StartTime)) {
+            run.Duration = new Date().toISOString();
+            run.Ongoing = true;
+        }
         var runLength = Duration.parse(run.EndDate || run.Duration, run.StartTime);
         if (longestRun.TotalSeconds < runLength.TotalSeconds)
             longestRun = runLength;

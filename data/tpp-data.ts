@@ -61,11 +61,6 @@ setTimeout(() => {
                 (<TPP.HallOfFame>e).FirstAttemptUnixTime = TPP.Duration.parse((<TPP.HallOfFame>e).FirstAttemptDate, r.StartTime).TotalSeconds + r.StartTime;
             }
         });
-        //truncate runs that end in the future
-        if (TPP.Duration.parse(r.Duration, r.StartTime).TotalSeconds > ((Date.now() / 1000) - r.StartTime)) {
-            r.Duration = new Date().toISOString();
-            r.Ongoing = true;
-        }
     }));
 
     //split Intermissions by length
@@ -97,6 +92,6 @@ setTimeout(() => {
     tppData.forEach(c => c.Runs.forEach(r => r.Events = r.Events.sort((e1, e2) => e1.UnixTime - e2.UnixTime)));
 
     //autonumber unnumbered Hall of Fame entries
-    tppData.forEach(c => c.Runs.forEach(r => r.Events.filter(e => (<TPP.HallOfFame>e).Party && e.Name.toLowerCase().trim() == "hall of fame").forEach((hof, i, hofArr) => hof.Name = hofArr.length > 1 ? "Hall of Fame #" + (i + 1) : hof.Name)));
+    tppData.forEach(c => c.Runs.forEach(r => r.Events.filter(e => (<TPP.HallOfFame>e).Party && e.Name.toLowerCase().trim() == "hall of fame").forEach((hof, i, hofArr) => hof.Name += hofArr.length > 1 ? " #" + (i + 1) : "")));
 
 }, 0);

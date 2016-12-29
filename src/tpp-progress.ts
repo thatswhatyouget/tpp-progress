@@ -66,6 +66,11 @@ function createChart(data: TPP.Collection) {
     setTimeout(() => pageTarget.appendChild(chart), 1);
     var longestRun = new Duration(0);
     data.Runs.filter(r => r.StartTime < Date.now() / 1000).forEach(run => {
+        // //truncate runs that end in the future
+        if (Duration.parse(run.EndDate || run.Duration, run.StartTime).TotalSeconds > ((Date.now() / 1000) - run.StartTime)) {
+            run.Duration = new Date().toISOString();
+            run.Ongoing = true;
+        }
         var runLength = Duration.parse(run.EndDate || run.Duration, run.StartTime);
         if (longestRun.TotalSeconds < runLength.TotalSeconds) longestRun = runLength;
         chart.appendChild(queueRun(run, data.Scale));
