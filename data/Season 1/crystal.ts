@@ -156,7 +156,7 @@ Season1.Runs.push(
                 Attempts: 7
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "9d 21h 27m", IDNo: "47901", Attempts: 38, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 21h 27m", IDNo: "47901", Attempts: 38, Party: [
                     { Pokemon: "Espeon", Nickname: "AAAS RJ-I", Level: 49, Gender: "Male", Number: 196, IDNo: "47901" },
                     { Pokemon: "Steelix", Nickname: "AAJRR RRR", Level: 48, Gender: "Male", Number: 208, IDNo: "47901" },
                     { Pokemon: "Raticate", Nickname: "A", Level: 37, Gender: "Male", Number: 20, IDNo: "47901" },
@@ -167,7 +167,7 @@ Season1.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "13d 5h 56m", IDNo: "47901", Attempts: 2, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d 5h 56m", IDNo: "47901", Attempts: 2, Party: [
                     { Pokemon: "Steelix", Nickname: "AAJRR RRR", Level: 73, Gender: "Male", Number: 208, IDNo: "47901" },
                     { Pokemon: "Dragonite", Nickname: "KT", Level: 63, Gender: "Female", Number: 149, IDNo: "47901" },
                     { Pokemon: "Espeon", Nickname: "AAAS RJ-I", Level: 54, Gender: "Male", Number: 196, IDNo: "47901" },

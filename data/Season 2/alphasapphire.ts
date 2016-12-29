@@ -170,7 +170,7 @@ Season2.Runs.push(
                 Attempts: 6
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "8d 23h 12m", Attempts: 46, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "8d 23h 12m", Attempts: 46, Party: [
                     { Pokemon: "Cacturne", Nickname: "r", Level: 73, Gender: "Female" },
                     { Pokemon: "Jellicent", Nickname: "Wingull9xx88", Level: 95, Gender: "Female" },
                     { Pokemon: "Glaceon", Nickname: "Glaceonhfeer", Level: 83, Gender: "Female" },
@@ -181,7 +181,7 @@ Season2.Runs.push(
                 Image: "img/ribbons/champion-hoenn.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "14d 1h 29m", Attempts: 38, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "14d 1h 29m", Attempts: 38, Party: [
                     { Pokemon: "Cacturne", Nickname: "r", Level: 100, Gender: "Female" },
                     { Pokemon: "Jellicent", Nickname: "Duskugbe", Level: 100, Gender: "Male" },
                     { Pokemon: "Jellicent", Nickname: "Wingull9xx88", Level: 100, Gender: "Female" },

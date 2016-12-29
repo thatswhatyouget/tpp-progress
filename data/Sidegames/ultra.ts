@@ -36,7 +36,7 @@ Sidegames.Runs.push(
             { Group: "Elite Four", Name: "Lance", Image: "img/trainers/ultra/lance.png", Time: "2016-10-27T12:17:15Z", Attempts: 1 },
             { Group: "Champions", Name: "LUM", Image: "img/trainers/ultra/lum.png", Time: "2016-10-28T10:19:28Z", Attempts: 1 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "2016-10-28T15:21:23Z", IDNo: "46904", Attempts: 1, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2016-10-28T15:21:23Z", IDNo: "46904", Attempts: 1, Party: [
                     { Pokemon: "Zapdos", Class: "ultra", Nickname: "CHAT", Level: 54, Number: 145, IDNo: "46904" },
                     { Pokemon: "Mewtwo", Nickname: "SAC", Level: 71, Number: 150, IDNo: "46904" },
                     { Pokemon: "Solrock", Nickname: "BOOB", Level: 8, Number: "???", IDNo: "46904" },

@@ -107,7 +107,7 @@ Season1.Runs.push(
                 Attempts: 21
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "20d 21h 58m", IDNo: "61415", Attempts: 103, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "20d 21h 58m", IDNo: "61415", Attempts: 103, Party: [
                     { Pokemon: "Hariyama", Nickname: "A♀NIIIIc33", Level: 79, Gender: "Female", Number: 49, IDNo: "61415" },
                     { Pokemon: "Mightyena ", Level: 50, Gender: "Male", Number: 11, IDNo: "61415" },
                     { Pokemon: "Vileplume", Level: 49, Gender: "Female", Number: 90, IDNo: "61415" },

@@ -24,7 +24,7 @@ Revisits.Runs.push(
             { Name: "LAT", Time: "2016-06-16T16:20:00Z", Group: "Pokemon", Class: "Raticate" },
             { Name: "YEDEA", Time: "2016-06-16T16:32:00Z", Group: "Pokemon", Class: "Noctowl" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "2016-06-16T11:55:00Z", IDNo: "30818", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2016-06-16T11:55:00Z", IDNo: "30818", Party: [
                     { Number: 157, Pokemon: "BAGEP", Class: "Typhlosion", Gender: "Male", Nickname: "BEST", Level: 80, IDNo: "30818" },
                     { Number: 245, Pokemon: "DON", Class: "Suicune", Nickname: "DONG", Level: 46, IDNo: "30818" },
                     { Number: 16, Pokemon: "LAP", Class: "Pidgey", Gender: "Female", Nickname: "EVER", Level: 12, IDNo: "30818" },

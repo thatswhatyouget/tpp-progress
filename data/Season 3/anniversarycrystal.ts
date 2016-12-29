@@ -59,7 +59,7 @@ Season3.Runs.push(
                 Attempts: 1
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "12d 4h 27m", Attempts: 47, IDNo: "58192", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "12d 4h 27m", Attempts: 47, IDNo: "58192", Party: [
                     { Number: 142, Pokemon: "Aerodactyl", Gender: "Male", Nickname: "JHH", Level: 88, IDNo: "58192" },
                     { Number: 135, Pokemon: "Jolteon", Gender: "Male", Nickname: "FOX,/!!!)u", Level: 83, IDNo: "58192" },
                     { Number: 230, Pokemon: "Kingdra", Gender: "Female", Nickname: "---sxjxKKK", Level: 84, IDNo: "58192" },
@@ -70,7 +70,7 @@ Season3.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "17d 20h 18m", Attempts: 1, IDNo: "58192", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "17d 20h 18m", Attempts: 1, IDNo: "58192", Party: [
                     { Number: 241, Pokemon: "Miltank", Gender: "Female", Nickname: "!L", Level: 100, IDNo: "58192" },
                     { Number: 135, Pokemon: "Jolteon", Gender: "Male", Nickname: "FOX,/!!!)u", Level: 100, IDNo: "58192" },
                     { Number: 230, Pokemon: "Kingdra", Gender: "Female", Nickname: "---sxjxKKK", Level: 100, IDNo: "58192" },
@@ -81,7 +81,7 @@ Season3.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #3", Time: "24d 3h 31m", Attempts: 2, IDNo: "58192", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "24d 3h 31m", Attempts: 2, IDNo: "58192", Party: [
                     { Number: 3, Pokemon: "Venusaur", Gender: "Male", Nickname: "ul:::utx", Level: 100, IDNo: "58192" },
                     { Number: 230, Pokemon: "Kingdra", Gender: "Female", Nickname: "---sxjxKKK", Level: 100, IDNo: "58192" },
                     { Number: 135, Pokemon: "Jolteon", Gender: "Male", Nickname: "FOX,/!!!)u", Level: 100, IDNo: "58192" },
@@ -92,7 +92,7 @@ Season3.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #4", Time: "30d 1h 16m", Attempts: 11, IDNo: "58192", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "30d 1h 16m", Attempts: 11, IDNo: "58192", Party: [
                     { Number: 164, Pokemon: "Noctowl", Gender: "Female", Nickname: "KENYA", Level: 100, IDNo: "01001" },
                     { Number: 142, Pokemon: "Aerodactyl", Gender: "Male", Nickname: "JHH", Level: 100, IDNo: "58192" },
                     { Number: 241, Pokemon: "Miltank", Gender: "Female", Nickname: "!L", Level: 100, IDNo: "58192" },

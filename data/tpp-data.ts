@@ -96,4 +96,7 @@ setTimeout(() => {
     //put events in order
     tppData.forEach(c => c.Runs.forEach(r => r.Events = r.Events.sort((e1, e2) => e1.UnixTime - e2.UnixTime)));
 
+    //autonumber unnumbered Hall of Fame entries
+    tppData.forEach(c => c.Runs.forEach(r => r.Events.filter(e => (<TPP.HallOfFame>e).Party && e.Name.toLowerCase().trim() == "hall of fame").forEach((hof, i, hofArr) => hof.Name = hofArr.length > 1 ? "Hall of Fame #" + (i + 1) : hof.Name)));
+
 }, 0);

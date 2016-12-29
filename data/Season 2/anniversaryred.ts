@@ -212,7 +212,7 @@ Season2.Runs.push(
                 Attempts: 4
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "27d 19h 25m", Attempts: 18, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "27d 19h 25m", Attempts: 18, Party: [
                     { Pokemon: "Slowbro", Nickname: ",R  π,,,", Level: 92, Type1: "Water", Type2: "Psychic" },
                     { Pokemon: "Kabutops", Nickname: "AAAACCDYY", Level: 76, Type1: "Rock", Type2: "Water" },
                     { Pokemon: "Cloyster", Nickname: "IIII--??(U", Level: 97, Type1: "Water", Type2: "Ice" },
@@ -223,7 +223,7 @@ Season2.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "33d 14h 43m", Attempts: 2, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "33d 14h 43m", Attempts: 2, Party: [
                     { Pokemon: "Venomoth", Nickname: "RRRRIIIIH", Level: 82, Type1: "Bug", Type2: "Poison" },
                     { Pokemon: "Alakazam", Nickname: "IIHNNMMMMM", Level: 83, Type1: "Psychic" },
                     { Pokemon: "Dragonite", Nickname: "AAA--xxµµµ", Level: 55, Type1: "Dragon", Type2: "Flying" },
@@ -234,7 +234,7 @@ Season2.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #3", Time: "39d 19h 18m", Attempts: 23, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "39d 19h 18m", Attempts: 23, Party: [
                     { Pokemon: "Slowbro", Nickname: "AAbbABCabb", Level: 100, Type1: "Water", Type2: "Psychic", PreviousNick: ",R  π,,," },
                     { Pokemon: "Venomoth", Nickname: "RRRRIIIIH", Level: 97, Type1: "Bug", Type2: "Poison" },
                     { Pokemon: "Cloyster", Nickname: "IIII--??(U", Level: 100, Type1: "Water", Type2: "Ice" },

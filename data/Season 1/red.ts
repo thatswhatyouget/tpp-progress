@@ -107,7 +107,7 @@ Season1.Runs.push(
                 Attempts: 2
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "16d 7h 44m", Attempts: 22, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 7h 44m", Attempts: 22, Party: [
                     { Pokemon: "Zapdos", Nickname: "AA-j", Level: 81, Type1: "Electric", Type2: "Flying" },
                     { Pokemon: "Nidoking", Nickname: "AAAAAAAAAA", Level: 54, Type1: "Poison", Type2: "Ground" },
                     { Pokemon: "Omastar", Level: 52, Type1: "Rock", Type2: "Water" },

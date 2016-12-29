@@ -27,7 +27,7 @@ Revisits.Runs.push(
             { Group: "Pokemon", Name: "Rhyhorn", Time: "2016-04-16T18:57:00Z" },
             { Group: "Pokemon", Name: "NidoranF", Time: "2016-04-16T19:19:00Z" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #3", Time: "2016-04-16T06:27:00Z", IDNo: "47901", Attempts: 1, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2016-04-16T06:27:00Z", IDNo: "47901", Attempts: 1, Party: [
                     { Pokemon: "Steelix", Nickname: "AAJRR RRR", Level: 77, Gender: "Male", Number: 208, IDNo: "47901" },
                     { Pokemon: "Dragonite", Nickname: "KT", Level: 63, Gender: "Female", Number: 149, IDNo: "47901" },
                     { Pokemon: "Espeon", Nickname: "AAAS RJ-I", Level: 55, Gender: "Male", Number: 196, IDNo: "47901" },

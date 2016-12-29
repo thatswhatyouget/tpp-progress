@@ -157,7 +157,7 @@ Sidegames.Runs.push(
                 Time: "2015-11-10T10:09:48Z"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "2015-09-10T04:07:06Z", IDNo: "30818", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2015-09-10T04:07:06Z", IDNo: "30818", Party: [
                     { Number: 157, Pokemon: "BAGEP", Class: "Typhlosion", Gender: "Male", Nickname: "BEST", Level: 59, IDNo: "30818" },
                     { Number: 245, Pokemon: "DON", Class: "Suicune", Nickname: "DONG", Level: 45, IDNo: "30818" },
                     { Number: 16, Pokemon: "LAP", Class: "Pidgey", Gender: "Female", Nickname: "EVER", Level: 10, IDNo: "30818" },

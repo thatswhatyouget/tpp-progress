@@ -110,7 +110,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Carbink", "Time": "8d2h38m" },
             { "Group": "Champions", "Name": "Professor Kukui", "Time": "8d19h11m", "Attempts": 5, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "8d19h12m", Attempts: 41, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "8d19h12m", Attempts: 41, Party: [
                     { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 77 },
                     { Pokemon: "Solgaleo", Nickname: "KMRR  WWL Nn", Level: 72 },
                     { Pokemon: "Ariados", Nickname: " ⤵︎!?ro   s!h", Gender: "Female", Level: 80 },
@@ -165,7 +165,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Beldum", "Time": "11d 23h 46m" },
             { "Group": "Champions", "Name": "Hau", "Time": "12d2h45m", "Attempts": 2, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "12d2h45m", Attempts: 8, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "12d2h45m", Attempts: 8, Party: [
                     { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 84 },
                     { Pokemon: "Solgaleo", Nickname: "KMRR  WWL Nn", Level: 80 },
                     { Pokemon: "Buzzwole", Nickname: "! beb r", Level: 74 },

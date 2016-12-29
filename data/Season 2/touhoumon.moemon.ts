@@ -105,7 +105,7 @@ Season2.Runs.push(
                 Attempts: 1
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "13d 15h 46m", IDNo: "29177", Attempts: 44, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d 15h 46m", IDNo: "29177", Attempts: 44, Party: [
                     { Pokemon: "Sanae", Level: 79, Gender: "Female", Number: 2, IDNo: "29177" },
                     { Pokemon: "Cirno", Nickname: "BB", Gender: "Female", Level: 60, Number: 26, IDNo: "29177" },
                     { Pokemon: "Momiji", Nickname: "AUUUUABBBB", Level: 64, Gender: "Male", Number: 12, IDNo: "29177" },
@@ -265,7 +265,7 @@ Season2.Runs.push(
                 Attempts: 2
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "12d 4h 52m", IDNo: "42115", Attempts: 40, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "12d 4h 52m", IDNo: "42115", Attempts: 40, Party: [
                     { Pokemon: "Dugtrio", Nickname: "AHHHHHIIII", Level: 44, Gender: "Female", Number: 51, IDNo: "42115" },
                     { Pokemon: "Vaporeon", Nickname: "ACCCIOOWWW", Gender: "Female", Level: 81, Number: 134, IDNo: "42115" },
                     { Pokemon: "Pidgeot", Nickname: "T", Level: 50, Gender: "Female", Number: 18, IDNo: "42115" },

@@ -105,7 +105,7 @@ Season1.Runs.push(
                 Attempts: 13
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "17d 11h 40m", IDNo: "12339", Attempts: 49, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "17d 11h 40m", IDNo: "12339", Attempts: 49, Party: [
                     { Pokemon: "Shinx", Nickname: "0”☀ ☀0☀☺ ☹", Level: 63, Gender: "Female", Met: "Route 203", OT: "nqpppnl" },
                     { Pokemon: "Bibarel", Nickname: "00  00 06", Level: 93, Gender: "Female", Met: "Route 209", OT: "nqpppnl" },
                     { Pokemon: "Flareon", Level: 97, Gender: "Male", Met: "Hearthome City", OT: "nqpppnl" },

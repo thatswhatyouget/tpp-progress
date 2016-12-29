@@ -106,7 +106,7 @@ Season1.Runs.push(
                 Attempts: 4
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "5d 4h 53m", Attempts: 21, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "5d 4h 53m", Attempts: 21, Party: [
                     { Pokemon: "Lapras", Nickname: "! ♀o?04+6eAd", Level: 68, Gender: "Male" },
                     { Pokemon: "Charizard", Nickname: "!taj11yygaaa", Level: 81, Gender: "Male" },
                     { Pokemon: "Absol", Nickname: "QQYyy25o6wf7", Level: 70, Gender: "Female" },

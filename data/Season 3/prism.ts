@@ -107,7 +107,7 @@ Season3.Runs.push(
             { "Group": "Elite Four", "Name": "Mura", "Time": "9d 1h 3m", "Attempts": 5, "Image": "img/trainers/prism/mura.png" },
             { "Group": "Champions", "Name": "Lance", "Time": "9d 11h 19m", "Attempts": 9, "Image": "img/trainers/prism/lance.png" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "9d 11h 20m", Attempts: 36, IDNo: "59484", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 11h 20m", Attempts: 36, IDNo: "59484", Party: [
                     { Number: 38, Pokemon: "Ninetales", Gender: "Female", Nickname: "FFFEEEF", Level: 83, IDNo: "59484" },
                     { Number: 24, Pokemon: "Lopunny", Gender: "Male", Nickname: "EEEE", Level: 59, IDNo: "59484" },
                     { Number: 181, Pokemon: "Ampharos", Gender: "Male", Level: 60, IDNo: "59484" },
@@ -181,7 +181,7 @@ Season3.Runs.push(
             { "Group": "Elite Four", "Name": "Mura", "Time": "16d 6h 21m", "Attempts": 3, "Image": "img/trainers/prism/rematch/mura.png" },
             { "Group": "Champions", "Name": "Lance", "Time": "16d 9h 32m", "Attempts": 4, "Image": "img/trainers/prism/rematch/lance.png" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "16d 9h 33m", Attempts: 10, IDNo: "59484", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 9h 33m", Attempts: 10, IDNo: "59484", Party: [
                     { Number: 38, Pokemon: "Ninetales", Gender: "Female", Nickname: "FFFEEEF", Level: 100, IDNo: "59484" },
                     { Number: 181, Pokemon: "Ampharos", Gender: "Male", Level: 88, IDNo: "59484" },
                     { Number: 248, Pokemon: "Tyranitar", Gender: "Female", Nickname: "I!C", Level: 100, IDNo: "59484" },

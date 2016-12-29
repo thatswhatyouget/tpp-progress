@@ -144,7 +144,7 @@ Season1.Runs.push(
                 Attempts: 1
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "6d 20h 18m", Attempts: 19, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "6d 20h 18m", Attempts: 19, Party: [
                     { Pokemon: "Manectric", Nickname: "w6aa:nn5ek22", Level: 63, Gender: "Female" },
                     { Pokemon: "Azumarill", Nickname: "!t44444’’’tu", Level: 79, Gender: "Female" },
                     { Pokemon: "Minun", Nickname: "♀2e!0yy5ee2y", Level: 76, Gender: "Male" },
@@ -155,7 +155,7 @@ Season1.Runs.push(
                 Image: "img/ribbons/champion-hoenn.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "8d 5h 44m", Attempts: 27, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "8d 5h 44m", Attempts: 27, Party: [
                     { Pokemon: "Rayquaza", Nickname: "'strssss2stt", Level: 90 },
                     { Pokemon: "Linoone", Nickname: "Zigzagoony  ", Level: 88, Gender: "Female" },
                     { Pokemon: "Minun", Nickname: "♀2e!0yy5ee2y", Level: 100, Gender: "Male" },

@@ -34,7 +34,7 @@ Season3.Runs.push(
             { "Group": "Champions", "Name": "Mura", "Time": "2016-06-26T05:01:00.000Z", "Attempts": 2, "Image": "img/trainers/brown/mura.png" },
             { "Group": "Champions", "Name": "Pallet Patrol", "Time": "10d 8h 30m", "Attempts": 2, "Image": "img/trainers/brown/palletpatrol.png" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "9d 8h 3m", Attempts: 12, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 8h 3m", Attempts: 12, Party: [
                     { Pokemon: "Golduck", Nickname: "AAAAAAAAFF", Level: 56, Type1: "Water" },
                     { Pokemon: "Sylveon", Nickname: "BBbkkkkk", Level: 55, Type1: "Fairy" },
                     { Pokemon: "Golem", Nickname: "AJJJJJJaaa", Level: 50, Type1: "Rock", Type2: "Ground" },
@@ -45,7 +45,7 @@ Season3.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "10d 22h 35m", Attempts: 3, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d 22h 35m", Attempts: 3, Party: [
                     { Pokemon: "Dugtrio", Nickname: "BKKTTTTTTT", Level: 57, Type1: "Ground" },
                     { Pokemon: "Sylveon", Nickname: "BBbkkkkk", Level: 62, Type1: "Fairy" },
                     { Pokemon: "Golduck", Nickname: "AAAAAAAAFF", Level: 66, Type1: "Water" },

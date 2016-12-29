@@ -225,7 +225,7 @@ Season1.Runs.push(
                 Attempts: 5
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "11d 9h 10m", IDNo: "28412", Attempts: 26, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "11d 9h 10m", IDNo: "28412", Attempts: 26, Party: [
                     { Pokemon: "Sudowoodo", Nickname: "A", Level: 63, Gender: "Male", Met: "Mt. Mortar", OT: "aoooo" },
                     { Pokemon: "Cranidos", Nickname: "6 ♢'j", Level: 37, Gender: "Male", Met: "Route 36", OT: "aoooo" },
                     { Pokemon: "Bastiodon", Level: 57, Gender: "Male", Met: "Victory Road", OT: "aoooo" },
@@ -235,7 +235,7 @@ Season1.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "16d 11h 57m", IDNo: "28412", Attempts: 34, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 11h 57m", IDNo: "28412", Attempts: 34, Party: [
                     { Pokemon: "Cranidos", Nickname: "6 ♢'j", Level: 48, Gender: "Male", Met: "Route 36", OT: "aoooo" },
                     { Pokemon: "Omastar", Level: 92, Gender: "Male", Met: "Vermilion City", OT: "aoooo" },
                     { Pokemon: "Bastiodon", Level: 78, Gender: "Male", Met: "Victory Road", OT: "aoooo" },

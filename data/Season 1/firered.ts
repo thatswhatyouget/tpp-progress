@@ -118,7 +118,7 @@ Season1.Runs.push(
                 Attempts: 3
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "15d 2h 3m", IDNo: "56171", Attempts: 8, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "15d 2h 3m", IDNo: "56171", Attempts: 8, Party: [
                     { Pokemon: "Altaria", Level: 54, Gender: "Female", Number: 334, IDNo: "56171" },
                     { Pokemon: "Mew", Nickname: "MARC", Level: 57, Number: 151, IDNo: "01239" },
                     { Pokemon: "Masquerain", Nickname: "AATUUUUNN", Level: 58, Gender: "Male", Number: 284, IDNo: "56171" },

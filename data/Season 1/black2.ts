@@ -147,7 +147,7 @@ Season1.Runs.push(
                 Time: "19d 2h 16m"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "16d 5h 35m", IDNo: "06648", Attempts: 67, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 5h 35m", IDNo: "06648", Attempts: 67, Party: [
                     { Pokemon: "Unfezant", Nickname: "qfwwqhhzwu", Level: 100, Gender: "Female" },
                     { Pokemon: "Zoroark", Level: 100, Gender: "Male" },
                     { Pokemon: "Leavanny", Nickname: "zzffzz zzw", Level: 85, Gender: "Male" },

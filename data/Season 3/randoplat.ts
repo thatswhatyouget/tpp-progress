@@ -156,7 +156,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Flaaffy", "Time": "11d 9h 49m" },
             { Group: "Champions", Name: "Jasmine", Image: "img/trainers/platinum/cynthia.png", Time: "11d 15h 27m", Attempts: 6 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #1", Time: "11d 15h 30m", Attempts: 24, IDNo: "02503", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "11d 15h 30m", Attempts: 24, IDNo: "02503", Party: [
                     { Nickname: "h   ☹7PL4", Pokemon: "Pachirisu", Gender: "Female", Level: 73, Met: "Route 214" },
                     { Nickname: "GHHdg c''-", Pokemon: "Magnezone", Level: 51, Met: "Iron Island" },
                     { Nickname: "E", Pokemon: "Quagsire", Gender: "Female", Level: 64, Met: "Great Marsh" },
@@ -241,7 +241,7 @@ Season3.Runs.push(
             { Group: "Elite Four Rematch", Name: "Mallorie", Image: "img/trainers/platinum/rematch/lucian.png", Time: "14d 7h 20m", Attempts: 1 },
             { Group: "Champions", Name: "Jasmine", Image: "img/trainers/platinum/rematch/cynthia.png", Time: "14d 7h 27m", Attempts: 1 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "14d 7h 29m", Attempts: 0, IDNo: "02503", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "14d 7h 29m", Attempts: 0, IDNo: "02503", Party: [
                     { Nickname: "h   ☹7PL4", Pokemon: "Pachirisu", Gender: "Female", Level: 77, Met: "Route 214" },
                     { Nickname: "E", Pokemon: "Quagsire", Gender: "Female", Level: 74, Met: "Great Marsh" },
                     { Nickname: "AAAK", Pokemon: "Kingler", Gender: "Male", Level: 79, Met: "Route 210" },

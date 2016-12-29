@@ -38,7 +38,7 @@ Revisits.Runs.push(
             { Group: "Pokemon", Name: "Lugia", Time: "2016-04-13T02:50:00Z" },
             { Group: "Pokemon", Name: "Huntail", Time: "2016-04-13T03:57:00Z" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame #2", Time: "2016-04-13T00:17:00Z", IDNo: "56171", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2016-04-13T00:17:00Z", IDNo: "56171", Party: [
                     { Pokemon: "Altaria", Level: 70, Gender: "Female", Number: 334, IDNo: "56171" },
                     { Pokemon: "Blastoise", Nickname: "TTABCIJIJD", Level: 65, Gender: "Male", Number: 9, IDNo: "56171" },
                     { Pokemon: "Masquerain", Nickname: "AATUUUUNN", Level: 61, Gender: "Male", Number: 284, IDNo: "56171" },
