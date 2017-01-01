@@ -2,8 +2,11 @@ var gulp = require('gulp');
 var ts = require('gulp-typescript');
 var del = require('del');
 var fs = require('fs');
+var merge = require('merge2');
+var removeLines = require('gulp-remove-lines');
 
 var tppDataProject = ts.createProject('data/tsconfig.json');
+var pokedexProject = ts.createProject('data/Pokedex/tsconfig.json');
 var tppDisplayProject = ts.createProject('display/tsconfig.json');
 var tppProgressProject = ts.createProject('tsconfig.json');
 
@@ -22,7 +25,10 @@ gulp.task('build-display', function () {
 
 gulp.task('compile-data', function () {
     var tsResult = tppDataProject.src().pipe(tppDataProject())
-    return tsResult.js.pipe(gulp.dest("bin/"));
+    return merge(
+        tsResult.js.pipe(gulp.dest("bin/")),
+        tsResult.dts.pipe(gulp.dest("bin/"))
+    );
 });
 gulp.task('process-data', ['compile-data'], function (callback) {
     var tppData = require('./bin/data/tpp-data.js').tppData;
@@ -33,6 +39,30 @@ gulp.task('process-data', ['compile-data'], function (callback) {
         fs.writeFile("./bin/tpp-data.js", tppDataOut, callback);
     }, 1);
 });
-gulp.task('clean-up-data', ['process-data'], function () {
+
+gulp.task('compile-pokedex', function () {
+    var tsResult = pokedexProject.src().pipe(pokedexProject())
+    return merge(
+        tsResult.js.pipe(gulp.dest("bin/")),
+        tsResult.dts.pipe(gulp.dest("bin/"))
+    );
+});
+gulp.task('process-pokedex', ['compile-pokedex'], function (callback) {
+    var pokedex = require('./bin/data/Pokedex/pokedex-data.js').Pokedex;
+    setTimeout(function () {
+        var pokedexString = JSON.stringify(pokedex);
+        var pokedexOut = "var Pokedex = " + pokedexString + ';';
+        fs.writeFile("./bin/pokedex-data.json", pokedexString);
+        fs.writeFile("./bin/pokedex-data.js", pokedexOut, callback);
+    }, 1);
+});
+
+gulp.task('move-definition-files', ['compile-data', 'compile-pokedex'], function () {
+    return merge(
+        gulp.src('bin/data/Pokedex/pokedex-data.d.ts').pipe(removeLines({ 'filters': [/declare var exports: any;/] })).pipe(gulp.dest('ref/'))
+    );
+});
+
+gulp.task('clean-up-data', ['process-data', 'process-pokedex', 'move-definition-files'], function () {
     return del('bin/data');
 });
