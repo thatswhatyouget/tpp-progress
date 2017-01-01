@@ -232,6 +232,46 @@ function listControl(ico, name) {
         listElement: list
     };
 }
+function qsListMenu(icon, name, qsParam, options, defaultOption, prefix) {
+    if (defaultOption === void 0) { defaultOption = "All"; }
+    if (prefix === void 0) { prefix = ""; }
+    var menu = listControl(icon, name);
+    var selected = QueryString[qsParam];
+    QueryString[qsParam] = null;
+    options.forEach(function (i) {
+        var option = document.createElement('li');
+        var link = document.createElement('a');
+        if (i) {
+            link.innerText = link.innerHTML = prefix + (QueryString[qsParam] = i);
+        }
+        else
+            link.innerText = link.innerHTML = defaultOption;
+        link.href = window.location.href.split('?').shift() + SerializeQueryString();
+        menu.listElement.appendChild(option);
+        option.appendChild(link);
+        if (selected == i)
+            option.classList.add('selected');
+    });
+    QueryString[qsParam] = selected;
+    return menu.controlElement;
+}
+function qsOptionsMenu(icon, name, options) {
+    var menu = listControl(icon, name);
+    Object.keys(options).forEach(function (i) {
+        var option = document.createElement('li');
+        var link = document.createElement('a');
+        var selected = QueryString[i];
+        QueryString[i] = selected ? null : "true";
+        link.innerText = link.innerHTML = options[i];
+        link.href = window.location.href.split('?').shift() + SerializeQueryString();
+        menu.listElement.appendChild(option);
+        option.appendChild(link);
+        QueryString[i] = selected;
+        if (selected)
+            option.classList.add('selected');
+    });
+    return menu.controlElement;
+}
 var zoomIn = zoomIn || function () { }, zoomOut = zoomOut || zoomIn;
 function zoomButtons() {
     var zoomInButton = document.createElement("li");
@@ -268,22 +308,22 @@ function groupsMenu() {
 }
 function dayMenu(maxDaysParam) {
     if (maxDaysParam === void 0) { maxDaysParam = 40; }
-    var maxDays = 0;
+    var maxDays = 0, currDay = parseInt(QueryString["day"] || "0") || 0;
     if (Array.isArray(maxDaysParam))
-        maxDaysParam.forEach(function (c) { return c.Runs.forEach(function (r) { return maxDays = Math.max(maxDays, TPP.Duration.parse(r.Duration, r.StartTime).TotalTime(c.Scale)); }); });
+        maxDaysParam.forEach(function (c) { return c.Runs.forEach(function (r) { return maxDays = Math.max(maxDays, Math.ceil(TPP.Duration.parse(r.Duration, r.StartTime).TotalTime(c.Scale) + (c.Offset || 0) + currDay)); }); });
     else
         maxDays = maxDaysParam;
     var menu = listControl("fa-calendar", "Day");
     var setting = document.createElement("li");
     var dropdown = document.createElement("select");
     dropdown.id = "day";
-    for (var i = 0; i < maxDays; i++) {
+    for (var i = 0; i < maxDays + 1; i++) {
         var option = document.createElement("option");
         if (i)
             option.value = option.innerText = option.innerHTML = i.toFixed(0);
         else
             option.innerText = option.innerHTML = "All";
-        if (QueryString["day"] == i.toFixed(0))
+        if (currDay == i)
             option.selected = true;
         dropdown.appendChild(option);
     }
@@ -299,6 +339,31 @@ function dayMenu(maxDaysParam) {
     };
     return menu.controlElement;
 }
+function regionMenu(regionsParam) {
+    var regions;
+    if (regionsParam[0] && regionsParam[0].Name) {
+        var data = regionsParam;
+        regions = [];
+        data.forEach(function (c) {
+            c.Runs.forEach(function (r) {
+                if (r.Unfinished)
+                    return;
+                if (r.Region && regions.indexOf(r.Region) < 0)
+                    regions.push(r.Region);
+                (r.AdditionalRegions || []).forEach(function (r) {
+                    if (r.Name && regions.indexOf(r.Name) < 0)
+                        regions.push(r.Name);
+                });
+            });
+        });
+    }
+    else {
+        regions = regionsParam;
+    }
+    return qsListMenu("fa-globe", "Region", "region", regions);
+}
+var pokedexGenerationsMenu = function () { return qsListMenu("fa-gamepad", "Generations", "g", Pokedex.GenSlice.map(function (g, i) { return i ? i.toFixed(0) : null; }), "All", "Generation "); };
+var pokedexRegionsMenu = function () { return qsListMenu("fa-globe", "Region", "dex", Object.keys(Pokedex.Regional).map(function (m, i) { return i ? m : null; }), "National"); };
 var getTwitchVideos = getTwitchVideos || function () { };
 function twitchButton() {
     var button = document.createElement("li");

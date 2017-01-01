@@ -8,6 +8,7 @@
 	<script src="bin/tpp-progress.js"></script>
 	<script src="bin/tpp-scraper.js"></script>
 	<script src="bin/tpp-data.js"></script>
+	<script src="display/tpp-display.js"></script>
     <!--<script src="bin/poke-styles.js"></script>-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">	
 	<link rel="stylesheet" href="css/tpp-progress.css" />
@@ -90,76 +91,8 @@
        </script>
     </div>
 	<ul class="controls">
-		<li><i class="fa fa-search-plus" title="Zoom In" onclick="zoomIn();"></i></li>
-		<li><i class="fa fa-search-minus" title="Zoom Out" onclick="zoomOut();"></i></li>
-		<li class="settings">
-			<i class="fa fa-gear" title="Settings"></i>
-			<ul>
-				<li>
-					<input type="checkbox" id="explode" onchange="toggleSetting(this);" />
-					<label for="explode">Stagger Clumps</label>
-				</li>
-			</ul>
-		</li>
-		<li class="groups">
-			<i class="fa fa-eye" title="Groups"></i>
-			<ul>
-			</ul>
-		</li>
-        <li>
-			<i class="fa fa-calendar" title="Day"></i>
-			<ul>
-                <li>
-					<label for="day">Day:&nbsp;</label>
-                    <select id="day">
-                        <option value="">All</option>
-                    </select>
-				</li>
-			</ul>
-		</li>
-        <li class="regional">
-			<i class="fa fa-globe" title="Regions"></i>
-			<ul>
-			</ul>
-		</li>
-        <li><i class="fa fa-twitch" title="Twitch Videos" onclick="getTwitchVideos();"></i></li>
+        <script>drawControls(defaultControls(dayMenu(data), regionMenu(tppData)));</script>
 	</ul>
-    <script>
-        var regions = [];
-        var maxDay = 1;
-        tppData.forEach(function(c) {
-            c.Runs.forEach(function(r) {
-                if (r.Unfinished) return;
-                var days = Math.floor(Duration.parse(r.Duration, r.StartTime).TotalTime(c.Scale == TPP.Scale.Weeks ? c.Scale : TPP.Scale.Days));
-                if (days > maxDay) maxDay = days;
-                if (r.Region && regions.indexOf(r.Region) < 0) regions.push(r.Region);
-                (r.AdditionalRegions || []).forEach(function(r) {
-                    if (r.Name && regions.indexOf(r.Name) < 0) regions.push(r.Name);
-                });
-            });
-        });
-        for (var i = 1; i < maxDay; i++) {
-            var $option = $("<option>").attr('value', i).text(i);
-            if (QueryString["day"] == i) $option.attr('selected','selected');
-            $('#day').append($option);
-        }
-        $('#day').change(function() {
-            QueryString["day"] = $(this).val();
-            window.location.href = window.location.href.split('?').shift() + SerializeQueryString();
-        });
-		var region = QueryString['region'];
-		QueryString['region'] = null;
-		regions.forEach(function(r) {
-			var $li = $('<li>');
-			var $a = $('<a>').appendTo($li);
-			$a.text(r);
-			QueryString['region'] = r;
-			$a.attr('href', window.location.href.split('?').shift() + SerializeQueryString());
-			if (region == r || (!region && r=="Kanto")) $li.addClass('selected');
-			$('li.regional ul').append($li);
-		});
-		QueryString['region'] = region;
-	</script>
 </body>
 
 </html>
