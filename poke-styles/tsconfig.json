@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"outDir": "../poke-styles",
+		"target": "es5",
+		"removeComments": true,
+		"outFile": "poke-styles.js",
+		"declaration": true
+	},
+	"include": [
+		"**/*.ts"
+	]
+}

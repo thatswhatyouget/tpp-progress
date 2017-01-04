@@ -7,6 +7,7 @@ var removeLines = require('gulp-remove-lines');
 
 var tppDataProject = ts.createProject('data/tsconfig.json');
 var pokedexProject = ts.createProject('data/Pokedex/tsconfig.json');
+var pokeStylesProject = ts.createProject('poke-styles/tsconfig.json');
 var tppDisplayProject = ts.createProject('display/tsconfig.json');
 var tppProgressProject = ts.createProject('tsconfig.json');
 
@@ -57,12 +58,29 @@ gulp.task('process-pokedex', ['compile-pokedex'], function (callback) {
     }, 1);
 });
 
+gulp.task('compile-poke-styles', function () {
+    var tsResult = pokeStylesProject.src().pipe(pokeStylesProject())
+    return merge(
+        tsResult.js.pipe(gulp.dest("bin/")),
+        tsResult.dts.pipe(gulp.dest("bin/"))
+    );
+});
+gulp.task('process-poke-styles', ['compile-poke-styles'], function (callback) {
+    var styles = require('./bin/poke-styles/poke-styles.js').pokeStyles;
+    setTimeout(function () {
+        fs.writeFile("./css/pokemon.css", styles.join("\n").trim(), callback);
+    }, 1);
+});
+gulp.task('clean-up-poke-styles', ['process-poke-styles'], function () {
+    return del('bin/poke-styles');
+});
+
 gulp.task('move-definition-files', ['compile-data', 'compile-pokedex'], function () {
     return merge(
         gulp.src('bin/data/Pokedex/pokedex-data.d.ts').pipe(removeLines({ 'filters': [/declare var exports: any;/] })).pipe(gulp.dest('ref/'))
     );
 });
 
-gulp.task('clean-up-data', ['process-data', 'process-pokedex', 'move-definition-files'], function () {
+gulp.task('clean-up-data', ['process-data', 'process-pokedex', 'clean-up-poke-styles', 'move-definition-files'], function () {
     return del('bin/data');
 });
