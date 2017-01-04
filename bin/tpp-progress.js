@@ -255,7 +255,7 @@ function drawHallOfFame(hofInfo, runInfo, scale) {
     $hof.append($("<img>").attr('src', hofInfo.Image));
     var $hofRow = $("<tr>").appendTo($("<table>").appendTo($hof));
     var $host = $("<div class='entry host'>").appendTo($("<td>").appendTo($hofRow));
-    var $hostImg = $("<img>").attr('src', runInfo.HostImage).attr('alt', runInfo.HostName);
+    var $hostImg = $("<img>").attr('src', runInfo.HostImage).attr('alt', runInfo.HostName).attr('title', runInfo.HostName);
     if (runInfo.HostImageSource) {
         $hostImg = $("<a>").attr('href', runInfo.HostImageSource).append($hostImg);
     }
@@ -268,7 +268,7 @@ function drawHallOfFame(hofInfo, runInfo, scale) {
         var name = (p.Nickname || p.Pokemon).replace(/\s/g, "&nbsp;").replace(/π/g, "<i class='pk'></i>").replace(/µ/g, "<i class='mn'></i>");
         var $entry = $("<div class='entry'>").addClass((p.Gender || '').toLowerCase());
         $entry.append($("<span class='level'>").text(p.Level));
-        $entry.append($("<div class='pokesprite'><img src='img/missingno.png'/></div>").addClass(cleanString(p.Pokemon)).addClass(p.Shiny ? "shiny" : "").addClass((p.Gender || "").toLowerCase()).addClass(p.Class).addClass(cleanString(p.Form || "")));
+        $entry.append($("<div class='pokesprite'><img src='img/missingno.png'/></div>").addClass(cleanString(p.Pokemon)).addClass(p.Shiny ? "shiny" : "").addClass((p.Gender || "").toLowerCase()).addClass(p.Class).addClass(cleanString(p.Form || "")).attr('title', p.Pokemon));
         var $info = $("<div class='info'>").append($("<div class='name'>").html(name)).appendTo($entry);
         if (p.Number) {
             var idx = p.Number.toString(), index = ('000' + idx).substring(idx.length);
