@@ -60,87 +60,87 @@ Sidegames.Runs.push(
             {
                 Group: "Bosses",
                 Name: "Rayquaza",
-                Time: "-1d",
+                Time: "2017-01-08T22:43:55Z",
                 Class: "pokesprite"
             },
-            {
-                Group: "Bosses",
-                Name: "Kyogre",
-                Time: "-1d",
-                Class: "pokesprite"
-            },
-            {
-                Group: "Bosses",
-                Name: "Regirock",
-                Time: "-1d",
-                Class: "pokesprite"
-            },
-            {
-                Group: "Bosses",
-                Name: "Regice",
-                Time: "-1d",
-                Class: "pokesprite"
-            },
-            {
-                Group: "Bosses",
-                Name: "Registeel",
-                Time: "-1d",
-                Class: "pokesprite"
-            },
-            {
-                Group: "Bosses",
-                Name: "Latios",
-                Time: "-1d",
-                Class: "pokesprite"
-            },
-            {
-                Group: "Bosses",
-                Name: "Entei",
-                Time: "-1d",
-                Class: "pokesprite"
-            },
-            {
-                Group: "Bosses",
-                Name: "Raikou",
-                Time: "-1d",
-                Class: "pokesprite"
-            },
-            {
-                Group: "Bosses",
-                Name: "Suicune",
-                Time: "-1d",
-                Class: "pokesprite"
-            },
-            {
-                Group: "Bosses",
-                Name: "Ho-Oh",
-                Time: "-1d",
-                Class: "pokesprite"
-            },
-            {
-                Group: "Bosses",
-                Name: "Jirachi",
-                Time: "-1d",
-                Class: "pokesprite"
-            },
-            {
-                Group: "Bosses",
-                Name: "Lugia",
-                Time: "-1d",
-                Class: "pokesprite"
-            },
-            {
-                Group: "Bosses",
-                Name: "Mewtwo",
-                Time: "-1d",
-                Class: "pokesprite"
-            },
-            {
-                Group: "Bosses",
-                Name: "Deoxys",
-                Time: "-1d",
-                Class: "pokesprite"
-            },
+            // {
+            //     Group: "Bosses",
+            //     Name: "Kyogre",
+            //     Time: "-1d",
+            //     Class: "pokesprite"
+            // },
+            // {
+            //     Group: "Bosses",
+            //     Name: "Regirock",
+            //     Time: "-1d",
+            //     Class: "pokesprite"
+            // },
+            // {
+            //     Group: "Bosses",
+            //     Name: "Regice",
+            //     Time: "-1d",
+            //     Class: "pokesprite"
+            // },
+            // {
+            //     Group: "Bosses",
+            //     Name: "Registeel",
+            //     Time: "-1d",
+            //     Class: "pokesprite"
+            // },
+            // {
+            //     Group: "Bosses",
+            //     Name: "Latios",
+            //     Time: "-1d",
+            //     Class: "pokesprite"
+            // },
+            // {
+            //     Group: "Bosses",
+            //     Name: "Entei",
+            //     Time: "-1d",
+            //     Class: "pokesprite"
+            // },
+            // {
+            //     Group: "Bosses",
+            //     Name: "Raikou",
+            //     Time: "-1d",
+            //     Class: "pokesprite"
+            // },
+            // {
+            //     Group: "Bosses",
+            //     Name: "Suicune",
+            //     Time: "-1d",
+            //     Class: "pokesprite"
+            // },
+            // {
+            //     Group: "Bosses",
+            //     Name: "Ho-Oh",
+            //     Time: "-1d",
+            //     Class: "pokesprite"
+            // },
+            // {
+            //     Group: "Bosses",
+            //     Name: "Jirachi",
+            //     Time: "-1d",
+            //     Class: "pokesprite"
+            // },
+            // {
+            //     Group: "Bosses",
+            //     Name: "Lugia",
+            //     Time: "-1d",
+            //     Class: "pokesprite"
+            // },
+            // {
+            //     Group: "Bosses",
+            //     Name: "Mewtwo",
+            //     Time: "-1d",
+            //     Class: "pokesprite"
+            // },
+            // {
+            //     Group: "Bosses",
+            //     Name: "Deoxys",
+            //     Time: "-1d",
+            //     Class: "pokesprite"
+            // },
             //{ Group: "Pokemon", Name: "Shuppet", Time: "Fri Dec 16 2016 11:15:01 GMT+0000" }
         ]
     }
