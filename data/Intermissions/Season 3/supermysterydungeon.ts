@@ -3,8 +3,8 @@ Intermissions.Runs.push(
     {
         RunName: "Super Mystery Dungeon",
         StartDate: "2017-01-12T22:21:54Z",
-        ColorPrimary: "#24BBEC",
-        ColorSecondary: "#B872B4",
+        ColorPrimary: "#95C492",
+        ColorSecondary: "#153A74",
         Duration: "2017-01-13T17:00:00Z",
         Ongoing: true,
         HostName: "¡",
