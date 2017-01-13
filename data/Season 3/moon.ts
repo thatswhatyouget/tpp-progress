@@ -2,8 +2,8 @@
 Season3.Runs.push(
     {
         RunName: "Waning Moon",
-        ColorSecondary: "#47b1e3",
-        ColorPrimary: "rgb(0,148,255)",
+        ColorSecondary: "rgb(0,148,255)",
+        ColorPrimary: "#47b1e3",
         StartDate: "2017-01-13T18:00:00Z",
         Duration: "255d",
         Ongoing: true,
