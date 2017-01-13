@@ -23,6 +23,7 @@ Season3.Runs.push(
         Region: "Alola",
         Events: [
             //{ "Group": "Pokemon", "Name": "Rowlet", "Time": "24m" },
+            { "Group": "Pokemon", "Name": "Litten", "Time": "1h5m" },
             //{ "Group: "Hosts", "Name": "d76o6yttr??", "Time": "45m" },
             //{ "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "", "Attempts": 0 },
             //{ "Group": "Pokemon", "Name": "", "Time": "" },
