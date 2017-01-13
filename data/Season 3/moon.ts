@@ -39,6 +39,8 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Riolu", "Time": "4h14m" },
             { "Group": "Pokemon", "Name": "Electrike", "Time": "4h17m" },
             { "Group": "Pokemon", "Name": "Grimer", "Time": "5h16m" },
+            { "Group": "Pokemon", "Name": "Minun", "Time": "5h44m" },
+            { "Group": "Pokemon", "Name": "Plusle", "Time": "5h52m" },
             //{ "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "", "Attempts": 0 },
             //{ "Group": "Pokemon", "Name": "", "Time": "" },
         ]
