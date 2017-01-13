@@ -23,6 +23,7 @@ Season3.Runs.push(
         Region: "Alola",
         Events: [
             //{ "Group": "Pokemon", "Name": "Rowlet", "Time": "24m" },
+            //{ "Group: "Hosts", "Name": "d76o6yttr??", "Time": "45m" },
             { "Group": "Pokemon", "Name": "Litten", "Time": "1h5m" },
             { "Group": "Pokemon", "Name": "Starly", "Time": "1h24m" },
             { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "1h26m" },
@@ -32,7 +33,11 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Wingull", "Time": "2h21m" },
             { "Group": "Pokemon", "Name": "Hoothoot", "Time": "2h27m" },
             { "Group": "Pokemon", "Name": "Slowpoke", "Time": "2h29m" },
-            //{ "Group: "Hosts", "Name": "d76o6yttr??", "Time": "45m" },
+            { "Group": "Pokemon", "Name": "Patrat", "Time": "3h54m" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "4h3m" },
+            { "Group": "Pokemon", "Name": "Magnemite", "Time": "4h8m" },
+            { "Group": "Pokemon", "Name": "Riolu", "Time": "4h14m" },
+            { "Group": "Pokemon", "Name": "Electrike", "Time": "4h17m" },
             //{ "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "", "Attempts": 0 },
             //{ "Group": "Pokemon", "Name": "", "Time": "" },
         ]
