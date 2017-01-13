@@ -64,9 +64,9 @@ setTimeout(() => {
     }));
 
     //split Intermissions by length
-    ShortIntermissions.Runs = [].concat.apply(ShortIntermissions.Runs, Intermissions.Runs.filter(r => TPP.Duration.parse(r.Duration, r.StartTime).TotalHours < 4));
+    ShortIntermissions.Runs = [].concat.apply(ShortIntermissions.Runs, Intermissions.Runs.filter(r => TPP.Duration.parse(r.Duration, r.StartTime).TotalHours < 3.5));
     LongIntermissions.Runs = [].concat.apply(LongIntermissions.Runs, Intermissions.Runs.filter(r => TPP.Duration.parse(r.Duration, r.StartTime).TotalHours >= 100));
-    Intermissions.Runs = Intermissions.Runs.filter(r => { var d = TPP.Duration.parse(r.Duration, r.StartTime).TotalHours; return d >= 4 && d < 100; });
+    Intermissions.Runs = Intermissions.Runs.filter(r => { var d = TPP.Duration.parse(r.Duration, r.StartTime).TotalHours; return d >= 3.5 && d < 100; });
 
     //do event copying
     tppData.forEach(c => c.Runs.forEach(baseRunInfo => {
