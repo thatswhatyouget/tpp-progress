@@ -6,10 +6,10 @@ Intermissions.Runs.push(
         ColorPrimary: "#ffed00",
         ColorSecondary: "red",
         Ongoing: true,
-        Duration: "2017-01-13T17:00:00Z",
+        Duration: "2017-01-13T17:02:30Z",
         HostName: "twdtm'',k",
         HostImage: "img/hosts/other/miis/twdtm.png",
-        Region: "jrfc'v Island",
+        Region: "jrfc'vffrf Island",
         Events: [],
     }
 );
