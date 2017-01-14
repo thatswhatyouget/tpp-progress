@@ -41,6 +41,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Grimer", "Time": "5h16m" },
             { "Group": "Pokemon", "Name": "Minun", "Time": "5h44m" },
             { "Group": "Pokemon", "Name": "Plusle", "Time": "5h52m" },
+            { "Group": "Pokemon", "Name": "Azurill", "Time": "6h9m" },
             //{ "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "", "Attempts": 0 },
             //{ "Group": "Pokemon", "Name": "", "Time": "" },
         ]
