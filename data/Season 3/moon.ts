@@ -73,6 +73,9 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Diglett", "Time": "20h30m" },
             { "Group": "Pokemon", "Name": "Roggenrola", "Time": "20h34m" },
             { "Group": "Pokemon", "Name": "Woobat", "Time": "20h37m" },
+            { "Group": "Pokemon", "Name": "Spearow", "Time": "20h56m" },
+            { "Group": "Pokemon", "Name": "Litleo", "Time": "21h6m" },
+            { "Group": "Pokemon", "Name": "Crabrawler", "Time": "21h11m" },
         ]
     }
 );
