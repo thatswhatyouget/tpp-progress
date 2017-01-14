@@ -83,6 +83,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Petilil", "Time": "1d1h4m" },
             { "Group": "Pokemon", "Name": "Dunsparce", "Time": "1d1h12m" },
             { "Group": "Pokemon", "Name": "Shellos", "Time": "1d1h14m" },
+            { "Group": "Badges", "Name": "Fightinium Z", "Image": "img/z-crystals/Fightinium Z.png", "Time": "1d1h54m", "Attempts": 1 },
         ]
     }
 );
