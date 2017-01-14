@@ -49,6 +49,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Bidoof", "Time": "7h12m" },
             { "Group": "Pokemon", "Name": "Staravia", "Time": "7h20m" },
             { "Group": "Pokemon", "Name": "Lotad", "Time": "7h44m" },
+            { "Group": "Pokemon", "Name": "Pichu", "Time": "11h58m" },
             //{ "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "", "Attempts": 0 },
             //{ "Group": "Pokemon", "Name": "", "Time": "" },
         ]
