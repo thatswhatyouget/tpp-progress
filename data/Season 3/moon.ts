@@ -64,6 +64,9 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Gastly", "Time": "17h14m" },
             { "Group": "Pokemon", "Name": "Drifloon", "Time": "17h23m" },
             { "Group": "Pokemon", "Name": "Shuppet", "Time": "17h24m" },
+            { "Group": "Pokemon", "Name": "Pachirisu", "Time": "18h22m" },
+            { "Group": "Pokemon", "Name": "Trumbeak", "Time": "18h23m" },
+            { "Group": "Pokemon", "Name": "Furfrou", "Time": "19h13m" },
             //{ "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "", "Attempts": 0 },
             //{ "Group": "Pokemon", "Name": "", "Time": "" },
         ]
