@@ -8,8 +8,8 @@ Season3.Runs.push(
         Duration: "2016-12-02T20:00:00Z",
         BackgroundImage: "linear-gradient(to bottom, #eac07a 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,#f6eaab 100%)",
         HostName: "9'l",
-        HostImage: "img/hosts/sun.png",
-        HostImageSource: "http://drawnamu.deviantart.com/art/Sun-Moon-characters-612994192",
+        HostImage: "img/hosts/9l.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5gwfvd/nigel_sprite_v_20/",
         TPPOrgLink: "http://twitchplayspokemon.org/",
         // Scraper: {
         //     url: "http://twitchplayspokemon.org/",
