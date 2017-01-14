@@ -79,6 +79,10 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Litwick", "Time": "21h47m" },
             { "Group": "Pokemon", "Name": "Zubat", "Time": "21h51m" },
             { "Group": "Pokemon", "Name": "Linoone", "Time": "22h54m" },
+            { "Group": "Pokemon", "Name": "Vullaby", "Time": "1d51m" },
+            { "Group": "Pokemon", "Name": "Petilil", "Time": "1d1h4m" },
+            { "Group": "Pokemon", "Name": "Dunsparce", "Time": "1d1h12m" },
+            { "Group": "Pokemon", "Name": "Shellos", "Time": "1d1h14m" },
         ]
     }
 );
