@@ -104,6 +104,7 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
     var element = $("<div>").append("<i class='fa fa-spinner fa-pulse'>");
     var skipCheckOwnership = QueryString["justmon"];
     var hofOnly = !!QueryString["hofonly"];
+    var ownedOnly = !!QueryString["owned"];
     if (QueryString["nowifi"]) {
         tppData.forEach(c => c.Runs.forEach(r => r.Events = r.Events.filter(e => e.Class != "WifiTrade")));
     }
@@ -186,6 +187,8 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
             }
             if (ownedBy.length)
                 $entry.attr('title', 'Owned by:\n' + ownedBy.join('\n'));
+            else if (ownedOnly)
+                $entry.hide();    
             else if (!skipCheckOwnership)
                 $entry.attr('title', "Didn't Catch");
             if (bgColor)

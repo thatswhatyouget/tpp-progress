@@ -82,6 +82,7 @@ function generateGlobalDex(tppData) {
     var element = $("<div>").append("<i class='fa fa-spinner fa-pulse'>");
     var skipCheckOwnership = QueryString["justmon"];
     var hofOnly = !!QueryString["hofonly"];
+    var ownedOnly = !!QueryString["owned"];
     if (QueryString["nowifi"]) {
         tppData.forEach(function (c) { return c.Runs.forEach(function (r) { return r.Events = r.Events.filter(function (e) { return e.Class != "WifiTrade"; }); }); });
     }
@@ -162,6 +163,8 @@ function generateGlobalDex(tppData) {
             }
             if (ownedBy.length)
                 $entry.attr('title', 'Owned by:\n' + ownedBy.join('\n'));
+            else if (ownedOnly)
+                $entry.hide();
             else if (!skipCheckOwnership)
                 $entry.attr('title', "Didn't Catch");
             if (bgColor)

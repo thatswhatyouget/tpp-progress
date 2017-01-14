@@ -4,6 +4,10 @@ function qsFilter(event, run, index) {
 }
 $.when.apply($, Array.prototype.concat.apply([], tppData.filter(function (c) { return c.Name.indexOf("Season") == 0; })
     .map(function (c) { return c.Runs.filter(function (r) { return (r.Scraper && r.Scraper.pokemon) || r.Events.filter(function (e) { return e.Group == "Pokemon"; }).length > 0; }).map(function (r) { return $.when(r.Scraper ? Scrape(r) : r).then(function (r) {
+    if (Duration.parse(r.EndDate || r.Duration, r.StartTime).TotalSeconds > ((Date.now() / 1000) - r.StartTime)) {
+        r.Duration = new Date().toISOString();
+        r.Ongoing = true;
+    }
     var dataSeries = {
         color: r.ColorPrimary,
         label: r.RunName,
