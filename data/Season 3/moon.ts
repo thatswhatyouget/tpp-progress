@@ -42,6 +42,12 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Minun", "Time": "5h44m" },
             { "Group": "Pokemon", "Name": "Plusle", "Time": "5h52m" },
             { "Group": "Pokemon", "Name": "Azurill", "Time": "6h9m" },
+            { "Group": "Pokemon", "Name": "Purrloin", "Time": "6h30m" },
+            { "Group": "Pokemon", "Name": "Surskit", "Time": "6h42m" },
+            { "Group": "Pokemon", "Name": "Pidove", "Time": "6h59m" },
+            { "Group": "Pokemon", "Name": "Taillow", "Time": "7h9m" },
+            { "Group": "Pokemon", "Name": "Bidoof", "Time": "7h12m" },
+            { "Group": "Pokemon", "Name": "Staravia", "Time": "7h20m" },
             //{ "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "", "Attempts": 0 },
             //{ "Group": "Pokemon", "Name": "", "Time": "" },
         ]
