@@ -85,6 +85,9 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Shellos", "Time": "1d1h14m" },
             { "Group": "Badges", "Name": "Fightinium Z", "Image": "img/z-crystals/Fightinium Z.png", "Time": "1d1h54m", "Attempts": 1 },
             { "Group": "Pokemon", "Name": "Bellsprout", "Time": "1d4h36m" },
+            { "Group": "Pokemon", "Name": "Lillipup", "Time": "1d4h51m" },
+            { "Group": "Pokemon", "Name": "Happiny", "Time": "1d4h55m" },
+            { "Group": "Pokemon", "Name": "Nincada", "Time": "1d5h15m" },
         ]
     }
 );
