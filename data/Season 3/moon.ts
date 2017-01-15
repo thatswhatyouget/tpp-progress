@@ -91,6 +91,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Togepi", "Time": "1d6h7m" },
             { "Group": "Pokemon", "Name": "Mudbray", "Time": "1d6h26m" },
             { "Group": "Pokemon", "Name": "Ponyta", "Time": "1d6h41m" },
+            { "Group": "Pokemon", "Name": "Cherubi", "Time": "1d8h21m" },
         ]
     }
 );
