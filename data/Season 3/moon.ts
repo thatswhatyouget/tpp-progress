@@ -113,6 +113,10 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Cubone", "Time": "1d20h46m" },
             { "Group": "Pokemon", "Name": "Fletchling", "Time": "1d20h50m" },
             { "Group": "Pokemon", "Name": "Trapinch", "Time": "1d21h28m" },
+            { "Group": "Pokemon", "Name": "Noctowl", "Time": "1d21h42m" },
+            { "Group": "Pokemon", "Name": "Illumise", "Time": "1d21h46m" },
+            { "Group": "Pokemon", "Name": "Salandit", "Time": "1d21h56m" },
+            { "Group": "Pokemon", "Name": "Houndour", "Time": "1d22h34m" },
         ]
     }
 );
