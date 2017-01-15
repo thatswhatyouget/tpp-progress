@@ -112,6 +112,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Slugma", "Time": "1d20h44m" },
             { "Group": "Pokemon", "Name": "Cubone", "Time": "1d20h46m" },
             { "Group": "Pokemon", "Name": "Fletchling", "Time": "1d20h50m" },
+            { "Group": "Pokemon", "Name": "Trapinch", "Time": "1d21h28m" },
         ]
     }
 );
