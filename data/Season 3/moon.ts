@@ -103,6 +103,8 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Corphish", "Time": "1d13h3m" },
             { "Group": "Pokemon", "Name": "Igglybuff", "Time": "1d14h30m" },
             { "Group": "Pokemon", "Name": "Grubbin", "Time": "1d14h42m" },
+            { "Group": "Pokemon", "Name": "Croagunk", "Time": "1d14h44m" },
+            { "Group": "Pokemon", "Name": "Oricorio", "Time": "1d15h3m" },
         ]
     }
 );
