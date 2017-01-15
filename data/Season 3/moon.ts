@@ -105,6 +105,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Grubbin", "Time": "1d14h42m" },
             { "Group": "Pokemon", "Name": "Croagunk", "Time": "1d14h44m" },
             { "Group": "Pokemon", "Name": "Oricorio", "Time": "1d15h3m" },
+            { "Group": "Pokemon", "Name": "Skorupi", "Time": "1d15h29m" },
         ]
     }
 );
