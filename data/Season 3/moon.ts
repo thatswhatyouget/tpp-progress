@@ -106,6 +106,8 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Croagunk", "Time": "1d14h44m" },
             { "Group": "Pokemon", "Name": "Oricorio", "Time": "1d15h3m" },
             { "Group": "Pokemon", "Name": "Skorupi", "Time": "1d15h29m" },
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "1d18h10m" },
+            { "Group": "Badges", "Name": "Firium Z", "Image": "img/z-crystals/Firium Z.png", "Time": "1d20h34m", "Attempts": 3 },
         ]
     }
 );
