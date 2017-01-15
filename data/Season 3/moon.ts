@@ -121,6 +121,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Comfey", "Time": "2d1h36m" },
             { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2d1h41m" },
             { "Group": "Pokemon", "Name": "Pineco", "Time": "2d1h45m" },
+            { "Group": "Pokemon", "Name": "Leafeon", "Time": "2d3h39m" },
         ]
     }
 );
