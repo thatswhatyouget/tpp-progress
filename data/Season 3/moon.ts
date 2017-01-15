@@ -93,6 +93,8 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Ponyta", "Time": "1d6h41m" },
             { "Group": "Pokemon", "Name": "Cherubi", "Time": "1d8h21m" },
             { "Group": "Pokemon", "Name": "Gumshoos", "Time": "1d9h58m" },
+            { "Group": "Pokemon", "Name": "Toucannon", "Time": "1d11h22m" },
+            { "Group": "Badges", "Name": "Waterium Z", "Image": "img/z-crystals/Waterium Z.png", "Time": "1d11h24m", "Attempts": 1 },
         ]
     }
 );
