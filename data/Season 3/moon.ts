@@ -101,6 +101,8 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Psyduck", "Time": "1d12h9m" },
             { "Group": "Pokemon", "Name": "Ducklett", "Time": "1d12h54m" },
             { "Group": "Pokemon", "Name": "Corphish", "Time": "1d13h3m" },
+            { "Group": "Pokemon", "Name": "Igglybuff", "Time": "1d14h30m" },
+            { "Group": "Pokemon", "Name": "Grubbin", "Time": "1d14h42m" },
         ]
     }
 );
