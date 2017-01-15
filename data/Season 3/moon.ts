@@ -117,6 +117,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Illumise", "Time": "1d21h46m" },
             { "Group": "Pokemon", "Name": "Salandit", "Time": "1d21h56m" },
             { "Group": "Pokemon", "Name": "Houndour", "Time": "1d22h34m" },
+            { "Group": "Badges", "Name": "Grassium Z", "Image": "img/z-crystals/Grassium Z.png", "Time": "2d1h13m", "Attempts": 2 },
         ]
     }
 );
