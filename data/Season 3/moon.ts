@@ -108,6 +108,10 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Skorupi", "Time": "1d15h29m" },
             { "Group": "Pokemon", "Name": "Eevee", "Time": "1d18h10m" },
             { "Group": "Badges", "Name": "Firium Z", "Image": "img/z-crystals/Firium Z.png", "Time": "1d20h34m", "Attempts": 3 },
+            { "Group": "Pokemon", "Name": "Numel", "Time": "1d20h42m" },
+            { "Group": "Pokemon", "Name": "Slugma", "Time": "1d20h44m" },
+            { "Group": "Pokemon", "Name": "Cubone", "Time": "1d20h46m" },
+            { "Group": "Pokemon", "Name": "Fletchling", "Time": "1d20h50m" },
         ]
     }
 );
