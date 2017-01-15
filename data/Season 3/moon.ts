@@ -118,6 +118,9 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Salandit", "Time": "1d21h56m" },
             { "Group": "Pokemon", "Name": "Houndour", "Time": "1d22h34m" },
             { "Group": "Badges", "Name": "Grassium Z", "Image": "img/z-crystals/Grassium Z.png", "Time": "2d1h13m", "Attempts": 2 },
+            { "Group": "Pokemon", "Name": "Comfey", "Time": "2d1h36m" },
+            { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2d1h41m" },
+            { "Group": "Pokemon", "Name": "Pineco", "Time": "2d1h45m" },
         ]
     }
 );
