@@ -95,6 +95,12 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Gumshoos", "Time": "1d9h58m" },
             { "Group": "Pokemon", "Name": "Toucannon", "Time": "1d11h22m" },
             { "Group": "Badges", "Name": "Waterium Z", "Image": "img/z-crystals/Waterium Z.png", "Time": "1d11h24m", "Attempts": 1 },
+            { "Group": "Pokemon", "Name": "Poliwag", "Time": "1d11h30m" },
+            { "Group": "Pokemon", "Name": "Buizel", "Time": "1d11h34m" },
+            { "Group": "Pokemon", "Name": "Dewpider", "Time": "1d12h6m" },
+            { "Group": "Pokemon", "Name": "Psyduck", "Time": "1d12h9m" },
+            { "Group": "Pokemon", "Name": "Ducklett", "Time": "1d12h54m" },
+            { "Group": "Pokemon", "Name": "Corphish", "Time": "1d13h3m" },
         ]
     }
 );
