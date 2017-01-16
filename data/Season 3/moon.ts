@@ -133,6 +133,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Larvitar", "Time": "2d9h53m" },
             { "Group": "Pokemon", "Name": "Gible", "Time": "2d10h6m" },
             { "Group": "Pokemon", "Name": "Incineroar", "Time": "2d11h47m" },
+            { "Group": "Pokemon", "Name": "Staraptor", "Time": "2d13h23m" },
         ]
     }
 );
