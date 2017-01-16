@@ -129,6 +129,9 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Baltoy", "Time": "2d8h27m" },
             { "Group": "Pokemon", "Name": "Axew", "Time": "2d8h30m" },
             { "Group": "Pokemon", "Name": "Sableye", "Time": "2d8h37m" },
+            { "Group": "Pokemon", "Name": "Nosepass", "Time": "2d9h44m" },
+            { "Group": "Pokemon", "Name": "Larvitar", "Time": "2d9h53m" },
+            { "Group": "Pokemon", "Name": "Gible", "Time": "2d10h6m" },
         ]
     }
 );
