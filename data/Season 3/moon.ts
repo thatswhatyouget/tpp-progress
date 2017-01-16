@@ -122,6 +122,13 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2d1h41m" },
             { "Group": "Pokemon", "Name": "Pineco", "Time": "2d1h45m" },
             { "Group": "Pokemon", "Name": "Leafeon", "Time": "2d3h39m" },
+            { "Group": "Pokemon", "Name": "Phantump", "Time": "2d8h" },
+            { "Group": "Pokemon", "Name": "Stunky", "Time": "2d8h2m" },
+            { "Group": "Pokemon", "Name": "Bronzor", "Time": "2d8h7m" },
+            { "Group": "Pokemon", "Name": "Honedge", "Time": "2d8h12m" },
+            { "Group": "Pokemon", "Name": "Baltoy", "Time": "2d8h27m" },
+            { "Group": "Pokemon", "Name": "Axew", "Time": "2d8h30m" },
+            { "Group": "Pokemon", "Name": "Sableye", "Time": "2d8h37m" },
         ]
     }
 );
