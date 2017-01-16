@@ -134,6 +134,9 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Gible", "Time": "2d10h6m" },
             { "Group": "Pokemon", "Name": "Incineroar", "Time": "2d11h47m" },
             { "Group": "Pokemon", "Name": "Staraptor", "Time": "2d13h23m" },
+            { "Group": "Pokemon", "Name": "Gothita", "Time": "2d19h13m" },
+            { "Group": "Pokemon", "Name": "Palpitoad", "Time": "2d19h28m" },
+            //{ "Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", "Time": "", "Attempts": 3 },
         ]
     }
 );
