@@ -172,6 +172,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Minior", "Time": "3d21h50m" },
             { "Group": "Pokemon", "Name": "Cubchoo", "Time": "3d21h57m" },
             { "Group": "Pokemon", "Name": "Lunatone", "Time": "3d22h31m" },
+            { "Group": "Badges", "Name": "Electrium Z", "Image": "img/z-crystals/Electrium Z.png", "Time": "4d20m", "Attempts": 2 },
         ]
     }
 );
