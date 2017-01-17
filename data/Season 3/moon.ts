@@ -147,7 +147,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Bonsly", "Time": "3d10h55m" },
             { "Group": "Pokemon", "Name": "Tranquill", "Time": "3d11h7m" },
             { "Group": "Pokemon", "Name": "Fletchinder", "Time": "3d9h30m" },
-            //{ "Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", "Time": "", "Attempts": 3 },
+            //{ "Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", "Time": "", "Attempts": 6 },
         ]
     }
 );
