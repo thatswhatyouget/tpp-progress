@@ -146,8 +146,9 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Scyther", "Time": "3d10h46m" },
             { "Group": "Pokemon", "Name": "Bonsly", "Time": "3d10h55m" },
             { "Group": "Pokemon", "Name": "Tranquill", "Time": "3d11h7m" },
-            { "Group": "Pokemon", "Name": "Fletchinder", "Time": "3d9h30m" },
-            //{ "Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", "Time": "", "Attempts": 6 },
+            { "Group": "Pokemon", "Name": "Swanna", "Time": "3d12h30m" },
+            { "Group": "Pokemon", "Name": "Seismitoad", "Time": "3d9h31m" },
+            //{ "Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", "Time": "", "Attempts": 7 },
         ]
     }
 );
