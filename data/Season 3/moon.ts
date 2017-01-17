@@ -138,6 +138,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Palpitoad", "Time": "2d19h28m" },
             { "Group": "Pokemon", "Name": "Volbeat", "Time": "3d13m" },
             { "Group": "Pokemon", "Name": "Stufful", "Time": "3d40m" },
+            { "Group": "Pokemon", "Name": "Tauros", "Time": "3d5h28m" },
             //{ "Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", "Time": "", "Attempts": 3 },
         ]
     }
