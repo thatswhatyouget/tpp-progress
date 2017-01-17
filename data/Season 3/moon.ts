@@ -169,7 +169,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Karrablast", "Time": "3d19h55m" },
             { "Group": "Pokemon", "Name": "Lickitung", "Time": "3d20h7m" },
             { "Group": "Pokemon", "Name": "Geodude", "Time": "3d21h48m" },
-            { "Group": "Pokemon", "Name": "Minor", "Time": "3d21h50m" },
+            { "Group": "Pokemon", "Name": "Minior", "Time": "3d21h50m" },
             { "Group": "Pokemon", "Name": "Cubchoo", "Time": "3d21h57m" },
         ]
     }
