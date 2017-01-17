@@ -171,6 +171,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Geodude", "Time": "3d21h48m" },
             { "Group": "Pokemon", "Name": "Minior", "Time": "3d21h50m" },
             { "Group": "Pokemon", "Name": "Cubchoo", "Time": "3d21h57m" },
+            { "Group": "Pokemon", "Name": "Lunatone", "Time": "3d22h31m" },
         ]
     }
 );
