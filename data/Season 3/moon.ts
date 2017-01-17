@@ -178,6 +178,11 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Pawniard", "Time": "4d2h8m" },
             { "Group": "Pokemon", "Name": "Carbink", "Time": "4d2h24m" },
             { "Group": "Pokemon", "Name": "Onix", "Time": "4d2h38m" },
+            { "Group": "Pokemon", "Name": "Pancham", "Time": "4d3h34m" },
+            { "Group": "Pokemon", "Name": "Komala", "Time": "4d3h42m" },
+            { "Group": "Pokemon", "Name": "Masquerain", "Time": "4d4h42m" },
+            { "Group": "Pokemon", "Name": "Xatu", "Time": "4d4h48m" },
+            { "Group": "Pokemon", "Name": "Cyndaquil", "Time": "4d5h11m" },
         ]
     }
 );
