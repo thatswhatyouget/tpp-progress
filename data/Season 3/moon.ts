@@ -190,6 +190,8 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Haunter", "Time": "4d9h25m" },
             { "Group": "Pokemon", "Name": "Golbat", "Time": "4d9h36m" },
             { "Group": "Pokemon", "Name": "Mimikyu", "Time": "4d11h20m" },
+            { "Group": "Pokemon", "Name": "Pelipper", "Time": "4d11h31m" },
+            { "Group": "Pokemon", "Name": "Finneon", "Time": "4d11h34m" },
         ]
     }
 );
