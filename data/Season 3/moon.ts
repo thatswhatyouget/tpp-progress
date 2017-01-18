@@ -185,6 +185,11 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Cyndaquil", "Time": "4d5h11m" },
             { "Group": "Pokemon", "Name": "Durant", "Time": "4d6h41m" },
             { "Group": "Pokemon", "Name": "Vanillish", "Time": "4d7h19m" },
+            { "Group": "Badges", "Name": "Ghostium Z", "Image": "img/z-crystals/Ghostium Z.png", "Time": "4d9h13m", "Attempts": 2 },
+            { "Group": "Pokemon", "Name": "Klefki", "Time": "4d9h21m" },
+            { "Group": "Pokemon", "Name": "Haunter", "Time": "4d9h25m" },
+            { "Group": "Pokemon", "Name": "Golbat", "Time": "4d9h36m" },
+            { "Group": "Pokemon", "Name": "Mimikyu", "Time": "4d11h20m" },
         ]
     }
 );
