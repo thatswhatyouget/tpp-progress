@@ -183,6 +183,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Masquerain", "Time": "4d4h42m" },
             { "Group": "Pokemon", "Name": "Xatu", "Time": "4d4h48m" },
             { "Group": "Pokemon", "Name": "Cyndaquil", "Time": "4d5h11m" },
+            { "Group": "Pokemon", "Name": "Durant", "Time": "4d6h41m" },
         ]
     }
 );
