@@ -199,6 +199,16 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Spheal", "Time": "4d13h45m" },
             { "Group": "Pokemon", "Name": "Starmie", "Time": "4d13h50m" },
             { "Group": "Pokemon", "Name": "Seadra", "Time": "4d14h18m" },
+            { "Group": "Pokemon", "Name": "Zygarde", "Time": "4d14h45m" },
+            { "Group": "Pokemon", "Name": "Cottonee", "Time": "4d15h2m" },
+            { "Group": "Pokemon", "Name": "Ribombee", "Time": "4d15h6m" },
+            { "Group": "Pokemon", "Name": "Mothim", "Time": "4d15h13m" },
+            { "Group": "Pokemon", "Name": "Larvesta", "Time": "4d15h21m" },
+            { "Group": "Pokemon", "Name": "Scolipede", "Time": "4d15h28m" },
+            { "Group": "Pokemon", "Name": "Mightyena", "Time": "4d15h35m" },
+            { "Group": "Pokemon", "Name": "Nuzleaf", "Time": "4d15h37m" },
+            { "Group": "Pokemon", "Name": "Sawk", "Time": "4d15h43m" },
+            { "Group": "Pokemon", "Name": "Throh", "Time": "4d15h45m" },
         ]
     }
 );
