@@ -184,6 +184,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Xatu", "Time": "4d4h48m" },
             { "Group": "Pokemon", "Name": "Cyndaquil", "Time": "4d5h11m" },
             { "Group": "Pokemon", "Name": "Durant", "Time": "4d6h41m" },
+            { "Group": "Pokemon", "Name": "Vanillish", "Time": "4d7h19m" },
         ]
     }
 );
