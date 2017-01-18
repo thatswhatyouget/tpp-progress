@@ -209,6 +209,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Nuzleaf", "Time": "4d15h37m" },
             { "Group": "Pokemon", "Name": "Sawk", "Time": "4d15h43m" },
             { "Group": "Pokemon", "Name": "Throh", "Time": "4d15h45m" },
+            { "Group": "Pokemon", "Name": "Espurr", "Time": "4d20h13m" },
         ]
     }
 );
