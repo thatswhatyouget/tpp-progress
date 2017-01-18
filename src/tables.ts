@@ -32,7 +32,7 @@ interface HofInfo {
 }
 
 class PokedexSummary {
-    public OwnedDict: { [key: string]: boolean | number };
+    public OwnedDict: { [key: string]: false | number };
     public HallOfFame: HofInfo[] = [];
     constructor(public Run: TPP.Run) {
         if (Run.Events.filter(e => e.Group == "Pokemon" && (PokeList.indexOf(e.Name) >= 0 || PokeList.indexOf(e.Class) >= 0)).length) {
@@ -137,6 +137,53 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
                 return c;
             }).filter(c => c.Runs.length > 0);
         }
+    }
+    if ("Alphabetical" == QueryString["sort"]) {
+        PokeList.sort();
+    }
+    if ("First Owned" == QueryString["sort"]) {
+        dexSummarize(tppData).then(summaries => {
+            let firstTimes: { [key: string]: false | number } = {};
+            PokeList.forEach(p => firstTimes[p] = false);
+            // Put the earliest owned time across runs into `firstTimes`
+            summaries.forEach(summary => {
+                if (summary.OwnedDict) {
+                    Object.keys(summary.OwnedDict).forEach(p => {
+                        // Apparently, type inference can't figure out that `summary.OwnedDict[p]` is not false
+                        // inside the if statement, even though it can figure out that `newTime` is not false
+                        let newTime = summary.OwnedDict[p];
+                        if (newTime) {
+                            if (firstTimes[p]) {
+                            	if (firstTimes[p] > newTime) {
+                                    firstTimes[p] = newTime;
+                                }
+                            } else {
+                            	firstTimes[p] = newTime;
+                            }
+                        }
+                    })
+                }
+            });
+            // Sort `false` names after "number" names;
+            // sort number names in descending order 
+            PokeList.sort((a, b) => {
+                let a2 = firstTimes[a];
+                let b2 = firstTimes[b];
+                if (a2) {
+                    if (b2) {
+                        return a2 - b2;
+                    } else {
+                        return -1;
+                    }
+                } else {
+                    if (b2) {
+                        return 1;
+                    } else {
+                        return 0;
+                    }
+                }
+            });
+        });
     }
     dexSummarize(tppData).then(summaries => {
         summaries = summaries.sort((s1, s2) => s1.Run.StartTime - s2.Run.StartTime);
