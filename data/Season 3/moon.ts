@@ -195,6 +195,10 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Vulpix", "Time": "4d12h2m" },
             { "Group": "Pokemon", "Name": "Seel", "Time": "4d13h15m" },
             { "Group": "Pokemon", "Name": "Lapras", "Time": "4d13h18m" },
+            { "Group": "Pokemon", "Name": "Bibarel", "Time": "4d13h36m" },
+            { "Group": "Pokemon", "Name": "Spheal", "Time": "4d13h45m" },
+            { "Group": "Pokemon", "Name": "Starmie", "Time": "4d13h50m" },
+            { "Group": "Pokemon", "Name": "Seadra", "Time": "4d14h18m" },
         ]
     }
 );
