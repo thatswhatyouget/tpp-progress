@@ -192,6 +192,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Mimikyu", "Time": "4d11h20m" },
             { "Group": "Pokemon", "Name": "Pelipper", "Time": "4d11h31m" },
             { "Group": "Pokemon", "Name": "Finneon", "Time": "4d11h34m" },
+            { "Group": "Pokemon", "Name": "Vulpix", "Time": "4d12h2m" },
         ]
     }
 );
