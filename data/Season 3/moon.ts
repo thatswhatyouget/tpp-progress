@@ -210,6 +210,11 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Sawk", "Time": "4d15h43m" },
             { "Group": "Pokemon", "Name": "Throh", "Time": "4d15h45m" },
             { "Group": "Pokemon", "Name": "Espurr", "Time": "4d20h13m" },
+            { "Group": "Badges", "Name": "Darkium Z", "Image": "img/z-crystals/Darkium Z.png", "Time": "4d23h5m", "Attempts": 3 },
+
+            //{ "Group": "Badges", "Name": "Groundium Z", "Image": "img/z-crystals/Groundium Z.png", "Time": "", "Attempts": 0 },
+
+            //{ "Group": "Badges", "Name": "Dragonium Z", "Image": "img/z-crystals/Dragonium Z.png", "Time": "", "Attempts": 0 },
         ]
     }
 );
