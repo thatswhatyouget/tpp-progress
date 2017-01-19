@@ -211,7 +211,17 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Throh", "Time": "4d15h45m" },
             { "Group": "Pokemon", "Name": "Espurr", "Time": "4d20h13m" },
             { "Group": "Badges", "Name": "Darkium Z", "Image": "img/z-crystals/Darkium Z.png", "Time": "4d23h5m", "Attempts": 2 },
-
+            { "Group": "Pokemon", "Name": "Aerodactyl", "Time": "5d20h54m" },
+            { "Group": "Pokemon", "Name": "Kingler", "Time": "5d20h59m" },
+            { "Group": "Pokemon", "Name": "Dratini", "Time": "5d21h3m" },
+            { "Group": "Pokemon", "Name": "Gastrodon", "Time": "5d21h24m" },
+            { "Group": "Pokemon", "Name": "Sharpedo", "Time": "5d21h32m" },
+            { "Group": "Pokemon", "Name": "Exeggcute", "Time": "5d22h14m" },
+            { "Group": "Pokemon", "Name": "Girafarig", "Time": "5d22h30m" },
+            { "Group": "Pokemon", "Name": "Chimecho", "Time": "5d22h47m" },
+            { "Group": "Pokemon", "Name": "Bouffalant", "Time": "5d23h6m" },
+            { "Group": "Pokemon", "Name": "Gothitelle", "Time": "5d23h8m" },
+            
             //{ "Group": "Badges", "Name": "Groundium Z", "Image": "img/z-crystals/Groundium Z.png", "Time": "", "Attempts": 0 },
 
             //{ "Group": "Badges", "Name": "Dragonium Z", "Image": "img/z-crystals/Dragonium Z.png", "Time": "", "Attempts": 0 },
