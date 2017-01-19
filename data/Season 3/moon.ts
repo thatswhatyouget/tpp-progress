@@ -221,6 +221,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Chimecho", "Time": "5d22h47m" },
             { "Group": "Pokemon", "Name": "Bouffalant", "Time": "5d23h6m" },
             { "Group": "Pokemon", "Name": "Gothitelle", "Time": "5d23h8m" },
+            { "Group": "Pokemon", "Name": "Carnivine", "Time": "6d11m" },
             
             //{ "Group": "Badges", "Name": "Groundium Z", "Image": "img/z-crystals/Groundium Z.png", "Time": "", "Attempts": 0 },
 
