@@ -102,6 +102,7 @@ function generatePokedexSummary(tppData: TPP.Collection[]) {
 
 function generateGlobalDex(tppData: TPP.Collection[]) {
     var element = $("<div>").append("<i class='fa fa-spinner fa-pulse'>");
+    var pokemonList = [];
     var skipCheckOwnership = QueryString["justmon"];
     var hofOnly = !!QueryString["hofonly"];
     var ownedOnly = !!QueryString["owned"];
@@ -113,6 +114,9 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
     }
     if (QueryString["only"]) {
         tppData = tppData.filter(c => QueryString["only"].split(',').filter(f => c.Name.indexOf(f.trim()) >= 0).length > 0);
+    }
+        if (QueryString["pokemon"]) {
+            pokemonList = QueryString["pokemon"].split(',').map(p => p.trim().toLowerCase());
     }
     if (QueryString["run"]) {
         tppData = tppData.map(c => {
@@ -198,6 +202,9 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
                     delete fullList[p];
                 else
                     $entry.hide();
+            }
+            if (pokemonList.length && pokemonList.indexOf(p.toLowerCase()) < 0) {
+                $entry.hide();
             }
             return $entry;
         }));
