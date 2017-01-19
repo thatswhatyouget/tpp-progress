@@ -80,7 +80,9 @@ function generatePokedexSummary(tppData) {
 }
 function generateGlobalDex(tppData) {
     var element = $("<div>").append("<i class='fa fa-spinner fa-pulse'>");
-    var pokemonList = [];
+    var shouldShowPokemon = function (p, i) {
+        return true;
+    };
     var skipCheckOwnership = QueryString["justmon"];
     var hofOnly = !!QueryString["hofonly"];
     var ownedOnly = !!QueryString["owned"];
@@ -94,7 +96,13 @@ function generateGlobalDex(tppData) {
         tppData = tppData.filter(function (c) { return QueryString["only"].split(',').filter(function (f) { return c.Name.indexOf(f.trim()) >= 0; }).length > 0; });
     }
     if (QueryString["pokemon"]) {
-        pokemonList = QueryString["pokemon"].split(',').map(function (p) { return p.trim().toLowerCase(); });
+        var pokemonList = QueryString["pokemon"].split(',').map(function (p) { return p.trim().toLowerCase(); });
+        shouldShowPokemon = function (p, i) {
+            return !pokemonList.length ||
+                pokemonList.indexOf(p.toLowerCase()) >= 0 ||
+                pokemonList.indexOf(i.toString()) >= 0 ||
+                !!pokemonList.filter(function (o) { return parseInt(o) > 0 && parseInt(o) == i; }).length;
+        };
     }
     if (QueryString["run"]) {
         tppData = tppData.map(function (c) {
@@ -179,14 +187,14 @@ function generateGlobalDex(tppData) {
                 else
                     $entry.hide();
             }
-            if (pokemonList.length && pokemonList.indexOf(p.toLowerCase()) < 0) {
+            if (!shouldShowPokemon(p, i)) {
                 $entry.hide();
             }
             return $entry;
         }));
         if (!skipCheckOwnership) {
-            var numOwned = Object.keys(fullList).length;
-            var numTotal = PokeList.filter(function (p) { return !!p && p != "MissingNo."; }).length;
+            var numOwned = Object.keys(fullList).filter(shouldShowPokemon).length;
+            var numTotal = PokeList.filter(function (p, i) { return !!p && p != "MissingNo." && shouldShowPokemon(p, i); }).length;
             var percent = (numOwned / numTotal * 100).toFixed(1);
             element.prepend("<h2 class='total'>Owned: <span>" + numOwned + "/" + numTotal + " (" + percent + "%)</span></div>");
         }

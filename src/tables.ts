@@ -102,7 +102,9 @@ function generatePokedexSummary(tppData: TPP.Collection[]) {
 
 function generateGlobalDex(tppData: TPP.Collection[]) {
     var element = $("<div>").append("<i class='fa fa-spinner fa-pulse'>");
-    var pokemonList = [];
+    var shouldShowPokemon = function (p, i) {
+        return true;
+    };
     var skipCheckOwnership = QueryString["justmon"];
     var hofOnly = !!QueryString["hofonly"];
     var ownedOnly = !!QueryString["owned"];
@@ -115,8 +117,14 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
     if (QueryString["only"]) {
         tppData = tppData.filter(c => QueryString["only"].split(',').filter(f => c.Name.indexOf(f.trim()) >= 0).length > 0);
     }
-        if (QueryString["pokemon"]) {
-            pokemonList = QueryString["pokemon"].split(',').map(p => p.trim().toLowerCase());
+    if (QueryString["pokemon"]) {
+        var pokemonList = QueryString["pokemon"].split(',').map(p => p.trim().toLowerCase());
+        shouldShowPokemon = function (p, i) {
+            return !pokemonList.length ||
+                pokemonList.indexOf(p.toLowerCase()) >= 0 ||
+                pokemonList.indexOf(i.toString()) >= 0 ||
+                !!pokemonList.filter(o => parseInt(o) > 0 && parseInt(o) == i).length;
+        }
     }
     if (QueryString["run"]) {
         tppData = tppData.map(c => {
@@ -192,7 +200,7 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
             if (ownedBy.length)
                 $entry.attr('title', 'Owned by:\n' + ownedBy.join('\n'));
             else if (ownedOnly)
-                $entry.hide();    
+                $entry.hide();
             else if (!skipCheckOwnership)
                 $entry.attr('title', "Didn't Catch");
             if (bgColor)
@@ -203,14 +211,14 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
                 else
                     $entry.hide();
             }
-            if (pokemonList.length && pokemonList.indexOf(p.toLowerCase()) < 0) {
+            if (!shouldShowPokemon(p, i)) {
                 $entry.hide();
             }
             return $entry;
         }));
         if (!skipCheckOwnership) {
-            var numOwned = Object.keys(fullList).length;
-            var numTotal = PokeList.filter(p => !!p && p != "MissingNo.").length;
+            var numOwned = Object.keys(fullList).filter(shouldShowPokemon).length;
+            var numTotal = PokeList.filter((p, i) => !!p && p != "MissingNo." && shouldShowPokemon(p, i)).length;
             var percent = (numOwned / numTotal * 100).toFixed(1);
             element.prepend("<h2 class='total'>Owned: <span>" + numOwned + "/" + numTotal + " (" + percent + "%)</span></div>");
         }
