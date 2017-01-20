@@ -271,6 +271,10 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Morelull", "Time": "7d2h12m" },
             { "Group": "Pokemon", "Name": "Shuckle", "Time": "7d2h20m" },
             { "Group": "Pokemon", "Name": "Oranguru", "Time": "7d3h12m" },
+            { "Group": "Pokemon", "Name": "Dewgong", "Time": "7d3h46m" },
+            { "Group": "Pokemon", "Name": "Lycanroc", "Time": "7d3h59m" },
+            { "Group": "Pokemon", "Name": "Eelektrik", "Time": "7d4h9m" },
+            { "Group": "Pokemon", "Name": "Fraxure", "Time": "7d4h12m" },
 	
             //{ "Group": "Elite Four", "Name": "Hala", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             //{ "Group": "Elite Four", "Name": "Acerola", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
