@@ -120,6 +120,7 @@ Season3.Runs.push(
             { "Group": "Badges", "Name": "Grassium Z", "Image": "img/z-crystals/Grassium Z.png", "Time": "2d1h13m", "Attempts": 2 },
             { "Group": "Pokemon", "Name": "Comfey", "Time": "2d1h36m" },
             { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2d1h41m" },
+            { "Group": "Pokemon", "Name": "Shroomish", "Time": "2d1h43m" },
             { "Group": "Pokemon", "Name": "Pineco", "Time": "2d1h45m" },
             { "Group": "Pokemon", "Name": "Leafeon", "Time": "2d3h39m" },
             { "Group": "Pokemon", "Name": "Phantump", "Time": "2d8h" },
@@ -264,7 +265,11 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Burmy", "Time": "7d2m" },
             { "Group": "Pokemon", "Name": "Whismur", "Time": "7d38m" },
             { "Group": "Pokemon", "Name": "Teddiursa", "Time": "7d1h36m" },
-
+            { "Group": "Pokemon", "Name": "Heracross", "Time": "7d1h56m" },
+            { "Group": "Pokemon", "Name": "Wynaut", "Time": "7d2h1m" },
+            { "Group": "Pokemon", "Name": "Fomantis", "Time": "7d2h5m" },
+            { "Group": "Pokemon", "Name": "Morelull", "Time": "7d2h12m" },
+	
             //{ "Group": "Elite Four", "Name": "Hala", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             //{ "Group": "Elite Four", "Name": "Acerola", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             //{ "Group": "Elite Four", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
