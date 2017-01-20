@@ -235,6 +235,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Cryogonal", "Time": "6d9h42m" },
             { "Group": "Pokemon", "Name": "Heatmor", "Time": "6d9h45m" },
             { "Group": "Badges", "Name": "Dragonium Z", "Image": "img/z-crystals/Dragonium Z.png", "Time": "6d12h24m", "Attempts": 1 },
+            { "Group": "Pokemon", "Name": "Lunala", "Time": "6d14h23m" },
         ]
     }
 );
