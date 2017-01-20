@@ -269,6 +269,8 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Wynaut", "Time": "7d2h1m" },
             { "Group": "Pokemon", "Name": "Fomantis", "Time": "7d2h5m" },
             { "Group": "Pokemon", "Name": "Morelull", "Time": "7d2h12m" },
+            { "Group": "Pokemon", "Name": "Shuckle", "Time": "7d2h20m" },
+            { "Group": "Pokemon", "Name": "Oranguru", "Time": "7d3h12m" },
 	
             //{ "Group": "Elite Four", "Name": "Hala", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             //{ "Group": "Elite Four", "Name": "Acerola", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
