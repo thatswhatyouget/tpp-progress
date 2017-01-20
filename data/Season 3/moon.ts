@@ -227,7 +227,14 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Klang", "Time": "6d4h46m" },
             { "Group": "Pokemon", "Name": "Zweilous", "Time": "6d5h23m" },
             { "Group": "Pokemon", "Name": "Lairon", "Time": "6d5h38m" },
-
+            { "Group": "Pokemon", "Name": "Dugtrio", "Time": "6d7h14m" },
+            { "Group": "Pokemon", "Name": "Swoobat", "Time": "6d7h42m" },
+            { "Group": "Pokemon", "Name": "Boldore", "Time": "6d7h49m" },
+            { "Group": "Pokemon", "Name": "Loudred", "Time": "6d8h36m" },
+            { "Group": "Pokemon", "Name": "Diggersby", "Time": "6d9h38m" },
+            { "Group": "Pokemon", "Name": "Cryogonal", "Time": "6d9h42m" },
+            { "Group": "Pokemon", "Name": "Heatmor", "Time": "6d9h45m" },
+            
             //{ "Group": "Badges", "Name": "Dragonium Z", "Image": "img/z-crystals/Dragonium Z.png", "Time": "", "Attempts": 0 },
         ]
     }
