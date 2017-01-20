@@ -237,6 +237,18 @@ Season3.Runs.push(
             { "Group": "Badges", "Name": "Dragonium Z", "Image": "img/z-crystals/Dragonium Z.png", "Time": "6d12h24m", "Attempts": 1 },
             { "Group": "Pokemon", "Name": "Lunala", "Time": "6d14h23m" },
             { "Group": "Pokemon", "Name": "Bergmite", "Time": "6d15h3m" },
+            { "Group": "Pokemon", "Name": "Torkoal", "Time": "6d15h37m" },
+            { "Group": "Pokemon", "Name": "Cutiefly", "Time": "6d15h58m" },
+            { "Group": "Pokemon", "Name": "Slakoth", "Time": "6d16h2m" },
+            { "Group": "Pokemon", "Name": "Drilbur", "Time": "6d16h32m" },
+            { "Group": "Pokemon", "Name": "Phanpy", "Time": "6d16h58m" },
+            { "Group": "Pokemon", "Name": "Spinda", "Time": "6d17h13m" },
+            { "Group": "Pokemon", "Name": "Glameow", "Time": "6d17h15m" },
+            { "Group": "Pokemon", "Name": "Rockruff", "Time": "6d17h21m" },
+            { "Group": "Pokemon", "Name": "Venipede", "Time": "6d17h29m" },
+            { "Group": "Pokemon", "Name": "Scraggy", "Time": "6d17h31m" },
+            { "Group": "Pokemon", "Name": "Machop", "Time": "6d17h33m" },
+            { "Group": "Pokemon", "Name": "Tyrogue", "Time": "6d17h41m" },
         ]
     }
 );
