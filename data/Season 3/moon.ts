@@ -223,6 +223,10 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Gothitelle", "Time": "5d23h8m" },
             { "Group": "Pokemon", "Name": "Carnivine", "Time": "6d11m" },
             { "Group": "Badges", "Name": "Groundium Z", "Image": "img/z-crystals/Groundium Z.png", "Time": "6d3h3m", "Attempts": 1 },
+            { "Group": "Pokemon", "Name": "Granbull", "Time": "6d4h28m" },
+            { "Group": "Pokemon", "Name": "Klang", "Time": "6d4h46m" },
+            { "Group": "Pokemon", "Name": "Zweilous", "Time": "6d5h23m" },
+            { "Group": "Pokemon", "Name": "Lairon", "Time": "6d5h38m" },
 
             //{ "Group": "Badges", "Name": "Dragonium Z", "Image": "img/z-crystals/Dragonium Z.png", "Time": "", "Attempts": 0 },
         ]
