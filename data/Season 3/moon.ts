@@ -249,6 +249,9 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Scraggy", "Time": "6d17h31m" },
             { "Group": "Pokemon", "Name": "Machop", "Time": "6d17h33m" },
             { "Group": "Pokemon", "Name": "Tyrogue", "Time": "6d17h41m" },
+            { "Group": "Pokemon", "Name": "Sandshrew", "Time": "6d20h29m" },
+            { "Group": "Pokemon", "Name": "Snorunt", "Time": "6d20h32m" },
+            { "Group": "Pokemon", "Name": "Hawlucha", "Time": "6d20h47m" },
         ]
     }
 );
