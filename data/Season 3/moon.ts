@@ -255,6 +255,29 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Turtonator", "Time": "6d21h29m" },
             { "Group": "Pokemon", "Name": "Absol", "Time": "6d21h31m" },
             { "Group": "Pokemon", "Name": "Drampa", "Time": "6d22h10m" },
+            { "Group": "Pokemon", "Name": "Maractus", "Time": "6d22h29m" },
+            { "Group": "Pokemon", "Name": "Sandile", "Time": "6d22h33m" },
+            { "Group": "Pokemon", "Name": "Darumaka", "Time": "6d22h45m" },
+            { "Group": "Pokemon", "Name": "Cacnea", "Time": "6d22h51m" },
+            { "Group": "Pokemon", "Name": "Hippopotas", "Time": "6d22h57m" },
+
+            //{ "Group": "Elite Four", "Name": "Hala", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
+            //{ "Group": "Elite Four", "Name": "Acerola", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
+            //{ "Group": "Elite Four", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
+            //{ "Group": "Elite Four", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
+            //{ "Group": "Champions", "Name": "Professor Kukui", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
+            //<TPP.HallOfFame>{
+            //    Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+            //        { Pokemon: "Toucannon", Nickname: "99 ?lsbb?l  ", Gender: "Female", Level: 76 },
+            //        { Pokemon: "Swanna", Nickname: "♂♂♂33Duckl", Gender:"Male", Level: 80 },
+            //        { Pokemon: "Seismitoad", Nickname: "a○︎'♠︎lpit", Gender: "Male", Level: 77 },
+            //        { Pokemon: "Staravia", Nickname: "Staravia ♀lb", Gender: "Male", Level: 80 },
+            //        { Pokemon: "Incineroar", Nickname: "Qs3333eess3 ", Gender: "Male", Level: 79 },
+            //        { Pokemon: "Lunala", Nickname: "spe s      ,", Level: 65 },
+            //    ],
+            //    Image: "img/ribbons/champion-alola.png",
+            //    FirstAttemptDate: ""
+            //},
         ]
     }
 );
