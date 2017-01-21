@@ -275,14 +275,15 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Lycanroc", "Time": "7d3h59m" },
             { "Group": "Pokemon", "Name": "Eelektrik", "Time": "7d4h9m" },
             { "Group": "Pokemon", "Name": "Fraxure", "Time": "7d4h12m" },
+            { "Group": "Pokemon", "Name": "Beheeyem", "Time": "7d5h2m" },
 	
-            //{ "Group": "Elite Four", "Name": "Hala", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
+            { "Group": "Elite Four", "Name": "Hala", "Time": "7d5h54m", "Attempts": 1, "Image": "img/trainers/sun/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
+            //{ "Group": "Elite Four", "Name": "Olivia", "Time": "", "Attempts": 1, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             //{ "Group": "Elite Four", "Name": "Acerola", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
-            //{ "Group": "Elite Four", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             //{ "Group": "Elite Four", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
             //{ "Group": "Champions", "Name": "Professor Kukui", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
             //<TPP.HallOfFame>{
-            //    Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+            //    Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 1, Party: [
             //        { Pokemon: "Toucannon", Nickname: "99 ?lsbb?l  ", Gender: "Female", Level: 76 },
             //        { Pokemon: "Swanna", Nickname: "♂♂♂33Duckl", Gender:"Male", Level: 80 },
             //        { Pokemon: "Seismitoad", Nickname: "a○︎'♠︎lpit", Gender: "Male", Level: 77 },
@@ -291,7 +292,7 @@ Season3.Runs.push(
             //        { Pokemon: "Lunala", Nickname: "spe s      ,", Level: 65 },
             //    ],
             //    Image: "img/ribbons/champion-alola.png",
-            //    FirstAttemptDate: ""
+            //    FirstAttemptDate: "7d5h47m"
             //},
         ]
     }
