@@ -275,6 +275,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Lycanroc", "Time": "7d3h59m" },
             { "Group": "Pokemon", "Name": "Eelektrik", "Time": "7d4h9m" },
             { "Group": "Pokemon", "Name": "Fraxure", "Time": "7d4h12m" },
+            { "Group": "Pokemon", "Name": "Gurdurr", "Time": "7d4h46m" },
             { "Group": "Pokemon", "Name": "Beheeyem", "Time": "7d5h2m" },
 	
             { "Group": "Elite Four", "Name": "Hala", "Time": "7d5h54m", "Attempts": 1, "Image": "img/trainers/sun/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
