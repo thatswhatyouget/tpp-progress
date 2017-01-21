@@ -12,14 +12,14 @@ Intermissions.Runs.push(
         Region: "E-Monsters World",
         ContainsRunsFrom: ["Intermissions", "Short Intermissions"],
         Events: [
-            { Group: "Pokemon", Name: "Kuribute", Time: "0d 0h 41m" },
-            {
-                Group: "Hosts",
-                Name: "lゲg",
-                Time: "0d 1h 7m",
-                Image: "img/hosts/other/shigeki.png",
-                ImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
-            },
+            // { Group: "Pokemon", Name: "Kuribute", Time: "0d 0h 41m" },
+            // {
+            //     Group: "Hosts",
+            //     Name: "lゲg",
+            //     Time: "0d 1h 7m",
+            //     Image: "img/hosts/other/shigeki.png",
+            //     ImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
+            // },
             { Group: "Bosses", Name: "Nejiro", Time: "4h3m", Class: "pokeSprite", Attempts: 1 },
             { Group: "Bosses", Name: "Tabasuko", Time: "4h34m", Image: "img/telefang/tabasco.gif", Attempts: 1 },
             { Group: "Bosses", Name: "Tabasuko", Time: "8h7m", Image: "img/telefang/tabasco.gif", Attempts: 1 },
