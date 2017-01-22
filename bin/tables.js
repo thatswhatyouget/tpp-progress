@@ -125,6 +125,52 @@ function generateGlobalDex(tppData) {
             }).filter(function (c) { return c.Runs.length > 0; });
         }
     }
+    if ("Alphabetical" == QueryString["sort"]) {
+        PokeList.sort();
+    }
+    if ("First Owned" == QueryString["sort"]) {
+        dexSummarize(tppData).then(function (summaries) {
+            var firstTimes = {};
+            PokeList.forEach(function (p) { return firstTimes[p] = false; });
+            summaries.forEach(function (summary) {
+                if (summary.OwnedDict) {
+                    Object.keys(summary.OwnedDict).forEach(function (p) {
+                        var newTime = summary.OwnedDict[p];
+                        if (newTime) {
+                            if (firstTimes[p]) {
+                                if (firstTimes[p] > newTime) {
+                                    firstTimes[p] = newTime;
+                                }
+                            }
+                            else {
+                                firstTimes[p] = newTime;
+                            }
+                        }
+                    });
+                }
+            });
+            PokeList.sort(function (a, b) {
+                var a2 = firstTimes[a];
+                var b2 = firstTimes[b];
+                if (a2) {
+                    if (b2) {
+                        return a2 - b2;
+                    }
+                    else {
+                        return -1;
+                    }
+                }
+                else {
+                    if (b2) {
+                        return 1;
+                    }
+                    else {
+                        return 0;
+                    }
+                }
+            });
+        });
+    }
     dexSummarize(tppData).then(function (summaries) {
         summaries = summaries.sort(function (s1, s2) { return s1.Run.StartTime - s2.Run.StartTime; });
         var hofData = summaries.map(function (s) { return s.HallOfFame; }).reduce(function (a, b) { return a.concat(b); }).sort(function (h1, h2) { return h1.Time - h2.Time; });

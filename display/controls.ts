@@ -180,6 +180,8 @@ var pokedexGenerationsMenu = () => qsListMenu("fa-gamepad", "Generations", "g", 
 
 var pokedexRegionsMenu = () => qsListMenu("fa-globe", "Region", "dex", Object.keys(Pokedex.Regional).map((m, i) => i ? m : null), "National");
 
+var pokedexSortMenu = () => qsListMenu("fa-sort", "Sort", "sort", [null, "Alphabetical", "First Owned"], "Pokédex Number");
+
 var getTwitchVideos = getTwitchVideos || function () { };
 function twitchButton() {
     var button = document.createElement("li");

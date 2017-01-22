@@ -364,6 +364,7 @@ function regionMenu(regionsParam) {
 }
 var pokedexGenerationsMenu = function () { return qsListMenu("fa-gamepad", "Generations", "g", Pokedex.GenSlice.map(function (g, i) { return i ? i.toFixed(0) : null; }), "All", "Generation "); };
 var pokedexRegionsMenu = function () { return qsListMenu("fa-globe", "Region", "dex", Object.keys(Pokedex.Regional).map(function (m, i) { return i ? m : null; }), "National"); };
+var pokedexSortMenu = function () { return qsListMenu("fa-sort", "Sort", "sort", [null, "Alphabetical", "First Owned"], "Pokédex Number"); };
 var getTwitchVideos = getTwitchVideos || function () { };
 function twitchButton() {
     var button = document.createElement("li");
