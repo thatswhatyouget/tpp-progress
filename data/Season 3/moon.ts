@@ -10,9 +10,8 @@ Season3.Runs.push(
         BackgroundImage: "linear-gradient(to bottom, #a8e5fe 0%,white 30%,white 33%,#47b1e3 40%,#cdeff8 100%)",
         //HostName: "\"?p ",
         HostName: "d76o6yttr??",
-        HostImage: "img/hosts/sun.png",
-        //HostImage: "img/hosts/moon.png",
-        HostImageSource: "http://drawnamu.deviantart.com/art/Sun-Moon-characters-612994192",
+        HostImage: "img/hosts/d76o6yttr.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5pidux/bird_keeper_devin_yates_wants_to_battle/",
         TPPOrgLink: "http://twitchplayspokemon.org/",
         // Scraper: {
         //     url: "http://twitchplayspokemon.org/",
@@ -281,15 +280,15 @@ Season3.Runs.push(
             { "Group": "Elite Four", "Name": "Olivia", "Time": "7d9h26m", "Attempts": 3, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four", "Name": "Acerola", "Time": "7d13h5m", "Attempts": 4, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four", "Name": "Kahili", "Time": "7d19h57m", "Attempts": 2, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
-            //{ "Group": "Champions", "Name": "Professor Kukui", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
+            //{ "Group": "Champions", "Name": "Professor Kukui", "Time": "", "Attempts": 7, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
             //<TPP.HallOfFame>{
-            //    Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 29, Party: [
-            //        { Pokemon: "Seismitoad", Nickname: "a○︎'♠︎lpit", Gender: "Male", Level: 85 },
-            //        { Pokemon: "Lunala", Nickname: "spe s      ,", Level: 73 },
-            //        { Pokemon: "Toucannon", Nickname: "99 ?lsbb?l  ", Gender: "Female", Level: 81 },
-            //        { Pokemon: "Staravia", Nickname: "Staravia ♀lb", Gender: "Male", Level: 86 },
-            //        { Pokemon: "Swanna", Nickname: "♂♂♂33Duckl", Gender:"Male", Level: 86 },
-            //        { Pokemon: "Incineroar", Nickname: "Qs3333eess3 ", Gender: "Male", Level: 85 },
+            //    Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 48, Party: [
+            //        { Pokemon: "Seismitoad", Nickname: "a○︎'♠︎lpit", Gender: "Female", Level: 100 },
+            //        { Pokemon: "Lunala", Nickname: "spe s      ,", Level: 92 },
+            //        { Pokemon: "Toucannon", Nickname: "99 ?lsbb?l  ", Gender: "Female", Level: 97 },
+            //        { Pokemon: "Staravia", Nickname: "Staravia ♀lb", Gender: "Male", Level: 100 },
+            //        { Pokemon: "Swanna", Nickname: "♂♂♂33Duckl", Gender:"Male", Level: 100 },
+            //        { Pokemon: "Incineroar", Nickname: "Qs3333eess3 ", Gender: "Male", Level: 100 },
             //    ],
             //    Image: "img/ribbons/champion-alola.png",
             //    FirstAttemptDate: "7d5h47m"
