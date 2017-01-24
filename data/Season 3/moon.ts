@@ -302,6 +302,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Nihilego", "Time": "11d4h10m" },
             { "Group": "Pokemon", "Name": "Magby", "Time": "11d4h14m" },
             { "Group": "Pokemon", "Name": "Pansear", "Time": "11d4h20m" },
+            { "Group": "Pokemon", "Name": "Pheromosa", "Time": "11d5h5m" },
         ]
     }
 );
