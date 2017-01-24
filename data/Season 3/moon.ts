@@ -296,6 +296,11 @@ Season3.Runs.push(
                 FirstAttemptDate: "7d5h47m"
             },
             { "Group": "Pokemon", "Name": "Type: Null", "Time": "11d1h34m" },
+            { "Group": "Pokemon", "Name": "Minccino", "Time": "11d3h24m" },
+            { "Group": "Pokemon", "Name": "Solosis", "Time": "11d3h26m" },
+            { "Group": "Pokemon", "Name": "Raticate", "Time": "11d3h33m" },
+            { "Group": "Pokemon", "Name": "Nihilego", "Time": "11d4h10m" },
+            { "Group": "Pokemon", "Name": "Magby", "Time": "11d4h14m" },
         ]
     }
 );
