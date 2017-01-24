@@ -282,19 +282,19 @@ Season3.Runs.push(
             { "Group": "Elite Four", "Name": "Kahili", "Time": "7d19h57m", "Attempts": 2, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
             { "Group": "Pokemon", "Name": "Shieldon", "Time": "10d4h4m" },
             { "Group": "Pokemon", "Name": "Archen", "Time": "10d4h8m" },
-            //{ "Group": "Champions", "Name": "Professor Kukui", "Time": "", "Attempts": 16, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
-            //<TPP.HallOfFame>{
-            //    Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 69, Party: [
-            //        { Pokemon: "Seismitoad", Nickname: "a○︎'♠︎lpit", Gender: "Female", Level: 100 },
-            //        { Pokemon: "Lunala", Nickname: "spe s      ,", Level: 100 },
-            //        { Pokemon: "Staraptor", Nickname: "Staravia ♀lb", Gender: "Male", Level: 100 },
-            //        { Pokemon: "Toucannon", Nickname: "99 ?lsbb?l  ", Gender: "Female", Level: 97 },
-            //        { Pokemon: "Incineroar", Nickname: "Qs3333eess3 ", Gender: "Male", Level: 100 },
-            //        { Pokemon: "Swanna", Nickname: "♂♂♂33Duckl", Gender:"Male", Level: 100 },
-            //    ],
-            //    Image: "img/ribbons/champion-alola.png",
-            //    FirstAttemptDate: "7d5h47m"
-            //},
+            { "Group": "Champions", "Name": "Professor Kukui", "Time": "10d21h19m", "Attempts": 22, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d21h20m", Attempts: 83, Party: [
+                    { Pokemon: "Seismitoad", Nickname: "a○︎'♠︎lpitoa", Gender: "Female", Level: 100 },
+                    { Pokemon: "Lunala", Nickname: "spe s      ,", Level: 100 },
+                    { Pokemon: "Staraptor", Nickname: "Staravia ♀lb", Gender: "Male", Level: 100 },
+                    { Pokemon: "Swanna", Nickname: "♂♂♂33Duckl", Gender:"Male", Level: 100 },
+                    { Pokemon: "Toucannon", Nickname: "99 ?lsbb?l  ", Gender: "Female", Level: 100 },
+                    { Pokemon: "Incineroar", Nickname: "Qs3333eess3 ", Gender: "Male", Level: 100 },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: "7d5h47m"
+            },
         ]
     }
 );
