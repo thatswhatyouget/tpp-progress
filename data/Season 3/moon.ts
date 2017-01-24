@@ -295,6 +295,7 @@ Season3.Runs.push(
                 Image: "img/ribbons/champion-alola.png",
                 FirstAttemptDate: "7d5h47m"
             },
+            { "Group": "Pokemon", "Name": "Type: Null", "Time": "11d1h34m" },
         ]
     }
 );
