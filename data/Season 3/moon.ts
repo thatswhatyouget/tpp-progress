@@ -346,6 +346,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Porygon", "Time": "12d7m" },
             { "Group": "Pokemon", "Name": "Armaldo", "Time": "12d14m" },
             { "Group": "Pokemon", "Name": "Rampardos", "Time": "12d20m" },
+            { "Group": "Pokemon", "Name": "Cradily", "Time": "12d30m" },
         ]
     }
 );
