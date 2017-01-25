@@ -332,6 +332,8 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Aggron", "Time": "11d17h24m" },
             { "Group": "Pokemon", "Name": "Keldeo", "Time": "11d17h56m" },
             { "Group": "Pokemon", "Name": "Guzzlord", "Time": "11d18h22m" },
+            { "Group": "Pokemon", "Name": "Aurorus", "Time": "11d20h7m" },
+            { "Group": "Pokemon", "Name": "Omastar", "Time": "11d20h14m" },
         ]
     }
 );
