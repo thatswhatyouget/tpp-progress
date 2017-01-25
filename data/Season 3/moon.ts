@@ -314,6 +314,11 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Delibird", "Time": "11d8h46m" },
             { "Group": "Pokemon", "Name": "Swablu", "Time": "11d8h53m" },
             { "Group": "Pokemon", "Name": "Chatot", "Time": "11d9h22m" },
+            { "Group": "Pokemon", "Name": "Paras", "Time": "11d10h9m" },
+            { "Group": "Pokemon", "Name": "Oddish", "Time": "11d10h49m" },
+            { "Group": "Pokemon", "Name": "Xurkitree", "Time": "11d11h14m" },
+            { "Group": "Pokemon", "Name": "Celesteela", "Time": "11d12h34m" },
+            { "Group": "Pokemon", "Name": "Tapu Fini", "Time": "11d12h55m" },
         ]
     }
 );
