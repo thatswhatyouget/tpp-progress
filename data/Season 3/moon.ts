@@ -342,6 +342,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Tentacruel", "Time": "11d21h33m" },
             { "Group": "Pokemon", "Name": "Lanturn", "Time": "11d21h46m" },
             { "Group": "Pokemon", "Name": "Lumineon", "Time": "11d21h59m" },
+            { "Group": "Pokemon", "Name": "Staryu", "Time": "11d22h58m" },
         ]
     }
 );
