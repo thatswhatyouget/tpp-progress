@@ -288,7 +288,7 @@ Season3.Runs.push(
                     { Pokemon: "Seismitoad", Nickname: "a○︎'♠︎lpitoa", Gender: "Female", Level: 100 },
                     { Pokemon: "Lunala", Nickname: "spe s      ,", Level: 100 },
                     { Pokemon: "Staraptor", Nickname: "Staravia ♀lb", Gender: "Male", Level: 100 },
-                    { Pokemon: "Swanna", Nickname: "♂♂♂33Duckl", Gender:"Male", Level: 100 },
+                    { Pokemon: "Swanna", Nickname: "♂♂♂33Duckl", Gender: "Male", Level: 100 },
                     { Pokemon: "Toucannon", Nickname: "99 ?lsbb?l  ", Gender: "Female", Level: 100 },
                     { Pokemon: "Incineroar", Nickname: "Qs3333eess3 ", Gender: "Male", Level: 100 },
                 ],
@@ -305,6 +305,14 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Pheromosa", "Time": "11d5h5m" },
             { "Group": "Pokemon", "Name": "Joltik", "Time": "11d6h35m" },
             { "Group": "Pokemon", "Name": "Wooper", "Time": "11d6h45m" },
+            { "Group": "Pokemon", "Name": "Bagon", "Time": "11d7h31m" },
+            { "Group": "Pokemon", "Name": "Timburr", "Time": "11d7h46m" },
+            { "Group": "Pokemon", "Name": "Flabébé", "Time": "11d7h48m" },
+            { "Group": "Pokemon", "Name": "Skiddo", "Time": "11d7h57m" },
+            { "Group": "Pokemon", "Name": "Mankey", "Time": "11d8h19m" },
+            { "Group": "Pokemon", "Name": "Pidgey", "Time": "11d8h27m" },
+            { "Group": "Pokemon", "Name": "Delibird", "Time": "11d8h46m" },
+            { "Group": "Pokemon", "Name": "Swablu", "Time": "11d8h453m" },
         ]
     }
 );
