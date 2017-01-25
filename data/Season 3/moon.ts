@@ -349,6 +349,8 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Cradily", "Time": "12d30m" },
             { "Group": "Pokemon", "Name": "Bastiodon", "Time": "12d33m" },
             { "Group": "Pokemon", "Name": "Tyrantrum", "Time": "12d38m" },
+            { "Group": "Pokemon", "Name": "Zorua", "Time": "12d2h20m" },
+            { "Group": "Pokemon", "Name": "Jangmo-o", "Time": "12d3h38m" },
         ]
     }
 );
