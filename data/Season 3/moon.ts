@@ -331,6 +331,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Haxorus", "Time": "11d17h21m" },
             { "Group": "Pokemon", "Name": "Aggron", "Time": "11d17h24m" },
             { "Group": "Pokemon", "Name": "Keldeo", "Time": "11d17h56m" },
+            { "Group": "Pokemon", "Name": "Kabutops", "Time": "11d18h19m" },
             { "Group": "Pokemon", "Name": "Guzzlord", "Time": "11d18h22m" },
             { "Group": "Pokemon", "Name": "Aurorus", "Time": "11d20h7m" },
             { "Group": "Pokemon", "Name": "Omastar", "Time": "11d20h14m" },
@@ -339,6 +340,8 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Wailmer", "Time": "11d21h23m" },
             { "Group": "Pokemon", "Name": "Wailord", "Time": "11d21h29m" },
             { "Group": "Pokemon", "Name": "Tentacruel", "Time": "11d21h33m" },
+            { "Group": "Pokemon", "Name": "Lanturn", "Time": "11d21h46m" },
+            { "Group": "Pokemon", "Name": "Lumineon", "Time": "11d21h59m" },
         ]
     }
 );
