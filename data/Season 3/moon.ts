@@ -284,7 +284,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Archen", "Time": "10d4h8m" },
             { "Group": "Champions", "Name": "Professor Kukui", "Time": "10d21h19m", "Attempts": 22, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d21h20m", Attempts: 83, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d21h20m", Attempts: 84, Party: [
                     { Pokemon: "Seismitoad", Nickname: "a○︎'♠︎lpitoa", Gender: "Female", Level: 100 },
                     { Pokemon: "Lunala", Nickname: "spe s      ,", Level: 100 },
                     { Pokemon: "Staraptor", Nickname: "Staravia ♀lb", Gender: "Male", Level: 100 },
@@ -319,6 +319,13 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Xurkitree", "Time": "11d11h14m" },
             { "Group": "Pokemon", "Name": "Celesteela", "Time": "11d12h34m" },
             { "Group": "Pokemon", "Name": "Tapu Fini", "Time": "11d12h55m" },
+            { "Group": "Pokemon", "Name": "Meinfoo", "Time": "11d15h3m" },
+            { "Group": "Pokemon", "Name": "Gothorita", "Time": "11d15h9m" },
+            { "Group": "Pokemon", "Name": "Duosion", "Time": "11d15h14m" },
+            { "Group": "Pokemon", "Name": "Houndoom", "Time": "11d15h19m" },
+            { "Group": "Pokemon", "Name": "Zangoose", "Time": "11d15h23m" },
+            { "Group": "Pokemon", "Name": "Druddigon", "Time": "11d15h28m" },
+            { "Group": "Pokemon", "Name": "Altaria", "Time": "11d15h34m" },
         ]
     }
 );
