@@ -326,6 +326,11 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Zangoose", "Time": "11d15h23m" },
             { "Group": "Pokemon", "Name": "Druddigon", "Time": "11d15h28m" },
             { "Group": "Pokemon", "Name": "Altaria", "Time": "11d15h34m" },
+            { "Group": "Pokemon", "Name": "Mawile", "Time": "11d17h9m" },
+            { "Group": "Pokemon", "Name": "Conkeldurr", "Time": "11d17h17m" },
+            { "Group": "Pokemon", "Name": "Haxorus", "Time": "11d17h21m" },
+            { "Group": "Pokemon", "Name": "Aggron", "Time": "11d17h24m" },
+            { "Group": "Pokemon", "Name": "Keldeo", "Time": "11d17h56m" },
         ]
     }
 );
