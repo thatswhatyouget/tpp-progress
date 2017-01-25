@@ -313,6 +313,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "11d8h27m" },
             { "Group": "Pokemon", "Name": "Delibird", "Time": "11d8h46m" },
             { "Group": "Pokemon", "Name": "Swablu", "Time": "11d8h53m" },
+            { "Group": "Pokemon", "Name": "Chatot", "Time": "11d9h22m" },
         ]
     }
 );
