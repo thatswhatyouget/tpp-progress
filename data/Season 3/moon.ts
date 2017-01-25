@@ -319,7 +319,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Xurkitree", "Time": "11d11h14m" },
             { "Group": "Pokemon", "Name": "Celesteela", "Time": "11d12h34m" },
             { "Group": "Pokemon", "Name": "Tapu Fini", "Time": "11d12h55m" },
-            { "Group": "Pokemon", "Name": "Meinfoo", "Time": "11d15h3m" },
+            { "Group": "Pokemon", "Name": "Mienfoo", "Time": "11d15h3m" },
             { "Group": "Pokemon", "Name": "Gothorita", "Time": "11d15h9m" },
             { "Group": "Pokemon", "Name": "Duosion", "Time": "11d15h14m" },
             { "Group": "Pokemon", "Name": "Houndoom", "Time": "11d15h19m" },
