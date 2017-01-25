@@ -334,6 +334,11 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Guzzlord", "Time": "11d18h22m" },
             { "Group": "Pokemon", "Name": "Aurorus", "Time": "11d20h7m" },
             { "Group": "Pokemon", "Name": "Omastar", "Time": "11d20h14m" },
+            { "Group": "Pokemon", "Name": "Magikarp", "Time": "11d20h31m" },
+            { "Group": "Pokemon", "Name": "Skrelp", "Time": "11d21h11m" },
+            { "Group": "Pokemon", "Name": "Wailmer", "Time": "11d21h23m" },
+            { "Group": "Pokemon", "Name": "Wailord", "Time": "11d21h29m" },
+            { "Group": "Pokemon", "Name": "Tentacruel", "Time": "11d21h33m" },
         ]
     }
 );
