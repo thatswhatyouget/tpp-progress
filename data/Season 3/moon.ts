@@ -359,6 +359,12 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Luxio", "Time": "12d6h37m" },
             { "Group": "Pokemon", "Name": "Togedemaru", "Time": "12d6h44m" },
             { "Group": "Pokemon", "Name": "Charjabug", "Time": "12d7h21m" },
+            { "Group": "Pokemon", "Name": "Rotom", "Time": "12d7h56m" },
+            { "Group": "Pokemon", "Name": "Cosmog", "Time": "12d8h14m" },
+            { "Group": "Pokemon", "Name": "Murkrow", "Time": "12d8h36m" },
+            { "Group": "Pokemon", "Name": "Tropius", "Time": "12d8h42m" },
+            { "Group": "Pokemon", "Name": "Lombre", "Time": "12d8h50m" },
+            { "Group": "Pokemon", "Name": "Goomy", "Time": "12d9h20m" },
         ]
     }
 );
