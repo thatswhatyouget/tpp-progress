@@ -368,7 +368,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Golduck", "Time": "12d12h38m" },
             { "Group": "Pokemon", "Name": "Hariyama", "Time": "12d13h19m" },
             { Group: "Past Hosts", Name: "RED", Image: "img/hosts/red.png", Time: "12d15h", Attempts: 2 },
-            { Group: "Champions", Name: "Kobe", Image: "img/trainers/sun/kobe.png", Time: "12d16h46m", Attempts: 2 },
+            { Group: "Champions", Name: "Kobe", Image: "img/trainers/sun/kobe.png", Time: "12d16h46m", Attempts: 3 },
         ]
     }
 );
