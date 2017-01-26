@@ -375,6 +375,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Snover", "Time": "12d19h7m" },
             { "Group": "Pokemon", "Name": "Sneasel", "Time": "12d19h20m" },
             { "Group": "Pokemon", "Name": "Azumarill", "Time": "13d31m" },
+            { "Group": "Pokemon", "Name": "Frillish", "Time": "13d1h19m" },
             // { "Group": "Elite Four Rematch", "Name": "Hala", "Time": "", "Attempts": 2, "Image": "img/trainers/sun/rematch/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
         ]
     }
