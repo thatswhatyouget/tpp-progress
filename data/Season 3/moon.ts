@@ -352,6 +352,13 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Zorua", "Time": "12d2h20m" },
             { "Group": "Pokemon", "Name": "Jangmo-o", "Time": "12d3h38m" },
             { "Group": "Pokemon", "Name": "Necrozma", "Time": "12d5h2m" },
+            { "Group": "Pokemon", "Name": "Voltorb", "Time": "12d6h13m" },
+            { "Group": "Pokemon", "Name": "Dedenne", "Time": "12d6h21m" },
+            { "Group": "Pokemon", "Name": "Tynamo", "Time": "12d6h26m" },
+            { "Group": "Pokemon", "Name": "Helioptile", "Time": "12d6h28m" },
+            { "Group": "Pokemon", "Name": "Luxio", "Time": "12d6h37m" },
+            { "Group": "Pokemon", "Name": "Togedemaru", "Time": "12d6h44m" },
+            { "Group": "Pokemon", "Name": "Charjabug", "Time": "12d7h21m" },
         ]
     }
 );
