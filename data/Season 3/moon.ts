@@ -372,6 +372,7 @@ Season3.Runs.push(
             { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "12d17h32m", "Attempts": 1, "Image": "img/trainers/sun/rematch/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "12d17h45m", "Attempts": 1, "Image": "img/trainers/sun/rematch/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Pokemon", "Name": "Miltank", "Time": "12d18h7m" },
+            { "Group": "Pokemon", "Name": "Snover", "Time": "12d19h7m" },
             // { "Group": "Elite Four Rematch", "Name": "Hala", "Time": "", "Attempts": 2, "Image": "img/trainers/sun/rematch/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
         ]
     }
