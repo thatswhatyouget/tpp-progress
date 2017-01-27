@@ -5,7 +5,7 @@ Season3.Runs.push(
         ColorSecondary: "rgb(0,148,255)",
         ColorPrimary: "#47b1e3",
         StartDate: "2017-01-13T18:00:00Z",
-        Duration: "255d",
+        Duration: "2017-01-27T05:37:00Z",
         Ongoing: true,
         BackgroundImage: "linear-gradient(to bottom, #a8e5fe 0%,white 30%,white 33%,#47b1e3 40%,#cdeff8 100%)",
         //HostName: "\"?p ",
@@ -391,6 +391,12 @@ Season3.Runs.push(
                 Image: "img/ribbons/champion-alola.png",
                 FirstAttemptDate: "12d17h21m"
             },
+            { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "13d7h57m" },
+            { "Group": "Pokemon", "Name": "Bewear", "Time": "13d8h28m" },
+            { "Group": "Pokemon", "Name": "Talonflame", "Time": "13d8h37m" },
+            { "Group": "Pokemon", "Name": "Steenee", "Time": "13d8h54m" },
+            { "Group": "Pokemon", "Name": "Bounsweet", "Time": "13d9h10m" },
+            { "Group": "Pokemon", "Name": "Magearna", "Time": "13d11h32m" },
         ]
     }
 );
