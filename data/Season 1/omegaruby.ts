@@ -264,8 +264,8 @@ Season1.Runs.push(
             { Name: "Dratini", Time: "13d1h11m", Group: "Pokemon", Class: "WifiTrade" },
             { Name: "Luvdisc", Time: "13d1h15m", Group: "Pokemon", Class: "WifiTrade" },
             //Missing Pokémon
-            { Name: "Absol", Time: "-1d", Group: "Pokemon", Class: "WifiTrade" },
-            { Name: "Rhyperior", Time: "-1d", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Absol", Time: "255d", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Rhyperior", Time: "255d", Group: "Pokemon", Class: "WifiTrade" },
         ]
     }
 );
