@@ -6,7 +6,6 @@ Season3.Runs.push(
         ColorPrimary: "#47b1e3",
         StartDate: "2017-01-13T18:00:00Z",
         Duration: "2017-01-27T05:37:00Z",
-        Ongoing: true,
         BackgroundImage: "linear-gradient(to bottom, #a8e5fe 0%,white 30%,white 33%,#47b1e3 40%,#cdeff8 100%)",
         //HostName: "\"?p ",
         HostName: "d76o6yttr??",
