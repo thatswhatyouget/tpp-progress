@@ -8,8 +8,8 @@ Intermissions.Runs.push(
         Duration: "2017-01-13T01:59:22Z",
         Unfinished: true,
         HostName: "¡",
-        HostImage: "http://cdn.bulbagarden.net/upload/thumb/6/6c/653Fennekin_PSMD.png/106px-653Fennekin_PSMD.png",
-        Class: "squarehost",
+        HostImage: "img/hosts/pmd/fennekin.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5qo9dy/the_hosts_of_the_voices_before_season_4/",
         Region: "Pokemon World",
         Events: []
     }

@@ -9,6 +9,7 @@ Sidegames.Runs.push(
         Ongoing: true,
         HostName: "Ethan",
         HostImage: "img/hosts/ethan.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5qo9dy/the_hosts_of_the_voices_before_season_4/",
         Region: "Johto",
         Events: [
             { Group: "Pokemon", Name: "Chikorita", Time: "2017-01-27T11:06:26Z" },

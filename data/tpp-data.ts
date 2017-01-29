@@ -76,7 +76,10 @@ setTimeout(() => {
 
     //split Sidegames by duration/speed
     QuickSidegames.Runs = [].concat.apply(QuickSidegames.Runs, Sidegames.Runs.filter(r =>
-        TPP.Duration.parse(r.Duration,r.StartTime).TotalDays < 21 &&    
+        (TPP.Duration.parse(r.Duration, r.StartTime).TotalSeconds + r.StartTime > (Date.now() / 1000) ?
+            ((Date.now() / 1000) - r.StartTime) / 60 / 60 / 24 < 21 :
+            TPP.Duration.parse(r.Duration, r.StartTime).TotalDays < 21
+        ) &&
         r.Events.filter(e => e.Group != "Pokemon" && TPP.Duration.parse(e.Time, r.StartTime).TotalDays < 1).length > 0
     ));
     Sidegames.Runs = Sidegames.Runs.filter(r => QuickSidegames.Runs.indexOf(r) < 0);
