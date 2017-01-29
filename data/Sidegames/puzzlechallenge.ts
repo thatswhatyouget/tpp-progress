@@ -15,7 +15,7 @@ Sidegames.Runs.push(
             { Group: "Pokemon", Name: "Cyndaquil", Time: "2017-01-27T11:06:26Z" },
             { Group: "Pokemon", Name: "Totodile", Time: "2017-01-27T11:06:26Z" },
             { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "2017-01-28T01:26:29Z" },
-            // { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "" },
+            { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "2017-01-29T01:03:50Z" },
             // { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "" },
             // { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "" },
             // { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "" },

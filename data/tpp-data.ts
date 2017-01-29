@@ -15,10 +15,21 @@ var Season3: TPP.Collection = {
     Scale: TPP.Scale.Days,
     Runs: []
 };
+var Season4: TPP.Collection = {
+    Name: "Season 4",
+    Scale: TPP.Scale.Days,
+    Runs: []
+};
 var Sidegames: TPP.Collection = {
     Name: "Sidegames",
     SingularName: "Sidegame",
     Scale: TPP.Scale.Weeks,
+    Runs: []
+};
+var QuickSidegames: TPP.Collection = {
+    Name: "Quick Sidegames",
+    SingularName: "Quick Sidegame",
+    Scale: TPP.Scale.Days,
     Runs: []
 };
 var Revisits: TPP.Collection = {
@@ -45,7 +56,7 @@ var ShortIntermissions: TPP.Collection = {
     Scale: TPP.Scale.Minutes,
     Runs: []
 }
-var tppData: TPP.Collection[] = [Season1, Season2, Season3, Sidegames, Revisits, LongIntermissions, Intermissions, ShortIntermissions];
+var tppData: TPP.Collection[] = [Season1, Season2, Season3, Season4, Sidegames, QuickSidegames, Revisits, LongIntermissions, Intermissions, ShortIntermissions];
 
 var exports = exports || {};
 exports.tppData = tppData;
@@ -63,10 +74,17 @@ setTimeout(() => {
         });
     }));
 
+    //split Sidegames by duration/speed
+    QuickSidegames.Runs = [].concat.apply(QuickSidegames.Runs, Sidegames.Runs.filter(r =>
+        TPP.Duration.parse(r.Duration,r.StartTime).TotalDays < 21 &&    
+        r.Events.filter(e => e.Group != "Pokemon" && TPP.Duration.parse(e.Time, r.StartTime).TotalDays < 1).length > 0
+    ));
+    Sidegames.Runs = Sidegames.Runs.filter(r => QuickSidegames.Runs.indexOf(r) < 0);
+
     //split Intermissions by length
     ShortIntermissions.Runs = [].concat.apply(ShortIntermissions.Runs, Intermissions.Runs.filter(r => TPP.Duration.parse(r.Duration, r.StartTime).TotalHours < 3.5));
     LongIntermissions.Runs = [].concat.apply(LongIntermissions.Runs, Intermissions.Runs.filter(r => TPP.Duration.parse(r.Duration, r.StartTime).TotalHours >= 100));
-    Intermissions.Runs = Intermissions.Runs.filter(r => { var d = TPP.Duration.parse(r.Duration, r.StartTime).TotalHours; return d >= 3.5 && d < 100; });
+    Intermissions.Runs = Intermissions.Runs.filter(r => ShortIntermissions.Runs.indexOf(r) < 0 && LongIntermissions.Runs.indexOf(r) < 0);
 
     //do event copying
     tppData.forEach(c => c.Runs.forEach(baseRunInfo => {
@@ -93,5 +111,8 @@ setTimeout(() => {
 
     //autonumber unnumbered Hall of Fame entries
     tppData.forEach(c => c.Runs.forEach(r => r.Events.filter(e => (<TPP.HallOfFame>e).Party && e.Name.toLowerCase().trim() == "hall of fame").forEach((hof, i, hofArr) => hof.Name += hofArr.length > 1 ? " #" + (i + 1) : "")));
+
+    //filter out empty collections
+    tppData = tppData.filter(c => c.Runs.length > 0);
 
 }, 0);
