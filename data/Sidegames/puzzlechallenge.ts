@@ -15,14 +15,14 @@ Sidegames.Runs.push(
             { Group: "Pokemon", Name: "Chikorita", Time: "2017-01-27T11:06:26Z" },
             { Group: "Pokemon", Name: "Cyndaquil", Time: "2017-01-27T11:06:26Z" },
             { Group: "Pokemon", Name: "Totodile", Time: "2017-01-27T11:06:26Z" },
-            { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "2017-01-28T01:26:29Z" },
-            { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "2017-01-29T01:03:50Z" },
-            // { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "" },
-            // { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "" },
-            // { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "" },
-            // { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "" },
-            // { Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png", Time: "" },
-            // { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "" },
+            { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "2017-01-28T01:26:29Z", Attempts: 1 },
+            { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "2017-01-29T01:03:50Z", Attempts: 1 },
+            { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "2017-01-29T23:23:52Z", Attempts: 1 },
+            // { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 1 },
+            // { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 1 },
+            // { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "", Attempts: 1 },
+            // { Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png", Time: "", Attempts: 1 },
+            // { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "", Attempts: 1 },
         ]
     }
 );
