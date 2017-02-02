@@ -22,7 +22,23 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png", Time: "2017-01-31T10:15:17Z", Attempts: 2 },
             { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "2017-02-01T00:10:30Z", Attempts: 1 },
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "2017-02-01T14:11:16Z", Attempts: 1 },
-            // { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "", Attempts: 1 },
+            { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "2017-02-01T08:41:01Z", Attempts: 1 },
+
+            // { Group: "Rematch Badges", Name: "Zephyr Badge", Image: "img/badges/rematch/zephyr.png", Time: "", Attempts: 1 },
+            // { Group: "Rematch Badges", Name: "Hive Badge", Image: "img/badges/rematch/hive.png", Time: "", Attempts: 1 },
+            // { Group: "Rematch Badges", Name: "Plain Badge", Image: "img/badges/rematch/plain.png", Time: "", Attempts: 1 },
+            // { Group: "Rematch Badges", Name: "Fog Badge", Image: "img/badges/rematch/fog.png", Time: "", Attempts: 1 },
+            // { Group: "Rematch Badges", Name: "Mineral Badge", Image: "img/badges/rematch/mineral.png", Time: "", Attempts: 1 },
+            // { Group: "Rematch Badges", Name: "Storm Badge", Image: "img/badges/rematch/storm.png", Time: "", Attempts: 1 },
+            // { Group: "Rematch Badges", Name: "Glacier Badge", Image: "img/badges/rematch/glacier.png", Time: "", Attempts: 1 },
+            // { Group: "Rematch Badges", Name: "Rising Badge", Image: "img/badges/rematch/rising.png", Time: "", Attempts: 1 },
+
+            // { Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png", Time: "", Attempts: 1 },
+            // { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "", Attempts: 1 },
+            // { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "", Attempts: 1 },
+            // { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "", Attempts: 1 },
+            // { Group: "Champions", Name: "Lance", Image: "img/trainers/crystal/lance.png", Time: "", Attempts: 1 },
+
         ]
     }
 );
