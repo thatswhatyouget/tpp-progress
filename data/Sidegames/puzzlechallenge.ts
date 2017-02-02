@@ -22,7 +22,7 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png", Time: "2017-01-31T10:15:17Z", Attempts: 2 },
             { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "2017-02-01T00:10:30Z", Attempts: 1 },
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "2017-02-01T14:11:16Z", Attempts: 1 },
-            { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "2017-02-01T08:41:01Z", Attempts: 1 },
+            { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "2017-02-02T08:41:01Z", Attempts: 1 },
 
             // { Group: "Rematch Badges", Name: "Zephyr Badge", Image: "img/badges/rematch/zephyr.png", Time: "", Attempts: 1 },
             // { Group: "Rematch Badges", Name: "Hive Badge", Image: "img/badges/rematch/hive.png", Time: "", Attempts: 1 },
