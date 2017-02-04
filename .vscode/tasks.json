@@ -11,6 +11,11 @@
 			"showOutput": "silent",
 			// Use the standard less compilation problem matcher.
 			"problemMatcher": "$tsc"
+		},
+		{
+			"taskName": "test",
+			"isTestCommand": true,
+			"showOutput": "always"
 		}
 	]
 }

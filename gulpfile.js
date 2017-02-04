@@ -9,9 +9,12 @@ var tppDataProject = ts.createProject('data/tsconfig.json');
 var pokedexProject = ts.createProject('data/Pokedex/tsconfig.json');
 var pokeStylesProject = ts.createProject('poke-styles/tsconfig.json');
 var tppDisplayProject = ts.createProject('display/tsconfig.json');
+var tppTransformsProject = ts.createProject('transforms/tsconfig.json');
 var tppProgressProject = ts.createProject('tsconfig.json');
 
-gulp.task('build', ['build-data', 'build-display', 'build-progress']);
+gulp.task('build', ['build-data', 'build-display', 'build-transforms', 'build-progress']);
+
+gulp.task('test', ['clean-transform-tests']);
 
 gulp.task('build-data', ['clean-up-data']);
 
@@ -21,6 +24,10 @@ gulp.task('build-progress', function () {
 });
 gulp.task('build-display', function () {
     var tsResult = tppDisplayProject.src().pipe(tppDisplayProject())
+    return tsResult.js.pipe(gulp.dest("."));
+});
+gulp.task('build-transforms', function () {
+    var tsResult = tppTransformsProject.src().pipe(tppTransformsProject())
     return tsResult.js.pipe(gulp.dest("."));
 });
 
@@ -83,4 +90,20 @@ gulp.task('move-definition-files', ['compile-data', 'compile-pokedex'], function
 
 gulp.task('clean-up-data', ['process-data', 'process-pokedex', 'clean-up-poke-styles', 'move-definition-files'], function () {
     return del('bin/data');
+});
+
+gulp.task('build-transform-tests', function () {
+    var tests = ts.createProject('transforms/tests/tsconfig.json');
+    return tests.src().pipe(tests()).js.pipe(gulp.dest('.'));
+});
+
+var mocha = require('gulp-mocha');
+gulp.task('test-transforms', ['build-transform-tests'], function () {
+    return gulp.src('./transforms/tests/tpp-transform-tests.js', { read: false })
+    // gulp-mocha needs filepaths so you can't have any plugins before it 
+        .pipe(mocha());
+});
+
+gulp.task('clean-transform-tests', ['test-transforms'], function () {
+    return del('./transforms/tests/tpp-transform-tests.js');
 });

@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"outDir": "../bin",
+		"target": "es5",
+		"removeComments": true,
+		"outFile": "tpp-transforms.js",
+		"declaration": true
+	},
+	"include": [
+		"**/*.ts"
+	],
+	"exclude": [
+		"tests"
+	]
+}

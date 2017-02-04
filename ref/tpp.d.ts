@@ -1,3 +1,4 @@
+/// <reference path="jquery.d.ts" />
 declare module TPP {
     enum Scale {
         Weeks = 0,
