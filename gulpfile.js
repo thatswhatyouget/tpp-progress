@@ -1,9 +1,11 @@
 var gulp = require('gulp');
 var ts = require('gulp-typescript');
+var sourcemaps = require('gulp-sourcemaps');
 var del = require('del');
 var fs = require('fs');
 var merge = require('merge2');
 var removeLines = require('gulp-remove-lines');
+var through = require('through2');
 
 var tppDataProject = ts.createProject('data/tsconfig.json');
 var pokedexProject = ts.createProject('data/Pokedex/tsconfig.json');
@@ -93,17 +95,22 @@ gulp.task('clean-up-data', ['process-data', 'process-pokedex', 'clean-up-poke-st
 });
 
 gulp.task('build-transform-tests', function () {
-    var tests = ts.createProject('transforms/tests/tsconfig.json');
-    return tests.src().pipe(tests()).js.pipe(gulp.dest('.'));
+    var tests = ts.createProject('transforms/tests/tsconfig.json', { outFile: 'tpp-transform-tests.js'  });
+    return tests.src()
+        .pipe(sourcemaps.init())
+        .pipe(tests())
+        .js
+        .pipe(sourcemaps.write('.', { sourceRoot: '', includeContent: false }))
+        .pipe(gulp.dest('.'));
 });
 
 var mocha = require('gulp-mocha');
 gulp.task('test-transforms', ['build-transform-tests'], function () {
     return gulp.src('./transforms/tests/tpp-transform-tests.js', { read: false })
-    // gulp-mocha needs filepaths so you can't have any plugins before it 
+        // gulp-mocha needs filepaths so you can't have any plugins before it 
         .pipe(mocha());
 });
 
 gulp.task('clean-transform-tests', ['test-transforms'], function () {
-    return del('./transforms/tests/tpp-transform-tests.js');
+    return del('./transforms/tests/tpp-transform-tests.*');
 });

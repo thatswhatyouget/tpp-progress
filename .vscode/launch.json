@@ -10,9 +10,14 @@
             "name": "Debug Tests",
             "program": "${workspaceRoot}/node_modules/gulp/bin/gulp.js",
             "args": [
-                "test"
+                "test-transforms"
             ],
-            "cwd": "${workspaceRoot}"
+            "preLaunchTask": "build-transform-tests",
+            "cwd": "${workspaceRoot}",
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}/transforms/tests/tpp-transform-tests.js"
+            ]
         }
     ]
 }

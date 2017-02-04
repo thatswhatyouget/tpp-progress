@@ -63,6 +63,9 @@ module TPP.Transforms {
             }));
         }
     }
+
+        
+
     export function PokedexSummary(tppData: Collection[], PokeList: string[]) {
 
     }
