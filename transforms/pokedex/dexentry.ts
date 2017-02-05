@@ -5,8 +5,10 @@ module TPP.Transforms.Pokedex {
             super();
             this.Number = number;
             this.Pokemon = pokemon;
-            this.GatherPokemonFromRuns(collectionSummary);
-            this.GatherHallOfFameEntries(collectionSummary);
+            if (pokemon) {
+                this.GatherPokemonFromRuns(collectionSummary);
+                this.GatherHallOfFameEntries(collectionSummary);
+            }    
         }
         private GatherPokemonFromRuns(collectionSummary: CollectionSummary) {
             collectionSummary.Summary.forEach(s =>

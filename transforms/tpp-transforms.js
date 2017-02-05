@@ -337,8 +337,10 @@ var TPP;
                     var _this = _super.call(this) || this;
                     _this.Number = number;
                     _this.Pokemon = pokemon;
-                    _this.GatherPokemonFromRuns(collectionSummary);
-                    _this.GatherHallOfFameEntries(collectionSummary);
+                    if (pokemon) {
+                        _this.GatherPokemonFromRuns(collectionSummary);
+                        _this.GatherHallOfFameEntries(collectionSummary);
+                    }
                     return _this;
                 }
                 DexEntry.prototype.GatherPokemonFromRuns = function (collectionSummary) {
@@ -369,11 +371,37 @@ var TPP;
     (function (Transforms) {
         var Pokedex;
         (function (Pokedex) {
+            var natDex = ((window || {}).Pokedex || {}).PokeList || [];
+            function DexMerge(Regional, National) {
+                if (National === void 0) { National = natDex; }
+                return Regional.map(function (i) { return typeof i === "string" ? i : National[i]; });
+            }
+            Pokedex.DexMerge = DexMerge;
+            function ClipDex(highestDexNumber, National) {
+                if (National === void 0) { National = natDex; }
+                return National.filter(function (p, i) { return i <= highestDexNumber; });
+            }
+            Pokedex.ClipDex = ClipDex;
+        })(Pokedex = Transforms.Pokedex || (Transforms.Pokedex = {}));
+    })(Transforms = TPP.Transforms || (TPP.Transforms = {}));
+})(TPP || (TPP = {}));
+var TPP;
+(function (TPP) {
+    var Transforms;
+    (function (Transforms) {
+        var Pokedex;
+        (function (Pokedex) {
+            var DexSorting;
+            (function (DexSorting) {
+                DexSorting[DexSorting["Pok\u00E9dex Number"] = 0] = "Pok\u00E9dex Number";
+                DexSorting[DexSorting["Alphabetical"] = 1] = "Alphabetical";
+                DexSorting[DexSorting["First Owned"] = 2] = "First Owned";
+            })(DexSorting = Pokedex.DexSorting || (Pokedex.DexSorting = {}));
             var GlobalDex = (function (_super) {
                 __extends(GlobalDex, _super);
                 function GlobalDex(collectionSummary, PokeList) {
                     var _this = _super.call(this) || this;
-                    _this.Entries = PokeList.map(function (p, i) { return new Pokedex.DexEntry(p, i, collectionSummary); });
+                    _this.Entries = PokeList.map(function (p, i) { return new Pokedex.DexEntry(p, i, collectionSummary); }).filter(function (e) { return !!e.Pokemon; });
                     return _this;
                 }
                 return GlobalDex;

@@ -1,8 +1,11 @@
 /// <reference path="tests.ts" />
 /// <reference path="../pokedex/globalpokedex.ts" />
+/// <reference path="../pokedex/dexmerge.ts" />
+
 module TPP.Transforms.Pokedex {
     var startTime = new Date(2014, 6, 10, 0, 0, 0).valueOf() / 1000;
     var mockDex = ["MissingNo.", "Mew", "Pikachu", "Butterfree", "Jirachi", "Entei", "Mimikyu", "Marill", "Azumarill"];
+    var mockRegionalDex = [-1, 2, 7, 8, 6, "Phancero"];
     var mockRun: Run = {
         ColorPrimary: "white",
         ColorSecondary: "black",
@@ -100,12 +103,49 @@ module TPP.Transforms.Pokedex {
         it("Dugtrio should not be Owned", () => assert.equal(dugEntry.IsOwned, false));
     });
 
-    var dex = new GlobalDex(collectionSummary, mockDex);
+    var mergedRegional = DexMerge(mockRegionalDex, mockDex);
 
-    describe("Pokedex.GlobalDex", () => {
+    describe("Pokedex.DexMerge", () => {
+        it("Checking merged Dex", () => assert.deepEqual(mergedRegional, [undefined, "Pikachu", "Marill", "Azumarill", "Mimikyu", "Phancero"]));
+        it("Marill and Azumarill should not be in clipped dex.", () => assert.equal(ClipDex(6, mockDex).pop(), "Mimikyu"));
+        it("Checking merged clipped Dex", () => assert.deepEqual(DexMerge(mockRegionalDex, ClipDex(6, mockDex)), [undefined, "Pikachu", undefined, undefined, "Mimikyu", "Phancero"]));
+    });
+
+    var dex = new GlobalDex(collectionSummary, mockDex);
+    var regionalDex = new GlobalDex(collectionSummary, mergedRegional);
+
+    describe("Pokedex.GlobalDex (National)", () => {
         it("Owned count should be 6.", () => assert.equal(dex.TotalOwned, 6));
         it("Total count should be 8.", () => assert.equal(dex.TotalInDex, 8));
-        it("MissingNo. should be first with default sorting.", () => assert.equal(dex.Entries[0].Pokemon, "MissingNo."));
-        it("MissingNo. should be Owned.", () => assert.equal(dex.Entries[0].IsOwned, true));
+        it("MissingNo. should be Owned.", () => {
+            dex.SortDex();
+            assert.equal(dex.Entries[0].IsOwned, true);
+        });
+
+        describe("Sorting", () => {
+            it("Marill should be first with First Owned sorting.", () => {
+                dex.SortDex(DexSorting["First Owned"]);
+                assert.equal(dex.Entries[0].Pokemon, "Marill");
+            });
+            it("Marill should still be #7.", () => {
+                dex.SortDex(DexSorting["First Owned"]);
+                assert.equal(dex.Entries[0].Number, 7);
+            });
+            it("MissingNo. should be first with default numeric sorting.", () => {
+                dex.SortDex();
+                assert.equal(dex.Entries[0].Pokemon, "MissingNo.");
+            });
+            it("Azumarill should be first with alphabetical sorting.", () => {
+                dex.SortDex(DexSorting.Alphabetical);
+                assert.equal(dex.Entries[0].Pokemon, "Azumarill");
+            });
+        });
+    });
+
+    describe("Pokedex.GlobalDex (Regional)", () => {
+        it("Should not contain null Pokemon", () => assert.equal(regionalDex.Entries.filter(e => !e.Pokemon).length, 0));
+        it("Pikachu should be #1.", () => assert.equal(regionalDex.Entries[0].Number, 1));
+        it("Dex Total should be 5.", () => assert.equal(regionalDex.TotalInDex, 5));
+        it("Owned count should be 4.", () => assert.equal(regionalDex.TotalOwned, 4));
     });
 }
