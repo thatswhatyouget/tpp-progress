@@ -194,6 +194,137 @@ function SerializeQueryString() {
         return "?" + Object.keys(QueryString).filter(function (k) { return QueryString[k]; }).map(function (k) { return k + (QueryString[k] == "true" ? "" : "=" + encodeURI(QueryString[k])); }).join('&');
     return "";
 }
+var TPP;
+(function (TPP) {
+    var Pokedex;
+    (function (Pokedex) {
+        var RunSummaryBase = (function () {
+            function RunSummaryBase() {
+                this.OwnedDict = {};
+                this.HallOfFame = [];
+            }
+            return RunSummaryBase;
+        }());
+        Pokedex.RunSummaryBase = RunSummaryBase;
+        var CollectionSummaryBase = (function () {
+            function CollectionSummaryBase() {
+                this.Summary = [];
+                this.HallOfFame = [];
+            }
+            return CollectionSummaryBase;
+        }());
+        Pokedex.CollectionSummaryBase = CollectionSummaryBase;
+        var DexEntryBase = (function () {
+            function DexEntryBase() {
+                this.Owners = [];
+                this.HallOfFame = [];
+            }
+            Object.defineProperty(DexEntryBase.prototype, "IsOwned", {
+                get: function () {
+                    return this.Owners && this.Owners.length > 0;
+                },
+                enumerable: true,
+                configurable: true
+            });
+            Object.defineProperty(DexEntryBase.prototype, "FirstOwnedRun", {
+                get: function () {
+                    return this.IsOwned ? this.Owners[0].Run : {};
+                },
+                enumerable: true,
+                configurable: true
+            });
+            Object.defineProperty(DexEntryBase.prototype, "FirstCaughtDate", {
+                get: function () {
+                    return this.IsOwned ? this.Owners[0].CaughtOn : false;
+                },
+                enumerable: true,
+                configurable: true
+            });
+            return DexEntryBase;
+        }());
+        Pokedex.DexEntryBase = DexEntryBase;
+        var DexSorting;
+        (function (DexSorting) {
+            DexSorting[DexSorting["Pok\u00E9dex Number"] = 0] = "Pok\u00E9dex Number";
+            DexSorting[DexSorting["Alphabetical"] = 1] = "Alphabetical";
+            DexSorting[DexSorting["First Owned"] = 2] = "First Owned";
+        })(DexSorting = Pokedex.DexSorting || (Pokedex.DexSorting = {}));
+        var GlobalDexBase = (function () {
+            function GlobalDexBase() {
+                this.Entries = [];
+            }
+            Object.defineProperty(GlobalDexBase.prototype, "NoGlitchMon", {
+                get: function () {
+                    return this.Entries.filter(function (e) { return !(e.Number == 0 && e.Pokemon == "MissingNo."); });
+                },
+                enumerable: true,
+                configurable: true
+            });
+            Object.defineProperty(GlobalDexBase.prototype, "TotalOwned", {
+                get: function () {
+                    return this.NoGlitchMon.filter(function (e) { return e.IsOwned; }).length;
+                },
+                enumerable: true,
+                configurable: true
+            });
+            Object.defineProperty(GlobalDexBase.prototype, "TotalInDex", {
+                get: function () {
+                    return this.NoGlitchMon.length;
+                },
+                enumerable: true,
+                configurable: true
+            });
+            Object.defineProperty(GlobalDexBase.prototype, "OwnedPercentage", {
+                get: function () {
+                    return (this.TotalOwned / this.TotalInDex) * 100;
+                },
+                enumerable: true,
+                configurable: true
+            });
+            GlobalDexBase.prototype.SortDex = function (sortBy) {
+                if (sortBy === void 0) { sortBy = 0; }
+                switch (sortBy) {
+                    case 0:
+                    case DexSorting[0]:
+                    default:
+                        this.Entries = this.Entries.sort(function (e1, e2) { return e1.Number - e2.Number; });
+                        break;
+                    case 1:
+                    case DexSorting[1]:
+                        this.Entries = this.Entries.sort(function (e1, e2) { return e1.Pokemon.localeCompare(e2.Pokemon); });
+                        break;
+                    case 2:
+                    case DexSorting[2]:
+                        this.Entries = this.Entries.sort(function (e1, e2) { return (e1.FirstCaughtDate || Date.now()) - (e2.FirstCaughtDate || Date.now()); });
+                        break;
+                }
+            };
+            GlobalDexBase.prototype.FilterDexToOwned = function () {
+                this.Entries = this.Entries.filter(function (e) { return e.IsOwned; });
+            };
+            GlobalDexBase.prototype.FilterDexToUnowned = function () {
+                this.Entries = this.Entries.filter(function (e) { return !e.IsOwned; });
+            };
+            GlobalDexBase.prototype.FilterDexRuns = function (runList) {
+                var runs = runList.map(function (r) { return typeof r === "string" ? r.toLowerCase().trim() : r; });
+                this.Entries = this.Entries.filter(function (e) { return e.Owners.filter(function (o) { return runs.filter(function (r) {
+                    if (typeof r === "string")
+                        return o.Run.RunName.toLowerCase().indexOf(r) >= 0;
+                    return o.Run.RunName == r.RunName;
+                }).length > 0; }).length > 0; });
+            };
+            GlobalDexBase.prototype.FilterDexPokemon = function (pokeList) {
+                pokeList = pokeList.map(function (p) { return p.toLowerCase().trim(); });
+                this.Entries = this.Entries.filter(function (e) { return pokeList.indexOf(e.Pokemon.toLowerCase()) >= 0; });
+            };
+            GlobalDexBase.prototype.FilterDexToHallOfFame = function () {
+                this.Entries = this.Entries.filter(function (e) { return e.HallOfFame.length > 0; });
+            };
+            return GlobalDexBase;
+        }());
+        Pokedex.GlobalDexBase = GlobalDexBase;
+    })(Pokedex = TPP.Pokedex || (TPP.Pokedex = {}));
+})(TPP || (TPP = {}));
 var groupList;
 var groups;
 function updateGroups() {
@@ -364,7 +495,7 @@ function regionMenu(regionsParam) {
 }
 var pokedexGenerationsMenu = function () { return qsListMenu("fa-gamepad", "Generations", "g", Pokedex.GenSlice.map(function (g, i) { return i ? i.toFixed(0) : null; }), "All", "Generation "); };
 var pokedexRegionsMenu = function () { return qsListMenu("fa-globe", "Region", "dex", Object.keys(Pokedex.Regional).map(function (m, i) { return i ? m : null; }), "National"); };
-var pokedexSortMenu = function () { return qsListMenu("fa-sort", "Sort", "sort", [null, "Alphabetical", "First Owned"], "Pokédex Number"); };
+var pokedexSortMenu = function () { return qsListMenu("fa-sort", "Sort", "sort", Object.keys(TPP.Pokedex.DexSorting).filter(function (k) { return !isNaN(k); }).map(function (i) { return parseInt(i) ? TPP.Pokedex.DexSorting[i] : null; }), TPP.Pokedex.DexSorting[0]); };
 var getTwitchVideos = getTwitchVideos || function () { };
 function twitchButton() {
     var button = document.createElement("li");

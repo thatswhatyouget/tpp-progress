@@ -3,6 +3,7 @@
 /// <reference path="../models/duration.ts" />
 /// <reference path="../ref/pokedex-data.d.ts" />
 /// <reference path="querystring.ts" />
+/// <reference path="../models/pokedex.ts" />
 
 var groupList: HTMLUListElement;
 var groups: { [key: string]: string };
@@ -180,7 +181,7 @@ var pokedexGenerationsMenu = () => qsListMenu("fa-gamepad", "Generations", "g", 
 
 var pokedexRegionsMenu = () => qsListMenu("fa-globe", "Region", "dex", Object.keys(Pokedex.Regional).map((m, i) => i ? m : null), "National");
 
-var pokedexSortMenu = () => qsListMenu("fa-sort", "Sort", "sort", [null, "Alphabetical", "First Owned"], "Pokédex Number");
+var pokedexSortMenu = () => qsListMenu("fa-sort", "Sort", "sort", Object.keys(TPP.Pokedex.DexSorting).filter(k=>!isNaN(<any>k)).map(i => parseInt(i) ? TPP.Pokedex.DexSorting[i] : null), TPP.Pokedex.DexSorting[0]);
 
 var getTwitchVideos = getTwitchVideos || function () { };
 function twitchButton() {
