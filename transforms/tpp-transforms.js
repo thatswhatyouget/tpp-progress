@@ -200,6 +200,12 @@ var TPP;
             return DexEntryBase;
         }());
         Pokedex.DexEntryBase = DexEntryBase;
+        var DexSorting;
+        (function (DexSorting) {
+            DexSorting[DexSorting["Pok\u00E9dex Number"] = 0] = "Pok\u00E9dex Number";
+            DexSorting[DexSorting["Alphabetical"] = 1] = "Alphabetical";
+            DexSorting[DexSorting["First Owned"] = 2] = "First Owned";
+        })(DexSorting = Pokedex.DexSorting || (Pokedex.DexSorting = {}));
         var GlobalDexBase = (function () {
             function GlobalDexBase() {
                 this.Entries = [];
@@ -232,6 +238,45 @@ var TPP;
                 enumerable: true,
                 configurable: true
             });
+            GlobalDexBase.prototype.SortDex = function (sortBy) {
+                if (sortBy === void 0) { sortBy = 0; }
+                switch (sortBy) {
+                    case 0:
+                    case DexSorting[0]:
+                    default:
+                        this.Entries = this.Entries.sort(function (e1, e2) { return e1.Number - e2.Number; });
+                        break;
+                    case 1:
+                    case DexSorting[1]:
+                        this.Entries = this.Entries.sort(function (e1, e2) { return e1.Pokemon.localeCompare(e2.Pokemon); });
+                        break;
+                    case 2:
+                    case DexSorting[2]:
+                        this.Entries = this.Entries.sort(function (e1, e2) { return (e1.FirstCaughtDate || Date.now()) - (e2.FirstCaughtDate || Date.now()); });
+                        break;
+                }
+            };
+            GlobalDexBase.prototype.FilterDexToOwned = function () {
+                this.Entries = this.Entries.filter(function (e) { return e.IsOwned; });
+            };
+            GlobalDexBase.prototype.FilterDexToUnowned = function () {
+                this.Entries = this.Entries.filter(function (e) { return !e.IsOwned; });
+            };
+            GlobalDexBase.prototype.FilterDexRuns = function (runList) {
+                var runs = runList.map(function (r) { return typeof r === "string" ? r.toLowerCase().trim() : r; });
+                this.Entries = this.Entries.filter(function (e) { return e.Owners.filter(function (o) { return runs.filter(function (r) {
+                    if (typeof r === "string")
+                        return o.Run.RunName.toLowerCase().indexOf(r) >= 0;
+                    return o.Run.RunName == r.RunName;
+                }).length > 0; }).length > 0; });
+            };
+            GlobalDexBase.prototype.FilterDexPokemon = function (pokeList) {
+                pokeList = pokeList.map(function (p) { return p.toLowerCase().trim(); });
+                this.Entries = this.Entries.filter(function (e) { return pokeList.indexOf(e.Pokemon.toLowerCase()) >= 0; });
+            };
+            GlobalDexBase.prototype.FilterDexToHallOfFame = function () {
+                this.Entries = this.Entries.filter(function (e) { return e.HallOfFame.length > 0; });
+            };
             return GlobalDexBase;
         }());
         Pokedex.GlobalDexBase = GlobalDexBase;
@@ -371,17 +416,17 @@ var TPP;
     (function (Transforms) {
         var Pokedex;
         (function (Pokedex) {
-            var natDex = ((window || {}).Pokedex || {}).PokeList || [];
+            var natDex = typeof (window) !== "undefined" ? ((window || {}).Pokedex || {}).PokeList || [] : [];
             function DexMerge(Regional, National) {
                 if (National === void 0) { National = natDex; }
                 return Regional.map(function (i) { return typeof i === "string" ? i : National[i]; });
             }
             Pokedex.DexMerge = DexMerge;
-            function ClipDex(highestDexNumber, National) {
+            function ClipNationalDex(highestDexNumber, National) {
                 if (National === void 0) { National = natDex; }
-                return National.filter(function (p, i) { return i <= highestDexNumber; });
+                return National.slice(0, (highestDexNumber || National.length) + 1);
             }
-            Pokedex.ClipDex = ClipDex;
+            Pokedex.ClipNationalDex = ClipNationalDex;
         })(Pokedex = Transforms.Pokedex || (Transforms.Pokedex = {}));
     })(Transforms = TPP.Transforms || (TPP.Transforms = {}));
 })(TPP || (TPP = {}));
@@ -391,12 +436,6 @@ var TPP;
     (function (Transforms) {
         var Pokedex;
         (function (Pokedex) {
-            var DexSorting;
-            (function (DexSorting) {
-                DexSorting[DexSorting["Pok\u00E9dex Number"] = 0] = "Pok\u00E9dex Number";
-                DexSorting[DexSorting["Alphabetical"] = 1] = "Alphabetical";
-                DexSorting[DexSorting["First Owned"] = 2] = "First Owned";
-            })(DexSorting = Pokedex.DexSorting || (Pokedex.DexSorting = {}));
             var GlobalDex = (function (_super) {
                 __extends(GlobalDex, _super);
                 function GlobalDex(collectionSummary, PokeList) {
@@ -408,5 +447,26 @@ var TPP;
             }(TPP.Pokedex.GlobalDexBase));
             Pokedex.GlobalDex = GlobalDex;
         })(Pokedex = Transforms.Pokedex || (Transforms.Pokedex = {}));
+    })(Transforms = TPP.Transforms || (TPP.Transforms = {}));
+})(TPP || (TPP = {}));
+var TPP;
+(function (TPP) {
+    var Transforms;
+    (function (Transforms) {
+        function UpdateRunData(run) {
+            if (run.Scraper && typeof Scrape === "function") {
+                return Scrape(run).then(function (r) { return run; }, function (e) { return run; });
+            }
+            return $.when(run);
+        }
+        Transforms.UpdateRunData = UpdateRunData;
+        function UpdateCollectionData(collection) {
+            return $.when.apply($, collection.Runs.map(UpdateRunData)).then(function (x) { return collection; }, function (e) { return collection; });
+        }
+        Transforms.UpdateCollectionData = UpdateCollectionData;
+        function UpdateData(tppData) {
+            return $.when.apply($, tppData.map(UpdateCollectionData)).then(function (x) { return tppData; }, function (e) { return tppData; });
+        }
+        Transforms.UpdateData = UpdateData;
     })(Transforms = TPP.Transforms || (TPP.Transforms = {}));
 })(TPP || (TPP = {}));

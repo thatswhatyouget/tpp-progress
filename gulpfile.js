@@ -30,7 +30,10 @@ gulp.task('build-display', function () {
 });
 gulp.task('build-transforms', function () {
     var tsResult = tppTransformsProject.src().pipe(tppTransformsProject())
-    return tsResult.js.pipe(gulp.dest("."));
+    return merge(
+        tsResult.js.pipe(gulp.dest(".")),
+        tsResult.dts.pipe(gulp.dest("."))    
+    );
 });
 
 gulp.task('compile-data', function () {
@@ -84,13 +87,15 @@ gulp.task('clean-up-poke-styles', ['process-poke-styles'], function () {
     return del('bin/poke-styles');
 });
 
-gulp.task('move-definition-files', ['compile-data', 'compile-pokedex'], function () {
+gulp.task('move-definition-files', ['compile-data', 'compile-pokedex', 'build-transforms'], function () {
     return merge(
-        gulp.src('bin/data/Pokedex/pokedex-data.d.ts').pipe(removeLines({ 'filters': [/declare var exports: any;/] })).pipe(gulp.dest('ref/'))
+        gulp.src('bin/data/Pokedex/pokedex-data.d.ts').pipe(removeLines({ 'filters': [/declare var exports: any;/] })).pipe(gulp.dest('ref/')),
+        gulp.src('transforms/tpp-transforms.d.ts').pipe(gulp.dest('ref/'))
     );
 });
 
 gulp.task('clean-up-data', ['process-data', 'process-pokedex', 'clean-up-poke-styles', 'move-definition-files'], function () {
+    del('transforms/tpp-transforms.d.ts');
     return del('bin/data');
 });
 

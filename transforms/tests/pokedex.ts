@@ -107,8 +107,8 @@ module TPP.Transforms.Pokedex {
 
     describe("Pokedex.DexMerge", () => {
         it("Checking merged Dex", () => assert.deepEqual(mergedRegional, [undefined, "Pikachu", "Marill", "Azumarill", "Mimikyu", "Phancero"]));
-        it("Marill and Azumarill should not be in clipped dex.", () => assert.equal(ClipDex(6, mockDex).pop(), "Mimikyu"));
-        it("Checking merged clipped Dex", () => assert.deepEqual(DexMerge(mockRegionalDex, ClipDex(6, mockDex)), [undefined, "Pikachu", undefined, undefined, "Mimikyu", "Phancero"]));
+        it("Marill and Azumarill should not be in clipped dex.", () => assert.equal(ClipNationalDex(6, mockDex).pop(), "Mimikyu"));
+        it("Checking merged clipped Dex", () => assert.deepEqual(DexMerge(mockRegionalDex, ClipNationalDex(6, mockDex)), [undefined, "Pikachu", undefined, undefined, "Mimikyu", "Phancero"]));
     });
 
     var dex = new GlobalDex(collectionSummary, mockDex);
@@ -124,11 +124,11 @@ module TPP.Transforms.Pokedex {
 
         describe("Sorting", () => {
             it("Marill should be first with First Owned sorting.", () => {
-                dex.SortDex(DexSorting["First Owned"]);
+                dex.SortDex(TPP.Pokedex.DexSorting["First Owned"]);
                 assert.equal(dex.Entries[0].Pokemon, "Marill");
             });
             it("Marill should still be #7.", () => {
-                dex.SortDex(DexSorting["First Owned"]);
+                dex.SortDex(TPP.Pokedex.DexSorting["First Owned"]);
                 assert.equal(dex.Entries[0].Number, 7);
             });
             it("MissingNo. should be first with default numeric sorting.", () => {
@@ -136,8 +136,36 @@ module TPP.Transforms.Pokedex {
                 assert.equal(dex.Entries[0].Pokemon, "MissingNo.");
             });
             it("Azumarill should be first with alphabetical sorting.", () => {
-                dex.SortDex(DexSorting.Alphabetical);
+                dex.SortDex(TPP.Pokedex.DexSorting.Alphabetical);
                 assert.equal(dex.Entries[0].Pokemon, "Azumarill");
+            });
+        });
+
+        describe("Filtering", () => {
+            it("Should only contain Owned Dex entries.", () => {
+                var dex = new GlobalDex(collectionSummary, mockDex);
+                dex.FilterDexToOwned();
+                assert.equal(dex.TotalInDex, dex.TotalOwned)
+            });
+            it("Should only contain Unowned Dex entries.", () => {
+                var dex = new GlobalDex(collectionSummary, mockDex);
+                dex.FilterDexToUnowned();
+                assert.equal(dex.TotalOwned, 0)
+            });
+            it("Should only contain Dex entries owned by specified runs.", () => {
+                var dex = new GlobalDex(collectionSummary, mockDex);
+                dex.FilterDexRuns(["Test2", mockRevisit]);
+                assert.equal(dex.TotalInDex, 2)
+            });
+            it("Should only contain Dex entries for specified Pokémon.", () => {
+                var dex = new GlobalDex(collectionSummary, mockDex);
+                dex.FilterDexPokemon(["Marill", "Azumarill"]);
+                assert.equal(dex.TotalInDex, 2)
+            });
+            it("Should only contain Dex entries for Pokémon in the Hall of Fame.", () => {
+                var dex = new GlobalDex(collectionSummary, mockDex);
+                dex.FilterDexToHallOfFame();
+                assert.equal(dex.TotalInDex, 3);
             });
         });
     });

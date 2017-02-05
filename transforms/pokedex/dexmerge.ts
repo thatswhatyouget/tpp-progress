@@ -7,7 +7,7 @@ module TPP.Transforms.Pokedex {
         return Regional.map(i => typeof i === "string" ? i : National[i]);
     }
 
-    export function ClipDex(highestDexNumber: number, National = natDex) {
-        return National.filter((p, i) => i <= highestDexNumber);
+    export function ClipNationalDex(highestDexNumber: number, National = natDex) {
+        return National.slice(0, (highestDexNumber || National.length) + 1);
     }
 }
