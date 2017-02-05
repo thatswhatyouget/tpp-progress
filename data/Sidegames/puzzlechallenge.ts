@@ -24,6 +24,9 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "2017-02-01T14:11:16Z", Attempts: 1 },
             { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "2017-02-02T08:41:01Z", Attempts: 1 },
 
+            { Group: "Pokemon", Name: "Magby", Time: "2017-02-04T09:53:26Z" },
+            { Group: "Pokemon", Name: "Cleffa", Time: "2017-02-05T20:09:46Z" },
+            
             // { Group: "Rematch Badges", Name: "Zephyr Badge", Image: "img/badges/rematch/zephyr.png", Time: "", Attempts: 1 },
             // { Group: "Rematch Badges", Name: "Hive Badge", Image: "img/badges/rematch/hive.png", Time: "", Attempts: 1 },
             // { Group: "Rematch Badges", Name: "Plain Badge", Image: "img/badges/rematch/plain.png", Time: "", Attempts: 1 },
