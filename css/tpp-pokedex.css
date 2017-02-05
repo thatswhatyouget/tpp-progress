@@ -1,0 +1,84 @@
+.dexEntry {
+    position:relative;
+    display: inline-block;
+    margin: auto;
+    opacity: .2;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    /*text-shadow: 0 0 4px white;*/
+}
+
+.dexEntry > * {
+    margin: auto;
+}
+
+
+.dexEntry:not(.owned) {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.dexEntry.owned {
+    opacity: 1;
+    background-color: lightgray;
+}
+
+.dexEntry h4 {
+    width: 100%;
+    font-size: .925em;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.dexEntry .pokesprite {
+    display: inline-block;
+    font-size: 64px;
+    width: 1em;
+    height: 1em;
+    margin: 5px 0;
+}
+
+.dexEntry .pokesprite:not(.missingno) img {
+    height: 0;
+    width: 0;
+    padding: .5em;
+    background-image: url("../img/pokemon-large.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dexEntry .pokesprite.missingno img {
+    height: 100%;
+}
+
+.dexEntry .hofRibbon { 
+    position: absolute;
+    left:0;
+    top:0;
+    width:15%;
+}
+
+.dexEntry .hofRibbon img {
+    width:100%;
+}
+
+.ms .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/pokemon.png");
+}
+
+.telefang .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/telefang/denjuu-large.gif");
+}
+
+.touhoumon .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/touhoumon-large.png");
+}
+
+.robopon .dexEntry .pokesprite:not(.missingno) img {
+    background-image:url("../img/robopon/robopon.gif");
+    background-position: -20px -1110px;
+    background-size:auto;
+}
