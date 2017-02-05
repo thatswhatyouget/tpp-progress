@@ -1,0 +1,11 @@
+/// <reference path="dexentry.ts" />
+module TPP.Transforms.Pokedex {
+
+    export class GlobalDex extends TPP.Pokedex.GlobalDexBase {
+        constructor(collectionSummary:CollectionSummary, PokeList:string[]) {
+            super();
+            this.Entries = PokeList.map((p, i) => new DexEntry(p, i, collectionSummary));
+        }
+    }    
+    
+}

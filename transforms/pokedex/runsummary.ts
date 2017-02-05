@@ -1,22 +1,12 @@
-/// <reference path="../models/collection.ts" />
-/// <reference path="../models/duration.ts" />
-module TPP.Transforms {
+/// <reference path="../../models/collection.ts" />
+/// <reference path="../../models/duration.ts" />
+/// <reference path="../../models/pokedex.ts" />
 
-    export interface HofInfo {
-        Pokemon: string;
-        Ribbon: string;
-        RunName: string;
-        HostName: string;
-        Nickname: string;
-        UnmodifiedNick: string;
-        PreviousNick: string;
-        Time: number;
-    }
-    export class PokedexRunSummary {
-        public OwnedDict: { [key: string]: false | number };
-        public HallOfFame: HofInfo[] = [];
-        public Run: Run;
+module TPP.Transforms.Pokedex {
+
+    export class RunSummary extends TPP.Pokedex.RunSummaryBase {
         constructor(Run: TPP.Run, PokeList: string[]) {
+            super();
             this.Run = Run;
             if (Run.Events.filter(e => e.Group == "Pokemon" && (PokeList.indexOf(e.Name) >= 0 || PokeList.indexOf(e.Class) >= 0)).length) {
                 this.FillOwnedDict(PokeList);
@@ -62,11 +52,5 @@ module TPP.Transforms {
                 }
             }));
         }
-    }
-
-        
-
-    export function PokedexSummary(tppData: Collection[], PokeList: string[]) {
-
     }
 }

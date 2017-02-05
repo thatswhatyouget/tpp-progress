@@ -1,3 +1,8 @@
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
 var TPP;
 (function (TPP) {
     var Scale;
@@ -148,61 +153,232 @@ var TPP;
 })(TPP || (TPP = {}));
 var TPP;
 (function (TPP) {
+    var Pokedex;
+    (function (Pokedex) {
+        var RunSummaryBase = (function () {
+            function RunSummaryBase() {
+                this.OwnedDict = {};
+                this.HallOfFame = [];
+            }
+            return RunSummaryBase;
+        }());
+        Pokedex.RunSummaryBase = RunSummaryBase;
+        var CollectionSummaryBase = (function () {
+            function CollectionSummaryBase() {
+                this.Summary = [];
+                this.HallOfFame = [];
+            }
+            return CollectionSummaryBase;
+        }());
+        Pokedex.CollectionSummaryBase = CollectionSummaryBase;
+        var DexEntryBase = (function () {
+            function DexEntryBase() {
+                this.Owners = [];
+                this.HallOfFame = [];
+            }
+            Object.defineProperty(DexEntryBase.prototype, "IsOwned", {
+                get: function () {
+                    return this.Owners && this.Owners.length > 0;
+                },
+                enumerable: true,
+                configurable: true
+            });
+            Object.defineProperty(DexEntryBase.prototype, "FirstOwnedRun", {
+                get: function () {
+                    return this.IsOwned ? this.Owners[0].Run : {};
+                },
+                enumerable: true,
+                configurable: true
+            });
+            Object.defineProperty(DexEntryBase.prototype, "FirstCaughtDate", {
+                get: function () {
+                    return this.IsOwned ? this.Owners[0].CaughtOn : false;
+                },
+                enumerable: true,
+                configurable: true
+            });
+            return DexEntryBase;
+        }());
+        Pokedex.DexEntryBase = DexEntryBase;
+        var GlobalDexBase = (function () {
+            function GlobalDexBase() {
+                this.Entries = [];
+            }
+            Object.defineProperty(GlobalDexBase.prototype, "NoGlitchMon", {
+                get: function () {
+                    return this.Entries.filter(function (e) { return !(e.Number == 0 && e.Pokemon == "MissingNo."); });
+                },
+                enumerable: true,
+                configurable: true
+            });
+            Object.defineProperty(GlobalDexBase.prototype, "TotalOwned", {
+                get: function () {
+                    return this.NoGlitchMon.filter(function (e) { return e.IsOwned; }).length;
+                },
+                enumerable: true,
+                configurable: true
+            });
+            Object.defineProperty(GlobalDexBase.prototype, "TotalInDex", {
+                get: function () {
+                    return this.NoGlitchMon.length;
+                },
+                enumerable: true,
+                configurable: true
+            });
+            Object.defineProperty(GlobalDexBase.prototype, "OwnedPercentage", {
+                get: function () {
+                    return (this.TotalOwned / this.TotalInDex) * 100;
+                },
+                enumerable: true,
+                configurable: true
+            });
+            return GlobalDexBase;
+        }());
+        Pokedex.GlobalDexBase = GlobalDexBase;
+    })(Pokedex = TPP.Pokedex || (TPP.Pokedex = {}));
+})(TPP || (TPP = {}));
+var TPP;
+(function (TPP) {
     var Transforms;
     (function (Transforms) {
-        var PokedexRunSummary = (function () {
-            function PokedexRunSummary(Run, PokeList) {
-                this.HallOfFame = [];
-                this.Run = Run;
-                if (Run.Events.filter(function (e) { return e.Group == "Pokemon" && (PokeList.indexOf(e.Name) >= 0 || PokeList.indexOf(e.Class) >= 0); }).length) {
-                    this.FillOwnedDict(PokeList);
-                    this.FillHallOfFame(PokeList);
+        var Pokedex;
+        (function (Pokedex) {
+            var RunSummary = (function (_super) {
+                __extends(RunSummary, _super);
+                function RunSummary(Run, PokeList) {
+                    var _this = _super.call(this) || this;
+                    _this.Run = Run;
+                    if (Run.Events.filter(function (e) { return e.Group == "Pokemon" && (PokeList.indexOf(e.Name) >= 0 || PokeList.indexOf(e.Class) >= 0); }).length) {
+                        _this.FillOwnedDict(PokeList);
+                        _this.FillHallOfFame(PokeList);
+                    }
+                    return _this;
                 }
-            }
-            PokedexRunSummary.prototype.FillOwnedDict = function (PokeList) {
-                var _this = this;
-                this.InitOwnedDict(PokeList);
-                this.Run.Events.filter(function (e) { return e.Group == "Pokemon"; }).forEach(function (p) {
-                    var timestamp = TPP.Duration.parse(p.Time, _this.Run.StartTime).TotalSeconds + _this.Run.StartTime;
-                    if (!_this.AddOwnedPokemonIfRecognized(p.Name, timestamp, PokeList)) {
-                        _this.AddOwnedPokemonIfRecognized(p.Class, timestamp, PokeList);
-                    }
-                });
-            };
-            PokedexRunSummary.prototype.AddOwnedPokemonIfRecognized = function (mon, timestamp, PokeList) {
-                if (PokeList.indexOf(mon) < 0)
-                    return false;
-                this.OwnedDict[mon] = this.OwnedDict[mon] && this.OwnedDict[mon] < timestamp ? this.OwnedDict[mon] : timestamp;
-                return true;
-            };
-            PokedexRunSummary.prototype.InitOwnedDict = function (PokeList) {
-                var _this = this;
-                this.OwnedDict = {};
-                PokeList.forEach(function (p) { return _this.OwnedDict[p] = false; });
-            };
-            PokedexRunSummary.prototype.FillHallOfFame = function (PokeList) {
-                var _this = this;
-                this.Run.Events.filter(function (e) { return e.Party && TPP.Duration.parse(e.Time, _this.Run.StartTime).TotalSeconds >= 0; }).forEach(function (hof) { return hof.Party.forEach(function (p) {
-                    var mon = PokeList.indexOf(p.Pokemon) >= 0 ? p.Pokemon : PokeList.indexOf(p.Class) >= 0 ? p.Class : null;
-                    if (mon) {
-                        _this.HallOfFame.push({
-                            Pokemon: mon,
-                            Ribbon: hof.Image,
-                            RunName: _this.Run.RunName,
-                            HostName: _this.Run.HostName,
-                            Nickname: (p.Nickname || p.Pokemon).replace(/π/g, 'ᴾk').replace(/µ/g, 'ᴹn'),
-                            UnmodifiedNick: p.Nickname,
-                            PreviousNick: p.PreviousNick,
-                            Time: TPP.Duration.parse(hof.Time, _this.Run.StartTime).TotalSeconds + _this.Run.StartTime
-                        });
-                    }
-                }); });
-            };
-            return PokedexRunSummary;
-        }());
-        Transforms.PokedexRunSummary = PokedexRunSummary;
-        function PokedexSummary(tppData, PokeList) {
-        }
-        Transforms.PokedexSummary = PokedexSummary;
+                RunSummary.prototype.FillOwnedDict = function (PokeList) {
+                    var _this = this;
+                    this.InitOwnedDict(PokeList);
+                    this.Run.Events.filter(function (e) { return e.Group == "Pokemon"; }).forEach(function (p) {
+                        var timestamp = TPP.Duration.parse(p.Time, _this.Run.StartTime).TotalSeconds + _this.Run.StartTime;
+                        if (!_this.AddOwnedPokemonIfRecognized(p.Name, timestamp, PokeList)) {
+                            _this.AddOwnedPokemonIfRecognized(p.Class, timestamp, PokeList);
+                        }
+                    });
+                };
+                RunSummary.prototype.AddOwnedPokemonIfRecognized = function (mon, timestamp, PokeList) {
+                    if (PokeList.indexOf(mon) < 0)
+                        return false;
+                    this.OwnedDict[mon] = this.OwnedDict[mon] && this.OwnedDict[mon] < timestamp ? this.OwnedDict[mon] : timestamp;
+                    return true;
+                };
+                RunSummary.prototype.InitOwnedDict = function (PokeList) {
+                    var _this = this;
+                    this.OwnedDict = {};
+                    PokeList.forEach(function (p) { return _this.OwnedDict[p] = false; });
+                };
+                RunSummary.prototype.FillHallOfFame = function (PokeList) {
+                    var _this = this;
+                    this.Run.Events.filter(function (e) { return e.Party && TPP.Duration.parse(e.Time, _this.Run.StartTime).TotalSeconds >= 0; }).forEach(function (hof) { return hof.Party.forEach(function (p) {
+                        var mon = PokeList.indexOf(p.Pokemon) >= 0 ? p.Pokemon : PokeList.indexOf(p.Class) >= 0 ? p.Class : null;
+                        if (mon) {
+                            _this.HallOfFame.push({
+                                Pokemon: mon,
+                                Ribbon: hof.Image,
+                                RunName: _this.Run.RunName,
+                                HostName: _this.Run.HostName,
+                                Nickname: (p.Nickname || p.Pokemon).replace(/π/g, 'ᴾk').replace(/µ/g, 'ᴹn'),
+                                UnmodifiedNick: p.Nickname,
+                                PreviousNick: p.PreviousNick,
+                                Time: TPP.Duration.parse(hof.Time, _this.Run.StartTime).TotalSeconds + _this.Run.StartTime
+                            });
+                        }
+                    }); });
+                };
+                return RunSummary;
+            }(TPP.Pokedex.RunSummaryBase));
+            Pokedex.RunSummary = RunSummary;
+        })(Pokedex = Transforms.Pokedex || (Transforms.Pokedex = {}));
+    })(Transforms = TPP.Transforms || (TPP.Transforms = {}));
+})(TPP || (TPP = {}));
+var TPP;
+(function (TPP) {
+    var Transforms;
+    (function (Transforms) {
+        var Pokedex;
+        (function (Pokedex) {
+            var CollectionSummary = (function (_super) {
+                __extends(CollectionSummary, _super);
+                function CollectionSummary(tppData, PokeList) {
+                    var _this = _super.call(this) || this;
+                    var summaries = [];
+                    tppData.forEach(function (c) { return c.Runs.forEach(function (r) { return summaries.push(new Pokedex.RunSummary(r, PokeList)); }); });
+                    _this.Summary = summaries.sort(function (s1, s2) { return s1.Run.StartTime - s2.Run.StartTime; });
+                    _this.FilterHoFToUniques();
+                    return _this;
+                }
+                CollectionSummary.prototype.FilterHoFToUniques = function () {
+                    var hofData = this.Summary.map(function (s) { return s.HallOfFame; }).reduce(function (a, b) { return a.concat(b); }).sort(function (h1, h2) { return h1.Time - h2.Time; });
+                    this.HallOfFame = hofData.filter(function (c) { return hofData.filter(function (i) { return i.HostName == c.HostName && i.Pokemon == c.Pokemon && (i.Nickname == c.Nickname || c.PreviousNick == i.UnmodifiedNick); }).shift() == c; });
+                };
+                return CollectionSummary;
+            }(TPP.Pokedex.CollectionSummaryBase));
+            Pokedex.CollectionSummary = CollectionSummary;
+        })(Pokedex = Transforms.Pokedex || (Transforms.Pokedex = {}));
+    })(Transforms = TPP.Transforms || (TPP.Transforms = {}));
+})(TPP || (TPP = {}));
+var TPP;
+(function (TPP) {
+    var Transforms;
+    (function (Transforms) {
+        var Pokedex;
+        (function (Pokedex) {
+            var DexEntry = (function (_super) {
+                __extends(DexEntry, _super);
+                function DexEntry(pokemon, number, collectionSummary) {
+                    var _this = _super.call(this) || this;
+                    _this.Number = number;
+                    _this.Pokemon = pokemon;
+                    _this.GatherPokemonFromRuns(collectionSummary);
+                    _this.GatherHallOfFameEntries(collectionSummary);
+                    return _this;
+                }
+                DexEntry.prototype.GatherPokemonFromRuns = function (collectionSummary) {
+                    var _this = this;
+                    collectionSummary.Summary.forEach(function (s) {
+                        return s.OwnedDict[_this.Pokemon] && _this.Owners.push({ Run: s.Run, CaughtOn: s.OwnedDict[_this.Pokemon] });
+                    });
+                    this.Owners = this.Owners.sort(function (o1, o2) { return o1.CaughtOn - o2.CaughtOn; });
+                    this.FilterRevisitsIfPreviouslyOwned();
+                };
+                DexEntry.prototype.FilterRevisitsIfPreviouslyOwned = function () {
+                    var _this = this;
+                    this.Owners = this.Owners.filter(function (o) { return !o.Run.Revisit || _this.Owners.filter(function (o2) { return o2.Run.RunName == o.Run.Revisit.Run; }).length == 0; });
+                };
+                DexEntry.prototype.GatherHallOfFameEntries = function (collectionsummary) {
+                    var _this = this;
+                    this.HallOfFame = collectionsummary.HallOfFame.filter(function (h) { return h.Pokemon == _this.Pokemon; }).sort(function (h1, h2) { return h1.Time - h2.Time; });
+                };
+                return DexEntry;
+            }(TPP.Pokedex.DexEntryBase));
+            Pokedex.DexEntry = DexEntry;
+        })(Pokedex = Transforms.Pokedex || (Transforms.Pokedex = {}));
+    })(Transforms = TPP.Transforms || (TPP.Transforms = {}));
+})(TPP || (TPP = {}));
+var TPP;
+(function (TPP) {
+    var Transforms;
+    (function (Transforms) {
+        var Pokedex;
+        (function (Pokedex) {
+            var GlobalDex = (function (_super) {
+                __extends(GlobalDex, _super);
+                function GlobalDex(collectionSummary, PokeList) {
+                    var _this = _super.call(this) || this;
+                    _this.Entries = PokeList.map(function (p, i) { return new Pokedex.DexEntry(p, i, collectionSummary); });
+                    return _this;
+                }
+                return GlobalDex;
+            }(TPP.Pokedex.GlobalDexBase));
+            Pokedex.GlobalDex = GlobalDex;
+        })(Pokedex = Transforms.Pokedex || (Transforms.Pokedex = {}));
     })(Transforms = TPP.Transforms || (TPP.Transforms = {}));
 })(TPP || (TPP = {}));
