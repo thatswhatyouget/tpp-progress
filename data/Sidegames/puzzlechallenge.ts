@@ -26,6 +26,7 @@ Sidegames.Runs.push(
 
             { Group: "Pokemon", Name: "Magby", Time: "2017-02-04T09:53:26Z" },
             { Group: "Pokemon", Name: "Cleffa", Time: "2017-02-05T20:09:46Z" },
+            { Group: "Pokemon", Name: "Togepi", Time: "2017-02-07T05:29:30Z" },
             
             // { Group: "Rematch Badges", Name: "Zephyr Badge", Image: "img/badges/rematch/zephyr.png", Time: "", Attempts: 1 },
             // { Group: "Rematch Badges", Name: "Hive Badge", Image: "img/badges/rematch/hive.png", Time: "", Attempts: 1 },
