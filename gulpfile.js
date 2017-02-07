@@ -6,6 +6,7 @@ var fs = require('fs');
 var merge = require('merge2');
 var removeLines = require('gulp-remove-lines');
 var through = require('through2');
+var uglify = require('gulp-uglify');
 
 var tppDataProject = ts.createProject('data/tsconfig.json');
 var pokedexProject = ts.createProject('data/Pokedex/tsconfig.json');
@@ -22,16 +23,16 @@ gulp.task('build-data', ['clean-up-data']);
 
 gulp.task('build-progress', function () {
     var tsResult = tppProgressProject.src().pipe(tppProgressProject())
-    return tsResult.js.pipe(gulp.dest("bin/"));
+    return tsResult.js.pipe(uglify()).pipe(gulp.dest("bin/"));
 });
 gulp.task('build-display', function () {
     var tsResult = tppDisplayProject.src().pipe(tppDisplayProject())
-    return tsResult.js.pipe(gulp.dest("."));
+    return tsResult.js.pipe(uglify()).pipe(gulp.dest("."));
 });
 gulp.task('build-transforms', function () {
     var tsResult = tppTransformsProject.src().pipe(tppTransformsProject())
     return merge(
-        tsResult.js.pipe(gulp.dest(".")),
+        tsResult.js.pipe(uglify()).pipe(gulp.dest(".")),
         tsResult.dts.pipe(gulp.dest("."))    
     );
 });
