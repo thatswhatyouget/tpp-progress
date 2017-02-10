@@ -364,7 +364,7 @@ ul.controls > li > ul > li.selected > a:before {
     top:-30px;
 }
 
-.progressChart .run.squarehost .event.hosts img {
+.progressChart .run.squarehost .event.hosts:first-of-type img, .progressChart .event.hosts.squarehost img {
     height:50px;
     top:50%;
     transform:translateY(-55%) translateX(-50%);   

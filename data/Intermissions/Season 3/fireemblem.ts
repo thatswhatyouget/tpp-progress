@@ -19,6 +19,7 @@ Intermissions.Runs.push(
                 Time: "2016-04-08T14:03:00Z",
                 Image: "http://vignette1.wikia.nocookie.net/fireemblem/images/b/b0/Eirikaingame.gif/revision/latest?cb=20090813125046",
                 ImageSource: "http://fireemblem.wikia.com/wiki/Eirika",
+                Class: "squarehost"
             },
         ],
         ContainsRunsFrom: ["Intermissions", "Short Intermissions", "Long Intermissions"],
