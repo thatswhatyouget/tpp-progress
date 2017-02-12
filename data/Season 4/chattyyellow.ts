@@ -6,9 +6,10 @@ Season4.Runs.push(
         Duration: "255d",
         ColorPrimary: "yellow",
         ColorSecondary: "darkblue",
-        //HostImage: "",
-        HostName: "???",
+        HostImage: "img/hosts/tppRobored.png",
+        HostName: "xMn(?",
         Region: "Kanto",
+        Class: "squarehost",
         // Scraper: {
         //     url: "http://twitchplayspokemon.org/",
         //     runtime: true,
@@ -16,7 +17,7 @@ Season4.Runs.push(
         //     pokemon: true
         // },
         Events: [
-            //{ Name: "Chatot", Time: "", Group: "Pokemon" },
+            { Name: "Chatot", Time: "7m19s", Group: "Pokemon" },
         ]
     }
 );
