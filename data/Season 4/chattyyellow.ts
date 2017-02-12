@@ -1,20 +1,22 @@
 /// <reference path="../tpp-data.ts" />
 Season4.Runs.push(
     {
-        RunName: "Anniversary ???",
+        RunName: "Pokemon Chatty Yellow",
         StartDate: "2017-02-12T21:00:00Z",
         Duration: "255d",
-        ColorPrimary: "#fff",
-        ColorSecondary: "#000",
+        ColorPrimary: "yellow",
+        ColorSecondary: "darkblue",
         //HostImage: "",
         HostName: "???",
-        // Region: "Kanto",
+        Region: "Kanto",
         // Scraper: {
-        //     url: "http://twitchplayspokemon.org/ac/",
+        //     url: "http://twitchplayspokemon.org/",
         //     runtime: true,
         //     parts: [],
         //     pokemon: true
         // },
-        Events: []
+        Events: [
+            //{ Name: "Chatot", Time: "", Group: "Pokemon" },
+        ]
     }
 );
