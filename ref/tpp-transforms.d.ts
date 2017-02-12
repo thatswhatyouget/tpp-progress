@@ -133,6 +133,11 @@ declare module TPP {
         Element?: HTMLDivElement;
     }
 }
+declare module TPP.Transforms.Data.Filter {
+    function RemoveFutureRunsFromRuns(tppData: Run[]): Run[];
+    function RemoveFutureRunsFromCollection(tppData: Collection): Collection;
+    function RemoveFutureRuns(tppData: Collection[]): Collection[];
+}
 declare module TPP {
     class Duration {
         private days;

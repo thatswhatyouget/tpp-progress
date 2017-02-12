@@ -1,5 +1,3 @@
-/// <reference path="../../models/collection.ts" />
-/// <reference path="../../models/duration.ts" />
 /// <reference path="../../ref/mocha.d.ts" />
 /// <reference path="../../ref/node.d.ts" />
 
