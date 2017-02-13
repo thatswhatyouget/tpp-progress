@@ -31,6 +31,7 @@ Season4.Runs.push(
             { Name: "Diglett", Time: "23h15m", Group: "Pokemon" },
             { Name: "Jigglypuff", Time: "23h45m", Group: "Pokemon" },
             { Name: "Butterfree", Time: "23h52m", Group: "Pokemon" },
+            { Name: "Pidgeotto", Time: "1d10m", Group: "Pokemon" },
             // { "Group": "Badges", "Name": "Jebaited (Thunder) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/114836/3.0" },
             // { "Group": "Badges", "Name": "VoHiYo (Rainbow) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/81274/3.0" },
             // { "Group": "Badges", "Name": "MVGame (Soul) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/142140/3.0" },
