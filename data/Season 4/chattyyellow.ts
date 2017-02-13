@@ -7,7 +7,7 @@ Season4.Runs.push(
         ColorPrimary: "yellow",
         ColorSecondary: "darkblue",
         HostImage: "img/hosts/tppRobored.png",
-        HostName: "×Mn(?",
+        HostName: "×ᴹɴ(?",
         Region: "Kanto",
         Class: "squarehost",
         // Scraper: {
@@ -21,6 +21,7 @@ Season4.Runs.push(
             { "Group": "Badges", "Name": "Poooound (Boulder) Badge", "Time": "4h42m", "Attempts": 3, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/117484/3.0" },
             { Name: "Rattata", Time: "5h7m", Group: "Pokemon" },
             { Name: "NidoranF", Time: "5h15m", Group: "Pokemon" },
+            { Name: "Magikarp", Time: "7h42m", Group: "Pokemon" },
             // { "Group": "Badges", "Name": "HeyGuys (Cascade) Badge", "Time": "", "Attempts": 0, "Image": "img/badges/cascade.png" },
             // { "Group": "Badges", "Name": "Jebaited (Thunder) Badge", "Time": "", "Attempts": 0, "Image": "img/badges/thunder.png" },
             // { "Group": "Badges", "Name": "Rainbow Badge", "Time": "", "Attempts": 0, "Image": "img/badges/rainbow.png" },
