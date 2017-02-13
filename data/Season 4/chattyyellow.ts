@@ -7,7 +7,7 @@ Season4.Runs.push(
         ColorPrimary: "yellow",
         ColorSecondary: "darkblue",
         HostImage: "img/hosts/tppRobored.png",
-        HostName: "xMn(?",
+        HostName: "×Mn(?",
         Region: "Kanto",
         Class: "squarehost",
         // Scraper: {
@@ -18,6 +18,14 @@ Season4.Runs.push(
         // },
         Events: [
             { Name: "Chatot", Time: "7m19s", Group: "Pokemon" },
+            { "Group": "Badges", "Name": "Poooound (Boulder) Badge", "Time": "4h42m", "Attempts": 3, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/117484/3.0" },
+            // { "Group": "Badges", "Name": "Cascade Badge", "Time": "", "Attempts": 0, "Image": "img/badges/cascade.png" },
+            // { "Group": "Badges", "Name": "Thunder Badge", "Time": "", "Attempts": 0, "Image": "img/badges/thunder.png" },
+            // { "Group": "Badges", "Name": "Rainbow Badge", "Time": "", "Attempts": 0, "Image": "img/badges/rainbow.png" },
+            // { "Group": "Badges", "Name": "Soul Badge", "Time": "", "Attempts": 0, "Image": "img/badges/soul.png" },
+            // { "Group": "Badges", "Name": "Marsh Badge", "Time": "", "Attempts": 0, "Image": "img/badges/marsh.png" },
+            // { "Group": "Badges", "Name": "Volcano Badge", "Time": "", "Attempts": 0, "Image": "img/badges/volcano.png" },
+            // { "Group": "Badges", "Name": "Earth Badge", "Time": "", "Attempts": 0, "Image": "img/badges/earth.png" },
         ]
     }
 );
