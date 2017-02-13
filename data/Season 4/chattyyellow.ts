@@ -29,6 +29,7 @@ Season4.Runs.push(
             { Name: "Charmander", Time: "12h44m", Group: "Pokemon" },
             { "Group": "Badges", "Name": "HeyGuys (Cascade) Badge", "Time": "14h16m", "Attempts": 4, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/30259/3.0" },
             { Name: "Diglett", Time: "23h15m", Group: "Pokemon" },
+            { Name: "Jigglypuff", Time: "23h45m", Group: "Pokemon" },
             // { "Group": "Badges", "Name": "Jebaited (Thunder) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/114836/3.0" },
             // { "Group": "Badges", "Name": "VoHiYo (Rainbow) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/81274/3.0" },
             // { "Group": "Badges", "Name": "MVGame (Soul) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/142140/3.0" },
