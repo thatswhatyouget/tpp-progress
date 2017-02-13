@@ -61,7 +61,8 @@
 	   <script>
             var day = Math.floor(QueryString.day || 0);
             var pure = !!QueryString.pure;
-            var region = QueryString.region || "Kanto", reeg = region.toLowerCase();;
+            var region = QueryString.region || "Kanto", reeg = region.toLowerCase();
+            var startedHere = QueryString.startedhere;
             var data = Array.prototype.concat.apply([], tppData.map(function (c) {
                 var newC = { Scale: day ? c.Scale == TPP.Scale.Weeks ? c.Scale : TPP.Scale.Days : c.Scale, Name: c.Name, SingularName: c.SingularName, Offset: c.Offset};
                 newC.Offset = day ? -(day - 1) : day;
@@ -74,7 +75,7 @@
                 }).filter(function (r) { return !r.Revisit && r.Region && r.Region.toLowerCase().trim() == reeg && Duration.parse(r.Duration, r.StartTime).TotalDays > (day - 1); });
                 return Array.prototype.concat.apply([newC], pure ? [] : Array.prototype.concat.apply([], c.Runs.map(function(r) {
                     return (r.AdditionalRegions || []).map(function (ar, i, ararray) {
-                        if (ar.Name.toLowerCase() != reeg) return;
+                        if (startedHere || ar.Name.toLowerCase() != reeg) return;
                         var nc = { Scale: newC.Scale, Name: r.RunName + " (Starting at " + Duration.parse(ar.Time, r.StartTime).toString(newC.Scale) + ")", SingularName: c.SingularName, Offset: newC.Offset - Duration.parse(ar.Time, r.StartTime).TotalTime(newC.Scale)};
                         var newR = {};
                         Object.keys(r).forEach(function(k) { newR[k] = r[k]; });
