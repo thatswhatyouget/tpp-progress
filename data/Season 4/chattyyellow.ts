@@ -24,6 +24,8 @@ Season4.Runs.push(
             { Name: "Magikarp", Time: "7h42m", Group: "Pokemon" },
             { Name: "Bulbasaur", Time: "10h", Group: "Pokemon" },
             { Name: "Pikachu", Time: "10h13m", Group: "Pokemon" },
+            { Name: "Mankey", Time: "10h14m", Group: "Pokemon" },
+            { Name: "Ekans", Time: "10h24m", Group: "Pokemon" },
             // { "Group": "Badges", "Name": "HeyGuys (Cascade) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/30259/3.0" },
             // { "Group": "Badges", "Name": "Jebaited (Thunder) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/114836/3.0" },
             // { "Group": "Badges", "Name": "VoHiYo (Rainbow) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/81274/3.0" },
