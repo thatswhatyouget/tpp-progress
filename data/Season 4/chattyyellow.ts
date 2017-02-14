@@ -1,13 +1,13 @@
 /// <reference path="../tpp-data.ts" />
 Season4.Runs.push(
     {
-        RunName: "Pokemon Chatty Yellow",
+        RunName: "Chatty Yellow",
         StartDate: "2017-02-12T21:00:00Z",
         Duration: "255d",
         ColorPrimary: "yellow",
         ColorSecondary: "darkblue",
         HostImage: "img/hosts/tppRobored.png",
-        HostName: "×ᴹɴ(?",
+        HostName: "×µ(?", //"×ᴹɴ(?",
         Region: "Kanto",
         Class: "squarehost",
         // Scraper: {

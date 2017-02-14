@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'pokered';
+    src: url('fonts/pokered-regular.woff2') format('woff2'),
+         url('fonts/pokered-regular.woff') format('woff'),
+         url('fonts/pokered-regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'pokeplatinum';
+    src: url('fonts/pokeplatinum-regular.woff2') format('woff2'),
+         url('fonts/pokeplatinum-regular.woff') format('woff'),
+         url('fonts/pokeplatinum-regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -245,7 +245,7 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
 
 function drawHallOfFame(hofInfo: TPP.HallOfFame, runInfo: TPP.Run, scale = TPP.Scale.Days) {
     var $hof = $("<div class='hallOfFameDisplay'>");
-    $hof.addClass(cleanString(runInfo.RunName) + " " + runInfo.Class);
+    $hof.addClass(cleanString(runInfo.RunName) + " " + (runInfo.Class || "") + " " + (runInfo.BaseGame || ""));
     $hof.css('background-color', runInfo.ColorPrimary);
     $hof.css('border-color', runInfo.ColorSecondary);
     var time = new Date((Duration.parse(hofInfo.Time, runInfo.StartTime).TotalSeconds + runInfo.StartTime) * 1000);
@@ -265,7 +265,7 @@ function drawHallOfFame(hofInfo: TPP.HallOfFame, runInfo: TPP.Run, scale = TPP.S
         $hostInfo.append($('<div data-entry="IDNo">').text(hofInfo.IDNo));
     }
     hofInfo.Party.forEach(p => {
-        var name = (p.Nickname || p.Pokemon).replace(/\s/g, "&nbsp;").replace(/π/g, "<i class='pk'></i>").replace(/µ/g, "<i class='mn'></i>");
+        var name = (p.Nickname || p.Pokemon).replace(/\s/g, "&nbsp;");//.replace(/π/g, "<i class='pk'></i>").replace(/µ/g, "<i class='mn'></i>");
         var $entry = $("<div class='entry'>").addClass((p.Gender || '').toLowerCase());
         $entry.append($("<span class='level'>").text(p.Level));
         $entry.append($("<div class='pokesprite'><img src='img/missingno.png'/></div>").addClass(cleanString(p.Pokemon)).addClass(p.Shiny ? "shiny" : "").addClass((p.Gender || "").toLowerCase()).addClass(p.Class).addClass(cleanString(p.Form || "")).attr('title', p.Pokemon));

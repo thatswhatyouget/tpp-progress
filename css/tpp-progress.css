@@ -1,3 +1,5 @@
+@import 'pokefont.css';
+
 body {
 	background-color:#999;
 	text-align:center;
@@ -318,6 +320,12 @@ ul.controls > li > ul > li.selected > a:before {
 	white-space: pre;
 	transform: translateX(-50%);
     letter-spacing: 0;
+/*}
+
+.progressChart .run .event[data-label].hosts:hover:after {*/
+	font-size:1em;
+	font-family: pokeplatinum, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: .9em;
 }
 
 .progressChart .run .run:hover::before, .progressChart .run .run:hover::after {
@@ -684,6 +692,7 @@ ul.controls > li > ul > li.selected > a:before {
 	background-color:rgba(255,255,255,.25);
 	border:.1em solid transparent;
 	text-align: center;
+	vertical-align: top;
 }
 
 .hallOfFameDisplay .entry {
@@ -691,7 +700,7 @@ ul.controls > li > ul > li.selected > a:before {
 	display: inline-block;
 	width:12em;
 	font-size:1em;
-	font-family: monospace;
+	font-family: pokeplatinum, monospace;
 	height: 100%;
 	vertical-align: top;
 }
@@ -789,7 +798,8 @@ ul.controls > li > ul > li.selected > a:before {
 	transform:rotateZ(90deg);
 }
 
-i.pk:before {
+
+/*i.pk:before {
 	content:"P";
 	font-size: .75em;
 	position:relative;
@@ -821,4 +831,4 @@ i.mn:after {
 	left:-.1em;
 	top:.25em;
 	font-style: normal;
-}
+}*/
