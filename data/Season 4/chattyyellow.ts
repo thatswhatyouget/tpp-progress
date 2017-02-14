@@ -34,6 +34,7 @@ Season4.Runs.push(
             { Name: "Pidgeotto", Time: "1d10m", Group: "Pokemon" },
             { "Group": "Badges", "Name": "Jebaited (Thunder) Badge", "Time": "1d11h24m", "Attempts": 3, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/114836/3.0" },
             { Name: "Ivysaur", Time: "1d14h43m", Group: "Pokemon" },
+            { Name: "Geodude", Time: "1d17h20m", Group: "Pokemon" },
             // { "Group": "Badges", "Name": "VoHiYo (Rainbow) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/81274/3.0" },
             // { "Group": "Badges", "Name": "MVGame (Soul) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/142140/3.0" },
             // { "Group": "Badges", "Name": "PMSTwin (Marsh) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/92/1.0" },
