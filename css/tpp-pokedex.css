@@ -8,6 +8,8 @@
     padding: 10px;
     width: 100px;
     font-family: pokeplatinum;
+    font-size:1.5em;
+    line-height: .9em;
     /*text-shadow: 0 0 4px white;*/
 }
 
@@ -24,6 +26,10 @@
 .dexEntry.owned {
     opacity: 1;
     background-color: lightgray;
+}
+
+.dexEntry h3, .dexEntry h4 {
+    margin:0;
 }
 
 .dexEntry h4 {

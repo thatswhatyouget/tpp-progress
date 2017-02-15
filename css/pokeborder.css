@@ -1,0 +1,58 @@
+.pokeBorder {
+    background-color:white;
+    position: relative;
+    padding:8px;
+    display: inline-block;
+    margin: auto;
+}
+.pokeBorder:before, .pokeBorder:after {
+    content:'';
+    position: absolute;
+    font-size: 16px;
+    left:-.5em;
+    top:.5em;
+    bottom:.5em;
+    width:1em;
+    background-image: url('../img/border/pokeborder-vertical.gif');
+    background-position: left center;
+}
+.pokeBorder:after {
+    left:auto;
+    right:-.5em;
+    background-position: right center;
+}
+.pokeBorder .border {
+    position: absolute;
+    left:.5em;
+    top:-.5em;
+    right:.5em;
+    height:1em;
+    background-image: url('../img/border/pokeborder-horizontal.gif');
+    background-position: top;
+}
+.pokeBorder .border:before, .pokeBorder .border:after {
+    content:'';
+    position: absolute;
+    left:-1em;
+    top:0;
+    width:1em;
+    height:1em;
+    background-image: url('../img/border/pokeborder.gif');
+    background-position: left top;
+}
+.pokeBorder .border:after {
+    left:auto;
+    right:-1em;
+    background-position: right top;
+}
+.pokeBorder .border + .border {
+    top:auto;
+    bottom:-.5em;
+    background-position: bottom;
+}
+.pokeBorder .border + .border:before {
+    background-position: left bottom;
+}
+.pokeBorder .border + .border:after {
+    background-position: right bottom;
+}

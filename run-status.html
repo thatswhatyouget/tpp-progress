@@ -4,9 +4,12 @@
     <title>TPP Progress Chart - Run Status</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="bin/tpp-data.js"></script>
+    <script src="bin/pokedex-data.js"></script>
+    <script src="transforms/tpp-transforms.js"></script>
     <script src="display/tpp-display.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/tpp-progress.css" />
+    <link rel="stylesheet" href="css/tpp-pokedex.css" />
     <link rel="stylesheet" href="css/pokemon.css" />
     <link rel="icon" href="img/icon.png" type="image/png">
     <link rel="shortcut icon" href="img/icon.png" type="image/png">
@@ -24,6 +27,7 @@
             display: inline-block;
             font-family: pokered, pokeplatinum, monospace;
             margin:2%;
+            margin-top:0;
             width:23%;
         }
         .itemsList > h3, .badgeList > h3{
@@ -67,71 +71,37 @@
             margin:0;
         }
 
-        .hallOfFameDisplay {
+        .hallOfFameDisplay.pokeBorder {
             border:none;
-        }
-
-        .hallOfFameDisplay td + td {
-            border-left:1px solid black;
-        }
-
-        .pokeBorder {
             background-color:white;
-            position: relative;
-            padding:8px;
-        }
-        .pokeBorder:before, .pokeBorder:after {
-            content:'';
-            position: absolute;
-            font-size: 16px;
-            left:-.5em;
-            top:.5em;
-            bottom:.5em;
-            width:1em;
-            background-image: url('img/border/pokeborder-vertical.gif');
-            background-position: left center;
-        }
-        .pokeBorder:after {
-            left:auto;
-            right:-.5em;
-            background-position: right center;
-        }
-        .pokeBorder .border {
-            position: absolute;
-            left:.5em;
-            top:-.5em;
-            right:.5em;
-            height:1em;
-            background-image: url('img/border/pokeborder-horizontal.gif');
-            background-position: top;
-        }
-        .pokeBorder .border:before, .pokeBorder .border:after {
-            content:'';
-            position: absolute;
-            left:-1em;
-            top:0;
-            width:1em;
-            height:1em;
-            background-image: url('img/border/pokeborder.gif');
-            background-position: left top;
-        }
-        .pokeBorder .border:after {
-            left:auto;
-            right:-1em;
-            background-position: right top;
-        }
-        .pokeBorder .border + .border {
-            top:auto;
-            bottom:-.5em;
-            background-position: bottom;
-        }
-        .pokeBorder .border + .border:before {
-            background-position: left bottom;
-        }
-        .pokeBorder .border + .border:after {
-            background-position: right bottom;
         }
 
+        .hallOfFameDisplay.pokeBorder td {
+            background-color: rgba(0,0,0,.1);
+        }
+
+        .entry.fainted {
+            filter:grayscale();
+        }
+
+        .pokedex {
+            max-width: 90%;
+        }
+
+        .pokedex > h2, .pokedex > h3, .pokedex > h4, .pokedex > h5, .pokedex > h6 {
+            margin:0;
+        } 
+
+        .pokedex .total {
+            font-family: pokeplatinum, monospace;
+        }
+
+        .plug {
+            display: block;
+            margin:.1em;
+            color:black!important;
+            font-family: pokeplatinum, monospace;
+        }
 
     </style>
 </head>
@@ -155,10 +125,17 @@
             <a href="http://twitchplayspokemon.org/"
                 target="_blank">twitchplayspokemon.org</a>. Pokemon sprites are from <a href="http://pldh.net/dex/sprites/index" target="_blank">PLDHnet's SpriteDex</a>.<br/>                All custom sprites can be clicked for links to their sources.
         </div>
+        <div class="credits">
+            For more information about the run, check out <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
+        </div>
     </div>
     <div class="charts">
         <script>
-            $(".charts").append(TPP.Display.RunStatus.RenderRunStatus(tppData));
+            var run = TPP.Display.RunStatus.GetCurrentRun(tppData);
+            var pokemon = TPP.Transforms.Pokedex.ClipNationalDex(151);
+            pokemon.push("Chatot");
+            var dex = new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, pokemon), pokemon);
+            $(".charts").append(TPP.Display.RunStatus.RenderRunStatus(run, dex));
         </script>
     </div>
     <!--<ul class="controls">

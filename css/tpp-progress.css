@@ -1,4 +1,5 @@
 @import 'pokefont.css';
+@import 'pokeborder.css';
 
 body {
 	background-color:#999;
@@ -797,38 +798,3 @@ ul.controls > li > ul > li.selected > a:before {
 	content:"☯";
 	transform:rotateZ(90deg);
 }
-
-
-/*i.pk:before {
-	content:"P";
-	font-size: .75em;
-	position:relative;
-	top:-.25em;
-	font-style: normal;
-}
-
-i.pk:after {
-	content:"K";
-	font-size: .75em;
-	position:relative;
-	left:-.1em;
-	top:.25em;
-	font-style: normal;
-}
-
-i.mn:before {
-	content:"M";
-	font-size: .75em;
-	position:relative;
-	top:-.25em;
-	font-style: normal;
-}
-
-i.mn:after {
-	content:"N";
-	font-size: .75em;
-	position:relative;
-	left:-.1em;
-	top:.25em;
-	font-style: normal;
-}*/

@@ -1,7 +1,7 @@
 /// <reference path="../models/collection.ts" />
 /// <reference path="../models/duration.ts" />
 /// <reference path="../models/run_status.ts" />
-/// <reference path="../ref/jquery.d.ts" />
+/// <reference path="pokedex.ts" />
 
 module TPP.Display.RunStatus {
 
@@ -12,23 +12,37 @@ module TPP.Display.RunStatus {
         return $.get("https://twitchplayspokemon.tv/api/run_status").done(data => data);
     }
 
-    function getCurrentRun(tppData: Collection[]) {
+    export function GetCurrentRun(tppData: Collection[]) {
         return tppData.filter(c => c.Name.indexOf("Season") == 0).map(c => c.Runs[c.Runs.length - 1]).pop();
     }
 
-    var cleanString = (str: string) => str.replace(/[^A-Z0-9]/ig, '').toLowerCase();
-
-    export function RenderRunStatus(tppData: Collection[]) {
-        var run = getCurrentRun(tppData);
+    export function RenderRunStatus(run: TPP.Run, dex: TPP.Pokedex.GlobalDexBase = null) {
         run.Duration = new Date().toISOString();
         var $container = $("<div>");
-        $container.append($("<h1>").text(run.RunName));
+        $container.append("<i class='fa fa-spinner fa-pulse'>");
         fetchRunStatus().then(status => {
+            $container.children().remove();
+            $container.append($("<h1>").text(run.RunName));
             $container.append(DrawParty(run, status));
             $container.append(DrawLocation(run, status));
             $container.append(DrawItems(status.items));
             $container.append(DrawBadges(run));
             $container.append(DrawItems(status.pc_items, run.HostName + "'s PC"));
+            if (dex) {
+                var entries = dex.Entries.filter(e => e.Owners.filter(o => o.Run == run).length > 0);
+                dex.Entries = dex.Entries.map(e => {
+                    if (entries.indexOf(e) < 0)
+                        e.Owners = [];
+                    return e;
+                });
+                $container.append(PokeBox().addClass("pokedex")
+                    .append($("<h3>").text("Pokédex"))
+                    .append(entries.length < status.caught ? $("<h6>").text("(Outdated)") : "")
+                    .append(TPP.Display.Pokedex.DrawOwnedCount(dex))
+                    .append(entries.map(e => TPP.Display.Pokedex.DrawDexEntry(e)))
+                    .append($("<a>").addClass("plug").attr('href', "pokedex.html").text("See Global Pokédex"))
+                )
+            }
         });
         return $container;
     }
@@ -70,6 +84,16 @@ module TPP.Display.RunStatus {
         return $location;
     }
 
+    function DetermineStatus(status: number) {
+        switch (status) {
+            case 8:
+                return "PSN";
+            case 64:
+                return "PAR";
+        }
+        return "";
+    }
+
     function DrawParty(run: TPP.Run, status: TPP.Tv.RunStatus) {
         var $party = PokeBox().addClass('hallOfFameDisplay');
         $party.addClass(cleanString(run.RunName) + " " + (run.Class || "") + " " + (run.BaseGame || ""));
@@ -101,6 +125,12 @@ module TPP.Display.RunStatus {
         status.party.forEach(p => {
             var name = (p.name || p.species.name).replace(/\s/g, "&nbsp;").replace(/Ë/g, "µ").replace(/Ê/g, "π");
             var $entry = $("<div class='entry'>");//.addClass((p.Gender || '').toLowerCase());
+            if (p.health && !p.health[0]) {
+                $entry.addClass("fainted");
+            }
+            else {
+                $entry.addClass(DetermineStatus(p.status));
+            }
             $entry.append($("<span class='level'>").text(p.level));
             $entry.append($("<div class='pokesprite'><img src='img/missingno.png'/></div>").addClass(cleanString(p.species.name))/*.addClass(p.Shiny ? "shiny" : "").addClass((p.Gender || "").toLowerCase()).addClass(p.Class).addClass(cleanString(p.Form || ""))*/.attr('title', p.species.name));
             var $info = $("<div class='info'>").append($("<div class='name'>").html(name)).appendTo($entry);
