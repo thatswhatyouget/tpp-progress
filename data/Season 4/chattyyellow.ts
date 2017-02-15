@@ -10,6 +10,7 @@ Season4.Runs.push(
         HostName: "×µ(?", //"×ᴹɴ(?",
         Region: "Kanto",
         Class: "squarehost",
+        BaseGame: "Yellow",
         // Scraper: {
         //     url: "http://twitchplayspokemon.org/",
         //     runtime: true,
