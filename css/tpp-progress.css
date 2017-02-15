@@ -698,7 +698,7 @@ ul.controls > li > ul > li.selected > a:before {
 .hallOfFameDisplay .entry {
 	position: relative;
 	display: inline-block;
-	width:12em;
+	width:10em;
 	font-size:1em;
 	font-family: pokeplatinum, monospace;
 	height: 100%;
