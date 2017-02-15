@@ -41,6 +41,7 @@ Season4.Runs.push(
             { Name: "Dugtrio", Time: "2d10h", Group: "Pokemon" },
             { Name: "Squirtle", Time: "2d13h34m", Group: "Pokemon" },
             { Name: "Spearow", Time: "2d14h57m", Group: "Pokemon" },
+            { Name: "Zubat", Time: "2d20h36m", Group: "Pokemon" },
             // { "Group": "Badges", "Name": "VoHiYo (Rainbow) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/81274/3.0" },
             // { "Group": "Badges", "Name": "MVGame (Soul) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/142140/3.0" },
             // { "Group": "Badges", "Name": "PMSTwin (Marsh) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/92/1.0" },
