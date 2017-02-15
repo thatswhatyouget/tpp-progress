@@ -2,6 +2,7 @@ module TPP.Tv {
     export interface Item {
         id: number;
         name: string;
+        count: number;
     }
 
     export interface Pokemon {

@@ -59,7 +59,7 @@ module TPP.Display.RunStatus {
         var $items = PokeBox().addClass('itemsList');
         $items.append($("<h3>").text(title));
         var $list = $("<ul>").appendTo($items);
-        items.forEach(i => $list.append($('<li>').text(i.name)));
+        items.forEach(i => $list.append($('<li>').text(i.name).attr('data-quantity', i.count)));
         return $items;
     }
 
