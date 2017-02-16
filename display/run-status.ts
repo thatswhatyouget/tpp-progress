@@ -131,7 +131,15 @@ module TPP.Display.RunStatus {
 
     function DetermineStatus(status: number) {
         switch (status) {
+            case 1:
+                return "SLP";
+            case 2:
+                return "FRZ";
+            case 4:
+                return "BRN";
             case 8:
+                return "PSN";
+            case 32:
                 return "PSN";
             case 64:
                 return "PAR";
