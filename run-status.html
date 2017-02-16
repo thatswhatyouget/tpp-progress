@@ -142,15 +142,23 @@
             var run = TPP.Display.RunStatus.GetCurrentRun(tppData);
             var pokemon = TPP.Transforms.Pokedex.ClipNationalDex(151);
             pokemon.push("Chatot");
-            var dex = new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, pokemon), pokemon);
-            $(".charts").append(TPP.Display.RunStatus.RenderRunStatus(run, dex));
+            function fillDex(tppData) { 
+                return new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, pokemon), pokemon);
+            }
+            var runStatus = TPP.Display.RunStatus.RenderRunStatus(run, fillDex(tppData));
+            $(".charts").append(runStatus);
+            if (QueryString["autorefresh"]) {
+                setInterval(function() { TPP.Display.RunStatus.UpdateRunStatus(run, runStatus, tppData, fillDex) }, 5 * 60 * 1000);
+            }
         </script>
     </div>
-    <!--<ul class="controls">
+    <ul class="controls">
         <script>
-            drawControls(defaultControls());
+            drawControls([qsOptionsMenu("fa-sliders","Options",{
+					"autorefresh": "Refresh Automatically"
+				})]);
         </script>
-    </ul>-->
+    </ul>
 </body>
 
 </html>

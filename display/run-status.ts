@@ -25,38 +25,63 @@ module TPP.Display.RunStatus {
         return tppData.filter(c => c.Name.indexOf("Season") == 0).map(c => c.Runs[c.Runs.length - 1]).pop();
     }
 
-    export function RenderRunStatus(run: TPP.Run, dex: TPP.Pokedex.GlobalDexBase = null) {
-        run.Duration = new Date().toISOString();
-        var $container = $("<div>");
-        $container.append("<i class='fa fa-spinner fa-pulse'>");
-        fetchRunStatus().then(status => {
-            $container.children().remove();
-            $container.append($("<h1>").text(run.RunName));
-            $container.append(DrawParty(run, status));
-            $container.append(DrawLocation(run, status));
-            $container.append(DrawItems(status.items, undefined, TMs[run.BaseGame], keyItems[run.BaseGame]));
-            $container.append(DrawBadges(run));
-            $container.append(DrawItems(status.pc_items, run.HostName + "'s PC", TMs[run.BaseGame], keyItems[run.BaseGame]));
-            if (dex) {
-                var entries = dex.Entries.filter(e => e.Owners.filter(o => o.Run == run).length > 0);
-                dex.Entries = dex.Entries.map(e => {
-                    if (entries.indexOf(e) < 0)
-                        e.Owners = [];
-                    return e;
-                });
-                $container.append(PokeBox().addClass("pokedex")
-                    .append($("<h3>").text("Pokédex"))
-                    .append(entries.length < status.caught ? $("<h6>").text("(Outdated)") : "")
-                    .append(TPP.Display.Pokedex.DrawOwnedCount(dex))
-                    .append(entries.map(e => TPP.Display.Pokedex.DrawDexEntry(e)))
-                    .append($("<a>").addClass("plug").attr('href', "pokedex.html").text("See Global Pokédex"))
-                )
+    function updateTPPData(tppData: Collection[]): JQueryPromise<Collection[]> {
+        return $.get("http://thatswhatyouget.github.io/tpp-progress/bin/tpp-data.json").then((data: Collection[]) => {
+            for (var c = 0; c < tppData.length; c++) {
+                for (var r = 0; r < tppData[c].Runs.length; r++) {
+                    tppData[c].Runs[r].Events = data[c].Runs[r].Events;
+                }
             }
-        }, err => {
+            return tppData;
+        }, e => tppData);
+    }
+
+    export function RenderRunStatus(run: TPP.Run, dex: TPP.Pokedex.GlobalDexBase = null) {
+        var $container = $("<div>");
+        $container.append($("<i class='fa fa-spinner fa-pulse'>"));
+        fetchRunStatus().then(status => drawRunStatus(run, dex, status, $container), err => {
             $container.children().remove();
             $container.append($("<h1 class='error'>").text("Run Status is not currently available."));
         });
         return $container;
+    }
+
+    export function UpdateRunStatus(run: TPP.Run, $container: JQuery, tppData: Collection[], dexFunction: (tppData: Collection[]) => TPP.Pokedex.GlobalDexBase = () => null) {
+        $container.find('h1').first().css('position', 'relative').append($('<i class="fa fa-refresh fa-spin">').css({
+            position: "absolute",
+            right: "1em"
+        }));
+        var getStatus = fetchRunStatus();
+        return updateTPPData(tppData).then(d => getStatus.then(status => drawRunStatus(run, dexFunction(tppData), status, $container), e => {
+            $container.find('.fa-refresh').remove();
+            console.log("Could not update run status.");
+        }));
+    }
+
+    function drawRunStatus(run: TPP.Run, dex: TPP.Pokedex.GlobalDexBase, status: TPP.Tv.RunStatus, $container: JQuery) {
+        run.Duration = new Date().toISOString();
+        $container.children().remove();
+        $container.append($("<h1>").text(run.RunName));
+        $container.append(DrawParty(run, status));
+        $container.append(DrawLocation(run, status));
+        $container.append(DrawItems(status.items, undefined, TMs[run.BaseGame], keyItems[run.BaseGame]));
+        $container.append(DrawBadges(run));
+        $container.append(DrawItems(status.pc_items, run.HostName + "'s PC", TMs[run.BaseGame], keyItems[run.BaseGame]));
+        if (dex) {
+            var entries = dex.Entries.filter(e => e.Owners.filter(o => o.Run == run).length > 0);
+            dex.Entries = dex.Entries.map(e => {
+                if (entries.indexOf(e) < 0)
+                    e.Owners = [];
+                return e;
+            });
+            $container.append(PokeBox().addClass("pokedex")
+                .append($("<h3>").text("Pokédex"))
+                .append(entries.length < status.caught ? $("<h6>").text("(Outdated)") : "")
+                .append(TPP.Display.Pokedex.DrawOwnedCount(dex))
+                .append(entries.map(e => TPP.Display.Pokedex.DrawDexEntry(e)))
+                .append($("<a>").addClass("plug").attr('href', "pokedex.html").text("See Global Pokédex"))
+            )
+        }
     }
 
     function PokeBox() {
