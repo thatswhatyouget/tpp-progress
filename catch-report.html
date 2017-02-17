@@ -127,7 +127,14 @@
                          }).sort(function(e) { 
                              return Duration.parse(e.Time, r.StartTime).TotalSeconds;
                         }).pop() || { Time: 0 }).Time || "2014-01-01T00:00:00Z", r.StartTime).TotalDays;
-                        function countMons() {return r.Events.filter(function(e) { var t = Duration.parse(e.Time, r.StartTime).TotalTime(c.Scale); return e.Group == "Pokemon" && e.Name != "Egg" && (!day || t < day) && (t >= startFrom);}).length};
+                        function countMons(singleDay) {
+                            var mons = r.Events.filter(function(e) { var t = Duration.parse(e.Time, r.StartTime).TotalTime(c.Scale); return e.Group == "Pokemon" && e.Name != "Egg" && (!day || t < day) && (t >= startFrom);});
+                            if (singleDay) {
+                                mons = mons.filter(function(e) { var t=Duration.parse(e.Time, r.StartTime).TotalTime(c.Scale); return t >= singleDay - 1;});
+                                console.log("* On Day " + singleDay + ", " + r.HostName + " caught **" + mons.length + "** Pokémon: " + mons.map(function(m) { return m.Name }).join(", ")); 
+                            }
+                            return mons.length;
+                        };
                         r.Ongoing = true;
                         r.Events.push({
                             Group: "Catch Report",
@@ -140,6 +147,7 @@
                             if (!runElement && events !== false && runInfo == r) runElement = run;
                             return realDrawRun(runInfo, run, scale, events);
                         }
+                        if (day) setTimeout(function() {$(runElement).click(function(e) {if (e.altKey) countMons(day); });},1000);
                         var realScaleRun = scaleRun;
                         scaleRun = function(run, ppd) {
                             if (run == runElement) { 
