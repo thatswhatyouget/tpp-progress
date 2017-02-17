@@ -11,6 +11,7 @@ Season2.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         BaseGame: "FireRed",
         Region: "Kanto",
+        Pokedex: "Art Book",
         Events: [
             {
                 Group: "Badges",
@@ -172,6 +173,8 @@ Season2.Runs.push(
         HostImageSource: "http://angelofsloths.tumblr.com/post/119327711600/my-atta-sprite",
         BaseGame: "FireRed",
         Region: "Kanto",
+        Generation: 3,
+        Pokedex: "Kanto",
         Events: [
             {
                 Group: "Badges",

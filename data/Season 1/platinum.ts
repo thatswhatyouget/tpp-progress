@@ -10,6 +10,8 @@ Season1.Runs.push(
         HostImage: "img/hosts/nqpppnl.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Sinnoh",
+        Generation: 4,
+        Pokedex: "Enhanced Sinnoh",
         TPPOrgLink: "http://twitchplayspokemon.org/platinum",
         GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/platinum-archive",
         Events: [

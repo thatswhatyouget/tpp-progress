@@ -17,6 +17,7 @@ Season3.Runs.push(
         //     pokemon: true
         // },
         Region: "Rijon",
+        Pokedex: "Rijon",
         Events: [
             { "Group": "Badges", "Name": "Marine Badge", "Image": "img/badges/old/marine.png", "ImageSource": "https://www.reddit.com/r/twitchplayspokemon/comments/4q2k6b/all_eight_rijon_badges/", "Time": "8h3m", "Attempts": 1 },
             { "Group": "Badges", "Name": "Hail Badge", "Image": "img/badges/old/hail.png", "ImageSource": "https://www.reddit.com/r/twitchplayspokemon/comments/4q2k6b/all_eight_rijon_badges/", "Time": "1d9h37m", "Attempts": 6 },

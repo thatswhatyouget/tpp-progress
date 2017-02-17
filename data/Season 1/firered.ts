@@ -11,6 +11,8 @@ Season1.Runs.push(
         HostImage: "img/hosts/a2.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Kanto",
+        Generation: 3,
+        Pokedex: "Kanto",
         TPPOrgLink: "http://twitchplayspokemon.org/firered",
         GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/firered-archive",
         Events: [

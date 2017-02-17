@@ -14,6 +14,8 @@ Sidegames.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Johto",
         AdditionalRegions: [{ Name: "Kanto", Time: "2015-09-14T18:37:36Z" }],
+        Generation: 2,
+        Pokedex: "New",
         Events: [
             {
                 Group: "Badges",

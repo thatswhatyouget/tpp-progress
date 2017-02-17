@@ -12,6 +12,8 @@ Season1.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         BaseGame: "Emerald",
         Region: "Hoenn",
+        Generation: 6,
+        Pokedex: "New Hoenn",
         TPPOrgLink: "http://twitchplayspokemon.org/omegaruby",
         GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/omegaruby-archive",
         Events: [

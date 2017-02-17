@@ -10,6 +10,7 @@ Intermissions.Runs.push(
         HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
         HostName: "lゲg",
         Region: "E-Monsters World",
+        Pokedex: "Phone Book",
         ContainsRunsFrom: ["Intermissions", "Short Intermissions"],
         Events: [
             // { Group: "Pokemon", Name: "Kuribute", Time: "0d 0h 41m" },

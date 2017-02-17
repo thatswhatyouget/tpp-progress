@@ -11,6 +11,8 @@ Season1.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Johto",
         AdditionalRegions: [{ Name: "Kanto", Time: "11d 15h 9m" }],
+        Generation: 4,
+        Pokedex: "Johto",
         TPPOrgLink: "http://twitchplayspokemon.org/heartgold",
         GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/heartgold-archive",
         Events: [

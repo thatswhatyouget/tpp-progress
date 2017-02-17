@@ -11,6 +11,8 @@ Season1.Runs.push(
         HostImage: "img/hosts/d.png",
         HostImageSource: "http://haykira.deviantart.com/art/Li-l-d-from-Twitch-Plays-Pokemon-X-Y-471845274",
         Region: "Kalos",
+        Generation: 6,
+        Pokedex: "Kalos",
         TPPOrgLink: "http://twitchplayspokemon.org/x",
         GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/x-archive",
         Events: [

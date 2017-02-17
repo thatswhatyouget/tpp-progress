@@ -10,6 +10,8 @@ Season3.Runs.push(
         HostImage: "img/hosts/pp.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4vj5qp/meet_pepe/",
         Region: "Sinnoh",
+        Generation: 4,
+        Pokedex: "Enhanced Sinnoh",
         TPPOrgLink: "http://twitchplayspokemon.org/pr",
         // Scraper: {
         //     url: "http://twitchplayspokemon.org/",

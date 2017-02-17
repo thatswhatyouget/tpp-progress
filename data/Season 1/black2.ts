@@ -10,6 +10,8 @@ Season1.Runs.push(
         HostImage: "img/hosts/cly.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Unova",
+        Generation: 5,
+        Pokedex: "New Unova",
         TPPOrgLink: "http://twitchplayspokemon.org/black2",
         GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/black-2-archive",
         Events: [

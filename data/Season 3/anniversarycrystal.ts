@@ -18,6 +18,8 @@ Season3.Runs.push(
             { Name: "Kanto", Time: "12d 6h 36m" }
         ],
         DexTotal: 251,
+        Generation: 2,
+        Pokedex: "New",
         // Scraper: {
         //     url: "http://twitchplayspokemon.org/ac/",
         //     runtime: true,

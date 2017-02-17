@@ -11,6 +11,8 @@ Season2.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Kanto",
         DexTotal: 151,
+        Generation: 1,
+        Pokedex: "Kanto",
         TPPOrgLink: "http://twitchplayspokemon.org/ar",
         GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/red-anniversary",
         Events: [

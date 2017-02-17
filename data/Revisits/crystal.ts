@@ -10,6 +10,8 @@ Revisits.Runs.push(
         HostImage: "img/hosts/ajdnnw.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Johto",
+        Generation: 2,
+        Pokedex:"New",
         //AdditionalRegions: [{ Name: "Kanto", Time: "10d 0h 56m" }],
         Events: [
             { Group: "Pokemon", Name: "Spinarak", Time: "2016-04-15T23:24:00Z" },

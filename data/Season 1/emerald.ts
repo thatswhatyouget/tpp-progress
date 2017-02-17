@@ -14,6 +14,8 @@ Season1.Runs.push(
         GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/emerald-archive",
         LiveUpdaterArchive: "https://paste.ee/p/mVTkx",
         Region: "Hoenn",
+        Generation: 3,
+        Pokedex: "Hoenn",
         Events: [
             {
                 Group: "Badges",

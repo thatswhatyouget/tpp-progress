@@ -14,6 +14,8 @@ Season1.Runs.push(
         GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/red-archive",
         LiveUpdaterArchive: "https://paste.ee/p/E6NvL",
         Region: "Kanto",
+        Generation: 1,
+        Pokedex: "Kanto",
         Events: [
             {
                 Group: "Badges",

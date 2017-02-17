@@ -11,6 +11,7 @@ Sidegames.Runs.push(
         HostImage: "img/hosts/pee.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/568gkg/the_ultra_crew_so_far_v_30/d8i7kwk",
         Region: "Ultra",
+        Generation: 3,
         ContainsRunsFrom: ["Season 3", "Revisits"],
         Events: [
             { "Group": "Pokemon", "Name": "Squirtle", "Time": "2016-08-17T21:21:34Z" },

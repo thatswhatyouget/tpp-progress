@@ -19,6 +19,8 @@ Season3.Runs.push(
         //     pokemon: true
         // },
         Region: "Alola",
+        Generation: 7,
+        Pokedex: "Alola",
         Events: [
             //{ "Group": "Pokemon", "Name": "Rowlet", "Time": "24m" },
             //{ "Group: "Hosts", "Name": "d76o6yttr??", "Time": "45m" },

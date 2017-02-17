@@ -10,6 +10,8 @@ Intermissions.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4e7ehd/jamie_of_bracket_queen_of_april_fools/",
         HostName: "QJv[",
         Region: "Kanto",
+        Generation: 2,
+        Pokedex:"New",
         Events: [
             { Group: "Badges", Image: "img/badges/boulder.png", Name: "Boulder Badge", Time: "2016-04-02T12:35:00Z" },
             { Group: "Pokemon", Name: "OLDEN", Class: "Charmander", Time: "2016-04-01T20:28:00Z" },

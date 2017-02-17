@@ -10,6 +10,7 @@ Season2.Runs.push(
         HostImage: "img/hosts/abbbcc.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3woea1/alphab%C4%93tos_av%C4%ABci/",
         Region: "Orre",
+        Generation: 3,
         // Scraper: {
         //     url: "http://twitchplayspokemon.org/xd",
         //     parts: [],

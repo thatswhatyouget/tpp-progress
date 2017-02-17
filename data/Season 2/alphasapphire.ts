@@ -11,6 +11,8 @@ Season2.Runs.push(
         HostImage: "img/hosts/qq.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Hoenn",
+        Generation: 6,
+        Pokedex: "New Hoenn",
         BaseGame: "Emerald",
         // Scraper: {
         //     url: "http://twitchplayspokemon.org/alphasapphire",

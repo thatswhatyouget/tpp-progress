@@ -26,7 +26,8 @@ module TPP.Display.RunStatus {
     }
 
     export function GetSpecifiedRun(tppData: Collection[], runName: string) {
-        return tppData.map(c => c.Runs.filter(r => r.RunName.indexOf(runName) >= 0).shift()).filter(c => !!c).shift() || GetCurrentRun(tppData);
+        runName = runName.trim();
+        return tppData.map(c => c.Runs.filter(r => r.RunName == runName).shift()).filter(c => !!c).shift() || tppData.map(c => c.Runs.filter(r => r.RunName.indexOf(runName) >= 0).shift()).filter(c => !!c).shift() || GetCurrentRun(tppData);
     }
 
     function updateTPPData(tppData: Collection[]): JQueryPromise<Collection[]> {
@@ -81,15 +82,16 @@ module TPP.Display.RunStatus {
             $container.append(DrawItems(status.items, undefined, TMs[run.BaseGame], keyItems[run.BaseGame]));
         if (status.pc_items)
             $container.append(DrawItems(status.pc_items, run.HostName + "'s PC", TMs[run.BaseGame], keyItems[run.BaseGame]));
-        $container.append(DrawBadges(run));
-        if (dex) {
+        if (extractBadges(run).length > 0)
+            $container.append(DrawBadges(run));
+        if (dex && dex.TotalOwnedBy(run) > 0) {
             var entries = dex.Entries.filter(e => e.Owners.filter(o => o.Run == run).length > 0);
             dex.Entries = dex.Entries.map(e => {
                 if (entries.indexOf(e) < 0)
                     e.Owners = [];
                 return e;
             });
-            $container.append(PokeBox().addClass("pokedex")
+            $container.append(PokeBox().addClass("pokedex").addClass(cleanString(run.RunName))
                 .append($("<h3>").text("Pokédex"))
                 .append(entries.length < status.caught ? $("<h6>").text("(Outdated)") : "")
                 .append(TPP.Display.Pokedex.DrawOwnedCount(dex))
@@ -120,11 +122,16 @@ module TPP.Display.RunStatus {
         return $items;
     }
 
+    function extractBadges(run: TPP.Run) {
+        return run.Events.filter(e => e.Group == "Badges" || e.Group == "Bosses" || e.Group == "Kingdoms");
+    }
+    
     function DrawBadges(run: TPP.Run) {
+        var badges = extractBadges(run);
         var $badges = PokeBox().addClass('badgeList');
-        $badges.append($("<h3>").text("Badges"));
+        $badges.append($("<h3>").text(badges[0].Group));
         var $list = $("<ul>").appendTo($badges);
-        run.Events.filter(e => e.Group == "Badges").forEach(b => {
+        badges.forEach(b => {
             var $li = $('<li>').appendTo($list);
             $li.append($('<h3>').text(b.Name));
             $li.append($('<img>').attr('src', b.Image));

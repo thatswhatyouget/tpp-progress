@@ -20,6 +20,7 @@ Season3.Runs.push(
         //     pokemon: true
         // },
         Region: "Naljo",
+        Pokedex: "Naljo",
         AdditionalRegions: [{ Name: "Rijon", Time: "9d 12h 12m" }],
         Events: [
             { "Group": "Pokemon", "Name": "Butterfree", "Time": "2d4h57m" },

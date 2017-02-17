@@ -10,6 +10,7 @@ Season2.Runs.push(
         HostImage: "img/hosts/aaaaaaa.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Orre",
+        Generation: 3,
         // Scraper: {
         //     url: "http://twitchplayspokemon.org/colosseum",
         //     parts: [],

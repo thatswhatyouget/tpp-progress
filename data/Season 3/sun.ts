@@ -18,6 +18,8 @@ Season3.Runs.push(
         //     pokemon: true
         // },
         Region: "Alola",
+        Generation: 7,
+        Pokedex: "Alola",
         Events: [
             { "Group": "Pokemon", "Name": "Popplio", "Time": "27m" },
             { "Group": "Pokemon", "Name": "Pikipek", "Time": "47m" },

@@ -15,6 +15,8 @@ Season1.Runs.push(
         LiveUpdaterArchive: "https://paste.ee/p/fmVbC",
         Region: "Johto",
         AdditionalRegions: [{ Name: "Kanto", Time: "10d 0h 56m" }],
+        Generation: 2,
+        Pokedex: "New",
         Events: [
             {
                 Group: "Badges",

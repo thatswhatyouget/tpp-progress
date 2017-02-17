@@ -10,6 +10,8 @@ Revisits.Runs.push(
         HostImage: "img/hosts/baba.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Johto",
+        Generation: 2,
+        Pokedex:"New",
         Events: [
             { Name: "PEDAL", Time: "2016-06-15T22:01:00Z", Group: "Pokemon", Class: "Caterpie" },
             { Name: "NUXI", Time: "2016-06-15T22:13:00Z", Group: "Pokemon", Class: "Ledyba" },

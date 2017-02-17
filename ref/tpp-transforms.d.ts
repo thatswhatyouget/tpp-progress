@@ -94,6 +94,8 @@ declare module TPP {
             Name: string;
             Time: string;
         }[];
+        Generation?: number;
+        Pokedex?: string;
         DexTotal?: number;
         Scraper?: {
             url: string;

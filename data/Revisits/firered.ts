@@ -10,6 +10,8 @@ Revisits.Runs.push(
         HostImage: "img/hosts/a2.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Kanto",
+        Generation: 3,
+        Pokedex:"Kanto",
         Events: [
             { Group: "Pokemon", Name: "Spinarak", Time: "2016-04-11T06:01:00Z" },
             { Group: "Pokemon", Name: "Swinub", Time: "2016-04-11T06:04:00Z" },

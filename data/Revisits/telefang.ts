@@ -11,6 +11,7 @@ Revisits.Runs.push(
         HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
         HostName: "lゲg",
         Region: "E-Monsters World",
+        Pokedex: "Phone Book",
         Events: [
             { Group: "Pokemon", Name: "Mierths", Time: "2016-10-09T00:19:00Z" },
             { Group: "Bosses", Name: "Stream", Time: "2016-10-09T00:38:00Z", Image: "img/telefang/ogawa.gif", Attempts: 1 },

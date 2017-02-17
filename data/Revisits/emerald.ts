@@ -10,6 +10,8 @@ Revisits.Runs.push(
         HostImage: "img/hosts/a.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Hoenn",
+        Generation: 3,
+        Pokedex:"Hoenn",
         Events: [
             { Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png", Time: "2016-04-13T09:21:00Z", Attempts: 1 },
             { Group: "Pokemon", Name: "Kecleon", Time: "2016-04-13T23:18:00Z" },
