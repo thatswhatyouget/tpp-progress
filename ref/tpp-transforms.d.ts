@@ -201,6 +201,7 @@ declare module TPP.Pokedex {
         readonly TotalOwned: number;
         readonly TotalInDex: number;
         readonly OwnedPercentage: number;
+        TotalOwnedBy(run: Run): number;
         SortDex(sortBy?: DexSorting | string): void;
         FilterDexToOwned(): void;
         FilterDexToUnowned(): void;

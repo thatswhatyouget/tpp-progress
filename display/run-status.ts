@@ -25,6 +25,10 @@ module TPP.Display.RunStatus {
         return tppData.filter(c => c.Name.indexOf("Season") == 0).map(c => c.Runs[c.Runs.length - 1]).pop();
     }
 
+    export function GetSpecifiedRun(tppData: Collection[], runName: string) {
+        return tppData.map(c => c.Runs.filter(r => r.RunName.indexOf(runName) >= 0).shift()).filter(c => !!c).shift() || GetCurrentRun(tppData);
+    }
+
     function updateTPPData(tppData: Collection[]): JQueryPromise<Collection[]> {
         return $.get("http://thatswhatyouget.github.io/tpp-progress/bin/tpp-data.json").then((data: Collection[]) => {
             for (var c = 0; c < tppData.length; c++) {
@@ -39,10 +43,15 @@ module TPP.Display.RunStatus {
     export function RenderRunStatus(run: TPP.Run, dex: TPP.Pokedex.GlobalDexBase = null) {
         var $container = $("<div>");
         $container.append($("<i class='fa fa-spinner fa-pulse'>"));
-        fetchRunStatus().then(status => drawRunStatus(run, dex, status, $container), err => {
-            $container.children().remove();
-            $container.append($("<h1 class='error'>").text("Run Status is not currently available."));
-        });
+        if (!run.Ongoing) {
+            drawRunStatus(run, dex, <Tv.RunStatus>{}, $container);
+        }
+        else {
+            fetchRunStatus().then(status => drawRunStatus(run, dex, status, $container), err => {
+                $container.children().remove();
+                $container.append($("<h1 class='error'>").text("Run Status is not currently available."));
+            });
+        }
         return $container;
     }
 
@@ -62,11 +71,17 @@ module TPP.Display.RunStatus {
         run.Duration = new Date().toISOString();
         $container.children().remove();
         $container.append($("<h1>").text(run.RunName));
-        $container.append(DrawParty(run, status));
-        $container.append(DrawLocation(run, status));
-        $container.append(DrawItems(status.items, undefined, TMs[run.BaseGame], keyItems[run.BaseGame]));
+        if (status.party)
+            $container.append(DrawParty(run, status));
+        else if (run.Events.filter(e => (<HallOfFame>e).Party).length > 0)
+            $container.append(DrawHallOfFame(run, <HallOfFame>run.Events.filter(e => (<HallOfFame>e).Party).pop()));
+        if (status.map_id)
+            $container.append(DrawLocation(run, status));
+        if (status.items)
+            $container.append(DrawItems(status.items, undefined, TMs[run.BaseGame], keyItems[run.BaseGame]));
+        if (status.pc_items)
+            $container.append(DrawItems(status.pc_items, run.HostName + "'s PC", TMs[run.BaseGame], keyItems[run.BaseGame]));
         $container.append(DrawBadges(run));
-        $container.append(DrawItems(status.pc_items, run.HostName + "'s PC", TMs[run.BaseGame], keyItems[run.BaseGame]));
         if (dex) {
             var entries = dex.Entries.filter(e => e.Owners.filter(o => o.Run == run).length > 0);
             dex.Entries = dex.Entries.map(e => {
@@ -200,6 +215,52 @@ module TPP.Display.RunStatus {
             $("<div class='entry'>").appendTo($("<td>").appendTo($hofRow));
         }
         return $party.get(0);
+    }
+
+    function DrawHallOfFame(runInfo: TPP.Run, hofInfo: TPP.HallOfFame, scale = TPP.Scale.Days) {
+        var $hof = PokeBox().addClass("hallOfFameDisplay");
+        $hof.addClass(cleanString(runInfo.RunName) + " " + (runInfo.Class || "") + " " + (runInfo.BaseGame || ""));
+        // $hof.css('background-color', runInfo.ColorPrimary);
+        // $hof.css('border-color', runInfo.ColorSecondary);
+        var time = new Date((Duration.parse(hofInfo.Time, runInfo.StartTime).TotalSeconds + runInfo.StartTime) * 1000);
+        $hof.append($("<h3>").text(hofInfo.Name + " - " + time.toLocaleDateString()));
+        $hof.append($("<h4>").text(Duration.parse(hofInfo.Time, runInfo.StartTime).toString(scale)));
+        if (hofInfo.Attempts) $hof.append($("<h5>").text(hofInfo.Attempts + " Attempts"));
+        $hof.append($("<img>").attr('src', hofInfo.Image));
+        var $hofRow = $("<tr>").appendTo($("<table>").appendTo($hof));
+        var $host = $("<div class='entry host'>").appendTo($("<td>").appendTo($hofRow));
+        var $hostImg = $("<img>").attr('src', runInfo.HostImage).attr('alt', runInfo.HostName).attr('title', runInfo.HostName);
+        if (runInfo.HostImageSource) {
+            $hostImg = $("<a>").attr('href', runInfo.HostImageSource).append($hostImg);
+        }
+        $host.append($hostImg);
+        var $hostInfo = $('<div class="info">').append($('<div class="name">').text(runInfo.HostName)).appendTo($host);
+        if (hofInfo.IDNo) {
+            $hostInfo.append($('<div data-entry="IDNo">').text(hofInfo.IDNo));
+        }
+        hofInfo.Party.forEach(p => {
+            var name = (p.Nickname || p.Pokemon).replace(/\s/g, "&nbsp;");//.replace(/π/g, "<i class='pk'></i>").replace(/µ/g, "<i class='mn'></i>");
+            var $entry = $("<div class='entry'>").addClass((p.Gender || '').toLowerCase());
+            $entry.append($("<span class='level'>").text(p.Level));
+            $entry.append($("<div class='pokesprite'><img src='img/missingno.png'/></div>").addClass(cleanString(p.Pokemon)).addClass(p.Shiny ? "shiny" : "").addClass((p.Gender || "").toLowerCase()).addClass(p.Class).addClass(cleanString(p.Form || "")).attr('title', p.Pokemon));
+            var $info = $("<div class='info'>").append($("<div class='name'>").html(name)).appendTo($entry);
+            //if (p.PreviousNick) $info.append($("<div data-entry='Née'>").text(p.PreviousNick));
+            if (p.Number) {
+                var idx = p.Number.toString(), index = ('000' + idx).substring(idx.length);
+                $info.append($("<div data-entry='" + index + "'>").text(p.Pokemon));
+            }
+            if (p.Met) $info.append($("<div data-entry='Met'>").text(p.Met));
+            if (p.Type1) $info.append($("<div data-entry='Type 1'>").text(p.Type1));
+            if (p.Type2) $info.append($("<div data-entry='Type 2'>").text(p.Type2));
+            if (p.OT) $info.append($("<div data-entry='OT'>").text(p.OT));
+            if (p.IDNo) $info.append($("<div data-entry='IDNo'>").text(p.IDNo));
+            $hofRow.append($("<td>").append($entry));
+        });
+        for (var i = hofInfo.Party.length; i < 6; i++) {
+            $("<div class='entry'>").appendTo($("<td>").appendTo($hofRow));
+        }
+
+        return $hof.get(0);
     }
 
 }

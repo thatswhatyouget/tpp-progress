@@ -30,6 +30,15 @@
             margin-top:0;
             width:23%;
         }
+        .badgeList {
+            width:80%;
+        }
+        .itemsList + .badgeList {
+            width:50%;
+        }
+        .itemsList + .itemsList + .badgeList {
+            width:23%;
+        }
         .itemsList > h3, .badgeList > h3{
             margin-top:0;
         } 
@@ -83,9 +92,9 @@
             background-color: rgba(0,0,0,.1);
         }
 
-	.hallOfFameDisplay .entry {
-	    font-size:1.3vw;
-	}
+        .hallOfFameDisplay .entry {
+            font-size:1.3vw;
+        }
 
         .entry.fainted {
             filter:grayscale();
@@ -112,6 +121,10 @@
 
         .error {
             font-family: pokeplatinum, monospace;
+        }
+
+        .hallOfFameDisplay + .itemsList, .hallOfFameDisplay + .badgeList, .hallOfFameDisplay + .itemsList ~ .itemsList, .hallOfFameDisplay + .itemsList ~ .badgeList {
+            margin-top: 2%;
         }
 
     </style>
@@ -142,15 +155,22 @@
     </div>
     <div class="charts">
         <script>
-            var run = TPP.Display.RunStatus.GetCurrentRun(tppData);
-            var pokemon = TPP.Transforms.Pokedex.ClipNationalDex(151);
-            pokemon.push("Chatot");
-            function fillDex(tppData) { 
-                return new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, pokemon), pokemon);
+            var run = QueryString["run"] ? TPP.Display.RunStatus.GetSpecifiedRun(tppData, QueryString["run"]) : TPP.Display.RunStatus.GetCurrentRun(tppData);
+            var pokemon = TPP.Transforms.Pokedex.DexMerge(Pokedex.Regional[run.Region]);
+            if (run.RunName == "Chatty Yellow") {
+                pokemon.push("Chatot");
+            }
+            function fillDex(tppData) {
+                var natDex = TPP.Transforms.Pokedex.ClipNationalDex(run.DexTotal);
+                var regional = new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, pokemon), pokemon);
+                var national = new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, natDex), natDex);
+                if (national.TotalOwnedBy(run) > regional.TotalOwnedBy(run))
+                    return national;
+                return regional;
             }
             var runStatus = TPP.Display.RunStatus.RenderRunStatus(run, fillDex(tppData));
             $(".charts").append(runStatus);
-            if (QueryString["autorefresh"]) {
+            if (QueryString["autorefresh"] && run.Ongoing) {
                 setInterval(function() { TPP.Display.RunStatus.UpdateRunStatus(run, runStatus, tppData, fillDex) }, 5 * 60 * 1000);
             }
         </script>

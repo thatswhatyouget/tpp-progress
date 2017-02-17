@@ -4,6 +4,7 @@ module TPP.Transforms.Pokedex {
     var natDex: string[] = typeof(window) !== "undefined" ? ((<any>window || {}).Pokedex || {}).PokeList || [] : [];
 
     export function DexMerge(Regional: (number | string)[], National = natDex) {
+        if (!Regional) return National;
         return Regional.map(i => typeof i === "string" ? i : National[i]);
     }
 

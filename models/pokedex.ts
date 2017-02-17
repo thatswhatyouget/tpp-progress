@@ -67,6 +67,10 @@ module TPP.Pokedex {
             return (this.TotalOwned / this.TotalInDex) * 100;
         }
 
+        public TotalOwnedBy(run: Run) {
+            return this.NoGlitchMon.filter(e => e.Owners.filter(o => o.Run.RunName == run.RunName).length > 0).length;
+        }
+
 
         public SortDex(sortBy: DexSorting | string = 0) {
             switch (sortBy) {
