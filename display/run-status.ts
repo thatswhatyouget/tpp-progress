@@ -41,6 +41,17 @@ module TPP.Display.RunStatus {
         }, e => tppData);
     }
 
+    function condenseText(text: string) {
+        text = text.replace(/'l/ig, "|");
+        text = text.replace(/'m/ig, "~");
+        text = text.replace(/'r/ig, "%");
+        text = text.replace(/'s/ig, "&");
+        text = text.replace(/'t/ig, '}');
+        text = text.replace(/'v/ig, "@");
+        text = text.replace(/#/ig, "#.");
+        return text;
+    }
+
     export function RenderRunStatus(run: TPP.Run, dex: TPP.Pokedex.GlobalDexBase = null) {
         var $container = $("<div>");
         $container.append($("<i class='fa fa-spinner fa-pulse'>"));
@@ -78,12 +89,20 @@ module TPP.Display.RunStatus {
             $container.append(DrawHallOfFame(run, <HallOfFame>run.Events.filter(e => (<HallOfFame>e).Party).pop()));
         if (status.map_id)
             $container.append(DrawLocation(run, status));
+        if (extractPastHosts(run).length > 0)
+            $container.append(DrawBadges(run, extractPastHosts(run)));
+        if (extractEliteFourRematch(run).length > 0)
+            $container.append(DrawBadges(run, extractEliteFourRematch(run)));
+        if (extractRematchBadges(run).length > 0)
+            $container.append(DrawBadges(run, extractRematchBadges(run)));
+        if (extractEliteFour(run).length > 0)
+            $container.append(DrawBadges(run, extractEliteFour(run)));
+        if (extractBadges(run).length > 0)
+            $container.append(DrawBadges(run));
         if (status.items)
             $container.append(DrawItems(status.items, undefined, TMs[run.BaseGame], keyItems[run.BaseGame]));
         if (status.pc_items)
             $container.append(DrawItems(status.pc_items, run.HostName + "'s PC", TMs[run.BaseGame], keyItems[run.BaseGame]));
-        if (extractBadges(run).length > 0)
-            $container.append(DrawBadges(run));
         if (dex && dex.TotalOwnedBy(run) > 0) {
             var entries = dex.Entries.filter(e => e.Owners.filter(o => o.Run == run).length > 0);
             dex.Entries = dex.Entries.map(e => {
@@ -107,8 +126,9 @@ module TPP.Display.RunStatus {
 
     function DrawItems(items: TPP.Tv.Item[], title = "Items", itemSupplement: TMList = {}, keyItems: string[] = []) {
         items = items || [];
+        items.push({ name: "OAK'S PARCEL", count: 0, id: 0 });
         var $items = PokeBox().addClass('itemsList');
-        $items.append($("<h3>").text(title));
+        $items.append($("<h3>").text(condenseText(title)));
         var $list = $("<ul>").appendTo($items);
         items.map(i => {
             if (keyItems.indexOf(i.name.toUpperCase()) >= 0 && i.count < 2) {
@@ -118,24 +138,35 @@ module TPP.Display.RunStatus {
                 i.name += " " + itemSupplement[i.name.toUpperCase()];
             }
             return i;
-        }).forEach(i => $list.append($('<li>').text(i.name).attr('data-quantity', i.count)));
+        }).forEach(i => $list.append($('<li>').text(condenseText(i.name)).attr('data-quantity', i.count)));
         return $items;
     }
 
     function extractBadges(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Badges" || e.Group == "Bosses" || e.Group == "Kingdoms");
     }
-    
-    function DrawBadges(run: TPP.Run) {
-        var badges = extractBadges(run);
+    function extractEliteFour(run: TPP.Run) {
+        return run.Events.filter(e => e.Group == "Elite Four" || e.Group == "Final Bosses" || (e.Group == "Champions" && e.Image.indexOf("rematch") < 0 && e.Image.indexOf("hosts") < 0));
+    }
+    function extractEliteFourRematch(run: TPP.Run) {
+        return run.Events.filter(e => e.Group == "Elite Four Rematch" || (e.Group == "Champions" && e.Image.indexOf("rematch") > 0));
+    }
+    function extractPastHosts(run: TPP.Run) {
+        return run.Events.filter(e => e.Group == "Past Hosts" || (e.Group == "Champions" && e.Image.indexOf("hosts") > 0));
+    }
+    function extractRematchBadges(run: TPP.Run) {
+        return run.Events.filter(e => e.Group == "Rematch Badges");
+    }
+
+    function DrawBadges(run: TPP.Run, badges = extractBadges(run)) {
         var $badges = PokeBox().addClass('badgeList');
-        $badges.append($("<h3>").text(badges[0].Group));
+        $badges.append($("<h3>").text(condenseText(badges[0].Group)));
         var $list = $("<ul>").appendTo($badges);
         badges.forEach(b => {
             var $li = $('<li>').appendTo($list);
             $li.append($('<h3>').text(b.Name));
             $li.append($('<img>').attr('src', b.Image));
-            $li.append($('<h4>').text(Duration.parse(b.Time, run.StartTime).toString(TPP.Scale.Days)));
+            $li.append($('<h4>').text((Duration.parse(b.Time, run.StartTime).toString(TPP.Scale.Days)).replace(/m.*/, 'm')));
             if (b.Attempts) {
                 $li.append($('<h5>').text(b.Attempts.toString() + " Attempt" + (b.Attempts > 1 ? "s" : "")));
             }
@@ -230,7 +261,7 @@ module TPP.Display.RunStatus {
         // $hof.css('background-color', runInfo.ColorPrimary);
         // $hof.css('border-color', runInfo.ColorSecondary);
         var time = new Date((Duration.parse(hofInfo.Time, runInfo.StartTime).TotalSeconds + runInfo.StartTime) * 1000);
-        $hof.append($("<h3>").text(hofInfo.Name + " - " + time.toLocaleDateString()));
+        $hof.append($("<h3>").text(condenseText(hofInfo.Name + " - " + time.toLocaleDateString())));
         $hof.append($("<h4>").text(Duration.parse(hofInfo.Time, runInfo.StartTime).toString(scale)));
         if (hofInfo.Attempts) $hof.append($("<h5>").text(hofInfo.Attempts + " Attempts"));
         $hof.append($("<img>").attr('src', hofInfo.Image));
