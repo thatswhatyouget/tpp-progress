@@ -58,7 +58,7 @@ Season4.Runs.push(
             { Name: "Rapidash", Time: "6d22h8m", Group: "Pokemon" },
             { Name: "Magmar", Time: "6d23h56m", Group: "Pokemon" },
             { "Group": "Badges", "Name": "DatSheffy (Volcano) Badge", "Time": "7d39m", "Attempts": 1, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/111700/3.0" },
-            // { "Group": "Badges", "Name": "BigBrother (Earth) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/1904/3.0" },
+            { "Group": "Badges", "Name": "BigBrother (Earth) Badge", "Time": "7d2h16m", "Attempts": 1, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/1904/3.0" },
         ]
     }
 );
