@@ -220,8 +220,11 @@ module TPP.Display.RunStatus {
         if (status.coins) {
             $hostInfo.append($('<div data-entry="Coins">').text(status.coins.toString()));
         }
+        if (status.badges) {
+            var badges = status.badges.toString(2).match(/1/g).length; //convert to binary, count the 1s.
+            $hostInfo.append($('<div data-entry="Badges">').text(badges));
+        }
         if (status.caught) {
-            $hostInfo.append("<br>");
             $hostInfo.append($('<div data-entry="Owned">').text(status.caught.toString()));
         }
         if (status.seen) {

@@ -23,6 +23,7 @@ module TPP.Tv {
     }
 
     export interface RunStatus {
+        badges: number;
         caught: number;
         coins?: number;
         items?: Item[];
