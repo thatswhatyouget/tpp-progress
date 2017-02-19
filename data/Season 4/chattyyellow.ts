@@ -54,6 +54,7 @@ Season4.Runs.push(
             { Name: "Growlithe", Time: "6d16h2m", Group: "Pokemon" },
             { Name: "Ponyta", Time: "6d16h31m", Group: "Pokemon" },
             { Name: "Grimer", Time: "6d17h5m", Group: "Pokemon" },
+            { Name: "Koffing", Time: "6d21h23m", Group: "Pokemon" },
             // { "Group": "Badges", "Name": "DatSheffy (Volcano) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/111700/3.0" },
             // { "Group": "Badges", "Name": "BigBrother (Earth) Badge", "Time": "", "Attempts": 0, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/1904/3.0" },
         ]
