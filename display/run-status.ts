@@ -127,7 +127,7 @@ module TPP.Display.RunStatus {
     function DrawItems(items: TPP.Tv.Item[], title = "Items", itemSupplement: TMList = {}, keyItems: string[] = []) {
         items = items || [];
         var $items = PokeBox().addClass('itemsList');
-        $items.append($("<h3>").text(condenseText(title)));
+        $items.append($("<h3>").text(condenseText(title + " (" + items.length + ")")));
         var $list = $("<ul>").appendTo($items);
         items.map(i => {
             if (keyItems.indexOf(i.name.toUpperCase()) >= 0 && i.count < 2) {
