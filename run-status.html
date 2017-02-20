@@ -7,7 +7,7 @@
     <script src="bin/pokedex-data.js"></script>
     <script src="transforms/tpp-transforms.js"></script>
     <script src="display/tpp-display.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/tpp-progress.css" />
     <link rel="stylesheet" href="css/tpp-pokedex.css" />
     <link rel="stylesheet" href="css/pokemon.css" />
@@ -82,6 +82,10 @@
         .hallOfFameDisplay.pokeBorder {
             border:none;
             background-color:white;
+            width:95vw;
+        }
+        .hallOfFameDisplay table {
+            margin: auto;
         }
 
         .hallOfFameDisplay.pokeBorder td {
@@ -97,7 +101,7 @@
         }
 
         .pokedex {
-            max-width: 90%;
+            width: 90%;
         }
 
         .pokedex > h2, .pokedex > h3, .pokedex > h4, .pokedex > h5, .pokedex > h6 {
@@ -121,6 +125,18 @@
 
         .hallOfFameDisplay + .itemsList, .hallOfFameDisplay + .badgeList, .hallOfFameDisplay + .itemsList ~ .itemsList {
             margin-top: 2%;
+        }
+
+        .window-shade {
+            position: absolute;
+            left:.3em;
+            top:.5em;
+            opacity: .1;
+            cursor: pointer;
+        }
+
+        .window-shade:hover {
+            opacity: 1;
         }
 
     </style>

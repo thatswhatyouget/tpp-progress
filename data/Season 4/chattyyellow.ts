@@ -61,6 +61,11 @@ Season4.Runs.push(
             { "Group": "Badges", "Name": "BigBrother (Earth) Badge", "Time": "7d2h16m", "Attempts": 1, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/1904/3.0" },
             { Name: "NidoranM", Time: "7d2h25m", Group: "Pokemon" },
             { Name: "Vulpix", Time: "7d2h37m", Group: "Pokemon" },
+            // { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/yellow/lorelei.png", Time: "", Attempts: 0 },
+            // { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/yellow/bruno.png", Time: "", Attempts: 0 },
+            // { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/yellow/agatha.png", Time: "", Attempts: 0 },
+            // { Group: "Elite Four", Name: "Lance", Image: "img/trainers/yellow/lance.png", Time: "", Attempts: 0 },
+            // { Group: "Champions", Name: "BL;♀KTT", Image: "img/trainers/yellow/blue.png", Time: "", Attempts: 0 },
         ]
     }
 );

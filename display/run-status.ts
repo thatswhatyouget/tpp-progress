@@ -111,6 +111,7 @@ module TPP.Display.RunStatus {
                 return e;
             });
             $container.append(PokeBox().addClass("pokedex").addClass(cleanString(run.RunName))
+                .append(WindowShadeButton())    
                 .append($("<h3>").text("Pokédex"))
                 .append(entries.length < status.caught ? $("<h6>").text("(Outdated)") : "")
                 .append(TPP.Display.Pokedex.DrawOwnedCount(dex))
@@ -127,6 +128,7 @@ module TPP.Display.RunStatus {
     function DrawItems(items: TPP.Tv.Item[], title = "Items", itemSupplement: TMList = {}, keyItems: string[] = []) {
         items = items || [];
         var $items = PokeBox().addClass('itemsList');
+        $items.append(WindowShadeButton());
         $items.append($("<h3>").text(condenseText(title + " (" + items.length + ")")));
         var $list = $("<ul>").appendTo($items);
         items.map(i => {
@@ -159,6 +161,7 @@ module TPP.Display.RunStatus {
 
     function DrawBadges(run: TPP.Run, badges = extractBadges(run)) {
         var $badges = PokeBox().addClass('badgeList');
+        $badges.append(WindowShadeButton());
         $badges.append($("<h3>").text(condenseText(badges[0].Group)));
         var $list = $("<ul>").appendTo($badges);
         badges.forEach(b => {
@@ -199,8 +202,15 @@ module TPP.Display.RunStatus {
         return "";
     }
 
+    function WindowShadeButton() {
+        return $("<i>").addClass('fa fa-window-restore window-shade').click(function () {
+            $(this).parent().children("*:not(h1,h2,h3,h4,h5,h6,.border,.window-shade)").slideToggle();
+        });
+    }
+
     function DrawParty(run: TPP.Run, status: TPP.Tv.RunStatus) {
         var $party = PokeBox().addClass('hallOfFameDisplay');
+        $party.append(WindowShadeButton());
         $party.addClass(cleanString(run.RunName) + " " + (run.Class || "") + " " + (run.BaseGame || ""));
         // $party.css('background-color', run.ColorPrimary);
         // $party.css('border-color', run.ColorSecondary);
@@ -259,6 +269,7 @@ module TPP.Display.RunStatus {
 
     function DrawHallOfFame(runInfo: TPP.Run, hofInfo: TPP.HallOfFame, scale = TPP.Scale.Days) {
         var $hof = PokeBox().addClass("hallOfFameDisplay");
+        $hof.append(WindowShadeButton());
         $hof.addClass(cleanString(runInfo.RunName) + " " + (runInfo.Class || "") + " " + (runInfo.BaseGame || ""));
         // $hof.css('background-color', runInfo.ColorPrimary);
         // $hof.css('border-color', runInfo.ColorSecondary);
