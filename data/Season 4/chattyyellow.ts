@@ -68,11 +68,11 @@ Season4.Runs.push(
              { Group: "Champions", Name: "BL;♀KTT", Image: "https://static-cdn.jtvnw.net/emoticons/v1/81997/3.0", Time: "10d18h15m", Attempts: 5 },
              <TPP.HallOfFame>{
                  Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d18h17m", Attempts: 12, Party: [
-                     { Pokemon: "Venusaur", Nickname: "-SJJJJ×  µ", Level: 68, Type1: "Grass", Type2: "Poison" },
-                     { Pokemon: "Dugtrio", Nickname: "IGGGGGGFCC", Level: 63, Type1: "Ground" },
-                     { Pokemon: "Wigglytuff", Nickname: "IZZZZZZZZQ", Level: 74, Type1: "Normal" },
-                     { Pokemon: "Chatot", Nickname: "AAAAAAaaaa", Level: 74, Type1: "Normal", Type2: "Flying" },
-                     { Pokemon: "Gyarados", Nickname: "AJJJTUUUUU", Level: 82, Type1: "Water", Type2: "Flying" },
+                     { Pokemon: "Venusaur", Nickname: "-SJJJJ×  µ", Level: 69, Type1: "Grass", Type2: "Poison" },
+                     { Pokemon: "Dugtrio", Nickname: "IGGGGGGFCC", Level: 65, Type1: "Ground" },
+                     { Pokemon: "Wigglytuff", Nickname: "IZZZZZZZZQ", Level: 75, Type1: "Normal" },
+                     { Pokemon: "Chatot", Nickname: "AAAAAAaaaa", Level: 76, Type1: "Normal", Type2: "Flying" },
+                     { Pokemon: "Gyarados", Nickname: "AJJJTUUUUU", Level: 84, Type1: "Water", Type2: "Flying" },
                      { Pokemon: "Raichu", Nickname: "IAS       ", Level: 67, Type1: "Electric" },
                  ],
                  Image: "img/ribbons/champion.png",
