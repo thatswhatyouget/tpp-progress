@@ -356,6 +356,11 @@ ul.controls > li > ul > li.selected > a:before {
 	top:5px;
 }
 
+.progressChart .run .event.square img {
+	height:48px;
+	top:0;
+}
+
 .progressChart .run .event .extra {
 	position: absolute;
 	left:0;
