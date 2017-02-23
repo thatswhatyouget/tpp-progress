@@ -78,6 +78,7 @@ Season4.Runs.push(
                  Image: "img/ribbons/champion.png",
                  FirstAttemptDate: "10d12h11m"
              },
+            { Name: "Oddish", Time: "10d22h41m", Group: "Pokemon" },
         ]
     }
 );
