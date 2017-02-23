@@ -53,7 +53,7 @@ Season4.Runs.push(
             { "Group": "Badges", "Name": "PMSTwin (Marsh) Badge", "Time": "6d3h48m", "Attempts": 1, "Image": "img/badges/PMSTwin.png" },
             { Name: "Growlithe", Time: "6d16h2m", Group: "Pokemon" },
             { Name: "Ponyta", Time: "6d16h31m", Group: "Pokemon" },
-            { Name: "Grimer", Time: "6d17h5m", Group: "Pokemon" },
+            { Name: "Grimer", Time: "6d17h55m", Group: "Pokemon" },
             { Name: "Koffing", Time: "6d21h23m", Group: "Pokemon" },
             { Name: "Rapidash", Time: "6d22h8m", Group: "Pokemon" },
             { Name: "Magmar", Time: "6d23h56m", Group: "Pokemon" },
