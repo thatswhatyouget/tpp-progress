@@ -65,19 +65,19 @@ Season4.Runs.push(
             { Group: "Elite Four", Name: "TriHard (Bruno)", Image: "https://static-cdn.jtvnw.net/emoticons/v1/120232/3.0", Time: "10d12h21m", Attempts: 1 },
             { Group: "Elite Four", Name: "YouDontSay (Agatha)", Image: "https://static-cdn.jtvnw.net/emoticons/v1/134254/3.0", Time: "10d12h25m", Attempts: 1 },
             { Group: "Elite Four", Name: "CoolStoryBob (Lance)", Image: "https://static-cdn.jtvnw.net/emoticons/v1/123171/3.0", Time: "10d12h32m", Attempts: 1 },
-            // { Group: "Champions", Name: "BL;♀KTT", Image: "https://static-cdn.jtvnw.net/emoticons/v1/81997/3.0", Time: "10d", Attempts: 4 },
-            // <TPP.HallOfFame>{
-            //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d", Attempts: 12, Party: [
-            //         { Pokemon: "Venusaur", Nickname: "-SJJJJ×  µ", Level: 68, Type1: "Grass", Type2: "Poison" },
-            //         { Pokemon: "Dugtrio", Nickname: "IGGGGGGFCC", Level: 63, Type1: "Ground" },
-            //         { Pokemon: "Wigglytuff", Nickname: "IZZZZZZZZQ", Level: 74, Type1: "Normal" },
-            //         { Pokemon: "Chatot", Nickname: "AAAAAAaaaa", Level: 74, Type1: "Normal", Type2: "Flying" },
-            //         { Pokemon: "Gyarados", Nickname: "AJJJTUUUUU", Level: 82, Type1: "Water", Type2: "Flying" },
-            //         { Pokemon: "Raichu", Nickname: "IAS       ", Level: 67, Type1: "Electric" },
-            //     ],
-            //     Image: "img/ribbons/champion.png",
-            //     FirstAttemptDate: "10d12h11m"
-            // },
+             { Group: "Champions", Name: "BL;♀KTT", Image: "https://static-cdn.jtvnw.net/emoticons/v1/81997/3.0", Time: "10d18h15m", Attempts: 5 },
+             <TPP.HallOfFame>{
+                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d18h17m", Attempts: 12, Party: [
+                     { Pokemon: "Venusaur", Nickname: "-SJJJJ×  µ", Level: 68, Type1: "Grass", Type2: "Poison" },
+                     { Pokemon: "Dugtrio", Nickname: "IGGGGGGFCC", Level: 63, Type1: "Ground" },
+                     { Pokemon: "Wigglytuff", Nickname: "IZZZZZZZZQ", Level: 74, Type1: "Normal" },
+                     { Pokemon: "Chatot", Nickname: "AAAAAAaaaa", Level: 74, Type1: "Normal", Type2: "Flying" },
+                     { Pokemon: "Gyarados", Nickname: "AJJJTUUUUU", Level: 82, Type1: "Water", Type2: "Flying" },
+                     { Pokemon: "Raichu", Nickname: "IAS       ", Level: 67, Type1: "Electric" },
+                 ],
+                 Image: "img/ribbons/champion.png",
+                 FirstAttemptDate: "10d12h11m"
+             },
         ]
     }
 );
