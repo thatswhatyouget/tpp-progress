@@ -61,11 +61,11 @@ Season4.Runs.push(
             { "Group": "Badges", "Name": "BigBrother (Earth) Badge", "Time": "7d2h16m", "Attempts": 1, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/1904/3.0" },
             { Name: "NidoranM", Time: "7d2h25m", Group: "Pokemon" },
             { Name: "Vulpix", Time: "7d2h37m", Group: "Pokemon" },
-            { Group: "Elite Four", Name: "HotPokket (Lorelei)", Image: "https://static-cdn.jtvnw.net/emoticons/v1/357/3.0", Time: "10d12h13m", Attempts: 1 },
-            { Group: "Elite Four", Name: "TriHard (Bruno)", Image: "https://static-cdn.jtvnw.net/emoticons/v1/120232/3.0", Time: "10d12h21m", Attempts: 1 },
-            { Group: "Elite Four", Name: "YouDontSay (Agatha)", Image: "https://static-cdn.jtvnw.net/emoticons/v1/134254/3.0", Time: "10d12h25m", Attempts: 1 },
-            { Group: "Elite Four", Name: "CoolStoryBob (Lance)", Image: "https://static-cdn.jtvnw.net/emoticons/v1/123171/3.0", Time: "10d12h32m", Attempts: 1 },
-             { Group: "Champions", Name: "BL;♀KTT", Image: "https://static-cdn.jtvnw.net/emoticons/v1/81997/3.0", Time: "10d18h15m", Attempts: 5 },
+            { Group: "Elite Four", Name: "HotPokket (Lorelei)", Image: "https://static-cdn.jtvnw.net/emoticons/v1/357/3.0", Time: "10d12h13m", Attempts: 1, Class:"Badges" },
+            { Group: "Elite Four", Name: "TriHard (Bruno)", Image: "https://static-cdn.jtvnw.net/emoticons/v1/120232/3.0", Time: "10d12h21m", Attempts: 1 , Class:"Badges" },
+            { Group: "Elite Four", Name: "YouDontSay (Agatha)", Image: "https://static-cdn.jtvnw.net/emoticons/v1/134254/3.0", Time: "10d12h25m", Attempts: 1 , Class:"Badges" },
+            { Group: "Elite Four", Name: "CoolStoryBob (Lance)", Image: "https://static-cdn.jtvnw.net/emoticons/v1/123171/3.0", Time: "10d12h32m", Attempts: 1 , Class:"Badges" },
+             { Group: "Champions", Name: "BL;♀KTT", Image: "https://static-cdn.jtvnw.net/emoticons/v1/81997/3.0", Time: "10d18h15m", Attempts: 5 , Class:"Badges" },
              <TPP.HallOfFame>{
                  Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d18h16m", Attempts: 12, Party: [
                      { Pokemon: "Venusaur", Nickname: "-SJJJJ×  µ", Level: 69, Type1: "Grass", Type2: "Poison" },
