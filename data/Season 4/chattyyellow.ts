@@ -67,7 +67,7 @@ Season4.Runs.push(
             { Group: "Elite Four", Name: "CoolStoryBob (Lance)", Image: "https://static-cdn.jtvnw.net/emoticons/v1/123171/3.0", Time: "10d12h32m", Attempts: 1 },
              { Group: "Champions", Name: "BL;♀KTT", Image: "https://static-cdn.jtvnw.net/emoticons/v1/81997/3.0", Time: "10d18h15m", Attempts: 5 },
              <TPP.HallOfFame>{
-                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d18h17m", Attempts: 12, Party: [
+                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d18h16m", Attempts: 12, Party: [
                      { Pokemon: "Venusaur", Nickname: "-SJJJJ×  µ", Level: 69, Type1: "Grass", Type2: "Poison" },
                      { Pokemon: "Dugtrio", Nickname: "IGGGGGGFCC", Level: 65, Type1: "Ground" },
                      { Pokemon: "Wigglytuff", Nickname: "IZZZZZZZZQ", Level: 75, Type1: "Normal" },
