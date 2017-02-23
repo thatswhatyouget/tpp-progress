@@ -61,11 +61,23 @@ Season4.Runs.push(
             { "Group": "Badges", "Name": "BigBrother (Earth) Badge", "Time": "7d2h16m", "Attempts": 1, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/1904/3.0" },
             { Name: "NidoranM", Time: "7d2h25m", Group: "Pokemon" },
             { Name: "Vulpix", Time: "7d2h37m", Group: "Pokemon" },
-            // { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/yellow/lorelei.png", Time: "", Attempts: 0 },
-            // { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/yellow/bruno.png", Time: "", Attempts: 0 },
-            // { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/yellow/agatha.png", Time: "", Attempts: 0 },
-            // { Group: "Elite Four", Name: "Lance", Image: "img/trainers/yellow/lance.png", Time: "", Attempts: 0 },
-            // { Group: "Champions", Name: "BL;♀KTT", Image: "img/trainers/yellow/blue.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "HotPokket", Image: "https://static-cdn.jtvnw.net/emoticons/v1/357/3.0", Time: "10d12h13m", Attempts: 1 },
+            { Group: "Elite Four", Name: "TriHard", Image: "https://static-cdn.jtvnw.net/emoticons/v1/120232/3.0", Time: "10d12h21m", Attempts: 1 },
+            { Group: "Elite Four", Name: "YouDontSay", Image: "https://static-cdn.jtvnw.net/emoticons/v1/134254/3.0", Time: "10d12h25m", Attempts: 1 },
+            { Group: "Elite Four", Name: "CoolStoryBob", Image: "https://static-cdn.jtvnw.net/emoticons/v1/123171/3.0", Time: "10d12h32m", Attempts: 1 },
+            // { Group: "Champions", Name: "BL;♀KTT", Image: "https://static-cdn.jtvnw.net/emoticons/v1/2867/3.0", Time: "", Attempts: 0 },
+            // <TPP.HallOfFame>{
+            //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+            //         { Pokemon: "Raichu", Nickname: "IAS       ", Level: 56, Type1: "Electric" },
+            //         { Pokemon: "Venusaur", Nickname: "-SJJJJ×  µ", Level: 59, Type1: "Grass", Type2: "Poison" },
+            //         { Pokemon: "Chatot", Nickname: "AAAAAAaaaa", Level: 69, Type1: "Normal", Type2: "Flying" },
+            //         { Pokemon: "Wigglytuff", Nickname: "IZZZZZZZZQ", Level: 66, Type1: "Normal" },
+            //         { Pokemon: "Dugtrio", Nickname: "IGGGGGGFCC", Level: 59, Type1: "Ground" },
+            //         { Pokemon: "Gyarados", Nickname: "AJJJTUUUUU", Level: 68, Type1: "Water", Type2: "Flying" },
+            //     ],
+            //     Image: "img/ribbons/champion.png",
+            //     FirstAttemptDate: "10d12h11m"
+            // },
         ]
     }
 );
