@@ -100,6 +100,7 @@ Season4.Runs.push(
             { Name: "Paras", Time: "11d15h59m", Group: "Pokemon" },
             { Name: "Exeggcute", Time: "11d16h19m", Group: "Pokemon" },
             { Name: "Abra", Time: "11d17h44m", Group: "Pokemon" },
+            { Name: "Hitmonlee", Time: "11d18h21m", Group: "Pokemon" },
         ]
     }
 );
