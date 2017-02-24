@@ -4,7 +4,6 @@ Season4.Runs.push(
         RunName: "Chatty Yellow",
         StartDate: "2017-02-12T21:00:00Z",
         Duration: "2017-02-24T16:00:00Z",
-        Ongoing: true,
         ColorPrimary: "yellow",
         ColorSecondary: "darkblue",
         HostImage: "img/hosts/tppRobored.png",
