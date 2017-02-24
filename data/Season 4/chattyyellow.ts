@@ -98,6 +98,7 @@ Season4.Runs.push(
             { Name: "Cubone", Time: "11d15h43m", Group: "Pokemon" },
             { Name: "Tauros", Time: "11d15h45m", Group: "Pokemon" },
             { Name: "Paras", Time: "11d15h59m", Group: "Pokemon" },
+            { Name: "Exeggcute", Time: "11d16h19m", Group: "Pokemon" },
         ]
     }
 );
