@@ -93,6 +93,9 @@ Season4.Runs.push(
             { Name: "Kabuto", Time: "11d13h52m", Group: "Pokemon" },
             { Name: "Goldeen", Time: "11d14h49m", Group: "Pokemon" },
             { Name: "Omanyte", Time: "11d14h58m", Group: "Pokemon" },
+            { Name: "Nidorina", Time: "11d15h37m", Group: "Pokemon" },
+            { Name: "Nidorino", Time: "11d15h38m", Group: "Pokemon" },
+            { Name: "Cubone", Time: "11d15h43m", Group: "Pokemon" },
         ]
     }
 );
