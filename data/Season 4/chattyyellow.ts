@@ -90,6 +90,7 @@ Season4.Runs.push(
             { Name: "Kingler", Time: "11d9h32m", Group: "Pokemon" },
             { Name: "Krabby", Time: "11d9h41m", Group: "Pokemon" },
             { Name: "Psyduck", Time: "11d9h46m", Group: "Pokemon" },
+            { Name: "Kabuto", Time: "11d13h52m", Group: "Pokemon" },
         ]
     }
 );
