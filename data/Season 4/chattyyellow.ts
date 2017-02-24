@@ -81,6 +81,7 @@ Season4.Runs.push(
             { Name: "Oddish", Time: "10d22h41m", Group: "Pokemon" },
             { Name: "Weepinbell", Time: "11d1h58m", Group: "Pokemon" },
             { Name: "Ditto", Time: "11d3h51m", Group: "Pokemon" },
+            { Name: "Rhydon", Time: "11d5h30m", Group: "Pokemon" },
         ]
     }
 );
