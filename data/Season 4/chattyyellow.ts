@@ -97,6 +97,7 @@ Season4.Runs.push(
             { Name: "Nidorino", Time: "11d15h38m", Group: "Pokemon" },
             { Name: "Cubone", Time: "11d15h43m", Group: "Pokemon" },
             { Name: "Tauros", Time: "11d15h45m", Group: "Pokemon" },
+            { Name: "Paras", Time: "11d15h59m", Group: "Pokemon" },
         ]
     }
 );
