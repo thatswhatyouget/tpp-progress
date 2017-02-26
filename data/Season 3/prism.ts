@@ -176,10 +176,10 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Gyarados", "Time": "15d 8h 51m" },
             { "Group": "Pokemon", "Name": "Houndoom", "Time": "16d 2h" },
             { "Group": "Pokemon", "Name": "Loudred", "Time": "16d 2h 14m" },
-            { "Group": "Elite Four", "Name": "Yuki", "Time": "16d 3h 29m", "Attempts": 1, "Image": "img/trainers/prism/rematch/yuki.png" },
-            { "Group": "Elite Four", "Name": "Sora", "Time": "16d 3h 41m", "Attempts": 1, "Image": "img/trainers/prism/rematch/sora.png" },
-            { "Group": "Elite Four", "Name": "Daichi", "Time": "16d 3h 46m", "Attempts": 1, "Image": "img/trainers/prism/rematch/daichi.png" },
-            { "Group": "Elite Four", "Name": "Mura", "Time": "16d 6h 21m", "Attempts": 3, "Image": "img/trainers/prism/rematch/mura.png" },
+            { "Group": "Elite Four Rematch", "Name": "Yuki", "Time": "16d 3h 29m", "Attempts": 1, "Image": "img/trainers/prism/rematch/yuki.png" },
+            { "Group": "Elite Four Rematch", "Name": "Sora", "Time": "16d 3h 41m", "Attempts": 1, "Image": "img/trainers/prism/rematch/sora.png" },
+            { "Group": "Elite Four Rematch", "Name": "Daichi", "Time": "16d 3h 46m", "Attempts": 1, "Image": "img/trainers/prism/rematch/daichi.png" },
+            { "Group": "Elite Four Rematch", "Name": "Mura", "Time": "16d 6h 21m", "Attempts": 3, "Image": "img/trainers/prism/rematch/mura.png" },
             { "Group": "Champions", "Name": "Lance", "Time": "16d 9h 32m", "Attempts": 4, "Image": "img/trainers/prism/rematch/lance.png" },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 9h 33m", Attempts: 10, IDNo: "59484", Party: [
@@ -194,8 +194,8 @@ Season3.Runs.push(
             },
             { "Group": "Pokemon", "Name": "Skorupi", "Time": "16d 17h 35m" },
             { "Group": "Pokemon", "Name": "Glalie", "Time": "16d 18h 34m" },
-            { "Group": "Elite Four", "Image": "img/hosts/paul.png", "Name": "Brown", "Time": "16d 22h 13m", "Attempts": 1 },
-            { "Group": "Elite Four", "Image": "img/hosts/ajdnnw.png", "Name": "Gold", "Time": "16d 22h 21m", "Attempts": 1 },
+            { "Group": "Champions", "Image": "img/hosts/paul.png", "Name": "Brown", "Time": "16d 22h 13m", "Attempts": 1 },
+            { "Group": "Champions", "Image": "img/hosts/ajdnnw.png", "Name": "Gold", "Time": "16d 22h 21m", "Attempts": 1 },
             { "Group": "Champions", "Image": "img/hosts/red.png", "Name": "Red", "Time": "16d 22h 27m", "Attempts": 1 },
         ]
     }
