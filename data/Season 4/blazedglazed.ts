@@ -9,7 +9,7 @@ Season4.Runs.push(
         HostImage: "",
         HostName: "",
         Region: "Tunod",
-        AdditionalRegions: [{ Name: "Johto", Time: "" }, { Name: "Rankor", Time: "" }],
+        //AdditionalRegions: [{ Name: "Johto", Time: "" }, { Name: "Rankor", Time: "" }],
         BaseGame: "Emerald",
         // Scraper: {
         //     url: "http://twitchplayspokemon.org/",

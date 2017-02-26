@@ -140,6 +140,11 @@ declare module TPP.Transforms.Data.Filter {
     function RemoveFutureRunsFromCollection(tppData: Collection): Collection;
     function RemoveFutureRuns(tppData: Collection[]): Collection[];
 }
+declare module TPP.Transforms.Data.Processing {
+    function MarkOngoingRunsInRuns(tppData: Run[]): Run[];
+    function MarkOngoingRunsInCollection(tppData: Collection): Collection;
+    function MarkOngoingRuns(tppData: Collection[]): Collection[];
+}
 declare module TPP {
     class Duration {
         private days;

@@ -167,7 +167,7 @@
     </div>
     <div class="charts">
         <script>
-            var run = QueryString["run"] ? TPP.Display.RunStatus.GetSpecifiedRun(tppData, QueryString["run"]) : TPP.Display.RunStatus.GetCurrentRun(tppData);
+            var run = QueryString["run"] ? TPP.Display.RunStatus.GetSpecifiedRun(tppData, QueryString["run"]) : TPP.Display.RunStatus.GetCurrentRun(TPP.Transforms.Data.Filter.RemoveFutureRuns(TPP.Transforms.Data.Processing.MarkOngoingRuns(tppData)));
             var natDex = TPP.Transforms.Pokedex.ClipNationalDex(run.DexTotal || Pokedex.GenSlice[run.Generation || 0]);
             var pokemon = TPP.Transforms.Pokedex.DexMerge(Pokedex.Regional[run.Pokedex || run.Region], natDex);
             if (run.RunName == "Chatty Yellow") {
