@@ -7,10 +7,10 @@ Sidegames.Runs.push(
         ColorSecondary: "black",
         Duration: "255w",
         HostName: "TPPSIM",
-        HostImage: "http://cdn.bulbagarden.net/upload/a/a5/Spr_HGSS_Ethan.png",
-        //HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
-        Region: "Johto",
-        //AdditionalRegions: [{ Name: "Kanto", Time: "" }],
+        HostImage: "img/hosts/tppsim.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5w92xx/the_hosts_of_the_voices_after_the_4th_anniversary/",
+        Region: "Janto",
+        //AdditionalRegions: [{ Name: "Kohto", Time: "" }],
         Generation: 2,
         Pokedex: "New",
         Events: [
@@ -38,4 +38,6 @@ Sidegames.Runs.push(
             // { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "" },
         ]
     }
+
+    //<iframe allowfullscreen="true" scrolling="no" src="https://imgur.com/a/twP6C/embed?pub=true" style="height: 500px; width: 640px; margin: auto; padding: 0px;"></iframe>
 );

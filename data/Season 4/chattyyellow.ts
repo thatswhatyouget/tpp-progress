@@ -8,7 +8,7 @@ Season4.Runs.push(
         ColorSecondary: "darkblue",
         HostImage: "img/hosts/tppRobored.png",
         HostName: "×µ(?", //"×ᴹɴ(?",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5vv81g/chatty_yellow_sprites_so_youre_telling_me_the/",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5w92xx/the_hosts_of_the_voices_after_the_4th_anniversary/",
         Region: "Kanto",
         BaseGame: "Yellow",
         // Scraper: {
