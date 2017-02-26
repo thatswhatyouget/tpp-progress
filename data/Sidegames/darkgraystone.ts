@@ -1,0 +1,41 @@
+/// <reference path="../tpp-data.ts" />
+Sidegames.Runs.push(
+    {
+        RunName: "Dark Graystone",
+        StartDate: "2017-02-24T16:05:58Z",
+        ColorPrimary: "darkgray",
+        ColorSecondary: "black",
+        Duration: "255w",
+        HostName: "TPPSIM",
+        HostImage: "http://cdn.bulbagarden.net/upload/a/a5/Spr_HGSS_Ethan.png",
+        //HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+        Region: "Johto",
+        //AdditionalRegions: [{ Name: "Kanto", Time: "" }],
+        Generation: 2,
+        Pokedex: "New",
+        Events: [
+            { Name: "Wooper", Time: "Sat Feb 25 2017 22:20:40 GMT+0000 (UTC)", Group: "Pokemon" },
+            // { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "" },
+            // { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "" },
+            // { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "" },
+            // { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "" },
+            // { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "" },
+            // { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "" },
+            // { Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png", Time: "" },
+            // { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "" },
+            // { Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png", Time: "" },
+            // { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "" },
+            // { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "" },
+            // { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "" },
+            // { Group: "Champions", Name: "Lance", Image: "img/trainers/crystal/lance.png", Time: "" },
+            // { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "" },
+            // { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "" },
+            // { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "" },
+            // { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "" },
+            // { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "" },
+            // { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "" },
+            // { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "" },
+            // { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "" },
+        ]
+    }
+);
