@@ -1961,10 +1961,13 @@
 .pokesprite.fambaco img  { background-image:url("../img/fakemon/fambaco.png")!important; }
 .pokesprite.libabeel img  { background-image:url("../img/fakemon/libabeel.png")!important; }
 .pokesprite.defeevee img  { background-image:url("../img/fakemon/defeevee.png")!important; }
+.pokesprite.offeevee img  { background-image:url("../img/fakemon/offeevee.png")!important; }
+.pokesprite.pikachub img  { background-image:url("../img/fakemon/pikachub.png")!important; }
+.pokesprite.mlucario img  { background-image:url("../img/fakemon/mlucario.png")!important; }
 .pokesprite.rotomc img  { background-image:url("../img/fakemon/rotomc.png")!important; }
 .pokesprite.rotomf img  { background-image:url("../img/fakemon/rotomf.png")!important; }
 .pokesprite.rotomh img  { background-image:url("../img/fakemon/rotomh.png")!important; }
 .pokesprite.rotoms img  { background-image:url("../img/fakemon/rotoms.png")!important; }
 .pokesprite.rotomw img  { background-image:url("../img/fakemon/rotomw.png")!important; }
-.event.pokemon.pokesprite.unidentified img, .event.pokemon.pokesprite.prizmeon img, .event.pokemon.pokesprite.phancero img, .event.pokemon.pokesprite.raiwato img, .event.pokemon.pokesprite.varaneous img, .event.pokemon.pokesprite.fambaco img, .event.pokemon.pokesprite.libabeel img, .event.pokemon.pokesprite.defeevee img, .event.pokemon.pokesprite.rotomc img, .event.pokemon.pokesprite.rotomf img, .event.pokemon.pokesprite.rotomh img, .event.pokemon.pokesprite.rotoms img, .event.pokemon.pokesprite.rotomw img { background-size: 50%!important; background-position: center!important; }
+.event.pokemon.pokesprite.unidentified img, .event.pokemon.pokesprite.prizmeon img, .event.pokemon.pokesprite.phancero img, .event.pokemon.pokesprite.raiwato img, .event.pokemon.pokesprite.varaneous img, .event.pokemon.pokesprite.fambaco img, .event.pokemon.pokesprite.libabeel img, .event.pokemon.pokesprite.defeevee img, .event.pokemon.pokesprite.offeevee img, .event.pokemon.pokesprite.pikachub img, .event.pokemon.pokesprite.mlucario img, .event.pokemon.pokesprite.rotomc img, .event.pokemon.pokesprite.rotomf img, .event.pokemon.pokesprite.rotomh img, .event.pokemon.pokesprite.rotoms img, .event.pokemon.pokesprite.rotomw img { background-size: 50%!important; background-position: center!important; }
 .pokesprite.phancero:hover img  { background-image:url("../img/fakemon/phancero-hover.png")!important; }
