@@ -3,7 +3,7 @@
 var fakemon = [
     "Unidentified",
     "Prizmeon", "Phancero", "Raiwato", "Varaneous", "Fambaco", "Libabeel", //Prism
-    "Def-Eevee", "Off-Eevee", "Pikachu-B", "M-Lucario", "Rotom-C", "Rotom-F", "Rotom-H", "Rotom-S", "Rotom-W", //Glazed
+    "Def-Eevee", "Rotom-C", "Rotom-F", "Rotom-H", "Rotom-S", "Rotom-W", "Pikachu-B", "Kyurem-B", "Kyurem-W", "Mew-B", "Off-Eevee", "M-Lucario", //Glazed
 ];
 
 addStyles(fakemon, f => {
