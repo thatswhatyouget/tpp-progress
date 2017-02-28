@@ -528,6 +528,11 @@ ul.controls > li > ul > li.selected > a:before {
 	background-image:url("../img/touhoumon-small.png");
 }
 
+.progressChart  #moemon.run .event.pokemon.pokesprite img {
+	background-image:url("../img/moemon-small.png");
+}
+
+
 .progressChart .tradingcardgame .innertradingcardgame .event {
     display: none;
 }
@@ -740,6 +745,10 @@ ul.controls > li > ul > li.selected > a:before {
 
 .hallOfFameDisplay.touhoumon .entry .pokesprite img {
 	background-image:url("../img/touhoumon-large.png");
+}
+
+.hallOfFameDisplay.moemon .entry .pokesprite img {
+	background-image:url("../img/moemon-large.png");
 }
 
 .hallOfFameDisplay .entry .info > * {

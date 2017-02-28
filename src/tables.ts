@@ -129,6 +129,7 @@ function generateGlobalDex(tppData: TPP.Collection[]) {
     if (QueryString["run"]) {
         tppData = tppData.map(c => {
             c.Runs = c.Runs.filter(r => QueryString["run"].split(',').filter(f => r.RunName.indexOf(f.trim()) >= 0).length > 0);
+            c.Runs.forEach(r => $('#pokedex').addClass(cleanString(r.RunName)));
             return c;
         }).filter(c => c.Runs.length > 0);
     }
