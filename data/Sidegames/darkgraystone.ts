@@ -15,6 +15,7 @@ Sidegames.Runs.push(
         Pokedex: "New",
         Events: [
             { Name: "Wooper", Time: "Sat Feb 25 2017 22:20:40 GMT+0000 (UTC)", Group: "Pokemon" },
+            { Name: "Krabby", Time: "Thu Mar 02 2017 06:12:13 GMT+0000 (UTC)", Group: "Pokemon" },
             // { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "" },
             // { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "" },
             // { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "" },
