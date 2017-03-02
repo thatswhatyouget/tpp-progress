@@ -16,6 +16,7 @@ Sidegames.Runs.push(
         Events: [
             { Name: "Wooper", Time: "Sat Feb 25 2017 22:20:40 GMT+0000 (UTC)", Group: "Pokemon" },
             { Name: "Krabby", Time: "Thu Mar 02 2017 06:12:13 GMT+0000 (UTC)", Group: "Pokemon" },
+            { Name: "Kingler", Time: "Thu Mar 02 2017 15:25:26 GMT+0000 (Coordinated Universal Time)", Group: "Pokemon" },
             // { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "" },
             // { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "" },
             // { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "" },
@@ -39,6 +40,4 @@ Sidegames.Runs.push(
             // { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "" },
         ]
     }
-
-    //<iframe allowfullscreen="true" scrolling="no" src="https://imgur.com/a/twP6C/embed?pub=true" style="height: 500px; width: 640px; margin: auto; padding: 0px;"></iframe>
 );
