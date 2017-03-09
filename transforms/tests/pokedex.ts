@@ -2,7 +2,7 @@
 /// <reference path="../pokedex/globalpokedex.ts" />
 /// <reference path="../pokedex/dexmerge.ts" />
 
-module TPP.Transforms.Pokedex {
+namespace TPP.Transforms.Pokedex {
     var startTime = new Date(2014, 6, 10, 0, 0, 0).valueOf() / 1000;
     var mockDex = ["MissingNo.", "Mew", "Pikachu", "Butterfree", "Jirachi", "Entei", "Mimikyu", "Marill", "Azumarill"];
     var mockRegionalDex = [-1, 2, 7, 8, 6, "Phancero"];

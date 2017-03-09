@@ -1,5 +1,5 @@
 /// <reference path="runsummary.ts" />
-module TPP.Transforms.Pokedex {
+namespace TPP.Transforms.Pokedex {
 
     export class CollectionSummary extends TPP.Pokedex.CollectionSummaryBase {
         

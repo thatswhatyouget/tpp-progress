@@ -1,6 +1,6 @@
 /// <reference path="../ref/jquery.d.ts" />
 /// <reference path="tpp-scraper.d.ts" />
-declare module TPP {
+declare namespace TPP {
     enum Scale {
         Weeks = 0,
         Days = 1,
@@ -8,7 +8,7 @@ declare module TPP {
         Minutes = 3,
     }
 }
-declare module TPP {
+declare namespace TPP {
     interface Event {
         Group: string;
         Image?: string;
@@ -50,7 +50,7 @@ declare module TPP {
     interface DisplayHallOfFame extends HallOfFame, DisplayEvent {
     }
 }
-declare module Twitch {
+declare namespace Twitch {
     interface TwitchCall {
         _total: number;
         _links: {
@@ -74,7 +74,7 @@ declare module Twitch {
     }
     function GetVideos(channel: string, getAll?: boolean): JQueryPromise<Video[]>;
 }
-declare module TPP {
+declare namespace TPP {
     interface Run {
         HostImage?: string;
         HostImageSource?: string;
@@ -123,7 +123,7 @@ declare module TPP {
         Element?: HTMLDivElement;
     }
 }
-declare module TPP {
+declare namespace TPP {
     interface Collection {
         Name: string;
         SingularName?: string;
@@ -135,17 +135,67 @@ declare module TPP {
         Element?: HTMLDivElement;
     }
 }
-declare module TPP.Transforms.Data.Filter {
-    function RemoveFutureRunsFromRuns(tppData: Run[]): Run[];
-    function RemoveFutureRunsFromCollection(tppData: Collection): Collection;
-    function RemoveFutureRuns(tppData: Collection[]): Collection[];
+declare namespace TPP.Transforms.Data.Traversal {
+    function EventLevel(eventFunc: (e: Event, r?: Run, c?: Collection) => Event | boolean, filter?: boolean): {
+        (tppData: Event, collection?: Collection, run?: Run): Event;
+        (tppData: Event[], collection?: Collection, run?: Run): Event[];
+        (tppData: Run, collection?: Collection): Run;
+        (tppData: Run[], collection?: Collection): Run[];
+        (tppData: Collection): Collection;
+        (tppData: Collection[]): Collection[];
+    };
+    function RunLevel(runFunc: (r: Run, c?: Collection) => Run | boolean, filter?: boolean): {
+        (tppData: Run, collection?: Collection): Run;
+        (tppData: Run[], collection?: Collection): Run[];
+        (tppData: Collection): Collection;
+        (tppData: Collection[]): Collection[];
+    };
+    function CollectionLevel(collectionFunc: (c: Collection) => Collection | boolean, filter?: boolean): {
+        (tppData: Collection): Collection;
+        (tppData: Collection[]): Collection[];
+    };
+    function MultiLevel(collectionFunc: (c: Collection) => Collection, runFunc?: (r: Run, c?: Collection) => Run, eventFunc?: (e: Event, r?: Run, c?: Collection) => Event): {
+        (tppData: Event, collection?: Collection, run?: Run): Event;
+        (tppData: Event[], collection?: Collection, run?: Run): Event[];
+        (tppData: Run, collection?: Collection): Run;
+        (tppData: Run[], collection?: Collection): Run[];
+        (tppData: Collection): Collection;
+        (tppData: Collection[]): Collection[];
+    };
 }
-declare module TPP.Transforms.Data.Processing {
-    function MarkOngoingRunsInRuns(tppData: Run[]): Run[];
-    function MarkOngoingRunsInCollection(tppData: Collection): Collection;
-    function MarkOngoingRuns(tppData: Collection[]): Collection[];
+declare namespace TPP.Transforms.Data {
+    var Clone: {
+        (tppData: Event, collection?: Collection, run?: Run): Event;
+        (tppData: Event[], collection?: Collection, run?: Run): Event[];
+        (tppData: Run, collection?: Collection): Run;
+        (tppData: Run[], collection?: Collection): Run[];
+        (tppData: Collection): Collection;
+        (tppData: Collection[]): Collection[];
+    };
 }
-declare module TPP {
+declare namespace TPP.Transforms.Data.Filter {
+    var RemoveFutureRuns: {
+        (tppData: Run, collection?: Collection): Run;
+        (tppData: Run[], collection?: Collection): Run[];
+        (tppData: Collection): Collection;
+        (tppData: Collection[]): Collection[];
+    };
+}
+declare namespace TPP.Transforms.Data.Processing {
+    function CatchReport(tppData: Run, day?: number, collection?: Collection): Run;
+    function CatchReport(tppData: Run[], day?: number, collection?: Collection): Run[];
+    function CatchReport(tppData: Collection, day?: number): Collection;
+    function CatchReport(tppData: Collection[], day?: number): Collection[];
+}
+declare namespace TPP.Transforms.Data.Processing {
+    var MarkOngoingRuns: {
+        (tppData: Run, collection?: Collection): Run;
+        (tppData: Run[], collection?: Collection): Run[];
+        (tppData: Collection): Collection;
+        (tppData: Collection[]): Collection[];
+    };
+}
+declare namespace TPP {
     class Duration {
         private days;
         private hours;
@@ -163,7 +213,7 @@ declare module TPP {
         constructor(weeks: string | number, days?: number, hours?: number, minutes?: number, seconds?: number);
     }
 }
-declare module TPP.Pokedex {
+declare namespace TPP.Pokedex {
     interface HofEntry {
         Pokemon: string;
         Ribbon: string;
@@ -217,7 +267,7 @@ declare module TPP.Pokedex {
         FilterDexToHallOfFame(): void;
     }
 }
-declare module TPP.Transforms.Pokedex {
+declare namespace TPP.Transforms.Pokedex {
     class RunSummary extends TPP.Pokedex.RunSummaryBase {
         constructor(Run: TPP.Run, PokeList: string[]);
         private FillOwnedDict(PokeList);
@@ -226,13 +276,13 @@ declare module TPP.Transforms.Pokedex {
         private FillHallOfFame(PokeList);
     }
 }
-declare module TPP.Transforms.Pokedex {
+declare namespace TPP.Transforms.Pokedex {
     class CollectionSummary extends TPP.Pokedex.CollectionSummaryBase {
         constructor(tppData: Collection[], PokeList: string[]);
         private FilterHoFToUniques();
     }
 }
-declare module TPP.Transforms.Pokedex {
+declare namespace TPP.Transforms.Pokedex {
     class DexEntry extends TPP.Pokedex.DexEntryBase {
         constructor(pokemon: string, number: number, collectionSummary: CollectionSummary);
         private GatherPokemonFromRuns(collectionSummary);
@@ -240,11 +290,11 @@ declare module TPP.Transforms.Pokedex {
         private GatherHallOfFameEntries(collectionsummary);
     }
 }
-declare module TPP.Transforms.Pokedex {
+declare namespace TPP.Transforms.Pokedex {
     function DexMerge(Regional: (number | string)[], National?: string[]): string[];
     function ClipNationalDex(highestDexNumber: number, National?: string[]): string[];
 }
-declare module TPP.Transforms.Pokedex {
+declare namespace TPP.Transforms.Pokedex {
     class GlobalDex extends TPP.Pokedex.GlobalDexBase {
         constructor(collectionSummary: CollectionSummary, PokeList: string[]);
     }

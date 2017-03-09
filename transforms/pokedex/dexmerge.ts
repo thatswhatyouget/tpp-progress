@@ -1,4 +1,4 @@
-module TPP.Transforms.Pokedex {
+namespace TPP.Transforms.Pokedex {
 
     //get National Dex from pokedex-data if it exists
     var natDex: string[] = typeof(window) !== "undefined" ? ((<any>window || {}).Pokedex || {}).PokeList || [] : [];

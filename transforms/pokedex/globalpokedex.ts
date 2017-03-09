@@ -1,5 +1,5 @@
 /// <reference path="dexentry.ts" />
-module TPP.Transforms.Pokedex {
+namespace TPP.Transforms.Pokedex {
 
     export class GlobalDex extends TPP.Pokedex.GlobalDexBase {
         constructor(collectionSummary: CollectionSummary, PokeList: string[]) {

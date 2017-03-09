@@ -2,7 +2,7 @@
 /// <reference path="../../models/duration.ts" />
 /// <reference path="../../models/pokedex.ts" />
 
-module TPP.Transforms.Pokedex {
+namespace TPP.Transforms.Pokedex {
 
     export class RunSummary extends TPP.Pokedex.RunSummaryBase {
         constructor(Run: TPP.Run, PokeList: string[]) {

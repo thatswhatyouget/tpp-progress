@@ -1,5 +1,5 @@
 /// <reference path="collectionsummary.ts" />
-module TPP.Transforms.Pokedex {
+namespace TPP.Transforms.Pokedex {
     export class DexEntry extends TPP.Pokedex.DexEntryBase {
         constructor(pokemon: string, number: number, collectionSummary: CollectionSummary) {
             super();
