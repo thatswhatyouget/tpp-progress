@@ -17,6 +17,7 @@ Sidegames.Runs.push(
             { Name: "Wooper", Time: "Sat Feb 25 2017 22:20:40 GMT+0000 (UTC)", Group: "Pokemon" },
             { Name: "Krabby", Time: "Thu Mar 02 2017 06:12:13 GMT+0000 (UTC)", Group: "Pokemon" },
             { Name: "Kingler", Time: "Thu Mar 02 2017 15:25:26 GMT+0000 (Coordinated Universal Time)", Group: "Pokemon" },
+            { Name: "Celebi", Time: "Thu Mar 09 2017 17:35:29 GMT+0000 (Coordinated Universal Time)", Group: "Pokemon" },
             // { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "" },
             // { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "" },
             // { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "" },
