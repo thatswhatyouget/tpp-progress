@@ -1,6 +1,6 @@
 /// <reference path="event.ts" />
 /// <reference path="twitch.ts" />
-module TPP {
+namespace TPP {
     export interface Run {
         HostImage?: string;
         HostImageSource?: string;

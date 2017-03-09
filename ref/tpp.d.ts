@@ -1,13 +1,11 @@
-/// <reference path="jquery.d.ts" />
-declare module TPP {
+declare namespace TPP {
     enum Scale {
         Weeks = 0,
         Days = 1,
         Hours = 2,
         Minutes = 3,
     }
-}
-declare module TPP {
+
     interface Event {
         Group: string;
         Image?: string;
@@ -48,32 +46,6 @@ declare module TPP {
     }
     interface DisplayHallOfFame extends HallOfFame, DisplayEvent {
     }
-}
-declare module Twitch {
-    interface TwitchCall {
-        _total: number;
-        _links: {
-            next: string;
-        };
-        videos: TwitchVideo[];
-    }
-    interface TwitchVideo {
-        recorded_at: string;
-        length: number;
-        url: string;
-    }
-    class Video implements TwitchVideo {
-        recorded_at: string;
-        length: number;
-        url: string;
-        source: string;
-        StartTime: number;
-        EndTime: number;
-        constructor(recorded_at: string, length: number, url: string, source: string);
-    }
-    function GetVideos(channel: string, getAll?: boolean): JQueryPromise<Video[]>;
-}
-declare module TPP {
     interface Run {
         HostImage?: string;
         HostImageSource?: string;
@@ -119,8 +91,7 @@ declare module TPP {
         Hidden?: boolean;
         Element?: HTMLDivElement;
     }
-}
-declare module TPP {
+
     interface Collection {
         Name: string;
         SingularName?: string;
@@ -130,23 +101,5 @@ declare module TPP {
     interface DisplayCollection extends Collection {
         Offset?: number;
         Element?: HTMLDivElement;
-    }
-}
-declare module TPP {
-    class Duration {
-        private days;
-        private hours;
-        private minutes;
-        private seconds;
-        private static parseReg;
-        TotalSeconds: number;
-        TotalHours: number;
-        TotalDays: number;
-        TotalWeeks: number;
-        TotalTime(scale: TPP.Scale): number;
-        toString(scale?: Scale): string;
-        static parse(time: string, baseTime?: number): Duration;
-        static canParse(time: string): boolean;
-        constructor(weeks: string | number, days?: number, hours?: number, minutes?: number, seconds?: number);
     }
 }

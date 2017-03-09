@@ -1,4 +1,4 @@
-module TPP {
+namespace TPP {
     export class Duration {
         private static parseReg = /^\s*(?:(\d*)w)?\s*(?:(\d*)d)?\s*(?:(\d*)h)?\s*(?:(\d*)m)?\s*(?:(\d*)s)?\s*$/i;
 

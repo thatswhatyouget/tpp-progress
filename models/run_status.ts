@@ -1,4 +1,4 @@
-module TPP.Tv {
+namespace TPP.Tv {
     export interface Item {
         id: number;
         name: string;

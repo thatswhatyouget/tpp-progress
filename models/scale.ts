@@ -1,4 +1,4 @@
-module TPP {
+namespace TPP {
     export enum Scale {
         Weeks,
         Days,

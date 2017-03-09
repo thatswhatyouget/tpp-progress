@@ -1,4 +1,4 @@
-module TPP {
+namespace TPP {
     export interface Event {
         Group: string;
         Image?: string;

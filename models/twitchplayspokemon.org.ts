@@ -1,6 +1,6 @@
-module TPP {
-    export module Org {
-        export module V1 {
+namespace TPP {
+    export namespace Org {
+        export namespace V1 {
             export interface General {
                 status: string;
                 data: {

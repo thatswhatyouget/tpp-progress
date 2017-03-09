@@ -1,6 +1,6 @@
 /// <reference path="scale.ts" />
 /// <reference path="run.ts" />
-module TPP {
+namespace TPP {
     export interface Collection {
         Name: string;
         SingularName?: string;

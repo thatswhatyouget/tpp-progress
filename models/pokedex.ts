@@ -1,5 +1,5 @@
 /// <reference path="collection.ts" />
-module TPP.Pokedex {
+namespace TPP.Pokedex {
 
     export interface HofEntry {
         Pokemon: string;

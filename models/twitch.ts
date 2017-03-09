@@ -1,5 +1,5 @@
 /// <reference path="../ref/jquery.d.ts" />
-module Twitch {
+namespace Twitch {
     var offsetExp = /offset=(\d*)/i;
     var clientId = 'l6ejgsj101ymei0f6v4a6nkjw9upml9'; //hardcoded 'cause it doesn't matter
 
