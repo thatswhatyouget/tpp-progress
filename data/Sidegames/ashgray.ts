@@ -6,12 +6,13 @@ Sidegames.Runs.push(
         ColorSecondary: "#97856E",
         Duration: "255w",
         StartDate: "2017-03-13 20:26:16.371000",
-        //HostName: "TrAsh",
+        HostName: "TrAsh",
         HostImage: "img/hosts/ash.png",
         HostImageSource: "http://kensuyjin33.deviantart.com/art/Sprites-Trainer-Ash-Ketchum-Satoshi-Pokemon-Anime-456676605",
         BaseGame: "FireRed",
         Region: "Kanto",
         Events: [
+            { Name: "Pikachu", Time: "", Group: "Pokemon" },
             { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
@@ -24,7 +25,7 @@ Sidegames.Runs.push(
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/firered/bruno.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png", Time: "", Attempts: 0 },
-            { Group: "Champions", Name: "Green", Image: "img/trainers/firered/green.png", Time: "", Attempts: 0 },
+            { Group: "Champions", Name: "GARRRRY", Image: "img/trainers/firered/green.png", Time: "", Attempts: 0 },
         ]
     }
 );
