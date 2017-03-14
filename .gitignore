@@ -7,3 +7,6 @@ node_modules/
 
 #tests
 **/*tests.js*
+
+#temp files
+bin/data/*

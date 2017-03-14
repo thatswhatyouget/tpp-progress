@@ -63,6 +63,11 @@ exports.tppData = tppData;
 
 //post-processing
 setTimeout(() => {
+    //remove runs with blank start dates
+    tppData.forEach(c => c.Runs = c.Runs.filter(r => r.StartDate != ""));
+    //remove events with blank times   
+    tppData.forEach(c => c.Runs.forEach(r => r.Events = r.Events.filter(e => e.Time != "")));
+
     //set StartTime for each run and UnixTime for each event
     tppData.forEach(c => c.Runs.forEach(r => {
         r.StartTime = r.StartTime || (r.StartDate ? Math.floor(Date.parse(r.StartDate) / 1000) : 0);
