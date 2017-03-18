@@ -1960,17 +1960,24 @@
 .pokesprite.varaneous img  { background-image:url("../img/fakemon/varaneous.png")!important; }
 .pokesprite.fambaco img  { background-image:url("../img/fakemon/fambaco.png")!important; }
 .pokesprite.libabeel img  { background-image:url("../img/fakemon/libabeel.png")!important; }
+.pokesprite.pikachub img  { background-image:url("../img/fakemon/pikachub.png")!important; }
+.pokesprite.kyuremb img  { background-image:url("../img/fakemon/kyuremb.png")!important; }
+.pokesprite.kyuremw img  { background-image:url("../img/fakemon/kyuremw.png")!important; }
+.pokesprite.mewb img  { background-image:url("../img/fakemon/mewb.png")!important; }
+.pokesprite.mvenusaur img  { background-image:url("../img/fakemon/mvenusaur.png")!important; }
+.pokesprite.mcharizardx img  { background-image:url("../img/fakemon/mcharizardx.png")!important; }
+.pokesprite.mblastoise img  { background-image:url("../img/fakemon/mblastoise.png")!important; }
+.pokesprite.mlucario img  { background-image:url("../img/fakemon/mlucario.png")!important; }
+.pokesprite.mcharizardy img  { background-image:url("../img/fakemon/mcharizardy.png")!important; }
+.pokesprite.msalamence img  { background-image:url("../img/fakemon/msalamence.png")!important; }
+.pokesprite.mabsol img  { background-image:url("../img/fakemon/mabsol.png")!important; }
+.pokesprite.mmanectric img  { background-image:url("../img/fakemon/mmanectric.png")!important; }
 .pokesprite.defeevee img  { background-image:url("../img/fakemon/defeevee.png")!important; }
 .pokesprite.rotomc img  { background-image:url("../img/fakemon/rotomc.png")!important; }
 .pokesprite.rotomf img  { background-image:url("../img/fakemon/rotomf.png")!important; }
 .pokesprite.rotomh img  { background-image:url("../img/fakemon/rotomh.png")!important; }
 .pokesprite.rotoms img  { background-image:url("../img/fakemon/rotoms.png")!important; }
 .pokesprite.rotomw img  { background-image:url("../img/fakemon/rotomw.png")!important; }
-.pokesprite.pikachub img  { background-image:url("../img/fakemon/pikachub.png")!important; }
-.pokesprite.kyuremb img  { background-image:url("../img/fakemon/kyuremb.png")!important; }
-.pokesprite.kyuremw img  { background-image:url("../img/fakemon/kyuremw.png")!important; }
-.pokesprite.mewb img  { background-image:url("../img/fakemon/mewb.png")!important; }
 .pokesprite.offeevee img  { background-image:url("../img/fakemon/offeevee.png")!important; }
-.pokesprite.mlucario img  { background-image:url("../img/fakemon/mlucario.png")!important; }
-.event.pokemon.pokesprite.unidentified img, .event.pokemon.pokesprite.prizmeon img, .event.pokemon.pokesprite.phancero img, .event.pokemon.pokesprite.raiwato img, .event.pokemon.pokesprite.varaneous img, .event.pokemon.pokesprite.fambaco img, .event.pokemon.pokesprite.libabeel img, .event.pokemon.pokesprite.defeevee img, .event.pokemon.pokesprite.rotomc img, .event.pokemon.pokesprite.rotomf img, .event.pokemon.pokesprite.rotomh img, .event.pokemon.pokesprite.rotoms img, .event.pokemon.pokesprite.rotomw img, .event.pokemon.pokesprite.pikachub img, .event.pokemon.pokesprite.kyuremb img, .event.pokemon.pokesprite.kyuremw img, .event.pokemon.pokesprite.mewb img, .event.pokemon.pokesprite.offeevee img, .event.pokemon.pokesprite.mlucario img { background-size: 50%!important; background-position: center!important; }
+.event.pokemon.pokesprite.unidentified img, .event.pokemon.pokesprite.prizmeon img, .event.pokemon.pokesprite.phancero img, .event.pokemon.pokesprite.raiwato img, .event.pokemon.pokesprite.varaneous img, .event.pokemon.pokesprite.fambaco img, .event.pokemon.pokesprite.libabeel img, .event.pokemon.pokesprite.pikachub img, .event.pokemon.pokesprite.kyuremb img, .event.pokemon.pokesprite.kyuremw img, .event.pokemon.pokesprite.mewb img, .event.pokemon.pokesprite.mvenusaur img, .event.pokemon.pokesprite.mcharizardx img, .event.pokemon.pokesprite.mblastoise img, .event.pokemon.pokesprite.mlucario img, .event.pokemon.pokesprite.mcharizardy img, .event.pokemon.pokesprite.msalamence img, .event.pokemon.pokesprite.mabsol img, .event.pokemon.pokesprite.mmanectric img, .event.pokemon.pokesprite.defeevee img, .event.pokemon.pokesprite.rotomc img, .event.pokemon.pokesprite.rotomf img, .event.pokemon.pokesprite.rotomh img, .event.pokemon.pokesprite.rotoms img, .event.pokemon.pokesprite.rotomw img, .event.pokemon.pokesprite.offeevee img { background-size: 50%!important; background-position: center!important; }
 .pokesprite.phancero:hover img  { background-image:url("../img/fakemon/phancero-hover.png")!important; }
