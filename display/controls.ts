@@ -30,9 +30,12 @@ function icon(ico: string, title: string, action?: () => void) {
     var icon = document.createElement("i");
     icon.classList.add("fa", ico);
     icon.title = title;
+    var container = document.createElement("a");
+    container.href = "javascript:void(0)";
+    container.appendChild(icon);
     if (action)
-        icon.onclick = action;
-    return icon;
+        container.onclick = action;
+    return container;
 }
 
 function listControl(ico: string, name: string) {

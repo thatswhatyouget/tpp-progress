@@ -59,9 +59,10 @@ ul.controls > li {
 	padding:0;
 }
 
-ul.controls > li > i {
+ul.controls > li > a {
 	position:relative;
-	z-index:2;	
+	z-index:2;
+	color:black!important;
 	text-shadow:1px 1px 0 white, -1px 1px 0 white, -1px -1px white, 1px -1px white;
 }
 
@@ -94,8 +95,11 @@ ul.controls > li > ul:before {
 	left:-1px;
 }
 
-ul.controls > li:hover > ul {
+ul.controls > li:hover > ul, ul.controls > li > a:focus + ul {
 	transform:none;
+}
+ul.controls > li > a:focus + ul {
+	z-index: 1;
 }
 
 ul.controls > li > ul > li {
