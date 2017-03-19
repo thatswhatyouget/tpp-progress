@@ -1,4 +1,6 @@
 /// <reference path="../traversal.ts" />
+/// <reference path="../../../models/duration.ts" />
+
 
 namespace TPP.Transforms.Data.Processing {
 

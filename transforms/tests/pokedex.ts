@@ -142,30 +142,59 @@ namespace TPP.Transforms.Pokedex {
         });
 
         describe("Filtering", () => {
+            it("Should only get Owned Dex entries.", () => {
+                var dex = new GlobalDex(collectionSummary, mockDex);
+                dex.Entries.shift(); //get rid of MissingNo
+                assert.equal(dex.Owned.length, dex.TotalOwned);
+            });
+            it("Should only get Unowned Dex entries.", () => {
+                var dex = new GlobalDex(collectionSummary, mockDex);
+                assert.equal(dex.Unowned.length, dex.TotalInDex - dex.TotalOwned);
+            });
             it("Should only contain Owned Dex entries.", () => {
                 var dex = new GlobalDex(collectionSummary, mockDex);
                 dex.FilterDexToOwned();
-                assert.equal(dex.TotalInDex, dex.TotalOwned)
+                assert.equal(dex.TotalInDex, dex.TotalOwned);
             });
             it("Should only contain Unowned Dex entries.", () => {
                 var dex = new GlobalDex(collectionSummary, mockDex);
                 dex.FilterDexToUnowned();
-                assert.equal(dex.TotalOwned, 0)
+                assert.equal(dex.TotalOwned, 0);
             });
-            it("Should only contain Dex entries owned by specified runs.", () => {
+            it("Should only own Dex entries that are owned by specified runs.", () => {
                 var dex = new GlobalDex(collectionSummary, mockDex);
-                dex.FilterDexRuns(["Test2", mockRevisit]);
-                assert.equal(dex.TotalInDex, 2)
+                var total = dex.TotalInDex;
+                dex.FilterOwnedInDexToRuns(["Test2", mockRevisit]);
+                assert.equal(dex.TotalOwned, 2, "Filter to Mew and Azumarill")
+                assert.equal(dex.TotalInDex, total, "Still have complete dex");
             });
             it("Should only contain Dex entries for specified Pokémon.", () => {
                 var dex = new GlobalDex(collectionSummary, mockDex);
                 dex.FilterDexPokemon(["Marill", "Azumarill"]);
-                assert.equal(dex.TotalInDex, 2)
+                assert.equal(dex.TotalInDex, 2);
             });
             it("Should only contain Dex entries for Pokémon in the Hall of Fame.", () => {
                 var dex = new GlobalDex(collectionSummary, mockDex);
                 dex.FilterDexToHallOfFame();
                 assert.equal(dex.TotalInDex, 3);
+            });
+            describe("GlitchMon Filter", ()=> {
+                it("Should not remove MissingNo.", () => {
+                    var dex = new GlobalDex(collectionSummary, mockDex);
+                    dex.FilterUnownedGlitchMon();
+                    assert.notEqual(dex.Entries.length, dex.TotalInDex);
+                });
+                it("Should remove MissingNo.", () => {
+                    var dex = new GlobalDex(collectionSummary, mockDex);
+                    dex.Entries[0].Owners = [];
+                    dex.FilterUnownedGlitchMon();
+                    assert.equal(dex.Entries.length, dex.TotalInDex);
+                });
+                it("Should always remove MissingNo.", () => {
+                    var dex = new GlobalDex(collectionSummary, mockDex);
+                    dex.FilterGlitchMon();
+                    assert.equal(dex.Entries.length, dex.TotalInDex);
+                });
             });
         });
     });

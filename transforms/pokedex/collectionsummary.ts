@@ -8,7 +8,8 @@ namespace TPP.Transforms.Pokedex {
             var summaries: RunSummary[] = [];
             tppData.forEach(c => c.Runs.forEach(r => summaries.push(new RunSummary(r, PokeList))));
             this.Summary = summaries.sort((s1, s2) => s1.Run.StartTime - s2.Run.StartTime);
-            this.FilterHoFToUniques();
+            if (this.Summary.length)
+                this.FilterHoFToUniques();
         }
 
         private FilterHoFToUniques() {

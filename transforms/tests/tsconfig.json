@@ -4,7 +4,8 @@
 		"target": "es5",
 		"removeComments": true,
 		"outFile": "tpp-transform-tests.js",
-		"sourceMap": true
+		"sourceMap": true,
+		"noEmitOnError": true
 	},
 	"include": [
 		"**/*.ts"

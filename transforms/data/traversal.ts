@@ -9,7 +9,7 @@ namespace TPP.Transforms.Data.Traversal {
         function RunAtEventLevel(tppData: Collection): Collection;
         function RunAtEventLevel(tppData: Collection[]): Collection[];
         function RunAtEventLevel(tppData, collection?: Collection, run?: Run) {
-            if (tppData) {
+            if (tppData && (!Array.isArray(tppData) || tppData.length)) {
                 if (Array.isArray(tppData)) {
                     if ((<Collection[]>tppData)[0].Runs) {
                         return tppData.map(c => RunAtEventLevel(c));
@@ -44,7 +44,7 @@ namespace TPP.Transforms.Data.Traversal {
         function RunAtRunLevel(tppData: Collection): Collection;
         function RunAtRunLevel(tppData: Collection[]): Collection[];
         function RunAtRunLevel(tppData, collection?: Collection) {
-            if (tppData) {
+            if (tppData && (!Array.isArray(tppData) || tppData.length)) {
                 if (Array.isArray(tppData)) {
                     if ((<Collection[]>tppData)[0].Runs) {
                         return tppData.map(RunAtRunLevel);
@@ -71,7 +71,7 @@ namespace TPP.Transforms.Data.Traversal {
         function RunAtCollectionLevel(tppData: Collection): Collection;
         function RunAtCollectionLevel(tppData: Collection[]): Collection[];
         function RunAtCollectionLevel(tppData) {
-            if (tppData) {
+            if (tppData && (!Array.isArray(tppData) || tppData.length)) {
                 if (Array.isArray(tppData)) {
                     if (filter)
                         return tppData.filter(c => <boolean>collectionFunc(c));
@@ -92,7 +92,7 @@ namespace TPP.Transforms.Data.Traversal {
         function RunAtMultiLevel(tppData: Collection): Collection;
         function RunAtMultiLevel(tppData: Collection[]): Collection[];
         function RunAtMultiLevel(tppData, collection?: Collection, run?: Run) {
-            if (tppData) {
+            if (tppData && (!Array.isArray(tppData) || tppData.length)) {
                 if (Array.isArray(tppData)) {
                     return tppData.map(RunAtMultiLevel, collection);
                 }

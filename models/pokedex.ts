@@ -50,9 +50,9 @@ namespace TPP.Pokedex {
 
     export class GlobalDexBase {
         Entries: DexEntryBase[] = [];
-
+        
         private get NoGlitchMon() {
-            return this.Entries.filter(e => !(e.Number == 0 && e.Pokemon == "MissingNo."));
+            return this.Entries.filter(e => !this.isGlitchMon(e));
         }
 
         public get TotalOwned() {
@@ -70,6 +70,16 @@ namespace TPP.Pokedex {
         public TotalOwnedBy(run: Run) {
             return this.NoGlitchMon.filter(e => e.Owners.filter(o => o.Run.RunName == run.RunName).length > 0).length;
         }
+
+        public get Owned() {
+            return this.Entries.filter(e => e.IsOwned);
+        }
+
+        public get Unowned() {
+            return this.Entries.filter(e => !e.IsOwned);
+        }
+        
+        private isGlitchMon = (e: DexEntryBase) => (e.Number == 0 && e.Pokemon == "MissingNo.");
 
 
         public SortDex(sortBy: DexSorting | string = 0) {
@@ -92,24 +102,37 @@ namespace TPP.Pokedex {
             }
         }
 
-        public FilterDexToOwned() {
-            this.Entries = this.Entries.filter(e => e.IsOwned);
+        public FilterGlitchMon() {
+            this.Entries = this.NoGlitchMon;
         }
 
-        public FilterDexToUnowned() {
-            this.Entries = this.Entries.filter(e => !e.IsOwned);
+        public FilterUnownedGlitchMon() {
+            this.Entries = this.Entries.filter(e => e.IsOwned || !this.isGlitchMon(e));
         }
 
-        public FilterDexRuns(runList: (string | Run)[]) {
+        public FilterOwnedInDexToRuns(runList: (string | Run)[] | string) {
+            if (!Array.isArray(runList))
+                runList = runList.split(',');    
             var runs = runList.map(r => typeof r === "string" ? r.toLowerCase().trim() : r);
-            this.Entries = this.Entries.filter(e => e.Owners.filter(o => runs.filter(r => {
+            var entryIsOwnedByWantedRun = e => e.Owners.filter(o => runs.filter(r => {
                 if (typeof r === "string")
                     return o.Run.RunName.toLowerCase().indexOf(r) >= 0;
                 return o.Run.RunName == r.RunName;
-            }).length > 0).length > 0);
+            }).length > 0).length > 0;
+            this.Entries.forEach(e => e.Owners = entryIsOwnedByWantedRun(e) ? e.Owners : []);
+        }        
+        
+        public FilterDexToOwned() {
+            this.Entries = this.Owned;
         }
 
-        public FilterDexPokemon(pokeList: string[]) {
+        public FilterDexToUnowned() {
+            this.Entries = this.Unowned;
+        }
+
+        public FilterDexPokemon(pokeList: string | string[]) {
+            if (!Array.isArray(pokeList))
+                pokeList = pokeList.split(',');    
             pokeList = pokeList.map(p => p.toLowerCase().trim());
             this.Entries = this.Entries.filter(e => pokeList.indexOf(e.Pokemon.toLowerCase()) >= 0);
         }

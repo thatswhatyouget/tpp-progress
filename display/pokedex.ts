@@ -4,7 +4,7 @@
 
 module TPP.Display.Pokedex {
     export function DrawOwnedCount(dex: TPP.Pokedex.GlobalDexBase) {
-        return $("<h2 class='total'>Owned: <span>" + dex.TotalOwned + "/" + dex.TotalInDex + " (" + dex.OwnedPercentage.toFixed(2)  + "%)</span></div>");
+        return $("<h2 class='total'>Owned: <span>" + dex.TotalOwned + "/" + dex.TotalInDex + " (" + dex.OwnedPercentage.toFixed(2)  + "%)</span></h2>");
     }
 
     export function DrawDexEntry(entry: TPP.Pokedex.DexEntryBase, showOwnership = true) {

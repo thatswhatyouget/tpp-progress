@@ -1,10 +1,10 @@
 /// <reference path="tests.ts" />
 /// <reference path="../data/filter/futureruns.ts" />
+/// <reference path="../data/filter/nowifi.ts" />
+/// <reference path="../data/filter/search.ts" />
+/// <reference path="../data/filter/onlyrun.ts" />
 /// <reference path="../data/processing/ongoing.ts" />
 /// <reference path="../data/processing/catch-report.ts" />
-
-
-/// <reference path="pokedex.ts" /> //put data tests last lol
 
 
 namespace TPP.Transforms.Data {
@@ -74,6 +74,89 @@ namespace TPP.Transforms.Data {
                     Name: "Future Test"
                 };
                 it("Should remove runs that have yet to start.", () => assert.equal(RemoveFutureRuns([collection])[0].Runs.length, 1));
+            });
+
+            describe("No Wifi Trade Pokemon", () => {
+                var noWifiRun = NoWifiTradePokemon(Clone(mockOngoingRun));
+                it("Should remove WifiTrade Pokemon", () => {
+                    assert.equal(mockOngoingRun.Events.filter(e=>e.Class=="WifiTrade").length, 1, "One WifiTrade");
+                    assert.equal(noWifiRun.Events.filter(e=>e.Class=="WifiTrade").length, 0, "No WifiTrade");
+                });
+            });
+
+            describe("Remove Empty Collections", () => {
+                var data:Collection[]=[{
+                    Scale: Scale.Minutes,
+                    Runs: [mockOngoingRun, mockFutureRun],
+                    Name: "One Collection"
+                },
+                {
+                    Scale: Scale.Minutes,
+                    Runs: [],
+                    Name: "Empty Collection"
+                }];
+                it("Should remove empty collections.", () => assert.equal(RemoveEmpty(data).length, 1));
+            });
+
+            describe("Searching",()=> {
+                var mockDifferentlyNamedRun = Clone(mockOngoingRun);
+                mockDifferentlyNamedRun.RunName = "Collection Hello";
+                var data:Collection[]=[
+                {
+                    Scale: Scale.Minutes,
+                    Runs: [mockOldRun],
+                    Name: "Collection Two"
+                },
+                {
+                    Scale: Scale.Minutes,
+                    Runs: [mockDifferentlyNamedRun, mockFutureRun],
+                    Name: "Collection One"
+                }];
+                it("Should find Collection Two", () => assert.equal(CollectionSearch(data,"Two")[0].Name,"Collection Two"));
+                it("Should find Hello's collection", () => assert.equal(RunSearch(data,"He")[0].Name,"Collection One"));
+                it("Should find Hello", () => assert.equal(RunSearch(data,"he")[0].Runs[0].RunName,"Collection Hello"));
+                it("Should also find Hello", ()=>assert.equal(Search(data,"collection")[0].Runs[0].RunName,"Collection Hello"));
+                it("Should find two collections with one run each",()=>{
+                    var result = Search(data,"test");
+                    assert.equal(result.length,2);
+                    assert.equal(result[0].Runs[0].RunName, mockOldRun.RunName);
+                    assert.equal(result[1].Runs[0].RunName, mockFutureRun.RunName);
+                });
+            });
+
+            describe("Get Only Run", ()=> {
+                var dataSingle:Collection[]=[{
+                    Scale: Scale.Minutes,
+                    Runs: [mockOngoingRun],
+                    Name: "One Collection"
+                },
+                {
+                    Scale: Scale.Minutes,
+                    Runs: [],
+                    Name: "Empty Collection"
+                }];
+                var dataDoubleCollection:Collection[]=[{
+                    Scale: Scale.Minutes,
+                    Runs: [mockOngoingRun],
+                    Name: "One Collection"
+                },
+                {
+                    Scale: Scale.Minutes,
+                    Runs: [mockFutureRun],
+                    Name: "Empty Collection"
+                }];
+                var dataDoubleRun:Collection[]=[{
+                    Scale: Scale.Minutes,
+                    Runs: [mockOngoingRun, mockFutureRun],
+                    Name: "One Collection"
+                }];
+                it("Should find only one run", ()=> assert.equal(GetOnlyRun(dataSingle).RunName,mockOngoingRun.RunName));
+                it("Should not find only one run because both collections have one", ()=> assert.equal(GetOnlyRun(dataDoubleCollection),null));
+                it("Should not find only one run because one collection has two", ()=> assert.equal(GetOnlyRun(dataDoubleRun),null));
+                it("Should not have side effects", ()=> {
+                    GetOnlyRun(dataSingle);
+                    assert.equal(dataSingle.length, 2, "dataSingle's length should be unchanged");
+                });
             });
 
         });

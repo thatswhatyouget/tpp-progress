@@ -3,9 +3,11 @@
 		"outDir": "display/",
 		"target": "es5",
 		"removeComments": true,
-		"outFile": "tpp-display.js"
+		"outFile": "tpp-display.js",
+		"jsx": "react"
 	},
 	"include": [
-		"**/*.ts"
+		"**/*.ts",
+		"**/*.tsx"
 	]
 }

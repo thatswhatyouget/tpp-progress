@@ -181,19 +181,36 @@ declare namespace TPP.Transforms.Data.Filter {
         (tppData: Collection[]): Collection[];
     };
 }
-declare namespace TPP.Transforms.Data.Processing {
-    function CatchReport(tppData: Run, day?: number, collection?: Collection): Run;
-    function CatchReport(tppData: Run[], day?: number, collection?: Collection): Run[];
-    function CatchReport(tppData: Collection, day?: number): Collection;
-    function CatchReport(tppData: Collection[], day?: number): Collection[];
-}
-declare namespace TPP.Transforms.Data.Processing {
-    var MarkOngoingRuns: {
+declare namespace TPP.Transforms.Data.Filter {
+    var NoWifiTradePokemon: {
+        (tppData: Event, collection?: Collection, run?: Run): Event;
+        (tppData: Event[], collection?: Collection, run?: Run): Event[];
         (tppData: Run, collection?: Collection): Run;
         (tppData: Run[], collection?: Collection): Run[];
         (tppData: Collection): Collection;
         (tppData: Collection[]): Collection[];
     };
+}
+declare namespace TPP.Transforms.Data.Filter {
+    var RemoveEmpty: {
+        (tppData: Collection): Collection;
+        (tppData: Collection[]): Collection[];
+    };
+}
+declare namespace TPP.Transforms.Data.Filter {
+    function HasOnlyOneRun(tppData: Collection[] | Collection | Run[]): boolean;
+    function GetOnlyRun(tppData: Collection[] | Collection | Run[]): Run;
+}
+declare namespace TPP.Transforms.Data.Filter {
+    function CollectionSearch(tppData: Collection[], search: string | string[]): Collection[];
+    function RunSearch(tppData: Collection[], search: string | string[]): Collection[];
+    function Search(tppData: Collection[], search: string | string[]): Collection[];
+}
+declare namespace TPP.Transforms.Data.Processing {
+    function CatchReport(tppData: Run, day?: number, collection?: Collection): Run;
+    function CatchReport(tppData: Run[], day?: number, collection?: Collection): Run[];
+    function CatchReport(tppData: Collection, day?: number): Collection;
+    function CatchReport(tppData: Collection[], day?: number): Collection[];
 }
 declare namespace TPP {
     class Duration {
@@ -212,6 +229,14 @@ declare namespace TPP {
         static canParse(time: string): boolean;
         constructor(weeks: string | number, days?: number, hours?: number, minutes?: number, seconds?: number);
     }
+}
+declare namespace TPP.Transforms.Data.Processing {
+    var MarkOngoingRuns: {
+        (tppData: Run, collection?: Collection): Run;
+        (tppData: Run[], collection?: Collection): Run[];
+        (tppData: Collection): Collection;
+        (tppData: Collection[]): Collection[];
+    };
 }
 declare namespace TPP.Pokedex {
     interface HofEntry {
@@ -259,11 +284,16 @@ declare namespace TPP.Pokedex {
         readonly TotalInDex: number;
         readonly OwnedPercentage: number;
         TotalOwnedBy(run: Run): number;
+        readonly Owned: DexEntryBase[];
+        readonly Unowned: DexEntryBase[];
+        private isGlitchMon;
         SortDex(sortBy?: DexSorting | string): void;
+        FilterGlitchMon(): void;
+        FilterUnownedGlitchMon(): void;
+        FilterOwnedInDexToRuns(runList: (string | Run)[] | string): void;
         FilterDexToOwned(): void;
         FilterDexToUnowned(): void;
-        FilterDexRuns(runList: (string | Run)[]): void;
-        FilterDexPokemon(pokeList: string[]): void;
+        FilterDexPokemon(pokeList: string | string[]): void;
         FilterDexToHallOfFame(): void;
     }
 }
@@ -296,7 +326,8 @@ declare namespace TPP.Transforms.Pokedex {
 }
 declare namespace TPP.Transforms.Pokedex {
     class GlobalDex extends TPP.Pokedex.GlobalDexBase {
-        constructor(collectionSummary: CollectionSummary, PokeList: string[]);
+        constructor(tppData: Collection[], PokeList: string[]);
+        constructor(tppData: CollectionSummary, PokeList: string[]);
     }
 }
 declare module TPP.Transforms {
