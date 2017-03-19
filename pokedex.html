@@ -2,7 +2,6 @@
 
 <head>
 	<title>TPP Global Pokédex</title>
-	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
 	<script src="https://unpkg.com/react@15/dist/react.min.js"></script>
     <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
 	<script src="bin/tpp-data.js"></script>
@@ -42,16 +41,17 @@
 		</div>
 	</div>
 	<div class="pokedex" id="pokedex">
-		<!--<script>$("#pokedex").append(generateGlobalDex(tppData));</script>-->
 		<script>
 			function cleanString(str) { return str.replace(/[^A-Z0-9]/ig, '').toLowerCase() }
 			var pokeList = TPP.Transforms.Pokedex.ClipNationalDex(Pokedex.GenSlice[QueryString["g"] || 0]);
 			var classes = "";
-			if (QueryString["dex"]) {
-				pokeList = TPP.Transforms.Pokedex.DexMerge(Pokedex.Regional[QueryString["dex"]], pokeList);
-				classes = Pokedex.specialClasses[QueryString["dex"]] || "";
-				if (Pokedex.runRestrictions[QueryString["dex"]])
-					tppData = TPP.Transforms.Data.Filter.RunSearch(tppData, Pokedex.runRestrictions[QueryString["dex"]]);
+			if (QueryString["dex"] && Pokedex.Regional[QueryString["dex"]]) {
+				var dexName = QueryString["dex"];
+				document.getElementById('dexName').innerText = dexName + (dexName.toLowerCase().indexOf('book') + dexName.indexOf('dex') < 0 ? " Pokédex" : "");
+				pokeList = TPP.Transforms.Pokedex.DexMerge(Pokedex.Regional[dexName], pokeList);
+				classes = Pokedex.specialClasses[dexName] || "";
+				if (Pokedex.runRestrictions[dexName])
+					tppData = TPP.Transforms.Data.Filter.RunSearch(tppData, Pokedex.runRestrictions[dexName]);
 			}
 			if (QueryString["ms"]) {
 				classes += " ms";
