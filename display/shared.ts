@@ -1,5 +1,6 @@
 /// <reference path="../ref/jquery.d.ts" />
 /// <reference path="../ref/react.d.ts" />
+/// <reference path="../ref/reactdom.d.ts" />
 
 module TPP.Display {
 

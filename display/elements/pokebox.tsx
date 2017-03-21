@@ -1,6 +1,8 @@
 /// <reference path="../shared.ts" />
 namespace TPP.Display.Elements {
     interface PokeBoxProps {
+        className?: string;
+        title?: string;
     }
 
     interface PokeBoxState {
@@ -8,10 +10,13 @@ namespace TPP.Display.Elements {
 
     export class PokeBox extends React.Component<PokeBoxProps, PokeBoxState> {
         render() {
-            return <div className="pokeBorder" >
+            return <div className={`pokeBorder ${this.props.className || ''}`.trim()} >
                 <div className='border' />
                 <div className='border' />
-                <div> {this.props.children} </div>
+                <h3>{this.props.title}</h3>
+                <div>
+                    {this.props.children}
+                </div>
             </div >;
         }
     }

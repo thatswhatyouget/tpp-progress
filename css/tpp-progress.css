@@ -679,7 +679,7 @@ ul.controls > li > ul > li.selected > a:before {
 	transform:translateX(-50%)scale(.8)!important;
 }
 
-.hallOfFameDisplay > img {
+.hallOfFameDisplay > img, .hallOfFameDisplay img.ribbon  {
 	position: absolute;
 	left:.5em!important;
 	top:.25em!important;

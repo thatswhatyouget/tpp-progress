@@ -37,7 +37,7 @@ namespace TPP.Display.Elements.Pokedex {
 
         private get ownedDisplay() {
             if (!this.showOwnership)
-                return <br/>;
+                return <br />;
             return <h2 className='total'>
                 Owned: <span>{`${this.dex.TotalOwned}/${this.dex.TotalInDex} (${this.dex.OwnedPercentage.toFixed(2)}%)`}</span>
             </h2>
@@ -50,5 +50,14 @@ namespace TPP.Display.Elements.Pokedex {
                 {this.props.children}
             </div>;
         }
+    }
+
+    export function Render(element: string | HTMLElement, dex: TPP.Pokedex.GlobalDexBase, showOwnership = true, ownedOnly = false, className = "") {
+        if (!(element instanceof HTMLElement))
+            element = document.getElementById(element);
+        ReactDOM.render(
+            <Dex dex={dex} showOwnership={showOwnership} ownedOnly={ownedOnly} className={className} />,
+            element
+        );
     }
 }

@@ -3,7 +3,7 @@
 <head>
 	<title>TPP Global Pokédex</title>
 	<script src="https://unpkg.com/react@15/dist/react.min.js"></script>
-    <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+	<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
 	<script src="bin/tpp-data.js"></script>
 	<script src="bin/pokedex-data.js"></script>
 	<script src="transforms/tpp-transforms.js"></script>
@@ -77,10 +77,7 @@
 			if (onlyRun)
 				classes += " " + cleanString(onlyRun.RunName);
 
-			ReactDOM.render(
-				React.createElement(TPP.Display.Elements.Pokedex.Dex, { dex: dex, showOwnership: !QueryString["justmon"], ownedOnly: !!QueryString["owned"], className: classes.trim() }),
-				document.getElementById("pokedex")
-			);
+			TPP.Display.Elements.Pokedex.Render("pokedex", dex, !QueryString["justmon"], !!QueryString["owned"], classes.trim());
 		</script>
 	</div>
 	<ul class="controls">
