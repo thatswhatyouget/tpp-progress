@@ -14,6 +14,7 @@ Sidegames.Runs.push(
         Events: [
             { Name: "Pikachu", Time: "2017-03-16T01:25:35+00:00", Group: "Pokemon" },
             { Name: "Caterpie", Time: "2017-03-20T12:18:45+00:00", Group: "Pokemon" },
+            { Name: "Pidgey", Time: "2017-03-24T14:21:53+00:00", Group: "Pokemon" },
             { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
