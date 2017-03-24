@@ -11,7 +11,7 @@ Season1.Runs.push(
         HostImage: "img/hosts/ajdnnw.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         TPPOrgLink: "http://twitchplayspokemon.org/crystal",
-        GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/crystal-archive",
+        DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/crystal-archive",
         LiveUpdaterArchive: "https://paste.ee/p/fmVbC",
         Region: "Johto",
         AdditionalRegions: [{ Name: "Kanto", Time: "10d 0h 56m" }],

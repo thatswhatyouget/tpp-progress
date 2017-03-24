@@ -13,7 +13,7 @@ Season1.Runs.push(
         Generation: 4,
         Pokedex: "Enhanced Sinnoh",
         TPPOrgLink: "http://twitchplayspokemon.org/platinum",
-        GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/platinum-archive",
+        DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/platinum-archive",
         Events: [
             {
                 Group: "Badges",

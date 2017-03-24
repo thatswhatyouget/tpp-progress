@@ -17,6 +17,7 @@ Season4.Runs.push(
         //     parts: [],
         //     pokemon: true
         // },
+        TPPOrgLink: "http://twitchplayspokemon.org/",
         Events: [
             { Name: "Chatot", Time: "7m19s", Group: "Pokemon" },
             { "Group": "Badges", "Name": "Poooound (Boulder) Badge", "Time": "4h42m", "Attempts": 3, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/117484/3.0" },

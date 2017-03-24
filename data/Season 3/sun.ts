@@ -10,13 +10,7 @@ Season3.Runs.push(
         HostName: "9'l",
         HostImage: "img/hosts/9l.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5gwfvd/nigel_sprite_v_20/",
-        TPPOrgLink: "http://twitchplayspokemon.org/",
-        // Scraper: {
-        //     url: "http://twitchplayspokemon.org/",
-        //     //runtime: true,
-        //     parts: [],
-        //     pokemon: true
-        // },
+        TPPOrgLink: "http://twitchplayspokemon.org/sun",
         Region: "Alola",
         Generation: 7,
         Pokedex: "Alola",

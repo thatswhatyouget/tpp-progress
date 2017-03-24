@@ -12,7 +12,7 @@ Season3.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/56y6bj/cyan_cyanchan/",
         // HostImage: "img/hosts/cyan.gif",
         // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/56v3w5/cyan_our_shy_and_demure_protagonist_animated/",
-        TPPOrgLink: "http://twitchplayspokemon.org/",
+        TPPOrgLink: "http://twitchplayspokemon.org/prism",
         // Scraper: {
         //     url: "http://twitchplayspokemon.org/",
         //     runtime: true,

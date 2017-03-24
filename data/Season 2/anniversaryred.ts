@@ -14,7 +14,7 @@ Season2.Runs.push(
         Generation: 1,
         Pokedex: "Kanto",
         TPPOrgLink: "http://twitchplayspokemon.org/ar",
-        GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/red-anniversary",
+        DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/red-anniversary",
         Events: [
             {
                 Group: "Badges",

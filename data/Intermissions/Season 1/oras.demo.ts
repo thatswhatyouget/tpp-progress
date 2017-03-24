@@ -10,7 +10,7 @@ Intermissions.Runs.push(
         HostImage: "img/hosts/orlando.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Hoenn",
-        GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/orasdemo",
+        DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/orasdemo",
         Events: [
             {
                 Name: "Mission 1\nCatch Glalie",

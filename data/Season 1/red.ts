@@ -11,7 +11,7 @@ Season1.Runs.push(
         HostImage: "img/hosts/red.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         TPPOrgLink: "http://twitchplayspokemon.org/red",
-        GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/red-archive",
+        DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/red-archive",
         LiveUpdaterArchive: "https://paste.ee/p/E6NvL",
         Region: "Kanto",
         Generation: 1,

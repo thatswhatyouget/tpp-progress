@@ -14,7 +14,7 @@ Season1.Runs.push(
         Generation: 3,
         Pokedex: "Kanto",
         TPPOrgLink: "http://twitchplayspokemon.org/firered",
-        GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/firered-archive",
+        DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/firered-archive",
         Events: [
             {
                 Group: "Badges",

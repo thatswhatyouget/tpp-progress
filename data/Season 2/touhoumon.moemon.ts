@@ -12,6 +12,7 @@ Season2.Runs.push(
         BaseGame: "FireRed",
         Region: "Kanto",
         Pokedex: "Art Book",
+        DocumentLink:"http://rayrobdod.github.io/tppstatus/touhoumon.xhtml",
         Events: [
             {
                 Group: "Badges",
@@ -175,6 +176,7 @@ Season2.Runs.push(
         Region: "Kanto",
         Generation: 3,
         Pokedex: "Kanto",
+        DocumentLink:"http://rayrobdod.github.io/tppstatus/moemon.xhtml",
         Events: [
             {
                 Group: "Badges",

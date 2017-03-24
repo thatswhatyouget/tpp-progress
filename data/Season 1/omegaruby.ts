@@ -15,7 +15,7 @@ Season1.Runs.push(
         Generation: 6,
         Pokedex: "New Hoenn",
         TPPOrgLink: "http://twitchplayspokemon.org/omegaruby",
-        GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/omegaruby-archive",
+        DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/omegaruby-archive",
         Events: [
             {
                 Group: "Badges",

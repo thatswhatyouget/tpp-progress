@@ -11,7 +11,7 @@ Season1.Runs.push(
         HostImage: "img/hosts/a.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         TPPOrgLink: "http://twitchplayspokemon.org/emerald",
-        GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/emerald-archive",
+        DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/emerald-archive",
         LiveUpdaterArchive: "https://paste.ee/p/mVTkx",
         Region: "Hoenn",
         Generation: 3,

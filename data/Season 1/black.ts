@@ -13,7 +13,7 @@ Season1.Runs.push(
         Generation: 5,
         Pokedex: "Unova",
         TPPOrgLink: "http://twitchplayspokemon.org/black",
-        GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/black-archive",
+        DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/black-archive",
         Events: [
             {
                 Group: "Badges",

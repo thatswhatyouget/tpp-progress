@@ -40,11 +40,15 @@ namespace TPP.Controllers {
             }
 
             this.contentTitle = run.RunName + " Status";
-           
+
             if (run.RunName.indexOf("Touhoumon") >= 0)
                 this.credits.splice(this.credits.length - 1, 0, "Touhoumon sprites ripped by [Jayare158](https://www.reddit.com/r/twitchplayspokemon/comments/5cwr3q/by_ucyanders_request_heres_a_sprite_chart_with/).");
-            if (run.TPPOrgLink)
-                this.credits.push(`For more information about this run, check out [twitchplayspokemon.org](${run.TPPOrgLink}).`);
+            if (run.TPPOrgLink || run.DocumentLink)
+                this.credits.push(["For more information about this run, check out ",
+                    run.DocumentLink ? `[this document](${run.DocumentLink})` : null,
+                    run.TPPOrgLink && run.DocumentLink ? "and" : null,
+                    run.TPPOrgLink ? `[twitchplayspokemon.org](${run.TPPOrgLink})` : null
+                ].filter(s => !!s).join(' ') + '.');
 
             return <Display.Elements.RunStatus.App autoUpdate={this.queryString["autorefresh"] ? 5 : 0} buildDex={fillDex} run={run} />;
         }

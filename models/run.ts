@@ -39,7 +39,7 @@ namespace TPP {
         },
         Events: Event[];
         CopyEvents?: string[];
-        GoogleDocLink?: string;
+        DocumentLink?: string;
         LiveUpdaterArchive?: string;
         TPPOrgLink?: string;
     }

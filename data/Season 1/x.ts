@@ -14,7 +14,7 @@ Season1.Runs.push(
         Generation: 6,
         Pokedex: "Kalos",
         TPPOrgLink: "http://twitchplayspokemon.org/x",
-        GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/x-archive",
+        DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/x-archive",
         Events: [
             {
                 Group: "Badges",

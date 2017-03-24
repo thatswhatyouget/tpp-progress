@@ -14,7 +14,7 @@ Season1.Runs.push(
         Generation: 4,
         Pokedex: "Johto",
         TPPOrgLink: "http://twitchplayspokemon.org/heartgold",
-        GoogleDocLink: "https://sites.google.com/site/twitchplayspokemonstatus/heartgold-archive",
+        DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/heartgold-archive",
         Events: [
             {
                 Group: "Badges",

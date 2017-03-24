@@ -11,13 +11,7 @@ Season3.Runs.push(
         HostName: "d76o6yttr??",
         HostImage: "img/hosts/d76o6yttr.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5pidux/bird_keeper_devin_yates_wants_to_battle/",
-        TPPOrgLink: "http://twitchplayspokemon.org/",
-        // Scraper: {
-        //     url: "http://twitchplayspokemon.org/",
-        //     //runtime: true,
-        //     parts: [],
-        //     pokemon: true
-        // },
+        TPPOrgLink: "http://twitchplayspokemon.org/moon",
         Region: "Alola",
         Generation: 7,
         Pokedex: "Alola",

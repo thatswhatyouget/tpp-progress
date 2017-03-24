@@ -17,6 +17,7 @@ Season4.Runs.push(
         //     parts: [],
         //     pokemon: true
         // },
+        TPPOrgLink: "http://twitchplayspokemon.org/",
         Events: [
             { Group: "Pokemon", Name: "", Time: "" },
             { Group: "Badges", Name: "Jolt Badge", Time: "", Attempts: 0, Image: "http://vignette2.wikia.nocookie.net/fanmadepokemonglazed/images/9/9e/Jolt_badge.png/revision/latest?cb=20140315165128" },
