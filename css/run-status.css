@@ -80,11 +80,11 @@
     width: 90%;
 }
 
-.pokeBorder.pokedex > h2, .pokeBorder.pokedex > h3, .pokeBorder.pokedex > h4, .pokeBorder.pokedex > h5, .pokeBorder.pokedex > h6 {
+.pokeBorder .pokedex > h2, .pokeBorder .pokedex > h3, .pokeBorder .pokedex > h4, .pokeBorder .pokedex > h5, .pokeBorder .pokedex > h6 {
     margin:0;
 } 
 
-.pokeBorder.pokedex .total {
+.pokeBorder .pokedex .total {
     font-family: pokeplatinum, monospace;
 }
 
