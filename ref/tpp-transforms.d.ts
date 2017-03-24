@@ -1,5 +1,4 @@
 /// <reference path="../ref/jquery.d.ts" />
-/// <reference path="tpp-scraper.d.ts" />
 declare namespace TPP {
     enum Scale {
         Weeks = 0,
@@ -329,9 +328,4 @@ declare namespace TPP.Transforms.Pokedex {
         constructor(tppData: Collection[], PokeList: string[]);
         constructor(tppData: CollectionSummary, PokeList: string[]);
     }
-}
-declare module TPP.Transforms {
-    function UpdateRunData(run: Run): JQueryPromise<Run>;
-    function UpdateCollectionData(collection: Collection): JQueryPromise<Collection>;
-    function UpdateData(tppData: Collection[]): JQueryPromise<Collection[]>;
 }

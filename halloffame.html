@@ -2,14 +2,12 @@
 
 <head>
 	<title>TPP Hall of Fame</title>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="bin/tpp-structure.js"></script>
-	<script src="bin/twitch-videos.js"></script>
-	<script src="bin/tpp-progress.js"></script>
-	<script src="bin/tpp-scraper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://unpkg.com/react@15/dist/react.min.js"></script>
+	<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
 	<script src="bin/tpp-data.js"></script>
-	<script src="bin/pokedex-data.js"></script>
-	<script src="bin/tables.js"></script>
+	<script src="transforms/tpp-transforms.js"></script>
+	<script src="display/tpp-display.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/tpp-progress.css" />
 	<link rel="stylesheet" href="css/pokemon.css" />
@@ -20,57 +18,28 @@
 	<meta property="og:image" content="http://thatswhatyouget.github.io/tpp-progress/img/icon.png" />
 	<meta property="og:type" content="website" />
 	<meta charset="utf-8" />
-	<style>
-		#hof > h2 {
-			margin-bottom:0;
-			display: inline-block;
-			width:35em;
-			text-align: left;
-		}
-	</style>
 </head>
 
 <body>
 	<div class="title">
 		<h1>Twitch Plays Pokémon</h1>
 		<div class="subtitle">
-			Hall of Fame
-			<a href="index.html">See Progress Bars</a>
+			<span id="page-title"></span>
+			<span id="see-also"></span>
 		</div>
 	</div>
 	<div class="title">
-		<strong>Hall of Fame</strong>
-        <div class="credits">
-            Default sprites are from <a href="http://bulbapedia.bulbagarden.net/" target="_blank">Bulbapedia</a> and <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
-            Pokemon sprites are from <a href="http://pldh.net/dex/sprites/index" target="_blank">PLDHnet's SpriteDex</a>.<br/>
-			Touhoumon sprites ripped by <a href="https://www.reddit.com/r/twitchplayspokemon/comments/5cwr3q/by_ucyanders_request_heres_a_sprite_chart_with/" target="_blank">Jayare158</a>.<br/>
-            All custom sprites can be clicked for links to their sources.
-        </div>
+		<strong id="content-title"></strong>
+		<div id="credits"> 
+		</div>
 	</div>
-	<br /><br/>
-	<div id="hof" style="font-size:1.2em;">
-		<script>
-			var hofs = [];
-			tppData.forEach(function(c) {
-				c.Runs.forEach(function(r) {
-					r.Events.forEach(function(e) {
-						if (e.Party && Duration.parse(e.Time, r.StartTime).TotalSeconds > 0)
-							hofs.push({
-								run: r.RunName,
-								element: drawHallOfFame(e,r,c.Scale),
-								time: r.StartTime + Duration.parse(e.Time, r.StartTime).TotalSeconds
-							});
-					});
-				});
-			});
-			hofs.sort(function(h1,h2) { return h1.time - h2.time;});
-			hofs.forEach(function(hof, i) {
-				if (!i || hofs[i-1].run != hof.run)
-					$("#hof").append($("<h2>").text(hof.run));
-				$("#hof").append(hof.element);
-			});
-		</script>
+	<div id="contents">
 	</div>
+	<ul class="controls" id="controls">
+	</ul>
+	<script>
+		new TPP.Controllers.HallOfFameController(tppData).Render();
+	</script>
 </body>
 
 </html>

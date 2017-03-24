@@ -1,5 +1,6 @@
 @import 'pokefont.css';
 @import 'pokeborder.css';
+@import 'run-status.css';
 
 body {
 	background-color:#999;
@@ -815,4 +816,15 @@ ul.controls > li > ul > li.selected > a:before {
 .hallOfFameDisplay.touhoumon .entry.male:before {
 	content:"☯";
 	transform:rotateZ(90deg);
+}
+
+.hof-list {
+	font-size:1.2em;
+}
+
+.hof-list > h2 {
+	margin-bottom:0;
+	display: inline-block;
+	width:35em;
+	text-align: left;
 }

@@ -2,6 +2,7 @@
 
 <head>
 	<title>TPP Global Pokédex</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://unpkg.com/react@15/dist/react.min.js"></script>
 	<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
 	<script src="bin/tpp-data.js"></script>
@@ -25,78 +26,21 @@
 	<div class="title">
 		<h1>Twitch Plays Pokémon</h1>
 		<div class="subtitle">
-			Global Pokédex
-			<a href="catch-report.html">See Catch Report</a>
+			<span id="page-title"></span>
+			<span id="see-also"></span>
 		</div>
 	</div>
 	<div class="title">
-		<strong id="dexName">National Pokédex</strong>
-		<div class="credits">
-			Default sprites are from <a href="http://bulbapedia.bulbagarden.net/" target="_blank">Bulbapedia</a> and <a href="http://twitchplayspokemon.org/"
-			 target="_blank">twitchplayspokemon.org</a>. Pokemon sprites are from <a href="http://pldh.net/dex/sprites/index" target="_blank">PLDHnet's SpriteDex</a>.<br/>			Touhoumon sprites ripped by <a href="https://www.reddit.com/r/twitchplayspokemon/comments/5cwr3q/by_ucyanders_request_heres_a_sprite_chart_with/"
-			 target="_blank">Jayare158</a>.<br/>
-		</div>
-		<div class="credits">
-			<span class="doItLive">Most</span> catch data provided by <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
+		<strong id="content-title"></strong>
+		<div id="credits"> 
 		</div>
 	</div>
-	<div class="pokedex" id="pokedex">
-		<script>
-			function cleanString(str) { return str.replace(/[^A-Z0-9]/ig, '').toLowerCase() }
-			var pokeList = TPP.Transforms.Pokedex.ClipNationalDex(Pokedex.GenSlice[QueryString["g"] || 0]);
-			var classes = "";
-			if (QueryString["dex"] && Pokedex.Regional[QueryString["dex"]]) {
-				var dexName = QueryString["dex"];
-				document.getElementById('dexName').innerText = dexName + (dexName.toLowerCase().indexOf('book') + dexName.indexOf('dex') < 0 ? " Pokédex" : "");
-				pokeList = TPP.Transforms.Pokedex.DexMerge(Pokedex.Regional[dexName], pokeList);
-				classes = Pokedex.specialClasses[dexName] || "";
-				if (Pokedex.runRestrictions[dexName])
-					tppData = TPP.Transforms.Data.Filter.RunSearch(tppData, Pokedex.runRestrictions[dexName]);
-			}
-			if (QueryString["ms"]) {
-				classes += " ms";
-			}
-			if (QueryString["nowifi"]) {
-				tppData = TPP.Transforms.Data.Filter.NoWifiTradePokemon(tppData);
-			}
-			if (QueryString["only"]) {
-				tppData = TPP.Transforms.Data.Filter.Search(tppData, QueryString["only"]);
-			}
-			var dex = new TPP.Transforms.Pokedex.GlobalDex(tppData, pokeList);
-			dex.SortDex(QueryString["sort"]);
-			if (QueryString["hofonly"])
-				dex.FilterDexToHallOfFame();
-			if (QueryString["pokemon"])
-				dex.FilterDexPokemon(QueryString["pokemon"]);
-			if (QueryString["run"]) {
-				dex.FilterOwnedInDexToRuns(QueryString["run"]);
-				var onlyRun = TPP.Transforms.Data.Filter.GetOnlyRun(TPP.Transforms.Data.Filter.RunSearch(tppData, QueryString["run"]));
-			}
-			else
-				var onlyRun = TPP.Transforms.Data.Filter.GetOnlyRun(tppData);
-			if (onlyRun)
-				classes += " " + cleanString(onlyRun.RunName);
-
-			TPP.Display.Elements.Pokedex.Render("pokedex", dex, !QueryString["justmon"], !!QueryString["owned"], classes.trim());
-		</script>
+	<div id="contents">
 	</div>
-	<ul class="controls">
-		<script>
-			drawControls([
-				pokedexGenerationsMenu(),
-				pokedexRegionsMenu(),
-				pokedexSortMenu(),
-				qsOptionsMenu("fa-sliders", "Options", {
-					"justmon": "Just List Pokémon",
-					"owned": "Only Show Owned Pokémon",
-					"hofonly": "Only Show Hall of Fame Pokémon",
-					"nowifi": "Exclude Wi-Fi Trades"
-				})
-			]);
-		</script>
+	<ul class="controls" id="controls">
 	</ul>
 	<script>
-
+		new TPP.Controllers.PokedexController(tppData).Render();
 	</script>
 </body>
 

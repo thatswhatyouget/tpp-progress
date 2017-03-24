@@ -1,7 +1,4 @@
 /// <reference path="event-display.tsx" />
-/// <reference path="../../../models/run.ts" />
-/// <reference path="../../../models/run_status.ts" />
-/// <reference path="../../../models/pokedex.ts" />
 /// <reference path="../partydisplay.tsx" />
 
 
@@ -136,7 +133,7 @@ namespace TPP.Display.Elements.RunStatus {
             else if (this.loading)
                 var innards = <i className='fa fa-spinner fa-pulse' />;
             else
-                var innards = <div>
+                var innards = <div className={cleanString(this.state.run.RunName)}>
                     {this.partyDisplay}
                     <EventDisplay key="Past Hosts" events={this.pastHosts} />
                     <EventDisplay key="Elite Four Rematch" events={this.eliteFourRematch} />
@@ -147,19 +144,10 @@ namespace TPP.Display.Elements.RunStatus {
                     </EventDisplay>
                     {this.Pokedex}
                 </div>;
-            return <div>
+            return <div className="run-status">
                 <h1>{this.state.run.RunName}</h1>
                 {innards}
             </div>;
         }
-    }
-
-    export function Render(element: string | HTMLElement, run: Run, autoUpdate = 0, buildDex?: (run:Run)=>TPP.Pokedex.GlobalDexBase) {
-        if (!(element instanceof HTMLElement))
-            element = document.getElementById(element);
-        ReactDOM.render(
-            <App autoUpdate={autoUpdate} buildDex={buildDex} run={run} />,
-            element
-        );
     }
 }

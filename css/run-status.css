@@ -1,0 +1,116 @@
+.run-status {
+    font-family: pokered, pokeplatinum, monospace;
+}
+.itemsList, .badgeList {
+    vertical-align: top;
+    display: inline-block;
+    font-family: pokered, pokeplatinum, monospace;
+    margin:2%;
+    margin-top:0;
+    width:23%;
+    min-width: 300px;
+}
+.badgeList {
+    width: 85%;
+}
+.itemsList ul, .badgeList ul {
+    list-style: none;
+    padding:0;
+}
+.itemsList ul {
+    text-align: left;
+}
+.itemsList ul li{
+    padding: .5em 1em;
+}
+.itemsList ul li[data-quantity]:after {
+    content:'×' attr(data-quantity);
+    float: right;
+    vertical-align: baseline;
+}
+.badgeList ul h3 {
+    font-family: pokeplatinum, monospace;
+}
+.badgeList ul h3, .badgeList ul h4 , .badgeList ul h5, .badgeList ul h6 {
+    margin:.25em 0;
+}
+.badgeList ul img {
+    height: 64px;
+}
+
+.badgeList ul li {
+    display:inline-block;
+    background-color: rgba(0,0,0,.1);
+    margin:.2em;
+    width:12em;
+    vertical-align: top;
+}
+
+.location {
+    font-family: pokeplatinum, monospace;
+    font-size: 1.5em;
+    margin:.5em;
+}
+.location h2 {
+    margin:0;
+}
+
+.hallOfFameDisplay.pokeBorder {
+    border:none;
+    background-color:white;
+    width:95vw;
+}
+.hallOfFameDisplay table {
+    margin: auto;
+}
+
+.hallOfFameDisplay.pokeBorder td {
+    background-color: rgba(0,0,0,.1);
+}
+
+.hallOfFameDisplay .entry {
+    font-size:1.3vw;
+}
+
+.entry.fainted {
+    filter:grayscale();
+}
+
+.pokeBorder.pokedex {
+    width: 90%;
+}
+
+.pokedex > h2, .pokedex > h3, .pokedex > h4, .pokedex > h5, .pokedex > h6 {
+    margin:0;
+} 
+
+.pokedex .total {
+    font-family: pokeplatinum, monospace;
+}
+
+.plug {
+    display: block;
+    margin:.1em;
+    color:black!important;
+    font-family: pokeplatinum, monospace;
+}
+
+.error {
+    font-family: pokeplatinum, monospace;
+}
+
+.hallOfFameDisplay + .itemsList, .hallOfFameDisplay + .badgeList, .hallOfFameDisplay + .itemsList ~ .itemsList {
+    margin-top: 2%;
+}
+
+.window-shade {
+    position: absolute;
+    left:.3em;
+    top:.5em;
+    opacity: .1;
+    cursor: pointer;
+}
+
+.window-shade:hover {
+    opacity: 1;
+}

@@ -1,6 +1,4 @@
-/// <reference path="../models/collection.ts" />
-/// <reference path="../models/duration.ts" />
-/// <reference path="../models/run_status.ts" />
+/// <reference path="shared.ts" />
 /// <reference path="pokedex.ts" />
 
 module TPP.Display.RunStatus {

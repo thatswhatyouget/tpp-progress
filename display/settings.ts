@@ -1,5 +1,5 @@
 /// <reference path="fakequery.ts" />
-/// <reference path="../ref/jquery.d.ts" />
+/// <reference path="shared.ts" />
 
 interface Setting {
     displayName: string;

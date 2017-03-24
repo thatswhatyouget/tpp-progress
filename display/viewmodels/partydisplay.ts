@@ -1,6 +1,5 @@
 /// <reference path="../../models/run_status.ts" />
-/// <reference path="../../models/run.ts" />
-/// <reference path="../../models/duration.ts" />
+/// <reference path="../shared.ts" />
 
 namespace TPP.Display.ViewModels {
     function DetermineStatus(status: number) {
@@ -44,6 +43,7 @@ namespace TPP.Display.ViewModels {
             ColorPrimary: string;
             ColorSecondary: string;
         }
+        Run: Run;
         Time: number;
         RunTime: string;
         Attempts: string;
@@ -83,6 +83,8 @@ namespace TPP.Display.ViewModels {
                 ColorPrimary: run.ColorPrimary,
                 ColorSecondary: run.ColorSecondary,
             };
+            this.Run = run;
+            this.Class += " " + cleanString(run.RunName);
             if ((data as HallOfFame).Party) {
                 var hof = data as HallOfFame;
                 this.Title = hof.Name + " - " + new Date(hof.UnixTime * 1000).toLocaleDateString();

@@ -1,200 +1,47 @@
 <html>
 
 <head>
-    <title>TPP Progress Chart - Run Status</title>
+	<title>TPP Run Status</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://unpkg.com/react@15/dist/react.min.js"></script>
-    <script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
-    <script src="bin/tpp-data.js"></script>
-    <script src="bin/pokedex-data.js"></script>
-    <script src="transforms/tpp-transforms.js"></script>
-    <script src="display/tpp-display.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/tpp-progress.css" />
-    <link rel="stylesheet" href="css/tpp-pokedex.css" />
-    <link rel="stylesheet" href="css/pokemon.css" />
-    <link rel="icon" href="img/icon.png" type="image/png">
-    <link rel="shortcut icon" href="img/icon.png" type="image/png">
-    <meta property="og:title" content="TPP Progress Chart" />
-    <meta property="og:url" content="http://thatswhatyouget.github.io/tpp-progress/" />
-    <meta property="og:image" content="http://thatswhatyouget.github.io/tpp-progress/img/icon.png" />
-    <meta property="og:type" content="website" />
-    <meta charset="utf-8" />
-    <style>
-        .charts {
-            font-family: pokered, pokeplatinum, monospace;
-        }
-        .itemsList, .badgeList {
-            vertical-align: top;
-            display: inline-block;
-            font-family: pokered, pokeplatinum, monospace;
-            margin:2%;
-            margin-top:0;
-            width:23%;
-            min-width: 300px;
-        }
-        .badgeList {
-            width: 85%;
-        }
-        .itemsList ul, .badgeList ul {
-            list-style: none;
-            padding:0;
-        }
-        .itemsList ul {
-            text-align: left;
-        }
-        .itemsList ul li{
-            padding: .5em 1em;
-        }
-        .itemsList ul li[data-quantity]:after {
-            content:'×' attr(data-quantity);
-            float: right;
-            vertical-align: baseline;
-        }
-        .badgeList ul h3 {
-            font-family: pokeplatinum, monospace;
-        }
-        .badgeList ul h3, .badgeList ul h4 , .badgeList ul h5, .badgeList ul h6 {
-            margin:.25em 0;
-        }
-        .badgeList ul img {
-            height: 64px;
-        }
-
-        .badgeList ul li {
-            display:inline-block;
-            background-color: rgba(0,0,0,.1);
-            margin:.2em;
-            width:12em;
-            vertical-align: top;
-        }
-
-        .location {
-            font-family: pokeplatinum, monospace;
-            font-size: 1.5em;
-            margin:.5em;
-        }
-        .location h2 {
-            margin:0;
-        }
-
-        .hallOfFameDisplay.pokeBorder {
-            border:none;
-            background-color:white;
-            width:95vw;
-        }
-        .hallOfFameDisplay table {
-            margin: auto;
-        }
-
-        .hallOfFameDisplay.pokeBorder td {
-            background-color: rgba(0,0,0,.1);
-        }
-
-        .hallOfFameDisplay .entry {
-            font-size:1.3vw;
-        }
-
-        .entry.fainted {
-            filter:grayscale();
-        }
-
-        .pokeBorder.pokedex {
-            width: 90%;
-        }
-
-        .pokedex > h2, .pokedex > h3, .pokedex > h4, .pokedex > h5, .pokedex > h6 {
-            margin:0;
-        } 
-
-        .pokedex .total {
-            font-family: pokeplatinum, monospace;
-        }
-
-        .plug {
-            display: block;
-            margin:.1em;
-            color:black!important;
-            font-family: pokeplatinum, monospace;
-        }
-
-        .error {
-            font-family: pokeplatinum, monospace;
-        }
-
-        .hallOfFameDisplay + .itemsList, .hallOfFameDisplay + .badgeList, .hallOfFameDisplay + .itemsList ~ .itemsList {
-            margin-top: 2%;
-        }
-
-        .window-shade {
-            position: absolute;
-            left:.3em;
-            top:.5em;
-            opacity: .1;
-            cursor: pointer;
-        }
-
-        .window-shade:hover {
-            opacity: 1;
-        }
-
-    </style>
+	<script src="https://unpkg.com/react-dom@15/dist/react-dom.min.js"></script>
+	<script src="bin/tpp-data.js"></script>
+	<script src="bin/pokedex-data.js"></script>
+	<script src="transforms/tpp-transforms.js"></script>
+	<script src="display/tpp-display.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/tpp-progress.css" />
+	<link rel="stylesheet" href="css/pokemon.css" />
+	<link rel="stylesheet" href="css/tpp-pokedex.css" />
+	<link rel="icon" href="img/icon.png" type="image/png">
+	<link rel="shortcut icon" href="img/icon.png" type="image/png">
+	<meta property="og:title" content="TPP Progress Chart" />
+	<meta property="og:url" content="http://thatswhatyouget.github.io/tpp-progress/" />
+	<meta property="og:image" content="http://thatswhatyouget.github.io/tpp-progress/img/icon.png" />
+	<meta property="og:type" content="website" />
+	<meta charset="utf-8" />
 </head>
 
 <body>
-    <div class="title">
-        <h1>Twitch Plays Pokemon</h1>
-        <div class="subtitle">
-            Run Status
-            <a href="index.html">See Progress Chart</a>
-        </div>
-    </div>
-    <div class="title">
-        <strong>Run Status</strong>
-        <div class="credits">
-            <span>Live Data: <a href="https://twitchplayspokemon.tv/" target="_blank">TwitchPlaysPokemon.tv</a></span>&nbsp;&nbsp;
-            <span>Other Data: <a href="https://www.reddit.com/user/VorpalNorman" target="_blank">VorpalNorman</a></span>
-        </div>
-        <div class="credits">
-            Default sprites are from <a href="http://bulbapedia.bulbagarden.net/" target="_blank">Bulbapedia</a> and
-            <a href="http://twitchplayspokemon.org/"
-                target="_blank">twitchplayspokemon.org</a>. Pokemon sprites are from <a href="http://pldh.net/dex/sprites/index" target="_blank">PLDHnet's SpriteDex</a>.<br/>                All custom sprites can be clicked for links to their sources.
-        </div>
-        <div class="credits">
-            For more information about the run, check out <a href="http://twitchplayspokemon.org/" target="_blank">twitchplayspokemon.org</a>.
-        </div>
-    </div>
-    <div id="runstatus" class="charts">
-        <script>
-            var run = QueryString["run"] ? TPP.Display.RunStatus.GetSpecifiedRun(tppData, QueryString["run"]) : TPP.Display.RunStatus.GetCurrentRun(TPP.Transforms.Data.Filter.RemoveFutureRuns(TPP.Transforms.Data.Processing.MarkOngoingRuns(tppData)));
-            var natDex = TPP.Transforms.Pokedex.ClipNationalDex(run.DexTotal || Pokedex.GenSlice[run.Generation || 0]);
-            var pokemon = TPP.Transforms.Pokedex.DexMerge(Pokedex.Regional[run.Pokedex || run.Region], natDex);
-            if (run.RunName == "Chatty Yellow") {
-                pokemon.push("Chatot");
-            }
-            function fillDex(run) {
-                tppData.forEach(function(c) {
-                    for (var i = 0; i < c.Runs.length; i++) {
-                        if (c.Runs[i].RunName == run.RunName && c.Runs[i].StartTime == run.StartTime)
-                            return c.Runs[i] = run;
-                    }
-                });
-                var regional = new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, pokemon), pokemon);
-                var national = new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, natDex), natDex);
-                if (national.TotalOwnedBy(run) > regional.TotalOwnedBy(run))
-                    return national;
-                return regional;
-            }
-            TPP.Display.Elements.RunStatus.Render("runstatus", run, QueryString["autorefresh"] ? 5 : 0, fillDex);
-        </script>
-    </div>
-    <ul class="controls">
-        <script>
-            drawControls([qsOptionsMenu("fa-sliders","Options",{
-					"autorefresh": "Refresh Automatically"
-				})]);
-        </script>
-    </ul>
+	<div class="title">
+		<h1>Twitch Plays Pokémon</h1>
+		<div class="subtitle">
+			<span id="page-title"></span>
+			<span id="see-also"></span>
+		</div>
+	</div>
+	<div class="title">
+		<strong id="content-title"></strong>
+		<div id="credits"> 
+		</div>
+	</div>
+	<div id="contents">
+	</div>
+	<ul class="controls" id="controls">
+	</ul>
+	<script>
+		new TPP.Controllers.RunStatusController(tppData).Render();
+	</script>
 </body>
 
 </html>

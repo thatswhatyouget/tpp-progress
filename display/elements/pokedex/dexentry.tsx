@@ -1,5 +1,4 @@
 /// <reference path="../../shared.ts" />
-/// <reference path="../../../models/pokedex.ts" />
 
 namespace TPP.Display.Elements.Pokedex {
     interface DexEntryProps {

@@ -1,5 +1,3 @@
-/// <reference path="../models/collection.ts" />
-/// <reference path="../models/pokedex.ts" />
 /// <reference path="shared.ts" />
 
 module TPP.Display.Pokedex {

@@ -1,9 +1,6 @@
 /// <reference path="settings.ts" />
-/// <reference path="../models/collection.ts" />
-/// <reference path="../models/duration.ts" />
 /// <reference path="../ref/pokedex-data.d.ts" />
 /// <reference path="querystring.ts" />
-/// <reference path="../models/pokedex.ts" />
 
 var groupList: HTMLUListElement;
 var groups: { [key: string]: string };

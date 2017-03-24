@@ -25,7 +25,7 @@ gulp.task('build-progress', function () {
     var tsResult = tppProgressProject.src().pipe(tppProgressProject())
     return tsResult.js.pipe(uglify()).pipe(gulp.dest("bin/"));
 });
-gulp.task('build-display', function () {
+gulp.task('build-display', ["build-transforms"], function () {
     var tsResult = tppDisplayProject.src().pipe(tppDisplayProject())
     return tsResult.js.pipe(uglify()).pipe(gulp.dest("."));
 });

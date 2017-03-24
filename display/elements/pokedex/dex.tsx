@@ -51,13 +51,4 @@ namespace TPP.Display.Elements.Pokedex {
             </div>;
         }
     }
-
-    export function Render(element: string | HTMLElement, dex: TPP.Pokedex.GlobalDexBase, showOwnership = true, ownedOnly = false, className = "") {
-        if (!(element instanceof HTMLElement))
-            element = document.getElementById(element);
-        ReactDOM.render(
-            <Dex dex={dex} showOwnership={showOwnership} ownedOnly={ownedOnly} className={className} />,
-            element
-        );
-    }
 }
