@@ -60,7 +60,7 @@
     background-color:white;
     width:95vw;
 }
-.hallOfFameDisplay table {
+.hallOfFameDisplay.pokeBorder table {
     margin: auto;
 }
 
@@ -80,11 +80,11 @@
     width: 90%;
 }
 
-.pokedex > h2, .pokedex > h3, .pokedex > h4, .pokedex > h5, .pokedex > h6 {
+.pokeBorder.pokedex > h2, .pokeBorder.pokedex > h3, .pokeBorder.pokedex > h4, .pokeBorder.pokedex > h5, .pokeBorder.pokedex > h6 {
     margin:0;
 } 
 
-.pokedex .total {
+.pokeBorder.pokedex .total {
     font-family: pokeplatinum, monospace;
 }
 
