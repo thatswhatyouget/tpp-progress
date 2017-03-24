@@ -43,7 +43,14 @@ namespace TPP.Display.Elements.RunStatus {
 
         private updateLoop: number;
         componentDidMount() {
-            if (this.props.run.Ongoing && this.props.autoUpdate > 0) {
+            if (this.isFutureRun)
+                this.updateLoop = setInterval(() => {
+                    if (this.isFutureRun)
+                        return this.forceUpdate();
+                    clearInterval(this.updateLoop);
+                    window.location.reload();
+                }, 1000);
+            else if (this.props.run.Ongoing && this.props.autoUpdate > 0) {
                 this.updateLoop = setInterval(() => {
                     if (!this.state.run.Ongoing)
                         return clearInterval(this.updateLoop);
@@ -127,11 +134,23 @@ namespace TPP.Display.Elements.RunStatus {
             </PokeBox>;
         }
 
+        private get isFutureRun() {
+            return this.state.run.StartTime * 1000 > Date.now();
+        }
+
+        private get timeUntilRun() {
+            var duration = new Duration(0);
+            duration.TotalSeconds = (this.state.run.StartTime * 1000 - Date.now()) / 1000;
+            return duration.toString(Scale.Weeks);
+        }
+
         render() {
             if (this.state.error)
                 var innards = <h1 className='error'>Run Status is not currently available.</h1>;
             else if (this.loading)
                 var innards = <i className='fa fa-spinner fa-pulse' />;
+            else if (this.isFutureRun)
+                var innards = <h2>Starts in {this.timeUntilRun}</h2>;
             else
                 var innards = <div className={cleanString(this.state.run.RunName)}>
                     {this.partyDisplay}
