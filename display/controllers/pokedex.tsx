@@ -66,7 +66,7 @@ namespace TPP.Controllers {
                 classes += " " + this.cleanString(onlyRun.RunName);
             
             if (classes.indexOf("touhoumon") >= 0)
-                this.credits.splice(this.credits.length - 1, 0, "Touhoumon sprites ripped by [Jayare158](https://www.reddit.com/r/twitchplayspokemon/comments/5cwr3q/by_ucyanders_request_heres_a_sprite_chart_with/).");  
+                this.credits.splice(0, 1, "Touhoumon sprites ripped by [Jayare158](https://www.reddit.com/r/twitchplayspokemon/comments/5cwr3q/by_ucyanders_request_heres_a_sprite_chart_with/).");  
 
             this.contentTitle = <DexName name={dexName} sorting={sorting}/>;
             return <Display.Elements.Pokedex.Dex dex={dex} showOwnership={!this.queryString["justmon"]} ownedOnly={!!this.queryString["owned"]} className={classes.trim()} />;

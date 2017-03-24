@@ -10,8 +10,7 @@ namespace TPP.Controllers {
             this.pageTitle = "Run Status";
             this.seeAlso = <a href="index.html">See Progress Bars</a>;
             this.credits = [
-                "Live Data: [TwitchPlaysPokemon.tv](https://twitchplayspokemon.tv/) &nbsp;&nbsp" +
-                "Other Data: [VorpalNorman](https://www.reddit.com/user/VorpalNorman)",
+                "Data: [VorpalNorman](https://www.reddit.com/user/VorpalNorman)",
                 "Default sprites are from [Bulbapedia](http://bulbapedia.bulbagarden.net/) and [PLDHnet's SpriteDex](http://pldh.net/dex/sprites/index).",
                 "All custom sprites can be clicked for links to their sources."
             ];
@@ -41,6 +40,8 @@ namespace TPP.Controllers {
 
             this.contentTitle = run.RunName + " Status";
 
+            if (run.Ongoing)
+                this.credits[0] = "Live Data: [TwitchPlaysPokemon.tv](https://twitchplayspokemon.tv/) &nbsp;&nbsp Other" + this.credits[0];    
             if (run.RunName.indexOf("Touhoumon") >= 0)
                 this.credits.splice(this.credits.length - 1, 0, "Touhoumon sprites ripped by [Jayare158](https://www.reddit.com/r/twitchplayspokemon/comments/5cwr3q/by_ucyanders_request_heres_a_sprite_chart_with/).");
             if (run.TPPOrgLink || run.DocumentLink)
