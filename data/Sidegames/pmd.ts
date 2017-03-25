@@ -13,6 +13,7 @@ Sidegames.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46muun/the_hosts_of_the_voices_updated_to_ac/",
         Region: "Pokemon World",
         ContainsRunsFrom: ["Sidegames"],
+        SidegameId: "pmdrrt",
         Events: [
             {
                 Group: "Bosses",

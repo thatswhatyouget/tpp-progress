@@ -16,6 +16,7 @@ Sidegames.Runs.push(
         AdditionalRegions: [{ Name: "Kanto", Time: "2015-09-14T18:37:36Z" }],
         Generation: 2,
         Pokedex: "New",
+        LastScreenshot: "https://twitchplaysleaderboard.info/api/elf/image/1449867838.png",
         Events: [
             {
                 Group: "Badges",

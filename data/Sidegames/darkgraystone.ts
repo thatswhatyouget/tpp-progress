@@ -12,6 +12,7 @@ Sidegames.Runs.push(
         Region: "Janto",
         Generation: 2,
         Pokedex: "New",
+        SidegameId: "pdgs",
         Events: [
             { Name: "Wooper", Time: "Sat Feb 25 2017 22:20:40 GMT+0000 (UTC)", Group: "Pokemon" },
             { Name: "Krabby", Time: "Thu Mar 02 2017 06:12:13 GMT+0000 (UTC)", Group: "Pokemon" },
