@@ -14,7 +14,10 @@ namespace TPP.Display.Elements.RunStatus {
         status?: Tv.RunStatus;
         updatingRunData?: boolean;
         updatingStatus?: boolean;
+        updatingScreenshot?: boolean;
         error?: string;
+        lastScreen?: string;
+        lastScreenTime?: string;
     }
 
     export class App extends React.Component<RunStatusProps, RunStatusState> {
@@ -29,42 +32,73 @@ namespace TPP.Display.Elements.RunStatus {
         }
 
         private UpdateRunStatus() {
+            if (!this.wouldHaveRunStatus) return;
             this.setState({ updatingStatus: true });
             $.get("https://twitchplayspokemon.tv/api/run_status").then(
                 (status: Tv.RunStatus) => this.setState({ status: status, updatingStatus: false }),
-                e => this.setState({ updatingStatus: false, error: (this.state.status ? null : (e.statusText || "Error")) })
+                e => this.setState({ updatingStatus: false/*, error: (this.state.status ? null : (e.statusText || "Error"))*/ })
+            );
+        }
+
+        private UpdateScreenshot() {
+            if (!this.state.run.SidegameId) return;
+            this.setState({ updatingScreenshot: true });
+            $.get(`https://twitchplayspokemon.tv/api/sidegame_inputs?filter:id.game=${this.state.run.SidegameId}&sort=-id.position`).then(
+                (inputs: Tv.SidegameInput[]) => this.setState({
+                    updatingScreenshot: false,
+                    lastScreen: inputs.length ? `http://i.imgur.com/${inputs[0].imgur_screenshot_id}.png` : this.state.lastScreen,
+                    lastScreenTime: inputs.length ? Duration.parse(inputs[0].timestamp, this.state.run.StartTime).toString(Scale.Days) : this.state.lastScreenTime
+                }),
+                e => this.setState({ updatingScreenshot: false })
             );
         }
 
         constructor(props: RunStatusProps) {
             super(props);
-            this.state = { run: props.run, status: {} as TPP.Tv.RunStatus };
+            this.state = {
+                run: props.run,
+                status: null,
+                lastScreen: props.run.LastScreenshot,
+                lastScreenTime: Duration.parse(props.run.Duration, props.run.StartTime).toString(Scale.Days)
+            };
         }
 
         private updateLoop: number;
         componentDidMount() {
             if (this.isFutureRun)
-                this.updateLoop = setInterval(() => {
+                return this.updateLoop = setInterval(() => {
                     if (this.isFutureRun)
                         return this.forceUpdate();
                     clearInterval(this.updateLoop);
                     window.location.reload();
                 }, 1000);
-            else if (this.props.run.Ongoing && this.props.autoUpdate > 0) {
+            if (this.props.run.Ongoing && this.props.autoUpdate > 0) {
                 this.updateLoop = setInterval(() => {
                     if (!this.state.run.Ongoing)
                         return clearInterval(this.updateLoop);
                     this.UpdateRunData();
                     this.UpdateRunStatus();
+                    this.UpdateScreenshot();
                 }, this.props.autoUpdate * 60000);
             }
+            this.UpdateRunStatus();    
+            if (this.props.run.SidegameId && !this.props.run.LastScreenshot)
+                this.UpdateScreenshot();
         }
         componentWillUnmount() {
             clearInterval(this.updateLoop);
         }
 
+        private get wouldHaveRunStatus() {
+            return this.state.run.Ongoing && !this.state.run.SidegameId;
+        }
+
         private get loading() {
-            return this.state.run && this.state.run.Ongoing && !this.state.status && !this.state.error;
+            return this.state.run && this.state.run.Ongoing && this.wouldHaveRunStatus && !this.state.status && !this.state.error;
+        }
+
+        private get updating() {
+            return !this.loading && (this.state.updatingRunData || this.state.updatingStatus || this.state.updatingScreenshot);
         }
 
         private get Pokedex() {
@@ -126,7 +160,7 @@ namespace TPP.Display.Elements.RunStatus {
                     return null;
                 var display = new ViewModels.PartyDisplay(hof, this.state.run, Scale.Days);
             }
-            var title = display.Title.replace(/#/g, "#.");
+            var title = display.Title;
             var className = display.Class;
             display.Title = display.Class = display.Colors = null;
             return <PokeBox title={title} className={className}>
@@ -153,6 +187,10 @@ namespace TPP.Display.Elements.RunStatus {
                 var innards = <h2>Starts in {this.timeUntilRun}</h2>;
             else
                 var innards = <div className={cleanString(this.state.run.RunName)}>
+                    {this.state.lastScreen ? <PokeBox className="last-screenshot" title={`${this.state.run.Ongoing ? 'Latest' : 'Last'} Screenshot`}>
+                        <img src={this.state.lastScreen} />
+                        {this.state.lastScreenTime ? <h4>{this.state.lastScreenTime}</h4> : null}
+                    </PokeBox> : null}
                     {this.partyDisplay}
                     <EventDisplay key="Past Hosts" events={this.pastHosts} />
                     <EventDisplay key="Elite Four Rematch" events={this.eliteFourRematch} />
@@ -164,7 +202,10 @@ namespace TPP.Display.Elements.RunStatus {
                     {this.Pokedex}
                 </div>;
             return <div className="run-status">
-                <h1>{this.state.run.RunName}</h1>
+                <h1>
+                    {this.state.run.RunName}
+                    {this.updating ? <i className="fa fa-refresh fa-spin updating" /> : null}
+                </h1>
                 {innards}
             </div>;
         }

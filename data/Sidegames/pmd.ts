@@ -14,6 +14,7 @@ Sidegames.Runs.push(
         Region: "Pokemon World",
         ContainsRunsFrom: ["Sidegames"],
         SidegameId: "pmdrrt",
+        LastScreenshot: 'http://i.imgur.com/8Vq2VcV.png',
         Events: [
             {
                 Group: "Bosses",

@@ -17,18 +17,20 @@ namespace TPP.Display.Elements.RunStatus {
         }
         private get events() {
             return <ul>
-                {(this.props.events || []).map((e, i, arr) => <li key={i}>
+                {(this.props.events || []).map((e, i, arr) => <li key={i} >
                     <h3>{e.Name}</h3>
-                    {e.ImageSource ?
-                        <a href={e.ImageSource} target="_blank">
-                            <img src={e.Image} />
-                        </a> :
-                        <img src={e.Image} />
-                    }
+                    {React.createElement(e.ImageSource ? 'a' : 'div',
+                        {
+                            href: e.ImageSource || null,
+                            target: e.ImageSource ? "_blank" : null,
+                            className: ['image', (e.Class || '').toLowerCase(), cleanString(e.Name)].join(' ').trim()
+                        },
+                        <img src={e.Image || 'img/missingno.png'} />
+                    )}
                     <h4>{e.RunTime}</h4>
                     {e.Attempts ?
                         <h5>{`${e.Attempts} Attempt${e.Attempts > 1 ? 's' : ''}`}</h5>
-                        : arr.filter(e=>!!e.Attempts).length > 0 ? <h5>&nbsp;</h5> : null
+                        : arr.filter(e => !!e.Attempts).length > 0 ? <h5>&nbsp;</h5> : null
                     }
                 </li>)}
             </ul>;

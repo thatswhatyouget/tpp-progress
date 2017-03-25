@@ -35,4 +35,14 @@ namespace TPP.Tv {
         x: number;
         y: number;
     }
+
+    export interface SidegameInput {
+        id: {
+            game: string;
+            position: number;
+        },
+        imgur_screenshot_id: string;
+        timestamp: string;
+        winning_input: string;
+    }
 }

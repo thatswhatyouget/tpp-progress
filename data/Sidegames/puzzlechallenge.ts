@@ -11,6 +11,7 @@ Sidegames.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5qo9dy/the_hosts_of_the_voices_before_season_4/",
         Region: "Johto",
         SidegameId: "ppc",
+        LastScreenshot: "http://i.imgur.com/55eXoVp.png",
         Events: [
             { Group: "Pokemon", Name: "Chikorita", Time: "2017-01-27T11:06:26Z" },
             { Group: "Pokemon", Name: "Cyndaquil", Time: "2017-01-27T11:06:26Z" },
@@ -30,7 +31,7 @@ Sidegames.Runs.push(
             { Group: "Pokemon", Name: "Pichu", Time: "2017-02-09T04:43:09Z" },
             // { Group: "Pokemon", Name: "Elekid", Time: "" },
             // { Group: "Pokemon", Name: "Igglybuff", Time: "" },
-            
+
             // { Group: "Rematch Badges", Name: "Zephyr Badge", Image: "img/badges/rematch/zephyr.png", Time: "", Attempts: 1 },
             // { Group: "Rematch Badges", Name: "Hive Badge", Image: "img/badges/rematch/hive.png", Time: "", Attempts: 1 },
             // { Group: "Rematch Badges", Name: "Plain Badge", Image: "img/badges/rematch/plain.png", Time: "", Attempts: 1 },

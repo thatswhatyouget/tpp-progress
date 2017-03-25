@@ -1,10 +1,21 @@
 /// <reference path="../ref/jquery.d.ts" />
 /// <reference path="../ref/react.d.ts" />
 /// <reference path="../ref/tpp-transforms.d.ts" />
-/// <reference path="../models/run_status.ts" />
+/// <reference path="../models/twitchplayspokemon.tv.ts" />
 
 module TPP.Display {
 
-    export var cleanString = (str: string) => str.replace(/[^A-Z0-9]/ig, '').toLowerCase();
+    export var cleanString = (str: string) => (str || '').replace(/[^A-Z0-9]/ig, '').toLowerCase();
+
+    export function pokeRedCondenseText(text: string) {
+        text = text.replace(/'l/ig, "|");
+        text = text.replace(/'m/ig, "~");
+        text = text.replace(/'r/ig, "%");
+        text = text.replace(/'s/ig, "&");
+        text = text.replace(/'t/ig, '}');
+        text = text.replace(/'v/ig, "@");
+        text = text.replace(/#/ig, "#.");
+        return text;
+    }
 
 }

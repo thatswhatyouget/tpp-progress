@@ -1,4 +1,3 @@
-/// <reference path="../../models/run_status.ts" />
 /// <reference path="../shared.ts" />
 
 namespace TPP.Display.ViewModels {

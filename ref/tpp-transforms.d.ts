@@ -115,6 +115,8 @@ declare namespace TPP {
         DocumentLink?: string;
         LiveUpdaterArchive?: string;
         TPPOrgLink?: string;
+        LastScreenshot?: string;
+        SidegameId?: string;
     }
     interface DisplayRun extends Run {
         Videos?: Twitch.Video[];

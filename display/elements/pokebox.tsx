@@ -13,7 +13,7 @@ namespace TPP.Display.Elements {
             return <div className={`pokeBorder ${this.props.className || ''}`.trim()} >
                 <div className='border' />
                 <div className='border' />
-                <h3>{this.props.title}</h3>
+                <h3>{pokeRedCondenseText(this.props.title)}</h3>
                 <div>
                     {this.props.children}
                 </div>

@@ -13,6 +13,7 @@ Sidegames.Runs.push(
         Generation: 2,
         Pokedex: "New",
         SidegameId: "pdgs",
+        LastScreenshot: "http://i.imgur.com/5fSYCbP.png",
         Events: [
             { Name: "Wooper", Time: "Sat Feb 25 2017 22:20:40 GMT+0000 (UTC)", Group: "Pokemon" },
             { Name: "Krabby", Time: "Thu Mar 02 2017 06:12:13 GMT+0000 (UTC)", Group: "Pokemon" },

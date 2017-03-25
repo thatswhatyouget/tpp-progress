@@ -1,6 +1,26 @@
 .run-status {
     font-family: pokered, pokeplatinum, monospace;
 }
+
+.run-status .updating {
+    position: absolute;
+    right:1em;
+}
+
+.last-screenshot {
+    margin-bottom:1em;
+    padding:1em;
+}
+
+.last-screenshot img {
+    height:256px;
+    margin: 5px;
+}
+
+.last-screenshot h4 {
+    margin:2px;
+}
+
 .itemsList, .badgeList {
     vertical-align: top;
     display: inline-block;
@@ -34,9 +54,6 @@
 .badgeList ul h3, .badgeList ul h4 , .badgeList ul h5, .badgeList ul h6 {
     margin:.25em 0;
 }
-.badgeList ul img {
-    height: 64px;
-}
 
 .badgeList ul li {
     display:inline-block;
@@ -44,6 +61,27 @@
     margin:.2em;
     width:12em;
     vertical-align: top;
+}
+
+.badgeList ul li .image {
+    display: inline-block;
+    font-size: 64px;
+    width: 1em;
+    height: 1em;
+    margin: 5px 0;
+}
+
+.badgeList ul li .image.pokesprite:not(.missingno) img {
+    height: 0;
+    width: 0;
+    padding: .5em;
+    background-image: url("../img/pokemon-large.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.badgeList ul li .image img {
+    height: 1em;
 }
 
 .location {

@@ -42,6 +42,8 @@ namespace TPP {
         DocumentLink?: string;
         LiveUpdaterArchive?: string;
         TPPOrgLink?: string;
+        LastScreenshot?: string;
+        SidegameId?: string;
     }
 
     export interface DisplayRun extends Run {

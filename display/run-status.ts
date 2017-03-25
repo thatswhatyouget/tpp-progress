@@ -1,5 +1,4 @@
 /// <reference path="shared.ts" />
-/// <reference path="pokedex.ts" />
 
 module TPP.Display.RunStatus {
 
@@ -108,14 +107,14 @@ module TPP.Display.RunStatus {
                     e.Owners = [];
                 return e;
             });
-            $container.append(PokeBox().addClass("pokedex").addClass(cleanString(run.RunName))
-                .append(WindowShadeButton())    
-                .append($("<h3>").text("Pokédex"))
-                .append(entries.length < status.caught ? $("<h6>").text("(Outdated)") : "")
-                .append(TPP.Display.Pokedex.DrawOwnedCount(dex))
-                .append(entries.map(e => TPP.Display.Pokedex.DrawDexEntry(e)))
-                .append($("<a>").addClass("plug").attr('href', "pokedex.html").text("See Global Pokédex"))
-            )
+            // $container.append(PokeBox().addClass("pokedex").addClass(cleanString(run.RunName))
+            //     .append(WindowShadeButton())    
+            //     .append($("<h3>").text("Pokédex"))
+            //     .append(entries.length < status.caught ? $("<h6>").text("(Outdated)") : "")
+            //     .append(TPP.Display.Pokedex.DrawOwnedCount(dex))
+            //     .append(entries.map(e => TPP.Display.Pokedex.DrawDexEntry(e)))
+            //     .append($("<a>").addClass("plug").attr('href', "pokedex.html").text("See Global Pokédex"))
+            // )
         }
     }
 

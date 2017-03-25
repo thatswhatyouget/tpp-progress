@@ -17,8 +17,8 @@ namespace TPP.Controllers {
             this.controls = [qsOptionsMenu("fa-sliders", "Options", { "autorefresh": "Refresh Automatically" })];
         }
         render() {
-            var tppData = this.tppData;
-            var run = this.queryString["run"] ? TPP.Display.RunStatus.GetSpecifiedRun(tppData, this.queryString["run"]) : TPP.Display.RunStatus.GetCurrentRun(TPP.Transforms.Data.Filter.RemoveFutureRuns(TPP.Transforms.Data.Processing.MarkOngoingRuns(tppData)));
+            var tppData = TPP.Transforms.Data.Processing.MarkOngoingRuns(this.tppData);
+            var run = this.queryString["run"] ? TPP.Display.RunStatus.GetSpecifiedRun(tppData, this.queryString["run"]) : TPP.Display.RunStatus.GetCurrentRun(TPP.Transforms.Data.Filter.RemoveFutureRuns(tppData));
             var natDex = TPP.Transforms.Pokedex.ClipNationalDex(run.DexTotal || dexData.GenSlice[run.Generation || 0]);
             var pokemon = TPP.Transforms.Pokedex.DexMerge(dexData.Regional[run.Pokedex || run.Region], natDex);
             if (run.RunName == "Chatty Yellow") {
