@@ -114,8 +114,12 @@
     filter:grayscale();
 }
 
-.pokeBorder.pokedex {
-    width: 90%;
+.run-status .pokeBorder {
+    max-width: 90%;
+    margin: 1em;
+    vertical-align: top;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .pokeBorder .pokedex > h2, .pokeBorder .pokedex > h3, .pokeBorder .pokedex > h4, .pokeBorder .pokedex > h5, .pokeBorder .pokedex > h6 {
