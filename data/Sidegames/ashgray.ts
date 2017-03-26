@@ -17,6 +17,7 @@ Sidegames.Runs.push(
             { Name: "Caterpie", Time: "2017-03-20T12:18:45+00:00", Group: "Pokemon" },
             { Name: "Pidgey", Time: "2017-03-24T14:21:53+00:00", Group: "Pokemon" },
             { Name: "Metapod", Time: "2017-03-25T10:39:27+00:00", Group: "Pokemon" },
+            { Name: "Pidgeotto", Time: "2017-03-26T01:49:36+00:00", Group: "Pokemon" },
             { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
