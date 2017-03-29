@@ -1,8 +1,5 @@
 /// <reference path="base.ts" />
 /// <reference path="../elements/pokedex/dex.tsx" />
-/// <reference path="../../ref/pokedex-data.d.ts" />
-
-var dexData = Pokedex;
 
 namespace TPP.Controllers {
     export class PokedexController extends ControllerBase {

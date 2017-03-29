@@ -1,8 +1,6 @@
 /// <reference path="base.ts" />
 /// <reference path="../elements/run-status/run-status.tsx" />
 
-var dexData = Pokedex;
-
 namespace TPP.Controllers {
     export class RunStatusController extends ControllerBase {
         constructor(data: Collection[]) {

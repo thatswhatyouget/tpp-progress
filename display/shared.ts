@@ -2,6 +2,10 @@
 /// <reference path="../ref/react.d.ts" />
 /// <reference path="../ref/tpp-transforms.d.ts" />
 /// <reference path="../models/twitchplayspokemon.tv.ts" />
+/// <reference path="../ref/pokedex-data.d.ts" />
+
+var dexData:(typeof Pokedex) = typeof(Pokedex) !== "undefined" ? Pokedex : <any>{};
+
 
 module TPP.Display {
 

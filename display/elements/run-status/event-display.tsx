@@ -7,11 +7,11 @@ namespace TPP.Display.Elements.RunStatus {
         events: ViewModels.RunEvent[];
         title?: string;
     }
-    interface EventDisplayProps {
+    interface EventDisplayState {
 
     }
 
-    export class EventDisplay extends React.Component<EventDisplayProps, EventDisplayProps> {
+    export class EventDisplay extends React.Component<EventDisplayProps, EventDisplayState> {
         private get title() {
             return this.props.title || (this.props.events[0] || { Group: "" }).Group;
         }

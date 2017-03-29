@@ -822,7 +822,7 @@ ul.controls > li > ul > li.selected > a:before {
 	font-size:1.2em;
 }
 
-.hof-list > h2 {
+.hof-list > div > h2 {
 	margin-bottom:0;
 	display: inline-block;
 	width:35em;

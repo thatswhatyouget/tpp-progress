@@ -22,8 +22,8 @@ namespace TPP.Controllers {
             hofs.sort((h1, h2) => h1.Time - h2.Time);
             return <div className="hof-list">
                 {hofs.map((hof, i, hofs) => [
-                    !i || hofs[i - 1].Run != hof.Run ? <h2 id={this.cleanString(hof.Run.RunName)}>{hof.Run.RunName}</h2> : null,
-                    <Display.Elements.PartyDisplay partyInfo={hof} key={`${hof.Run.RunName} ${hof.Title}`} />
+                    !i || hofs[i - 1].Run != hof.Run ? <div><h2 id={this.cleanString(hof.Run.RunName)}>{hof.Run.RunName}</h2></div> : null,
+                    <div><Display.Elements.PartyDisplay partyInfo={hof} key={`${hof.Run.RunName} ${hof.Title}`} /></div>
                 ])}
             </div>;
         }
