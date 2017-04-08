@@ -6,11 +6,12 @@ Season4.Runs.push(
         Duration: "255d",
         ColorPrimary: "#FDDFEF",
         ColorSecondary: "#FFB9D2",
-        HostImage: "img/ahunigg.png",
+        HostImage: "img/hosts/ahunigg.png",
         HostName: "AHUNIgg",
         Region: "Tunod",
         //AdditionalRegions: [{ Name: "Johto", Time: "" }, { Name: "Rankor", Time: "" }],
         BaseGame: "Emerald",
+        Pokedex: "New Tunod",
         // Scraper: {
         //     url: "http://twitchplayspokemon.org/",
         //     runtime: true,
