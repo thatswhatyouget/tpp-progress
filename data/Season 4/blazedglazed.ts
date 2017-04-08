@@ -21,6 +21,7 @@ Season4.Runs.push(
         TPPOrgLink: "http://twitchplayspokemon.org/",
         Events: [
             { Group: "Pokemon", Name: "Turtwig", Time: "10m" },
+            { Group: "Pokemon", Name: "Poochyena", Time: "1h34m" },
             { Group: "Pokemon", Name: "", Time: "" },
             { Group: "Badges", Name: "Jolt Badge", Time: "", Attempts: 0, Image: "http://vignette2.wikia.nocookie.net/fanmadepokemonglazed/images/9/9e/Jolt_badge.png/revision/latest?cb=20140315165128" },
             { Group: "Badges", Name: "Dirt Badge", Time: "", Attempts: 0, Image: "http://vignette4.wikia.nocookie.net/fanmadepokemonglazed/images/d/dc/Dirt_badge.png/revision/latest?cb=20140315165158" },
