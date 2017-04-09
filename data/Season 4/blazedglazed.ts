@@ -22,6 +22,10 @@ Season4.Runs.push(
         Events: [
             { Group: "Pokemon", Name: "Turtwig", Time: "10m" },
             { Group: "Pokemon", Name: "Poochyena", Time: "1h34m" },
+            { Group: "Pokemon", Name: "Caterpie", Time: "1h50m" },
+            { Group: "Pokemon", Name: "Ekans", Time: "1h52m" },
+            { Group: "Pokemon", Name: "Croagunk", Time: "1h58m" },
+            { Group: "Pokemon", Name: "Budew", Time: "1h59m" },
             { Group: "Pokemon", Name: "", Time: "" },
             { Group: "Badges", Name: "Jolt Badge", Time: "", Attempts: 0, Image: "http://vignette2.wikia.nocookie.net/fanmadepokemonglazed/images/9/9e/Jolt_badge.png/revision/latest?cb=20140315165128" },
             { Group: "Badges", Name: "Dirt Badge", Time: "", Attempts: 0, Image: "http://vignette4.wikia.nocookie.net/fanmadepokemonglazed/images/d/dc/Dirt_badge.png/revision/latest?cb=20140315165158" },
