@@ -200,6 +200,7 @@ namespace TPP.Display.Elements.RunStatus {
                         {this.state.lastScreenTime ? <h4>{this.state.lastScreenTime}</h4> : null}
                     </PokeBox> : null}
                     {this.partyDisplay}
+                    {this.state.status.area_name ? <PokeBox title="Current Location"><h3>{this.state.status.area_name}</h3></PokeBox> : null}
                     <EventDisplay key="Past Hosts" events={this.pastHosts} />
                     <EventDisplay key="Elite Four Rematch" events={this.eliteFourRematch} />
                     <EventDisplay key="Rematch Badges" events={this.rematchBadges} />
