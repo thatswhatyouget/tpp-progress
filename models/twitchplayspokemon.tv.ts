@@ -115,6 +115,7 @@ namespace TPP.Tv {
         id: number;
         name: string;
         count?: number;
+        key_item?: boolean;
     }
 
     export interface Trainer {

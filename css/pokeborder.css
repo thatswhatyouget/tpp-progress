@@ -56,7 +56,10 @@
 .pokeBorder .border + .border:after {
     background-position: right bottom;
 }
+.pokeBorder > h6 {
+    margin: 0 auto;
+}
 .pokeBorder > h3 {
     margin:0 auto;
-    font-size: 1.5em;
+    font-size: 1.25em;
 } 

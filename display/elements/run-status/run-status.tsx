@@ -1,4 +1,5 @@
 /// <reference path="event-display.tsx" />
+/// <reference path="item-display.tsx" />
 /// <reference path="../partydisplay.tsx" />
 
 
@@ -206,6 +207,12 @@ namespace TPP.Display.Elements.RunStatus {
                     <EventDisplay key="Badges" events={this.badges}>
                         {this.badgesOutOfDate ? <h6>Outdated</h6> : null}
                     </EventDisplay>
+                    <ItemDisplay key="Items" title="Items" items={this.state.status.items} />
+                    <ItemDisplay key="Key Items" title="Key Items" items={this.state.status.items_key} />
+                    <ItemDisplay key="Poké Balls" title="Poké Balls" items={this.state.status.items_ball} />
+                    <ItemDisplay key="TMs" title="TMs and HMs" items={this.state.status.items_tm} />
+                    <ItemDisplay key="Berries" title="Berries" items={this.state.status.items_berry} />
+                    <ItemDisplay key="PC Items" title={pokeRedCondenseText(`${this.state.run.HostName}'s PC`)} items={this.state.status.pc_items} />
                     {this.Pokedex}
                 </div>;
             return <div className="run-status">

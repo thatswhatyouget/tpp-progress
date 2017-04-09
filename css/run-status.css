@@ -30,9 +30,6 @@
     width:23%;
     min-width: 300px;
 }
-.badgeList {
-    width: 85%;
-}
 .itemsList ul, .badgeList ul {
     list-style: none;
     padding:0;
@@ -139,10 +136,6 @@
 
 .error {
     font-family: pokeplatinum, monospace;
-}
-
-.hallOfFameDisplay + .itemsList, .hallOfFameDisplay + .badgeList, .hallOfFameDisplay + .itemsList ~ .itemsList {
-    margin-top: 2%;
 }
 
 .window-shade {
