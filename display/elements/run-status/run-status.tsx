@@ -107,6 +107,11 @@ namespace TPP.Display.Elements.RunStatus {
             if (!this.props.buildDex)
                 return null;
             var dex = this.props.buildDex(this.props.run);
+            //fold in run's caught list
+            (this.state.status.caught_list || []).forEach(c => dex.Entries.forEach(e => {
+                if (e.Number == c && e.Owners.filter(o => o.Run == this.props.run).length == 0)
+                    e.Owners.push({ Run: this.props.run, CaughtOn: Date.now() / 1000 });    
+            }));
             dex.FilterOwnedInDexToRuns([this.props.run]);
             if (!dex.TotalOwned)
                 return null;
@@ -119,7 +124,7 @@ namespace TPP.Display.Elements.RunStatus {
         }
 
         private PokedexOutOfDate(dex: TPP.Pokedex.GlobalDexBase) {
-            return this.state.status && dex && this.state.status.caught > dex.TotalOwned;
+            return this.state.status && dex && !Array.isArray(this.state.status.caught_list) && this.state.status.caught > dex.TotalOwned;
         }
 
         private bakeEvents = (events: Event[]) => events.map(e => {

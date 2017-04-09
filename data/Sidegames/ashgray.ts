@@ -11,6 +11,7 @@ Sidegames.Runs.push(
         HostImageSource: "http://kensuyjin33.deviantart.com/art/Sprites-Trainer-Ash-Ketchum-Satoshi-Pokemon-Anime-456676605",
         BaseGame: "FireRed",
         Region: "Kanto",
+        ContainsRunsFrom: ["Season 4"],
         SidegameId: "pag",
         Events: [
             { Name: "Pikachu", Time: "2017-03-16T01:25:35+00:00", Group: "Pokemon" },
