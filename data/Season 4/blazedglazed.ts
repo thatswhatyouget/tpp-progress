@@ -32,6 +32,10 @@ Season4.Runs.push(
             { Group: "Badges", Name: "Jolt Badge", Time: "10h26m", Attempts: 1, Image: "img/badges/glazed/jolt.png" },
             { Group: "Pokemon", Name: "Snivy", Time: "12h39m" },
             { Group: "Pokemon", Name: "Oshawott", Time: "12h42m" },
+            { Group: "Pokemon", Name: "Venipede", Time: "1d3h30m" },
+            { Group: "Pokemon", Name: "Shroomish", Time: "1d3h32m" },
+            { Group: "Pokemon", Name: "Ralts", Time: "1d3h51m" },
+            
             { Group: "Badges", Name: "Dirt Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/dirt.png" },
             { Group: "Badges", Name: "Crest Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/crest.png" },
             { Group: "Badges", Name: "Stem Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/stem.png" },
