@@ -50,8 +50,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Houndour", Time: "1d12h19m" },
             { Group: "Pokemon", Name: "Taillow", Time: "1d16h40m" },
             { Group: "Pokemon", Name: "Electrike", Time: "1d20h5m" },
-            
-            { Group: "Badges", Name: "Crest Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/crest.png" },
+            { Group: "Badges", Name: "Crest Badge", Time: "1d23h22m", Attempts: 1, Image: "img/badges/glazed/crest.png" },
+
             { Group: "Badges", Name: "Stem Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/stem.png" },
             { Group: "Badges", Name: "Icicle Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/icicle.png" },
             { Group: "Badges", Name: "Blaze Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/blaze.png" },
