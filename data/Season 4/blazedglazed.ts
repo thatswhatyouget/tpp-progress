@@ -42,6 +42,11 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Snubbull", Time: "1d7h23m" },
             { Group: "Pokemon", Name: "Vulpix", Time: "1d7h25m" },
             { Group: "Pokemon", Name: "Growlithe", Time: "1d7h41m" },
+            { Group: "Pokemon", Name: "Servine", Time: "1d8h32m" },
+            { Group: "Pokemon", Name: "Dewott", Time: "1d9h3m" },
+            { Group: "Pokemon", Name: "Mightyena", Time: "1d9h5m" },
+            { Group: "Pokemon", Name: "Torterra", Time: "1d9h24m" },
+            { Group: "Pokemon", Name: "Def-Eevee", Time: "1d9h42m", Class: "Eevee" },
             
             { Group: "Badges", Name: "Crest Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/crest.png" },
             { Group: "Badges", Name: "Stem Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/stem.png" },
