@@ -35,6 +35,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Venipede", Time: "1d3h30m" },
             { Group: "Pokemon", Name: "Shroomish", Time: "1d3h32m" },
             { Group: "Pokemon", Name: "Ralts", Time: "1d3h51m" },
+            { Group: "Pokemon", Name: "Zigzagoon", Time: "1d5h14m" },
             
             { Group: "Badges", Name: "Dirt Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/dirt.png" },
             { Group: "Badges", Name: "Crest Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/crest.png" },
