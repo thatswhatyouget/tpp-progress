@@ -37,6 +37,11 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Ralts", Time: "1d3h51m" },
             { Group: "Pokemon", Name: "Zigzagoon", Time: "1d5h14m" },
             { Group: "Badges", Name: "Dirt Badge", Time: "1d5h53m", Attempts: 1, Image: "img/badges/glazed/dirt.png" },
+            { Group: "Pokemon", Name: "Mareep", Time: "1d7h16m" },
+            { Group: "Pokemon", Name: "Marill", Time: "1d7h21m" },
+            { Group: "Pokemon", Name: "Snubbull", Time: "1d7h23m" },
+            { Group: "Pokemon", Name: "Vulpix", Time: "1d7h25m" },
+            { Group: "Pokemon", Name: "Growlithe", Time: "1d7h41m" },
             
             { Group: "Badges", Name: "Crest Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/crest.png" },
             { Group: "Badges", Name: "Stem Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/stem.png" },
