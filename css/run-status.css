@@ -45,6 +45,11 @@
     float: right;
     vertical-align: baseline;
 }
+
+.badgeList {
+    white-space: nowrap;
+    width:auto;
+}
 .badgeList ul h3 {
     font-family: pokeplatinum, monospace;
 }
