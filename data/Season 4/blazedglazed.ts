@@ -51,6 +51,9 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Taillow", Time: "1d16h40m" },
             { Group: "Pokemon", Name: "Electrike", Time: "1d20h5m" },
             { Group: "Badges", Name: "Crest Badge", Time: "1d23h22m", Attempts: 1, Image: "img/badges/glazed/crest.png" },
+            { Group: "Pokemon", Name: "Whirlipede", Time: "2d26m" },
+            { Group: "Pokemon", Name: "Skorupi", Time: "2d3h7m" },
+            { Group: "Pokemon", Name: "NidoranF", Time: "2d3h8m" },
 
             { Group: "Badges", Name: "Stem Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/stem.png" },
             { Group: "Badges", Name: "Icicle Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/icicle.png" },
