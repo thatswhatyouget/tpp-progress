@@ -67,6 +67,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "NidoranM", Time: "2d19h33m" },
             { Group: "Pokemon", Name: "Geodude", Time: "2d20h10m" },
             { Group: "Pokemon", Name: "Phanpy", Time: "2d20h43m" },
+            { Group: "Pokemon", Name: "Bagon", Time: "2d22h52m" },
 
             { Group: "Badges", Name: "Stem Badge", Time: "", Attempts: 3, Image: "img/badges/glazed/stem.png" },
             { Group: "Badges", Name: "Icicle Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/icicle.png" },
