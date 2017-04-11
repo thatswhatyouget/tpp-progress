@@ -63,6 +63,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Houndoom", Time: "2d14h46m" },
             { Group: "Pokemon", Name: "Umbreon", Time: "2d16h39m" },
             { Group: "Pokemon", Name: "Abra", Time: "2d18h32m" },
+            { Group: "Pokemon", Name: "NidoranM", Time: "2d19h33m" },
 
             { Group: "Badges", Name: "Stem Badge", Time: "", Attempts: 2, Image: "img/badges/glazed/stem.png" },
             { Group: "Badges", Name: "Icicle Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/icicle.png" },
