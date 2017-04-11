@@ -62,10 +62,11 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Scolipede", Time: "2d9h27m" },
             { Group: "Pokemon", Name: "Houndoom", Time: "2d14h46m" },
             { Group: "Pokemon", Name: "Umbreon", Time: "2d16h39m" },
-            { Group: "Pokemon", Name: "Abra", Time: "2d18h32m" },
+            { Group: "Pokemon", Name: "Abra", Time: "2d18h31m" },
+            { Group: "Pokemon", Name: "Grovyle", Time: "2d19h1m" },
             { Group: "Pokemon", Name: "NidoranM", Time: "2d19h33m" },
 
-            { Group: "Badges", Name: "Stem Badge", Time: "", Attempts: 2, Image: "img/badges/glazed/stem.png" },
+            { Group: "Badges", Name: "Stem Badge", Time: "", Attempts: 3, Image: "img/badges/glazed/stem.png" },
             { Group: "Badges", Name: "Icicle Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/icicle.png" },
             { Group: "Badges", Name: "Blaze Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/blaze.png" },
             { Group: "Badges", Name: "Core Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/core.png" },
