@@ -59,7 +59,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Timburr", Time: "2d4h34m" },
             { Group: "Pokemon", Name: "Ditto", Time: "2d4h47m" },
             { Group: "Pokemon", Name: "Aron", Time: "2d4h52m" },
-            { Group: "Pokemon", Name: "Aron", Time: "2d9h27m" },
+            { Group: "Pokemon", Name: "Scolipede", Time: "2d9h27m" },
+            { Group: "Pokemon", Name: "Houndoom", Time: "2d14h46m" },
 
             { Group: "Badges", Name: "Stem Badge", Time: "", Attempts: 2, Image: "img/badges/glazed/stem.png" },
             { Group: "Badges", Name: "Icicle Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/icicle.png" },
