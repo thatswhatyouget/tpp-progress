@@ -57,6 +57,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Buizel", Time: "2d3h15m" },
             { Group: "Pokemon", Name: "Joltik", Time: "2d3h40m" },
             { Group: "Pokemon", Name: "Timburr", Time: "2d4h34m" },
+            { Group: "Pokemon", Name: "Ditto", Time: "2d4h47m" },
 
             { Group: "Badges", Name: "Stem Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/stem.png" },
             { Group: "Badges", Name: "Icicle Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/icicle.png" },
