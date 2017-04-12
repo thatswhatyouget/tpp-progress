@@ -90,7 +90,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Delibird", Time: "3d17h19m" },
             { Group: "Pokemon", Name: "Pawniard", Time: "3d17h33m" },
             { Group: "Pokemon", Name: "Totodile", Time: "3d17h36m" },
-            { Group: "Pokemon", Name: "Wobbufett", Time: "3d17h38m" },
+            { Group: "Pokemon", Name: "Wobbuffet", Time: "3d17h38m" },
             { Group: "Pokemon", Name: "Mawile", Time: "3d17h39m" },
             { Group: "Pokemon", Name: "Axew", Time: "3d17h40m" },
             { Group: "Pokemon", Name: "Rhyhorn", Time: "3d17h42m" },
