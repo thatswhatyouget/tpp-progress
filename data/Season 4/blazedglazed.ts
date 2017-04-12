@@ -84,6 +84,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Piloswine", Time: "3d14h21m" },
             { Group: "Pokemon", Name: "Rotom", Time: "3d14h29m" },
             { Group: "Pokemon", Name: "Lickitung", Time: "3d14h47m" },
+            { Group: "Pokemon", Name: "Nincada", Time: "3d14h49m" },
+            { Group: "Pokemon", Name: "Gligar", Time: "3d14h52m" },
 
             { Group: "Badges", Name: "Blaze Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/blaze.png" },
             { Group: "Badges", Name: "Core Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/core.png" },
