@@ -102,6 +102,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Scraggy", Time: "3d19h3m" },
             { Group: "Pokemon", Name: "Clefairy", Time: "3d19h8m" },
             { Group: "Pokemon", Name: "Kirlia", Time: "3d19h42m" },
+            { Group: "Pokemon", Name: "Cottonee", Time: "3d23h11m" },
+            { Group: "Pokemon", Name: "Honedge", Time: "3d23h24m" },
 
             { Group: "Badges", Name: "Blaze Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/blaze.png" },
             { Group: "Badges", Name: "Core Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/core.png" },
