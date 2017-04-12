@@ -98,6 +98,10 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Deino", Time: "3d17h54m" },
             { Group: "Pokemon", Name: "Nidorino", Time: "3d17h55m" },
             { Group: "Pokemon", Name: "Psyduck", Time: "3d18h11m" },
+            { Group: "Pokemon", Name: "Roselia", Time: "3d19h" },
+            { Group: "Pokemon", Name: "Scraggy", Time: "3d19h3m" },
+            { Group: "Pokemon", Name: "Clefairy", Time: "3d19h8m" },
+            { Group: "Pokemon", Name: "Kirlia", Time: "3d19h42m" },
 
             { Group: "Badges", Name: "Blaze Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/blaze.png" },
             { Group: "Badges", Name: "Core Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/core.png" },
