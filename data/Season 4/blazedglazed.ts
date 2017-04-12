@@ -71,6 +71,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Zubat", Time: "2d23h3m" },
             { Group: "Pokemon", Name: "Shelgon", Time: "3d3h15m" },
             { Group: "Badges", Name: "Stem Badge", Time: "3d4h2m", Attempts: 4, Image: "img/badges/glazed/stem.png" },
+            { Group: "Pokemon", Name: "Samurott", Time: "3d6h45m" },
             
             { Group: "Badges", Name: "Icicle Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/icicle.png" },
             { Group: "Badges", Name: "Blaze Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/blaze.png" },
