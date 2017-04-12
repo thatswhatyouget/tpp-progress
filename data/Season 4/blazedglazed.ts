@@ -82,6 +82,7 @@ Season4.Runs.push(
             { Group: "Badges", Name: "Icicle Badge", Time: "3d12h26m", Attempts: 2, Image: "img/badges/glazed/icicle.png" },
             { Group: "Pokemon", Name: "Smoochum", Time: "3d13h56m" },
             { Group: "Pokemon", Name: "Piloswine", Time: "3d14h21m" },
+            { Group: "Pokemon", Name: "Rotom", Time: "3d14h49m" },
 
             { Group: "Badges", Name: "Blaze Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/blaze.png" },
             { Group: "Badges", Name: "Core Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/core.png" },
