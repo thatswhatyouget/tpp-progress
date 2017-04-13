@@ -124,6 +124,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Tentacool", Time: "4d20h14m" },
             { Group: "Pokemon", Name: "Victini", Time: "4d23h33m" },
             { Group: "Pokemon", Name: "Gastly", Time: "5d15m" },
+            { Group: "Pokemon", Name: "Phantump", Time: "5d44m" },
 
             { Group: "Badges", Name: "Clobber Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/clobber.png" },
 
