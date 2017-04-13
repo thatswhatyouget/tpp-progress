@@ -109,8 +109,12 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Chansey", Time: "4d11m" },
             { Group: "Badges", Name: "Blaze Badge", Time: "4d2h21m", Attempts: 2, Image: "img/badges/glazed/blaze.png" },
             { Group: "Pokemon", Name: "Salamence", Time: "4d9h36m" },
+            { Group: "Badges", Name: "Core Badge", Time: "4d13h12m", Attempts: 2, Image: "img/badges/glazed/core.png" },
+            { Group: "Pokemon", Name: "Dewgong", Time: "4d14h6m" },
+            { Group: "Pokemon", Name: "Graveler", Time: "4d14h8m" },
+            { Group: "Pokemon", Name: "Lairon", Time: "4d14h13m" },
+            { Group: "Pokemon", Name: "Banette", Time: "4d14h52m" },
 
-            { Group: "Badges", Name: "Core Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/core.png" },
             { Group: "Badges", Name: "Clobber Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/clobber.png" },
 
             { Group: "Badges", Name: "Zephyr Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/zephyr.png" },
