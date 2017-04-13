@@ -108,6 +108,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Butterfree", Time: "4d5m" },
             { Group: "Pokemon", Name: "Chansey", Time: "4d11m" },
             { Group: "Badges", Name: "Blaze Badge", Time: "4d2h21m", Attempts: 2, Image: "img/badges/glazed/blaze.png" },
+            { Group: "Pokemon", Name: "Salamence", Time: "4d9h36m" },
 
             { Group: "Badges", Name: "Core Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/core.png" },
             { Group: "Badges", Name: "Clobber Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/clobber.png" },
