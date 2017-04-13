@@ -114,6 +114,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Graveler", Time: "4d14h8m" },
             { Group: "Pokemon", Name: "Lairon", Time: "4d14h13m" },
             { Group: "Pokemon", Name: "Banette", Time: "4d14h52m" },
+            { Group: "Pokemon", Name: "Gurrdurr", Time: "4d15h3m" },
 
             { Group: "Badges", Name: "Clobber Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/clobber.png" },
 
