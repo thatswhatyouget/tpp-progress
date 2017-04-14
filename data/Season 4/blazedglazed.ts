@@ -137,6 +137,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Mamoswine", Time: "5d17h" },
             { Group: "Pokemon", Name: "Mienfoo", Time: "5d18h45m" },
             { Group: "Pokemon", Name: "Arcanine", Time: "5d20h27m" },
+            { Group: "Pokemon", Name: "Zorua", Time: "6d3m" },
 
             { Group: "Badges", Name: "Zephyr Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/zephyr.png" },
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
