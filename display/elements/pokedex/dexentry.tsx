@@ -54,6 +54,10 @@ namespace TPP.Display.Elements.Pokedex {
             })}</div>;
         }
 
+        shouldComponentUpdate(nextProps, nextState) {
+            return true;
+        }
+
         render() {
             return <div key={this.Number} className={this.className} style={this.style} title={this.showOwnership ? this.owners : null} >
                 <h3>{this.Number}</h3>

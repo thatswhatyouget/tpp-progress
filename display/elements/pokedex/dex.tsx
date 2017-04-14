@@ -43,6 +43,10 @@ namespace TPP.Display.Elements.Pokedex {
             </h2>
         }
 
+        shouldComponentUpdate(nextProps, nextState) {
+            return true;
+        }
+
         render() {
             return <div className={this.className}>
                 {this.ownedDisplay}
