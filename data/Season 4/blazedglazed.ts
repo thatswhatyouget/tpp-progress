@@ -135,6 +135,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Sudowoodo", Time: "5d11h58m" },
             { Group: "Pokemon", Name: "Regigigas", Time: "5d12h26m" },
             { Group: "Pokemon", Name: "Mamoswine", Time: "5d17h" },
+            { Group: "Pokemon", Name: "Mienfoo", Time: "5d18h45m" },
 
             { Group: "Badges", Name: "Zephyr Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/zephyr.png" },
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
