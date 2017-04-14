@@ -127,8 +127,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Phantump", Time: "5d44m" },
             { Group: "Pokemon", Name: "Skrelp", Time: "5d4h20m" },
             { Group: "Pokemon", Name: "Clamperl", Time: "5d4h22m" },
-
-            { Group: "Badges", Name: "Clobber Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/clobber.png" },
+            { Group: "Pokemon", Name: "Slowpoke", Time: "5d4h37m" },
+            { Group: "Badges", Name: "Clobber Badge", Time: "5d5h41m", Attempts: 1, Image: "img/badges/glazed/clobber.png" },
 
             { Group: "Badges", Name: "Zephyr Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/zephyr.png" },
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
