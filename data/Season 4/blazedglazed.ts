@@ -154,6 +154,24 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Glaceon", Time: "6d11h6m" },
             { Group: "Pokemon", Name: "Luxio", Time: "6d13h2m" },
 
+            { Group: "Elite Four", Name: "Rosaline", Image: "img/trainers/glazed/rosaline.png", Time: "6d18h37m", Attempts: 2 },
+            { Group: "Elite Four", Name: "Gray", Image: "img/trainers/glazed/gray.png", Time: "", Attempts: 1 },
+            { Group: "Elite Four", Name: "Tanya", Image: "img/trainers/glazed/tanya.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Magnus", Image: "img/trainers/glazed/magnus.png", Time: "", Attempts: 0 },
+            { Group: "Champions", Name: "Percy", Image: "img/trainers/glazed/percy.png", Time: "", Attempts: 0 },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 2, IDNo: "06702", Party: [
+                    { Pokemon: "Salamence", Nickname: "AAAAATMAAA", Level: 64, Gender: "Male", Number: 373, IDNo: "06702" },
+                    { Pokemon: "Houndoom", Nickname: "AAATTTTTTT", Level: 56, Gender: "Female", Number: 229, IDNo: "06702" },
+                    { Pokemon: "Samurott", Nickname: "MGNNNNGGSC", Level: 58, Gender: "Male", Number: 0, IDNo: "06702" },
+                    { Pokemon: "Torterra", Level: 59, Gender: "Male", Number: 272, IDNo: "06702" },
+                    { Pokemon: "Mamoswine", Nickname: "AT", Level: 62, Gender: "Female", Number: 308, IDNo: "06702" },
+                    { Pokemon: "Scolipede", Nickname: ".  yz ,hgg", Level: 55, Gender: "Female", Number: 127, IDNo: "06702" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "6d18h10m"
+            },
+
             { Group: "Badges", Name: "Zephyr Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/zephyr.png" },
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
             { Group: "Badges", Name: "Plain Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/plain.png" },
