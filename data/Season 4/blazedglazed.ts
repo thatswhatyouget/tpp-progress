@@ -151,6 +151,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Trevenant", Time: "6d5h34m" },
             { Group: "Pokemon", Name: "Quilava", Time: "6d8h46m" },
             { Group: "Pokemon", Name: "Pikachu-B", Time: "6d9h31m" },
+            { Group: "Pokemon", Name: "Glaceon", Time: "6d11h6m" },
+            { Group: "Pokemon", Name: "Luxio", Time: "6d13h2m" },
 
             { Group: "Badges", Name: "Zephyr Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/zephyr.png" },
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
