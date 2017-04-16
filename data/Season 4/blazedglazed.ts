@@ -157,10 +157,10 @@ Season4.Runs.push(
             { Group: "Elite Four", Name: "Rosaline", Image: "img/trainers/glazed/rosaline.png", Time: "6d18h37m", Attempts: 2 },
             { Group: "Elite Four", Name: "Magnus", Image: "img/trainers/glazed/magnus.png", Time: "6d19h26m", Attempts: 3 },
             { Group: "Elite Four", Name: "Tanya", Image: "img/trainers/glazed/tanya.png", Time: "7d4h23m", Attempts: 4 },
-            { Group: "Elite Four", Name: "Gray", Image: "img/trainers/glazed/gray.png", Time: "", Attempts: 1 },
-            { Group: "Champions", Name: "Percy", Image: "img/trainers/glazed/percy.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Gray", Image: "img/trainers/glazed/gray.png", Time: "7d6h10m", Attempts: 2 },
+            { Group: "Champions", Name: "Blake", Image: "img/trainers/glazed/blake.png", Time: "", Attempts: 1 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 16, IDNo: "06702", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 20, IDNo: "06702", Party: [
                     { Pokemon: "Salamence", Nickname: "AAAAATMAAA", Level: 64, Gender: "Male", Number: 373, IDNo: "06702" },
                     { Pokemon: "Houndoom", Nickname: "AAATTTTTTT", Level: 56, Gender: "Female", Number: 229, IDNo: "06702" },
                     { Pokemon: "Samurott", Nickname: "MGNNNNGGSC", Level: 58, Gender: "Male", Number: 0, IDNo: "06702" },
