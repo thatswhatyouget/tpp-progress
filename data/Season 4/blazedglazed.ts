@@ -180,8 +180,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Porygon", Time: "7d23h35m" },
             { Group: "Pokemon", Name: "Magnemite", Time: "7d23h36m" },
             { Group: "Pokemon", Name: "Elekid", Time: "7d23h50m" },
-            { Group: "Pokemon", Name: "Zekrom", Time: "8h6m" },
-            { Group: "Pokemon", Name: "Pikachu", Time: "8h21m" },
+            { Group: "Pokemon", Name: "Zekrom", Time: "8d6m" },
+            { Group: "Pokemon", Name: "Pikachu", Time: "8d21m" },
 
             { Group: "Badges", Name: "Zephyr Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/zephyr.png" },
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
