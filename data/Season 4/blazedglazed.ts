@@ -182,6 +182,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Elekid", Time: "7d23h50m" },
             { Group: "Pokemon", Name: "Zekrom", Time: "8d6m" },
             { Group: "Pokemon", Name: "Pikachu", Time: "8d21m" },
+            { Group: "Pokemon", Name: "Swinub", Time: "8d2h27m" },
+            { Group: "Pokemon", Name: "Jynx", Time: "8d2h53m" },
 
             { Group: "Badges", Name: "Zephyr Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/zephyr.png" },
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
