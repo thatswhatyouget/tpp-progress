@@ -163,7 +163,7 @@ Season4.Runs.push(
                     { Pokemon: "Scolipede", Nickname: ".  yz ,hgg", Level: 85, Gender: "Female", Number: 127, IDNo: "06702" },
                     { Pokemon: "Torterra", Level: 68, Gender: "Male", Number: 272, IDNo: "06702" },
                     { Pokemon: "Houndoom", Nickname: "AAATTTTTTT", Level: 62, Gender: "Female", Number: 229, IDNo: "06702" },
-                    { Pokemon: "Samurott", Nickname: "MGNNNNGGSC", Level: 64, Gender: "Male", Number: 0, IDNo: "06702" },
+                    { Pokemon: "Samurott", Nickname: "MGNNNNGGSC", Level: 64, Gender: "Male", Number: 85, IDNo: "06702" },
                     { Pokemon: "Salamence", Nickname: "AAAAATMAAA", Level: 80, Gender: "Male", Number: 373, IDNo: "06702" },
                     { Pokemon: "Mamoswine", Nickname: "AT", Level: 78, Gender: "Female", Number: 308, IDNo: "06702" },
                 ],
