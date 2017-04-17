@@ -198,6 +198,10 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Aggron", Time: "8d7h34m" },
             { Group: "Pokemon", Name: "Azumarill", Time: "8d8h4m" },
             { Group: "Pokemon", Name: "Gardevoir", Time: "8d8h6m" },
+            { Group: "Pokemon", Name: "Floatzel", Time: "8d10h15m" },
+            { Group: "Pokemon", Name: "Magmortar", Time: "8d10h54m" },
+            { Group: "Pokemon", Name: "Koffing", Time: "8d11h" },
+            { Group: "Pokemon", Name: "Chikorita", Time: "8d14h8m" },
 
             { Group: "Badges", Name: "Zephyr Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/zephyr.png" },
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
