@@ -202,6 +202,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Magmortar", Time: "8d10h54m" },
             { Group: "Pokemon", Name: "Koffing", Time: "8d11h" },
             { Group: "Pokemon", Name: "Chikorita", Time: "8d14h8m" },
+            { Group: "Pokemon", Name: "Noctowl", Time: "8d14h35m" },
 
             { Group: "Badges", Name: "Zephyr Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/zephyr.png" },
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
