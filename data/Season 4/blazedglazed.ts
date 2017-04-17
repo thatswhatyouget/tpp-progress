@@ -185,6 +185,10 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Swinub", Time: "8d2h27m" },
             { Group: "Pokemon", Name: "Jynx", Time: "8d2h53m" },
             { Group: "Pokemon", Name: "Kyurem", Time: "8d3h8m" },
+            { Group: "Pokemon", Name: "Druddigon", Time: "8d3h29m" },
+            { Group: "Pokemon", Name: "Granbull", Time: "8d3h37m" },
+            { Group: "Pokemon", Name: "Ponyta", Time: "8d3h59m" },
+            { Group: "Pokemon", Name: "Murkrow", Time: "8d4h28m" },
 
             { Group: "Badges", Name: "Zephyr Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/zephyr.png" },
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
