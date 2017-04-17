@@ -204,8 +204,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Chikorita", Time: "8d14h8m" },
             { Group: "Pokemon", Name: "Noctowl", Time: "8d14h35m" },
             { Group: "Pokemon", Name: "Jumpluff", Time: "8d15h8m" },
+            { Group: "Badges", Name: "Zephyr Badge", Time: "8d18h6m", Attempts: 1, Image: "img/badges/glazed/zephyr.png" },
 
-            { Group: "Badges", Name: "Zephyr Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/zephyr.png" },
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
             { Group: "Badges", Name: "Plain Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/plain.png" },
             { Group: "Badges", Name: "Fog Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/fog.png" },
