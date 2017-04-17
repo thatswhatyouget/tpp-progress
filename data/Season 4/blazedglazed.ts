@@ -208,6 +208,9 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Pidgeot", Time: "8d19h10m" },
             { Group: "Pokemon", Name: "Poliwag", Time: "8d20h32m" },
             { Group: "Pokemon", Name: "Unown", Time: "8d21h22m" },
+            { Group: "Pokemon", Name: "Goldeen", Time: "8d21h42m" },
+            { Group: "Pokemon", Name: "Poliwhirl", Time: "8d23h27m" },
+            { Group: "Pokemon", Name: "Glalie", Time: "8d23h35m" },
 
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
             { Group: "Badges", Name: "Plain Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/plain.png" },
