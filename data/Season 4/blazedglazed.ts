@@ -205,6 +205,9 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Noctowl", Time: "8d14h35m" },
             { Group: "Pokemon", Name: "Jumpluff", Time: "8d15h8m" },
             { Group: "Badges", Name: "Zephyr Badge", Time: "8d18h6m", Attempts: 1, Image: "img/badges/glazed/zephyr.png" },
+            { Group: "Pokemon", Name: "Pidgeot", Time: "8d19h10m" },
+            { Group: "Pokemon", Name: "Poliwag", Time: "8d20h32m" },
+            { Group: "Pokemon", Name: "Unown", Time: "8d21h22m" },
 
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
             { Group: "Badges", Name: "Plain Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/plain.png" },
