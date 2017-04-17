@@ -191,7 +191,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Murkrow", Time: "8d4h28m" },
             { Group: "Pokemon", Name: "Mew", Time: "8d6h26m" },
             { Group: "Pokemon", Name: "Sylveon", Time: "8d6h35m" },
-            { Group: "Pokemon", Name: "Nincada", Time: "8d6h58m" },
+            { Group: "Pokemon", Name: "Ninjask", Time: "8d6h58m" },
             { Group: "Pokemon", Name: "Shedinja", Time: "8d6h58m" },
             { Group: "Pokemon", Name: "Croconaw", Time: "8d7h25m" },
             { Group: "Pokemon", Name: "Feraligatr", Time: "8d7h29m" },
