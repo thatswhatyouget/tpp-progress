@@ -11,7 +11,7 @@ Season4.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/64fn91/ahuni_our_adorably_sweet_protagonist_animated/",
         HostName: "AHUNIgg",
         Region: "Tunod",
-        //AdditionalRegions: [{ Name: "Johto", Time: "" }, { Name: "Rankor", Time: "" }],
+        AdditionalRegions: [{ Name: "Johto", Time: "8d12h53m" }],//, { Name: "Rankor", Time: "" }],
         BaseGame: "Emerald",
         Pokedex: "New Tunod",
         // Scraper: {
@@ -211,10 +211,10 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Goldeen", Time: "8d21h42m" },
             { Group: "Pokemon", Name: "Poliwhirl", Time: "8d23h27m" },
             { Group: "Pokemon", Name: "Glalie", Time: "8d23h35m" },
+            { Group: "Badges", Name: "Fog Badge", Time: "9d4h23m", Attempts: 1, Image: "img/badges/glazed/fog.png" },
 
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
             { Group: "Badges", Name: "Plain Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/plain.png" },
-            { Group: "Badges", Name: "Fog Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/fog.png" },
             { Group: "Badges", Name: "Mineral Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/mineral.png" },
             { Group: "Badges", Name: "Psychic Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/psychic.png" },
             { Group: "Badges", Name: "Night Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/night.png" },
