@@ -215,6 +215,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Miltank", Time: "9d2h34m" },
             { Group: "Badges", Name: "Fog Badge", Time: "9d4h23m", Attempts: 1, Image: "img/badges/glazed/fog.png" },
             { Group: "Pokemon", Name: "Golduck", Time: "9d6h17m" },
+            { Group: "Pokemon", Name: "Tentacruel", Time: "9d6h23m" },
 
             { Group: "Badges", Name: "Hive Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/hive.png" },
             { Group: "Badges", Name: "Plain Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/plain.png" },
