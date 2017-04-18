@@ -235,6 +235,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Hoppip", Time: "9d19h26m" },
             { Group: "Pokemon", Name: "Jigglypuff", Time: "9d19h37m" },
             { Group: "Pokemon", Name: "Skiploom", Time: "9d19h38m" },
+            { Group: "Pokemon", Name: "Pelipper", Time: "9d20h53m" },
 
             { Group: "Badges", Name: "Mineral Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/mineral.png" },
             { Group: "Badges", Name: "Psychic Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/psychic.png" },
