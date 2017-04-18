@@ -222,6 +222,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Yveltal", Time: "9d8h49m" },
             { Group: "Pokemon", Name: "Zygarde", Time: "9d10h14m" },
             { Group: "Badges", Name: "Plain Badge", Time: "9d11h9m", Attempts: 1, Image: "img/badges/glazed/plain.png" },
+            { Group: "Pokemon", Name: "Goomy", Time: "9d12h43m" },
+            { Group: "Pokemon", Name: "Staryu", Time: "9d15h29m" },
 
             { Group: "Badges", Name: "Mineral Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/mineral.png" },
             { Group: "Badges", Name: "Psychic Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/psychic.png" },
