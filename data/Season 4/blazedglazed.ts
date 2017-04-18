@@ -225,6 +225,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Goomy", Time: "9d12h43m" },
             { Group: "Pokemon", Name: "Staryu", Time: "9d15h29m" },
             { Group: "Pokemon", Name: "Palkia", Time: "9d15h35m" },
+            { Group: "Pokemon", Name: "Swellow", Time: "9d16h37m" },
 
             { Group: "Badges", Name: "Mineral Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/mineral.png" },
             { Group: "Badges", Name: "Psychic Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/psychic.png" },
