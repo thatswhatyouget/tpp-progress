@@ -46,6 +46,10 @@
     vertical-align: baseline;
 }
 
+.itemsList h6, .badgeList h6 {
+    margin: .1em;
+}
+
 .badgeList {
     width:auto;
 }
