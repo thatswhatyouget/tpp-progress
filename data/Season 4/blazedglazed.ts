@@ -230,6 +230,11 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Onix", Time: "9d16h23m" },
             { Group: "Pokemon", Name: "Wooper", Time: "9d17h31m" },
             { Group: "Pokemon", Name: "Machoke", Time: "9d17h33m" },
+            { Group: "Pokemon", Name: "Roserade", Time: "9d18h28m" },
+            { Group: "Pokemon", Name: "Magikarp", Time: "9d19h11m" },
+            { Group: "Pokemon", Name: "Hoppip", Time: "9d19h26m" },
+            { Group: "Pokemon", Name: "Jigglypuff", Time: "9d19h37m" },
+            { Group: "Pokemon", Name: "Skiploom", Time: "9d19h38m" },
 
             { Group: "Badges", Name: "Mineral Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/mineral.png" },
             { Group: "Badges", Name: "Psychic Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/psychic.png" },
