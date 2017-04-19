@@ -240,9 +240,11 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Tangela", Time: "9d23h39m" },
             { Group: "Pokemon", Name: "Yanma", Time: "9d23h53m" },
             { Group: "Badges", Name: "Night Badge", Time: "10d2h22m", Attempts: 1, Image: "img/badges/glazed/night.png" },
+            { Group: "Pokemon", Name: "Drapion", Time: "10d3h29m" },
+            { Group: "Pokemon", Name: "Forretress", Time: "10d3h38m" },
+            { Group: "Badges", Name: "Mineral Badge", Time: "10d5h40m", Attempts: 1, Image: "img/badges/glazed/mineral.png" },
+            { Group: "Badges", Name: "Psyche Badge", Time: "10d6h14m", Attempts: 1, Image: "img/badges/glazed/psyche.png" },
 
-            { Group: "Badges", Name: "Mineral Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/mineral.png" },
-            { Group: "Badges", Name: "Psychic Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/psychic.png" },
             { Group: "Badges", Name: "Rising Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/rising.png" },
 
             { Group: "Badges", Name: "Vial Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/vial.png" },
