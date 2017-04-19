@@ -244,6 +244,9 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Forretress", Time: "10d3h38m" },
             { Group: "Badges", Name: "Mineral Badge", Time: "10d5h40m", Attempts: 1, Image: "img/badges/glazed/mineral.png" },
             { Group: "Badges", Name: "Psyche Badge", Time: "10d6h14m", Attempts: 1, Image: "img/badges/glazed/psyche.png" },
+            { Group: "Pokemon", Name: "Rapidash", Time: "10d6h31m" },
+            { Group: "Pokemon", Name: "Tauros", Time: "10d6h46m" },
+            { Group: "Pokemon", Name: "Tangrowth", Time: "10d6h57m" },
 
             { Group: "Badges", Name: "Rising Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/rising.png" },
 
