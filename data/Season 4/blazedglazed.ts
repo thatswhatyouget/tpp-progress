@@ -247,6 +247,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Rapidash", Time: "10d6h31m" },
             { Group: "Pokemon", Name: "Tauros", Time: "10d6h46m" },
             { Group: "Pokemon", Name: "Tangrowth", Time: "10d6h57m" },
+            { Group: "Pokemon", Name: "Feebas", Time: "10d11h10m" },
+            { Group: "Pokemon", Name: "Milotic", Time: "10d11h21m" },
 
             { Group: "Badges", Name: "Rising Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/rising.png" },
 
