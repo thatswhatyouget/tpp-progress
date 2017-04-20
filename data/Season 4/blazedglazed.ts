@@ -253,6 +253,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Rattata", Time: "10d21h22m" },
             { Group: "Pokemon", Name: "Seaking", Time: "11d2h33m" },
             { Group: "Badges", Name: "Rising Badge", Time: "11d3h50m", Attempts: 1, Image: "img/badges/glazed/rising.png" },
+            { Group: "Pokemon", Name: "Seel", Time: "11d7h37m" },
 
             { Group: "Badges", Name: "Vial Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/vial.png" },
             { Group: "Badges", Name: "Claw Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/claw.png" },
