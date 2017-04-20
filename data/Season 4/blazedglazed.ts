@@ -261,6 +261,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Leafeon", Time: "11d18h9m" },
             { Group: "Pokemon", Name: "Luxray", Time: "11d18h28m" },
             { Group: "Pokemon", Name: "Braixen", Time: "11d18h49m" },
+            { Group: "Pokemon", Name: "Seadra", Time: "11d20h53m" },
+            { Group: "Pokemon", Name: "Horsea", Time: "11d20h58m" },
 
             { Group: "Badges", Name: "Vial Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/vial.png" },
             { Group: "Badges", Name: "Claw Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/claw.png" },
