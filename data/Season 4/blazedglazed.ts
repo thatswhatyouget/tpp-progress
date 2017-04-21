@@ -272,9 +272,9 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Kecleon", Time: "12d5h48m" },
             { Group: "Pokemon", Name: "Scyther", Time: "12d5h52m" },
             { Group: "Elite Four", Name: "Eusine", Image: "img/trainers/glazed/eusine.png", Time: "12d17h20m", Attempts: 10 },
-            { Group: "Champions", Name: "Kris", Image: "img/trainers/glazed/kris.png", Time: "13d8h", Attempts: 3 },
+            { Group: "Champions", Name: "Kris", Image: "img/trainers/glazed/kris.png", Time: "13d8m", Attempts: 3 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d8h", Attempts: 36, IDNo: "06702", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d8m", Attempts: 36, IDNo: "06702", Party: [
                     { Pokemon: "Mamoswine", Nickname: "AAIIOQV", PastNickname: "AT", Level: 100, Gender: "Female", Number: 308, IDNo: "06702" },
                     { Pokemon: "Torterra", Level: 95, Gender: "Male", Number: 272, IDNo: "06702" },
                     { Pokemon: "Scolipede", Nickname: ".  yz ,hgg", Level: 95, Gender: "Female", Number: 127, IDNo: "06702" },
