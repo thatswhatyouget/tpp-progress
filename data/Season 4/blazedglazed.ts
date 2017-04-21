@@ -272,15 +272,15 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Kecleon", Time: "12d5h48m" },
             { Group: "Pokemon", Name: "Scyther", Time: "12d5h52m" },
             { Group: "Elite Four", Name: "Eusine", Image: "img/trainers/glazed/eusine.png", Time: "12d17h20m", Attempts: 10 },
-            { Group: "Champions", Name: "Kris", Image: "img/trainers/glazed/kris.png", Time: "", Attempts: 1 },
+            { Group: "Champions", Name: "Kris", Image: "img/trainers/glazed/kris.png", Time: 3d8h"", Attempts: 3 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 27, IDNo: "06702", Party: [
-                    { Pokemon: "Salamence", Nickname: "AAAAATMAAA", Level: 97, Gender: "Male", Number: 373, IDNo: "06702" },
-                    { Pokemon: "Scolipede", Nickname: ".  yz ,hgg", Level: 94, Gender: "Female", Number: 127, IDNo: "06702" },
-                    { Pokemon: "Samurott", Nickname: "MGNNNNGGSC", Level: 82, Gender: "Male", Number: 85, IDNo: "06702" },
-                    { Pokemon: "Houndoom", Nickname: "AAATTTTTTT", Level: 86, Gender: "Female", Number: 229, IDNo: "06702" },
-                    { Pokemon: "Torterra", Level: 92, Gender: "Male", Number: 272, IDNo: "06702" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "3d8h", Attempts: 36, IDNo: "06702", Party: [
                     { Pokemon: "Mamoswine", Nickname: "AAIIOQV", PastNickname: "AT", Level: 100, Gender: "Female", Number: 308, IDNo: "06702" },
+                    { Pokemon: "Torterra", Level: 95, Gender: "Male", Number: 272, IDNo: "06702" },
+                    { Pokemon: "Scolipede", Nickname: ".  yz ,hgg", Level: 95, Gender: "Female", Number: 127, IDNo: "06702" },
+                    { Pokemon: "Houndoom", Nickname: "AAATTTTTTT", Level: 87, Gender: "Female", Number: 229, IDNo: "06702" },
+                    { Pokemon: "Samurott", Nickname: "MGNNNNGGSC", Level: 84, Gender: "Male", Number: 85, IDNo: "06702" },
+                    { Pokemon: "Salamence", Nickname: "AAAAATMAAA", Level: 100, Gender: "Male", Number: 373, IDNo: "06702" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "11d21h8m"
