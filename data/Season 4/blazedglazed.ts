@@ -271,16 +271,16 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Dragalge", Time: "12d5h40m" },
             { Group: "Pokemon", Name: "Kecleon", Time: "12d5h48m" },
             { Group: "Pokemon", Name: "Scyther", Time: "12d5h52m" },
-            { Group: "Elite Four", Name: "Eusine", Image: "img/trainers/glazed/eusine.png", Time: "", Attempts: 4 },
-            { Group: "Champions", Name: "Kris", Image: "img/trainers/glazed/kris.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Eusine", Image: "img/trainers/glazed/eusine.png", Time: "12d17h20m", Attempts: 10 },
+            { Group: "Champions", Name: "Kris", Image: "img/trainers/glazed/kris.png", Time: "", Attempts: 1 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 12, IDNo: "06702", Party: [
-                    { Pokemon: "Torterra", Level: 78, Gender: "Male", Number: 272, IDNo: "06702" },
-                    { Pokemon: "Samurott", Nickname: "MGNNNNGGSC", Level: 81, Gender: "Male", Number: 85, IDNo: "06702" },
-                    { Pokemon: "Houndoom", Nickname: "AAATTTTTTT", Level: 82, Gender: "Female", Number: 229, IDNo: "06702" },
-                    { Pokemon: "Mamoswine", Nickname: "AAIIOQV", PastNickname: "AT", Level: 87, Gender: "Female", Number: 308, IDNo: "06702" },
-                    { Pokemon: "Scolipede", Nickname: ".  yz ,hgg", Level: 90, Gender: "Female", Number: 127, IDNo: "06702" },
-                    { Pokemon: "Salamence", Nickname: "AAAAATMAAA", Level: 87, Gender: "Male", Number: 373, IDNo: "06702" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 27, IDNo: "06702", Party: [
+                    { Pokemon: "Salamence", Nickname: "AAAAATMAAA", Level: 97, Gender: "Male", Number: 373, IDNo: "06702" },
+                    { Pokemon: "Scolipede", Nickname: ".  yz ,hgg", Level: 94, Gender: "Female", Number: 127, IDNo: "06702" },
+                    { Pokemon: "Samurott", Nickname: "MGNNNNGGSC", Level: 82, Gender: "Male", Number: 85, IDNo: "06702" },
+                    { Pokemon: "Houndoom", Nickname: "AAATTTTTTT", Level: 86, Gender: "Female", Number: 229, IDNo: "06702" },
+                    { Pokemon: "Torterra", Level: 92, Gender: "Male", Number: 272, IDNo: "06702" },
+                    { Pokemon: "Mamoswine", Nickname: "AAIIOQV", PastNickname: "AT", Level: 100, Gender: "Female", Number: 308, IDNo: "06702" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "11d21h8m"
