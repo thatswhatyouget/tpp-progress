@@ -268,9 +268,9 @@ Season4.Runs.push(
             { Group: "Elite Four", Name: "Powell", Image: "img/trainers/glazed/powell.png", Time: "11d21h25m", Attempts: 1 },
             { Group: "Pokemon", Name: "Steelix", Time: "11d22h53m" },
             { Group: "Pokemon", Name: "Rhydon", Time: "12d4h49m" },
-            { Group: "Pokemon", Name: "Dragalge", Time: "12h5h40m" },
-            { Group: "Pokemon", Name: "Kecleon", Time: "12h5h48m" },
-            { Group: "Pokemon", Name: "Scyther", Time: "12h5h52m" },
+            { Group: "Pokemon", Name: "Dragalge", Time: "12d5h40m" },
+            { Group: "Pokemon", Name: "Kecleon", Time: "12d5h48m" },
+            { Group: "Pokemon", Name: "Scyther", Time: "12d5h52m" },
             { Group: "Elite Four", Name: "Eusine", Image: "img/trainers/glazed/eusine.png", Time: "", Attempts: 4 },
             { Group: "Champions", Name: "Kris", Image: "img/trainers/glazed/kris.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
