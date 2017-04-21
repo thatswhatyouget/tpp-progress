@@ -81,7 +81,7 @@ namespace TPP.Display.Elements.RunStatus {
                                 <TypeImg type={mon.species.type2} />
                                 : null}
                         </div>
-                        <div className="level">{mon.level + ((mon.experience || { remaining: 1 }).remaining ? 0 : 1)}</div>
+                        <div className="level">{mon.level + ( mon.level == 100 || (mon.experience || { remaining: 1 }).remaining ? 0 : 1)}</div>
                         <ul className="moves">
                             {mon.moves.map(m => <Move move={m} key={m.id} />)}
                         </ul>
