@@ -95,8 +95,8 @@ namespace TPP.Display.Elements.RunStatus {
 
     class TypeImg extends React.PureComponent<{ type: string; }, {}> {
         render() {
-            let type = ((this.props.type == "???" ? "Fairy" : this.props.type) || '').toLowerCase();
-            return <img src={`img/type-icons/${type}.png`} />
+            let type = ((this.props.type == "???" ? "Fairy" : this.props.type) || '');
+            return <img src={`img/type-icons/${type.toLowerCase()}.png`} title={type} alt={type} />
         }
     }
 
