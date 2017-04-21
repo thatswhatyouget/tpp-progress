@@ -267,10 +267,14 @@ Season4.Runs.push(
             { Group: "Elite Four", Name: "Whitney", Image: "img/trainers/glazed/whitney.png", Time: "11d21h18m", Attempts: 1 },
             { Group: "Elite Four", Name: "Powell", Image: "img/trainers/glazed/powell.png", Time: "11d21h25m", Attempts: 1 },
             { Group: "Pokemon", Name: "Steelix", Time: "11d22h53m" },
-            { Group: "Elite Four", Name: "Eusine", Image: "img/trainers/glazed/eusine.png", Time: "", Attempts: 1 },
+            { Group: "Pokemon", Name: "Rhydon", Time: "12d4h49m" },
+            { Group: "Pokemon", Name: "Dragalge", Time: "12h5h40m" },
+            { Group: "Pokemon", Name: "Kecleon", Time: "12h5h48m" },
+            { Group: "Pokemon", Name: "Scyther", Time: "12h5h52m" },
+            { Group: "Elite Four", Name: "Eusine", Image: "img/trainers/glazed/eusine.png", Time: "", Attempts: 4 },
             { Group: "Champions", Name: "Kris", Image: "img/trainers/glazed/kris.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 4, IDNo: "06702", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 12, IDNo: "06702", Party: [
                     { Pokemon: "Torterra", Level: 78, Gender: "Male", Number: 272, IDNo: "06702" },
                     { Pokemon: "Samurott", Nickname: "MGNNNNGGSC", Level: 81, Gender: "Male", Number: 85, IDNo: "06702" },
                     { Pokemon: "Houndoom", Nickname: "AAATTTTTTT", Level: 82, Gender: "Female", Number: 229, IDNo: "06702" },

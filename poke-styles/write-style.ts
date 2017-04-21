@@ -1,4 +1,4 @@
-var dexClean = d => d.replace(/[^A-Z0-9]/ig, '').toLowerCase();
+var dexClean = d => d.replace(/[^A-Z0-9-]/ig, '').toLowerCase();
 
 var exports = exports || {};
 exports.pokeStyles = [];

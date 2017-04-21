@@ -155,7 +155,7 @@ function updateRun(runInfo: TPP.Run, run: HTMLDivElement, scale) {
     setTimeout(() => updateRun(runInfo, run, scale), 15 * 60000);
 }
 
-var cleanString = (str: string) => str.replace(/[^A-Z0-9]/ig, '').toLowerCase();
+var cleanString = (str: string) => str.replace(/[^A-Z0-9-]/ig, '').toLowerCase();
 
 function setUniqueId(element: HTMLElement, id: string) {
     var original = id = cleanString(id);

@@ -1,6 +1,8 @@
 /// <reference path="event-display.tsx" />
 /// <reference path="item-display.tsx" />
 /// <reference path="../partydisplay.tsx" />
+/// <reference path="current-party.tsx" />
+/// <reference path="pc-display.tsx" />
 
 
 namespace TPP.Display.Elements.RunStatus {
@@ -60,7 +62,7 @@ namespace TPP.Display.Elements.RunStatus {
             super(props);
             this.state = {
                 run: props.run,
-                status: null,
+                status: {} as Tv.RunStatus,
                 lastScreen: props.run.LastScreenshot,
                 lastScreenTime: Duration.parse(props.run.Duration, props.run.StartTime).toString(Scale.Days)
             };
@@ -90,6 +92,10 @@ namespace TPP.Display.Elements.RunStatus {
         }
         componentWillUnmount() {
             clearInterval(this.updateLoop);
+        }
+
+        shouldComponentUpdate(nextProps, nextState) {
+            return true;
         }
 
         private get wouldHaveRunStatus() {
@@ -161,7 +167,8 @@ namespace TPP.Display.Elements.RunStatus {
 
         private get partyDisplay() {
             if (this.state.status && this.state.status.party)
-                var display = new ViewModels.PartyDisplay(this.state.status, this.state.run, Scale.Days);
+                return <CurrentParty party={this.state.status.party} trainer={this.state.status} run={this.state.run} />
+                //var display = new ViewModels.PartyDisplay(this.state.status, this.state.run, Scale.Days);
             else {
                 var hof = this.state.run.Events.filter(e => (e as HallOfFame).Party).pop() as HallOfFame;
                 if (!hof)
@@ -200,6 +207,7 @@ namespace TPP.Display.Elements.RunStatus {
                         {this.state.lastScreenTime ? <h4>{this.state.lastScreenTime}</h4> : null}
                     </PokeBox> : null}
                     {this.partyDisplay}
+                    <PokeBox title="Duration"><h3>{Duration.parse(this.state.run.Ongoing ? new Date().toISOString() : this.state.run.Duration, this.state.run.StartTime).toString()}</h3></PokeBox>
                     {this.state.status.area_name ? <PokeBox title="Current Location"><h3>{this.state.status.area_name}</h3></PokeBox> : null}
                     <EventDisplay key="Past Hosts" events={this.pastHosts} />
                     <EventDisplay key="Elite Four Rematch" events={this.eliteFourRematch} />
@@ -215,6 +223,7 @@ namespace TPP.Display.Elements.RunStatus {
                     <ItemDisplay key="Berries" title="Berries" items={this.state.status.items_berry} />
                     <ItemDisplay key="PC Items" title={pokeRedCondenseText(`${this.state.run.HostName}'s PC`)} items={this.state.status.pc_items} />
                     {this.Pokedex}
+                    {this.state.status ? <PC pc={this.state.status.pc} /> : null}
                 </div>;
             return <div className="run-status">
                 <h1>

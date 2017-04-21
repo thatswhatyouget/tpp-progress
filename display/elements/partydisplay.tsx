@@ -1,4 +1,4 @@
-/// <reference path="../shared.ts" />
+/// <reference path="pokesprite.tsx" />
 /// <reference path="../viewmodels/partydisplay.ts" />
 namespace TPP.Display.Elements {
     interface PartyDisplayProps {
@@ -25,7 +25,7 @@ namespace TPP.Display.Elements {
                 <td key={i + 1}>
                     <div className={`entry ${p.Gender}`}>
                         <span className="level">{p.Level}</span>
-                        {this.pokeSprite(p.Pokemon, p.Gender, p.Shiny, p.Form, p.Class)}
+                        <PokeSprite pokemon={p.Pokemon} gender={p.Gender} shiny={p.Shiny} form={p.Form} className={p.Class} />
                         <div className="info">
                             <div className="name">{this.preserveSpacing(p.Name)}</div>
                             {Object.keys(p.Info).map(k => <div key={k} data-entry={k}>{p.Info[k]}</div>)}
@@ -33,13 +33,6 @@ namespace TPP.Display.Elements {
                     </div>
                 </td>
                 : <td key={i + 1}><div className="entry" /></td>);
-        }
-
-        private pokeSprite(pokemon: string, gender: string, shiny: boolean, form: string, className: string) {
-            var classes = `pokesprite ${cleanString(pokemon)} ${className} ${gender} ${shiny ? "shiny" : ""} ${cleanString(form)}`;
-            return <div className={classes} title={pokemon}>
-                <img src="img/missingno.png" />
-            </div>;
         }
 
         private preserveSpacing(str: string) {
@@ -75,4 +68,5 @@ namespace TPP.Display.Elements {
             </div>;
         }
     }
+
 }

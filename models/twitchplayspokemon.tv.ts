@@ -75,6 +75,7 @@ namespace TPP.Tv {
         };
         moves: Move[];
         language?: number;
+        level: number;
         ability?: string;
         nature?: string;
         marking?: string;
@@ -105,7 +106,6 @@ namespace TPP.Tv {
 
     export interface PartyPokemon extends Pokemon {
         health: number[];
-        level: number;
         status: number;
         stats: Stats;
         pokerus_remaining?: number;

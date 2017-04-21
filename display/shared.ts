@@ -9,7 +9,7 @@ var dexData:(typeof Pokedex) = typeof(Pokedex) !== "undefined" ? Pokedex : <any>
 
 module TPP.Display {
 
-    export var cleanString = (str: string) => (str || '').replace(/[^A-Z0-9]/ig, '').toLowerCase();
+    export var cleanString = (str: string) => (str || '').replace(/♀/g,'F').replace(/♂/g,'M').replace(/[^A-Z0-9-]/ig, '').toLowerCase();
 
     export function pokeRedCondenseText(text: string) {
         text = text.replace(/'l/ig, "|");
