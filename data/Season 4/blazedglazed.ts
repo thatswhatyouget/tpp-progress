@@ -302,6 +302,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Gyarados", Time: "13d19h32m" },
             { Group: "Badges", Name: "Talisman Badge", Time: "13d20h54m", Attempts: 1, Image: "img/badges/glazed/talisman.png" },
             { Group: "Badges", Name: "Glove Badge", Time: "13d21h54m", Attempts: 1, Image: "img/badges/glazed/glove.png" },
+            { Group: "Pokemon", Name: "Froslass", Time: "13d23h31m" },
 
             { Group: "Champions", Name: "Soul", Image: "img/trainers/glazed/soul.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
@@ -314,7 +315,7 @@ Season4.Runs.push(
                     { Pokemon: "Mamoswine", Nickname: "AAIIOQV", PastNickname: "AT", Level: 100, Gender: "Female", Number: 308, IDNo: "06702" },
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate: "11d21h8m"
+                FirstAttemptDate: ""
             },
         ]
     }
