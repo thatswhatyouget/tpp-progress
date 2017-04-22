@@ -298,6 +298,9 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Electabuzz", Time: "13d11h34m" },
             { Group: "Badges", Name: "Claw Badge", Time: "13d14h29m", Attempts: 2, Image: "img/badges/glazed/claw.png" },
             { Group: "Pokemon", Name: "Toxicroak", Time: "13d16h51m" },
+            { Group: "Pokemon", Name: "Scrafty", Time: "13d18h7m" },
+            { Group: "Pokemon", Name: "Seviper", Time: "13d18h39m" },
+            { Group: "Pokemon", Name: "Gyarados", Time: "13d19h32m" },
 
             { Group: "Badges", Name: "Talisman Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/talisman.png" },
             { Group: "Badges", Name: "Glove Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/glove.png" },
