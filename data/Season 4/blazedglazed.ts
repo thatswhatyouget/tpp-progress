@@ -285,6 +285,7 @@ Season4.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "11d21h8m"
             },
+            { Group: "Pokemon", Name: "Pidgeotto", Time: "13d3h49m" },
 
             { Group: "Badges", Name: "Vial Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/vial.png" },
             { Group: "Badges", Name: "Claw Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/claw.png" },
