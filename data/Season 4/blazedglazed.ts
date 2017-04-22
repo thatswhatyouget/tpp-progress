@@ -286,6 +286,8 @@ Season4.Runs.push(
                 FirstAttemptDate: "11d21h8m"
             },
             { Group: "Pokemon", Name: "Pidgeotto", Time: "13d3h49m" },
+            { Group: "Pokemon", Name: "Darkrai", Time: "13d5h53m" },
+            { Group: "Pokemon", Name: "Ampharos", Time: "13d6h29m" },
 
             { Group: "Badges", Name: "Vial Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/vial.png" },
             { Group: "Badges", Name: "Claw Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/claw.png" },
