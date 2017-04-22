@@ -293,8 +293,10 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Manectric", Time: "13d7h16m" },
             { Group: "Pokemon", Name: "Ninetales", Time: "13d8h27m" },
             { Group: "Pokemon", Name: "Larvesta", Time: "13d9h2m" },
+            { Group: "Pokemon", Name: "Galvantula", Time: "13d10h2m" },
+            { Group: "Badges", Name: "Vial Badge", Time: "13d11h8m", Attempts: 1, Image: "img/badges/glazed/vial.png" },
+            { Group: "Pokemon", Name: "Electabuzz", Time: "13d11h34m" },
 
-            { Group: "Badges", Name: "Vial Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/vial.png" },
             { Group: "Badges", Name: "Claw Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/claw.png" },
             { Group: "Badges", Name: "Talisman Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/talisman.png" },
             { Group: "Badges", Name: "Glove Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/glove.png" },
