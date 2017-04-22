@@ -288,6 +288,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Pidgeotto", Time: "13d3h49m" },
             { Group: "Pokemon", Name: "Darkrai", Time: "13d5h53m" },
             { Group: "Pokemon", Name: "Ampharos", Time: "13d6h29m" },
+            { Group: "Pokemon", Name: "Mienshao", Time: "13d6h57m" },
+            { Group: "Pokemon", Name: "Sliggoo", Time: "13d7h8m" },
 
             { Group: "Badges", Name: "Vial Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/vial.png" },
             { Group: "Badges", Name: "Claw Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/claw.png" },
