@@ -301,9 +301,22 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Scrafty", Time: "13d18h7m" },
             { Group: "Pokemon", Name: "Seviper", Time: "13d18h39m" },
             { Group: "Pokemon", Name: "Gyarados", Time: "13d19h32m" },
+            { Group: "Badges", Name: "Talisman Badge", Time: "13d20h54m", Attempts: 1, Image: "img/badges/glazed/talisman.png" },
 
-            { Group: "Badges", Name: "Talisman Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/talisman.png" },
             { Group: "Badges", Name: "Glove Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/glove.png" },
+            { Group: "Champions", Name: "Soul", Image: "img/trainers/glazed/soul.png", Time: "", Attempts: 0 },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 36, IDNo: "06702", Party: [
+                    { Pokemon: "Torterra", Level: 100, Gender: "Male", Number: 272, IDNo: "06702" },
+                    { Pokemon: "Scolipede", Nickname: ".  yz ,hgg", Level: 98, Gender: "Female", Number: 127, IDNo: "06702" },
+                    { Pokemon: "Samurott", Nickname: "MGNNNNGGSC", Level: 87, Gender: "Male", Number: 85, IDNo: "06702" },
+                    { Pokemon: "Houndoom", Nickname: "AAATTTTTTT", Level: 89, Gender: "Female", Number: 229, IDNo: "06702" },
+                    { Pokemon: "Salamence", Nickname: "AAAAATMAAA", Level: 100, Gender: "Male", Number: 373, IDNo: "06702" },
+                    { Pokemon: "Mamoswine", Nickname: "AAIIOQV", PastNickname: "AT", Level: 100, Gender: "Female", Number: 308, IDNo: "06702" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "11d21h8m"
+            },
         ]
     }
 );
