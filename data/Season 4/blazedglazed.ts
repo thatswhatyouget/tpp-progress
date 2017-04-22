@@ -299,11 +299,10 @@ Season4.Runs.push(
             { Group: "Badges", Name: "Claw Badge", Time: "13d14h29m", Attempts: 2, Image: "img/badges/glazed/claw.png" },
             { Group: "Pokemon", Name: "Toxicroak", Time: "13d16h51m" },
             { Group: "Pokemon", Name: "Scrafty", Time: "13d18h7m" },
-            { Group: "Pokemon", Name: "Seviper", Time: "13d18h39m" },
             { Group: "Pokemon", Name: "Gyarados", Time: "13d19h32m" },
             { Group: "Badges", Name: "Talisman Badge", Time: "13d20h54m", Attempts: 1, Image: "img/badges/glazed/talisman.png" },
+            { Group: "Badges", Name: "Glove Badge", Time: "13d21h54m", Attempts: 1, Image: "img/badges/glazed/glove.png" },
 
-            { Group: "Badges", Name: "Glove Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/glove.png" },
             { Group: "Champions", Name: "Soul", Image: "img/trainers/glazed/soul.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 36, IDNo: "06702", Party: [
