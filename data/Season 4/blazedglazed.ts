@@ -291,6 +291,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Mienshao", Time: "13d6h57m" },
             { Group: "Pokemon", Name: "Sliggoo", Time: "13d7h8m" },
             { Group: "Pokemon", Name: "Manectric", Time: "13d7h16m" },
+            { Group: "Pokemon", Name: "Ninetales", Time: "13d8h27m" },
 
             { Group: "Badges", Name: "Vial Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/vial.png" },
             { Group: "Badges", Name: "Claw Badge", Time: "", Attempts: 0, Image: "img/badges/glazed/claw.png" },
