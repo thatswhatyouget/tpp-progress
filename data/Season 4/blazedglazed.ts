@@ -321,6 +321,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Haxorus", Time: "14d6h45m" },
             { Group: "Pokemon", Name: "Golurk", Time: "14d7h19m" },
             { Group: "Pokemon", Name: "Crobat", Time: "14d7h33m" },
+            { Group: "Pokemon", Name: "Magmar", Time: "14d13h4m" },
         ]
     }
 );
