@@ -303,8 +303,9 @@ Season4.Runs.push(
             { Group: "Badges", Name: "Talisman Badge", Time: "13d20h54m", Attempts: 1, Image: "img/badges/glazed/talisman.png" },
             { Group: "Badges", Name: "Glove Badge", Time: "13d21h54m", Attempts: 1, Image: "img/badges/glazed/glove.png" },
             { Group: "Pokemon", Name: "Froslass", Time: "13d23h31m" },
-
-            { Group: "Champions", Name: "Soul", Image: "img/trainers/glazed/soul.png", Time: "", Attempts: 0 },
+            { Group: "Pokemon", Name: "Kangaskhan", Time: "14d2h21m" },
+            { Group: "Pokemon", Name: "Absol", Time: "14d2h26m" },
+            { Group: "Champions", Name: "Soul", Image: "img/trainers/glazed/soul.png", Time: "", Attempts: 1 },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 36, IDNo: "06702", Party: [
                     { Pokemon: "Torterra", Level: 100, Gender: "Male", Number: 272, IDNo: "06702" },
