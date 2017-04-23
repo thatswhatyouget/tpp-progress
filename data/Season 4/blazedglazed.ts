@@ -318,6 +318,9 @@ Season4.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "14d4h5m"
             },
+            { Group: "Pokemon", Name: "Haxorus", Time: "14d6h45m" },
+            { Group: "Pokemon", Name: "Golurk", Time: "14d7h19m" },
+            { Group: "Pokemon", Name: "Crobat", Time: "14d7h33m" },
         ]
     }
 );
