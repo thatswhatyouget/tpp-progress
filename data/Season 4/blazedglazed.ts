@@ -305,18 +305,18 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Froslass", Time: "13d23h31m" },
             { Group: "Pokemon", Name: "Kangaskhan", Time: "14d2h21m" },
             { Group: "Pokemon", Name: "Absol", Time: "14d2h26m" },
-            { Group: "Champions", Name: "Soul", Image: "img/trainers/glazed/soul.png", Time: "", Attempts: 1 },
+            { Group: "Champions", Name: "Soul", Image: "img/trainers/glazed/soul.png", Time: "14d4h19m", Attempts: 1 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 36, IDNo: "06702", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "14d4h19m", Attempts: 1, IDNo: "06702", Party: [
                     { Pokemon: "Torterra", Level: 100, Gender: "Male", Number: 272, IDNo: "06702" },
-                    { Pokemon: "Scolipede", Nickname: ".  yz ,hgg", Level: 98, Gender: "Female", Number: 127, IDNo: "06702" },
-                    { Pokemon: "Samurott", Nickname: "MGNNNNGGSC", Level: 87, Gender: "Male", Number: 85, IDNo: "06702" },
-                    { Pokemon: "Houndoom", Nickname: "AAATTTTTTT", Level: 89, Gender: "Female", Number: 229, IDNo: "06702" },
+                    { Pokemon: "Samurott", Nickname: "MGNNNNGGSC", Level: 89, Gender: "Male", Number: 85, IDNo: "06702" },
+                    { Pokemon: "Houndoom", Nickname: "AAATTTTTTT", Level: 90, Gender: "Female", Number: 229, IDNo: "06702" },
                     { Pokemon: "Salamence", Nickname: "AAAAATMAAA", Level: 100, Gender: "Male", Number: 373, IDNo: "06702" },
                     { Pokemon: "Mamoswine", Nickname: "AAIIOQV", PastNickname: "AT", Level: 100, Gender: "Female", Number: 308, IDNo: "06702" },
+                    { Pokemon: "Scolipede", Nickname: ".  yz ,hgg", Level: 99, Gender: "Female", Number: 127, IDNo: "06702" },
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate: ""
+                FirstAttemptDate: "14d4h5m"
             },
         ]
     }
