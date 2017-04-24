@@ -9,10 +9,10 @@ var fakemon = [
 
 addStyles(fakemon, f => {
     var clean = dexClean(f);
-    return ".pokesprite." + clean + ' img  { background-image:url("../img/fakemon/' + clean + '.png")!important; }';
+    return ".pokesprite." + clean + ' img, .pokesprite.' + clean.replace(/-/g,'') + ' img  { background-image:url("../img/fakemon/' + clean + '.png")!important; }';
 });
 
-addSingleStyle(fakemon.map(f => ".event.pokemon.pokesprite." + dexClean(f) + " img").join(", ") + " { background-size: 50%!important; background-position: center!important; }");
+addSingleStyle(fakemon.map(f => ".event.pokemon.pokesprite." + dexClean(f) + " img").join(", ") + ', ' + fakemon.map(f => ".event.pokemon.pokesprite." + dexClean(f).replace(/-/g,'') + " img").join(", ") + " { background-size: 50%!important; background-position: center!important; }");
 
 //Phancero hover effect
 addSingleStyle('.pokesprite.phancero:hover img  { background-image:url("../img/fakemon/phancero-hover.png")!important; }');
