@@ -333,6 +333,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Zoroark", Time: "15d17h21m" },
             { Group: "Pokemon", Name: "Doublade", Time: "15d17h33m" },
             { Group: "Pokemon", Name: "Zweilous", Time: "15d18h6m" },
+            { Group: "Pokemon", Name: "Sandslash", Time: "15d18h40m" },
+            { Group: "Pokemon", Name: "Rotom-H", Time: "15d19h17m" },
         ]
     }
 );
