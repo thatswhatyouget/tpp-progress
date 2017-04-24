@@ -330,6 +330,9 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Garchomp", Time: "15d5h59m" },
             { Group: "Champions", Name: "RED", Image: "img/hosts/red.png", Time: "15d7h33m", Attempts: 4 },
             { Group: "Pokemon", Name: "Haunter", Time: "15d8h32m" },
+            { Group: "Pokemon", Name: "Zoroark", Time: "15d17h21m" },
+            { Group: "Pokemon", Name: "Doublade", Time: "15d17h33m" },
+            { Group: "Pokemon", Name: "Zweilous", Time: "15d18h6m" },
         ]
     }
 );
