@@ -326,6 +326,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Celebi", Time: "15d1h54m" },
             { Group: "Pokemon", Name: "Donphan", Time: "15d2h22m" },
             { Group: "Pokemon", Name: "Gabite", Time: "15d3h43m" },
+            { Group: "Pokemon", Name: "Pupitar", Time: "15d5h10m" },
         ]
     }
 );
