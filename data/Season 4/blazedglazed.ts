@@ -329,6 +329,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Pupitar", Time: "15d5h10m" },
             { Group: "Pokemon", Name: "Garchomp", Time: "15d5h59m" },
             { Group: "Champions", Name: "RED", Image: "img/hosts/red.png", Time: "15d7h33m", Attempts: 4 },
+            { Group: "Pokemon", Name: "Haunter", Time: "15d8h32m" },
         ]
     }
 );
