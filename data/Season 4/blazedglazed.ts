@@ -327,6 +327,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Donphan", Time: "15d2h22m" },
             { Group: "Pokemon", Name: "Gabite", Time: "15d3h43m" },
             { Group: "Pokemon", Name: "Pupitar", Time: "15d5h10m" },
+            { Group: "Champions", Name: "RED", Image: "img/hosts/red.png", Time: "15d7h33m", Attempts: 4 },
         ]
     }
 );
