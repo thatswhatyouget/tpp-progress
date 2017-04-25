@@ -335,6 +335,23 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Zweilous", Time: "15d18h6m" },
             { Group: "Pokemon", Name: "Sandslash", Time: "15d18h40m" },
             { Group: "Pokemon", Name: "Rotom-H", Time: "15d19h17m" },
-        ]
+            { Group: "Pokemon", Name: "Off-Eevee", Time: "16d7h21m" },
+            { Group: "Pokemon", Name: "Goodra", Time: "16d7h24m" },
+            { Group: "Pokemon", Name: "Electivire", Time: "16d7h26m" },
+            { Group: "Pokemon", Name: "Kingdra", Time: "16d7h32m" },
+            { Group: "Pokemon", Name: "Politoed", Time: "16d7h34m" },
+            { Group: "Pokemon", Name: "Espeon", Time: "16d7h36m" },
+            { Group: "Pokemon", Name: "Magnezone", Time: "16d7h57m" },
+            { Group: "Pokemon", Name: "Porygon2", Time: "16d8h1m" },
+            { Group: "Pokemon", Name: "Porygon-Z", Time: "16d8h3m" }, //fix sprite class removing the -
+            { Group: "Pokemon", Name: "Slowking", Time: "16d8h4m" },
+            { Group: "Pokemon", Name: "Honchkrow", Time: "16d8h8m" },
+            { Group: "Pokemon", Name: "Yanmega", Time: "16d8h12m" },
+            { Group: "Pokemon", Name: "Whimsicott", Time: "16d8h34m" },
+            { Group: "Pokemon", Name: "Mismagius", Time: "16d8h36m" },
+            { Group: "Pokemon", Name: "Aegislash", Time: "16d8h38m" },
+            { Group: "Pokemon", Name: "Rhyperior", Time: "16d8h41m" },
+            { Group: "Pokemon", Name: "Scizor", Time: "16d8h42m" },
+         ]
     }
 );
