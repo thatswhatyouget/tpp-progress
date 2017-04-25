@@ -3,7 +3,7 @@ Season4.Runs.push(
     {
         RunName: "Blazed Glazed",
         StartDate: "2017-04-08T21:00:00Z",
-        Duration: "255d",
+        Duration: "16d16h",
         ColorPrimary: "#FDDFEF",
         ColorSecondary: "#FFB9D2",
         //HostImage: "img/hosts/ahunigg.png",
@@ -352,6 +352,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Aegislash", Time: "16d8h38m" },
             { Group: "Pokemon", Name: "Rhyperior", Time: "16d8h41m" },
             { Group: "Pokemon", Name: "Scizor", Time: "16d8h42m" },
+            { Group: "Pokemon", Name: "Arceus", Time: "16d15h59m" },
          ]
     }
 );
