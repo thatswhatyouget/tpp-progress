@@ -34,7 +34,7 @@ tppNg.controller('progressCharts', function($scope, $http:angular.IHttpService) 
         }
     }));
     $scope.tppData = tppData.filter(c=> c.Runs.filter(r=> r.StartTime < Date.now() / 1000).length > 0);
-    $scope.cleanText = (dirty: string) => dirty.replace(/[^A-Z0-9]/ig, '').toLowerCase();
+    $scope.cleanText = (dirty: string) => dirty.replace(/[^A-Z0-9-]/ig, '').toLowerCase();
     $scope.duration = (time: string, scale = TPP.Scale.Weeks, baseTime?: number) => Duration.parse(time, baseTime).toString(scale);
     $scope.time = (time: string, scale = TPP.Scale.Days, baseTime?: number) => Duration.parse(time, baseTime).TotalTime(scale);
     $scope.width = (time: string, scale = TPP.Scale.Days, baseTime?: number) => $scope.time(time, scale, baseTime) * $scope.ppd;
