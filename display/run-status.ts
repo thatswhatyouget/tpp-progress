@@ -19,7 +19,7 @@ module TPP.Display.RunStatus {
     }
 
     export function GetCurrentRun(tppData: Collection[]) {
-        return tppData.filter(c => c.Name.indexOf("Season") == 0).map(c => c.Runs[c.Runs.length - 1]).pop();
+        return tppData.filter(c => c.Name.indexOf("Season") == 0 || c.Name.indexOf("Revisit") == 0).map(c => c.Runs[c.Runs.length - 1]).pop();
     }
 
     export function GetSpecifiedRun(tppData: Collection[], runName: string) {
@@ -244,7 +244,7 @@ module TPP.Display.RunStatus {
                 $entry.addClass("fainted");
             }
             else {
-                $entry.addClass(DetermineStatus(p.status));
+                $entry.addClass(p.status);
             }
             $entry.append($("<span class='level'>").text(p.level));
             $entry.append($("<div class='pokesprite'><img src='img/missingno.png'/></div>").addClass(cleanString(p.species.name))/*.addClass(p.Shiny ? "shiny" : "").addClass((p.Gender || "").toLowerCase()).addClass(p.Class).addClass(cleanString(p.Form || ""))*/.attr('title', p.species.name));

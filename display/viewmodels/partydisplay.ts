@@ -1,24 +1,6 @@
 /// <reference path="../shared.ts" />
 
 namespace TPP.Display.ViewModels {
-    function DetermineStatus(status: number) {
-        switch (status) {
-            case 1:
-                return "SLP";
-            case 2:
-                return "FRZ";
-            case 4:
-                return "BRN";
-            case 8:
-                return "PSN";
-            case 32:
-                return "PSN";
-            case 64:
-                return "PAR";
-        }
-        return "";
-    }
-
     interface Dict { [key: string]: string|number }
 
     export class PartyDisplay {
@@ -130,7 +112,7 @@ namespace TPP.Display.ViewModels {
                     Gender: null, //TODO: have a run that supports gender
                     Shiny: false, //TODO: have a run that supports shinies
                     Form: null, //TODO: have a run that supports forms
-                    Class: p.health && !p.health[0] ? "fainted" : DetermineStatus(p.status),
+                    Class: p.health && !p.health[0] ? "fainted" : p.status,
                     Info: this.cleanInfo(this.infoAddSpeciesAndMoves({
 
                     }, p.species.id, p.species.name, p.moves))

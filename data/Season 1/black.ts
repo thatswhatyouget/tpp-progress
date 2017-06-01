@@ -6,7 +6,7 @@ Season1.Runs.push(
         ColorSecondary: "black",
         Duration: "12d 18h 25m",
         StartDate: "2014-06-15T04:00:00Z",
-        HostName: "GMYC",
+        HostName: "GMYC   ",
         HostImage: "img/hosts/gmyc.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Unova",

@@ -7,6 +7,7 @@ namespace TPP.Tv {
 
     export interface TrainerData {
         badges: number;
+        ball_count: number;
         caught: number;
         caught_list: number[];
         coins?: number;
@@ -106,7 +107,7 @@ namespace TPP.Tv {
 
     export interface PartyPokemon extends Pokemon {
         health: number[];
-        status: number;
+        status: string;
         stats: Stats;
         pokerus_remaining?: number;
     }
