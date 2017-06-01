@@ -21,6 +21,8 @@ Revisits.Runs.push(
             { Name: "Drifblim", Time: "2017-06-01T05:40:00.000Z", Group: "Pokemon"},
             { Name: "Solrock", Time: "2017-06-01T06:08:00.000Z", Group: "Pokemon"},
             { Name: "Piloswine", Time: "2017-06-01T06:59:00.000Z", Group: "Pokemon"},
+            { Name: "Excadrill", Time: "2017-06-01T07:12:00.000Z", Group: "Pokemon"},
+            { Name: "Golbat", Time: "2017-06-01T07:14:00.000Z", Group: "Pokemon"},
         ],
         Revisit: { Collection: "Season 1", Run: "Black" },
         CopyEvents: ["Black"],
