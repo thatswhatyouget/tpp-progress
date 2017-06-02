@@ -27,6 +27,7 @@ Revisits.Runs.push(
             { Name: "Frillish", Time: "2017-06-01T16:07:00.000Z", Group: "Pokemon"},
             { Name: "Chimecho", Time: "2017-06-01T17:49:00.000Z", Group: "Pokemon"},
             { Name: "Vulpix", Time: "2017-06-01T18:14:00.000Z", Group: "Pokemon"},
+            { Name: "Bronzong", Time: "2017-06-01T18:36:00.000Z", Group: "Pokemon"},
             { Name: "Absol", Time: "2017-06-01T19:28:00.000Z", Group: "Pokemon"},
         ],
         Revisit: { Collection: "Season 1", Run: "Black" },
