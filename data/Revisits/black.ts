@@ -29,14 +29,15 @@ Revisits.Runs.push(
             { Name: "Vulpix", Time: "2017-06-01T18:14:00.000Z", Group: "Pokemon" },
             { Name: "Bronzong", Time: "2017-06-01T18:36:00.000Z", Group: "Pokemon" },
             { Name: "Absol", Time: "2017-06-01T19:28:00.000Z", Group: "Pokemon" },
-
-            { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 1 },
-            { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/rematch/grimsley.png", Time: "", Attempts: 2 },
-            { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/rematch/caitlin.png", Time: "", Attempts: 1 },
             { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/rematch/marshal.png", Time: "2017-06-02T05:48:00.000Z", Attempts: 1 },
+            { Name: "Kyurem", Time: "2017-06-02T07:47:17.000Z", Group: "Pokemon", Attempts: 3 },
+            { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/rematch/grimsley.png", Time: "2017-06-02T08:19:00.000Z", Attempts: 3 },
+
+            { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 4 },
+            { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/rematch/caitlin.png", Time: "", Attempts: 3 },
             { Group: "Champion", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "12356", Attempts:4 , Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "12356", Attempts: 12, Party: [
                     { Pokemon: "Deerling", Nickname: "5", Level: 63, Gender: "Female" },
                     { Pokemon: "Joltik", Nickname: "    ~***", Level: 69, Gender: "Male" },
                     { Pokemon: "Druddigon", Nickname: "Dru", Level: 68, Gender: "Male" },
