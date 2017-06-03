@@ -19,7 +19,7 @@ module TPP.Display.RunStatus {
     }
 
     export function GetCurrentRun(tppData: Collection[]) {
-        return tppData.filter(c => c.Name.indexOf("Season") == 0 || c.Name.indexOf("Revisit") == 0).map(c => c.Runs[c.Runs.length - 1]).pop();
+        return tppData.filter(c => c.Name.indexOf("Season") == 0).map(c => c.Runs[c.Runs.length - 1]).pop();
     }
 
     export function GetSpecifiedRun(tppData: Collection[], runName: string) {
