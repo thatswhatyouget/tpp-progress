@@ -34,16 +34,15 @@ Revisits.Runs.push(
             { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/rematch/grimsley.png", Time: "2017-06-02T08:18:00.000Z", Attempts: 3 },
             { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/rematch/caitlin.png", Time: "2017-06-03T00:45:00.000Z", Attempts: 8 },
             { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/rematch/shauntal.png", Time: "2017-06-03T11:10:00.000Z", Attempts: 9 },
-
-            { Group: "Champion", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "", Attempts: 1 },
+            { Group: "Champion", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "2017-06-02T17:17:00.000Z", Attempts: 2 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "12356", Attempts: 47, Party: [
-                    { Pokemon: "Deerling", Nickname: "5", Level: 63, Gender: "Female" },
-                    { Pokemon: "Joltik", Nickname: "    ~***", Level: 69, Gender: "Male" },
-                    { Pokemon: "Druddigon", Nickname: "Dru", Level: 68, Gender: "Male" },
-                    { Pokemon: "Zebstrika", Nickname: "aMH", Level: 75, Gender: "Male" },
-                    { Pokemon: "Tranquill", Nickname: "QQQQ", Level: 56, Gender: "Male" },
-                    { Pokemon: "Tympole", Nickname: "NONNQWMMSO", Level: 64, Gender: "Female" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2017-06-02T17:18:00.000Z", IDNo: "12356", Attempts: 49, Party: [
+                    { Pokemon: "Unfezant", Nickname: "QQQQ", Level: 81, Gender: "Male" },
+                    { Pokemon: "Sawsbuck", Nickname: "5", Level: 83, Gender: "Female" },
+                    { Pokemon: "Druddigon", Nickname: "Dru", Level: 87, Gender: "Male" },
+                    { Pokemon: "Zebstrika", Nickname: "aMH", Level: 81, Gender: "Male" },
+                    { Pokemon: "Galvantula", Nickname: "    ~***", Level: 84, Gender: "Male" },
+                    { Pokemon: "Seismitoad", Nickname: "NONNQWMMSO", Level: 92, Gender: "Female" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2017-06-01T03:14:00.000Z"
