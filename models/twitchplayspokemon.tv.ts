@@ -16,7 +16,9 @@ namespace TPP.Tv {
         items_key?: Item[];
         items_ball?: Item[];
         items_tm?: Item[];
+        items_medicine?: Item[];
         items_berry?: Item[];
+        items_free_space?: Item[];
         map_bank: number;
         map_id: number;
         area_id: number;
@@ -24,7 +26,7 @@ namespace TPP.Tv {
         money: number;
         name: string;
         options: Options;
-        pc_items: Item[];
+        pc_items?: Item[];
         seen: number;
         seen_list: number[];
         secret: number;

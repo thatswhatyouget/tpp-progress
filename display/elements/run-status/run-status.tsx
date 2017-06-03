@@ -220,7 +220,9 @@ namespace TPP.Display.Elements.RunStatus {
                     <ItemDisplay key="Key Items" title="Key Items" items={this.state.status.items_key} />
                     <ItemDisplay key="Poké Balls" title="Poké Balls" items={this.state.status.items_ball} />
                     <ItemDisplay key="TMs" title="TMs and HMs" items={this.state.status.items_tm} />
+                    <ItemDisplay key="Medicine" title="Medicine" items={this.state.status.items_medicine} />
                     <ItemDisplay key="Berries" title="Berries" items={this.state.status.items_berry} />
+                    <ItemDisplay key="Free Space" title="Free Space" items={this.state.status.items_free_space} />
                     <ItemDisplay key="PC Items" title={pokeRedCondenseText(`${this.state.run.HostName}'s PC`)} items={this.state.status.pc_items} />
                     {this.Pokedex}
                     {this.state.status ? <PC pc={this.state.status.pc} /> : null}
