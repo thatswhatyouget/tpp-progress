@@ -31,13 +31,13 @@ Revisits.Runs.push(
             { Name: "Absol", Time: "2017-06-01T19:28:00.000Z", Group: "Pokemon" },
             { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/rematch/marshal.png", Time: "2017-06-02T05:48:00.000Z", Attempts: 1 },
             { Name: "Kyurem", Time: "2017-06-02T07:47:17.000Z", Group: "Pokemon", Attempts: 3 },
-            { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/rematch/grimsley.png", Time: "2017-06-02T08:19:00.000Z", Attempts: 3 },
+            { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/rematch/grimsley.png", Time: "2017-06-02T08:18:00.000Z", Attempts: 3 },
+            { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/rematch/caitlin.png", Time: "2017-06-03T00:45:00.000Z", Attempts: 8 },
+            { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "2017-06-03T11:10:00.000Z", Attempts: 9 },
 
-            { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 4 },
-            { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/rematch/caitlin.png", Time: "", Attempts: 3 },
-            { Group: "Champion", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "", Attempts: 0 },
+            { Group: "Champion", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "", Attempts: 1 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "12356", Attempts: 12, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "12356", Attempts: 46, Party: [
                     { Pokemon: "Deerling", Nickname: "5", Level: 63, Gender: "Female" },
                     { Pokemon: "Joltik", Nickname: "    ~***", Level: 69, Gender: "Male" },
                     { Pokemon: "Druddigon", Nickname: "Dru", Level: 68, Gender: "Male" },
@@ -46,7 +46,7 @@ Revisits.Runs.push(
                     { Pokemon: "Tympole", Nickname: "NONNQWMMSO", Level: 64, Gender: "Female" },
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate: "2017-06-01T03:16:00.000Z"
+                FirstAttemptDate: "2017-06-01T03:14:00.000Z"
             },
         ],
         Revisit: { Collection: "Season 1", Run: "Black" },
