@@ -7,7 +7,8 @@ Season4.Runs.push(
         Duration: "255d",
         StartDate: "2017-06-03T21:00:00Z",
         HostName: "AAAALK'",
-        HostImage: "http://cdn.bulbagarden.net/upload/6/6e/Spr_B2W2_Nate_2.png",
+        HostImage: "img/hosts/aaaalk.gif",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/6f6mw8/dr_alek_our_serious_and_diligent_protagonist/",
         Region: "Unova",
         Generation: 5,
         Pokedex: "National",
@@ -36,7 +37,7 @@ Season4.Runs.push(
             { Name: "Pidove", Time: "11h12m", Group: "Pokemon" },
             { Name: "Bidoof", Time: "11h18m", Group: "Pokemon" },
             { Group: "Badges", Name: "Toxic Badge", Image: "img/badges/toxic.png", Time: "19h10m", Attempts: 8 },
-            
+
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
