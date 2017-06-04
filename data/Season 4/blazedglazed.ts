@@ -155,7 +155,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Luxio", Time: "6d13h2m" },
             { Group: "Elite Four", Name: "Rosaline", Image: "img/trainers/glazed/rosaline.png", Time: "6d18h37m", Attempts: 2 },
             { Group: "Elite Four", Name: "Magnus", Image: "img/trainers/glazed/magnus.png", Time: "6d19h26m", Attempts: 3 },
-            { Group: "Elite Four", Name: "Tanya", Image: "img/trainers/glazed/tanya.png", Time: "7d4h23m", Attempts: 4 },
+            { Group: "Elite Four", Name: "Tanya", Image: "img/trainers/glazed/tanya.png", Time: "7d4h23m", Attempts: 5 },
             { Group: "Elite Four", Name: "Gray", Image: "img/trainers/glazed/gray.png", Time: "7d6h10m", Attempts: 2 },
             { Group: "Champions", Name: "Blake", Image: "img/trainers/glazed/blake.png", Time: "7d21h37m", Attempts: 8 },
             <TPP.HallOfFame>{
@@ -208,7 +208,7 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Pidgeot", Time: "8d19h10m" },
             { Group: "Pokemon", Name: "Poliwag", Time: "8d20h32m" },
             { Group: "Pokemon", Name: "Unown", Time: "8d21h22m" },
-            { Group: "Pokemon", Name: "Goldeen", Time: "8d21h42m" },
+            { Group: "Pokemon", Name: "Goldeen", Time: "8d22h42m" },
             { Group: "Pokemon", Name: "Poliwhirl", Time: "8d23h27m" },
             { Group: "Pokemon", Name: "Glalie", Time: "8d23h35m" },
             { Group: "Pokemon", Name: "Raticate", Time: "9d2h25m" },
@@ -232,8 +232,8 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Machoke", Time: "9d17h33m" },
             { Group: "Pokemon", Name: "Roserade", Time: "9d18h28m" },
             { Group: "Pokemon", Name: "Magikarp", Time: "9d19h11m" },
-            { Group: "Pokemon", Name: "Hoppip", Time: "9d19h26m" },
-            { Group: "Pokemon", Name: "Jigglypuff", Time: "9d19h37m" },
+            { Group: "Pokemon", Name: "Hoppip", Time: "9d19h18m" },
+            { Group: "Pokemon", Name: "Jigglypuff", Time: "9d19h28m" },
             { Group: "Pokemon", Name: "Skiploom", Time: "9d19h38m" },
             { Group: "Pokemon", Name: "Pelipper", Time: "9d20h53m" },
             { Group: "Pokemon", Name: "Magneton", Time: "9d23h16m" },
@@ -353,6 +353,11 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Rhyperior", Time: "16d8h41m" },
             { Group: "Pokemon", Name: "Scizor", Time: "16d8h42m" },
             { Group: "Pokemon", Name: "Arceus", Time: "16d15h59m" },
+
+            // { Group: "Rematch Badges", Name: "Stem Badge", Time: "9d16h51m", Attempts: 1, Image: "img/badges/glazed/rematch/stem.png" },
+            // { Group: "Rematch Badges", Name: "Icicle Badge", Time: "9d16h57m", Attempts: 1, Image: "img/badges/glazed/rematch/icicle.png" },
+            // { Group: "Rematch Badges", Name: "Jolt Badge", Time: "9d17h7m", Attempts: 1, Image: "img/badges/glazed/rematch/jolt.png" },
+
          ]
     }
 );

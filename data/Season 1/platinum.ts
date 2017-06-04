@@ -41,7 +41,7 @@ Season1.Runs.push(
                 Name: "Fen Badge",
                 Image: "img/badges/fen.png",
                 Time: "7d 6h 34m",
-                Attempts: 3
+                Attempts: 4
             },
             {
                 Group: "Badges",

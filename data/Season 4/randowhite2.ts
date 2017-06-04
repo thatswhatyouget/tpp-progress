@@ -30,6 +30,7 @@ Season4.Runs.push(
             { Name: "Meditite", Time: "6h44m", Group: "Pokemon" },
             { Name: "Pichu", Time: "6h47m", Group: "Pokemon" },
             { Name: "Zigzagoon", Time: "8h37m", Group: "Pokemon" },
+            { Name: "Gothorita", Time: "9h11m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Toxic Badge", Image: "img/badges/toxic.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "", Attempts: 0 },
