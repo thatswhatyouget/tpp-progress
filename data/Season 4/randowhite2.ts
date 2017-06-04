@@ -13,8 +13,8 @@ Season4.Runs.push(
         Pokedex: "National",
         TPPOrgLink: "http://twitchplayspokemon.org/",
         Events: [
+            { Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png", Time: "4h58m", Attempts: 2 },
             { Group: "Badges", Name: "Toxic Badge", Image: "img/badges/toxic.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
