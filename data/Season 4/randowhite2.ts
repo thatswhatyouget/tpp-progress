@@ -31,8 +31,12 @@ Season4.Runs.push(
             { Name: "Pichu", Time: "6h47m", Group: "Pokemon" },
             { Name: "Zigzagoon", Time: "8h37m", Group: "Pokemon" },
             { Name: "Gothorita", Time: "9h11m", Group: "Pokemon" },
-
-            { Group: "Badges", Name: "Toxic Badge", Image: "img/badges/toxic.png", Time: "", Attempts: 0 },
+            { Name: "Kadabra", Time: "9h46m", Group: "Pokemon" },
+            { Name: "Minccino", Time: "11h7m", Group: "Pokemon" },
+            { Name: "Pidove", Time: "11h12m", Group: "Pokemon" },
+            { Name: "Bidoof", Time: "11h18m", Group: "Pokemon" },
+            { Group: "Badges", Name: "Toxic Badge", Image: "img/badges/toxic.png", Time: "19h10m", Attempts: 8 },
+            
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
