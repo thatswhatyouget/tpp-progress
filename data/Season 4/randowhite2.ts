@@ -67,6 +67,7 @@ Season4.Runs.push(
             { Name: "Phanpy", Time: "1d19h6m", Group: "Pokemon" },
             { Name: "Swablu", Time: "1d19h15m", Group: "Pokemon" },
             { Name: "Lumineon", Time: "1d19h21m", Group: "Pokemon" },
+            { Name: "Jynx", Time: "1d20h47m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
