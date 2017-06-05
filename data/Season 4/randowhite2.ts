@@ -59,6 +59,10 @@ Season4.Runs.push(
             { Name: "Gastly", Time: "1d7h32m", Group: "Pokemon" },
             { Name: "Ledyba", Time: "1d7h36m", Group: "Pokemon" },
             { Name: "Deino", Time: "1d7h43m", Group: "Pokemon" },
+            { Name: "Eevee", Time: "1d10h46m", Group: "Pokemon" },
+            { Name: "Beldum", Time: "1d10h51m", Group: "Pokemon" },
+            { Name: "Surskit", Time: "1d11h2m", Group: "Pokemon" },
+            { Name: "Carvanha", Time: "1d11h8m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 0 },
