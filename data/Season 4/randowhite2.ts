@@ -54,6 +54,11 @@ Season4.Runs.push(
             { Name: "Gothita", Time: "1d5h12m", Group: "Pokemon" },
             { Name: "Chingling", Time: "1d6h", Group: "Pokemon" },
             { Name: "Koffing", Time: "1d6h14m", Group: "Pokemon" },
+            { Name: "Shelmet", Time: "1d7h28m", Group: "Pokemon" },
+            { Name: "Litwick", Time: "1d7h30m", Group: "Pokemon" },
+            { Name: "Gastly", Time: "1d7h32m", Group: "Pokemon" },
+            { Name: "Ledyba", Time: "1d7h36m", Group: "Pokemon" },
+            { Name: "Deino", Time: "1d7h43m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 0 },
