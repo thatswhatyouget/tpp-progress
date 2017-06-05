@@ -82,8 +82,9 @@ Season4.Runs.push(
             { Name: "Bellsprout", Time: "1d23h23m", Group: "Pokemon" },
             { Name: "Pansage", Time: "1d23h28m", Group: "Pokemon" },
             { Name: "Blitzle", Time: "1d23h36m", Group: "Pokemon" },
-	
-            { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 0 },
+            { Name: "Croagunk", Time: "2d1h35m", Group: "Pokemon" },
+
+            { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 2 },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
