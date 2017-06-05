@@ -64,6 +64,9 @@ Season4.Runs.push(
             { Name: "Surskit", Time: "1d11h2m", Group: "Pokemon" },
             { Name: "Carvanha", Time: "1d11h8m", Group: "Pokemon" },
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "1d17h30m", Attempts: 3 },
+            { Name: "Phanpy", Time: "1d19h6m", Group: "Pokemon" },
+            { Name: "Swablu", Time: "1d19h15m", Group: "Pokemon" },
+            { Name: "Lumineon", Time: "1d19h21m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
