@@ -48,6 +48,12 @@ Season4.Runs.push(
             { Name: "Venipede", Time: "23h16m", Group: "Pokemon" },
             { Name: "Marill", Time: "23h20m", Group: "Pokemon" },
             { Name: "NidoranM", Time: "23h23m", Group: "Pokemon" },
+            { Name: "Kirlia", Time: "1d4h47m", Group: "Pokemon" },
+            { Name: "Lunatone", Time: "1d4h51m", Group: "Pokemon" },
+            { Name: "Crawdaunt", Time: "1d5h9m", Group: "Pokemon" },
+            { Name: "Gothita", Time: "1d5h12m", Group: "Pokemon" },
+            { Name: "Chingling", Time: "1d6h", Group: "Pokemon" },
+            { Name: "Koffing", Time: "1d6h14m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 0 },
