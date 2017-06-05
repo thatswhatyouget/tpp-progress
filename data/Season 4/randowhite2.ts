@@ -83,6 +83,8 @@ Season4.Runs.push(
             { Name: "Pansage", Time: "1d23h28m", Group: "Pokemon" },
             { Name: "Blitzle", Time: "1d23h36m", Group: "Pokemon" },
             { Name: "Croagunk", Time: "2d1h35m", Group: "Pokemon" },
+            { Name: "Cyndaquil", Time: "2d1h48m", Group: "Pokemon" },
+            { Name: "Cubchoo", Time: "2d2h", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 2 },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
