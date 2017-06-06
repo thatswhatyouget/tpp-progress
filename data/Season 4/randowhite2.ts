@@ -122,6 +122,7 @@ Season4.Runs.push(
             { Name: "Elekid", Time: "2d16h19m", Group: "Pokemon" },
             { Name: "Tynamo", Time: "2d16h38m", Group: "Pokemon" },
             { Name: "Stunky", Time: "2d16h53m", Group: "Pokemon" },
+            { Name: "Pansear", Time: "2d17h5m", Group: "Pokemon" },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
