@@ -136,6 +136,8 @@ Season4.Runs.push(
             { Name: "Ivysaur", Time: "3d2h2m", Group: "Pokemon" },
             { Name: "Wormadam", Time: "3d2h12m", Group: "Pokemon" },
             { Name: "Medicham", Time: "3d2h17m", Group: "Pokemon" },
+            { Name: "Wingull", Time: "3d2h31m", Group: "Pokemon" },
+            { Name: "Miltank", Time: "3d2h33m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
