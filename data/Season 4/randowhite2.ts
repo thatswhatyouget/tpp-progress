@@ -131,6 +131,11 @@ Season4.Runs.push(
             { Name: "Mightyena", Time: "2d21h51m", Group: "Pokemon" },
             { Name: "Floatzel", Time: "2d23h52m", Group: "Pokemon" },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "3d32m", Attempts: 3 },
+            { Name: "Corsola", Time: "3d1h41m", Group: "Pokemon" },
+            { Name: "Grovyle", Time: "3d1h43m", Group: "Pokemon" },
+            { Name: "Ivysaur", Time: "3d2h2m", Group: "Pokemon" },
+            { Name: "Wormadam", Time: "3d2h12m", Group: "Pokemon" },
+            { Name: "Medicham", Time: "3d2h17m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
