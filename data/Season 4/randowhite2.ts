@@ -128,6 +128,7 @@ Season4.Runs.push(
             { Name: "Snorunt", Time: "2d18h46m", Group: "Pokemon" },
             { Name: "Mienfoo", Time: "2d18h52m", Group: "Pokemon" },
             { Name: "Onix", Time: "2d19h7m", Group: "Pokemon" },
+            { Name: "Mightyena", Time: "2d21h51m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "", Attempts: 0 },
