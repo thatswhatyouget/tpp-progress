@@ -100,6 +100,9 @@ Season4.Runs.push(
             { Name: "Shellder", Time: "2d6h5m", Group: "Pokemon" },
             { Name: "Karrablast", Time: "2d6h31m", Group: "Pokemon" },
             { Name: "Rufflet", Time: "2d6h45m", Group: "Pokemon" },
+            { Name: "Zweilous", Time: "2d8h22m", Group: "Pokemon" },
+            { Name: "Dwebble", Time: "2d8h47m", Group: "Pokemon" },
+            { Name: "Doduo", Time: "2d8h53m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 2 },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
