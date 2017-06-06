@@ -125,6 +125,8 @@ Season4.Runs.push(
             { Name: "Pansear", Time: "2d17h5m", Group: "Pokemon" },
             { Name: "Boldore", Time: "2d18h20m", Group: "Pokemon" },
             { Name: "Pelipper", Time: "2d18h31m", Group: "Pokemon" },
+            { Name: "Snorunt", Time: "2d18h46m", Group: "Pokemon" },
+            { Name: "Mienfoo", Time: "2d18h52m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "", Attempts: 0 },
