@@ -139,6 +139,8 @@ Season4.Runs.push(
             { Name: "Monferno", Time: "3d2h19m", Group: "Pokemon" },
             { Name: "Wingull", Time: "3d2h31m", Group: "Pokemon" },
             { Name: "Miltank", Time: "3d2h33m", Group: "Pokemon" },
+            { Name: "Quilava", Time: "3d4h7m", Group: "Pokemon" },
+            { Name: "Tirtouga", Time: "3d4h17m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
