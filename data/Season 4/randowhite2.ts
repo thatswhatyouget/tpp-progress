@@ -160,6 +160,13 @@ Season4.Runs.push(
             { Name: "Murkrow", Time: "3d6h53m", Group: "Pokemon" },
             { Name: "Swadloon", Time: "3d7h11m", Group: "Pokemon" },
             { Name: "Larvitar", Time: "3d7h16m", Group: "Pokemon" },
+            { Name: "Frillish", Time: "3d9h55m", Group: "Pokemon" },
+            { Name: "Pidgeot", Time: "3d12h5m", Group: "Pokemon" },
+            { Name: "Turtwig", Time: "3d13h8m", Group: "Pokemon" },
+            { Name: "Buneary", Time: "3d13h16m", Group: "Pokemon" },
+            { Name: "Lileep", Time: "3d13h21m", Group: "Pokemon" },
+            { Name: "Typhlosion", Time: "3d13h46m", Group: "Pokemon" },
+            { Name: "Vulpix", Time: "3d14h20m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
