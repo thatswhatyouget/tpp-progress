@@ -184,6 +184,8 @@ Season4.Runs.push(
             { Name: "Purrloin", Time: "3d19h5m", Group: "Pokemon" },
             { Name: "Clamperl", Time: "3d19h9m", Group: "Pokemon" },
             { Name: "Sharpedo", Time: "3d19h13m", Group: "Pokemon" },
+            { Name: "Exploud", Time: "3d19h22m", Group: "Pokemon" },
+            { Name: "Treecko", Time: "3d19h46m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "", Attempts: 0 },
