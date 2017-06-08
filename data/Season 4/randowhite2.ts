@@ -206,6 +206,7 @@ Season4.Runs.push(
             { Name: "Absol", Time: "4d7h30m", Group: "Pokemon" },            
             { Name: "Lampent", Time: "4d8h8m", Group: "Pokemon" },
             { Name: "Seaking", Time: "4d8h54m", Group: "Pokemon" },
+            { Name: "Beedrill", Time: "4d17h36m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "", Attempts: 0 },
