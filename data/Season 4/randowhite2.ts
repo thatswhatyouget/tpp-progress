@@ -218,6 +218,13 @@ Season4.Runs.push(
             { Name: "Granbull", Time: "4d20h36m", Group: "Pokemon" },
             { Name: "Seismitoad", Time: "4d20h39m", Group: "Pokemon" },
             { Name: "Magcargo", Time: "4d20h48m", Group: "Pokemon" },
+            { Name: "Braviary", Time: "4d21h6m", Group: "Pokemon" },
+            { Name: "Pachirisu", Time: "4d21h18m", Group: "Pokemon" },
+            { Name: "Sealeo", Time: "4d21h22m", Group: "Pokemon" },
+            { Name: "Omanyte", Time: "4d21h27m", Group: "Pokemon" },
+            { Name: "Machop", Time: "4d21h55m", Group: "Pokemon" },
+            { Name: "Ducklett", Time: "4d22h21m", Group: "Pokemon" },
+            { Name: "Gastrodon", Time: "4d23h56m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
