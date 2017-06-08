@@ -209,6 +209,7 @@ Season4.Runs.push(
             { Name: "Beedrill", Time: "4d17h36m", Group: "Pokemon" },
             { Name: "Vanillite", Time: "4d18h12m", Group: "Pokemon" },
             { Name: "Mothim", Time: "4d18h38m", Group: "Pokemon" },
+            { Name: "Spheal", Time: "4d18h58m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "", Attempts: 0 },
