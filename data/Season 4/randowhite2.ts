@@ -194,6 +194,12 @@ Season4.Runs.push(
             { Name: "Emolga", Time: "3d22h17m", Group: "Pokemon" },
             { Name: "Gothitelle", Time: "3d22h39m", Group: "Pokemon" },
             { Name: "Lanturn", Time: "3d22h46m", Group: "Pokemon" },
+            { Name: "Kabuto", Time: "4d55m", Group: "Pokemon" },
+            { Name: "Drilbur", Time: "4d59m", Group: "Pokemon" },
+            { Name: "Unown", Time: "4d1h28m", Group: "Pokemon" },
+            { Name: "Prinplup", Time: "4d1h55m", Group: "Pokemon" },
+            { Name: "Zorua", Time: "4d2h50m", Group: "Pokemon" },
+            { Name: "Heatmor", Time: "4d3h8m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "", Attempts: 0 },
