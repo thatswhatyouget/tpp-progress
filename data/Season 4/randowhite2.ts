@@ -272,6 +272,9 @@ Season4.Runs.push(
             { Name: "Bellossom", Time: "5d14h54m", Group: "Pokemon" },
             { Name: "Girafarig", Time: "5d15h1m", Group: "Pokemon" },
             { Name: "Spoink", Time: "5d15h10m", Group: "Pokemon" },
+            { Name: "Articuno", Time: "5d16h4m", Group: "Pokemon" },
+            { Name: "Suicune", Time: "5d17h16m", Group: "Pokemon" },
+            { Name: "Togepi", Time: "5d17h21m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
