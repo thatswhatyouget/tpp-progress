@@ -230,6 +230,12 @@ Season4.Runs.push(
             { Name: "Teddiursa", Time: "5d1h7m", Group: "Pokemon" },
             { Name: "Squirtle", Time: "5d1h17m", Group: "Pokemon" },
             { Name: "Bulbasaur", Time: "5d1h31m", Group: "Pokemon" },
+            { Name: "Eelektrik", Time: "5d2h38m", Group: "Pokemon" },
+            { Name: "Nosepass", Time: "5d2h49m", Group: "Pokemon" },
+            { Name: "Blastoise", Time: "5d4h8m", Group: "Pokemon" },
+            { Name: "Cubone", Time: "5d4h23m", Group: "Pokemon" },
+            { Name: "Rhyperior", Time: "5d5h38m", Group: "Pokemon" },
+            { Name: "Ampharos", Time: "5d5h53m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
