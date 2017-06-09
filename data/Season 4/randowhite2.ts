@@ -295,6 +295,8 @@ Season4.Runs.push(
             { Name: "Whimsicott", Time: "5d21h13m", Group: "Pokemon" },
             { Name: "Simisage", Time: "5d22h34m", Group: "Pokemon" },
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "5d23h54m", Attempts: 2 },
+            { Name: "Dragonair", Time: "6d1h46m", Group: "Pokemon" },
+            { Name: "Furret", Time: "6d1h50m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0 },
