@@ -334,6 +334,8 @@ Season4.Runs.push(
             { Name: "Whirlipede", Time: "6d17h51m", Group: "Pokemon" },
             { Name: "Zubat", Time: "6d17h53m", Group: "Pokemon" },
             { Name: "Zebstrika", Time: "6d18h9m", Group: "Pokemon" },
+            { Name: "Amoonguss", Time: "6d18h17m", Group: "Pokemon" },
+            { Name: "Fraxure", Time: "6d18h45m", Group: "Pokemon" },
 
             { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "", Attempts: 0 },
