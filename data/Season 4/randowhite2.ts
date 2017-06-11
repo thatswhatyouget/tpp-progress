@@ -380,7 +380,10 @@ Season4.Runs.push(
             { Name: "Poliwhirl", Time: "7d22h29m", Group: "Pokemon" },
             { Name: "Chansey", Time: "7d22h43m", Group: "Pokemon" },
             { Name: "Tranquill", Time: "7d22h46m", Group: "Pokemon" },
-
+            { Name: "Bouffalant", Time: "7d23h8m", Group: "Pokemon" },
+            { Name: "Gabite", Time: "7d23h39m", Group: "Pokemon" },
+            { Name: "Plusle", Time: "7d23h45m", Group: "Pokemon" },
+            { Name: "Vibrava", Time: "7d23h50m", Group: "Pokemon" },
 
             { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "", Attempts: 0 },
