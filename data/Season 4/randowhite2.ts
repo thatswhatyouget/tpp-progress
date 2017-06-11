@@ -384,6 +384,13 @@ Season4.Runs.push(
             { Name: "Gabite", Time: "7d23h39m", Group: "Pokemon" },
             { Name: "Plusle", Time: "7d23h45m", Group: "Pokemon" },
             { Name: "Vibrava", Time: "7d23h50m", Group: "Pokemon" },
+            { Name: "Breloom", Time: "8d14m", Group: "Pokemon" },
+            { Name: "Hippopotas", Time: "8d16m", Group: "Pokemon" },
+            { Name: "Lickilicky", Time: "8d19m", Group: "Pokemon" },
+            { Name: "Gengar", Time: "8d43m", Group: "Pokemon" },
+            { Name: "Poliwrath", Time: "8d1h38m", Group: "Pokemon" },
+            { Name: "Wynaut", Time: "8d1h43m", Group: "Pokemon" },
+            { Name: "Gligar", Time: "8d1h46m", Group: "Pokemon" },
 
             { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "", Attempts: 0 },
