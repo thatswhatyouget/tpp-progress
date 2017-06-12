@@ -399,16 +399,15 @@ Season4.Runs.push(
             { Name: "Raticate", Time: "8d5h29m", Group: "Pokemon" },
             { Name: "Larvesta", Time: "8d5h51m", Group: "Pokemon" },
             { Group: "Elite Four", Name: "Dodecane (Grimsley)", Image: "img/trainers/black/grimsley.png", Time: "8d7h20m", Attempts: 4 },
-
-            { Group: "Champions", Name: "Battleslash (Iris)", Image: "img/trainers/black/iris.png", Time: "", Attempts: 0 },
+            { Group: "Champions", Name: "Battleslash (Iris)", Image: "img/trainers/black/iris.png", Time: "8d16h45m", Attempts: 4 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "32230", Attempts: 7, Party: [
-                    { Pokemon: "Kyogre", Nickname: "VigorothQY", Level: 60 },
-                    { Pokemon: "Absol", Level: 75, Gender: "Female" },
-                    { Pokemon: "Articuno", Nickname: "Articun", Level: 67 },
-                    { Pokemon: "Floatzel", Nickname: "   GD LREd", Level: 68, Gender: "Male" },
-                    { Pokemon: "Blastoise", Nickname: "0LLEELVvv", Level: 68, Gender: "Male" },
-                    { Pokemon: "Cresselia", Nickname: "Dragonairy ", Level: 68 },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "8d16h47m", IDNo: "32230", Attempts: 17, Party: [
+                    { Pokemon: "Absol", Level: 86, Gender: "Female" },
+                    { Pokemon: "Kyogre", Nickname: "VigorothQY", Level: 73 },
+                    { Pokemon: "Cresselia", Nickname: "Dragonairy ", Level: 71 },
+                    { Pokemon: "Floatzel", Nickname: "   GD LREd", Level: 73, Gender: "Male" },
+                    { Pokemon: "Blastoise", Nickname: "0LLEELVvv", Level: 71, Gender: "Male" },
+                    { Pokemon: "Articuno", Nickname: "Articun", Level: 77 },
                 ],
                 FirstAttemptDate:"8d4h19m",
                 Image: "img/ribbons/champion.png"
