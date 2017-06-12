@@ -412,6 +412,8 @@ Season4.Runs.push(
                 FirstAttemptDate:"8d4h19m",
                 Image: "img/ribbons/champion.png"
             },
+            { Name: "Ursaring", Time: "8d17h17m", Group: "Pokemon" },
+            { Name: "Toxicroak", Time: "8d17h41m", Group: "Pokemon" },
         ]
     }
 );
