@@ -414,6 +414,10 @@ Season4.Runs.push(
             },
             { Name: "Ursaring", Time: "8d17h17m", Group: "Pokemon" },
             { Name: "Toxicroak", Time: "8d17h41m", Group: "Pokemon" },
+            { Name: "Kangaskhan", Time: "8d18h34m", Group: "Pokemon" },
+            { Name: "Caterpie", Time: "8d19h12m", Group: "Pokemon" },
+            { Name: "Scizor", Time: "8d19h21m", Group: "Pokemon" },
+            { Name: "Kricketot", Time: "8d19h32m", Group: "Pokemon" },
         ]
     }
 );
