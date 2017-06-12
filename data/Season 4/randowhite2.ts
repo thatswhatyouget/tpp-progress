@@ -391,14 +391,26 @@ Season4.Runs.push(
             { Name: "Poliwrath", Time: "8d1h38m", Group: "Pokemon" },
             { Name: "Wynaut", Time: "8d1h43m", Group: "Pokemon" },
             { Name: "Gligar", Time: "8d1h46m", Group: "Pokemon" },
+            { Name: "Porygon", Time: "8d3h28m", Group: "Pokemon" },
+            { Name: "Nidorina", Time: "8d3h23m", Group: "Pokemon" },
+            { Group: "Elite Four", Name: "f1uffyshark (Caitlin)", Image: "img/trainers/black/caitlin.png", Time: "8d4h22m", Attempts: 1 },
+            { Group: "Elite Four", Name: "Miramiee (Shauntal)", Image: "img/trainers/black/shauntal.png", Time: "8d4h45m", Attempts: 1 },
+            { Group: "Elite Four", Name: "Masterlightx (Marshal)", Image: "img/trainers/black/marshal.png", Time: "8d5h14m", Attempts: 2 },
+            { Name: "Raticate", Time: "8d5h29m", Group: "Pokemon" },
+            { Name: "Larvesta", Time: "8d5h51m", Group: "Pokemon" },
+            { Group: "Elite Four", Name: "Dodecane (Grimsley)", Image: "img/trainers/black/grimsley.png", Time: "8d7h20m", Attempts: 4 },
 
-            { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "", Attempts: 0 },
-            { Group: "Champions", Name: "Iris", Image: "img/trainers/black/iris.png", Time: "", Attempts: 0 },
+            { Group: "Champions", Name: "Battleslash (Iris)", Image: "img/trainers/black/iris.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [],
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "32230", Attempts: 7, Party: [
+                    { Pokemon: "Kyogre", Nickname: "VigorothQY", Level: 60 },
+                    { Pokemon: "Absol", Level: 75, Gender: "Female" },
+                    { Pokemon: "Articuno", Nickname: "Articun", Level: 67 },
+                    { Pokemon: "Floatzel", Nickname: "   GD LREd", Level: 68, Gender: "Male" },
+                    { Pokemon: "Blastoise", Nickname: "0LLEELVvv", Level: 68, Gender: "Male" },
+                    { Pokemon: "Cresselia", Nickname: "Dragonairy ", Level: 68 },
+                ],
+                FirstAttemptDate:"8d4h19m",
                 Image: "img/ribbons/champion.png"
             },
         ]
