@@ -422,6 +422,7 @@ Season4.Runs.push(
             { Name: "Sableye", Time: "8d23h27m", Group: "Pokemon" },
             { Name: "Dodrio", Time: "8d23h40m", Group: "Pokemon" },
             { Name: "Regice", Time: "9d1h18m", Group: "Pokemon" },
+            { Name: "Whiscash", Time: "9d1h34m", Group: "Pokemon" },
         ]
     }
 );
