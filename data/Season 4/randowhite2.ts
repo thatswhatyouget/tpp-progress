@@ -418,6 +418,8 @@ Season4.Runs.push(
             { Name: "Caterpie", Time: "8d19h12m", Group: "Pokemon" },
             { Name: "Scizor", Time: "8d19h21m", Group: "Pokemon" },
             { Name: "Kricketot", Time: "8d19h32m", Group: "Pokemon" },
+            { Name: "Golett", Time: "8d23h20m", Group: "Pokemon" },
+            { Name: "Sableye", Time: "8d23h27m", Group: "Pokemon" },
         ]
     }
 );
