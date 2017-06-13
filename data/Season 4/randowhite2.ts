@@ -450,6 +450,11 @@ Season4.Runs.push(
             { Name: "Smoochum", Time: "9d16h4m", Group: "Pokemon" },
             { Name: "Maractus", Time: "9d16h8m", Group: "Pokemon" },
             { Name: "Watchog", Time: "9d16h14m", Group: "Pokemon" },
+            { Name: "Emboar", Time: "9d17h35m", Group: "Pokemon" },
+            { Name: "Rhydon", Time: "9d18h32m", Group: "Pokemon" },
+            { Name: "Ariados", Time: "9d18h37m", Group: "Pokemon" },
+            { Name: "Pikachu", Time: "9d19h1m", Group: "Pokemon" },
+            { Name: "Eelektross", Time: "9d19h8m", Group: "Pokemon" },
         ]
     }
 );
