@@ -430,6 +430,8 @@ Season4.Runs.push(
             { Name: "Sandslash", Time: "9d3h3m", Group: "Pokemon" },
             { Name: "Primeape", Time: "9d3h5m", Group: "Pokemon" },
             { Name: "Mr. Mime", Time: "9d3h15m", Group: "Pokemon" },
+            { Name: "Jumpluff", Time: "9d4h56m", Group: "Pokemon" },
+            { Name: "Gigalith", Time: "9d5h2m", Group: "Pokemon" },
         ]
     }
 );
