@@ -455,6 +455,9 @@ Season4.Runs.push(
             { Name: "Ariados", Time: "9d18h37m", Group: "Pokemon" },
             { Name: "Pikachu", Time: "9d19h1m", Group: "Pokemon" },
             { Name: "Eelektross", Time: "9d19h8m", Group: "Pokemon" },
+            { Name: "Sudowoodo", Time: "9d19h46m", Group: "Pokemon" },
+            { Name: "Siglyph", Time: "9d20h", Group: "Pokemon" },
+            { Name: "Houndoom", Time: "9d20h5m", Group: "Pokemon" },
         ]
     }
 );
