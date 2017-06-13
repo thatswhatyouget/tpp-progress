@@ -423,6 +423,13 @@ Season4.Runs.push(
             { Name: "Dodrio", Time: "8d23h40m", Group: "Pokemon" },
             { Name: "Regice", Time: "9d1h18m", Group: "Pokemon" },
             { Name: "Whiscash", Time: "9d1h34m", Group: "Pokemon" },
+            { Name: "Ledian", Time: "9d1h56m", Group: "Pokemon" },
+            { Name: "Shuppet", Time: "9d2h9m", Group: "Pokemon" },
+            { Name: "Lombre", Time: "9d2h19m", Group: "Pokemon" },
+            { Name: "Omastar", Time: "9d2h44m", Group: "Pokemon" },
+            { Name: "Sandslash", Time: "9d3h3m", Group: "Pokemon" },
+            { Name: "Primeape", Time: "9d3h5m", Group: "Pokemon" },
+            { Name: "Mr. Mime", Time: "9d3h15m", Group: "Pokemon" },
         ]
     }
 );
