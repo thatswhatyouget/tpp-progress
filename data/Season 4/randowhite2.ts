@@ -432,6 +432,18 @@ Season4.Runs.push(
             { Name: "Mr. Mime", Time: "9d3h15m", Group: "Pokemon" },
             { Name: "Jumpluff", Time: "9d4h56m", Group: "Pokemon" },
             { Name: "Gigalith", Time: "9d5h2m", Group: "Pokemon" },
+            { Name: "Glalie", Time: "9d7h36m", Group: "Pokemon" },
+            { Name: "Kecleon", Time: "9d7h51m", Group: "Pokemon" },
+            { Name: "Marowak", Time: "9d8h10m", Group: "Pokemon" },
+            { Name: "Shieldon", Time: "9d8h12m", Group: "Pokemon" },
+            { Name: "Pidgey", Time: "9d8h16m", Group: "Pokemon" },
+            { Name: "Scraggy", Time: "9d8h20m", Group: "Pokemon" },
+            { Name: "Chimecho", Time: "9d8h28m", Group: "Pokemon" },
+            { Name: "Sunflora", Time: "9d10h43m", Group: "Pokemon" },
+            { Name: "Stantler", Time: "9d10h45m", Group: "Pokemon" },
+            { Name: "Arceus", Time: "9d12h7m", Group: "Pokemon" },
+            { Name: "Dunsparce", Time: "9d12h17m", Group: "Pokemon" },
+            { Name: "Quagsire", Time: "9d12h23m", Group: "Pokemon" },
         ]
     }
 );
