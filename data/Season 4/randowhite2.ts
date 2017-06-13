@@ -458,6 +458,17 @@ Season4.Runs.push(
             { Name: "Sudowoodo", Time: "9d19h46m", Group: "Pokemon" },
             { Name: "Sigilyph", Time: "9d20h", Group: "Pokemon" },
             { Name: "Houndoom", Time: "9d20h5m", Group: "Pokemon" },
+            { Name: "Audino", Time: "9d20h51m", Group: "Pokemon" },
+            { Name: "Tentacruel", Time: "9d20h56m", Group: "Pokemon" },
+            { Name: "Throh", Time: "9d21h1m", Group: "Pokemon" },
+            { Name: "Liepard", Time: "9d21h4m", Group: "Pokemon" },
+            { Name: "Steelix", Time: "9d21h15m", Group: "Pokemon" },
+            { Name: "Walrein", Time: "9d22h27m", Group: "Pokemon" },
+            { Name: "Blaziken", Time: "9d22h35m", Group: "Pokemon" },
+            { Name: "Wailord", Time: "9d22h45m", Group: "Pokemon" },
+            { Name: "Espeon", Time: "9d23h1m", Group: "Pokemon" },
+            { Name: "Glaceon", Time: "9d23h4m", Group: "Pokemon" },
+            { Name: "Hypno", Time: "9d23h44m", Group: "Pokemon" },
         ]
     }
 );
