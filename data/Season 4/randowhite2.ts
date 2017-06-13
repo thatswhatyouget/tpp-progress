@@ -447,6 +447,9 @@ Season4.Runs.push(
             { Name: "Leavanny", Time: "9d14h26m", Group: "Pokemon" },
             { Name: "Druddigon", Time: "9d15h3m", Group: "Pokemon" },
             { Name: "Regigigas", Time: "9d15h48m", Group: "Pokemon" },
+            { Name: "Smoochum", Time: "9d16h4m", Group: "Pokemon" },
+            { Name: "Maractus", Time: "9d16h8m", Group: "Pokemon" },
+            { Name: "Watchog", Time: "9d16h14m", Group: "Pokemon" },
         ]
     }
 );
