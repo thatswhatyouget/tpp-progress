@@ -444,6 +444,9 @@ Season4.Runs.push(
             { Name: "Arceus", Time: "9d12h7m", Group: "Pokemon" },
             { Name: "Dunsparce", Time: "9d12h17m", Group: "Pokemon" },
             { Name: "Quagsire", Time: "9d12h23m", Group: "Pokemon" },
+            { Name: "Leavanny", Time: "9d14h26m", Group: "Pokemon" },
+            { Name: "Druddigon", Time: "9d15h3m", Group: "Pokemon" },
+            { Name: "Regigigas", Time: "9d15h48m", Group: "Pokemon" },
         ]
     }
 );
