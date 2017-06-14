@@ -506,6 +506,7 @@ Season4.Runs.push(
             { Name: "Durant", Time: "10d19h50m", Group: "Pokemon" },
             { Name: "Tornadus", Time: "10d20h27m", Group: "Pokemon" },
             { Name: "Heatran", Time: "10d21h45m", Group: "Pokemon" },
+            { Name: "Noctowl", Time: "10d23h6m", Group: "Pokemon" },
         ]
     }
 );
