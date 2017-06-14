@@ -97,7 +97,7 @@ namespace TPP.Pokedex {
 
                 case 2:
                 case DexSorting[2]:
-                    this.Entries = this.Entries.sort((e1, e2) => (e1.FirstCaughtDate || Date.now()) - (e2.FirstCaughtDate || Date.now()));
+                    this.Entries = this.Entries.sort((e1, e2) => (e1.FirstCaughtDate || (Date.now() + e1.Number)) - (e2.FirstCaughtDate || (Date.now() + e2.Number)));
                     break;
             }
         }
