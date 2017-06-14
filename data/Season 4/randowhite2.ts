@@ -492,6 +492,20 @@ Season4.Runs.push(
             { Name: "Tentacool", Time: "10d9h54m", Group: "Pokemon" },
             { Name: "Yanmega", Time: "10d10h5m", Group: "Pokemon" },
             { Name: "Garbodor", Time: "10d10h31m", Group: "Pokemon" },
+            { Name: "Delcatty", Time: "10d11h13m", Group: "Pokemon" },
+            { Name: "Pawniard", Time: "10d11h46m", Group: "Pokemon" },
+            { Name: "Ferrothorn", Time: "10d11h54m", Group: "Pokemon" },
+            { Name: "Beautifly", Time: "10d12h28m", Group: "Pokemon" },
+            { Name: "Xatu", Time: "10d12h55m", Group: "Pokemon" },
+            { Name: "Swanna", Time: "10d13h5m", Group: "Pokemon" },
+            { Name: "Kricketune", Time: "10d13h9m", Group: "Pokemon" },
+            { Name: "Golbat", Time: "10d13h18m", Group: "Pokemon" },
+            { Name: "Swellow", Time: "10d14h54m", Group: "Pokemon" },
+            { Name: "Sewaddle", Time: "10d18h39m", Group: "Pokemon" },
+            { Name: "Roselia", Time: "10d19h19m", Group: "Pokemon" },
+            { Name: "Durant", Time: "10d19h50m", Group: "Pokemon" },
+            { Name: "Tornadus", Time: "10d20h27m", Group: "Pokemon" },
+            { Name: "Heatran", Time: "10d21h45m", Group: "Pokemon" },
         ]
     }
 );
