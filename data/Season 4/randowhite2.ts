@@ -507,6 +507,25 @@ Season4.Runs.push(
             { Name: "Tornadus", Time: "10d20h27m", Group: "Pokemon" },
             { Name: "Heatran", Time: "10d21h45m", Group: "Pokemon" },
             { Name: "Noctowl", Time: "10d23h6m", Group: "Pokemon" },
+            { Group: "Elite Four Rematch", Name: "Miramiee (Shauntal)", Image: "img/trainers/black/rematch/shauntal.png", Time: "11d1h15m", Attempts: 1 },
+            { Name: "Manaphy", Time: "11d1h15m", Group: "Pokemon" },
+            { Group: "Elite Four Rematch", Name: "Masterlightx (Marshal)", Image: "img/trainers/black/rematch/marshal.png", Time: "11d1h52m", Attempts: 1 },
+
+            { Group: "Elite Four Rematch", Name: "f1uffyshark (Caitlin)", Image: "img/trainers/black/rematch/caitlin.png", Time: "", Attempts: 1 },
+            { Group: "Elite Four Rematch", Name: "Dodecane (Grimsley)", Image: "img/trainers/black/rematch/grimsley.png", Time: "", Attempts: 2 },
+            { Group: "Champions", Name: "Battleslash (Iris)", Image: "img/trainers/black/rematch/iris.png", Time: "", Attempts: 0 },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "32230", Attempts: 4, Party: [
+                    { Pokemon: "Absol", Level: 86, Gender: "Female" },
+                    { Pokemon: "Kyogre", Nickname: "VigorothQY", Level: 73 },
+                    { Pokemon: "Cresselia", Nickname: "Dragonairy ", Level: 71 },
+                    { Pokemon: "Floatzel", Nickname: "   GD LREd", Level: 73, Gender: "Male" },
+                    { Pokemon: "Blastoise", Nickname: "0LLEELVvv", Level: 71, Gender: "Male" },
+                    { Pokemon: "Articuno", Nickname: "Articun", Level: 77 },
+                ],
+                FirstAttemptDate:"11d43m",
+                Image: "img/ribbons/champion.png"
+            },
         ]
     }
 );
