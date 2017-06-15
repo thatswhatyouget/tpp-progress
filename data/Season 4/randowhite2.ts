@@ -527,6 +527,7 @@ Season4.Runs.push(
             { Name: "Dusknoir", Time: "11d16h42m", Group: "Pokemon" },
             { Name: "Uxie", Time: "11d17h28m", Group: "Pokemon" },
             { Name: "Landorus", Time: "11d19h10m", Group: "Pokemon" },
+            { Name: "Dewgong", Time: "11d22h48m", Group: "Pokemon" },
 	
             { Group: "Elite Four Rematch", Name: "f1uffyshark (Caitlin)", Image: "img/trainers/black/rematch/caitlin.png", Time: "", Attempts: 1 },
             { Group: "Elite Four Rematch", Name: "Dodecane (Grimsley)", Image: "img/trainers/black/rematch/grimsley.png", Time: "", Attempts: 2 },
