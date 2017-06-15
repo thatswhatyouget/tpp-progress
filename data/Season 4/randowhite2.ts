@@ -522,7 +522,12 @@ Season4.Runs.push(
             { Name: "Rapidash", Time: "11d9h41m", Group: "Pokemon" },
             { Name: "Thundurus", Time: "11d9h41m", Group: "Pokemon" },
             { Name: "Excadrill", Time: "11d12h15m", Group: "Pokemon" },
-
+            { Name: "Altaria", Time: "11d14h48m", Group: "Pokemon" },
+            { Name: "Leafeon", Time: "11d16h34m", Group: "Pokemon" },
+            { Name: "Dusknoir", Time: "11d16h42m", Group: "Pokemon" },
+            { Name: "Uxie", Time: "11d17h28m", Group: "Pokemon" },
+            { Name: "Landorus", Time: "11d19h10m", Group: "Pokemon" },
+	
             { Group: "Elite Four Rematch", Name: "f1uffyshark (Caitlin)", Image: "img/trainers/black/rematch/caitlin.png", Time: "", Attempts: 1 },
             { Group: "Elite Four Rematch", Name: "Dodecane (Grimsley)", Image: "img/trainers/black/rematch/grimsley.png", Time: "", Attempts: 2 },
             { Group: "Champions", Name: "Battleslash (Iris)", Image: "img/trainers/black/rematch/iris.png", Time: "", Attempts: 0 },
