@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="120" width="50" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 120" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title>Parabolic Badge</dc:title>
+				<dc:date>2017-06-05</dc:date>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>Raymond Dodge</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<dc:identifier>tag:rayrobdod.name,2017-06-05:parabolicBadge</dc:identifier>
+				<dc:subject>
+					<rdf:Bag>
+						<rdf:li>Twitch Plays Pokémon</rdf:li>
+					</rdf:Bag>
+				</dc:subject>
+				<dc:description>An Electric-type badge not-at-all based on the Bolt Badge; based on the randomization in Twitch Plays Pokémon Randomized White 2</dc:description>
+			</cc:Work>
+		</rdf:RDF>
+	</metadata>
+	<defs>
+		<linearGradient id="inner-shine-lighter">
+			<stop stop-color="#c6ded9" offset="0"/>
+			<stop stop-color="#c6ded9" offset=".4"/>
+			<stop stop-color="#a0b4b4" offset=".65"/>
+			<stop stop-color="#a0b4b4" offset="1"/>
+		</linearGradient>
+		<linearGradient id="gold-shine">
+			<stop stop-color="#e8b844" offset="0"/>
+			<stop stop-color="#e8b844" offset="0.33"/>
+			<stop stop-color="#f3ee9d" offset=".38"/>
+			<stop stop-color="#e8b844" offset="0.46"/>
+			<stop stop-color="#e8b844" offset="0.8"/>
+			<stop stop-color="#f3ee9d" offset="1"/>
+		</linearGradient>
+		<radialGradient id="radialGradient4480" gradientUnits="userSpaceOnUse" cy="54.794" cx="38.889" gradientTransform="matrix(-2.3156e-7 2.8968 -1.1396 -9.1092e-8 77.33 -85.424)" r="24">
+			<stop stop-color="#e8efa1" offset="0"/>
+			<stop stop-color="#e8efa1" offset=".4"/>
+			<stop stop-color="#e3dc5d" offset=".65"/>
+			<stop stop-color="#e3dc5d" offset="1"/>
+		</radialGradient>
+		<radialGradient id="radialGradient4524" xlink:href="#inner-shine-lighter" gradientUnits="userSpaceOnUse" cy="77.585" cx="44.151" gradientTransform="matrix(.028394 .72823 -.45417 .017708 45.126 62.628)" r="23.655"/>
+		<radialGradient id="radialGradient4535" xlink:href="#inner-shine-lighter" gradientUnits="userSpaceOnUse" cy="54.368" cx="37.086" gradientTransform="matrix(0 1 -.88368 0 83.562 16.869)" r="12.414"/>
+		<linearGradient id="linearGradient4604" y2="120" xlink:href="#gold-shine" gradientUnits="userSpaceOnUse" x2="10" x1="35"/>
+	</defs>
+	<title>Parabolic Badge</title>
+	<g>
+		<path d="m38 0.046875-3.186 2.3418s-31.814 23.164-31.814 57.611c0 8.975 2.1691 17.175 5.3633 24.408l-2.5195 33.592h16.598l0.45508-1.3672 2.502-7.5078c5.2747 5.4459 9.416 8.4863 9.416 8.4863l3.185 2.34v-3.95-44.172l11.828-11.828-11.828-11.828zm0 53.781 6.172 6.172-6.172 6.172zm-26.143 37.49c3.2358 5.6457 6.949 10.494 10.443 14.455l-2.741 8.23h-9.403z" fill="#59530b"/>
+		<g stroke="url(#linearGradient4604)" stroke-width="4px">
+			<path d="m35 49v22l11-11-11-11z" fill="url(#radialGradient4535)"/>
+			<path d="m20 116h-13l3-40 15 25z" fill="url(#radialGradient4524)"/>
+			<path d="m35 116s-31-22.798-31-56 31-56 31-56z" fill="url(#radialGradient4480)"/>
+		</g>
+		<path fill-opacity=".33" fill="#1a1828" d="m37 53.828v12.344l5-5v-2.3438l-5-5zm-4-45.514c-7.041 5.9895-27 25.124-27 51.686 0 23.817 16.022 41.63 24.414 49.38-8.53-9.21-19.414-24.758-19.414-44.38 0-21.672 13.284-38.393 22-47.07v-9.6155zm-22.137 82.922-1.7068 22.764h5.375l1.1523-15.369c-1.663-2.274-3.294-4.729-4.821-7.395z"/>
+	</g>
+</svg>
