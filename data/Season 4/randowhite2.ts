@@ -543,6 +543,8 @@ Season4.Runs.push(
             { Name: "Delibird", Time: "2017-06-16T10:37:00Z", Group: "Pokemon" },
             { Name: "Venusaur", Time: "12d16h51m", Group: "Pokemon" },
             { Name: "Beartic", Time: "12d17h38m", Group: "Pokemon" },
+            { Name: "Chandelure", Time: "12d20h14m", Group: "Pokemon" },
+            { Name: "Victini", Time: "12d20h22m", Group: "Pokemon" },
 	
             { Group: "Elite Four Rematch", Name: "f1uffyshark (Caitlin)", Image: "img/trainers/black/rematch/caitlin.png", Time: "", Attempts: 1 },
             { Group: "Elite Four Rematch", Name: "Dodecane (Grimsley)", Image: "img/trainers/black/rematch/grimsley.png", Time: "", Attempts: 2 },
