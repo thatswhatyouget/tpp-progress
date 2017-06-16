@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="120" width="50" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 120" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+				<dc:title>Syllabus Badge</dc:title>
+				<dc:date>2017-06-06</dc:date>
+				<dc:creator>
+					<cc:Agent>
+						<dc:title>Raymond Dodge</dc:title>
+					</cc:Agent>
+				</dc:creator>
+				<dc:identifier>tag:rayrobdod.name,2017-06-05:syllabusbadge</dc:identifier>
+				<dc:subject>
+					<rdf:Bag>
+						<rdf:li>Twitch Plays Pokémon</rdf:li>
+					</rdf:Bag>
+				</dc:subject>
+				<dc:description>A Normal-type badge based on the Basic Badge; based on the randomization in Twitch Plays Pokémon Randomized White 2</dc:description>
+			</cc:Work>
+		</rdf:RDF>
+	</metadata>
+	<defs>
+		<linearGradient id="gold-shine">
+			<stop stop-color="#e8b844" offset="0"/>
+			<stop stop-color="#e8b844" offset="0.36"/>
+			<stop stop-color="#f3ee9d" offset=".41"/>
+			<stop stop-color="#e8b844" offset=".49"/>
+			<stop stop-color="#e8b844" offset=".70835"/>
+			<stop stop-color="#f3ee9d" offset="1"/>
+		</linearGradient>
+		<radialGradient id="radialGradient4175" gradientUnits="userSpaceOnUse" cy="16.784" cx="16.346" gradientTransform="matrix(0 4.1189 -2.1514 0 53.371 -49.724)" r="24">
+			<stop stop-color="#cda74b" offset="0"/>
+			<stop stop-color="#cda74b" offset=".4"/>
+			<stop stop-color="#a97e33" offset=".65"/>
+			<stop stop-color="#a97e33" offset="1"/>
+		</radialGradient>
+		<linearGradient id="linearGradient4215" y2="120" xlink:href="#gold-shine" gradientUnits="userSpaceOnUse" x2="10" x1="35"/>
+	</defs>
+	<title>Syllabus Badge</title>
+	<g>
+		<path d="m9 2v2 114h34v-116z" fill="#59530b"/>
+		<g stroke="url(#linearGradient4215)" stroke-width="4px">
+			<rect height="112" width="30" y="4" x="10" fill="url(#radialGradient4175)"/>
+			<g fill="none">
+				<line y2="18" x2="40" y1="18" x1="10"/>
+				<line y2="98" x2="40" y1="98" x1="10"/>
+				<line y2="60" x2="40" y1="60" x1="10"/>
+				<circle cy="60" cx="25" r="15"/>
+			</g>
+		</g>
+		<path fill-opacity=".33" fill="#1a1828" d="m12 100v14h5v-9h21v-5h-26zm0-29.072v25.072h5v-20.072c3.122 3.707 7.792 6.072 13 6.072 2.8949 0 5.6113-0.75151 8-2.0371v-9.0352c-3.122 3.707-7.792 6.072-13 6.072s-9.878-2.365-13-6.072zm0.168-8.928c0.61863 4.0315 3.0744 7.4325 6.4883 9.3438-0.735-1.322-1.249-2.786-1.488-4.344h18.773c0.949-1.488 1.611-3.178 1.891-5h-25.664zm12.832-15c-6.5213 0-11.874 4.7556-12.832 11h6.8906c2.3-3.609 6.323-6 10.941-6 2.3111 0 4.4698 0.60711 6.3438 1.6562-2.214-3.977-6.449-6.656-11.344-6.656zm-13-27v29.072c1.3869-1.6467 3.091-3.0077 5-4.0352v-20.037h21v-5h-26zm0-14v10h5v-5h21v-5h-26z"/>
+	</g>
+</svg>
