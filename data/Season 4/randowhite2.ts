@@ -409,7 +409,7 @@ Season4.Runs.push(
                     { Pokemon: "Blastoise", Nickname: "0LLEELVvv", Level: 71, Gender: "Male" },
                     { Pokemon: "Articuno", Nickname: "Articun", Level: 77 },
                 ],
-                FirstAttemptDate:"8d4h19m",
+                FirstAttemptDate: "8d4h19m",
                 Image: "img/ribbons/champion.png"
             },
             { Name: "Ursaring", Time: "8d17h17m", Group: "Pokemon" },
@@ -545,20 +545,21 @@ Season4.Runs.push(
             { Name: "Beartic", Time: "12d17h38m", Group: "Pokemon" },
             { Name: "Chandelure", Time: "12d20h14m", Group: "Pokemon" },
             { Name: "Victini", Time: "12d20h22m", Group: "Pokemon" },
-	
-            { Group: "Elite Four Rematch", Name: "f1uffyshark (Caitlin)", Image: "img/trainers/black/rematch/caitlin.png", Time: "", Attempts: 1 },
-            { Group: "Elite Four Rematch", Name: "Dodecane (Grimsley)", Image: "img/trainers/black/rematch/grimsley.png", Time: "", Attempts: 2 },
-            { Group: "Champions", Name: "Battleslash (Iris)", Image: "img/trainers/black/rematch/iris.png", Time: "", Attempts: 0 },
+            { Name: "Silcoon", Time: "13d3h55m", Group: "Pokemon" },
+            { Group: "Elite Four Rematch", Name: "Dodecane (Grimsley)", Image: "img/trainers/black/rematch/grimsley.png", Time: "13d6h12m", Attempts: 3 },
+            { Group: "Elite Four Rematch", Name: "f1uffyshark (Caitlin)", Image: "img/trainers/black/rematch/caitlin.png", Time: "13d6h19m", Attempts: 2 },
+
+            { Group: "Champions", Name: "Battleslash (Iris)", Image: "img/trainers/black/rematch/iris.png", Time: "13d14h", Attempts: 4 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "32230", Attempts: 4, Party: [
-                    { Pokemon: "Absol", Level: 86, Gender: "Female" },
-                    { Pokemon: "Kyogre", Nickname: "VigorothQY", Level: 73 },
-                    { Pokemon: "Cresselia", Nickname: "Dragonairy ", Level: 71 },
-                    { Pokemon: "Floatzel", Nickname: "   GD LREd", Level: 73, Gender: "Male" },
-                    { Pokemon: "Blastoise", Nickname: "0LLEELVvv", Level: 71, Gender: "Male" },
-                    { Pokemon: "Articuno", Nickname: "Articun", Level: 77 },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d14h1m", IDNo: "32230", Attempts: 11, Party: [
+                    { Pokemon: "Absol", Level: 100, Gender: "Female" },
+                    { Pokemon: "Kyogre", Nickname: "VigorothQY", Level: 100 },
+                    { Pokemon: "Cresselia", Nickname: "Dragonairy ", Level: 94 },
+                    { Pokemon: "Blastoise", Nickname: "0LLEELVvv", Level: 92, Gender: "Male" },
+                    { Pokemon: "Articuno", Nickname: "Articun", Level: 89 },
+                    { Pokemon: "Floatzel", Nickname: "   GD LREd", Level: 94, Gender: "Male" },
                 ],
-                FirstAttemptDate:"11d43m",
+                FirstAttemptDate: "11d43m",
                 Image: "img/ribbons/champion.png"
             },
         ]
