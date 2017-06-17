@@ -565,6 +565,9 @@ Season4.Runs.push(
             { Name: "Meloetta", Time: "13d15h40m", Group: "Pokemon" },
             { Name: "Mesprit", Time: "13d16h14m", Group: "Pokemon" },
             { Name: "Skorupi", Time: "13d16h37m", Group: "Pokemon" },
+            { Name: "Exeggcute", Time: "13d17h21m", Group: "Pokemon" },
+            { Name: "Magikarp", Time: "13d19h2m", Group: "Pokemon" },
+            { Name: "Registeel", Time: "13d20h2m", Group: "Pokemon" },
         ]
     }
 );
