@@ -548,7 +548,6 @@ Season4.Runs.push(
             { Name: "Silcoon", Time: "13d3h55m", Group: "Pokemon" },
             { Group: "Elite Four Rematch", Name: "Dodecane (Grimsley)", Image: "img/trainers/black/rematch/grimsley.png", Time: "13d6h12m", Attempts: 3 },
             { Group: "Elite Four Rematch", Name: "f1uffyshark (Caitlin)", Image: "img/trainers/black/rematch/caitlin.png", Time: "13d6h19m", Attempts: 2 },
-
             { Group: "Champions", Name: "Battleslash (Iris)", Image: "img/trainers/black/rematch/iris.png", Time: "13d14h", Attempts: 4 },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d14h1m", IDNo: "32230", Attempts: 11, Party: [
@@ -562,6 +561,10 @@ Season4.Runs.push(
                 FirstAttemptDate: "11d43m",
                 Image: "img/ribbons/champion.png"
             },
+            { Name: "Drifblim", Time: "13d14h33m", Group: "Pokemon" },
+            { Name: "Meloetta", Time: "13d15h40m", Group: "Pokemon" },
+            { Name: "Mesprit", Time: "13d16h14m", Group: "Pokemon" },
+            { Name: "Skorupi", Time: "13d16h37m", Group: "Pokemon" },
         ]
     }
 );
