@@ -568,6 +568,10 @@ Season4.Runs.push(
             { Name: "Exeggcute", Time: "13d17h21m", Group: "Pokemon" },
             { Name: "Magikarp", Time: "13d19h2m", Group: "Pokemon" },
             { Name: "Registeel", Time: "13d20h2m", Group: "Pokemon" },
+            { Name: "Cradily", Time: "2017-06-17T21:54:00Z", Group: "Pokemon" },
+            { Name: "Palpitoad", Time: "2017-06-17T22:37:00Z", Group: "Pokemon" },
+            { Name: "Mamoswine", Time: "2017-06-18T00:21:00Z", Group: "Pokemon" },
+            { Name: "Exeggutor", Time: "2017-06-18T00:39:00Z", Group: "Pokemon" },
         ]
     }
 );
