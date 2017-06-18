@@ -573,6 +573,14 @@ Season4.Runs.push(
             { Name: "Mamoswine", Time: "2017-06-18T00:21:00Z", Group: "Pokemon" },
             { Name: "Exeggutor", Time: "2017-06-18T00:39:00Z", Group: "Pokemon" },
             { Name: "Entei", Time: "14d7h5m", Group: "Pokemon" },
+            { Name: "Weavile", Time: "14d8h39m", Group: "Pokemon" },
+            { Name: "Zangoose", Time: "14d11h18m", Group: "Pokemon" },
+            { Name: "Tropius", Time: "14d11h41m", Group: "Pokemon" },
+            { Name: "Donphan", Time: "14d12h19m", Group: "Pokemon" },
+            { Name: "Scolipede", Time: "14d15h19m", Group: "Pokemon" },
+            { Name: "Spearow", Time: "14d16h31m", Group: "Pokemon" },
+            { Name: "Weezing", Time: "14d16h53m", Group: "Pokemon" },
+            { Name: "Deerling", Time: "14d16h58m", Group: "Pokemon" },
         ]
     }
 );
