@@ -572,6 +572,7 @@ Season4.Runs.push(
             { Name: "Palpitoad", Time: "2017-06-17T22:37:00Z", Group: "Pokemon" },
             { Name: "Mamoswine", Time: "2017-06-18T00:21:00Z", Group: "Pokemon" },
             { Name: "Exeggutor", Time: "2017-06-18T00:39:00Z", Group: "Pokemon" },
+            { Name: "Entei", Time: "14d7h5m", Group: "Pokemon" },
         ]
     }
 );
