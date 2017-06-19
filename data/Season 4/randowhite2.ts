@@ -586,6 +586,10 @@ Season4.Runs.push(
             { Name: "Gloom", Time: "15d8m", Group: "Pokemon" },
             { Name: "Wobbuffet", Time: "15d3h9m", Group: "Pokemon" },
             { Name: "Lillipup", Time: "15d6h41m", Group: "Pokemon" },
+            { Name: "Armaldo", Time: "15d7h16m", Group: "Pokemon" },
+            { Name: "Weedle", Time: "15d7h26m", Group: "Pokemon" },
+            { Name: "Wurmple", Time: "15d7h50m", Group: "Pokemon" },
+            { Name: "Sunkern", Time: "15d11h32m", Group: "Pokemon" },
         ]
     }
 );
