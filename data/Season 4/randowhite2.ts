@@ -583,6 +583,8 @@ Season4.Runs.push(
             { Name: "Deerling", Time: "14d16h58m", Group: "Pokemon" },
             { Name: "Mankey", Time: "14d19h42m", Group: "Pokemon" },
             { Name: "Milotic", Time: "15d5m", Group: "Pokemon" },
+            { Name: "Gloom", Time: "15d8m", Group: "Pokemon" },
+            { Name: "Wobbuffet", Time: "15d3h9m", Group: "Pokemon" },
         ]
     }
 );
