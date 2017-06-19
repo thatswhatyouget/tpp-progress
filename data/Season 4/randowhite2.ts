@@ -590,6 +590,7 @@ Season4.Runs.push(
             { Name: "Weedle", Time: "15d7h26m", Group: "Pokemon" },
             { Name: "Wurmple", Time: "15d7h50m", Group: "Pokemon" },
             { Name: "Sunkern", Time: "15d11h32m", Group: "Pokemon" },
+            { Name: "Fearow", Time: "15d20h1m", Group: "Pokemon" },
         ]
     }
 );
