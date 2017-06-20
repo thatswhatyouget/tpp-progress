@@ -591,6 +591,16 @@ Season4.Runs.push(
             { Name: "Wurmple", Time: "15d7h50m", Group: "Pokemon" },
             { Name: "Sunkern", Time: "15d11h32m", Group: "Pokemon" },
             { Name: "Fearow", Time: "15d20h1m", Group: "Pokemon" },
+            { Name: "Lucario", Time: "16d5h57m", Group: "Pokemon" },
+            { Name: "Cacturne", Time: "16d6h", Group: "Pokemon" },
+            { Name: "Magnezone", Time: "16d6h38m", Group: "Pokemon" },
+            { Name: "Jellicent", Time: "16d6h38m", Group: "Pokemon" },
+            // <TPP.HallOfFame>{
+            //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "32230", Attempts: 1, Party: [
+            //     ],
+            //     FirstAttemptDate: "16d6h28m",
+            //     Image: "img/ribbons/champion.png"
+            // },
         ]
     }
 );
