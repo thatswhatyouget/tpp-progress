@@ -595,8 +595,13 @@ Season4.Runs.push(
             { Name: "Cacturne", Time: "16d6h", Group: "Pokemon" },
             { Name: "Magnezone", Time: "16d6h38m", Group: "Pokemon" },
             { Name: "Jellicent", Time: "16d6h38m", Group: "Pokemon" },
+            { Name: "Bayleef", Time: "16d7h41m", Group: "Pokemon" },
+            { Name: "Sceptile", Time: "16d8h1m", Group: "Pokemon" },
+            { Name: "Loudred", Time: "16d8h33m", Group: "Pokemon" },
+            { Name: "Samurott", Time: "16d8h41m", Group: "Pokemon" },
+            { Name: "Latias", Time: "16d11h15m", Group: "Pokemon" },
             // <TPP.HallOfFame>{
-            //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "32230", Attempts: 1, Party: [
+            //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "32230", Attempts: 3, Party: [
             //     ],
             //     FirstAttemptDate: "16d6h28m",
             //     Image: "img/ribbons/champion.png"
