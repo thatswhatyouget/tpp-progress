@@ -4,7 +4,7 @@ Season4.Runs.push(
         RunName: "Randomized White 2",
         ColorPrimary: "white",
         ColorSecondary: "black",
-        Duration: "255d",
+        Duration: "16d18h11m",
         StartDate: "2017-06-03T21:00:00Z",
         HostName: "AAAALK'",
         HostImage: "img/hosts/aaaalk.gif",
