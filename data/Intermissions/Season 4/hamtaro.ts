@@ -20,7 +20,7 @@ Intermissions.Runs.push(
     {
         RunName: "Hamtaro: Ham-Ham Heartbreak Part 2",
         StartDate: "2017-06-20T15:28:00Z",
-        Duration: "2017-07-08T20:00:00Z",
+        Duration: "2017-06-21T19:42:00Z",
         ColorPrimary: "#e59910",
         ColorSecondary: "#43AB1E",
         HostImage: "img/hosts/other/hamtaro.gif",
