@@ -7,7 +7,7 @@ Season4.Runs.push(
         Duration: "16d18h11m",
         StartDate: "2017-06-03T21:00:00Z",
         HostName: "AAAALK'",
-        HostImage: "img/hosts/aaaalk.gif",
+        HostImage: "img/hosts/aaaalk.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/6f6mw8/dr_alek_our_serious_and_diligent_protagonist/",
         Region: "Unova",
         Generation: 5,
