@@ -28,6 +28,7 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "2017-06-24T01:20:58+00:00", Attempts: 1 },
             { Name: "Magikarp", Time: "2017-06-25T13:22:20Z", Group: "Pokemon" },
             { Name: "Raticate", Time: "2017-06-27T23:05:21Z", Group: "Pokemon" },
+            { Name: "Haunter", Time: "2017-07-14T08:19:56+00:00", Group: "Pokemon" },
             { Name: "Pidgeot", Time: "", Group: "Pokemon" },
             { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
