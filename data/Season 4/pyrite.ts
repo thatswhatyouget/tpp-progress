@@ -13,7 +13,7 @@ Season4.Runs.push(
         Region: "Johto",
         //AdditionalRegions: [{ Name: "Kanto", Time: "" }],
         Generation: 2,
-        Pokedex: "New",
+        // Pokedex: "New",
         Events: [
             { Name: "Totodile", Time: "", Group: "Pokemon" },
 
