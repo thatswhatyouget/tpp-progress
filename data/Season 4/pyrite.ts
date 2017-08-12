@@ -16,6 +16,7 @@ Season4.Runs.push(
         Pokedex: "New",
         Events: [
             { Name: "Totodile", Time: "6m", Group: "Pokemon" },
+            { Name: "Sentret", Time: "2h5m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "", Attempts: 0 },
