@@ -313,7 +313,7 @@ Season1.Runs.push(
             { Name: "Teddiursa", Time: "13d 19h 19m", Group: "Pokemon" },
             { Name: "Swinub", Time: "12d 12h 55m", Group: "Pokemon" },
             { Name: "Smeargle", Time: "8d 3h 1m", Group: "Pokemon" },
-            { Name: "Egg", Time: "0d 14h 49m", Group: "Pokemon" },
+            // { Name: "Egg", Time: "0d 14h 49m", Group: "Pokemon" },
             { Name: "Smoochum", Time: "0d 18h 51m", Group: "Pokemon" },
             { Name: "Larvitar", Time: "3d 11h 35m", Group: "Pokemon" },
             { Name: "Mudkip", Time: "8d 3h 23m", Group: "Pokemon" },

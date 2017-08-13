@@ -137,7 +137,7 @@ Season1.Runs.push(
             { Name: "Flareon", Time: "4d 1h 52m", Group: "Pokemon" },
             { Name: "Hoothoot", Time: "6d 6h 12m ", Group: "Pokemon" },
             { Name: "Noctowl", Time: "6d 3h 31m", Group: "Pokemon" },
-            { Name: "Egg", Time: "3d 5h 17m", Group: "Pokemon" },
+            // { Name: "Egg", Time: "3d 5h 17m", Group: "Pokemon" },
             { Name: "Togepi", Time: "3d 8h 11m ", Group: "Pokemon" },
             { Name: "Marill", Time: "15d 5h 6m", Group: "Pokemon" },
             { Name: "Yanma", Time: "6d 5h 26m", Group: "Pokemon" },

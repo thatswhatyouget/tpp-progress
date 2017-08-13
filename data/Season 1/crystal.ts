@@ -193,7 +193,7 @@ Season1.Runs.push(
             { Name: "Graveler", Time: "7d20h15m", Group: "Pokemon" },
             { Name: "Zubat", Time: "2d3h54m", Group: "Pokemon" },
             { Name: "Golbat", Time: "8d13h45m", Group: "Pokemon" },
-            { Name: "Egg", Time: "0d8h18m", Group: "Pokemon" },
+            // { Name: "Egg", Time: "0d8h18m", Group: "Pokemon" },
             { Name: "Togepi", Time: "0d12h10m", Group: "Pokemon" },
             { Name: "Wooper", Time: "0d14h6m", Group: "Pokemon" },
             { Name: "Onix", Time: "8d3h14m", Group: "Pokemon" },

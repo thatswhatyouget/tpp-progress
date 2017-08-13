@@ -387,7 +387,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Vaporeon", "Time": "4d 1h 42m" },
             { "Group": "Pokemon", "Name": "Squirtle", "Time": "3d 13h 22m" },
             { "Group": "Pokemon", "Name": "Ampharos", "Time": "3d 10h 29m" },
-            { "Group": "Pokemon", "Name": "Egg", "Time": "1d 15h 6m" },
+            // { "Group": "Pokemon", "Name": "Egg", "Time": "1d 15h 6m" },
             { "Group": "Pokemon", "Name": "Miltank", "Time": "3d 6h 29m" },
             { "Group": "Pokemon", "Name": "Umbreon", "Time": "3d 6h 11m" },
             { "Group": "Pokemon", "Name": "Pichu", "Time": "3d 0h 39m" },

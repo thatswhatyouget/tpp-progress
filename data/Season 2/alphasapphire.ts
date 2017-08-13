@@ -265,7 +265,7 @@ Season2.Runs.push(
             { "Name": "Barbaracle", "Time": "3d 4h 9m", "Group": "Pokemon" },
             { "Name": "Ferroseed", "Time": "3d 5h 21m", "Group": "Pokemon" },
             { "Name": "Snubbull", "Time": "3d 5h 21m", "Group": "Pokemon" },
-            { "Name": "Egg", "Time": "3d 9h 14m", "Group": "Pokemon" },
+            // { "Name": "Egg", "Time": "3d 9h 14m", "Group": "Pokemon" },
             { "Name": "Jolteon", "Time": "3d 10h 12m", "Group": "Pokemon" },
             { "Name": "Munchlax", "Time": "3d 10h 18m", "Group": "Pokemon" },
             { "Name": "Grovyle", "Time": "3d 10h 54m", "Group": "Pokemon" },
