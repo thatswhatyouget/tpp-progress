@@ -6,7 +6,7 @@ namespace TPP.Display.Elements.RunStatus {
                 return null;
             return <div>
                 <h2>{pokeRedCondenseText("BILL's PC")}</h2>
-                {this.props.pc.boxes.map(b => <PokeBox title={`#${b.box_number}: ${b.box_name} (${b.box_contents.length})`} key={b.box_number} className="pokemon-hud pc-box">
+                {this.props.pc.boxes.filter(b => !!b && !!b.box_number).map(b => <PokeBox title={`#${b.box_number}: ${b.box_name} (${b.box_contents.length})`} key={b.box_number} className="pokemon-hud pc-box">
 
                     <ul className="party">
                         {b.box_contents.length > 0 ?
