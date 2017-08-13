@@ -194,6 +194,7 @@ namespace TPP.Display.Elements.RunStatus {
         }
 
         render() {
+            this.state.status.items = this.state.status.items || {};
             if (this.state.error)
                 var innards = <h1 className='error'>Run Status is not currently available.</h1>;
             else if (this.loading)
@@ -216,14 +217,14 @@ namespace TPP.Display.Elements.RunStatus {
                     <EventDisplay key="Badges" events={this.badges}>
                         {this.badgesOutOfDate ? <h6>Outdated</h6> : null}
                     </EventDisplay>
-                    <ItemDisplay key="Items" title="Items" items={this.state.status.items} />
-                    <ItemDisplay key="Key Items" title="Key Items" items={this.state.status.items_key} />
-                    <ItemDisplay key="Poké Balls" title="Poké Balls" items={this.state.status.items_ball} />
-                    <ItemDisplay key="TMs" title="TMs and HMs" items={this.state.status.items_tm} />
-                    <ItemDisplay key="Medicine" title="Medicine" items={this.state.status.items_medicine} />
-                    <ItemDisplay key="Berries" title="Berries" items={this.state.status.items_berry} />
-                    <ItemDisplay key="Free Space" title="Free Space" items={this.state.status.items_free_space} />
-                    <ItemDisplay key="PC Items" title={pokeRedCondenseText(`${this.state.run.HostName}'s PC`)} items={this.state.status.pc_items} />
+                    <ItemDisplay key="Items" title="Items" items={this.state.status.items.items} />
+                    <ItemDisplay key="Key Items" title="Key Items" items={this.state.status.items.key} />
+                    <ItemDisplay key="Poké Balls" title="Poké Balls" items={this.state.status.items.balls} />
+                    <ItemDisplay key="TMs" title="TMs and HMs" items={this.state.status.items.tms} />
+                    <ItemDisplay key="Medicine" title="Medicine" items={this.state.status.items.medicine} />
+                    <ItemDisplay key="Berries" title="Berries" items={this.state.status.items.berries} />
+                    <ItemDisplay key="Free Space" title="Free Space" items={this.state.status.items.free_space} />
+                    <ItemDisplay key="PC Items" title={pokeRedCondenseText(`${this.state.run.HostName}'s PC`)} items={this.state.status.items.pc} />
                     {this.Pokedex}
                     {this.state.status ? <PC pc={this.state.status.pc} /> : null}
                 </div>;

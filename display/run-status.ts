@@ -97,9 +97,9 @@ module TPP.Display.RunStatus {
         if (extractBadges(run).length > 0)
             $container.append(DrawBadges(run));
         if (status.items)
-            $container.append(DrawItems(status.items, undefined, TMs[run.BaseGame], keyItems[run.BaseGame]));
-        if (status.pc_items)
-            $container.append(DrawItems(status.pc_items, run.HostName + "'s PC", TMs[run.BaseGame], keyItems[run.BaseGame]));
+            $container.append(DrawItems(status.items.items, undefined, TMs[run.BaseGame], keyItems[run.BaseGame]));
+        if (status.items.pc)
+            $container.append(DrawItems(status.items.pc, run.HostName + "'s PC", TMs[run.BaseGame], keyItems[run.BaseGame]));
         if (dex && dex.TotalOwnedBy(run) > 0) {
             var entries = dex.Entries.filter(e => e.Owners.filter(o => o.Run == run).length > 0);
             dex.Entries = dex.Entries.map(e => {
