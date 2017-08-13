@@ -20,6 +20,7 @@ Season4.Runs.push(
             { Name: "Geodude", Time: "2h47m", Group: "Pokemon" },
             { Name: "Weedle", Time: "3h39m", Group: "Pokemon" },
             { Name: "Pidgey", Time: "4h9m", Group: "Pokemon" },
+            { Name: "Gastly", Time: "6h13m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "", Attempts: 0 },
