@@ -21,8 +21,9 @@ Season4.Runs.push(
             { Name: "Weedle", Time: "3h39m", Group: "Pokemon" },
             { Name: "Pidgey", Time: "4h9m", Group: "Pokemon" },
             { Name: "Gastly", Time: "6h13m", Group: "Pokemon" },
-
-            { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "", Attempts: 0 },
+            { Name: "Poliwag", Time: "13h9m", Group: "Pokemon" },
+            { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "14h52m", Attempts: 7 },
+            
             { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
