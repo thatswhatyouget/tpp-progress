@@ -30,6 +30,9 @@ Season4.Runs.push(
             { Name: "Croconaw", Time: "19h41m", Group: "Pokemon" },
             { Name: "Sandshrew", Time: "20h7m", Group: "Pokemon" },
             { Name: "Togepi", Time: "21h43m", Group: "Pokemon" },
+            { Name: "Ledyba", Time: "1d22m", Group: "Pokemon" },
+            { Name: "Caterpie", Time: "1d28m", Group: "Pokemon" },
+            { Name: "Spinarak", Time: "1d13h4m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "", Attempts: 0 },
