@@ -34,6 +34,7 @@ Season4.Runs.push(
             { Name: "Caterpie", Time: "1d28m", Group: "Pokemon" },
             { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "1d12h17m", Attempts: 10 },
             { Name: "Spinarak", Time: "1d13h4m", Group: "Pokemon" },
+            { Name: "Pidgeotto", Time: "1d16h38m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
