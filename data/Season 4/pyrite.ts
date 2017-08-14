@@ -37,6 +37,8 @@ Season4.Runs.push(
             { Name: "Pidgeotto", Time: "1d16h38m", Group: "Pokemon" },
             { Name: "Furret", Time: "1d19h48m", Group: "Pokemon" },
             { Name: "Marill", Time: "1d21h42m", Group: "Pokemon" },
+            { Name: "Exeggcute", Time: "2d16m", Group: "Pokemon" },
+            { Name: "Snubbull", Time: "2d56m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
