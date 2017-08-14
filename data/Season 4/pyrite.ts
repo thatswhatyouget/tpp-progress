@@ -36,6 +36,7 @@ Season4.Runs.push(
             { Name: "Spinarak", Time: "1d13h4m", Group: "Pokemon" },
             { Name: "Pidgeotto", Time: "1d16h38m", Group: "Pokemon" },
             { Name: "Furret", Time: "1d19h48m", Group: "Pokemon" },
+            { Name: "Marill", Time: "1d21h42m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
