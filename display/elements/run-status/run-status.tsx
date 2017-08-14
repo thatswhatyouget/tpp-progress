@@ -3,7 +3,7 @@
 /// <reference path="../partydisplay.tsx" />
 /// <reference path="current-party.tsx" />
 /// <reference path="pc-display.tsx" />
-
+/// <reference path="current-location.tsx" />
 
 namespace TPP.Display.Elements.RunStatus {
     interface RunStatusProps {
@@ -86,7 +86,7 @@ namespace TPP.Display.Elements.RunStatus {
                     this.UpdateScreenshot();
                 }, this.props.autoUpdate * 60000);
             }
-            this.UpdateRunStatus();    
+            this.UpdateRunStatus();
             if (this.props.run.SidegameId && !this.props.run.LastScreenshot)
                 this.UpdateScreenshot();
         }
@@ -117,7 +117,7 @@ namespace TPP.Display.Elements.RunStatus {
             //fold in run's caught list
             (this.state.status.caught_list || []).forEach(c => dex.Entries.forEach(e => {
                 if (e.Number == c && e.Owners.filter(o => o.Run == this.props.run).length == 0)
-                    e.Owners.push({ Run: this.props.run, CaughtOn: Date.now() / 1000 });    
+                    e.Owners.push({ Run: this.props.run, CaughtOn: Date.now() / 1000 });
             }));
             dex.FilterOwnedInDexToRuns([this.props.run]);
             if (!dex.TotalOwned)
@@ -168,7 +168,7 @@ namespace TPP.Display.Elements.RunStatus {
         private get partyDisplay() {
             if (this.state.status && this.state.status.party)
                 return <CurrentParty party={this.state.status.party} trainer={this.state.status} run={this.state.run} />
-                //var display = new ViewModels.PartyDisplay(this.state.status, this.state.run, Scale.Days);
+            //var display = new ViewModels.PartyDisplay(this.state.status, this.state.run, Scale.Days);
             else {
                 var hof = this.state.run.Events.filter(e => (e as HallOfFame).Party).pop() as HallOfFame;
                 if (!hof)
@@ -209,7 +209,7 @@ namespace TPP.Display.Elements.RunStatus {
                     </PokeBox> : null}
                     {this.partyDisplay}
                     <PokeBox title="Duration"><h3>{Duration.parse(this.state.run.Ongoing ? new Date().toISOString() : this.state.run.Duration, this.state.run.StartTime).toString()}</h3></PokeBox>
-                    {this.state.status.area_name ? <PokeBox title="Current Location"><h3>{this.state.status.area_name}</h3></PokeBox> : null}
+                    <CurrentLocation mapName={this.state.status.map_name} areaName={this.state.status.area_name} />
                     <EventDisplay key="Past Hosts" events={this.pastHosts} />
                     <EventDisplay key="Elite Four Rematch" events={this.eliteFourRematch} />
                     <EventDisplay key="Rematch Badges" events={this.rematchBadges} />

@@ -26,6 +26,7 @@ namespace TPP.Tv {
         level_cap?: number;
         map_bank: number;
         map_id: number;
+        map_name?: string;
         area_id: number;
         area_name: string;
         money: number;
