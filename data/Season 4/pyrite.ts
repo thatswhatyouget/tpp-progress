@@ -39,6 +39,12 @@ Season4.Runs.push(
             { Name: "Marill", Time: "1d21h42m", Group: "Pokemon" },
             { Name: "Exeggcute", Time: "2d16m", Group: "Pokemon" },
             { Name: "Snubbull", Time: "2d56m", Group: "Pokemon" },
+            { Name: "Spearow", Time: "2d1h54m", Group: "Pokemon" },
+            { Name: "Heracross", Time: "2d5h20m", Group: "Pokemon" },
+            { Name: "Venonat", Time: "2d6h21m", Group: "Pokemon" },
+            { Name: "Kakuna", Time: "2d6h23m", Group: "Pokemon" },
+            { Name: "Paras", Time: "2d6h34m", Group: "Pokemon" },
+            { Name: "NidoranM", Time: "2d6h41m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
