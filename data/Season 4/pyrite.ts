@@ -52,7 +52,9 @@ Season4.Runs.push(
             { Name: "Doduo", Time: "2d20h28m", Group: "Pokemon" },
             { Name: "Miltank", Time: "2d20h36m", Group: "Pokemon" },
             { Name: "Ekans", Time: "2d21h13m", Group: "Pokemon" },
-            
+            { Name: "Mankey", Time: "2d21h36m", Group: "Pokemon" },
+            { Name: "Seel", Time: "2d22h6m", Group: "Pokemon" },
+	            
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "", Attempts: 0 },
