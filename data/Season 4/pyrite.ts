@@ -46,8 +46,12 @@ Season4.Runs.push(
             { Name: "Paras", Time: "2d6h34m", Group: "Pokemon" },
             { Name: "NidoranM", Time: "2d6h41m", Group: "Pokemon" },
             { Name: "Smoochum", Time: "2d13h29m", Group: "Pokemon" },
-            { Name: "Magnemite", Time: "2d14h03m", Group: "Pokemon" },
+            { Name: "Magnemite", Time: "2d14h3m", Group: "Pokemon" },
             { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "2d14h50m", Attempts: 3 },
+            { Name: "Meowth", Time: "2d19h17m", Group: "Pokemon" },
+            { Name: "Doduo", Time: "2d20h28m", Group: "Pokemon" },
+            { Name: "Miltank", Time: "2d20h36m", Group: "Pokemon" },
+            { Name: "Ekans", Time: "2d21h13m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
