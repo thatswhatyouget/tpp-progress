@@ -45,8 +45,10 @@ Season4.Runs.push(
             { Name: "Kakuna", Time: "2d6h23m", Group: "Pokemon" },
             { Name: "Paras", Time: "2d6h34m", Group: "Pokemon" },
             { Name: "NidoranM", Time: "2d6h41m", Group: "Pokemon" },
-
-            { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "", Attempts: 0 },
+            { Name: "Smoochum", Time: "2d13h29m", Group: "Pokemon" },
+            { Name: "Magnemite", Time: "2d14h03m", Group: "Pokemon" },
+            { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "2d14h50m", Attempts: 3 },
+            
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "", Attempts: 0 },
