@@ -13,7 +13,7 @@ namespace TPP.Display.Elements.RunStatus {
             if (!map) {
                 text = area;
             }
-            else if (map.toLowerCase().indexOf(area.toLowerCase()) < 0) {
+            else if (map.toLowerCase().indexOf(area.toLowerCase().split(' ').pop()) < 0) {
                 text += ` (${area})`;
             }
             return <PokeBox title="Current Location"><h3>{text}</h3></PokeBox>
