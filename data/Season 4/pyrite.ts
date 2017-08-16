@@ -54,6 +54,8 @@ Season4.Runs.push(
             { Name: "Ekans", Time: "2d21h13m", Group: "Pokemon" },
             { Name: "Mankey", Time: "2d21h36m", Group: "Pokemon" },
             { Name: "Seel", Time: "2d22h6m", Group: "Pokemon" },
+            { Name: "Magneton", Time: "3d3h55m", Group: "Pokemon" },
+            { Name: "Magmar", Time: "3d14h50m", Group: "Pokemon" },
 	            
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
