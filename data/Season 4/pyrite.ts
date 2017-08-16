@@ -56,6 +56,9 @@ Season4.Runs.push(
             { Name: "Seel", Time: "2d22h6m", Group: "Pokemon" },
             { Name: "Magneton", Time: "3d3h55m", Group: "Pokemon" },
             { Name: "Magmar", Time: "3d14h50m", Group: "Pokemon" },
+            { Name: "Slugma", Time: "3d15h33m", Group: "Pokemon" },
+            { Name: "Ledian", Time: "3d17h55m", Group: "Pokemon" },
+            { Name: "Pineco", Time: "3d18h10m", Group: "Pokemon" },
 	            
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
