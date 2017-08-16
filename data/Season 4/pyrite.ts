@@ -59,6 +59,8 @@ Season4.Runs.push(
             { Name: "Slugma", Time: "3d15h33m", Group: "Pokemon" },
             { Name: "Ledian", Time: "3d17h55m", Group: "Pokemon" },
             { Name: "Pineco", Time: "3d18h10m", Group: "Pokemon" },
+            { Name: "Murkrow", Time: "3d18h34m", Group: "Pokemon" },
+            { Name: "Stantler", Time: "3d18h41m", Group: "Pokemon" },
 	            
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
