@@ -66,6 +66,9 @@ Season4.Runs.push(
             { Name: "Dewgong", Time: "4d5h23m", Group: "Pokemon" },
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "4d9h40m", Attempts: 5 },
             { Name: "Voltorb", Time: "4d11h20m", Group: "Pokemon" },
+            { Name: "Girafarig", Time: "4d22h16m", Group: "Pokemon" },
+            { Name: "Magikarp", Time: "4d22h41m", Group: "Pokemon" },
+            { Name: "Poliwhirl", Time: "5d11m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "", Attempts: 0 },
