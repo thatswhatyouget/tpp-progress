@@ -64,8 +64,9 @@ Season4.Runs.push(
             { Name: "Exeggutor", Time: "3d21h55m", Group: "Pokemon" },
             { Name: "Tauros", Time: "4d4h55m", Group: "Pokemon" },
             { Name: "Dewgong", Time: "4d5h23m", Group: "Pokemon" },
-	            
-            { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "4d9h40m", Attempts: 5 },
+            { Name: "Voltorb", Time: "4d11h20m", Group: "Pokemon" },
+            
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png", Time: "", Attempts: 0 },
