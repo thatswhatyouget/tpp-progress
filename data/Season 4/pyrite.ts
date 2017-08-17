@@ -62,6 +62,8 @@ Season4.Runs.push(
             { Name: "Murkrow", Time: "3d18h34m", Group: "Pokemon" },
             { Name: "Stantler", Time: "3d18h41m", Group: "Pokemon" },
             { Name: "Exeggutor", Time: "3d21h55m", Group: "Pokemon" },
+            { Name: "Tauros", Time: "4d4h55m", Group: "Pokemon" },
+            { Name: "Dewgong", Time: "4d5h23m", Group: "Pokemon" },
 	            
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
