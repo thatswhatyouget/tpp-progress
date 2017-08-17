@@ -69,6 +69,7 @@ Season4.Runs.push(
             { Name: "Girafarig", Time: "4d22h16m", Group: "Pokemon" },
             { Name: "Magikarp", Time: "4d22h41m", Group: "Pokemon" },
             { Name: "Poliwhirl", Time: "5d11m", Group: "Pokemon" },
+            { Name: "Feraligatr", Time: "5d19m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "", Attempts: 0 },
