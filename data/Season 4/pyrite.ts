@@ -70,9 +70,9 @@ Season4.Runs.push(
             { Name: "Magikarp", Time: "4d22h41m", Group: "Pokemon" },
             { Name: "Poliwhirl", Time: "5d11m", Group: "Pokemon" },
             { Name: "Feraligatr", Time: "5d19m", Group: "Pokemon" },
-            
-            { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "5d5h34m", Attempts: 13 },
             { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "", Attempts: 0 },
+            
             { Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png", Time: "", Attempts: 0 },
