@@ -73,6 +73,9 @@ Season4.Runs.push(
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "5d5h34m", Attempts: 13 },
             { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "5d10h14m", Attempts: 6 },
             { Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png", Time: "5d13h23m", Attempts: 5 },
+            { Name: "Sunkern", Time: "5d23h28m", Group: "Pokemon" },
+            { Name: "NidoranF", Time: "5d23h31m", Group: "Pokemon" },
+            { Name: "Psyduck", Time: "5d23h35m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png", Time: "", Attempts: 0 },
