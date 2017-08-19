@@ -76,6 +76,12 @@ Season4.Runs.push(
             { Name: "Sunkern", Time: "5d23h28m", Group: "Pokemon" },
             { Name: "NidoranF", Time: "5d23h31m", Group: "Pokemon" },
             { Name: "Psyduck", Time: "5d23h35m", Group: "Pokemon" },
+            { Name: "Raikou", Time: "2017-08-19T00:38:00Z", Group: "Pokemon" },
+            { Name: "Golbat", Time: "2017-08-19T11:58:00Z", Group: "Pokemon" },
+            { Name: "Swinub", Time: "2017-08-19T12:04:00Z", Group: "Pokemon" },
+            { Name: "Jynx", Time: "2017-08-19T12:18:00Z", Group: "Pokemon" },
+            { Name: "Poliwrath", Time: "2017-08-19T13:14:00Z", Group: "Pokemon" },
+            { Name: "Tangela", Time: "2017-08-19T13:45:00Z", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png", Time: "", Attempts: 0 },
