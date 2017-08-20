@@ -82,8 +82,10 @@ Season4.Runs.push(
             { Name: "Jynx", Time: "2017-08-19T12:18:00Z", Group: "Pokemon" },
             { Name: "Poliwrath", Time: "2017-08-19T13:14:00Z", Group: "Pokemon" },
             { Name: "Tangela", Time: "2017-08-19T13:45:00Z", Group: "Pokemon" },
+            { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "7d12h2m", Attempts: 26 },
+            { Name: "Beedrill", Time: "7d14h1m", Group: "Pokemon" },
+            { Name: "Metapod", Time: "7d14h6m", Group: "Pokemon" },
 
-            { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "", Attempts: 0 },
