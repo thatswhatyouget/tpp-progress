@@ -95,22 +95,13 @@ Season4.Runs.push(
             { Name: "Tentacruel", Time: "8d13h45m", Group: "Pokemon" },
             { Name: "Goldeen", Time: "8d13h53m", Group: "Pokemon" },
             { Name: "Noctowl", Time: "8d14h9m", Group: "Pokemon" },
+            { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "8d 21h 6m", Attempts: 8 },
 
-            { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "", Attempts: 1 },
-            { Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png", Time: "", Attempts: 1 },
             { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "", Attempts: 0 },
             { Group: "Champions", Name: "Lance", Image: "img/trainers/crystal/lance.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
-            { Group: "Past Hosts", Name: "RED", Image: "img/hosts/red.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "25756", Attempts: 2, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "25756", Attempts: 11, Party: [
                     { Pokemon: "Furret", Nickname: "HHHIIIIHGH", Level: 76, Gender: "Female", Number: 161, IDNo: "25756" },
                     { Pokemon: "Magmar", Nickname: "-", Level: 75, Gender: "Female", Number: 126, IDNo: "25756" },
                     { Pokemon: "Magneton", Nickname: "::::;n;;π-", Level: 75, Number: 82, IDNo: "25756" },
@@ -121,6 +112,15 @@ Season4.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "8d10h4m"
             },
+            { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
+            { Group: "Past Hosts", Name: "RED", Image: "img/hosts/red.png", Time: "", Attempts: 0 },
         ]
     }
 );
