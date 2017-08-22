@@ -96,22 +96,22 @@ Season4.Runs.push(
             { Name: "Goldeen", Time: "8d13h53m", Group: "Pokemon" },
             { Name: "Noctowl", Time: "8d14h9m", Group: "Pokemon" },
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "8d 21h 6m", Attempts: 8 },
-
-            { Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png", Time: "", Attempts: 1 },
-            { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "", Attempts: 0 },
-            { Group: "Champions", Name: "Lance", Image: "img/trainers/crystal/lance.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png", Time: "9d 10h 33m", Attempts: 3 },
+            { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "9d 11h 27m", Attempts: 1 },
+            { Group: "Champions", Name: "Lance", Image: "img/trainers/crystal/lance.png", Time: "9d 12h 5m", Attempts: 1 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "25756", Attempts: 11, Party: [
-                    { Pokemon: "Furret", Nickname: "HHHIIIIHGH", Level: 76, Gender: "Female", Number: 161, IDNo: "25756" },
-                    { Pokemon: "Magmar", Nickname: "-", Level: 75, Gender: "Female", Number: 126, IDNo: "25756" },
-                    { Pokemon: "Magneton", Nickname: "::::;n;;π-", Level: 75, Number: 82, IDNo: "25756" },
-                    { Pokemon: "Exeggutor", Nickname: "OOOOOOPOOO", Level: 72, Gender: "Female", Number: 103, IDNo: "25756" },
-                    { Pokemon: "Dewgong", Nickname: "WWww y", Level: 78, Gender: "Male", Number: 87, IDNo: "37460" },
-                    { Pokemon: "Feraligatr", Nickname: "YZZZQQQC", Level: 79, Gender: "Male", Number: 160, IDNo: "25756" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 12h 7m", IDNo: "25756", Attempts: 18, Party: [
+                    { Pokemon: "Feraligatr", Nickname: "YZZZQQQC", Level: 82, Gender: "Male", Number: 160, IDNo: "25756" },
+                    { Pokemon: "Exeggutor", Nickname: "OOOOOOPOOO", Level: 82, Gender: "Female", Number: 103, IDNo: "25756" },
+                    { Pokemon: "Furret", Nickname: "HHHIIIIHGH", Level: 82, Gender: "Female", Number: 161, IDNo: "25756" },
+                    { Pokemon: "Dewgong", Nickname: "WWww y", Level: 82, Gender: "Male", Number: 87, IDNo: "37460" },
+                    { Pokemon: "Magneton", Nickname: "::::;n;;π-", Level: 82, Number: 82, IDNo: "25756" },
+                    { Pokemon: "Magmar", Nickname: "-", Level: 82, Gender: "Female", Number: 126, IDNo: "25756" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "8d10h4m"
             },
+            
             { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
