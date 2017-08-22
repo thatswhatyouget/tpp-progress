@@ -111,8 +111,8 @@ Season4.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "8d10h4m"
             },
-
-            { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "9d 16h 39m", Attempts: 2 },
+            
             { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
