@@ -10,7 +10,7 @@ Season4.Runs.push(
         HostImage: "img/hosts/ewwyppp.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/6tdqij/the_hosts_of_the_voices_4th_midseason/",
         Region: "Johto",
-        //AdditionalRegions: [{ Name: "Kanto", Time: "" }],
+        AdditionalRegions: [{ Name: "Kanto", Time: "9d14h" }],
         Generation: 2,
         Pokedex: "New",
         Events: [
@@ -111,7 +111,7 @@ Season4.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "8d10h4m"
             },
-            
+
             { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
