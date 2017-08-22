@@ -112,6 +112,8 @@ Season4.Runs.push(
                 FirstAttemptDate: "8d10h4m"
             },
             { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "9d 16h 39m", Attempts: 2 },
+            { Name: "Fearow", Time: "2017-08-22T16:19:00Z", Group: "Pokemon" },
+            { Name: "Clefairy", Time: "2017-08-22T16:31:00Z", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
