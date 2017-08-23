@@ -117,12 +117,13 @@ Season4.Runs.push(
             { Name: "Seaking", Time: "10d33m", Group: "Pokemon" },
             { Name: "Wobbuffet", Time: "10d1h18m", Group: "Pokemon" },
             { Name: "Kadabra", Time: "10d3h49m", Group: "Pokemon" },
-            
-            { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
+            { Name: "Ditto", Time: "10d4h33m", Group: "Pokemon" },
+            { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "10d 8h 27m", Attempts: 2 },
+
+            { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
             { Group: "Past Hosts", Name: "RED", Image: "img/hosts/red.png", Time: "", Attempts: 0 },
