@@ -120,9 +120,9 @@ Season4.Runs.push(
             { Name: "Ditto", Time: "10d4h33m", Group: "Pokemon" },
             { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "10d 8h 27m", Attempts: 2 },
             { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "10d 13h 47m", Attempts: 2 },
-
-            { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "10d 16h 8m", Attempts: 2 },
+            { Name: "Snorlax", Time: "2017-08-23T14:26:00Z", Group: "Pokemon" },
+            { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "10d 22h 26m", Attempts: 4 },
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
