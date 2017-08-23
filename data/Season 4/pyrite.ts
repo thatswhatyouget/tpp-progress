@@ -114,6 +114,9 @@ Season4.Runs.push(
             { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "9d 16h 39m", Attempts: 2 },
             { Name: "Fearow", Time: "2017-08-22T16:19:00Z", Group: "Pokemon" },
             { Name: "Clefairy", Time: "2017-08-22T16:31:00Z", Group: "Pokemon" },
+            { Name: "Seaking", Time: "10d33m", Group: "Pokemon" },
+            { Name: "Wobbuffet", Time: "10d1h18m", Group: "Pokemon" },
+            { Name: "Kadabra", Time: "10d3h49m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
