@@ -119,8 +119,8 @@ Season4.Runs.push(
             { Name: "Kadabra", Time: "10d3h49m", Group: "Pokemon" },
             { Name: "Ditto", Time: "10d4h33m", Group: "Pokemon" },
             { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "10d 8h 27m", Attempts: 2 },
+            { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "10d 13h 47m", Attempts: 2 },
 
-            { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
