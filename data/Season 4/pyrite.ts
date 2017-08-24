@@ -130,6 +130,11 @@ Season4.Runs.push(
             { Name: "Arbok", Time: "2017-08-23T21:59:00Z", Group: "Pokemon" },
             { Name: "Bulbasaur", Time: "2017-08-23T22:01:00Z", Group: "Pokemon" },
             { Name: "Azumarill", Time: "2017-08-23T22:04:00Z", Group: "Pokemon" },
+            { Name: "Piloswine", Time: "2017-08-24T00:53:00Z", Group: "Pokemon" },
+            { Name: "Donphan", Time: "2017-08-24T02:18:00Z", Group: "Pokemon" },
+            { Name: "Sandslash", Time: "2017-08-24T02:44:00Z", Group: "Pokemon" },
+            { Name: "Lugia", Time: "2017-08-24T12:35:00Z", Group: "Pokemon" },
+            { Name: "Seadra", Time: "2017-08-24T12:41:00Z", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
