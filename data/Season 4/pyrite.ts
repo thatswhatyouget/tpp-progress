@@ -135,8 +135,8 @@ Season4.Runs.push(
             { Name: "Sandslash", Time: "2017-08-24T02:44:00Z", Group: "Pokemon" },
             { Name: "Lugia", Time: "2017-08-24T12:35:00Z", Group: "Pokemon" },
             { Name: "Seadra", Time: "2017-08-24T12:41:00Z", Group: "Pokemon" },
+            { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "11d 22h 43m", Attempts: 4 },
 
-            { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
             { Group: "Past Hosts", Name: "RED", Image: "img/hosts/red.png", Time: "", Attempts: 0 },
