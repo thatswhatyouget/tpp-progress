@@ -139,12 +139,14 @@ Season4.Runs.push(
             { Name: "Lanturn", Time: "12d3m", Group: "Pokemon" },
             { Name: "Electabuzz", Time: "12d43m", Group: "Pokemon" },
             { Name: "Tentacool", Time: "12d1h", Group: "Pokemon" },
+            { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "12d 5h 29m", Attempts: 5 },
             { Name: "Magcargo", Time: "12d6h29m", Group: "Pokemon" },
             { Name: "Sneasel", Time: "12d8h25m", Group: "Pokemon" },
             { Name: "Shellder", Time: "12d10h27m", Group: "Pokemon" },
-
-            { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
+            { Name: "Staryu", Time: "12d11h10m", Group: "Pokemon" },
+            { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "12d 14h 26m", Attempts: 4 },
+            { Name: "Rattata", Time: "12d15h13m", Group: "Pokemon" },
+            
             { Group: "Past Hosts", Name: "RED", Image: "img/hosts/red.png", Time: "", Attempts: 0 },
         ]
     }
