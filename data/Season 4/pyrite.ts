@@ -146,6 +146,9 @@ Season4.Runs.push(
             { Name: "Staryu", Time: "12d11h10m", Group: "Pokemon" },
             { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "12d 14h 26m", Attempts: 4 },
             { Name: "Rattata", Time: "12d15h13m", Group: "Pokemon" },
+            { Name: "Machop", Time: "12d16h9m", Group: "Pokemon" },
+            { Name: "Slowpoke", Time: "12d16h28m", Group: "Pokemon" },
+            { Name: "Slowbro", Time: "12d17h", Group: "Pokemon" },
             
             { Group: "Past Hosts", Name: "RED", Image: "img/hosts/red.png", Time: "", Attempts: 0 },
         ]
