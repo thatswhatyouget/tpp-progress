@@ -137,7 +137,9 @@ Season4.Runs.push(
             { Name: "Seadra", Time: "2017-08-24T12:41:00Z", Group: "Pokemon" },
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "11d 22h 43m", Attempts: 4 },
             { Name: "Lanturn", Time: "12d3m", Group: "Pokemon" },
+            { Name: "Electabuzz", Time: "12d43m", Group: "Pokemon" },
             { Name: "Tentacool", Time: "12d1h", Group: "Pokemon" },
+            { Name: "Magcargo", Time: "12d6h29m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
