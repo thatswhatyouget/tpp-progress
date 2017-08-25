@@ -140,6 +140,8 @@ Season4.Runs.push(
             { Name: "Electabuzz", Time: "12d43m", Group: "Pokemon" },
             { Name: "Tentacool", Time: "12d1h", Group: "Pokemon" },
             { Name: "Magcargo", Time: "12d6h29m", Group: "Pokemon" },
+            { Name: "Sneasel", Time: "12d8h25m", Group: "Pokemon" },
+            { Name: "Shellder", Time: "12d10h27m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
