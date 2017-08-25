@@ -149,8 +149,11 @@ Season4.Runs.push(
             { Name: "Machop", Time: "12d16h9m", Group: "Pokemon" },
             { Name: "Slowpoke", Time: "12d16h28m", Group: "Pokemon" },
             { Name: "Slowbro", Time: "12d17h", Group: "Pokemon" },
+            { Name: "Graveler", Time: "12d21h27m", Group: "Pokemon" },
+            { Name: "Gligar", Time: "12d21h40m", Group: "Pokemon" },
+            { Name: "Rapidash", Time: "13d26m", Group: "Pokemon" },
             
-            { Group: "Past Hosts", Name: "RED", Image: "img/hosts/red.png", Time: "", Attempts: 0 },
+            { Group: "Past Hosts", Name: "AZURE", Image: "img/trainers/crystal/azure.png", Time: "", Attempts: 1 },
         ]
     }
 );
