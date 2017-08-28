@@ -5,7 +5,7 @@ Season4.Runs.push(
         ColorPrimary: "#706030",
         ColorSecondary: "#c0a058",
         StartDate: "2017-08-12T21:00:00Z",
-        Duration: "255d",
+        Duration: "14d 7h 58m",
         HostName: "EWWYPPP",
         HostImage: "img/hosts/ewwyppp.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/6tdqij/the_hosts_of_the_voices_4th_midseason/",
@@ -152,8 +152,8 @@ Season4.Runs.push(
             { Name: "Graveler", Time: "12d21h27m", Group: "Pokemon" },
             { Name: "Gligar", Time: "12d21h40m", Group: "Pokemon" },
             { Name: "Rapidash", Time: "13d26m", Group: "Pokemon" },
-            
-            { Group: "Past Hosts", Name: "AZURE", Image: "img/trainers/crystal/azure.png", Time: "", Attempts: 1 },
+            { Name: "Kingler", Time: "13d2h9m", Group: "Pokemon" },
+            { Group: "Champions", Name: "AZURE", Image: "img/trainers/crystal/azure.png", Time: "14d 6h 36m", Attempts: 36 },
         ]
     }
 );
