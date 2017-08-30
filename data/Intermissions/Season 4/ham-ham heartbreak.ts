@@ -32,3 +32,19 @@ Intermissions.Runs.push(
         ],
     }
 );
+Intermissions.Runs.push(
+    {
+        RunName: "Hamtaro: Ham-Ham Heartbreak Part 3",
+        StartDate: "2017-08-27T16:10:00Z",
+        Duration: "2017-08-28T00:41:00Z",
+        ColorPrimary: "#e59910",
+        ColorSecondary: "#43AB1E",
+        HostImage: "img/hosts/other/hamtaro.gif",
+        HostImageSource: "http://biggysprites.smackjeeves.com/comics/678645/hamtaro-sprite-sheet-2/",
+        HostName: "Hamtaro",
+        Region: "Hamtaro",
+        Class: "squarehost",
+        Events: [
+        ]
+    }
+);

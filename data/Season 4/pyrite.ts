@@ -153,7 +153,7 @@ Season4.Runs.push(
             { Name: "Gligar", Time: "12d21h40m", Group: "Pokemon" },
             { Name: "Rapidash", Time: "13d26m", Group: "Pokemon" },
             { Name: "Kingler", Time: "13d2h9m", Group: "Pokemon" },
-            { Group: "Champions", Name: "AZURE", Image: "img/trainers/crystal/azure.png", Time: "14d 6h 36m", Attempts: 36 },
+            { Group: "Champions", Name: "Azure", Image: "img/trainers/crystal/azure.png", Time: "14d 6h 36m", Attempts: 36 },
         ]
     }
 );
