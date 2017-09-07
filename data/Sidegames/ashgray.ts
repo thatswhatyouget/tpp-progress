@@ -36,7 +36,8 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "2017-07-27T01:44:49+00:00", Attempts: 2 },
             { Name: "Muk", Time: "2017-08-08T18:53:31+00:00", Group: "Pokemon" },
             { Name: "Rhyhorn", Time: "2017-09-06T17:19:45+00:00", Group: "Pokemon" },
-
+            { Name: "Tauros", Time: "2017-09-07T09:49:00+00:00", Group: "Pokemon" },
+            
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
