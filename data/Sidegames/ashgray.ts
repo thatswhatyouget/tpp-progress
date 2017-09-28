@@ -38,7 +38,10 @@ Sidegames.Runs.push(
             { Name: "Rhyhorn", Time: "2017-09-06T17:19:45+00:00", Group: "Pokemon" },
             { Name: "Tauros", Time: "2017-09-07T09:49:00+00:00", Group: "Pokemon" },
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "2017-09-16T11:59:36+00:00", Attempts: 1 },
-
+            { Name: "Charmeleon", Time: "2017-09-27T14:54:16+00:00", Group: "Pokemon" },
+            { Name: "Wartortle", Time: "2017-09-27T18:31:35+00:00", Group: "Pokemon" },
+            { Name: "Raichu", Time: "2017-09-27T19:46:21+00:00", Group: "Pokemon" },
+            
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png", Time: "", Attempts: 0 },
