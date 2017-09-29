@@ -4,7 +4,7 @@ Sidegames.Runs.push(
         RunName: "Ash Gray",
         ColorPrimary: "#E8E4DF",
         ColorSecondary: "#97856E",
-        Duration: "255w",
+        Duration: "2017-09-29T20:54:22+00:00",
         StartDate: "2017-03-13 20:26:16.371000",
         HostName: "TrAsh",
         HostImage: "img/hosts/ash.png",
@@ -41,6 +41,7 @@ Sidegames.Runs.push(
             { Name: "Charmeleon", Time: "2017-09-27T14:54:16+00:00", Group: "Pokemon" },
             { Name: "Wartortle", Time: "2017-09-27T18:31:35+00:00", Group: "Pokemon" },
             { Name: "Raichu", Time: "2017-09-27T19:46:21+00:00", Group: "Pokemon" },
+            { Name: "Blastoise", Time: "2017-09-29T20:54:22+00:00", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
