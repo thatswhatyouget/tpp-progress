@@ -40,6 +40,12 @@
 .itemsList ul li{
     padding: .5em 1em;
 }
+.itemsList ul li[data-id]:before {
+    content:'ITEM' attr(data-id) ':';
+    float: left;
+    margin-right: .5em;
+    vertical-align: baseline;
+}
 .itemsList ul li[data-quantity]:after {
     content:'×' attr(data-quantity);
     float: right;
