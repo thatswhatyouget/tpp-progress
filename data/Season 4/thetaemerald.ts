@@ -13,7 +13,8 @@ Season4.Runs.push(
         Generation: 6,
         Events: [
             { Name: "Torchic", Time: "14m", Group: "Pokemon" },
-        
+            { Name: "Hoppip", Time: "1h7m", Group: "Pokemon" },
+            
             { Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "", Attempts: 0 },
