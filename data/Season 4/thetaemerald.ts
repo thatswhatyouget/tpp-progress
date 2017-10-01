@@ -65,6 +65,9 @@ Season4.Runs.push(
             { Name: "Woobat", Time: "13h46m", Group: "Pokemon" },
             { Name: "Kricketot", Time: "14h58m", Group: "Pokemon" },
             { Name: "Flaaffy", Time: "15h34m", Group: "Pokemon" },
+            { Name: "Gothita", Time: "17h24m", Group: "Pokemon" },
+            { Name: "Solosis", Time: "17h25m", Group: "Pokemon" },
+            { Name: "Oddish", Time: "17h27m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "", Attempts: 0 },
