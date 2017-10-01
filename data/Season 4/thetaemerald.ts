@@ -68,6 +68,7 @@ Season4.Runs.push(
             { Name: "Gothita", Time: "17h24m", Group: "Pokemon" },
             { Name: "Solosis", Time: "17h25m", Group: "Pokemon" },
             { Name: "Oddish", Time: "17h27m", Group: "Pokemon" },
+            { Name: "Electrike", Time: "18h35m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "", Attempts: 0 },
