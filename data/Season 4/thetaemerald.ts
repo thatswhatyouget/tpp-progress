@@ -59,6 +59,12 @@ Season4.Runs.push(
             { Name: "Whismur", Time: "11h16m", Group: "Pokemon" },
             { Name: "Togepi", Time: "11h59m", Group: "Pokemon" },
             { Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png", Time: "12h33m", Attempts: 1 },
+            { Name: "Makuhita", Time: "12h52m", Group: "Pokemon" },
+            { Name: "Roggenrola", Time: "12h53m", Group: "Pokemon" },
+            { Name: "Aron", Time: "13h30m", Group: "Pokemon" },
+            { Name: "Woobat", Time: "13h46m", Group: "Pokemon" },
+            { Name: "Kricketot", Time: "14h58m", Group: "Pokemon" },
+            { Name: "Flaaffy", Time: "15h34m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "", Attempts: 0 },
