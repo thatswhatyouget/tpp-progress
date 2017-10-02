@@ -84,6 +84,13 @@ Season4.Runs.push(
             { Name: "Ampharos", Time: "1d49m", Group: "Pokemon" },
             { Name: "Plusle", Time: "1d1h9m", Group: "Pokemon" },
             { Name: "Minccino", Time: "1d2h31m", Group: "Pokemon" },
+            { Name: "Illumise", Time: "1d4h30m", Group: "Pokemon" },
+            { Name: "Poliwag", Time: "1d6h56m", Group: "Pokemon" },
+            { Name: "Joltik", Time: "1d7h9m", Group: "Pokemon" },
+            { Name: "Pancham", Time: "1d7h26m", Group: "Pokemon" },
+            { Name: "Phanpy", Time: "1d7h31m", Group: "Pokemon" },
+            { Name: "Furfrou", Time: "1d7h39m", Group: "Pokemon" },
+            { Name: "Turtwig", Time: "1d8h45m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "", Attempts: 0 },
