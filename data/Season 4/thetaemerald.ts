@@ -110,6 +110,7 @@ Season4.Runs.push(
             { Name: "Golett", Time: "1d19h24m", Group: "Pokemon" },
             { Name: "Bouffalant", Time: "1d19h32m", Group: "Pokemon" },
             { Name: "Bronzor", Time: "1d19h49m", Group: "Pokemon" },
+            { Name: "Sharpedo", Time: "1d20h39m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "", Attempts: 0 },
