@@ -113,8 +113,8 @@ Season4.Runs.push(
             { Name: "Sharpedo", Time: "1d20h39m", Group: "Pokemon" },
             { Name: "Seviper", Time: "1d22h42m", Group: "Pokemon" },
             { Name: "Sawk", Time: "1d23h22m", Group: "Pokemon" },
-            
-            { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "2h57m", Attempts: 2 },
+
             { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
