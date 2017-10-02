@@ -79,7 +79,12 @@ Season4.Runs.push(
             { Name: "Blaziken", Time: "22h57m", Group: "Pokemon" },
             { Name: "Xatu", Time: "23h21m", Group: "Pokemon" },
             { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "23h21m", Attempts: 2 },
-
+            { Name: "Minun", Time: "1d46m", Group: "Pokemon" },
+            { Name: "Drifloon", Time: "1d49m", Group: "Pokemon" },
+            { Name: "Ampharos", Time: "1d49m", Group: "Pokemon" },
+            { Name: "Plusle", Time: "1d1h9m", Group: "Pokemon" },
+            { Name: "Minccino", Time: "1d2h31m", Group: "Pokemon" },
+            
             { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
