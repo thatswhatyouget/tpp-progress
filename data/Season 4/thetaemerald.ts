@@ -153,6 +153,12 @@ Season4.Runs.push(
             { Name: "Gloom", Time: "2d19h49m", Group: "Pokemon" },
             { Name: "Weepinbell", Time: "2d19h54m", Group: "Pokemon" },
             { Name: "Castform", Time: "2d20h48m", Group: "Pokemon" },
+            { Name: "Absol", Time: "2d21h45m", Group: "Pokemon" },
+            { Name: "Rufflet", Time: "2d21h47m", Group: "Pokemon" },
+            { Name: "Pawniard", Time: "2d22h9m", Group: "Pokemon" },
+            { Name: "Scraggy", Time: "2d22h28m", Group: "Pokemon" },
+            { Name: "Mienfoo", Time: "2d22h56m", Group: "Pokemon" },
+            { Name: "Vullaby", Time: "2d22h59m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
