@@ -134,6 +134,12 @@ Season4.Runs.push(
             { Name: "Wooper", Time: "2d8h14m", Group: "Pokemon" },
             { Name: "Tynamo", Time: "2d9h29m", Group: "Pokemon" },
             { Name: "Stunfisk", Time: "2d12h33m", Group: "Pokemon" },
+            { Name: "Miltank", Time: "2d13h3m", Group: "Pokemon" },
+            { Name: "Heracross", Time: "2d13h7m", Group: "Pokemon" },
+            { Name: "Slaking", Time: "2d13h8m", Group: "Pokemon" },
+            { Name: "Chatot", Time: "2d13h16m", Group: "Pokemon" },
+            { Name: "Inkay", Time: "2d13h19m", Group: "Pokemon" },
+            { Name: "Emolga", Time: "2d13h21m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
