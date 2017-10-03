@@ -140,6 +140,12 @@ Season4.Runs.push(
             { Name: "Chatot", Time: "2d13h16m", Group: "Pokemon" },
             { Name: "Inkay", Time: "2d13h19m", Group: "Pokemon" },
             { Name: "Emolga", Time: "2d13h21m", Group: "Pokemon" },
+            { Name: "Pinsir", Time: "2d17h6m", Group: "Pokemon" },
+            { Name: "Carnivine", Time: "2d17h28m", Group: "Pokemon" },
+            { Name: "Kecleon", Time: "2d17h40m", Group: "Pokemon" },
+            { Name: "Foongus", Time: "2d17h42m", Group: "Pokemon" },
+            { Name: "Tropius", Time: "2d17h49m", Group: "Pokemon" },
+            { Name: "Goomy", Time: "2d17h50m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
