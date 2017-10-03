@@ -41,9 +41,12 @@
     padding: .5em 1em;
 }
 .itemsList ul li[data-id]:before {
-    content:'ITEM' attr(data-id) ':';
+    content: attr(data-id) ':';
     float: left;
-    margin-right: .5em;
+    padding-right: .5em;
+    text-align: right;
+    width:4.5em;
+    box-sizing: border-box;
     vertical-align: baseline;
 }
 .itemsList ul li[data-quantity]:after {
