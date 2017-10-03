@@ -124,6 +124,7 @@ Season4.Runs.push(
             { Name: "Gible", Time: "2d2h57m", Group: "Pokemon" },
             { Name: "Sigilyph", Time: "2d3h9m", Group: "Pokemon" },
             { Name: "Yamask", Time: "2d3h41m", Group: "Pokemon" },
+            { Name: "Hippopotas", Time: "2d3h52m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
