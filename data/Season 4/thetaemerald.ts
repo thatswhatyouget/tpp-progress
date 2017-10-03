@@ -159,8 +159,8 @@ Season4.Runs.push(
             { Name: "Scraggy", Time: "2d22h28m", Group: "Pokemon" },
             { Name: "Mienfoo", Time: "2d22h56m", Group: "Pokemon" },
             { Name: "Vullaby", Time: "2d22h59m", Group: "Pokemon" },
+            { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "3d1h58m", Attempts: 2 },
 
-            { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
