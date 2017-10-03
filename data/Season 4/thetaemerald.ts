@@ -113,7 +113,7 @@ Season4.Runs.push(
             { Name: "Sharpedo", Time: "1d20h39m", Group: "Pokemon" },
             { Name: "Seviper", Time: "1d22h42m", Group: "Pokemon" },
             { Name: "Sawk", Time: "1d23h22m", Group: "Pokemon" },
-            { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "2h57m", Attempts: 2 },
+            { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "2d57m", Attempts: 2 },
             { Name: "Darumaka", Time: "2d1h18m", Group: "Pokemon" },
             { Name: "Cacnea", Time: "2d1h29m", Group: "Pokemon" },
             { Name: "Helioptile", Time: "2d1h31m", Group: "Pokemon" },
