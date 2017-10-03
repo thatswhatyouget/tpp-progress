@@ -146,7 +146,14 @@ Season4.Runs.push(
             { Name: "Foongus", Time: "2d17h42m", Group: "Pokemon" },
             { Name: "Tropius", Time: "2d17h49m", Group: "Pokemon" },
             { Name: "Goomy", Time: "2d17h50m", Group: "Pokemon" },
-            
+            { Name: "Aegislash", Time: "2d18h29m", Group: "Pokemon" },
+            { Name: "Scyther", Time: "2d18h40m", Group: "Pokemon" },
+            { Name: "Skorupi", Time: "2d18h43m", Group: "Pokemon" },
+            { Name: "Arbok", Time: "2d19h31m", Group: "Pokemon" },
+            { Name: "Gloom", Time: "2d19h49m", Group: "Pokemon" },
+            { Name: "Weepinbell", Time: "2d19h54m", Group: "Pokemon" },
+            { Name: "Castform", Time: "2d20h48m", Group: "Pokemon" },
+
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
