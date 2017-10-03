@@ -130,7 +130,8 @@ Season4.Runs.push(
             { Name: "Timburr", Time: "2d4h40m", Group: "Pokemon" },
             { Name: "Doublade", Time: "2d6h25m", Group: "Pokemon" },
             { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "2d6h25m", Attempts: 2 },
-
+            { Name: "Marill", Time: "2d7h10m", Group: "Pokemon" },
+            
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
