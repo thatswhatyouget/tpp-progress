@@ -131,6 +131,9 @@ Season4.Runs.push(
             { Name: "Doublade", Time: "2d6h25m", Group: "Pokemon" },
             { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "2d6h25m", Attempts: 2 },
             { Name: "Marill", Time: "2d7h10m", Group: "Pokemon" },
+            { Name: "Wooper", Time: "2d8h14m", Group: "Pokemon" },
+            { Name: "Tynamo", Time: "2d9h29m", Group: "Pokemon" },
+            { Name: "Stunfisk", Time: "2d12h33m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
