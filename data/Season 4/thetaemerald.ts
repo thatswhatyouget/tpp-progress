@@ -125,8 +125,12 @@ Season4.Runs.push(
             { Name: "Sigilyph", Time: "2d3h9m", Group: "Pokemon" },
             { Name: "Yamask", Time: "2d3h41m", Group: "Pokemon" },
             { Name: "Hippopotas", Time: "2d3h52m", Group: "Pokemon" },
-            
-            { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "", Attempts: 0 },
+            { Name: "Magby", Time: "2d4h7m", Group: "Pokemon" },
+            { Name: "Elekid", Time: "2d4h14m", Group: "Pokemon" },
+            { Name: "Timburr", Time: "2d4h40m", Group: "Pokemon" },
+            { Name: "Doublade", Time: "2d6h25m", Group: "Pokemon" },
+            { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "2d6h25m", Attempts: 2 },
+
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
