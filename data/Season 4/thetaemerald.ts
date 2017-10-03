@@ -114,7 +114,17 @@ Season4.Runs.push(
             { Name: "Seviper", Time: "1d22h42m", Group: "Pokemon" },
             { Name: "Sawk", Time: "1d23h22m", Group: "Pokemon" },
             { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "2h57m", Attempts: 2 },
-
+            { Name: "Darumaka", Time: "2d1h18m", Group: "Pokemon" },
+            { Name: "Cacnea", Time: "2d1h29m", Group: "Pokemon" },
+            { Name: "Helioptile", Time: "2d1h31m", Group: "Pokemon" },
+            { Name: "Sandshrew", Time: "2d1h46m", Group: "Pokemon" },
+            { Name: "Sandile", Time: "2d2h2m", Group: "Pokemon" },
+            { Name: "Baltoy", Time: "2d2h16m", Group: "Pokemon" },
+            { Name: "Trapinch", Time: "2d2h17m", Group: "Pokemon" },
+            { Name: "Gible", Time: "2d2h57m", Group: "Pokemon" },
+            { Name: "Sigilyph", Time: "2d3h9m", Group: "Pokemon" },
+            { Name: "Yamask", Time: "2d3h41m", Group: "Pokemon" },
+            
             { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
