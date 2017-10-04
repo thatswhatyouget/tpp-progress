@@ -224,6 +224,13 @@ Season4.Runs.push(
             { Name: "Mr. Mime", Time: "3d20h49m", Group: "Pokemon" },
             { Name: "Luxio", Time: "3d21h31m", Group: "Pokemon" },
             { Name: "Machop", Time: "3d22h28m", Group: "Pokemon" },
+            { Name: "Tentacruel", Time: "3d22h46m", Group: "Pokemon" },
+            { Name: "Hawlucha", Time: "3d23h15m", Group: "Pokemon" },
+            { Name: "Munna", Time: "3d23h24m", Group: "Pokemon" },
+            { Name: "Audino", Time: "3d23h34m", Group: "Pokemon" },
+            { Name: "Ditto", Time: "3d23h37m", Group: "Pokemon" },
+            { Name: "Tentacool", Time: "3d23h58m", Group: "Pokemon" },
+            { Name: "Carbink", Time: "4d7m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
