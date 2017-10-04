@@ -195,7 +195,8 @@ Season4.Runs.push(
             { Name: "Duskull", Time: "3d13h53m", Group: "Pokemon" },
             { Name: "Zubat", Time: "3d14h5m", Group: "Pokemon" },
             { Name: "Gastly", Time: "3d14h10m", Group: "Pokemon" },
-            { Name: "Spiritomb", Time: "3d14h18m", Group: "Pokemon" },
+            { Name: "Spiritomb", Time: "3d14h19m", Group: "Pokemon" },
+            { Name: "Litwick", Time: "3d14h58 m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
