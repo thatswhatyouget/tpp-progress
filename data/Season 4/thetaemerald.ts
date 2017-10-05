@@ -256,6 +256,8 @@ Season4.Runs.push(
             { Name: "Jellicent", Time: "4d23h35m", Group: "Pokemon" },
             { Name: "Pelipper", Time: "5d9m", Group: "Pokemon" },
             { Name: "Seel", Time: "5d31m", Group: "Pokemon" },
+            { Name: "Cubchoo", Time: "5d1h24m", Group: "Pokemon" },
+            { Name: "Avalugg", Time: "5d1h27m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
