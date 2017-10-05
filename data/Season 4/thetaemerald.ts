@@ -246,6 +246,9 @@ Season4.Runs.push(
             { Name: "Ducklett", Time: "4d4h11m", Group: "Pokemon" },
             { Name: "Mime Jr.", Time: "4d4h18m", Group: "Pokemon" },
             { Name: "Throh", Time: "4d4h44m", Group: "Pokemon" },
+            { Name: "Graveler", Time: "4d7h6m", Group: "Pokemon" },
+            { Name: "Mantyke", Time: "4d13h44m", Group: "Pokemon" },
+            { Name: "Electrode", Time: "4d15h12m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
