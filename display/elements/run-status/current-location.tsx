@@ -7,10 +7,10 @@ namespace TPP.Display.Elements.RunStatus {
             let map = this.props.mapName;
             let area = this.props.areaName;
             let text = map || area;
-            if (!area && !map) {
+            if (!text) {
                 return null;
             }
-            else if ((map || '').toLowerCase().indexOf((area || '').toLowerCase().split(' ').pop()) < 0) {
+            else if (text.toLowerCase().indexOf((area || '').toLowerCase().split(' ').pop()) < 0) {
                 text += ` (${area})`;
             }
             return <PokeBox title="Current Location"><h3>{text}</h3></PokeBox>
