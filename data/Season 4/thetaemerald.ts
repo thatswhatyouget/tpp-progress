@@ -250,6 +250,12 @@ Season4.Runs.push(
             { Name: "Mantyke", Time: "4d13h44m", Group: "Pokemon" },
             { Name: "Electrode", Time: "4d15h12m", Group: "Pokemon" },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "4d18h20m", Attempts: 1 },
+            { Name: "Reuniclus", Time: "4d17h31m", Group: "Pokemon" },
+            { Name: "Manaphy", Time: "4d22h1m", Group: "Pokemon" },
+            { Name: "Mantine", Time: "4d22h48m", Group: "Pokemon" },
+            { Name: "Jellicent", Time: "4d23h35m", Group: "Pokemon" },
+            { Name: "Pelipper", Time: "5d9m", Group: "Pokemon" },
+            { Name: "Seel", Time: "5d31m", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
