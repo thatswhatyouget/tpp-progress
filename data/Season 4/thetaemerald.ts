@@ -7,9 +7,9 @@ Season4.Runs.push(
         Duration: "255d",
         StartDate: "2017-09-30T21:00:00Z",
         HostName: "ACCPPQ",
-        HostImage: "https://cdn.bulbagarden.net/upload/a/a4/Spr_E_May.png",
-        //HostImage: "img/hosts/a.png",
-        //HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+        // HostImage: "https://cdn.bulbagarden.net/upload/a/a4/Spr_E_May.png",
+        HostImage: "img/hosts/accppq.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/74edfi/acacia_aka_acapella_the_party_girl/",
         Region: "Hoenn",
         Generation: 6,
         Events: [
