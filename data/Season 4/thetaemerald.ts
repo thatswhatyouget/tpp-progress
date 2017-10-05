@@ -249,8 +249,8 @@ Season4.Runs.push(
             { Name: "Graveler", Time: "4d7h6m", Group: "Pokemon" },
             { Name: "Mantyke", Time: "4d13h44m", Group: "Pokemon" },
             { Name: "Electrode", Time: "4d15h12m", Group: "Pokemon" },
-            
-            { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "4d18h20m", Attempts: 1 },
+
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 0 },
