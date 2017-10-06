@@ -286,7 +286,7 @@ Season4.Runs.push(
             { Name: "Noibat", Time: "5d13h57m", Group: "Pokemon" },
             { Name: "Magikarp", Time: "5d15h18m", Group: "Pokemon" },
             { Name: "Clamperl", Time: "5d15h34m", Group: "Pokemon" },
-            { Name: "Pigeot", Time: "5d16h15m", Group: "Pokemon" },
+            { Name: "Pidgeot", Time: "5d16h15m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
