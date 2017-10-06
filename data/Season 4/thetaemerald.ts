@@ -287,6 +287,9 @@ Season4.Runs.push(
             { Name: "Magikarp", Time: "5d15h18m", Group: "Pokemon" },
             { Name: "Clamperl", Time: "5d15h34m", Group: "Pokemon" },
             { Name: "Pidgeot", Time: "5d16h15m", Group: "Pokemon" },
+            { Name: "Lanturn", Time: "5d17h34m", Group: "Pokemon" },
+            { Name: "Malamar", Time: "5d18h42m", Group: "Pokemon" },
+            { Name: "Relicanth", Time: "5d22h21m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
