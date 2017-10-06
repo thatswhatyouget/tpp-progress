@@ -267,6 +267,9 @@ Season4.Runs.push(
             { Name: "Beartic", Time: "5d2h34m", Group: "Pokemon" },
             { Name: "Dewgong", Time: "5d2h45m", Group: "Pokemon" },
             { Name: "Sealeo", Time: "5d3h32m", Group: "Pokemon" },
+            { Name: "Spheal", Time: "5d4h12m", Group: "Pokemon" },
+            { Name: "Swinub", Time: "5d4h15m", Group: "Pokemon" },
+            { Name: "Sneasel", Time: "5d4h26m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
