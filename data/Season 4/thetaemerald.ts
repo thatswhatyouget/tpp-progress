@@ -258,7 +258,16 @@ Season4.Runs.push(
             { Name: "Seel", Time: "5d31m", Group: "Pokemon" },
             { Name: "Cubchoo", Time: "5d1h24m", Group: "Pokemon" },
             { Name: "Avalugg", Time: "5d1h27m", Group: "Pokemon" },
-
+            { Name: "Smoochum", Time: "5d2h7m", Group: "Pokemon" },
+            { Name: "Snorunt", Time: "5d2h9m", Group: "Pokemon" },
+            { Name: "Vanillite", Time: "5d2h14m", Group: "Pokemon" },
+            { Name: "Snover", Time: "5d2h23m", Group: "Pokemon" },
+            { Name: "Delibird", Time: "5d2h27m", Group: "Pokemon" },
+            { Name: "Piloswine", Time: "5d2h31m", Group: "Pokemon" },
+            { Name: "Beartic", Time: "5d2h34m", Group: "Pokemon" },
+            { Name: "Dewgong", Time: "5d2h45m", Group: "Pokemon" },
+            { Name: "Sealeo", Time: "5d3h32m", Group: "Pokemon" },
+            
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 0 },
