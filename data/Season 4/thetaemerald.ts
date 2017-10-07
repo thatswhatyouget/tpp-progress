@@ -290,6 +290,11 @@ Season4.Runs.push(
             { Name: "Lanturn", Time: "5d17h34m", Group: "Pokemon" },
             { Name: "Malamar", Time: "5d18h42m", Group: "Pokemon" },
             { Name: "Relicanth", Time: "5d22h21m", Group: "Pokemon" },
+            { Name: "Corsola", Time: "6d52m", Group: "Pokemon" },
+            { Name: "Dragalge", Time: "6d1h9m", Group: "Pokemon" },
+            { Name: "Clawitzer", Time: "6d2h16m", Group: "Pokemon" },
+            { Name: "Pyroar", Time: "6d2h45m", Group: "Pokemon" },
+            { Name: "Wailmer", Time: "6d3h42m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
