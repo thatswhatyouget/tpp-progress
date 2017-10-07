@@ -310,6 +310,7 @@ Season4.Runs.push(
             { Name: "Riolu", Time: "6d16h22m", Group: "Pokemon" },
             { Name: "Octillery", Time: "6d18h34m", Group: "Pokemon" },
             { Name: "Lumineon", Time: "6d19h6m", Group: "Pokemon" },
+            { Name: "Pangoro", Time: "6d19h27m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
