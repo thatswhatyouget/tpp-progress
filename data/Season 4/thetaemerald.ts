@@ -297,6 +297,9 @@ Season4.Runs.push(
             { Name: "Wailmer", Time: "6d3h42m", Group: "Pokemon" },
             { Name: "Spearow", Time: "6d7h47m", Group: "Pokemon" },
             { Name: "Pidove", Time: "6d8h1m", Group: "Pokemon" },
+            { Name: "Piplup", Time: "6d9h23m", Group: "Pokemon" },
+            { Name: "Buizel", Time: "6d9h27m", Group: "Pokemon" },
+            { Name: "Poliwhirl", Time: "6d9h32m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
