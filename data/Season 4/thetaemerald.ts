@@ -295,6 +295,8 @@ Season4.Runs.push(
             { Name: "Clawitzer", Time: "6d2h16m", Group: "Pokemon" },
             { Name: "Pyroar", Time: "6d2h45m", Group: "Pokemon" },
             { Name: "Wailmer", Time: "6d3h42m", Group: "Pokemon" },
+            { Name: "Spearow", Time: "6d7h47m", Group: "Pokemon" },
+            { Name: "Pidove", Time: "6d8h1m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
