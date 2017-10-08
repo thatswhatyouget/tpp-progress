@@ -311,6 +311,7 @@ Season4.Runs.push(
             { Name: "Octillery", Time: "6d18h34m", Group: "Pokemon" },
             { Name: "Lumineon", Time: "6d19h6m", Group: "Pokemon" },
             { Name: "Pangoro", Time: "6d19h27m", Group: "Pokemon" },
+            { Name: "Frillish", Time: "6d22h13m", Group: "Pokemon" },
             { Name: "Chespin", Time: "7d1h14m", Group: "Pokemon" },
             { Name: "Milotic", Time: "7d2h20m", Group: "Pokemon" },
             { Name: "Tirtouga", Time: "7d5h30m", Group: "Pokemon" },
@@ -335,6 +336,9 @@ Season4.Runs.push(
             { Name: "Unown", Time: "8d2h3m", Group: "Pokemon" },
             { Name: "Metang", Time: "8d2h16m", Group: "Pokemon" },
             { Name: "Mawile", Time: "8d2h31m", Group: "Pokemon" },
+            { Name: "Sableye", Time: "8d2h41m", Group: "Pokemon" },
+            { Name: "Rhydon", Time: "8d2h46m", Group: "Pokemon" },
+            { Name: "Lairon", Time: "8d2h52m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
