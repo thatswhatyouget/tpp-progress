@@ -340,10 +340,21 @@ Season4.Runs.push(
             { Name: "Rhydon", Time: "8d2h46m", Group: "Pokemon" },
             { Name: "Lairon", Time: "8d2h52m", Group: "Pokemon" },
             { Name: "Durant", Time: "8d3h13m", Group: "Pokemon" },
-            
+            { Name: "Clauncher", Time: "8d4h46m", Group: "Pokemon" },
+            { Name: "Golurk", Time: "8d5h29m", Group: "Pokemon" },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "8d10h30m", Attempts: 1 },
+            { Name: "Forretress", Time: "8d11h44m", Group: "Pokemon" },
+            { Name: "Chandelure", Time: "8d12h18m", Group: "Pokemon" },
+            { Name: "Loudred", Time: "8d17h5m", Group: "Pokemon" },
+            { Name: "Machoke", Time: "8d17h20m", Group: "Pokemon" },
+            { Name: "Ursaring", Time: "8d17h22m", Group: "Pokemon" },
+            { Name: "Hariyama", Time: "8d17h39m", Group: "Pokemon" },
+            { Name: "Gabite", Time: "8d17h54m", Group: "Pokemon" },
+            { Name: "Steelix", Time: "8d18h35m", Group: "Pokemon" },
+            { Name: "Kadabra", Time: "8d18h48m", Group: "Pokemon" },
+            { Name: "Floatzel", Time: "8d22h24m", Group: "Pokemon" },
             
-            { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 2 },
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 0 },
@@ -351,6 +362,7 @@ Season4.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "61415", Attempts: 0, Party: [
                 ],
+                FirstAttemptDate: "8d23h32m",
                 Image: "img/ribbons/champion.png"
             },
         ]
