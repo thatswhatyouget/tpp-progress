@@ -339,6 +339,7 @@ Season4.Runs.push(
             { Name: "Sableye", Time: "8d2h41m", Group: "Pokemon" },
             { Name: "Rhydon", Time: "8d2h46m", Group: "Pokemon" },
             { Name: "Lairon", Time: "8d2h52m", Group: "Pokemon" },
+            { Name: "Durant", Time: "8d3h13m", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
