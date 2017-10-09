@@ -341,7 +341,8 @@ Season4.Runs.push(
             { Name: "Lairon", Time: "8d2h52m", Group: "Pokemon" },
             { Name: "Durant", Time: "8d3h13m", Group: "Pokemon" },
             
-            { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "8d10h30m", Attempts: 1 },
+            
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "", Attempts: 0 },
