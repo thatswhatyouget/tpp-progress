@@ -48,14 +48,14 @@ Season1.Runs.push(
                 Group: "Badges",
                 Name: "Voltage Badge",
                 Image: "img/badges/voltage.png",
-                Time: "3d 1h 59m",
+                Time: "2d 15h 59m",
                 Attempts: 3
             },
             {
                 Group: "Badges",
                 Name: "Fairy Badge",
                 Image: "img/badges/fairy.png",
-                Time: "3d 20h 57m",
+                Time: "2d 20h 57m",
                 Attempts: 1
             },
             {
