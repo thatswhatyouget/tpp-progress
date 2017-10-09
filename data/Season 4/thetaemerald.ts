@@ -353,9 +353,9 @@ Season4.Runs.push(
             { Name: "Steelix", Time: "8d18h35m", Group: "Pokemon" },
             { Name: "Kadabra", Time: "8d18h48m", Group: "Pokemon" },
             { Name: "Floatzel", Time: "8d22h24m", Group: "Pokemon" },
-            
-            { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 2 },
-            { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "8d23h49m", Attempts: 2 },
+
+            { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 1 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 0 },
             { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "", Attempts: 0 },
