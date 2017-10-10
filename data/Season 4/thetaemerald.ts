@@ -364,6 +364,13 @@ Season4.Runs.push(
             { Name: "Azumarill", Time: "9d2h48m", Group: "Pokemon" },
             { Name: "Magneton", Time: "9d3h25m", Group: "Pokemon" },
             { Name: "Omastar", Time: "9d6h7m", Group: "Pokemon" },
+            { Name: "Shuckle", Time: "9d6h28m", Group: "Pokemon" },
+            { Name: "Tyrantrum", Time: "9d7h5m", Group: "Pokemon" },
+            { Name: "Carracosta", Time: "9d7h38m", Group: "Pokemon" },
+            { Name: "Boldore", Time: "9d7h48m", Group: "Pokemon" },
+            { Name: "Crustle", Time: "9d7h52m", Group: "Pokemon" },
+            { Name: "Golduck", Time: "9d8h5m", Group: "Pokemon" },
+            { Name: "Eelektrik", Time: "9d8h14m", Group: "Pokemon" },
             
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 2 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "", Attempts: 0 },
