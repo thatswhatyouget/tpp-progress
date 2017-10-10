@@ -371,14 +371,15 @@ Season4.Runs.push(
             { Name: "Crustle", Time: "9d7h52m", Group: "Pokemon" },
             { Name: "Golduck", Time: "9d8h5m", Group: "Pokemon" },
             { Name: "Eelektrik", Time: "9d8h14m", Group: "Pokemon" },
-            { Name: "Luvdisc", Time: "9d8h25m", Group: "Pokemon" },          
+            { Name: "Luvdisc", Time: "9d8h25m", Group: "Pokemon" },
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "9d17h25m", Attempts: 5 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "9d17h32m", Attempts: 1 },
+            { Name: "Squirtle", Time: "10d50m", Group: "Pokemon" },
 
-            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 2 },
             { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 4, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 10, Party: [
                     { Pokemon: "Pangoro", Nickname: "KJIIHAB", Level: 59, Gender: "Female", Number: 0, IDNo: "51890" },
                     { Pokemon: "Mantine", Nickname: "UU NNNHKXX", Level: 65, Gender: "Female", Number: 0, IDNo: "51890" },
                     { Pokemon: "Gogoat", Nickname:"AAAAAAEEee", Level: 90, Gender: "Female", Number: 0, IDNo: "51890" },
