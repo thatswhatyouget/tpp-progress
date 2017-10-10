@@ -373,8 +373,8 @@ Season4.Runs.push(
             { Name: "Eelektrik", Time: "9d8h14m", Group: "Pokemon" },
             { Name: "Luvdisc", Time: "9d8h25m", Group: "Pokemon" },          
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "9d17h25m", Attempts: 5 },
+            { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "9d17h32m", Attempts: 1 },
 
-            { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "", Attempts: 1 },
             { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 0 },
             { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
