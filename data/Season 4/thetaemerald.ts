@@ -354,13 +354,29 @@ Season4.Runs.push(
             { Name: "Kadabra", Time: "8d18h48m", Group: "Pokemon" },
             { Name: "Floatzel", Time: "8d22h24m", Group: "Pokemon" },
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "8d23h49m", Attempts: 2 },
-
-            { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 1 },
+            { Name: "Marowak", Time: "9d24m", Group: "Pokemon" },
+            { Name: "Gurdurr", Time: "9d33m", Group: "Pokemon" },
+            { Name: "Fraxure", Time: "9d40m", Group: "Pokemon" },
+            { Name: "Galvantula", Time: "9d46m", Group: "Pokemon" },
+            { Name: "Mienshao", Time: "9d51m", Group: "Pokemon" },
+            { Name: "Excadrill", Time: "9d54m", Group: "Pokemon" },
+            { Name: "Noivern", Time: "9d1h17m", Group: "Pokemon" },
+            { Name: "Azumarill", Time: "9d2h48m", Group: "Pokemon" },
+            { Name: "Magneton", Time: "9d3h25m", Group: "Pokemon" },
+            { Name: "Omastar", Time: "9d6h7m", Group: "Pokemon" },
+            
+            { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 2 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 0 },
             { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "61415", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 4, Party: [
+                    { Pokemon: "Pangoro", Nickname: "KJIIHAB", Level: 59, Gender: "Female", Number: 0, IDNo: "51890" },
+                    { Pokemon: "Mantine", Nickname: "UU NNNHKXX", Level: 65, Gender: "Female", Number: 0, IDNo: "51890" },
+                    { Pokemon: "Gogoat", Nickname:"AAAAAAEEee", Level: 90, Gender: "Female", Number: 0, IDNo: "51890" },
+                    { Pokemon: "Malamar", Nickname: "ATTUttttz", Level: 65, Gender: "Female", Number: 0, IDNo: "51890" },
+                    { Pokemon: "Aegislash", Nickname: "AA", Level: 77, Gender: "Female", Number: 0, IDNo: "51890" },
+                    { Pokemon: "Chandelure", Level: 59, Gender: "Male", Number: 0, IDNo: "51890" },
                 ],
                 FirstAttemptDate: "8d23h32m",
                 Image: "img/ribbons/champion.png"
