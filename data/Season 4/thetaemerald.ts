@@ -375,6 +375,7 @@ Season4.Runs.push(
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "9d17h25m", Attempts: 5 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "9d17h32m", Attempts: 1 },
             { Name: "Squirtle", Time: "10d50m", Group: "Pokemon" },
+            { Name: "Zweilous", Time: "10d1h27m", Group: "Pokemon" },
 
             { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 2 },
             { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "", Attempts: 0 },
