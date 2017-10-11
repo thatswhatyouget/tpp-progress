@@ -376,21 +376,21 @@ Season4.Runs.push(
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "9d17h32m", Attempts: 1 },
             { Name: "Squirtle", Time: "10d50m", Group: "Pokemon" },
             { Name: "Zweilous", Time: "10d1h27m", Group: "Pokemon" },
-
-            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 2 },
-            { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "10d9h7m", Attempts: 9 },
+            { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "10d9h13m", Attempts: 1 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 10, Party: [
-                    { Pokemon: "Pangoro", Nickname: "KJIIHAB", Level: 59, Gender: "Female", Number: 0, IDNo: "51890" },
-                    { Pokemon: "Mantine", Nickname: "UU NNNHKXX", Level: 65, Gender: "Female", Number: 0, IDNo: "51890" },
-                    { Pokemon: "Gogoat", Nickname:"AAAAAAEEee", Level: 90, Gender: "Female", Number: 0, IDNo: "51890" },
-                    { Pokemon: "Malamar", Nickname: "ATTUttttz", Level: 65, Gender: "Female", Number: 0, IDNo: "51890" },
-                    { Pokemon: "Aegislash", Nickname: "AA", Level: 77, Gender: "Female", Number: 0, IDNo: "51890" },
-                    { Pokemon: "Chandelure", Level: 59, Gender: "Male", Number: 0, IDNo: "51890" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d9h16m", IDNo: "51890", Attempts: 18, Party: [
+                    { Pokemon: "Pangoro", Nickname: "KJIIHAB", Level: 83, Gender: "Female", Number: 216, IDNo: "51890" },
+                    { Pokemon: "Mantine", Nickname: "UU NNNHKXX", Level: 78, Gender: "Female", Number: 226, IDNo: "51890" },
+                    { Pokemon: "Chandelure", Nickname: "AACggg hh", Level: 79, Gender: "Male", Number: 150, IDNo: "51890" },
+                    { Pokemon: "Malamar", Nickname: "ATTUttttz ", Level: 82, Gender: "Female", Number: 228, IDNo: "51890" },
+                    { Pokemon: "Aegislash", Nickname: "AA", Level: 93, Gender: "Female", Number: 222, IDNo: "51890" },
+                    { Pokemon: "Gogoat", Nickname: "AAAAAAEEee", Level: 100, Gender: "Female", Number: 214, IDNo: "51890" },
                 ],
                 FirstAttemptDate: "8d23h32m",
                 Image: "img/ribbons/champion.png"
             },
+            { Name: "Zorua", Time: "10d9h39m", Group: "Pokemon" },
         ]
     }
 );
