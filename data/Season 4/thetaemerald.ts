@@ -405,6 +405,7 @@ Season4.Runs.push(
             { Name: "Darkrai", Time: "10d18h37m", Group: "Pokemon" },
             { Name: "Meloetta", Time: "10d19h5m", Group: "Pokemon" },
             { Name: "Yveltal", Time: "10d19h27m", Group: "Pokemon" },
+            { Name: "Hoopa", Time: "10d22h52m", Group: "Pokemon" },
         ]
     }
 );
