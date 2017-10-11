@@ -391,6 +391,7 @@ Season4.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
             { Name: "Zorua", Time: "10d9h39m", Group: "Pokemon" },
+            { Name: "Swirlix", Time: "10d10h17m", Group: "Pokemon" },
         ]
     }
 );
