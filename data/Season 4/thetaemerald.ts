@@ -392,6 +392,19 @@ Season4.Runs.push(
             },
             { Name: "Zorua", Time: "10d9h39m", Group: "Pokemon" },
             { Name: "Swirlix", Time: "10d10h17m", Group: "Pokemon" },
+            { Name: "Shaymin", Time: "10d10h33m", Group: "Pokemon" },
+            { Name: "Snivy", Time: "10d10h39m", Group: "Pokemon" },
+            { Name: "Lunatone", Time: "10d11h13m", Group: "Pokemon" },
+            { Name: "Jirachi", Time: "10d11h19m", Group: "Pokemon" },
+            { Name: "Salamence", Time: "10d11h30m", Group: "Pokemon" },
+            { Name: "Ferrothorn", Time: "10d11h43m", Group: "Pokemon" },
+            { Name: "Hydreigon", Time: "10d12h21m", Group: "Pokemon" },
+            { Name: "Tyranitar", Time: "10d12h23m", Group: "Pokemon" },
+            { Name: "Klink", Time: "10d15h25m", Group: "Pokemon" },
+            { Name: "Porygon", Time: "10d16h19m", Group: "Pokemon" },
+            { Name: "Darkrai", Time: "10d18h37m", Group: "Pokemon" },
+            { Name: "Meloetta", Time: "10d19h5m", Group: "Pokemon" },
+            { Name: "Yveltal", Time: "10d19h27m", Group: "Pokemon" },
         ]
     }
 );
