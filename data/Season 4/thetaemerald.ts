@@ -411,6 +411,18 @@ Season4.Runs.push(
             { Name: "Victini", Time: "11d9h16m", Group: "Pokemon" },
             { Name: "Regice", Time: "11d11h27m", Group: "Pokemon" },
             { Name: "Latias", Time: "11d15h11m", Group: "Pokemon" },
+            { Name: "Florges", Time: "11d15h52m", Group: "Pokemon" },
+            { Name: "Crobat", Time: "11d16h36m", Group: "Pokemon" },
+            { Name: "Aggron", Time: "11d16h40m", Group: "Pokemon" },
+            { Name: "Xerneas", Time: "11d17h27m", Group: "Pokemon" },
+            { Name: "Mew", Time: "11d17h47m", Group: "Pokemon" },
+            { Name: "Cubone", Time: "11d19h51m", Group: "Pokemon" },
+            { Name: "Axew", Time: "11d20h4m", Group: "Pokemon" },
+            { Name: "Treecko", Time: "11d21h13m", Group: "Pokemon" },
+            { Name: "Tornadus", Time: "11d21h36m", Group: "Pokemon" },
+            { Name: "Thundurus", Time: "11d22h9m", Group: "Pokemon" },
+            { Name: "Feebas", Time: "11d22h44m", Group: "Pokemon" },
+            { Name: "Registeel", Time: "11d23h54m", Group: "Pokemon" },
             
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [
