@@ -409,6 +409,8 @@ Season4.Runs.push(
             { Name: "Wailord", Time: "11d2h37m", Group: "Pokemon" },
             { Name: "Gorebyss", Time: "11d8h4m", Group: "Pokemon" },
             { Name: "Victini", Time: "11d9h16m", Group: "Pokemon" },
+            { Name: "Regice", Time: "11d11h27m", Group: "Pokemon" },
+            { Name: "Latias", Time: "11d15h11m", Group: "Pokemon" },
             
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [
