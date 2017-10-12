@@ -423,6 +423,7 @@ Season4.Runs.push(
             { Name: "Thundurus", Time: "11d22h9m", Group: "Pokemon" },
             { Name: "Feebas", Time: "11d22h44m", Group: "Pokemon" },
             { Name: "Registeel", Time: "11d23h54m", Group: "Pokemon" },
+            { Name: "Mudkip", Time: "12d44m", Group: "Pokemon" },
             
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [
