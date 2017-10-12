@@ -407,6 +407,7 @@ Season4.Runs.push(
             { Name: "Yveltal", Time: "10d19h27m", Group: "Pokemon" },
             { Name: "Hoopa", Time: "10d22h52m", Group: "Pokemon" },
             { Name: "Wailord", Time: "11d2h37m", Group: "Pokemon" },
+            { Name: "Gorebyss", Time: "11d8h4m", Group: "Pokemon" },
             
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [
