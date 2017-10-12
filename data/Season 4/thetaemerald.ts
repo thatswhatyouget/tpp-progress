@@ -406,6 +406,20 @@ Season4.Runs.push(
             { Name: "Meloetta", Time: "10d19h5m", Group: "Pokemon" },
             { Name: "Yveltal", Time: "10d19h27m", Group: "Pokemon" },
             { Name: "Hoopa", Time: "10d22h52m", Group: "Pokemon" },
+            { Name: "Wailord", Time: "11d2h37m", Group: "Pokemon" },
+            
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [
+                    { Pokemon: "Pangoro", Nickname: "KJIIHAB", Level: 83, Gender: "Female", Number: 216, IDNo: "51890" },
+                    { Pokemon: "Mantine", Nickname: "UU NNNHKXX", Level: 78, Gender: "Female", Number: 226, IDNo: "51890" },
+                    { Pokemon: "Chandelure", Nickname: "AACggg hh", Level: 79, Gender: "Male", Number: 150, IDNo: "51890" },
+                    { Pokemon: "Malamar", Nickname: "ATTUttttz ", Level: 82, Gender: "Female", Number: 228, IDNo: "51890" },
+                    { Pokemon: "Aegislash", Nickname: "AA", Level: 93, Gender: "Female", Number: 222, IDNo: "51890" },
+                    { Pokemon: "Gogoat", Nickname: "AAAAAAEEee", Level: 100, Gender: "Female", Number: 214, IDNo: "51890" },
+                ],
+                FirstAttemptDate: "11dh55m",
+                Image: "img/ribbons/champion.png"
+            },
         ]
     }
 );
