@@ -449,6 +449,13 @@ Season4.Runs.push(
             { Name: "Darmanitan", Time: "12d14h41m", Group: "Pokemon" },
             { Name: "Servine", Time: "12d15h40m", Group: "Pokemon" },
             { Name: "Flygon", Time: "12d15h48m", Group: "Pokemon" },
+            { Name: "Zoroark", Time: "12d16h32m", Group: "Pokemon" },
+            { Name: "Spewpa", Time: "12d17h6m", Group: "Pokemon" },
+            { Name: "Vivillon", Time: "12d17h9m", Group: "Pokemon" },
+            { Name: "Diggersby", Time: "12d17h23m", Group: "Pokemon" },
+            { Name: "Serperior", Time: "12d18h", Group: "Pokemon" },
+            { Name: "Heatmor", Time: "12d18h30m", Group: "Pokemon" },
+            { Name: "Larvesta", Time: "12d18h53m", Group: "Pokemon" },
             
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [
