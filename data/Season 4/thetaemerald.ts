@@ -456,6 +456,12 @@ Season4.Runs.push(
             { Name: "Serperior", Time: "12d18h", Group: "Pokemon" },
             { Name: "Heatmor", Time: "12d18h30m", Group: "Pokemon" },
             { Name: "Larvesta", Time: "12d18h53m", Group: "Pokemon" },
+            { Name: "Toxicroak", Time: "12d20h7m", Group: "Pokemon" },
+            { Name: "Drapion", Time: "12d20h12m", Group: "Pokemon" },
+            { Name: "Krokorok", Time: "12d21h16m", Group: "Pokemon" },
+            { Name: "Hippowdon", Time: "12d21h40m", Group: "Pokemon" },
+            { Name: "Krookodile", Time: "12d21h16m", Group: "Pokemon" },
+            { Name: "Trevenant", Time: "13d1h2m", Group: "Pokemon" },
             
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [
