@@ -460,8 +460,13 @@ Season4.Runs.push(
             { Name: "Drapion", Time: "12d20h12m", Group: "Pokemon" },
             { Name: "Krokorok", Time: "12d21h16m", Group: "Pokemon" },
             { Name: "Hippowdon", Time: "12d21h40m", Group: "Pokemon" },
-            { Name: "Krookodile", Time: "12d21h16m", Group: "Pokemon" },
+            { Name: "Krookodile", Time: "12d22h40m", Group: "Pokemon" },
             { Name: "Trevenant", Time: "13d1h2m", Group: "Pokemon" },
+            { Name: "Lilligant", Time: "13d1h37m", Group: "Pokemon" },
+            { Name: "Ludicolo", Time: "13d1h39m", Group: "Pokemon" },
+            { Name: "Gourgeist", Time: "13d1h40m", Group: "Pokemon" },
+            { Name: "Aromatisse", Time: "13d1h42m", Group: "Pokemon" },
+            { Name: "Weavile", Time: "13d1h43m", Group: "Pokemon" },
             
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [
