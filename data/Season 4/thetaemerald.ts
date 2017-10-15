@@ -4,10 +4,9 @@ Season4.Runs.push(
         RunName: "Theta Emerald EX",
         ColorPrimary: "#64ab64",
         ColorSecondary: "darkgreen",
-        Duration: "255d",
+        Duration: "15d",
         StartDate: "2017-09-30T21:00:00Z",
         HostName: "ACCPPQ",
-        // HostImage: "https://cdn.bulbagarden.net/upload/a/a4/Spr_E_May.png",
         HostImage: "img/hosts/accppq.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/74edfi/acacia_aka_acapella_the_party_girl/",
         Region: "Hoenn",
@@ -526,14 +525,7 @@ Season4.Runs.push(
             { Name: "Beldum", Time: "14d21h13m", Group: "Pokemon" },
             
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [
-                    { Pokemon: "Pangoro", Nickname: "KJIIHAB", Level: 83, Gender: "Female", Number: 216, IDNo: "51890" },
-                    { Pokemon: "Mantine", Nickname: "UU NNNHKXX", Level: 78, Gender: "Female", Number: 226, IDNo: "51890" },
-                    { Pokemon: "Chandelure", Nickname: "AACggg hh", Level: 79, Gender: "Male", Number: 150, IDNo: "51890" },
-                    { Pokemon: "Malamar", Nickname: "ATTUttttz ", Level: 82, Gender: "Female", Number: 228, IDNo: "51890" },
-                    { Pokemon: "Aegislash", Nickname: "AA", Level: 93, Gender: "Female", Number: 222, IDNo: "51890" },
-                    { Pokemon: "Gogoat", Nickname: "AAAAAAEEee", Level: 100, Gender: "Female", Number: 214, IDNo: "51890" },
-                ],
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [],
                 FirstAttemptDate: "11dh55m",
                 Image: "img/ribbons/champion.png"
             },
