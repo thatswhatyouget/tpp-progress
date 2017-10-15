@@ -517,6 +517,12 @@ Season4.Runs.push(
             { Name: "Swanna", Time: "14d5h22m", Group: "Pokemon" },
             { Name: "Torterra", Time: "14d5h23m", Group: "Pokemon" },
             { Name: "Phione", Time: "14d11h11m", Group: "Pokemon" },
+            { Name: "Mandibuzz", Time: "14d14h47m", Group: "Pokemon" },
+            { Name: "Sawsbuck", Time: "14d15h15m", Group: "Pokemon" },
+            { Name: "Cherrim", Time: "14d15h43m", Group: "Pokemon" },
+            { Name: "Tangrowth", Time: "14d15h55m", Group: "Pokemon" },
+            { Name: "Abomasnow", Time: "14d16h3m", Group: "Pokemon" },
+            { Name: "Braviary", Time: "14d16h20m", Group: "Pokemon" },
             
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [
