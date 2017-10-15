@@ -500,6 +500,23 @@ Season4.Runs.push(
             { Name: "Diancie", Time: "13d23h34m", Group: "Pokemon" },
             { Name: "Kangaskhan", Time: "13d23h44m", Group: "Pokemon" },
             { Name: "Onix", Time: "13d23h57m", Group: "Pokemon" },
+            { Name: "Simisage", Time: "14d1h16m", Group: "Pokemon" },
+            { Name: "Simisear", Time: "14d1h18m", Group: "Pokemon" },
+            { Name: "Simipour", Time: "14d1h20m", Group: "Pokemon" },
+            { Name: "Musharna", Time: "14d1h21m", Group: "Pokemon" },
+            { Name: "Whimsicott", Time: "14d1h23m", Group: "Pokemon" },
+            { Name: "Conkeldurr", Time: "14d1h55m", Group: "Pokemon" },
+            { Name: "Rhyperior", Time: "14d1h56m", Group: "Pokemon" },
+            { Name: "Mismagius", Time: "14d1h58m", Group: "Pokemon" },
+            { Name: "Delcatty", Time: "14d2h", Group: "Pokemon" },
+            { Name: "Huntail", Time: "14d2h2m", Group: "Pokemon" },
+            { Name: "Grotle", Time: "14d2h50m", Group: "Pokemon" },
+            { Name: "Magmar", Time: "14d3h20m", Group: "Pokemon" },
+            { Name: "Klinklang", Time: "14d3h27m", Group: "Pokemon" },
+            { Name: "Magmortar", Time: "14d4h13m", Group: "Pokemon" },
+            { Name: "Swanna", Time: "14d5h22m", Group: "Pokemon" },
+            { Name: "Torterra", Time: "14d5h23m", Group: "Pokemon" },
+            { Name: "Phione", Time: "14d11h11m", Group: "Pokemon" },
             
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [
