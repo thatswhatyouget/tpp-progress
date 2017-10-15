@@ -490,6 +490,16 @@ Season4.Runs.push(
             { Name: "Vanilluxe", Time: "13d16h42m", Group: "Pokemon" },
             { Name: "Quilladin", Time: "13d17h18m", Group: "Pokemon" },
             { Name: "Masquerain", Time: "13d17h46m", Group: "Pokemon" },
+            { Name: "Klang", Time: "13d18h6m", Group: "Pokemon" },
+            { Name: "Chesnaught", Time: "13d19h40m", Group: "Pokemon" },
+            { Name: "Electabuzz", Time: "13d19h42m", Group: "Pokemon" },
+            { Name: "Volcarona", Time: "13d20h49m", Group: "Pokemon" },
+            { Name: "Nuzleaf", Time: "13d21h56m", Group: "Pokemon" },
+            { Name: "Electivire", Time: "13d22h34m", Group: "Pokemon" },
+            { Name: "Shiftry", Time: "13d22h36m", Group: "Pokemon" },
+            { Name: "Diancie", Time: "13d23h34m", Group: "Pokemon" },
+            { Name: "Kangaskhan", Time: "13d23h44m", Group: "Pokemon" },
+            { Name: "Onix", Time: "13d23h57m", Group: "Pokemon" },
             
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [
