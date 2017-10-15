@@ -523,6 +523,7 @@ Season4.Runs.push(
             { Name: "Tangrowth", Time: "14d15h55m", Group: "Pokemon" },
             { Name: "Abomasnow", Time: "14d16h3m", Group: "Pokemon" },
             { Name: "Braviary", Time: "14d16h20m", Group: "Pokemon" },
+            { Name: "Beldum", Time: "14d21h13m", Group: "Pokemon" },
             
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "51890", Attempts: 1, Party: [
