@@ -1,19 +1,19 @@
 /// <reference path="../tpp-data.ts" />
 Sidegames.Runs.push(
     {
-        RunName: "Green",
+        RunName: "Bootleg Green",
         ColorPrimary: "green",
         ColorSecondary: "darkgreen",
         Duration: "255w",
         StartDate: "2017-10-15T21:00:00Z",
-        HostName: "",
+        HostName: "LARRY",
         HostImage: "https://cdn.bulbagarden.net/upload/6/66/Spr_RG_Red_1.png",
         BaseGame: "Red",
         Region: "Kanto",
         ContainsRunsFrom: ["Revisits", "Intermissions", "Season 4"],
         SidegameId: "pg",
         Events: [
-            { Name: "", Time: "", Group: "Pokemon" },
+            { Name: "TORTO", Class: "Squirtle", Time: "Tue Oct 17 2017 02:40:22 GMT+0000 (UTC)", Group: "Pokemon" },
             { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
@@ -26,7 +26,7 @@ Sidegames.Runs.push(
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 0 },
-            { Group: "Champions", Name: "Rival", Image: "img/trainers/red/green.png", Time: "", Attempts: 0 },
+            { Group: "Champions", Name: "GRAPE", Image: "img/trainers/red/green.png", Time: "", Attempts: 0 },
         ]
     }
 );
