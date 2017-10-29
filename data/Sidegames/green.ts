@@ -22,7 +22,9 @@ Sidegames.Runs.push(
                 FirstAttemptDate: "2017-10-22T00:14:08+00:00"
             },
             { Name: "YEEB", Class: "Eevee", Time: "2017-10-24T18:24:58+00:00", Group: "Pokemon" },
-
+            { Name: "SUNRA", Class: "Jolteon", Time: "2017-10-28T16:19:56+00:00", Group: "Pokemon" },
+            { Name: "SHOWE", Class: "Vaporeon", Time: "2017-10-29T00:14:56+00:00", Group: "Pokemon" },
+            
             { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
