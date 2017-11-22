@@ -134,7 +134,7 @@ namespace TPP.Pokedex {
             if (!Array.isArray(pokeList))
                 pokeList = pokeList.split(',');    
             pokeList = pokeList.map(p => p.toLowerCase().trim());
-            this.Entries = this.Entries.filter(e => pokeList.indexOf(e.Pokemon.toLowerCase()) >= 0);
+            this.Entries = this.Entries.filter(e => pokeList.indexOf(e.Pokemon.toLowerCase()) >= 0 || pokeList.indexOf(e.Number.toString()) >= 0);
         }
 
         public FilterDexToHallOfFame() {

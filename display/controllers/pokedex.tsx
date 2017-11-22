@@ -31,7 +31,7 @@ namespace TPP.Controllers {
             var pokeList = Transforms.Pokedex.ClipNationalDex(this.dexData.GenSlice[this.queryString["g"] || 0]);
             var classes = "";
             var dexName = this.queryString["dex"] || "National";
-            if (QueryString["dex"] && this.dexData.Regional[this.queryString["dex"]]) {                
+            if (this.queryString["dex"] && this.dexData.Regional[this.queryString["dex"]]) {                
                 pokeList = TPP.Transforms.Pokedex.DexMerge(this.dexData.Regional[dexName], pokeList);
                 classes = this.dexData.specialClasses[dexName] || "";
                 if (this.dexData.runRestrictions[dexName])
@@ -43,7 +43,7 @@ namespace TPP.Controllers {
             if (this.queryString["nowifi"]) {
                 tppData = TPP.Transforms.Data.Filter.NoWifiTradePokemon(tppData);
             }
-            if (QueryString["only"]) {
+            if (this.queryString["only"]) {
                 tppData = TPP.Transforms.Data.Filter.Search(tppData, this.queryString["only"]);
             }
             var dex = new TPP.Transforms.Pokedex.GlobalDex(tppData, pokeList);
@@ -51,8 +51,10 @@ namespace TPP.Controllers {
             dex.SortDex(sorting);
             if (this.queryString["hofonly"])
                 dex.FilterDexToHallOfFame();
-            if (this.queryString["pokemon"])
-                dex.FilterDexPokemon(QueryString["pokemon"]);
+            if (this.queryString["pokemon"]) {
+                console.log(this.queryString["pokemon"]);
+                dex.FilterDexPokemon(this.queryString["pokemon"]);
+            }
             if (this.queryString["run"]) {
                 dex.FilterOwnedInDexToRuns(this.queryString["run"]);
                 var onlyRun = TPP.Transforms.Data.Filter.GetOnlyRun(TPP.Transforms.Data.Filter.RunSearch(tppData, this.queryString["run"]));
