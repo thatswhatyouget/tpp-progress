@@ -180,12 +180,13 @@ function drawConcurrentRuns(baseRunInfo: TPP.Run, runElement: HTMLDivElement, sc
     if (!baseRunInfo.ContainsRunsFrom || !baseRunInfo.ContainsRunsFrom.length) return;
     var baseDuration = Duration.parse(baseRunInfo.Duration),
         baseEndTime = baseRunInfo.StartTime + baseDuration.TotalSeconds;
+    var innerRuns = new Array<{ time: number, div: HTMLDivElement }>();
     tppData.filter(c => baseRunInfo.ContainsRunsFrom.indexOf(c.Name) >= 0).map(c => c.Runs.filter(r => baseRunInfo != r && baseRunInfo.StartTime <= r.StartTime && baseEndTime > r.StartTime).forEach(r => {
         var innerRun = document.createElement("div");
         var runStart = Duration.parse(r.StartDate, baseRunInfo.StartTime),
             runEnd = Duration.parse(r.Duration, r.StartTime);
         innerRun.setAttribute("data-time", runStart.toString(TPP.Scale.Weeks));
-        runElement.appendChild(innerRun);
+        innerRuns.push({ time: runStart.TotalSeconds, div: innerRun });
         drawRun(r, innerRun, scale, false);
         if (runEnd.TotalSeconds + runStart.TotalSeconds >= baseDuration.TotalSeconds) {
             runEnd.TotalSeconds = baseDuration.TotalSeconds - runStart.TotalSeconds;
@@ -196,6 +197,7 @@ function drawConcurrentRuns(baseRunInfo: TPP.Run, runElement: HTMLDivElement, sc
         innerRun.classList.add("inner" + cleanString(r.RunName));
         innerRun.setAttribute('data-label', (c.SingularName || c.Name) + "\n" + r.RunName + "\nStarted: " + runStart.toString(scale) + (r.Ongoing ? "" : "\nEnded: " + runEnd.toString(scale)));
     }));
+    innerRuns.sort((r1, r2) => r1.time - r2.time).forEach(e => runElement.appendChild(e.div));
 }
 
 function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
