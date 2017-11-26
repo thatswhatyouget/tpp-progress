@@ -113,7 +113,7 @@ namespace TPP.Display.Elements.RunStatus {
         private get Pokedex() {
             if (!this.props.buildDex)
                 return null;
-            var dex = this.props.buildDex(this.props.run);
+            var dex = JSON.parse(JSON.stringify(this.props.buildDex(this.props.run)));
             //fold in run's caught list
             (this.state.status.caught_list || []).forEach(c => dex.Entries.forEach(e => {
                 if (e.Number == c && e.Owners.filter(o => o.Run == this.props.run).length == 0)
