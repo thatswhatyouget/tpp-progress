@@ -223,6 +223,8 @@ namespace TPP.Display.Elements.RunStatus {
                     <ItemDisplay key="TMs" title="TMs and HMs" items={this.state.status.items.tms} />
                     <ItemDisplay key="Medicine" title="Medicine" items={this.state.status.items.medicine} />
                     <ItemDisplay key="Berries" title="Berries" items={this.state.status.items.berries} />
+                    <ItemDisplay key="Z-Crystals" title="Z-Crystals" items={this.state.status.items.z_crystals} />
+                    <ItemDisplay key="Rotom Powers" title="Rotom Powers" items={this.state.status.items.rotom_powers} />
                     <ItemDisplay key="Free Space" title="Free Space" items={this.state.status.items.free_space} />
                     <ItemDisplay key="PC Items" title={pokeRedCondenseText(`${this.state.run.HostName}'s PC`)} items={this.state.status.items.pc} />
                     {this.Pokedex}
