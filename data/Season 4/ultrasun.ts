@@ -45,7 +45,8 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Brionne", "Time": "15h6m" },
             { "Group": "Pokemon", "Name": "Smeargle", "Time": "15h17m" },
             { "Group": "Badges", "Name": "Fightinium Z", "Image": "img/z-crystals/Fightinium Z.png", "Time": "17h 4m", "Attempts": 1 },
-
+            { "Group": "Pokemon", "Name": "Gastly", "Time": "23h5m" },
+            
             { "Group": "Badges", "Name": "Waterium Z", "Image": "img/z-crystals/Waterium Z.png", "Time": "", "Attempts": 0 },
             { "Group": "Badges", "Name": "Firium Z", "Image": "img/z-crystals/Firium Z.png", "Time": "", "Attempts": 0 },
             { "Group": "Badges", "Name": "Grassium Z", "Image": "img/z-crystals/Grassium Z.png", "Time": "", "Attempts": 0 },
