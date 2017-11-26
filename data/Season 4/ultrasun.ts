@@ -1,5 +1,5 @@
 /// <reference path="../tpp-data.ts" />
-Season3.Runs.push(
+Season4.Runs.push(
     {
         RunName: "Ultra Sun",
         ColorSecondary: "black",
