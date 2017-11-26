@@ -28,6 +28,9 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Mime Jr.", "Time": "7h17m" },
             { "Group": "Pokemon", "Name": "Furfrou", "Time": "7h20m" },
             { "Group": "Pokemon", "Name": "Wingull", "Time": "7h23m" },
+            { "Group": "Pokemon", "Name": "Makuhita", "Time": "8h34m" },
+            { "Group": "Pokemon", "Name": "Dunsparce", "Time": "9h10m" },
+            { "Group": "Pokemon", "Name": "Ekans", "Time": "9h17m" },
             
             { "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "", "Attempts": 0 },
             { "Group": "Badges", "Name": "Fightinium Z", "Image": "img/z-crystals/Fightinium Z.png", "Time": "", "Attempts": 0 },
