@@ -81,8 +81,14 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Poliwag", "Time": "2d 11h 20m" },
             { "Group": "Pokemon", "Name": "Marowak", "Time": "2d 12h 21m" },
             { "Group": "Pokemon", "Name": "Ditto", "Time": "2d 14h 29m" },
-            
-            { "Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", "Time": "", "Attempts": 0 },
+{ "Group": "Pokemon", "Name": "Cranidos", "Time": "2d 18h 18m" },
+ { "Group": "Pokemon", "Name": "Tirtouga", "Time": "2d 18h 20m" },
+ { "Group": "Pokemon", "Name": "Tyrunt", "Time": "2d 18h 20m" }, { "Group": "Pokemon", "Name": "Stufful", "Time": "2d 19h 0m" }, { "Group": "Pokemon", "Name": "Passimian", "Time": "2d 19h 23m" }, { "Group": "Pokemon", "Name": 
+"Paras", "Time": "2d 19h 29m" }, { "Group": "Pokemon", "Name": "Metapod", "Time": "2d 19h 39m" },
+{ "Group": "Pokemon", "Name": "Raticate", "Time": "2d 22h 13m" },
+{ "Group": "Pokemon", "Name": "Phantump", "Time": "2d 22h 41m" },           
+            { "Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", "Time": "2d 22h 58m", "Attempts": 1 },
+
             { "Group": "Badges", "Name": "Electrium Z", "Image": "img/z-crystals/Electrium Z.png", "Time": "", "Attempts": 0 },
             { "Group": "Badges", "Name": "Ghostium Z", "Image": "img/z-crystals/Ghostium Z.png", "Time": "", "Attempts": 0 },
             { "Group": "Badges", "Name": "Darkium Z", "Image": "img/z-crystals/Darkium Z.png", "Time": "", "Attempts": 0 },
