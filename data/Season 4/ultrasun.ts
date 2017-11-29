@@ -115,7 +115,9 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Turtonator", "Time": "3d 14h 33m" },
             { "Group": "Pokemon", "Name": "Vikavolt", "Time": "3d 15h 5m" },
             { "Group": "Pokemon", "Name": "Lurantis", "Time": "3d 17h 9m" },
-            
+            { "Group": "Pokemon", "Name": "Sandygast", "Time": "3d 18h 10m" },
+            { "Group": "Pokemon", "Name": "Staryu", "Time": "3d 18h 20m" },
+
             { "Group": "Badges", "Name": "Ghostium Z", "Image": "img/z-crystals/Ghostium Z.png", "Time": "", "Attempts": 0 },
             { "Group": "Badges", "Name": "Darkium Z", "Image": "img/z-crystals/Darkium Z.png", "Time": "", "Attempts": 0 },
             { "Group": "Badges", "Name": "Groundium Z", "Image": "img/z-crystals/Groundium Z.png", "Time": "", "Attempts": 0 },
