@@ -168,7 +168,10 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Audino", "Time": "5d 13h 17m" },            
             { "Group": "Badges", "Name": "Fairium Z", "Image": "img/z-crystals/Fairium Z.png", "Time": "5d 15h 57m", "Attempts": 2 },
             { "Group": "Badges", "Name": "Groundium Z", "Image": "img/z-crystals/Groundium Z.png", "Time": "5d 16h 34m", "Attempts": 2 },
-            
+{ "Group": "Pokemon", "Name": "Glalie", "Time": "5d 17h 56m" },
+ { "Group": "Pokemon", "Name": "Necrozma", "Time": "5d 18h 13m" },
+{ "Group": "Pokemon", "Name": "Swanna", "Time": "5d 19h 13m" },
+
             { "Group": "Elite Four", "Name": "Hala", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four", "Name": "Acerola", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
