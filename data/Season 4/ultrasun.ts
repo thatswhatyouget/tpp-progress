@@ -171,6 +171,7 @@ Season4.Runs.push(
 { "Group": "Pokemon", "Name": "Glalie", "Time": "5d 17h 56m" },
  { "Group": "Pokemon", "Name": "Necrozma", "Time": "5d 18h 13m" },
 { "Group": "Pokemon", "Name": "Swanna", "Time": "5d 19h 13m" },
+{ "Group": "Pokemon", "Name": "Buzzwole", "Time": "5d 20h 30m" },
 
             { "Group": "Elite Four", "Name": "Hala", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four", "Name": "Acerola", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
