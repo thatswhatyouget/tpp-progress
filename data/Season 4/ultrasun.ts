@@ -176,7 +176,7 @@ Season4.Runs.push(
 
             { "Group": "Elite Four", "Name": "Molayne", "Time": "6d 0h 49m", "Attempts": 1, "Image": "img/trainers/sun/molayne.png", "ImageSource": "https://www.deviantart.com/art/Custom-sprite-Molayne-653031564" },
             { "Group": "Elite Four", "Name": "Olivia", "Time": "6d 1h 17m", "Attempts": 1, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
-            { "Group": "Elite Four", "Name": "Acerola", "Time": "", "Attempts": 1, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
+            { "Group": "Elite Four", "Name": "Acerola", "Time": "6d1h49m", "Attempts": 2, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four", "Name": "Kahili", "Time": "", "Attempts": 1, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
             { "Group": "Champions", "Name": "Professor Kukui", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
             <TPP.HallOfFame>{
