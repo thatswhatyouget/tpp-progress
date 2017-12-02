@@ -180,7 +180,10 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Tyranitar", "Time": "6d 3h 41m" },
             { "Group": "Pokemon", "Name": "Heliolisk", "Time": "6d 5h 31m" },
             { "Group": "Elite Four", "Name": "Kahili", "Time": "6d10h3m", "Attempts": 3, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
-
+            { "Group": "Pokemon", "Name": "Swellow", "Time": "6d 23h 39m" },
+            { "Group": "Pokemon", "Name": "Crustle", "Time": "7d 0h 6m" },
+            { "Group": "Pokemon", "Name": "Altaria", "Time": "7d 0h 25m" },
+            
             { "Group": "Champions", "Name": "Hau", "Time": "", "Attempts": 1, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 17, Party: [
