@@ -179,11 +179,11 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Sneasel", "Time": "6d 2h 44m" },
             { "Group": "Pokemon", "Name": "Tyranitar", "Time": "6d 3h 41m" },
             { "Group": "Pokemon", "Name": "Heliolisk", "Time": "6d 5h 31m" },
+            { "Group": "Elite Four", "Name": "Kahili", "Time": "6d10h3m", "Attempts": 3, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
 
-            { "Group": "Elite Four", "Name": "Kahili", "Time": "", "Attempts": 2, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
-            { "Group": "Champions", "Name": "Professor Kukui", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
+            { "Group": "Champions", "Name": "Hau", "Time": "", "Attempts": 1, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 5, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 17, Party: [
                     { Pokemon: "Primarina", Nickname: "NNL4 NNNND  ", Gender: "Male", Level: 67 },
                     { Pokemon: "Trevenant", Nickname: "Tumptump", Gender: "Male", Level: 65 },
                     { Pokemon: "Lycanroc", Gender: "Male", Level: 56 },
