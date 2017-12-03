@@ -202,12 +202,16 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Type: Null", "Time": "7d 13h 38m" },
             { "Group": "Pokemon", "Name": "Blacephalon", "Time": "7d 13h 43m" },
             { "Group": "Pokemon", "Name": "Electrode", "Time": "7d 15h 23m" },
-
-            { "Group": "Elite Four Rematch", "Name": "Hala", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
+            { "Group": "Pokemon", "Name": "Seel", "Time": "7d 19h 7m" },
+            { "Group": "Pokemon", "Name": "Zoroark", "Time": "8d 0h 38m" },
+            { "Group": "Pokemon", "Name": "Eelektross", "Time": "8d 1h 54m" },
+            { "Group": "Pokemon", "Name": "Lumineon", "Time": "8d 2h 6m" },
+            
+            { "Group": "Elite Four Rematch", "Name": "Molayne", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/molayne.gif", "ImageSource": "https://www.deviantart.com/art/Custom-sprite-Molayne-653031564" },
             { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
             { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
-            { "Group": "Champions", "Name": "Hau", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
+            { "Group": "Champions", "Name": "Hau", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
                 ],
