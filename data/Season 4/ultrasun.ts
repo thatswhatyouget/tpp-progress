@@ -186,20 +186,23 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Surskit", "Time": "7d 7h 26m" },
             { "Group": "Pokemon", "Name": "Morelull", "Time": "7d 7h 36m" },
             { "Group": "Pokemon", "Name": "Drifloon", "Time": "7d 10h 2m" },
-
-            { "Group": "Champions", "Name": "Hau", "Time": "", "Attempts": 2, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
+            { "Group": "Champions", "Name": "Hau", "Time": "7d 13h 5m", "Attempts": 3, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 24, Party: [
-                    { Pokemon: "Primarina", Nickname: "NNL4 NNNND  ", Gender: "Male", Level: 67 },
-                    { Pokemon: "Trevenant", Nickname: "Tumptump", Gender: "Male", Level: 65 },
-                    { Pokemon: "Lycanroc", Gender: "Male", Level: 56 },
-                    { Pokemon: "Vikavolt", Nickname: "6667R RB  ", Gender: "Female", Level: 62 },
-                    { Pokemon: "Tyranitar", Nickname: "!!     443!", Gender: "Female", Level: 56 },
-                    { Pokemon: "Muk", Nickname: "IS FFQÉ", Gender: "Male", Form: "Alolan", Level: 64 },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "7d13h6m", Attempts: 25, Party: [
+                    { Pokemon: "Trevenant", Nickname: "Tumptump", Gender: "Male", Level: 78 },
+                    { Pokemon: "Primarina", Nickname: "NNL4 NNNND  ", Gender: "Male", Level: 79 },
+                    { Pokemon: "Tyranitar", Nickname: "!!     443!", Gender: "Female", Level: 71 },
+                    { Pokemon: "Vikavolt", Nickname: "6667R RB  ", Gender: "Female", Level: 77 },
+                    { Pokemon: "Lycanroc", Nickname: "AYYYYYSS ", Gender: "Male", Level: 72 },
+                    { Pokemon: "Muk", Nickname: "IS FFQÉ", Gender: "Male", Form: "Alolan", Level: 77 },
                 ],
                 Image: "img/ribbons/champion-alola.png",
                 FirstAttemptDate: "6d 0h 38m"
             },
+            { "Group": "Pokemon", "Name": "Type: Null", "Time": "7d 13h 38m" },
+            { "Group": "Pokemon", "Name": "Blacephalon", "Time": "7d 13h 43m" },
+            { "Group": "Pokemon", "Name": "Electrode", "Time": "7d 15h 23m" },
+
             { "Group": "Elite Four Rematch", "Name": "Hala", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
             { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
