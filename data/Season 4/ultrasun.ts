@@ -206,6 +206,11 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Zoroark", "Time": "8d 0h 38m" },
             { "Group": "Pokemon", "Name": "Eelektross", "Time": "8d 1h 54m" },
             { "Group": "Pokemon", "Name": "Lumineon", "Time": "8d 2h 6m" },
+            { "Group": "Pokemon", "Name": "Tapu Fini", "Time": "8d 2h 39m" },
+            { "Group": "Pokemon", "Name": "Mudsdale", "Time": "8d 4h 1m" },
+            { "Group": "Pokemon", "Name": "Noivern", "Time": "8d 4h 40m" },
+            { "Group": "Pokemon", "Name": "Druddigon", "Time": "8d 5h 5m" },
+            { "Group": "Pokemon", "Name": "Miltank", "Time": "8d 5h 15m" },
             
             { "Group": "Elite Four Rematch", "Name": "Molayne", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/molayne.gif", "ImageSource": "https://www.deviantart.com/art/Custom-sprite-Molayne-653031564" },
             { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
