@@ -216,6 +216,13 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Flabébé", "Time": "8d 6h 36m" },
             { "Group": "Pokemon", "Name": "Smoochum", "Time": "8d 7h 6m" },
             { "Group": "Pokemon", "Name": "Wishiwashi", "Time": "8d 7h 28m" },
+            { "Group": "Pokemon", "Name": "Wailord", "Time": "8d 9h 49m" },
+            { "Group": "Pokemon", "Name": "Dhelmise", "Time": "8d 10h 14m" },
+            { "Group": "Pokemon", "Name": "Zygarde", "Time": "8d 11h 5m" },
+            { "Group": "Pokemon", "Name": "Magearna", "Time": "8d 11h 52m" },
+            { "Group": "Pokemon", "Name": "Lickitung", "Time": "8d 12h 22m" },
+            { "Group": "Pokemon", "Name": "Granbull", "Time": "8d 12h 28m" },
+            { "Group": "Pokemon", "Name": "Bewear", "Time": "8d 12h 35m" },
 
             { "Group": "Elite Four Rematch", "Name": "Molayne", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/molayne.gif", "ImageSource": "https://www.deviantart.com/art/Custom-sprite-Molayne-653031564" },
             { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
