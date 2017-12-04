@@ -211,7 +211,12 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Noivern", "Time": "8d 4h 40m" },
             { "Group": "Pokemon", "Name": "Druddigon", "Time": "8d 5h 5m" },
             { "Group": "Pokemon", "Name": "Miltank", "Time": "8d 5h 15m" },
-            
+            { "Group": "Pokemon", "Name": "Hypno", "Time": "8d 5h 55m" },
+            { "Group": "Pokemon", "Name": "Rufflet", "Time": "8d 6h 31m" },
+            { "Group": "Pokemon", "Name": "Flabébé", "Time": "8d 6h 36m" },
+            { "Group": "Pokemon", "Name": "Smoochum", "Time": "8d 7h 6m" },
+            { "Group": "Pokemon", "Name": "Wishiwashi", "Time": "8d 7h 28m" },
+
             { "Group": "Elite Four Rematch", "Name": "Molayne", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/molayne.gif", "ImageSource": "https://www.deviantart.com/art/Custom-sprite-Molayne-653031564" },
             { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
             { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
