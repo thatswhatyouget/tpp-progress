@@ -249,17 +249,23 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Scyther", "Time": "9d 14h 9m" },
             { "Group": "Pokemon", "Name": "Riolu", "Time": "9d 14h 15m" },
             { "Group": "Pokemon", "Name": "Heracross", "Time": "9d 14h 19m" },
-
-            { "Group": "Elite Four Rematch", "Name": "Molayne", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/molayne.gif", "ImageSource": "https://www.deviantart.com/art/Custom-sprite-Molayne-653031564" },
-            { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
-            { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
-            { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
+            { "Group": "Badges", "Name": "Surge Badge", "Time": "9d16h1m", "Attempts": 2, "Image": "img/badges/thunder.png" },
+            { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "9d16h30m", "Attempts": 1, "Image": "img/trainers/sun/rematch/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
+            { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "9d16h39m", "Attempts": 1, "Image": "img/trainers/sun/rematch/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
+            { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "9d16h47m", "Attempts": 1, "Image": "img/trainers/sun/rematch/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
+            { "Group": "Elite Four Rematch", "Name": "Molayne", "Time": "", "Attempts": 1, "Image": "img/trainers/sun/rematch/molayne.gif", "ImageSource": "https://www.deviantart.com/art/Custom-sprite-Molayne-653031564" },
             { "Group": "Champions", "Name": "Hau", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/rematch/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 1, Party: [
+                    { Pokemon: "Trevenant", Nickname: "Tumptump", Gender: "Male", Level: 91 },
+                    { Pokemon: "Primarina", Nickname: "NNL4 NNNND  ", Gender: "Male", Level: 87 },
+                    { Pokemon: "Muk", Nickname: "IS FFQÉ", Gender: "Male", Form: "Alolan", Level: 85 },
+                    { Pokemon: "Tyranitar", Nickname: "!!     443!", Gender: "Female", Level: 78 },
+                    { Pokemon: "Vikavolt", Nickname: "6667R RB  ", Gender: "Female", Level: 85 },
+                    { Pokemon: "Lycanroc", Nickname: "AYYYYYSS ", Gender: "Male", Level: 78 },
                 ],
                 Image: "img/ribbons/champion-alola.png",
-                FirstAttemptDate: ""
+                FirstAttemptDate: "9d16h22m"
             },
         ]
     }
