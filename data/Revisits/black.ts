@@ -34,7 +34,7 @@ Revisits.Runs.push(
             { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/rematch/grimsley.png", Time: "2017-06-02T08:18:00.000Z", Attempts: 3 },
             { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/rematch/caitlin.png", Time: "2017-06-03T00:45:00.000Z", Attempts: 8 },
             { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/rematch/shauntal.png", Time: "2017-06-03T11:10:00.000Z", Attempts: 9 },
-            { Group: "Champion", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "2017-06-03T19:17:00.000Z", Attempts: 2 },
+            { Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "2017-06-03T19:17:00.000Z", Attempts: 2 },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2017-06-03T19:18:00.000Z", IDNo: "12356", Attempts: 49, Party: [
                     { Pokemon: "Unfezant", Nickname: "QQQQ", Level: 81, Gender: "Male" },
