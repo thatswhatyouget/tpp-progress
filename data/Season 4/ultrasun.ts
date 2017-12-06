@@ -260,19 +260,30 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Tropius", "Time": "9d 22h 6m" },
             { "Group": "Pokemon", "Name": "Leavanny", "Time": "10d 6h 1m" },
             { "Group": "Pokemon", "Name": "Misdreavus", "Time": "10d 6h 39m" },
-
-            { "Group": "Champions", "Name": "Hau", "Time": "", "Attempts": 3, "Image": "img/trainers/sun/rematch/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
+            { "Group": "Champions", "Name": "Hau", "Time": "10d18h18m", "Attempts": 10, "Image": "img/trainers/sun/rematch/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 10, Party: [
-                    { Pokemon: "Trevenant", Nickname: "Tumptump", Gender: "Male", Level: 97 },
-                    { Pokemon: "Vikavolt", Nickname: "6667R RB  ", Gender: "Female", Level: 89 },
-                    { Pokemon: "Tyranitar", Nickname: "!!     443!", Gender: "Female", Level: 84 },
-                    { Pokemon: "Muk", Nickname: "IS FFQÉ", Gender: "Male", Form: "Alolan", Level: 91 },
-                    { Pokemon: "Lycanroc", Nickname: "AYYYYYSS ", Gender: "Male", Level: 86 },
-                    { Pokemon: "Primarina", Nickname: "NNL4 NNNND  ", Gender: "Male", Level: 92 },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d18h18m", Attempts: 19, Party: [
+                    { Pokemon: "Trevenant", Nickname: "Tumptump", Gender: "Male", Level: 100 },
+                    { Pokemon: "Lycanroc", Nickname: "AYYYYYSS ", Gender: "Male", Level: 93 },
+                    { Pokemon: "Vikavolt", Nickname: "6667R RB  ", Gender: "Female", Level: 94 },
+                    { Pokemon: "Tyranitar", Nickname: "!!     443!", Gender: "Female", Level: 90 },
+                    { Pokemon: "Muk", Nickname: "IS FFQÉ", Gender: "Male", Form: "Alolan", Level: 97 },
+                    { Pokemon: "Primarina", Nickname: "NNL4 NNNND  ", Gender: "Male", Level: 97 },
                 ],
                 Image: "img/ribbons/champion-alola.png",
                 FirstAttemptDate: "9d16h22m"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 1, Party: [
+                    { Pokemon: "Trevenant", Nickname: "Tumptump", Gender: "Male", Level: 100 },
+                    { Pokemon: "Lycanroc", Nickname: "AYYYYYSS ", Gender: "Male", Level: 93 },
+                    { Pokemon: "Vikavolt", Nickname: "6667R RB  ", Gender: "Female", Level: 94 },
+                    { Pokemon: "Tyranitar", Nickname: "!!     443!", Gender: "Female", Level: 90 },
+                    { Pokemon: "Muk", Nickname: "IS FFQÉ", Gender: "Male", Form: "Alolan", Level: 97 },
+                    { Pokemon: "Primarina", Nickname: "NNL4 NNNND  ", Gender: "Male", Level: 97 },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: "10d18h25m" //give or take
             },
         ]
     }
