@@ -285,6 +285,7 @@ Season4.Runs.push(
                 Image: "img/ribbons/champion-alola.png",
                 FirstAttemptDate: "10d18h25m" //give or take
             },
+            { "Group": "Pokemon", "Name": "Tapu Koko", "Time": "10d 19h 41m" },
         ]
     }
 );
