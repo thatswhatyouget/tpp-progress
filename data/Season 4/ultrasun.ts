@@ -328,6 +328,9 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Luvdisc", "Time": "11d 7h 13m", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Pineco", "Time": "11d 7h 28m", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Glaceon", "Time": "11d 8h 30m", Class: "WifiTrade" },
+            { "Group": "Pokemon", "Name": "Dartrix", "Time": "11d 9h 2m", Class: "WifiTrade" },
+            { "Group": "Pokemon", "Name": "Kadabra", "Time": "11d 9h 3m", Class: "WifiTrade" },
+            { "Group": "Pokemon", "Name": "Chesnaught", "Time": "11d 9h 9m" },
         ]
     }
 );
