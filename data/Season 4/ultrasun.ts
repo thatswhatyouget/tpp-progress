@@ -389,6 +389,7 @@ Season4.Runs.push(
             { "Group": "Pokemon", "Name": "Magmar", "Time": "11d 13h 15m", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Electabuzz", "Time": "11d 13h 17m", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Jynx", "Time": "11d 13h 18m", Class: "WifiTrade" },
+            { "Group": "Pokemon", "Name": "Probopass", "Time": "11d 15h 23m" },
         ]
     }
 );
