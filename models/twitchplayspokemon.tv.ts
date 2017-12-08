@@ -20,6 +20,8 @@ namespace TPP.Tv {
             balls?: Item[];
             medicine?: Item[];
             berries?: Item[];
+            z_crystals?: Item[];
+            rotom_powers?: Item[];
             tms?: Item[];
             pc?: Item[];
         };
