@@ -40,6 +40,7 @@ var alternates: Alternate[] = [
     new Alternate("gyarados", "Shiny"),
 
     new Alternate("zygarde", "percent10"),
+    new Alternate("lycanroc", "Midnight"),
 ];
 
 addStyles(alternates, (a: Alternate) => ".pokesprite." + a.baseMon + "." + a.modifier + ' img { background-image:url("' + a.image + '")!important; background-position: center!important; }'); 

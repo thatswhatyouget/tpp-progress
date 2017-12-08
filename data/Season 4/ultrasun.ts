@@ -193,7 +193,7 @@ Season4.Runs.push(
                     { Pokemon: "Primarina", Nickname: "NNL4 NNNND  ", Gender: "Male", Level: 79 },
                     { Pokemon: "Tyranitar", Nickname: "!!     443!", Gender: "Female", Level: 71 },
                     { Pokemon: "Vikavolt", Nickname: "6667R RB  ", Gender: "Female", Level: 77 },
-                    { Pokemon: "Lycanroc", Nickname: "AYYYYYSS ", Gender: "Male", Level: 72 },
+                    { Pokemon: "Lycanroc", Nickname: "AYYYYYSS ", Gender: "Male", Form: "Midnight", Level: 72 },
                     { Pokemon: "Muk", Nickname: "IS FFQÉ", Gender: "Male", Form: "Alolan", Level: 77 },
                 ],
                 Image: "img/ribbons/champion-alola.png",
@@ -264,7 +264,7 @@ Season4.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d18h18m", Attempts: 19, Party: [
                     { Pokemon: "Trevenant", Nickname: "Tumptump", Gender: "Male", Level: 100 },
-                    { Pokemon: "Lycanroc", Nickname: "AYYYYYSS ", Gender: "Male", Level: 93 },
+                    { Pokemon: "Lycanroc", Nickname: "AYYYYYSS ", Gender: "Male", Form: "Midnight", Level: 93 },
                     { Pokemon: "Vikavolt", Nickname: "6667R RB  ", Gender: "Female", Level: 94 },
                     { Pokemon: "Tyranitar", Nickname: "!!     443!", Gender: "Female", Level: 90 },
                     { Pokemon: "Muk", Nickname: "IS FFQÉ", Gender: "Male", Form: "Alolan", Level: 97 },
@@ -275,7 +275,7 @@ Season4.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d 19h 13m", Attempts: 1, Party: [
-                    { Pokemon: "Lycanroc", Nickname: "AYYYYYSS ", Gender: "Male", Level: 94 },
+                    { Pokemon: "Lycanroc", Nickname: "AYYYYYSS ", Gender: "Male", Form: "Midnight", Level: 94 },
                     { Pokemon: "Trevenant", Nickname: "Tumptump", Gender: "Male", Level: 100 },
                     { Pokemon: "Vikavolt", Nickname: "6667R RB  ", Gender: "Female", Level: 95 },
                     { Pokemon: "Tyranitar", Nickname: "!!     443!", Gender: "Female", Level: 91 },
