@@ -5,7 +5,7 @@ Season4.Runs.push(
         ColorSecondary: "black",
         ColorPrimary: "#8b7446",
         StartDate: "2017-11-25T21:00:00Z",
-        Duration: "2017-12-09T01:08Ultra :00Z",
+        Duration: "2017-12-09T01:08:00Z",
         BackgroundImage: "linear-gradient(to bottom, #eac07a 0%,#fefcff 30%,#fefcff 33%,#eac07a 40%,#000 100%)",
         HostName: "Rrwq:",
         HostImage: "img/hosts/rrwq.png",
