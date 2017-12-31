@@ -27,8 +27,8 @@ Sidegames.Runs.push(
             { Name: "KECI", Class: "Abra", Time: "2017-11-02T09:13:27+00:00", Group: "Pokemon" },
             { Group: "Badges", Name: "Grey Badge", Image: "img/badges/boulder.png", Time: "2017-11-08T19:19:18+00:00", Attempts: 1 },
             { Group: "Badges", Name: "Blue Badge", Image: "img/badges/cascade.png", Time: "2017-11-18T02:37:30+00:00", Attempts: 1 },
+            { Group: "Badges", Name: "Orange Badge", Image: "img/badges/thunder.png", Time: "2017-12-31T09:45:21+00:00", Attempts: 1 },
 
-            { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
