@@ -28,6 +28,8 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Grey Badge", Image: "img/badges/boulder.png", Time: "2017-11-08T19:19:18+00:00", Attempts: 1 },
             { Group: "Badges", Name: "Blue Badge", Image: "img/badges/cascade.png", Time: "2017-11-18T02:37:30+00:00", Attempts: 1 },
             { Group: "Badges", Name: "Orange Badge", Image: "img/badges/thunder.png", Time: "2017-12-31T09:45:21+00:00", Attempts: 1 },
+            { Name: "CUCKO", Class: "Doduo", Time: "2018-01-05T21:07:36+00:00", Group: "Pokemon" },
+            { Name: "BOOST", Class: "Flareon", Time: "2018-01-06T11:05:22+00:00", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
