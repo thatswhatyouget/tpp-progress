@@ -34,6 +34,7 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "2018-02-02T09:24:18+00:00", Attempts: 2 },
             { Name: "RECEN", Class: "Venonat", Time: "2018-02-03T23:31:21+00:00", Group: "Pokemon" },
             { Name: "NIDER", Class: "NidoranF", Time: "2018-02-04T08:24:52+00:00", Group: "Pokemon" },
+            { Name: "WISDO", Class: "Paras", Time: "2018-02-05T20:04:43+00:00", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
