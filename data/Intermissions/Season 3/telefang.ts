@@ -1,9 +1,10 @@
 /// <reference path="../../tpp-data.ts" />
 Intermissions.Runs.push(
     {
-        RunName: "Telefang",
+        RunName: "Telefang Diamond",
         StartDate: "2016-03-16T21:00:00Z",
         Duration: "7d3h21m",
+        Class: "telefang",
         ColorPrimary: "#EFFE24",
         ColorSecondary: "#120291",
         HostImage: "img/hosts/other/shigeki.png",

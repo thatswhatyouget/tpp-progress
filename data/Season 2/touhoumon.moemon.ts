@@ -11,6 +11,7 @@ Season2.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         BaseGame: "FireRed",
         Region: "Kanto",
+        Class: "dual-run",
         Pokedex: "Art Book",
         DocumentLink:"http://rayrobdod.github.io/tppstatus/touhoumon.xhtml",
         Events: [
@@ -174,6 +175,7 @@ Season2.Runs.push(
         HostImageSource: "http://angelofsloths.tumblr.com/post/119327711600/my-atta-sprite",
         BaseGame: "FireRed",
         Region: "Kanto",
+        Class: "dual-run",
         Generation: 3,
         Pokedex: "Kanto",
         DocumentLink:"http://rayrobdod.github.io/tppstatus/moemon.xhtml",
