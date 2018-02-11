@@ -520,16 +520,25 @@ ul.controls > li > ul > li.selected > a:before {
     opacity: 0;   
 }
 
-.progressChart > #touhoumon.run {
-	margin-bottom:0!important;	
+.progressChart > .dual-run.run {
+	margin-bottom:0;
 }
-.progressChart > .moemon.run:hover::before {
+.progressChart > .dual-run + .dual-run.run {
+	margin-bottom:50px;
+}
+.progressChart > .dual-run + .dual-run.run:hover::before {
 	bottom:-1.5em;
 	top:auto;
 }
 
+.progressChart > .dual-run.run .event.pokemon.pokesprite img {
+	top: -50%;
+}
+.progressChart > .dual-run + .dual-run.run .event.pokemon.pokesprite img {
+	top: 50%;
+}
+
 .progressChart  #touhoumon.run .event.pokemon.pokesprite img {
-	top:-50%;
 	background-image:url("../img/touhoumon-small.png");
 }
 
@@ -636,15 +645,15 @@ ul.controls > li > ul > li.selected > a:before {
     margin-bottom: 75px;   
 }
 
-.progressChart > .touhoumon.run .videos {
+.progressChart > .dual-run.run .videos {
     display:none;   
 }
 
-.progressChart > .moemon.run .videos a {
+.progressChart > .dual-run + .dual-run.run .videos a {
     margin-bottom:-1em;
 }
 
-.progressChart > .moemon.run .videos a .playhead {
+.progressChart > .dual-run + .dual-run.run .videos a .playhead {
     height:100px;
     padding-bottom:1em;   
 }
