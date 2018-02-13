@@ -531,11 +531,15 @@ ul.controls > li > ul > li.selected > a:before {
 	top:auto;
 }
 
-.progressChart > .dual-run.run .event.pokemon.pokesprite img {
+.progressChart > .dual-run:not(.shared-dex).run .event.pokemon.pokesprite img {
 	top: -50%;
 }
 .progressChart > .dual-run + .dual-run.run .event.pokemon.pokesprite img {
 	top: 50%;
+}
+.progressChart > .dual-run.shared-dex + .dual-run.shared-dex .event.pokemon.pokesprite img {
+	top: -50%;
+	display: none;
 }
 
 .progressChart  #touhoumon.run .event.pokemon.pokesprite img {
