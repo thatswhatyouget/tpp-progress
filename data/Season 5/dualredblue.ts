@@ -14,7 +14,7 @@ const dualBlue = {
     Class: "dual-run shared-dex",
     Events: [
         { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "0d 5h 31m", Attempts: 2 },
-        { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
+        { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "0d 19h 30m", Attempts: 11 },
         { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
         { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
         { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
@@ -78,9 +78,12 @@ const dualRed = {
     { "Group": "Pokemon", "Name": "Clefairy", "Time": "0d 6h 45m" },
     { "Group": "Pokemon", "Name": "Paras", "Time": "0d 6h 51m" },
     { "Group": "Pokemon", "Name": "Ekans", "Time": "0d 11h 57m" },
-].forEach((p: any) => {
-    dualBlue.Events.push(p);
-    dualRed.Events.push(p);
+{ "Group": "Pokemon", "Name": "Abra", "Time": "0d 17h 36m" }, 
+{ "Group": "Pokemon", "Name": "Farfetch'd", "Time": "0d 19h 26m" },
+{ "Group": "Pokemon", "Name": "Dugtrio", "Time": "0d 20h 55m" },
+].forEach((p: any) => {  
+dualBlue.Events.push(p);    
+dualRed.Events.push(p);
 });
 
 
