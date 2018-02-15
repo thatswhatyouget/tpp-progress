@@ -1,6 +1,6 @@
 /// <reference path="../tpp-data.ts" />
 
-const dualBlue = {
+const dualBlue: TPP.Run = {
     RunName: "Dual Blue",
     ColorPrimary: "#2246a6",
     ColorSecondary: "#63a5ff",
@@ -12,11 +12,12 @@ const dualBlue = {
     BaseGame: "Red",
     Region: "Kanto",
     Class: "dual-run shared-dex",
+    APIObjectName: "blue",
     Events: [
         { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "0d 5h 31m", Attempts: 2 },
         { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "0d 19h 30m", Attempts: 11 },
         { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "2d1h43m", Attempts: 1 },
-        { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
+        { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "2d 9h 36m", Attempts: 1 },
         { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
         { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
         { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
@@ -34,7 +35,7 @@ const dualBlue = {
     ]
 };
 
-const dualRed = {
+const dualRed: TPP.Run = {
     RunName: "Dual Red",
     ColorPrimary: "#cc6b5b",
     ColorSecondary: "#ff8484",
@@ -46,6 +47,7 @@ const dualRed = {
     BaseGame: "Red",
     Region: "Kanto",
     Class: "dual-run shared-dex",
+    APIObjectName: "red",
     Events: [
         { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "0d 5h 27m", Attempts: 1 },
         { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "12h21m", Attempts: 1 },
@@ -92,6 +94,9 @@ const dualRed = {
     { "Group": "Pokemon", "Name": "Zubat", "Time": "1d 18h 55m" },
     { "Group": "Pokemon", "Name": "Onix", "Time": "1d 19h 43m" },
     { "Group": "Pokemon", "Name": "Charizard", "Time": "2d 1h 46m" },
+    { "Group": "Pokemon", "Name": "Mankey", "Time": "2d 6h 31m" },
+    { "Group": "Pokemon", "Name": "Nidorina", "Time": "2d 7h 54m" },
+    { "Group": "Pokemon", "Name": "Nidoqueen", "Time": "2d 9h 4m" },
 ].forEach((p: any) => {
     dualBlue.Events.push(p);
     dualRed.Events.push(p);

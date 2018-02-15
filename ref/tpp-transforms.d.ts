@@ -93,6 +93,7 @@ declare namespace TPP {
             Name: string;
             Time: string;
         }[];
+        APIObjectName?: string;
         Generation?: number;
         Pokedex?: string;
         DexTotal?: number;
