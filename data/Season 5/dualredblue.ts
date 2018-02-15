@@ -7,15 +7,15 @@ const dualBlue = {
     Duration: "255d",
     StartDate: "2018-02-13T01:22:00Z",
     HostName: "XXWWNN\u03c0",
-    HostImage: "img/trainers/red/green.png",
-    //HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+    HostImage: "img/hosts/xxwwnnPk.png",
+    HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
     BaseGame: "Red",
     Region: "Kanto",
     Class: "dual-run shared-dex",
     Events: [
         { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "0d 5h 31m", Attempts: 2 },
         { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "0d 19h 30m", Attempts: 11 },
-        { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
+        { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "2d1h43m", Attempts: 1 },
         { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
         { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
         { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
@@ -41,15 +41,15 @@ const dualRed = {
     Duration: "255d",
     StartDate: "2018-02-13T01:22:00Z",
     HostName: "(((",
-    HostImage: "img/trainers/red/red.png",
+    HostImage: "img/hosts/ccc.png",
     //HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
     BaseGame: "Red",
     Region: "Kanto",
     Class: "dual-run shared-dex",
     Events: [
         { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "0d 5h 27m", Attempts: 1 },
-        { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "12h21m", Attempts: 0 },
-        { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
+        { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "12h21m", Attempts: 1 },
+        { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "1d 7h 36m", Attempts: 1 },
         { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
         { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
         { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
@@ -78,12 +78,23 @@ const dualRed = {
     { "Group": "Pokemon", "Name": "Clefairy", "Time": "0d 6h 45m" },
     { "Group": "Pokemon", "Name": "Paras", "Time": "0d 6h 51m" },
     { "Group": "Pokemon", "Name": "Ekans", "Time": "0d 11h 57m" },
-{ "Group": "Pokemon", "Name": "Abra", "Time": "0d 17h 36m" }, 
-{ "Group": "Pokemon", "Name": "Farfetch'd", "Time": "0d 19h 26m" },
-{ "Group": "Pokemon", "Name": "Dugtrio", "Time": "0d 20h 55m" },
-].forEach((p: any) => {  
-dualBlue.Events.push(p);    
-dualRed.Events.push(p);
+    { "Group": "Pokemon", "Name": "Abra", "Time": "0d 17h 36m" },
+    { "Group": "Pokemon", "Name": "Farfetch'd", "Time": "0d 19h 26m" },
+    { "Group": "Pokemon", "Name": "Dugtrio", "Time": "0d 20h 55m" },
+    { "Group": "Pokemon", "Name": "Meowth", "Time": "0d 22h 33m" },
+    { "Group": "Pokemon", "Name": "Bellsprout", "Time": "0d 22h 36m" },
+    { "Group": "Pokemon", "Name": "Kadabra", "Time": "1d 7h 39m" },
+    { "Group": "Pokemon", "Name": "Alakazam", "Time": "1d 9h 45m" },
+    { "Group": "Pokemon", "Name": "Pidgey", "Time": "1d 14h 22m" },
+    { "Group": "Pokemon", "Name": "Venusaur", "Time": "1d 16h 54m" },
+    { "Group": "Pokemon", "Name": "Clefable", "Time": "1d 17h 39m" },
+    { "Group": "Pokemon", "Name": "Geodude", "Time": "1d 17h 49m" },
+    { "Group": "Pokemon", "Name": "Zubat", "Time": "1d 18h 55m" },
+    { "Group": "Pokemon", "Name": "Onix", "Time": "1d 19h 43m" },
+    { "Group": "Pokemon", "Name": "Charizard", "Time": "2d 1h 46m" },
+].forEach((p: any) => {
+    dualBlue.Events.push(p);
+    dualRed.Events.push(p);
 });
 
 
