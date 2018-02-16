@@ -69,7 +69,7 @@ namespace TPP.Display.Elements.RunStatus {
                         <ul className="moves">
                             {mon.moves.map(m => <Move move={m} key={m.id} />)}
                         </ul>
-                        {mon.held_item.id > 0 ? <div className="held-item informatic">
+                        {mon.held_item && mon.held_item.id > 0 ? <div className="held-item informatic">
                             {mon.held_item.name}
                         </div> : null}
                     </div>}

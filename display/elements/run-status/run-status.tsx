@@ -40,6 +40,8 @@ namespace TPP.Display.Elements.RunStatus {
             if (!this.wouldHaveRunStatus) return;
             this.setState({ updatingStatus: true });
             $.get("https://twitchplayspokemon.tv/api/run_status").then(
+                (status: Tv.RunStatus | { [key: string]: Tv.RunStatus }) => (this.props.run.APIObjectName ? status[this.props.run.APIObjectName] : status) as Tv.RunStatus
+            ).then(
                 (status: Tv.RunStatus) => this.setState({ status: status, updatingStatus: false }),
                 e => this.setState({ updatingStatus: false/*, error: (this.state.status ? null : (e.statusText || "Error"))*/ })
             );
