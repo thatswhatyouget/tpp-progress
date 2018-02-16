@@ -3,7 +3,7 @@ Intermissions.Runs.push(
     {
         RunName: "Telefang Jade",
         StartDate: "2018-02-11T21:45:00Z",
-        Duration: "7d3h21m",
+        Duration: "2018-02-13T00:30:00Z",
         Class: "dual-run telefang",
         ColorPrimary: "#a2ca58",
         ColorSecondary: "black",
@@ -39,8 +39,8 @@ Intermissions.Runs.push(
     {
         RunName: "Telefang Power",
         StartDate: "2018-02-11T21:45:00Z",
+        Duration: "2018-02-13T00:30:00Z",
         Class: "dual-run telefang",
-        Duration: "7d3h21m",
         ColorPrimary: "#ff3929",
         ColorSecondary: "black",
         HostImage: "img/hosts/other/shigeki.png",

@@ -12,7 +12,7 @@ Sidegames.Runs.push(
         //HostImage: "https://cdn.bulbagarden.net/upload/6/66/Spr_RG_Red_1.png",
         BaseGame: "Red",
         Region: "Kanto",
-        ContainsRunsFrom: ["Revisits", "Intermissions", "Season 4"],
+        ContainsRunsFrom: ["Revisits", "Intermissions", "Season 4", "Season 5"],
         SidegameId: "pg",
         Events: [
             { Name: "TORTO", Class: "Squirtle", Time: "Tue Oct 17 2017 02:40:22 GMT+0000 (UTC)", Group: "Pokemon" },

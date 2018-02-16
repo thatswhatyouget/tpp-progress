@@ -52,7 +52,7 @@ const dualRed: TPP.Run = {
         { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "0d 5h 27m", Attempts: 1 },
         { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "12h21m", Attempts: 1 },
         { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "1d 7h 36m", Attempts: 1 },
-        { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
+        { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "2d 13h 42m", Attempts: 1 },
         { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
         { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
         { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
@@ -97,6 +97,12 @@ const dualRed: TPP.Run = {
     { "Group": "Pokemon", "Name": "Mankey", "Time": "2d 6h 31m" },
     { "Group": "Pokemon", "Name": "Nidorina", "Time": "2d 7h 54m" },
     { "Group": "Pokemon", "Name": "Nidoqueen", "Time": "2d 9h 4m" },
+    { "Group": "Pokemon", "Name": "Arbok", "Time": "2d 13h 51m" },
+    { "Group": "Pokemon", "Name": "Oddish", "Time": "2d 21h 37m" },
+    { "Group": "Pokemon", "Name": "Growlithe", "Time": "2d 21h 52m" },
+    { "Group": "Pokemon", "Name": "Eevee", "Time": "2d 22h 11m" },
+    { "Group": "Pokemon", "Name": "Beedrill", "Time": "3d 1h 10m" },
+    { "Group": "Pokemon", "Name": "Vulpix", "Time": "3d 2h 27m" },
 ].forEach((p: any) => {
     dualBlue.Events.push(p);
     dualRed.Events.push(p);
