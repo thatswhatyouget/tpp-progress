@@ -22,15 +22,16 @@ const dualBlue: TPP.Run = {
         { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "4d 1h 52m", Attempts: 1 },
         { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "4d 22h 43m", Attempts: 1 },
         { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "5d 0h 51m", Attempts: 1 },
-        { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "", Attempts: 0 },
-        { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "", Attempts: 0 },
-        { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "", Attempts: 0 },
+        { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "5d 22h 46m", Attempts: 1 },
+        { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "5d 22h 50m", Attempts: 1 },
+        { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "5d 23h 32m", Attempts: 2 },
         { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 0 },
         { Group: "Champions", Name: "(((", Image: "img/hosts/ccc.png", Time: "", Attempts: 0, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
         <TPP.HallOfFame>{
             Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
             ],
-            Image: "img/ribbons/champion.png"
+            Image: "img/ribbons/champion.png",
+            FirstAttemptDate: "5d 22h 31m"
         },
     ]
 };
@@ -128,6 +129,8 @@ const dualRed: TPP.Run = {
     { "Group": "Pokemon", "Name": "Muk", "Time": "4d 17h 13m" },
     { "Group": "Pokemon", "Name": "Magmar", "Time": "4d 19h 54m" },
     { "Group": "Pokemon", "Name": "Koffing", "Time": "4d 23h 1m" },
+    { "Group": "Pokemon", "Name": "Marowak", "Time": "6d 0h 5m" },
+    { "Group": "Pokemon", "Name": "Persian", "Time": "6d 4h 49m" },
 ].forEach((p: any) => {
     dualBlue.Events.push(p);
     dualRed.Events.push(p);
