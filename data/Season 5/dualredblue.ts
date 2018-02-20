@@ -25,10 +25,16 @@ const dualBlue: TPP.Run = {
         { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "5d 22h 46m", Attempts: 1 },
         { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "5d 22h 50m", Attempts: 1 },
         { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "5d 23h 32m", Attempts: 2 },
-        { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 0 },
-        { Group: "Champions", Name: "(((", Image: "img/hosts/ccc.png", Time: "", Attempts: 0, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
+        { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "6d 12h 35m", Attempts: 8 },
+        { Group: "Champions", Name: "(((", Image: "img/hosts/ccc.png", Time: "7d 6h 7m", Attempts: 2, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
         <TPP.HallOfFame>{
-            Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+            Group: "Hall of Fame", Name: "Hall of Fame", Time: "7d 6h 8m", Attempts: 45, Party: [
+                { Pokemon: "Clefable", Nickname: "OOXXXXXWVT", Level: 74, Type1: "Normal" },
+                { Pokemon: "Venusaur", Nickname: "UUUVVX;:UL", Level: 61, Type1: "Grass", Type2: "Poison" },
+                { Pokemon: "Alakazam", Nickname: "VVDDD-", Level: 84, Type1: "Psychic" },
+                { Pokemon: "Lapras", Nickname: "ZZZZµµµµµµ", Level: 42, Type1: "Water", Type2: "Ice" },
+                { Pokemon: "Persian", Nickname: "CCLLUU)))♀", Level: 47, Type1: "Normal" },
+                { Pokemon: "Arbok", Nickname: "A", Level: 64, Type1: "Poison" }
             ],
             Image: "img/ribbons/champion.png",
             FirstAttemptDate: "5d 22h 31m"
@@ -58,15 +64,22 @@ const dualRed: TPP.Run = {
         { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "4d 8h 13m", Attempts: 1 },
         { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "5d 5h 57m", Attempts: 1 },
         { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "5d13h31m", Attempts: 1 },
-        { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "", Attempts: 0 },
-        { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "", Attempts: 0 },
+        { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "6d 22h 37m ", Attempts: 5 },
+        { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "6d 22h 45m ", Attempts: 1 },
         { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "", Attempts: 0 },
         { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 0 },
         { Group: "Champions", Name: "XXWWNN\u03c0", Image: "img/hosts/xxwwnnPk.png", Time: "", Attempts: 0, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
         <TPP.HallOfFame>{
             Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                { Pokemon: "Charizard", Nickname: "A", Level: 74, Type1: "Fire", Type2: "Flying" },
+                { Pokemon: "Nidoqueen", Nickname: "MLLLULVVSS", Level: 50, Type1: "Poison", Type2: "Ground" },
+                { Pokemon: "Beedrill", Nickname: "?!♂♂♀AAABa", Level: 28, Type1: "Bug", Type2: "Poison" },
+                { Pokemon: "Raichu", Nickname: "QPPQQRRQPj", Level: 34, Type1: "Electric" },
+                { Pokemon: "Dugtrio", Nickname: "DDDDDDDDDD", Level: 56, Type1: "Ground" },
+                { Pokemon: "Tauros", Nickname: "-??CCCAAA-", Level: 30, Type1: "Normal" }
             ],
-            Image: "img/ribbons/champion.png"
+            Image: "img/ribbons/champion.png",
+            FirstAttemptDate: "6d 7h 33m"
         },
     ]
 };
