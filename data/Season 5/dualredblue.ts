@@ -66,17 +66,17 @@ const dualRed: TPP.Run = {
         { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "5d13h31m", Attempts: 1 },
         { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "6d 22h 37m ", Attempts: 5 },
         { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "6d 22h 45m ", Attempts: 1 },
-        { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "", Attempts: 0 },
+        { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "7d 10h 6m", Attempts: 2 },
         { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 0 },
         { Group: "Champions", Name: "XXWWNN\u03c0", Image: "img/hosts/xxwwnnPk.png", Time: "", Attempts: 0, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
         <TPP.HallOfFame>{
             Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
                 { Pokemon: "Charizard", Nickname: "A", Level: 74, Type1: "Fire", Type2: "Flying" },
                 { Pokemon: "Nidoqueen", Nickname: "MLLLULVVSS", Level: 50, Type1: "Poison", Type2: "Ground" },
+                { Pokemon: "Tauros", Nickname: "-??CCCAAA-", Level: 30, Type1: "Normal" },
                 { Pokemon: "Beedrill", Nickname: "?!♂♂♀AAABa", Level: 28, Type1: "Bug", Type2: "Poison" },
-                { Pokemon: "Raichu", Nickname: "QPPQQRRQPj", Level: 34, Type1: "Electric" },
                 { Pokemon: "Dugtrio", Nickname: "DDDDDDDDDD", Level: 56, Type1: "Ground" },
-                { Pokemon: "Tauros", Nickname: "-??CCCAAA-", Level: 30, Type1: "Normal" }
+                { Pokemon: "Raichu", Nickname: "QPPQQRRQPj", Level: 34, Type1: "Electric" },
             ],
             Image: "img/ribbons/champion.png",
             FirstAttemptDate: "6d 7h 33m"
@@ -144,6 +144,23 @@ const dualRed: TPP.Run = {
     { "Group": "Pokemon", "Name": "Koffing", "Time": "4d 23h 1m" },
     { "Group": "Pokemon", "Name": "Marowak", "Time": "6d 0h 5m" },
     { "Group": "Pokemon", "Name": "Persian", "Time": "6d 4h 49m" },
+    { "Group": "Pokemon", "Name": "Golbat", "Time": "6d 10h 48m" },
+    { "Group": "Pokemon", "Name": "Slowbro", "Time": "6d 11h 35m" },
+    { "Group": "Pokemon", "Name": "Rattata", "Time": "7d 6h 37m" },
+    { "Group": "Pokemon", "Name": "Caterpie", "Time": "7d 6h 53m" },
+    { "Group": "Pokemon", "Name": "Metapod", "Time": "7d 6h 59m" },
+    { "Group": "Pokemon", "Name": "Jigglypuff", "Time": "7d 8h 7m" },
+    { "Group": "Pokemon", "Name": "Magikarp", "Time": "7d 8h 24m" },
+    { "Group": "Pokemon", "Name": "Sandshrew", "Time": "7d 9h 51m" },
+    { "Group": "Pokemon", "Name": "Mewtwo", "Time": "7d 13h 41m" },
+    { "Group": "Pokemon", "Name": "Electrode", "Time": "7d 13h 44m" },
+    { "Group": "Pokemon", "Name": "Hitmonlee", "Time": "7d 14h 16m" },
+    { "Group": "Pokemon", "Name": "Diglett", "Time": "7d 19h 40m" },
+    { "Group": "Pokemon", "Name": "Wartortle", "Time": "7d 20h 51m" },
+    { "Group": "Pokemon", "Name": "Squirtle", "Time": "7d 21h 37m" },
+    { "Group": "Pokemon", "Name": "Poliwag", "Time": "7d 22h 3m" },
+    { "Group": "Pokemon", "Name": "Ponyta", "Time": "7d 23h 12m" },
+    { "Group": "Pokemon", "Name": "Weezing", "Time": "8d 0h 19m" },
 ].forEach((p: any) => {
     dualBlue.Events.push(p);
     dualRed.Events.push(p);
