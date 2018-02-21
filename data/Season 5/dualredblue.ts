@@ -67,7 +67,7 @@ const dualRed: TPP.Run = {
         { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "6d 22h 37m ", Attempts: 5 },
         { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "6d 22h 45m ", Attempts: 1 },
         { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "7d 10h 6m", Attempts: 2 },
-        { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 0 },
+        { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "8d 5h 17m", Attempts: 4 },
         { Group: "Champions", Name: "XXWWNN\u03c0", Image: "img/hosts/xxwwnnPk.png", Time: "", Attempts: 0, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
         <TPP.HallOfFame>{
             Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
@@ -161,6 +161,15 @@ const dualRed: TPP.Run = {
     { "Group": "Pokemon", "Name": "Poliwag", "Time": "7d 22h 3m" },
     { "Group": "Pokemon", "Name": "Ponyta", "Time": "7d 23h 12m" },
     { "Group": "Pokemon", "Name": "Weezing", "Time": "8d 0h 19m" },
+    { "Group": "Pokemon", "Name": "Goldeen", "Time": "8d 1h 27m" },
+    { "Group": "Pokemon", "Name": "Starmie", "Time": "8d 2h 40m" },
+    { "Group": "Pokemon", "Name": "Krabby", "Time": "8d 2h 47m" },
+    { "Group": "Pokemon", "Name": "Golduck", "Time": "8d 2h 57m" },
+    { "Group": "Pokemon", "Name": "Seel", "Time": "8d 3h 15m" },
+    { "Group": "Pokemon", "Name": "Articuno", "Time": "8d 3h 29m" },
+    { "Group": "Pokemon", "Name": "Seaking", "Time": "8d 5h 11m" },
+    { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "8d 5h 28m" },
+    { "Group": "Pokemon", "Name": "Gastly", "Time": "8d 5h 45m" },
 ].forEach((p: any) => {
     dualBlue.Events.push(p);
     dualRed.Events.push(p);
