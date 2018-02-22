@@ -88,6 +88,7 @@ const dualRed: TPP.Run = {
     { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "0d 0h 11m" },
     { "Group": "Pokemon", "Name": "NidoranF", "Time": "0d 2h 14m" },
     { "Group": "Pokemon", "Name": "Spearow", "Time": "0d 2h 18m" },
+    { "Group": "Pokemon", "Name": "Pikachu", "Time": "0d 3h 34m" },
     { "Group": "Pokemon", "Name": "Pikachu", "Time": "0d 3h 48m" },
     { "Group": "Pokemon", "Name": "Ivysaur", "Time": "0d 5h 28m" },
     { "Group": "Pokemon", "Name": "Charmeleon", "Time": "0d 6h 33m" },
@@ -172,7 +173,7 @@ const dualRed: TPP.Run = {
     { "Group": "Pokemon", "Name": "Gastly", "Time": "8d 5h 45m" },
     { "Group": "Pokemon", "Name": "Cubone", "Time": "8d 6h 28m" },
     { "Group": "Pokemon", "Name": "Haunter", "Time": "8d 7h 5m" },
-    { "Group": "Pokemon", "Name": "Nidoran", "Time": "8d 7h 50m" },
+    { "Group": "Pokemon", "Name": "NidoranM", "Time": "8d 7h 50m" },
     { "Group": "Pokemon", "Name": "Venomoth", "Time": "8d 9h 18m" },
     { "Group": "Pokemon", "Name": "Dodrio", "Time": "8d 9h 26m" },
     { "Group": "Pokemon", "Name": "Tentacruel", "Time": "8d 9h 43m" },
@@ -186,6 +187,8 @@ const dualRed: TPP.Run = {
     { "Group": "Pokemon", "Name": "Machoke", "Time": "8d 20h 48m" },
     { "Group": "Pokemon", "Name": "Doduo", "Time": "8d 21h 26m" },
     { "Group": "Pokemon", "Name": "Parasect", "Time": "8d 23h 59m" },
+    { "Group": "Pokemon", "Name": "Raticate", "Time": "9d 1h 26m" },
+    { "Group": "Pokemon", "Name": "Mr. Mime", "Time": "9d 2h 0m" },
 ].forEach((p: any) => {
     dualBlue.Events.push(p);
     dualRed.Events.push(p);
