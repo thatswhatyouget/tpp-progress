@@ -68,15 +68,15 @@ const dualRed: TPP.Run = {
         { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "6d 22h 45m ", Attempts: 1 },
         { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "7d 10h 6m", Attempts: 2 },
         { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "8d 5h 17m", Attempts: 4 },
-        { Group: "Champions", Name: "XXWWNN\u03c0", Image: "img/hosts/xxwwnnPk.png", Time: "", Attempts: 0, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
+        { Group: "Champions", Name: "XXWWNN\u03c0", Image: "img/hosts/xxwwnnPk.png", Time: "10d 0h 42m", Attempts: 3, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
         <TPP.HallOfFame>{
-            Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
-                { Pokemon: "Charizard", Nickname: "A", Level: 74, Type1: "Fire", Type2: "Flying" },
-                { Pokemon: "Nidoqueen", Nickname: "MLLLULVVSS", Level: 50, Type1: "Poison", Type2: "Ground" },
-                { Pokemon: "Tauros", Nickname: "-??CCCAAA-", Level: 30, Type1: "Normal" },
-                { Pokemon: "Beedrill", Nickname: "?!♂♂♀AAABa", Level: 28, Type1: "Bug", Type2: "Poison" },
-                { Pokemon: "Dugtrio", Nickname: "DDDDDDDDDD", Level: 56, Type1: "Ground" },
-                { Pokemon: "Raichu", Nickname: "QPPQQRRQPj", Level: 34, Type1: "Electric" },
+            Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d 0h 43m", Attempts: 74, Party: [
+                { Pokemon: "Raichu", Nickname: "QPPQQRRQPj", Level: 78, Type1: "Electric" },
+                { Pokemon: "Nidoqueen", Nickname: "MLLLULVVSS", Level: 84, Type1: "Poison", Type2: "Ground" },
+                { Pokemon: "Beedrill", Nickname: "?!♂♂♀AAABa", Level: 52, Type1: "Bug", Type2: "Poison" },
+                { Pokemon: "Tauros", Nickname: "-??CCCAAA-", Level: 53, Type1: "Normal" },
+                { Pokemon: "Dugtrio", Nickname: "DDDDDDDDDD", Level: 77, Type1: "Ground" },
+                { Pokemon: "Charizard", Nickname: "A", Level: 100, Type1: "Fire", Type2: "Flying" },
             ],
             Image: "img/ribbons/champion.png",
             FirstAttemptDate: "6d 7h 33m"
@@ -189,6 +189,20 @@ const dualRed: TPP.Run = {
     { "Group": "Pokemon", "Name": "Parasect", "Time": "8d 23h 59m" },
     { "Group": "Pokemon", "Name": "Raticate", "Time": "9d 1h 26m" },
     { "Group": "Pokemon", "Name": "Mr. Mime", "Time": "9d 2h 0m" },
+    { "Group": "Pokemon", "Name": "Ninetales", "Time": "9d 7h 6m" },
+    { "Group": "Pokemon", "Name": "Weepinbell", "Time": "9d 7h 50m" },
+    { "Group": "Pokemon", "Name": "Pinsir", "Time": "9d 10h 53m" },
+    { "Group": "Pokemon", "Name": "Butterfree", "Time": "9d 11h 31m" },
+    { "Group": "Pokemon", "Name": "Ditto", "Time": "9d 13h 26m" },
+    { "Group": "Pokemon", "Name": "Fearow", "Time": "9d 13h 45m" },
+    { "Group": "Pokemon", "Name": "Kakuna", "Time": "9d 17h 34m" },
+    { "Group": "Pokemon", "Name": "Weedle", "Time": "9d 17h 40m" },
+    { "Group": "Pokemon", "Name": "Slowpoke", "Time": "9d 22h 23m" },
+    { "Group": "Pokemon", "Name": "Moltres", "Time": "10d 0h 47m" },
+    { "Group": "Pokemon", "Name": "Machop", "Time": "10d 0h 54m" },
+    { "Group": "Pokemon", "Name": "Flareon", "Time": "10d 1h 17m" },
+    { "Group": "Pokemon", "Name": "Dratini", "Time": "10d 4h 0m" },
+    { "Group": "Pokemon", "Name": "Graveler", "Time": "10d 4h 12m" },
 ].forEach((p: any) => {
     dualBlue.Events.push(p);
     dualRed.Events.push(p);
