@@ -89,7 +89,6 @@ const dualRed: TPP.Run = {
     { "Group": "Pokemon", "Name": "NidoranF", "Time": "0d 2h 14m" },
     { "Group": "Pokemon", "Name": "Spearow", "Time": "0d 2h 18m" },
     { "Group": "Pokemon", "Name": "Pikachu", "Time": "0d 3h 34m" },
-    { "Group": "Pokemon", "Name": "Pikachu", "Time": "0d 3h 48m" },
     { "Group": "Pokemon", "Name": "Ivysaur", "Time": "0d 5h 28m" },
     { "Group": "Pokemon", "Name": "Charmeleon", "Time": "0d 6h 33m" },
     { "Group": "Pokemon", "Name": "Clefairy", "Time": "0d 6h 45m" },
