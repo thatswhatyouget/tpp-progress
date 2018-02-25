@@ -232,6 +232,9 @@ const dualRed: TPP.Run = {
     { "Group": "Pokemon", "Name": "Cloyster", "Time": "11d 7h 15m" },
     { "Group": "Pokemon", "Name": "Omanyte", "Time": "11d 7h 23m" },
     { "Group": "Pokemon", "Name": "Omastar", "Time": "11d 11h 0m" },
+    { "Group": "Pokemon", "Name": "Nidoking", "Time": "11d 13h 22m" },
+    { "Group": "Pokemon", "Name": "Exeggutor", "Time": "11d 21h 3m" },
+    { "Group": "Pokemon", "Name": "Porygon", "Time": "11d 22h 2m" },
 ].forEach((p: any) => {
     dualBlue.Events.push(p);
     dualRed.Events.push(p);
