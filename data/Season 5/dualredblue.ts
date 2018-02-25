@@ -39,6 +39,23 @@ const dualBlue: TPP.Run = {
             Image: "img/ribbons/champion.png",
             FirstAttemptDate: "5d 22h 31m"
         },
+        { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/rematch/lorelei.png", Time: "12d 2h 5m", Attempts: 1 },
+        { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/rematch/bruno.png", Time: "12d 2h 24m", Attempts: 1 },
+        { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/rematch/agatha.png", Time: "12d 2h 32m", Attempts: 1 },
+        { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/rematch/lance.png", Time: "12d 3h 29m", Attempts: 2 },
+        { Group: "Champions", Name: "(((", Image: "img/hosts/ccc.png", Time: "12d 8h 44m", Attempts: 2, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
+        <TPP.HallOfFame>{
+            Group: "Hall of Fame", Name: "Hall of Fame", Time: "12d 8h 45m", Attempts: 7, Party: [
+                { Pokemon: "Clefable", Nickname: "OOXXXXXWVT", Level: 95, Type1: "Normal" },
+                { Pokemon: "Alakazam", Nickname: "VVDDD-", Level: 100, Type1: "Psychic" },
+                { Pokemon: "Persian", Nickname: "CCLLUU)))♀", Level: 59, Type1: "Normal" },
+                { Pokemon: "Lapras", Nickname: "ZZZZµµµµµµ", Level: 54, Type1: "Water", Type2: "Ice" },
+                { Pokemon: "Arbok", Nickname: "A", Level: 77, Type1: "Poison" },
+                { Pokemon: "Venusaur", Nickname: "UUUVVX;:UL", Level: 76, Type1: "Grass", Type2: "Poison" },
+            ],
+            Image: "img/ribbons/champion.png",
+            FirstAttemptDate: "12d 1h 59m"
+        },
     ]
 };
 
@@ -80,6 +97,23 @@ const dualRed: TPP.Run = {
             ],
             Image: "img/ribbons/champion.png",
             FirstAttemptDate: "6d 7h 33m"
+        },
+        { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/rematch/lorelei.png", Time: "12d 11h 23m", Attempts: 1 },
+        { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/rematch/bruno.png", Time: "12d 11h 43m", Attempts: 1 },
+        { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/rematch/agatha.png", Time: "12d 11h 57m", Attempts: 1 },
+        { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/rematch/lance.png", Time: "", Attempts: 2 },
+        { Group: "Champions", Name: "XXWWNN\u03c0", Image: "img/hosts/xxwwnnPk.png", Time: "", Attempts: 0, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
+        <TPP.HallOfFame>{
+            Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 4, Party: [
+                { Pokemon: "Raichu", Nickname: "QPPQQRRQPj", Level: 88, Type1: "Electric" },
+                { Pokemon: "Dugtrio", Nickname: "DDDDDDDDDD", Level: 84, Type1: "Ground" },
+                { Pokemon: "Nidoqueen", Nickname: "MLLLULVVSS", Level: 93, Type1: "Poison", Type2: "Ground" },
+                { Pokemon: "Tauros", Nickname: "-??CCCAAA-", Level: 57, Type1: "Normal" },
+                { Pokemon: "Charizard", Nickname: "A", Level: 100, Type1: "Fire", Type2: "Flying" },
+                { Pokemon: "Beedrill", Nickname: "?!♂♂♀AAABa", Level: 58, Type1: "Bug", Type2: "Poison" },
+            ],
+            Image: "img/ribbons/champion.png",
+            FirstAttemptDate: "12d 11h 15m"
         },
     ]
 };
