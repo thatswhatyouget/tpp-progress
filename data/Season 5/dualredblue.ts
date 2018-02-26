@@ -101,16 +101,16 @@ const dualRed: TPP.Run = {
         { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/rematch/lorelei.png", Time: "12d 11h 23m", Attempts: 1 },
         { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/rematch/bruno.png", Time: "12d 11h 43m", Attempts: 1 },
         { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/rematch/agatha.png", Time: "12d 11h 57m", Attempts: 1 },
-        { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/rematch/lance.png", Time: "", Attempts: 2 },
-        { Group: "Champions", Name: "XXWWNN\u03c0", Image: "img/hosts/xxwwnnPk.png", Time: "", Attempts: 0, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
+        { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/rematch/lance.png", Time: "13d 0h 34m", Attempts: 6 },
+        { Group: "Champions", Name: "XXWWNN\u03c0", Image: "img/hosts/xxwwnnPk.png", Time: "", Attempts: 2, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
         <TPP.HallOfFame>{
-            Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 4, Party: [
-                { Pokemon: "Raichu", Nickname: "QPPQQRRQPj", Level: 88, Type1: "Electric" },
-                { Pokemon: "Dugtrio", Nickname: "DDDDDDDDDD", Level: 84, Type1: "Ground" },
-                { Pokemon: "Nidoqueen", Nickname: "MLLLULVVSS", Level: 93, Type1: "Poison", Type2: "Ground" },
-                { Pokemon: "Tauros", Nickname: "-??CCCAAA-", Level: 57, Type1: "Normal" },
+            Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 23, Party: [
+                { Pokemon: "Raichu", Nickname: "QPPQQRRQPj", Level: 96, Type1: "Electric" },
+                { Pokemon: "Dugtrio", Nickname: "DDDDDDDDDD", Level: 88, Type1: "Ground" },
+                { Pokemon: "Nidoqueen", Nickname: "MLLLULVVSS", Level: 100, Type1: "Poison", Type2: "Ground" },
+                { Pokemon: "Tauros", Nickname: "-??CCCAAA-", Level: 62, Type1: "Normal" },
                 { Pokemon: "Charizard", Nickname: "A", Level: 100, Type1: "Fire", Type2: "Flying" },
-                { Pokemon: "Beedrill", Nickname: "?!♂♂♀AAABa", Level: 58, Type1: "Bug", Type2: "Poison" },
+                { Pokemon: "Beedrill", Nickname: "?!♂♂♀AAABa", Level: 64, Type1: "Bug", Type2: "Poison" },
             ],
             Image: "img/ribbons/champion.png",
             FirstAttemptDate: "12d 11h 15m"
