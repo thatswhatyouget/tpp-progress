@@ -28,9 +28,9 @@ Intermissions.Runs.push(
             { Group: "Bosses", Name: "Gawerk", Time: "", Class: "pokeSprite", Attempts: 1 },
             { Group: "Bosses", Name: "Sanarba", Image: "img/telefang/sanarba.png", Time: "", Attempts: 2 },
             { Group: "Bosses", Name: "Domesday", Time: "", Class: "pokeSprite", Attempts: 1 },
-            { Group: "Pokemon", Name: "Fanges", Time: "12m" },
-            { Group: "Pokemon", Name: "Zinunas", Time: "2018-02-11T22:06:00Z" },
-            { Group: "Pokemon", Name: "Kokia", Time: "2018-02-11T22:09:00Z" },
+            { Group: "Pokemon", Name: "Fanges", Class: "Fungus", Time: "12m" },
+            { Group: "Pokemon", Name: "Zinunas", Class: "Tsunonasu", Time: "2018-02-11T22:06:00Z" },
+            { Group: "Pokemon", Name: "Kokia", Class: "Kochia", Time: "2018-02-11T22:09:00Z" },
 
         ]
     }
@@ -65,8 +65,8 @@ Intermissions.Runs.push(
             { Group: "Bosses", Name: "Gawerk", Time: "", Class: "pokeSprite", Attempts: 1 },
             { Group: "Bosses", Name: "Sanarba", Image: "img/telefang/sanarba.png", Time: "", Attempts: 2 },
             { Group: "Bosses", Name: "Domesday", Time: "", Class: "pokeSprite", Attempts: 1 },
-            //{ Group: "Pokemon", Name: "Crypto", Class:"Kuribute", Time: "9m" },
-            { Group: "Pokemon", Name: "Crypto", Class:"Kuribute", Time: "2018-02-11T22:13:00Z" },
+            //{ Group: "Pokemon", Name: "Crypto" Time: "9m" },
+            { Group: "Pokemon", Name: "Crypto", Time: "2018-02-11T22:13:00Z" },
         ]
     }
 );

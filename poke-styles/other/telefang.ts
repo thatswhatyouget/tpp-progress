@@ -5,14 +5,14 @@ var denjuu = [{ "image": 1, "name": "Tsunonasu", "bootleg": "Zinunas" }, { "imag
 
 //large sprites
 denjuu.map((d, i) =>
-    ".telefang .pokesprite." + dexClean(d.name) + " img, " +
-    ".telefang .pokesprite." + dexClean(d.bootleg) + " img " +
-    " { background-position: 0px -" + i + "em!important; }"
-).reverse().forEach(addSingleStyle); //reversed so reused names use lowest-numbered denjuu image
+    // `.telefang .pokesprite.${dexClean(d.bootleg)} img, ` +    
+    `.telefang .pokesprite.${dexClean(d.name)} img ` +
+    ` { background-position: 0px -${i}em!important; }`
+).forEach(addSingleStyle);
 
 //menu sprites
 denjuu.forEach(d => addSingleStyle(
-    ".telefang .pokemon.pokesprite." + dexClean(d.name) + " img, "+
-    ".telefang .pokemon.pokesprite." + dexClean(d.bootleg) + " img "+
-    " { background-position: 0px -" + d.image + "em!important; } \n"
+    // `.telefang .pokemon.pokesprite.${dexClean(d.bootleg)} img, `+
+    `.telefang .pokemon.pokesprite.${dexClean(d.name)} img ` +
+    ` { background-position: 0px -${d.image}em!important; }`
 ));
