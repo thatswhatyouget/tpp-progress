@@ -88,7 +88,7 @@ Intermissions.Runs.push(
             { Group: "Pokemon", Name: "Sumac", Class: "Hagumanoki", Time: "1d15h2m" },
             { Group: "Pokemon", Name: "Genista", Class: "Enishida", Time: "1d15h14m" },
             { Group: "Pokemon", Name: "Jiarm", Class: "Gamuru", Time: "1d15h20m" },
-            { Group: "Pokemon", Name: "Kuribute", Class: "Cryptoarm", Time: "1d17h27m" },
+            { Group: "Pokemon", Name: "Kuribute", Class: "Cryptoburn", Time: "1d17h27m" },
             { Group: "Pokemon", Name: "Warata", Class: "Waratah", Time: "1d17h44m" },
             { Group: "Pokemon", Name: "Bibanam", Class: "Viburnum", Time: "2d7m" },
             { Group: "Pokemon", Name: "Geiwurus", Class: "Gaiurus", Time: "2d24m" },
