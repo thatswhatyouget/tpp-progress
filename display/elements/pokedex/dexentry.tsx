@@ -61,7 +61,7 @@ namespace TPP.Display.Elements.Pokedex {
         render() {
             return <div key={this.Number} className={this.className} style={this.style} title={this.showOwnership ? this.owners : null} >
                 <h3>{this.Number}</h3>
-                <h4>{this.entry.Pokemon}</h4>
+                <h4>{this.entry.DisplayName}</h4>
                 {this.props.children}
                 <div className={`pokesprite ${this.pokeName}`}><img src='img/missingno.png' /></div>
                 {this.hallOfFame}

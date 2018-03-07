@@ -26,6 +26,13 @@ namespace TPP.Pokedex {
     export class DexEntryBase {
         Number: number;
         Pokemon: string;
+        private displayName: string;
+        get DisplayName() {
+            return this.displayName || this.Pokemon;
+        }
+        set DisplayName(value) {
+            this.displayName = value;
+        }
         Owners: {
             Run: Run;
             CaughtOn: number;

@@ -265,6 +265,8 @@ declare namespace TPP.Pokedex {
     class DexEntryBase {
         Number: number;
         Pokemon: string;
+        private displayName;
+        DisplayName: string;
         Owners: {
             Run: Run;
             CaughtOn: number;

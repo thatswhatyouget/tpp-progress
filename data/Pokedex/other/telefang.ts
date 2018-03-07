@@ -7,4 +7,6 @@ module Pokedex {
     Regional[dexName] = Array.prototype.concat([-1], telefang.map(d => d.name));
 
     specialClasses[dexName] = runRestrictions[dexName] = "telefang";
+
+    alternateNames[dexName] = Array.prototype.concat([-1], telefang.map(d => d.bootleg));
 }

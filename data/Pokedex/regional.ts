@@ -52,4 +52,6 @@ module Pokedex {
     };
 
     export var runRestrictions: { [key: string]: string } = {};
+
+    export var alternateNames: { [key: string]: string[] } = {};
 }

@@ -12,6 +12,9 @@ declare module Pokedex {
     var runRestrictions: {
         [key: string]: string;
     };
+    var alternateNames: {
+        [key: string]: string[];
+    };
 }
 declare module Pokedex {
 }

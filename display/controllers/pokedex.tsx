@@ -64,6 +64,11 @@ namespace TPP.Controllers {
             if (onlyRun)
                 classes += " " + this.cleanString(onlyRun.RunName);
             
+            if (this.queryString["altnames"] && this.dexData.alternateNames[this.queryString["altnames"]]) {
+                var altnames = this.dexData.alternateNames[this.queryString["altnames"]];
+                dex.Entries.forEach(e => e.DisplayName = altnames[e.Number]);
+            }
+            
             if (classes.indexOf("touhoumon") >= 0)
                 this.credits.splice(0, 1, "Touhoumon sprites ripped by [Jayare158](https://www.reddit.com/r/twitchplayspokemon/comments/5cwr3q/by_ucyanders_request_heres_a_sprite_chart_with/).");  
 
