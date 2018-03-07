@@ -31,12 +31,12 @@ Sidegames.Runs.push(
             { Name: "CUCKO", Class: "Doduo", Time: "2018-01-05T21:07:36+00:00", Group: "Pokemon" },
             { Name: "BOOST", Class: "Flareon", Time: "2018-01-06T11:05:22+00:00", Group: "Pokemon" },
             { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "2018-01-25T15:33:04+00:00", Attempts: 1 },
-            { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "2018-02-02T09:24:18+00:00", Attempts: 2 },
+            { Group: "Badges", Name: "Pink Badge", Image: "img/badges/soul.png", Time: "2018-02-02T09:24:18+00:00", Attempts: 2 },
             { Name: "RECEN", Class: "Venonat", Time: "2018-02-03T23:31:21+00:00", Group: "Pokemon" },
             { Name: "NIDER", Class: "NidoranF", Time: "2018-02-04T08:24:52+00:00", Group: "Pokemon" },
             { Name: "WISDO", Class: "Paras", Time: "2018-02-05T20:04:43+00:00", Group: "Pokemon" },
-
-            { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Gold Badge", Image: "img/badges/marsh.png", Time: "2018-03-07T06:52:41+00:00", Attempts: 1 },
+            
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "", Attempts: 0 },
