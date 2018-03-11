@@ -36,6 +36,7 @@ Sidegames.Runs.push(
             { Name: "NIDER", Class: "NidoranF", Time: "2018-02-04T08:24:52+00:00", Group: "Pokemon" },
             { Name: "WISDO", Class: "Paras", Time: "2018-02-05T20:04:43+00:00", Group: "Pokemon" },
             { Group: "Badges", Name: "Gold Badge", Image: "img/badges/marsh.png", Time: "2018-03-07T06:52:41+00:00", Attempts: 1 },
+            { Name: "MISU", Class: "Mewtwo", Time: "2018-03-11T09:06:49+00:00", Group: "Pokemon" },
             
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
