@@ -38,8 +38,8 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Gold Badge", Image: "img/badges/marsh.png", Time: "2018-03-07T06:52:41+00:00", Attempts: 1 },
             { Name: "MISU", Class: "Mewtwo", Time: "2018-03-11T09:06:49+00:00", Group: "Pokemon" },
             { Group: "Badges", Name: "Crimson Badge", Image: "img/badges/volcano.png", Time: "2018-03-21T07:39:11+00:00", Attempts: 1 },
+            { Group: "Badges", Name: "Green Badge", Image: "img/badges/earth.png", Time: "2018-03-24T14:55:25+00:00", Attempts: 1 },
 
-            { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "", Attempts: 0 },
