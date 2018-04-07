@@ -375,6 +375,7 @@ function staggerStackedEvents(allEvents: HTMLElement[], runHeight: number) {
                 if (thisLeft + thisWidth > myLeft && thisLeft < myLeft + myWidth) {
                     thisImg.style.marginTop = (marginTop(thisImg) - (thisLeft + thisWidth - myLeft) * d) + "px";
                     myImg.style.marginTop = (marginTop(myImg) + (thisLeft + thisWidth - myLeft) * d) + "px";
+                    myImg.style.zIndex = d > 0 ? '1' : '0';
                 }
             }
             if (i > 1 && events[i - 1]) pushEvent(events[i - 1]);
