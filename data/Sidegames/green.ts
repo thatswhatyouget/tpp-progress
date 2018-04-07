@@ -40,9 +40,9 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Crimson Badge", Image: "img/badges/volcano.png", Time: "2018-03-21T07:39:11+00:00", Attempts: 1 },
             { Group: "Badges", Name: "Green Badge", Image: "img/badges/earth.png", Time: "2018-03-24T14:55:25+00:00", Attempts: 1 },
 
-            { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "CARNAR", Image: "img/trainers/red/lorelei.png", Time: "2018-04-06T04:46:52+00:00", Attempts: 1 },
+            { Group: "Elite Four", Name: "XIBA", Image: "img/trainers/red/bruno.png", Time: "2018-04-06T21:17:50+00:00", Attempts: 1 },
+            { Group: "Elite Four", Name: "KUCHIC", Image: "img/trainers/red/agatha.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 0 },
             { Group: "Champions", Name: "GRAPE", Image: "img/trainers/red/green.png", Time: "", Attempts: 0 },
         ]
