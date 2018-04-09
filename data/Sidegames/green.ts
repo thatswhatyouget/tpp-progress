@@ -42,9 +42,8 @@ Sidegames.Runs.push(
             { Group: "Elite Four", Name: "CARNAR", Image: "img/trainers/red/lorelei.png", Time: "2018-04-06T04:54:57+00:00", Attempts: 1 },
             { Group: "Elite Four", Name: "XIBA", Image: "img/trainers/red/bruno.png", Time: "2018-04-06T21:28:03+00:00", Attempts: 1 },
             { Group: "Elite Four", Name: "KUCHIC", Image: "img/trainers/red/agatha.png", Time: "2018-04-07T12:15:33+00:00", Attempts: 1 },
-            { Group: "Elite Four", Name: "WATERLU", Image: "img/trainers/red/lance.png", Time: "2018-04-08T06:59:43+00:00", Attempts: 1 },
-            
-            { Group: "Champions", Name: "GRAPE", Image: "img/trainers/red/green.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "WATERLU", Image: "img/trainers/red/lance.png", Time: "2018-04-08T06:59:43+00:00", Attempts: 1 },            
+            { Group: "Champions", Name: "GRAPE", Image: "img/trainers/red/green.png", Time: "2018-04-09T04:54:48+00:00", Attempts: 1 },
         ]
     }
 );
