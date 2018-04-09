@@ -44,6 +44,16 @@ Sidegames.Runs.push(
             { Group: "Elite Four", Name: "KUCHIC", Image: "img/trainers/red/agatha.png", Time: "2018-04-07T12:15:33+00:00", Attempts: 1 },
             { Group: "Elite Four", Name: "WATERLU", Image: "img/trainers/red/lance.png", Time: "2018-04-08T06:59:43+00:00", Attempts: 1 },            
             { Group: "Champions", Name: "GRAPE", Image: "img/trainers/red/blue.png", Time: "2018-04-09T04:54:48+00:00", Attempts: 1 },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2018-04-09T18:43:58+00:00", Attempts: 1, Party: [
+			{ Pokemon: "Mewtwo", Nickname: "MOM", Level: 70, Type1: "Psychic" },
+			{ Pokemon: "Vaporeon", Nickname: "WEEB", Level: 56, Type1: "Water" },
+			{ Pokemon: "Flareon", Nickname: "SUNRA", Level: 25, Type1: "Fire" },
+			{ Pokemon: "Jolteon", Nickname: "GG", Level: 25, Type1: "Electric" },
+		],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "2018-04-05T18:41:49+00:00"
+            },
         ]
     }
 );
