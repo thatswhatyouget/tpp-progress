@@ -15,7 +15,9 @@ module TPP.Display.RunStatus {
 
 
     function fetchRunStatus(): JQueryPromise<TPP.Tv.RunStatus> {
-        return $.get("https://twitchplayspokemon.tv/api/run_status");
+        return window.location.hash.indexOf("m4-test") > 0
+            ? $.get("http://localhost:1337/")
+            : $.get("https://twitchplayspokemon.tv/api/run_status");
     }
 
     export function GetCurrentRun(tppData: Collection[]) {
