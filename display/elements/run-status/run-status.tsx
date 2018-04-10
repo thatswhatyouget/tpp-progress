@@ -39,7 +39,7 @@ namespace TPP.Display.Elements.RunStatus {
         private UpdateRunStatus() {
             if (!this.wouldHaveRunStatus) return;
             this.setState({ updatingStatus: true });
-            $.get("https://twitchplayspokemon.tv/api/run_status").then(
+            $.get(this.inTestMode ? "http://localhost:1337/" : "https://twitchplayspokemon.tv/api/run_status").then(
                 (status: Tv.RunStatus | { [key: string]: Tv.RunStatus }) => (this.props.run.APIObjectName ? status[this.props.run.APIObjectName] : status) as Tv.RunStatus
             ).then(
                 (status: Tv.RunStatus) => this.setState({ status: status, updatingStatus: false }),
@@ -101,7 +101,11 @@ namespace TPP.Display.Elements.RunStatus {
         }
 
         private get wouldHaveRunStatus() {
-            return this.state.run.Ongoing && !this.state.run.SidegameId;
+            return (this.state.run.Ongoing && !this.state.run.SidegameId) || this.inTestMode;
+        }
+
+        private get inTestMode() {
+            return window.location.hash.indexOf("m4-test") > 0;
         }
 
         private get loading() {
