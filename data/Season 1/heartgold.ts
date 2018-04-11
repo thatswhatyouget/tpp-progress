@@ -324,7 +324,7 @@ Season1.Runs.push(
             { Name: "Vigoroth", Time: "14d 13h 19m", Group: "Pokemon" },
             { Name: "Nincada", Time: "13d 11h 11m", Group: "Pokemon" },
             { Name: "Ninjask", Time: "14d 14h 24m", Group: "Pokemon" },
-            { Name: "Whismur", Time: "15h 16m 15m", Group: "Pokemon" },
+            { Name: "Whismur", Time: "16d 15h 16m", Group: "Pokemon" },
             { Name: "Loudred", Time: "11d 18h 5m", Group: "Pokemon" },
             { Name: "Skitty", Time: "0d 16h 20m", Group: "Pokemon" },
             { Name: "Aron", Time: "14d 0h 48m", Group: "Pokemon" },
