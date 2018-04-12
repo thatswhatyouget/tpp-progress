@@ -54,6 +54,7 @@ Sidegames.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2018-04-05T18:41:49+00:00"
             },
+            { Name: "SURRE", Class: "Kabuto", Time: "2018-04-11T13:25:42-04:00", Group: "Pokemon" },
         ]
     }
 );
