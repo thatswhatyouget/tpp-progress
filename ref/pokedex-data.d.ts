@@ -24,3 +24,5 @@ declare module Pokedex {
 }
 declare module Pokedex {
 }
+declare module Pokedex {
+}

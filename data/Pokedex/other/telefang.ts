@@ -8,5 +8,5 @@ module Pokedex {
 
     specialClasses[dexName] = runRestrictions[dexName] = "telefang";
 
-    alternateNames[dexName] = Array.prototype.concat([-1], telefang.map(d => d.bootleg));
+    alternateNames[dexName] = Array.prototype.concat([null], telefang.map(d => d.bootleg));
 }
