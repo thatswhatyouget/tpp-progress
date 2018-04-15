@@ -5,7 +5,7 @@ Intermissions.Runs.push(
         StartDate: "Apr 14 2018 00:45:36 AM GMT",
         ColorPrimary: "goldenrod",
         ColorSecondary: "black",
-        Duration: "Apr 14 2018 8:00 PM GMT",
+        Duration: "Apr 14 2018 8:48:10 PM GMT",
         HostName: "ABnp3a",
         HostImage: "img/hosts/abnp3a.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
