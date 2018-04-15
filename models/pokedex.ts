@@ -47,6 +47,14 @@ namespace TPP.Pokedex {
         get FirstCaughtDate() {
             return this.IsOwned ? this.Owners[0].CaughtOn : false;
         }
+        Clone(clone = new DexEntryBase()) {
+            clone.Number = this.Number;
+            clone.Pokemon = this.Pokemon;
+            clone.displayName = this.displayName;
+            clone.Owners = this.Owners.map(o => ({ Run: o.Run, CaughtOn: o.CaughtOn }));
+            clone.HallOfFame = JSON.parse(JSON.stringify(this.HallOfFame));
+            return clone;
+        }
     }
 
     export enum DexSorting {
@@ -87,7 +95,6 @@ namespace TPP.Pokedex {
         }
         
         private isGlitchMon = (e: DexEntryBase) => (e.Number == 0 && e.Pokemon == "MissingNo.");
-
 
         public SortDex(sortBy: DexSorting | string = 0) {
             switch (sortBy) {
@@ -146,6 +153,10 @@ namespace TPP.Pokedex {
 
         public FilterDexToHallOfFame() {
             this.Entries = this.Entries.filter(e => e.HallOfFame.length > 0);
+        }
+        public Clone(clone = new GlobalDexBase()) {
+            clone.Entries = this.Entries.map(e => e.Clone());
+            return clone;
         }
 
     }

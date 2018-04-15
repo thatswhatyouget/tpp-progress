@@ -119,18 +119,12 @@ namespace TPP.Display.Elements.RunStatus {
         private get Pokedex() {
             if (!this.props.buildDex)
                 return null;
-            var dex = this.props.buildDex(this.props.run);
-            //fold in run's caught list
-            (this.state.status.caught_list || []).forEach(c => dex.Entries.forEach(e => {
-                if (e.Number == c && e.Owners.filter(o => o.Run == this.props.run).length == 0)
-                    e.Owners.push({ Run: this.props.run, CaughtOn: Date.now() / 1000 });
-            }));
-            dex.FilterOwnedInDexToRuns([this.props.run]);
+            var dex = this.props.buildDex(this.props.run).Clone();
             if (!dex.TotalOwned)
                 return null;
             return <PokeBox title="Pokédex" className="pokedex">
                 {this.PokedexOutOfDate(dex) ? <h6>Outdated</h6> : ""}
-                <Pokedex.Dex dex={dex} ownedOnly={true}>
+                <Pokedex.Dex dex={dex} caughtList={this.state.status.caught_list || []} run={this.props.run} ownedOnly={true}>
                     <a className="plug" href="pokedex.html">See Global Pokédex</a>
                 </Pokedex.Dex>
             </PokeBox>;

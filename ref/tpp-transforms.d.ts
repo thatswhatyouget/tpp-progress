@@ -275,6 +275,7 @@ declare namespace TPP.Pokedex {
         readonly IsOwned: boolean;
         readonly FirstOwnedRun: Run;
         readonly FirstCaughtDate: number | boolean;
+        Clone(clone?: DexEntryBase): DexEntryBase;
     }
     enum DexSorting {
         "Pokédex Number" = 0,
@@ -299,6 +300,7 @@ declare namespace TPP.Pokedex {
         FilterDexToUnowned(): void;
         FilterDexPokemon(pokeList: string | string[]): void;
         FilterDexToHallOfFame(): void;
+        Clone(clone?: GlobalDexBase): GlobalDexBase;
     }
 }
 declare namespace TPP.Transforms.Pokedex {

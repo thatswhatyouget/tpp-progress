@@ -3,49 +3,61 @@
 namespace TPP.Display.Elements.Pokedex {
     interface DexProps {
         dex: TPP.Pokedex.GlobalDexBase;
+        caughtList?: number[];
+        run?: TPP.Run;
         showOwnership?: boolean;
         ownedOnly?: boolean;
         className?: string;
     }
 
     interface DexState {
+        filteredDex: TPP.Pokedex.GlobalDexBase;
     }
 
     export class Dex extends React.Component<DexProps, DexState> {
-        private dex: TPP.Pokedex.GlobalDexBase;
-        private showOwnership: boolean;
-        private ownedOnly: boolean;
 
         constructor(props: DexProps) {
             super(props);
-            this.dex = props.dex;
-            this.showOwnership = props.showOwnership !== false;
-            this.ownedOnly = props.ownedOnly;
-            if (this.showOwnership)
-                this.dex.FilterUnownedGlitchMon();
-            else
-                this.dex.FilterGlitchMon();
+            this.state = { filteredDex: this.FilterDex() };
         }
 
         private get className() {
             return ("pokedex " + (this.props.className || "")).trim();
         }
 
+        private FilterDex(props = this.props) {
+            const dex = props.dex.Clone();
+            if (props.caughtList) {
+                //fold in run's caught list
+                props.caughtList.forEach(c => dex.Entries.forEach(e => {
+                    if (props.run && e.Number == c && !e.Owners.some(o => o.Run == props.run))
+                        e.Owners.push({ Run: props.run, CaughtOn: Date.now() / 1000 });
+                }));
+                dex.FilterOwnedInDexToRuns([props.run]);
+            }
+            if (props.showOwnership !== false)
+                dex.FilterUnownedGlitchMon();
+            else
+                dex.FilterGlitchMon();
+            return dex;
+        }
+
         private get entries() {
-            return (this.ownedOnly ? this.dex.Owned : this.dex.Entries).map(e => <DexEntry key={e.Number} entry={e} showOwnership={this.showOwnership} />);
+            return (this.props.ownedOnly ? this.state.filteredDex.Owned : this.state.filteredDex.Entries).map(e => <DexEntry key={e.Number} entry={e} showOwnership={this.props.showOwnership !== false} />);
         }
 
         private get ownedDisplay() {
-            if (!this.showOwnership)
+            if (this.props.showOwnership === false)
                 return <br />;
             return <h2 className='total'>
-                Owned: <span>{`${this.dex.TotalOwned}/${this.dex.TotalInDex} (${this.dex.OwnedPercentage.toFixed(2)}%)`}</span>
+                Owned: <span>{`${this.state.filteredDex.TotalOwned}/${this.state.filteredDex.TotalInDex} (${this.state.filteredDex.OwnedPercentage.toFixed(2)}%)`}</span>
             </h2>
         }
 
-        shouldComponentUpdate(nextProps, nextState) {
-            return true;
+        componentWillReceiveProps(nextProps) {
+            this.setState({ filteredDex: this.FilterDex(nextProps) });
         }
+
 
         render() {
             return <div className={this.className}>
