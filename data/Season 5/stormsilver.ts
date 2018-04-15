@@ -15,8 +15,8 @@ Season5.Runs.push(
         // AdditionalRegions: [{ Name: "Kanto", Time: "9d14h" }],
         Generation: 4,
         Events: [
-            { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "0d 11h 11m", Attempts: 2 },
+            { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "", Attempts: 2 },
             { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
