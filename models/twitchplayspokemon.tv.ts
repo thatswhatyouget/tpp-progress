@@ -18,6 +18,8 @@ namespace TPP.Tv {
             free_space?: Item[];
             key?: Item[];
             balls?: Item[];
+            mail?: Item[];
+            battle?: Item[];
             medicine?: Item[];
             berries?: Item[];
             z_crystals?: Item[];

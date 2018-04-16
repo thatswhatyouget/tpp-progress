@@ -224,6 +224,7 @@ Season1.Runs.push(
                 Name: "A",
                 Image: "img/hosts/a2.png",
                 Time: "18d 20h 33m",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26g5na/ive_made_another_trainer_sprite_for_a_frlg_for/",
                 Attempts: 5
             },
             <TPP.HallOfFame>{

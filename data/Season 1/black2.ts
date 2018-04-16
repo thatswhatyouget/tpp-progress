@@ -128,6 +128,7 @@ Season1.Runs.push(
                 Group: "Past Hosts",
                 Name: "A",
                 Image: "img/hosts/a2.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26g5na/ive_made_another_trainer_sprite_for_a_frlg_for/",
                 Time: "18d 22h 8m"
             },
             {

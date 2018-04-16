@@ -8,7 +8,7 @@ Revisits.Runs.push(
         Duration: "2016-04-13T05:01:00Z",
         HostName: "A",
         HostImage: "img/hosts/a2.png",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/26g5na/ive_made_another_trainer_sprite_for_a_frlg_for/",
         Region: "Kanto",
         Generation: 3,
         Pokedex:"Kanto",
