@@ -19,9 +19,9 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "1d4h12m", Attempts: 5 },
             { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "1d 12h 46m", Attempts: 1 },
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "2d 13h 42m", Attempts: 1 },
-            { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "3d 11h 52m", Attempts: 4 },
             { Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "", Attempts: 0 },
 
             { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "", Attempts: 0 },
@@ -100,6 +100,14 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Growlithe", "Time": "2d 6h -1m" },
             { "Group": "Pokemon", "Name": "Pineco", "Time": "2d 6h 3m" },
             { "Group": "Pokemon", "Name": "Froslass", "Time": "2d 14h 37m" },
+            { "Group": "Pokemon", "Name": "Castform", "Time": "2d 17h 29m" },
+            { "Group": "Pokemon", "Name": "Butterfree", "Time": "2d 17h 45m" },
+            { "Group": "Pokemon", "Name": "Luxio", "Time": "3d 4h 1m" },
+            { "Group": "Pokemon", "Name": "Wingull", "Time": "3d 6h 22m" },
+            { "Group": "Pokemon", "Name": "Shuckle", "Time": "3d 9h 26m" },
+            { "Group": "Pokemon", "Name": "Phione", "Time": "3d 10h 11m" },
+            { "Group": "Pokemon", "Name": "Mantyke", "Time": "3d 12h 57m" },
+            { "Group": "Pokemon", "Name": "Tentacool", "Time": "3d 13h 19m" },
         ]
     }
 );
