@@ -80,7 +80,6 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "0d 22h 34m" },
             { "Group": "Pokemon", "Name": "Stunky", "Time": "0d 23h 25m" },
             { "Group": "Pokemon", "Name": "Glameow", "Time": "0d 23h 28m" },
-            { "Group": "Pokemon", "Name": "Glameow", "Time": "0d 23h 28m" },
             { "Group": "Pokemon", "Name": "Typhlosion", "Time": "1d 4h 12m" },
             { "Group": "Pokemon", "Name": "Carnivine", "Time": "1d 5h 37m" },
             { "Group": "Pokemon", "Name": "Omanyte", "Time": "1d 10h 6m" },
@@ -137,6 +136,7 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Tangela", "Time": "4d 6h 19m" },
             { "Group": "Pokemon", "Name": "Farfetch'd", "Time": "4d 6h 35m" },
             { "Group": "Pokemon", "Name": "Illumise", "Time": "4d 7h 59m" },
+            { "Group": "Pokemon", "Name": "Volbeat", "Time": "4d 8h 8m" },
         ]
     }
 );
