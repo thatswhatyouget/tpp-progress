@@ -230,7 +230,8 @@ namespace TPP.Display.Elements.RunStatus {
                     <ItemDisplay key="Free Space" title="Free Space" items={this.state.status.items.free_space} />
                     <ItemDisplay key="PC Items" title={pokeRedCondenseText(`${this.state.run.HostName}'s PC`)} items={this.state.status.items.pc} />
                     {this.Pokedex}
-                    {this.state.status ? <PC pc={this.state.status.pc} /> : null}
+                    {this.state.status && this.state.status.daycare && <PCBox boxName="Daycare" boxContents={this.state.status.daycare} />}
+                    {this.state.status && <PC pc={this.state.status.pc} />}
                 </div>;
             return <div className="run-status">
                 <h1>

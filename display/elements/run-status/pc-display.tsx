@@ -6,18 +6,28 @@ namespace TPP.Display.Elements.RunStatus {
                 return null;
             return <div>
                 <h2>{pokeRedCondenseText("Pokemon Storage System")}</h2>
-                {this.props.pc.boxes.filter(b => !!b && !!b.box_number).map(b => <PokeBox title={`#${b.box_number}: ${b.box_name} (${b.box_contents.length})`} key={b.box_number} className="pokemon-hud pc-box">
-
-                    <ul className="party">
-                        {b.box_contents.length > 0 ?
-                            b.box_contents.map(p => <Pokemon pokemon={p} key={p.box_slot} />)
-                            :
-                            <li className="empty">Empty</li>
-                        }
-                    </ul>
-
-                </PokeBox>)}
+                {this.props.pc.boxes.filter(b => !!b && !!b.box_number).map(b =>
+                    <PCBox key={b.box_number} boxName={b.box_name} boxNumber={b.box_number} boxContents={b.box_contents} />
+                )}
             </div>;
+        }
+    }
+    export class PCBox extends React.Component<{ boxName: string, boxNumber?: number, boxContents: Tv.BoxedPokemon[] }, {}> {
+        render() {
+            const boxNum = this.props.boxNumber;
+            const boxName = this.props.boxName;
+            const boxContents = this.props.boxContents;
+            return <PokeBox title={`${boxNum ? `#${boxNum}: ` : ""}${boxName} (${boxContents.length})`}
+                className="pokemon-hud pc-box">
+                <ul className="party">
+                    {boxContents.length > 0 ?
+                        boxContents.map(p => <Pokemon pokemon={p} key={p.box_slot || p.personality_value} />)
+                        :
+                        <li className="empty">Empty</li>
+                    }
+                </ul>
+
+            </PokeBox>;
         }
     }
 }

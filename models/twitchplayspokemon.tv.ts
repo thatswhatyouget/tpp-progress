@@ -11,6 +11,7 @@ namespace TPP.Tv {
         caught: number;
         caught_list: number[];
         coins?: number;
+        daycare?: BoxedPokemon[];
         id: number;
         items: {
             [key: string]: Item[];
