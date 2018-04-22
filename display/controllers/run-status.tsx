@@ -39,7 +39,7 @@ namespace TPP.Controllers {
             this.contentTitle = run.RunName + " Status";
 
             if (run.Ongoing)
-                this.credits[0] = "Live Data: [TwitchPlaysPokemon.tv](https://twitchplayspokemon.tv/) &nbsp;&nbsp Other" + this.credits[0];    
+                this.credits[0] = "Live Data: [TwitchPlaysPokemon.tv](https://twitchplayspokemon.tv/) &nbsp;&nbsp Other " + this.credits[0];    
             if (run.RunName.indexOf("Touhoumon") >= 0)
                 this.credits.splice(this.credits.length - 1, 0, "Touhoumon sprites ripped by [Jayare158](https://www.reddit.com/r/twitchplayspokemon/comments/5cwr3q/by_ucyanders_request_heres_a_sprite_chart_with/).");
             if (run.TPPOrgLink || run.DocumentLink)
