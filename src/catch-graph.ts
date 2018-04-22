@@ -3,7 +3,8 @@
 
 function qsFilter(event: TPP.Event, run: TPP.Run, index: number) {
     return !(QueryString["day"] && Duration.parse(event.Time, run.StartTime).TotalDays > parseFloat(QueryString["day"]))
-        && !(QueryString["pokemon"] && index >= parseInt(QueryString["pokemon"]));
+        && !(QueryString["pokemon"] && index >= parseInt(QueryString["pokemon"]))
+        && !(!QueryString["wifi"] && (event.Class || '').indexOf("WifiTrade") >= 0);
 }
 
 $.when.apply($,
