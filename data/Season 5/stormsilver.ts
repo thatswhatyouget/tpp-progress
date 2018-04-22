@@ -191,6 +191,21 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Torkoal", "Time": "6d 11h 17m" },
             { "Group": "Pokemon", "Name": "Dratini", "Time": "6d 12h 13m" },
             { "Group": "Pokemon", "Name": "Gyarados", "Time": "6d 12h 39m" },
+            { "Group": "Pokemon", "Name": "Lugia", "Time": "6d 19h 1m" },
+            { "Group": "Pokemon", "Name": "Cascoon", "Time": "6d 19h 44m" },
+            { "Group": "Pokemon", "Name": "Metapod", "Time": "6d 19h 53m" },
+            { "Group": "Pokemon", "Name": "Burmy", "Time": "6d 19h 57m" },
+            { "Group": "Pokemon", "Name": "Scyther", "Time": "6d 20h 3m" },
+            { "Group": "Pokemon", "Name": "Tentacruel", "Time": "6d 22h 42m" },
+            { "Group": "Pokemon", "Name": "Buizel", "Time": "6d 22h 44m" },
+            { "Group": "Pokemon", "Name": "Seaking", "Time": "6d 23h 3m" },
+            { "Group": "Pokemon", "Name": "Slowbro", "Time": "6d 23h 31m" },
+            { "Group": "Pokemon", "Name": "Azumarill", "Time": "6d 23h 34m" },
+            { "Group": "Pokemon", "Name": "Bronzong", "Time": "6d 23h 48m" },
+            { "Group": "Pokemon", "Name": "Quagsire", "Time": "7d 0h 1m" },
+            { "Group": "Pokemon", "Name": "Houndoom", "Time": "7d 3h 23m" },
+            { "Group": "Pokemon", "Name": "Kangaskhan", "Time": "7d 4h 4m" },
+            { "Group": "Pokemon", "Name": "Rapidash", "Time": "7d 4h 39m" },
         ]
     }
 );
