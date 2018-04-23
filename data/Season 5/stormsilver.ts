@@ -35,11 +35,11 @@ Season5.Runs.push(
 
             { Group: "Elite Four", Name: "Will", Image: "img/trainers/heartgold/will.png", Time: "8d4h55m", Attempts: 2 },
             { Group: "Elite Four", Name: "Koga", Image: "img/trainers/heartgold/koga.png", Time: "8d5h", Attempts: 1 },
-            { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/heartgold/bruno.png", Time: "", Attempts: 1 },
+            { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/heartgold/bruno.png", Time: "8d12h38m", Attempts: 2 },
             { Group: "Elite Four", Name: "Karen", Image: "img/trainers/heartgold/karen.png", Time: "8d5h16m", Attempts: 1 },
             { Group: "Champions", Name: "Lance", Image: "img/trainers/heartgold/lance.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 3, IDNo: "46212", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 4, IDNo: "46212", Party: [
                     { Pokemon: "Skuntank", Nickname: "F2P", Level: 56, Gender: "Female", Met: "Sprout Tower", OT: "AAEFFFF" },
                     { Pokemon: "Farfetch'd", Nickname: "0011hIqU", Level: 54, Gender: "Female", Met: "Route 48", OT: "AAEFFFF" },
                     { Pokemon: "Lugia", Nickname: "r", Level: 57, Met: "Whirl Islands", OT: "AAEFFFF" },
