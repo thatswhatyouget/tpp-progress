@@ -33,16 +33,22 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
 
-            { Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png", Time: "8d4h55m", Attempts: 2 },
+            { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "8d5h", Attempts: 1 },
+            { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "", Attempts: 1 },
+            { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "8d5h16m", Attempts: 1 },
             { Group: "Champions", Name: "Lance", Image: "img/trainers/crystal/lance.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, IDNo: "", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 3, IDNo: "46212", Party: [
+                    { Pokemon: "Skuntank", Nickname: "F2P", Level: 50, Gender: "Female", Met: "Sprout Tower", OT: "AAEFFFF" },
+                    { Pokemon: "Farfetch'd", Nickname: "0011hIqU", Level: 47, Gender: "Female", Met: "Route 48", OT: "AAEFFFF" },
+                    { Pokemon: "Lugia", Nickname: "r", Level: 54, Met: "Whirl Islands", OT: "AAEFFFF" },
+                    { Pokemon: "Gastrodon", Nickname: "AAAAAAAAA", Level: 55, Gender: "Male", Met: "Slowpoke Well", OT: "AAEFFFF" },
+                    { Pokemon: "Froslass", Nickname: "00      UU", Level: 64, Gender: "Female", Met: "Slowpoke Well", OT: "AAEFFFF" },
+                    { Pokemon: "Typhlosion", Nickname: "222", Level: 80, Gender: "Male", Met: "New Bark Town", OT: "AAEFFFF" },
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate: ""
+                FirstAttemptDate: "8d4h39m"
             },
 
             { Group: "Champions", Name: "Red", Image: "img/trainers/crystal/red.png", Time: "", Attempts: 0 },
@@ -206,6 +212,21 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Houndoom", "Time": "7d 3h 23m" },
             { "Group": "Pokemon", "Name": "Kangaskhan", "Time": "7d 4h 4m" },
             { "Group": "Pokemon", "Name": "Rapidash", "Time": "7d 4h 39m" },
+            { "Group": "Pokemon", "Name": "Dodrio", "Time": "7d 5h 35m" },
+            { "Group": "Pokemon", "Name": "Houndour", "Time": "7d 5h 50m" },
+            { "Group": "Pokemon", "Name": "Marowak", "Time": "7d 7h 57m" },
+            { "Group": "Pokemon", "Name": "Rhydon", "Time": "7d 8h 9m" },
+            { "Group": "Pokemon", "Name": "Venomoth", "Time": "7d 8h 24m" },
+            { "Group": "Pokemon", "Name": "Machoke", "Time": "7d 8h 29m" },
+            { "Group": "Pokemon", "Name": "Loudred", "Time": "7d 10h 51m" },
+            { "Group": "Pokemon", "Name": "Mawile", "Time": "7d 11h 43m" },
+            { "Group": "Pokemon", "Name": "Ursaring", "Time": "7d 11h 50m" },
+            { "Group": "Pokemon", "Name": "Sableye", "Time": "7d 12h 31m" },
+            { "Group": "Pokemon", "Name": "Gabite", "Time": "7d 13h 14m" },
+            { "Group": "Pokemon", "Name": "Floatzel", "Time": "7d 19h 14m" },
+            { "Group": "Pokemon", "Name": "Medicham", "Time": "7d 20h 54m" },
+            { "Group": "Pokemon", "Name": "Rotom", "Time": "7d 23h 54m" },
+            { "Group": "Pokemon", "Name": "Poochyena", "Time": "8d 0h 55m" },
         ]
     }
 );
