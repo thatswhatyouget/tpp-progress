@@ -25,7 +25,7 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png", Time: "6d 12h 59m", Attempts: 3 },
 
             { Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", Time: "9d 6h 30m", Attempts: 1 },
-            { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "9d 19h 56m", Attempts: 6 },
             { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
