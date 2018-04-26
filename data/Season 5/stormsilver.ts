@@ -74,6 +74,18 @@ Season5.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "11d 14h 41m"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "12d20m", Attempts: 1, IDNo: "46212", Party: [
+                    { Pokemon: "Skuntank", Nickname: "F2P", Level: 66, Gender: "Female", Met: "Sprout Tower", OT: "AAEFFFF" },
+                    { Pokemon: "Gastrodon", Nickname: "AAAAAAAAA", Level: 69, Gender: "Male", Met: "Slowpoke Well", OT: "AAEFFFF" },
+                    { Pokemon: "Farfetch'd", Nickname: "0011hIqU", Level: 68, Gender: "Female", Met: "Route 48", OT: "AAEFFFF" },
+                    { Pokemon: "Lugia", Nickname: "r", Level: 67, Met: "Whirl Islands", OT: "AAEFFFF" },
+                    { Pokemon: "Froslass", Nickname: "00      UU", Level: 86, Gender: "Female", Met: "Slowpoke Well", OT: "AAEFFFF" },
+                    { Pokemon: "Typhlosion", Nickname: "222", Level: 93, Gender: "Male", Met: "New Bark Town", OT: "AAEFFFF" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "11d 23h 30m"
+            },
             
 
             { Group: "Champions", Name: "Red", Image: "img/trainers/crystal/red.png", Time: "", Attempts: 0 },
