@@ -86,7 +86,31 @@ Season5.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "11d 23h 30m"
             },
-            
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "12d 3h 19m", Attempts: 1, IDNo: "46212", Party: [
+                    { Pokemon: "Skuntank", Nickname: "F2P", Level: 66, Gender: "Female", Met: "Sprout Tower", OT: "AAEFFFF" },
+                    { Pokemon: "Lugia", Nickname: "r", Level: 68, Met: "Whirl Islands", OT: "AAEFFFF" },
+                    { Pokemon: "Gastrodon", Nickname: "AAAAAAAAA", Level: 70, Gender: "Male", Met: "Slowpoke Well", OT: "AAEFFFF" },
+                    { Pokemon: "Farfetch'd", Nickname: "0011hIqU", Level: 68, Gender: "Female", Met: "Route 48", OT: "AAEFFFF" },
+                    { Pokemon: "Froslass", Nickname: "00      UU", Level: 87, Gender: "Female", Met: "Slowpoke Well", OT: "AAEFFFF" },
+                    { Pokemon: "Typhlosion", Nickname: "222", Level: 94, Gender: "Male", Met: "New Bark Town", OT: "AAEFFFF" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "12d 2h 20m"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "12d 11h 37m", Attempts: 1, IDNo: "46212", Party: [
+                    { Pokemon: "Skuntank", Nickname: "F2P", Level: 66, Gender: "Female", Met: "Sprout Tower", OT: "AAEFFFF" },
+                    { Pokemon: "Farfetch'd", Nickname: "0011hIqU", Level: 68, Gender: "Female", Met: "Route 48", OT: "AAEFFFF" },
+                    { Pokemon: "Gastrodon", Nickname: "AAAAAAAAA", Level: 71, Gender: "Male", Met: "Slowpoke Well", OT: "AAEFFFF" },
+                    { Pokemon: "Lugia", Nickname: "r", Level: 69, Met: "Whirl Islands", OT: "AAEFFFF" },
+                    { Pokemon: "Typhlosion", Nickname: "222", Level: 94, Gender: "Male", Met: "New Bark Town", OT: "AAEFFFF" },
+                    { Pokemon: "Froslass", Nickname: "00      UU", Level: 88, Gender: "Female", Met: "Slowpoke Well", OT: "AAEFFFF" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "12d 10h 51m"
+            },
+
 
             { Group: "Champions", Name: "Red", Image: "img/trainers/crystal/red.png", Time: "", Attempts: 0 },
 
@@ -328,6 +352,29 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Dragonair", "Time": "10d 20h 14m" },
             { "Group": "Pokemon", "Name": "Grimer", "Time": "11d 9h 50m" },
             { "Group": "Pokemon", "Name": "Muk", "Time": "11d 9h 57m" },
+            { "Group": "Pokemon", "Name": "Delcatty", "Time": "11d 16h 52m" },
+            { "Group": "Pokemon", "Name": "Machop", "Time": "11d 16h 53m" },
+            { "Group": "Pokemon", "Name": "Poliwrath", "Time": "11d 16h 53m" },
+            { "Group": "Pokemon", "Name": "Cherrim", "Time": "11d 17h 45m" },
+            { "Group": "Pokemon", "Name": "Walrein", "Time": "11d 18h 25m" },
+            { "Group": "Pokemon", "Name": "Swalot", "Time": "11d 18h 25m" },
+            { "Group": "Pokemon", "Name": "Slugma", "Time": "11d 19h 18m" },
+            { "Group": "Pokemon", "Name": "Teddiursa", "Time": "11d 19h 28m" },
+            { "Group": "Pokemon", "Name": "Meganium", "Time": "11d 21h 53m" },
+            { "Group": "Pokemon", "Name": "Jumpluff", "Time": "11d 21h 53m" },
+            { "Group": "Pokemon", "Name": "Misdreavus", "Time": "11d 21h 53m" },
+            { "Group": "Pokemon", "Name": "Oddish", "Time": "12d 1h 9m" },
+            { "Group": "Pokemon", "Name": "Sharpedo", "Time": "12d 1h 9m" },
+            { "Group": "Pokemon", "Name": "Ivysaur", "Time": "12d 1h 9m" },
+            { "Group": "Pokemon", "Name": "Paras", "Time": "12d 3h 39m" },
+            { "Group": "Pokemon", "Name": "Salamence", "Time": "12d 3h 39m" },
+            { "Group": "Pokemon", "Name": "Espeon", "Time": "12d 3h 39m" },
+            { "Group": "Pokemon", "Name": "Umbreon", "Time": "12d 3h 39m" },
+            { "Group": "Pokemon", "Name": "Qwilfish", "Time": "12d 4h 51m" },
+            { "Group": "Pokemon", "Name": "Sealeo", "Time": "12d 6h 27m" },
+            { "Group": "Pokemon", "Name": "Sneasel", "Time": "12d 6h 39m" },
+            { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "12d 7h 4m" },
+            { "Group": "Pokemon", "Name": "Masquerain", "Time": "12d 10h 23m" },
         ]
     }
 );
