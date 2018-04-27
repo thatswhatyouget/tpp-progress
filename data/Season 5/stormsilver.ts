@@ -123,13 +123,13 @@ Season5.Runs.push(
                 FirstAttemptDate: "12d 13h 6m"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 3, IDNo: "46212", Party: [
-                    { Pokemon: "Skuntank", Nickname: "F2P", Level: 68, Gender: "Female", Met: "Sprout Tower", OT: "AAEFFFF" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "12d18h20m", Attempts: 3, IDNo: "46212", Party: [
+                    { Pokemon: "Skuntank", Nickname: "F2P", Level: 69, Gender: "Female", Met: "Sprout Tower", OT: "AAEFFFF" },
                     { Pokemon: "Gastrodon", Nickname: "AAAAAAAAA", Level: 71, Gender: "Male", Met: "Slowpoke Well", OT: "AAEFFFF" },
-                    { Pokemon: "Lugia", Nickname: "r", Level: 71, Met: "Whirl Islands", OT: "AAEFFFF" },
-                    { Pokemon: "Farfetch'd", Nickname: "0011hIqU", Level: 69, Gender: "Female", Met: "Route 48", OT: "AAEFFFF" },
-                    { Pokemon: "Froslass", Nickname: "00      UU", Level: 90, Gender: "Female", Met: "Slowpoke Well", OT: "AAEFFFF" },
-                    { Pokemon: "Typhlosion", Nickname: "222", Level: 95, Gender: "Male", Met: "New Bark Town", OT: "AAEFFFF" },
+                    { Pokemon: "Lugia", Nickname: "r", Level: 72, Met: "Whirl Islands", OT: "AAEFFFF" },
+                    { Pokemon: "Farfetch'd", Nickname: "0011hIqU", Level: 70, Gender: "Female", Met: "Route 48", OT: "AAEFFFF" },
+                    { Pokemon: "Froslass", Nickname: "00      UU", Level: 91, Gender: "Female", Met: "Slowpoke Well", OT: "AAEFFFF" },
+                    { Pokemon: "Typhlosion", Nickname: "222", Level: 96, Gender: "Male", Met: "New Bark Town", OT: "AAEFFFF" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "12d 15h 19m"
