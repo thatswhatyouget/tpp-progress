@@ -30,8 +30,8 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "11d 11h 51m", Attempts: 1 },
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "11d 12h 29m", Attempts: 1 },
             { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "11d13h31m", Attempts: 1 },
-            { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "13d 8h 1m", Attempts: 1 },
+            { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "13d 9h 58m", Attempts: 1 },
 
             { Group: "Elite Four", Name: "Will", Image: "img/trainers/heartgold/will.png", Time: "8d4h55m", Attempts: 2 },
             { Group: "Elite Four", Name: "Koga", Image: "img/trainers/heartgold/koga.png", Time: "8d5h", Attempts: 1 },
@@ -420,7 +420,26 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Meowth", "Time": "13d 2h 33m" },
             { "Group": "Pokemon", "Name": "Skitty", "Time": "13d 2h 46m" },
             { "Group": "Pokemon", "Name": "Lumineon", "Time": "13d 4h 50m" },
-            { "Group": "Pokemon", "Name": "Huntail", "Time": "13d 5h 22m" }
+            { "Group": "Pokemon", "Name": "Huntail", "Time": "13d 5h 22m" },
+            { "Group": "Pokemon", "Name": "Gorebyss", "Time": "13d 5h 39m" },
+            { "Group": "Pokemon", "Name": "Clamperl", "Time": "13d 5h 56m" },
+            { "Group": "Pokemon", "Name": "Piloswine", "Time": "13d 6h 14m" },
+            { "Group": "Pokemon", "Name": "Jynx", "Time": "13d 6h 29m" },
+            { "Group": "Pokemon", "Name": "Suicune", "Time": "13d 10h 29m" },
+            { "Group": "Pokemon", "Name": "Heatran", "Time": "13d 12h 0m" },
+            { "Group": "Pokemon", "Name": "Celebi", "Time": "13d 12h 22m" },
+            { "Group": "Pokemon", "Name": "Pinsir", "Time": "13d 12h 58m" },
+            { "Group": "Pokemon", "Name": "Kakuna", "Time": "13d 13h 1m" },
+            { "Group": "Pokemon", "Name": "Shaymin", "Time": "13d 13h 13m" },
+            { "Group": "Pokemon", "Name": "Nuzleaf", "Time": "13d 13h 46m" },
+            { "Group": "Pokemon", "Name": "Gloom", "Time": "13d 14h 12m" },
+            { "Group": "Pokemon", "Name": "Sentret", "Time": "13d 16h 10m" },
+            { "Group": "Pokemon", "Name": "Phanpy", "Time": "13d 16h 43m" },
+            { "Group": "Pokemon", "Name": "Spoink", "Time": "13d 16h 47m" },
+            { "Group": "Pokemon", "Name": "Spearow", "Time": "13d 16h 50m" },
+            { "Group": "Pokemon", "Name": "Numel", "Time": "13d 17h 4m" },
+            { "Group": "Pokemon", "Name": "Wormadam", "Time": "13d 18h 13m" },
+            { "Group": "Pokemon", "Name": "Mew", "Time": "13d 18h 37m" },
         ]
     }
 );
