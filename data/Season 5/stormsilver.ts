@@ -134,6 +134,18 @@ Season5.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "12d 15h 19m"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d 4h 34m", Attempts: 1, IDNo: "46212", Party: [
+                    { Pokemon: "Gastrodon", Nickname: "AAAAAAAAA", Level: 71, Gender: "Male", Met: "Slowpoke Well", OT: "AAEFFFF" },
+                    { Pokemon: "Typhlosion", Nickname: "222", Level: 96, Gender: "Male", Met: "New Bark Town", OT: "AAEFFFF" },
+                    { Pokemon: "Skuntank", Nickname: "F2P", Level: 69, Gender: "Female", Met: "Sprout Tower", OT: "AAEFFFF" },
+                    { Pokemon: "Froslass", Nickname: "00      UU", Level: 92, Gender: "Female", Met: "Slowpoke Well", OT: "AAEFFFF" },
+                    { Pokemon: "Farfetch'd", Nickname: "0011hIqU", Level: 70, Gender: "Female", Met: "Route 48", OT: "AAEFFFF" },
+                    { Pokemon: "Lugia", Nickname: "r", Level: 74, Met: "Whirl Islands", OT: "AAEFFFF" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "13d 3h 20m"
+            },
 
 
             { Group: "Champions", Name: "Red", Image: "img/trainers/crystal/red.png", Time: "", Attempts: 0 },
@@ -399,6 +411,16 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Sneasel", "Time": "12d 6h 39m" },
             { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "12d 7h 4m" },
             { "Group": "Pokemon", "Name": "Masquerain", "Time": "12d 10h 23m" },
+            { "Group": "Pokemon", "Name": "Magby", "Time": "12d 12h 42m" },
+            { "Group": "Pokemon", "Name": "Charizard", "Time": "12d 17h 18m" },
+            { "Group": "Pokemon", "Name": "Glalie", "Time": "12d 17h 18m" },
+            { "Group": "Pokemon", "Name": "Vileplume", "Time": "12d 18h 48m" },
+            { "Group": "Pokemon", "Name": "Ampharos", "Time": "12d 18h 48m" },
+            { "Group": "Pokemon", "Name": "Mankey", "Time": "13d 2h 27m" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "13d 2h 33m" },
+            { "Group": "Pokemon", "Name": "Skitty", "Time": "13d 2h 46m" },
+            { "Group": "Pokemon", "Name": "Lumineon", "Time": "13d 4h 50m" },
+            { "Group": "Pokemon", "Name": "Huntail", "Time": "13d 5h 22m" }
         ]
     }
 );
