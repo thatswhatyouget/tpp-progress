@@ -12,7 +12,7 @@ Season5.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/8ceslx/syke_sprite/",
         Region: "Johto",
         Pokedex: "National",
-        // AdditionalRegions: [{ Name: "Kanto", Time: "9d14h" }],
+        AdditionalRegions: [{ Name: "Kanto", Time: "8d21h39m" }],
         Generation: 4,
         Events: [
             { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "0d 11h 11m", Attempts: 2 },
@@ -147,8 +147,7 @@ Season5.Runs.push(
                 FirstAttemptDate: "13d 3h 20m"
             },
 
-
-            { Group: "Champions", Name: "Red", Image: "img/trainers/crystal/red.png", Time: "", Attempts: 0 },
+            { Group: "Past Hosts", Name: "aoooo", Image: "img/hosts/aoooo.png", Time: "14d11h9m", Attempts: 4, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", },
 
             { Name: "Cyndaquil", Time: "8m", Group: "Pokemon" },
             { "Group": "Pokemon", "Name": "Eevee", "Time": "0d 1h 24m" },
@@ -440,6 +439,8 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Numel", "Time": "13d 17h 4m" },
             { "Group": "Pokemon", "Name": "Wormadam", "Time": "13d 18h 13m" },
             { "Group": "Pokemon", "Name": "Mew", "Time": "13d 18h 37m" },
+            { "Group": "Pokemon", "Name": "Cresselia", "Time": "13d 21h 36m" },
+            { "Group": "Pokemon", "Name": "Murkrow", "Time": "14d 4h 36m" },
         ]
     }
 );
