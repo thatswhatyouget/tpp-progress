@@ -40,9 +40,9 @@ Season5.Runs.push(
             { Group: "Champions", Name: "Lance", Image: "img/trainers/heartgold/lance.png", Time: "8d 14h 50m", Attempts: 1 },
 
             { Group: "Elite Four Rematch", Name: "Will", Image: "img/trainers/heartgold/rematch/will.png", Time: "15d 7h 9m", Attempts: 1 },
-            { Group: "Elite Four Rematch", Name: "Koga", Image: "img/trainers/heartgold/rematch/koga.png", Time: "", Attempts: 2 },
-            { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/heartgold/rematch/bruno.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four Rematch", Name: "Karen", Image: "img/trainers/heartgold/rematch/karen.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four Rematch", Name: "Koga", Image: "img/trainers/heartgold/rematch/koga.png", Time: "15d 10h 25m", Attempts: 4 },
+            { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/heartgold/rematch/bruno.png", Time: "", Attempts: 2 },
+            { Group: "Elite Four Rematch", Name: "Karen", Image: "img/trainers/heartgold/rematch/karen.png", Time: "", Attempts: 1 },
             { Group: "Champions", Name: "Lance", Image: "img/trainers/heartgold/rematch/lance.png", Time: "", Attempts: 0 },
 
             { Group: "Past Hosts", Name: "aoooo", Image: "img/hosts/aoooo.png", Time: "14d11h9m", Attempts: 4, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", },
@@ -157,13 +157,13 @@ Season5.Runs.push(
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 3, IDNo: "46212", Party: [
-                    { Pokemon: "Skuntank", Nickname: "F2P", Level: 73, Gender: "Female", Met: "Sprout Tower", OT: "AAEFFFF" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 10, IDNo: "46212", Party: [
+                    { Pokemon: "Skuntank", Nickname: "F2P", Level: 74, Gender: "Female", Met: "Sprout Tower", OT: "AAEFFFF" },
                     { Pokemon: "Gastrodon", Nickname: "AAAAAAAAA", Level: 75, Gender: "Male", Met: "Slowpoke Well", OT: "AAEFFFF" },
                     { Pokemon: "Typhlosion", Nickname: "222", Level: 100, Gender: "Male", Met: "New Bark Town", OT: "AAEFFFF" },
                     { Pokemon: "Farfetch'd", Nickname: "0011hIqU", Level: 74, Gender: "Female", Met: "Route 48", OT: "AAEFFFF" },
-                    { Pokemon: "Froslass", Nickname: "00      UU", Level: 96, Gender: "Female", Met: "Slowpoke Well", OT: "AAEFFFF" },
-                    { Pokemon: "Lugia", Nickname: "r", Level: 76, Met: "Whirl Islands", OT: "AAEFFFF" },
+                    { Pokemon: "Froslass", Nickname: "00      UU", Level: 99, Gender: "Female", Met: "Slowpoke Well", OT: "AAEFFFF" },
+                    { Pokemon: "Lugia", Nickname: "r", Level: 77, Met: "Whirl Islands", OT: "AAEFFFF" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "15d6h58m"
