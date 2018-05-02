@@ -43,7 +43,7 @@ Season5.Runs.push(
             { Group: "Elite Four Rematch", Name: "Koga", Image: "img/trainers/heartgold/rematch/koga.png", Time: "15d 10h 25m", Attempts: 4 },
             { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/heartgold/rematch/bruno.png", Time: "15d 18h 54m", Attempts: 3 },
             { Group: "Elite Four Rematch", Name: "Karen", Image: "img/trainers/heartgold/rematch/karen.png", Time: "15d22h50m", Attempts: 4 },
-            { Group: "Champions", Name: "Lance", Image: "img/trainers/heartgold/rematch/lance.png", Time: "", Attempts: 0 },
+            { Group: "Champions", Name: "Lance", Image: "img/trainers/heartgold/rematch/lance.png", Time: "", Attempts: 1 },
 
             { Group: "Past Hosts", Name: "aoooo", Image: "img/hosts/aoooo.png", Time: "14d11h9m", Attempts: 4, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", },
 
@@ -157,11 +157,11 @@ Season5.Runs.push(
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 14, IDNo: "46212", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 32, IDNo: "46212", Party: [
                     { Pokemon: "Skuntank", Nickname: "F2P", Level: 77, Gender: "Female", Met: "Sprout Tower", OT: "AAEFFFF" },
-                    { Pokemon: "Gastrodon", Nickname: "AAAAAAAAA", Level: 77, Gender: "Male", Met: "Slowpoke Well", OT: "AAEFFFF" },
-                    { Pokemon: "Farfetch'd", Nickname: "0011hIqU", Level: 77, Gender: "Female", Met: "Route 48", OT: "AAEFFFF" },
                     { Pokemon: "Typhlosion", Nickname: "222", Level: 100, Gender: "Male", Met: "New Bark Town", OT: "AAEFFFF" },
+                    { Pokemon: "Farfetch'd", Nickname: "0011hIqU", Level: 77, Gender: "Female", Met: "Route 48", OT: "AAEFFFF" },
+                    { Pokemon: "Gastrodon", Nickname: "AAAAAAAAA", Level: 77, Gender: "Male", Met: "Slowpoke Well", OT: "AAEFFFF" },
                     { Pokemon: "Froslass", Nickname: "00      UU", Level: 100, Gender: "Female", Met: "Slowpoke Well", OT: "AAEFFFF" },
                     { Pokemon: "Lugia", Nickname: "r", Level: 78, Met: "Whirl Islands", OT: "AAEFFFF" },
                 ],
@@ -475,6 +475,11 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Trapinch", "Time": "15d 5h 12m" },
             { "Group": "Pokemon", "Name": "Absol", "Time": "15d 5h 58m" },
             { "Group": "Pokemon", "Name": "Kecleon", "Time": "15d 6h 7m" },
+            { "Group": "Pokemon", "Name": "Abomasnow", "Time": "15d 15h 39m" },
+            { "Group": "Pokemon", "Name": "Snover", "Time": "15d 15h 46m" },
+            { "Group": "Pokemon", "Name": "Crawdaunt", "Time": "16d 3h 55m" },
+            { "Group": "Pokemon", "Name": "Spinarak", "Time": "16d 4h 7m" },
+            { "Group": "Pokemon", "Name": "Shelgon", "Time": "16d 20h 49m" },
         ]
     }
 );
