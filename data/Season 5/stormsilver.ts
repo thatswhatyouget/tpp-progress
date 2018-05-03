@@ -158,11 +158,11 @@ Season5.Runs.push(
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "18d 0h 35m", Attempts: 56, IDNo: "46212", Party: [
-                    { Pokemon: "Typhlosion", Nickname: "...8OPb...", Level: 100, Gender: "Male", Met: "New Bark Town", OT: "AAEFFFF" },
-                    { Pokemon: "Gastrodon", Nickname: " ..EX", Level: 85, Gender: "Male", Met: "Slowpoke Well", OT: "AAEFFFF" },
+                    { Pokemon: "Typhlosion", Nickname: "☽.☽8OPb.☽☽", Level: 100, Gender: "Male", Met: "New Bark Town", OT: "AAEFFFF" },
+                    { Pokemon: "Gastrodon", Nickname: " ♪.EX", Level: 85, Gender: "Male", Met: "Slowpoke Well", OT: "AAEFFFF" },
                     { Pokemon: "Froslass", Nickname: "DPBRDVDDDD", Level: 100, Gender: "Female", Met: "Slowpoke Well", OT: "AAEFFFF" },
                     { Pokemon: "Farfetch'd", Nickname: "QUAC", Level: 93, Gender: "Female", Met: "Route 48", OT: "AAEFFFF" },
-                    { Pokemon: "Lugia", Nickname: "a..).", Level: 90, Met: "Whirl Islands", OT: "AAEFFFF" },
+                    { Pokemon: "Lugia", Nickname: "a☺♪)♥", Level: 90, Met: "Whirl Islands", OT: "AAEFFFF" },
                     { Pokemon: "Skuntank", Nickname: ")bbdbbrpfa", Level: 81, Gender: "Female", Met: "Sprout Tower", OT: "AAEFFFF" },
                 ],
                 Image: "img/ribbons/champion.png",
@@ -480,6 +480,8 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Crawdaunt", "Time": "16d 3h 55m" },
             { "Group": "Pokemon", "Name": "Spinarak", "Time": "16d 4h 7m" },
             { "Group": "Pokemon", "Name": "Shelgon", "Time": "16d 20h 49m" },
+            { "Group": "Pokemon", "Name": "Alakazam", "Time": "17d 12h 18m" },
+            { "Group": "Pokemon", "Name": "Ho-Oh", "Time": "18d 4h 23m" }
         ]
     }
 );
