@@ -6,7 +6,7 @@ Season5.Runs.push(
         ColorSecondary: "#278fe5",
         BackgroundImage: "linear-gradient(#dfdfdf, #b5bdc5)",
         StartDate: "2018-04-14T21:00:00Z",
-        Duration: "255d",
+        Duration: "2018-05-04T00:00:00Z",
         HostName: "AAEFFFF",
         HostImage: "img/hosts/aaeffff.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/8ceslx/syke_sprite/",
@@ -481,7 +481,19 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Spinarak", "Time": "16d 4h 7m" },
             { "Group": "Pokemon", "Name": "Shelgon", "Time": "16d 20h 49m" },
             { "Group": "Pokemon", "Name": "Alakazam", "Time": "17d 12h 18m" },
-            { "Group": "Pokemon", "Name": "Ho-Oh", "Time": "18d 4h 23m" }
+            { "Group": "Pokemon", "Name": "Ho-Oh", "Time": "18d 4h 23m" },
+            { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "18d 12h 41m" },
+            { "Group": "Pokemon", "Name": "Squirtle", "Time": "18d 12h 53m" },
+            { "Group": "Pokemon", "Name": "Charmander", "Time": "18d 12h 53m" },
+            { "Group": "Pokemon", "Name": "Exeggutor", "Time": "18d 12h 58m" },
+            { "Group": "Pokemon", "Name": "Mudkip", "Time": "18d 13h 30m" },
+            { "Group": "Pokemon", "Name": "Torchic", "Time": "18d 13h 30m" },
+            { "Group": "Pokemon", "Name": "Marshtomp", "Time": "18d 16h 37m" },
+            { "Group": "Pokemon", "Name": "Combusken", "Time": "18d 16h 45m" },
+            { "Group": "Pokemon", "Name": "Magmar", "Time": "18d 19h 15m" },
+            { "Group": "Pokemon", "Name": "Venusaur", "Time": "19d 0h 53m" },
+            { "Group": "Pokemon", "Name": "Garchomp", "Time": "19d 1h 12m" },
+            { "Group": "Pokemon", "Name": "Flygon", "Time": "19d 1h 48m" },
         ]
     }
 );
