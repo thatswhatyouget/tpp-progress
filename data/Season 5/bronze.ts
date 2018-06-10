@@ -10,7 +10,6 @@ Season5.Runs.push(
         HostImage: "img/hosts/feeffr.png",
         // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/6tdqij/the_hosts_of_the_voices_4th_midseason/",
         Region: "Kohto",
-        Generation: 2,
         Events: [
 
             { "Group": "Pokemon", "Name": "Pichu", "Time": "0d 0h 7m" },
