@@ -13,6 +13,7 @@ Season5.Runs.push(
         Events: [
             { Group: "Badges", Name: "Bubble Badge", Image: "img/badges/bronze/bubble.png", Time: "0d 14h 56m", Attempts: 1 },
             { Group: "Badges", Name: "Weed Badge", Image: "img/badges/bronze/weed.png", Time: "1d 0h 2m", Attempts: 1 },
+            { Group: "Badges", Name: "Terra Badge", Image: "img/badges/bronze/terra.png", Time: "1d 11h 46m", Attempts: 3 },
 
             { "Group": "Pokemon", "Name": "Pichu", "Time": "0d 0h 7m" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "0d 3h 27m" },
@@ -23,6 +24,9 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Sandshrew", "Time": "0d 18h 8m" },
             { "Group": "Pokemon", "Name": "Pumbloom", "Time": "0d 19h 10m" },
             { "Group": "Pokemon", "Name": "Caterpie", "Time": "0d 19h 17m" },
+            { "Group": "Pokemon", "Name": "Furret", "Time": "1d 0h 2m" },
+            { "Group": "Pokemon", "Name": "Hoppip", "Time": "1d 2h 47m" },
+            { "Group": "Pokemon", "Name": "Sunkern", "Time": "1d 6h 34m" },
         ]
     }
 );
