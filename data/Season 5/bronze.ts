@@ -12,6 +12,7 @@ Season5.Runs.push(
         Region: "Kohto",
         Events: [
             { Group: "Badges", Name: "Bubble Badge", Image: "img/badges/bronze/bubble.png", Time: "0d 14h 56m", Attempts: 1 },
+            { Group: "Badges", Name: "Weed Badge", Image: "img/badges/bronze/weed.png", Time: "1d 0h 2m", Attempts: 1 },
 
             { "Group": "Pokemon", "Name": "Pichu", "Time": "0d 0h 7m" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "0d 3h 27m" },
