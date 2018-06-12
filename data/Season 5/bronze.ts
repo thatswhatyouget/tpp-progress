@@ -14,6 +14,7 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Bubble Badge", Image: "img/badges/bronze/bubble.png", Time: "0d 14h 56m", Attempts: 1 },
             { Group: "Badges", Name: "Weed Badge", Image: "img/badges/bronze/weed.png", Time: "1d 0h 2m", Attempts: 1 },
             { Group: "Badges", Name: "Terra Badge", Image: "img/badges/bronze/terra.png", Time: "1d 11h 46m", Attempts: 3 },
+            { Group: "Badges", Name: "Zap Badge", Image: "img/badges/bronze/zap.png", Time: "2d 11h 56m", Attempts: 2 },
 
             { "Group": "Pokemon", "Name": "Pichu", "Time": "0d 0h 7m" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "0d 3h 27m" },
@@ -27,6 +28,13 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Furret", "Time": "1d 0h 2m" },
             { "Group": "Pokemon", "Name": "Hoppip", "Time": "1d 2h 47m" },
             { "Group": "Pokemon", "Name": "Sunkern", "Time": "1d 6h 34m" },
+            { "Group": "Pokemon", "Name": "Sneasel", "Time": "1d 13h 27m" },
+            { "Group": "Pokemon", "Name": "Shuckle", "Time": "1d 16h 32m" },
+            { "Group": "Pokemon", "Name": "Scyther", "Time": "2d 2h 17m" },
+            { "Group": "Pokemon", "Name": "Growlithe", "Time": "2d 2h 28m" },
+            { "Group": "Pokemon", "Name": "Geodude", "Time": "2d 6h 32m" },
+            { "Group": "Pokemon", "Name": "Pidgeot", "Time": "2d 10h 15m" },
+            { "Group": "Pokemon", "Name": "Skiploom", "Time": "2d 13h 16m" },
         ]
     }
 );
