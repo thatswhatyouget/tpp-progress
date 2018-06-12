@@ -15,6 +15,7 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Weed Badge", Image: "img/badges/bronze/weed.png", Time: "1d 0h 2m", Attempts: 1 },
             { Group: "Badges", Name: "Terra Badge", Image: "img/badges/bronze/terra.png", Time: "1d 11h 46m", Attempts: 3 },
             { Group: "Badges", Name: "Zap Badge", Image: "img/badges/bronze/zap.png", Time: "2d 11h 56m", Attempts: 2 },
+            { Group: "Badges", Name: "Blank Badge", Image: "img/badges/bronze/blank.png", Time: "2d 22h 17m", Attempts: 1 },
 
             { "Group": "Pokemon", "Name": "Pichu", "Time": "0d 0h 7m" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "0d 3h 27m" },
@@ -35,6 +36,9 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Geodude", "Time": "2d 6h 32m" },
             { "Group": "Pokemon", "Name": "Pidgeot", "Time": "2d 10h 15m" },
             { "Group": "Pokemon", "Name": "Skiploom", "Time": "2d 13h 16m" },
+            { "Group": "Pokemon", "Name": "Gligar", "Time": "2018-06-12T16:39:00Z" },
+            { "Group": "Pokemon", "Name": "MissingNo", "Time": "2018-06-12T17:58:00Z" },
+
         ]
     }
 );
