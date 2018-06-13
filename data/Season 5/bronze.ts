@@ -17,6 +17,8 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Zap Badge", Image: "img/badges/bronze/zap.png", Time: "2d 11h 56m", Attempts: 2 },
             { Group: "Badges", Name: "Blank Badge", Image: "img/badges/bronze/blank.png", Time: "2d 22h 17m", Attempts: 1 },
 
+            { Group: "Badges", Name: "Pollution Badge", Image: "img/badges/bronze/pollution.png", Time: "3d 10h 52m", Attempts: 1 },
+
             { "Group": "Pokemon", "Name": "Pichu", "Time": "0d 0h 7m" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "0d 3h 27m" },
             { "Group": "Pokemon", "Name": "Sentret", "Time": "0d 3h 31m" },
@@ -36,8 +38,15 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Geodude", "Time": "2d 6h 32m" },
             { "Group": "Pokemon", "Name": "Pidgeot", "Time": "2d 10h 15m" },
             { "Group": "Pokemon", "Name": "Skiploom", "Time": "2d 13h 16m" },
-            { "Group": "Pokemon", "Name": "Gligar", "Time": "2018-06-12T16:39:00Z" },
-            { "Group": "Pokemon", "Name": "MissingNo", "Time": "2018-06-12T17:58:00Z" },
+            { "Group": "Pokemon", "Name": "Gligar", "Time": "2d 19h 38m" },
+            { "Group": "Pokemon", "Name": "MissingNo.", "Time": "2d 20h 57m" },
+            { "Group": "Pokemon", "Name": "Girafarig", "Time": "3d 0h 13m" },
+            { "Group": "Pokemon", "Name": "Marill", "Time": "3d 0h 19m" },
+            { "Group": "Pokemon", "Name": "Crobat", "Time": "3d 0h 58m" },
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "3d 3h 29m" },
+            { "Group": "Pokemon", "Name": "Tauros", "Time": "3d 3h 31m" },
+            { "Group": "Pokemon", "Name": "Lickitung", "Time": "3d 3h 36m" },
+            { "Group": "Pokemon", "Name": "Omanyte", "Time": "3d 4h 47m" },
 
         ]
     }
