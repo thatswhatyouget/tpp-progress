@@ -18,7 +18,18 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Blank Badge", Image: "img/badges/bronze/blank.png", Time: "2d 22h 17m", Attempts: 1 },
             { Group: "Badges", Name: "Acrobat Badge", Image: "img/badges/bronze/acrobat.png", Time: "3d 22h 0m", Attempts: 2 },
             { Group: "Badges", Name: "Pollution Badge", Image: "img/badges/bronze/pollution.png", Time: "3d 10h 52m", Attempts: 1 },
-            { Group: "Badges", Name: "Psycho Badge", Image: "img/badges/bronze/psycho.png", Time: "", Attempts: 6 },
+            { Group: "Badges", Name: "Psycho Badge", Image: "img/badges/bronze/psycho.png", Time: "5d 9h 32m", Attempts: 6 },
+
+            { Group: "Elite Four", Name: "Pryce", Image: "img/trainers/crystal/pryce.png", Time: "5d 11h 42m", Attempts: 1 },
+            { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "", Attempts: 2 },
+            { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "", Attempts: 0 },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "49922", Attempts: 2, Party: [
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "5d 11h 18m"
+            },
 
             { "Group": "Pokemon", "Name": "Pichu", "Time": "0d 0h 7m" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "0d 3h 27m" },
@@ -67,6 +78,9 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Tentacool", "Time": "4d 15h 56m" },
             { "Group": "Pokemon", "Name": "Ariados", "Time": "4d 21h 54m" },
             { "Group": "Pokemon", "Name": "Rattata", "Time": "5d 2h 5m" },
+            { "Group": "Pokemon", "Name": "Tentacruel", "Time": "5d 6h 25m" },
+            { "Group": "Pokemon", "Name": "Raticate", "Time": "5d 6h 58m" },
+            { "Group": "Pokemon", "Name": "Tangela", "Time": "5d 10h 20m" },
         ]
     }
 );
