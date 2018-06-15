@@ -8,7 +8,7 @@ Season5.Runs.push(
         Duration: "255d",
         HostName: "FEEFFr ",
         HostImage: "img/hosts/feeffr.png",
-        // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/6tdqij/the_hosts_of_the_voices_4th_midseason/",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/8qzejc/sweet_beta_green_bronze_host_sprites/",
         Region: "Kohto",
         Events: [
             { Group: "Badges", Name: "Bubble Badge", Image: "img/badges/bronze/bubble.png", Time: "0d 14h 56m", Attempts: 1 },
@@ -18,6 +18,7 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Blank Badge", Image: "img/badges/bronze/blank.png", Time: "2d 22h 17m", Attempts: 1 },
             { Group: "Badges", Name: "Acrobat Badge", Image: "img/badges/bronze/acrobat.png", Time: "3d 22h 0m", Attempts: 2 },
             { Group: "Badges", Name: "Pollution Badge", Image: "img/badges/bronze/pollution.png", Time: "3d 10h 52m", Attempts: 1 },
+            { Group: "Badges", Name: "Psycho Badge", Image: "img/badges/bronze/psycho.png", Time: "", Attempts: 6 },
 
             { "Group": "Pokemon", "Name": "Pichu", "Time": "0d 0h 7m" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "0d 3h 27m" },
@@ -58,8 +59,14 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Teddiursa", "Time": "4d 3h 42m" },
             { "Group": "Pokemon", "Name": "Psyduck", "Time": "4d 4h 21m" },
             { "Group": "Pokemon", "Name": "Bellossom", "Time": "4d 5h 4m" },
-            { "Group": "Pokemon", "Name": "Togepi", "Time": "4d 5h 53m" }
-
+            { "Group": "Pokemon", "Name": "Togepi", "Time": "4d 5h 53m" },
+            { "Group": "Pokemon", "Name": "Ponyta", "Time": "4d 6h 21m" },
+            { "Group": "Pokemon", "Name": "Vaporeon", "Time": "4d 7h 31m" },
+            { "Group": "Pokemon", "Name": "Arcanine", "Time": "4d 7h 38m" },
+            { "Group": "Pokemon", "Name": "Farfetch'd", "Time": "4d 14h 9m" },
+            { "Group": "Pokemon", "Name": "Tentacool", "Time": "4d 15h 56m" },
+            { "Group": "Pokemon", "Name": "Ariados", "Time": "4d 21h 54m" },
+            { "Group": "Pokemon", "Name": "Rattata", "Time": "5d 2h 5m" },
         ]
     }
 );
