@@ -23,7 +23,8 @@ Season5.Runs.push(
             { Group: "Elite Four", Name: "Pryce", Image: "img/trainers/crystal/pryce.png", Time: "5d 11h 42m", Attempts: 1 },
             { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "5d 17h 30m", Attempts: 4 },
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "5d 17h 40m", Attempts: 1 },
-            { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "", Attempts: 1 },
+            { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "5d18h25m", Attempts: 2 },
+            { Group: "Champion", Name: "  --?!!", Image: "img/trainers/crystal/bronze.png", Time: "", Attempts: 1 },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "49922", Attempts: 6, Party: [
                 ],
