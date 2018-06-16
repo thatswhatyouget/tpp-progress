@@ -24,7 +24,7 @@ Season5.Runs.push(
             { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "5d 17h 30m", Attempts: 4 },
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "5d 17h 40m", Attempts: 1 },
             { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "5d18h25m", Attempts: 2 },
-            { Group: "Champion", Name: "  --?!!", Image: "img/trainers/crystal/bronze.png", Time: "6d 4h 23m", Attempts: 4 },
+            { Group: "Champions", Name: "  --?!!", Image: "img/trainers/crystal/bronze.png", Time: "6d 4h 23m", Attempts: 4 },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "6d 4h 25m", IDNo: "49922", Attempts: 11, Party: [
                     { Pokemon: "Arcanine", Nickname: "RRRRRRRRRR", Level: 35, Gender: "Male", Number: '059', IDNo: "49922" },
@@ -88,6 +88,27 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Tentacruel", "Time": "5d 6h 25m" },
             { "Group": "Pokemon", "Name": "Raticate", "Time": "5d 6h 58m" },
             { "Group": "Pokemon", "Name": "Tangela", "Time": "5d 10h 20m" },
+            { "Group": "Pokemon", "Name": "Hoothoot", "Time": "5d 16h 29m" },
+            { "Group": "Pokemon", "Name": "Drowzee", "Time": "5d 20h 59m" },
+            { "Group": "Pokemon", "Name": "Nidoran", "Time": "5d 21h 12m" },
+            { "Group": "Pokemon", "Name": "Magnemite", "Time": "5d 21h 48m" },
+            { "Group": "Pokemon", "Name": "Gastly", "Time": "6d 0h 23m" },
+            { "Group": "Pokemon", "Name": "Porygon", "Time": "6d 0h 57m" },
+            { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "6d 2h 10m" },
+            { "Group": "Pokemon", "Name": "Poliwag", "Time": "6d 2h 12m" },
+            { "Group": "Pokemon", "Name": "Jumpluff", "Time": "6d 5h 2m" },
+            { "Group": "Pokemon", "Name": "Venomoth", "Time": "6d 5h 3m" },
+            { "Group": "Pokemon", "Name": "Beedrill", "Time": "6d 5h 9m" },
+            { "Group": "Pokemon", "Name": "Clefairy", "Time": "6d 6h 30m" },
+            { "Group": "Pokemon", "Name": "Paras", "Time": "6d 6h 32m" },
+            { "Group": "Pokemon", "Name": "Parasect", "Time": "6d 6h 55m" },
+            { "Group": "Pokemon", "Name": "Golbat", "Time": "6d 7h 56m" },
+            { "Group": "Pokemon", "Name": "Wooper", "Time": "6d 7h 59m" },
+            { "Group": "Pokemon", "Name": "Magneton", "Time": "6d 8h 5m" },
+            { "Group": "Pokemon", "Name": "Primeape", "Time": "6d 8h 9m" },
+            { "Group": "Pokemon", "Name": "Machoke", "Time": "6d 8h 31m" },
+            { "Group": "Pokemon", "Name": "Kadabra", "Time": "6d 8h 49m" },
+            { "Group": "Pokemon", "Name": "Electrode", "Time": "6d 9h 7m" }
         ]
     }
 );
