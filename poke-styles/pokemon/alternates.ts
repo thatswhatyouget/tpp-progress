@@ -39,6 +39,7 @@ var alternates: Alternate[] = [
     new Alternate("plusle", "Shiny"),
     new Alternate("gyarados", "Shiny"),
     new Alternate("skiploom", "Shiny"),
+    new Alternate("jumpluff", "Shiny"),
 
     new Alternate("zygarde", "percent10"),
     new Alternate("lycanroc", "Midnight"),
