@@ -1782,6 +1782,7 @@
 .pokesprite.xatu.shiny img { background-image:url("../img/alternate/xatu-shiny.png")!important; background-position: center!important; }
 .pokesprite.plusle.shiny img { background-image:url("../img/alternate/plusle-shiny.png")!important; background-position: center!important; }
 .pokesprite.gyarados.shiny img { background-image:url("../img/alternate/gyarados-shiny.png")!important; background-position: center!important; }
+.pokesprite.skiploom.shiny img { background-image:url("../img/alternate/skiploom-shiny.png")!important; background-position: center!important; }
 .pokesprite.zygarde.percent10 img { background-image:url("../img/alternate/zygarde-percent10.png")!important; background-position: center!important; }
 .pokesprite.lycanroc.midnight img { background-image:url("../img/alternate/lycanroc-midnight.png")!important; background-position: center!important; }
 .pokesprite.unidentified img  { background-image:url("../img/fakemon/unidentified.png")!important; }
@@ -1813,3 +1814,4 @@
 .pokesprite.pumbloom img  { background-image:url("../img/fakemon/pumbloom.png")!important; }
 .event.pokemon.pokesprite.unidentified img, .event.pokemon.pokesprite.prizmeon img, .event.pokemon.pokesprite.phancero img, .event.pokemon.pokesprite.raiwato img, .event.pokemon.pokesprite.varaneous img, .event.pokemon.pokesprite.fambaco img, .event.pokemon.pokesprite.libabeel img, .event.pokemon.pokesprite.pikachu-b img, .event.pokemon.pokesprite.kyurem-b img, .event.pokemon.pokesprite.kyurem-w img, .event.pokemon.pokesprite.mew-b img, .event.pokemon.pokesprite.m-venusaur img, .event.pokemon.pokesprite.m-charizardx img, .event.pokemon.pokesprite.m-blastoise img, .event.pokemon.pokesprite.m-lucario img, .event.pokemon.pokesprite.m-charizardy img, .event.pokemon.pokesprite.m-salamence img, .event.pokemon.pokesprite.m-absol img, .event.pokemon.pokesprite.m-manectric img, .event.pokemon.pokesprite.def-eevee img, .event.pokemon.pokesprite.rotom-c img, .event.pokemon.pokesprite.rotom-f img, .event.pokemon.pokesprite.rotom-h img, .event.pokemon.pokesprite.rotom-s img, .event.pokemon.pokesprite.rotom-w img, .event.pokemon.pokesprite.off-eevee img, .event.pokemon.pokesprite.pumbloom img { background-size: 50%!important; background-position: center!important; }
 .pokesprite.phancero:hover img  { background-image:url("../img/fakemon/phancero-hover.png")!important; }
+.pokesprite.missingno img  { background-image:url("../img/missingno.png")!important; }

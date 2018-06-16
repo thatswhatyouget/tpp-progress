@@ -17,3 +17,6 @@ addSingleStyle(fakemon.map(f => ".event.pokemon.pokesprite." + dexClean(f) + " i
 
 //Phancero hover effect
 addSingleStyle('.pokesprite.phancero:hover img  { background-image:url("../img/fakemon/phancero-hover.png")!important; }');
+
+//MissingNo.
+addSingleStyle('.pokesprite.missingno img  { background-image:url("../img/missingno.png")!important; }');

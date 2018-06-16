@@ -24,9 +24,15 @@ Season5.Runs.push(
             { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "5d 17h 30m", Attempts: 4 },
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "5d 17h 40m", Attempts: 1 },
             { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "5d18h25m", Attempts: 2 },
-            { Group: "Champion", Name: "  --?!!", Image: "img/trainers/crystal/bronze.png", Time: "", Attempts: 1 },
+            { Group: "Champion", Name: "  --?!!", Image: "img/trainers/crystal/bronze.png", Time: "6d 4h 23m", Attempts: 4 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "49922", Attempts: 6, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "6d 4h 25m", IDNo: "49922", Attempts: 11, Party: [
+                    { Pokemon: "Arcanine", Nickname: "RRRRRRRRRR", Level: 35, Gender: "Male", Number: '059', IDNo: "49922" },
+                    { Pokemon: "Vaporeon", Nickname: "VVMNOO--- ", Level: 44, Gender: "Male", Number: '134', IDNo: "49922" },
+                    { Pokemon: "Skiploom", Nickname: "IHHµµµgghg", Level: 27, Gender: "Female", Number: '188', IDNo: "49922", Class: "shiny" },
+                    { Pokemon: "MissingNo", Nickname: "LLLLLLLCCC", Level: 61, Number: '115', IDNo: "49922" },
+                    { Pokemon: "Furret", Nickname: "PPPYY SSSK", Level: 48, Gender: "Male", Number: '162', IDNo: "49922" },
+                    { Pokemon: "Pidgeot", Nickname: "DDDDDEOOPS", Level: 43, Gender: "Female", Number: '018', IDNo: "49922" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "5d 11h 18m"
