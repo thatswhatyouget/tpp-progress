@@ -19,6 +19,7 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Acrobat Badge", Image: "img/badges/bronze/acrobat.png", Time: "3d 22h 0m", Attempts: 2 },
             { Group: "Badges", Name: "Pollution Badge", Image: "img/badges/bronze/pollution.png", Time: "3d 10h 52m", Attempts: 1 },
             { Group: "Badges", Name: "Psycho Badge", Image: "img/badges/bronze/psycho.png", Time: "5d 9h 32m", Attempts: 6 },
+            { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "6d 23h 11m", Attempts: 1 },
 
             { Group: "Elite Four", Name: "Pryce", Image: "img/trainers/crystal/pryce.png", Time: "5d 11h 42m", Attempts: 1 },
             { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "5d 17h 30m", Attempts: 4 },
@@ -132,7 +133,15 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Primeape", "Time": "6d 8h 9m" },
             { "Group": "Pokemon", "Name": "Machoke", "Time": "6d 8h 31m" },
             { "Group": "Pokemon", "Name": "Kadabra", "Time": "6d 8h 49m" },
-            { "Group": "Pokemon", "Name": "Electrode", "Time": "6d 9h 7m" }
+            { "Group": "Pokemon", "Name": "Electrode", "Time": "6d 9h 7m" },
+            { "Group": "Pokemon", "Name": "Kabuto", "Time": "6d 19h 3m" },
+            { "Group": "Pokemon", "Name": "Seel", "Time": "6d 19h 12m" },
+            { "Group": "Pokemon", "Name": "Noctowl", "Time": "6d 20h 9m" },
+            { "Group": "Pokemon", "Name": "Nidorino", "Time": "6d 20h 16m" },
+            { "Group": "Pokemon", "Name": "Nidorina", "Time": "6d 20h 22m" },
+            { "Group": "Pokemon", "Name": "Ursaring", "Time": "6d 22h 12m" },
+            { "Group": "Pokemon", "Name": "Oddish", "Time": "6d 22h 50m" },
+            { "Group": "Pokemon", "Name": "Butterfree", "Time": "7d 3h 21m" },
         ]
     }
 );
