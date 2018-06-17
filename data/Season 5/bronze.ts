@@ -74,6 +74,54 @@ Season5.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "6d 21h 43m"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "7d 12h 56m", IDNo: "49922", Attempts: 1, Party: [
+                    { Pokemon: "Furret", Nickname: "PPPYY SSSK", Level: 52, Gender: "Male", Number: '162', IDNo: "49922" },
+                    { Pokemon: "Pidgeot", Nickname: "DDDDDEOOPS", Level: 46, Gender: "Female", Number: '018', IDNo: "49922" },
+                    { Pokemon: "Vaporeon", Nickname: "VVMNOO--- ", Level: 56, Gender: "Male", Number: '134', IDNo: "49922" },
+                    { Pokemon: "MissingNo", Nickname: "LLLLLLLCCC", Level: 71, Number: '115', IDNo: "49922" },
+                    { Pokemon: "Arcanine", Nickname: "RRRRRRRRRR", Level: 54, Gender: "Male", Number: '059', IDNo: "49922" },
+                    { Pokemon: "Jumpluff", Nickname: "IHHµµµgghg", Level: 35, Gender: "Female", Number: '188', IDNo: "49922", Class: "shiny" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "7d 12h 7m"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "7d 14h 14m", IDNo: "49922", Attempts: 1, Party: [
+                    { Pokemon: "Furret", Nickname: "PPPYY SSSK", Level: 53, Gender: "Male", Number: '162', IDNo: "49922" },
+                    { Pokemon: "Pidgeot", Nickname: "DDDDDEOOPS", Level: 47, Gender: "Female", Number: '018', IDNo: "49922" },
+                    { Pokemon: "Vaporeon", Nickname: "VVMNOO--- ", Level: 58, Gender: "Male", Number: '134', IDNo: "49922" },
+                    { Pokemon: "MissingNo", Nickname: "LLLLLLLCCC", Level: 71, Number: '115', IDNo: "49922" },
+                    { Pokemon: "Arcanine", Nickname: "RRRRRRRRRR", Level: 55, Gender: "Male", Number: '059', IDNo: "49922" },
+                    { Pokemon: "Jumpluff", Nickname: "IHHµµµgghg", Level: 36, Gender: "Female", Number: '188', IDNo: "49922", Class: "shiny" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "7d 13h 32m"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "7d 16h 36m", IDNo: "49922", Attempts: 1, Party: [
+                    { Pokemon: "Furret", Nickname: "PPPYY SSSK", Level: 54, Gender: "Male", Number: '162', IDNo: "49922" },
+                    { Pokemon: "Pidgeot", Nickname: "DDDDDEOOPS", Level: 47, Gender: "Female", Number: '018', IDNo: "49922" },
+                    { Pokemon: "Vaporeon", Nickname: "VVMNOO--- ", Level: 60, Gender: "Male", Number: '134', IDNo: "49922" },
+                    { Pokemon: "MissingNo", Nickname: "LLLLLLLCCC", Level: 71, Number: '115', IDNo: "49922" },
+                    { Pokemon: "Arcanine", Nickname: "RRRRRRRRRR", Level: 56, Gender: "Male", Number: '059', IDNo: "49922" },
+                    { Pokemon: "Jumpluff", Nickname: "IHHµµµgghg", Level: 36, Gender: "Female", Number: '188', IDNo: "49922", Class: "shiny" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "7d 16h 4m"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "7d 17h 26m", IDNo: "49922", Attempts: 1, Party: [
+                    { Pokemon: "Furret", Nickname: "PPPYY SSSK", Level: 55, Gender: "Male", Number: '162', IDNo: "49922" },
+                    { Pokemon: "Pidgeot", Nickname: "DDDDDEOOPS", Level: 48, Gender: "Female", Number: '018', IDNo: "49922" },
+                    { Pokemon: "Vaporeon", Nickname: "VVMNOO--- ", Level: 61, Gender: "Male", Number: '134', IDNo: "49922" },
+                    { Pokemon: "MissingNo", Nickname: "LLLLLLLCCC", Level: 72, Number: '115', IDNo: "49922" },
+                    { Pokemon: "Arcanine", Nickname: "RRRRRRRRRR", Level: 56, Gender: "Male", Number: '059', IDNo: "49922" },
+                    { Pokemon: "Jumpluff", Nickname: "IHHµµµgghg", Level: 36, Gender: "Female", Number: '188', IDNo: "49922", Class: "shiny" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "7d 16h 48m"
+            },
 
             { "Group": "Pokemon", "Name": "Pichu", "Time": "0d 0h 7m" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "0d 3h 27m" },
