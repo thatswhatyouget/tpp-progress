@@ -62,6 +62,18 @@ Season5.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "6d 17h 8m"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "7d 11h 6m", IDNo: "49922", Attempts: 2, Party: [
+                    { Pokemon: "Furret", Nickname: "PPPYY SSSK", Level: 51, Gender: "Male", Number: '162', IDNo: "49922" },
+                    { Pokemon: "Pidgeot", Nickname: "DDDDDEOOPS", Level: 46, Gender: "Female", Number: '018', IDNo: "49922" },
+                    { Pokemon: "Vaporeon", Nickname: "VVMNOO--- ", Level: 54, Gender: "Male", Number: '134', IDNo: "49922" },
+                    { Pokemon: "MissingNo", Nickname: "LLLLLLLCCC", Level: 71, Number: '115', IDNo: "49922" },
+                    { Pokemon: "Arcanine", Nickname: "RRRRRRRRRR", Level: 54, Gender: "Male", Number: '059', IDNo: "49922" },
+                    { Pokemon: "Jumpluff", Nickname: "IHHµµµgghg", Level: 35, Gender: "Female", Number: '188', IDNo: "49922", Class: "shiny" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "6d 21h 43m"
+            },
 
             { "Group": "Pokemon", "Name": "Pichu", "Time": "0d 0h 7m" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "0d 3h 27m" },
