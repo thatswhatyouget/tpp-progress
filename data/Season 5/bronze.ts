@@ -5,7 +5,7 @@ Season5.Runs.push(
         ColorPrimary: "#CD7F32",
         ColorSecondary: "#665D1E",
         StartDate: "2018-06-09T21:00:00Z",
-        Duration: "255d",
+        Duration: "8d 8h 21m",
         HostName: "FEEFFr ",
         HostImage: "img/hosts/feeffr.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/8qzejc/sweet_beta_green_bronze_host_sprites/",
@@ -122,6 +122,7 @@ Season5.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "7d 16h 48m"
             },
+            { Group: "Past Hosts", Name: "AJDNNW", Image: "img/hosts/ajdnnw.png", Time: "8d 7h 55m", Attempts: 10 },
 
             { "Group": "Pokemon", "Name": "Pichu", "Time": "0d 0h 7m" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "0d 3h 27m" },
@@ -202,6 +203,12 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Ursaring", "Time": "6d 22h 12m" },
             { "Group": "Pokemon", "Name": "Oddish", "Time": "6d 22h 50m" },
             { "Group": "Pokemon", "Name": "Butterfree", "Time": "7d 3h 21m" },
+            { "Group": "Pokemon", "Name": "Goldeen", "Time": "7d 19h 27m" },
+            { "Group": "Pokemon", "Name": "Spinarak", "Time": "7d 21h 37m" },
+            { "Group": "Pokemon", "Name": "Pinsir", "Time": "7d 21h 50m" },
+            { "Group": "Pokemon", "Name": "Onix", "Time": "8d 1h 41m" },
+            { "Group": "Pokemon", "Name": "Graveler", "Time": "8d 1h 44m" },
+            { "Group": "Pokemon", "Name": "Alakazam", "Time": "8d 6h 40m" }
         ]
     }
 );
