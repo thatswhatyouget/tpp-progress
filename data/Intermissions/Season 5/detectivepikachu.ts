@@ -2,7 +2,7 @@
 Intermissions.Runs.push(
     {
         RunName: "Detective Pikachu",
-        StartDate: "Jul 14 2018 2:00:00 PM GMT",
+        StartDate: "Sept 8 2018 2:00:00 PM GMT",
         ColorPrimary: "#ffcd00",
         ColorSecondary: "#693609",
         Duration: "255w",
