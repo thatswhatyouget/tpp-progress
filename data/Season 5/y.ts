@@ -56,6 +56,11 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Blissey", "Time": "1d 0h 38m" },
             { "Group": "Pokemon", "Name": "Eevee", "Time": "1d 0h 44m" },
             { "Group": "Pokemon", "Name": "Munchlax", "Time": "1d 1h 11m" },
+            { "Group": "Pokemon", "Name": "Aegislash", "Time": "1d 5h 14m" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "1d 6h 34m" },
+            { "Group": "Pokemon", "Name": "Umbreon", "Time": "1d 6h 43m" },
+            { "Group": "Pokemon", "Name": "Magmortar", "Time": "1d 6h 49m" },
+            { "Group": "Pokemon", "Name": "Nidoran", "Time": "1d 7h 3m" },
         ]
     }
 );
