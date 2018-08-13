@@ -13,7 +13,7 @@ Season5.Runs.push(
         Generation: 6,
         Events: [
             { Group: "Badges", Name: "Bug Badge", Image: "img/badges/bug.png", Time: "0d 3h 56m", Attempts: 2 },
-            { Group: "Badges", Name: "Cliff Badge", Image: "img/badges/cliff.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Cliff Badge", Image: "img/badges/cliff.png", Time: "1d 3h 40m", Attempts: 2 },
             { Group: "Badges", Name: "Rumble Badge", Image: "img/badges/rumble.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Plant Badge", Image: "img/badges/plant.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Voltage Badge", Image: "img/badges/voltage.png", Time: "", Attempts: 0 },
@@ -51,6 +51,11 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Geodude", "Time": "0d 13h 20m" },
             { "Group": "Pokemon", "Name": "Chansey", "Time": "0d 13h 25m" },
             { "Group": "Pokemon", "Name": "Golurk", "Time": "0d 13h 41m" },
+            { "Group": "Pokemon", "Name": "Gothita", "Time": "1d 0h 22m" },
+            { "Group": "Pokemon", "Name": "Spearow", "Time": "1d 0h 37m" },
+            { "Group": "Pokemon", "Name": "Blissey", "Time": "1d 0h 38m" },
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "1d 0h 44m" },
+            { "Group": "Pokemon", "Name": "Munchlax", "Time": "1d 1h 11m" },
         ]
     }
 );
