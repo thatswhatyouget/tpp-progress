@@ -105,6 +105,19 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Tirtouga", "Time": "2d 10h 44m" },
             { "Group": "Pokemon", "Name": "Trubbish", "Time": "2d 14h 25m" },
             { "Group": "Pokemon", "Name": "Pinsir", "Time": "2d 15h 19m" },
+            // { "Group": "Pokemon", "Name": "Zoroark", "Time": "2d 15h 34m" },
+            // { "Group": "Pokemon", "Name": "Ivysaur", "Time": "2d 15h 56m" },
+            // { "Group": "Pokemon", "Name": "Fletchinder", "Time": "2d 16h 1m" },
+            // { "Group": "Pokemon", "Name": "Stunfisk", "Time": "2d 16h 3m" },
+            // { "Group": "Pokemon", "Name": "Pineco", "Time": "2d 16h 9m" },
+            // { "Group": "Pokemon", "Name": "Spritzee", "Time": "2d 16h 11m" },
+            // { "Group": "Pokemon", "Name": "Tropius", "Time": "2d 16h 15m" },
+            { "Group": "Pokemon", "Name": "Chinchou", "Time": "2d 16h 23m" },
+            { "Group": "Pokemon", "Name": "Ambipom", "Time": "2d 16h 33m" },
+            { "Group": "Pokemon", "Name": "Nuzleaf", "Time": "2d 16h 42m" },
+            // { "Group": "Pokemon", "Name": "Florges", "Time": "2d 16h 50m" },
+            { "Group": "Pokemon", "Name": "Karrablast", "Time": "2d 17h 3m" },
+            { "Group": "Pokemon", "Name": "Vileplume", "Time": "2d 17h 21m" }
         ]
     }
 );
