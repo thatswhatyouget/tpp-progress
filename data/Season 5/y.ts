@@ -19,7 +19,7 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Voltage Badge", Image: "img/badges/voltage.png", Time: "2d 2h 51m", Attempts: 3 },
             { Group: "Badges", Name: "Fairy Badge", Image: "img/badges/fairy.png", Time: "2d 11h 7m", Attempts: 2 },
             { Group: "Badges", Name: "Fairy Badge", Image: "img/badges/fairy.png", Time: "3d 6h 42m", Attempts: 4 },
-            { Group: "Badges", Name: "Psychic Badge", Image: "img/badges/psychic.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Psychic Badge", Image: "img/badges/psychic.png", Time: "3d 23h 19m", Attempts: 2 },
             { Group: "Badges", Name: "Iceberg Badge", Image: "img/badges/iceberg.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Malva", Image: "img/trainers/x/malva.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Wikstrom", Image: "img/trainers/x/wikstrom.png", Time: "", Attempts: 0 },
