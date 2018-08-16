@@ -166,6 +166,7 @@ Season5.Runs.push(
 { "Group": "Pokemon", "Name": "Plusle", "Time": "3d 17h 49m" },
 { "Group": "Pokemon", "Name": "Noivern", "Time": "3d 20h 17m" },
 { "Group": "Pokemon", "Name": "Leavanny", "Time": "3d 20h 59m" },
+{ "Group": "Pokemon", "Name": "Registeel", "Time": "4d 8h 46m" },
         ]
     }
 );
