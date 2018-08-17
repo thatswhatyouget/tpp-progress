@@ -21,13 +21,13 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Fairy Badge", Image: "img/badges/fairy.png", Time: "3d 6h 42m", Attempts: 4 },
             { Group: "Badges", Name: "Psychic Badge", Image: "img/badges/psychic.png", Time: "3d 23h 19m", Attempts: 2 },
             { Group: "Badges", Name: "Iceberg Badge", Image: "img/badges/iceberg.png", Time: "4d16h58m", Attempts: 2 },
-            { Group: "Elite Four", Name: "Malva", Image: "img/trainers/x/malva.png", Time: "", Attempts: 1 },
-            { Group: "Elite Four", Name: "Wikstrom", Image: "img/trainers/x/wikstrom.png", Time: "5d20h44m", Attempts: 2 },
-            { Group: "Elite Four", Name: "Drasna", Image: "img/trainers/x/drasna.png", Time: "", Attempts: 1 },
-            { Group: "Elite Four", Name: "Siebold", Image: "img/trainers/x/siebold.png", Time: "", Attempts: 2 },
+            { Group: "Elite Four", Name: "Malva", Image: "img/trainers/x/siebold.png", Time: "", Attempts: 1 },
+            { Group: "Elite Four", Name: "Wikstrom", Image: "img/trainers/x/battlegirl.png", Time: "5d20h44m", Attempts: 2 },
+            { Group: "Elite Four", Name: "Drasna", Image: "img/trainers/x/garcon.png", Time: "", Attempts: 1 },
+            { Group: "Elite Four", Name: "Siebold", Image: "img/trainers/x/korrina.png", Time: "5d 21h 24m", Attempts: 3 },
             { Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 6, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 7, Party: [
                 ],
                 FirstAttemptDate: "5d 16h 20m",
                 Image: "img/ribbons/champion-kalos.png"
@@ -262,7 +262,7 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Ferrothorn", "Time": "5d 16h 49m" },
             { "Group": "Pokemon", "Name": "Grovyle", "Time": "5d 16h 50m" },
             { "Group": "Pokemon", "Name": "Wartortle", "Time": "5d 16h 58m" },
-            { "Group": "Pokemon", "Name": "Whimsicott", "Time": "5d 17h 1m" }
+            { "Group": "Pokemon", "Name": "Whimsicott", "Time": "5d 17h 1m" },
 { "Group": "Pokemon", "Name": "Bastiodon", "Time": "5d 17h 42m" },
 { "Group": "Pokemon", "Name": "Garchomp", "Time": "5d 17h 49m" },
 { "Group": "Pokemon", "Name": "Beheeyem", "Time": "5d 17h 54m" },
