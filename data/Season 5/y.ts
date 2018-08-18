@@ -25,15 +25,15 @@ Season5.Runs.push(
             { Group: "Elite Four", Name: "Wikstrom", Image: "img/trainers/x/battlegirl.png", Time: "5d20h44m", Attempts: 2 },
             { Group: "Elite Four", Name: "Drasna", Image: "img/trainers/x/garcon.png", Time: "6d 5h 44m", Attempts: 4 },
             { Group: "Elite Four", Name: "Siebold", Image: "img/trainers/x/korrina.png", Time: "5d 21h 24m", Attempts: 3 },
-            { Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png", Time: "", Attempts: 0 },
+            { Group: "Champions", Name: "Diantha", Image: "img/trainers/x/essentia.png", Time: "6d 17h 21m", Attempts: 5 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 13, Party: [
-                    { Pokemon: "Volcarona", Nickname: "Volcaroyyu", Level: 66, Gender: "Female" },
-                    { Pokemon: "Torterra", Nickname: "Meowthhhujeq", Level: 94, Gender: "Female" },
-                    { Pokemon: "Staraptor", Nickname: "Purrloind", Level: 86, Gender: "Male" },
-                    { Pokemon: "Ludicolo", Level: 67, Gender: "Female" },
-                    { Pokemon: "Hydreigon", Level: 64, Gender: "Female" },
-                    { Pokemon: "Lapras", Level: 68, Gender: "Female" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "6d 17h 22m", Attempts: 25, Party: [
+                    { Pokemon: "Torterra", Nickname: "Meowthhhujeq", Level: 100, Gender: "Female" },
+                    { Pokemon: "Staraptor", Nickname: "Purrloind", Level: 100, Gender: "Male" },
+                    { Pokemon: "Volcarona", Nickname: "Volcaroyyu", Level: 77, Gender: "Female" },
+                    { Pokemon: "Hydreigon", Level: 81, Gender: "Female" },
+                    { Pokemon: "Ludicolo", Level: 85, Gender: "Female" },
+                    { Pokemon: "Lapras", Level: 80, Gender: "Female" },
                 ],
                 FirstAttemptDate: "5d 16h 20m",
                 Image: "img/ribbons/champion-kalos.png"
