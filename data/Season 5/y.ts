@@ -21,13 +21,13 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Fairy Badge", Image: "img/badges/fairy.png", Time: "3d 6h 42m", Attempts: 4 },
             { Group: "Badges", Name: "Psychic Badge", Image: "img/badges/psychic.png", Time: "3d 23h 19m", Attempts: 2 },
             { Group: "Badges", Name: "Iceberg Badge", Image: "img/badges/iceberg.png", Time: "4d16h58m", Attempts: 2 },
-            { Group: "Elite Four", Name: "Malva", Image: "img/trainers/x/siebold.png", Time: "", Attempts: 1 },
+            { Group: "Elite Four", Name: "Malva", Image: "img/trainers/x/siebold.png", Time: "6d4h38m", Attempts: 2 },
             { Group: "Elite Four", Name: "Wikstrom", Image: "img/trainers/x/battlegirl.png", Time: "5d20h44m", Attempts: 2 },
-            { Group: "Elite Four", Name: "Drasna", Image: "img/trainers/x/garcon.png", Time: "", Attempts: 1 },
+            { Group: "Elite Four", Name: "Drasna", Image: "img/trainers/x/garcon.png", Time: "", Attempts: 2 },
             { Group: "Elite Four", Name: "Siebold", Image: "img/trainers/x/korrina.png", Time: "5d 21h 24m", Attempts: 3 },
             { Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 7, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 9, Party: [
                 ],
                 FirstAttemptDate: "5d 16h 20m",
                 Image: "img/ribbons/champion-kalos.png"
@@ -272,6 +272,14 @@ Season5.Runs.push(
 { "Group": "Pokemon", "Name": "Serperior", "Time": "5d 18h 25m" },
 { "Group": "Pokemon", "Name": "Kricketune", "Time": "5d 18h 31m" },
 { "Group": "Pokemon", "Name": "Zweilous", "Time": "5d 18h 43m" },
+{ "Group": "Pokemon", "Name": "Grotle", "Time": "5d 23h 14m" },
+{ "Group": "Pokemon", "Name": "Glalie", "Time": "5d 23h 21m" },
+{ "Group": "Pokemon", "Name": "Turtwig", "Time": "5d 23h 22m" },
+{ "Group": "Pokemon", "Name": "Raticate", "Time": "5d 23h 25m" },
+{ "Group": "Pokemon", "Name": "Taillow", "Time": "5d 23h 28m" },
+{ "Group": "Pokemon", "Name": "Munna", "Time": "5d 23h 31m" },
+{ "Group": "Pokemon", "Name": "Espurr", "Time": "5d 23h 40m" },
+{ "Group": "Pokemon", "Name": "Finneon", "Time": "5d 23h 43m" },
         ]
     }
 );
