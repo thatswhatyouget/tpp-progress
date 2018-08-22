@@ -483,12 +483,17 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Furret", "Time": "9d 8h 14m" },
             { "Group": "Pokemon", "Name": "Scyther", "Time": "9d 8h 43m" },
             { "Group": "Pokemon", "Name": "Gorebyss", "Time": "9d 16h 46m" },
-{ "Group": "Pokemon", "Name": "Mareep", "Time": "9d 18h 57m" },
-{ "Group": "Pokemon", "Name": "Snubbull", "Time": "9d 19h 4m" },
-{ "Group": "Pokemon", "Name": "Totodile", "Time": "9d 19h 31m" },
-{ "Group": "Pokemon", "Name": "Bellossom", "Time": "9d 19h 37m" },
-{ "Group": "Pokemon", "Name": "Misdreavus", "Time": "9d 19h 51m" },
-{ "Group": "Pokemon", "Name": "Flareon", "Time": "9d 20h 3m" },
+            { "Group": "Pokemon", "Name": "Mareep", "Time": "9d 18h 57m" },
+            { "Group": "Pokemon", "Name": "Snubbull", "Time": "9d 19h 4m" },
+            { "Group": "Pokemon", "Name": "Totodile", "Time": "9d 19h 31m" },
+            { "Group": "Pokemon", "Name": "Bellossom", "Time": "9d 19h 37m" },
+            { "Group": "Pokemon", "Name": "Misdreavus", "Time": "9d 19h 51m" },
+            { "Group": "Pokemon", "Name": "Flareon", "Time": "9d 20h 3m" },
+            { "Group": "Pokemon", "Name": "Nidoking", "Time": "10d 2h 18m" },
+            { "Group": "Pokemon", "Name": "Wobbuffet", "Time": "10d 2h 21m" },
+            { "Group": "Pokemon", "Name": "Panpour", "Time": "10d 5h 26m" },
+            { "Group": "Pokemon", "Name": "Gible", "Time": "10d 6h 34m" },
+            { "Group": "Pokemon", "Name": "Keldeo", "Time": "10d 8h 9m" },
         ]
     }
 );
