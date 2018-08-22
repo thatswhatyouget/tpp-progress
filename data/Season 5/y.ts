@@ -31,9 +31,9 @@ Season5.Runs.push(
                     { Pokemon: "Torterra", Nickname: "Meowthhhujeq", Level: 100, Gender: "Female" },
                     { Pokemon: "Staraptor", Nickname: "Purrloind", Level: 100, Gender: "Male" },
                     { Pokemon: "Volcarona", Nickname: "Volcaroyyu", Level: 77, Gender: "Female" },
-                    { Pokemon: "Hydreigon", Level: 81, Gender: "Female" },
-                    { Pokemon: "Ludicolo", Level: 85, Gender: "Female" },
-                    { Pokemon: "Lapras", Level: 80, Gender: "Female" },
+                    { Pokemon: "Hydreigon", Nickname: "Hydreigon", Level: 81, Gender: "Female" },
+                    { Pokemon: "Ludicolo", Nickname: "Ludicolo", Level: 85, Gender: "Female" },
+                    { Pokemon: "Lapras", Nickname: "Lapras", Level: 80, Gender: "Female" },
                 ],
                 FirstAttemptDate: "5d 16h 20m",
                 Image: "img/ribbons/champion-kalos.png"
@@ -44,13 +44,13 @@ Season5.Runs.push(
             { Group: "Elite Four Rematch", Name: "Siebold", Image: "img/trainers/x/xerosic.png", Time: "8d 1h 52m", Attempts: 2 },
             { Group: "Champions", Name: "Diantha", Image: "img/trainers/x/morgan.png", Time: "", Attempts: 2 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 4, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 10, Party: [
                     { Pokemon: "Torterra", Nickname: "Meowthhhujeq", Level: 100, Gender: "Female" },
                     { Pokemon: "Staraptor", Nickname: "Purrloind", Level: 100, Gender: "Male" },
                     { Pokemon: "Volcarona", Nickname: "Volcaroyyu", Level: 100, Gender: "Female" },
-                    { Pokemon: "Hydreigon", Level: 100, Gender: "Female" },
-                    { Pokemon: "Ludicolo", Level: 100, Gender: "Female" },
-                    { Pokemon: "Lapras", Level: 100, Gender: "Female" },
+                    { Pokemon: "Hydreigon", Nickname: "9 t2L", PreviousNick: "Hydreigon", Level: 100, Gender: "Female" },
+                    { Pokemon: "Ludicolo", Nickname: "!ncie ,o", PreviousNick: "Ludicolo", Level: 100, Gender: "Female" },
+                    { Pokemon: "Lapras", Nickname: "!!vmcfflnocp", PreviousNick: "Lapras", Level: 100, Gender: "Female" },
                 ],
                 FirstAttemptDate: "8d 0h 46m",
                 Image: "img/ribbons/champion-kalos.png"
@@ -494,6 +494,23 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Panpour", "Time": "10d 5h 26m" },
             { "Group": "Pokemon", "Name": "Gible", "Time": "10d 6h 34m" },
             { "Group": "Pokemon", "Name": "Keldeo", "Time": "10d 8h 9m" },
+            { "Group": "Pokemon", "Name": "Lotad", "Time": "10d 8h 31m" },
+            { "Group": "Pokemon", "Name": "Wigglytuff", "Time": "10d 8h 37m" },
+            { "Group": "Pokemon", "Name": "Aerodactyl", "Time": "10d 8h 50m" },
+            { "Group": "Pokemon", "Name": "Eelektross", "Time": "10d 9h 5m" },
+            { "Group": "Pokemon", "Name": "Forretress", "Time": "10d 9h 8m" },
+            { "Group": "Pokemon", "Name": "Ledian", "Time": "10d 9h 21m" },
+            { "Group": "Pokemon", "Name": "Skiddo", "Time": "10d 9h 49m" },
+            { "Group": "Pokemon", "Name": "Deino", "Time": "10d 10h 1m" },
+            { "Group": "Pokemon", "Name": "Snivy", "Time": "10d 10h 13m" },
+            { "Group": "Pokemon", "Name": "Clauncher", "Time": "10d 10h 27m" },
+            { "Group": "Pokemon", "Name": "Quilladin", "Time": "10d 10h 53m" },
+            { "Group": "Pokemon", "Name": "Togekiss", "Time": "10d 12h 0m" },
+            { "Group": "Pokemon", "Name": "Seviper", "Time": "10d 12h 48m" },
+            { "Group": "Pokemon", "Name": "Elekid", "Time": "10d 15h 34m" },
+            { "Group": "Pokemon", "Name": "Empoleon", "Time": "10d 15h 37m" },
+            { "Group": "Pokemon", "Name": "Pancham", "Time": "10d 15h 42m" },
+            { "Group": "Pokemon", "Name": "Pelipper", "Time": "10d 15h 47m" },
         ]
     }
 );
