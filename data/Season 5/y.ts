@@ -566,6 +566,10 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Cacturne", "Time": "11d 16h 52m" },
             { "Group": "Pokemon", "Name": "Exploud", "Time": "11d 16h 58m" },
             { "Group": "Pokemon", "Name": "Tyrantrum", "Time": "11d 17h 14m" },
+            { "Group": "Pokemon", "Name": "Lillipup", "Time": "11d 17h 17m" },
+            { "Group": "Pokemon", "Name": "Samurott", "Time": "11d 17h 30m" },
+            { "Group": "Pokemon", "Name": "Mienshao", "Time": "11d 17h 47m" },
+            { "Group": "Pokemon", "Name": "Breloom", "Time": "11d 17h 51m" },
         ]
     }
 );
