@@ -320,7 +320,7 @@
 .pokemon-hud ul.party > li .informatic {
     display: block;
     text-align: left;
-    margin-top:.05em;
+    clear: both;
 }
 
 .pokemon-hud ul.party > li .informatic:before {
@@ -330,8 +330,8 @@
     text-align: center;
 }
 
-.pokemon-hud ul.party > li .informatic.held-item {
-    margin-top:.25em;
+.pokemon-hud ul.party > li .informatic.ability {
+    margin-bottom:-.5em;
 }
 .pokemon-hud ul.party > li .informatic.held-item:before {
     content:'♋️';

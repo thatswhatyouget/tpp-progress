@@ -66,12 +66,13 @@ namespace TPP.Display.Elements.RunStatus {
                                 : null}
                         </div>
                         <div className="level">{mon.level + (mon.level == 100 || (mon.experience || { remaining: 1 }).remaining ? 0 : 1)}</div>
+                        {mon.ability && <div className="ability informatic">{mon.ability}</div>}
                         <ul className="moves">
                             {mon.moves.map(m => <Move move={m} key={m.id} />)}
                         </ul>
-                        {mon.held_item && mon.held_item.id > 0 ? <div className="held-item informatic">
+                        {mon.held_item && mon.held_item.id > 0 && <div className="held-item informatic">
                             {mon.held_item.name}
-                        </div> : null}
+                        </div>}
                     </div>}
             </li>
         }
