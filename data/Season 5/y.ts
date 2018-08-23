@@ -55,6 +55,18 @@ Season5.Runs.push(
                 FirstAttemptDate: "8d 0h 46m",
                 Image: "img/ribbons/champion-kalos.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "11d 12h 5m", Attempts: 7, Party: [
+                    { Pokemon: "Ludicolo", Nickname: "!ncie ,o", PreviousNick: "Ludicolo", Level: 100, Gender: "Female" },
+                    { Pokemon: "Hydreigon", Nickname: "9 t2L", PreviousNick: "Hydreigon", Level: 100, Gender: "Female" },
+                    { Pokemon: "Torterra", Nickname: "Meowthhhujeq", Level: 100, Gender: "Female" },
+                    { Pokemon: "Gallade", Level: 59, Gender: "Male" },
+                    { Pokemon: "Volcarona", Nickname: "Volcaroyyu", Level: 100, Gender: "Female" },
+                    { Pokemon: "Staraptor", Nickname: "Purrloind", Level: 100, Gender: "Male" },
+                ],
+                FirstAttemptDate: "11d 19h 15m",
+                Image: "img/ribbons/champion-kalos.png"
+            },
             { "Group": "Pokemon", "Name": "Phantump", "Time": "0d 0h 11m" },
             { "Group": "Pokemon", "Name": "Kabuto", "Time": "0d 0h 38m" },
             { "Group": "Pokemon", "Name": "Drifloon", "Time": "0d 0h 43m" },
