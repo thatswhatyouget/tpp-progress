@@ -582,6 +582,10 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Samurott", "Time": "11d 17h 30m" },
             { "Group": "Pokemon", "Name": "Mienshao", "Time": "11d 17h 47m" },
             { "Group": "Pokemon", "Name": "Breloom", "Time": "11d 17h 51m" },
+            { "Group": "Pokemon", "Name": "Nidorino", "Time": "12d 3h 6m" },
+            { "Group": "Pokemon", "Name": "Solrock", "Time": "12d 3h 27m" },
+            { "Group": "Pokemon", "Name": "Grumpig", "Time": "12d 3h 30m" },
+            { "Group": "Pokemon", "Name": "Torchic", "Time": "12d 4h 58m" },
         ]
     }
 );
