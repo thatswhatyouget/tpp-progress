@@ -628,6 +628,7 @@ Season5.Runs.push(
 { "Group": "Pokemon", "Name": "Budew", "Time": "12d 20h 20m" },
 { "Group": "Pokemon", "Name": "Houndoom", "Time": "12d 20h 28m" },
             { "Group": "Pokemon", "Name": "Galvantula", "Time": "12d21h5m" },
+            { "Group": "Pokemon", "Name": "Magnezone", "Time": "12d21h25m" },
         ]
     }
 );
