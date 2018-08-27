@@ -4,7 +4,7 @@ Season5.Runs.push(
         RunName: "Randomized Y",
         ColorPrimary: "#e1002f",
         ColorSecondary: "black",
-        Duration: "255d",
+        Duration: "14d11h26m",
         StartDate: "2018-08-11T21:00:00Z",
         HostName: "♀266",
         HostImage: "https://cdn.bulbagarden.net/upload/thumb/e/e1/XY_Serena.png/400px-XY_Serena.png",
@@ -56,7 +56,7 @@ Season5.Runs.push(
                 Image: "img/ribbons/champion-kalos.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "11d 12h 5m", Attempts: 7, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "12d 1h 39m", Attempts: 7, Party: [
                     { Pokemon: "Ludicolo", Nickname: "!ncie ,o", PreviousNick: "Ludicolo", Level: 100, Gender: "Female" },
                     { Pokemon: "Hydreigon", Nickname: "9 t2L", PreviousNick: "Hydreigon", Level: 100, Gender: "Female" },
                     { Pokemon: "Torterra", Nickname: "Meowthhhujeq", Level: 100, Gender: "Female" },
@@ -647,6 +647,30 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Klink", "Time": "13d 8h 9m" },
             { "Group": "Pokemon", "Name": "Noctowl", "Time": "13d 8h 27m" },
             { "Group": "Pokemon", "Name": "Rampardos", "Time": "13d 8h 40m" },
+            { "Group": "Pokemon", "Name": "Basculin", "Time": "13d 8h 52m" },
+            { "Group": "Pokemon", "Name": "Milotic", "Time": "13d 9h 30m" },
+            { "Group": "Pokemon", "Name": "Emboar", "Time": "13d 9h 43m" },
+            { "Group": "Pokemon", "Name": "Skuntank", "Time": "13d 11h 24m" },
+            { "Group": "Pokemon", "Name": "Porygon", "Time": "13d 11h 54m" },
+            { "Group": "Pokemon", "Name": "Cubchoo", "Time": "13d 16h 34m" },
+            { "Group": "Pokemon", "Name": "Deoxys", "Time": "13d 20h 40m" },
+            { "Group": "Pokemon", "Name": "Toxicroak", "Time": "13d 21h 22m" },
+            { "Group": "Pokemon", "Name": "Tauros", "Time": "13d 23h 3m" },
+            { "Group": "Pokemon", "Name": "Sawk", "Time": "14d 1h 7m" },
+            { "Group": "Pokemon", "Name": "Aromatisse", "Time": "14d 2h 9m" },
+            { "Group": "Pokemon", "Name": "Floatzel", "Time": "14d 3h 19m" },
+            { "Group": "Pokemon", "Name": "Lileep", "Time": "14d 4h 16m" },
+            { "Group": "Pokemon", "Name": "Victreebel", "Time": "14d 4h 20m" },
+            { "Group": "Pokemon", "Name": "Cascoon", "Time": "14d 4h 21m" },
+            { "Group": "Pokemon", "Name": "Squirtle", "Time": "14d 4h 32m" },
+            { "Group": "Pokemon", "Name": "Wailord", "Time": "14d 4h 41m" },
+            { "Group": "Pokemon", "Name": "Ho-Oh", "Time": "14d 6h 42m" },
+            { "Group": "Pokemon", "Name": "Rhyperior", "Time": "14d 7h 1m" },
+            { "Group": "Pokemon", "Name": "Gurdurr", "Time": "14d 10h 42m" },
+            { "Group": "Pokemon", "Name": "Arcanine", "Time": "14d 10h 47m" },
+            { "Group": "Pokemon", "Name": "Volbeat", "Time": "14d 11h 0m" },
+            { "Group": "Pokemon", "Name": "Pansear", "Time": "14d 11h 5m" },
+            { "Group": "Pokemon", "Name": "Dragonite", "Time": "14d 11h 12m" },
         ]
     }
 );
