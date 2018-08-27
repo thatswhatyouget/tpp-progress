@@ -275,7 +275,7 @@ Season4.Runs.push(
             { Group: "Champions", Name: "Kris", Image: "img/trainers/glazed/kris.png", Time: "13d8m", Attempts: 3 },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d8m", Attempts: 36, IDNo: "06702", Party: [
-                    { Pokemon: "Mamoswine", Nickname: "AAIIOQV", PastNickname: "AT", Level: 100, Gender: "Female", Number: 308, IDNo: "06702" },
+                    { Pokemon: "Mamoswine", Nickname: "AAIIOQV", PreviousNick: "AT", Level: 100, Gender: "Female", Number: 308, IDNo: "06702" },
                     { Pokemon: "Torterra", Level: 95, Gender: "Male", Number: 272, IDNo: "06702" },
                     { Pokemon: "Scolipede", Nickname: ".  yz ,hgg", Level: 95, Gender: "Female", Number: 127, IDNo: "06702" },
                     { Pokemon: "Houndoom", Nickname: "AAATTTTTTT", Level: 87, Gender: "Female", Number: 229, IDNo: "06702" },
@@ -312,7 +312,7 @@ Season4.Runs.push(
                     { Pokemon: "Samurott", Nickname: "MGNNNNGGSC", Level: 89, Gender: "Male", Number: 85, IDNo: "06702" },
                     { Pokemon: "Houndoom", Nickname: "AAATTTTTTT", Level: 90, Gender: "Female", Number: 229, IDNo: "06702" },
                     { Pokemon: "Salamence", Nickname: "AAAAATMAAA", Level: 100, Gender: "Male", Number: 373, IDNo: "06702" },
-                    { Pokemon: "Mamoswine", Nickname: "AAIIOQV", PastNickname: "AT", Level: 100, Gender: "Female", Number: 308, IDNo: "06702" },
+                    { Pokemon: "Mamoswine", Nickname: "AAIIOQV", PreviousNick: "AT", Level: 100, Gender: "Female", Number: 308, IDNo: "06702" },
                     { Pokemon: "Scolipede", Nickname: ".  yz ,hgg", Level: 99, Gender: "Female", Number: 127, IDNo: "06702" },
                 ],
                 Image: "img/ribbons/champion.png",
