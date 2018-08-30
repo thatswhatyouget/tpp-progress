@@ -9,7 +9,7 @@ Intermissions.Runs.push(
         HostName: "Tim",
         HostImage: "img/hosts/detectivepikachu.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/8yp0mk/tim_and_detective_pikachu_countdown_for_detective/",
-        // Region: "",
+        Region: "Ryme City",
         Events: [],
     }
 );

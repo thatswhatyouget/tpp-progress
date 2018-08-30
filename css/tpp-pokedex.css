@@ -90,6 +90,10 @@
     background-size:auto;
 }
 
+.sweet .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/candyland-large.png");
+}
+
 .ms .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/pokemon.png");
 }

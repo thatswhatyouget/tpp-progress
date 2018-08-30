@@ -545,12 +545,16 @@ ul.controls > li > ul > li.selected > a:before {
 	display: none;
 }
 
-.progressChart  #touhoumon.run .event.pokemon.pokesprite img {
+.progressChart  .touhoumon.run .event.pokemon.pokesprite img {
 	background-image:url("../img/touhoumon-small.png");
 }
 
-.progressChart  #moemon.run .event.pokemon.pokesprite img {
+.progressChart  .moemon.run .event.pokemon.pokesprite img {
 	background-image:url("../img/moemon-small.png");
+}
+
+.progressChart  .sweet.run .event.pokemon.pokesprite img {
+	background-image:url("../img/candyland-small.png");
 }
 
 
