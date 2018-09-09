@@ -24,12 +24,13 @@ Sidegames.Runs.push(
             { Name: "Bananaby", Time: "Jul 16 2018 5:42 PM", Group: "Pokemon" },
             { Name: "Piestoise", Time: "Aug 6 2018 8:55 AM", Group: "Pokemon" },
             { Name: "Smorelax", Time: "Aug 8 2018 9:23 AM", Group: "Pokemon" },
-            
+            { Name: "Airloon", Time: "2018-09-07T19:23:46+00:00", Group: "Pokemon" },
+
             { Group: "Badges", Name: "Jewel Badge", Image: "img/badges/boulder.png", Time: "2018-06-20T03:33:26+00:00", Attempts: 6 },
             { Group: "Badges", Name: "Soda Badge", Image: "img/badges/cascade.png", Time: "Jul 13 2018 12:09 AM", Attempts: 1 },
             { Group: "Badges", Name: "Yellow Badge", Image: "img/badges/thunder.png", Time: "Jul 23 2018 2:34 AM", Attempts: 1 },
             { Group: "Badges", Name: "Keylime Badge", Image: "img/badges/rainbow.png", Time: "2018-09-01T09:33:29+00:00", Attempts: 1 },
-            
+
             { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/firered/bruno.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png", Time: "", Attempts: 0 },
