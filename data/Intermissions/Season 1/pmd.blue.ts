@@ -30,13 +30,15 @@ Intermissions.Runs.push(
                 Group: "Bosses",
                 Name: "Skarmory",
                 Time: "2014-06-13T00:35:03Z",
-                Class: "pokesprite"
+                Class: "pokesprite",
+                ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             },
             {
                 Group: "Bosses",
                 Name: "Team Meanies",
                 Time: "2014-06-13T20:41:10Z",
-                Class: "pokesprite Gengar"
+                Class: "pokesprite Gengar",
+                ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             },
         ]
     }

@@ -20,127 +20,148 @@ Sidegames.Runs.push(
                 Group: "Bosses",
                 Name: "Skarmory",
                 Time: "2016-02-29T01:34:30Z",
-                Class: "pokesprite"
+                Class: "pokesprite",
+                ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             },
             {
                 Group: "Bosses",
                 Name: "Team Meanies",
                 Time: "2016-03-22T05:58:15Z",
-                Class: "pokesprite Gengar"
+                Class: "pokesprite Gengar",
+                ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             },
             {
                 Group: "Bosses",
                 Name: "Zapdos",
                 Time: "2016-06-03T20:18:30Z",
-                Class: "pokesprite"
+                Class: "pokesprite",
+                ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             },
             {
                 Group: "Bosses",
                 Name: "Moltres",
                 Time: "2016-07-02T15:49:37Z",
-                Class: "pokesprite"
+                Class: "pokesprite",
+                ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             },
             {
                 Group: "Bosses",
                 Name: "Articuno",
                 Time: "2016-07-19T23:26:10Z",
-                Class: "pokesprite"
+                Class: "pokesprite",
+                ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             },
             {
                 Group: "Bosses",
                 Name: "Mankey Gang",
                 Time: "2016-10-20T11:04:58Z",
-                Class: "pokesprite Mankey"
+                Class: "pokesprite Mankey",
+                ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             },
             {
                 Group: "Bosses",
                 Name: "Groudon",
                 Time: "2016-12-03T23:29:24Z",
-                Class: "pokesprite"
+                Class: "pokesprite",
+                ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             },
             {
                 Group: "Bosses",
                 Name: "Rayquaza",
                 Time: "2017-01-08T22:43:55Z",
-                Class: "pokesprite"
+                Class: "pokesprite",
+                ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             },
             // {
             //     Group: "Bosses",
             //     Name: "Kyogre",
             //     Time: "-1d",
-            //     Class: "pokesprite"
+            //     Class: "pokesprite",
+            //     ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             // },
             // {
             //     Group: "Bosses",
             //     Name: "Regirock",
             //     Time: "-1d",
-            //     Class: "pokesprite"
+            //     Class: "pokesprite",
+            //     ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             // },
             // {
             //     Group: "Bosses",
             //     Name: "Regice",
             //     Time: "-1d",
-            //     Class: "pokesprite"
+            //     Class: "pokesprite",
+            //     ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             // },
             // {
             //     Group: "Bosses",
             //     Name: "Registeel",
             //     Time: "-1d",
-            //     Class: "pokesprite"
+            //     Class: "pokesprite",
+            //     ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             // },
             // {
             //     Group: "Bosses",
             //     Name: "Latios",
             //     Time: "-1d",
-            //     Class: "pokesprite"
+            //     Class: "pokesprite",
+            //     ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             // },
             // {
             //     Group: "Bosses",
             //     Name: "Entei",
             //     Time: "-1d",
-            //     Class: "pokesprite"
+            //     Class: "pokesprite",
+            //     ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             // },
             // {
             //     Group: "Bosses",
             //     Name: "Raikou",
             //     Time: "-1d",
-            //     Class: "pokesprite"
+            //     Class: "pokesprite",
+            //     ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             // },
             // {
             //     Group: "Bosses",
             //     Name: "Suicune",
             //     Time: "-1d",
-            //     Class: "pokesprite"
+            //     Class: "pokesprite",
+            //     ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             // },
             // {
             //     Group: "Bosses",
             //     Name: "Ho-Oh",
             //     Time: "-1d",
-            //     Class: "pokesprite"
+            //     Class: "pokesprite",
+            //     ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             // },
             // {
             //     Group: "Bosses",
             //     Name: "Jirachi",
             //     Time: "-1d",
-            //     Class: "pokesprite"
+            //     Class: "pokesprite",
+            //     ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             // },
             // {
             //     Group: "Bosses",
             //     Name: "Lugia",
             //     Time: "-1d",
-            //     Class: "pokesprite"
+            //     Class: "pokesprite",
+            //     ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             // },
             // {
             //     Group: "Bosses",
             //     Name: "Mewtwo",
             //     Time: "-1d",
-            //     Class: "pokesprite"
+            //     Class: "pokesprite",
+            //     ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             // },
             // {
             //     Group: "Bosses",
             //     Name: "Deoxys",
             //     Time: "-1d",
-            //     Class: "pokesprite"
+            //     Class: "pokesprite",
+            //     ImageSource: "https://www.pokecommunity.com/showthread.php?t=267728"
             // },
             //{ Group: "Pokemon", Name: "Shuppet", Time: "Fri Dec 16 2016 11:15:01 GMT+0000" }
         ]
