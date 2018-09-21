@@ -21,7 +21,7 @@ namespace TPP.Controllers {
                 })
             ];
             this.credits = [
-                "Pokemon sprites are from [PLDHnet's SpriteDex](http://pldh.net/dex/sprites/index) and [Bulbapedia](http://bulbapedia.bulbagarden.net/).",
+                "Pokemon sprites are from [The DS-style 64x64 Pokémon Sprite Resource](https://www.pokecommunity.com/showthread.php?t=267728), extended for [Gen 6](https://www.pokecommunity.com/showthread.php?t=314422) and [Gen 7](https://www.pokecommunity.com/showthread.php?t=368703).",
                 "Early run catch data provided by [twitchplayspokemon.org](http://twitchplayspokemon.org/)."
             ];
         }
@@ -30,6 +30,7 @@ namespace TPP.Controllers {
             var tppData = Transforms.Data.Clone(this.tppData);
             var pokeList = Transforms.Pokedex.ClipNationalDex(this.dexData.GenSlice[this.queryString["g"] || 0]);
             var classes = "";
+            var spriteClasses = "";
             var dexName = this.queryString["dex"] || "National";
             if (this.queryString["dex"] && this.dexData.Regional[this.queryString["dex"]]) {                
                 pokeList = TPP.Transforms.Pokedex.DexMerge(this.dexData.Regional[dexName], pokeList);
@@ -40,6 +41,13 @@ namespace TPP.Controllers {
             if (this.queryString["ms"]) {
                 classes += " ms";
             }
+            if (this.queryString["shiny"]) {
+                spriteClasses += " shiny";
+            }
+            if (this.queryString["female"]) {
+                spriteClasses += " female";
+            }
+
             if (this.queryString["nowifi"]) {
                 tppData = TPP.Transforms.Data.Filter.NoWifiTradePokemon(tppData);
             }
@@ -73,7 +81,7 @@ namespace TPP.Controllers {
                 this.credits.splice(0, 1, "Touhoumon sprites ripped by [Jayare158](https://www.reddit.com/r/twitchplayspokemon/comments/5cwr3q/by_ucyanders_request_heres_a_sprite_chart_with/).");  
 
             this.contentTitle = <DexName name={dexName} sorting={sorting}/>;
-            return <Display.Elements.Pokedex.Dex dex={dex} showOwnership={!this.queryString["justmon"]} ownedOnly={!!this.queryString["owned"]} className={classes.trim()} />;
+            return <Display.Elements.Pokedex.Dex dex={dex} showOwnership={!this.queryString["justmon"]} ownedOnly={!!this.queryString["owned"]} className={classes.trim()} spriteClass={spriteClasses} />;
         }
     }
 

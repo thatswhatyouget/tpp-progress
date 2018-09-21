@@ -445,6 +445,7 @@ ul.controls > li > ul > li.selected > a:before {
     padding:.5em;
 	top:50%;
 	margin:0 -25%;
+	image-rendering: pixelated;
     background-image:url("../img/pokemon.png");
     background-repeat: no-repeat;
     background-position: top left;
@@ -453,7 +454,8 @@ ul.controls > li > ul > li.selected > a:before {
 
 .progressChart .run .event.bosses.pokesprite img, .progressChart .run .event.missions.pokesprite img {
     top: -8px;
-    font-size:64px;
+	font-size:64px;
+	image-rendering: pixelated;
     background-image:url("../img/pokemon-large.png");
 }
 
@@ -766,18 +768,31 @@ ul.controls > li > ul > li.selected > a:before {
 	font-size:64px;
     padding:.5em;
 	margin:auto;
+	image-rendering: pixelated;
     background-image:url("../img/pokemon-large.png");
     background-repeat: no-repeat;
     background-position: top left;
     background-size:cover;
 }
 
+.hallOfFameDisplay .entry .pokesprite.shiny img {
+    background-image:url("../img/pokemon-large-shiny.png");
+}
+
+.hallOfFameDisplay .entry .pokesprite.female img {
+    background-image:url("../img/pokemon-large-female.png");
+}
+
+.hallOfFameDisplay .entry .pokesprite.shiny.female img {
+    background-image:url("../img/pokemon-large-shiny-female.png");
+}
+
 .hallOfFameDisplay.touhoumon .entry .pokesprite img {
-	background-image:url("../img/touhoumon-large.png");
+	background-image:url("../img/touhoumon-large.png")!important;
 }
 
 .hallOfFameDisplay.moemon .entry .pokesprite img {
-	background-image:url("../img/moemon-large.png");
+	background-image:url("../img/moemon-large.png")!important;
 }
 
 .hallOfFameDisplay .entry .info > * {

@@ -8,6 +8,7 @@ namespace TPP.Display.Elements.Pokedex {
         showOwnership?: boolean;
         ownedOnly?: boolean;
         className?: string;
+        spriteClass?: string;
     }
 
     interface DexState {
@@ -43,7 +44,7 @@ namespace TPP.Display.Elements.Pokedex {
         }
 
         private get entries() {
-            return (this.props.ownedOnly ? this.state.filteredDex.Owned : this.state.filteredDex.Entries).map(e => <DexEntry key={e.Number} entry={e} showOwnership={this.props.showOwnership !== false} />);
+            return (this.props.ownedOnly ? this.state.filteredDex.Owned : this.state.filteredDex.Entries).map(e => <DexEntry key={e.Number} entry={e} showOwnership={this.props.showOwnership !== false} spriteClass={this.props.spriteClass} />);
         }
 
         private get ownedDisplay() {

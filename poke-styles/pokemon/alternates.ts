@@ -32,14 +32,14 @@ var alternates: Alternate[] = [
     new Alternate("wartortle", "Ultra", true),
     new Alternate("zapdos", "Ultra", true),
 
-    new Alternate("jellicent", "Female"),
+    // new Alternate("jellicent", "Female"),
 
-    new Alternate("azumarill", "Shiny"),
-    new Alternate("xatu", "Shiny"),
-    new Alternate("plusle", "Shiny"),
-    new Alternate("gyarados", "Shiny"),
-    new Alternate("skiploom", "Shiny"),
-    new Alternate("jumpluff", "Shiny"),
+    // new Alternate("azumarill", "Shiny"),
+    // new Alternate("xatu", "Shiny"),
+    // new Alternate("plusle", "Shiny"),
+    // new Alternate("gyarados", "Shiny"),
+    // new Alternate("skiploom", "Shiny"),
+    // new Alternate("jumpluff", "Shiny"),
 
     new Alternate("zygarde", "percent10"),
     new Alternate("lycanroc", "Midnight"),

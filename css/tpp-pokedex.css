@@ -52,13 +52,27 @@
     height: 0;
     width: 0;
     padding: .5em;
+    image-rendering: pixelated;
     background-image: url("../img/pokemon-large.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.dexEntry .pokesprite:not(.missingno).shiny img {
+    background-image: url("../img/pokemon-large-shiny.png");
+}
+
+.dexEntry .pokesprite:not(.missingno).female img {
+    background-image: url("../img/pokemon-large-female.png");
+}
+
+.dexEntry .pokesprite:not(.missingno).shiny.female img {
+    background-image: url("../img/pokemon-large-shiny-female.png");
+}
+
 .dexEntry .pokesprite.missingno img {
     height: 100%;
+    image-rendering: pixelated;
 }
 
 .dexEntry .hofRibbon { 
@@ -73,35 +87,39 @@
 }
 
 .telefang .dexEntry .pokesprite:not(.missingno) img {
-    background-image: url("../img/telefang/denjuu-large.gif");
+    background-image: url("../img/telefang/denjuu-large.gif")!important;
 }
 
 .touhoumon .dexEntry .pokesprite:not(.missingno) img {
-    background-image: url("../img/touhoumon-large.png");
+    background-image: url("../img/touhoumon-large.png")!important;
 }
 
 .moemon .dexEntry .pokesprite:not(.missingno) img {
-    background-image: url("../img/moemon-large.png");
+    background-image: url("../img/moemon-large.png")!important;
 }
 
 .robopon .dexEntry .pokesprite:not(.missingno) img {
-    background-image:url("../img/robopon/robopon.gif");
+    background-image:url("../img/robopon/robopon.gif")!important;
     background-position: -20px -1110px;
     background-size:auto;
 }
 
 .sweet .dexEntry .pokesprite:not(.missingno) img {
-    background-image: url("../img/candyland-large.png");
+    background-image: url("../img/candyland-large.png")!important;
 }
 
 .ms .dexEntry .pokesprite:not(.missingno) img {
-    background-image: url("../img/pokemon.png");
+    background-image: url("../img/pokemon.png")!important;
 }
 
 .ms.touhoumon .dexEntry .pokesprite:not(.missingno) img {
-    background-image: url("../img/touhoumon-small.png");
+    background-image: url("../img/touhoumon-small.png")!important;
 }
 
 .ms.moemon .dexEntry .pokesprite:not(.missingno) img {
-    background-image: url("../img/moemon-small.png");
+    background-image: url("../img/moemon-small.png")!important;
+}
+
+.ms.sweet .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/candyland-small.png")!important;
 }

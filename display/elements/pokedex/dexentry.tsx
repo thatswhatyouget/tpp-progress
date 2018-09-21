@@ -4,6 +4,7 @@ namespace TPP.Display.Elements.Pokedex {
     interface DexEntryProps {
         entry: TPP.Pokedex.DexEntryBase;
         showOwnership?: boolean;
+        spriteClass?: string;
     }
 
     interface DexEntryState {
@@ -63,7 +64,7 @@ namespace TPP.Display.Elements.Pokedex {
                 <h3>{this.Number}</h3>
                 <h4>{this.entry.DisplayName}</h4>
                 {this.props.children}
-                <div className={`pokesprite ${this.pokeName}`}><img src='img/missingno.png' /></div>
+                <div className={`pokesprite ${this.pokeName} ${this.props.spriteClass}`}><img src='img/missingno.png' /></div>
                 {this.hallOfFame}
             </div>;
         }
