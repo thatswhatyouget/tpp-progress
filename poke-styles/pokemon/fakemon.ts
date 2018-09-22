@@ -6,10 +6,11 @@ var fakemon = [
     "Pikachu-B", "Kyurem-B", "Kyurem-W", "Mew-B", "M-Venusaur", "M-Charizard X", "M-Blastoise", "M-Lucario", "M-Charizard Y", "M-Salamence", "M-Absol", "M-Manectric", //Glazed
     "Def-Eevee", "Rotom-C", "Rotom-F", "Rotom-H", "Rotom-S", "Rotom-W", "Off-Eevee", //Blazed Glazed
     "Pumbloom", //Bronze
+    "Burmy G","Wormadam G","Meloetta F","ShayminSky","Burmy S","Wormadam S","Aqua Egg","Shellos 2","Gastrodon2","Rotom I","Rotom F","Rotom W","Rotom G","Rotom H", //Flora Sky
 ];
 
 addStyles(fakemon, f => {
-    var clean = dexClean(f);
+    var clean = dexClean(f).replace(/ /g, '');
     return ".pokesprite." + clean + ' img  { background-image:url("../img/fakemon/' + clean + '.png")!important; }';
 });
 

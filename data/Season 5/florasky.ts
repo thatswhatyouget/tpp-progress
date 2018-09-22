@@ -11,7 +11,7 @@ Season5.Runs.push(
         HostName: "",
         Region: "Flora",
         BaseGame: "Emerald",
-        // Pokedex: "Flora",
+        Pokedex: "Flora",
         Events: [
 
          ]
