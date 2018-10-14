@@ -29,7 +29,7 @@ namespace TPP.Display.Elements.RunStatus {
                             </div>
                         </li>
                         : null}
-                    {this.props.party.map(p => <Pokemon key={`${p.name}:${p.personality_value}`} pokemon={p} />)}
+                    {this.props.party.map(p => p && <Pokemon key={`${p.name}:${p.personality_value}`} pokemon={p} />)}
                 </ul>
             </PokeBox>;
         }
