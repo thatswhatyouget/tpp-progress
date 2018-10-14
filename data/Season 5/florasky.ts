@@ -13,9 +13,31 @@ Season5.Runs.push(
         BaseGame: "Emerald",
         Pokedex: "Flora",
         Events: [
+            { Group: "Badges", Name: "Kungfu Badge", Image: "img/badges/florasky/kungfu.png", Time: "0d 7h 6m", Attempts: 3 },
+            { Group: "Badges", Name: "Normal Badge", Image: "img/badges/florasky/normal.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/florasky/dynamo.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Icy Badge", Image: "img/badges/florasky/icy.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Iron Badge", Image: "img/badges/florasky/iron.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Feather Badge", Image: "img/badges/florasky/feather.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Rain Badge", Image: "img/badges/florasky/rain.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Fear Badge", Image: "img/badges/florasky/fear.png", Time: "", Attempts: 0 },
+
             { "Group": "Pokemon", "Name": "Piplup", "Time": "0d 0h 21m" },
             { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "0d 1h 11m" },
             { "Group": "Pokemon", "Name": "Patrat", "Time": "0d 1h 11m" },
+            { "Group": "Pokemon", "Name": "Ralts", "Time": "0d 3h 52m" },
+            { "Group": "Pokemon", "Name": "Lotad", "Time": "0d 4h 27m" },
+            { "Group": "Pokemon", "Name": "Starly", "Time": "0d 4h 31m" },
+            { "Group": "Pokemon", "Name": "Staravia", "Time": "0d 10h 6m" },
+            { "Group": "Pokemon", "Name": "Ekans", "Time": "0d 10h 14m" },
+            { "Group": "Pokemon", "Name": "Cascoon", "Time": "0d 10h 24m" },
+            { "Group": "Pokemon", "Name": "Caterpie", "Time": "0d 10h 26m" },
+            { "Group": "Pokemon", "Name": "Wurmple", "Time": "0d 12h 16m" },
+            { "Group": "Pokemon", "Name": "Metapod", "Time": "0d 12h 19m" },
+            { "Group": "Pokemon", "Name": "Nincada", "Time": "0d 12h 38m" },
+            { "Group": "Pokemon", "Name": "Mareep", "Time": "0d 14h 34m" },
+            { "Group": "Pokemon", "Name": "Prinplup", "Time": "0d 16h 0m" },
+            { "Group": "Pokemon", "Name": "Abra", "Time": "0d 18h 12m" },
         ]
     }
 );
