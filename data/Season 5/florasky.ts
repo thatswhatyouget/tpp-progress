@@ -14,7 +14,7 @@ Season5.Runs.push(
         Pokedex: "Flora",
         Events: [
             { Group: "Badges", Name: "Kungfu Badge", Image: "img/badges/florasky/kungfu.png", Time: "0d 7h 6m", Attempts: 3 },
-            { Group: "Badges", Name: "Normal Badge", Image: "img/badges/florasky/normal.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Normal Badge", Image: "img/badges/florasky/normal.png", Time: "0d 22h 40m", Attempts: 2 },
             { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/florasky/dynamo.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Icy Badge", Image: "img/badges/florasky/icy.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Iron Badge", Image: "img/badges/florasky/iron.png", Time: "", Attempts: 0 },
@@ -38,6 +38,8 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Mareep", "Time": "0d 14h 34m" },
             { "Group": "Pokemon", "Name": "Prinplup", "Time": "0d 16h 0m" },
             { "Group": "Pokemon", "Name": "Abra", "Time": "0d 18h 12m" },
+            { "Group": "Pokemon", "Name": "Aron", "Time": "0d 19h 2m" },
+            { "Group": "Pokemon", "Name": "Gastly", "Time": "0d 19h 45m" },
         ]
     }
 );
