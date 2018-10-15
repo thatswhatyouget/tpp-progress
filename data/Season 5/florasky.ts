@@ -40,6 +40,14 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Abra", "Time": "0d 18h 12m" },
             { "Group": "Pokemon", "Name": "Aron", "Time": "0d 19h 2m" },
             { "Group": "Pokemon", "Name": "Gastly", "Time": "0d 19h 45m" },
+            { "Group": "Pokemon", "Name": "Meditite", "Time": "0d 23h 30m" },
+            { "Group": "Pokemon", "Name": "Pidove", "Time": "0d 23h 38m" },
+            { "Group": "Pokemon", "Name": "Blitzle", "Time": "0d 23h 54m" },
+            { "Group": "Pokemon", "Name": "Geodude", "Time": "1d 1h 58m" },
+            { "Group": "Pokemon", "Name": "Watchog", "Time": "1d 2h 2m" },
+            { "Group": "Pokemon", "Name": "Wingull", "Time": "1d 2h 27m" },
+            { "Group": "Pokemon", "Name": "Electrike", "Time": "1d 2h 30m" },
+            { "Group": "Pokemon", "Name": "Gulpin", "Time": "1d 2h 33m" },
         ]
     }
 );
