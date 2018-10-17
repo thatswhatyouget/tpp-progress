@@ -77,6 +77,14 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Linoone", "Time": "2d 14h 32m" },
             { "Group": "Pokemon", "Name": "Vulpix", "Time": "2d 14h 48m" },
             { "Group": "Pokemon", "Name": "Gabite", "Time": "2d 16h 15m" },
+            { "Group": "Pokemon", "Name": "Lillipup", "Time": "2d 16h 55m" },
+            { "Group": "Pokemon", "Name": "Pikachu", "Time": "2d 17h 2m" },
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "2d 18h 26m" },
+            { "Group": "Pokemon", "Name": "Oddish", "Time": "2d 18h 35m" },
+            { "Group": "Pokemon", "Name": "Magikarp", "Time": "3d 0h 51m" },
+            { "Group": "Pokemon", "Name": "Empoleon", "Time": "3d 1h 2m" },
+            { "Group": "Pokemon", "Name": "Silcoon", "Time": "3d 3h 15m" },
+            { "Group": "Pokemon", "Name": "Shaymin", "Time": "3d 11h 27m" },
         ]
     }
 );
