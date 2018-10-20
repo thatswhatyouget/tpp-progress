@@ -202,7 +202,7 @@ namespace TPP.Display.Elements.RunStatus {
             else if (this.isFutureRun)
                 var innards = <h2>Starts in {this.timeUntilRun}</h2>;
             else
-                var innards = <div className={cleanString(this.state.run.RunName)}>
+                var innards = <div className={`${cleanString(this.state.run.RunName)} ${this.state.run.Class}`}>
                     {this.state.lastScreen ? <PokeBox className="last-screenshot" title={`${this.state.run.Ongoing ? 'Latest' : 'Last'} Screenshot`}>
                         <img src={this.state.lastScreen} />
                         {this.state.lastScreenTime ? <h4>{this.state.lastScreenTime}</h4> : null}

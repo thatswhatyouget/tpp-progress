@@ -85,6 +85,10 @@
     margin: 5px 0;
 }
 
+.pixel-art img {
+    image-rendering: pixelated!important;
+}
+
 .badgeList ul li .image.pokesprite:not(.missingno) img {
     height: 0;
     width: 0;
@@ -92,6 +96,7 @@
     background-image: url("../img/pokemon-large.png");
     background-repeat: no-repeat;
     background-size: cover;
+    image-rendering: pixelated;
 }
 
 .badgeList ul li .image img {

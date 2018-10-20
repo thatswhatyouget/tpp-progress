@@ -573,6 +573,10 @@ ul.controls > li > ul > li.selected > a:before {
     transform: translateX(-30%);   
 }
 
+.pixel-art img {
+	image-rendering: pixelated!important;
+}
+
 @media print {
     body {
         -webkit-print-color-adjust: exact;
