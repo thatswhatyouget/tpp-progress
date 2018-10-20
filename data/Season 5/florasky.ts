@@ -19,7 +19,7 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Icy Badge", Image: "img/badges/florasky/icy.png", Time: "2d21h12m", Attempts: 2 },
             { Group: "Badges", Name: "Iron Badge", Image: "img/badges/florasky/iron.png", Time: "3d 13h 26m", Attempts: 1 },
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/florasky/feather.png", Time: "5d 12h 14m", Attempts: 3 },
-            { Group: "Badges", Name: "Rain Badge", Image: "img/badges/florasky/rain.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Rain Badge", Image: "img/badges/florasky/rain.png", Time: "6d4h58m", Attempts: 2 },
             { Group: "Badges", Name: "Fear Badge", Image: "img/badges/florasky/fear.png", Time: "", Attempts: 0 },
 
             { "Group": "Pokemon", "Name": "Piplup", "Time": "0d 0h 21m" },
@@ -133,6 +133,13 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Lickitung", "Time": "5d 9h 1m" },
             { "Group": "Pokemon", "Name": "Poliwag", "Time": "5d 9h 4m" },
             { "Group": "Pokemon", "Name": "Skitty", "Time": "5d 11h 15m" },
+            { "Group": "Pokemon", "Name": "Mudkip", "Time": "5d 15h 8m" },
+
+            { "Group": "Pokemon", "Name": "Breloom", "Time": "2018-10-19T16:21:32.350Z" },
+            { "Group": "Pokemon", "Name": "Rufflet", "Time": "2018-10-19T17:03:19.008Z" },
+            { "Group": "Pokemon", "Name": "Bouffalant", "Time": "2018-10-19T17:07:22.862Z" },
+            { "Group": "Pokemon", "Name": "Miltank", "Time": "2018-10-19T17:15:11.586Z" },
+            { "Group": "Pokemon", "Name": "Lumineon", "Time": "2018-10-19T20:38:49.825Z" },
         ]
     }
 );
