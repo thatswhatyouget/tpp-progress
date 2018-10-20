@@ -20,7 +20,7 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Iron Badge", Image: "img/badges/florasky/iron.png", Time: "3d 13h 26m", Attempts: 1 },
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/florasky/feather.png", Time: "5d 12h 14m", Attempts: 3 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/florasky/rain.png", Time: "6d4h58m", Attempts: 2 },
-            { Group: "Badges", Name: "Fear Badge", Image: "img/badges/florasky/fear.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Fear Badge", Image: "img/badges/florasky/fear.png", Time: "7d1h6m", Attempts: 2 },
 
             { "Group": "Pokemon", "Name": "Piplup", "Time": "0d 0h 21m" },
             { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "0d 1h 11m" },
@@ -134,12 +134,21 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Poliwag", "Time": "5d 9h 4m" },
             { "Group": "Pokemon", "Name": "Skitty", "Time": "5d 11h 15m" },
             { "Group": "Pokemon", "Name": "Mudkip", "Time": "5d 15h 8m" },
-
-            { "Group": "Pokemon", "Name": "Breloom", "Time": "2018-10-19T16:21:32.350Z" },
-            { "Group": "Pokemon", "Name": "Rufflet", "Time": "2018-10-19T17:03:19.008Z" },
-            { "Group": "Pokemon", "Name": "Bouffalant", "Time": "2018-10-19T17:07:22.862Z" },
-            { "Group": "Pokemon", "Name": "Miltank", "Time": "2018-10-19T17:15:11.586Z" },
-            { "Group": "Pokemon", "Name": "Lumineon", "Time": "2018-10-19T20:38:49.825Z" },
+            { "Group": "Pokemon", "Name": "Breloom", "Time": "5d 19h 21m" },
+            { "Group": "Pokemon", "Name": "Rufflet", "Time": "5d 20h 2m" },
+            { "Group": "Pokemon", "Name": "Bouffalant", "Time": "5d 20h 7m" },
+            { "Group": "Pokemon", "Name": "Miltank", "Time": "5d 20h 14m" },
+            { "Group": "Pokemon", "Name": "Lumineon", "Time": "5d 23h 38m" },
+            { "Group": "Pokemon", "Name": "Clamperl", "Time": "6d 11h 6m" },
+            { "Group": "Pokemon", "Name": "Chinchou", "Time": "6d 11h 20m" },
+            { "Group": "Pokemon", "Name": "Magnemite", "Time": "6d 12h 23m" },
+            { "Group": "Pokemon", "Name": "Magneton", "Time": "6d 12h 34m" },
+            { "Group": "Pokemon", "Name": "Electrode", "Time": "6d 12h 41m" },
+            { "Group": "Pokemon", "Name": "Lunatone", "Time": "6d 13h 28m" },
+            { "Group": "Pokemon", "Name": "Mawile", "Time": "6d 20h 51m" },
+            { "Group": "Pokemon", "Name": "Growlithe", "Time": "6d 21h 44m" },
+            { "Group": "Pokemon", "Name": "Shinx", "Time": "6d 21h 51m" },
+            { "Group": "Pokemon", "Name": "Solrock", "Time": "6d 22h 14m" },
         ]
     }
 );
