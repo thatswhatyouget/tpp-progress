@@ -7,7 +7,7 @@ Season5.Runs.push(
         ColorPrimary: "#71eeb8",
         ColorSecondary: "#ee71a7",
         HostImage: "img/hosts/hnv.png",
-        // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/64fn91/ahuni_our_adorably_sweet_protagonist_animated/",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/9pkxol/hannah_the_ninja_master/",
         HostName: "..hnv",
         Region: "Flora",
         BaseGame: "Emerald",
@@ -24,15 +24,15 @@ Season5.Runs.push(
 
             { Group: "Elite Four", Name: "Bertha", Image: "img/trainers/florasky/bertha.png", Time: "7d13h41m", Attempts: 1 },
             { Group: "Elite Four", Name: "Adeku", Image: "img/trainers/florasky/adeku.png", Time: "7d13h48m", Attempts: 1 },
-            { Group: "Elite Four", Name: "Ice", Image: "img/trainers/florasky/ice.png", Time: "", Attempts: 2 },
+            { Group: "Elite Four", Name: "Ice", Image: "img/trainers/florasky/ice.png", Time: "", Attempts: 3 },
             { Group: "Elite Four", Name: "Flash", Image: "img/trainers/florasky/flash.png", Time: "", Attempts: 0 },
             { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/cynthia.png", Time: "", Attempts: 0 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 2, IDNo: "64341", Party: [
-                    { Pokemon: "Shaymin", Nickname: "Acccddd", Level: 61, Gender: "Female", Number: 234, IDNo: "64341" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 4, IDNo: "64341", Party: [
+                    { Pokemon: "Shaymin", Nickname: "Acccddd", Level: 62, Gender: "Female", Number: 234, IDNo: "64341" },
                     { Pokemon: "Gallade", Nickname: "AAAGGGAAAA", Level: 49, Gender: "Male", Number: 127, IDNo: "64341" },
-                    { Pokemon: "Linoone", Nickname: "   T", Level: 49, Gender: "Female", Number: 264, IDNo: "64341" },
+                    { Pokemon: "Linoone", Nickname: "   T", Level: 51, Gender: "Female", Number: 264, IDNo: "64341" },
                     { Pokemon: "Shedinja", Nickname: "Avvvv33333", Level: 47, Number: 292, IDNo: "64341" },
                     { Pokemon: "Empoleon", Nickname: "xq”", Level: 58, Gender: "Male", Number: 9, IDNo: "64341" },
                     { Pokemon: "Garchomp", Nickname: "NODEEWe9", Level: 49, Gender: "Male", Number: 275, IDNo: "64341" },
@@ -83,7 +83,6 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Buizel", "Time": "2d 2h 41m" },
             { "Group": "Pokemon", "Name": "Marill", "Time": "2d 2h 49m" },
             { "Group": "Pokemon", "Name": "Gible", "Time": "2d 5h 56m" },
-            { "Group": "Pokemon", "Name": "Gible", "Time": "2d 5h 57m" },
             { "Group": "Pokemon", "Name": "Gligar", "Time": "2d 6h 22m" },
             { "Group": "Pokemon", "Name": "Paras", "Time": "2d 6h 29m" },
             { "Group": "Pokemon", "Name": "Herdier", "Time": "2d 6h 41m" },
