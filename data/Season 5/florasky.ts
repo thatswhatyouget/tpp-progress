@@ -22,6 +22,25 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/florasky/rain.png", Time: "6d4h58m", Attempts: 2, Class: "pixel-art" },
             { Group: "Badges", Name: "Fear Badge", Image: "img/badges/florasky/fear.png", Time: "7d1h6m", Attempts: 2, Class: "pixel-art" },
 
+            { Group: "Elite Four", Name: "Bertha", Image: "img/trainers/florasky/bertha.png", Time: "7d13h41m", Attempts: 1 },
+            { Group: "Elite Four", Name: "Adeku", Image: "img/trainers/florasky/adeku.png", Time: "7d13h48m", Attempts: 1 },
+            { Group: "Elite Four", Name: "Ice", Image: "img/trainers/florasky/ice.png", Time: "", Attempts: 2 },
+            { Group: "Elite Four", Name: "Flash", Image: "img/trainers/florasky/flash.png", Time: "", Attempts: 0 },
+            { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/cynthia.png", Time: "", Attempts: 0 },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 2, IDNo: "64341", Party: [
+                    { Pokemon: "Shaymin", Nickname: "Acccddd", Level: 61, Gender: "Female", Number: 234, IDNo: "64341" },
+                    { Pokemon: "Gallade", Nickname: "AAAGGGAAAA", Level: 49, Gender: "Male", Number: 127, IDNo: "64341" },
+                    { Pokemon: "Linoone", Nickname: "   T", Level: 49, Gender: "Female", Number: 264, IDNo: "64341" },
+                    { Pokemon: "Shedinja", Nickname: "Avvvv33333", Level: 47, Number: 292, IDNo: "64341" },
+                    { Pokemon: "Empoleon", Nickname: "xq”", Level: 58, Gender: "Male", Number: 9, IDNo: "64341" },
+                    { Pokemon: "Garchomp", Nickname: "NODEEWe9", Level: 49, Gender: "Male", Number: 275, IDNo: "64341" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "7d13h34m"
+            },
+
             { "Group": "Pokemon", "Name": "Piplup", "Time": "0d 0h 21m" },
             { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "0d 1h 11m" },
             { "Group": "Pokemon", "Name": "Patrat", "Time": "0d 1h 11m" },
@@ -150,7 +169,15 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Shinx", "Time": "6d 21h 51m" },
             { "Group": "Pokemon", "Name": "Solrock", "Time": "6d 22h 14m" },
             { "Group": "Pokemon", "Name": "Wooper", "Time": "7d 1h 13m" },
-            { "Group": "Pokemon", "Name": "Quagsire", "Time": "7d 1h 46m" }
+            { "Group": "Pokemon", "Name": "Quagsire", "Time": "7d 1h 46m" },
+            { "Group": "Pokemon", "Name": "Garchomp", "Time": "7d 4h 35m" },
+            { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "7d 5h 46m" },
+            { "Group": "Pokemon", "Name": "Clefairy", "Time": "7d 6h 40m" },
+            { "Group": "Pokemon", "Name": "Bagon", "Time": "7d 6h 58m" },
+            { "Group": "Pokemon", "Name": "Shroomish", "Time": "7d 8h 32m" },
+            { "Group": "Pokemon", "Name": "Lairon", "Time": "7d 10h 41m" },
+            { "Group": "Pokemon", "Name": "Deino", "Time": "7d 10h 43m" },
+            { "Group": "Pokemon", "Name": "Pawniard", "Time": "7d 12h 12m" },
         ]
     }
 );
