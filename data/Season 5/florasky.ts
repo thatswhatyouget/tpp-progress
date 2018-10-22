@@ -24,18 +24,18 @@ Season5.Runs.push(
 
             { Group: "Elite Four", Name: "Bertha", Image: "img/trainers/florasky/bertha.png", Time: "7d13h41m", Attempts: 1 },
             { Group: "Elite Four", Name: "Adeku", Image: "img/trainers/florasky/adeku.png", Time: "7d13h48m", Attempts: 1 },
-            { Group: "Elite Four", Name: "Ice", Image: "img/trainers/florasky/ice.png", Time: "", Attempts: 3 },
-            { Group: "Elite Four", Name: "Flash", Image: "img/trainers/florasky/flash.png", Time: "", Attempts: 0 },
-            { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/cynthia.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Ice", Image: "img/trainers/florasky/ice.png", Time: "8d 11h 49m", Attempts: 11 },
+            { Group: "Elite Four", Name: "Flash", Image: "img/trainers/florasky/flash.png", Time: "8d 12h 36m", Attempts: 2 },
+            { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/cynthia.png", Time: "", Attempts: 1 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 4, IDNo: "64341", Party: [
-                    { Pokemon: "Shaymin", Nickname: "Acccddd", Level: 62, Gender: "Female", Number: 234, IDNo: "64341" },
-                    { Pokemon: "Gallade", Nickname: "AAAGGGAAAA", Level: 49, Gender: "Male", Number: 127, IDNo: "64341" },
-                    { Pokemon: "Linoone", Nickname: "   T", Level: 51, Gender: "Female", Number: 264, IDNo: "64341" },
-                    { Pokemon: "Shedinja", Nickname: "Avvvv33333", Level: 47, Number: 292, IDNo: "64341" },
-                    { Pokemon: "Empoleon", Nickname: "xq”", Level: 58, Gender: "Male", Number: 9, IDNo: "64341" },
-                    { Pokemon: "Garchomp", Nickname: "NODEEWe9", Level: 49, Gender: "Male", Number: 275, IDNo: "64341" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 17, IDNo: "64341", Party: [
+                    { Pokemon: "Linoone", Nickname: "   T", Level: 55, Gender: "Female", Number: 264, IDNo: "64341" },
+                    { Pokemon: "Gallade", Nickname: "AAAGGGAAAA", Level: 53, Gender: "Male", Number: 127, IDNo: "64341" },
+                    { Pokemon: "Garchomp", Nickname: "NODEEWe9", Level: 57, Gender: "Male", Number: 275, IDNo: "64341" },
+                    { Pokemon: "Shedinja", Nickname: "Avvvv33333", Level: 73, Number: 292, IDNo: "64341" },
+                    { Pokemon: "Empoleon", Nickname: "xq”", Level: 63, Gender: "Male", Number: 9, IDNo: "64341" },
+                    { Pokemon: "Shaymin", Nickname: "Acccddd", Level: 71, Gender: "Female", Number: 234, IDNo: "64341" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "7d13h34m"
@@ -177,6 +177,14 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Lairon", "Time": "7d 10h 41m" },
             { "Group": "Pokemon", "Name": "Deino", "Time": "7d 10h 43m" },
             { "Group": "Pokemon", "Name": "Pawniard", "Time": "7d 12h 12m" },
+            { "Group": "Pokemon", "Name": "Floatzel", "Time": "7d 17h 23m" },
+            { "Group": "Pokemon", "Name": "Azumarill", "Time": "7d 18h 8m" },
+            { "Group": "Pokemon", "Name": "Wailmer", "Time": "7d 21h 41m" },
+            { "Group": "Pokemon", "Name": "Spoink", "Time": "7d 23h 30m" },
+            { "Group": "Pokemon", "Name": "Skarmory", "Time": "7d 23h 32m" },
+            { "Group": "Pokemon", "Name": "Chimchar", "Time": "8d 3h 4m" },
+            { "Group": "Pokemon", "Name": "Snorunt", "Time": "8d 6h 0m" },
+            { "Group": "Pokemon", "Name": "Relicanth", "Time": "8d 9h 48m" },
         ]
     }
 );
