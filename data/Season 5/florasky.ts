@@ -26,16 +26,16 @@ Season5.Runs.push(
             { Group: "Elite Four", Name: "Adeku", Image: "img/trainers/florasky/adeku.png", Time: "7d13h48m", Attempts: 1 },
             { Group: "Elite Four", Name: "Ice", Image: "img/trainers/florasky/ice.png", Time: "8d 11h 49m", Attempts: 11 },
             { Group: "Elite Four", Name: "Flash", Image: "img/trainers/florasky/flash.png", Time: "8d 12h 36m", Attempts: 2 },
-            { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/cynthia.png", Time: "", Attempts: 1 },
+            { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/cynthia.png", Time: "9d 6h 1m", Attempts: 11 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 17, IDNo: "64341", Party: [
-                    { Pokemon: "Linoone", Nickname: "   T", Level: 55, Gender: "Female", Number: 264, IDNo: "64341" },
-                    { Pokemon: "Gallade", Nickname: "AAAGGGAAAA", Level: 53, Gender: "Male", Number: 127, IDNo: "64341" },
-                    { Pokemon: "Garchomp", Nickname: "NODEEWe9", Level: 57, Gender: "Male", Number: 275, IDNo: "64341" },
-                    { Pokemon: "Shedinja", Nickname: "Avvvv33333", Level: 73, Number: 292, IDNo: "64341" },
-                    { Pokemon: "Empoleon", Nickname: "xq”", Level: 63, Gender: "Male", Number: 9, IDNo: "64341" },
-                    { Pokemon: "Shaymin", Nickname: "Acccddd", Level: 71, Gender: "Female", Number: 234, IDNo: "64341" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 6h 3m", Attempts: 31, IDNo: "64341", Party: [
+                    { Pokemon: "Shaymin", Nickname: "Acccddd", Level: 90, Gender: "Female", Number: 234, IDNo: "64341" },
+                    { Pokemon: "Gallade", Nickname: "AAAGGGAAAA", Level: 57, Gender: "Male", Number: 127, IDNo: "64341" },
+                    { Pokemon: "Garchomp", Nickname: "NODEEWe9", Level: 78, Gender: "Male", Number: 275, IDNo: "64341" },
+                    { Pokemon: "Shedinja", Nickname: "Avvvv33333", Level: 81, Number: 292, IDNo: "64341" },
+                    { Pokemon: "Empoleon", Nickname: "xq”", Level: 66, Gender: "Male", Number: 9, IDNo: "64341" },
+                    { Pokemon: "Linoone", Nickname: "   T", Level: 57, Gender: "Female", Number: 264, IDNo: "64341" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "7d13h34m"
