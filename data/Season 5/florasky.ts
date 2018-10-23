@@ -22,6 +22,9 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/florasky/rain.png", Time: "6d4h58m", Attempts: 2, Class: "pixel-art" },
             { Group: "Badges", Name: "Fear Badge", Image: "img/badges/florasky/fear.png", Time: "7d1h6m", Attempts: 2, Class: "pixel-art" },
 
+            { Group: "Rematch Badges", Name: "Normal Badge Rematch", Image: "img/badges/florasky/normal.png", Time: "10d38m", Attempts: 1, Class: "pixel-art" },
+
+
             { Group: "Elite Four", Name: "Bertha", Image: "img/trainers/florasky/bertha.png", Time: "7d13h41m", Attempts: 1 },
             { Group: "Elite Four", Name: "Adeku", Image: "img/trainers/florasky/adeku.png", Time: "7d13h48m", Attempts: 1 },
             { Group: "Elite Four", Name: "Ice", Image: "img/trainers/florasky/ice.png", Time: "8d 11h 49m", Attempts: 11 },
