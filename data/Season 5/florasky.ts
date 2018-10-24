@@ -22,7 +22,8 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/florasky/rain.png", Time: "6d4h58m", Attempts: 2, Class: "pixel-art" },
             { Group: "Badges", Name: "Fear Badge", Image: "img/badges/florasky/fear.png", Time: "7d1h6m", Attempts: 2, Class: "pixel-art" },
 
-            { Group: "Rematch Badges", Name: "Normal Badge Rematch", Image: "img/badges/florasky/normal.png", Time: "10d38m", Attempts: 1, Class: "pixel-art" },
+            { Group: "Rematch Badges", Name: "Kungfu Badge", Image: "img/badges/florasky/kungfu.png", Time: "10d 4h 13m", Attempts: 1, Class: "pixel-art" },
+            { Group: "Rematch Badges", Name: "Normal Badge", Image: "img/badges/florasky/normal.png", Time: "10d38m", Attempts: 1, Class: "pixel-art" },
 
 
             { Group: "Elite Four", Name: "Bertha", Image: "img/trainers/florasky/bertha.png", Time: "7d13h41m", Attempts: 1 },
@@ -188,6 +189,20 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Chimchar", "Time": "8d 3h 4m" },
             { "Group": "Pokemon", "Name": "Snorunt", "Time": "8d 6h 0m" },
             { "Group": "Pokemon", "Name": "Relicanth", "Time": "8d 9h 48m" },
+            { "Group": "Pokemon", "Name": "Golduck", "Time": "9d 9h 5m" },
+            { "Group": "Pokemon", "Name": "Zorua", "Time": "9d 9h 55m" },
+            { "Group": "Pokemon", "Name": "Swablu", "Time": "9d 10h -1m" },
+            { "Group": "Pokemon", "Name": "Munna", "Time": "9d 10h 4m" },
+            { "Group": "Pokemon", "Name": "Chimecho", "Time": "9d 14h 19m" },
+            { "Group": "Pokemon", "Name": "Butterfree", "Time": "9d 20h 28m" },
+            { "Group": "Pokemon", "Name": "Cubone", "Time": "9d 21h 0m" },
+            { "Group": "Pokemon", "Name": "Minccino", "Time": "9d 21h 5m" },
+            { "Group": "Pokemon", "Name": "Marowak", "Time": "9d 21h 22m" },
+            { "Group": "Pokemon", "Name": "Primeape", "Time": "9d 21h 47m" },
+            { "Group": "Pokemon", "Name": "Corphish", "Time": "9d 23h 44m" },
+            { "Group": "Pokemon", "Name": "Porygon", "Time": "10d 1h 48m" },
+            { "Group": "Pokemon", "Name": "Shaymin", "Time": "10d 5h 17m" },
+            { "Group": "Pokemon", "Name": "Absol", "Time": "10d 6h 11m" }
         ]
     }
 );
