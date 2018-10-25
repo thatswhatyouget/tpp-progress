@@ -25,7 +25,6 @@ Season5.Runs.push(
             { Group: "Rematch Badges", Name: "Kungfu Badge", Image: "img/badges/florasky/kungfu.png", Time: "10d 4h 13m", Attempts: 1, Class: "pixel-art" },
             { Group: "Rematch Badges", Name: "Normal Badge", Image: "img/badges/florasky/normal.png", Time: "10d38m", Attempts: 1, Class: "pixel-art" },
 
-
             { Group: "Elite Four", Name: "Bertha", Image: "img/trainers/florasky/bertha.png", Time: "7d13h41m", Attempts: 1 },
             { Group: "Elite Four", Name: "Adeku", Image: "img/trainers/florasky/adeku.png", Time: "7d13h48m", Attempts: 1 },
             { Group: "Elite Four", Name: "Ice", Image: "img/trainers/florasky/ice.png", Time: "8d 11h 49m", Attempts: 11 },
@@ -191,7 +190,7 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Relicanth", "Time": "8d 9h 48m" },
             { "Group": "Pokemon", "Name": "Golduck", "Time": "9d 9h 5m" },
             { "Group": "Pokemon", "Name": "Zorua", "Time": "9d 9h 55m" },
-            { "Group": "Pokemon", "Name": "Swablu", "Time": "9d 10h -1m" },
+            { "Group": "Pokemon", "Name": "Swablu", "Time": "9d 9h 59m" },
             { "Group": "Pokemon", "Name": "Munna", "Time": "9d 10h 4m" },
             { "Group": "Pokemon", "Name": "Chimecho", "Time": "9d 14h 19m" },
             { "Group": "Pokemon", "Name": "Butterfree", "Time": "9d 20h 28m" },
@@ -201,8 +200,24 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Primeape", "Time": "9d 21h 47m" },
             { "Group": "Pokemon", "Name": "Corphish", "Time": "9d 23h 44m" },
             { "Group": "Pokemon", "Name": "Porygon", "Time": "10d 1h 48m" },
-            { "Group": "Pokemon", "Name": "Shaymin", "Time": "10d 5h 17m" },
-            { "Group": "Pokemon", "Name": "Absol", "Time": "10d 6h 11m" }
+            { "Group": "Pokemon", "Name": "ShayminSky", "Time": "10d 5h 17m" },
+            { "Group": "Pokemon", "Name": "Absol", "Time": "10d 6h 11m" },
+            { "Group": "Pokemon", "Name": "Spiritomb", "Time": "10d 8h 15m" },
+            { "Group": "Pokemon", "Name": "Snorlax", "Time": "10d 10h 43m" },
+            { "Group": "Pokemon", "Name": "Noctowl", "Time": "10d 10h 49m" },
+            { "Group": "Pokemon", "Name": "Magmar", "Time": "10d 14h 20m" },
+            { "Group": "Pokemon", "Name": "Houndour", "Time": "10d 14h 24m" },
+            { "Group": "Pokemon", "Name": "Weezing", "Time": "10d 15h 54m" },
+            { "Group": "Pokemon", "Name": "Magcargo", "Time": "10d 16h 56m" },
+            { "Group": "Pokemon", "Name": "Darmanitan", "Time": "10d 18h 11m" },
+            { "Group": "Pokemon", "Name": "Houndoom", "Time": "10d 21h 8m" },
+            { "Group": "Pokemon", "Name": "Claydol", "Time": "10d 23h 8m" },
+            { "Group": "Pokemon", "Name": "Misdreavus", "Time": "10d 23h 36m" },
+            { "Group": "Pokemon", "Name": "Duskull", "Time": "11d 0h 24m" },
+            { "Group": "Pokemon", "Name": "Drifloon", "Time": "11d 0h 28m" },
+            { "Group": "Pokemon", "Name": "Zebstrika", "Time": "11d 0h 48m" },
+            { "Group": "Pokemon", "Name": "Skorupi", "Time": "11d 0h 51m" },
+            { "Group": "Pokemon", "Name": "Altaria", "Time": "11d 8h 37m" },
         ]
     }
 );
