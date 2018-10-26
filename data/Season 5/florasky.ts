@@ -22,14 +22,23 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/florasky/rain.png", Time: "6d4h58m", Attempts: 2, Class: "pixel-art" },
             { Group: "Badges", Name: "Fear Badge", Image: "img/badges/florasky/fear.png", Time: "7d1h6m", Attempts: 2, Class: "pixel-art" },
 
-            { Group: "Rematch Badges", Name: "Kungfu Badge", Image: "img/badges/florasky/kungfu.png", Time: "10d 4h 13m", Attempts: 1, Class: "pixel-art" },
-            { Group: "Rematch Badges", Name: "Normal Badge", Image: "img/badges/florasky/normal.png", Time: "10d38m", Attempts: 1, Class: "pixel-art" },
+            { Group: "Rematch Badges", Name: "Kungfu Badge", Image: "img/badges/florasky/rematch/kungfu.png", Time: "10d 4h 13m", Attempts: 1, Class: "pixel-art" },
+            { Group: "Rematch Badges", Name: "Normal Badge", Image: "img/badges/florasky/rematch/normal.png", Time: "10d38m", Attempts: 1, Class: "pixel-art" },
+
+            { Group: "Rematch Badges", Name: "Iron Badge", Image: "img/badges/florasky/rematch/iron.png", Time: "11d 19h 31m", Attempts: 1, Class: "pixel-art" },
+            { Group: "Rematch Badges", Name: "Feather Badge", Image: "img/badges/florasky/rematch/feather.png", Time: "11d 19h 14m", Attempts: 1, Class: "pixel-art" },
 
             { Group: "Elite Four", Name: "Bertha", Image: "img/trainers/florasky/bertha.png", Time: "7d13h41m", Attempts: 1 },
             { Group: "Elite Four", Name: "Adeku", Image: "img/trainers/florasky/adeku.png", Time: "7d13h48m", Attempts: 1 },
             { Group: "Elite Four", Name: "Ice", Image: "img/trainers/florasky/ice.png", Time: "8d 11h 49m", Attempts: 11 },
             { Group: "Elite Four", Name: "Flash", Image: "img/trainers/florasky/flash.png", Time: "8d 12h 36m", Attempts: 2 },
             { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/cynthia.png", Time: "9d 6h 1m", Attempts: 11 },
+
+            { Group: "Elite Four Rematch", Name: "Bertha", Image: "img/trainers/florasky/rematch/bertha.png", Time: "12d21h16m", Attempts: 1 },
+            { Group: "Elite Four Rematch", Name: "Adeku", Image: "img/trainers/florasky/rematch/adeku.png", Time: "12d21h23m", Attempts: 1 },
+            { Group: "Elite Four Rematch", Name: "Ice", Image: "img/trainers/florasky/rematch/ice.png", Time: "", Attempts: 1 },
+            { Group: "Elite Four Rematch", Name: "Flash", Image: "img/trainers/florasky/rematch/flash.png", Time: "", Attempts: 0 },
+            { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/rematch/cynthia.png", Time: "", Attempts: 0 },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 6h 3m", Attempts: 31, IDNo: "64341", Party: [
@@ -42,6 +51,18 @@ Season5.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "7d13h34m"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 1, IDNo: "64341", Party: [
+                    { Pokemon: "Linoone", Nickname: "   T", Level: 63, Gender: "Female", Number: 264, IDNo: "64341" },
+                    { Pokemon: "Gallade", Nickname: "AAAGGGAAAA", Level: 63, Gender: "Male", Number: 127, IDNo: "64341" },
+                    { Pokemon: "Empoleon", Nickname: "xq”", Level: 76, Gender: "Male", Number: 9, IDNo: "64341" },
+                    { Pokemon: "Garchomp", Nickname: "NODEEWe9", Level: 81, Gender: "Male", Number: 275, IDNo: "64341" },
+                    { Pokemon: "Shedinja", Nickname: "Avvvv33333", Level: 83, Number: 292, IDNo: "64341" },
+                    { Pokemon: "Shaymin", Nickname: "Acccddd", Level: 94, Gender: "Female", Number: 234, IDNo: "64341" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "12d21h5m"
             },
 
             { "Group": "Pokemon", "Name": "Piplup", "Time": "0d 0h 21m" },
@@ -218,6 +239,17 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Zebstrika", "Time": "11d 0h 48m" },
             { "Group": "Pokemon", "Name": "Skorupi", "Time": "11d 0h 51m" },
             { "Group": "Pokemon", "Name": "Altaria", "Time": "11d 8h 37m" },
+{ "Group": "Pokemon", "Name": "Sudowoodo", "Time": "11d 14h 40m" },
+{ "Group": "Pokemon", "Name": "Turtwig", "Time": "11d 18h 51m" },
+{ "Group": "Pokemon", "Name": "Celebi", "Time": "11d 23h 16m" },
+{ "Group": "Pokemon", "Name": "Ariados", "Time": "12d 0h 9m" },
+{ "Group": "Pokemon", "Name": "Lilligant", "Time": "12d 3h 42m" },
+{ "Group": "Pokemon", "Name": "Lanturn", "Time": "12d 7h 36m" },
+{ "Group": "Pokemon", "Name": "Corsola", "Time": "12d 8h 0m" },
+{ "Group": "Pokemon", "Name": "Slowpoke", "Time": "12d 10h 17m" },
+{ "Group": "Pokemon", "Name": "Petilil", "Time": "12d 13h 20m" },
+{ "Group": "Pokemon", "Name": "Gliscor", "Time": "12d 14h 20m" },
+{ "Group": "Pokemon", "Name": "Smoochum", "Time": "12d 18h 15m" },
         ]
     }
 );
