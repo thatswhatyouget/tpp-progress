@@ -34,12 +34,6 @@ Season5.Runs.push(
             { Group: "Elite Four", Name: "Flash", Image: "img/trainers/florasky/flash.png", Time: "8d 12h 36m", Attempts: 2 },
             { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/cynthia.png", Time: "9d 6h 1m", Attempts: 11 },
 
-            { Group: "Elite Four Rematch", Name: "Bertha", Image: "img/trainers/florasky/rematch/bertha.png", Time: "12d21h16m", Attempts: 1 },
-            { Group: "Elite Four Rematch", Name: "Adeku", Image: "img/trainers/florasky/rematch/adeku.png", Time: "12d21h23m", Attempts: 1 },
-            { Group: "Elite Four Rematch", Name: "Ice", Image: "img/trainers/florasky/rematch/ice.png", Time: "13d 1h 2m", Attempts: 7 },
-            { Group: "Elite Four Rematch", Name: "Flash", Image: "img/trainers/florasky/rematch/flash.png", Time: "", Attempts: 0 },
-            { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/rematch/cynthia.png", Time: "", Attempts: 0 },
-
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 6h 3m", Attempts: 31, IDNo: "64341", Party: [
                     { Pokemon: "Shaymin", Nickname: "Acccddd", Level: 90, Gender: "Female", Number: 234, IDNo: "64341" },
@@ -52,14 +46,21 @@ Season5.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "7d13h34m"
             },
+
+            { Group: "Elite Four Rematch", Name: "Bertha", Image: "img/trainers/florasky/rematch/bertha.png", Time: "12d21h16m", Attempts: 1 },
+            { Group: "Elite Four Rematch", Name: "Adeku", Image: "img/trainers/florasky/rematch/adeku.png", Time: "12d21h23m", Attempts: 1 },
+            { Group: "Elite Four Rematch", Name: "Ice", Image: "img/trainers/florasky/rematch/ice.png", Time: "13d 1h 2m", Attempts: 7 },
+            { Group: "Elite Four Rematch", Name: "Flash", Image: "img/trainers/florasky/rematch/flash.png", Time: "13d 3h 22m", Attempts: 2 },
+            { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/rematch/cynthia.png", Time: "", Attempts: 2 },
+
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 7, IDNo: "64341", Party: [
-                    { Pokemon: "Shaymin", Class: "ShayminSky", Nickname: "Acccddd", Level: 98, Gender: "Female", Number: 234, IDNo: "64341" },
-                    { Pokemon: "Gallade", Nickname: "AAAGGGAAAA", Level: 63, Gender: "Male", Number: 127, IDNo: "64341" },
-                    { Pokemon: "Empoleon", Nickname: "xq”", Level: 77, Gender: "Male", Number: 9, IDNo: "64341" },
-                    { Pokemon: "Linoone", Nickname: "   T", Level: 63, Gender: "Female", Number: 264, IDNo: "64341" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 12, IDNo: "64341", Party: [
+                    { Pokemon: "Garchomp", Nickname: "NODEEWe9", Level: 90, Gender: "Male", Number: 275, IDNo: "64341" },
+                    { Pokemon: "Gallade", Nickname: "AAAGGGAAAA", Level: 64, Gender: "Male", Number: 127, IDNo: "64341" },
+                    { Pokemon: "Shaymin", Class: "ShayminSky", Nickname: "Acccddd", Level: 100, Gender: "Female", Number: 193, IDNo: "64341" },
+                    { Pokemon: "Linoone", Nickname: "   T", Level: 64, Gender: "Female", Number: 264, IDNo: "64341" },
                     { Pokemon: "Shedinja", Nickname: "Avvvv33333", Level: 83, Number: 292, IDNo: "64341" },
-                    { Pokemon: "Garchomp", Nickname: "NODEEWe9", Level: 83, Gender: "Male", Number: 275, IDNo: "64341" },
+                    { Pokemon: "Empoleon", Nickname: "xq”", Level: 78, Gender: "Male", Number: 9, IDNo: "64341" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "12d21h5m"
@@ -239,17 +240,17 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Zebstrika", "Time": "11d 0h 48m" },
             { "Group": "Pokemon", "Name": "Skorupi", "Time": "11d 0h 51m" },
             { "Group": "Pokemon", "Name": "Altaria", "Time": "11d 8h 37m" },
-{ "Group": "Pokemon", "Name": "Sudowoodo", "Time": "11d 14h 40m" },
-{ "Group": "Pokemon", "Name": "Turtwig", "Time": "11d 18h 51m" },
-{ "Group": "Pokemon", "Name": "Celebi", "Time": "11d 23h 16m" },
-{ "Group": "Pokemon", "Name": "Ariados", "Time": "12d 0h 9m" },
-{ "Group": "Pokemon", "Name": "Lilligant", "Time": "12d 3h 42m" },
-{ "Group": "Pokemon", "Name": "Lanturn", "Time": "12d 7h 36m" },
-{ "Group": "Pokemon", "Name": "Corsola", "Time": "12d 8h 0m" },
-{ "Group": "Pokemon", "Name": "Slowpoke", "Time": "12d 10h 17m" },
-{ "Group": "Pokemon", "Name": "Petilil", "Time": "12d 13h 20m" },
-{ "Group": "Pokemon", "Name": "Gliscor", "Time": "12d 14h 20m" },
-{ "Group": "Pokemon", "Name": "Smoochum", "Time": "12d 18h 15m" },
+            { "Group": "Pokemon", "Name": "Sudowoodo", "Time": "11d 14h 40m" },
+            { "Group": "Pokemon", "Name": "Turtwig", "Time": "11d 18h 51m" },
+            { "Group": "Pokemon", "Name": "Celebi", "Time": "11d 23h 16m" },
+            { "Group": "Pokemon", "Name": "Ariados", "Time": "12d 0h 9m" },
+            { "Group": "Pokemon", "Name": "Lilligant", "Time": "12d 3h 42m" },
+            { "Group": "Pokemon", "Name": "Lanturn", "Time": "12d 7h 36m" },
+            { "Group": "Pokemon", "Name": "Corsola", "Time": "12d 8h 0m" },
+            { "Group": "Pokemon", "Name": "Slowpoke", "Time": "12d 10h 17m" },
+            { "Group": "Pokemon", "Name": "Petilil", "Time": "12d 13h 20m" },
+            { "Group": "Pokemon", "Name": "Gliscor", "Time": "12d 14h 20m" },
+            { "Group": "Pokemon", "Name": "Smoochum", "Time": "12d 18h 15m" },
         ]
     }
 );
