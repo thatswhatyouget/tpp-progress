@@ -51,16 +51,16 @@ Season5.Runs.push(
             { Group: "Elite Four Rematch", Name: "Adeku", Image: "img/trainers/florasky/rematch/adeku.png", Time: "12d21h23m", Attempts: 1 },
             { Group: "Elite Four Rematch", Name: "Ice", Image: "img/trainers/florasky/rematch/ice.png", Time: "13d 1h 2m", Attempts: 7 },
             { Group: "Elite Four Rematch", Name: "Flash", Image: "img/trainers/florasky/rematch/flash.png", Time: "13d 3h 22m", Attempts: 2 },
-            { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/rematch/cynthia.png", Time: "", Attempts: 2 },
+            { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/rematch/cynthia.png", Time: "13d12h36m", Attempts: 4 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 12, IDNo: "64341", Party: [
-                    { Pokemon: "Garchomp", Nickname: "NODEEWe9", Level: 90, Gender: "Male", Number: 275, IDNo: "64341" },
-                    { Pokemon: "Gallade", Nickname: "AAAGGGAAAA", Level: 64, Gender: "Male", Number: 127, IDNo: "64341" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d12h38m", Attempts: 15, IDNo: "64341", Party: [
                     { Pokemon: "Shaymin", Class: "ShayminSky", Nickname: "Acccddd", Level: 100, Gender: "Female", Number: 193, IDNo: "64341" },
+                    { Pokemon: "Gallade", Nickname: "AAAGGGAAAA", Level: 64, Gender: "Male", Number: 127, IDNo: "64341" },
+                    { Pokemon: "Garchomp", Nickname: "NODEEWe9", Level: 93, Gender: "Male", Number: 275, IDNo: "64341" },
                     { Pokemon: "Linoone", Nickname: "   T", Level: 64, Gender: "Female", Number: 264, IDNo: "64341" },
                     { Pokemon: "Shedinja", Nickname: "Avvvv33333", Level: 83, Number: 292, IDNo: "64341" },
-                    { Pokemon: "Empoleon", Nickname: "xq”", Level: 78, Gender: "Male", Number: 9, IDNo: "64341" },
+                    { Pokemon: "Empoleon", Nickname: "xq”", Level: 81, Gender: "Male", Number: 9, IDNo: "64341" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "12d21h5m"
@@ -251,6 +251,17 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Petilil", "Time": "12d 13h 20m" },
             { "Group": "Pokemon", "Name": "Gliscor", "Time": "12d 14h 20m" },
             { "Group": "Pokemon", "Name": "Smoochum", "Time": "12d 18h 15m" },
+            { "Group": "Pokemon", "Name": "Arbok", "Time": "13d 5h 57m" },
+            { "Group": "Pokemon", "Name": "Bellossom", "Time": "13d 6h 2m" },
+            { "Group": "Pokemon", "Name": "Tentacruel", "Time": "13d 6h 6m" },
+            { "Group": "Pokemon", "Name": "Delibird", "Time": "13d 13h 53m" },
+            { "Group": "Pokemon", "Name": "Sneasel", "Time": "13d 14h 24m" },
+            { "Group": "Pokemon", "Name": "Cryogonal", "Time": "13d 15h 21m" },
+            { "Group": "Pokemon", "Name": "Glaceon", "Time": "13d 15h 31m" },
+            { "Group": "Pokemon", "Name": "Bisharp", "Time": "13d 16h 50m" },
+            { "Group": "Pokemon", "Name": "Larvitar", "Time": "13d 17h 2m" },
+            { "Group": "Pokemon", "Name": "Larvesta", "Time": "13d 19h 9m" },
+            { "Group": "Pokemon", "Name": "Smeargle", "Time": "13d 19h 56m" }
         ]
     }
 );
