@@ -271,6 +271,13 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Cresselia", "Time": "14d 4h 25m" },
             { "Group": "Pokemon", "Name": "Raikou", "Time": "14d 12h 4m" },
             { "Group": "Pokemon", "Name": "Volcarona", "Time": "15d 4h 16m" },
+            { "Group": "Pokemon", "Name": "Chikorita", "Time": "15d 11h 27m" },
+            { "Group": "Pokemon", "Name": "Totodile", "Time": "15d 11h 47m" },
+            { "Group": "Pokemon", "Name": "Cyndaquil", "Time": "15d 12h 39m" },
+            { "Group": "Pokemon", "Name": "Leafeon", "Time": "15d 12h 50m" },
+            { "Group": "Pokemon", "Name": "Azurill", "Time": "15d 12h 54m" },
+            { "Group": "Pokemon", "Name": "Vileplume", "Time": "15d 13h 39m" },
+            { "Group": "Pokemon", "Name": "Lapras", "Time": "15d 13h 46m" },
         ]
     }
 );
