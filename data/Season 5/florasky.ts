@@ -24,9 +24,12 @@ Season5.Runs.push(
 
             { Group: "Rematch Badges", Name: "Kungfu Badge", Image: "img/badges/florasky/rematch/kungfu.png", Time: "10d 4h 13m", Attempts: 1, Class: "pixel-art" },
             { Group: "Rematch Badges", Name: "Normal Badge", Image: "img/badges/florasky/rematch/normal.png", Time: "10d38m", Attempts: 1, Class: "pixel-art" },
-
+            { Group: "Rematch Badges", Name: "Dynamo Badge", Image: "img/badges/florasky/rematch/dynamo.png", Time: "", Attempts: 0, Class: "pixel-art" },
+            { Group: "Rematch Badges", Name: "Icy Badge", Image: "img/badges/florasky/rematch/icy.png", Time: "15d 2h 51m", Attempts: 1, Class: "pixel-art" },
             { Group: "Rematch Badges", Name: "Iron Badge", Image: "img/badges/florasky/rematch/iron.png", Time: "11d 19h 31m", Attempts: 1, Class: "pixel-art" },
             { Group: "Rematch Badges", Name: "Feather Badge", Image: "img/badges/florasky/rematch/feather.png", Time: "11d 19h 14m", Attempts: 1, Class: "pixel-art" },
+            { Group: "Rematch Badges", Name: "Rain Badge", Image: "img/badges/florasky/rematch/rain.png", Time: "", Attempts: 0, Class: "pixel-art" },
+            { Group: "Rematch Badges", Name: "Fear Badge", Image: "img/badges/florasky/rematch/fear.png", Time: "", Attempts: 0, Class: "pixel-art" },
 
             { Group: "Elite Four", Name: "Bertha", Image: "img/trainers/florasky/bertha.png", Time: "7d13h41m", Attempts: 1 },
             { Group: "Elite Four", Name: "Adeku", Image: "img/trainers/florasky/adeku.png", Time: "7d13h48m", Attempts: 1 },
@@ -261,7 +264,13 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Bisharp", "Time": "13d 16h 50m" },
             { "Group": "Pokemon", "Name": "Larvitar", "Time": "13d 17h 2m" },
             { "Group": "Pokemon", "Name": "Larvesta", "Time": "13d 19h 9m" },
-            { "Group": "Pokemon", "Name": "Smeargle", "Time": "13d 19h 56m" }
+            { "Group": "Pokemon", "Name": "Smeargle", "Time": "13d 19h 56m" },
+            { "Group": "Pokemon", "Name": "Feebas", "Time": "13d 23h 55m" },
+            { "Group": "Pokemon", "Name": "Spinda", "Time": "14d 0h 22m" },
+            { "Group": "Pokemon", "Name": "Dunsparce", "Time": "14d 1h 5m" },
+            { "Group": "Pokemon", "Name": "Cresselia", "Time": "14d 4h 25m" },
+            { "Group": "Pokemon", "Name": "Raikou", "Time": "14d 12h 4m" },
+            { "Group": "Pokemon", "Name": "Volcarona", "Time": "15d 4h 16m" },
         ]
     }
 );
