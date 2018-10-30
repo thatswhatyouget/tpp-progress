@@ -3,7 +3,7 @@ Season5.Runs.push(
     {
         RunName: "Flora Sky",
         StartDate: "2018-10-13T21:00:00Z",
-        Duration: "255d",
+        Duration: "16d 2h 42m",
         ColorPrimary: "#71eeb8",
         ColorSecondary: "#ee71a7",
         HostImage: "img/hosts/hnv.png",
@@ -278,6 +278,21 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Azurill", "Time": "15d 12h 54m" },
             { "Group": "Pokemon", "Name": "Vileplume", "Time": "15d 13h 39m" },
             { "Group": "Pokemon", "Name": "Lapras", "Time": "15d 13h 46m" },
+            { "Group": "Pokemon", "Name": "Raichu", "Time": "15d 23h 29m" },
+            { "Group": "Pokemon", "Name": "Jolteon", "Time": "15d 23h 33m" },
+            { "Group": "Pokemon", "Name": "Vaporeon", "Time": "15d 23h 37m" },
+            { "Group": "Pokemon", "Name": "Flareon", "Time": "15d 23h 41m" },
+            { "Group": "Pokemon", "Name": "Ludicolo", "Time": "15d 23h 47m" },
+            { "Group": "Pokemon", "Name": "Cloyster", "Time": "15d 23h 52m" },
+            { "Group": "Pokemon", "Name": "Clefable", "Time": "15d 23h 57m" },
+            { "Group": "Pokemon", "Name": "Gorebyss", "Time": "16d 0h 6m" },
+            { "Group": "Pokemon", "Name": "Poliwrath", "Time": "16d 0h 56m" },
+            { "Group": "Pokemon", "Name": "Roserade", "Time": "16d 1h 1m" },
+            { "Group": "Pokemon", "Name": "Gengar", "Time": "16d 1h 5m" },
+            { "Group": "Pokemon", "Name": "Ninetales", "Time": "16d 1h 12m" },
+            { "Group": "Pokemon", "Name": "Magnezone", "Time": "16d 1h 19m" },
+            { "Group": "Pokemon", "Name": "Arcanine", "Time": "16d 1h 24m" },
+            { "Group": "Pokemon", "Name": "Weavile", "Time": "16d 1h 29m" },
         ]
     }
 );
