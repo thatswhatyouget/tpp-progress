@@ -12,7 +12,7 @@ Sidegames.Runs.push(
         BaseGame: "FireRed",
         Region: "Candyland",
         Pokedex: "Cookbook",
-        ContainsRunsFrom: ["Revisits", "Intermissions", "Season 5"],
+        ContainsRunsFrom: ["Revisits", "Intermissions", "Season 5", "Sidegames"],
         SidegameId: "psweet",
         Events: [
             { Name: "Squirpie", Time: "May 5 2018 6:42 AM", Group: "Pokemon" },
