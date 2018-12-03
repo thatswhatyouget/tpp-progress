@@ -34,7 +34,8 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Keylime Badge", Image: "img/badges/rainbow.png", Time: "2018-09-01T09:33:29+00:00", Attempts: 1 },
             { Group: "Badges", Name: "Berry Badge", Image: "img/badges/soul.png", Time: "2018-09-17T08:22:03+00:00", Attempts: 1 },
             { Group: "Badges", Name: "Grape Badge", Image: "img/badges/marsh.png", Time: "2018-11-16T23:31:47+00:00", Attempts: 1 },
-
+            { Group: "Badges", Name: "Sugar Badge", Image: "img/badges/volcano.png", Time: "2018-12-02T11:10:22+00:00", Attempts: 1 },
+            
             { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/firered/bruno.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png", Time: "", Attempts: 0 },
