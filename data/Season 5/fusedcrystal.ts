@@ -16,7 +16,7 @@ Season5.Runs.push(
         Events: [
             { Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Plain Badge\n(Whitney)", Image: "img/badges/plain.png", Time: "1d 15h 30m", Attempts: 1 },
             { Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Glacier Badge\n(Falkner)", Image: "img/badges/glacier.png", Time: "9h39m", Attempts: 2 },
             { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "", Attempts: 0 },
@@ -67,6 +67,19 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Class": "Swinub", "Time": "1d 2h 48m", Name: "Swinpy" },
             { "Group": "Pokemon", "Class": "Skiploom", "Time": "1d 6h 19m", Name: "Skipleef" },
             { "Group": "Pokemon", "Class": "Pikachu", "Time": "1d 8h 8m", Name: "Pikakuna" },
+            { "Group": "Pokemon", "Class": "Noctowl", "Time": "1d 10h 6m", Name: "Noctdrio" },
+            { "Group": "Pokemon", "Class": "Qwilfish", "Time": "1d 10h 52m", Name: "Qweasel" },
+            { "Group": "Pokemon", "Class": "Mareep", "Time": "1d 11h 24m", Name: "Maroran" },
+            { "Group": "Pokemon", "Class": "Ledian", "Time": "1d 11h 51m", Name: "Ledianine" },
+            { "Group": "Pokemon", "Class": "Ekans", "Time": "1d 12h 38m", Name: "Ekancute" },
+            { "Group": "Pokemon", "Class": "Graveler", "Time": "1d 13h 5m", Name: "Gravitar" },
+            { "Group": "Pokemon", "Class": "Venonat", "Time": "1d 13h 16m", Name: "Venonelder" },
+            { "Group": "Pokemon", "Class": "Scyther", "Time": "1d 13h 19m", Name: "Scythemite" },
+            { "Group": "Pokemon", "Class": "Machop", "Time": "1d 13h 34m", Name: "Machareep" },
+            { "Group": "Pokemon", "Class": "Slugma", "Time": "1d 13h 37m", Name: "Slugeco" },
+            { "Group": "Pokemon", "Class": "Jigglypuff", "Time": "1d 14h 32m", Name: "Jiggachu" },
+            { "Group": "Pokemon", "Class": "Houndour", "Time": "1d 16h 45m", Name: "Houndyu" },
+            { "Group": "Pokemon", "Class": "Magikarp", "Time": "1d 18h 4m", Name: "Magikursa" }
         ]
     }
 );
