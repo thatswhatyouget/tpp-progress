@@ -60,3 +60,18 @@ Intermissions.Runs.push(
         ],
     }
 );
+
+// Intermissions.Runs.push(
+//     {
+//         RunName: "Katamari Damacy",
+//         StartDate: "2018-12-07T02:00:00Z",
+//         ColorPrimary: "#f7971c",
+//         ColorSecondary: "black",
+//         Duration: "2018-12-08T21:00:00Z",
+//         HostName: "Prince",
+//         HostImage: "img/hosts/other/prince.png",
+//         Region: "Earth",
+//         Events: [
+//         ],
+//     }
+// );

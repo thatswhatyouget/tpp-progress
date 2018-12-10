@@ -35,7 +35,7 @@ namespace TPP.Display.Elements.RunStatus {
         }
     }
 
-    export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon }, {}> {
+    export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string }, {}> {
         render() {
             let mon = this.props.pokemon;
             if (!mon)
