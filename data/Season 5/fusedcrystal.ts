@@ -66,6 +66,7 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Class": "Sunkern", "Time": "0d 23h 5m", Name: "Sunkeowth" },
             { "Group": "Pokemon", "Class": "Swinub", "Time": "1d 2h 48m", Name: "Swinpy" },
             { "Group": "Pokemon", "Class": "Skiploom", "Time": "1d 6h 19m", Name: "Skipleef" },
+            { "Group": "Pokemon", "Class": "Pikachu", "Time": "1d 8h 8m", Name: "Pikakuna" },
         ]
     }
 );
