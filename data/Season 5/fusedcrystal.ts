@@ -18,18 +18,18 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Hive Badge\n(Janine)", Image: "img/badges/hive.png", Time: "4d 9h 7m", Attempts: 2 },
             { Group: "Badges", Name: "Plain Badge\n(Whitney)", Image: "img/badges/plain.png", Time: "1d 15h 30m", Attempts: 1 },
             { Group: "Badges", Name: "Fog Badge\n(Jasmine)", Image: "img/badges/fog.png", Time: "2d 19h 51m", Attempts: 1 },
-            { Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Storm Badge\n(Misty)", Image: "img/badges/storm.png", Time: "5d 12h 22m", Attempts: 1 },
+            { Group: "Badges", Name: "Mineral Badge\n(Erika)", Image: "img/badges/mineral.png", Time: "5d 8h 12m", Attempts: 3 },
             { Group: "Badges", Name: "Glacier Badge\n(Falkner)", Image: "img/badges/glacier.png", Time: "9h39m", Attempts: 2 },
             { Group: "Badges", Name: "Rising Badge\n(Bugsy)", Image: "img/badges/rising.png", Time: "1d6h41m", Attempts: 2 },
 
             { Group: "Badges", Name: "Boulder Badge\n(Chuck)", Image: "img/badges/boulder.png", Time: "3d 15h 11m", Attempts: 1 },
             { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Thunder Badge\n(Sabrina)", Image: "img/badges/thunder.png", Time: "5d 9h 2m", Attempts: 2 },
             { Group: "Badges", Name: "Rainbow Badge\n(Pryce)", Image: "img/badges/rainbow.png", Time: "3d 21h 41m", Attempts: 1 },
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Volcano Badge\n(Clair)", Image: "img/badges/volcano.png", Time: "5d 13h 54m", Attempts: 1 },
             { Group: "Badges", Name: "Earth Badge\n(Lt. Surge)", Image: "img/badges/earth.png", Time: "5d5h32m", Attempts: 3 },
 
             { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "", Attempts: 0 },
@@ -38,7 +38,7 @@ Season5.Runs.push(
             { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "", Attempts: 0 },
             { Group: "Champions", Name: "Lance", Image: "img/trainers/crystal/lance.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "50959", Attempts: 0, Party: [
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: ""
@@ -145,6 +145,8 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Class": "Eevee", "Time": "4d 22h 33m", Name: "Eevdour" },
             { "Group": "Pokemon", "Class": "Croconaw", "Time": "5d 4h 13m", Name: "Crocotto" },
             { "Group": "Pokemon", "Class": "Venusaur", "Time": "5d 4h 41m", Name: "Venusoking" },
+            { "Group": "Pokemon", "Class": "Jynx", "Time": "5d 11h 0m", Name: "Jyiados" },
+            { "Group": "Pokemon", "Class": "Grimer", "Time": "5d 16h 12m", Name: "Grimyduck" },
         ]
     }
 );
