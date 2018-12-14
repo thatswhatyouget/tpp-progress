@@ -30,7 +30,7 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Rainbow Badge\n(Pryce)", Image: "img/badges/rainbow.png", Time: "3d 21h 41m", Attempts: 1 },
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Earth Badge\n(Lt. Surge)", Image: "img/badges/earth.png", Time: "5d5h32m", Attempts: 3 },
 
             { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "", Attempts: 0 },
@@ -139,6 +139,12 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Class": "Wigglytuff", "Time": "4d 15h 10m", Name: "Wiggaichu" },
             { "Group": "Pokemon", "Class": "Rhydon", "Time": "4d 15h 48m", Name: "Rhydeelix" },
             { "Group": "Pokemon", "Class": "Sneasel", "Time": "4d 15h 51m", Name: "Snobbuffet" },
+            { "Group": "Pokemon", "Class": "Rapidash", "Time": "4d 17h 8m", Name: "Rapigon2" },
+            { "Group": "Pokemon", "Class": "Marill", "Time": "4d 22h 2m", Name: "Marillugma" },
+            { "Group": "Pokemon", "Class": "Dodrio", "Time": "4d 22h 30m", Name: "Dodragmar" },
+            { "Group": "Pokemon", "Class": "Eevee", "Time": "4d 22h 33m", Name: "Eevdour" },
+            { "Group": "Pokemon", "Class": "Croconaw", "Time": "5d 4h 13m", Name: "Crocotto" },
+            { "Group": "Pokemon", "Class": "Venusaur", "Time": "5d 4h 41m", Name: "Venusoking" },
         ]
     }
 );
