@@ -36,16 +36,16 @@ Season5.Runs.push(
             { Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png", Time: "8d 23h 57m", Attempts: 7 },
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png", Time: "9d11m", Attempts: 1 },
             { Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png", Time: "9d10h43m", Attempts: 2 },
-            { Group: "Champions", Name: "Lance", Image: "img/trainers/crystal/lance.png", Time: "", Attempts: 0 },
+            { Group: "Champions", Name: "Lance", Image: "img/trainers/crystal/lance.png", Time: "10d2h36m", Attempts: 5 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "50959", Attempts: 9, Party: [
-                    { Pokemon: "Quagsire", Class: "Quagynx", Nickname: "JKilt", Level: 53, Gender: "Male", Number: '195', IDNo: "50959" },
-                    { Pokemon: "Steelix", Class: "Steelurret", Nickname: "IIIRRRJJS", Level: 52, Gender: "Male", Number: '208', IDNo: "50959" },
-                    { Pokemon: "Jumpluff", Class: "Jumpanium", Nickname: "bbbii", Level: 51, Gender: "Male", Number: '189', IDNo: "50959" },
-                    { Pokemon: "Meganium", Class: "Megastoise", Nickname: "FOOLK", Level: 52, Gender: "Female", Number: '154', IDNo: "50959" },
-                    { Pokemon: "Togetic", Class: "Togetape", Nickname: "FEB", Level: 61, Gender: "Male", Number: '176', IDNo: "50959" },
-                    { Pokemon: "Noctowl", Class: "Noctdrio", Nickname: "T  SS     ", Level: 61, Gender: "Female", Number: '164', IDNo: "50959" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "10d2h37m", IDNo: "50959", Attempts: 41, Party: [
+                    { Class: "Steelix", Pokemon: "Steelurret", Nickname: "IIIRRRJJS", Level: 65, Gender: "Male", Number: '208', IDNo: "50959" },
+                    { Class: "Togetic", Pokemon: "Togetape", Nickname: "FEB", Level: 76, Gender: "Male", Number: '176', IDNo: "50959" },
+                    { Class: "Jumpluff", Pokemon: "Jumpanium", Nickname: "bbbii", Level: 59, Gender: "Male", Number: '189', IDNo: "50959" },
+                    { Class: "Meganium", Pokemon: "Megastoise", Nickname: "FOOLK", Level: 61, Gender: "Female", Number: '154', IDNo: "50959" },
+                    { Class: "Quagsire", Pokemon: "Quagynx", Nickname: "JKilt", Level: 67, Gender: "Male", Number: '195', IDNo: "50959" },
+                    { Class: "Noctowl", Pokemon: "Noctdrio", Nickname: "T  SS     ", Level: 82, Gender: "Female", Number: '164', IDNo: "50959" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "8d13h7m"
