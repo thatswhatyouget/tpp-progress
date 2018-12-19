@@ -6,7 +6,7 @@ Season5.Runs.push(
         ColorSecondary: "#ae00d9",
         BackgroundImage: "linear-gradient(-90deg, #2989cc 0%, #ffffff 100%)",
         StartDate: "2018-12-08T21:00:00Z",
-        Duration: "255d",
+        Duration: "10d 9h 1m",
         HostName: "Y",
         HostImage: "img/hosts/y.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/a4yqw0/yves_codename_y/",
@@ -50,6 +50,8 @@ Season5.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "8d13h7m"
             },
+
+            { Group: "Past Hosts", Name: "LARRY", Image: "img/hosts/larry.png", Time: "10d 6h 11m", Attempts: 2, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/76wtj1/larry_he_is_ginger/", },
 
             { "Group": "Pokemon", "Class": "Togepi", "Time": "0d 0h 7m", Name: "Togekey" },
             { "Group": "Pokemon", "Class": "Spinarak", "Time": "0d 3h 7m", Name: "Spinshrew" },
@@ -213,13 +215,17 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Class": "Seel", "Time": "7d 20h 28m", Name: "Seelther" },
             { "Group": "Pokemon", "Class": "Meganium", "Time": "8d 2h 32m", Name: "Megastoise" },
             { "Group": "Pokemon", "Class": "Clefable", "Time": "8d 2h 59m", Name: "Cleffree" },
-            { "Group": "Pokemon", "Class": "Mr. Mime", "Time": "8d 6h 7m", Name: "Mr.Tank" },
+            { "Group": "Pokemon", "Class": "Mr.Mime", "Time": "8d 6h 7m", Name: "Mr.Tank" },
             { "Group": "Pokemon", "Class": "Poliwag", "Time": "8d 8h 48m", Name: "Poliwastly" },
             { "Group": "Pokemon", "Class": "Slowking", "Time": "8d 9h 59m", Name: "Slowmory" },
             { "Group": "Pokemon", "Class": "Mewtwo", "Time": "8d 10h 19m", Name: "Mewmew" },
             { "Group": "Pokemon", "Class": "Gligar", "Time": "8d 12h 18m", Name: "Gligela" },
             { "Group": "Pokemon", "Class": "Koffing", "Time": "8d 12h 28m", Name: "Koffonat" },
             { "Group": "Pokemon", "Class": "Omanyte", "Time": "10d 4h 32m", Name: "Omapoke" },
+            { "Group": "Pokemon", "Class": "Starmie", "Time": "10d 5h 49m", Name: "Starmados" },
+            { "Group": "Pokemon", "Class": "Dragonair", "Time": "10d 6h 20m", Name: "Draginbell" },
+            { "Group": "Pokemon", "Class": "Feraligatr", "Time": "10d 6h 29m", Name: "Feralgeot" },
+            { "Group": "Pokemon", "Class": "Raticate", "Time": "10d 8h 2m", Name: "Ratitrio" },
         ]
     }
 );
