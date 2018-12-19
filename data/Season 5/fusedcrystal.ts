@@ -219,6 +219,7 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Class": "Mewtwo", "Time": "8d 10h 19m", Name: "Mewmew" },
             { "Group": "Pokemon", "Class": "Gligar", "Time": "8d 12h 18m", Name: "Gligela" },
             { "Group": "Pokemon", "Class": "Koffing", "Time": "8d 12h 28m", Name: "Koffonat" },
+            { "Group": "Pokemon", "Class": "Omanyte", "Time": "10d 4h 32m", Name: "Omapoke" },
         ]
     }
 );
