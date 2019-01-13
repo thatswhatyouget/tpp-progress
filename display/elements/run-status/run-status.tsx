@@ -53,7 +53,7 @@ namespace TPP.Display.Elements.RunStatus {
             $.get(`https://twitchplayspokemon.tv/api/sidegame_inputs?filter:id.game=${this.state.run.SidegameId}&sort=-id.position`).then(
                 (inputs: Tv.SidegameInput[]) => this.setState({
                     updatingScreenshot: false,
-                    lastScreen: inputs.length ? `http://i.imgur.com/${inputs[0].imgur_screenshot_id}.png` : this.state.lastScreen,
+                    lastScreen: inputs.length ? `https://twitchplayspokemon.tv/sidegame_image/${inputs[0].id.position}` : this.state.lastScreen,
                     lastScreenTime: inputs.length ? Duration.parse(inputs[0].timestamp, this.state.run.StartTime).toString(Scale.Days) : this.state.lastScreenTime
                 }),
                 e => this.setState({ updatingScreenshot: false })
