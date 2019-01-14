@@ -37,11 +37,13 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Sugar Badge", Image: "img/badges/volcano.png", Time: "2018-12-02T11:10:22+00:00", Attempts: 1 },
             { Group: "Badges", Name: "Chocolate Badge", Image: "img/badges/earth.png", Time: "2018-12-31 08:26:36.261000", Attempts: 1 },
             
-            { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/firered/bruno.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png", Time: "", Attempts: 0 },
-            { Group: "Champions", Name: "John", Image: "img/trainers/firered/green.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Pastriot Steve", Image: "img/trainers/firered/lance.png", Time: "2019-01-10T05:38:12+00:00", Attempts: 1 },
+            { Group: "Elite Four", Name: "Pastriot Sarah", Image: "img/trainers/emerald/phoebe.png", Time: "2019-01-11T08:37:33+00:00", Attempts: 1 },
+            { Group: "Elite Four", Name: "Pastriot Cen", Image: "img/trainers/emerald/wally.png", Time: "2019-01-12T17:56:40+00:00", Attempts: 1 },
+            { Group: "Elite Four", Name: "Pastriot Cinna", Image: "img/trainers/emerald/roxanne.png", Time: "2019-01-13T12:14:44+00:00", Attempts: 1 },
+            { Group: "Champions", Name: "Dark Chocobun", Image: "img/trainers/sweet/dchocobun.png", Time: "2019-01-14T05:37:10+00:00", Attempts: 1 },
+
+            //hall of fame 2019-01-14T09:13:00+00:00
         ]
     }
 );
