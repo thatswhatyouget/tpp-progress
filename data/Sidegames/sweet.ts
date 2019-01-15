@@ -43,7 +43,18 @@ Sidegames.Runs.push(
             { Group: "Elite Four", Name: "Pastriot Cinna", Image: "img/trainers/emerald/roxanne.png", Time: "2019-01-13T12:14:44+00:00", Attempts: 1 },
             { Group: "Champions", Name: "Dark Chocobun", Image: "img/trainers/sweet/dchocobun.png", Time: "2019-01-14T05:37:10+00:00", Attempts: 1 },
 
-            //hall of fame 2019-01-14T09:13:00+00:00
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-01-14T09:13:00+00:00", Attempts: 1, IDNo: "58405", Party: [
+                    { Pokemon: "Cupcat", Nickname: "Gateau", Level: 66, Gender: "Male", Number: 53, IDNo: "58405" },
+                    { Pokemon: "Piestoise", Level: 58, Gender: "Male", Number: 9, IDNo: "58405" },
+                    { Pokemon: "Bananaby", Level: 13, Gender: "Male", Number: 50, IDNo: "58405" },
+                    { Pokemon: "Smorelax", Nickname: "YOU", Level: 44, Gender: "Male", Number: 143, IDNo: "58405" },
+                    { Pokemon: "Airblim", Nickname: "“", Level: 48, Gender: "Male", Number: 87, IDNo: "58405" },
+                    { Pokemon: "Reginger", Nickname: "ARS", Level: 57, Number: 147, IDNo: "58405" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "2019-01-09T09:49:49+00:00"
+            },
         ]
     }
 );

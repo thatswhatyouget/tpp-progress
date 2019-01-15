@@ -799,6 +799,10 @@ ul.controls > li > ul > li.selected > a:before {
 	background-image:url("../img/moemon-large.png")!important;
 }
 
+.hallOfFameDisplay.sweet .entry .pokesprite img {
+	background-image:url("../img/candyland-large.png")!important;
+}
+
 .hallOfFameDisplay .entry .info > * {
 	text-align: center;
 	font-weight: bold;
