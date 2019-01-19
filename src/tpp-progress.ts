@@ -135,6 +135,9 @@ function drawRun(runInfo: TPP.Run, run?: HTMLDivElement, scale = TPP.Scale.Days,
         else if (e.ctrlKey || e.metaKey) {
             console.log(JSON.stringify(runInfo));
         }
+        else if (e.altKey) {
+            $(this).find('.event').each(function () { $(this).trigger('describe') });
+        }
     });
     setTimeout(() => scaleRun(run), 0);
     return run;
@@ -242,6 +245,9 @@ function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
         hof.classList.add("extra");
         event.appendChild(hof);
     }
+    $(event).on('describe', function (e) {
+        console.log(`${new Date((runInfo.StartTime + time.TotalSeconds) * 1000).toISOString()} (${time.toString()}) - ${eventInfo.Group}: ${eventInfo.Name}${eventInfo.Estimate ? " (Estimated)" : ""}`);
+    });
     return event;
 }
 
