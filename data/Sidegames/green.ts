@@ -4,7 +4,7 @@ Sidegames.Runs.push(
         RunName: "Bootleg Green",
         ColorPrimary: "green",
         ColorSecondary: "darkgreen",
-        Duration: "255w",
+        Duration: "Apr 14 2018 00:45:36 AM GMT",
         StartDate: "2017-10-15T21:00:00Z",
         HostName: "LARRY",
         HostImage: "img/hosts/larry.png",
