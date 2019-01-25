@@ -28,6 +28,7 @@ Sidegames.Runs.push(
             { Name: "Reginger", Time: "2018-09-23T09:30:13+00:00", Group: "Pokemon" },
             { Name: "Airblim", Time: "2018-09-29T09:16:03+00:00", Group: "Pokemon" },
             { Name: "Cottonbun", Time: "2019-01-20T20:19:16+00:00", Group: "Pokemon" },
+            { Name: "Mewberry", Time: "2019-01-24T14:04:01+00:00", Group: "Pokemon" },
 
             { Group: "Badges", Name: "Jewel Badge", Image: "img/badges/boulder.png", Time: "2018-06-20T03:33:26+00:00", Attempts: 6 },
             { Group: "Badges", Name: "Soda Badge", Image: "img/badges/cascade.png", Time: "Jul 13 2018 12:09 AM", Attempts: 1 },
