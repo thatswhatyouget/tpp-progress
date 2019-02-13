@@ -10,9 +10,9 @@ namespace TPP.Display.Elements.RunStatus {
             if (!text) {
                 return null;
             }
-            else if (text.toLowerCase().indexOf((area || '').toLowerCase().split(' ').pop()) < 0) {
-                text += ` (${area})`;
-            }
+            // else if (text.toLowerCase().indexOf((area || '').toLowerCase().split(' ').pop()) < 0) {
+            //     text += ` (${area})`;
+            // }
             return <PokeBox title="Current Location"><h3>{text}</h3></PokeBox>
         }
     }
