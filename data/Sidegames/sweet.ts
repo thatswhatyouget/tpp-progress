@@ -4,7 +4,7 @@ Sidegames.Runs.push(
         RunName: "Sweet",
         ColorPrimary: "#ffbcfc",
         ColorSecondary: "#5e2d40",
-        Duration: "255w",
+        Duration: "2019-02-10T00:08:23+00:00",
         StartDate: "May 4 2018 12:12 AM",
         HostName: "Paula",
         HostImage: "img/hosts/paula.png",
@@ -58,6 +58,8 @@ Sidegames.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2019-01-09T09:49:49+00:00"
             },
+
+            //TODO: Rematch HoF (unfinished)
         ]
     }
 );
