@@ -875,3 +875,12 @@ ul.controls > li > ul > li.selected > a:before {
 	width:35em;
 	text-align: left;
 }
+
+.top-half > img {
+	mask-image: linear-gradient(to top, transparent 0%, transparent 49%, black 51%, black 100%);
+	-webkit-mask-image: linear-gradient(to top, transparent 0%, transparent 49%, black 51%, black 100%);
+}
+.bottom-half > img {
+	mask-image: linear-gradient(to bottom, transparent 0%, transparent 49%, black 51%, black 100%);
+	-webkit-mask-image: linear-gradient(to bottom, transparent 0%, transparent 49%, black 51%, black 100%);
+}
