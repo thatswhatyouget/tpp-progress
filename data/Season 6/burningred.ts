@@ -15,7 +15,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Boulder Badge (Red)", Image: "img/badges/boulder.png", Time: "0d 9h 6m", Attempts: 1, Class: "bottom-half" },
             { Group: "Badges", Name: "Boulder Badge (FireRed)", Image: "img/badges/boulder.png", Time: "0d 11h 59m", Attempts: 8, Class: "top-half" },
             { Group: "Badges", Name: "Cascade Badge (Red)", Image: "img/badges/cascade.png", Time: "1d5h24m", Attempts: 3, Class: "bottom-half" },
-            { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", Time: "1d6h35m", Attempts: 9 },
             { Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
