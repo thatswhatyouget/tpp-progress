@@ -877,10 +877,10 @@ ul.controls > li > ul > li.selected > a:before {
 }
 
 .top-half > img {
-	mask-image: linear-gradient(to top, transparent 0%, transparent 49%, black 51%, black 100%);
-	-webkit-mask-image: linear-gradient(to top, transparent 0%, transparent 49%, black 51%, black 100%);
+	mask-image: linear-gradient(50deg, transparent 0%, transparent 49%, black 51%, black 100%);
+	-webkit-mask-image: linear-gradient(50deg, transparent 0%, transparent 49%, black 51%, black 100%);
 }
 .bottom-half > img {
-	mask-image: linear-gradient(to bottom, transparent 0%, transparent 49%, black 51%, black 100%);
-	-webkit-mask-image: linear-gradient(to bottom, transparent 0%, transparent 49%, black 51%, black 100%);
+	mask-image: linear-gradient(230deg, transparent 0%, transparent 49%, black 51%, black 100%);
+	-webkit-mask-image: linear-gradient(230deg, transparent 0%, transparent 49%, black 51%, black 100%);
 }
