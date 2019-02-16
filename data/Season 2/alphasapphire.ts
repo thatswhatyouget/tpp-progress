@@ -135,41 +135,46 @@ Season2.Runs.push(
             {
                 Group: "Elite Four Rematch",
                 Name: "Espen (Sidney)",
-                Image: "img/randomized/alphasapphire/rematch/sidney.gif",
+                Image: "img/randomized/alphasapphire/sidney.gif",
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3e2urn/sidney_espen_hoenns_master_illusionist_animated/",
                 Time: "12d 1h 18m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Fantasia (Phoebe)",
-                Image: "img/randomized/alphasapphire/rematch/phoebe.gif",
+                Image: "img/randomized/alphasapphire/phoebe.gif",
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3e8k5f/phoebe_fantasia_hoenns_reclusive_noble_animated/",
                 Time: "12d 4h 58m",
-                Attempts: 9
+                Attempts: 9,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Evia (Glacia)",
-                Image: "img/randomized/alphasapphire/rematch/glacia.gif",
+                Image: "img/randomized/alphasapphire/glacia.gif",
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3eh6dj/glacia_evia_hoenns_prideful_secret_agent_animated/",
                 Time: "13d 21h 33m",
-                Attempts: 10
+                Attempts: 10,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Nox (Drake)",
-                Image: "img/randomized/alphasapphire/rematch/drake.gif",
+                Image: "img/randomized/alphasapphire/drake.gif",
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3ey4q1/drake_nox_hoenns_expert_ranger_animated/",
                 Time: "13d 21h 38m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Champions",
                 Name: "Steven",
-                Image: "img/trainers/emerald/rematch/steven.png",
+                Image: "img/trainers/emerald/steven.png",
                 Time: "14d 1h 27m",
-                Attempts: 6
+                Attempts: 6,
+                Class: "Rematch"
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "8d 23h 12m", Attempts: 46, Party: [

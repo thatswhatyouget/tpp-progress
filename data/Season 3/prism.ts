@@ -117,7 +117,7 @@ Season3.Runs.push(
                     { Number: 184, Pokemon: "Azumarill", Gender: "Female", Nickname: "YYYYXOOOOO", Level: 85, IDNo: "59484" }
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate:"8d16h16m"
+                FirstAttemptDate: "8d16h16m"
             },
             { "Group": "Badges", "Name": "Marine Badge", "Image": "img/badges/marine.png", "Time": "10d 12h 57m", "Attempts": 2 },
             { "Group": "Badges", "Name": "Hail Badge", "Image": "img/badges/hail.png", "Time": "10d 8h 39m", "Attempts": 1 },
@@ -176,11 +176,11 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Gyarados", "Time": "15d 8h 51m" },
             { "Group": "Pokemon", "Name": "Houndoom", "Time": "16d 2h" },
             { "Group": "Pokemon", "Name": "Loudred", "Time": "16d 2h 14m" },
-            { "Group": "Elite Four Rematch", "Name": "Yuki", "Time": "16d 3h 29m", "Attempts": 1, "Image": "img/trainers/prism/rematch/yuki.png" },
-            { "Group": "Elite Four Rematch", "Name": "Sora", "Time": "16d 3h 41m", "Attempts": 1, "Image": "img/trainers/prism/rematch/sora.png" },
-            { "Group": "Elite Four Rematch", "Name": "Daichi", "Time": "16d 3h 46m", "Attempts": 1, "Image": "img/trainers/prism/rematch/daichi.png" },
-            { "Group": "Elite Four Rematch", "Name": "Mura", "Time": "16d 6h 21m", "Attempts": 3, "Image": "img/trainers/prism/rematch/mura.png" },
-            { "Group": "Champions", "Name": "Lance", "Time": "16d 9h 32m", "Attempts": 4, "Image": "img/trainers/prism/rematch/lance.png" },
+            { "Group": "Elite Four Rematch", "Name": "Yuki", "Time": "16d 3h 29m", "Attempts": 1, "Image": "img/trainers/prism/yuki.png", Class: "Rematch" },
+            { "Group": "Elite Four Rematch", "Name": "Sora", "Time": "16d 3h 41m", "Attempts": 1, "Image": "img/trainers/prism/sora.png", Class: "Rematch" },
+            { "Group": "Elite Four Rematch", "Name": "Daichi", "Time": "16d 3h 46m", "Attempts": 1, "Image": "img/trainers/prism/daichi.png", Class: "Rematch" },
+            { "Group": "Elite Four Rematch", "Name": "Mura", "Time": "16d 6h 21m", "Attempts": 3, "Image": "img/trainers/prism/mura.png", Class: "Rematch" },
+            { "Group": "Champions", "Name": "Lance", "Time": "16d 9h 32m", "Attempts": 4, "Image": "img/trainers/prism/lance.png", Class: "Rematch" },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "16d 9h 33m", Attempts: 10, IDNo: "59484", Party: [
                     { Number: 38, Pokemon: "Ninetales", Gender: "Female", Nickname: "FFFEEEF", Level: 100, IDNo: "59484" },

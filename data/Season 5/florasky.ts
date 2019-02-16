@@ -22,14 +22,14 @@ Season5.Runs.push(
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/florasky/rain.png", Time: "6d4h58m", Attempts: 2, Class: "pixel-art" },
             { Group: "Badges", Name: "Fear Badge", Image: "img/badges/florasky/fear.png", Time: "7d1h6m", Attempts: 2, Class: "pixel-art" },
 
-            { Group: "Rematch Badges", Name: "Kungfu Badge", Image: "img/badges/florasky/rematch/kungfu.png", Time: "10d 4h 13m", Attempts: 1, Class: "pixel-art" },
-            { Group: "Rematch Badges", Name: "Normal Badge", Image: "img/badges/florasky/rematch/normal.png", Time: "10d38m", Attempts: 1, Class: "pixel-art" },
-            { Group: "Rematch Badges", Name: "Dynamo Badge", Image: "img/badges/florasky/rematch/dynamo.png", Time: "", Attempts: 0, Class: "pixel-art" },
-            { Group: "Rematch Badges", Name: "Icy Badge", Image: "img/badges/florasky/rematch/icy.png", Time: "15d 2h 51m", Attempts: 1, Class: "pixel-art" },
-            { Group: "Rematch Badges", Name: "Iron Badge", Image: "img/badges/florasky/rematch/iron.png", Time: "11d 19h 31m", Attempts: 1, Class: "pixel-art" },
-            { Group: "Rematch Badges", Name: "Feather Badge", Image: "img/badges/florasky/rematch/feather.png", Time: "11d 19h 14m", Attempts: 1, Class: "pixel-art" },
-            { Group: "Rematch Badges", Name: "Rain Badge", Image: "img/badges/florasky/rematch/rain.png", Time: "", Attempts: 0, Class: "pixel-art" },
-            { Group: "Rematch Badges", Name: "Fear Badge", Image: "img/badges/florasky/rematch/fear.png", Time: "", Attempts: 0, Class: "pixel-art" },
+            { Group: "Rematch Badges", Name: "Kungfu Badge", Image: "img/badges/florasky/kungfu.png", Time: "10d 4h 13m", Attempts: 1, Class: "pixel-art Rematch" },
+            { Group: "Rematch Badges", Name: "Normal Badge", Image: "img/badges/florasky/normal.png", Time: "10d38m", Attempts: 1, Class: "pixel-art Rematch" },
+            { Group: "Rematch Badges", Name: "Dynamo Badge", Image: "img/badges/florasky/dynamo.png", Time: "", Attempts: 0, Class: "pixel-art Rematch" },
+            { Group: "Rematch Badges", Name: "Icy Badge", Image: "img/badges/florasky/icy.png", Time: "15d 2h 51m", Attempts: 1, Class: "pixel-art Rematch" },
+            { Group: "Rematch Badges", Name: "Iron Badge", Image: "img/badges/florasky/iron.png", Time: "11d 19h 31m", Attempts: 1, Class: "pixel-art Rematch" },
+            { Group: "Rematch Badges", Name: "Feather Badge", Image: "img/badges/florasky/feather.png", Time: "11d 19h 14m", Attempts: 1, Class: "pixel-art Rematch" },
+            { Group: "Rematch Badges", Name: "Rain Badge", Image: "img/badges/florasky/rain.png", Time: "", Attempts: 0, Class: "pixel-art Rematch" },
+            { Group: "Rematch Badges", Name: "Fear Badge", Image: "img/badges/florasky/fear.png", Time: "", Attempts: 0, Class: "pixel-art Rematch" },
 
             { Group: "Elite Four", Name: "Bertha", Image: "img/trainers/florasky/bertha.png", Time: "7d13h41m", Attempts: 1 },
             { Group: "Elite Four", Name: "Adeku", Image: "img/trainers/florasky/adeku.png", Time: "7d13h48m", Attempts: 1 },
@@ -50,11 +50,11 @@ Season5.Runs.push(
                 FirstAttemptDate: "7d13h34m"
             },
 
-            { Group: "Elite Four Rematch", Name: "Bertha", Image: "img/trainers/florasky/rematch/bertha.png", Time: "12d21h16m", Attempts: 1 },
-            { Group: "Elite Four Rematch", Name: "Adeku", Image: "img/trainers/florasky/rematch/adeku.png", Time: "12d21h23m", Attempts: 1 },
-            { Group: "Elite Four Rematch", Name: "Ice", Image: "img/trainers/florasky/rematch/ice.png", Time: "13d 1h 2m", Attempts: 7 },
-            { Group: "Elite Four Rematch", Name: "Flash", Image: "img/trainers/florasky/rematch/flash.png", Time: "13d 3h 22m", Attempts: 2 },
-            { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/rematch/cynthia.png", Time: "13d12h36m", Attempts: 4 },
+            { Group: "Elite Four Rematch", Name: "Bertha", Image: "img/trainers/florasky/bertha.png", Time: "12d21h16m", Attempts: 1, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Adeku", Image: "img/trainers/florasky/adeku.png", Time: "12d21h23m", Attempts: 1, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Ice", Image: "img/trainers/florasky/ice.png", Time: "13d 1h 2m", Attempts: 7, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Flash", Image: "img/trainers/florasky/flash.png", Time: "13d 3h 22m", Attempts: 2, Class: "Rematch" },
+            { Group: "Champions", Name: "Cynthia", Image: "img/trainers/florasky/cynthia.png", Time: "13d12h36m", Attempts: 4, Class: "Rematch" },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d12h38m", Attempts: 15, IDNo: "64341", Party: [

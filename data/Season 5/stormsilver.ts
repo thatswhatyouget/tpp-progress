@@ -39,11 +39,11 @@ Season5.Runs.push(
             { Group: "Elite Four", Name: "Karen", Image: "img/trainers/heartgold/karen.png", Time: "8d5h16m", Attempts: 1 },
             { Group: "Champions", Name: "Lance", Image: "img/trainers/heartgold/lance.png", Time: "8d 14h 50m", Attempts: 1 },
 
-            { Group: "Elite Four Rematch", Name: "Will", Image: "img/trainers/heartgold/rematch/will.png", Time: "15d 7h 9m", Attempts: 1 },
-            { Group: "Elite Four Rematch", Name: "Koga", Image: "img/trainers/heartgold/rematch/koga.png", Time: "15d 10h 25m", Attempts: 4 },
-            { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/heartgold/rematch/bruno.png", Time: "15d 18h 54m", Attempts: 3 },
-            { Group: "Elite Four Rematch", Name: "Karen", Image: "img/trainers/heartgold/rematch/karen.png", Time: "15d22h50m", Attempts: 4 },
-            { Group: "Champions", Name: "Lance", Image: "img/trainers/heartgold/rematch/lance.png", Time: "18d 0h 33m", Attempts: 4 },
+            { Group: "Elite Four Rematch", Name: "Will", Image: "img/trainers/heartgold/will.png", Time: "15d 7h 9m", Attempts: 1, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Koga", Image: "img/trainers/heartgold/koga.png", Time: "15d 10h 25m", Attempts: 4, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/heartgold/bruno.png", Time: "15d 18h 54m", Attempts: 3, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Karen", Image: "img/trainers/heartgold/karen.png", Time: "15d22h50m", Attempts: 4, Class: "Rematch" },
+            { Group: "Champions", Name: "Lance", Image: "img/trainers/heartgold/lance.png", Time: "18d 0h 33m", Attempts: 4, Class: "Rematch" },
 
             { Group: "Past Hosts", Name: "aoooo", Image: "img/hosts/aoooo.png", Time: "14d11h9m", Attempts: 4, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", },
 

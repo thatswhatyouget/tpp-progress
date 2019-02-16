@@ -39,10 +39,10 @@ const dualBlue: TPP.Run = {
             Image: "img/ribbons/champion.png",
             FirstAttemptDate: "5d 22h 31m"
         },
-        { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/rematch/lorelei.png", Time: "12d 2h 5m", Attempts: 1 },
-        { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/rematch/bruno.png", Time: "12d 2h 24m", Attempts: 1 },
-        { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/rematch/agatha.png", Time: "12d 2h 32m", Attempts: 1 },
-        { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/rematch/lance.png", Time: "12d 3h 29m", Attempts: 2 },
+        { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "12d 2h 5m", Attempts: 1, Class: "Rematch" },
+        { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "12d 2h 24m", Attempts: 1, Class: "Rematch" },
+        { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "12d 2h 32m", Attempts: 1, Class: "Rematch" },
+        { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "12d 3h 29m", Attempts: 2, Class: "Rematch" },
         { Group: "Champions", Name: "(((", Image: "img/hosts/ccc.png", Time: "12d 8h 44m", Attempts: 2, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
         <TPP.HallOfFame>{
             Group: "Hall of Fame", Name: "Hall of Fame", Time: "12d 8h 45m", Attempts: 7, Party: [
@@ -98,10 +98,10 @@ const dualRed: TPP.Run = {
             Image: "img/ribbons/champion.png",
             FirstAttemptDate: "6d 7h 33m"
         },
-        { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/rematch/lorelei.png", Time: "12d 11h 23m", Attempts: 1 },
-        { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/rematch/bruno.png", Time: "12d 11h 43m", Attempts: 1 },
-        { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/rematch/agatha.png", Time: "12d 11h 57m", Attempts: 1 },
-        { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/rematch/lance.png", Time: "13d 0h 34m", Attempts: 6 },
+        { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "12d 11h 23m", Attempts: 1, Class: "Rematch" },
+        { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "12d 11h 43m", Attempts: 1, Class: "Rematch" },
+        { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "12d 11h 57m", Attempts: 1, Class: "Rematch" },
+        { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "13d 0h 34m", Attempts: 6, Class: "Rematch" },
         { Group: "Champions", Name: "XXWWNN\u03c0", Image: "img/hosts/xxwwnnPk.png", Time: "13d 23h 28m", Attempts: 2, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
         <TPP.HallOfFame>{
             Group: "Hall of Fame", Name: "Hall of Fame", Time: "13d 23h 29m", Attempts: 39, Party: [

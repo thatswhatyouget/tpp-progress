@@ -182,42 +182,47 @@ Season1.Runs.push(
             {
                 Group: "Elite Four Rematch",
                 Name: "Will",
-                Image: "img/randomized/heartgold/rematch/will.png",
+                Image: "img/randomized/heartgold/will.png",
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/272tjl/archeologists_and_diggers_have_already_been_done/",
                 Time: "15d 6h 33m",
-                Attempts: 4
+                Attempts: 4,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Koga",
-                Image: "img/randomized/heartgold/rematch/koga.png",
+                Image: "img/randomized/heartgold/koga.png",
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/272wf0/couldnt_think_of_what_a_psychic_type_koga_would/",
                 Time: "15d 12h 15m",
-                Attempts: 4
+                Attempts: 4,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Bruno",
-                Image: "img/randomized/heartgold/rematch/bruno.png",
+                Image: "img/randomized/heartgold/bruno.png",
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27cgk2/so_before_i_forget_here_are_bruno_and_karens/",
                 Time: "15d 14h 46m",
-                Attempts: 2
+                Attempts: 2,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Karen",
-                Image: "img/randomized/heartgold/rematch/karen.png",
+                Image: "img/randomized/heartgold/karen.png",
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27cgk2/so_before_i_forget_here_are_bruno_and_karens/",
                 Time: "15d 18h 56m",
-                Attempts: 8
+                Attempts: 8,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Lance",
-                Image: "img/randomized/heartgold/rematch/lance.png",
+                Image: "img/randomized/heartgold/lance.png",
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/27iqep/displaying_them_all_in_one_go_all_sprites_for_gym/",
                 Time: "16d 11h 56m",
-                Attempts: 5
+                Attempts: 5,
+                Class:"Rematch"
             },
             {
                 Group: "Past Hosts",

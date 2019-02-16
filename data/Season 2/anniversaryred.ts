@@ -118,93 +118,106 @@ Season2.Runs.push(
             {
                 Group: "Rematch Badges",
                 Name: "Boulder Badge",
-                Image: "img/badges/rematch/boulder.png",
+                Image: "img/badges/boulder.png",
                 Time: "29d 9h 44m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Rematch Badges",
                 Name: "Cascade Badge",
-                Image: "img/badges/rematch/cascade.png",
+                Image: "img/badges/cascade.png",
                 Time: "28d 20h 10m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Rematch Badges",
                 Name: "Thunder Badge",
-                Image: "img/badges/rematch/thunder.png",
+                Image: "img/badges/thunder.png",
                 Time: "28d 18h 4m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Rematch Badges",
                 Name: "Rainbow Badge",
-                Image: "img/badges/rematch/rainbow.png",
+                Image: "img/badges/rainbow.png",
                 Time: "29d 3h 50m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Rematch Badges",
                 Name: "Soul Badge",
-                Image: "img/badges/rematch/soul.png",
+                Image: "img/badges/soul.png",
                 Time: "28d 5h 1m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Rematch Badges",
                 Name: "Marsh Badge",
-                Image: "img/badges/rematch/marsh.png",
+                Image: "img/badges/marsh.png",
                 Time: "28d 19h 4m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Rematch Badges",
                 Name: "Volcano Badge",
-                Image: "img/badges/rematch/volcano.png",
+                Image: "img/badges/volcano.png",
                 Time: "27d 22h 14m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Rematch Badges",
                 Name: "Earth Badge",
-                Image: "img/badges/rematch/earth.png",
+                Image: "img/badges/earth.png",
                 Time: "29d 17h 0m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Lorelei",
-                Image: "img/trainers/red/rematch/lorelei.png",
+                Image: "img/trainers/red/lorelei.png",
                 Time: "38d 23h 42m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Bruno",
-                Image: "img/trainers/red/rematch/bruno.png",
+                Image: "img/trainers/red/bruno.png",
                 Time: "38d 23h 50m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Agatha",
-                Image: "img/trainers/red/rematch/agatha.png",
+                Image: "img/trainers/red/agatha.png",
                 Time: "38d 23h 57m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Lance",
-                Image: "img/trainers/red/rematch/lance.png",
+                Image: "img/trainers/red/lance.png",
                 Time: "39d 0h 4m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "BLUE",
-                Image: "img/trainers/red/rematch/blue.png",
+                Image: "img/trainers/red/blue.png",
                 Time: "39d 6h 56m",
-                Attempts: 4
+                Attempts: 4,
+                Class: "Rematch"
             },
             {
                 Group: "Champions",

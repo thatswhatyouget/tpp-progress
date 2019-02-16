@@ -354,9 +354,9 @@ Season4.Runs.push(
             { Group: "Pokemon", Name: "Scizor", Time: "16d8h42m" },
             { Group: "Pokemon", Name: "Arceus", Time: "16d15h59m" },
 
-            // { Group: "Rematch Badges", Name: "Stem Badge", Time: "9d16h51m", Attempts: 1, Image: "img/badges/glazed/rematch/stem.png" },
-            // { Group: "Rematch Badges", Name: "Icicle Badge", Time: "9d16h57m", Attempts: 1, Image: "img/badges/glazed/rematch/icicle.png" },
-            // { Group: "Rematch Badges", Name: "Jolt Badge", Time: "9d17h7m", Attempts: 1, Image: "img/badges/glazed/rematch/jolt.png" },
+            { Group: "Rematch Badges", Name: "Stem Badge", Time: "9d16h51m", Attempts: 1, Image: "img/badges/glazed/stem.png", Class:"Rematch" },
+            { Group: "Rematch Badges", Name: "Icicle Badge", Time: "9d16h57m", Attempts: 1, Image: "img/badges/glazed/icicle.png", Class:"Rematch" },
+            { Group: "Rematch Badges", Name: "Jolt Badge", Time: "9d17h7m", Attempts: 1, Image: "img/badges/glazed/jolt.png", Class:"Rematch" },
 
          ]
     }

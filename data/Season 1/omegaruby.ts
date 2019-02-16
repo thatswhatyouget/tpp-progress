@@ -113,37 +113,42 @@ Season1.Runs.push(
             {
                 Group: "Elite Four Rematch",
                 Name: "Sidney",
-                Image: "img/trainers/emerald/rematch/sidney.png",
+                Image: "img/trainers/emerald/sidney.png",
                 Time: "7d 12h 33m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Phoebe",
-                Image: "img/trainers/emerald/rematch/phoebe.png",
+                Image: "img/trainers/emerald/phoebe.png",
                 Time: "7d 14h 48m",
-                Attempts: 5
+                Attempts: 5,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Glacia",
-                Image: "img/trainers/emerald/rematch/glacia.png",
+                Image: "img/trainers/emerald/glacia.png",
                 Time: "7d 19h 13m",
-                Attempts: 5
+                Attempts: 5,
+                Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Drake",
-                Image: "img/trainers/emerald/rematch/drake.png",
+                Image: "img/trainers/emerald/drake.png",
                 Time: "8d 5h 30m",
-                Attempts: 9
+                Attempts: 9,
+                Class: "Rematch"
             },
             {
                 Group: "Champions",
                 Name: "Steven",
-                Image: "img/trainers/emerald/rematch/steven.png",
+                Image: "img/trainers/emerald/steven.png",
                 Time: "8d 5h 42m",
-                Attempts: 1
+                Attempts: 1,
+                Class: "Rematch"
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "6d 20h 18m", Attempts: 19, Party: [

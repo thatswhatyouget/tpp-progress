@@ -63,6 +63,16 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Mankey", "Time": "1d 22h 59m" },
             { "Group": "Pokemon", "Name": "Gloom", "Time": "2d 2h 16m" },
             { "Group": "Pokemon", "Name": "Pidgeot", "Time": "2d 4h 32m" },
+            { "Group": "Pokemon", "Name": "Vileplume", "Time": "2d 7h 46m" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "2d 8h 24m" },
+            { "Group": "Pokemon", "Name": "Growlithe", "Time": "2d 8h 50m" },
+            { "Group": "Pokemon", "Name": "Gyarados", "Time": "2d 10h 39m" },
+            { "Group": "Pokemon", "Name": "Hitmonlee", "Time": "2d 15h 48m" },
+            { "Group": "Pokemon", "Name": "Cubone", "Time": "3d 0h 35m" },
+            { "Group": "Pokemon", "Name": "Gastly", "Time": "3d 0h 36m" },
+            { "Group": "Pokemon", "Name": "Dugtrio", "Time": "3d 9h 27m" },
+            { "Group": "Pokemon", "Name": "Snorlax", "Time": "3d 11h 7m" },
+            { "Group": "Pokemon", "Name": "Staryu", "Time": "3d 15h 26m" },
         ]
     }
 );
