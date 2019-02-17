@@ -20,7 +20,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Thunder Badge (Red)", Image: "img/badges/thunder.png", Time: "1d 21h 38m", Attempts: 2, Class: "bottom-half" },
             { Group: "Badges", Name: "Rainbow Badge (FireRed)", Image: "img/badges/rainbow.png", Time: "2d 4h 36m", Attempts: 1, Class: 'top-half' },
             { Group: "Badges", Name: "Rainbow Badge (Red)", Image: "img/badges/rainbow.png", Time: "2d5h59m", Attempts: 1, Class: "bottom-half" },
-            { Group: "Badges", Name: "Soul Badge (FireRed)", Image: "img/badges/soul.png", Time: "", Attempts: 0, Class: 'top-half' },
+            { Group: "Badges", Name: "Soul Badge (FireRed)", Image: "img/badges/soul.png", Time: "4d 14h 22m", Attempts: 8, Class: 'top-half' },
             { Group: "Badges", Name: "Soul Badge (Red)", Image: "img/badges/soul.png", Time: "3d 19h 45m", Attempts: 2, Class: "bottom-half" },
             { Group: "Badges", Name: "Marsh Badge (FireRed)", Image: "img/badges/marsh.png", Time: "", Attempts: 0, Class: 'top-half' },
             { Group: "Badges", Name: "Marsh Badge (Red)", Image: "img/badges/marsh.png", Time: "", Attempts: 0, Class: "bottom-half" },
@@ -85,6 +85,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "NidoranF", "Time": "3d 21h 1m" },
             { "Group": "Pokemon", "Name": "Parasect", "Time": "3d 22h 44m" },
             { "Group": "Pokemon", "Name": "Starmie", "Time": "4d 11h 43m" },
+            { "Group": "Pokemon", "Name": "Psyduck", "Time": "4d 14h 46m" },
         ]
     }
 );
