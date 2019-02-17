@@ -21,7 +21,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Rainbow Badge (FireRed)", Image: "img/badges/rainbow.png", Time: "2d 4h 36m", Attempts: 1, Class: 'top-half' },
             { Group: "Badges", Name: "Rainbow Badge (Red)", Image: "img/badges/rainbow.png", Time: "2d5h59m", Attempts: 1, Class: "bottom-half" },
             { Group: "Badges", Name: "Soul Badge (FireRed)", Image: "img/badges/soul.png", Time: "", Attempts: 0, Class: 'top-half' },
-            { Group: "Badges", Name: "Soul Badge (Red)", Image: "img/badges/soul.png", Time: "", Attempts: 0, Class: "bottom-half" },
+            { Group: "Badges", Name: "Soul Badge (Red)", Image: "img/badges/soul.png", Time: "3d 19h 45m", Attempts: 2, Class: "bottom-half" },
             { Group: "Badges", Name: "Marsh Badge (FireRed)", Image: "img/badges/marsh.png", Time: "", Attempts: 0, Class: 'top-half' },
             { Group: "Badges", Name: "Marsh Badge (Red)", Image: "img/badges/marsh.png", Time: "", Attempts: 0, Class: "bottom-half" },
             { Group: "Badges", Name: "Volcano Badge (FireRed)", Image: "img/badges/volcano.png", Time: "", Attempts: 0, Class: 'top-half' },
@@ -73,6 +73,18 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Dugtrio", "Time": "3d 9h 27m" },
             { "Group": "Pokemon", "Name": "Snorlax", "Time": "3d 11h 7m" },
             { "Group": "Pokemon", "Name": "Staryu", "Time": "3d 15h 26m" },
+            { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "3d 15h 42m" },
+            { "Group": "Pokemon", "Name": "Exeggcute", "Time": "3d 15h 44m" },
+            { "Group": "Pokemon", "Name": "Doduo", "Time": "3d 15h 56m" },
+            { "Group": "Pokemon", "Name": "Nidorino", "Time": "3d 16h 15m" },
+            { "Group": "Pokemon", "Name": "Nidorina", "Time": "3d 16h 22m" },
+            { "Group": "Pokemon", "Name": "Venomoth", "Time": "3d 16h 33m" },
+            { "Group": "Pokemon", "Name": "Paras", "Time": "3d 17h 16m" },
+            { "Group": "Pokemon", "Name": "Chansey", "Time": "3d 17h 24m" },
+            { "Group": "Pokemon", "Name": "Venonat", "Time": "3d 20h 51m" },
+            { "Group": "Pokemon", "Name": "NidoranF", "Time": "3d 21h 1m" },
+            { "Group": "Pokemon", "Name": "Parasect", "Time": "3d 22h 44m" },
+            { "Group": "Pokemon", "Name": "Starmie", "Time": "4d 11h 43m" },
         ]
     }
 );
