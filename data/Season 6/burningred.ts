@@ -22,8 +22,8 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Rainbow Badge (Red)", Image: "img/badges/rainbow.png", Time: "2d5h59m", Attempts: 1, Class: "bottom-half" },
             { Group: "Badges", Name: "Soul Badge (FireRed)", Image: "img/badges/soul.png", Time: "4d 14h 22m", Attempts: 8, Class: 'top-half' },
             { Group: "Badges", Name: "Soul Badge (Red)", Image: "img/badges/soul.png", Time: "3d 19h 45m", Attempts: 2, Class: "bottom-half" },
-            { Group: "Badges", Name: "Marsh Badge (FireRed)", Image: "img/badges/marsh.png", Time: "", Attempts: 0, Class: 'top-half' },
-            { Group: "Badges", Name: "Marsh Badge (Red)", Image: "img/badges/marsh.png", Time: "", Attempts: 0, Class: "bottom-half" },
+            { Group: "Badges", Name: "Marsh Badge (FireRed)", Image: "img/badges/marsh.png", Time: "5d 7h 12m", Attempts: 1, Class: 'top-half' },
+            { Group: "Badges", Name: "Marsh Badge (Red)", Image: "img/badges/marsh.png", Time: "5d 8h 40m", Attempts: 2, Class: "bottom-half" },
             { Group: "Badges", Name: "Volcano Badge (FireRed)", Image: "img/badges/volcano.png", Time: "", Attempts: 0, Class: 'top-half' },
             { Group: "Badges", Name: "Volcano Badge (Red)", Image: "img/badges/volcano.png", Time: "", Attempts: 0, Class: "bottom-half" },
             { Group: "Badges", Name: "Earth Badge (FireRed)", Image: "img/badges/earth.png", Time: "", Attempts: 0, Class: 'top-half' },
@@ -86,6 +86,10 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Parasect", "Time": "3d 22h 44m" },
             { "Group": "Pokemon", "Name": "Starmie", "Time": "4d 11h 43m" },
             { "Group": "Pokemon", "Name": "Psyduck", "Time": "4d 14h 46m" },
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "4d 18h 59m" },
+            { "Group": "Pokemon", "Name": "Lapras", "Time": "4d 20h 59m" },
+            { "Group": "Pokemon", "Name": "Phancero", "Time": "5d 5h 2m" },
+            { "Group": "Pokemon", "Name": "Charizard", "Time": "5d 5h 17m" },
         ]
     }
 );
