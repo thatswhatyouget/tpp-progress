@@ -24,7 +24,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Soul Badge (Red)", Image: "img/badges/soul.png", Time: "3d 19h 45m", Attempts: 2, Class: "bottom-half" },
             { Group: "Badges", Name: "Marsh Badge (FireRed)", Image: "img/badges/marsh.png", Time: "5d 7h 12m", Attempts: 1, Class: 'top-half' },
             { Group: "Badges", Name: "Marsh Badge (Red)", Image: "img/badges/marsh.png", Time: "5d 8h 40m", Attempts: 2, Class: "bottom-half" },
-            { Group: "Badges", Name: "Volcano Badge (FireRed)", Image: "img/badges/volcano.png", Time: "", Attempts: 0, Class: 'top-half' },
+            { Group: "Badges", Name: "Volcano Badge (FireRed)", Image: "img/badges/volcano.png", Time: "6d 0h 57m", Attempts: 1, Class: 'top-half' },
             { Group: "Badges", Name: "Volcano Badge (Red)", Image: "img/badges/volcano.png", Time: "6d 0h 26m", Attempts: 1, Class: "bottom-half" },
             { Group: "Badges", Name: "Earth Badge (FireRed)", Image: "img/badges/earth.png", Time: "", Attempts: 0, Class: 'top-half' },
             { Group: "Badges", Name: "Earth Badge (Red)", Image: "img/badges/earth.png", Time: "", Attempts: 0, Class: "bottom-half" },
