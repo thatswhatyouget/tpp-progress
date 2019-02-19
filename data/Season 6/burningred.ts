@@ -27,7 +27,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Volcano Badge (FireRed)", Image: "img/badges/volcano.png", Time: "6d 0h 57m", Attempts: 1, Class: 'top-half' },
             { Group: "Badges", Name: "Volcano Badge (Red)", Image: "img/badges/volcano.png", Time: "6d 0h 26m", Attempts: 1, Class: "bottom-half" },
             { Group: "Badges", Name: "Earth Badge (FireRed)", Image: "img/badges/earth.png", Time: "", Attempts: 0, Class: 'top-half' },
-            { Group: "Badges", Name: "Earth Badge (Red)", Image: "img/badges/earth.png", Time: "", Attempts: 0, Class: "bottom-half" },
+            { Group: "Badges", Name: "Earth Badge (Red)", Image: "img/badges/earth.png", Time: "6d 6h 9m", Attempts: 1, Class: "bottom-half" },
             { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "", Attempts: 0 },
@@ -107,6 +107,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Grimer", "Time": "5d 20h 42m" },
             { "Group": "Pokemon", "Name": "Weezing", "Time": "5d 22h 5m" },
             { "Group": "Pokemon", "Name": "Muk", "Time": "5d 22h 18m" },
+            { "Group": "Pokemon", "Name": "Tangela", "Time": "6d 6h 43m" },
         ]
     }
 );
