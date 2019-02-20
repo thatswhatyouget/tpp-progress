@@ -28,16 +28,19 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Volcano Badge (Red)", Image: "img/badges/volcano.png", Time: "6d 0h 26m", Attempts: 1, Class: "bottom-half" },
             { Group: "Badges", Name: "Earth Badge (FireRed)", Image: "img/badges/earth.png", Time: "6d7h31m", Attempts: 1, Class: 'top-half' },
             { Group: "Badges", Name: "Earth Badge (Red)", Image: "img/badges/earth.png", Time: "6d 6h 9m", Attempts: 1, Class: "bottom-half" },
+
             { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "7d1h24m", Attempts: 1 },
             { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "7d1h29m", Attempts: 1 },
             { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "7d1h33m", Attempts: 1 },
             { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "7d14h29m", Attempts: 2 },
             { Group: "Champions", Name: "ABHIWG", Image: "img/trainers/red/blue.png", Time: "7d14h40m", Attempts: 1 },
-            { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "", Attempts: 0, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "", Attempts: 0, Class: "Rematch" },
+
+            { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "7d 22h 10m", Attempts: 3, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "", Attempts: 1, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "", Attempts: 0, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 0, Class: "Rematch" },
             { Group: "Champions", Name: "ABHIWG", Image: "img/trainers/red/blue.png", Time: "", Attempts: 0, Class: "Rematch" },
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "7d14h42m", Attempts: 2, Party: [
                     { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 46, Type1: "Fighting" },
@@ -51,16 +54,16 @@ Season6.Runs.push(
                 FirstAttemptDate: "7d1h11m"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
-                    { Pokemon: "Chansey", Nickname: "X", Level: 54, Type1: "Normal" },
-                    { Pokemon: "Gyarados", Nickname: "Dkklll", Level: 45, Type1: "Water", Type2: "Flying" },
-                    { Pokemon: "Charizard", Nickname: "GHQQNee.,", Level: 51, Type1: "Fire", Type2: "Flying" },
-                    { Pokemon: "Raticate", Nickname: "JJKSS", Level: 51, Type1: "Normal" },
-                    { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 50, Type1: "Water", Type2: "Psychic" },
-                    { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 45, Type1: "Fighting" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 3, Party: [
+                    { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 47, Type1: "Fighting" },
+                    { Pokemon: "Gyarados", Nickname: "Dkklll", Level: 47, Type1: "Water", Type2: "Flying" },
+                    { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 54, Type1: "Water", Type2: "Psychic" },
+                    { Pokemon: "Charizard", Nickname: "GHQQNee.,", Level: 55, Type1: "Fire", Type2: "Flying" },
+                    { Pokemon: "Chansey", Nickname: "X", Level: 61, Type1: "Normal" },
+                    { Pokemon: "Raticate", Nickname: "JJKSS", Level: 55, Type1: "Normal" },
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate: ""
+                FirstAttemptDate: "7d21h12m"
             },
             { "Group": "Pokemon", "Name": "Charmander", "Time": "0d 0h 5m" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "0d 0h 33m" },
