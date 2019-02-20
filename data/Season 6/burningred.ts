@@ -28,10 +28,10 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Volcano Badge (Red)", Image: "img/badges/volcano.png", Time: "6d 0h 26m", Attempts: 1, Class: "bottom-half" },
             { Group: "Badges", Name: "Earth Badge (FireRed)", Image: "img/badges/earth.png", Time: "6d7h31m", Attempts: 1, Class: 'top-half' },
             { Group: "Badges", Name: "Earth Badge (Red)", Image: "img/badges/earth.png", Time: "6d 6h 9m", Attempts: 1, Class: "bottom-half" },
-            { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "7d1h24m", Attempts: 1 },
+            { Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "7d1h29m", Attempts: 1 },
+            { Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "7d1h33m", Attempts: 1 },
+            { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 1 },
             { Group: "Champions", Name: "ABHIWG", Image: "img/trainers/red/blue.png", Time: "", Attempts: 0 },
             { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "", Attempts: 0, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "", Attempts: 0, Class: "Rematch" },
@@ -39,25 +39,25 @@ Season6.Runs.push(
             { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 0, Class: "Rematch" },
             { Group: "Champions", Name: "ABHIWG", Image: "img/trainers/red/blue.png", Time: "", Attempts: 0, Class: "Rematch" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 1, Party: [
+                    { Pokemon: "Chansey", Nickname: "X", Level: 52, Type1: "Normal" },
+                    { Pokemon: "Gyarados", Nickname: "Dkklll", Level: 45, Type1: "Water", Type2: "Flying" },
+                    { Pokemon: "Charizard", Nickname: "GHQQNee.,", Level: 51, Type1: "Fire", Type2: "Flying" },
+                    { Pokemon: "Raticate", Nickname: "JJKSS", Level: 51, Type1: "Normal" },
+                    { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 50, Type1: "Water", Type2: "Psychic" },
                     { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 45, Type1: "Fighting" },
-                    { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 48, Type1: "Water", Type2: "Psychic" },
-                    { Pokemon: "Gyarados", Nickname: "Dkklll", Level: 43, Type1: "Water", Type2: "Flying" },
-                    { Pokemon: "Charizard", Nickname: "GHQQNee.,", Level: 44, Type1: "Fire", Type2: "Flying" },
-                    { Pokemon: "Raticate", Nickname: "JJKSS", Level: 48, Type1: "Normal" },
-                    { Pokemon: "Chansey", Nickname: "X", Level: 51, Type1: "Normal" },
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate: ""
+                FirstAttemptDate: "7d1h11m"
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
-                    { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 45, Gender: "Male", Number: 106, IDNo: "02156" },
-                    { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 48, Number: 121, IDNo: "02156" },
-                    { Pokemon: "Gyarados", Nickname: "Dkklll", Level: 43, Gender: "Female", Number: 130, IDNo: "02156" },
-                    { Pokemon: "Charizard", Nickname: "GHQQNee.,", Level: 44, Gender: "Male", Number: 6, IDNo: "02156" },
-                    { Pokemon: "Raticate", Nickname: "JJKSS", Level: 48, Gender: "Male", Number: 20, IDNo: "02156" },
-                    { Pokemon: "Chansey", Nickname: "X", Level: 51, Gender: "Female", Number: 113, IDNo: "02156" },
+                    { Pokemon: "Chansey", Nickname: "X", Level: 54, Type1: "Normal" },
+                    { Pokemon: "Gyarados", Nickname: "Dkklll", Level: 45, Type1: "Water", Type2: "Flying" },
+                    { Pokemon: "Charizard", Nickname: "GHQQNee.,", Level: 51, Type1: "Fire", Type2: "Flying" },
+                    { Pokemon: "Raticate", Nickname: "JJKSS", Level: 51, Type1: "Normal" },
+                    { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 50, Type1: "Water", Type2: "Psychic" },
+                    { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 45, Type1: "Fighting" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: ""
