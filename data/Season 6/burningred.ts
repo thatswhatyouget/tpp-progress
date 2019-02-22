@@ -4,7 +4,7 @@ Season6.Runs.push(
         RunName: "Burning Red",
         ColorPrimary: "#ff712d",
         ColorSecondary: "#8c5856",
-        Duration: "255d",
+        Duration: "9d13h33m",
         StartDate: "2019-02-13T01:22:00Z",
         HostName: "KAY",
         HostImage: "img/hosts/kay.png",
@@ -52,15 +52,15 @@ Season6.Runs.push(
             { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "8d 15h 32m", Attempts: 6, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "9d 2h 43m", Attempts: 5, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "9d7h12m", Attempts: 4, Class: "Rematch" },
-            { Group: "Champions", Name: "ABHIWG", Image: "img/trainers/red/blue.png", Time: "", Attempts: 0, Class: "Rematch" },
+            { Group: "Champions", Name: "ABHIWG", Image: "img/trainers/red/blue.png", Time: "9d13h27m", Attempts: 4, Class: "Rematch" },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 20, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d13h28m", Attempts: 33, Party: [
                     { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 57, Type1: "Fighting" },
-                    { Pokemon: "Gyarados", Nickname: "Dkklll", Level: 54, Type1: "Water", Type2: "Flying" },
-                    { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 74, Type1: "Water", Type2: "Psychic" },
-                    { Pokemon: "Charizard", Nickname: "GHQQNee.,", Level: 62, Type1: "Fire", Type2: "Flying" },
-                    { Pokemon: "Chansey", Nickname: "X", Level: 72, Type1: "Normal" },
+                    { Pokemon: "Gyarados", Nickname: "Dkklll", Level: 64, Type1: "Water", Type2: "Flying" },
+                    { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 82, Type1: "Water", Type2: "Psychic" },
+                    { Pokemon: "Charizard", Nickname: "GHQQNee.,", Level: 63, Type1: "Fire", Type2: "Flying" },
+                    { Pokemon: "Chansey", Nickname: "X", Level: 75, Type1: "Normal" },
                     { Pokemon: "Raticate", Nickname: "JJKSS", Level: 58, Type1: "Normal" },
                 ],
                 Image: "img/ribbons/champion.png",
