@@ -51,16 +51,16 @@ Season6.Runs.push(
             { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "7d 22h 10m", Attempts: 3, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "8d 15h 32m", Attempts: 6, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "9d 2h 43m", Attempts: 5, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 1, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "9d7h12m", Attempts: 4, Class: "Rematch" },
             { Group: "Champions", Name: "ABHIWG", Image: "img/trainers/red/blue.png", Time: "", Attempts: 0, Class: "Rematch" },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 20, Party: [
-                    { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 56, Type1: "Fighting" },
-                    { Pokemon: "Gyarados", Nickname: "Dkklll", Level: 52, Type1: "Water", Type2: "Flying" },
-                    { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 69, Type1: "Water", Type2: "Psychic" },
+                    { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 57, Type1: "Fighting" },
+                    { Pokemon: "Gyarados", Nickname: "Dkklll", Level: 54, Type1: "Water", Type2: "Flying" },
+                    { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 74, Type1: "Water", Type2: "Psychic" },
                     { Pokemon: "Charizard", Nickname: "GHQQNee.,", Level: 62, Type1: "Fire", Type2: "Flying" },
-                    { Pokemon: "Chansey", Nickname: "X", Level: 71, Type1: "Normal" },
+                    { Pokemon: "Chansey", Nickname: "X", Level: 72, Type1: "Normal" },
                     { Pokemon: "Raticate", Nickname: "JJKSS", Level: 58, Type1: "Normal" },
                 ],
                 Image: "img/ribbons/champion.png",
