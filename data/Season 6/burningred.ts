@@ -35,12 +35,6 @@ Season6.Runs.push(
             { Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "7d14h29m", Attempts: 2 },
             { Group: "Champions", Name: "ABHIWG", Image: "img/trainers/red/blue.png", Time: "7d14h40m", Attempts: 1 },
 
-            { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "7d 22h 10m", Attempts: 3, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "", Attempts: 1, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "", Attempts: 0, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 0, Class: "Rematch" },
-            { Group: "Champions", Name: "ABHIWG", Image: "img/trainers/red/blue.png", Time: "", Attempts: 0, Class: "Rematch" },
-
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "7d14h42m", Attempts: 2, Party: [
                     { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 46, Type1: "Fighting" },
@@ -53,14 +47,21 @@ Season6.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "7d1h11m"
             },
+
+            { Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", Time: "7d 22h 10m", Attempts: 3, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/bruno.png", Time: "8d 15h 32m", Attempts: 6, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/agatha.png", Time: "9d 2h 43m", Attempts: 5, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/lance.png", Time: "", Attempts: 1, Class: "Rematch" },
+            { Group: "Champions", Name: "ABHIWG", Image: "img/trainers/red/blue.png", Time: "", Attempts: 0, Class: "Rematch" },
+
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 3, Party: [
-                    { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 47, Type1: "Fighting" },
-                    { Pokemon: "Gyarados", Nickname: "Dkklll", Level: 47, Type1: "Water", Type2: "Flying" },
-                    { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 54, Type1: "Water", Type2: "Psychic" },
-                    { Pokemon: "Charizard", Nickname: "GHQQNee.,", Level: 55, Type1: "Fire", Type2: "Flying" },
-                    { Pokemon: "Chansey", Nickname: "X", Level: 61, Type1: "Normal" },
-                    { Pokemon: "Raticate", Nickname: "JJKSS", Level: 55, Type1: "Normal" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 20, Party: [
+                    { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 56, Type1: "Fighting" },
+                    { Pokemon: "Gyarados", Nickname: "Dkklll", Level: 52, Type1: "Water", Type2: "Flying" },
+                    { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 69, Type1: "Water", Type2: "Psychic" },
+                    { Pokemon: "Charizard", Nickname: "GHQQNee.,", Level: 62, Type1: "Fire", Type2: "Flying" },
+                    { Pokemon: "Chansey", Nickname: "X", Level: 71, Type1: "Normal" },
+                    { Pokemon: "Raticate", Nickname: "JJKSS", Level: 58, Type1: "Normal" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "7d21h12m"
@@ -146,6 +147,24 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Machoke", "Time": "6d 22h 52m" },
             { "Group": "Pokemon", "Name": "Onix", "Time": "6d 23h 3m" },
             { "Group": "Pokemon", "Name": "Mew", "Time": "7d 8h 40m" },
+            { "Group": "Pokemon", "Name": "Hypno", "Time": "7d 15h 56m" },
+            { "Group": "Pokemon", "Name": "Magneton", "Time": "7d 16h 23m" },
+            { "Group": "Pokemon", "Name": "Kadabra", "Time": "7d 16h 30m" },
+            { "Group": "Pokemon", "Name": "Mewtwo", "Time": "7d 17h 18m" },
+            { "Group": "Pokemon", "Name": "Marowak", "Time": "7d 18h 55m" },
+            { "Group": "Pokemon", "Name": "Arbok", "Time": "7d 19h 47m" },
+            { "Group": "Pokemon", "Name": "Electrode", "Time": "8d 0h 8m" },
+            { "Group": "Pokemon", "Name": "Dodrio", "Time": "8d 1h 27m" },
+            { "Group": "Pokemon", "Name": "Primeape", "Time": "8d 2h 44m" },
+            { "Group": "Pokemon", "Name": "Raichu", "Time": "8d 3h 51m" },
+            { "Group": "Pokemon", "Name": "Rhydon", "Time": "8d 4h 6m" },
+            { "Group": "Pokemon", "Name": "Seadra", "Time": "8d 4h 40m" },
+            { "Group": "Pokemon", "Name": "Kingler", "Time": "8d 5h 39m" },
+            { "Group": "Pokemon", "Name": "Seaking", "Time": "8d 5h 43m" },
+            { "Group": "Pokemon", "Name": "Krabby", "Time": "8d 5h 53m" },
+            { "Group": "Pokemon", "Name": "Goldeen", "Time": "8d 5h 58m" },
+            { "Group": "Pokemon", "Name": "Metapod", "Time": "8d 7h 35m" },
+            { "Group": "Pokemon", "Name": "Poliwag", "Time": "8d 7h 52m" },
         ]
     }
 );
