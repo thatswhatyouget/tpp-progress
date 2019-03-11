@@ -22,7 +22,7 @@ module TPP.Display.RunStatus {
     }
 
     export function GetCurrentRun(tppData: Collection[]) {
-        return tppData.filter(c => c.Name.indexOf("Season") == 0).map(c => c.Runs[c.Runs.length - 1]).pop();
+        return tppData.reduce((runs, c) => runs.concat(c.Runs), [] as TPP.Run[]).sort((r1, r2) => r1.StartTime - r2.StartTime).pop();
     }
 
     export function GetSpecifiedRun(tppData: Collection[], runName: string) {
