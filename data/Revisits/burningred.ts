@@ -4,7 +4,7 @@ Revisits.Runs.push(
         RunName: "Burning Red Revisit",
         ColorPrimary: "#ff712d",
         ColorSecondary: "#8c5856",
-        Duration: "2019-03-13-T13:52:00Z",
+        Duration: "2019-03-13T13:52:00Z",
         StartDate: "2019-03-11T00:39:00Z",
         HostName: "KAY",
         HostImage: "img/hosts/kay.png",
