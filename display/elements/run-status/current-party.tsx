@@ -23,7 +23,7 @@ namespace TPP.Display.Elements.RunStatus {
                                 <div className="informatic money">{(this.props.trainer.money || 0).toLocaleString()}</div>
                                 <div className="informatic coins">{(this.props.trainer.coins || 0).toLocaleString()}</div>
                                 <div className="informatic balls">{(this.props.trainer || { ball_count: 0 }).ball_count}</div>
-                                <div className="informatic badges">{`Badges: ${(this.props.trainer.badges.toString(2).replace(/0/g, '').length / 2)}`}</div>
+                                <div className="informatic badges">{`Badges: ${(this.props.trainer.badges.toString(2).replace(/0/g, '').length / (this.props.run.RunName == "Burning Red" ? 2 : 1))}`}</div>
                                 <div className="informatic owned">{`Owned: ${this.props.trainer.caught}`}</div>
                                 <div className="informatic seen">{`Seen: ${this.props.trainer.seen}`}</div>
                             </div>
