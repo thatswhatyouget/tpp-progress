@@ -219,8 +219,8 @@ namespace TPP.Display.Elements.RunStatus {
                     </EventDisplay>
                     <ItemDisplay key="Items" title="Items" items={this.state.status.items.items} />
                     <ItemDisplay key="Key Items" title="Key Items" items={this.state.status.items.key} />
-                    <ItemDisplay key="Key Items FR" title="Key Items (FireRed)" items={this.state.status.items.key_firered} />
-                    <ItemDisplay key="Key Items R" title="Key Items (Red)" items={this.state.status.items.key_red} />
+                    <ItemDisplay key="Key Items FR" title="Key Items (FireRed)" items={this.state.status.items["key_firered"]} />
+                    <ItemDisplay key="Key Items R" title="Key Items (Red)" items={this.state.status.items["key_red"]} />
                     <ItemDisplay key="Poké Balls" title="Poké Balls" items={this.state.status.items.balls} />
                     <ItemDisplay key="TMs" title="TMs and HMs" items={this.state.status.items.tms} />
                     <ItemDisplay key="Medicine" title="Medicine" items={this.state.status.items.medicine} />
@@ -231,8 +231,8 @@ namespace TPP.Display.Elements.RunStatus {
                     <ItemDisplay key="Rotom Powers" title="Rotom Powers" items={this.state.status.items.rotom_powers} />
                     <ItemDisplay key="Free Space" title="Free Space" items={this.state.status.items.free_space} />
                     <ItemDisplay key="PC Items" title={pokeRedCondenseText(`${this.state.run.HostName}'s PC`)} items={this.state.status.items.pc} />
-                    <ItemDisplay key="PC Items FR" title={pokeRedCondenseText(`FireRed's PC`)} items={this.state.status.items.pc_firered} />
-                    <ItemDisplay key="PC Items R" title={pokeRedCondenseText(`Red's PC`)} items={this.state.status.items.pc_red} />
+                    <ItemDisplay key="PC Items FR" title={pokeRedCondenseText(`FireRed's PC`)} items={this.state.status.items["pc_firered"]} />
+                    <ItemDisplay key="PC Items R" title={pokeRedCondenseText(`Red's PC`)} items={this.state.status.items["pc_red"]} />
                     {this.Pokedex}
                     {this.state.status && this.state.status.daycare && this.state.status.daycare.length > 0 && <PCBox boxName="Daycare" boxContents={this.state.status.daycare} />}
                     {this.state.status && <PC pc={this.state.status.pc} />}

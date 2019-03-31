@@ -14,12 +14,28 @@ Intermissions.Runs.push(
         Pokedex: "National",
         Events: [
             { Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png", Time: "2019-03-31T06:04:00.000Z", Attempts: 1 },
+            { Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png", Time: "2019-03-31T10:07:00.000Z", Attempts: 1 },
+            { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "2019-03-31T11:43:00.000Z", Attempts: 1 },
+            { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "", Attempts: 0 },
 
             { "Group": "Pokemon", "Name": "Gligar", "Time": "2019-03-31T01:05:00.000Z" },
             { "Group": "Pokemon", "Name": "Slowking", "Time": "2019-03-31T03:16:00.000Z" },
             { "Group": "Pokemon", "Name": "Kingdra", "Time": "2019-03-31T03:32:00.000Z" },
             { "Group": "Pokemon", "Name": "Mew", "Time": "2019-03-31T04:35:00.000Z" },
-            { "Group": "Pokemon", "Name": "Gengar", "Time": "2019-03-31T04:37:00.000Z" }
+            { "Group": "Pokemon", "Name": "Gengar", "Time": "2019-03-31T04:37:00.000Z" },
+            { "Group": "Pokemon", "Name": "Dunsparce", "Time": "2019-03-31T13:26:00.000Z" },
+            { "Group": "Pokemon", "Name": "Loudred", "Time": "2019-03-31T13:27:00.000Z" },
+            { "Group": "Pokemon", "Name": "Weedle", "Time": "2019-03-31T13:30:00.000Z" },
+            { "Group": "Pokemon", "Name": "Electrike", "Time": "2019-03-31T13:45:00.000Z" },
+            { "Group": "Pokemon", "Name": "Omastar", "Time": "2019-03-31T13:48:00.000Z" },
+            { "Group": "Pokemon", "Name": "Mudkip", "Time": "2019-03-31T14:09:00.000Z" },
+            { "Group": "Pokemon", "Name": "Shelgon", "Time": "2019-03-31T14:12:00.000Z" },
+            { "Group": "Pokemon", "Name": "Larvitar", "Time": "2019-03-31T14:20:00.000Z" },
+            { "Group": "Pokemon", "Name": "Smoochum", "Time": "2019-03-31T14:22:00.000Z" },
+            { "Group": "Pokemon", "Name": "Marill", "Time": "2019-03-31T14:28:00.000Z" },
+            { "Group": "Pokemon", "Name": "Carvanha", "Time": "2019-03-31T14:29:00.000Z" },
+            { "Group": "Pokemon", "Name": "Kecleon", "Time": "2019-03-31T14:45:00.000Z" },
+            { "Group": "Pokemon", "Name": "Squirtle", "Time": "2019-03-31T14:46:00.000Z" },
         ],
     }
 );
