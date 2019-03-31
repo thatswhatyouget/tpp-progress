@@ -16,7 +16,25 @@ Intermissions.Runs.push(
             { Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png", Time: "2019-03-31T06:04:00.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png", Time: "2019-03-31T10:07:00.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "2019-03-31T11:43:00.000Z", Attempts: 1 },
-            { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "2019-03-31T20:25:00.000Z", Attempts: 1 },
+            { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
+
+            { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 0 },
+            { Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png", Time: "", Attempts: 0 },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "01228", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
 
             { "Group": "Pokemon", "Name": "Gligar", "Time": "2019-03-31T01:05:00.000Z" },
             { "Group": "Pokemon", "Name": "Slowking", "Time": "2019-03-31T03:16:00.000Z" },
@@ -36,6 +54,19 @@ Intermissions.Runs.push(
             { "Group": "Pokemon", "Name": "Carvanha", "Time": "2019-03-31T14:29:00.000Z" },
             { "Group": "Pokemon", "Name": "Kecleon", "Time": "2019-03-31T14:45:00.000Z" },
             { "Group": "Pokemon", "Name": "Squirtle", "Time": "2019-03-31T14:46:00.000Z" },
+            { "Group": "Pokemon", "Name": "Grovyle", "Time": "2019-03-31T14:53:00.000Z" },
+            { "Group": "Pokemon", "Name": "Mawile", "Time": "2019-03-31T14:54:00.000Z" },
+            { "Group": "Pokemon", "Name": "Dragonite", "Time": "2019-03-31T15:01:00.000Z" },
+            { "Group": "Pokemon", "Name": "Graveler", "Time": "2019-03-31T15:49:00.000Z" },
+            { "Group": "Pokemon", "Name": "Ariados", "Time": "2019-03-31T15:52:00.000Z" },
+            { "Group": "Pokemon", "Name": "Tauros", "Time": "2019-03-31T15:53:00.000Z" },
+            { "Group": "Pokemon", "Name": "Magikarp", "Time": "2019-03-31T16:07:00.000Z" },
+            { "Group": "Pokemon", "Name": "Golbat", "Time": "2019-03-31T16:10:00.000Z" },
+            { "Group": "Pokemon", "Name": "Omanyte", "Time": "2019-03-31T16:42:00.000Z" },
+            { "Group": "Pokemon", "Name": "Clefable", "Time": "2019-03-31T16:57:00.000Z" },
+            { "Group": "Pokemon", "Name": "Numel", "Time": "2019-03-31T17:12:00.000Z" },
+            { "Group": "Pokemon", "Name": "Kakuna", "Time": "2019-03-31T17:44:00.000Z" },
+            { "Group": "Pokemon", "Name": "Vigoroth", "Time": "2019-03-31T17:46:00.000Z" },
         ],
     }
 );
