@@ -19,7 +19,7 @@ Intermissions.Runs.push(
             { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "2019-03-31T20:25:00.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "2019-03-31T21:48:00.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "2019-04-01T04:11:00.000Z", Attempts: 2 },
-            { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "2019-04-01T18:23:00.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
 
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
