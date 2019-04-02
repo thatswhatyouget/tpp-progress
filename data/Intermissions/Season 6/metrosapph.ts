@@ -25,17 +25,17 @@ Intermissions.Runs.push(
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "2019-04-02T04:20:00.000Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "2019-04-02T04:40:00.000Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "2019-04-02T04:53:00.00Z", Attempts: 1 },
-            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 1 },
+            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "2019-04-02T13:59:00.000Z", Attempts: 5 },
             { Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png", Time: "", Attempts: 0 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "01228", Attempts: 2, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "01228", Attempts: 12, Party: [
                     { Pokemon: "Gengar", Nickname: "IIHBAAAMMM", Level: 100, Gender: "Female", Number: 94, IDNo: "01228" },
                     { Pokemon: "Slowking", Nickname: "AAAAAAAAAA", Level: 100, Gender: "Female", Number: 199, IDNo: "01228" },
                     { Pokemon: "Kingdra", Level: 100, Gender: "Male", Number: 230, IDNo: "01228" },
                     { Pokemon: "Mew", Nickname: "MMMMMMMMGG", Level: 100, Number: 151, IDNo: "01228" },
                     { Pokemon: "Scizor", Nickname: "JJJJJJJJJJ", Level: 100, Gender: "Female", Number: 212, IDNo: "01228" },
-                    { Pokemon: "Blissey", Nickname: "BBBBBE 001", Level: 100, Gender: "Female", Number: 242, IDNo: "01228" },
+                    { Pokemon: "Celebi", Nickname: "111", Level: 100, Number: 251, IDNo: "01228" },
                 ],
                 FirstAttemptDate: "2019-04-02T04:08:00.00Z",
                 Image: "img/ribbons/champion.png"
@@ -176,6 +176,14 @@ Intermissions.Runs.push(
             { "Group": "Pokemon", "Name": "Tyranitar", "Time": "2019-04-02T03:10:00.000Z" },
             { "Group": "Pokemon", "Name": "Tangela", "Time": "2019-04-02T03:10:00.000Z" },
             { "Group": "Pokemon", "Name": "Dratini", "Time": "2019-04-02T03:30:00.000Z" },
+            { "Group": "Pokemon", "Name": "Ninetales", "Time": "2019-04-02T09:55:00.000Z" },
+            { "Group": "Pokemon", "Name": "Swellow", "Time": "2019-04-02T09:57:00.000Z" },
+            { "Group": "Pokemon", "Name": "Teddiursa", "Time": "2019-04-02T10:05:00.000Z" },
+            { "Group": "Pokemon", "Name": "Swinub", "Time": "2019-04-02T10:06:00.000Z" },
+            { "Group": "Pokemon", "Name": "Zangoose", "Time": "2019-04-02T10:07:00.000Z" },
+            { "Group": "Pokemon", "Name": "Steelix", "Time": "2019-04-02T10:08:00.000Z" },
+            { "Group": "Pokemon", "Name": "Houndoom", "Time": "2019-04-02T10:10:00.000Z" },
+            { "Group": "Pokemon", "Name": "Poliwrath", "Time": "2019-04-02T10:11:00.000Z" },
         ],
     }
 );
