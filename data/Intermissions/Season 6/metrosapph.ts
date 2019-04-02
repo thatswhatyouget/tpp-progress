@@ -26,10 +26,10 @@ Intermissions.Runs.push(
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "2019-04-02T04:40:00.000Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "2019-04-02T04:53:00.00Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "2019-04-02T13:59:00.000Z", Attempts: 5 },
-            { Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png", Time: "", Attempts: 0 },
+            { Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png", Time: "2019-04-02T14:18:00.00Z", Attempts: 1 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "01228", Attempts: 12, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-04-02T14:20:00.00Z", IDNo: "01228", Attempts: 12, Party: [
                     { Pokemon: "Gengar", Nickname: "IIHBAAAMMM", Level: 100, Gender: "Female", Number: 94, IDNo: "01228" },
                     { Pokemon: "Slowking", Nickname: "AAAAAAAAAA", Level: 100, Gender: "Female", Number: 199, IDNo: "01228" },
                     { Pokemon: "Kingdra", Level: 100, Gender: "Male", Number: 230, IDNo: "01228" },
