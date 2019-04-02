@@ -22,16 +22,22 @@ Intermissions.Runs.push(
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "2019-04-01T18:23:00.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "2019-04-02T01:24:00.000Z", Attempts: 1 },
 
-            { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "2019-04-02T04:20:00.000Z", Attempts: 1 },
+            { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "2019-04-02T04:40:00.000Z", Attempts: 1 },
+            { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "2019-04-02T04:53:00.00Z", Attempts: 1 },
+            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 1 },
             { Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png", Time: "", Attempts: 0 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "01228", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "01228", Attempts: 2, Party: [
+                    { Pokemon: "Gengar", Nickname: "IIHBAAAMMM", Level: 100, Gender: "Female", Number: 94, IDNo: "01228" },
+                    { Pokemon: "Slowking", Nickname: "AAAAAAAAAA", Level: 100, Gender: "Female", Number: 199, IDNo: "01228" },
+                    { Pokemon: "Kingdra", Level: 100, Gender: "Male", Number: 230, IDNo: "01228" },
+                    { Pokemon: "Mew", Nickname: "MMMMMMMMGG", Level: 100, Number: 151, IDNo: "01228" },
+                    { Pokemon: "Scizor", Nickname: "JJJJJJJJJJ", Level: 100, Gender: "Female", Number: 212, IDNo: "01228" },
+                    { Pokemon: "Blissey", Nickname: "BBBBBE 001", Level: 100, Gender: "Female", Number: 242, IDNo: "01228" },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2019-04-02T04:08:00.00Z",
                 Image: "img/ribbons/champion.png"
             },
 
@@ -155,7 +161,21 @@ Intermissions.Runs.push(
             { "Group": "Pokemon", "Name": "Nuzleaf", "Time": "2019-04-01T23:34:00.000Z" },
             { "Group": "Pokemon", "Name": "Rattata", "Time": "2019-04-02T01:32:00.000Z" },
             { "Group": "Pokemon", "Name": "Haunter", "Time": "2019-04-02T01:35:00.000Z" },
-            { "Group": "Pokemon", "Name": "Lickitung", "Time": "2019-04-02T01:43:00.000Z" }
+            { "Group": "Pokemon", "Name": "Lickitung", "Time": "2019-04-02T01:43:00.000Z" },
+            { "Group": "Pokemon", "Name": "Illumise", "Time": "2019-04-02T01:48:00.000Z" },
+            { "Group": "Pokemon", "Name": "Starmie", "Time": "2019-04-02T01:49:00.000Z" },
+            { "Group": "Pokemon", "Name": "Venusaur", "Time": "2019-04-02T01:55:00.000Z" },
+            { "Group": "Pokemon", "Name": "Raticate", "Time": "2019-04-02T02:04:00.000Z" },
+            { "Group": "Pokemon", "Name": "Arbok", "Time": "2019-04-02T02:10:00.000Z" },
+            { "Group": "Pokemon", "Name": "Seel", "Time": "2019-04-02T02:12:00.000Z" },
+            { "Group": "Pokemon", "Name": "Poochyena", "Time": "2019-04-02T02:18:00.000Z" },
+            { "Group": "Pokemon", "Name": "Vulpix", "Time": "2019-04-02T02:30:00.000Z" },
+            { "Group": "Pokemon", "Name": "Linoone", "Time": "2019-04-02T02:44:00.000Z" },
+            { "Group": "Pokemon", "Name": "Girafarig", "Time": "2019-04-02T02:45:00.000Z" },
+            { "Group": "Pokemon", "Name": "Surskit", "Time": "2019-04-02T02:50:00.000Z" },
+            { "Group": "Pokemon", "Name": "Tyranitar", "Time": "2019-04-02T03:10:00.000Z" },
+            { "Group": "Pokemon", "Name": "Tangela", "Time": "2019-04-02T03:10:00.000Z" },
+            { "Group": "Pokemon", "Name": "Dratini", "Time": "2019-04-02T03:30:00.000Z" },
         ],
     }
 );
