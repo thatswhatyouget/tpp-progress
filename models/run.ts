@@ -12,6 +12,7 @@ namespace TPP {
         Ongoing?: boolean;
         Unfinished?: boolean;
         EndDate?: string;
+        EndTime?: number;
         ColorPrimary: string;
         ColorSecondary: string;
         BackgroundImage?: string;

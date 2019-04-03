@@ -22,7 +22,7 @@ module TPP.Display.RunStatus {
     }
 
     export function GetCurrentRun(tppData: Collection[]) {
-        return tppData.reduce((runs, c) => runs.concat(c.Runs), [] as TPP.Run[]).sort((r1, r2) => r1.StartTime - r2.StartTime).pop();
+        return tppData.reduce((runs, c) => runs.concat(c.Runs), [] as TPP.Run[]).sort((r1, r2) => r1.EndTime - r2.EndTime).pop();
     }
 
     export function GetSpecifiedRun(tppData: Collection[], runName: string) {

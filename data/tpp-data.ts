@@ -78,9 +78,10 @@ setTimeout(() => {
     //remove events with blank times   
     tppData.forEach(c => c.Runs.forEach(r => r.Events = r.Events.filter(e => e.Time != "")));
 
-    //set StartTime for each run and UnixTime for each event
+    //set StartTime/EndTime for each run and UnixTime for each event
     tppData.forEach(c => c.Runs.forEach(r => {
         r.StartTime = r.StartTime || (r.StartDate ? Math.floor(Date.parse(r.StartDate) / 1000) : 0);
+        r.EndTime = r.EndTime || (TPP.Duration.parse(r.EndDate || r.Duration, r.StartTime).TotalSeconds + r.StartTime);
         r.Events.forEach(e => {
             e.UnixTime = TPP.Duration.parse(e.Time, r.StartTime).TotalSeconds + r.StartTime;
             if ((<TPP.HallOfFame>e).FirstAttemptDate) {

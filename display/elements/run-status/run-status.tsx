@@ -101,7 +101,7 @@ namespace TPP.Display.Elements.RunStatus {
         }
 
         private get wouldHaveRunStatus() {
-            return (this.state.run.Ongoing && !this.state.run.SidegameId) || this.inTestMode;
+            return (this.state.run.Ongoing /*&& !this.state.run.SidegameId*/) || this.inTestMode;
         }
 
         private get inTestMode() {
