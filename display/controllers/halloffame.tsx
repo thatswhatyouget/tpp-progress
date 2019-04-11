@@ -16,8 +16,11 @@ namespace TPP.Controllers {
         render() {
             var hofs: Display.ViewModels.PartyDisplay[] = [];
             this.tppData.forEach(c => c.Runs.forEach(r => r.Events.forEach(e => {
-                if ((e as HallOfFame).Party && Duration.parse(e.Time, r.StartTime).TotalSeconds > 0)
-                    hofs.push(new Display.ViewModels.PartyDisplay(e as HallOfFame, r, c.Scale));
+                if ((e as HallOfFame).Party && Duration.parse(e.Time, r.StartTime).TotalSeconds > 0) {
+                    const hof = new Display.ViewModels.PartyDisplay(e as HallOfFame, r, c.Scale);
+                    if (!hofs.some(h => h.Time == hof.Time)) //filter out duplicate entries (Event copy causes these)
+                        hofs.push(hof);
+                }
             })));
             hofs.sort((h1, h2) => h1.Time - h2.Time);
             return <div className="hof-list">
