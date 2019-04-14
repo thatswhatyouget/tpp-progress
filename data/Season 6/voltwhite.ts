@@ -78,7 +78,9 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Staravia", "Time": "2019-04-14T10:23:00.000Z" },
             { "Group": "Pokemon", "Name": "Aron", "Time": "2019-04-14T10:54:00.000Z" },
             { "Group": "Pokemon", "Name": "Ralts", "Time": "2019-04-14T12:14:00.000Z" },
-            { "Group": "Pokemon", "Name": "Ralts", "Time": "2019-04-14T12:14:00.000Z" },
+            { "Group": "Pokemon", "Name": "Croagunk", "Time": "2019-04-14T16:31:00.000Z" },
+            { "Group": "Pokemon", "Name": "Meditite", "Time": "2019-04-14T16:38:00.000Z" },
+            { "Group": "Pokemon", "Name": "Tympole", "Time": "2019-04-14T16:40:00.000Z" },
         ]
     }
 );
