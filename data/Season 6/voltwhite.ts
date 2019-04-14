@@ -67,7 +67,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Venonat", "Time": "2019-04-14T01:26:00.000Z" },
             { "Group": "Pokemon", "Name": "Natu", "Time": "2019-04-14T01:28:00.000Z" },
             { "Group": "Pokemon", "Name": "Audino", "Time": "2019-04-14T04:56:00.000Z" },
-            { "Group": "Pokemon", "Name": "Nidoran", "Time": "2019-04-14T05:28:00.000Z" },
+            { "Group": "Pokemon", "Name": "NidoranF", "Time": "2019-04-14T05:28:00.000Z" },
             { "Group": "Pokemon", "Name": "Munna", "Time": "2019-04-14T05:31:00.000Z" },
             { "Group": "Pokemon", "Name": "Drowzee", "Time": "2019-04-14T05:32:00.000Z" },
             { "Group": "Pokemon", "Name": "Spinda", "Time": "2019-04-14T05:36:00.000Z" },
