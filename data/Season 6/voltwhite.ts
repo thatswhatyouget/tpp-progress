@@ -66,6 +66,19 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Wurmple", "Time": "2019-04-14T00:53:00.000Z" },
             { "Group": "Pokemon", "Name": "Venonat", "Time": "2019-04-14T01:26:00.000Z" },
             { "Group": "Pokemon", "Name": "Natu", "Time": "2019-04-14T01:28:00.000Z" },
+            { "Group": "Pokemon", "Name": "Audino", "Time": "2019-04-14T04:56:00.000Z" },
+            { "Group": "Pokemon", "Name": "Nidoran", "Time": "2019-04-14T05:28:00.000Z" },
+            { "Group": "Pokemon", "Name": "Munna", "Time": "2019-04-14T05:31:00.000Z" },
+            { "Group": "Pokemon", "Name": "Drowzee", "Time": "2019-04-14T05:32:00.000Z" },
+            { "Group": "Pokemon", "Name": "Spinda", "Time": "2019-04-14T05:36:00.000Z" },
+            { "Group": "Pokemon", "Name": "Roggenrola", "Time": "2019-04-14T07:35:00.000Z" },
+            { "Group": "Pokemon", "Name": "Woobat", "Time": "2019-04-14T07:40:00.000Z" },
+            { "Group": "Pokemon", "Name": "Zubat", "Time": "2019-04-14T07:43:00.000Z" },
+            { "Group": "Pokemon", "Name": "Axew", "Time": "2019-04-14T08:49:00.000Z" },
+            { "Group": "Pokemon", "Name": "Staravia", "Time": "2019-04-14T10:23:00.000Z" },
+            { "Group": "Pokemon", "Name": "Aron", "Time": "2019-04-14T10:54:00.000Z" },
+            { "Group": "Pokemon", "Name": "Ralts", "Time": "2019-04-14T12:14:00.000Z" },
+            { "Group": "Pokemon", "Name": "Ralts", "Time": "2019-04-14T12:14:00.000Z" },
         ]
     }
 );
