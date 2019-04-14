@@ -13,7 +13,7 @@ Season6.Runs.push(
         Generation: 5,
         Pokedex: "National",
         Events: [
-            { Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png", Time: "7h2m", Attempts: 2 },
             { Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 0 },
@@ -64,6 +64,8 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Meowth", "Time": "2019-04-14T00:46:00.000Z" },
             { "Group": "Pokemon", "Name": "Kricketot", "Time": "2019-04-14T00:48:00.000Z" },
             { "Group": "Pokemon", "Name": "Wurmple", "Time": "2019-04-14T00:53:00.000Z" },
+            { "Group": "Pokemon", "Name": "Venonat", "Time": "2019-04-14T01:26:00.000Z" },
+            { "Group": "Pokemon", "Name": "Natu", "Time": "2019-04-14T01:28:00.000Z" },
         ]
     }
 );
