@@ -14,7 +14,7 @@ Season6.Runs.push(
         Pokedex: "National",
         Events: [
             { Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png", Time: "7h2m", Attempts: 2 },
-            { Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png", Time: "1d 5h 39m", Attempts: 7 },
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
