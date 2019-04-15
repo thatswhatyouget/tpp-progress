@@ -86,7 +86,11 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Growlithe", "Time": "2019-04-14T21:53:00.000Z" },
             { "Group": "Pokemon", "Name": "Pidove", "Time": "2019-04-14T21:55:00.000Z" },
             { "Group": "Pokemon", "Name": "Blitzle", "Time": "2019-04-14T21:58:00.000Z" },
-            { "Group": "Pokemon", "Name": "Budew", "Time": "2019-04-14T22:02:00.000Z" }
+            { "Group": "Pokemon", "Name": "Budew", "Time": "2019-04-14T22:02:00.000Z" },
+            { "Group": "Pokemon", "Name": "Cottonee", "Time": "2019-04-15T03:06:00.000Z" },
+            { "Group": "Pokemon", "Name": "Shroomish", "Time": "2019-04-15T03:07:00.000Z" },
+            { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2019-04-15T03:09:00.000Z" },
+            { "Group": "Pokemon", "Name": "Petilil", "Time": "2019-04-15T03:11:00.000Z" },
         ]
     }
 );
