@@ -16,7 +16,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png", Time: "7h2m", Attempts: 2 },
             { Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png", Time: "1d 5h 39m", Attempts: 7 },
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "2d 2h 24m", Attempts: 3 },
-            { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "3d 2h 1m", Attempts: 1 },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png", Time: "", Attempts: 0 },
@@ -149,6 +149,13 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Makuhita", "Time": "2019-04-16T11:09:00.000Z" },
             { "Group": "Pokemon", "Name": "Slakoth", "Time": "2019-04-16T11:31:00.000Z" },
             { "Group": "Pokemon", "Name": "Sigilyph", "Time": "2019-04-16T13:20:00.000Z" },
+{ "Group": "Pokemon", "Name": "Dwebble", "Time": "2019-04-16T21:14:00.000Z" },
+{ "Group": "Pokemon", "Name": "Gastly", "Time": "2019-04-16T21:20:00.000Z" },
+{ "Group": "Pokemon", "Name": "Bronzor", "Time": "2019-04-16T21:22:00.000Z" },
+{ "Group": "Pokemon", "Name": "Larvesta", "Time": "2019-04-16T21:27:00.000Z" },
+{ "Group": "Pokemon", "Name": "Skarmory", "Time": "2019-04-16T21:53:00.000Z" },
+{ "Group": "Pokemon", "Name": "Maractus", "Time": "2019-04-16T22:07:00.000Z" },
+{ "Group": "Pokemon", "Name": "Excadrill", "Time": "2019-04-16T22:37:00.000Z" },
         ]
     }
 );
