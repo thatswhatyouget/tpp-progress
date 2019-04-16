@@ -140,6 +140,15 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Mime Jr.", "Time": "2019-04-16T03:55:00.000Z" },
             { "Group": "Pokemon", "Name": "Lickitung", "Time": "2019-04-16T03:59:00.000Z" },
             { "Group": "Pokemon", "Name": "Nidorina", "Time": "2019-04-16T04:08:00.000Z" },
-            { "Group": "Pokemon", "Name": "Nidorino", "Time": "2019-04-16T04:11:00.000Z" },]
+            { "Group": "Pokemon", "Name": "Nidorino", "Time": "2019-04-16T04:11:00.000Z" },
+            { "Group": "Pokemon", "Name": "Diglett", "Time": "2019-04-16T08:56:00.000Z" },
+            { "Group": "Pokemon", "Name": "Drilbur", "Time": "2019-04-16T09:40:00.000Z" },
+            { "Group": "Pokemon", "Name": "Sawk", "Time": "2019-04-16T10:43:00.000Z" },
+            { "Group": "Pokemon", "Name": "Dunsparce", "Time": "2019-04-16T10:46:00.000Z" },
+            { "Group": "Pokemon", "Name": "Snubbull", "Time": "2019-04-16T10:49:00.000Z" },
+            { "Group": "Pokemon", "Name": "Makuhita", "Time": "2019-04-16T11:09:00.000Z" },
+            { "Group": "Pokemon", "Name": "Slakoth", "Time": "2019-04-16T11:31:00.000Z" },
+            { "Group": "Pokemon", "Name": "Sigilyph", "Time": "2019-04-16T13:20:00.000Z" },
+        ]
     }
 );
