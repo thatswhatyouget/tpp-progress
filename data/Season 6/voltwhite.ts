@@ -17,7 +17,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png", Time: "1d 5h 39m", Attempts: 7 },
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "2d 2h 24m", Attempts: 3 },
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "3d 2h 1m", Attempts: 1 },
-            { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "3d 15h 43m", Attempts: 2 },
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "", Attempts: 0 },
@@ -202,6 +202,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Swellow", "Time": "2019-04-17T10:49:00.000Z" },
             { "Group": "Pokemon", "Name": "Sneasel", "Time": "2019-04-17T10:57:00.000Z" },
             { "Group": "Pokemon", "Name": "Smoochum", "Time": "2019-04-17T11:05:00.000Z" },
+            { "Group": "Pokemon", "Name": "Sudowoodo", "Time": "2019-04-17T13:36:00.000Z" },
         ]
     }
 );
