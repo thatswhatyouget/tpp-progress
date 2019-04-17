@@ -227,6 +227,11 @@ Season6.Runs.push(
 { "Group": "Pokemon", "Name": "Chimecho", "Time": "2019-04-17T18:23:00.000Z" },
 { "Group": "Pokemon", "Name": "Haunter", "Time": "2019-04-17T18:24:00.000Z" },
 { "Group": "Pokemon", "Name": "Dusclops", "Time": "2019-04-17T18:37:00.000Z" },
+{ "Group": "Pokemon", "Name": "Purrloin", "Time": "2019-04-17T20:06:00.000Z" },
+{ "Group": "Pokemon", "Name": "Purrloin", "Time": "2019-04-17T20:07:00.000Z" },
+{ "Group": "Pokemon", "Name": "Rattata", "Time": "2019-04-17T20:35:00.000Z" },
+{ "Group": "Pokemon", "Name": "Hoothoot", "Time": "2019-04-17T20:41:00.000Z" },
+{ "Group": "Pokemon", "Name": "Elekid", "Time": "2019-04-17T22:30:00.000Z" },
         ]
     }
 );
