@@ -287,6 +287,7 @@ Season6.Runs.push(
 { "Group": "Pokemon", "Name": "Wingull", "Time": "2019-04-18T16:39:00.000Z" },
 { "Group": "Pokemon", "Name": "Machop", "Time": "2019-04-18T19:49:00.000Z" },
 { "Group": "Pokemon", "Name": "Ledyba", "Time": "2019-04-18T20:06:00.000Z" },
+{ "Group": "Pokemon", "Name": "Skitty", "Time": "2019-04-18T22:48:00.000Z" },
         ]
     }
 );
