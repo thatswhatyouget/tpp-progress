@@ -19,7 +19,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "3d 2h 1m", Attempts: 1 },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "3d 15h 43m", Attempts: 2 },
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "4d7h48m", Attempts: 3 },
-            { Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png", Time: "", Attempts: 4 },
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "", Attempts: 0 },
 
             { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0 },
@@ -285,6 +285,8 @@ Season6.Runs.push(
 { "Group": "Pokemon", "Name": "Munchlax", "Time": "2019-04-18T15:54:00.000Z" },
 { "Group": "Pokemon", "Name": "Throh", "Time": "2019-04-18T16:00:00.000Z" },
 { "Group": "Pokemon", "Name": "Wingull", "Time": "2019-04-18T16:39:00.000Z" },
+{ "Group": "Pokemon", "Name": "Machop", "Time": "2019-04-18T19:49:00.000Z" },
+{ "Group": "Pokemon", "Name": "Ledyba", "Time": "2019-04-18T20:06:00.000Z" },
         ]
     }
 );
