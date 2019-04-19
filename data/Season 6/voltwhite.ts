@@ -20,7 +20,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "3d 2h 1m", Attempts: 1 },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "3d 15h 43m", Attempts: 2 },
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "4d7h48m", Attempts: 3 },
-            { Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png", Time: "5d 21h 43m", Attempts: 12 },
+            { Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png", Time: "5d 21h 43m", Attempts: 15 },
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "", Attempts: 0 },
 
             { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0 },
@@ -313,6 +313,12 @@ Season6.Runs.push(
 { "Group": "Pokemon", "Name": "Baltoy", "Time": "2019-04-19T20:07:00.000Z" },
 { "Group": "Pokemon", "Name": "Golett", "Time": "2019-04-19T20:09:00.000Z" },
 { "Group": "Pokemon", "Name": "Druddigon", "Time": "2019-04-19T20:16:00.000Z" },
+{ "Group": "Pokemon", "Name": "Cofagrigus", "Time": "2019-04-19T21:15:00.000Z" },
+{ "Group": "Pokemon", "Name": "Sandslash", "Time": "2019-04-19T21:31:00.000Z" },
+{ "Group": "Pokemon", "Name": "Crustle", "Time": "2019-04-19T21:39:00.000Z" },
+{ "Group": "Pokemon", "Name": "Darmanitan", "Time": "2019-04-19T21:42:00.000Z" },
+{ "Group": "Pokemon", "Name": "Vibrava", "Time": "2019-04-19T21:48:00.000Z" },
+{ "Group": "Pokemon", "Name": "Krokorok", "Time": "2019-04-19T21:52:00.000Z" },
         ]
     }
 );
