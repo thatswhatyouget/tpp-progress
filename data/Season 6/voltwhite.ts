@@ -20,7 +20,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "3d 2h 1m", Attempts: 1 },
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "3d 15h 43m", Attempts: 2 },
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "4d7h48m", Attempts: 3 },
-            { Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png", Time: "", Attempts: 5 },
+            { Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png", Time: "5d 21h 43m", Attempts: 12 },
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "", Attempts: 0 },
 
             { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0 },
@@ -298,6 +298,21 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Whiscash", "Time": "2019-04-19T01:44:00.000Z" },
             { "Group": "Pokemon", "Name": "Quagsire", "Time": "2019-04-19T01:51:00.000Z" },
             { "Group": "Pokemon", "Name": "Slowpoke", "Time": "2019-04-19T02:01:00.000Z" },
+            { "Group": "Pokemon", "Name": "Seadra", "Time": "2019-04-19T06:22:00.000Z" },
+            { "Group": "Pokemon", "Name": "Larvitar", "Time": "2019-04-19T13:14:00.000Z" },
+            { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "2019-04-19T13:19:00.000Z" },
+            { "Group": "Pokemon", "Name": "Deino", "Time": "2019-04-19T13:26:00.000Z" },
+            { "Group": "Pokemon", "Name": "Bagon", "Time": "2019-04-19T13:44:00.000Z" },
+{ "Group": "Pokemon", "Name": "Tynamo", "Time": "2019-04-19T15:13:00.000Z" },
+{ "Group": "Pokemon", "Name": "Xatu", "Time": "2019-04-19T15:35:00.000Z" },
+{ "Group": "Pokemon", "Name": "Gabite", "Time": "2019-04-19T16:41:00.000Z" },
+{ "Group": "Pokemon", "Name": "Rhydon", "Time": "2019-04-19T16:42:00.000Z" },
+{ "Group": "Pokemon", "Name": "Zweilous", "Time": "2019-04-19T16:44:00.000Z" },
+{ "Group": "Pokemon", "Name": "Claydol", "Time": "2019-04-19T19:19:00.000Z" },
+{ "Group": "Pokemon", "Name": "Golurk", "Time": "2019-04-19T19:21:00.000Z" },
+{ "Group": "Pokemon", "Name": "Baltoy", "Time": "2019-04-19T20:07:00.000Z" },
+{ "Group": "Pokemon", "Name": "Golett", "Time": "2019-04-19T20:09:00.000Z" },
+{ "Group": "Pokemon", "Name": "Druddigon", "Time": "2019-04-19T20:16:00.000Z" },
         ]
     }
 );
