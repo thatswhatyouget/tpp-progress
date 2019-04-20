@@ -24,16 +24,17 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "6d5h53m", Attempts: 1 },
 
             { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "6d 22h 10m", Attempts: 1 },
             { Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "6d 23h 19m", Attempts: 2 },
             { Group: "Champions", Name: "N", Image: "img/trainers/black/n.png", Time: "", Attempts: 0 },
             { Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/ghetsis.png", Time: "", Attempts: 0 },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", Time: "", IDNo: "07180", Attempts: 0, Party: [
                 ],
-                Image: "img/ribbons/event.png"
+                Image: "img/ribbons/event.png",
+                FirstAttemptDate: "6d 19h 31m"
             },
 
             { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0, Class: "Rematch" },
@@ -367,6 +368,9 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Pupitar", "Time": "2019-04-20T12:39:00.000Z" },
             { "Group": "Pokemon", "Name": "Girafarig", "Time": "2022-01-14T13:28:00.000Z" },
             { "Group": "Pokemon", "Name": "Arbok", "Time": "2022-01-14T13:56:00.000Z" },
+            { "Group": "Pokemon", "Name": "Frillish", "Time": "2022-01-14T23:41:00.000Z" },
+            { "Group": "Pokemon", "Name": "Tentacool", "Time": "2022-01-14T23:43:00.000Z" },
+            { "Group": "Pokemon", "Name": "Staryu", "Time": "2022-01-14T23:48:00.000Z" },
         ]
     }
 );
