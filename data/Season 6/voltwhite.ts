@@ -25,7 +25,7 @@ Season6.Runs.push(
 
             { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "6d 22h 10m", Attempts: 1 },
-            { Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "7d 5h 35m", Attempts: 7 },
             { Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "6d 23h 19m", Attempts: 2 },
             { Group: "Champions", Name: "N", Image: "img/trainers/black/n.png", Time: "", Attempts: 0 },
             { Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/ghetsis.png", Time: "", Attempts: 0 },
@@ -371,6 +371,15 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Frillish", "Time": "2019-04-20T23:41:00.000Z" },
             { "Group": "Pokemon", "Name": "Tentacool", "Time": "2019-04-20T23:43:00.000Z" },
             { "Group": "Pokemon", "Name": "Staryu", "Time": "2019-04-20T23:48:00.000Z" },
+            { "Group": "Pokemon", "Name": "Parasect", "Time": "2019-04-21T00:42:00.000Z" },
+            { "Group": "Pokemon", "Name": "Glameow", "Time": "2019-04-21T00:47:00.000Z" },
+            { "Group": "Pokemon", "Name": "Stunky", "Time": "2019-04-21T00:50:00.000Z" },
+            { "Group": "Pokemon", "Name": "Castform", "Time": "2019-04-21T00:52:00.000Z" },
+            { "Group": "Pokemon", "Name": "Vespiquen", "Time": "2019-04-21T00:57:00.000Z" },
+            { "Group": "Pokemon", "Name": "Slugma", "Time": "2019-04-21T01:01:00.000Z" },
+            { "Group": "Pokemon", "Name": "Farfetch'd", "Time": "2019-04-21T01:35:00.000Z" },
+            { "Group": "Pokemon", "Name": "Chatot", "Time": "2019-04-21T01:44:00.000Z" },
+            { "Group": "Pokemon", "Name": "Skorupi", "Time": "2019-04-21T01:50:00.000Z" },
         ]
     }
 );
