@@ -366,11 +366,11 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Gurdurr", "Time": "2019-04-20T11:11:00.000Z" },
             { "Group": "Pokemon", "Name": "Hariyama", "Time": "2019-04-20T12:18:00.000Z" },
             { "Group": "Pokemon", "Name": "Pupitar", "Time": "2019-04-20T12:39:00.000Z" },
-            { "Group": "Pokemon", "Name": "Girafarig", "Time": "2022-01-14T13:28:00.000Z" },
-            { "Group": "Pokemon", "Name": "Arbok", "Time": "2022-01-14T13:56:00.000Z" },
-            { "Group": "Pokemon", "Name": "Frillish", "Time": "2022-01-14T23:41:00.000Z" },
-            { "Group": "Pokemon", "Name": "Tentacool", "Time": "2022-01-14T23:43:00.000Z" },
-            { "Group": "Pokemon", "Name": "Staryu", "Time": "2022-01-14T23:48:00.000Z" },
+            { "Group": "Pokemon", "Name": "Girafarig", "Time": "2019-04-20T13:28:00.000Z" },
+            { "Group": "Pokemon", "Name": "Arbok", "Time": "2019-04-20T13:56:00.000Z" },
+            { "Group": "Pokemon", "Name": "Frillish", "Time": "2019-04-20T23:41:00.000Z" },
+            { "Group": "Pokemon", "Name": "Tentacool", "Time": "2019-04-20T23:43:00.000Z" },
+            { "Group": "Pokemon", "Name": "Staryu", "Time": "2019-04-20T23:48:00.000Z" },
         ]
     }
 );
