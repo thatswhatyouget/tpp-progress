@@ -23,7 +23,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png", Time: "5d 21h 43m", Attempts: 15 },
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "6d5h53m", Attempts: 1 },
 
-            { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "7d 6h 43m", Attempts: 4 },
             { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "6d 22h 10m", Attempts: 1 },
             { Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "7d 5h 35m", Attempts: 7 },
             { Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "6d 23h 19m", Attempts: 2 },
