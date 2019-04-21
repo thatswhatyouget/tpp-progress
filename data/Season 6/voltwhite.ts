@@ -380,6 +380,18 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Farfetch'd", "Time": "2019-04-21T01:35:00.000Z" },
             { "Group": "Pokemon", "Name": "Chatot", "Time": "2019-04-21T01:44:00.000Z" },
             { "Group": "Pokemon", "Name": "Skorupi", "Time": "2019-04-21T01:50:00.000Z" },
+            { "Group": "Pokemon", "Name": "Feebas", "Time": "2019-04-21T09:08:00.000Z" },
+            { "Group": "Pokemon", "Name": "Mightyena", "Time": "2019-04-21T09:25:00.000Z" },
+            { "Group": "Pokemon", "Name": "Raticate", "Time": "2019-04-21T09:44:00.000Z" },
+            { "Group": "Pokemon", "Name": "Wailord", "Time": "2019-04-21T09:55:00.000Z" },
+            { "Group": "Pokemon", "Name": "Carvanha", "Time": "2019-04-21T10:05:00.000Z" },
+            { "Group": "Pokemon", "Name": "Electrode", "Time": "2019-04-21T12:05:00.000Z" },
+            { "Group": "Pokemon", "Name": "Porygon", "Time": "2019-04-21T12:10:00.000Z" },
+            { "Group": "Pokemon", "Name": "Shuckle", "Time": "2019-04-21T12:12:00.000Z" },
+            { "Group": "Pokemon", "Name": "Kingler", "Time": "2019-04-21T12:16:00.000Z" },
+            { "Group": "Pokemon", "Name": "Pelipper", "Time": "2019-04-21T12:33:00.000Z" },
+            { "Group": "Pokemon", "Name": "Krabby", "Time": "2019-04-21T12:39:00.000Z" },
+            { "Group": "Pokemon", "Name": "Conkeldurr", "Time": "2019-04-21T17:16:00.000Z" },
         ]
     }
 );
