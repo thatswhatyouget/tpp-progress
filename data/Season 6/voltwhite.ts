@@ -27,11 +27,17 @@ Season6.Runs.push(
             { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "6d 22h 10m", Attempts: 1 },
             { Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "7d 5h 35m", Attempts: 7 },
             { Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "6d 23h 19m", Attempts: 2 },
-            { Group: "Champions", Name: "N", Image: "img/trainers/black/n.png", Time: "", Attempts: 0 },
-            { Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/ghetsis.png", Time: "", Attempts: 0 },
+            { Group: "Champions", Name: "N", Image: "img/trainers/black/n.png", Time: "8d 6h 8m", Attempts: 1 },
+            { Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/ghetsis.png", Time: "", Attempts: 1 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "First Game Clear", Time: "", IDNo: "07180", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "First Game Clear", Time: "", IDNo: "07180", Attempts: 48, Party: [
+                    { Pokemon: "Staraptor", Nickname: "aaaxxxm %", Level: 85, Gender: "Male" },
+                    { Pokemon: "Haxorus", Nickname: "q--------l", Level: 86, Gender: "Female" },
+                    { Pokemon: "Lilligant", Nickname: "Petililqz", Level: 85, Gender: "Female" },
+                    { Pokemon: "Musharna", Nickname: ",,,,,((((%", Level: 85, Gender: "Male" },
+                    { Pokemon: "Toxicroak", Nickname: "qwriowy", Level: 95, Gender: "Male" },
+                    { Pokemon: "Excadrill", Nickname: "♂♂♂♂♂♂♂♂-W", Level: 93, Gender: "Female" },
                 ],
                 Image: "img/ribbons/event.png",
                 FirstAttemptDate: "6d 19h 31m"
@@ -392,7 +398,8 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Pelipper", "Time": "2019-04-21T12:33:00.000Z" },
             { "Group": "Pokemon", "Name": "Krabby", "Time": "2019-04-21T12:39:00.000Z" },
             { "Group": "Pokemon", "Name": "Conkeldurr", "Time": "2019-04-21T17:16:00.000Z" },
-            { "Group": "Pokemon", "Name": "Dodrio", "Time": "2019-04-21T21:33:00.000Z" }
+            { "Group": "Pokemon", "Name": "Dodrio", "Time": "2019-04-21T21:33:00.000Z" },
+            { "Group": "Pokemon", "Name": "Zekrom", "Time": "2019-04-22T02:59:00.000Z" },
         ]
     }
 );
