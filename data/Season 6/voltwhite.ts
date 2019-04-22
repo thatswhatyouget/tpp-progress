@@ -28,10 +28,10 @@ Season6.Runs.push(
             { Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "7d 5h 35m", Attempts: 7 },
             { Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "6d 23h 19m", Attempts: 2 },
             { Group: "Champions", Name: "N", Image: "img/trainers/black/n.png", Time: "8d 6h 8m", Attempts: 1 },
-            { Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/ghetsis.png", Time: "", Attempts: 1 },
+            { Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/ghetsis.png", Time: "8d6h17m", Attempts: 1 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "First Game Clear", Time: "", IDNo: "07180", Attempts: 48, Party: [
+                Group: "Hall of Fame", Name: "First Game Clear", Time: "8d6h19m", IDNo: "07180", Attempts: 48, Party: [
                     { Pokemon: "Staraptor", Nickname: "aaaxxxm %", Level: 85, Gender: "Male" },
                     { Pokemon: "Haxorus", Nickname: "q--------l", Level: 86, Gender: "Female" },
                     { Pokemon: "Lilligant", Nickname: "Petililqz", Level: 85, Gender: "Female" },
