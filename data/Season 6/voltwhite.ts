@@ -392,6 +392,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Pelipper", "Time": "2019-04-21T12:33:00.000Z" },
             { "Group": "Pokemon", "Name": "Krabby", "Time": "2019-04-21T12:39:00.000Z" },
             { "Group": "Pokemon", "Name": "Conkeldurr", "Time": "2019-04-21T17:16:00.000Z" },
+            { "Group": "Pokemon", "Name": "Dodrio", "Time": "2019-04-21T21:33:00.000Z" }
         ]
     }
 );
