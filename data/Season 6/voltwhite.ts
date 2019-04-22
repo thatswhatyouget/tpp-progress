@@ -407,7 +407,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Venomoth", "Time": "2019-04-22T04:23:00.000Z" },
             { "Group": "Pokemon", "Name": "Clefable", "Time": "2019-04-22T04:32:00.000Z" },
             { "Group": "Pokemon", "Name": "Wigglytuff", "Time": "2019-04-22T04:40:00.000Z" },
-            { "Group": "Pokemon", "Name": "Nidoran", "Time": "2019-04-22T04:51:00.000Z" },
+            { "Group": "Pokemon", "Name": "NidoranM", "Time": "2019-04-22T04:51:00.000Z" },
             { "Group": "Pokemon", "Name": "Gallade", "Time": "2019-04-22T05:48:00.000Z" },
             { "Group": "Pokemon", "Name": "Gardevoir", "Time": "2019-04-22T05:58:00.000Z" },
             { "Group": "Pokemon", "Name": "Illumise", "Time": "2019-04-22T07:05:00.000Z" },
