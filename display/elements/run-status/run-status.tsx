@@ -223,10 +223,12 @@ namespace TPP.Display.Elements.RunStatus {
                     <ItemDisplay key="Key Items R" title="Key Items (Red)" items={this.state.status.items["key_red"]} />
                     <ItemDisplay key="Poké Balls" title="Poké Balls" items={this.state.status.items.balls} />
                     <ItemDisplay key="TMs" title="TMs and HMs" items={this.state.status.items.tms} />
+                    <ItemDisplay key="TM" title="TMs and HMs" items={this.state.status.items.tm} />
                     <ItemDisplay key="Medicine" title="Medicine" items={this.state.status.items.medicine} />
                     <ItemDisplay key="Mail" title="Mail" items={this.state.status.items.mail} />
                     <ItemDisplay key="Battle Items" title="Battle Items" items={this.state.status.items.battle} />
                     <ItemDisplay key="Berries" title="Berries" items={this.state.status.items.berries} />
+                    <ItemDisplay key="Berry" title="Berries" items={this.state.status.items.berry} />
                     <ItemDisplay key="Z-Crystals" title="Z-Crystals" items={this.state.status.items.z_crystals} />
                     <ItemDisplay key="Rotom Powers" title="Rotom Powers" items={this.state.status.items.rotom_powers} />
                     <ItemDisplay key="Free Space" title="Free Space" items={this.state.status.items.free_space} />

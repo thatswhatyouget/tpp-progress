@@ -23,9 +23,11 @@ namespace TPP.Tv {
             battle?: Item[];
             medicine?: Item[];
             berries?: Item[];
+            berry?: Item[];
             z_crystals?: Item[];
             rotom_powers?: Item[];
             tms?: Item[];
+            tm?: Item[];
             pc?: Item[];
         };
         level_cap?: number;
