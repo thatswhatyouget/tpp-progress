@@ -456,6 +456,13 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Cobalion", "Time": "2019-04-23T11:46:00.000Z" },
             { "Group": "Pokemon", "Name": "Shelgon", "Time": "2019-04-23T12:02:00.000Z" },
             { "Group": "Pokemon", "Name": "Persian", "Time": "2019-04-23T13:47:00.000Z" },
+{ "Group": "Pokemon", "Name": "Tyrogue", "Time": "2019-04-23T14:48:00.000Z" },
+{ "Group": "Pokemon", "Name": "Seaking", "Time": "2019-04-23T18:02:00.000Z" },
+{ "Group": "Pokemon", "Name": "Eevee", "Time": "2019-04-23T19:02:00.000Z" },
+{ "Group": "Pokemon", "Name": "Escavalier", "Time": "2019-04-23T20:35:00.000Z" },
+{ "Group": "Pokemon", "Name": "Masquerain", "Time": "2019-04-23T20:38:00.000Z" },
+{ "Group": "Pokemon", "Name": "Accelgor", "Time": "2019-04-23T20:49:00.000Z" },
+{ "Group": "Pokemon", "Name": "Fearow", "Time": "2019-04-23T21:00:00.000Z" },
         ]
     }
 );
