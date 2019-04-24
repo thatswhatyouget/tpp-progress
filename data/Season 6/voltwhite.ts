@@ -43,17 +43,24 @@ Season6.Runs.push(
                 FirstAttemptDate: "6d 19h 31m"
             },
 
-            { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "10d 5h 30m", Attempts: 1, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "", Attempts: 0, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "", Attempts: 0, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "", Attempts: 0, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "10d 5h 38m", Attempts: 1, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "", Attempts: 1, Class: "Rematch" },
 
             { Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "", Attempts: 0 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "07180", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "07180", Attempts: 1, Party: [
+                    { Pokemon: "Excadrill", Nickname: "♂♂♂♂♂♂♂♂-W", Level: 100, Gender: "Female" },
+                    { Pokemon: "Musharna", Nickname: ",,,,,((((%", Level: 100, Gender: "Male" },
+                    { Pokemon: "Staraptor", Nickname: "aaaxxxm %", Level: 100, Gender: "Male" },
+                    { Pokemon: "Toxicroak", Nickname: "qwriowy", Level: 100, Gender: "Male" },
+                    { Pokemon: "Haxorus", Nickname: "q--------l", Level: 100, Gender: "Female" },
+                    { Pokemon: "Lilligant", Nickname: "Petililqz", Level: 100, Gender: "Female" },
                 ],
-                Image: "img/ribbons/champion.png"
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate:"10d 5h 21m"
             },
 
             { "Group": "Pokemon", "Name": "Snivy", "Time": "2019-04-13T21:04:00.000Z" },
@@ -456,13 +463,20 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Cobalion", "Time": "2019-04-23T11:46:00.000Z" },
             { "Group": "Pokemon", "Name": "Shelgon", "Time": "2019-04-23T12:02:00.000Z" },
             { "Group": "Pokemon", "Name": "Persian", "Time": "2019-04-23T13:47:00.000Z" },
-{ "Group": "Pokemon", "Name": "Tyrogue", "Time": "2019-04-23T14:48:00.000Z" },
-{ "Group": "Pokemon", "Name": "Seaking", "Time": "2019-04-23T18:02:00.000Z" },
-{ "Group": "Pokemon", "Name": "Eevee", "Time": "2019-04-23T19:02:00.000Z" },
-{ "Group": "Pokemon", "Name": "Escavalier", "Time": "2019-04-23T20:35:00.000Z" },
-{ "Group": "Pokemon", "Name": "Masquerain", "Time": "2019-04-23T20:38:00.000Z" },
-{ "Group": "Pokemon", "Name": "Accelgor", "Time": "2019-04-23T20:49:00.000Z" },
-{ "Group": "Pokemon", "Name": "Fearow", "Time": "2019-04-23T21:00:00.000Z" },
+            { "Group": "Pokemon", "Name": "Tyrogue", "Time": "2019-04-23T14:48:00.000Z" },
+            { "Group": "Pokemon", "Name": "Seaking", "Time": "2019-04-23T18:02:00.000Z" },
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "2019-04-23T19:02:00.000Z" },
+            { "Group": "Pokemon", "Name": "Escavalier", "Time": "2019-04-23T20:35:00.000Z" },
+            { "Group": "Pokemon", "Name": "Masquerain", "Time": "2019-04-23T20:38:00.000Z" },
+            { "Group": "Pokemon", "Name": "Accelgor", "Time": "2019-04-23T20:49:00.000Z" },
+            { "Group": "Pokemon", "Name": "Fearow", "Time": "2019-04-23T21:00:00.000Z" },
+            { "Group": "Pokemon", "Name": "Slaking", "Time": "2019-04-23T21:51:00.000Z" },
+            { "Group": "Pokemon", "Name": "Goldeen", "Time": "2019-04-23T22:01:00.000Z" },
+            { "Group": "Pokemon", "Name": "Skuntank", "Time": "2019-04-23T22:16:00.000Z" },
+            { "Group": "Pokemon", "Name": "Emolga", "Time": "2019-04-24T00:45:00.000Z" },
+            { "Group": "Pokemon", "Name": "Dustox", "Time": "2019-04-24T00:53:00.000Z" },
+            { "Group": "Pokemon", "Name": "Beedrill", "Time": "2019-04-24T00:54:00.000Z" },
+            { "Group": "Pokemon", "Name": "Beautifly", "Time": "2019-04-24T00:59:00.000Z" },
         ]
     }
 );
