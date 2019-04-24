@@ -60,7 +60,7 @@ Season6.Runs.push(
                     { Pokemon: "Lilligant", Nickname: "Petililqz", Level: 100, Gender: "Female" },
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate:"10d 5h 21m"
+                FirstAttemptDate: "10d 5h 21m"
             },
 
             { "Group": "Pokemon", "Name": "Snivy", "Time": "2019-04-13T21:04:00.000Z" },
@@ -477,6 +477,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Dustox", "Time": "2019-04-24T00:53:00.000Z" },
             { "Group": "Pokemon", "Name": "Beedrill", "Time": "2019-04-24T00:54:00.000Z" },
             { "Group": "Pokemon", "Name": "Beautifly", "Time": "2019-04-24T00:59:00.000Z" },
+            { "Group": "Pokemon", "Name": "Oshawott", "Time": "2019-04-24T06:25:00.000Z" },
         ]
     }
 );
