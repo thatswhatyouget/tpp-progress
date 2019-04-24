@@ -477,7 +477,9 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Dustox", "Time": "2019-04-24T00:53:00.000Z" },
             { "Group": "Pokemon", "Name": "Beedrill", "Time": "2019-04-24T00:54:00.000Z" },
             { "Group": "Pokemon", "Name": "Beautifly", "Time": "2019-04-24T00:59:00.000Z" },
+            { "Group": "Pokemon", "Name": "Remoraid", "Time": "2019-04-24T05:47:00.000Z" },
             { "Group": "Pokemon", "Name": "Oshawott", "Time": "2019-04-24T06:25:00.000Z" },
+            { "Group": "Pokemon", "Name": "Glaceon", "Time": "2019-04-24T06:44:00.000Z" },
         ]
     }
 );
