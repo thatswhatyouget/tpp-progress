@@ -44,14 +44,14 @@ Season6.Runs.push(
             },
 
             { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "10d 5h 30m", Attempts: 1, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "", Attempts: 0, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "10d 6h 10m", Attempts: 1, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "10d 5h 38m", Attempts: 1, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "", Attempts: 1, Class: "Rematch" },
 
             { Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "", Attempts: 0 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "07180", Attempts: 1, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "07180", Attempts: 2, Party: [
                     { Pokemon: "Excadrill", Nickname: "♂♂♂♂♂♂♂♂-W", Level: 100, Gender: "Female" },
                     { Pokemon: "Musharna", Nickname: ",,,,,((((%", Level: 100, Gender: "Male" },
                     { Pokemon: "Staraptor", Nickname: "aaaxxxm %", Level: 100, Gender: "Male" },
