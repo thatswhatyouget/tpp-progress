@@ -480,6 +480,24 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Remoraid", "Time": "2019-04-24T05:47:00.000Z" },
             { "Group": "Pokemon", "Name": "Oshawott", "Time": "2019-04-24T06:25:00.000Z" },
             { "Group": "Pokemon", "Name": "Glaceon", "Time": "2019-04-24T06:44:00.000Z" },
+            { "Group": "Pokemon", "Name": "Lileep", "Time": "2019-04-24T07:01:00.000Z" },
+            { "Group": "Pokemon", "Name": "Spinarak", "Time": "2019-04-24T07:25:00.000Z" },
+            { "Group": "Pokemon", "Name": "Burmy", "Time": "2019-04-24T07:30:00.000Z" },
+            { "Group": "Pokemon", "Name": "Anorith", "Time": "2019-04-24T07:57:00.000Z" },
+            { "Group": "Pokemon", "Name": "Omanyte", "Time": "2019-04-24T08:26:00.000Z" },
+            { "Group": "Pokemon", "Name": "Kabuto", "Time": "2019-04-24T08:32:00.000Z" },
+            { "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2019-04-24T08:39:00.000Z" },
+            { "Group": "Pokemon", "Name": "Shieldon", "Time": "2019-04-24T08:45:00.000Z" },
+            { "Group": "Pokemon", "Name": "Koffing", "Time": "2019-04-24T11:17:00.000Z" },
+            { "Group": "Pokemon", "Name": "Swanna", "Time": "2019-04-24T12:12:00.000Z" },
+            { "Group": "Pokemon", "Name": "Ninetales", "Time": "2019-04-24T12:53:00.000Z" },
+            { "Group": "Pokemon", "Name": "Togekiss", "Time": "2019-04-24T13:01:00.000Z" },
+            { "Group": "Pokemon", "Name": "Shiftry", "Time": "2019-04-24T13:05:00.000Z" },
+            { "Group": "Pokemon", "Name": "Ludicolo", "Time": "2019-04-24T13:12:00.000Z" },
+            { "Group": "Pokemon", "Name": "Starmie", "Time": "2019-04-24T13:17:00.000Z" },
+            { "Group": "Pokemon", "Name": "Bellossom", "Time": "2019-04-24T13:33:00.000Z" },
+            { "Group": "Pokemon", "Name": "Roserade", "Time": "2019-04-24T13:36:00.000Z" },
+            { "Group": "Pokemon", "Name": "Magmortar", "Time": "2019-04-24T13:40:00.000Z" }
         ]
     }
 );
