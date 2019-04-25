@@ -4,7 +4,7 @@ Season6.Runs.push(
         RunName: "Volt White",
         ColorPrimary: "#E5E5E5",
         ColorSecondary: "#C5C5C5",
-        Duration: "255w",
+        Duration: "11d 21h 16m",
         StartDate: "2019-04-13T21:00:00Z",
         HostName: "AAQ",
         HostImage: "img/hosts/aaq.png",
@@ -48,16 +48,16 @@ Season6.Runs.push(
             { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "10d 5h 38m", Attempts: 1, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "10d 18h 7m", Attempts: 5, Class: "Rematch" },
 
-            { Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "", Attempts: 1 },
+            { Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "11d 21h 11m", Attempts: 2 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "07180", Attempts: 10, Party: [
-                    { Pokemon: "Excadrill", Nickname: "♂♂♂♂♂♂♂♂-W", Level: 100, Gender: "Female" },
-                    { Pokemon: "Musharna", Nickname: ",,,,,((((%", Level: 100, Gender: "Male" },
-                    { Pokemon: "Staraptor", Nickname: "aaaxxxm %", Level: 100, Gender: "Male" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "11d 21h 11m", IDNo: "07180", Attempts: 16, Party: [
                     { Pokemon: "Toxicroak", Nickname: "qwriowy", Level: 100, Gender: "Male" },
-                    { Pokemon: "Haxorus", Nickname: "q--------l", Level: 100, Gender: "Female" },
+                    { Pokemon: "Staraptor", Nickname: "aaaxxxm %", Level: 100, Gender: "Male" },
                     { Pokemon: "Lilligant", Nickname: "Petililqz", Level: 100, Gender: "Female" },
+                    { Pokemon: "Haxorus", Nickname: "q--------l", Level: 100, Gender: "Female" },
+                    { Pokemon: "Reshiram", Nickname: "LL BKA", Level: 95 },
+                    { Pokemon: "Excadrill", Nickname: "♂♂♂♂♂♂♂♂-W", Level: 100, Gender: "Female" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "10d 5h 21m"
@@ -497,7 +497,15 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Starmie", "Time": "2019-04-24T13:17:00.000Z" },
             { "Group": "Pokemon", "Name": "Bellossom", "Time": "2019-04-24T13:33:00.000Z" },
             { "Group": "Pokemon", "Name": "Roserade", "Time": "2019-04-24T13:36:00.000Z" },
-            { "Group": "Pokemon", "Name": "Magmortar", "Time": "2019-04-24T13:40:00.000Z" }
+            { "Group": "Pokemon", "Name": "Magmortar", "Time": "2019-04-24T13:40:00.000Z" },
+            { "Group": "Pokemon", "Name": "Dialga", "Time": "2019-04-25T05:58:00.000Z" },
+            { "Group": "Pokemon", "Name": "Dugtrio", "Time": "2019-04-25T09:39:00.000Z" },
+            { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "2019-04-25T10:02:00.000Z" },
+            { "Group": "Pokemon", "Name": "Jellicent", "Time": "2019-04-25T12:43:00.000Z" },
+            { "Group": "Pokemon", "Name": "Clamperl", "Time": "2019-04-25T15:20:00.000Z" },
+            { "Group": "Pokemon", "Name": "Relicanth", "Time": "2019-04-25T15:29:00.000Z" },
+            { "Group": "Pokemon", "Name": "Shellder", "Time": "2019-04-25T15:42:00.000Z" },
+            { "Group": "Pokemon", "Name": "Ducklett", "Time": "2019-04-25T15:55:00.000Z" }
         ]
     }
 );
