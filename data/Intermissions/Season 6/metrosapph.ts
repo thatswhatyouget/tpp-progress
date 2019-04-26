@@ -243,7 +243,9 @@ Intermissions.Runs.push(
             { "Group": "Pokemon", "Name": "Ponyta", "Time": "2019-04-02T23:48:00.000Z" },
             { "Group": "Pokemon", "Name": "Sandslash", "Time": "2019-04-02T23:52:00.000Z" },
             { "Group": "Pokemon", "Name": "Lileep", "Time": "2019-04-02T23:56:00.000Z" },
-            { "Group": "Pokemon", "Name": "Totodile", "Time": "2019-04-03T00:00:00.000Z" }
+            { "Group": "Pokemon", "Name": "Totodile", "Time": "2019-04-03T00:00:00.000Z" },
+
+            { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "2019-04-26T07:54:00.000Z" },
         ],
     }
 );
