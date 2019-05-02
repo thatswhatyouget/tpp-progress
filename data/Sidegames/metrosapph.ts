@@ -26,6 +26,8 @@ Sidegames.Runs.push(
                 FirstAttemptDate: "2019-04-06T02:42:56+00:00",
                 Image: "img/ribbons/champion.png"
             },
+            { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "2019-04-26T07:54:00.000Z" },
+            { "Group": "Pokemon", "Name": "Combusken", "Time": "2019-05-01T03:12:00.000Z" },
         ],
         SidegameId: "metrosapph",
         Revisit: { Collection: "Intermissions", Run: "Metronome Sapphire" },
