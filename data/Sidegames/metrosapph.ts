@@ -28,6 +28,7 @@ Sidegames.Runs.push(
             },
             { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "2019-04-26T07:54:00.000Z" },
             { "Group": "Pokemon", "Name": "Combusken", "Time": "2019-05-01T03:12:00.000Z" },
+            { "Group": "Pokemon", "Name": "Caterpie", "Time": "2019-05-04T00:11:00.000Z" },
         ],
         SidegameId: "metrosapph",
         Revisit: { Collection: "Intermissions", Run: "Metronome Sapphire" },
