@@ -59,6 +59,18 @@
     margin: .1em;
 }
 
+.gameStats {
+    width: auto;
+    white-space: nowrap;
+}
+
+.gameStats ul li[data-quantity]:after {
+    content:attr(data-quantity);
+    float: right;
+    margin-left: 1em;
+    vertical-align: baseline;
+}
+
 .badgeList {
     width:auto;
 }

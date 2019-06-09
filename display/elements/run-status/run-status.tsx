@@ -4,6 +4,8 @@
 /// <reference path="current-party.tsx" />
 /// <reference path="pc-display.tsx" />
 /// <reference path="current-location.tsx" />
+/// <reference path="game-stats.tsx" />
+
 
 namespace TPP.Display.Elements.RunStatus {
     interface RunStatusProps {
@@ -217,6 +219,7 @@ namespace TPP.Display.Elements.RunStatus {
                     <EventDisplay key="Badges" events={this.badges}>
                         {this.badgesOutOfDate ? <h6>Outdated</h6> : null}
                     </EventDisplay>
+                    <GameStats key="Game Stats" title="Stats" gameStats={this.state.status.game_stats} />
                     <ItemDisplay key="Items" title="Items" items={this.state.status.items.items} />
                     <ItemDisplay key="Key Items" title="Key Items" items={this.state.status.items.key} />
                     <ItemDisplay key="Key Items FR" title="Key Items (FireRed)" items={this.state.status.items["key_firered"]} />

@@ -44,6 +44,7 @@ namespace TPP.Tv {
         secret: number;
         x: number;
         y: number;
+        game_stats?: { [key: string]: number };
     }
 
     export interface PartyData extends Array<PartyPokemon> { }
