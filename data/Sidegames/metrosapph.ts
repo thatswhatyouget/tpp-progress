@@ -63,6 +63,12 @@ Sidegames.Runs.push(
             { "Group": "Pokemon", "Name": "Glalie", "Time": "2019-05-30T07:26:00.000Z" },
             { "Group": "Pokemon", "Name": "Gyarados", "Time": "2019-05-31T07:09:00.000Z" },
             { "Group": "Pokemon", "Name": "Abra", "Time": "2019-05-31T21:52:00.000Z" },
+            { "Group": "Pokemon", "Name": "Quilava", "Time": "2019-06-01T07:28:00.000Z" },
+            { "Group": "Pokemon", "Name": "Donphan", "Time": "2019-06-02T18:10:00.000Z" },
+            { "Group": "Pokemon", "Name": "Mankey", "Time": "2019-06-02T23:43:00.000Z" },
+            { "Group": "Pokemon", "Name": "Seedot", "Time": "2019-06-03T09:47:00.000Z" },
+            { "Group": "Pokemon", "Name": "Ho-Oh", "Time": "2019-06-06T09:39:00.000Z" },
+            { "Group": "Pokemon", "Name": "Octillery", "Time": "2019-06-06T18:35:00.000Z" }
         ],
         SidegameId: "metrosapph",
         Revisit: { Collection: "Intermissions", Run: "Metronome Sapphire" },
