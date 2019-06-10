@@ -17,8 +17,8 @@ Season6.Runs.push(
                 Name: "Miror B.",
                 Image: "img/trainers/colosseum/mirorb.png",
                 ImageSource: "http://billyk40.deviantart.com/art/Miror-B-BW-258115890",
-                Time: "",
-                Attempts: 0
+                Time: "2019-06-10T07:13:37.490Z",
+                Attempts: 1
             },
             {
                 Group: "Bosses",
@@ -106,31 +106,42 @@ Season6.Runs.push(
                 Image: "img/ribbons/national.png"
             },
 
+            { "Group": "Pokemon", "Name": "Nosepass", "Time": "2019-06-08T21:08:34.875Z" },
+            { "Group": "Pokemon", "Name": "Persian", "Time": "2019-06-08T21:08:34.876Z" },
+            { "Group": "Pokemon", "Name": "Illumise", "Time": "2019-06-09T00:49:07.076Z" },
+            { "Group": "Pokemon", "Name": "Wailmer", "Time": "2019-06-09T00:57:20.325Z" },
+            { "Group": "Pokemon", "Name": "Slugma", "Time": "2019-06-09T02:19:51.410Z" },
+            { "Group": "Pokemon", "Name": "Dunsparce", "Time": "2019-06-09T13:46:26.820Z" },
+            { "Group": "Pokemon", "Name": "Ivysaur", "Time": "2019-06-09T17:52:57.409Z" },
+            { "Group": "Pokemon", "Name": "Phanpy", "Time": "2019-06-10T03:25:38.905Z" },
+            { "Group": "Pokemon", "Name": "Pikachu", "Time": "2019-06-10T04:00:18.199Z" },
+            { "Group": "Pokemon", "Name": "Swablu", "Time": "2019-06-10T04:20:04.299Z" },
+            { "Group": "Pokemon", "Name": "Walrein", "Time": "2019-06-10T05:04:11.933Z" },
             {
                 "Group": "Pokemon",
-                "Name": "Nosepass",
-                "Time": "2019-06-08T21:08:34.875Z"
+                "Name": "Torchic",
+                "Time": "2019-06-10T07:12:33.037Z"
             },
             {
                 "Group": "Pokemon",
-                "Name": "Persian",
-                "Time": "2019-06-08T21:08:34.876Z"
+                "Name": "Poliwag",
+                "Time": "2019-06-10T07:27:08.578Z"
             },
             {
                 "Group": "Pokemon",
-                "Name": "Illumise",
-                "Time": "2019-06-09T00:49:07.076Z"
+                "Name": "Ho-Oh",
+                "Time": "2019-06-10T10:29:02.263Z"
             },
             {
                 "Group": "Pokemon",
-                "Name": "Wailmer",
-                "Time": "2019-06-09T00:57:20.325Z"
+                "Name": "Pinsir",
+                "Time": "2019-06-10T11:06:59.281Z"
             },
             {
                 "Group": "Pokemon",
-                "Name": "Slugma",
-                "Time": "2019-06-09T02:19:51.410Z"
-            }
+                "Name": "Octillery",
+                "Time": "2019-06-10T11:36:47.114Z"
+            },
         ]
     }
 );
