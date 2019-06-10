@@ -25,8 +25,8 @@ Season6.Runs.push(
                 Name: "Dakim",
                 Image: "img/trainers/colosseum/dakim.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherDakim.png.html",
-                Time: "",
-                Attempts: 0
+                Time: "2019-06-10T20:14:43.203Z",
+                Attempts: 3
             },
             {
                 Group: "Bosses",
@@ -142,6 +142,16 @@ Season6.Runs.push(
                 "Name": "Octillery",
                 "Time": "2019-06-10T11:36:47.114Z"
             },
+{
+            "Group": "Pokemon",
+            "Name": "Piloswine",
+            "Time": "2019-06-10T16:12:26.038Z"
+        },
+        {
+            "Group": "Pokemon",
+            "Name": "Ludicolo",
+            "Time": "2019-06-10T18:28:12.668Z"
+        },
         ]
     }
 );
