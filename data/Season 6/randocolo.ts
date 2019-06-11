@@ -127,6 +127,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Bellossom", "Time": "2019-06-10T23:14:31.500Z" },
             { "Group": "Pokemon", "Name": "Azurill", "Time": "2019-06-11T01:14:10.096Z" },
             { "Group": "Pokemon", "Name": "Slaking", "Time": "2019-06-11T01:29:01.339Z" }
+            { "Group": "Pokemon", "Name": "Regirock", "Time": "2019-06-11T18:13:00.496Z" }
         ]
     }
 );
