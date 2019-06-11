@@ -33,8 +33,8 @@ Season6.Runs.push(
                 Name: "Venus",
                 Image: "img/trainers/colosseum/venus.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherVenus.png.html",
-                Time: "",
-                Attempts: 0
+                Time: "2019-06-11T01:14:08.964Z",
+                Attempts: 1
             },
             {
                 Group: "Bosses",
@@ -117,41 +117,16 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Pikachu", "Time": "2019-06-10T04:00:18.199Z" },
             { "Group": "Pokemon", "Name": "Swablu", "Time": "2019-06-10T04:20:04.299Z" },
             { "Group": "Pokemon", "Name": "Walrein", "Time": "2019-06-10T05:04:11.933Z" },
-            {
-                "Group": "Pokemon",
-                "Name": "Torchic",
-                "Time": "2019-06-10T07:12:33.037Z"
-            },
-            {
-                "Group": "Pokemon",
-                "Name": "Poliwag",
-                "Time": "2019-06-10T07:27:08.578Z"
-            },
-            {
-                "Group": "Pokemon",
-                "Name": "Ho-Oh",
-                "Time": "2019-06-10T10:29:02.263Z"
-            },
-            {
-                "Group": "Pokemon",
-                "Name": "Pinsir",
-                "Time": "2019-06-10T11:06:59.281Z"
-            },
-            {
-                "Group": "Pokemon",
-                "Name": "Octillery",
-                "Time": "2019-06-10T11:36:47.114Z"
-            },
-{
-            "Group": "Pokemon",
-            "Name": "Piloswine",
-            "Time": "2019-06-10T16:12:26.038Z"
-        },
-        {
-            "Group": "Pokemon",
-            "Name": "Ludicolo",
-            "Time": "2019-06-10T18:28:12.668Z"
-        },
+            { "Group": "Pokemon", "Name": "Torchic", "Time": "2019-06-10T07:12:33.037Z" },
+            { "Group": "Pokemon", "Name": "Poliwag", "Time": "2019-06-10T07:27:08.578Z" },
+            { "Group": "Pokemon", "Name": "Ho-Oh", "Time": "2019-06-10T10:29:02.263Z" },
+            { "Group": "Pokemon", "Name": "Pinsir", "Time": "2019-06-10T11:06:59.281Z" },
+            { "Group": "Pokemon", "Name": "Octillery", "Time": "2019-06-10T11:36:47.114Z" },
+            { "Group": "Pokemon", "Name": "Piloswine", "Time": "2019-06-10T16:12:26.038Z" },
+            { "Group": "Pokemon", "Name": "Ludicolo", "Time": "2019-06-10T18:28:12.668Z" },
+            { "Group": "Pokemon", "Name": "Bellossom", "Time": "2019-06-10T23:14:31.500Z" },
+            { "Group": "Pokemon", "Name": "Azurill", "Time": "2019-06-11T01:14:10.096Z" },
+            { "Group": "Pokemon", "Name": "Slaking", "Time": "2019-06-11T01:29:01.339Z" }
         ]
     }
 );
