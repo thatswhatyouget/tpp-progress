@@ -65,16 +65,16 @@ Season6.Runs.push(
                 Name: "Dakim",
                 Image: "img/trainers/colosseum/dakim.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherDakim.png.html",
-                Time: "",
-                Attempts: 0
+                Time: "2019-06-12T15:26:46.047Z",
+                Attempts: 1
             },
             {
                 Group: "Final Bosses",
                 Name: "Ein",
                 Image: "img/trainers/colosseum/ein.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherEin.png.html",
-                Time: "",
-                Attempts: 0
+                Time: "2019-06-12T14:52:25.151Z",
+                Attempts: 1
             },
             {
                 Group: "Final Bosses",
@@ -142,6 +142,9 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Magnemite", "Time": "2019-06-12T10:49:27.570Z" },
             { "Group": "Pokemon", "Name": "Remoraid", "Time": "2019-06-12T11:58:20.462Z" },
             { "Group": "Pokemon", "Name": "Nidoqueen", "Time": "2019-06-12T14:07:56.476Z" },
+            { "Group": "Pokemon", "Name": "Arbok", "Time": "2019-06-12T14:28:11.199Z" },
+            { "Group": "Pokemon", "Name": "Registeel", "Time": "2019-06-12T15:26:22.715Z" },
+            { "Group": "Pokemon", "Name": "Manectric", "Time": "2019-06-12T15:27:36.724Z" },
         ]
     }
 );
