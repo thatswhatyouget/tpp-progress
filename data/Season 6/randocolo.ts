@@ -49,16 +49,16 @@ Season6.Runs.push(
                 Name: "Venus",
                 Image: "img/trainers/colosseum/venus.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherVenus.png.html",
-                Time: "",
-                Attempts: 0
+                Time: "2019-06-12T14:20:37.358Z",
+                Attempts: 1
             },
             {
                 Group: "Final Bosses",
                 Name: "Miror B.",
                 Image: "img/trainers/colosseum/mirorb.png",
                 ImageSource: "http://billyk40.deviantart.com/art/Miror-B-BW-258115890",
-                Time: "",
-                Attempts: 0
+                Time: "2019-06-12T13:45:35.066Z",
+                Attempts: 1,
             },
             {
                 Group: "Final Bosses",
@@ -141,6 +141,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Heracross", "Time": "2019-06-12T09:47:41.680Z" },
             { "Group": "Pokemon", "Name": "Magnemite", "Time": "2019-06-12T10:49:27.570Z" },
             { "Group": "Pokemon", "Name": "Remoraid", "Time": "2019-06-12T11:58:20.462Z" },
+            { "Group": "Pokemon", "Name": "Nidoqueen", "Time": "2019-06-12T14:07:56.476Z" },
         ]
     }
 );
