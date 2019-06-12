@@ -41,8 +41,8 @@ Season6.Runs.push(
                 Name: "Ein",
                 Image: "img/trainers/colosseum/ein.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherEin.png.html",
-                Time: "",
-                Attempts: 0
+                Time: "2019-06-12T11:58:19.336Z",
+                Attempts: 1
             },
             {
                 Group: "Final Bosses",
@@ -126,8 +126,21 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Ludicolo", "Time": "2019-06-10T18:28:12.668Z" },
             { "Group": "Pokemon", "Name": "Bellossom", "Time": "2019-06-10T23:14:31.500Z" },
             { "Group": "Pokemon", "Name": "Azurill", "Time": "2019-06-11T01:14:10.096Z" },
-            { "Group": "Pokemon", "Name": "Slaking", "Time": "2019-06-11T01:29:01.339Z" }
-            { "Group": "Pokemon", "Name": "Regirock", "Time": "2019-06-11T18:13:00.496Z" }
+            { "Group": "Pokemon", "Name": "Slaking", "Time": "2019-06-11T01:29:01.339Z" },
+            { "Group": "Pokemon", "Name": "Regirock", "Time": "2019-06-11T18:13:00.496Z" },
+            { "Group": "Pokemon", "Name": "Charizard", "Time": "2019-06-11T20:17:25.446Z" },
+            { "Group": "Pokemon", "Name": "Electabuzz", "Time": "2019-06-11T23:47:08.918Z" },
+            { "Group": "Pokemon", "Name": "Salamence", "Time": "2019-06-11T23:48:38.533Z" },
+            { "Group": "Pokemon", "Name": "Magby", "Time": "2019-06-12T02:18:49.620Z" },
+            { "Group": "Pokemon", "Name": "Houndoom", "Time": "2019-06-12T02:34:16.751Z" },
+            { "Group": "Pokemon", "Name": "Seaking", "Time": "2019-06-12T03:46:16.605Z" },
+            { "Group": "Pokemon", "Name": "Girafarig", "Time": "2019-06-12T03:55:41.664Z" },
+            { "Group": "Pokemon", "Name": "Wartortle", "Time": "2019-06-12T03:56:38.682Z" },
+            { "Group": "Pokemon", "Name": "Feraligatr", "Time": "2019-06-12T04:16:35.464Z" },
+            { "Group": "Pokemon", "Name": "Surskit", "Time": "2019-06-12T09:42:28.013Z" },
+            { "Group": "Pokemon", "Name": "Heracross", "Time": "2019-06-12T09:47:41.680Z" },
+            { "Group": "Pokemon", "Name": "Magnemite", "Time": "2019-06-12T10:49:27.570Z" },
+            { "Group": "Pokemon", "Name": "Remoraid", "Time": "2019-06-12T11:58:20.462Z" },
         ]
     }
 );
