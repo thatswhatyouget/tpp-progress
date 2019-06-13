@@ -89,19 +89,25 @@ Season6.Runs.push(
                 Name: "Nascour",
                 Image: "img/trainers/colosseum/nascour.png",
                 ImageSource: "http://s1292.photobucket.com/user/Apollothemuse/media/Sprites/NascourSprite_zpse80724b9.png.html",
-                Time: "",
-                Attempts: 0
+                Time: "2019-06-13T02:42:51.803Z",
+                Attempts: 1
             },
             {
                 Group: "Champions",
                 Name: "Evice",
                 Image: "img/trainers/colosseum/evice.png",
                 ImageSource: "https://www.reddit.com/r/pokemon/comments/2z9gmy/cipher_head_evice_would_like_to_battle_oc_trainer/",
-                Time: "",
-                Attempts: 0
+                Time: "2019-06-13T03:05:02.026Z",
+                Attempts: 1
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "First Game Clear", Time: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "First Game Clear", Attempts: 2, Time: "2019-06-13T03:06:54Z", Party: [
+                    { Pokemon: "Octillery", Nickname: "AAO", Level: 64, Gender: "Female" },
+                    { Pokemon: "Walrein", Level: 60, Gender: "Female" },
+                    { Pokemon: "Ho-oh", Level: 57 },
+                    { Pokemon: "Persian", Nickname: "”", Level: 61, Gender: "Female" },
+                    { Pokemon: "Slaking", Nickname: "MW", Level: 68, Gender: "Female" },
+                    { Pokemon: "Hypno", Level: 57, Gender: "Female" },
                 ],
                 Image: "img/ribbons/national.png"
             },
