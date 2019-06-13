@@ -81,8 +81,8 @@ Season6.Runs.push(
                 Name: "Gonzap",
                 Image: "img/trainers/colosseum/gonzap.png",
                 ImageSource: "http://forum.yugiohcardmaker.net/topic/200460-colosseum-sprites/",
-                Time: "",
-                Attempts: 0
+                Time: "2019-06-13T01:01:00.903Z",
+                Attempts: 1
             },
             {
                 Group: "Final Bosses",
@@ -145,6 +145,12 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Arbok", "Time": "2019-06-12T14:28:11.199Z" },
             { "Group": "Pokemon", "Name": "Registeel", "Time": "2019-06-12T15:26:22.715Z" },
             { "Group": "Pokemon", "Name": "Manectric", "Time": "2019-06-12T15:27:36.724Z" },
+            { "Group": "Pokemon", "Name": "Porygon", "Time": "2019-06-12T15:52:21.168Z" },
+            { "Group": "Pokemon", "Name": "Corsola", "Time": "2019-06-12T18:11:21.166Z" },
+            { "Group": "Pokemon", "Name": "Noctowl", "Time": "2019-06-13T00:01:22.412Z" },
+            { "Group": "Pokemon", "Name": "Hypno", "Time": "2019-06-13T01:13:36.090Z" },
+            { "Group": "Pokemon", "Name": "Umbreon", "Time": "2019-06-13T01:26:51.072Z" },
+            { "Group": "Pokemon", "Name": "Grumpig", "Time": "2019-06-13T01:31:34.172Z" },
         ]
     }
 );
