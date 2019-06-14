@@ -112,6 +112,40 @@ Season6.Runs.push(
                 Image: "img/ribbons/national.png"
             },
 
+            {
+                Group: "Final Bosses Rematch",
+                Name: "Nascour",
+                Image: "img/trainers/colosseum/nascour.png",
+                ImageSource: "http://s1292.photobucket.com/user/Apollothemuse/media/Sprites/NascourSprite_zpse80724b9.png.html",
+                Time: "2019-06-14T09:01:32.067Z",
+                Class: "Rematch",
+                Attempts: 1
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Second Game Clear", Attempts: 1, Time: "2019-06-14T09:27:51Z", Party: [
+                    { Pokemon: "Octillery", Nickname: "AAO", Level: 77, Gender: "Female" },
+                    { Pokemon: "Taillow", Level: 54, Gender: "Female" },
+                    { Pokemon: "Ho-oh", Level: 66 },
+                    { Pokemon: "Persian", Nickname: "”", Level: 63, Gender: "Female" },
+                    { Pokemon: "Slaking", Nickname: "MW", Level: 74, Gender: "Female" },
+                    { Pokemon: "Beldum", Level: 51 },
+                ],
+                Image: "img/ribbons/national.png"
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Third Game Clear", Attempts: 1, Time: "2019-06-14T10:46:15Z", Party: [
+                    { Pokemon: "Octillery", Nickname: "AAO", Level: 78, Gender: "Female" },
+                    { Pokemon: "Taillow", Level: 54, Gender: "Female" },
+                    { Pokemon: "Ho-oh", Level: 67 },
+                    { Pokemon: "Persian", Nickname: "”", Level: 63, Gender: "Female" },
+                    { Pokemon: "Slaking", Nickname: "MW", Level: 75, Gender: "Female" },
+                    { Pokemon: "Beldum", Level: 51 },
+                ],
+                Image: "img/ribbons/national.png"
+            },
+
             { "Group": "Pokemon", "Name": "Nosepass", "Time": "2019-06-08T21:08:34.875Z" },
             { "Group": "Pokemon", "Name": "Persian", "Time": "2019-06-08T21:08:34.876Z" },
             { "Group": "Pokemon", "Name": "Illumise", "Time": "2019-06-09T00:49:07.076Z" },
@@ -157,6 +191,31 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Hypno", "Time": "2019-06-13T01:13:36.090Z" },
             { "Group": "Pokemon", "Name": "Umbreon", "Time": "2019-06-13T01:26:51.072Z" },
             { "Group": "Pokemon", "Name": "Grumpig", "Time": "2019-06-13T01:31:34.172Z" },
+            { "Group": "Pokemon", "Name": "Shuckle", "Time": "2019-06-13T02:23:13.887Z" },
+            { "Group": "Pokemon", "Name": "Magcargo", "Time": "2019-06-13T02:42:46.340Z" },
+            { "Group": "Pokemon", "Name": "Snorlax", "Time": "2019-06-13T04:42:53.146Z" },
+            { "Group": "Pokemon", "Name": "Cleffa", "Time": "2019-06-13T06:07:55.357Z" },
+            { "Group": "Pokemon", "Name": "Gloom", "Time": "2019-06-13T07:53:56.681Z" },
+            { "Group": "Pokemon", "Name": "Abra", "Time": "2019-06-13T12:45:24.870Z" },
+            { "Group": "Pokemon", "Name": "Flaaffy", "Time": "2019-06-13T13:20:09.786Z" },
+            { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "2019-06-13T14:41:10.412Z" },
+            { "Group": "Pokemon", "Name": "Porygon2", "Time": "2019-06-13T14:53:29.949Z" },
+            { "Group": "Pokemon", "Name": "Totodile", "Time": "2019-06-13T17:09:08.873Z" },
+            { "Group": "Pokemon", "Name": "Sunkern", "Time": "2019-06-13T17:40:40.504Z" },
+            { "Group": "Pokemon", "Name": "Beldum", "Time": "2019-06-13T19:16:39.736Z" },
+            { "Group": "Pokemon", "Name": "Swinub", "Time": "2019-06-13T19:26:07.145Z" },
+            { "Group": "Pokemon", "Name": "Minun", "Time": "2019-06-13T20:21:51.846Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2019-06-13T21:38:43.277Z" },
+            { "Group": "Pokemon", "Name": "Grovyle", "Time": "2019-06-13T22:00:33.710Z" },
+            { "Group": "Pokemon", "Name": "Combusken", "Time": "2019-06-13T23:01:01.505Z" },
+            { "Group": "Pokemon", "Name": "Aipom", "Time": "2019-06-13T23:29:57.489Z" },
+            { "Group": "Pokemon", "Name": "Sunflora", "Time": "2019-06-14T00:07:45.687Z" },
+            { "Group": "Pokemon", "Name": "Taillow", "Time": "2019-06-14T00:33:23.840Z" },
+            { "Group": "Pokemon", "Name": "Metang", "Time": "2019-06-14T00:59:52.365Z" },
+            { "Group": "Pokemon", "Name": "Chimecho", "Time": "2019-06-14T01:31:20.983Z" },
+            { "Group": "Pokemon", "Name": "Celebi", "Time": "2019-06-14T05:15:25.700Z" },
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "2019-06-14T07:49:07.854Z" },
+            { "Group": "Pokemon", "Name": "Meganium", "Time": "2019-06-14T10:44:25.721Z" },
         ]
     }
 );
