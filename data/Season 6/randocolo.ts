@@ -4,7 +4,7 @@ Season6.Runs.push(
         RunName: "Randomized Colosseum",
         ColorPrimary: "#ff9955",
         ColorSecondary: "#884422",
-        Duration: "255w",
+        Duration: "2019-06-15T02:34:21Z",
         StartDate: "2019-06-08T21:00:00Z",
         HostName: "ACCC",
         HostImage: "img/hosts/aaaaaaa.png",
@@ -146,6 +146,28 @@ Season6.Runs.push(
                 Image: "img/ribbons/national.png"
             },
 
+            {
+                Group: "Champions",
+                Name: "Evice",
+                Image: "img/trainers/colosseum/evice.png",
+                ImageSource: "https://www.reddit.com/r/pokemon/comments/2z9gmy/cipher_head_evice_would_like_to_battle_oc_trainer/",
+                Time: "2019-06-15T02:27:47Z",
+                Class: "Rematch",
+                Attempts: 2
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Fourth Game Clear", Attempts: 2, Time: "2019-06-15T02:29:41Z", Party: [
+                    { Pokemon: "Persian", Nickname: "”", Level: 63, Gender: "Female" },
+                    { Pokemon: "Walrein", Level: 63, Gender: "Female" },
+                    { Pokemon: "Ho-oh", Level: 69 },
+                    { Pokemon: "Celebi", Nickname: "AAAAAAAAAA", Level: 56 },
+                    { Pokemon: "Slaking", Nickname: "MW", Level: 76, Gender: "Female" },
+                    { Pokemon: "Octillery", Nickname: "AAO", Level: 79, Gender: "Female" },
+                ],
+                Image: "img/ribbons/national.png"
+            },
+
             { "Group": "Pokemon", "Name": "Nosepass", "Time": "2019-06-08T21:08:34.875Z" },
             { "Group": "Pokemon", "Name": "Persian", "Time": "2019-06-08T21:08:34.876Z" },
             { "Group": "Pokemon", "Name": "Illumise", "Time": "2019-06-09T00:49:07.076Z" },
@@ -216,6 +238,17 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Celebi", "Time": "2019-06-14T05:15:25.700Z" },
             { "Group": "Pokemon", "Name": "Eevee", "Time": "2019-06-14T07:49:07.854Z" },
             { "Group": "Pokemon", "Name": "Meganium", "Time": "2019-06-14T10:44:25.721Z" },
+            { "Group": "Pokemon", "Name": "Misdreavus", "Time": "2019-06-14T11:55:19.955Z" },
+            { "Group": "Pokemon", "Name": "Natu", "Time": "2019-06-14T13:09:11.780Z" },
+            { "Group": "Pokemon", "Name": "Dragonite", "Time": "2019-06-14T13:36:07.900Z" },
+            { "Group": "Pokemon", "Name": "Tropius", "Time": "2019-06-14T13:47:04.697Z" },
+            { "Group": "Pokemon", "Name": "Tyranitar", "Time": "2019-06-14T14:40:19.404Z" },
+            { "Group": "Pokemon", "Name": "Venusaur", "Time": "2019-06-14T17:48:26.532Z" },
+            { "Group": "Pokemon", "Name": "Plusle", "Time": "2019-06-14T17:58:59.393Z" },
+            { "Group": "Pokemon", "Name": "Seel", "Time": "2019-06-14T23:16:52.773Z" },
+            { "Group": "Pokemon", "Name": "Pelipper", "Time": "2019-06-14T23:37:19.500Z" },
+            { "Group": "Pokemon", "Name": "Flareon", "Time": "2019-06-15T00:03:43.121Z" },
+            { "Group": "Pokemon", "Name": "Nidoking", "Time": "2019-06-15T00:22:46.445Z" },
         ]
     }
 );
