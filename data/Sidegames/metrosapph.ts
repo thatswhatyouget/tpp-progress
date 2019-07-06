@@ -9,7 +9,7 @@ Sidegames.Runs.push(
         HostName: "MARINA",
         HostImage: "img/hosts/marina.png",
         // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/9pkxol/hannah_the_ninja_master/",
-        ContainsRunsFrom: ["Intermissions"],
+        ContainsRunsFrom: ["Season 6", "Intermissions"],
         Region: "Hoenn",
         Generation: 3,
         Pokedex: "National",
