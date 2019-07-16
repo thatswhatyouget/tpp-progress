@@ -41,8 +41,8 @@ Season6.Runs.push(
                 "Image": "img/trainers/xd/snattle.png",
                 "ImageSource": "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherSnattle.png.html",
                 "Name": "Snattle",
-                "Time": "",
-                "Attempts": 0
+                "Time": "2019-07-15T22:21:52.257Z",
+                "Attempts": 4
             },
             {
                 "Group": "Bosses",
@@ -163,6 +163,26 @@ Season6.Runs.push(
             { Group: "Pokemon", Name: "Nincada", Time: "2019-07-15T07:44:14.017Z" },
             { Group: "Pokemon", Name: "Exeggutor", Time: "2019-07-15T08:11:59.969Z" },
             { Group: "Pokemon", Name: "Vibrava", Time: "2019-07-15T08:27:10.222Z" },
+            { Group: "Pokemon", Name: "Pidgeot", Time: "2019-07-15T14:43:19.639Z" },
+            { Group: "Pokemon", Name: "Piloswine", Time: "2019-07-15T15:43:37.379Z" },
+            { Group: "Pokemon", Name: "Nuzleaf", Time: "2019-07-15T16:12:30.571Z" },
+            { Group: "Pokemon", Name: "Hariyama", Time: "2019-07-15T16:24:32.997Z" },
+            { Group: "Pokemon", Name: "Shelgon", Time: "2019-07-15T16:25:00.984Z" },
+            { Group: "Pokemon", Name: "Houndoom", Time: "2019-07-15T16:31:22.145Z" },
+            { Group: "Pokemon", Name: "Ampharos", Time: "2019-07-15T17:20:11.999Z" },
+            { Group: "Pokemon", Name: "Venusaur", Time: "2019-07-15T17:37:53.664Z" },
+            { Group: "Pokemon", Name: "Pinsir", Time: "2019-07-15T20:10:01.005Z" },
+            { Group: "Pokemon", Name: "Blaziken", Time: "2019-07-15T20:29:48.617Z" },
+            { Group: "Pokemon", Name: "Swampert", Time: "2019-07-15T21:15:32.011Z" },
+            { Group: "Pokemon", Name: "Ninetales", Time: "2019-07-15T22:21:52.257Z" },
+            { Group: "Pokemon", Name: "Psyduck", Time: "2019-07-15T23:00:28.600Z" },
+            { Group: "Pokemon", Name: "Ponyta", Time: "2019-07-15T23:12:24.808Z" },
+            { Group: "Pokemon", Name: "Marowak", Time: "2019-07-16T00:20:29.299Z" },
+            { Group: "Pokemon", Name: "Kecleon", Time: "2019-07-16T00:29:03.275Z" },
+            { Group: "Pokemon", Name: "Kabuto", Time: "2019-07-16T02:18:46.713Z" },
+            { Group: "Pokemon", Name: "Aerodactyl", Time: "2019-07-16T02:32:11.309Z" },
+            { Group: "Pokemon", Name: "Lanturn", Time: "2019-07-16T02:38:43.015Z" },
+            { Group: "Pokemon", Name: "Carvanha", Time: "2019-07-16T02:42:20.179Z" },
         ]
     }
 );
