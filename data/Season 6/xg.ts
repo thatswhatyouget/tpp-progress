@@ -113,11 +113,17 @@ Season6.Runs.push(
                 "Image": "img/trainers/xd/greevil.png",
                 "ImageSource": "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/greevil.gif.html",
                 "Name": "Greevil",
-                "Time": "",
-                "Attempts": 0
+                "Time": "2019-07-19T12:32:14.319Z",
+                "Attempts": 2
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "First Game Clear", Time: "", Party: [
+                Group: "Hall of Fame", Name: "First Game Clear", Time: "2019-07-19T12:40:23Z", Party: [
+                    { Pokemon: "Sceptile", Nickname: "CCC    /", Level: 62, Gender: "Male" },
+                    { Pokemon: "Swampert", Nickname: "AB-", Level: 65, Gender: "Male" },
+                    { Pokemon: "Blaziken", Nickname: "ABBBBBBBQ", Level: 65, Gender: "Male" },
+                    { Pokemon: "Metagross", Nickname: "BCCMMW   ", Level: 64 },
+                    { Pokemon: "Salamence", Level: 66, Gender: "Male" },
+                    { Pokemon: "Vaporeon", Level: 67, Gender: "Male" },
                 ],
                 Image: "img/ribbons/national.png"
             },
@@ -258,6 +264,11 @@ Season6.Runs.push(
             { Group: "Pokemon", Name: "Regice", Time: "2019-07-19T06:09:17.860Z" },
             { Group: "Pokemon", Name: "Flygon", Time: "2019-07-19T10:13:03.376Z" },
             { Group: "Pokemon", Name: "Golem", Time: "2019-07-19T10:13:06.790Z" },
+            { Group: "Pokemon", Name: "Lugia", Time: "2019-07-19T12:01:51.670Z" },
+            { Group: "Pokemon", Name: "Togepi", Time: "2019-07-19T13:29:30.030Z" },
+            { Group: "Pokemon", Name: "Qwilfish", Time: "2019-07-19T13:38:59.815Z" },
+            { Group: "Pokemon", Name: "Bonsly", Time: "2019-07-19T14:05:46.527Z" },
+            { Group: "Pokemon", Name: "Farfetch'd", Time: "2019-07-19T14:25:46.726Z" },
         ]
     }
 );
