@@ -73,32 +73,32 @@ Season6.Runs.push(
                 "Image": "img/trainers/xd/lovrina.png",
                 "ImageSource": "http://djshop.smackjeeves.com/comics/381730/rui-lovrina/",
                 "Name": "Lovrina",
-                "Time": "",
-                "Attempts": 0
+                "Time": "2019-07-18T10:59:11.150Z",
+                "Attempts": 3
             },
             {
                 "Group": "Final Bosses",
                 "Image": "img/trainers/xd/snattle.png",
                 "ImageSource": "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherSnattle.png.html",
                 "Name": "Snattle",
-                "Time": "",
-                "Attempts": 0
+                "Time": "2019-07-18T22:40:55.106Z",
+                "Attempts": 2
             },
             {
                 "Group": "Final Bosses",
                 "Image": "img/trainers/xd/ardos.png",
                 "Name": "Ardos",
                 "ImageSource": "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherArdos.png.html",
-                "Time": "",
-                "Attempts": 0
+                "Time": "2019-07-19T01:18:32.675Z",
+                "Attempts": 2
             },
             {
                 "Group": "Final Bosses",
                 "Image": "img/trainers/xd/gorigan.png",
                 "ImageSource": "http://billyk40.deviantart.com/art/Gorigan-BW-257880611",
                 "Name": "Gorigan",
-                "Time": "",
-                "Attempts": 0
+                "Time": "2019-07-19T02:17:09.353Z",
+                "Attempts": 3
             },
             {
                 "Group": "Final Bosses",
@@ -219,6 +219,42 @@ Season6.Runs.push(
             { Group: "Pokemon", Name: "Tangela", Time: "2019-07-17T13:06:47.529Z" },
             { Group: "Pokemon", Name: "Dugtrio", Time: "2019-07-17T13:22:56.691Z" },
             { Group: "Pokemon", Name: "Claydol", Time: "2019-07-17T14:07:53.058Z" },
+            { Group: "Pokemon", Name: "Regirock", Time: "2019-07-17T14:46:02.059Z" },
+            { Group: "Pokemon", Name: "Yanma", Time: "2019-07-17T15:12:23.894Z" },
+            { Group: "Pokemon", Name: "Dratini", Time: "2019-07-17T15:23:08.623Z" },
+            { Group: "Pokemon", Name: "Larvitar", Time: "2019-07-17T16:50:08.356Z" },
+            { Group: "Pokemon", Name: "Roselia", Time: "2019-07-17T17:03:05.897Z" },
+            { Group: "Pokemon", Name: "Politoed", Time: "2019-07-17T17:46:46.288Z" },
+            { Group: "Pokemon", Name: "Tauros", Time: "2019-07-17T18:01:30.989Z" },
+            { Group: "Pokemon", Name: "Horsea", Time: "2019-07-17T18:06:32.278Z" },
+            { Group: "Pokemon", Name: "Gyarados", Time: "2019-07-17T18:46:46.254Z" },
+            { Group: "Pokemon", Name: "Wailord", Time: "2019-07-17T18:46:48.906Z" },
+            { Group: "Pokemon", Name: "Pupitar", Time: "2019-07-17T19:01:17.021Z" },
+            { Group: "Pokemon", Name: "Entei", Time: "2019-07-17T19:26:13.314Z" },
+            { Group: "Pokemon", Name: "Sandshrew", Time: "2019-07-17T19:39:32.271Z" },
+            { Group: "Pokemon", Name: "Absol", Time: "2019-07-17T20:15:13.925Z" },
+            { Group: "Pokemon", Name: "Togetic", Time: "2019-07-17T20:50:54.371Z" },
+            { Group: "Pokemon", Name: "Magmar", Time: "2019-07-17T21:35:00.263Z" },
+            { Group: "Pokemon", Name: "Electabuzz", Time: "2019-07-17T21:35:02.555Z" },
+            { Group: "Pokemon", Name: "Nidoking", Time: "2019-07-17T21:46:38.590Z" },
+            { Group: "Pokemon", Name: "Milotic", Time: "2019-07-17T22:07:09.802Z" },
+            { Group: "Pokemon", Name: "Aggron", Time: "2019-07-18T00:03:58.002Z" },
+            { Group: "Pokemon", Name: "Steelix", Time: "2019-07-18T02:42:17.929Z" },
+            { Group: "Pokemon", Name: "Charizard", Time: "2019-07-18T03:49:35.851Z" },
+            { Group: "Pokemon", Name: "Raikou", Time: "2019-07-18T04:10:44.040Z" },
+            { Group: "Pokemon", Name: "Slowbro", Time: "2019-07-18T05:18:31.487Z" },
+            { Group: "Pokemon", Name: "Feebas", Time: "2019-07-18T06:19:31.234Z" },
+            { Group: "Pokemon", Name: "Quagsire", Time: "2019-07-18T06:27:10.001Z" },
+            { Group: "Pokemon", Name: "Altaria", Time: "2019-07-18T11:59:40.815Z" },
+            { Group: "Pokemon", Name: "Blastoise", Time: "2019-07-18T13:18:56.772Z" },
+            { Group: "Pokemon", Name: "Mr. Mime", Time: "2019-07-18T13:53:54.261Z" },
+            { Group: "Pokemon", Name: "Hitmonchan", Time: "2019-07-18T14:41:41.619Z" },
+            { Group: "Pokemon", Name: "Mantine", Time: "2019-07-18T14:41:43.605Z" },
+            { Group: "Pokemon", Name: "Shuckle", Time: "2019-07-18T17:06:18.126Z" },
+            { Group: "Pokemon", Name: "Jynx", Time: "2019-07-18T17:58:21.867Z" },
+            { Group: "Pokemon", Name: "Scizor", Time: "2019-07-18T17:58:28.190Z" },
+            { Group: "Pokemon", Name: "Blissey", Time: "2019-07-18T20:15:26.082Z" },
+            { Group: "Pokemon", Name: "Xatu", Time: "2019-07-18T20:59:28.523Z" },
         ]
     }
 );
