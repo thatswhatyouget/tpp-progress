@@ -105,8 +105,8 @@ Season6.Runs.push(
                 "Image": "img/trainers/xd/eldes.png",
                 "ImageSource": "http://billyk40.deviantart.com/art/Eldes-BW-262784197",
                 "Name": "Eldes",
-                "Time": "",
-                "Attempts": 0
+                "Time": "2019-07-19T09:25:18.365Z",
+                "Attempts": 4
             },
             {
                 "Group": "Champions",
@@ -255,6 +255,9 @@ Season6.Runs.push(
             { Group: "Pokemon", Name: "Scizor", Time: "2019-07-18T17:58:28.190Z" },
             { Group: "Pokemon", Name: "Blissey", Time: "2019-07-18T20:15:26.082Z" },
             { Group: "Pokemon", Name: "Xatu", Time: "2019-07-18T20:59:28.523Z" },
+            { Group: "Pokemon", Name: "Regice", Time: "2019-07-19T06:09:17.860Z" },
+            { Group: "Pokemon", Name: "Flygon", Time: "2019-07-19T10:13:03.376Z" },
+            { Group: "Pokemon", Name: "Golem", Time: "2019-07-19T10:13:06.790Z" },
         ]
     }
 );
