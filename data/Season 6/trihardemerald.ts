@@ -6,10 +6,9 @@ Season6.Runs.push(
         ColorSecondary: "#6A2400",
         Duration: "255w",
         StartDate: "2019-08-10T21:00:00Z",
-        HostName: "",
-        // HostImage: "img/hosts/accppq.png",
+        HostName: "F48",
+        HostImage: "img/hosts/f48.png",
         // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/74edfi/acacia_aka_acapella_the_party_girl/",
-        Region: "Hoenn",
         Generation: 3,
         Events: [
             { Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png", Time: "", Attempts: 0 },
