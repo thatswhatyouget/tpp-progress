@@ -2,7 +2,7 @@
 namespace TPP.Display.Elements.RunStatus {
     export class PC extends React.Component<{ pc: TPP.Tv.CombinedPCData }, {}> {
         render() {
-            if (!this.props.pc)
+            if (!this.props.pc || !this.props.pc.boxes)
                 return null;
             return <div>
                 <h2>{pokeRedCondenseText("Pokemon Storage System")}</h2>
