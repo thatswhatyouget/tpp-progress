@@ -13,14 +13,14 @@ Intermissions.Runs.push(
         Generation: 3,
         Pokedex: "National",
         Events: [
-            { Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png", Time: "2019-03-31T06:04:00.000Z", Attempts: 0 },
-            { Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png", Time: "2019-03-31T10:07:00.000Z", Attempts: 0 },
-            { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "2019-03-31T11:43:00.000Z", Attempts: 0 },
-            { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "2019-03-31T20:25:00.000Z", Attempts: 0 },
-            { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "2019-03-31T21:48:00.000Z", Attempts: 0 },
-            { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "2019-04-01T04:11:00.000Z", Attempts: 0 },
-            { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "2019-04-01T18:23:00.000Z", Attempts: 0 },
-            { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "2019-04-02T01:24:00.000Z", Attempts: 0 },
+            { Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-08-09T19:15:30.00Z", IDNo: "39091", Attempts: 0, Party: [
