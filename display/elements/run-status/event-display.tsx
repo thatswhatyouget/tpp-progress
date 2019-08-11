@@ -5,6 +5,7 @@ namespace TPP.Display.Elements.RunStatus {
 
     interface EventDisplayProps {
         events: ViewModels.RunEvent[];
+        liveEvents?: TPP.Tv.Event[];
         title?: string;
     }
     interface EventDisplayState {
@@ -24,7 +25,7 @@ namespace TPP.Display.Elements.RunStatus {
                             href: e.ImageSource || null,
                             target: e.ImageSource ? "_blank" : null,
                             className: ['image', (e.Class || '').toLowerCase(), cleanString(e.Name)].join(' ').trim()
-                        },
+                        } as any,
                         <img src={e.Image || 'img/missingno.png'} />
                     )}
                     <h4>{e.RunTime}</h4>

@@ -3,6 +3,14 @@ namespace TPP.Tv {
     export interface RunStatus extends TrainerData {
         party: PartyData;
         pc: CombinedPCData;
+        events: Event[];
+    }
+
+    export interface Event {
+        group: string;
+        name: string;
+        timestamp: string;
+        attempts?: number;
     }
 
     export interface TrainerData {

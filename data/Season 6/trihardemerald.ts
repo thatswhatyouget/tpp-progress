@@ -11,7 +11,7 @@ Season6.Runs.push(
         // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/74edfi/acacia_aka_acapella_the_party_girl/",
         Generation: 3,
         Events: [
-            { Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png", Time: "2019-08-11T05:12:30.163Z", Attempts: 1 },
             { Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "", Attempts: 0 },
@@ -31,6 +31,15 @@ Season6.Runs.push(
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
             },
+
+            { "Group": "Pokemon", "Name": "Torchic", "Time": "2019-08-10T21:11:46.917Z" },
+            { "Group": "Pokemon", "Name": "Lotad", "Time": "2019-08-11T00:09:16.742Z" },
+            { "Group": "Pokemon", "Name": "Wurmple", "Time": "2019-08-11T00:57:11.895Z" },
+            { "Group": "Pokemon", "Name": "Wingull", "Time": "2019-08-11T01:47:23.238Z" },
+            { "Group": "Pokemon", "Name": "Poochyena", "Time": "2019-08-11T01:48:17.965Z" },
+            { "Group": "Pokemon", "Name": "Shroomish", "Time": "2019-08-11T02:17:45.892Z" },
+            { "Group": "Pokemon", "Name": "Taillow", "Time": "2019-08-11T03:31:45.638Z" },
+            { "Group": "Pokemon", "Name": "Combusken", "Time": "2019-08-11T04:59:06.445Z" },
         ]
     }
 );
