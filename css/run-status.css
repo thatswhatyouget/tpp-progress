@@ -258,6 +258,11 @@
     image-rendering: pixelated;
 }
 
+.pokemon-hud ul.party > li .pokemon-image > .pokesprite.egg > img {
+    background-position: center;
+    background: url("../img/egg.gif");
+}
+
 .pokemon-hud ul.party > li .pokemon-info {
   flex: 1 1 auto;
   position: relative;
