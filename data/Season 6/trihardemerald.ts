@@ -18,7 +18,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png", Time: "2019-08-11T12:52:56.468Z", Attempts: 1 },
             { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "2019-08-12T10:57:46.369Z", Attempts: 6 },
             { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "2019-08-13T07:17:18.477Z", Attempts: 1 },
-            { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "2019-08-13T12:59:17.761", Attempts: 1 },
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
@@ -58,6 +58,14 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Wynaut", "Time": "2019-08-13T03:29:30.662Z" },
             { "Group": "Pokemon", "Name": "Sandshrew", "Time": "2019-08-13T07:26:31.784Z" },
             { "Group": "Pokemon", "Name": "Baltoy", "Time": "2019-08-13T09:04:59.985Z" },
+            { "Group": "Pokemon", "Name": "Slugma", "Time": "2019-08-13T10:55:58.202Z" },
+            { "Group": "Pokemon", "Name": "Blaziken", "Time": "2019-08-13T11:52:39.849Z" },
+            { "Group": "Pokemon", "Name": "Manectric", "Time": "2019-08-13T15:40:55.253Z" },
+            { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "2019-08-13T16:22:34.008Z" },
+            { "Group": "Pokemon", "Name": "Trapinch", "Time": "2019-08-13T16:35:40.602Z" },
+            { "Group": "Pokemon", "Name": "Linoone", "Time": "2019-08-13T17:39:26.998Z" },
+            { "Group": "Pokemon", "Name": "Voltorb", "Time": "2019-08-13T18:15:29.792Z" },
+            { "Group": "Pokemon", "Name": "Magnemite", "Time": "2019-08-13T18:18:38.312Z" },
             { "Group": "Pokemon", "Name": "", "Time": "" },
 
         ]
