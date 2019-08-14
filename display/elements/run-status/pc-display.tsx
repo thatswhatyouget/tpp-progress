@@ -6,7 +6,7 @@ namespace TPP.Display.Elements.RunStatus {
                 return null;
             return <div>
                 <h2>{pokeRedCondenseText("Pokemon Storage System")}</h2>
-                {this.props.pc.boxes.filter(b => !!b && !!b.box_number).map(b =>
+                {this.props.pc.boxes.filter(b => !!b && (!!b.box_number || b.box_number === 0)).map(b =>
                     <PCBox key={b.box_number} boxName={b.box_name} boxNumber={b.box_number} boxContents={b.box_contents} />
                 )}
             </div>;
