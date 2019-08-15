@@ -19,7 +19,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "2019-08-12T10:57:46.369Z", Attempts: 6 },
             { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "2019-08-13T07:17:18.477Z", Attempts: 1 },
             { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "2019-08-13T12:59:17.761", Attempts: 1 },
-            { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 2 },
+            { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "2019-08-15T11:13:21.490Z", Attempts: 3 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
 
@@ -74,6 +74,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Vibrava", "Time": "2019-08-14T20:26:04.281Z" },
             { "Group": "Pokemon", "Name": "Wailmer", "Time": "2019-08-14T21:44:28.241Z" },
             { "Group": "Pokemon", "Name": "Chinchou", "Time": "2019-08-15T04:27:48.499Z" },
+            { "Group": "Pokemon", "Name": "Sableye", "Time": "2019-08-15T09:09:33.706Z" },
             { "Group": "Pokemon", "Name": "", "Time": "" },
 
         ]
