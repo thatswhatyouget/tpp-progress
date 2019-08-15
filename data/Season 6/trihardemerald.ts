@@ -19,7 +19,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "2019-08-12T10:57:46.369Z", Attempts: 6 },
             { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "2019-08-13T07:17:18.477Z", Attempts: 1 },
             { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "2019-08-13T12:59:17.761", Attempts: 1 },
-            { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 2 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
 
@@ -66,6 +66,14 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Linoone", "Time": "2019-08-13T17:39:26.998Z" },
             { "Group": "Pokemon", "Name": "Voltorb", "Time": "2019-08-13T18:15:29.792Z" },
             { "Group": "Pokemon", "Name": "Magnemite", "Time": "2019-08-13T18:18:38.312Z" },
+            { "Group": "Pokemon", "Name": "Castform", "Time": "2019-08-13T20:04:26.254Z" },
+            { "Group": "Pokemon", "Name": "Corphish", "Time": "2019-08-13T23:51:55.864Z" },
+            { "Group": "Pokemon", "Name": "Crawdaunt", "Time": "2019-08-14T12:02:55.386Z" },
+            { "Group": "Pokemon", "Name": "Mightyena", "Time": "2019-08-14T13:11:31.439Z" },
+            { "Group": "Pokemon", "Name": "Kecleon", "Time": "2019-08-14T14:41:57.899Z" },
+            { "Group": "Pokemon", "Name": "Vibrava", "Time": "2019-08-14T20:26:04.281Z" },
+            { "Group": "Pokemon", "Name": "Wailmer", "Time": "2019-08-14T21:44:28.241Z" },
+            { "Group": "Pokemon", "Name": "Chinchou", "Time": "2019-08-15T04:27:48.499Z" },
             { "Group": "Pokemon", "Name": "", "Time": "" },
 
         ]
