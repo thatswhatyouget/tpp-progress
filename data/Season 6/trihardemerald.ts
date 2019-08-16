@@ -20,7 +20,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "2019-08-13T07:17:18.477Z", Attempts: 1 },
             { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "2019-08-13T12:59:17.761", Attempts: 1 },
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "2019-08-15T11:13:21.490Z", Attempts: 3 },
-            { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "2019-08-16T10:06:34.213Z", Attempts: 5 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
 
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
@@ -75,6 +75,11 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Wailmer", "Time": "2019-08-14T21:44:28.241Z" },
             { "Group": "Pokemon", "Name": "Chinchou", "Time": "2019-08-15T04:27:48.499Z" },
             { "Group": "Pokemon", "Name": "Sableye", "Time": "2019-08-15T09:09:33.706Z" },
+            { "Group": "Pokemon", "Name": "Geodude", "Time": "2019-08-15T12:54:39.595Z" },
+            { "Group": "Pokemon", "Name": "Flygon", "Time": "2019-08-15T16:30:16.214Z" },
+            { "Group": "Pokemon", "Name": "Duskull", "Time": "2019-08-15T18:17:42.914Z" },
+            { "Group": "Pokemon", "Name": "Wailord", "Time": "2019-08-16T07:49:33.269Z" },
+            { "Group": "Pokemon", "Name": "Sharpedo", "Time": "2019-08-16T12:08:49.621Z" },
             { "Group": "Pokemon", "Name": "", "Time": "" },
 
         ]
