@@ -35,29 +35,14 @@ namespace TPP.Display.Elements.RunStatus {
         }
     }
 
-    export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string }, {}> {
-        render() {
-            let mon = this.props.pokemon;
-            if (!mon)
-                return null;
-            var hideHealth = true;
-            if ((mon as TPP.Tv.PartyPokemon).health) {
-                var hpPercent = (mon as Tv.PartyPokemon).health[0] / (mon as Tv.PartyPokemon).health[1] * 100;
-                hideHealth = false;
-            }
-            let classes = [
-                hideHealth ? null : Math.floor(hpPercent) <= 20 ? "health-low" : Math.floor(hpPercent) > 50 ? "health-high" : "health-med",
-                mon.gender,
-                hideHealth ? null : (mon as Tv.PartyPokemon).health[0] == 0 ? "fainted" : "",
-                (mon as Tv.PartyPokemon).status
-            ].filter(c => !!c).map(cleanString).join(' ');
-            return <li className={classes}>
-                <div className="pokemon-image">
-                    <PokeSprite pokemon={mon.is_egg ? "Egg" : mon.species.name} gender={mon.gender} shiny={mon.shiny} />
-                    <div className="species">{mon.is_egg ? "Egg" : mon.species.name}</div>
-                </div>
-                {mon.is_egg ? null :
-                    <div className="pokemon-info">
+    const infoModes = ["Default", "IVs", "EVs", "Stats", "Condition"]
+
+    export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string }, { infoMode: number; }> {
+
+        private renderInfo(mon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon) {
+            switch (infoModes[this.state && this.state.infoMode || 0]) {
+                default:
+                    return <div className="pokemon-info">
                         <div className="name">{mon.name}</div>
                         <div className="types">
                             <TypeImg type={mon.species.type1} />
@@ -73,7 +58,85 @@ namespace TPP.Display.Elements.RunStatus {
                         {mon.held_item && mon.held_item.id > 0 && <div className="held-item informatic">
                             {mon.held_item.name}
                         </div>}
-                    </div>}
+                    </div>;
+                case "EVs":
+                    return <div className="pokemon-info">
+                        <div className="name">{mon.name}</div>
+                        <div className="informatic">EVs</div>
+                        {mon.evs && <ul className="moves">
+                            <li className="informatic">HP: {mon.evs.hp}</li>
+                            <li className="informatic">Atk: {mon.evs.attack}</li>
+                            <li className="informatic">Def: {mon.evs.defense}</li>
+                            <li className="informatic">Spd: {mon.evs.speed}</li>
+                            <li className="informatic">Spatk: {mon.evs.special_attack}</li>
+                            <li className="informatic">Spdef: {mon.evs.special_defense}</li>
+                        </ul>}
+                    </div>;
+                case "IVs":
+                    return <div className="pokemon-info">
+                        <div className="name">{mon.name}</div>
+                        <div className="informatic">IVs</div>
+                        {mon.ivs && <ul className="moves">
+                            <li className="informatic">HP: {mon.ivs.hp}</li>
+                            <li className="informatic">Atk: {mon.ivs.attack}</li>
+                            <li className="informatic">Def: {mon.ivs.defense}</li>
+                            <li className="informatic">Spd: {mon.ivs.speed}</li>
+                            <li className="informatic">Spatk: {mon.ivs.special_attack}</li>
+                            <li className="informatic">Spdef: {mon.ivs.special_defense}</li>
+                        </ul>}
+                    </div>;
+                case "Stats":
+                    let pMon = mon as TPP.Tv.PartyPokemon;
+                    return <div className="pokemon-info">
+                        <div className="name">{mon.name}</div>
+                        <div className="informatic">Stats</div>
+                        {pMon.stats && <ul className="moves">
+                            <li className="informatic">HP: {pMon.stats.hp}</li>
+                            <li className="informatic">Atk: {pMon.stats.attack}</li>
+                            <li className="informatic">Def: {pMon.stats.defense}</li>
+                            <li className="informatic">Spd: {pMon.stats.speed}</li>
+                            <li className="informatic">Spatk: {pMon.stats.special_attack}</li>
+                            <li className="informatic">Spdef: {pMon.stats.special_defense}</li>
+                        </ul>}
+                    </div>;
+                case "Condition":
+                    return <div className="pokemon-info">
+                        <div className="name">{mon.name}</div>
+                        <div className="informatic">Condition</div>
+                        {mon.condition && <ul className="moves">
+                            <li className="informatic">Coolness: {mon.condition.coolness}</li>
+                            <li className="informatic">Cuteness: {mon.condition.cuteness}</li>
+                            <li className="informatic">Beauty: {mon.condition.beauty}</li>
+                            <li className="informatic">Smartness: {mon.condition.smartness}</li>
+                            <li className="informatic">Toughness: {mon.condition.toughness}</li>
+                            <li className="informatic">Feel/Sheen: {mon.condition.feel}</li>
+                        </ul>}
+                    </div>;
+
+            }
+        }
+
+        render() {
+            let mon = this.props.pokemon;
+            if (!mon)
+                return null;
+            var hideHealth = true;
+            if ((mon as TPP.Tv.PartyPokemon).health) {
+                var hpPercent = (mon as Tv.PartyPokemon).health[0] / (mon as Tv.PartyPokemon).health[1] * 100;
+                hideHealth = false;
+            }
+            let classes = [
+                hideHealth ? null : Math.floor(hpPercent) <= 20 ? "health-low" : Math.floor(hpPercent) > 50 ? "health-high" : "health-med",
+                mon.gender,
+                hideHealth ? null : (mon as Tv.PartyPokemon).health[0] == 0 ? "fainted" : "",
+                (mon as Tv.PartyPokemon).status
+            ].filter(c => !!c).map(cleanString).join(' ');
+            return <li className={classes} onClick={e => this.setState(s => ({ infoMode: ((s && s.infoMode || 0) + 1) % infoModes.length }))}>
+                <div className="pokemon-image">
+                    <PokeSprite pokemon={mon.is_egg ? "Egg" : mon.species.name} gender={mon.gender} shiny={mon.shiny} />
+                    <div className="species">{mon.is_egg ? "Egg" : mon.species.name}</div>
+                </div>
+                {mon.is_egg ? null : this.renderInfo(mon)}
             </li>
         }
     }
