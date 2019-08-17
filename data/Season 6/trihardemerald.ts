@@ -21,7 +21,7 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "2019-08-13T12:59:17.761", Attempts: 1 },
             { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "2019-08-15T11:13:21.490Z", Attempts: 3 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "2019-08-16T10:06:34.213Z", Attempts: 5 },
-            { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "2019-08-17T06:36:53.230Z", Attempts: 1 },
 
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 0 },
@@ -80,6 +80,10 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Duskull", "Time": "2019-08-15T18:17:42.914Z" },
             { "Group": "Pokemon", "Name": "Wailord", "Time": "2019-08-16T07:49:33.269Z" },
             { "Group": "Pokemon", "Name": "Sharpedo", "Time": "2019-08-16T12:08:49.621Z" },
+            { "Group": "Pokemon", "Name": "Clamperl", "Time": "2019-08-16T18:52:22.770Z" },
+            { "Group": "Pokemon", "Name": "Marill", "Time": "2019-08-16T20:55:02.497Z" },
+            { "Group": "Pokemon", "Name": "Spheal", "Time": "2019-08-17T00:09:29.668Z" },
+            { "Group": "Pokemon", "Name": "Sealeo", "Time": "2019-08-17T07:49:12.994Z" },
             { "Group": "Pokemon", "Name": "", "Time": "" },
 
         ]
