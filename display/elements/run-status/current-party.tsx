@@ -35,12 +35,12 @@ namespace TPP.Display.Elements.RunStatus {
         }
     }
 
-    const infoModes = ["Default", "IVs", "EVs", "Stats", "Condition"]
+    const infoModes = ["Default", "Misc", "IVs", "EVs", "Stats", "Condition"]
 
     export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string }, { infoMode: number; }> {
 
-        private renderInfo(mon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon) {
-            switch (infoModes[this.state && this.state.infoMode || 0]) {
+        private renderInfo(mode: string, mon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon) {
+            switch (mode) {
                 default:
                     return <div className="pokemon-info">
                         <div className="name">{mon.name}</div>
@@ -63,7 +63,7 @@ namespace TPP.Display.Elements.RunStatus {
                     return <div className="pokemon-info">
                         <div className="name">{mon.name}</div>
                         <div className="informatic">EVs</div>
-                        {mon.evs && <ul className="moves">
+                        {mon.evs && <ul className="stats">
                             <li className="informatic">HP: {mon.evs.hp}</li>
                             <li className="informatic">Atk: {mon.evs.attack}</li>
                             <li className="informatic">Def: {mon.evs.defense}</li>
@@ -76,7 +76,7 @@ namespace TPP.Display.Elements.RunStatus {
                     return <div className="pokemon-info">
                         <div className="name">{mon.name}</div>
                         <div className="informatic">IVs</div>
-                        {mon.ivs && <ul className="moves">
+                        {mon.ivs && <ul className="stats">
                             <li className="informatic">HP: {mon.ivs.hp}</li>
                             <li className="informatic">Atk: {mon.ivs.attack}</li>
                             <li className="informatic">Def: {mon.ivs.defense}</li>
@@ -90,7 +90,7 @@ namespace TPP.Display.Elements.RunStatus {
                     return <div className="pokemon-info">
                         <div className="name">{mon.name}</div>
                         <div className="informatic">Stats</div>
-                        {pMon.stats && <ul className="moves">
+                        {pMon.stats && <ul className="stats">
                             <li className="informatic">HP: {pMon.stats.hp}</li>
                             <li className="informatic">Atk: {pMon.stats.attack}</li>
                             <li className="informatic">Def: {pMon.stats.defense}</li>
@@ -103,7 +103,7 @@ namespace TPP.Display.Elements.RunStatus {
                     return <div className="pokemon-info">
                         <div className="name">{mon.name}</div>
                         <div className="informatic">Condition</div>
-                        {mon.condition && <ul className="moves">
+                        {mon.condition && <ul className="stats">
                             <li className="informatic">Coolness: {mon.condition.coolness}</li>
                             <li className="informatic">Cuteness: {mon.condition.cuteness}</li>
                             <li className="informatic">Beauty: {mon.condition.beauty}</li>
@@ -111,6 +111,20 @@ namespace TPP.Display.Elements.RunStatus {
                             <li className="informatic">Toughness: {mon.condition.toughness}</li>
                             <li className="informatic">Feel/Sheen: {mon.condition.feel}</li>
                         </ul>}
+                    </div>;
+                case "Misc":
+                    return <div className="pokemon-info">
+                        <div className="name">{mon.name}</div>
+                        {mon.experience && <ul className="stats">
+                            <li className="informatic">Experience</li>
+                            <li className="informatic">Current: {mon.experience.current}</li>
+                            <li className="informatic">Next Level: {mon.experience.next_level}</li>
+                            <li className="informatic">Remaining: {mon.experience.remaining}</li>
+                        </ul>}
+                        {mon.nature && <div className="nature informatic">{mon.nature}</div>}
+                        {mon.characteristic && <div className="characteristic informatic">{mon.characteristic}</div>}
+                        {mon.friendship && <div className="friendship informatic">{mon.friendship}</div>}
+                        {mon.met && mon.met.caught_in && <div className="caught-in informatic">{mon.met.caught_in}</div>}
                     </div>;
 
             }
@@ -136,7 +150,7 @@ namespace TPP.Display.Elements.RunStatus {
                     <PokeSprite pokemon={mon.is_egg ? "Egg" : mon.species.name} gender={mon.gender} shiny={mon.shiny} />
                     <div className="species">{mon.is_egg ? "Egg" : mon.species.name}</div>
                 </div>
-                {mon.is_egg ? null : this.renderInfo(mon)}
+                {mon.is_egg ? null : this.renderInfo(infoModes[this.state && this.state.infoMode || 0], mon)}
             </li>
         }
     }

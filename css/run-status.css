@@ -300,7 +300,7 @@
   font-size: .8em;
   vertical-align: baseline;
 }
-.pokemon-hud ul.party > li .pokemon-info .moves {
+.pokemon-hud ul.party > li .pokemon-info .moves, .pokemon-hud ul.party > li .pokemon-info .stats {
   list-style: none;
   width: 100%;
   padding: 0;
@@ -309,11 +309,18 @@
   top: .3em;
   clear:both;
 }
-.pokemon-hud ul.party > li .pokemon-info .moves li {
+.pokemon-hud ul.party > li .pokemon-info .stats {
+    top: 0;
+}
+.pokemon-hud ul.party > li .pokemon-info .moves li, .pokemon-hud ul.party > li .pokemon-info .stats li  {
   display: block;
   white-space: nowrap;
   height: auto;
   text-align: left;
+}
+.pokemon-hud ul.party > li .pokemon-info .stats li {
+    line-height: .8em;
+    height: .8em;
 }
 .pokemon-hud ul.party > li .pokemon-info .moves li img {
   height: 1em;
@@ -358,13 +365,16 @@
 .pokemon-hud ul.party > li .informatic.held-item:before {
     content:'♋️';
 }
+.pokemon-hud ul.party > li .informatic.friendship:before {
+    content:'☋';
+}
 
 .pokemon-hud ul.party > li .informatic.money:before {
     content:'$';
 }
 
 .pokemon-hud ul.party > li .informatic.coins:before {
-    content:'○';
+    content:'◎';
 }
 
 .pokemon-hud ul.party > li .informatic.balls:before {

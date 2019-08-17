@@ -103,6 +103,7 @@ namespace TPP.Tv {
         ability?: string;
         nature?: string;
         marking?: string;
+        characteristic?: string;
         ivs?: Stats;
         evs?: Stats;
         condition?: ContestStats;
