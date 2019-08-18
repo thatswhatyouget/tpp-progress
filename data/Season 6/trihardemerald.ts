@@ -23,15 +23,21 @@ Season6.Runs.push(
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "2019-08-16T10:06:34.213Z", Attempts: 5 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "2019-08-17T06:36:53.230Z", Attempts: 1 },
 
-            { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "2019-08-18T05:22:37.133Z", Attempts: 1 },
+            { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "2019-08-18T05:41:12.495Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 0 },
             { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "55801", Attempts: 1, Party: [
+                    { Pokemon: "Manectric", Nickname: "b  syro .g", Level: 56, Gender: "Female", Number: 79, IDNo: "55801" },
+                    { Pokemon: "Blaziken", Nickname: "Zzzzzz mmg", Level: 53, Gender: "Male", Number: 6, IDNo: "55801" },
+                    { Pokemon: "Wailord", Nickname: "Wu””2", Level: 50, Gender: "Male", Number: 100, IDNo: "55801" },
+                    { Pokemon: "Sharpedo", Level: 43, Gender: "Female", Number: 98, IDNo: "55801" },
+                    { Pokemon: "Flygon", Nickname: "Piiiv", Level: 50, Gender: "Male", Number: 118, IDNo: "55801" },
+                    { Pokemon: "Aggron", Nickname: "Wwwlry", Level: 43, Gender: "Female", Number: 72, IDNo: "55801" },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2019-08-18T05:14:33.068Z",
                 Image: "img/ribbons/champion.png"
             },
 
@@ -84,8 +90,9 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Marill", "Time": "2019-08-16T20:55:02.497Z" },
             { "Group": "Pokemon", "Name": "Spheal", "Time": "2019-08-17T00:09:29.668Z" },
             { "Group": "Pokemon", "Name": "Sealeo", "Time": "2019-08-17T07:49:12.994Z" },
+            { "Group": "Pokemon", "Name": "Lairon", "Time": "2019-08-17T20:31:13.260Z" },
+            { "Group": "Pokemon", "Name": "Aggron", "Time": "2019-08-18T03:54:29.424Z" },
             { "Group": "Pokemon", "Name": "", "Time": "" },
-
         ]
     }
 );
