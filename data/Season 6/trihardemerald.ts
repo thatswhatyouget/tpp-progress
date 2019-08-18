@@ -25,11 +25,11 @@ Season6.Runs.push(
 
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "2019-08-18T05:22:37.133Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "2019-08-18T05:41:12.495Z", Attempts: 1 },
-            { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "2019-08-18T16:21:37.762Z", Attempts: 2 },
+            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 1 },
             { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "55801", Attempts: 1, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "55801", Attempts: 6, Party: [
                     { Pokemon: "Manectric", Nickname: "b  syro .g", Level: 56, Gender: "Female", Number: 79, IDNo: "55801" },
                     { Pokemon: "Blaziken", Nickname: "Zzzzzz mmg", Level: 53, Gender: "Male", Number: 6, IDNo: "55801" },
                     { Pokemon: "Wailord", Nickname: "Wu””2", Level: 50, Gender: "Male", Number: 100, IDNo: "55801" },
