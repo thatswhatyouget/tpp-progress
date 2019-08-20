@@ -26,7 +26,7 @@ Season6.Runs.push(
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "2019-08-18T05:22:37.133Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "2019-08-18T05:41:12.495Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "2019-08-18T16:21:37.762Z", Attempts: 2 },
-            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 1 },
+            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 3 },
             { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "55801", Attempts: 6, Party: [
@@ -92,6 +92,10 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Sealeo", "Time": "2019-08-17T07:49:12.994Z" },
             { "Group": "Pokemon", "Name": "Lairon", "Time": "2019-08-17T20:31:13.260Z" },
             { "Group": "Pokemon", "Name": "Aggron", "Time": "2019-08-18T03:54:29.424Z" },
+            { "Group": "Pokemon", "Name": "Luvdisc", "Time": "2019-08-19T08:07:48.457Z" },
+            { "Group": "Pokemon", "Name": "Corsola", "Time": "2019-08-19T08:11:39.793Z" },
+            { "Group": "Pokemon", "Name": "Relicanth", "Time": "2019-08-19T15:48:41.093Z" },
+            { "Group": "Pokemon", "Name": "Regice", "Time": "2019-08-19T19:12:39.639Z" },
             { "Group": "Pokemon", "Name": "", "Time": "" },
         ]
     }
