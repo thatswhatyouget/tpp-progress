@@ -4,7 +4,7 @@ Season6.Runs.push(
         RunName: "XG",
         ColorPrimary: "#793165",
         ColorSecondary: "#532245",
-        Duration: "255w",
+        Duration: "2019-07-21T22:40:00Z",
         StartDate: "2019-07-13T21:00:00Z",
         HostName: "Stars",
         HostImage: "img/hosts/abbbcc.png",
@@ -127,6 +127,51 @@ Season6.Runs.push(
                 ],
                 Image: "img/ribbons/national.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Second Game Clear", Time: "2019-07-20T17:53:00Z", Party: [
+                    { Pokemon: "Sceptile", Nickname: "CCC    /", Level: 67, Gender: "Male" },
+                    { Pokemon: "Lugia", Level: 60, Class: "shadow-lugia" },
+                    { Pokemon: "Blaziken", Nickname: "ABBBBBBBQ", Level: 67, Gender: "Male" },
+                    { Pokemon: "Salamence", Level: 69, Gender: "Male" },
+                    { Pokemon: "Swampert", Nickname: "AB-", Level: 69, Gender: "Male" },
+                    { Pokemon: "Metagross", Nickname: "BCCMMW   ", Level: 68 },
+                ],
+                Image: "img/ribbons/national.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Third Game Clear", Time: "2019-07-21T00:47:00Z", Party: [
+                    { Pokemon: "Sceptile", Nickname: "CCC    /", Level: 69, Gender: "Male" },
+                    { Pokemon: "Swampert", Nickname: "AB-", Level: 70, Gender: "Male" },
+                    { Pokemon: "Blaziken", Nickname: "ABBBBBBBQ", Level: 67, Gender: "Male" },
+                    { Pokemon: "Salamence", Level: 69, Gender: "Male" },
+                    { Pokemon: "Lugia", Level: 60, Class: "shadow-lugia" },
+                    { Pokemon: "Metagross", Nickname: "BCCMMW   ", Level: 68 },
+                ],
+                Image: "img/ribbons/national.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Fourth Game Clear", Time: "2019-07-21T18:42:00Z", Party: [
+                    { Pokemon: "Blaziken", Nickname: "ABBBBBBBQ", Level: 75, Gender: "Male" },
+                    { Pokemon: "Sceptile", Nickname: "CCC    /", Level: 74, Gender: "Male" },
+                    { Pokemon: "Swampert", Nickname: "AB-", Level: 76, Gender: "Male" },
+                    { Pokemon: "Salamence", Level: 74, Gender: "Male" },
+                    { Pokemon: "Metagross", Nickname: "BCCMMW   ", Level: 74 },
+                    { Pokemon: "Lugia", Level: 74 },
+                ],
+                Image: "img/ribbons/national.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Fifth Game Clear", Time: "2019-07-21T22:35:00Z", Party: [
+                    { Pokemon: "Sceptile", Nickname: "CCC    /", Level: 75, Gender: "Male" },
+                    { Pokemon: "Lugia", Level: 75 },
+                    { Pokemon: "Swampert", Nickname: "AB-", Level: 77, Gender: "Male" },
+                    { Pokemon: "Salamence", Level: 75, Gender: "Male" },
+                    { Pokemon: "Metagross", Nickname: "BCCMMW   ", Level: 75 },
+                    { Pokemon: "Blaziken", Nickname: "ABBBBBBBQ", Level: 75, Gender: "Male" },
+                ],
+                Image: "img/ribbons/national.png"
+            },
+
             { "Group": "Pokemon", "Name": "Eevee", "Time": "2019-07-13T21:00:00Z" },
             { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "2019-07-13T21:00:00Z" },
             { Group: "Pokemon", Name: "Taillow", Time: "2019-07-13T22:51:31.719Z" },
@@ -269,6 +314,7 @@ Season6.Runs.push(
             { Group: "Pokemon", Name: "Qwilfish", Time: "2019-07-19T13:38:59.815Z" },
             { Group: "Pokemon", Name: "Bonsly", Time: "2019-07-19T14:05:46.527Z" },
             { Group: "Pokemon", Name: "Farfetch'd", Time: "2019-07-19T14:25:46.726Z" },
+
         ]
     }
 );

@@ -26,16 +26,16 @@ Season6.Runs.push(
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "2019-08-18T05:22:37.133Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "2019-08-18T05:41:12.495Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "2019-08-18T16:21:37.762Z", Attempts: 2 },
-            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 3 },
+            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 4 },
             { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "", Attempts: 0 },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "55801", Attempts: 6, Party: [
-                    { Pokemon: "Manectric", Nickname: "b  syro .g", Level: 56, Gender: "Female", Number: 79, IDNo: "55801" },
-                    { Pokemon: "Blaziken", Nickname: "Zzzzzz mmg", Level: 53, Gender: "Male", Number: 6, IDNo: "55801" },
-                    { Pokemon: "Wailord", Nickname: "Wu””2", Level: 50, Gender: "Male", Number: 100, IDNo: "55801" },
-                    { Pokemon: "Sharpedo", Level: 43, Gender: "Female", Number: 98, IDNo: "55801" },
-                    { Pokemon: "Flygon", Nickname: "Piiiv", Level: 50, Gender: "Male", Number: 118, IDNo: "55801" },
-                    { Pokemon: "Aggron", Nickname: "Wwwlry", Level: 43, Gender: "Female", Number: 72, IDNo: "55801" },
+                    { Pokemon: "Flygon", Nickname: "Piiiv", Level: 52, Gender: "Male", Number: 118, IDNo: "55801" },
+                    { Pokemon: "Wailord", Nickname: "Srrrrrr", Level: 50, Gender: "Male", Number: 100, IDNo: "55801" },
+                    { Pokemon: "Manectric", Nickname: "b  syro .g", Level: 64, Gender: "Female", Number: 79, IDNo: "55801" },
+                    { Pokemon: "Blaziken", Nickname: "Zzzzzz mmg", Level: 60, Gender: "Male", Number: 6, IDNo: "55801" },
+                    { Pokemon: "Regice", Nickname: "Vnnnmmmhht", Level: 48, Number: 194, IDNo: "55801" },
+                    { Pokemon: "Tentacool", Nickname: "tttttt", Level: 17, Gender: "Female", Number: 66, IDNo: "55801" },
                 ],
                 FirstAttemptDate: "2019-08-18T05:14:33.068Z",
                 Image: "img/ribbons/champion.png"
