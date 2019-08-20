@@ -4,7 +4,7 @@ Season6.Runs.push(
         RunName: "TriHard Emerald",
         ColorPrimary: "#07825B",
         ColorSecondary: "#6A2400",
-        Duration: "255w",
+        Duration: "9d21h34m",
         StartDate: "2019-08-10T21:00:00Z",
         HostName: "F48",
         HostImage: "img/hosts/f48.png",
@@ -26,16 +26,16 @@ Season6.Runs.push(
             { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "2019-08-18T05:22:37.133Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "2019-08-18T05:41:12.495Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "2019-08-18T16:21:37.762Z", Attempts: 2 },
-            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 4 },
-            { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "2019-08-20T17:53:45.627Z", Attempts: 5 },
+            { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "2019-08-20T18:12:06.224Z", Attempts: 1 },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "55801", Attempts: 6, Party: [
-                    { Pokemon: "Flygon", Nickname: "Piiiv", Level: 52, Gender: "Male", Number: 118, IDNo: "55801" },
-                    { Pokemon: "Wailord", Nickname: "Srrrrrr", Level: 50, Gender: "Male", Number: 100, IDNo: "55801" },
-                    { Pokemon: "Manectric", Nickname: "b  syro .g", Level: 64, Gender: "Female", Number: 79, IDNo: "55801" },
-                    { Pokemon: "Blaziken", Nickname: "Zzzzzz mmg", Level: 60, Gender: "Male", Number: 6, IDNo: "55801" },
-                    { Pokemon: "Regice", Nickname: "Vnnnmmmhht", Level: 48, Number: 194, IDNo: "55801" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d21h13m38s", IDNo: "55801", Attempts: 17, Party: [
+                    { Pokemon: "Flygon", Nickname: "Piiiv", Level: 63, Gender: "Male", Number: 118, IDNo: "55801" },
+                    { Pokemon: "Regice", Nickname: "Vnnnmmmhht", Level: 57, Number: 194, IDNo: "55801" },
+                    { Pokemon: "Manectric", Nickname: "b  syro .g", Level: 70, Gender: "Female", Number: 79, IDNo: "55801" },
+                    { Pokemon: "Wailord", Nickname: "Srrrrrr", Level: 51, Gender: "Male", Number: 100, IDNo: "55801" },
                     { Pokemon: "Tentacool", Nickname: "tttttt", Level: 17, Gender: "Female", Number: 66, IDNo: "55801" },
+                    { Pokemon: "Blaziken", Nickname: "Zzzzzz mmg", Level: 66, Gender: "Male", Number: 6, IDNo: "55801" },
                 ],
                 FirstAttemptDate: "2019-08-18T05:14:33.068Z",
                 Image: "img/ribbons/champion.png"
@@ -96,7 +96,6 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Corsola", "Time": "2019-08-19T08:11:39.793Z" },
             { "Group": "Pokemon", "Name": "Relicanth", "Time": "2019-08-19T15:48:41.093Z" },
             { "Group": "Pokemon", "Name": "Regice", "Time": "2019-08-19T19:12:39.639Z" },
-            { "Group": "Pokemon", "Name": "", "Time": "" },
         ]
     }
 );

@@ -314,6 +314,27 @@ Season6.Runs.push(
             { Group: "Pokemon", Name: "Qwilfish", Time: "2019-07-19T13:38:59.815Z" },
             { Group: "Pokemon", Name: "Bonsly", Time: "2019-07-19T14:05:46.527Z" },
             { Group: "Pokemon", Name: "Farfetch'd", Time: "2019-07-19T14:25:46.726Z" },
+            { Group: "Pokemon", Name: "Moltres", Time: "" },
+            { Group: "Pokemon", Name: "Latias", Time: "" },
+            { Group: "Pokemon", Name: "Parasect", Time: "" },
+            { Group: "Pokemon", Name: "Camerupt", Time: "" },
+            { Group: "Pokemon", Name: "Magikarp", Time: "" },
+            { Group: "Pokemon", Name: "Deoxys", Time: "" },
+            { Group: "Pokemon", Name: "Vulpix", Time: "" },
+            { Group: "Pokemon", Name: "Cubone", Time: "" },
+            { Group: "Pokemon", Name: "Poliwhirl", Time: "" },
+            { Group: "Pokemon", Name: "Kingdra", Time: "" },
+            { Group: "Pokemon", Name: "Lunatone", Time: "" },
+            { Group: "Pokemon", Name: "Wobbuffet", Time: "" },
+            { Group: "Pokemon", Name: "Latios", Time: "" },
+            { Group: "Pokemon", Name: "Kyogre", Time: "" },
+            { Group: "Pokemon", Name: "Graveler", Time: "" },
+            { Group: "Pokemon", Name: "Wigglytuff", Time: "" },
+            { Group: "Pokemon", Name: "Registeel", Time: "" },
+            { Group: "Pokemon", Name: "Solrock", Time: "" },
+            { Group: "Pokemon", Name: "Masquerain", Time: "" },
+            { Group: "Pokemon", Name: "Butterfree", Time: "" },
+
 
         ]
     }
