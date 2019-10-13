@@ -13,9 +13,9 @@ Season6.Runs.push(
         // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7g24ka/rorick_rotor_roark_rowans_sprites/",
         Region: "Alola",
         Generation: 7,
-        Pokedex: "New Alola",
+        Pokedex: "National",
         Events: [
-            { "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "", "Attempts": 0 },
+            { "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "2019-10-13T06:16:12.115Z", "Attempts": 0 },
             { "Group": "Badges", "Name": "Fightinium Z", "Image": "img/z-crystals/Fightinium Z.png", "Time": "", "Attempts": 0 },
             { "Group": "Badges", "Name": "Waterium Z", "Image": "img/z-crystals/Waterium Z.png", "Time": "", "Attempts": 0 },
             { "Group": "Badges", "Name": "Firium Z", "Image": "img/z-crystals/Firium Z.png", "Time": "", "Attempts": 0 },
