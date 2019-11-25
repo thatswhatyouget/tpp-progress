@@ -422,7 +422,7 @@ function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP
     var vidDiv = $('<div class="videos">').appendTo(runElement);
     videoCollection.then(vids => vids.filter(vid => (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime)
     ).forEach(vid => {
-        var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = vid.length, vidStart = new Duration(0), vidEnd = new Duration(0),
+        var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = new Duration(vid.duration).TotalSeconds, vidStart = new Duration(0), vidEnd = new Duration(0),
             runEnd = baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds;
         if (vid.StartTime < baseRunInfo.StartTime) {
             time = 0;

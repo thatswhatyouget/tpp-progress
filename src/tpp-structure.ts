@@ -1,4 +1,3 @@
-/// <reference path="twitch-videos.ts" />
 module TPP {
     export interface Run {
         HostImage?: string;
@@ -237,7 +236,34 @@ var QueryString = (() => {
 })();
 
 function SerializeQueryString() {
-    if (Object.keys(QueryString).filter(k=>QueryString[k]).length)
-        return "?" + Object.keys(QueryString).filter(k=>QueryString[k]).map(k => k + (QueryString[k] == "true" ? "" : "=" + encodeURI(QueryString[k]))).join('&');
+    if (Object.keys(QueryString).filter(k => QueryString[k]).length)
+        return "?" + Object.keys(QueryString).filter(k => QueryString[k]).map(k => k + (QueryString[k] == "true" ? "" : "=" + encodeURI(QueryString[k]))).join('&');
     return "";
+}
+
+
+module Twitch {
+    export interface TwitchVideoResponse {
+        data: TwitchVideo[],
+        pagination: TwitchPagination;
+    }
+
+    export interface TwitchPagination {
+        cursor: string;
+    }
+
+    export interface TwitchVideo {
+        created_at: string;
+        duration: string;
+        url: string;
+    }
+
+    export class Video implements TwitchVideo {
+        public StartTime: number;
+        public EndTime: number;
+        constructor(public created_at: string, public duration: string, public url: string, public source: string) {
+            this.StartTime = new Date(created_at).valueOf() / 1000;
+            this.EndTime = this.StartTime + new Duration(duration).TotalSeconds;
+        }
+    }
 }

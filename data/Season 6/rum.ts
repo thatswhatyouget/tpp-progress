@@ -65,9 +65,9 @@ Season6.Runs.push(
             //     FirstAttemptDate: "2019-10-19T22:53:19.856Z"
             // },
 
-            { "Group": "Champions", "Name": "Hapu", "Time": "2019-10-22T16:47:16.382Z", "Attempts": 1, "Image": "img/trainers/sun/hapu.png", "ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Hapu-651473867" },
+            { "Group": "Champions", "Name": "Hapu", "Time": "2019-10-22T22:19:06.063Z", "Attempts": 1, "Image": "img/trainers/sun/hapu.png", "ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Hapu-651473867" },
             // <TPP.HallOfFame>{
-            //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-10-22T16:47:36.010Z", Attempts: 2, Party: [
+            //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-10-22T22:19:29.672Z", Attempts: 2, Party: [
             //         { Pokemon: "Leavanny", Nickname: "AYY", Gender: "Male", Level: 80 },
             //         { Pokemon: "Garchomp", Nickname: "GarWG%chom", Gender: "Male", Level: 81 },
             //         { Pokemon: "Walrein", Nickname: "TorracatNIII", Gender: "Female", Level: 84 },
@@ -192,7 +192,6 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Ferroseed", "Time": "2019-10-13T20:00:47.540Z" },
             { "Group": "Pokemon", "Name": "Bounsweet", "Time": "2019-10-13T20:03:44.315Z" },
             { "Group": "Pokemon", "Name": "Deino", "Time": "2019-10-13T20:06:13.472Z" },
-            { "Group": "Pokemon", "Name": "Egg", "Time": "2019-10-13T21:26:57.364Z" },
             { "Group": "Pokemon", "Name": "Shellos", "Time": "2019-10-13T22:17:34.890Z" },
             { "Group": "Pokemon", "Name": "Dwebble", "Time": "2019-10-13T22:41:43.716Z" },
             { "Group": "Pokemon", "Name": "Sunkern", "Time": "2019-10-13T22:47:19.215Z" },
