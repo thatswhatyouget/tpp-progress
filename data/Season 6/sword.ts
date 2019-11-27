@@ -21,7 +21,7 @@ Season6.Runs.push(
             { "Group": "Badges", "Name": "Fairy Badge", "Time": "2019-11-26T20:06:00Z", "Attempts": 2, "Image": "https://cdn.bulbagarden.net/upload/e/e3/GalarFairy_Badge.png", },
             { "Group": "Badges", "Name": "Rock Badge", "Time": "2019-11-27T06:44:00Z", "Attempts": 3, "Image": "https://cdn.bulbagarden.net/upload/3/3e/Rock_Badge.png", },
             { "Group": "Badges", "Name": "Dark Badge", "Time": "2019-11-27T13:41:00Z", "Attempts": 2, "Image": "https://cdn.bulbagarden.net/upload/4/4d/Dark_Badge.png", },
-            { "Group": "Badges", "Name": "Dragon Badge", "Time": "", "Attempts": 0, "Image": "https://cdn.bulbagarden.net/upload/2/27/Dragon_Badge.png", },
+            { "Group": "Badges", "Name": "Dragon Badge", "Time": "2019-11-27T15:10:00", "Attempts": 2, "Image": "https://cdn.bulbagarden.net/upload/2/27/Dragon_Badge.png", },
 
             { "Group": "Pokemon", "Name": "Grookey", "Time": "2019-11-23T21:28:00.459Z" },
             { "Group": "Pokemon", "Name": "Skwovet", "Time": "2019-11-23T22:04:36.250Z" },
