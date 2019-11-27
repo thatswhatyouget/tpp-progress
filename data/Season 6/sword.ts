@@ -20,7 +20,7 @@ Season6.Runs.push(
             { "Group": "Badges", "Name": "Fighting Badge", "Time": "2019-11-26T17:05:00Z", "Attempts": 13, "Image": "https://cdn.bulbagarden.net/upload/2/20/Fighting_Badge.png", },
             { "Group": "Badges", "Name": "Fairy Badge", "Time": "2019-11-26T20:06:00Z", "Attempts": 2, "Image": "https://cdn.bulbagarden.net/upload/e/e3/GalarFairy_Badge.png", },
             { "Group": "Badges", "Name": "Rock Badge", "Time": "2019-11-27T06:44:00Z", "Attempts": 3, "Image": "https://cdn.bulbagarden.net/upload/3/3e/Rock_Badge.png", },
-            { "Group": "Badges", "Name": "Dark Badge", "Time": "", "Attempts": 0, "Image": "https://cdn.bulbagarden.net/upload/4/4d/Dark_Badge.png", },
+            { "Group": "Badges", "Name": "Dark Badge", "Time": "2019-11-27T13:41:00Z", "Attempts": 2, "Image": "https://cdn.bulbagarden.net/upload/4/4d/Dark_Badge.png", },
             { "Group": "Badges", "Name": "Dragon Badge", "Time": "", "Attempts": 0, "Image": "https://cdn.bulbagarden.net/upload/2/27/Dragon_Badge.png", },
 
             { "Group": "Pokemon", "Name": "Grookey", "Time": "2019-11-23T21:28:00.459Z" },
@@ -126,6 +126,19 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Hawlucha", "Time": "2019-11-27T02:52:48Z" },
             { "Group": "Pokemon", "Name": "Hatterene", "Time": "2019-11-27T03:19:41Z" },
             { "Group": "Pokemon", "Name": "Snom", "Time": "2019-11-27T04:47:43Z" },
+            { "Group": "Pokemon", "Name": "Mareanie", "Time": "2019-11-27T07:19:58Z" },
+            { "Group": "Pokemon", "Name": "Gastrodon", "Time": "2019-11-27T07:23:48Z" },
+            { "Group": "Pokemon", "Name": "Kingler", "Time": "2019-11-27T08:01:17Z" },
+            { "Group": "Pokemon", "Name": "Pelipper", "Time": "2019-11-27T08:10:26Z" },
+            { "Group": "Pokemon", "Name": "Wailmer", "Time": "2019-11-27T08:18:48Z" },
+            { "Group": "Pokemon", "Name": "Grapploct", "Time": "2019-11-27T08:41:31Z" },
+            { "Group": "Pokemon", "Name": "Clobbopus", "Time": "2019-11-27T08:53:12Z" },
+            { "Group": "Pokemon", "Name": "Indeedee", "Time": "2019-11-27T09:55:07Z" },
+            { "Group": "Pokemon", "Name": "Dewpider", "Time": "2019-11-27T10:53:20Z" },
+            { "Group": "Pokemon", "Name": "Skorupi", "Time": "2019-11-27T10:57:16Z" },
+            { "Group": "Pokemon", "Name": "Sigilyph", "Time": "2019-11-27T11:00:33Z" },
+            { "Group": "Pokemon", "Name": "Karrablast", "Time": "2019-11-27T11:01:56Z" },
+            { "Group": "Pokemon", "Name": "Bergmite", "Time": "2019-11-27T12:23:47Z" },
 
             { "Group": "Pokemon", "Name": "", "Time": "" },
         ]
