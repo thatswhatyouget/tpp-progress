@@ -5,7 +5,7 @@ Season6.Runs.push(
         ColorSecondary: "black",
         ColorPrimary: "#00A0E9",
         StartDate: "2019-11-23T21:00:00Z",
-        Duration: "255w",
+        Duration: "7d23h57m",
         HostName: ":::?89977re",
         Class: "squarehost",
         HostImage: "img/hosts/89977re.png",
@@ -22,6 +22,24 @@ Season6.Runs.push(
             { "Group": "Badges", "Name": "Rock Badge", "Time": "2019-11-27T06:44:00Z", "Attempts": 3, "Image": "https://cdn.bulbagarden.net/upload/3/3e/Rock_Badge.png", },
             { "Group": "Badges", "Name": "Dark Badge", "Time": "2019-11-27T13:41:00Z", "Attempts": 2, "Image": "https://cdn.bulbagarden.net/upload/4/4d/Dark_Badge.png", },
             { "Group": "Badges", "Name": "Dragon Badge", "Time": "2019-11-27T15:10:00", "Attempts": 2, "Image": "https://cdn.bulbagarden.net/upload/2/27/Dragon_Badge.png", },
+
+            { "Group": "Elite Four", "Name": "Bede", "Time": "4d2h45m", "Attempts": 3, "Image": "https://cdn.bulbagarden.net/upload/thumb/a/af/Sword_Shield_Bede.png/340px-Sword_Shield_Bede.png", "ImageSource": "" },
+            { "Group": "Elite Four", "Name": "Nessa", "Time": "4d3h3m", "Attempts": 1, "Image": "https://cdn.bulbagarden.net/upload/thumb/0/0e/Sword_Shield_Nessa.png/360px-Sword_Shield_Nessa.png", "ImageSource": "" },
+            { "Group": "Elite Four", "Name": "Bea", "Time": "4d3h21m", "Attempts": 1, "Image": "https://cdn.bulbagarden.net/upload/thumb/0/02/Sword_Shield_Bea.png/360px-Sword_Shield_Bea.png", "ImageSource": "" },
+            { "Group": "Elite Four", "Name": "Raihan", "Time": "4d5h23m", "Attempts": 4, "Image": "https://cdn.bulbagarden.net/upload/thumb/a/a2/League_Card_Raihan.png/360px-League_Card_Raihan.png", "ImageSource": "" },
+            { "Group": "Champions", "Name": "Leon", "Time": "2019-11-28T13:05:00Z", "Attempts": 9, "Image": "https://cdn.bulbagarden.net/upload/thumb/0/0e/Sword_Shield_Leon.png/400px-Sword_Shield_Leon.png", "ImageSource": "" },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-11-28T13:06:00Z", Party: [
+                    { Pokemon: "Eternatus", Level: 60 },
+                    { Pokemon: "Golurk", Level: 61 },
+                    { Pokemon: "Hatterene", Nickname: "1", Gender: "Female", Level: 64 },
+                    { Pokemon: "Flapple", Gender: "Female", Level: 75 },
+                    { Pokemon: "Mew", Nickname: "1111", Level: 67 },
+                    { Pokemon: "Obstagoon", Gender: "Female", Level: 67},
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: ""
+            },
 
             { "Group": "Pokemon", "Name": "Grookey", "Time": "2019-11-23T21:28:00.459Z" },
             { "Group": "Pokemon", "Name": "Skwovet", "Time": "2019-11-23T22:04:36.250Z" },

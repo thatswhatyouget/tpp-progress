@@ -114,6 +114,19 @@ Sidegames.Runs.push(
             { "Group": "Pokemon", "Name": "Ledyba", "Time": "2019-07-10T17:44:00.000Z" },
             { "Group": "Pokemon", "Name": "Kangaskhan", "Time": "2019-07-11T18:42:00.000Z" },
             { "Group": "Pokemon", "Name": "Nincada", "Time": "2019-07-12T00:05:00.000Z" },
+
+            // <TPP.HallOfFame>{
+            //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-12-15T09:45:00+00:00", IDNo: "01228", Attempts: 1, Party: [
+            //         { Pokemon: "Venusaur", Nickname: "VVOOOOOOIC", Level: 100, Gender: "Male", Number: 3, IDNo: "01228" },
+            //         { Pokemon: "Mew", Nickname: "MMMMMMMMGG", Level: 100, Number: 151, IDNo: "01228" },
+            //         { Pokemon: "Scizor", Nickname: "JJJJJJJJJJ", Level: 100, Gender: "Female", Number: 212, IDNo: "01228" },
+            //         { Pokemon: "Furret", Nickname: "CCCCCCCBBB", Level: 100, Gender: "Female", Number: 162, IDNo: "01228" },
+            //         { Pokemon: "Gengar", Nickname: "IIHBAAAMMM", Level: 100, Gender: "Female", Number: 94, IDNo: "01228" },
+            //         { Pokemon: "Slowking", Nickname: "AAAAAAAAAA", Level: 100, Gender: "Female", Number: 199, IDNo: "01228" },
+            //     ],
+            //     FirstAttemptDate: "2019-12-15T8:30+00:00", //thereabouts
+            //     Image: "img/ribbons/champion.png"
+            // },
         ],
         SidegameId: "metrosapph",
         Revisit: { Collection: "Intermissions", Run: "Metronome Sapphire" },
