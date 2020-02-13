@@ -115,7 +115,7 @@ Season7.Runs.push(
             { Name: "Charmander", Time: "2020-02-13T01:30:31.250Z", Group: "Pokemon" },
             { Name: "Spearow", Time: "2020-02-13T05:14:47.168Z", Group: "Pokemon" },
             { Name: "NidoranM", Time: "2020-02-13T05:16:57.873Z", Group: "Pokemon" },
-            { Name: "Kakuna", Time: "2020-02-13T05:37:01.063ZZ", Group: "Pokemon" },
+            { Name: "Kakuna", Time: "2020-02-13T05:37:01.063Z", Group: "Pokemon" },
             { Name: "Weedle", Time: "2020-02-13T05:43:50.479Z", Group: "Pokemon" },
             { Name: "Charmeleon", Time: "2020-02-13T06:19:03.874Z", Group: "Pokemon" },
             {
