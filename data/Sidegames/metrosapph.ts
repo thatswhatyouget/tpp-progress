@@ -5,7 +5,7 @@ Sidegames.Runs.push(
         ColorPrimary: "#5b59bb",
         ColorSecondary: "#313f89",
         StartDate: "2019-03-31T00:43:00Z",
-        Duration: "255w",
+        Duration: "2019-11-21T00:08:41+00:00",
         HostName: "MARINA",
         HostImage: "img/hosts/marina.png",
         // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/9pkxol/hannah_the_ninja_master/",
@@ -126,6 +126,7 @@ Sidegames.Runs.push(
             //     ],
             //     FirstAttemptDate: "2019-12-15T8:30+00:00", //thereabouts
             //     Image: "img/ribbons/champion.png"
+            // And again at 12-16T11:03
             // },
         ],
         SidegameId: "metrosapph",
