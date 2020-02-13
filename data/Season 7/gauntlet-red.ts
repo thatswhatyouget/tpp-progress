@@ -27,7 +27,8 @@ Season7.Runs.push(
                 Name: "Cascade Badge",
                 Image: "img/badges/cascade.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: ""
+                Time: "2020-02-13T14:58:37.829Z",
+                Attempts: 5
             },
             {
                 Group: "Badges",
@@ -117,7 +118,36 @@ Season7.Runs.push(
             { Name: "Kakuna", Time: "2020-02-13T05:37:01.063ZZ", Group: "Pokemon" },
             { Name: "Weedle", Time: "2020-02-13T05:43:50.479Z", Group: "Pokemon" },
             { Name: "Charmeleon", Time: "2020-02-13T06:19:03.874Z", Group: "Pokemon" },
-
+            {
+                "Group": "Pokemon",
+                "Name": "Pidgey",
+                "Time": "2020-02-13T07:27:37.727Z"
+            },
+            {
+                "Group": "Pokemon",
+                "Name": "Zubat",
+                "Time": "2020-02-13T08:34:19.391Z"
+            },
+            {
+                "Group": "Pokemon",
+                "Name": "Magikarp",
+                "Time": "2020-02-13T09:24:15.954Z"
+            },
+            {
+                "Group": "Pokemon",
+                "Name": "Rattata",
+                "Time": "2020-02-13T13:45:34.623Z"
+            },
+            {
+                "Group": "Pokemon",
+                "Name": "Fearow",
+                "Time": "2020-02-13T14:03:43.552Z"
+            },
+            {
+                "Group": "Pokemon",
+                "Name": "Beedrill",
+                "Time": "2020-02-13T15:12:23.663Z"
+            },
             { Name: "", Time: "", Group: "Pokemon" },
 
 
