@@ -7,7 +7,7 @@ Season7.Runs.push(
         BackgroundImage: "radial-gradient(ellipse at bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 41%, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 70%)",
         StartDate: "2020-02-13T01:22:00Z",
         Duration: "16d 7h 52m",
-        HostName: "",
+        HostName: "RED",
         HostImage: "img/hosts/red.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Kanto",
