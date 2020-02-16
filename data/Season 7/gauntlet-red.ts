@@ -59,14 +59,16 @@ Season7.Runs.push(
                 Name: "Marsh Badge",
                 Image: "img/badges/marsh.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: ""
+                Time: "2020-02-16T23:29:54.046Z",
+                Attempts: 7
             },
             {
                 Group: "Badges",
                 Name: "Volcano Badge",
                 Image: "img/badges/volcano.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: ""
+                Time: "2020-02-16T21:47:03.883Z",
+                Attempts: 2
             },
             {
                 Group: "Badges",
@@ -149,6 +151,22 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Vileplume", "Time": "2020-02-16T03:12:21.636Z" },
             { "Group": "Pokemon", "Name": "Nidorina", "Time": "2020-02-16T05:35:24.884Z" },
             { "Group": "Pokemon", "Name": "Scyther", "Time": "2020-02-16T06:42:28.255Z" },
+            { "Group": "Pokemon", "Name": "Paras", "Time": "2020-02-16T07:09:35.868Z" },
+            { "Group": "Pokemon", "Name": "Hitmonchan", "Time": "2020-02-16T07:52:19.084Z" },
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "2020-02-16T08:01:30.316Z" },
+            { "Group": "Pokemon", "Name": "Dodrio", "Time": "2020-02-16T08:16:56.853Z" },
+            { "Group": "Pokemon", "Name": "Raticate", "Time": "2020-02-16T08:25:08.874Z" },
+            { "Group": "Pokemon", "Name": "Pikachu", "Time": "2020-02-16T09:34:54.961Z" },
+            { "Group": "Pokemon", "Name": "Jigglypuff", "Time": "2020-02-16T10:06:59.278Z" },
+            { "Group": "Pokemon", "Name": "Geodude", "Time": "2020-02-16T10:21:13.971Z" },
+            { "Group": "Pokemon", "Name": "Growlithe", "Time": "2020-02-16T11:49:39.778Z" },
+            { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "2020-02-16T12:07:58.288Z" },
+            { "Group": "Pokemon", "Name": "Electrode", "Time": "2020-02-16T12:24:33.149Z" },
+            { "Group": "Pokemon", "Name": "Clefairy", "Time": "2020-02-16T13:20:43.512Z" },
+            { "Group": "Pokemon", "Name": "Poliwag", "Time": "2020-02-16T13:54:46.647Z" },
+            { "Group": "Pokemon", "Name": "Tangela", "Time": "2020-02-16T14:17:33.454Z" },
+            { "Group": "Pokemon", "Name": "Koffing", "Time": "2020-02-16T14:58:07.365Z" },
+            { "Group": "Pokemon", "Name": "Ponyta", "Time": "2020-02-16T17:29:46.724Z" },
         ]
     }
 );
