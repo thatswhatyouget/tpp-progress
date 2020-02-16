@@ -51,7 +51,8 @@ Season7.Runs.push(
                 Name: "Soul Badge",
                 Image: "img/badges/soul.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: ""
+                Time: "2020-02-16T03:55:20.742Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
@@ -142,7 +143,12 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Exeggcute", "Time": "2020-02-15T13:37:34.198Z" },
             { "Group": "Pokemon", "Name": "Venonat", "Time": "2020-02-15T13:53:50.895Z" },
             { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "2020-02-15T13:54:53.616Z" },
-            { "Group": "Pokemon", "Name": "Parasect", "Time": "2020-02-15T13:56:49.532Z" }
+            { "Group": "Pokemon", "Name": "Parasect", "Time": "2020-02-15T13:56:49.532Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2020-02-15T18:22:58.158Z" },
+            { "Group": "Pokemon", "Name": "NidoranF", "Time": "2020-02-15T19:54:52.745Z" },
+            { "Group": "Pokemon", "Name": "Vileplume", "Time": "2020-02-16T03:12:21.636Z" },
+            { "Group": "Pokemon", "Name": "Nidorina", "Time": "2020-02-16T05:35:24.884Z" },
+            { "Group": "Pokemon", "Name": "Scyther", "Time": "2020-02-16T06:42:28.255Z" },
         ]
     }
 );
