@@ -75,7 +75,8 @@ Season7.Runs.push(
                 Name: "Earth Badge",
                 Image: "img/badges/earth.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: ""
+                Time: "2020-02-17T00:00:17.482Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
