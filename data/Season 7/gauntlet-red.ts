@@ -110,11 +110,17 @@ Season7.Runs.push(
                 Group: "Champions",
                 Name: "BLUE",
                 Image: "img/trainers/red/blue.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-18T17:40:33.792Z",
+                Attempts: 5
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 20, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-02-18T17:41:13.227Z", Attempts: 27, Party: [
+                    { Pokemon: "Electrode", Nickname: "BCCLLMDDML", Level: 52, Type1: "Electric" },
+                    { Pokemon: "Poliwrath", Nickname: "AIIIIH", Level: 66, Type1: "Water", Type2: "Fighting" },
+                    { Pokemon: "Rapidash", Nickname: "J", Level: 46, Type1: "Fire" },
+                    { Pokemon: "Dodrio", Nickname: "FJJAA)", Level: 56, Type1: "Normal", Type2: "Flying" },
+                    { Pokemon: "Vileplume", Nickname: "----", Level: 71, Type1: "Grass", Type2: "Poison" },
+                    { Pokemon: "Rhydon", Nickname: "JJI???UUT", Level: 51, Type1: "Ground", Type2: "Rock" },
                 ],
                 FirstAttemptDate:"2020-02-18T04:51:31.142Z",
                 Image: "img/ribbons/champion.png"
