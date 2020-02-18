@@ -82,29 +82,29 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Lorelei",
                 Image: "img/trainers/red/lorelei.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-18T04:59:31.536Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Bruno",
                 Image: "img/trainers/red/bruno.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-18T05:42:45.144Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Agatha",
                 Image: "img/trainers/red/agatha.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-18T05:50:23.062Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Lance",
                 Image: "img/trainers/red/lance.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-18T09:24:54.269Z",
+                Attempts: 5
             },
             {
                 Group: "Champions",
@@ -114,8 +114,9 @@ Season7.Runs.push(
                 Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 20, Party: [
                 ],
+                FirstAttemptDate:"2020-02-18T04:51:31.142Z",
                 Image: "img/ribbons/champion.png"
             },
             { "Group": "Pokemon", "Name": "Charmander", "Time": "2020-02-13T01:30:31.250Z" },
@@ -168,6 +169,12 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Tangela", "Time": "2020-02-16T14:17:33.454Z" },
             { "Group": "Pokemon", "Name": "Koffing", "Time": "2020-02-16T14:58:07.365Z" },
             { "Group": "Pokemon", "Name": "Ponyta", "Time": "2020-02-16T17:29:46.724Z" },
+            { "Group": "Pokemon", "Name": "Rhydon", "Time": "2020-02-17T10:06:56.568Z" },
+            { "Group": "Pokemon", "Name": "Poliwrath", "Time": "2020-02-17T20:24:07.370Z" },
+            { "Group": "Pokemon", "Name": "Grimer", "Time": "2020-02-17T20:35:20.625Z" },
+            { "Group": "Pokemon", "Name": "Rapidash", "Time": "2020-02-17T20:55:39.997Z" },
+            { "Group": "Pokemon", "Name": "Onix", "Time": "2020-02-18T12:23:54.456Z" },
+            { "Group": "Pokemon", "Name": "Venomoth", "Time": "2020-02-18T12:30:23.374Z" },
         ]
     }
 );
