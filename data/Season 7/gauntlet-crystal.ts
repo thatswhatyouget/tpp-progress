@@ -19,8 +19,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Zephyr Badge",
                 Image: "img/badges/zephyr.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-23T18:06:27.834Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
@@ -178,6 +178,11 @@ Season7.Runs.push(
                 Attempts: 0
             },
             { "Group": "Pokemon", "Name": "Chikorita", "Time": "2020-02-23T12:05:57.636Z" },
+            { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2020-02-23T14:48:50.126Z" },
+            { "Group": "Pokemon", "Name": "Onix", "Time": "2020-02-23T16:45:02.205Z" },
+            { "Group": "Pokemon", "Name": "Bayleef", "Time": "2020-02-23T16:59:41.497Z" },
+            { "Group": "Pokemon", "Name": "Rattata", "Time": "2020-02-23T17:12:57.209Z" },
+            // { "Group": "Pokemon", "Name": "Egg", "Time": "2020-02-23T18:23:14.113Z" },
         ]
     }
 );
