@@ -7,11 +7,9 @@ Season7.Runs.push(
         BackgroundImage: "radial-gradient(ellipse at left bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 41%, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 70%)",
         StartDate: "2020-02-23T12:00:00Z",
         Duration: "255w",
-        HostName: "",
+        HostName: "dπ",
         HostImage: "img/hosts/ajdnnw.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
-        // HostImage: "img/hosts/ewwyppp.png",
-        // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/6tdqij/the_hosts_of_the_voices_4th_midseason/",
         Region: "Johto",
         //AdditionalRegions: [{ Name: "Kanto", Time: "" }],
         Generation: 2,
@@ -179,6 +177,7 @@ Season7.Runs.push(
                 Time: "",
                 Attempts: 0
             },
+            { "Group": "Pokemon", "Name": "Chikorita", "Time": "2020-02-23T12:05:57.636Z" },
         ]
     }
 );

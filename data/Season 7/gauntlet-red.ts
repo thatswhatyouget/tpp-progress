@@ -231,7 +231,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Farfetch'd", "Time": "2020-02-19T13:04:26.260Z" },
             { "Group": "Pokemon", "Name": "Kingler", "Time": "2020-02-19T13:12:05.889Z" },
             { "Group": "Pokemon", "Name": "Kadabra", "Time": "2020-02-19T13:21:51.212Z" },
-            { "Group": "Pokemon", "Name": "Mr.Mime", "Time": "2020-02-19T13:30:46.315Z" },
+            { "Group": "Pokemon", "Name": "Mr. Mime", "Time": "2020-02-19T13:30:46.315Z" },
             { "Group": "Pokemon", "Name": "Gastly", "Time": "2020-02-19T13:41:44.805Z" },
             { "Group": "Pokemon", "Name": "Haunter", "Time": "2020-02-19T13:45:39.447Z" },
             { "Group": "Pokemon", "Name": "Cubone", "Time": "2020-02-19T14:06:14.365Z" },
