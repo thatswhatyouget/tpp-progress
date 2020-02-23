@@ -6,7 +6,7 @@ Season7.Runs.push(
         ColorSecondary: "#8c3836",
         BackgroundImage: "radial-gradient(ellipse at left bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 41%, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 70%)",
         StartDate: "2020-02-13T01:22:00Z",
-        Duration: "16d 7h 52m",
+        Duration: "6d 18h 43m",
         HostName: "RED",
         HostImage: "img/hosts/red.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
@@ -236,6 +236,9 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Haunter", "Time": "2020-02-19T13:45:39.447Z" },
             { "Group": "Pokemon", "Name": "Cubone", "Time": "2020-02-19T14:06:14.365Z" },
             { "Group": "Pokemon", "Name": "Marowak", "Time": "2020-02-19T14:20:02.501Z" },
+            { "Group": "Pokemon", "Name": "Kangaskhan", "Time": "2020-02-19T15:24:32.837Z" },
+            { "Group": "Pokemon", "Name": "Caterpie", "Time": "2020-02-19T16:05:47.920Z" },
+            { "Group": "Pokemon", "Name": "Arbok", "Time": "2020-02-19T17:03:32.432Z" },
         ]
     }
 );
