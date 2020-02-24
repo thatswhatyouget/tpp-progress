@@ -33,8 +33,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Plain Badge",
                 Image: "img/badges/plain.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-24T08:31:12.794Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
@@ -184,6 +184,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Rattata", "Time": "2020-02-23T17:12:57.209Z" },
             // { "Group": "Pokemon", "Name": "Egg", "Time": "2020-02-23T18:23:14.113Z" },
             { "Group": "Pokemon", "Name": "Togepi", "Time": "2020-02-23T21:11:08.379Z" },
+            { "Group": "Pokemon", "Name": "Igglybuff", "Time": "2020-02-24T08:43:59.683Z" },
         ]
     }
 );
