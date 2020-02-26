@@ -61,8 +61,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Glacier Badge",
                 Image: "img/badges/glacier.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-26T08:37:05.301Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
@@ -205,6 +205,12 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "2020-02-25T17:27:53.311Z" },
             { "Group": "Pokemon", "Name": "Steelix", "Time": "2020-02-25T18:52:33.851Z" },
             { "Group": "Pokemon", "Name": "Ursaring", "Time": "2020-02-25T20:36:32.922Z" },
+            { "Group": "Pokemon", "Name": "Mantine", "Time": "2020-02-26T05:15:26.829Z" },
+            { "Group": "Pokemon", "Name": "Ledyba", "Time": "2020-02-26T06:29:12.147Z" },
+            { "Group": "Pokemon", "Name": "Hoppip", "Time": "2020-02-26T06:46:29.110Z" },
+            { "Group": "Pokemon", "Name": "Machoke", "Time": "2020-02-26T08:06:52.928Z" },
+            { "Group": "Pokemon", "Name": "Snubbull", "Time": "2020-02-26T10:02:11.150Z" },
+            { "Group": "Pokemon", "Name": "Cyndaquil", "Time": "2020-02-26T10:51:09.748Z" }
         ]
     }
 );
