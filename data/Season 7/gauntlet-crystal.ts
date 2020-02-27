@@ -68,8 +68,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Rising Badge",
                 Image: "img/badges/rising.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-27T05:20:56.999Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
@@ -210,7 +210,18 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Hoppip", "Time": "2020-02-26T06:46:29.110Z" },
             { "Group": "Pokemon", "Name": "Machoke", "Time": "2020-02-26T08:06:52.928Z" },
             { "Group": "Pokemon", "Name": "Snubbull", "Time": "2020-02-26T10:02:11.150Z" },
-            { "Group": "Pokemon", "Name": "Cyndaquil", "Time": "2020-02-26T10:51:09.748Z" }
+            { "Group": "Pokemon", "Name": "Cyndaquil", "Time": "2020-02-26T10:51:09.748Z" },
+            { "Group": "Pokemon", "Name": "Gyarados", "Time": "2020-02-26T11:45:02.396Z" },
+            { "Group": "Pokemon", "Name": "Mareep", "Time": "2020-02-26T11:49:34.581Z" },
+            { "Group": "Pokemon", "Name": "Sentret", "Time": "2020-02-26T11:54:27.206Z" },
+            { "Group": "Pokemon", "Name": "Totodile", "Time": "2020-02-26T12:33:46.748Z" },
+            { "Group": "Pokemon", "Name": "Crobat", "Time": "2020-02-26T16:49:48.939Z" },
+            { "Group": "Pokemon", "Name": "Delibird", "Time": "2020-02-26T23:15:11.222Z" },
+            { "Group": "Pokemon", "Name": "Magikarp", "Time": "2020-02-27T01:46:36.070Z" },
+            { "Group": "Pokemon", "Name": "Gligar", "Time": "2020-02-27T02:45:07.446Z" },
+            { "Group": "Pokemon", "Name": "Sandshrew", "Time": "2020-02-27T07:24:19.688Z" },
+            { "Group": "Pokemon", "Name": "Celebi", "Time": "2020-02-27T07:47:17.854Z" },
+            { "Group": "Pokemon", "Name": "Corsola", "Time": "2020-02-27T08:37:47.843Z" },
         ]
     }
 );
