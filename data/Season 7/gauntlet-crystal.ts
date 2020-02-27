@@ -75,8 +75,8 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Will",
                 Image: "img/trainers/crystal/will.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-27T21:54:10.660Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four",
@@ -110,7 +110,7 @@ Season7.Runs.push(
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
                     { Pokemon: "", Nickname: "", Level: 0, Gender: "Male", Number: 0, IDNo: "" },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2020-02-27T18:39:47.286Z",
                 Image: "img/ribbons/champion.png"
             },
             {
@@ -222,6 +222,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Sandshrew", "Time": "2020-02-27T07:24:19.688Z" },
             { "Group": "Pokemon", "Name": "Celebi", "Time": "2020-02-27T07:47:17.854Z" },
             { "Group": "Pokemon", "Name": "Corsola", "Time": "2020-02-27T08:37:47.843Z" },
+            { "Group": "Pokemon", "Name": "Entei", "Time": "2020-02-27T15:24:56.606Z" },
         ]
     }
 );
