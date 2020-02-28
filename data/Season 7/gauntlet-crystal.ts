@@ -82,8 +82,8 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Koga",
                 Image: "img/trainers/crystal/koga.png",
-                Time: "",
-                Attempts: 0
+                Time: "020-02-28T01:09:55.414Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
@@ -223,6 +223,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Celebi", "Time": "2020-02-27T07:47:17.854Z" },
             { "Group": "Pokemon", "Name": "Corsola", "Time": "2020-02-27T08:37:47.843Z" },
             { "Group": "Pokemon", "Name": "Entei", "Time": "2020-02-27T15:24:56.606Z" },
+            { "Group": "Pokemon", "Name": "Politoed", "Time": "2020-02-27T22:27:00.707Z" },
         ]
     }
 );
