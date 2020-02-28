@@ -89,8 +89,8 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Bruno",
                 Image: "img/trainers/crystal/bruno.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-28T07:32:27.584Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
@@ -224,6 +224,11 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Corsola", "Time": "2020-02-27T08:37:47.843Z" },
             { "Group": "Pokemon", "Name": "Entei", "Time": "2020-02-27T15:24:56.606Z" },
             { "Group": "Pokemon", "Name": "Politoed", "Time": "2020-02-27T22:27:00.707Z" },
+            { "Group": "Pokemon", "Name": "Graveler", "Time": "2020-02-27T23:16:05.428Z" },
+            { "Group": "Pokemon", "Name": "Machamp", "Time": "2020-02-28T01:57:12.108Z" },
+            { "Group": "Pokemon", "Name": "Tentacool", "Time": "2020-02-28T03:23:09.438Z" },
+            { "Group": "Pokemon", "Name": "Quagsire", "Time": "2020-02-28T03:54:53.114Z" },
+            { "Group": "Pokemon", "Name": "Chinchou", "Time": "2020-02-28T05:03:26.941Z" }
         ]
     }
 );
