@@ -96,8 +96,8 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Karen",
                 Image: "img/trainers/crystal/karen.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-28T10:18:08.915Z",
+                Attempts: 4
             },
             {
                 Group: "Champions",
