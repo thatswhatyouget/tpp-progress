@@ -82,7 +82,7 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Koga",
                 Image: "img/trainers/crystal/koga.png",
-                Time: "020-02-28T01:09:55.414Z",
+                Time: "2020-02-28T01:09:55.414Z",
                 Attempts: 2
             },
             {
