@@ -103,12 +103,17 @@ Season7.Runs.push(
                 Group: "Champions",
                 Name: "Lance",
                 Image: "img/trainers/crystal/lance.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-29T07:17:33.106Z",
+                Attempts: 12
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
-                    { Pokemon: "", Nickname: "", Level: 0, Gender: "Male", Number: 0, IDNo: "" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "5d 19h 18m", IDNo: "62704", Attempts: 26, Party: [
+                    { Pokemon: "Ursaring", Nickname: "CA.XX", Level: 60, Gender: "Male", Number: 217, IDNo: "62704" },
+                    { Pokemon: "Entei", Nickname: "BBBBLLlrk", Level: 53, Number: 244, IDNo: "62704" },
+                    { Pokemon: "Meganium", Nickname: "    ZZZZY", Level: 52, Gender: "Male", Number: 154, IDNo: "62704" },
+                    { Pokemon: "Machamp", Nickname: "JJJJSSS??S", Level: 59, Gender: "Male", Number: 68, IDNo: "62704" },
+                    { Pokemon: "Steelix", Nickname: "ROCKY", Level: 69, Gender: "Male", Number: 208, IDNo: "48926" },
+                    { Pokemon: "Politoed", Nickname: "AAAxtux", Level: 56, Gender: "Female", Number: 186, IDNo: "62704" },
                 ],
                 FirstAttemptDate: "2020-02-27T18:39:47.286Z",
                 Image: "img/ribbons/champion.png"
@@ -132,8 +137,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Thunder Badge",
                 Image: "img/badges/thunder.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-29T10:53:46.906Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
@@ -153,8 +158,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Marsh Badge",
                 Image: "img/badges/marsh.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-29T11:33:45.579Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
