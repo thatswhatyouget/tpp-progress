@@ -8,8 +8,8 @@ Season7.Runs.push(
         StartDate: "2020-02-23T12:00:00Z",
         Duration: "255w",
         HostName: "dπ",
-        HostImage: "img/hosts/ajdnnw.png",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+        HostImage: "img/hosts/dpk.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/fb0l7h/dr_deepak_kurosawa_aka_doctor_pokemon_aka_dippy_k/",
         Region: "Johto",
         //AdditionalRegions: [{ Name: "Kanto", Time: "" }],
         Generation: 2,
@@ -223,12 +223,15 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Celebi", "Time": "2020-02-27T07:47:17.854Z" },
             { "Group": "Pokemon", "Name": "Corsola", "Time": "2020-02-27T08:37:47.843Z" },
             { "Group": "Pokemon", "Name": "Entei", "Time": "2020-02-27T15:24:56.606Z" },
+            { "Group": "Pokemon", "Name": "Sandslash", "Time": "2020-02-27T19:52:06.642Z" },
             { "Group": "Pokemon", "Name": "Politoed", "Time": "2020-02-27T22:27:00.707Z" },
             { "Group": "Pokemon", "Name": "Graveler", "Time": "2020-02-27T23:16:05.428Z" },
             { "Group": "Pokemon", "Name": "Machamp", "Time": "2020-02-28T01:57:12.108Z" },
             { "Group": "Pokemon", "Name": "Tentacool", "Time": "2020-02-28T03:23:09.438Z" },
             { "Group": "Pokemon", "Name": "Quagsire", "Time": "2020-02-28T03:54:53.114Z" },
-            { "Group": "Pokemon", "Name": "Chinchou", "Time": "2020-02-28T05:03:26.941Z" }
+            { "Group": "Pokemon", "Name": "Chinchou", "Time": "2020-02-28T05:03:26.941Z" },
+            { "Group": "Pokemon", "Name": "Sunkern", "Time": "2020-02-28T14:29:33.818Z" },
+            { "Group": "Pokemon", "Name": "Spearow", "Time": "2020-02-28T14:42:03.910Z" },
         ]
     }
 );

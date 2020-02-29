@@ -7,8 +7,8 @@ Season6.Runs.push(
         Duration: "2019-06-15T02:34:21Z",
         StartDate: "2019-06-08T21:00:00Z",
         HostName: "ACCC",
-        HostImage: "img/hosts/aaaaaaa.png",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+        HostImage: "img/hosts/accc.gif",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/cu73f6/the_hosts_of_the_voices_after_the_fate_of_hoenn/",
         Region: "Orre",
         Generation: 3,
         Events: [
