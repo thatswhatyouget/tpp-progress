@@ -11,7 +11,7 @@ Season7.Runs.push(
         HostImage: "img/hosts/dpk.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/fb0l7h/dr_deepak_kurosawa_aka_doctor_pokemon_aka_dippy_k/",
         Region: "Johto",
-        //AdditionalRegions: [{ Name: "Kanto", Time: "" }],
+        AdditionalRegions: [{ Name: "Kanto", Time: "2020-02-29T10:22:33.940Z" }],
         Generation: 2,
         Pokedex: "National",
         Events: [
