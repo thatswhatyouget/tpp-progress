@@ -108,12 +108,12 @@ Season7.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "5d 19h 18m", IDNo: "62704", Attempts: 26, Party: [
-                    { Pokemon: "Ursaring", Nickname: "CA.XX", Level: 60, Gender: "Male", Number: 217, IDNo: "62704" },
-                    { Pokemon: "Entei", Nickname: "BBBBLLlrk", Level: 53, Number: 244, IDNo: "62704" },
-                    { Pokemon: "Meganium", Nickname: "    ZZZZY", Level: 52, Gender: "Male", Number: 154, IDNo: "62704" },
+                    { Pokemon: "Ursaring", Nickname: "CA.XX", Level: 66, Gender: "Male", Number: 217, IDNo: "62704" },
+                    { Pokemon: "Entei", Nickname: "BBBBLLlrk", Level: 54, Number: 244, IDNo: "62704" },
+                    { Pokemon: "Meganium", Nickname: "    ZZZZY", Level: 53, Gender: "Male", Number: 154, IDNo: "62704" },
                     { Pokemon: "Machamp", Nickname: "JJJJSSS??S", Level: 59, Gender: "Male", Number: 68, IDNo: "62704" },
-                    { Pokemon: "Steelix", Nickname: "ROCKY", Level: 69, Gender: "Male", Number: 208, IDNo: "48926" },
-                    { Pokemon: "Politoed", Nickname: "AAAxtux", Level: 56, Gender: "Female", Number: 186, IDNo: "62704" },
+                    { Pokemon: "Steelix", Nickname: "ROCKY", Level: 71, Gender: "Male", Number: 208, IDNo: "48926" },
+                    { Pokemon: "Politoed", Nickname: "AAAxtux", Level: 58, Gender: "Female", Number: 186, IDNo: "62704" },
                 ],
                 FirstAttemptDate: "2020-02-27T18:39:47.286Z",
                 Image: "img/ribbons/champion.png"
@@ -123,15 +123,15 @@ Season7.Runs.push(
                 Name: "Boulder Badge",
                 Image: "img/badges/boulder.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-29T19:42:01.895Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Cascade Badge",
                 Image: "img/badges/cascade.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-29T15:02:55.729Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
@@ -144,15 +144,15 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Rainbow Badge",
                 Image: "img/badges/rainbow.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-29T16:15:00.825Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Soul Badge",
                 Image: "img/badges/soul.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-29T16:55:01.522Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
@@ -237,6 +237,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Chinchou", "Time": "2020-02-28T05:03:26.941Z" },
             { "Group": "Pokemon", "Name": "Sunkern", "Time": "2020-02-28T14:29:33.818Z" },
             { "Group": "Pokemon", "Name": "Spearow", "Time": "2020-02-28T14:42:03.910Z" },
+            { "Group": "Pokemon", "Name": "Snorlax", "Time": "2020-02-29T19:23:19.625Z" },
         ]
     }
 );
