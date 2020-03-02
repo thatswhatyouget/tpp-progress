@@ -165,15 +165,15 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Volcano Badge",
                 Image: "img/badges/volcano.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-02-29T21:03:04.103Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Earth Badge",
                 Image: "img/badges/earth.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-01T06:04:42.948Z",
+                Attempts: 2
             },
             {
                 Group: "Past Hosts",
@@ -238,6 +238,11 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Sunkern", "Time": "2020-02-28T14:29:33.818Z" },
             { "Group": "Pokemon", "Name": "Spearow", "Time": "2020-02-28T14:42:03.910Z" },
             { "Group": "Pokemon", "Name": "Snorlax", "Time": "2020-02-29T19:23:19.625Z" },
+            { "Group": "Pokemon", "Name": "Magmar", "Time": "2020-03-01T08:45:23.982Z" },
+            { "Group": "Pokemon", "Name": "Ledian", "Time": "2020-03-01T10:36:27.900Z" },
+            { "Group": "Pokemon", "Name": "Slugma", "Time": "2020-03-01T13:02:55.380Z" },
+            { "Group": "Pokemon", "Name": "Furret", "Time": "2020-03-01T14:09:27.842Z" },
+            { "Group": "Pokemon", "Name": "Pidgey", "Time": "2020-03-01T17:02:52.422Z" },
         ]
     }
 );
