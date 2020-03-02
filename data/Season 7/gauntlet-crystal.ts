@@ -186,8 +186,8 @@ Season7.Runs.push(
                 Group: "Past Hosts",
                 Name: "RED",
                 Image: "img/hosts/red.png",
-                Time: "",
-                Attempts: 1
+                Time: "2020-03-02T11:31:02.091Z",
+                Attempts: 2
             },
             { "Group": "Pokemon", "Name": "Chikorita", "Time": "2020-02-23T12:05:57.636Z" },
             { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2020-02-23T14:48:50.126Z" },
