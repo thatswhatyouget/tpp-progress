@@ -6,14 +6,14 @@ Season7.Runs.push(
         ColorSecondary: "#385d8a",
         BackgroundImage: "radial-gradient(ellipse at left bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 41%, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 70%)",
         StartDate: "2020-02-23T12:00:00Z",
-        Duration: "255w",
+        Duration: "2020-03-03T04:19:43.404Z",
         HostName: "dπ",
         HostImage: "img/hosts/dpk.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/fb0l7h/dr_deepak_kurosawa_aka_doctor_pokemon_aka_dippy_k/",
         Region: "Johto",
         AdditionalRegions: [{ Name: "Kanto", Time: "2020-02-29T10:22:33.940Z" }],
         Generation: 2,
-        Pokedex: "National",
+        Pokedex: "New",
         Events: [
             {
                 Group: "Badges",
@@ -189,6 +189,25 @@ Season7.Runs.push(
                 Time: "2020-03-02T11:31:02.091Z",
                 Attempts: 2
             },
+            {
+                Group: "Past Hosts",
+                Name: "AJDNNW",
+                Image: "img/hosts/ajdnnw.png",
+                Time: "2020-03-02T15:32:37.223Z",
+                Attempts: 1
+            },
+            {
+                Group: "Past Hosts",
+                Name: "XXWWNN\u03c0",
+                Image: "img/hosts/xxwwnnPk.png",
+                Time: "2020-03-03T00:32:35.323Z",
+            },
+            {
+                Group: "Past Hosts",
+                Name: "KAY",
+                Image: "img/hosts/kay.png",
+                Time: "2020-03-03T04:06:18.310Z",
+            },
             { "Group": "Pokemon", "Name": "Chikorita", "Time": "2020-02-23T12:05:57.636Z" },
             { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2020-02-23T14:48:50.126Z" },
             { "Group": "Pokemon", "Name": "Onix", "Time": "2020-02-23T16:45:02.205Z" },
@@ -250,6 +269,15 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Slugma", "Time": "2020-03-01T13:02:55.380Z" },
             { "Group": "Pokemon", "Name": "Furret", "Time": "2020-03-01T14:09:27.842Z" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "2020-03-01T17:02:52.422Z" },
+            { "Group": "Pokemon", "Name": "Squirtle", "Time": "2020-03-02T14:45:02.197Z" },
+            { "Group": "Pokemon", "Name": "Larvitar", "Time": "2020-03-02T16:55:00.357Z" },
+            { "Group": "Pokemon", "Name": "Unown", "Time": "2020-03-02T18:26:11.886Z" },
+            { "Group": "Pokemon", "Name": "Smeargle", "Time": "2020-03-02T19:56:15.253Z" },
+            { "Group": "Pokemon", "Name": "Natu", "Time": "2020-03-02T20:04:25.442Z" },
+            { "Group": "Pokemon", "Name": "Murkrow", "Time": "2020-03-02T20:53:54.477Z" },
+            { "Group": "Pokemon", "Name": "Persian", "Time": "2020-03-02T20:58:52.498Z" },
+            { "Group": "Pokemon", "Name": "Houndour", "Time": "2020-03-02T21:44:31.915Z" },
+            { "Group": "Pokemon", "Name": "Kabuto", "Time": "2020-03-02T22:48:40.968Z" }
         ]
     }
 );
