@@ -18,8 +18,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Stone Badge",
                 Image: "img/badges/stone.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-07T09:22:10.369Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
@@ -111,7 +111,17 @@ Season7.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png"
             },
-            { Name: "", Time: "", Group: "Pokemon" },
+            { "Group": "Pokemon", "Name": "Torchic", "Time": "2020-03-07T01:11:12.548Z" },
+            { "Group": "Pokemon", "Name": "Wurmple", "Time": "2020-03-07T03:07:07.087Z" },
+            { "Group": "Pokemon", "Name": "Wingull", "Time": "2020-03-07T03:21:09.016Z" },
+            { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "2020-03-07T04:54:42.987Z" },
+            { "Group": "Pokemon", "Name": "Combusken", "Time": "2020-03-07T06:04:01.277Z" },
+            { "Group": "Pokemon", "Name": "Silcoon", "Time": "2020-03-07T07:01:35.667Z" },
+            { "Group": "Pokemon", "Name": "Poochyena", "Time": "2020-03-07T07:50:23.215Z" },
+            { "Group": "Pokemon", "Name": "Marill", "Time": "2020-03-07T07:55:58.055Z" },
+            { "Group": "Pokemon", "Name": "Taillow", "Time": "2020-03-07T08:26:48.986Z" },
+            { "Group": "Pokemon", "Name": "Cascoon", "Time": "2020-03-07T08:31:16.890Z" },
+            { "Group": "Pokemon", "Name": "Shroomish", "Time": "2020-03-07T08:42:40.744Z" },
         ]
     }
 );
