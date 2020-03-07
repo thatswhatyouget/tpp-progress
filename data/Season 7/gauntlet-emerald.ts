@@ -25,8 +25,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Knuckle Badge",
                 Image: "img/badges/knuckle.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-07T17:31:12.724Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
@@ -122,6 +122,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Taillow", "Time": "2020-03-07T08:26:48.986Z" },
             { "Group": "Pokemon", "Name": "Cascoon", "Time": "2020-03-07T08:31:16.890Z" },
             { "Group": "Pokemon", "Name": "Shroomish", "Time": "2020-03-07T08:42:40.744Z" },
+            { "Group": "Pokemon", "Name": "Slakoth", "Time": "2020-03-07T13:48:07.424Z" },
         ]
     }
 );
