@@ -8,8 +8,8 @@ Season7.Runs.push(
         Duration: "255w",
         StartDate: "2020-03-07T01:00:00Z",
         HostName: "n",
-        HostImage: "img/hosts/a.png",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+        HostImage: "img/hosts/n.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/fer2cx/nia_gropius_host_of_gauntlet_emerald_concept/",
         Region: "Hoenn",
         Generation: 3,
         Pokedex: "National",
@@ -32,8 +32,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Dynamo Badge",
                 Image: "img/badges/dynamo.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-09T05:04:07.957Z",
+                Attempts: 17
             },
             {
                 Group: "Badges",
@@ -123,6 +123,9 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Cascoon", "Time": "2020-03-07T08:31:16.890Z" },
             { "Group": "Pokemon", "Name": "Shroomish", "Time": "2020-03-07T08:42:40.744Z" },
             { "Group": "Pokemon", "Name": "Slakoth", "Time": "2020-03-07T13:48:07.424Z" },
+            { "Group": "Pokemon", "Name": "Gloom", "Time": "2020-03-08T08:20:32.002Z" },
+            { "Group": "Pokemon", "Name": "Abra", "Time": "2020-03-08T14:20:38.652Z" },
+            { "Group": "Pokemon", "Name": "Zubat", "Time": "2020-03-08T15:51:57.865Z" },
         ]
     }
 );
