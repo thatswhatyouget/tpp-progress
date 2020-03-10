@@ -1,0 +1,12 @@
+tpp.chat
+$("#results_table").find('tr[data-ts]').map(function() { return {ts: new Date(Date.parse($(this).attr('data-ts')) - 10000).toISOString(), mon: /won one of this run's \#\d\d\d (.*?) badges!/ig.exec($(this).find('.chatline').text())[1]} }).get().reverse().filter((p,i,arr)=>arr.findIndex(b=>p.mon == b.mon) == i).map(p=>`{ "Group": "Pokemon", "Name": "${p.mon}", "Time": "${p.ts}" }`).join(",\n");
+
+run_status
+JSON.parse($("pre").last().text()).events.filter(e => e.group == "Pokemon").map(p => {
+    const newMon = {};
+    Object.keys(p).forEach(k => {
+        let capitalize = k.charAt(0).toUpperCase() + k.slice(1);
+        newMon[capitalize] = p[k];
+    });
+    return newMon;
+}).map(m => JSON.stringify(m)).join(',\n');
