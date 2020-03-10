@@ -53,8 +53,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Feather Badge",
                 Image: "img/badges/feather.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-10T19:14:48.336",
+                Attempts: 2
             },
             {
                 Group: "Badges",
@@ -147,6 +147,16 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Trapinch", "Time": "2020-03-09T23:50:39.299Z" },
             { "Group": "Pokemon", "Name": "Cacnea", "Time": "2020-03-09T23:56:48.192Z" },
             { "Group": "Pokemon", "Name": "Baltoy", "Time": "2020-03-10T00:22:45.088Z" },
+{"Group":"Pokemon","Name":"Seviper","Time":"2020-03-10T07:49:27.280Z"},
+{"Group":"Pokemon","Name":"Linoone","Time":"2020-03-10T09:13:25.392Z"},
+{"Group":"Pokemon","Name":"Manectric","Time":"2020-03-10T09:29:55.840Z"},
+{"Group":"Pokemon","Name":"Barboach","Time":"2020-03-10T12:51:36.735Z"},
+{"Group":"Pokemon","Name":"Pelipper","Time":"2020-03-10T15:48:46.184Z"},
+{"Group":"Pokemon","Name":"Tentacool","Time":"2020-03-10T15:51:03.551Z"},
+{"Group":"Pokemon","Name":"Bellossom","Time":"2020-03-10T15:55:15.526Z"},
+{"Group":"Pokemon","Name":"Castform","Time":"2020-03-10T16:34:28.907Z"},
+{"Group":"Pokemon","Name":"Seedot","Time":"2020-03-10T17:32:36.615Z"},
+{"Group":"Pokemon","Name":"Kecleon","Time":"2020-03-10T17:51:16.696Z"},
         ]
     }
 );
