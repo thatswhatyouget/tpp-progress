@@ -46,8 +46,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Balance Badge",
                 Image: "img/badges/balance.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-10T05:08:54.732Z",
+                Attempts: 4
             },
             {
                 Group: "Badges",
