@@ -39,8 +39,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Heat Badge",
                 Image: "img/badges/heat.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-09T23:25:12.218Z",
+                Attempts: 4
             },
             {
                 Group: "Badges",
@@ -126,6 +126,11 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Gloom", "Time": "2020-03-08T08:20:32.002Z" },
             { "Group": "Pokemon", "Name": "Abra", "Time": "2020-03-08T14:20:38.652Z" },
             { "Group": "Pokemon", "Name": "Zubat", "Time": "2020-03-08T15:51:57.865Z" },
+{"Group":"Pokemon","Name":"Sableye","Time":"2020-03-09T05:34:29.242Z"},
+{"Group":"Pokemon","Name":"Lairon","Time":"2020-03-09T06:30:54.640Z"},
+{"Group":"Pokemon","Name":"Skarmory","Time":"2020-03-09T07:55:32.278Z"},
+{"Group":"Pokemon","Name":"Koffing","Time":"2020-03-09T09:45:41.689Z"},
+{"Group":"Pokemon","Name":"Lombre","Time":"2020-03-09T12:59:25.563Z"}
         ]
     }
 );
