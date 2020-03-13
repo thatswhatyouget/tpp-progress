@@ -67,8 +67,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Rain Badge",
                 Image: "img/badges/rain.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-13T13:52:54.114Z",
+                Attempts: 4
             },
             {
                 Group: "Elite Four",
@@ -178,6 +178,14 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Banette", "Time": "2020-03-12T02:54:31.481Z" },
             { "Group": "Pokemon", "Name": "Claydol", "Time": "2020-03-12T03:09:58.737Z" },
             { "Group": "Pokemon", "Name": "Altaria", "Time": "2020-03-12T03:22:29.995Z" },
+            { "Group": "Pokemon", "Name": "Absol", "Time": "2020-03-12T07:32:07.482Z" },
+            { "Group": "Pokemon", "Name": "Skitty", "Time": "2020-03-12T14:44:07.979Z" },
+            { "Group": "Pokemon", "Name": "Swellow", "Time": "2020-03-12T15:37:08.281Z" },
+            { "Group": "Pokemon", "Name": "Spheal", "Time": "2020-03-12T18:11:21.781Z" },
+            { "Group": "Pokemon", "Name": "Snorunt", "Time": "2020-03-12T20:25:42.467Z" },
+            { "Group": "Pokemon", "Name": "Wailmer", "Time": "2020-03-13T06:51:48.933Z" },
+            { "Group": "Pokemon", "Name": "Sharpedo", "Time": "2020-03-13T07:10:15.999Z" },
+            { "Group": "Pokemon", "Name": "Relicanth", "Time": "2020-03-13T11:31:28.802Z" }
         ]
     }
 );
