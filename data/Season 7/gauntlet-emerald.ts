@@ -74,15 +74,15 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Sidney",
                 Image: "img/trainers/emerald/sidney.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-13T20:29:51.000Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four",
                 Name: "Phoebe",
                 Image: "img/trainers/emerald/phoebe.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-13T21:47:23.421Z",
+                Attempts: 4
             },
             {
                 Group: "Elite Four",
@@ -185,7 +185,10 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Snorunt", "Time": "2020-03-12T20:25:42.467Z" },
             { "Group": "Pokemon", "Name": "Wailmer", "Time": "2020-03-13T06:51:48.933Z" },
             { "Group": "Pokemon", "Name": "Sharpedo", "Time": "2020-03-13T07:10:15.999Z" },
-            { "Group": "Pokemon", "Name": "Relicanth", "Time": "2020-03-13T11:31:28.802Z" }
+            { "Group": "Pokemon", "Name": "Relicanth", "Time": "2020-03-13T11:31:28.802Z" },
+{"Group":"Pokemon","Name":"Hariyama","Time":"2020-03-13T18:56:04.006Z"},
+{"Group":"Pokemon","Name":"Mawile","Time":"2020-03-13T19:01:23.741Z"},
+{"Group":"Pokemon","Name":"Loudred","Time":"2020-03-13T19:28:57.394Z"},
         ]
     }
 );
