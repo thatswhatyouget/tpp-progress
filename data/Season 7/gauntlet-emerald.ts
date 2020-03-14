@@ -88,8 +88,8 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Glacia",
                 Image: "img/trainers/emerald/glacia.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-14T15:07:52.299Z",
+                Attempts: 10
             },
             {
                 Group: "Elite Four",
@@ -106,9 +106,15 @@ Season7.Runs.push(
                 Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
-                    { Pokemon: "", Nickname: "", Level: 0, Gender: undefined, Number: 0, IDNo: "" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "49599", Attempts: 0, Party: [
+                    { Pokemon: "Camerupt", Nickname: "A 8JT", Level: 49, Gender: "Female", Number: 323, IDNo: "49599" },
+                    { Pokemon: "Dustox", Nickname: "BBJPzztttz", Level: 45, Gender: "Female", Number: 269, IDNo: "49599" },
+                    { Pokemon: "Sableye", Nickname: "aabaaa66", Level: 58, Gender: "Male", Number: 302, IDNo: "49599" },
+                    { Pokemon: "Bellossom", Nickname: "AAAMMNgavy", Level: 71, Gender: "Female", Number: 182, IDNo: "49599" },
+                    { Pokemon: "Whiscash", Nickname: "MMDfll    ", Level: 54, Gender: "Male", Number: 340, IDNo: "49599" },
+                    { Pokemon: "Aggron", Nickname: "ATTMG5555…", Level: 58, Gender: "Male", Number: 306, IDNo: "49599" },
                 ],
+                FirstAttemptDate: "6d 17h 26m",
                 Image: "img/ribbons/champion.png"
             },
 
@@ -186,9 +192,9 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Wailmer", "Time": "2020-03-13T06:51:48.933Z" },
             { "Group": "Pokemon", "Name": "Sharpedo", "Time": "2020-03-13T07:10:15.999Z" },
             { "Group": "Pokemon", "Name": "Relicanth", "Time": "2020-03-13T11:31:28.802Z" },
-{"Group":"Pokemon","Name":"Hariyama","Time":"2020-03-13T18:56:04.006Z"},
-{"Group":"Pokemon","Name":"Mawile","Time":"2020-03-13T19:01:23.741Z"},
-{"Group":"Pokemon","Name":"Loudred","Time":"2020-03-13T19:28:57.394Z"},
+            { "Group": "Pokemon", "Name": "Hariyama", "Time": "2020-03-13T18:56:04.006Z" },
+            { "Group": "Pokemon", "Name": "Mawile", "Time": "2020-03-13T19:01:23.741Z" },
+            { "Group": "Pokemon", "Name": "Loudred", "Time": "2020-03-13T19:28:57.394Z" },
         ]
     }
 );
