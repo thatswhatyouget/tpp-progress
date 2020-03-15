@@ -95,8 +95,8 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Drake",
                 Image: "img/trainers/emerald/drake.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-15T06:55:25.521Z",
+                Attempts: 14
             },
             {
                 Group: "Champions",
@@ -107,12 +107,12 @@ Season7.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "49599", Attempts: 0, Party: [
-                    { Pokemon: "Camerupt", Nickname: "A 8JT", Level: 49, Gender: "Female", Number: 323, IDNo: "49599" },
-                    { Pokemon: "Dustox", Nickname: "BBJPzztttz", Level: 45, Gender: "Female", Number: 269, IDNo: "49599" },
-                    { Pokemon: "Sableye", Nickname: "aabaaa66", Level: 58, Gender: "Male", Number: 302, IDNo: "49599" },
-                    { Pokemon: "Bellossom", Nickname: "AAAMMNgavy", Level: 71, Gender: "Female", Number: 182, IDNo: "49599" },
-                    { Pokemon: "Whiscash", Nickname: "MMDfll    ", Level: 54, Gender: "Male", Number: 340, IDNo: "49599" },
-                    { Pokemon: "Aggron", Nickname: "ATTMG5555…", Level: 58, Gender: "Male", Number: 306, IDNo: "49599" },
+                    { Pokemon: "Camerupt", Nickname: "A 8JT", Level: 56, Gender: "Female", Number: 323, IDNo: "49599" },
+                    { Pokemon: "Dustox", Nickname: "BBJPzztttz", Level: 50, Gender: "Female", Number: 269, IDNo: "49599" },
+                    { Pokemon: "Sableye", Nickname: "aabaaa66", Level: 71, Gender: "Male", Number: 302, IDNo: "49599" },
+                    { Pokemon: "Aggron", Nickname: "ATTMG5555…", Level: 65, Gender: "Male", Number: 306, IDNo: "49599" },
+                    { Pokemon: "Bellossom", Nickname: "AAAMMNgavy", Level: 79, Gender: "Female", Number: 182, IDNo: "49599" },
+                    { Pokemon: "Whiscash", Nickname: "MMDfll    ", Level: 61, Gender: "Male", Number: 340, IDNo: "49599" },
                 ],
                 FirstAttemptDate: "6d 17h 26m",
                 Image: "img/ribbons/champion.png"
