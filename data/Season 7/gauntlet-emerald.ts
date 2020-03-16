@@ -102,17 +102,17 @@ Season7.Runs.push(
                 Group: "Champions",
                 Name: "Wallace",
                 Image: "img/trainers/emerald/wallace.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-16T04:47:01.436Z",
+                Attempts: 13
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "49599", Attempts: 0, Party: [
-                    { Pokemon: "Camerupt", Nickname: "A 8JT", Level: 56, Gender: "Female", Number: 323, IDNo: "49599" },
-                    { Pokemon: "Dustox", Nickname: "BBJPzztttz", Level: 50, Gender: "Female", Number: 269, IDNo: "49599" },
-                    { Pokemon: "Sableye", Nickname: "aabaaa66", Level: 71, Gender: "Male", Number: 302, IDNo: "49599" },
-                    { Pokemon: "Aggron", Nickname: "ATTMG5555…", Level: 65, Gender: "Male", Number: 306, IDNo: "49599" },
-                    { Pokemon: "Bellossom", Nickname: "AAAMMNgavy", Level: 79, Gender: "Female", Number: 182, IDNo: "49599" },
-                    { Pokemon: "Whiscash", Nickname: "MMDfll    ", Level: 61, Gender: "Male", Number: 340, IDNo: "49599" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-03-16T04:48:49.181Z", IDNo: "49599", Attempts: 61, Party: [
+                    { Pokemon: "Camerupt", Nickname: "A 8JT", Level: 66, Gender: "Female", Number: 323, IDNo: "49599" },
+                    { Pokemon: "Dustox", Nickname: "BBJPzztttz", Level: 62, Gender: "Female", Number: 269, IDNo: "49599" },
+                    { Pokemon: "Sableye", Nickname: "aabaaa66", Level: 86, Gender: "Male", Number: 302, IDNo: "49599" },
+                    { Pokemon: "Whiscash", Nickname: "MMDfll    ", Level: 73, Gender: "Male", Number: 340, IDNo: "49599" },
+                    { Pokemon: "Bellossom", Nickname: "AAAMMNgavy", Level: 87, Gender: "Female", Number: 182, IDNo: "49599" },
+                    { Pokemon: "Aggron", Nickname: "ATTMG5555…", Level: 73, Gender: "Male", Number: 306, IDNo: "49599" },
                 ],
                 FirstAttemptDate: "6d 17h 26m",
                 Image: "img/ribbons/champion.png"
