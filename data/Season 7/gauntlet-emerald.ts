@@ -195,6 +195,10 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Hariyama", "Time": "2020-03-13T18:56:04.006Z" },
             { "Group": "Pokemon", "Name": "Mawile", "Time": "2020-03-13T19:01:23.741Z" },
             { "Group": "Pokemon", "Name": "Loudred", "Time": "2020-03-13T19:28:57.394Z" },
+            { "Group": "Pokemon", "Name": "Bagon", "Time": "2020-03-16T07:58:39.301Z" },
+            { "Group": "Pokemon", "Name": "Lileep", "Time": "2020-03-16T08:39:49.792Z" },
+            { "Group": "Pokemon", "Name": "Sudowoodo", "Time": "2020-03-16T12:02:19.312Z" },
+            { "Group": "Pokemon", "Name": "Smeargle", "Time": "2020-03-16T12:20:00.659Z" },
         ]
     }
 );
