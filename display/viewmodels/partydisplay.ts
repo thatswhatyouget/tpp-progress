@@ -66,6 +66,8 @@ namespace TPP.Display.ViewModels {
             };
             this.Run = run;
             this.Class += " " + cleanString(run.RunName);
+            if (run.Class)
+                this.Class += " " + run.Class;
             if ((data as HallOfFame).Party) {
                 var hof = data as HallOfFame;
                 this.Title = hof.Name + " - " + new Date(hof.UnixTime * 1000).toLocaleDateString();
