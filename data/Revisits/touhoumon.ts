@@ -13,8 +13,9 @@ Revisits.Runs.push(
         BaseGame: "FireRed",
         Region: "Kanto",
         Pokedex: "Art Book",
-        DocumentLink:"http://rayrobdod.github.io/tppstatus/touhoumon.xhtml",
         Events: [
+            { "Group": "Pokemon", "Name": "CLuna", "Time": "2020-03-18T21:37:50.076Z" },
+            { "Group": "Pokemon", "Name": "CHina", "Time": "2020-03-18T22:00:20.331Z" },
         ],
         CopyEvents: ["Touhoumon"]
     }
