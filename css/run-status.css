@@ -223,6 +223,20 @@
   color: dodgerblue;
 }
 
+.touhoumon .pokemon-hud ul.party > li.female .name:after {
+    color:darkmagenta;
+    display:inline-block;
+	content:"☯";
+	transform:rotateZ(-90deg);
+}
+
+.touhoumon .pokemon-hud ul.party > li.male .name:after {
+    color:darkblue;
+    display:inline-block;
+	content:"☯";
+	transform:rotateZ(90deg);
+}
+
 .pokemon-hud ul.party > li .pokemon-image {
   display: inline-block;
   flex: 0 0 auto;
