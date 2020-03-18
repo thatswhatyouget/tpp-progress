@@ -5,7 +5,7 @@ Season7.Runs.push(
         ColorPrimary: "#9bbb59",
         ColorSecondary: "#71893f",
         BackgroundImage: "radial-gradient(ellipse at left bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 41%, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 70%)",
-        Duration: "255w",
+        Duration: "2020-03-18T21:10:15Z",
         StartDate: "2020-03-07T01:00:00Z",
         HostName: "n",
         HostImage: "img/hosts/n.png",
