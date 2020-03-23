@@ -5,7 +5,7 @@ Revisits.Runs.push(
         Class: "touhoumon",
         ColorPrimary: "#fa83bb",
         ColorSecondary: "#c40962",
-        Duration: "255w",
+        Duration: "2020-03-23T03:59:00Z",
         StartDate: "2020-03-18T21:15:18Z",
         HostName: "AAABBHM",
         HostImage: "img/hosts/aaabbhm.png",
