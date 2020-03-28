@@ -71,6 +71,60 @@ Revisits.Runs.push(
                 Time: "2020-03-20T11:05:07.782Z",
                 Attempts: 1
             },
+
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Lorelei",
+                Image: "img/trainers/firered/lorelei.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Bruno",
+                Image: "img/trainers/firered/bruno.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Agatha",
+                Image: "img/trainers/firered/agatha.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Lance",
+                Image: "img/trainers/firered/lance.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Champions",
+                Class: "Rematch",
+                Name: "Green",
+                Image: "img/trainers/firered/renko.png",
+                ImageSource: "http://www.pokecommunity.com/showthread.php?t=293880",
+                Time: "",
+                Attempts: 0
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-03-22T14:06:10.991Z", IDNo: "29177", Attempts: 28, Party: [
+                    { Pokemon: "DKaguya", Nickname: "AAGH", Level: 100, Gender: "Male", Number: 242, IDNo: "29177" },
+                    { Pokemon: "TSanae", Level: 100, Gender: "Female", Number: 2, IDNo: "29177" },
+                    { Pokemon: "Mima", Level: 84, Gender: "Female", Number: 250, IDNo: "29177" },
+                    { Pokemon: "Marisa-Ex", Nickname: "BAKA", Level: 100, Gender: "Female", Number: 380, IDNo: "29177" },
+                    { Pokemon: "Cirno", Nickname: "BB", Gender: "Female", Level: 73, Number: 26, IDNo: "29177" },
+                    { Pokemon: "Momiji", Nickname: "AUUUUABBBB", Level: 81, Gender: "Male", Number: 12, IDNo: "29177" },
+                ],
+                Image: "img/ribbons/champion.png"
+            },
+
             { "Group": "Pokemon", "Name": "CLuna", "Time": "2020-03-18T21:37:50.076Z" },
             { "Group": "Pokemon", "Name": "CHina", "Time": "2020-03-18T22:00:20.331Z" },
             { "Group": "Pokemon", "Name": "CUtsuho", "Time": "2020-03-18T23:59:07.100Z" },
