@@ -7,7 +7,7 @@ Season6.Runs.push(
         BackgroundImage: "radial-gradient(ellipse at left bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 41%, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 70%)",
         Duration: "255w",
         StartDate: "2020-03-28T04:00:00Z",
-        HostName: ".Iecbw",
+        HostName: ".iecbw",
         HostImage: "https://cdn.bulbagarden.net/upload/d/d6/Spr_Pt_Dawn.png",
         // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Sinnoh",
@@ -18,15 +18,15 @@ Season6.Runs.push(
                 Group: "Badges",
                 Name: "Coal Badge",
                 Image: "img/badges/coal.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-28T08:28:12.973Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Forest Badge",
                 Image: "img/badges/forest.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-28T21:03:34.969Z",
+                Attempts: 5
             },
             {
                 Group: "Badges",
@@ -116,6 +116,24 @@ Season6.Runs.push(
                 ],
                 Image: "img/ribbons/champion-sinnoh.png"
             },
+            { "Group": "Pokemon", "Name": "Turtwig", "Time": "2020-03-28T04:18:03.124Z" },
+            { "Group": "Pokemon", "Name": "Starly", "Time": "2020-03-28T04:41:47.208Z" },
+            { "Group": "Pokemon", "Name": "Bidoof", "Time": "2020-03-28T04:43:53.905Z" },
+            { "Group": "Pokemon", "Name": "Shinx", "Time": "2020-03-28T05:10:23.796Z" },
+            { "Group": "Pokemon", "Name": "Kricketot", "Time": "2020-03-28T06:25:33.695Z" },
+            { "Group": "Pokemon", "Name": "Budew", "Time": "2020-03-28T09:39:12.969Z" },
+            { "Group": "Pokemon", "Name": "Shellos", "Time": "2020-03-28T10:15:27.046Z" },
+            { "Group": "Pokemon", "Name": "Buizel", "Time": "2020-03-28T10:17:03.997Z" },
+            { "Group": "Pokemon", "Name": "Pachirisu", "Time": "2020-03-28T10:19:45.402Z" },
+            { "Group": "Pokemon", "Name": "Grotle", "Time": "2020-03-28T11:38:01.472Z" },
+            { "Group": "Pokemon", "Name": "Buneary", "Time": "2020-03-28T13:02:00.402Z" },
+            { "Group": "Pokemon", "Name": "Gastly", "Time": "2020-03-28T13:37:06.653Z" },
+            { "Group": "Pokemon", "Name": "Wurmple", "Time": "2020-03-28T14:01:30.171Z" },
+            { "Group": "Pokemon", "Name": "Bronzor", "Time": "2020-03-28T14:25:49.990Z" },
+            { "Group": "Pokemon", "Name": "Geodude", "Time": "2020-03-28T14:27:40.645Z" },
+            { "Group": "Pokemon", "Name": "Chatot", "Time": "2020-03-28T18:37:06.448Z" },
+            { "Group": "Pokemon", "Name": "Meditite", "Time": "2020-03-28T18:56:35.826Z" },
+            { "Group": "Pokemon", "Name": "Beautifly", "Time": "2020-03-28T20:40:13.030Z" }
         ]
     }
 );
