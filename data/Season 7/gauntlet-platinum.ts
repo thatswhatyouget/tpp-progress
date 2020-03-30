@@ -1,5 +1,5 @@
 /// <reference path="../tpp-data.ts" />
-Season6.Runs.push(
+Season7.Runs.push(
     {
         RunName: "Gauntlet Platinum",
         ColorPrimary: "#a6a6a6",
@@ -46,8 +46,8 @@ Season6.Runs.push(
                 Group: "Badges",
                 Name: "Relic Badge",
                 Image: "img/badges/relic.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-29T19:10:26.324Z",
+                Attempts: 2
             },
             {
                 Group: "Badges",
@@ -133,7 +133,28 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Geodude", "Time": "2020-03-28T14:27:40.645Z" },
             { "Group": "Pokemon", "Name": "Chatot", "Time": "2020-03-28T18:37:06.448Z" },
             { "Group": "Pokemon", "Name": "Meditite", "Time": "2020-03-28T18:56:35.826Z" },
-            { "Group": "Pokemon", "Name": "Beautifly", "Time": "2020-03-28T20:40:13.030Z" }
+            { "Group": "Pokemon", "Name": "Beautifly", "Time": "2020-03-28T20:40:13.030Z" },
+            // { "Group": "Pokemon", "Name": "Egg", "Time": "2020-03-28T23:48:53.895Z" },
+            { "Group": "Pokemon", "Name": "Togepi", "Time": "2020-03-29T00:44:01.248Z" },
+            { "Group": "Pokemon", "Name": "Kricketune", "Time": "2020-03-29T02:09:32.787Z" },
+            { "Group": "Pokemon", "Name": "Gligar", "Time": "2020-03-29T02:41:05.798Z" },
+            { "Group": "Pokemon", "Name": "Gible", "Time": "2020-03-29T02:50:54.192Z" },
+            { "Group": "Pokemon", "Name": "Nosepass", "Time": "2020-03-29T07:14:33.777Z" },
+            { "Group": "Pokemon", "Name": "Chingling", "Time": "2020-03-29T07:17:51.362Z" },
+            { "Group": "Pokemon", "Name": "Cherubi", "Time": "2020-03-29T08:36:37.728Z" },
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "2020-03-29T09:17:13.481Z" },
+            { "Group": "Pokemon", "Name": "Leafeon", "Time": "2020-03-29T11:14:49.514Z" },
+            { "Group": "Pokemon", "Name": "Probopass", "Time": "2020-03-29T12:58:26.301Z" },
+            { "Group": "Pokemon", "Name": "Bibarel", "Time": "2020-03-29T13:47:33.038Z" },
+            { "Group": "Pokemon", "Name": "Roselia", "Time": "2020-03-29T15:12:21.396Z" },
+            { "Group": "Pokemon", "Name": "Gabite", "Time": "2020-03-29T17:17:31.899Z" },
+            { "Group": "Pokemon", "Name": "Staravia", "Time": "2020-03-29T21:14:13.410Z" },
+            { "Group": "Pokemon", "Name": "Noctowl", "Time": "2020-03-29T21:18:02.655Z" },
+            { "Group": "Pokemon", "Name": "Marill", "Time": "2020-03-29T21:33:12.324Z" },
+            { "Group": "Pokemon", "Name": "Lickitung", "Time": "2020-03-29T23:07:43.665Z" },
+            { "Group": "Pokemon", "Name": "Torterra", "Time": "2020-03-29T23:11:28.650Z" },
+            { "Group": "Pokemon", "Name": "Houndour", "Time": "2020-03-30T00:15:35.042Z" },
+            { "Group": "Pokemon", "Name": "Hippopotas", "Time": "2020-03-30T00:25:49.983Z" }
         ]
     }
 );
