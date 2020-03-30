@@ -32,8 +32,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Cobble Badge",
                 Image: "img/badges/cobble.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-30T01:39:43.305Z",
+                Attempts: 2
             },
             {
                 Group: "Badges",
