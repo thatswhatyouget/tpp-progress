@@ -8,8 +8,8 @@ Season7.Runs.push(
         Duration: "255w",
         StartDate: "2020-03-28T04:00:00Z",
         HostName: ".iecbw",
-        HostImage: "https://cdn.bulbagarden.net/upload/d/d6/Spr_Pt_Dawn.png",
-        // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+        HostImage: "img/hosts/iecbw.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/frj3r5/isabelle_ice_dot_the_host_of_gauntlet_platinum/",
         Region: "Sinnoh",
         Generation: 4,
         Pokedex: "National",
@@ -53,8 +53,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Mine Badge",
                 Image: "img/badges/mine.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-30T23:29:03.548Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
@@ -154,7 +154,19 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Lickitung", "Time": "2020-03-29T23:07:43.665Z" },
             { "Group": "Pokemon", "Name": "Torterra", "Time": "2020-03-29T23:11:28.650Z" },
             { "Group": "Pokemon", "Name": "Houndour", "Time": "2020-03-30T00:15:35.042Z" },
-            { "Group": "Pokemon", "Name": "Hippopotas", "Time": "2020-03-30T00:25:49.983Z" }
+            { "Group": "Pokemon", "Name": "Hippopotas", "Time": "2020-03-30T00:25:49.983Z" },
+            { "Group": "Pokemon", "Name": "Gulpin", "Time": "2020-03-30T08:05:06.818Z" },
+            { "Group": "Pokemon", "Name": "Wooper", "Time": "2020-03-30T08:45:09.074Z" },
+            { "Group": "Pokemon", "Name": "Quagsire", "Time": "2020-03-30T08:46:14.515Z" },
+            { "Group": "Pokemon", "Name": "Yanma", "Time": "2020-03-30T09:00:47.862Z" },
+            { "Group": "Pokemon", "Name": "Tropius", "Time": "2020-03-30T09:03:30.328Z" },
+            { "Group": "Pokemon", "Name": "Croagunk", "Time": "2020-03-30T11:34:45.880Z" },
+            { "Group": "Pokemon", "Name": "Kirlia", "Time": "2020-03-30T12:05:47.707Z" },
+            { "Group": "Pokemon", "Name": "Swalot", "Time": "2020-03-30T12:47:30.316Z" },
+            { "Group": "Pokemon", "Name": "Swablu", "Time": "2020-03-30T13:25:06.841Z" },
+            { "Group": "Pokemon", "Name": "Finneon", "Time": "2020-03-30T16:45:19.020Z" },
+            { "Group": "Pokemon", "Name": "Floatzel", "Time": "2020-03-30T18:05:06.164Z" },
+            { "Group": "Pokemon", "Name": "Gastrodon", "Time": "2020-03-30T18:13:07.871Z" }
         ]
     }
 );
