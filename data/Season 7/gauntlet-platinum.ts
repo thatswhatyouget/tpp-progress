@@ -60,8 +60,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Icicle Badge",
                 Image: "img/badges/icicle.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-03-31T08:44:03.634Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
@@ -107,13 +107,9 @@ Season7.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
-                    // { Pokemon: "Shinx", Nickname: "0”☀ ☀0☀☺ ☹", Level: 63, Gender: "Female", Met: "Route 203", OT: "nqpppnl" },
-                    // { Pokemon: "Bibarel", Nickname: "00  00 06", Level: 93, Gender: "Female", Met: "Route 209", OT: "nqpppnl" },
-                    // { Pokemon: "Flareon", Level: 97, Gender: "Male", Met: "Hearthome City", OT: "nqpppnl" },
-                    // { Pokemon: "Golbat", Level: 60, Gender: "Male", Met: "Mt. Coronet", OT: "nqpppnl" },
-                    // { Pokemon: "Bronzong", Level: 54, Met: "Mt. Coronet", OT: "nqpppnl" },
-                    // { Pokemon: "Roserade", Nickname: "!☂!!☀! !:1", Level: 71, Gender: "Male", Met: "Route 204", OT: "nqpppnl" },
+                    // { Pokemon: "", Nickname: "", Level: 0, Gender: "", Met: "", OT: ".iecbw" },
                 ],
+                FirstAttemptDate: "",
                 Image: "img/ribbons/champion-sinnoh.png"
             },
             { "Group": "Pokemon", "Name": "Turtwig", "Time": "2020-03-28T04:18:03.124Z" },
@@ -166,7 +162,15 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Swablu", "Time": "2020-03-30T13:25:06.841Z" },
             { "Group": "Pokemon", "Name": "Finneon", "Time": "2020-03-30T16:45:19.020Z" },
             { "Group": "Pokemon", "Name": "Floatzel", "Time": "2020-03-30T18:05:06.164Z" },
-            { "Group": "Pokemon", "Name": "Gastrodon", "Time": "2020-03-30T18:13:07.871Z" }
+            { "Group": "Pokemon", "Name": "Gastrodon", "Time": "2020-03-30T18:13:07.871Z" },
+            { "Group": "Pokemon", "Name": "Cleffa", "Time": "2020-03-31T01:54:26.332Z" },
+            { "Group": "Pokemon", "Name": "Golbat", "Time": "2020-03-31T01:59:05.516Z" },
+            { "Group": "Pokemon", "Name": "Clefairy", "Time": "2020-03-31T02:00:18.000Z" },
+            { "Group": "Pokemon", "Name": "Snover", "Time": "2020-03-31T02:04:30.946Z" },
+            { "Group": "Pokemon", "Name": "Sneasel", "Time": "2020-03-31T02:07:13.418Z" },
+            { "Group": "Pokemon", "Name": "Swinub", "Time": "2020-03-31T02:54:48.553Z" },
+            { "Group": "Pokemon", "Name": "Lumineon", "Time": "2020-03-31T03:23:42.317Z" },
+            { "Group": "Pokemon", "Name": "Altaria", "Time": "2020-03-31T07:46:07.778Z" },
         ]
     }
 );
