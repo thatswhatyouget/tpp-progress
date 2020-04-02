@@ -81,8 +81,8 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Bertha",
                 Image: "img/trainers/platinum/bertha.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-04-02T11:26:18.111Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four",
