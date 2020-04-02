@@ -82,7 +82,7 @@ Season1.Runs.push(
                 Group: "Elite Four",
                 Name: "Grimsley",
                 Image: "img/trainers/black/grimsley.png",
-                Time: "13d 9h 47m",
+                Time: "13d 9h 18m",
                 Attempts: 1
             },
             {
