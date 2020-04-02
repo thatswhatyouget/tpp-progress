@@ -88,8 +88,8 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Flint",
                 Image: "img/trainers/platinum/flint.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-04-02T11:55:10.381Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
