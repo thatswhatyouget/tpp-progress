@@ -67,8 +67,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Beacon Badge",
                 Image: "img/badges/beacon.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-04-02T00:53:35.946Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four",
@@ -171,6 +171,16 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Swinub", "Time": "2020-03-31T02:54:48.553Z" },
             { "Group": "Pokemon", "Name": "Lumineon", "Time": "2020-03-31T03:23:42.317Z" },
             { "Group": "Pokemon", "Name": "Altaria", "Time": "2020-03-31T07:46:07.778Z" },
+            { "Group": "Pokemon", "Name": "Bronzong", "Time": "2020-03-31T15:20:16.243Z" },
+            { "Group": "Pokemon", "Name": "Medicham", "Time": "2020-03-31T15:45:53.067Z" },
+            { "Group": "Pokemon", "Name": "Absol", "Time": "2020-03-31T15:48:35.537Z" },
+            { "Group": "Pokemon", "Name": "Abomasnow", "Time": "2020-03-31T16:00:37.584Z" },
+            { "Group": "Pokemon", "Name": "Pichu", "Time": "2020-03-31T17:04:48.531Z" },
+            { "Group": "Pokemon", "Name": "Weavile", "Time": "2020-03-31T20:46:06.521Z" },
+            { "Group": "Pokemon", "Name": "Giratina", "Time": "2020-04-01T19:06:21.446Z" },
+            { "Group": "Pokemon", "Name": "Luxio", "Time": "2020-04-01T23:38:26.165Z" },
+            { "Group": "Pokemon", "Name": "Electabuzz", "Time": "2020-04-01T23:48:58.509Z" },
+            { "Group": "Pokemon", "Name": "Mantyke", "Time": "2020-04-02T01:24:27.452Z" },
         ]
     }
 );
