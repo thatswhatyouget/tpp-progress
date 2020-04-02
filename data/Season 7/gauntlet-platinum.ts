@@ -95,8 +95,8 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Lucian",
                 Image: "img/trainers/platinum/lucian.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-04-02T17:42:14.991Z",
+                Attempts: 3
             },
             {
                 Group: "Champions",
