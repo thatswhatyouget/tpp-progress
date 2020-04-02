@@ -74,8 +74,8 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Aaron",
                 Image: "img/trainers/platinum/aaron.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-04-02T08:41:41.971Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four",
@@ -109,7 +109,7 @@ Season7.Runs.push(
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
                     // { Pokemon: "", Nickname: "", Level: 0, Gender: "", Met: "", OT: ".iecbw" },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2020-04-02T07:05:05.945Z",
                 Image: "img/ribbons/champion-sinnoh.png"
             },
             { "Group": "Pokemon", "Name": "Turtwig", "Time": "2020-03-28T04:18:03.124Z" },
@@ -181,6 +181,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Luxio", "Time": "2020-04-01T23:38:26.165Z" },
             { "Group": "Pokemon", "Name": "Electabuzz", "Time": "2020-04-01T23:48:58.509Z" },
             { "Group": "Pokemon", "Name": "Mantyke", "Time": "2020-04-02T01:24:27.452Z" },
+            { "Group": "Pokemon", "Name": "Remoraid", "Time": "2020-04-02T08:11:00.443Z" },
         ]
     }
 );
