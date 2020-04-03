@@ -107,7 +107,7 @@ Season7.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-04-03T00:05:10Z", IDNo: "64324", Attempts: 22, Party: [
-                    { Pokemon: "Lumineoon", Nickname: "AACm   neg", Level: 93, Gender: "Male", Met: "Route 205", OT: ".iecbw" },
+                    { Pokemon: "Lumineon", Nickname: "AACm   neg", Level: 93, Gender: "Male", Met: "Route 205", OT: ".iecbw" },
                     { Pokemon: "Altaria", Nickname: "!!    ", Level: 65, Gender: "Female", Met: "Route 210", OT: ".iecbw" },
                     { Pokemon: "Leafeon", Nickname: "\u263a\u263a\u263a\u2019) !", Level: 59, Gender: "Male", Met: "Hearthome City", OT: ".iecbw" },
                     { Pokemon: "Weavile", Nickname: "AAAL", Level: 58, Gender: "Male", Met: "Acuity Lakefront", OT: ".iecbw" },

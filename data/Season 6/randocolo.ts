@@ -104,7 +104,7 @@ Season6.Runs.push(
                 Group: "Hall of Fame", Name: "First Game Clear", Attempts: 2, Time: "2019-06-13T03:06:54Z", Party: [
                     { Pokemon: "Octillery", Nickname: "AAO", Level: 64, Gender: "Female" },
                     { Pokemon: "Walrein", Level: 60, Gender: "Female" },
-                    { Pokemon: "Ho-oh", Level: 57 },
+                    { Pokemon: "Ho-Oh", Level: 57 },
                     { Pokemon: "Persian", Nickname: "”", Level: 61, Gender: "Female" },
                     { Pokemon: "Slaking", Nickname: "MW", Level: 68, Gender: "Female" },
                     { Pokemon: "Hypno", Level: 57, Gender: "Female" },
@@ -126,7 +126,7 @@ Season6.Runs.push(
                 Group: "Hall of Fame", Name: "Second Game Clear", Attempts: 1, Time: "2019-06-14T09:27:51Z", Party: [
                     { Pokemon: "Octillery", Nickname: "AAO", Level: 77, Gender: "Female" },
                     { Pokemon: "Taillow", Level: 54, Gender: "Female" },
-                    { Pokemon: "Ho-oh", Level: 66 },
+                    { Pokemon: "Ho-Oh", Level: 66 },
                     { Pokemon: "Persian", Nickname: "”", Level: 63, Gender: "Female" },
                     { Pokemon: "Slaking", Nickname: "MW", Level: 74, Gender: "Female" },
                     { Pokemon: "Beldum", Level: 51 },
@@ -138,7 +138,7 @@ Season6.Runs.push(
                 Group: "Hall of Fame", Name: "Third Game Clear", Attempts: 1, Time: "2019-06-14T10:46:15Z", Party: [
                     { Pokemon: "Octillery", Nickname: "AAO", Level: 78, Gender: "Female" },
                     { Pokemon: "Taillow", Level: 54, Gender: "Female" },
-                    { Pokemon: "Ho-oh", Level: 67 },
+                    { Pokemon: "Ho-Oh", Level: 67 },
                     { Pokemon: "Persian", Nickname: "”", Level: 63, Gender: "Female" },
                     { Pokemon: "Slaking", Nickname: "MW", Level: 75, Gender: "Female" },
                     { Pokemon: "Beldum", Level: 51 },
@@ -160,7 +160,7 @@ Season6.Runs.push(
                 Group: "Hall of Fame", Name: "Fourth Game Clear", Attempts: 2, Time: "2019-06-15T02:29:41Z", Party: [
                     { Pokemon: "Persian", Nickname: "”", Level: 63, Gender: "Female" },
                     { Pokemon: "Walrein", Level: 63, Gender: "Female" },
-                    { Pokemon: "Ho-oh", Level: 69 },
+                    { Pokemon: "Ho-Oh", Level: 69 },
                     { Pokemon: "Celebi", Nickname: "AAAAAAAAAA", Level: 56 },
                     { Pokemon: "Slaking", Nickname: "MW", Level: 76, Gender: "Female" },
                     { Pokemon: "Octillery", Nickname: "AAO", Level: 79, Gender: "Female" },
