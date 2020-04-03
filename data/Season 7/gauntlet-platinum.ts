@@ -117,6 +117,18 @@ Season7.Runs.push(
                 FirstAttemptDate: "2020-04-02T07:05:05.945Z",
                 Image: "img/ribbons/champion-sinnoh.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "6d 15h 44m 25s", IDNo: "64324", Attempts: 22, Party: [
+                    { Pokemon: "Lumineon", Nickname: "AACm   neg", Level: 100, Gender: "Male", Met: "Route 205", OT: ".iecbw" },
+                    { Pokemon: "Probopass", Nickname: "GUUEEEEFFn", Level: 61, Gender: "Male", Met: "Mt. Coronet", OT: ".iecbw" },
+                    { Pokemon: "Torterra", Nickname: "BFG", Level: 57, Gender: "Male", Met: "Route 201", OT: ".iecbw" },
+                    { Pokemon: "Altaria", Nickname: "!!    ", Level: 72, Gender: "Female", Met: "Route 210", OT: ".iecbw" },
+                    { Pokemon: "Giratina", Nickname: "AK", Level: 55, Met: "Distortion World", OT: ".iecbw" },
+                    { Pokemon: "Weavile", Nickname: "AAAL", Level: 58, Gender: "Male", Met: "Acuity Lakefront", OT: ".iecbw" },
+                ],
+                FirstAttemptDate: "6d 14h 43m",
+                Image: "img/ribbons/champion-sinnoh.png"
+            },
             { "Group": "Pokemon", "Name": "Turtwig", "Time": "2020-03-28T04:18:03.124Z" },
             { "Group": "Pokemon", "Name": "Starly", "Time": "2020-03-28T04:41:47.208Z" },
             { "Group": "Pokemon", "Name": "Bidoof", "Time": "2020-03-28T04:43:53.905Z" },
@@ -187,6 +199,15 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Electabuzz", "Time": "2020-04-01T23:48:58.509Z" },
             { "Group": "Pokemon", "Name": "Mantyke", "Time": "2020-04-02T01:24:27.452Z" },
             { "Group": "Pokemon", "Name": "Remoraid", "Time": "2020-04-02T08:11:00.443Z" },
+            { "Group": "Pokemon", "Name": "Chansey", "Time": "2020-04-03T01:01:10.180Z" },
+            { "Group": "Pokemon", "Name": "Manaphy", "Time": "2020-04-03T01:16:15.854Z" },
+            { "Group": "Pokemon", "Name": "Sealeo", "Time": "2020-04-03T02:43:50.418Z" },
+            { "Group": "Pokemon", "Name": "Azelf", "Time": "2020-04-03T11:13:12.662Z" },
+            { "Group": "Pokemon", "Name": "Chimecho", "Time": "2020-04-03T13:11:53.166Z" },
+            { "Group": "Pokemon", "Name": "Cacturne", "Time": "2020-04-03T16:44:54.408Z" },
+            { "Group": "Pokemon", "Name": "Hippowdon", "Time": "2020-04-03T16:46:44.201Z" },
+            { "Group": "Pokemon", "Name": "Drifloon", "Time": "2020-04-03T18:17:23.436Z" },
+            { "Group": "Pokemon", "Name": "Dialga", "Time": "2020-04-03T21:37:06.323Z" }
         ]
     }
 );
