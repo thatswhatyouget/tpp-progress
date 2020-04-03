@@ -102,12 +102,17 @@ Season7.Runs.push(
                 Group: "Champions",
                 Name: "Cynthia",
                 Image: "img/trainers/platinum/cynthia.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-04-03T00:03:14.686Z",
+                Attempts: 7
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
-                    // { Pokemon: "", Nickname: "", Level: 0, Gender: "", Met: "", OT: ".iecbw" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-04-03T00:05:10Z", IDNo: "64324", Attempts: 22, Party: [
+                    { Pokemon: "Lumineoon", Nickname: "AACm   neg", Level: 93, Gender: "Male", Met: "Route 205", OT: ".iecbw" },
+                    { Pokemon: "Altaria", Nickname: "!!    ", Level: 65, Gender: "Female", Met: "Route 210", OT: ".iecbw" },
+                    { Pokemon: "Leafeon", Nickname: "\u263a\u263a\u263a\u2019) !", Level: 59, Gender: "Male", Met: "Hearthome City", OT: ".iecbw" },
+                    { Pokemon: "Weavile", Nickname: "AAAL", Level: 58, Gender: "Male", Met: "Acuity Lakefront", OT: ".iecbw" },
+                    { Pokemon: "Torterra", Nickname: "BFG", Level: 55, Gender: "Male", Met: "Route 201", OT: ".iecbw" },
+                    { Pokemon: "Probopass", Nickname: "GUUEEEEFFn", Level: 58, Gender: "Male", Met: "Mt. Coronet", OT: ".iecbw" },
                 ],
                 FirstAttemptDate: "2020-04-02T07:05:05.945Z",
                 Image: "img/ribbons/champion-sinnoh.png"
