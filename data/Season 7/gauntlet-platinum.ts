@@ -118,7 +118,7 @@ Season7.Runs.push(
                 Image: "img/ribbons/champion-sinnoh.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "6d 15h 44m 25s", IDNo: "64324", Attempts: 22, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "6d 15h 44m 25s", IDNo: "64324", Attempts: 2, Party: [
                     { Pokemon: "Lumineon", Nickname: "AACm   neg", Level: 100, Gender: "Male", Met: "Route 205", OT: ".iecbw" },
                     { Pokemon: "Probopass", Nickname: "GUUEEEEFFn", Level: 61, Gender: "Male", Met: "Mt. Coronet", OT: ".iecbw" },
                     { Pokemon: "Torterra", Nickname: "BFG", Level: 57, Gender: "Male", Met: "Route 201", OT: ".iecbw" },
