@@ -23,6 +23,7 @@ namespace TPP.Display.Elements.RunStatus {
         error?: string;
         lastScreen?: string;
         lastScreenTime?: string;
+        dexSeen?: boolean;
     }
 
     export class App extends React.Component<RunStatusProps, RunStatusState> {
@@ -126,7 +127,13 @@ namespace TPP.Display.Elements.RunStatus {
                 return null;
             return <PokeBox title="Pokédex" className="pokedex">
                 {this.PokedexOutOfDate(dex) ? <h6>Outdated</h6> : ""}
-                <Pokedex.Dex dex={dex} caughtList={this.state.status.caught_list || []} run={this.props.run} ownedOnly={true}>
+                <Pokedex.Dex dex={dex}
+                    caughtList={this.state.dexSeen ? this.state.status.seen_list : this.state.status.caught_list || []}
+                    run={this.props.run}
+                    ownedOnly={!this.state.dexSeen}
+                    label={this.state.dexSeen ? "Seen" : "Owned"}
+                    onClickTotal={this.state.status && (() => this.setState(s => ({ dexSeen: !s.dexSeen })))}
+                >
                     <a className="plug" href="pokedex.html">See Global Pokédex</a>
                 </Pokedex.Dex>
             </PokeBox>;

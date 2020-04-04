@@ -9,6 +9,8 @@ namespace TPP.Display.Elements.Pokedex {
         ownedOnly?: boolean;
         className?: string;
         spriteClass?: string;
+        label?: string;
+        onClickTotal?: () => void;
     }
 
     interface DexState {
@@ -50,8 +52,8 @@ namespace TPP.Display.Elements.Pokedex {
         private get ownedDisplay() {
             if (this.props.showOwnership === false)
                 return <br />;
-            return <h2 className='total'>
-                Owned: <span>{`${this.state.filteredDex.TotalOwned}/${this.state.filteredDex.TotalInDex} (${this.state.filteredDex.OwnedPercentage.toFixed(2)}%)`}</span>
+            return <h2 className='total' onClick={this.props.onClickTotal && (_ => this.props.onClickTotal())}>
+                {this.props.label || "Owned"}: <span>{`${this.state.filteredDex.TotalOwned}/${this.state.filteredDex.TotalInDex} (${this.state.filteredDex.OwnedPercentage.toFixed(2)}%)`}</span>
             </h2>
         }
 
