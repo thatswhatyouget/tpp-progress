@@ -171,12 +171,12 @@ Season7.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "8d1h52m", IDNo: "64324", Attempts: 13, Party: [
-                    { Pokemon: "Altaria", Nickname: "!!    ", Level: 82, Gender: "Female", Met: "Route 210", OT: ".iecbw" },
+                    { Pokemon: "Altaria", Nickname: "!!    ", Level: 83, Gender: "Female", Met: "Route 210", OT: ".iecbw" },
                     { Pokemon: "Lumineon", Nickname: "AACm   neg", Level: 100, Gender: "Male", Met: "Route 205", OT: ".iecbw" },
                     { Pokemon: "Torterra", Nickname: "BFG", Level: 60, Gender: "Male", Met: "Route 201", OT: ".iecbw" },
-                    { Pokemon: "Dialga", Nickname: "", Level: 74, Met: "Spear Pillar", OT: ".iecbw" },
-                    { Pokemon: "Weavile", Nickname: "AAAL", Level: 60, Gender: "Male", Met: "Acuity Lakefront", OT: ".iecbw" },
-                    { Pokemon: "Giratina", Nickname: "AK", Level: 68, Met: "Distortion World", OT: ".iecbw" },
+                    { Pokemon: "Dialga", Nickname: "PMD", Level: 74, Met: "Spear Pillar", OT: ".iecbw" },
+                    { Pokemon: "Weavile", Nickname: "AAAL", Level: 67, Gender: "Male", Met: "Acuity Lakefront", OT: ".iecbw" },
+                    { Pokemon: "Giratina", Nickname: "AK", Level: 69, Met: "Distortion World", OT: ".iecbw" },
                 ],
                 FirstAttemptDate: "7d 19h 15m",
                 Image: "img/ribbons/champion-sinnoh.png"
