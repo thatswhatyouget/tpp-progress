@@ -166,11 +166,11 @@ Season7.Runs.push(
                 Class: "Rematch",
                 Name: "Cynthia",
                 Image: "img/trainers/platinum/cynthia.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-04-05T05:50:27.682Z",
+                Attempts: 4
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "64324", Attempts: 2, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "8d1h52m", IDNo: "64324", Attempts: 13, Party: [
                     { Pokemon: "Altaria", Nickname: "!!    ", Level: 82, Gender: "Female", Met: "Route 210", OT: ".iecbw" },
                     { Pokemon: "Lumineon", Nickname: "AACm   neg", Level: 100, Gender: "Male", Met: "Route 205", OT: ".iecbw" },
                     { Pokemon: "Torterra", Nickname: "BFG", Level: 60, Gender: "Male", Met: "Route 201", OT: ".iecbw" },
