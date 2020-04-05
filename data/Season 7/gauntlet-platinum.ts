@@ -129,6 +129,58 @@ Season7.Runs.push(
                 FirstAttemptDate: "6d 14h 43m",
                 Image: "img/ribbons/champion-sinnoh.png"
             },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Aaron",
+                Image: "img/trainers/platinum/aaron.png",
+                Time: "2020-04-04T23:20:42.706Z",
+                Attempts: 1
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Bertha",
+                Image: "img/trainers/platinum/bertha.png",
+                Time: "2020-04-04T23:27:30.581Z",
+                Attempts: 1
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Flint",
+                Image: "img/trainers/platinum/flint.png",
+                Time: "2020-04-04T23:31:29.483Z",
+                Attempts: 1
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Lucian",
+                Image: "img/trainers/platinum/lucian.png",
+                Time: "2020-04-04T23:40:18.857Z",
+                Attempts: 1
+            },
+            {
+                Group: "Champions",
+                Class: "Rematch",
+                Name: "Cynthia",
+                Image: "img/trainers/platinum/cynthia.png",
+                Time: "",
+                Attempts: 0
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "64324", Attempts: 2, Party: [
+                    { Pokemon: "Altaria", Nickname: "!!    ", Level: 82, Gender: "Female", Met: "Route 210", OT: ".iecbw" },
+                    { Pokemon: "Lumineon", Nickname: "AACm   neg", Level: 100, Gender: "Male", Met: "Route 205", OT: ".iecbw" },
+                    { Pokemon: "Torterra", Nickname: "BFG", Level: 60, Gender: "Male", Met: "Route 201", OT: ".iecbw" },
+                    { Pokemon: "Dialga", Nickname: "", Level: 74, Met: "Spear Pillar", OT: ".iecbw" },
+                    { Pokemon: "Weavile", Nickname: "AAAL", Level: 60, Gender: "Male", Met: "Acuity Lakefront", OT: ".iecbw" },
+                    { Pokemon: "Giratina", Nickname: "AK", Level: 68, Met: "Distortion World", OT: ".iecbw" },
+                ],
+                FirstAttemptDate: "7d 19h 15m",
+                Image: "img/ribbons/champion-sinnoh.png"
+            },
             { "Group": "Pokemon", "Name": "Turtwig", "Time": "2020-03-28T04:18:03.124Z" },
             { "Group": "Pokemon", "Name": "Starly", "Time": "2020-03-28T04:41:47.208Z" },
             { "Group": "Pokemon", "Name": "Bidoof", "Time": "2020-03-28T04:43:53.905Z" },
@@ -207,7 +259,20 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Cacturne", "Time": "2020-04-03T16:44:54.408Z" },
             { "Group": "Pokemon", "Name": "Hippowdon", "Time": "2020-04-03T16:46:44.201Z" },
             { "Group": "Pokemon", "Name": "Drifloon", "Time": "2020-04-03T18:17:23.436Z" },
-            { "Group": "Pokemon", "Name": "Dialga", "Time": "2020-04-03T21:37:06.323Z" }
-        ]
+            { "Group": "Pokemon", "Name": "Dialga", "Time": "2020-04-03T21:37:06.323Z" },
+            { "Group": "Pokemon", "Name": "Magcargo", "Time": "2020-04-04T01:39:21.473Z" },
+            { "Group": "Pokemon", "Name": "Graveler", "Time": "2020-04-04T07:10:33.857Z" },
+            { "Group": "Pokemon", "Name": "Abra", "Time": "2020-04-04T13:24:19.648Z" },
+            { "Group": "Pokemon", "Name": "Darkrai", "Time": "2020-04-04T13:57:07.214Z" },
+            { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "2020-04-04T15:16:47.622Z" },
+            { "Group": "Pokemon", "Name": "Oddish", "Time": "2020-04-04T15:16:47.622Z" },
+            { "Group": "Pokemon", "Name": "Groudon", "Time": "2020-04-04T15:16:47.622Z" },
+            { "Group": "Pokemon", "Name": "Lileep", "Time": "2020-04-04T15:16:47.623Z" },
+            { "Group": "Pokemon", "Name": "Spheal", "Time": "2020-04-04T15:16:47.623Z" },
+            { "Group": "Pokemon", "Name": "Shaymin", "Time": "2020-04-04T17:43:36.574Z" },
+            { "Group": "Pokemon", "Name": "Arceus", "Time": "2020-04-04T20:23:54.486Z" },
+            { "Group": "Pokemon", "Name": "Skorupi", "Time": "2020-04-04T21:21:52.324Z" },
+            { "Group": "Pokemon", "Name": "Carnivine", "Time": "2020-04-04T21:38:28.464Z" },
+            { "Group": "Pokemon", "Name": "Drapion", "Time": "2020-04-04T21:49:53.223Z" },]
     }
 );
