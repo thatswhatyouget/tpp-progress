@@ -5,7 +5,7 @@ Season7.Runs.push(
         ColorPrimary: "#a6a6a6",
         ColorSecondary: "#404040",
         BackgroundImage: "radial-gradient(ellipse at left bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 41%, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 70%)",
-        Duration: "255w",
+        Duration: "8d 14h 0m",
         StartDate: "2020-03-28T04:00:00Z",
         HostName: ".iecbw",
         HostImage: "img/hosts/iecbw.png",
