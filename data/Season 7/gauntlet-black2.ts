@@ -16,15 +16,15 @@ Season7.Runs.push(
         Events: [
             {
                 Group: "Badges",
-                Name: "Toxic Badge",
-                Image: "img/badges/toxic.png",
-                Time: "",
-                Attempts: 0
+                Name: "Basic Badge",
+                Image: "img/badges/basic.png",
+                Time: "2020-04-13T09:16:49.650Z",
+                Attempts: 5
             },
             {
                 Group: "Badges",
-                Name: "Basic Badge",
-                Image: "img/badges/basic.png",
+                Name: "Toxic Badge",
+                Image: "img/badges/toxic.png",
                 Time: "",
                 Attempts: 0
             },
@@ -106,9 +106,26 @@ Season7.Runs.push(
                 Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "46240", Attempts: 0, Party: [                ],
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "46240", Attempts: 0, Party: [],
                 Image: "img/ribbons/champion.png"
             },
+            { "Group": "Pokemon", "Name": "Tepig", "Time": "2020-04-12T21:09:30.046Z" },
+            { "Group": "Pokemon", "Name": "Bidoof", "Time": "2020-04-12T21:22:56.760Z" },
+            { "Group": "Pokemon", "Name": "Wurmple", "Time": "2020-04-12T21:24:25.161Z" },
+            { "Group": "Pokemon", "Name": "Patrat", "Time": "2020-04-12T21:29:27.541Z" },
+            { "Group": "Pokemon", "Name": "Purrloin", "Time": "2020-04-12T21:57:29.165Z" },
+            { "Group": "Pokemon", "Name": "Sewaddle", "Time": "2020-04-12T22:04:00.744Z" },
+            { "Group": "Pokemon", "Name": "Swinub", "Time": "2020-04-12T22:21:24.523Z" },
+            { "Group": "Pokemon", "Name": "Lotad", "Time": "2020-04-12T22:22:21.784Z" },
+            { "Group": "Pokemon", "Name": "Seedot", "Time": "2020-04-12T22:26:16.754Z" },
+            { "Group": "Pokemon", "Name": "Lillipup", "Time": "2020-04-12T22:54:47.385Z" },
+            { "Group": "Pokemon", "Name": "Kricketot", "Time": "2020-04-13T00:29:38.311Z" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "2020-04-13T00:54:53.322Z" },
+            { "Group": "Pokemon", "Name": "Mareep", "Time": "2020-04-13T01:01:19.040Z" },
+            { "Group": "Pokemon", "Name": "Tyrogue", "Time": "2020-04-13T01:06:56.357Z" },
+            { "Group": "Pokemon", "Name": "Hoothoot", "Time": "2020-04-13T01:12:57.848Z" },
+            { "Group": "Pokemon", "Name": "Psyduck", "Time": "2020-04-13T01:14:09.783Z" },
+            { "Group": "Pokemon", "Name": "Lombre", "Time": "2020-04-13T09:00:17.034Z" }
         ]
     }
 );
