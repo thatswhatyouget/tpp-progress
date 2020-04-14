@@ -32,8 +32,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Insect Badge",
                 Image: "img/badges/insect.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-04-14T15:28:27.312Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
@@ -179,7 +179,12 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Ledyba", "Time": "2020-04-14T11:19:41.539Z" },
             { "Group": "Pokemon", "Name": "Munna", "Time": "2020-04-14T11:20:30.272Z" },
             { "Group": "Pokemon", "Name": "Vulpix", "Time": "2020-04-14T11:21:42.578Z" },
-            { "Group": "Pokemon", "Name": "Eevee", "Time": "2020-04-14T11:37:46.405Z" }
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "2020-04-14T11:37:46.405Z" },
+            { "Group": "Pokemon", "Name": "Skitty", "Time": "2020-04-14T11:45:25.362Z" },
+            { "Group": "Pokemon", "Name": "Butterfree", "Time": "2020-04-14T11:53:53.703Z" },
+            { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2020-04-14T12:12:00.418Z" },
+            { "Group": "Pokemon", "Name": "Budew", "Time": "2020-04-14T12:19:14.656Z" },
+            { "Group": "Pokemon", "Name": "Gurdurr", "Time": "2020-04-14T14:37:24.989Z" },
         ]
     }
 );
