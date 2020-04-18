@@ -67,8 +67,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Wave Badge",
                 Image: "img/badges/wave.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-04-18T13:42:52.749Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
