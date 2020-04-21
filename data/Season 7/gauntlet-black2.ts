@@ -102,17 +102,17 @@ Season7.Runs.push(
                 Group: "Champions",
                 Name: "Iris",
                 Image: "img/trainers/black/iris.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-04-21T03:04:59.892Z",
+                Attempts: 4
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "46240", Attempts: 4, Party: [
-                    { Pokemon: "Darkrai", Nickname: "♛♛w", Level: 83 },
-                    { Pokemon: "Dusknoir", Nickname: "lierO 6", Level: 70, Gender: "Male" },
-                    { Pokemon: "Krookodile", Nickname: "L GGG HGMY", Level: 74, Gender: "Female" },
-                    { Pokemon: "Porygon-Z", Nickname: "APSEPIEMG", Level: 74 },
-                    { Pokemon: "Eelektross", Nickname: "pe", Level: 75, Gender: "Male" },
-                    { Pokemon: "Milotic", Nickname: "TRSNNEAESK", Level: 92, Gender: "Male" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "8d 6h 5m", IDNo: "46240", Attempts: 15, Party: [
+                    { Pokemon: "Darkrai", Nickname: "♛♛w", Level: 93 },
+                    { Pokemon: "Dusknoir", Nickname: "lierO 6", Level: 71, Gender: "Male" },
+                    { Pokemon: "Krookodile", Nickname: "L GGG HGMY", Level: 77, Gender: "Female" },
+                    { Pokemon: "Porygon-Z", Nickname: "APSEPIEMG", Level: 75 },
+                    { Pokemon: "Eelektross", Nickname: "pe", Level: 77, Gender: "Male" },
+                    { Pokemon: "Milotic", Nickname: "TRSNNEAESK", Level: 100, Gender: "Male" },
                 ],
                 FirstAttemptDate: "2020-04-20T19:59:22.536Z",
                 Image: "img/ribbons/champion.png"
@@ -459,6 +459,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Arbok", "Time": "2020-04-20T18:59:18.055Z" },
             { "Group": "Pokemon", "Name": "Fraxure", "Time": "2020-04-20T19:20:06.477Z" },
             { "Group": "Pokemon", "Name": "Magmar", "Time": "2020-04-20T19:46:56.923Z" },
+            { "Group": "Pokemon", "Name": "Keldeo", "Time": "2020-04-21T03:35:48.149Z" },
         ]
     }
 );
