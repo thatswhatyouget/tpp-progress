@@ -17,8 +17,8 @@ Season6.Runs.push(
                 Group: "Badges",
                 Name: "Bug Badge",
                 Image: "img/badges/bug.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-05-04T02:11:18.394Z",
+                Attempts: 2
             },
             {
                 Group: "Badges",
@@ -120,7 +120,12 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Caterpie", "Time": "2020-05-03T21:42:29.014Z" },
             { "Group": "Pokemon", "Name": "Pikachu", "Time": "2020-05-03T21:45:20.986Z" },
             { "Group": "Pokemon", "Name": "Fletchling", "Time": "2020-05-03T21:48:58.101Z" },
-            { "Group": "Pokemon", "Name": "Bunnelby", "Time": "2020-05-03T22:15:34.732Z" }
+            { "Group": "Pokemon", "Name": "Bunnelby", "Time": "2020-05-03T22:15:34.732Z" },
+            { "Group": "Pokemon", "Name": "Burmy", "Time": "2020-05-03T23:09:11.816Z" },
+            { "Group": "Pokemon", "Name": "Pansear", "Time": "2020-05-03T23:30:40.877Z" },
+            { "Group": "Pokemon", "Name": "Panpour", "Time": "2020-05-03T23:32:50.524Z" },
+            { "Group": "Pokemon", "Name": "Litleo", "Time": "2020-05-04T00:10:34.242Z" },
+            { "Group": "Pokemon", "Name": "Azurill", "Time": "2020-05-04T01:09:22.866Z" }
         ]
     }
 );
