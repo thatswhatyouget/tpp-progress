@@ -1,5 +1,5 @@
 /// <reference path="../tpp-data.ts" />
-Season6.Runs.push(
+Season7.Runs.push(
     {
         RunName: "Gauntlet X",
         ColorPrimary: "#007fdb",
@@ -24,8 +24,8 @@ Season6.Runs.push(
                 Group: "Badges",
                 Name: "Cliff Badge",
                 Image: "img/badges/cliff.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-05-04T21:11:05.073Z",
+                Attempts: 4
             },
             {
                 Group: "Badges",
@@ -125,7 +125,23 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Pansear", "Time": "2020-05-03T23:30:40.877Z" },
             { "Group": "Pokemon", "Name": "Panpour", "Time": "2020-05-03T23:32:50.524Z" },
             { "Group": "Pokemon", "Name": "Litleo", "Time": "2020-05-04T00:10:34.242Z" },
-            { "Group": "Pokemon", "Name": "Azurill", "Time": "2020-05-04T01:09:22.866Z" }
+            { "Group": "Pokemon", "Name": "Azurill", "Time": "2020-05-04T01:09:22.866Z" },
+            { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "2020-05-04T04:02:04.892Z" },
+            { "Group": "Pokemon", "Name": "Skiddo", "Time": "2020-05-04T05:09:50.635Z" },
+            { "Group": "Pokemon", "Name": "Pancham", "Time": "2020-05-04T05:11:01.780Z" },
+            { "Group": "Pokemon", "Name": "Furfrou", "Time": "2020-05-04T08:14:52.413Z" },
+            { "Group": "Pokemon", "Name": "Flabébé", "Time": "2020-05-04T09:14:30.705Z" },
+            { "Group": "Pokemon", "Name": "Croagunk", "Time": "2020-05-04T10:18:09.980Z" },
+            { "Group": "Pokemon", "Name": "Drifloon", "Time": "2020-05-04T12:21:18.075Z" },
+            { "Group": "Pokemon", "Name": "Spoink", "Time": "2020-05-04T12:26:40.024Z" },
+            { "Group": "Pokemon", "Name": "Hippopotas", "Time": "2020-05-04T12:51:52.918Z" },
+            { "Group": "Pokemon", "Name": "Helioptile", "Time": "2020-05-04T12:56:26.320Z" },
+            { "Group": "Pokemon", "Name": "Luvdisc", "Time": "2020-05-04T14:16:29.215Z" },
+            { "Group": "Pokemon", "Name": "Amaura", "Time": "2020-05-04T14:21:36.694Z" },
+            { "Group": "Pokemon", "Name": "Mothim", "Time": "2020-05-04T14:59:36.188Z" },
+            { "Group": "Pokemon", "Name": "Hawlucha", "Time": "2020-05-04T15:20:21.988Z" },
+            { "Group": "Pokemon", "Name": "Sigilyph", "Time": "2020-05-04T15:25:20.599Z" },
+            { "Group": "Pokemon", "Name": "Snubbull", "Time": "2020-05-04T20:02:31.723Z" }
         ]
     }
 );
