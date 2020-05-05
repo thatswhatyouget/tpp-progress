@@ -71,7 +71,6 @@ declare namespace Twitch {
         EndTime: number;
         constructor(recorded_at: string, length: number, url: string, source: string);
     }
-    function GetVideos(channel: string, getAll?: boolean): JQueryPromise<Video[]>;
 }
 declare namespace TPP {
     interface Run {
@@ -139,32 +138,6 @@ declare namespace TPP {
     }
 }
 declare namespace TPP.Transforms.Data.Traversal {
-    function EventLevel(eventFunc: (e: Event, r?: Run, c?: Collection) => Event | boolean, filter?: boolean): {
-        (tppData: Event, collection?: Collection, run?: Run): Event;
-        (tppData: Event[], collection?: Collection, run?: Run): Event[];
-        (tppData: Run, collection?: Collection): Run;
-        (tppData: Run[], collection?: Collection): Run[];
-        (tppData: Collection): Collection;
-        (tppData: Collection[]): Collection[];
-    };
-    function RunLevel(runFunc: (r: Run, c?: Collection) => Run | boolean, filter?: boolean): {
-        (tppData: Run, collection?: Collection): Run;
-        (tppData: Run[], collection?: Collection): Run[];
-        (tppData: Collection): Collection;
-        (tppData: Collection[]): Collection[];
-    };
-    function CollectionLevel(collectionFunc: (c: Collection) => Collection | boolean, filter?: boolean): {
-        (tppData: Collection): Collection;
-        (tppData: Collection[]): Collection[];
-    };
-    function MultiLevel(collectionFunc: (c: Collection) => Collection, runFunc?: (r: Run, c?: Collection) => Run, eventFunc?: (e: Event, r?: Run, c?: Collection) => Event): {
-        (tppData: Event, collection?: Collection, run?: Run): Event;
-        (tppData: Event[], collection?: Collection, run?: Run): Event[];
-        (tppData: Run, collection?: Collection): Run;
-        (tppData: Run[], collection?: Collection): Run[];
-        (tppData: Collection): Collection;
-        (tppData: Collection[]): Collection[];
-    };
 }
 declare namespace TPP.Transforms.Data {
     var Clone: {
@@ -201,13 +174,8 @@ declare namespace TPP.Transforms.Data.Filter {
     };
 }
 declare namespace TPP.Transforms.Data.Filter {
-    function HasOnlyOneRun(tppData: Collection[] | Collection | Run[]): boolean;
-    function GetOnlyRun(tppData: Collection[] | Collection | Run[]): Run;
 }
 declare namespace TPP.Transforms.Data.Filter {
-    function CollectionSearch(tppData: Collection[], search: string | string[]): Collection[];
-    function RunSearch(tppData: Collection[], search: string | string[]): Collection[];
-    function Search(tppData: Collection[], search: string | string[]): Collection[];
 }
 declare namespace TPP.Transforms.Data.Processing {
     function CatchReport(tppData: Run, day?: number, collection?: Collection): Run;
@@ -328,8 +296,6 @@ declare namespace TPP.Transforms.Pokedex {
     }
 }
 declare namespace TPP.Transforms.Pokedex {
-    function DexMerge(Regional: (number | string)[], National?: string[]): string[];
-    function ClipNationalDex(highestDexNumber: number, National?: string[]): string[];
 }
 declare namespace TPP.Transforms.Pokedex {
     class GlobalDex extends TPP.Pokedex.GlobalDexBase {

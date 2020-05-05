@@ -31,15 +31,15 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Rumble Badge",
                 Image: "img/badges/rumble.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-05-05T03:23:50.270Z",
+                Attempts: 2
             },
             {
                 Group: "Badges",
                 Name: "Plant Badge",
                 Image: "img/badges/plant.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-05-05T05:42:12.283Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
@@ -141,7 +141,13 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Mothim", "Time": "2020-05-04T14:59:36.188Z" },
             { "Group": "Pokemon", "Name": "Hawlucha", "Time": "2020-05-04T15:20:21.988Z" },
             { "Group": "Pokemon", "Name": "Sigilyph", "Time": "2020-05-04T15:25:20.599Z" },
-            { "Group": "Pokemon", "Name": "Snubbull", "Time": "2020-05-04T20:02:31.723Z" }
+            { "Group": "Pokemon", "Name": "Snubbull", "Time": "2020-05-04T20:02:31.723Z" },
+            { "Group": "Pokemon", "Name": "Carbink", "Time": "2020-05-04T23:12:20.837Z" },
+            { "Group": "Pokemon", "Name": "Wobbuffet", "Time": "2020-05-05T00:24:53.385Z" },
+            { "Group": "Pokemon", "Name": "Woobat", "Time": "2020-05-05T00:45:27.256Z" },
+            { "Group": "Pokemon", "Name": "Solosis", "Time": "2020-05-05T00:56:51.351Z" },
+            { "Group": "Pokemon", "Name": "Lucario", "Time": "2020-05-05T03:36:58.272Z" },
+            { "Group": "Pokemon", "Name": "Trapinch", "Time": "2020-05-05T05:54:46.499Z" },
         ]
     }
 );
