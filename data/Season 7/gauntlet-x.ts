@@ -45,15 +45,15 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Voltage Badge",
                 Image: "img/badges/voltage.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-05-05T15:36:22.170Z",
+                Attempts: 4
             },
             {
                 Group: "Badges",
                 Name: "Fairy Badge",
                 Image: "img/badges/fairy.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-05-05T18:51:04.344Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
@@ -148,6 +148,10 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Solosis", "Time": "2020-05-05T00:56:51.351Z" },
             { "Group": "Pokemon", "Name": "Lucario", "Time": "2020-05-05T03:36:58.272Z" },
             { "Group": "Pokemon", "Name": "Trapinch", "Time": "2020-05-05T05:54:46.499Z" },
+            { "Group": "Pokemon", "Name": "Clauncher", "Time": "2020-05-05T09:37:37.074Z" },
+            { "Group": "Pokemon", "Name": "Staryu", "Time": "2020-05-05T11:11:12.271Z" },
+            { "Group": "Pokemon", "Name": "Heliolisk", "Time": "2020-05-05T14:12:13.625Z" },
+            { "Group": "Pokemon", "Name": "Goomy", "Time": "2020-05-05T16:10:27.128Z" }
         ]
     }
 );
