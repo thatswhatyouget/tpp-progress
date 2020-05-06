@@ -59,8 +59,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Psychic Badge",
                 Image: "img/badges/psychic.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-05-06T02:25:06.692Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
@@ -151,7 +151,10 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Clauncher", "Time": "2020-05-05T09:37:37.074Z" },
             { "Group": "Pokemon", "Name": "Staryu", "Time": "2020-05-05T11:11:12.271Z" },
             { "Group": "Pokemon", "Name": "Heliolisk", "Time": "2020-05-05T14:12:13.625Z" },
-            { "Group": "Pokemon", "Name": "Goomy", "Time": "2020-05-05T16:10:27.128Z" }
+            { "Group": "Pokemon", "Name": "Goomy", "Time": "2020-05-05T16:10:27.128Z" },
+            { "Group": "Pokemon", "Name": "Aurorus", "Time": "2020-05-06T00:45:42.170Z" },
+            { "Group": "Pokemon", "Name": "Bergmite", "Time": "2020-05-06T01:08:55.698Z" },
+            { "Group": "Pokemon", "Name": "Sliggoo", "Time": "2020-05-06T01:50:58.204Z" },
         ]
     }
 );
