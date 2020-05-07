@@ -5,7 +5,7 @@ Season7.Runs.push(
         ColorPrimary: "#007fdb",
         ColorSecondary: "black",
         Duration: "255w",
-        StartDate: "2020-05-03T12:00:00Z",
+        StartDate: "2020-05-03T21:00:00Z",
         HostName: "Etr",
         HostImage: "img/hosts/etr.png",
         // HostImageSource: "http://haykira.deviantart.com/art/Li-l-d-from-Twitch-Plays-Pokemon-X-Y-471845274",
@@ -66,53 +66,54 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Iceberg Badge",
                 Image: "img/badges/iceberg.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-05-07T01:34:04.923Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Malva",
                 Image: "img/trainers/x/malva.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-05-07T11:17:04.074Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Wikstrom",
                 Image: "img/trainers/x/wikstrom.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-05-07T15:15:08.843Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four",
                 Name: "Drasna",
                 Image: "img/trainers/x/drasna.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-05-07T12:59:56.088Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Siebold",
                 Image: "img/trainers/x/siebold.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-05-07T11:10:37.886Z",
+                Attempts: 1
             },
             {
                 Group: "Champions",
                 Name: "Diantha",
                 Image: "img/trainers/x/diantha.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-05-07T16:38:12.986Z",
+                Attempts: 3
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
-                    // { Pokemon: "Lapras", Nickname: "! ♀o?04+6eAd", Level: 68, Gender: "Male" },
-                    // { Pokemon: "Charizard", Nickname: "!taj11yygaaa", Level: 81, Gender: "Male" },
-                    // { Pokemon: "Absol", Nickname: "QQYyy25o6wf7", Level: 70, Gender: "Female" },
-                    // { Pokemon: "Xerneas", Level: 80 },
-                    // { Pokemon: "Hawlucha", Level: 72, Gender: "Female" },
-                    // { Pokemon: "Aegislash", Nickname: "Oi!oiswhhve!", Level: 93, Gender: "Female" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-05-07T16:39:38.481Z", Attempts: 8, Party: [
+                    { Pokemon: "Heliolisk", Nickname: "Herrrdliopr", Level: 78, Gender: "Male" },
+                    { Pokemon: "Aurorus", Nickname: "Amééépura2", Level: 77, Gender: "Male" },
+                    { Pokemon: "Mothim", Nickname: "Moth", Level: 70, Gender: "Male" },
+                    { Pokemon: "Goodra", Nickname: "R6", Level: 65, Gender: "Male" },
+                    { Pokemon: "Ducklett", Nickname: "dfuucck", Level: 61, Gender: "Female" },
+                    { Pokemon: "Clawitzer", Nickname: "8d b9 ’bmp m", Level: 56, Gender: "Female" },
                 ],
+                FirstAttemptDate: "2020-05-07T11:06:41.329Z",
                 Image: "img/ribbons/champion-kalos.png"
             },
             { "Group": "Pokemon", "Name": "Froakie", "Time": "2020-05-03T21:14:45.023Z" },
@@ -155,6 +156,28 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Aurorus", "Time": "2020-05-06T00:45:42.170Z" },
             { "Group": "Pokemon", "Name": "Bergmite", "Time": "2020-05-06T01:08:55.698Z" },
             { "Group": "Pokemon", "Name": "Sliggoo", "Time": "2020-05-06T01:50:58.204Z" },
+            { "Group": "Pokemon", "Name": "Shelmet", "Time": "2020-05-06T07:12:44.666Z" },
+            { "Group": "Pokemon", "Name": "Stunfisk", "Time": "2020-05-06T07:38:22.298Z" },
+            { "Group": "Pokemon", "Name": "Haunter", "Time": "2020-05-06T07:41:02.391Z" },
+            { "Group": "Pokemon", "Name": "Simipour", "Time": "2020-05-06T10:36:05.599Z" },
+            { "Group": "Pokemon", "Name": "Simisear", "Time": "2020-05-06T10:37:44.140Z" },
+            { "Group": "Pokemon", "Name": "Nincada", "Time": "2020-05-06T12:14:08.034Z" },
+            { "Group": "Pokemon", "Name": "Honedge", "Time": "2020-05-06T12:16:43.785Z" },
+            { "Group": "Pokemon", "Name": "Sentret", "Time": "2020-05-06T12:21:16.629Z" },
+            { "Group": "Pokemon", "Name": "Oddish", "Time": "2020-05-06T12:27:06.181Z" },
+            { "Group": "Pokemon", "Name": "Espurr", "Time": "2020-05-06T12:42:56.439Z" },
+            { "Group": "Pokemon", "Name": "Xerneas", "Time": "2020-05-06T19:21:35.592Z" },
+            { "Group": "Pokemon", "Name": "Golett", "Time": "2020-05-06T19:31:55.107Z" },
+            { "Group": "Pokemon", "Name": "Ducklett", "Time": "2020-05-06T20:56:41.195Z" },
+            { "Group": "Pokemon", "Name": "Klefki", "Time": "2020-05-06T22:29:54.716Z" },
+            { "Group": "Pokemon", "Name": "Noctowl", "Time": "2020-05-06T23:48:53.682Z" },
+            { "Group": "Pokemon", "Name": "Clawitzer", "Time": "2020-05-07T01:34:02.558Z" },
+            { "Group": "Pokemon", "Name": "Swirlix", "Time": "2020-05-07T02:34:48.570Z" },
+            { "Group": "Pokemon", "Name": "Goodra", "Time": "2020-05-07T03:15:19.389Z" },
+            { "Group": "Pokemon", "Name": "Noibat", "Time": "2020-05-07T06:47:48.623Z" },
+            { "Group": "Pokemon", "Name": "Diggersby", "Time": "2020-05-07T14:18:36.719Z" },
+            { "Group": "Pokemon", "Name": "Fennekin", "Time": "2020-05-07T17:14:22.227Z" },
+            { "Group": "Pokemon", "Name": "Masquerain", "Time": "2020-05-07T18:03:57.430Z" }
         ]
     }
 );
