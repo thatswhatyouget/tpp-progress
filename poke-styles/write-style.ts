@@ -1,12 +1,12 @@
-var dexClean = d => d.replace(/[^A-Z0-9-]/ig, '').toLowerCase();
+var dexClean = d => (d || "").toString().replace(/[^A-Z0-9-]/ig, '').toLowerCase();
 
 var exports = exports || {};
 exports.pokeStyles = [];
 
 function defaultMapping(mapString: string = "") {
     if (mapString) mapString = "." + mapString.trim() + " ";
-    return (entry, index) => {
-        if (!index) return "";
+    return (entry: string, index: number) => {
+        if (!index || !entry) return "";
         return mapString + ".pokesprite." + dexClean(entry) + " img { background-position: 0px -" + index + "em!important; }";
     }
 }

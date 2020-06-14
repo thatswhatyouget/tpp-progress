@@ -558,6 +558,9 @@ ul.controls > li > ul > li.selected > a:before {
 .progressChart  .sweet.run .event.pokemon.pokesprite img {
 	background-image:url("../img/candyland-small.png");
 }
+.progressChart  .sirius.run .event.pokemon.pokesprite img {
+	background-image:url("../img/sirius-small.png");
+}
 
 
 .progressChart .tradingcardgame .innertradingcardgame .event {
@@ -801,6 +804,10 @@ ul.controls > li > ul > li.selected > a:before {
 
 .hallOfFameDisplay.sweet .entry .pokesprite img {
 	background-image:url("../img/candyland-large.png")!important;
+}
+
+.hallOfFameDisplay.sirius .entry .pokesprite img {
+	background-image:url("../img/sirius-large.png")!important;
 }
 
 .hallOfFameDisplay .entry .info > * {

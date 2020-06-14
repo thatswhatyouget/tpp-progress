@@ -1,4 +1,7 @@
 /// <reference path="../write-style.ts" />
+/// <reference path="../../data/pokedex/natdex.ts" />
+/// <reference path="../../data/pokedex/regional.ts" />
+
 
 var fakemon = [
     "Unidentified",
@@ -6,7 +9,7 @@ var fakemon = [
     "Pikachu-B", "Kyurem-B", "Kyurem-W", "Mew-B", "M-Venusaur", "M-Charizard X", "M-Blastoise", "M-Lucario", "M-Charizard Y", "M-Salamence", "M-Absol", "M-Manectric", //Glazed
     "Def-Eevee", "Rotom-C", "Rotom-F", "Rotom-H", "Rotom-S", "Rotom-W", "Off-Eevee", //Blazed Glazed
     "Pumbloom", //Bronze
-    "Burmy G","Wormadam G","Meloetta F","ShayminSky","Burmy S","Wormadam S","Aqua Egg","Shellos 2","Gastrodon2","Rotom I","Rotom F","Rotom W","Rotom G","Rotom H", //Flora Sky
+    "Burmy G", "Wormadam G", "Meloetta F", "ShayminSky", "Burmy S", "Wormadam S", "Aqua Egg", "Shellos 2", "Gastrodon2", "Rotom I", "Rotom F", "Rotom W", "Rotom G", "Rotom H", //Flora Sky
 ];
 
 addStyles(fakemon, f => {
@@ -21,3 +24,6 @@ addSingleStyle('.pokesprite.phancero:hover img  { background-image:url("../img/f
 
 //MissingNo.
 addSingleStyle('.pokesprite.missingno img  { background-image:url("../img/missingno.png")!important; }');
+
+//Sirius
+addStyles(Pokedex.Regional["Altair/Sirius (Hoenn)"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p)), defaultMapping("sirius"));
