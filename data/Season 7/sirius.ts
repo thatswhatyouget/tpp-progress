@@ -28,10 +28,10 @@ Season7.Runs.push(
             },
             {
                 Group: "Badges",
-                Name: "Dynamo Badge",
+                Name: "Alya Badge",
                 Image: "img/badges/dynamo.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-06-15T16:27:08.147Z",
+                Attempts: 14
             },
             {
                 Group: "Badges",
@@ -95,7 +95,9 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Meowth", "Time": "2020-06-14T16:23:16.666Z" },
             { "Group": "Pokemon", "Name": "Glameow", "Time": "2020-06-14T16:31:05.004Z" },
             { "Group": "Pokemon", "Name": "Lunabitt", "Time": "2020-06-14T20:54:38.012Z" },
-            { "Group": "Pokemon", "Name": "Hornikel", "Time": "2020-06-14T21:08:30.604Z" }
+            { "Group": "Pokemon", "Name": "Hornikel", "Time": "2020-06-14T21:08:30.604Z" },
+            { "Group": "Pokemon", "Name": "Frozaiden", "Time": "2020-06-15T08:02:33.843Z" },
+            { "Group": "Pokemon", "Name": "Kirgicia", "Time": "2020-06-15T10:11:38.513Z" }
         ]
     }
 );
