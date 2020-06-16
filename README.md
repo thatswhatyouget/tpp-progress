@@ -5,10 +5,10 @@ This project is not intended to replace the need for the images, but more as a s
 
 As always, there's room for improvement. Visit [this Reddit thread](https://www.reddit.com/r/twitchplayspokemon/comments/3wy0eq/liveupdating_interactive_progress_bars/) to submit comments and suggestions.
 
-##Running your own
+## Running your own
 The source code is in [TypeScript](http://www.typescriptlang.org), but the compiled JS is also included. Should you just want to check this out and run it locally or on your own webserver, all that should be required is checking out the repo and opening index.html in your browser. All the code runs client-side. No database is required.
 
-##Modifying
+## Modifying
 I built the project using [Visual Studio Code](https://code.visualstudio.com) (hence the .vscode folder), but any text editor would work just fine. You can modify the compiled JS if you like, but if you want to modify the actual source, TypeScript and Gulp are required.
 
 To install [TypeScript](https://www.typescriptlang.org/#download-links) and [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md), first install [Node.js](https://nodejs.org/), and then run
