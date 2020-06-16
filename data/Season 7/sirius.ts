@@ -42,10 +42,10 @@ Season7.Runs.push(
             },
             {
                 Group: "Badges",
-                Name: "Balance Badge",
+                Name: "Deimos Badge",
                 Image: "img/badges/balance.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-06-16T14:22:42.357Z",
+                Attempts: 19
             },
             {
                 Group: "Badges",
@@ -117,7 +117,9 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Rynos", "Time": "2020-06-16T04:08:06.079Z" },
             { "Group": "Pokemon", "Name": "Lephan", "Time": "2020-06-16T04:12:53.108Z" },
             { "Group": "Pokemon", "Name": "Rollder", "Time": "2020-06-16T04:13:59.426Z" },
-            { "Group": "Pokemon", "Name": "Bronzor", "Time": "2020-06-16T04:49:01.607Z" }
+            { "Group": "Pokemon", "Name": "Bronzor", "Time": "2020-06-16T04:49:01.607Z" },
+            { "Group": "Pokemon", "Name": "Metapod", "Time": "2020-06-16T08:52:26.692Z" },
+            { "Group": "Pokemon", "Name": "Aurostice", "Time": "2020-06-16T10:15:33.045Z" }
         ]
     }
 );
