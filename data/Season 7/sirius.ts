@@ -35,10 +35,10 @@ Season7.Runs.push(
             },
             {
                 Group: "Badges",
-                Name: "Heat Badge",
+                Name: "Spica Badge",
                 Image: "img/badges/heat.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-06-16T03:53:01.130Z",
+                Attempts: 8
             },
             {
                 Group: "Badges",
@@ -97,7 +97,27 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Lunabitt", "Time": "2020-06-14T20:54:38.012Z" },
             { "Group": "Pokemon", "Name": "Hornikel", "Time": "2020-06-14T21:08:30.604Z" },
             { "Group": "Pokemon", "Name": "Frozaiden", "Time": "2020-06-15T08:02:33.843Z" },
-            { "Group": "Pokemon", "Name": "Kirgicia", "Time": "2020-06-15T10:11:38.513Z" }
+            { "Group": "Pokemon", "Name": "Kirgicia", "Time": "2020-06-15T10:11:38.513Z" },
+            { "Group": "Pokemon", "Name": "Maneko", "Time": "2020-06-15T16:43:50.249Z" },
+            { "Group": "Pokemon", "Name": "Slugma", "Time": "2020-06-15T16:49:59.727Z" },
+            { "Group": "Pokemon", "Name": "Torkoal", "Time": "2020-06-15T16:53:50.579Z" },
+            { "Group": "Pokemon", "Name": "Mintch", "Time": "2020-06-15T17:19:44.999Z" },
+            { "Group": "Pokemon", "Name": "Willisp", "Time": "2020-06-15T17:24:33.798Z" },
+            { "Group": "Pokemon", "Name": "Kapwondo", "Time": "2020-06-15T17:50:47.471Z" },
+            { "Group": "Pokemon", "Name": "Bakeko", "Time": "2020-06-15T19:36:25.831Z" },
+            { "Group": "Pokemon", "Name": "Machop", "Time": "2020-06-15T19:39:04.346Z" },
+            { "Group": "Pokemon", "Name": "Gulpin", "Time": "2020-06-15T19:42:03.279Z" },
+            { "Group": "Pokemon", "Name": "Clotaku", "Time": "2020-06-15T20:13:37.273Z" },
+            { "Group": "Pokemon", "Name": "Lunatone", "Time": "2020-06-15T20:27:52.457Z" },
+            { "Group": "Pokemon", "Name": "Stellith", "Time": "2020-06-15T20:47:47.239Z" },
+            { "Group": "Pokemon", "Name": "Solrock", "Time": "2020-06-15T20:59:50.063Z" },
+            { "Group": "Pokemon", "Name": "Mornwing", "Time": "2020-06-15T21:14:40.592Z" },
+            { "Group": "Pokemon", "Name": "Goabalt", "Time": "2020-06-15T21:51:22.355Z" },
+            { "Group": "Pokemon", "Name": "Syleafid", "Time": "2020-06-15T23:52:20.695Z" },
+            { "Group": "Pokemon", "Name": "Rynos", "Time": "2020-06-16T04:08:06.079Z" },
+            { "Group": "Pokemon", "Name": "Lephan", "Time": "2020-06-16T04:12:53.108Z" },
+            { "Group": "Pokemon", "Name": "Rollder", "Time": "2020-06-16T04:13:59.426Z" },
+            { "Group": "Pokemon", "Name": "Bronzor", "Time": "2020-06-16T04:49:01.607Z" }
         ]
     }
 );
