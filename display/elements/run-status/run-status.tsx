@@ -81,7 +81,7 @@ namespace TPP.Display.Elements.RunStatus {
                         return this.forceUpdate();
                     clearInterval(this.updateLoop);
                     window.location.reload();
-                }, 1000);
+                }, 1000) as any;
             if (this.props.run.Ongoing && this.props.autoUpdate > 0) {
                 this.updateLoop = setInterval(() => {
                     if (!this.state.run.Ongoing)
@@ -89,7 +89,7 @@ namespace TPP.Display.Elements.RunStatus {
                     this.UpdateRunData();
                     this.UpdateRunStatus();
                     this.UpdateScreenshot();
-                }, this.props.autoUpdate * 60000);
+                }, this.props.autoUpdate * 60000) as any;
             }
             this.UpdateRunStatus();
             if (this.props.run.SidegameId && !this.props.run.LastScreenshot)

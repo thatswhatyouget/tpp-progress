@@ -77,8 +77,8 @@ module Reddit.Pasteee.Live {
     }
 
     export function Test() {
-        Fetch("https://paste.ee/p/9zU5C").then(data => console.log("Colosseum") || console.log(data));
-        Fetch("https://paste.ee/p/DcMdp").then(data => console.log("X") || console.log(data));
+        Fetch("https://paste.ee/p/9zU5C").then(data => { console.log("Colosseum"); console.log(data); });
+        Fetch("https://paste.ee/p/DcMdp").then(data => { console.log("X"); console.log(data);});
         return "Started test";
     }
 

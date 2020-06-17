@@ -4,7 +4,7 @@ declare namespace TPP {
         Weeks = 0,
         Days = 1,
         Hours = 2,
-        Minutes = 3,
+        Minutes = 3
     }
 }
 declare namespace TPP {
@@ -222,10 +222,14 @@ declare namespace TPP {
         private minutes;
         private seconds;
         private static parseReg;
-        TotalSeconds: number;
-        TotalHours: number;
-        TotalDays: number;
-        TotalWeeks: number;
+        get TotalSeconds(): number;
+        get TotalHours(): number;
+        get TotalDays(): number;
+        get TotalWeeks(): number;
+        set TotalSeconds(value: number);
+        set TotalHours(value: number);
+        set TotalDays(value: number);
+        set TotalWeeks(value: number);
         TotalTime(scale: TPP.Scale): number;
         toString(scale?: Scale): string;
         static parse(time: string, baseTime?: number): Duration;
@@ -267,31 +271,32 @@ declare namespace TPP.Pokedex {
         Number: number;
         Pokemon: string;
         private displayName;
-        DisplayName: string;
+        get DisplayName(): string;
+        set DisplayName(value: string);
         Owners: {
             Run: Run;
             CaughtOn: number;
         }[];
         HallOfFame: HofEntry[];
-        readonly IsOwned: boolean;
-        readonly FirstOwnedRun: Run;
-        readonly FirstCaughtDate: number | boolean;
+        get IsOwned(): boolean;
+        get FirstOwnedRun(): Run;
+        get FirstCaughtDate(): number | false;
         Clone(clone?: DexEntryBase): DexEntryBase;
     }
     enum DexSorting {
         "Pokédex Number" = 0,
         "Alphabetical" = 1,
-        "First Owned" = 2,
+        "First Owned" = 2
     }
     class GlobalDexBase {
         Entries: DexEntryBase[];
-        private readonly NoGlitchMon;
-        readonly TotalOwned: number;
-        readonly TotalInDex: number;
-        readonly OwnedPercentage: number;
+        private get NoGlitchMon();
+        get TotalOwned(): number;
+        get TotalInDex(): number;
+        get OwnedPercentage(): number;
         TotalOwnedBy(run: Run): number;
-        readonly Owned: DexEntryBase[];
-        readonly Unowned: DexEntryBase[];
+        get Owned(): DexEntryBase[];
+        get Unowned(): DexEntryBase[];
         private isGlitchMon;
         SortDex(sortBy?: DexSorting | string): void;
         FilterGlitchMon(): void;
@@ -307,24 +312,24 @@ declare namespace TPP.Pokedex {
 declare namespace TPP.Transforms.Pokedex {
     class RunSummary extends TPP.Pokedex.RunSummaryBase {
         constructor(Run: TPP.Run, PokeList: string[]);
-        private FillOwnedDict(PokeList);
-        private AddOwnedPokemonIfRecognized(mon, timestamp, PokeList);
-        private InitOwnedDict(PokeList);
-        private FillHallOfFame(PokeList);
+        private FillOwnedDict;
+        private AddOwnedPokemonIfRecognized;
+        private InitOwnedDict;
+        private FillHallOfFame;
     }
 }
 declare namespace TPP.Transforms.Pokedex {
     class CollectionSummary extends TPP.Pokedex.CollectionSummaryBase {
         constructor(tppData: Collection[], PokeList: string[]);
-        private FilterHoFToUniques();
+        private FilterHoFToUniques;
     }
 }
 declare namespace TPP.Transforms.Pokedex {
     class DexEntry extends TPP.Pokedex.DexEntryBase {
         constructor(pokemon: string, number: number, collectionSummary: CollectionSummary);
-        private GatherPokemonFromRuns(collectionSummary);
-        private FilterRevisitsIfPreviouslyOwned();
-        private GatherHallOfFameEntries(collectionsummary);
+        private GatherPokemonFromRuns;
+        private FilterRevisitsIfPreviouslyOwned;
+        private GatherHallOfFameEntries;
     }
 }
 declare namespace TPP.Transforms.Pokedex {
