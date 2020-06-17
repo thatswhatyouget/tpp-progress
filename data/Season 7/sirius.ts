@@ -49,10 +49,10 @@ Season7.Runs.push(
             },
             {
                 Group: "Badges",
-                Name: "Feather Badge",
+                Name: "Regulus Badge",
                 Image: "img/badges/feather.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-06-17T15:39:12.633Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
@@ -119,7 +119,37 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Rollder", "Time": "2020-06-16T04:13:59.426Z" },
             { "Group": "Pokemon", "Name": "Bronzor", "Time": "2020-06-16T04:49:01.607Z" },
             { "Group": "Pokemon", "Name": "Metapod", "Time": "2020-06-16T08:52:26.692Z" },
-            { "Group": "Pokemon", "Name": "Aurostice", "Time": "2020-06-16T10:15:33.045Z" }
+            { "Group": "Pokemon", "Name": "Aurostice", "Time": "2020-06-16T10:15:33.045Z" },
+            { "Group": "Pokemon", "Name": "Voltorb", "Time": "2020-06-16T16:44:40.669Z" },
+            { "Group": "Pokemon", "Name": "Plasmox", "Time": "2020-06-16T16:48:28.206Z" },
+            { "Group": "Pokemon", "Name": "Flaaffy", "Time": "2020-06-16T17:00:45.590Z" },
+            { "Group": "Pokemon", "Name": "Blitzune", "Time": "2020-06-16T17:21:07.639Z" },
+            { "Group": "Pokemon", "Name": "Ampharos", "Time": "2020-06-16T18:08:24.036Z" },
+            { "Group": "Pokemon", "Name": "Tentacool", "Time": "2020-06-16T18:27:59.339Z" },
+            { "Group": "Pokemon", "Name": "Dorfin", "Time": "2020-06-16T18:40:16.207Z" },
+            { "Group": "Pokemon", "Name": "Snalo", "Time": "2020-06-16T19:54:10.953Z" },
+            { "Group": "Pokemon", "Name": "Percussoon", "Time": "2020-06-16T19:59:33.137Z" },
+            { "Group": "Pokemon", "Name": "Roselia", "Time": "2020-06-16T20:21:20.596Z" },
+            { "Group": "Pokemon", "Name": "Baizeast", "Time": "2020-06-16T20:28:35.587Z" },
+            { "Group": "Pokemon", "Name": "Spelven", "Time": "2020-06-16T21:28:53.976Z" },
+            { "Group": "Pokemon", "Name": "Girafarig", "Time": "2020-06-16T23:00:59.331Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2020-06-16T23:25:16.970Z" },
+            { "Group": "Pokemon", "Name": "Folifarig", "Time": "2020-06-17T00:04:20.130Z" },
+            { "Group": "Pokemon", "Name": "Skorupi", "Time": "2020-06-17T00:29:00.211Z" },
+            { "Group": "Pokemon", "Name": "Guldawn", "Time": "2020-06-17T01:50:55.806Z" },
+            { "Group": "Pokemon", "Name": "Haunter", "Time": "2020-06-17T03:14:22.780Z" },
+            { "Group": "Pokemon", "Name": "Duskull", "Time": "2020-06-17T04:08:38.297Z" },
+            { "Group": "Pokemon", "Name": "Yucarlia", "Time": "2020-06-17T04:11:10.845Z" },
+            { "Group": "Pokemon", "Name": "Misdreavus", "Time": "2020-06-17T04:30:23.399Z" },
+            { "Group": "Pokemon", "Name": "Violo", "Time": "2020-06-17T05:22:19.254Z" },
+            { "Group": "Pokemon", "Name": "Rumpet", "Time": "2020-06-17T05:31:08.696Z" },
+            { "Group": "Pokemon", "Name": "Wobbuffet", "Time": "2020-06-17T05:33:23.012Z" },
+            { "Group": "Pokemon", "Name": "Cherubi", "Time": "2020-06-17T05:38:37.045Z" },
+            { "Group": "Pokemon", "Name": "Jamberree", "Time": "2020-06-17T05:40:30.978Z" },
+            { "Group": "Pokemon", "Name": "Psyduck", "Time": "2020-06-17T05:54:51.867Z" },
+            { "Group": "Pokemon", "Name": "Sunkern", "Time": "2020-06-17T08:02:57.543Z" },
+            { "Group": "Pokemon", "Name": "Pianon", "Time": "2020-06-17T10:49:07.189Z" },
+            { "Group": "Pokemon", "Name": "Velvelt", "Time": "2020-06-17T10:57:12.381Z" }
         ]
     }
 );
