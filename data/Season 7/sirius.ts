@@ -56,10 +56,10 @@ Season7.Runs.push(
             },
             {
                 Group: "Badges",
-                Name: "Mind Badge",
+                Name: "Dios Badge",
                 Image: "img/badges/mind.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-06-18T13:32:48.587Z",
+                Attempts: 2
             },
             {
                 Group: "Badges",
@@ -149,7 +149,18 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Psyduck", "Time": "2020-06-17T05:54:51.867Z" },
             { "Group": "Pokemon", "Name": "Sunkern", "Time": "2020-06-17T08:02:57.543Z" },
             { "Group": "Pokemon", "Name": "Pianon", "Time": "2020-06-17T10:49:07.189Z" },
-            { "Group": "Pokemon", "Name": "Velvelt", "Time": "2020-06-17T10:57:12.381Z" }
+            { "Group": "Pokemon", "Name": "Velvelt", "Time": "2020-06-17T10:57:12.381Z" },
+            { "Group": "Pokemon", "Name": "Graveler", "Time": "2020-06-17T17:29:36.065Z" },
+            { "Group": "Pokemon", "Name": "Beldum", "Time": "2020-06-18T01:35:41.305Z" },
+            { "Group": "Pokemon", "Name": "Golbat", "Time": "2020-06-18T02:20:06.605Z" },
+            { "Group": "Pokemon", "Name": "Golduck", "Time": "2020-06-18T03:57:55.861Z" },
+            { "Group": "Pokemon", "Name": "Solarisen", "Time": "2020-06-18T04:59:47.228Z" },
+            { "Group": "Pokemon", "Name": "Slowpoke", "Time": "2020-06-18T06:15:43.845Z" },
+            { "Group": "Pokemon", "Name": "Necrosia", "Time": "2020-06-18T07:51:29.268Z" },
+            { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "2020-06-18T08:10:57.942Z" },
+            { "Group": "Pokemon", "Name": "Tentacruel", "Time": "2020-06-18T10:39:07.593Z" },
+            { "Group": "Pokemon", "Name": "Seaking", "Time": "2020-06-18T10:42:22.022Z" },
+            { "Group": "Pokemon", "Name": "Pressie", "Time": "2020-06-18T10:46:41.427Z" }
         ]
     }
 );
