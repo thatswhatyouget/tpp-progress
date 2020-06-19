@@ -87,15 +87,15 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Mosmero",
                 Image: "img/trainers/sirius/mosmero.png",
-                Time: "",
-                Attempts: 1
+                Time: "2020-06-19T22:10:45.650Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four",
                 Name: "Norman",
                 Image: "img/trainers/sirius/norman.png",
                 Time: "",
-                Attempts: 0
+                Attempts: 1
             },
             {
                 Group: "Champions",
@@ -106,12 +106,12 @@ Season7.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "28317", Attempts: 0, Party: [
-                    { Pokemon: "Shroomish", Nickname: "HH   ", Level: 49, Gender: "Male", Number: 280, IDNo: "28317" },
-                    { Pokemon: "Solarisen", Nickname: "AABBDDEE", Level: 59, Gender: "Male", Number: 329, IDNo: "28317" },
-                    { Pokemon: "Necrosia", Nickname: "U", Level: 42, Gender: "Male", Number: 232, IDNo: "28317" },
-                    { Pokemon: "Goabalt", Nickname: "001111110Z", Level: 51, Gender: "Male", Number: 277, IDNo: "28317" },
-                    { Pokemon: "Folifarig", Nickname: "TT", Level: 57, Gender: "Male", Number: 336, IDNo: "28317" },
-                    { Pokemon: "Kapwondo", Nickname: "Acwww’  FA", Level: 58, Gender: "Female", Number: 279, IDNo: "28317" },
+                    { Pokemon: "Solarisen", Nickname: "AABBDDEE", Level: 71, Gender: "Male", Number: 329, IDNo: "28317" },
+                    { Pokemon: "Necrosia", Nickname: "U", Level: 44, Gender: "Male", Number: 232, IDNo: "28317" },
+                    { Pokemon: "Goabalt", Nickname: "001111110Z", Level: 54, Gender: "Male", Number: 277, IDNo: "28317" },
+                    { Pokemon: "Brelloom", Nickname: "HH   ", Level: 57, Gender: "Male", Number: 280, IDNo: "28317" },
+                    { Pokemon: "Folifarig", Nickname: "TT", Level: 60, Gender: "Male", Number: 336, IDNo: "28317" },
+                    { Pokemon: "Kapwondo", Nickname: "Acwww’  FA", Level: 59, Gender: "Female", Number: 279, IDNo: "28317" },
                 ],
                 FirstAttemptDate: "2020-06-19T12:01:03.829Z",
                 Image: "img/ribbons/champion.png"
