@@ -63,10 +63,10 @@ Season7.Runs.push(
             },
             {
                 Group: "Badges",
-                Name: "Rain Badge",
+                Name: "Syrma Badge",
                 Image: "img/badges/rain.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-06-19T01:14:52.653Z",
+                Attempts: 3
             },
 
             { "Group": "Pokemon", "Name": "Nimbleaf", "Time": "2020-06-13T21:13:05.272Z" },
@@ -160,7 +160,12 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "2020-06-18T08:10:57.942Z" },
             { "Group": "Pokemon", "Name": "Tentacruel", "Time": "2020-06-18T10:39:07.593Z" },
             { "Group": "Pokemon", "Name": "Seaking", "Time": "2020-06-18T10:42:22.022Z" },
-            { "Group": "Pokemon", "Name": "Pressie", "Time": "2020-06-18T10:46:41.427Z" }
+            { "Group": "Pokemon", "Name": "Pressie", "Time": "2020-06-18T10:46:41.427Z" },
+            // { "Group": "Pokemon", "Name": "Staraptor", "Time": "2020-06-18T14:14:57.132Z" }, //Brendan's mon
+            // { "Group": "Pokemon", "Name": "Gallade", "Time": "2020-06-18T14:14:57.133Z" }, //Brendan's mon
+            { "Group": "Pokemon", "Name": "Spiritomb", "Time": "2020-06-18T17:11:25.638Z" },
+            { "Group": "Pokemon", "Name": "Dusclops", "Time": "2020-06-18T17:42:05.316Z" },
+            { "Group": "Pokemon", "Name": "Mismagius", "Time": "2020-06-18T18:52:21.132Z" }
         ]
     }
 );
