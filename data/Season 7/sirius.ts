@@ -69,6 +69,54 @@ Season7.Runs.push(
                 Attempts: 3
             },
 
+            {
+                Group: "Elite Four",
+                Name: "Phil",
+                Image: "img/trainers/sirius/phil.png",
+                Time: "",
+                Attempts: 2
+            },
+            {
+                Group: "Elite Four",
+                Name: "Athena",
+                Image: "img/trainers/sirius/athena.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Elite Four",
+                Name: "Mosmero",
+                Image: "img/trainers/sirius/mosmero.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Elite Four",
+                Name: "Norman",
+                Image: "img/trainers/sirius/norman.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Champions",
+                Name: "Wally",
+                Image: "img/trainers/sirius/wally.png",
+                Time: "",
+                Attempts: 0
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "28317", Attempts: 0, Party: [
+                    { Pokemon: "Shroomish", Nickname: "HH   ", Level: 49, Gender: "Male", Number: 280, IDNo: "28317" },
+                    { Pokemon: "Solarisen", Nickname: "AABBDDEE", Level: 59, Gender: "Male", Number: 329, IDNo: "28317" },
+                    { Pokemon: "Necrosia", Nickname: "U", Level: 42, Gender: "Male", Number: 232, IDNo: "28317" },
+                    { Pokemon: "Goabalt", Nickname: "001111110Z", Level: 51, Gender: "Male", Number: 277, IDNo: "28317" },
+                    { Pokemon: "Folifarig", Nickname: "TT", Level: 57, Gender: "Male", Number: 336, IDNo: "28317" },
+                    { Pokemon: "Kapwondo", Nickname: "Acwww’  FA", Level: 58, Gender: "Female", Number: 279, IDNo: "28317" },
+                ],
+                FirstAttemptDate: "2020-06-19T12:01:03.829Z",
+                Image: "img/ribbons/champion.png"
+            },
+
             { "Group": "Pokemon", "Name": "Nimbleaf", "Time": "2020-06-13T21:13:05.272Z" },
             { "Group": "Pokemon", "Name": "Takuni", "Time": "2020-06-13T21:49:46.263Z" },
             { "Group": "Pokemon", "Name": "Cupricorn", "Time": "2020-06-13T22:07:57.739Z" },
@@ -165,7 +213,14 @@ Season7.Runs.push(
             // { "Group": "Pokemon", "Name": "Gallade", "Time": "2020-06-18T14:14:57.133Z" }, //Brendan's mon
             { "Group": "Pokemon", "Name": "Spiritomb", "Time": "2020-06-18T17:11:25.638Z" },
             { "Group": "Pokemon", "Name": "Dusclops", "Time": "2020-06-18T17:42:05.316Z" },
-            { "Group": "Pokemon", "Name": "Mismagius", "Time": "2020-06-18T18:52:21.132Z" }
+            { "Group": "Pokemon", "Name": "Mismagius", "Time": "2020-06-18T18:52:21.132Z" },
+            { "Group": "Pokemon", "Name": "Laquagon", "Time": "2020-06-19T01:54:48.523Z" },
+            { "Group": "Pokemon", "Name": "Psycolt", "Time": "2020-06-19T02:04:17.736Z" },
+            { "Group": "Pokemon", "Name": "Jigglypuff", "Time": "2020-06-19T03:43:00.149Z" },
+            { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2020-06-19T03:51:36.669Z" },
+            { "Group": "Pokemon", "Name": "Machoke", "Time": "2020-06-19T09:43:14.754Z" },
+            { "Group": "Pokemon", "Name": "Medicham", "Time": "2020-06-19T10:43:20.922Z" },
+            { "Group": "Pokemon", "Name": "Groudon", "Time": "2020-06-19T12:36:31.651Z" },
         ]
     }
 );
