@@ -73,7 +73,7 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Phil",
                 Image: "img/trainers/sirius/phil.png",
-                Time: "",
+                Time: "2020-06-19T12:58:52.144Z",
                 Attempts: 2
             },
             {
@@ -81,7 +81,7 @@ Season7.Runs.push(
                 Name: "Athena",
                 Image: "img/trainers/sirius/athena.png",
                 Time: "",
-                Attempts: 0
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
