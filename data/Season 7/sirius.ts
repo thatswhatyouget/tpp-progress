@@ -80,15 +80,15 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Athena",
                 Image: "img/trainers/sirius/athena.png",
-                Time: "",
-                Attempts: 1
+                Time: "2020-06-19T19:05:16.293Z",
+                Attempts: 7
             },
             {
                 Group: "Elite Four",
                 Name: "Mosmero",
                 Image: "img/trainers/sirius/mosmero.png",
                 Time: "",
-                Attempts: 0
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
@@ -221,6 +221,8 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Machoke", "Time": "2020-06-19T09:43:14.754Z" },
             { "Group": "Pokemon", "Name": "Medicham", "Time": "2020-06-19T10:43:20.922Z" },
             { "Group": "Pokemon", "Name": "Groudon", "Time": "2020-06-19T12:36:31.651Z" },
+            { "Group": "Pokemon", "Name": "Bronzong", "Time": "2020-06-19T14:28:51.432Z" },
+            { "Group": "Pokemon", "Name": "Breloom", "Time": "2020-06-19T17:46:16.953Z" },
         ]
     }
 );
