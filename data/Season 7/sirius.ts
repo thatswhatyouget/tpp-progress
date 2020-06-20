@@ -94,24 +94,24 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Norman",
                 Image: "img/trainers/sirius/norman.png",
-                Time: "",
-                Attempts: 1
+                Time: "2020-06-20T11:15:36.486Z",
+                Attempts: 5
             },
             {
                 Group: "Champions",
                 Name: "Wally",
                 Image: "img/trainers/sirius/wally.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-06-20T12:36:21.387Z",
+                Attempts: 2
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "28317", Attempts: 0, Party: [
-                    { Pokemon: "Solarisen", Nickname: "AABBDDEE", Level: 71, Gender: "Male", Number: 329, IDNo: "28317" },
-                    { Pokemon: "Necrosia", Nickname: "U", Level: 44, Gender: "Male", Number: 232, IDNo: "28317" },
-                    { Pokemon: "Goabalt", Nickname: "001111110Z", Level: 54, Gender: "Male", Number: 277, IDNo: "28317" },
-                    { Pokemon: "Brelloom", Nickname: "HH   ", Level: 57, Gender: "Male", Number: 280, IDNo: "28317" },
-                    { Pokemon: "Folifarig", Nickname: "TT", Level: 60, Gender: "Male", Number: 336, IDNo: "28317" },
-                    { Pokemon: "Kapwondo", Nickname: "Acwww’  FA", Level: 59, Gender: "Female", Number: 279, IDNo: "28317" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "6d 15h 37m", IDNo: "28317", Attempts: 35, Party: [
+                    { Pokemon: "Solarisen", Nickname: "AABBDDEE", Level: 84, Gender: "Male", Number: 329, IDNo: "28317" },
+                    { Pokemon: "Kapwondo", Nickname: "Acwww’  FA", Level: 61, Gender: "Female", Number: 279, IDNo: "28317" },
+                    { Pokemon: "Goabalt", Nickname: "001111110Z", Level: 56, Gender: "Male", Number: 277, IDNo: "28317" },
+                    { Pokemon: "Necrosia", Nickname: "U", Level: 58, Gender: "Male", Number: 232, IDNo: "28317" },
+                    { Pokemon: "Folifarig", Nickname: "TT", Level: 61, Gender: "Male", Number: 336, IDNo: "28317" },
+                    { Pokemon: "Breloom", Nickname: "HH   ", Level: 66, Gender: "Male", Number: 280, IDNo: "28317" },
                 ],
                 FirstAttemptDate: "2020-06-19T12:01:03.829Z",
                 Image: "img/ribbons/champion.png"
@@ -223,6 +223,9 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Groudon", "Time": "2020-06-19T12:36:31.651Z" },
             { "Group": "Pokemon", "Name": "Bronzong", "Time": "2020-06-19T14:28:51.432Z" },
             { "Group": "Pokemon", "Name": "Breloom", "Time": "2020-06-19T17:46:16.953Z" },
+            { "Group": "Pokemon", "Name": "Goldeen", "Time": "2020-06-20T02:10:54.508Z" },
+            { "Group": "Pokemon", "Name": "Pikachu", "Time": "2020-06-20T06:35:59.205Z" },
+            { "Group": "Pokemon", "Name": "Electrode", "Time": "2020-06-20T07:05:26.293Z" }
         ]
     }
 );
