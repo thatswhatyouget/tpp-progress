@@ -36,7 +36,7 @@ Season6.Runs.push(
                     { Pokemon: "Mew", Nickname: "1111", Level: 67 },
                     { Pokemon: "Obstagoon", Gender: "Female", Level: 67 },
                 ],
-                Image: "img/ribbons/champion-alola.png",
+                Image: "img/ribbons/champion-galar.png",
                 FirstAttemptDate: ""
             },
 
