@@ -22,11 +22,12 @@ Season6.Runs.push(
             { "Group": "Badges", "Name": "Dark Badge", "Time": "2019-11-27T13:41:00Z", "Attempts": 2, "Image": "img/badges/galar/dark.png" },
             { "Group": "Badges", "Name": "Dragon Badge", "Time": "2019-11-27T15:10:00", "Attempts": 2, "Image": "img/badges/galar/dragon.png" },
 
-            { "Group": "Elite Four", "Name": "Bede", "Time": "4d2h45m", "Attempts": 3, "Image": "https://cdn.bulbagarden.net/upload/thumb/a/af/Sword_Shield_Bede.png/340px-Sword_Shield_Bede.png", "ImageSource": "" },
-            { "Group": "Elite Four", "Name": "Nessa", "Time": "4d3h3m", "Attempts": 1, "Image": "https://cdn.bulbagarden.net/upload/thumb/0/0e/Sword_Shield_Nessa.png/360px-Sword_Shield_Nessa.png", "ImageSource": "" },
-            { "Group": "Elite Four", "Name": "Bea", "Time": "4d3h21m", "Attempts": 1, "Image": "https://cdn.bulbagarden.net/upload/thumb/0/02/Sword_Shield_Bea.png/360px-Sword_Shield_Bea.png", "ImageSource": "" },
-            { "Group": "Elite Four", "Name": "Raihan", "Time": "4d5h23m", "Attempts": 4, "Image": "https://cdn.bulbagarden.net/upload/thumb/a/a2/League_Card_Raihan.png/360px-League_Card_Raihan.png", "ImageSource": "" },
-            { "Group": "Champions", "Name": "Leon", "Time": "2019-11-28T13:05:00Z", "Attempts": 9, "Image": "https://cdn.bulbagarden.net/upload/thumb/0/0e/Sword_Shield_Leon.png/400px-Sword_Shield_Leon.png", "ImageSource": "" },
+            { "Group": "Elite Four", "Name": "Bede", "Time": "4d2h45m", "Attempts": 3, "Image": "img/trainers/sword/bede.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bede" },
+            { "Group": "Elite Four", "Name": "Nessa", "Time": "4d3h3m", "Attempts": 1, "Image": "img/trainers/sword/nessa.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Nessa" },
+            { "Group": "Elite Four", "Name": "Bea", "Time": "4d3h21m", "Attempts": 1, "Image": "img/trainers/sword/bea.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bea" },
+            { "Group": "Elite Four", "Name": "Raihan", "Time": "4d5h23m", "Attempts": 4, "Image": "img/trainers/sword/raihan.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Raihan" },
+            { "Group": "Champions", "Name": "Leon", "Time": "2019-11-28T13:05:00Z", "Attempts": 9, "Image": "img/trainers/sword/leon.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Leon" },
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-11-28T13:06:00Z", Party: [
                     { Pokemon: "Eternatus", Level: 60 },
