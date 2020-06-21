@@ -227,7 +227,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Turtonator", "Time": "2019-11-29T17:45:28Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Wailord", "Time": "2019-11-29T17:46:19Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Dragapult", "Time": "2019-11-29T22:08:37Z", Class: "WifiTrade" },
-            { "Group": "Pokemon", "Name": "Lanturn", "Time": "2019-11-29T23:43:54Z", Class: "WifiTrade" },
+            { "Group": "Pokemon", "Name": "Lanturn", "Time": "2019-11-29T23:43:54Z" },
             { "Group": "Pokemon", "Name": "Honedge", "Time": "2019-11-29T23:58:47Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Magikarp", "Time": "2019-11-30T00:00:18Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Ralts", "Time": "2019-11-30T00:03:41Z", Class: "WifiTrade" },
@@ -266,7 +266,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Onix", "Time": "2019-12-01T06:02:00Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Machamp", "Time": "2019-12-01T09:38:16Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "2019-12-01T11:14:39Z", Class: "WifiTrade" },
-            { "Group": "Pokemon", "Name": "Garbodor", "Time": "2019-12-01T11:20:20Z" }, // #TPPForeverBroken
+            { "Group": "Pokemon", "Name": "Garbodor", "Time": "2019-12-01T11:20:20Z", Class: "WifiTrade" }, // #TPPForeverBroken
             { "Group": "Pokemon", "Name": "Butterfree", "Time": "2019-12-01T14:15:01Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Gourgeist", "Time": "2019-12-01T15:45:28Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Growlithe", "Time": "2019-12-01T15:48:33Z", Class: "WifiTrade" },
