@@ -11,7 +11,7 @@ body {
 .title {
 	display: inline-block;
 	width:45%;
-	vertical-align: bottom;	
+	vertical-align: bottom;
 }
 
 .title .subtitle {
@@ -27,7 +27,7 @@ body {
 }
 
 .credits {
-	font-size:.6em;	
+	font-size:.6em;
 }
 
 .credits a:link, .credits a:visited, .title a:link, .title a:visited {
@@ -35,7 +35,7 @@ body {
 }
 
 .credits a:hover, .title a:hover {
-    opacity: .5;   
+    opacity: .5;
 }
 
 ul.controls {
@@ -104,11 +104,11 @@ ul.controls > li > a:focus + ul {
 }
 
 ul.controls > li > ul > li {
-	display: block;	
+	display: block;
 }
 
 ul.controls > li > ul > li > * {
-	vertical-align: middle;	
+	vertical-align: middle;
 	font-size:.8em;
 }
 
@@ -139,7 +139,7 @@ ul.controls > li > ul > li.selected > a:before {
 .progressChart {
 	box-sizing:content-box;
 	float:left;
-	border:2px solid black;	
+	border:2px solid black;
 	clear: both;
 	margin:10px;
 	margin-bottom:50px;
@@ -166,7 +166,7 @@ ul.controls > li > ul > li.selected > a:before {
     white-space: nowrap;
 	font-size:1.5em;
 	left:1em;
-	top:-1.2em;	
+	top:-1.2em;
 }
 
 .progressChart .ruler {
@@ -199,7 +199,7 @@ ul.controls > li > ul > li.selected > a:before {
 	text-align: center;
 	right:-1.05em;
 	font-weight: lighter;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .progressChart .ruler .stop::after {
@@ -214,16 +214,16 @@ ul.controls > li > ul > li.selected > a:before {
 }
 
 .progressChart[data-scale=Hours] .ruler {
-    counter-reset: days -4;   
+    counter-reset: days -4;
 }
 .progressChart[data-scale=Hours] .ruler .stop {
-    counter-increment: days 4;   
+    counter-increment: days 4;
 }
 .progressChart[data-scale=Minutes] .ruler {
-    counter-reset: days -10;   
+    counter-reset: days -10;
 }
 .progressChart[data-scale=Minutes] .ruler .stop {
-    counter-increment: days 10;   
+    counter-increment: days 10;
 }
 
 .progressChart .run {
@@ -231,7 +231,7 @@ ul.controls > li > ul > li.selected > a:before {
 	box-sizing: content-box;
 	margin-bottom:50px;
 	height:46px;
-	border:2px solid black; 
+	border:2px solid black;
 	background-color:white;
 	position: relative;
 	left:-2px;
@@ -282,7 +282,7 @@ ul.controls > li > ul > li.selected > a:before {
 	height:1em;
 	position:absolute;
 	left:0;
-	bottom:100%; 
+	bottom:100%;
 }
 
 .progressChart .run .event.fastforward::after {
@@ -335,11 +335,11 @@ ul.controls > li > ul > li.selected > a:before {
 }
 
 .progressChart .run .run:hover::before, .progressChart .run .run:hover::after {
-    left:50%;   
+    left:50%;
 }
 
 .progressChart .run .run.ongoing:hover::before, .progressChart .run .run.ongoing:hover::after {
-    left:-2px;   
+    left:-2px;
 }
 
 .progressChart .run .event.champions img,
@@ -349,7 +349,7 @@ ul.controls > li > ul > li.selected > a:before {
 .progressChart .run .event.bosses img,
 .progressChart .run .event.finalbosses img {
 	height:70px;
-	top:-15px;	
+	top:-15px;
 }
 
 .progressChart .run .event.pasthosts img, .progressChart .run .event.flip img {
@@ -386,7 +386,7 @@ ul.controls > li > ul > li.selected > a:before {
 .progressChart .run.squarehost .event.hosts:first-of-type img, .progressChart .event.hosts.squarehost img {
     height:50px;
     top:50%;
-    transform:translateY(-55%) translateX(-50%);   
+    transform:translateY(-55%) translateX(-50%);
 }
 
 .progressChart .run .event.hosts:first-of-type img {
@@ -398,7 +398,7 @@ ul.controls > li > ul > li.selected > a:before {
 }
 
 .progressChart .run .event.hosts:first-of-type:hover {
-    background:none;   
+    background:none;
 }
 .progressChart .run .event.hosts:hover:first-of-type:before {
 	display:none;
@@ -415,7 +415,7 @@ ul.controls > li > ul > li.selected > a:before {
 }
 
 .progressChart .run .run .event img {
-    transform:scale(.75) translateX(-75%);   
+    transform:scale(.75) translateX(-75%);
 }
 
 .progressChart .run .run .event.hosts img, .progressChart .run .run .event.hosts:hover::after {
@@ -435,7 +435,7 @@ ul.controls > li > ul > li.selected > a:before {
 .progressChart .run .event.pokemon img {
     top:50%;
 	margin:0 -25%;
-    height:40px;   
+    height:40px;
 }
 
 .progressChart .run .event.pokesprite img {
@@ -473,7 +473,7 @@ ul.controls > li > ul > li.selected > a:before {
 }
 
 .progressChart .run.telefang .event.pokemon.pokesprite:hover img {
-    z-index: 7;   
+    z-index: 7;
 }
 
 .progressChart .run.telefang .event.bosses.pokesprite img {
@@ -519,7 +519,7 @@ ul.controls > li > ul > li.selected > a:before {
 
 .progressChart .run .event.hidden, .progressChart .run .videos.hidden {
 	pointer-events: none;
-    opacity: 0;   
+    opacity: 0;
 }
 
 .progressChart > .dual-run.run {
@@ -573,7 +573,7 @@ ul.controls > li > ul > li.selected > a:before {
 }
 
 .progressChart .harvestmoongbc .event.hosts img, .progressChart .harvestmoongbc2 .event.hosts img {
-    transform: translateX(-30%);   
+    transform: translateX(-30%);
 }
 
 .pixel-art img {
@@ -588,7 +588,7 @@ ul.controls > li > ul > li.selected > a:before {
         margin: 0px;
     }
     .controls {
-        display: none;   
+        display: none;
     }
     .charts {
         transform: scale(.6, .6);
@@ -598,10 +598,10 @@ ul.controls > li > ul > li.selected > a:before {
         page-break-after: always;
     }
     .progressChart .run .videos {
-        display:none!important;   
+        display:none!important;
     }
     .progressChart .run.hasVideos {
-        margin-bottom: 50px!important;   
+        margin-bottom: 50px!important;
     }
 }
 
@@ -648,7 +648,7 @@ ul.controls > li > ul > li.selected > a:before {
 }
 
 .progressChart .run .videos a:hover .playhead {
-    display:block;   
+    display:block;
 }
 
 .progressChart .run .videos a.twitch {
@@ -662,11 +662,11 @@ ul.controls > li > ul > li.selected > a:before {
 }
 
 .progressChart .run.hasVideos {
-    margin-bottom: 75px;   
+    margin-bottom: 75px;
 }
 
 .progressChart > .dual-run.run .videos {
-    display:none;   
+    display:none;
 }
 
 .progressChart > .dual-run + .dual-run.run .videos {
@@ -679,15 +679,15 @@ ul.controls > li > ul > li.selected > a:before {
 
 .progressChart > .dual-run + .dual-run.run .videos a .playhead {
     height:100px;
-    padding-bottom:1em;   
+    padding-bottom:1em;
 }
 
 .progressChart .run .event.pokemon ~ .videos a {
-    margin-bottom:-.5em;   
+    margin-bottom:-.5em;
 }
 
 .progressChart .run .event.pokemon ~ .videos a .playhead {
-    padding-bottom:.5em;   
+    padding-bottom:.5em;
 }
 
 .hallOfFameDisplay {
@@ -715,10 +715,10 @@ ul.controls > li > ul > li.selected > a:before {
 
 .hallOfFameDisplay > img, .hallOfFameDisplay img.ribbon  {
 	position: absolute;
-	left:.5em!important;
-	top:.25em!important;
-	width:auto!important;
-	height:auto!important;
+	left:.25em!important;
+	top:.75em!important;
+	width:50px!important;
+	height:50px!important;
 	transform: none!important;
 }
 
