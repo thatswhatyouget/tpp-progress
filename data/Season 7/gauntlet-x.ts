@@ -4,7 +4,7 @@ Season7.Runs.push(
         RunName: "Gauntlet X",
         ColorPrimary: "#007fdb",
         ColorSecondary: "black",
-        Duration: "255w",
+        Duration: "2020-05-10T21:00:05Z",
         StartDate: "2020-05-03T21:00:00Z",
         HostName: "Etr",
         HostImage: "img/hosts/etr.png",
