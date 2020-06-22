@@ -75,10 +75,10 @@
     image-rendering: pixelated;
 }
 
-.dexEntry .hofRibbon { 
+.dexEntry .hofRibbon {
     position: absolute;
-    left:0;
-    top:0;
+    left:2px;
+    top:2px;
     width:15%;
 }
 

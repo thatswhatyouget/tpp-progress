@@ -13,20 +13,21 @@ Season6.Runs.push(
         Generation: 8,
         Pokedex: "Galar",
         Events: [
-            { "Group": "Badges", "Name": "Grass Badge", "Time": "2019-11-24T08:55:00Z", "Attempts": 2, "Image": "https://cdn.bulbagarden.net/upload/0/00/Grass_Badge.png", },
-            { "Group": "Badges", "Name": "Water Badge", "Time": "2019-11-24T15:09:00Z", "Attempts": 2, "Image": "https://cdn.bulbagarden.net/upload/7/7a/Water_Badge.png", },
-            { "Group": "Badges", "Name": "Fire Badge", "Time": "2019-11-25T07:35:00Z", "Attempts": 3, "Image": "https://cdn.bulbagarden.net/upload/c/cc/Fire_Badge.png", },
-            { "Group": "Badges", "Name": "Fighting Badge", "Time": "2019-11-26T17:05:00Z", "Attempts": 13, "Image": "https://cdn.bulbagarden.net/upload/2/20/Fighting_Badge.png", },
-            { "Group": "Badges", "Name": "Fairy Badge", "Time": "2019-11-26T20:06:00Z", "Attempts": 2, "Image": "https://cdn.bulbagarden.net/upload/e/e3/GalarFairy_Badge.png", },
-            { "Group": "Badges", "Name": "Rock Badge", "Time": "2019-11-27T06:44:00Z", "Attempts": 3, "Image": "https://cdn.bulbagarden.net/upload/3/3e/Rock_Badge.png", },
-            { "Group": "Badges", "Name": "Dark Badge", "Time": "2019-11-27T13:41:00Z", "Attempts": 2, "Image": "https://cdn.bulbagarden.net/upload/4/4d/Dark_Badge.png", },
-            { "Group": "Badges", "Name": "Dragon Badge", "Time": "2019-11-27T15:10:00", "Attempts": 2, "Image": "https://cdn.bulbagarden.net/upload/2/27/Dragon_Badge.png", },
+            { "Group": "Badges", "Name": "Grass Badge", "Time": "2019-11-24T08:55:00Z", "Attempts": 2, "Image": "img/badges/galar/grass.png" },
+            { "Group": "Badges", "Name": "Water Badge", "Time": "2019-11-24T15:09:00Z", "Attempts": 2, "Image": "img/badges/galar/water.png" },
+            { "Group": "Badges", "Name": "Fire Badge", "Time": "2019-11-25T07:35:00Z", "Attempts": 3, "Image": "img/badges/galar/fire.png" },
+            { "Group": "Badges", "Name": "Fighting Badge", "Time": "2019-11-26T17:05:00Z", "Attempts": 13, "Image": "img/badges/galar/fighting.png" },
+            { "Group": "Badges", "Name": "Fairy Badge", "Time": "2019-11-26T20:06:00Z", "Attempts": 2, "Image": "img/badges/galar/fairy.png" },
+            { "Group": "Badges", "Name": "Rock Badge", "Time": "2019-11-27T06:44:00Z", "Attempts": 3, "Image": "img/badges/galar/rock.png" },
+            { "Group": "Badges", "Name": "Dark Badge", "Time": "2019-11-27T13:41:00Z", "Attempts": 2, "Image": "img/badges/galar/dark.png" },
+            { "Group": "Badges", "Name": "Dragon Badge", "Time": "2019-11-27T15:10:00", "Attempts": 2, "Image": "img/badges/galar/dragon.png" },
 
-            { "Group": "Elite Four", "Name": "Bede", "Time": "4d2h45m", "Attempts": 3, "Image": "https://cdn.bulbagarden.net/upload/thumb/a/af/Sword_Shield_Bede.png/340px-Sword_Shield_Bede.png", "ImageSource": "" },
-            { "Group": "Elite Four", "Name": "Nessa", "Time": "4d3h3m", "Attempts": 1, "Image": "https://cdn.bulbagarden.net/upload/thumb/0/0e/Sword_Shield_Nessa.png/360px-Sword_Shield_Nessa.png", "ImageSource": "" },
-            { "Group": "Elite Four", "Name": "Bea", "Time": "4d3h21m", "Attempts": 1, "Image": "https://cdn.bulbagarden.net/upload/thumb/0/02/Sword_Shield_Bea.png/360px-Sword_Shield_Bea.png", "ImageSource": "" },
-            { "Group": "Elite Four", "Name": "Raihan", "Time": "4d5h23m", "Attempts": 4, "Image": "https://cdn.bulbagarden.net/upload/thumb/a/a2/League_Card_Raihan.png/360px-League_Card_Raihan.png", "ImageSource": "" },
-            { "Group": "Champions", "Name": "Leon", "Time": "2019-11-28T13:05:00Z", "Attempts": 9, "Image": "https://cdn.bulbagarden.net/upload/thumb/0/0e/Sword_Shield_Leon.png/400px-Sword_Shield_Leon.png", "ImageSource": "" },
+            { "Group": "Elite Four", "Name": "Bede", "Time": "4d2h45m", "Attempts": 3, "Image": "img/trainers/sword/bede.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bede" },
+            { "Group": "Elite Four", "Name": "Nessa", "Time": "4d3h3m", "Attempts": 1, "Image": "img/trainers/sword/nessa.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Nessa" },
+            { "Group": "Elite Four", "Name": "Bea", "Time": "4d3h21m", "Attempts": 1, "Image": "img/trainers/sword/bea.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bea" },
+            { "Group": "Elite Four", "Name": "Raihan", "Time": "4d5h23m", "Attempts": 4, "Image": "img/trainers/sword/raihan.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Raihan" },
+            { "Group": "Champions", "Name": "Leon", "Time": "2019-11-28T13:05:00Z", "Attempts": 9, "Image": "img/trainers/sword/leon.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Leon" },
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-11-28T13:06:00Z", Party: [
                     { Pokemon: "Eternatus", Level: 60 },
@@ -36,7 +37,7 @@ Season6.Runs.push(
                     { Pokemon: "Mew", Nickname: "1111", Level: 67 },
                     { Pokemon: "Obstagoon", Gender: "Female", Level: 67 },
                 ],
-                Image: "img/ribbons/champion-alola.png",
+                Image: "img/ribbons/champion-galar.png",
                 FirstAttemptDate: ""
             },
 
@@ -227,7 +228,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Turtonator", "Time": "2019-11-29T17:45:28Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Wailord", "Time": "2019-11-29T17:46:19Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Dragapult", "Time": "2019-11-29T22:08:37Z", Class: "WifiTrade" },
-            { "Group": "Pokemon", "Name": "Lanturn", "Time": "2019-11-29T23:43:54Z", Class: "WifiTrade" },
+            { "Group": "Pokemon", "Name": "Lanturn", "Time": "2019-11-29T23:43:54Z" },
             { "Group": "Pokemon", "Name": "Honedge", "Time": "2019-11-29T23:58:47Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Magikarp", "Time": "2019-11-30T00:00:18Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Ralts", "Time": "2019-11-30T00:03:41Z", Class: "WifiTrade" },
@@ -266,7 +267,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Onix", "Time": "2019-12-01T06:02:00Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Machamp", "Time": "2019-12-01T09:38:16Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "2019-12-01T11:14:39Z", Class: "WifiTrade" },
-            { "Group": "Pokemon", "Name": "Garbodor", "Time": "2019-12-01T11:20:20Z" }, // #TPPForeverBroken
+            { "Group": "Pokemon", "Name": "Garbodor", "Time": "2019-12-01T11:20:20Z", Class: "WifiTrade" }, // #TPPForeverBroken
             { "Group": "Pokemon", "Name": "Butterfree", "Time": "2019-12-01T14:15:01Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Gourgeist", "Time": "2019-12-01T15:45:28Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Growlithe", "Time": "2019-12-01T15:48:33Z", Class: "WifiTrade" },
