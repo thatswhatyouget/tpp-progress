@@ -715,10 +715,9 @@ ul.controls > li > ul > li.selected > a:before {
 
 .hallOfFameDisplay > img, .hallOfFameDisplay img.ribbon  {
 	position: absolute;
-	left:.25em!important;
-	top:.75em!important;
-	width:50px!important;
-	height:50px!important;
+	left:.5em;
+	top:.5em;
+	height:30px;
 	transform: none!important;
 }
 
