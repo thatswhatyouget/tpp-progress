@@ -68,7 +68,6 @@ Season7.Runs.push(
                 Time: "2020-06-19T01:14:52.653Z",
                 Attempts: 3
             },
-
             {
                 Group: "Elite Four",
                 Name: "Phil",
@@ -115,6 +114,13 @@ Season7.Runs.push(
                 ],
                 FirstAttemptDate: "2020-06-19T12:01:03.829Z",
                 Image: "img/ribbons/champion.png"
+            },
+            {
+                Group: "Trainers",
+                Name: "Leader Sylvia",
+                Image: "img/trainers/sirius/sylvia.png",
+                Time: "2020-06-21T01:12:35.795Z",
+                Attempts: 5
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-06-21T19:02:01.502Z", IDNo: "28317", Attempts: 4, Party: [
