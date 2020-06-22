@@ -116,6 +116,30 @@ Season7.Runs.push(
                 FirstAttemptDate: "2020-06-19T12:01:03.829Z",
                 Image: "img/ribbons/champion.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-06-21T19:02:01.502Z", IDNo: "28317", Attempts: 4, Party: [
+                    { Pokemon: "Solarisen", Nickname: "AABBDDEE", Level: 89, Gender: "Male", Number: 329, IDNo: "28317" },
+                    { Pokemon: "Groudon", Nickname: "GBH.", Level: 70, Number: 383, IDNo: "28317" },
+                    { Pokemon: "Breloom", Nickname: "HH   ", Level: 68, Gender: "Male", Number: 280, IDNo: "28317" },
+                    { Pokemon: "Kapwondo", Nickname: "Acwww’  FA", Level: 63, Gender: "Female", Number: 279, IDNo: "28317" },
+                    { Pokemon: "Folifarig", Nickname: "TT", Level: 63, Gender: "Male", Number: 336, IDNo: "28317" },
+                    { Pokemon: "Rotillo", Nickname: "AAAAAAAA", Level: 33, Gender: "Female", Number: 372, IDNo: "28317" },
+                ],
+                FirstAttemptDate: "2020-06-21T04:11:48.020Z",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "28317", Attempts: 4, Party: [
+                    { Pokemon: "Solarisen", Nickname: "AABBDDEE", Level: 91, Gender: "Male", Number: 329, IDNo: "28317" },
+                    { Pokemon: "Kapwondo", Nickname: "Acwww’  FA", Level: 63, Gender: "Female", Number: 279, IDNo: "28317" },
+                    { Pokemon: "Breloom", Nickname: "HH   ", Level: 68, Gender: "Male", Number: 280, IDNo: "28317" },
+                    { Pokemon: "Folifarig", Nickname: "TT", Level: 64, Gender: "Male", Number: 336, IDNo: "28317" },
+                    { Pokemon: "Groudon", Nickname: "GBH.", Level: 71, Number: 383, IDNo: "28317" },
+                    { Pokemon: "Goabalt", Nickname: "001111110Z", Level: 56, Gender: "Male", Number: 277, IDNo: "28317" },
+                ],
+                FirstAttemptDate: "7d 23h 48m",
+                Image: "img/ribbons/champion.png"
+            },
 
             { "Group": "Pokemon", "Name": "Nimbleaf", "Time": "2020-06-13T21:13:05.272Z" },
             { "Group": "Pokemon", "Name": "Takuni", "Time": "2020-06-13T21:49:46.263Z" },
@@ -225,7 +249,32 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Breloom", "Time": "2020-06-19T17:46:16.953Z" },
             { "Group": "Pokemon", "Name": "Goldeen", "Time": "2020-06-20T02:10:54.508Z" },
             { "Group": "Pokemon", "Name": "Pikachu", "Time": "2020-06-20T06:35:59.205Z" },
-            { "Group": "Pokemon", "Name": "Electrode", "Time": "2020-06-20T07:05:26.293Z" }
+            { "Group": "Pokemon", "Name": "Electrode", "Time": "2020-06-20T07:05:26.293Z" },
+            { "Group": "Pokemon", "Name": "Magcargo", "Time": "2020-06-20T16:47:53.921Z" },
+            { "Group": "Pokemon", "Name": "Gyarados", "Time": "2020-06-20T16:55:22.255Z" },
+            { "Group": "Pokemon", "Name": "Dragune", "Time": "2020-06-20T17:07:35.410Z" },
+            { "Group": "Pokemon", "Name": "Aldina", "Time": "2020-06-21T02:50:11.369Z" },
+            { "Group": "Pokemon", "Name": "Wigglytuff", "Time": "2020-06-21T03:10:30.230Z" },
+            { "Group": "Pokemon", "Name": "Heracross", "Time": "2020-06-21T03:31:56.243Z" },
+            { "Group": "Pokemon", "Name": "Scizor", "Time": "2020-06-21T03:35:13.389Z" },
+            { "Group": "Pokemon", "Name": "Machu", "Time": "2020-06-21T04:00:00.845Z" },
+            { "Group": "Pokemon", "Name": "Clefairy", "Time": "2020-06-21T05:49:40.583Z" },
+            { "Group": "Pokemon", "Name": "Darca", "Time": "2020-06-21T06:37:12.221Z" },
+            { "Group": "Pokemon", "Name": "Tauros", "Time": "2020-06-21T09:44:48.044Z" },
+            { "Group": "Pokemon", "Name": "Nostratos", "Time": "2020-06-21T10:21:40.150Z" },
+            { "Group": "Pokemon", "Name": "Roserade", "Time": "2020-06-21T10:29:58.506Z" },
+            { "Group": "Pokemon", "Name": "Nemea", "Time": "2020-06-21T15:00:47.701Z" },
+            { "Group": "Pokemon", "Name": "Feroceros", "Time": "2020-06-21T16:45:55.375Z" },
+            { "Group": "Pokemon", "Name": "Rotillo", "Time": "2020-06-21T17:54:58.731Z" },
+            { "Group": "Pokemon", "Name": "Kinegasus", "Time": "2020-06-21T19:39:37.307Z" },
+            { "Group": "Pokemon", "Name": "Grissly", "Time": "2020-06-21T20:56:18.229Z" },
+            { "Group": "Pokemon", "Name": "Yunesis", "Time": "2020-06-21T21:20:48.540Z" },
+            { "Group": "Pokemon", "Name": "Strawna", "Time": "2020-06-21T21:38:21.626Z" },
+            { "Group": "Pokemon", "Name": "Ajarimus", "Time": "2020-06-21T21:55:15.671Z" },
+            { "Group": "Pokemon", "Name": "Jarmit", "Time": "2020-06-21T22:32:16.630Z" },
+            { "Group": "Pokemon", "Name": "Scyther", "Time": "2020-06-21T23:56:03.616Z" },
+            { "Group": "Pokemon", "Name": "Gallade", "Time": "2020-06-22T00:04:00Z" },
+            { "Group": "Pokemon", "Name": "Serplant", "Time": "2020-06-22T03:36:06.047Z" },
         ]
     }
 );
