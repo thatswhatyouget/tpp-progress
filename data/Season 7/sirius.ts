@@ -115,13 +115,6 @@ Season7.Runs.push(
                 FirstAttemptDate: "2020-06-19T12:01:03.829Z",
                 Image: "img/ribbons/champion.png"
             },
-            {
-                Group: "Trainers",
-                Name: "Leader Sylvia",
-                Image: "img/trainers/sirius/sylvia.png",
-                Time: "2020-06-21T01:12:35.795Z",
-                Attempts: 5
-            },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-06-21T19:02:01.502Z", IDNo: "28317", Attempts: 4, Party: [
                     { Pokemon: "Solarisen", Nickname: "AABBDDEE", Level: 89, Gender: "Male", Number: 329, IDNo: "28317" },
@@ -169,6 +162,23 @@ Season7.Runs.push(
                 FirstAttemptDate: "2020-06-23T09:05:31.014Z",
                 Image: "img/ribbons/champion.png"
             },
+
+            {
+                Group: "Trainers",
+                Name: "Leader Sylvia",
+                Image: "img/trainers/sirius/sylvia.png",
+                Time: "2020-06-21T01:12:35.795Z",
+                Attempts: 5
+            },
+            {
+                Group: "Trainers",
+                Name: "Leader Sylvia",
+                Class: "Rematch",
+                Image: "img/trainers/sirius/sylvia.png",
+                Time: "2020-06-23T14:36:56.002Z",
+                Attempts: 2
+            },
+
 
             { "Group": "Pokemon", "Name": "Nimbleaf", "Time": "2020-06-13T21:13:05.272Z" },
             { "Group": "Pokemon", "Name": "Takuni", "Time": "2020-06-13T21:49:46.263Z" },
@@ -321,7 +331,11 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Asphere", "Time": "2020-06-23T02:02:09.672Z" },
             { "Group": "Pokemon", "Name": "Lylapse", "Time": "2020-06-23T04:20:33.133Z" },
             { "Group": "Pokemon", "Name": "Ganimede", "Time": "2020-06-23T05:57:41.128Z" },
-            { "Group": "Pokemon", "Name": "Ptervus", "Time": "2020-06-23T08:39:24.631Z" }
+            { "Group": "Pokemon", "Name": "Ptervus", "Time": "2020-06-23T08:39:24.631Z" },
+            { "Group": "Pokemon", "Name": "Pteriarch", "Time": "2020-06-23T10:33:41.460Z" },
+            { "Group": "Pokemon", "Name": "Tyranos", "Time": "2020-06-23T11:50:05.742Z" },
+            { "Group": "Pokemon", "Name": "Tentyrant", "Time": "2020-06-23T13:20:07.228Z" },
+            { "Group": "Pokemon", "Name": "Sphericoil", "Time": "2020-06-23T13:21:47.154Z" }
         ]
     }
 );
