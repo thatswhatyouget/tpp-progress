@@ -157,6 +157,18 @@ Season7.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-06-23T09:50:26.961Z", IDNo: "28317", Attempts: 1, Party: [
+                    { Pokemon: "Solarisen", Nickname: "AABBDDEE", Level: 98, Gender: "Male", Number: 329, IDNo: "28317" },
+                    { Pokemon: "Folifarig", Nickname: "TT", Level: 65, Gender: "Male", Number: 336, IDNo: "28317" },
+                    { Pokemon: "Kapwondo", Nickname: "Acwww’  FA", Level: 63, Gender: "Female", Number: 279, IDNo: "28317" },
+                    { Pokemon: "Breloom", Nickname: "HH   ", Level: 69, Gender: "Male", Number: 280, IDNo: "28317" },
+                    { Pokemon: "Ptervus", Nickname: "AA, ", Level: 37, Gender: "Male", Number: 368, IDNo: "28317" },
+                    { Pokemon: "Wobbuffet", Level: 81, Number: 39, Gender: "Male", IDNo: "28317" },
+                ],
+                FirstAttemptDate: "2020-06-23T09:05:31.014Z",
+                Image: "img/ribbons/champion.png"
+            },
 
             { "Group": "Pokemon", "Name": "Nimbleaf", "Time": "2020-06-13T21:13:05.272Z" },
             { "Group": "Pokemon", "Name": "Takuni", "Time": "2020-06-13T21:49:46.263Z" },
@@ -307,6 +319,9 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Persian", "Time": "2020-06-22T23:58:35.248Z" },
             { "Group": "Pokemon", "Name": "Politoed", "Time": "2020-06-23T00:54:14.450Z" },
             { "Group": "Pokemon", "Name": "Asphere", "Time": "2020-06-23T02:02:09.672Z" },
+            { "Group": "Pokemon", "Name": "Lylapse", "Time": "2020-06-23T04:20:33.133Z" },
+            { "Group": "Pokemon", "Name": "Ganimede", "Time": "2020-06-23T05:57:41.128Z" },
+            { "Group": "Pokemon", "Name": "Ptervus", "Time": "2020-06-23T08:39:24.631Z" }
         ]
     }
 );
