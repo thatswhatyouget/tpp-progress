@@ -146,6 +146,17 @@ Season7.Runs.push(
                 FirstAttemptDate: "7d 23h 48m",
                 Image: "img/ribbons/champion.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-06-22T19:33:32.914Z", IDNo: "28317", Attempts: 1, Party: [
+                    { Pokemon: "Groudon", Nickname: "GBH.", Level: 73, Number: 383, IDNo: "28317" },
+                    { Pokemon: "Kapwondo", Nickname: "Acwww’  FA", Level: 63, Gender: "Female", Number: 279, IDNo: "28317" },
+                    { Pokemon: "Breloom", Nickname: "HH   ", Level: 69, Gender: "Male", Number: 280, IDNo: "28317" },
+                    { Pokemon: "Folifarig", Nickname: "TT", Level: 65, Gender: "Male", Number: 336, IDNo: "28317" },
+                    { Pokemon: "Solarisen", Nickname: "AABBDDEE", Level: 97, Gender: "Male", Number: 329, IDNo: "28317" },
+                    { Pokemon: "Goabalt", Nickname: "001111110Z", Level: 58, Gender: "Male", Number: 277, IDNo: "28317" },
+                ],
+                Image: "img/ribbons/champion.png"
+            },
 
             { "Group": "Pokemon", "Name": "Nimbleaf", "Time": "2020-06-13T21:13:05.272Z" },
             { "Group": "Pokemon", "Name": "Takuni", "Time": "2020-06-13T21:49:46.263Z" },
@@ -290,6 +301,12 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Wisplode", "Time": "2020-06-22T09:39:04.179Z" },
             { "Group": "Pokemon", "Name": "Crobat", "Time": "2020-06-22T10:26:08.721Z" },
             { "Group": "Pokemon", "Name": "Munchlax", "Time": "2020-06-22T13:19:17.512Z" },
+            { "Group": "Pokemon", "Name": "Kyogre", "Time": "2020-06-22T22:15:00.173Z" },
+            { "Group": "Pokemon", "Name": "Steelix", "Time": "2020-06-22T23:14:13.973Z" },
+            { "Group": "Pokemon", "Name": "Drapion", "Time": "2020-06-22T23:20:33.717Z" },
+            { "Group": "Pokemon", "Name": "Persian", "Time": "2020-06-22T23:58:35.248Z" },
+            { "Group": "Pokemon", "Name": "Politoed", "Time": "2020-06-23T00:54:14.450Z" },
+            { "Group": "Pokemon", "Name": "Asphere", "Time": "2020-06-23T02:02:09.672Z" },
         ]
     }
 );
