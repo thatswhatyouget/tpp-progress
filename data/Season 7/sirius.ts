@@ -4,7 +4,7 @@ Season7.Runs.push(
         RunName: "Sirius",
         ColorPrimary: "#00B0A8",
         ColorSecondary: "#083860",
-        Duration: "255w",
+        Duration: "2020-06-23T22:12:54Z",
         StartDate: "2020-06-13T21:00:00Z",
         HostName: "BBCBBHH",
         HostImage: "img/hosts/gordon.png",
