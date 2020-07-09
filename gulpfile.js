@@ -4,7 +4,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var del = require('del');
 var fs = require('fs');
 var merge = require('merge2');
-var removeLines = require('gulp-remove-lines');
+var removeLines = require('gulp-rm-lines');
 var uglify = require('gulp-uglify');
 
 var tppDataProject = ts.createProject('data/tsconfig.json');
@@ -106,7 +106,7 @@ gulp.task('build-transform-tests', function () {
 var mocha = require('gulp-mocha');
 gulp.task('test-transforms', gulp.series('build-transform-tests', function () {
     return gulp.src('./transforms/tests/tpp-transform-tests.js', { read: false })
-        // gulp-mocha needs filepaths so you can't have any plugins before it 
+        // gulp-mocha needs filepaths so you can't have any plugins before it
         .pipe(mocha());
 }));
 
