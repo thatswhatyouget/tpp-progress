@@ -85,6 +85,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Roggenrola", "Time": "2020-06-29T05:02:31Z" },
             { "Group": "Pokemon", "Name": "Mienfoo", "Time": "2020-06-29T05:09:04Z" },
             { "Group": "Pokemon", "Name": "Salandit", "Time": "2020-06-29T05:11:29Z" },
+            { "Group": "Pokemon", "Name": "Nincada", "Time": "2020-06-29T06:12:16Z" },
             { "Group": "Pokemon", "Name": "Shedinja", "Time": "2020-06-29T08:04:05Z" },
             { "Group": "Pokemon", "Name": "Marill", "Time": "2020-06-29T08:29:27Z" },
             { "Group": "Pokemon", "Name": "Passimian", "Time": "2020-06-29T10:45:49Z" },
