@@ -13,6 +13,85 @@ Season6.Runs.push(
         Generation: 8,
         Pokedex: "Galar",
         Events: [
+            {
+                Group: "Trainers", Name: "Klara",
+                Image: "img/trainers/sword/klara.png",
+                ImageSource: "https://bulbapedia.bulbagarden.net/wiki/Klara",
+                Time: "2020-06-28T04:37:00.753Z", Attempts: 3
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2020-06-28T15:54:58.560Z", IDNo: "790618", Attempts: 3, Party: [
+                    { Pokemon: "Corviknight", Gender: "Female", Level: 100, Type1: "Flying", Type2: "Steel", Number: 823, OT: "Duran", IDNo: "235632" },
+                    { Pokemon: "Kubfu", Nickname: "111", Gender: "Male", Level: 68, Type1: "Fighting", Number: 891, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Buneary", Nickname: "zeeeeds", Gender: "Female", Level: 67, Type1: "Normal", Number: 427, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Talonflame", Nickname: "11213", Gender: "Male", Level: 60, Type1: "Fire", Type2: "Flying", Number: 663, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Talonflame", Gender: "Male", Level: 55, Type1: "Fire", Type2: "Flying", Number: 663, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Klefki", Gender: "Male", Level: 68, Type1: "Steel", Type2: "Fairy", Number: 707, OT: ":::?89977re", IDNo: "790618" },
+                ],
+                Image: "img/ribbons/champion-galar.png",
+                FirstAttemptDate: "2020-06-28T14:35:18.402Z"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2020-06-28T16:18:06.372Z", IDNo: "790618", Attempts: 1, Party: [
+                    { Pokemon: "Corviknight", Gender: "Female", Level: 100, Type1: "Flying", Type2: "Steel", Number: 823, OT: "Duran", IDNo: "235632" },
+                    { Pokemon: "Kubfu", Nickname: "111", Gender: "Male", Level: 69, Type1: "Fighting", Number: 891, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Buneary", Nickname: "zeeeeds", Gender: "Female", Level: 69, Type1: "Normal", Number: 427, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Talonflame", Nickname: "11213", Gender: "Male", Level: 62, Type1: "Fire", Type2: "Flying", Number: 663, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Talonflame", Gender: "Male", Level: 58, Type1: "Fire", Type2: "Flying", Number: 663, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Klefki", Gender: "Male", Level: 70, Type1: "Steel", Type2: "Fairy", Number: 707, OT: ":::?89977re", IDNo: "790618" },
+                ],
+                Image: "img/ribbons/champion-galar.png",
+                FirstAttemptDate: "2020-06-28T15:57:47.322Z"
+            },
+
+            {
+                Group: "Trainers", Name: "Mustard",
+                Image: "img/trainers/sword/mustard.png",
+                ImageSource: "https://bulbapedia.bulbagarden.net/wiki/Mustard",
+                Time: "2020-06-29T03:10:02.752Z", Attempts: 6
+            },
+            {
+                Group: "Trainers", Name: "Mustard", Class: "Rematch",
+                Image: "img/trainers/sword/mustard.png",
+                ImageSource: "https://bulbapedia.bulbagarden.net/wiki/Mustard",
+                Time: "2020-06-29T11:46:31.691Z", Attempts: 1
+            },
+            {
+                Group: "Trainers", Name: "Klara", Class: "Rematch",
+                Image: "img/trainers/sword/klara.png",
+                ImageSource: "https://bulbapedia.bulbagarden.net/wiki/Klara",
+                Time: "2020-06-29T13:32:32.528Z", Attempts: 1
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2020-07-01T01:48:45", IDNo: "790618", Attempts: 3, Party: [
+                    { Pokemon: "Gardevoir", Nickname: "Vore", Gender: "Female", Level: 77, Shiny: true, Type1: "Psychic", Type2: "Fairy", Number: 282 },
+                    { Pokemon: "Porygon-Z", Nickname: "tppsimulator", Level: 100, Type1: "Normal", Number: 474, OT: "Sam", IDNo: "605364" },
+                    { Pokemon: "Deino", Gender: "Male", Level: 47, Type1: "Dark", Type2: "Dragon", Number: 633 },
+                    { Pokemon: "Gardevoir", Nickname: "Blame Nanami", Gender: "Female", Level: 60, Shiny: true, Type1: "Psychic", Type2: "Fairy", Number: 282 },
+                    { Pokemon: "Krookodile", Nickname: "流氓鱷", Gender: "Male", Level: 47, Type1: "Ground", Type2: "Dark", Number: 553 },
+                    { Pokemon: "Charmeleon", Gender: "Female", Level: 37, Type1: "Fire", Number: 5 },
+                ],
+                Image: "img/ribbons/champion-galar.png",
+                FirstAttemptDate: "2020-06-28T16:20:00.232Z"
+            },
+
+            { Group: "Rematch Badges", Name: "Dark Badge", Image: "img/badges/galar/dark.png", Time: "2020-07-01T15:51:44", Attempts: 1, Class: "Rematch" },
+
+            {
+                Group: "Trainers", Name: "Klara", Class: "Rematch",
+                Image: "img/trainers/sword/klara.png",
+                ImageSource: "https://bulbapedia.bulbagarden.net/wiki/Klara",
+                Time: "2020-07-01T19:28:35.789Z", Attempts: 1
+            },
+//            {
+//                Group: "Trainers", Name: "Mustard", Class: "Rematch",
+//                Image: "img/trainers/sword/mustard.png",
+//                ImageSource: "https://bulbapedia.bulbagarden.net/wiki/Mustard",
+//                Time: "", Attempts: 3
+//            },
+
             { "Group": "Pokemon", "Name": "Slowpoke", "Time": "2020-06-27T21:11:14Z" },
             { "Group": "Pokemon", "Name": "Sharpedo", "Time": "2020-06-27T21:23:49Z" },
             { "Group": "Pokemon", "Name": "Starmie", "Time": "2020-06027T21:37:42Z" },
