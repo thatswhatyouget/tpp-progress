@@ -1,5 +1,5 @@
 /// <reference path="../tpp-data.ts" />
-Season6.Runs.push(
+Revisits.Runs.push(
     {
         RunName: "Sword Revisit - Isle of Armor",
         ColorSecondary: "black",
