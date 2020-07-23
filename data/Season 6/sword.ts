@@ -25,7 +25,7 @@ Season6.Runs.push(
             { "Group": "Elite Four", "Name": "Bede", "Time": "2019-11-27T23:45:40.180Z", "Attempts": 3, "Image": "img/trainers/sword/bede.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bede" },
             { "Group": "Elite Four", "Name": "Nessa", "Time": "2019-11-28T00:02:58.446Z", "Attempts": 1, "Image": "img/trainers/sword/nessa.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Nessa" },
             { "Group": "Elite Four", "Name": "Bea", "Time": "2019-11-28T00:20:56.427Z", "Attempts": 1, "Image": "img/trainers/sword/bea.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bea" },
-            { "Group": "Elite Four", "Name": "Raihan", "Time": "2019-1128T02:22:51.213Z", "Attempts": 4, "Image": "img/trainers/sword/raihan.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Raihan" },
+            { "Group": "Elite Four", "Name": "Raihan", "Time": "2019-11-28T02:22:51.213Z", "Attempts": 4, "Image": "img/trainers/sword/raihan.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Raihan" },
             { "Group": "Champions", "Name": "Leon", "Time": "2019-11-28T13:04:59.975Z", "Attempts": 9, "Image": "img/trainers/sword/leon.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Leon" },
 
             <TPP.HallOfFame>{
