@@ -20,25 +20,61 @@ Season6.Runs.push(
             { "Group": "Badges", "Name": "Fairy Badge", "Time": "2019-11-26T20:06:00Z", "Attempts": 2, "Image": "img/badges/galar/fairy.png" },
             { "Group": "Badges", "Name": "Rock Badge", "Time": "2019-11-27T06:44:00Z", "Attempts": 3, "Image": "img/badges/galar/rock.png" },
             { "Group": "Badges", "Name": "Dark Badge", "Time": "2019-11-27T13:41:00Z", "Attempts": 2, "Image": "img/badges/galar/dark.png" },
-            { "Group": "Badges", "Name": "Dragon Badge", "Time": "2019-11-27T15:10:00", "Attempts": 2, "Image": "img/badges/galar/dragon.png" },
+            { "Group": "Badges", "Name": "Dragon Badge", "Time": "2019-11-27T15:10:00Z", "Attempts": 2, "Image": "img/badges/galar/dragon.png" },
 
-            { "Group": "Elite Four", "Name": "Bede", "Time": "4d2h45m", "Attempts": 3, "Image": "img/trainers/sword/bede.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bede" },
-            { "Group": "Elite Four", "Name": "Nessa", "Time": "4d3h3m", "Attempts": 1, "Image": "img/trainers/sword/nessa.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Nessa" },
-            { "Group": "Elite Four", "Name": "Bea", "Time": "4d3h21m", "Attempts": 1, "Image": "img/trainers/sword/bea.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bea" },
-            { "Group": "Elite Four", "Name": "Raihan", "Time": "4d5h23m", "Attempts": 4, "Image": "img/trainers/sword/raihan.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Raihan" },
-            { "Group": "Champions", "Name": "Leon", "Time": "2019-11-28T13:05:00Z", "Attempts": 9, "Image": "img/trainers/sword/leon.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Leon" },
+            { "Group": "Elite Four", "Name": "Bede", "Time": "2019-11-27T23:45:40.180Z", "Attempts": 3, "Image": "img/trainers/sword/bede.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bede" },
+            { "Group": "Elite Four", "Name": "Nessa", "Time": "2019-11-28T00:02:58.446Z", "Attempts": 1, "Image": "img/trainers/sword/nessa.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Nessa" },
+            { "Group": "Elite Four", "Name": "Bea", "Time": "2019-11-28T00:20:56.427Z", "Attempts": 1, "Image": "img/trainers/sword/bea.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bea" },
+            { "Group": "Elite Four", "Name": "Raihan", "Time": "2019-1128T02:22:51.213Z", "Attempts": 4, "Image": "img/trainers/sword/raihan.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Raihan" },
+            { "Group": "Champions", "Name": "Leon", "Time": "2019-11-28T13:04:59.975Z", "Attempts": 9, "Image": "img/trainers/sword/leon.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Leon" },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-11-28T13:06:00Z", Party: [
-                    { Pokemon: "Eternatus", Level: 60 },
-                    { Pokemon: "Golurk", Level: 61 },
-                    { Pokemon: "Hatterene", Nickname: "1", Gender: "Female", Level: 64 },
-                    { Pokemon: "Flapple", Gender: "Female", Level: 75 },
-                    { Pokemon: "Mew", Nickname: "1111", Level: 67 },
-                    { Pokemon: "Obstagoon", Gender: "Female", Level: 67 },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-11-28T13:06:50.923Z", IDNo: "790618", Attempts: 14, Party: [
+                    { Pokemon: "Eternatus", Level: 60, Type1: "Poison", Type2: "Dragon", Number: 890, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Golurk", Level: 61, Type1: "Ground", Type2: "Ghost", Number: 623, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Hatterene", Nickname: "1", Gender: "Female", Level: 64, Type1: "Psychic", Type2: "Fairy", Number: 885, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Flapple", Gender: "Female", Level: 75, Type1: "Grass", Type2: "Dragon", Number: 841, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Mew", Nickname: "1111", Level: 67, Type1: "Psychic", Number: 151, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Obstagoon", Gender: "Female", Level: 67, Type1: "Dark", Type2: "Normal", Number: 862, OT: ":::?89977re", IDNo: "790618" },
                 ],
                 Image: "img/ribbons/champion-galar.png",
-                FirstAttemptDate: ""
+                FirstAttemptDate: "2019-11-27T22:46:35.728Z"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2019-11-29T01:54:07.422Z", IDNo: "790618", Attempts: 1, Party: [
+                    { Pokemon: "Morpeko", Gender: "Male", Level: 43, Type1: "Electric", Type2: "Dark", Number: 877, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Mew", Nickname: "1111", Level: 72, Type1: "Psychic", Number: 151, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Flapple", Gender: "Female", Level: 82, Type1: "Grass", Type2: "Dragon", Number: 841, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Snom", Nickname: "1111", Gender: "Male", Level: 46, Type1: "Ice", Type2: "Bug", Number: 872, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Obstagoon", Gender: "Female", Level: 72, Type1: "Dark", Type2: "Normal", Number: 862, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Zacian", Level: 72, Type1: "Fairy", Type2: "Steel", Number: 888, OT: ":::?89977re", IDNo: "790618" },
+                ],
+                Image: "img/ribbons/champion-galar.png",
+                FirstAttemptDate: "2019-11-29T01:17:15.443Z"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2019-11-29T21:09:42.443Z", IDNo: "790618", Attempts: 2, Party: [
+                    { Pokemon: "Wailord", Gender: "Male", Level: 42, Type1: "Water", Number: 321, OT: "Acheo", IDNo: "192662" },
+                    { Pokemon: "Mew", Nickname: "1111", Level: 78, Type1: "Psychic", Number: 151, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Dreepy", Gender: "Male", Level: 43, Type1: "Dragon", Type2: "Ghost", Number: 885, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Obstagoon", Gender: "Female", Level: 78, Type1: "Dark", Type2: "Normal", Number: 862, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Silvally", Nickname: "aaaaaaaaaaaa", Level: 59, Type1: "Normal", Number: 773, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Sirfetch'd", Gender: "Female", Level: 42, Type1: "Fighting", Number: 865, OT: "Phi", IDNo: "036693" },
+                ],
+                Image: "img/ribbons/champion-galar.png",
+                FirstAttemptDate: "2019-11-29T19:47:28.813Z"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2019-11-29T21:55:17.962Z", IDNo: "790618", Attempts: 1, Party: [
+                    { Pokemon: "Wailord", Gender: "Male", Level: 42, Type1: "Water", Number: 321, OT: "Acheo", IDNo: "192662" },
+                    { Pokemon: "Mew", Nickname: "1111", Level: 79, Type1: "Psychic", Number: 151, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Dreepy", Gender: "Male", Level: 47, Type1: "Dragon", Type2: "Ghost", Number: 885, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Obstagoon", Gender: "Female", Level: 80, Type1: "Dark", Type2: "Normal", Number: 862, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Silvally", Nickname: "aaaaaaaaaaaa", Level: 60, Type1: "Normal", Number: 773, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Sirfetch'd", Gender: "Female", Level: 43, Type1: "Fighting", Number: 865, OT: "Phi", IDNo: "036693" },
+                ],
+                Image: "img/ribbons/champion-galar.png",
+                FirstAttemptDate: "2019-11-29T21:15:31.854Z"
             },
 
             { "Group": "Pokemon", "Name": "Grookey", "Time": "2019-11-23T21:28:00.459Z" },
