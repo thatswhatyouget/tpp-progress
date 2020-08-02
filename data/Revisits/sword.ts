@@ -11,7 +11,7 @@ Revisits.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/e1c95e/rey_collins_the_girl_with_rainbow_eyes/",
         Region: "Galar",
         Generation: 8,
-        Pokedex: "Galar",
+        Pokedex: "Isle of Armor",
         Events: [
             {
                 Group: "Trainers", Name: "Klara",
@@ -237,7 +237,7 @@ Revisits.Runs.push(
             { "Group": "Pokemon", "Name": "Tentacool", "Time": "2020-07-01T01:05:33Z" },
             { "Group": "Pokemon", "Name": "Zweilous", "Time": "2020-07-01T01:53:20Z" },
             { "Group": "Pokemon", "Name": "Wartortle", "Time": "2020-07-01T02:33:46Z" },
-            { "Group": "Pokemon", "Name": "Mewtwo", "Time": "2020-06-30T03:22:15Z", Class: "WifiTrade" },
+            { "Group": "Pokemon", "Name": "Mewtwo", "Time": "2020-07-01T03:22:15Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Scizor", "Time": "2020-07-01T04:02:29Z", Class: "WifiTrade" },
             { "Group": "Pokemon", "Name": "Hydreigon", "Time": "2020-07-01T04:18:46Z" },
             { "Group": "Pokemon", "Name": "Zorua", "Time": "2020-07-01T04:34:01Z", Class: "WifiTrade" },
