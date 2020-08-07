@@ -9,7 +9,6 @@ namespace TPP.Controllers {
             this.seeAlso = <a href="index.html">See Progress Bars</a>;
             this.credits = [
                 "Pokemon sprites are from [The DS-style 64x64 Pokémon Sprite Resource](https://www.pokecommunity.com/showthread.php?t=267728), extended for [Gen 6](https://www.pokecommunity.com/showthread.php?t=314422) and [Gen 7](https://www.pokecommunity.com/showthread.php?t=368703).",
-                "Touhoumon sprites ripped by [Jayare158](https://www.reddit.com/r/twitchplayspokemon/comments/5cwr3q/by_ucyanders_request_heres_a_sprite_chart_with/).",
                 "All custom host sprites can be clicked for links to their sources."
             ];
         }

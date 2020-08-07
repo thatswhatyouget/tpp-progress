@@ -8,8 +8,8 @@ namespace TPP.Controllers {
             this.pageTitle = "Run Status";
             this.seeAlso = <a href="index.html">See Progress Bars</a>;
             this.credits = [
-                "Data: [VorpalNorman](https://www.reddit.com/user/VorpalNorman)",
                 "Default sprites are from [Bulbapedia](http://bulbapedia.bulbagarden.net/) and [PLDHnet's SpriteDex](http://pldh.net/dex/sprites/index).",
+                "Pokemon sprites are from [The DS-style 64x64 Pokémon Sprite Resource](https://www.pokecommunity.com/showthread.php?t=267728), extended for [Gen 6](https://www.pokecommunity.com/showthread.php?t=314422) and [Gen 7](https://www.pokecommunity.com/showthread.php?t=368703).",
                 "All custom sprites can be clicked for links to their sources."
             ];
             this.controls = [qsOptionsMenu("fa-sliders", "Options", { "autorefresh": "Refresh Automatically" })];
@@ -40,8 +40,6 @@ namespace TPP.Controllers {
 
             if (run.Ongoing)
                 this.credits[0] = "Live Data: [TwitchPlaysPokemon.tv](https://twitchplayspokemon.tv/) &nbsp;&nbsp Other " + this.credits[0];    
-            if (run.RunName.indexOf("Touhoumon") >= 0)
-                this.credits.splice(this.credits.length - 1, 0, "Touhoumon sprites ripped by [Jayare158](https://www.reddit.com/r/twitchplayspokemon/comments/5cwr3q/by_ucyanders_request_heres_a_sprite_chart_with/).");
             if (run.TPPOrgLink || run.DocumentLink)
                 this.credits.push(["For more information about this run, check out ",
                     run.DocumentLink ? `[this document](${run.DocumentLink})` : null,
