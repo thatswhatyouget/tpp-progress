@@ -29,7 +29,7 @@ Season6.Runs.push(
             { "Group": "Champions", "Name": "Leon", "Time": "2019-11-28T13:04:59.975Z", "Attempts": 9, "Image": "img/trainers/sword/leon.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Leon" },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-11-28T13:06:50.923Z", IDNo: "790618", Attempts: 14, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2019-11-28T13:06:50.923Z", IDNo: "790618", Attempts: 14, Party: [
                     { Pokemon: "Eternatus", Level: 60, Type1: "Poison", Type2: "Dragon", Number: 890, OT: ":::?89977re", IDNo: "790618" },
                     { Pokemon: "Golurk", Level: 61, Type1: "Ground", Type2: "Ghost", Number: 623, OT: ":::?89977re", IDNo: "790618" },
                     { Pokemon: "Hatterene", Nickname: "1", Gender: "Female", Level: 64, Type1: "Psychic", Type2: "Fairy", Number: 885, OT: ":::?89977re", IDNo: "790618" },
