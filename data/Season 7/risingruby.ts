@@ -24,8 +24,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Knuckle Badge",
                 Image: "img/badges/knuckle.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-08-09T16:47:05.974Z",
+                Attempts: 9
             },
             {
                 Group: "Badges",
@@ -171,7 +171,39 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Weedle", "Time": "2020-08-09T03:56:53.670Z" },
             { "Group": "Pokemon", "Name": "Tympole", "Time": "2020-08-09T04:00:08.061Z" },
             { "Group": "Pokemon", "Name": "Caterpie", "Time": "2020-08-09T04:22:03.959Z" },
-            { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2020-08-09T04:26:36.964Z" }
+            { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2020-08-09T04:26:36.964Z" },
+            { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2020-08-09T04:26:36.964Z" },
+            { "Group": "Pokemon", "Name": "Spinarak", "Time": "2020-08-09T06:08:16.631Z" },
+            { "Group": "Pokemon", "Name": "Teddiursa", "Time": "2020-08-09T06:09:40.875Z" },
+            { "Group": "Pokemon", "Name": "Gastly", "Time": "2020-08-09T06:11:39.878Z" },
+            { "Group": "Pokemon", "Name": "Timburr", "Time": "2020-08-09T06:15:35.597Z" },
+            { "Group": "Pokemon", "Name": "Budew", "Time": "2020-08-09T06:33:36.156Z" },
+            { "Group": "Pokemon", "Name": "Hoppip", "Time": "2020-08-09T06:37:31.803Z" },
+            { "Group": "Pokemon", "Name": "Phantump", "Time": "2020-08-09T06:41:35.952Z" },
+            { "Group": "Pokemon", "Name": "Pansear", "Time": "2020-08-09T06:43:18.831Z" },
+            { "Group": "Pokemon", "Name": "Shroomish", "Time": "2020-08-09T06:44:58.868Z" },
+            { "Group": "Pokemon", "Name": "Sewaddle", "Time": "2020-08-09T06:50:58.078Z" },
+            { "Group": "Pokemon", "Name": "Onix", "Time": "2020-08-09T07:09:51.994Z" },
+            { "Group": "Pokemon", "Name": "Combusken", "Time": "2020-08-09T08:34:36.152Z" },
+            { "Group": "Pokemon", "Name": "Fletchinder", "Time": "2020-08-09T10:02:07.462Z" },
+            { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "2020-08-09T10:24:24.173Z" },
+            { "Group": "Pokemon", "Name": "Hoothoot", "Time": "2020-08-09T10:25:59.679Z" },
+            { "Group": "Pokemon", "Name": "Sentret", "Time": "2020-08-09T10:27:48.324Z" },
+            { "Group": "Pokemon", "Name": "Bunnelby", "Time": "2020-08-09T10:29:20.607Z" },
+            { "Group": "Pokemon", "Name": "Starly", "Time": "2020-08-09T10:33:11.815Z" },
+            { "Group": "Pokemon", "Name": "NidoranF", "Time": "2020-08-09T10:37:53.215Z" },
+            { "Group": "Pokemon", "Name": "Lillipup", "Time": "2020-08-09T10:40:52.012Z" },
+            { "Group": "Pokemon", "Name": "NidoranM", "Time": "2020-08-09T10:42:23.292Z" },
+            { "Group": "Pokemon", "Name": "Mankey", "Time": "2020-08-09T10:43:54.663Z" },
+            { "Group": "Pokemon", "Name": "Purrloin", "Time": "2020-08-09T10:46:30.748Z" },
+            { "Group": "Pokemon", "Name": "Pidove", "Time": "2020-08-09T10:51:40.314Z" },
+            { "Group": "Pokemon", "Name": "Gothita", "Time": "2020-08-09T10:57:22.819Z" },
+            { "Group": "Pokemon", "Name": "Wurmple", "Time": "2020-08-09T11:07:39.883Z" },
+            { "Group": "Pokemon", "Name": "Exeggcute", "Time": "2020-08-09T11:15:12.338Z" },
+            { "Group": "Pokemon", "Name": "Psyduck", "Time": "2020-08-09T11:18:15.178Z" },
+            { "Group": "Pokemon", "Name": "Azurill", "Time": "2020-08-09T11:21:23.149Z" },
+            { "Group": "Pokemon", "Name": "Spritzee", "Time": "2020-08-09T11:26:48.705Z" },
+            { "Group": "Pokemon", "Name": "Swirlix", "Time": "2020-08-09T11:28:28.293Z" }
         ]
     }
 );
