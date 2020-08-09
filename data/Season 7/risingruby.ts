@@ -17,8 +17,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Stone Badge",
                 Image: "img/badges/stone.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-08-09T05:35:47.006Z",
+                Attempts: 4
             },
             {
                 Group: "Badges",
@@ -152,6 +152,26 @@ Season7.Runs.push(
                 ],
                 Image: "img/ribbons/champion-hoenn.png"
             },
+            { "Group": "Pokemon", "Name": "Torchic", "Time": "2020-08-08T21:15:45.114Z" },
+            { "Group": "Pokemon", "Name": "Fletchling", "Time": "2020-08-08T21:47:01.008Z" },
+            { "Group": "Pokemon", "Name": "Solosis", "Time": "2020-08-08T21:49:21.910Z" },
+            { "Group": "Pokemon", "Name": "Lotad", "Time": "2020-08-08T21:56:22.465Z" },
+            { "Group": "Pokemon", "Name": "Pansage", "Time": "2020-08-08T22:24:36.369Z" },
+            { "Group": "Pokemon", "Name": "Panpour", "Time": "2020-08-08T22:25:36.585Z" },
+            { "Group": "Pokemon", "Name": "Wingull", "Time": "2020-08-08T23:16:33.057Z" },
+            { "Group": "Pokemon", "Name": "Joltik", "Time": "2020-08-09T01:02:05.542Z" },
+            { "Group": "Pokemon", "Name": "Whismur", "Time": "2020-08-09T01:05:00.525Z" },
+            { "Group": "Pokemon", "Name": "Nincada", "Time": "2020-08-09T01:11:20.476Z" },
+            { "Group": "Pokemon", "Name": "Shinx", "Time": "2020-08-09T01:15:30.615Z" },
+            { "Group": "Pokemon", "Name": "Furfrou", "Time": "2020-08-09T01:17:28.188Z" },
+            { "Group": "Pokemon", "Name": "Petilil", "Time": "2020-08-09T01:59:02.836Z" },
+            { "Group": "Pokemon", "Name": "Scatterbug", "Time": "2020-08-09T02:04:21.610Z" },
+            { "Group": "Pokemon", "Name": "Buneary", "Time": "2020-08-09T02:08:17.680Z" },
+            { "Group": "Pokemon", "Name": "Burmy", "Time": "2020-08-09T02:10:34.057Z" },
+            { "Group": "Pokemon", "Name": "Weedle", "Time": "2020-08-09T03:56:53.670Z" },
+            { "Group": "Pokemon", "Name": "Tympole", "Time": "2020-08-09T04:00:08.061Z" },
+            { "Group": "Pokemon", "Name": "Caterpie", "Time": "2020-08-09T04:22:03.959Z" },
+            { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2020-08-09T04:26:36.964Z" }
         ]
     }
 );
