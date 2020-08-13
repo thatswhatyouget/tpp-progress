@@ -45,8 +45,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Balance Badge",
                 Image: "img/badges/balance.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-08-13T07:26:47.042Z",
+                Attempts: 4
             },
             {
                 Group: "Badges",
@@ -386,6 +386,11 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Volbeat", "Time": "2020-08-12T23:25:03.626Z" },
             { "Group": "Pokemon", "Name": "Trapinch", "Time": "2020-08-13T00:06:04.296Z" },
             { "Group": "Pokemon", "Name": "Primeape", "Time": "2020-08-13T02:31:43.840Z" },
+            { "Group": "Pokemon", "Name": "Murkrow", "Time": "2020-08-13T03:37:30.700Z" },
+            { "Group": "Pokemon", "Name": "Maractus", "Time": "2020-08-13T03:46:21.865Z" },
+            { "Group": "Pokemon", "Name": "Marill", "Time": "2020-08-13T08:01:31.956Z" },
+            { "Group": "Pokemon", "Name": "Azumarill", "Time": "2020-08-13T08:22:45.455Z" },
+            { "Group": "Pokemon", "Name": "Latios", "Time": "2020-08-13T09:26:17.941Z" },
         ]
     }
 );
