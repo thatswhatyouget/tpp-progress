@@ -55,7 +55,7 @@
     image-rendering: pixelated;
     background-image: url("../img/pokemon-large.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1em;
 }
 
 .dexEntry .pokesprite:not(.missingno).shiny img {

@@ -107,7 +107,7 @@
     padding: .5em;
     background-image: url("../img/pokemon-large.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1em;
     image-rendering: pixelated;
 }
 
@@ -276,7 +276,7 @@
     background-image:url("../img/pokemon-large.png");
     background-repeat: no-repeat;
     background-position: top left;
-    background-size:cover;
+    background-size: 1em;
     image-rendering: pixelated;
 }
 
