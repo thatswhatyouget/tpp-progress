@@ -361,7 +361,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Miltank", "Time": "2020-08-12T08:22:03.125Z" },
             { "Group": "Pokemon", "Name": "Scyther", "Time": "2020-08-12T08:29:27.826Z" },
             { "Group": "Pokemon", "Name": "Golett", "Time": "2020-08-12T08:48:43.041Z" },
-            //{"Group":"Pokemon","Name":"Egg","Time":"2020-08-12T10:21:50.800Z"},
+            // { "Group": "Pokemon", "Name": "Egg", "Time": "2020-08-12T10:21:50.800Z" },
             { "Group": "Pokemon", "Name": "Breloom", "Time": "2020-08-12T10:37:32.655Z" },
             { "Group": "Pokemon", "Name": "Trevenant", "Time": "2020-08-12T10:46:30.892Z" },
             { "Group": "Pokemon", "Name": "Dunsparce", "Time": "2020-08-12T11:09:19.551Z" },
@@ -376,6 +376,16 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Aipom", "Time": "2020-08-12T15:54:11.864Z" },
             { "Group": "Pokemon", "Name": "Sandile", "Time": "2020-08-12T17:44:08.938Z" },
             { "Group": "Pokemon", "Name": "Hippopotas", "Time": "2020-08-12T17:48:01.599Z" },
+            { "Group": "Pokemon", "Name": "Cacnea", "Time": "2020-08-12T18:20:20.128Z" },
+            { "Group": "Pokemon", "Name": "Baltoy", "Time": "2020-08-12T18:23:01.561Z" },
+            { "Group": "Pokemon", "Name": "Sigilyph", "Time": "2020-08-12T18:28:08.462Z" },
+            { "Group": "Pokemon", "Name": "Helioptile", "Time": "2020-08-12T18:30:48.869Z" },
+            { "Group": "Pokemon", "Name": "Sandslash", "Time": "2020-08-12T18:34:46.783Z" },
+            { "Group": "Pokemon", "Name": "Darumaka", "Time": "2020-08-12T18:37:12.565Z" },
+            { "Group": "Pokemon", "Name": "Snubbull", "Time": "2020-08-12T19:55:48.052Z" },
+            { "Group": "Pokemon", "Name": "Volbeat", "Time": "2020-08-12T23:25:03.626Z" },
+            { "Group": "Pokemon", "Name": "Trapinch", "Time": "2020-08-13T00:06:04.296Z" },
+            { "Group": "Pokemon", "Name": "Primeape", "Time": "2020-08-13T02:31:43.840Z" },
         ]
     }
 );
