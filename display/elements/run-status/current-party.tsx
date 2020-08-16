@@ -110,6 +110,7 @@ namespace TPP.Display.Elements.RunStatus {
                             <li className="informatic">Smartness: {mon.condition.smartness}</li>
                             <li className="informatic">Toughness: {mon.condition.toughness}</li>
                             <li className="informatic">Feel/Sheen: {mon.condition.feel}</li>
+                            {typeof mon.affection === "number" && <li className="informatic">❤️: {mon.affection}</li>}
                         </ul>}
                     </div>;
                 case "Misc":

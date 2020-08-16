@@ -108,6 +108,7 @@ namespace TPP.Tv {
         evs?: Stats;
         condition?: ContestStats;
         friendship?: number;
+        affection?: number;
         pokerus?: {
             infected: boolean;
             days_left: number;
