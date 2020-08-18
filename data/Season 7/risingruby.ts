@@ -87,8 +87,8 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Glacia",
                 Image: "img/trainers/emerald/glacia.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-08-18T15:21:11.059Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
