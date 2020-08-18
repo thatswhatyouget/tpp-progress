@@ -101,12 +101,17 @@ Season7.Runs.push(
                 Group: "Champions",
                 Name: "Steven",
                 Image: "img/trainers/emerald/steven.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-08-18T15:38:37.846Z",
+                Attempts: 1
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
-                    { Pokemon: "Azumarill", Nickname: "!t44444’’’tu", Level: 79, Gender: "Female" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-08-18T15:41:00Z", Attempts: 9, Party: [
+                    { Pokemon: "Diancie", Nickname: "\ue092", Level: 85 },
+                    { Pokemon: "Excadrill", Nickname: "CEO’’(+ ~##~", Level: 92, Gender: "Female" },
+                    { Pokemon: "Delcatty", Nickname: "!whhy", Level: 85, Gender: "Female" },
+                    { Pokemon: "Cradily", Nickname: "Lg\ue094\ue0a5\ue0a5\ue0a5\ue0a5\ue0a5\ue0a5", Level: 100, Gender: "Male" },
+                    { Pokemon: "Kingdra", Nickname: "fish", Level: 88, Gender: "Female" },
+                    { Pokemon: "Dunsparce", Nickname: "noob", Level: 90, Gender: "Female" },
                 ],
                 Image: "img/ribbons/champion-hoenn.png",
                 FirstAttemptDate: "7d 20h 40m"
@@ -631,6 +636,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Spheal", "Time": "2020-08-18T13:01:13.403Z" },
             { "Group": "Pokemon", "Name": "Genesect", "Time": "2020-08-18T13:44:11.495Z" },
             { "Group": "Pokemon", "Name": "Volcanion", "Time": "2020-08-18T13:54:43.287Z" },
+            { "Group": "Pokemon", "Name": "Pupitar", "Time": "2020-08-18T21:15:46.035Z" },
         ]
     }
 );
