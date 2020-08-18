@@ -80,8 +80,8 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Phoebe",
                 Image: "img/trainers/emerald/phoebe.png",
-                Time: "",
-                Attempts: 2
+                Time: "2020-08-18T14:51:36.729Z",
+                Attempts: 6
             },
             {
                 Group: "Elite Four",
@@ -607,6 +607,30 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Lapras", "Time": "2020-08-17T08:54:43.844Z" },
             { "Group": "Pokemon", "Name": "Meloetta", "Time": "2020-08-17T11:44:18.495Z" },
             { "Group": "Pokemon", "Name": "Litwick", "Time": "2020-08-17T12:22:51.733Z" },
+            { "Group": "Pokemon", "Name": "Chespin", "Time": "2020-08-17T13:41:29.355Z" },
+            { "Group": "Pokemon", "Name": "Togekiss", "Time": "2020-08-17T15:03:27.848Z" },
+            { "Group": "Pokemon", "Name": "Palkia", "Time": "2020-08-17T15:53:58.388Z" },
+            { "Group": "Pokemon", "Name": "Reshiram", "Time": "2020-08-17T15:57:23.060Z" },
+            { "Group": "Pokemon", "Name": "Ho-Oh", "Time": "2020-08-17T15:58:57.643Z" },
+            { "Group": "Pokemon", "Name": "Dialga", "Time": "2020-08-17T16:07:25.942Z" },
+            { "Group": "Pokemon", "Name": "Articuno", "Time": "2020-08-17T16:21:28.012Z" },
+            { "Group": "Pokemon", "Name": "Moltres", "Time": "2020-08-17T16:33:35.342Z" },
+            { "Group": "Pokemon", "Name": "Pelipper", "Time": "2020-08-17T19:07:01.003Z" },
+            { "Group": "Pokemon", "Name": "Arceus", "Time": "2020-08-17T23:53:49.040Z" },
+            { "Group": "Pokemon", "Name": "Elgyem", "Time": "2020-08-18T05:08:58.942Z" },
+            { "Group": "Pokemon", "Name": "Gothorita", "Time": "2020-08-18T05:42:34.895Z" },
+            { "Group": "Pokemon", "Name": "Bronzong", "Time": "2020-08-18T06:28:08.611Z" },
+            { "Group": "Pokemon", "Name": "Cofagrigus", "Time": "2020-08-18T06:50:15.050Z" },
+            { "Group": "Pokemon", "Name": "Lampent", "Time": "2020-08-18T07:02:05.112Z" },
+            { "Group": "Pokemon", "Name": "Chingling", "Time": "2020-08-18T07:16:28.900Z" },
+            { "Group": "Pokemon", "Name": "Zekrom", "Time": "2020-08-18T07:33:01.211Z" },
+            { "Group": "Pokemon", "Name": "Zapdos", "Time": "2020-08-18T07:55:39.190Z" },
+            { "Group": "Pokemon", "Name": "Lunatone", "Time": "2020-08-18T10:08:06.805Z" },
+            { "Group": "Pokemon", "Name": "Clefairy", "Time": "2020-08-18T10:16:49.179Z" },
+            { "Group": "Pokemon", "Name": "Froakie", "Time": "2020-08-18T10:43:58.831Z" },
+            { "Group": "Pokemon", "Name": "Spheal", "Time": "2020-08-18T13:01:13.403Z" },
+            { "Group": "Pokemon", "Name": "Genesect", "Time": "2020-08-18T13:44:11.495Z" },
+            { "Group": "Pokemon", "Name": "Volcanion", "Time": "2020-08-18T13:54:43.287Z" },
         ]
     }
 );
