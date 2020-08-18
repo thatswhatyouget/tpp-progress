@@ -94,8 +94,8 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Drake",
                 Image: "img/trainers/emerald/drake.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-08-18T15:31:07.480Z",
+                Attempts: 1
             },
             {
                 Group: "Champions",
