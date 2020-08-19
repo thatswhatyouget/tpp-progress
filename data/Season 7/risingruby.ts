@@ -121,23 +121,23 @@ Season7.Runs.push(
                 Name: "Zinnia",
                 Image: "img/trainers/emerald/zinnia.png",
                 ImageSource: "http://kinectedwires.deviantart.com/art/OR-AS-Zinnia-Sprite-505257562",
-                Time: "",
-                Attempts: 0
+                Time: "2020-08-19T00:31:48.937Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Sidney",
                 Image: "img/trainers/emerald/sidney.png",
-                Time: "",
-                Attempts: 0,
+                Time: "2020-08-19T18:48:23.186Z",
+                Attempts: 1,
                 Class: "Rematch"
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Phoebe",
                 Image: "img/trainers/emerald/phoebe.png",
-                Time: "",
-                Attempts: 0,
+                Time: "2020-08-19T18:59:15.640Z",
+                Attempts: 1,
                 Class: "Rematch"
             },
             {
@@ -164,6 +164,18 @@ Season7.Runs.push(
                 Attempts: 0,
                 Class: "Rematch"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 9, Party: [
+                    { Pokemon: "Diancie", Nickname: "\ue092", Level: 85 },
+                    { Pokemon: "Excadrill", Nickname: "CEO’’(+ ~##~", Level: 92, Gender: "Female" },
+                    { Pokemon: "Delcatty", Nickname: "!whhy", Level: 85, Gender: "Female" },
+                    { Pokemon: "Cradily", Nickname: "Lg\ue094\ue0a5\ue0a5\ue0a5\ue0a5\ue0a5\ue0a5", Level: 100, Gender: "Male" },
+                    { Pokemon: "Kingdra", Nickname: "fish", Level: 88, Gender: "Female" },
+                    { Pokemon: "Dunsparce", Nickname: "noob", Level: 90, Gender: "Female" },
+                ],
+                Image: "img/ribbons/champion-hoenn.png",
+                FirstAttemptDate: "10d 21h 41m"
+            },
 
             { "Group": "Pokemon", "Name": "Torchic", "Time": "2020-08-08T21:15:45.114Z" },
             { "Group": "Pokemon", "Name": "Fletchling", "Time": "2020-08-08T21:47:01.008Z" },
@@ -184,7 +196,6 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Weedle", "Time": "2020-08-09T03:56:53.670Z" },
             { "Group": "Pokemon", "Name": "Tympole", "Time": "2020-08-09T04:00:08.061Z" },
             { "Group": "Pokemon", "Name": "Caterpie", "Time": "2020-08-09T04:22:03.959Z" },
-            { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2020-08-09T04:26:36.964Z" },
             { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2020-08-09T04:26:36.964Z" },
             { "Group": "Pokemon", "Name": "Spinarak", "Time": "2020-08-09T06:08:16.631Z" },
             { "Group": "Pokemon", "Name": "Teddiursa", "Time": "2020-08-09T06:09:40.875Z" },
@@ -637,6 +648,33 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Genesect", "Time": "2020-08-18T13:44:11.495Z" },
             { "Group": "Pokemon", "Name": "Volcanion", "Time": "2020-08-18T13:54:43.287Z" },
             { "Group": "Pokemon", "Name": "Pupitar", "Time": "2020-08-18T21:15:46.035Z" },
+            { "Group": "Pokemon", "Name": "Golurk", "Time": "2020-08-18T23:39:55.300Z" },
+            { "Group": "Pokemon", "Name": "Spiritomb", "Time": "2020-08-19T00:04:10.686Z" },
+            { "Group": "Pokemon", "Name": "Rayquaza", "Time": "2020-08-19T00:20:17.520Z" },
+            { "Group": "Pokemon", "Name": "Chikorita", "Time": "2020-08-19T00:52:37.236Z" },
+            { "Group": "Pokemon", "Name": "Ferrothorn", "Time": "2020-08-19T02:15:10.527Z" },
+            { "Group": "Pokemon", "Name": "Zweilous", "Time": "2020-08-19T02:33:49.940Z" },
+            { "Group": "Pokemon", "Name": "Sharpedo", "Time": "2020-08-19T03:25:37.202Z" },
+            { "Group": "Pokemon", "Name": "Whiscash", "Time": "2020-08-19T05:32:03.525Z" },
+            { "Group": "Pokemon", "Name": "Uxie", "Time": "2020-08-19T06:01:51.945Z" },
+            { "Group": "Pokemon", "Name": "Unfezant", "Time": "2020-08-19T06:50:09.824Z" },
+            { "Group": "Pokemon", "Name": "Gible", "Time": "2020-08-19T07:46:17.641Z" },
+            { "Group": "Pokemon", "Name": "Lumineon", "Time": "2020-08-19T08:08:58.449Z" },
+            { "Group": "Pokemon", "Name": "Crawdaunt", "Time": "2020-08-19T09:08:53.305Z" },
+            { "Group": "Pokemon", "Name": "Floatzel", "Time": "2020-08-19T10:02:57.899Z" },
+            { "Group": "Pokemon", "Name": "Braviary", "Time": "2020-08-19T10:07:35.646Z" },
+            { "Group": "Pokemon", "Name": "Mandibuzz", "Time": "2020-08-19T10:13:56.997Z" },
+            { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "2020-08-19T10:50:41.349Z" },
+            { "Group": "Pokemon", "Name": "Clawitzer", "Time": "2020-08-19T11:35:21.934Z" },
+            { "Group": "Pokemon", "Name": "Wailord", "Time": "2020-08-19T12:17:11.267Z" },
+            { "Group": "Pokemon", "Name": "Claydol", "Time": "2020-08-19T12:59:48.519Z" },
+            { "Group": "Pokemon", "Name": "Cloyster", "Time": "2020-08-19T13:41:18.882Z" },
+            { "Group": "Pokemon", "Name": "Kingler", "Time": "2020-08-19T13:47:42.604Z" },
+            { "Group": "Pokemon", "Name": "Kangaskhan", "Time": "2020-08-19T14:28:24.351Z" },
+            { "Group": "Pokemon", "Name": "Kadabra", "Time": "2020-08-19T14:31:23.117Z" },
+            { "Group": "Pokemon", "Name": "Stunfisk", "Time": "2020-08-19T15:05:37.180Z" },
+            { "Group": "Pokemon", "Name": "Octillery", "Time": "2020-08-19T16:42:49.441Z" },
+            { "Group": "Pokemon", "Name": "Mantine", "Time": "2020-08-19T18:36:55.400Z" },
         ]
     }
 );
