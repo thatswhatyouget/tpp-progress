@@ -144,8 +144,8 @@ Season7.Runs.push(
                 Group: "Elite Four Rematch",
                 Name: "Glacia",
                 Image: "img/trainers/emerald/glacia.png",
-                Time: "",
-                Attempts: 0,
+                Time: "2020-08-20T19:34:25.136Z",
+                Attempts: 5,
                 Class: "Rematch"
             },
             {
@@ -675,6 +675,21 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Stunfisk", "Time": "2020-08-19T15:05:37.180Z" },
             { "Group": "Pokemon", "Name": "Octillery", "Time": "2020-08-19T16:42:49.441Z" },
             { "Group": "Pokemon", "Name": "Mantine", "Time": "2020-08-19T18:36:55.400Z" },
+            { "Group": "Pokemon", "Name": "Loudred", "Time": "2020-08-19T19:29:00.923Z" },
+            { "Group": "Pokemon", "Name": "Phione", "Time": "2020-08-19T20:52:05.429Z" },
+            { "Group": "Pokemon", "Name": "Fennekin", "Time": "2020-08-20T02:40:08.199Z" },
+            { "Group": "Pokemon", "Name": "Dragonair", "Time": "2020-08-20T02:45:56.854Z" },
+            { "Group": "Pokemon", "Name": "Gyarados", "Time": "2020-08-20T03:10:25.152Z" },
+            { "Group": "Pokemon", "Name": "Mewtwo", "Time": "2020-08-20T04:50:31.240Z" },
+            { "Group": "Pokemon", "Name": "Azelf", "Time": "2020-08-20T04:59:53.251Z" },
+            { "Group": "Pokemon", "Name": "Seaking", "Time": "2020-08-20T10:51:15.406Z" },
+            { "Group": "Pokemon", "Name": "Jirachi", "Time": "2020-08-20T11:55:09.130Z" },
+            { "Group": "Pokemon", "Name": "Charmander", "Time": "2020-08-20T14:43:50.479Z" },
+            { "Group": "Pokemon", "Name": "Piplup", "Time": "2020-08-20T14:58:31.467Z" },
+            { "Group": "Pokemon", "Name": "Squirtle", "Time": "2020-08-20T15:08:55.480Z" },
+            { "Group": "Pokemon", "Name": "Plusle", "Time": "2020-08-20T15:44:11.469Z" },
+            { "Group": "Pokemon", "Name": "Minun", "Time": "2020-08-20T15:49:42.424Z" },
+            { "Group": "Pokemon", "Name": "Zygarde", "Time": "2020-08-20T16:37:49.866Z" },
         ]
     }
 );
