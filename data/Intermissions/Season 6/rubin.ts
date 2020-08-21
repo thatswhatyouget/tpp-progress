@@ -13,14 +13,14 @@ Intermissions.Runs.push(
         Generation: 3,
         Pokedex: "National",
         Events: [
-            { Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png", Time: "2019-08-09T18:32:11.257", Attempts: 0 }, // via Debug Menu
-            { Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png", Time: "2019-08-09T18:32:11.257", Attempts: 0 }, // via Debug Menu
-            { Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png", Time: "2019-08-09T18:32:11.257", Attempts: 0 }, // via Debug Menu
-            { Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png", Time: "2019-08-09T18:32:11.257", Attempts: 0 }, // via Debug Menu
-            { Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png", Time: "2019-08-09T18:32:11.257", Attempts: 0 }, // via Debug Menu
-            { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "2019-08-09T18:32:11.257", Attempts: 0 }, // via Debug Menu
-            { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "2019-08-09T18:32:11.257", Attempts: 0 }, // via Debug Menu
-            { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "2019-08-09T18:32:11.257", Attempts: 0 }, // via Debug Menu
+            { Group: "Badges", Name: "Steinorden", Image: "img/badges/stone.png", Time: "2019-08-09T18:32:11.257Z", Attempts: 0 }, // via Debug Menu
+            { Group: "Badges", Name: "Knöchelorden", Image: "img/badges/knuckle.png", Time: "2019-08-09T18:32:11.257Z", Attempts: 0 }, // via Debug Menu
+            { Group: "Badges", Name: "Dynamo-Orden", Image: "img/badges/dynamo.png", Time: "2019-08-09T18:32:11.257Z", Attempts: 0 }, // via Debug Menu
+            { Group: "Badges", Name: "Hitzeorden", Image: "img/badges/heat.png", Time: "2019-08-09T18:32:11.257Z", Attempts: 0 }, // via Debug Menu
+            { Group: "Badges", Name: "Balanceorden", Image: "img/badges/balance.png", Time: "2019-08-09T18:32:11.257Z", Attempts: 0 }, // via Debug Menu
+            { Group: "Badges", Name: "Federorden", Image: "img/badges/feather.png", Time: "2019-08-09T18:32:11.257Z", Attempts: 0 }, // via Debug Menu
+            { Group: "Badges", Name: "Mentalorden", Image: "img/badges/mind.png", Time: "2019-08-09T18:32:11.257Z", Attempts: 0 }, // via Debug Menu
+            { Group: "Badges", Name: "Schauerorden", Image: "img/badges/rain.png", Time: "2019-08-09T18:32:11.257Z", Attempts: 0 }, // via Debug Menu
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-08-09T19:15:30.00Z", IDNo: "39091", Attempts: 0, Party: [
