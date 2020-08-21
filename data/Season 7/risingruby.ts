@@ -152,26 +152,26 @@ Season7.Runs.push(
                 Group: "Elite Four Rematch",
                 Name: "Drake",
                 Image: "img/trainers/emerald/drake.png",
-                Time: "",
-                Attempts: 0,
+                Time: "2020-08-20T20:47:04.820Z",
+                Attempts: 2,
                 Class: "Rematch"
             },
             {
                 Group: "Champions",
                 Name: "Steven",
                 Image: "img/trainers/emerald/steven.png",
-                Time: "",
-                Attempts: 0,
+                Time: "2020-08-20T20:57:49.875Z",
+                Attempts: 1,
                 Class: "Rematch"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 9, Party: [
-                    { Pokemon: "Diancie", Nickname: "\ue092", Level: 85 },
-                    { Pokemon: "Excadrill", Nickname: "CEO’’(+ ~##~", Level: 92, Gender: "Female" },
-                    { Pokemon: "Delcatty", Nickname: "!whhy", Level: 85, Gender: "Female" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-08-20T20:59:00Z", Attempts: 6, Party: [
                     { Pokemon: "Cradily", Nickname: "Lg\ue094\ue0a5\ue0a5\ue0a5\ue0a5\ue0a5\ue0a5", Level: 100, Gender: "Male" },
-                    { Pokemon: "Kingdra", Nickname: "fish", Level: 88, Gender: "Female" },
-                    { Pokemon: "Dunsparce", Nickname: "noob", Level: 90, Gender: "Female" },
+                    { Pokemon: "Excadrill", Nickname: "CEO’’(+ ~##~", Level: 100, Gender: "Female" },
+                    { Pokemon: "Kingdra", Nickname: "fish", Level: 100, Gender: "Female" },
+                    { Pokemon: "Dunsparce", Nickname: "noob", Level: 100, Gender: "Female" },
+                    { Pokemon: "Diancie", Nickname: "\ue092", Level: 100 },
+                    { Pokemon: "Genesect", Nickname: "Aaaawx\ue098\ue098(", Level: 95 },
                 ],
                 Image: "img/ribbons/champion-hoenn.png",
                 FirstAttemptDate: "10d 21h 41m"
@@ -690,6 +690,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Plusle", "Time": "2020-08-20T15:44:11.469Z" },
             { "Group": "Pokemon", "Name": "Minun", "Time": "2020-08-20T15:49:42.424Z" },
             { "Group": "Pokemon", "Name": "Zygarde", "Time": "2020-08-20T16:37:49.866Z" },
+            { "Group": "Pokemon", "Name": "Castform", "Time": "2020-08-21T01:08:44.595Z" },
         ]
     }
 );
