@@ -43,6 +43,7 @@ Sidegames.Runs.push(
             { Group: "Pokemon", Name: "Aron", Time: "2020-06-01T19:20:54.000Z" },
             { Group: "Pokemon", Name: "Swampert", Time: "2020-07-18T16:53:19.000Z" },
             { Group: "Pokemon", Name: "Lileep", Time: "2020-07-30T14:05:35.000Z" },
+            { Group: "Pokemon", Name: "Tropius", Time: "2020-08-22T10:42:40.000Z" },
         ],
     }
 );
