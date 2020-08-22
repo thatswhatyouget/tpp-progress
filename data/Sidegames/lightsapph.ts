@@ -2,12 +2,12 @@
 Sidegames.Runs.push(
     {
         RunName: "Lightning Sapphire",
-        ColorPrimary: "#5b59bb",
-        ColorSecondary: "#313f89",
+        ColorPrimary: "#025ae3",
+        ColorSecondary: "#00e2de",
         StartDate: "2020-05-11T22:30:55.000Z",
         Duration: "255w",
         HostName: "URF",
-        HostImage: "img/hosts/marina.png",
+        HostImage: "img/hosts/urf.png",
         // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/9pkxol/hannah_the_ninja_master/",
         Region: "Hoenn",
         Generation: 3,
