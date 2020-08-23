@@ -16,6 +16,7 @@ Season1.Runs.push(
         Region: "Hoenn",
         Generation: 3,
         Pokedex: "Hoenn",
+        FinalStateLink:"./states/Season 1/emerald.json", 
         Events: [
             {
                 Group: "Badges",

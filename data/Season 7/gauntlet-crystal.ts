@@ -14,6 +14,7 @@ Season7.Runs.push(
         AdditionalRegions: [{ Name: "Kanto", Time: "2020-02-29T10:22:33.940Z" }],
         Generation: 2,
         Pokedex: "New",
+        FinalStateLink:"./states/Season 7/gauntlet-crystal.json", 
         Events: [
             {
                 Group: "Badges",

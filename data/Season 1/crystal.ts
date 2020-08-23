@@ -17,6 +17,7 @@ Season1.Runs.push(
         AdditionalRegions: [{ Name: "Kanto", Time: "10d 0h 56m" }],
         Generation: 2,
         Pokedex: "New",
+        FinalStateLink:"./states/Season 1/crystal.json", 
         Events: [
             {
                 Group: "Badges",

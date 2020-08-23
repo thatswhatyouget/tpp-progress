@@ -14,6 +14,7 @@ Season1.Runs.push(
         Pokedex: "New Unova",
         TPPOrgLink: "http://twitchplayspokemon.org/black2",
         DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/black-2-archive",
+        FinalStateLink:"./states/Season 1/black2.json", 
         Events: [
             {
                 Group: "Badges",

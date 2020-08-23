@@ -12,6 +12,7 @@ Season6.Runs.push(
         Region: "Hoenn",
         Generation: 3,
         Pokedex: "National",
+        FinalStateLink: "./states/Season 6/trihardemerald.json",
         Events: [
             { Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png", Time: "2019-08-11T05:12:30.163Z", Attempts: 1 },
             { Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png", Time: "2019-08-11T11:42:26.597Z", Attempts: 1 },

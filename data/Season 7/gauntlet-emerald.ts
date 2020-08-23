@@ -13,6 +13,7 @@ Season7.Runs.push(
         Region: "Hoenn",
         Generation: 3,
         Pokedex: "National",
+        FinalStateLink:"./states/Season 7/gauntlet-emerald.json", 
         Events: [
             {
                 Group: "Badges",

@@ -14,6 +14,7 @@ Revisits.Runs.push(
         Region: "Kanto",
         AdditionalRegions: [{ Name: "Johto", Time: "2020-03-19T10:39:50.494Z" }],
         Pokedex: "Art Book",
+        FinalStateLink:"./states/Season 7/touhoumon-revist.json", 
         Events: [
             {
                 Group: "Badges",

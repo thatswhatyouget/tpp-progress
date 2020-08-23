@@ -13,6 +13,7 @@ Season7.Runs.push(
         Region: "Kanto",
         Generation: 1,
         Pokedex: "Kanto",
+        FinalStateLink:"./states/Season 7/gauntlet-red.json", 
         Events: [
             {
                 Group: "Badges",

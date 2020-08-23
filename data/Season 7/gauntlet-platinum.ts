@@ -13,6 +13,7 @@ Season7.Runs.push(
         Region: "Sinnoh",
         Generation: 4,
         Pokedex: "National",
+        FinalStateLink:"./states/Season 7/gauntlet-platinum.json", 
         Events: [
             {
                 Group: "Badges",

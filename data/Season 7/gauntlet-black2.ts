@@ -13,6 +13,7 @@ Season7.Runs.push(
         Region: "Unova",
         Generation: 5,
         Pokedex: "National",
+        FinalStateLink:"./states/Season 7/gauntlet-black2.json", 
         Events: [
             {
                 Group: "Badges",
