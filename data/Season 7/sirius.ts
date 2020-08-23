@@ -11,6 +11,7 @@ Season7.Runs.push(
         // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/fer2cx/nia_gropius_host_of_gauntlet_emerald_concept/",
         Region: "Hoenn",
         Pokedex: "Altair/Sirius (Hoenn)",
+        FinalStateLink:"./states/Season 7/sirius.json", 
         Events: [
             {
                 Group: "Badges",
