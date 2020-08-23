@@ -117,6 +117,7 @@ declare namespace TPP {
         DocumentLink?: string;
         LiveUpdaterArchive?: string;
         TPPOrgLink?: string;
+        FinalStateLink?: string;
         LastScreenshot?: string;
         SidegameId?: string;
     }

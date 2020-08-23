@@ -8,10 +8,11 @@ Season7.Runs.push(
         Duration: "12d22h16m",
         HostName: "ébneert",
         HostImage: "img/hosts/ébneert.png",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/iax219/all_hail_king_%C3%A9bnert_the_first/",
+          HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/iax219/all_hail_king_%C3%A9bnert_the_first/",
         Region: "Hoenn",
         Generation: 6,
         Pokedex: "National",
+        FinalStateLink:"./states/Season 7/risingruby.json", 
         Events: [
             {
                 Group: "Badges",
