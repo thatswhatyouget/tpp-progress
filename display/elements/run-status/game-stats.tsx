@@ -30,7 +30,7 @@ namespace TPP.Display.Elements.RunStatus {
         render() {
             let name = this.props.name;
             let value = this.props.value.toLocaleString();
-            if (timeDetectExp.test(name) || playTimeDetectExp.test(name)) {
+            if (timeDetectExp.test(name)) {
                 const dur = new Duration(0);
                 dur.TotalSeconds = this.props.value;
                 value = dur.toString(dur.TotalDays >= 1 ? TPP.Scale.Days : dur.TotalHours >= 1 ? TPP.Scale.Hours : TPP.Scale.Minutes);
