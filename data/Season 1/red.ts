@@ -16,7 +16,7 @@ Season1.Runs.push(
         Region: "Kanto",
         Generation: 1,
         Pokedex: "Kanto",
-        FinalStateLink:"./states/Season 1/red.json", 
+        // FinalStateLink:"./states/Season 1/red.json", 
         Events: [
             {
                 Group: "Badges",
