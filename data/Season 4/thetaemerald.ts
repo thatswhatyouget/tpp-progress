@@ -11,6 +11,7 @@ Season4.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/74edfi/acacia_aka_acapella_the_party_girl/",
         Region: "Hoenn",
         Generation: 6,
+        FinalStateLink:"./states/Season 4/teex.json", 
         Events: [
             { Name: "Torchic", Time: "14m", Group: "Pokemon" },
             { Name: "Hoppip", Time: "1h7m", Group: "Pokemon" },

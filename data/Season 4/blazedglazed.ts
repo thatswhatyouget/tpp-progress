@@ -21,6 +21,7 @@ Season4.Runs.push(
         //     pokemon: true
         // },
         TPPOrgLink: "http://twitchplayspokemon.org/",
+        FinalStateLink:"./states/Season 4/blazedglazed.json", 
         Events: [
             { Group: "Pokemon", Name: "Turtwig", Time: "10m" },
             { Group: "Pokemon", Name: "Poochyena", Time: "1h34m" },

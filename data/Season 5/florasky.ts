@@ -12,6 +12,7 @@ Season5.Runs.push(
         Region: "Flora",
         BaseGame: "Emerald",
         Pokedex: "Flora",
+        FinalStateLink:"./states/Season 5/florasky.json", 
         Events: [
             { Group: "Badges", Name: "Kungfu Badge", Image: "img/badges/florasky/kungfu.png", Time: "0d 7h 6m", Attempts: 3, Class: "pixel-art" },
             { Group: "Badges", Name: "Normal Badge", Image: "img/badges/florasky/normal.png", Time: "0d 22h 40m", Attempts: 2, Class: "pixel-art" },

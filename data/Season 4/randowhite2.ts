@@ -13,6 +13,7 @@ Season4.Runs.push(
         Generation: 5,
         Pokedex: "National",
         TPPOrgLink: "http://twitchplayspokemon.org/",
+        FinalStateLink:"./states/Season 4/randowhite2.json", 
         Events: [
             { Name: "Mudkip", Time: "8m", Group: "Pokemon" },
             { Name: "Cottonee", Time: "31m", Group: "Pokemon" },

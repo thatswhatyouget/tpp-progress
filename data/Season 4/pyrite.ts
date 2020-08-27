@@ -13,6 +13,7 @@ Season4.Runs.push(
         AdditionalRegions: [{ Name: "Kanto", Time: "9d14h" }],
         Generation: 2,
         Pokedex: "New",
+        FinalStateLink:"./states/Season 4/pyrite.json", 
         Events: [
             { Name: "Totodile", Time: "6m", Group: "Pokemon" },
             { Name: "Sentret", Time: "2h5m", Group: "Pokemon" },
