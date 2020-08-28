@@ -24,7 +24,9 @@ var globalPpd: number = 64, groups: { [key: string]: string } = {};
 var vidWait: JQueryDeferred<Twitch.Video[]> = $.Deferred(), videos = vidWait.promise(),
     getTwitchVideos = function () {
         var $li = $('.controls .fa-twitch').removeClass('fa-twitch').addClass('fa-pulse fa-spinner').removeAttr('onclick').attr('title', 'Loading...').parent();
-        Twitch.GetVideos("twitchplayspokemon").then(vidWait.resolve, vidWait.reject).then(() => $li.fadeOut());
+        //Twitch.GetVideos("twitchplayspokemon").then(vidWait.resolve, vidWait.reject).then(() => $li.fadeOut());
+        vidWait.resolve([]);
+        $li.fadeOut();
     };
 
 function makeGrid(ppd: number) {
@@ -153,7 +155,7 @@ function updateRun(runInfo: TPP.Run, run: HTMLDivElement, scale) {
         run.setAttribute("data-label", runInfo.RunName + ": " + Duration.parse(runInfo.Duration, runInfo.StartTime).toString(scale));
         runInfo.Events.filter(e => e.New).forEach(event => run.appendChild(drawEvent(event, runInfo, scale)));
         scaleRun(run);
-        if ($(run).find('.videos a').is('*')) drawVideos(runInfo, run, scale, Twitch.GetVideos("twitchplayspokemon", false));
+        //if ($(run).find('.videos a').is('*')) drawVideos(runInfo, run, scale);
     });
     setTimeout(() => updateRun(runInfo, run, scale), 15 * 60000);
 }
@@ -420,36 +422,25 @@ function updatePage(ppd = globalPpd) {
 
 function drawVideos(baseRunInfo: TPP.Run, runElement: HTMLDivElement, scale: TPP.Scale, videoCollection = videos) {
     var vidDiv = $('<div class="videos">').appendTo(runElement);
-    videoCollection.then(vids => vids.filter(vid => (vid.StartTime < baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds) && (vid.EndTime > baseRunInfo.StartTime)
-    ).forEach(vid => {
-        var time = vid.StartTime - baseRunInfo.StartTime, startOffset = 0, duration = new Duration(vid.duration).TotalSeconds, vidStart = new Duration(0), vidEnd = new Duration(0),
-            runEnd = baseRunInfo.StartTime + new Duration(baseRunInfo.Duration).TotalSeconds;
-        if (vid.StartTime < baseRunInfo.StartTime) {
-            time = 0;
-            duration -= (startOffset = baseRunInfo.StartTime - vid.StartTime);
-        }
-        if (vid.EndTime > runEnd && !baseRunInfo.Ongoing) duration -= vid.EndTime - runEnd;
-        vidStart.TotalSeconds = time;
-        vidEnd.TotalSeconds = duration;
-        var $video = $(runElement).find('.videos a[href="' + vid.url + '"]');
-        if (!$video.is('*')) {
-            $video = $("<a target='_blank'>").addClass(vid.source.toLowerCase()).attr('href', vid.url).appendTo(vidDiv).mousemove(function (e) {
-                var vidTime = new Duration(0), runTime = new Duration(0), percentage = (Math.abs(e.pageX - $(this).offset().left) / $(this).width()),
-                    time = Duration.parse($(this).data('time')).TotalSeconds, duration = Duration.parse($(this).data('duration')).TotalSeconds;
-                vidTime.TotalSeconds = (percentage * duration) + startOffset;
-                runTime.TotalSeconds = (percentage * duration) + time;
-                $(this).attr('href', vid.url + "?t=" + vidTime.toString(TPP.Scale.Hours).replace(/\s/g, ''));
-                $(this).find('.playhead').css('left', percentage * $(this).width()).attr('data-label', runTime.toString(scale));
-            }).click(e => e.stopPropagation()).append($("<div class='playhead'>"));
-        }
-        $video.attr('data-time', vidStart.toString()).attr('data-duration', vidEnd.toString());
+    videoCollection.then(() => {
+        var duration = new Duration(baseRunInfo.Duration);
+        var $video = $("<a target='_blank'>").addClass('twitch').appendTo(vidDiv).mousemove(function (e) {
+            var percentage = (Math.abs(e.pageX - $(this).offset().left) / $(this).width());
+            var runTime = new Duration(0);
+            runTime.TotalSeconds = (percentage * duration.TotalSeconds);
+            var realTime = new Date((baseRunInfo.StartTime + runTime.TotalSeconds) * 1000);
+            $(this).attr('href', `https://tpp.chat/jump/vod/${realTime.toISOString()}`);
+            $(this).find('.playhead').css('left', percentage * $(this).width()).attr('data-label', `${runTime.toString(scale)}\n${realTime.toLocaleString()}`);
+        }).click(e => e.stopPropagation()).append($("<div class='playhead'>"));
+        $video.attr('data-time', new Duration(0).toString()).attr('data-duration', duration.toString());
         $(runElement).addClass("hasVideos");
         if (!$("#group-videos").is('*'))
             $("<li>")
                 .append($('<input type="checkbox" id="group-videos" checked>').change(function () { $("div.videos").toggleClass('hidden', $(this).val()); }))
                 .append($('<label for="group-videos">').text("Videos"))
                 .appendTo($("li.groups ul"));
-    })).then(() => setTimeout(() => scaleRun(runElement), 0));
+        setTimeout(() => scaleRun(runElement), 0);
+    });
 }
 
 class HeatMap {
