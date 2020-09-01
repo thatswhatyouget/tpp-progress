@@ -175,7 +175,7 @@ Sidegames.Runs.push(
             { "Group": "Pokemon", "Name": "Deoxys", "Time": "2019-09-21T15:38:27.000Z" },
             { "Group": "Pokemon", "Name": "Ralts", "Time": "2019-09-22T06:33:00.000Z" },
             { "Group": "Pokemon", "Name": "Sealeo", "Time": "2019-09-22T14:36:36.000Z" },
-            { "Group": "Pokemon", "Name": "Pigeot", "Time": "2019-09-23T04:09:53.000Z" },
+            { "Group": "Pokemon", "Name": "Pidgeot", "Time": "2019-09-23T04:09:53.000Z" },
             { "Group": "Pokemon", "Name": "Entei", "Time": "2019-09-23T17:22:25.000Z" },
             { "Group": "Pokemon", "Name": "Vaporeon", "Time": "2019-09-23T23:39:29.000Z" },
             { "Group": "Pokemon", "Name": "Tyrogue", "Time": "2019-09-24T08:16:00.000Z" },
