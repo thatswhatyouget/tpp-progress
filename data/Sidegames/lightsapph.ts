@@ -20,7 +20,7 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Daqi Medal", Image: "img/badges/dynamo.png", Time: "2020-07-08T16:12:44.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Magic Force Medal", Image: "img/badges/heat.png", Time: "2020-07-27T02:17:33.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Balance Medal", Image: "img/badges/balance.png", Time: "2020-08-02T08:26:50.000Z", Attempts: 1 },
-            { Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Chaohua Medal", Image: "img/badges/feather.png", Time: "2020-08-28T20:46:43.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
 
@@ -31,7 +31,7 @@ Sidegames.Runs.push(
                     { Pokemon: "Wingull", Nickname: "tpp", Level: 12, Gender: "Male", Number: 278, IDNo: "43055" },
                     { Pokemon: "Zigzagoon", Nickname: "Racc", Level: 8, Gender: "Female", Number: 263, IDNo: "43055" },
                     { Pokemon: "Aron", Nickname: "Tiny", Level: 16, Gender: "Male", Number: 304, IDNo: "43055" },
-                ], 
+                ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
             },
@@ -43,6 +43,7 @@ Sidegames.Runs.push(
             { Group: "Pokemon", Name: "Aron", Time: "2020-06-01T19:20:54.000Z" },
             { Group: "Pokemon", Name: "Swampert", Time: "2020-07-18T16:53:19.000Z" },
             { Group: "Pokemon", Name: "Lileep", Time: "2020-07-30T14:05:35.000Z" },
+            { Group: "Pokemon", Name: "Tropius", Time: "2020-08-22T10:42:40.000Z" },
         ],
     }
 );
