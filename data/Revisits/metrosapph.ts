@@ -81,7 +81,7 @@ Revisits.Runs.push(
             { "Group": "Pokemon", "Name": "Armaldo", "Time": "2019-12-15T15:49:00.695Z" },
             { "Group": "Pokemon", "Name": "Wailord", "Time": "2019-12-15T15:57:40.865Z" },
             { "Group": "Pokemon", "Name": "Sunkern", "Time": "2019-12-15T17:23:23.715Z" },
-            { "Group": "Pokemon", "Name": "Pilowswine", "Time": "2019-12-15T17:42:17.134Z" },
+            { "Group": "Pokemon", "Name": "Piloswine", "Time": "2019-12-15T17:42:17.134Z" },
             { "Group": "Pokemon", "Name": "Ivysaur", "Time": "2019-12-15T20:05:53.682Z" },
             { "Group": "Pokemon", "Name": "Baltoy", "Time": "2019-12-15T20:45:28.331Z" },
             { "Group": "Pokemon", "Name": "Raikou", "Time": "2019-12-15T21:31:03.049Z" },
