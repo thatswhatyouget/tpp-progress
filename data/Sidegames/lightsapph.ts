@@ -8,7 +8,7 @@ Sidegames.Runs.push(
         Duration: "255w",
         HostName: "URF",
         HostImage: "img/hosts/urf.png",
-        // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/9pkxol/hannah_the_ninja_master/",
+        HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
         Region: "Hoenn",
         Generation: 3,
         Pokedex: "Hoenn",

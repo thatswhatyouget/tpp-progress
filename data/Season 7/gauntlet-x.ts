@@ -8,7 +8,7 @@ Season7.Runs.push(
         StartDate: "2020-05-03T21:00:00Z",
         HostName: "Etr",
         HostImage: "img/hosts/etr.png",
-        // HostImageSource: "http://haykira.deviantart.com/art/Li-l-d-from-Twitch-Plays-Pokemon-X-Y-471845274",
+        HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
         Region: "Kalos",
         Generation: 6,
         Pokedex: "National",
