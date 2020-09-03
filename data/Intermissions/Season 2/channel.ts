@@ -1,7 +1,7 @@
 /// <reference path="../../tpp-data.ts" />
 Intermissions.Runs.push(
     {
-        RunName: "Channel",
+        RunName: "Channel (Part 1)",
         ColorPrimary: "#f5c53c",
         ColorSecondary: "#0a71dc",
         StartDate: "2015-10-11T20:51:39Z",
@@ -22,7 +22,7 @@ Intermissions.Runs.push(
 );
 Intermissions.Runs.push(
     {
-        RunName: "Channel",
+        RunName: "Channel (Part 2)",
         ColorPrimary: "#f5c53c",
         ColorSecondary: "#0a71dc",
         StartDate: "2015-12-11T21:59:24.000Z",
@@ -33,6 +33,6 @@ Intermissions.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5qo9dy/the_hosts_of_the_voices_before_season_4/",
         Unfinished: true,
         Events: [],
-        CopyEvents: ["Channel"],
+        CopyEvents: ["Channel (Part 1)"],
     }
 );
