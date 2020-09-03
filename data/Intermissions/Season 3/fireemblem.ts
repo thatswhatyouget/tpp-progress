@@ -9,16 +9,16 @@ Intermissions.Runs.push(
         Unfinished: true,
         Duration: "2016-04-08T22:05:00Z",
         HostName: "Eirika",
-        HostImage: "http://vignette1.wikia.nocookie.net/fireemblem/images/b/b0/Eirikaingame.gif/revision/latest?cb=20090813125046",
-        HostImageSource: "http://fireemblem.wikia.com/wiki/Eirika",
+        HostImage: "https://vignette.wikia.nocookie.net/fireemblem/images/2/27/FETSS_Eirika_Portrait.png/revision/latest?cb=20170729110802",
+        HostImageSource: "https://fireemblem.fandom.com/wiki/Eirika",
         Class: "squarehost",
         Events: [
             {
                 Group: "Hosts",
                 Name: "Eirika",
                 Time: "2016-04-08T14:03:00Z",
-                Image: "http://vignette1.wikia.nocookie.net/fireemblem/images/b/b0/Eirikaingame.gif/revision/latest?cb=20090813125046",
-                ImageSource: "http://fireemblem.wikia.com/wiki/Eirika",
+                Image: "https://vignette.wikia.nocookie.net/fireemblem/images/2/27/FETSS_Eirika_Portrait.png/revision/latest?cb=20170729110802",
+                ImageSource: "https://fireemblem.fandom.com/wiki/Eirika",
                 Class: "squarehost"
             },
         ],
