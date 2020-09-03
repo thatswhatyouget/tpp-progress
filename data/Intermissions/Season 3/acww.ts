@@ -9,7 +9,7 @@ Intermissions.Runs.push(
         Unfinished: true,
         HostName: "111",
         HostImage: "img/hosts/other/villager.png",
-        HostImageSource: "https://nookipedia.com/wiki/File:BoyAAA.png",
+        HostImageSource: "https://nookipedia.com/wiki/File:BoyAAA_CF_Model.png",
         Region: "Animal Crossing",
         Events: []
     }
