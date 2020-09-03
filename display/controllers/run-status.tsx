@@ -18,6 +18,9 @@ namespace TPP.Controllers {
             var tppData = TPP.Transforms.Data.Processing.MarkOngoingRuns(this.tppData);
             var run = this.queryString["run"] ? TPP.Display.RunStatus.GetSpecifiedRun(tppData, this.queryString["run"]) : TPP.Display.RunStatus.GetCurrentRun(TPP.Transforms.Data.Filter.RemoveFutureRuns(tppData));
             var natDex = TPP.Transforms.Pokedex.ClipNationalDex(run.DexTotal || dexData.GenSlice[run.Generation || 0]);
+            if (run.RunName.indexOf("Burning Red") >= 0) {
+                natDex.push("Phancero");
+            }
             if (run.RunName.indexOf("Metronome Sapphire") >= 0) {
                 natDex.push("Meltan");
                 natDex.push("Melmetal");
