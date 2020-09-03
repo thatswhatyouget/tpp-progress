@@ -11,13 +11,15 @@ Season4.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5w92xx/the_hosts_of_the_voices_after_the_4th_anniversary/",
         Region: "Kanto",
         BaseGame: "Yellow",
+        Generation: 1,
+        LiveUpdaterArchive: "https://www.reddit.com/live/ye5bm0i3opg5/",
         // Scraper: {
         //     url: "http://twitchplayspokemon.org/",
         //     runtime: true,
         //     parts: [],
         //     pokemon: true
         // },
-        TPPOrgLink: "http://twitchplayspokemon.org/",
+        TPPOrgLink: "https://twitchplayspokemon.org/chatty/",
         Events: [
             { Name: "Chatot", Time: "7m19s", Group: "Pokemon" },
             { "Group": "Badges", "Name": "Poooound (Boulder) Badge", "Time": "4h42m", "Attempts": 3, "Image": "https://static-cdn.jtvnw.net/emoticons/v1/117484/3.0" },

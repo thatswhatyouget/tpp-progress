@@ -18,6 +18,9 @@ namespace TPP.Controllers {
             var tppData = TPP.Transforms.Data.Processing.MarkOngoingRuns(this.tppData);
             var run = this.queryString["run"] ? TPP.Display.RunStatus.GetSpecifiedRun(tppData, this.queryString["run"]) : TPP.Display.RunStatus.GetCurrentRun(TPP.Transforms.Data.Filter.RemoveFutureRuns(tppData));
             var natDex = TPP.Transforms.Pokedex.ClipNationalDex(run.DexTotal || dexData.GenSlice[run.Generation || 0]);
+            if (run.RunName.indexOf("Chatty Yellow") >= 0) {
+                natDex.push("Chatot");
+            }
             if (run.RunName.indexOf("Burning Red") >= 0) {
                 natDex.push("Phancero");
             }
@@ -26,9 +29,6 @@ namespace TPP.Controllers {
                 natDex.push("Melmetal");
             }
             var pokemon = TPP.Transforms.Pokedex.DexMerge(dexData.Regional[run.Pokedex || run.Region], natDex);
-            if (run.RunName == "Chatty Yellow") {
-                pokemon.push("Chatot");
-            }
             function fillDex(run) {
                 tppData.forEach(c => {
                     for (var i = 0; i < c.Runs.length; i++) {
