@@ -1,5 +1,5 @@
 /// <reference path="../../tpp-data.ts" />
-Season6.Runs.push(
+Intermissions.Runs.push(
     {
         RunName: "FireRed (Italian)",
         ColorPrimary: "#ff7e1b",
