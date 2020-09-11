@@ -2,8 +2,8 @@
 Intermissions.Runs.push(
     {
         RunName: "LeafGreen (Spanish)",
-        ColorPrimary: "#5b59bb",
-        ColorSecondary: "#313f89",
+        ColorPrimary: "#a5d610",
+        ColorSecondary: "#005221",
         StartDate: "2020-03-04T07:00:12.784Z",
         Duration: "2020-03-04T09:15:12.978Z",
         HostName: "MMNNN",
