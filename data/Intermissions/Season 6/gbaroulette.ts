@@ -21,7 +21,7 @@ Intermissions.Runs.push(
         ColorPrimary: "#a6d410",
         ColorSecondary: "#072b03",
         StartDate: "2019-08-20T18:35:54.000Z",
-        Duration: "2019-08-11T03:59:57.000Z",
+        Duration: "2019-08-21T03:59:57.000Z",
         Unfinished: true,
         ContainsRunsFrom: ["Intermissions", "Short Intermissions"],
         // HostImage: "img/hosts/roulette/madden.gif",
