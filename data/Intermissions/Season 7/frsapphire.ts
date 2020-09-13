@@ -7,14 +7,14 @@ Intermissions.Runs.push(
         StartDate: "2020-03-03T20:45:09.832Z",
         Duration: "2020-03-03T21:25:09.679Z",
         HostName: "SUUU---",
-        HostImage: "img/hosts/marina.png",
-        // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/9pkxol/hannah_the_ninja_master/",
+        HostImage: "img/hosts/qq.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Hoenn",
         Generation: 3,
         Pokedex: "Hoenn",
         Unfinished: true,
         Events: [
-            {  Group: "Pokemon", Name: "POUSSIFEU", Class: "Torchic", Time: "2020-03-03T21:00:38.956Z" },
+            {  Group: "Pokemon", Name: "Torchic", Time: "2020-03-03T21:00:38.956Z" },
         ],
     }
 );

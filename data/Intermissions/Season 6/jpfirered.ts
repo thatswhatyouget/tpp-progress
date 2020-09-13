@@ -14,7 +14,7 @@ Intermissions.Runs.push(
         Pokedex: "Kanto",
         Unfinished: true,
         Events: [
-            {  Group: "Pokemon", Name: "ヒトカゲ", Class: "Charmander", Time: "2019-08-21T00:45:27.744Z" },
+            {  Group: "Pokemon", Name: "Charmander", Time: "2019-08-21T00:45:27.744Z" },
         ]
     }
 );

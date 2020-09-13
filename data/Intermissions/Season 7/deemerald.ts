@@ -14,7 +14,7 @@ Intermissions.Runs.push(
         Pokedex: "Hoenn",
         Unfinished: true,
         Events: [
-            {  Group: "Pokemon", Name: "HYDROPI", Class: "Mudkip", Time: "2020-03-03T13:16:30.258Z" },
+            {  Group: "Pokemon", Name: "Mudkip", Time: "2020-03-03T13:16:30.258Z" },
         ]
     }
 );
