@@ -15,3 +15,19 @@ Intermissions.Runs.push(
         ]
     }
 );
+Intermissions.Runs.push(
+    {
+        RunName: "GameBoy Advance Roulette 4",
+        ColorPrimary: "#a6d410",
+        ColorSecondary: "#072b03",
+        StartDate: "2020-06-13T01:39:30.000Z",
+        Duration: "2020-06-13T20:29:45.000Z",
+        Unfinished: true,
+        ContainsRunsFrom: ["Intermissions", "Short Intermissions"],
+        // HostImage: "img/hosts/roulette/madden.gif",
+        // HostName: "John Madden\nMadden '95",
+        // Class: "squarehost",
+        Events: [
+        ]
+    }
+);
