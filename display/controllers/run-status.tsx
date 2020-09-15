@@ -24,7 +24,7 @@ namespace TPP.Controllers {
             if (run.RunName.indexOf("Burning Red") >= 0) {
                 natDex.push("Phancero");
             }
-            if (run.RunName.indexOf("Metronome Sapphire") >= 0) {
+            if (run.RunName.indexOf("Metronome Sapphire") >= 0 || run.RunName.indexOf("Metronome Ruby") >= 0) {
                 natDex.push("Meltan");
                 natDex.push("Melmetal");
             }
@@ -46,7 +46,7 @@ namespace TPP.Controllers {
             this.contentTitle = run.RunName + " Status";
 
             if (run.Ongoing)
-                this.credits[0] = "Live Data: [TwitchPlaysPokemon.tv](https://twitchplayspokemon.tv/) &nbsp;&nbsp Other " + this.credits[0];    
+                this.credits[0] = "Live Data: [TwitchPlaysPokemon.tv](https://twitchplayspokemon.tv/) &nbsp;&nbsp Other " + this.credits[0];
             if (run.TPPOrgLink || run.DocumentLink)
                 this.credits.push(["For more information about this run, check out ",
                     run.DocumentLink ? `[this document](${run.DocumentLink})` : null,
