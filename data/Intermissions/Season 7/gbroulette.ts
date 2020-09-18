@@ -1,11 +1,11 @@
 /// <reference path="../../tpp-data.ts" />
 Intermissions.Runs.push(
     {
-        RunName: "GameBoy Roulette 3",
+        RunName: "GameBoy Roulette 5",
         ColorPrimary: "#a6d410",
         ColorSecondary: "#072b03",
-        StartDate: "2018-06-08T23:01:30.000Z",
-        Duration: "2018-06-09T20:49:37.000Z",
+        StartDate: "2020-02-08T21:52:05.000Z",
+        Duration: "2020-02-13T00:38:47.000Z",
         Unfinished: true,
         // HostImage: "img/hosts/roulette/madden.gif",
         // HostName: "John Madden\nMadden '95",
@@ -16,11 +16,11 @@ Intermissions.Runs.push(
 );
 Intermissions.Runs.push(
     {
-        RunName: "GameBoy Roulette 4",
+        RunName: "GameBoy Roulette 6",
         ColorPrimary: "#a6d410",
         ColorSecondary: "#072b03",
-        StartDate: "2018-07-14T14:35:24.000Z",
-        Duration: "2018-07-15T14:22:25.000Z",
+        StartDate: "2020-02-21T16:26:21.000Z",
+        Duration: "2020-02-23T11:03:05.000Z",
         Unfinished: true,
         // HostImage: "img/hosts/roulette/madden.gif",
         // HostName: "John Madden\nMadden '95",

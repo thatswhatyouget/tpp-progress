@@ -21,7 +21,7 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Magic Force Medal", Image: "img/badges/heat.png", Time: "2020-07-27T02:17:33.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Balance Medal", Image: "img/badges/balance.png", Time: "2020-08-02T08:26:50.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Chaohua Medal", Image: "img/badges/feather.png", Time: "2020-08-28T20:46:43.000Z", Attempts: 1 },
-            { Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Maiyinde Medal", Image: "img/badges/mind.png", Time: "2020-09-12T00:35:19.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png", Time: "", Attempts: 0 },
 
             <TPP.HallOfFame>{

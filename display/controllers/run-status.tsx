@@ -18,14 +18,17 @@ namespace TPP.Controllers {
             var tppData = TPP.Transforms.Data.Processing.MarkOngoingRuns(this.tppData);
             var run = this.queryString["run"] ? TPP.Display.RunStatus.GetSpecifiedRun(tppData, this.queryString["run"]) : TPP.Display.RunStatus.GetCurrentRun(TPP.Transforms.Data.Filter.RemoveFutureRuns(tppData));
             var natDex = TPP.Transforms.Pokedex.ClipNationalDex(run.DexTotal || dexData.GenSlice[run.Generation || 0]);
-            if (run.RunName.indexOf("Metronome Sapphire") >= 0) {
+            if (run.RunName.indexOf("Chatty Yellow") >= 0) {
+                natDex.push("Chatot");
+            }
+            if (run.RunName.indexOf("Burning Red") >= 0) {
+                natDex.push("Phancero");
+            }
+            if (run.RunName.indexOf("Metronome Sapphire") >= 0 || run.RunName.indexOf("Metronome Ruby") >= 0) {
                 natDex.push("Meltan");
                 natDex.push("Melmetal");
             }
             var pokemon = TPP.Transforms.Pokedex.DexMerge(dexData.Regional[run.Pokedex || run.Region], natDex);
-            if (run.RunName == "Chatty Yellow") {
-                pokemon.push("Chatot");
-            }
             function fillDex(run) {
                 tppData.forEach(c => {
                     for (var i = 0; i < c.Runs.length; i++) {
@@ -43,7 +46,7 @@ namespace TPP.Controllers {
             this.contentTitle = run.RunName + " Status";
 
             if (run.Ongoing)
-                this.credits[0] = "Live Data: [TwitchPlaysPokemon.tv](https://twitchplayspokemon.tv/) &nbsp;&nbsp Other " + this.credits[0];    
+                this.credits[0] = "Live Data: [TwitchPlaysPokemon.tv](https://twitchplayspokemon.tv/) &nbsp;&nbsp Other " + this.credits[0];
             if (run.TPPOrgLink || run.DocumentLink)
                 this.credits.push(["For more information about this run, check out ",
                     run.DocumentLink ? `[this document](${run.DocumentLink})` : null,

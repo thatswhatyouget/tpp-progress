@@ -11,6 +11,7 @@ Season6.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/aq2qmu/kay_the_planeswalker/",
         BaseGame: "FireRed",
         Region: "Kanto",
+        Generation: 1,
         Events: [
             { Group: "Badges", Name: "Boulder Badge (FireRed)", Image: "img/badges/boulder.png", Time: "0d 11h 59m", Attempts: 8, Class: "top-half" },
             { Group: "Badges", Name: "Boulder Badge (Red)", Image: "img/badges/boulder.png", Time: "0d 9h 6m", Attempts: 1, Class: "bottom-half" },
