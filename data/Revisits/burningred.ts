@@ -16,7 +16,20 @@ Revisits.Runs.push(
             { Group: "Past Hosts", Name: "Cyan", Image: "img/hosts/cyan.png", Time: "2019-03-13T01:00:58.991Z", Attempts: 18, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/56y6bj/cyan_cyanchan/" },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-03-13T13:47:09.551Z", IDNo: "02156", Attempts: 14, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-03-13T11:29:55.750Z", IDNo: "02156", Attempts: 13, Party: [
+                    { Pokemon: "Mewtwo", Nickname: ",UUCDWWWWW", Level: 70, Number: 150, IDNo: "02156" },
+                    { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 91, Number: 121, IDNo: "02156" },
+                    { Pokemon: "Raticate", Nickname: "JJKSS", Level: 69, Gender: "Male", Number: 20, IDNo: "02156" },
+                    { Pokemon: "Phancero", Nickname: "AAATUUUUUU", Level: 42, Number: 152, IDNo: "02156" },
+                    { Pokemon: "Blissey", Nickname: "X", Level: 86, Gender: "Female", Number: 242, IDNo: "02156" },
+                    { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 77, Gender: "Male", Number: 106, IDNo: "02156" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "2019-03-12T01:38:48.807Z",
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-03-13T13:47:09.551Z", IDNo: "02156", Attempts: 1, Party: [
                     { Pokemon: "Mewtwo", Nickname: ",UUCDWWWWW", Level: 70, Number: 150, IDNo: "02156" },
                     { Pokemon: "Starmie", Nickname: "AA-×ZZG--♂", Level: 91, Number: 121, IDNo: "02156" },
                     { Pokemon: "Raticate", Nickname: "JJKSS", Level: 69, Gender: "Male", Number: 20, IDNo: "02156" },
@@ -25,7 +38,7 @@ Revisits.Runs.push(
                     { Pokemon: "Hitmonlee", Nickname: "DD)", Level: 77, Gender: "Male", Number: 106, IDNo: "02156" },
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate: "2019-03-12T01:38:48.807Z",
+                FirstAttemptDate: "2019-03-13T12:22:52.006Z",
             },
 
             { "Group": "Pokemon", "Name": "Slugma", "Time": "2019-03-11T02:02:08.072Z" },
