@@ -1,7 +1,7 @@
 /// <reference path="../../tpp-data.ts" />
 Intermissions.Runs.push(
     {
-        RunName: "Mystery Dungeon: Explorers of the Sky (Randomised)",
+        RunName: "Mystery Dungeon: Explorers of the Sky (Randomized)",
         ColorPrimary: "#9bbb59",
         ColorSecondary: "#71893f",
         StartDate: "2020-03-25T18:23:23.000Z",
