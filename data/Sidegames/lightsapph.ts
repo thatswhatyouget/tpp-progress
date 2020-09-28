@@ -24,6 +24,13 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Maiyinde Medal", Image: "img/badges/mind.png", Time: "2020-09-12T00:35:19.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Leiyin Medal", Image: "img/badges/rain.png", Time: "2020-09-28T14:09:07.000Z", Attempts: 1 },
 
+            { Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 0 },
+
+            { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "", Attempts: 0 },
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "43055", Attempts: 0, Party: [
                     { Pokemon: "Swampert", Nickname: "BUTT", Level: 41, Gender: "Male", Number: 260, IDNo: "43055" },
