@@ -259,3 +259,23 @@ Revisits.Runs.push(
         CopyEvents: ["Sword"],
     }
 );
+Revisits.Runs.push(
+    {
+        RunName: "Sword Revisit - Crown Tundra",
+        ColorSecondary: "black",
+        ColorPrimary: "#00A0E9",
+        StartDate: "2020-10-24T21:00:00.000Z",
+        Duration: "1w",
+        HostName: ":::?89977re",
+        HostImage: "img/hosts/89977re.gif",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/e1c95e/rey_collins_the_girl_with_rainbow_eyes/",
+        Region: "Galar",
+        Generation: 8,
+        Pokedex: "Crown Tundra",
+        Events: [
+
+        ],
+        Revisit: { Collection: "Revisits", Run: "Sword Revisit - Isle of Armor" },
+        CopyEvents: ["Sword Revisit - Isle of Armor"],
+    }
+);
