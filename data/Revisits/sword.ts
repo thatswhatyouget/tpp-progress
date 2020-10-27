@@ -273,6 +273,45 @@ Revisits.Runs.push(
         Generation: 8,
         Pokedex: "Crown Tundra",
         Events: [
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2020-10-26T10:07:00.857Z", IDNo: "790618", Attempts: 2, Party: [
+                    { Pokemon: "Armaldo", Gender: "Female", Level: 74, Type1: "Rock", Type2: "Bug", Number: 348, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Regirock", Level: 74, Type1: "Rock", Number: 377, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Gardevoir", Nickname: "Hentaı", Gender: "Female", Level: 67, Shiny: true, Type1: "Psychic", Type2: "Fairy", Number: 282, OT: "Wahi", IDNo: "449862" },
+                    { Pokemon: "Cradily", Nickname: "qaaaa", Gender: "Male", Level: 82, Type1: "Rock", Type2: "Grass", Number: 346, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Porygon-Z", Nickname: "tppsimulator", Level: 100, Type1: "Normal", Number: 474, OT: "Sam", IDNo: "605364" },
+                    { Pokemon: "Charizard", Gender: "Male", Level: 100, Shiny: true, Type1: "Fire", Type2: "Flying", Number: 6, OT: "Slyis", IDNo: "993401" },
+                ],
+                Image: "img/ribbons/champion-galar.png",
+                FirstAttemptDate: "2020-10-26T08:05:45.000Z",
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2020-10-27T16:49:10.627Z", IDNo: "790618", Attempts: 2, Party: [
+                    { Pokemon: "Excadrill", Nickname: "CEO’’(+ ~##~", Gender: "Female", Level: 100, Type1: "Ground", Type2: "Steel", Number: 530, OT: "ébneert", IDNo: "64436" },
+                    { Pokemon: "Diancie", Level: 64, Type1: "Rock", Type2: "Fairy", Number: 719, OT: "OCT2014", IDNo: "10274" },
+                    { Pokemon: "Swampert", Gender: "Male", Level: 54, Type1: "Water", Type2: "Ground", Number: 260, OT: "YGS520", IDNo: "609059" },
+                    { Pokemon: "Porygon-Z", Nickname: "tppsimulator", Level: 100, Type1: "Normal", Number: 474, OT: "Sam", IDNo: "605364" },
+                    { Pokemon: "Charizard", Gender: "Male", Level: 100, Shiny: true, Type1: "Fire", Type2: "Flying", Number: 6, OT: "Slyis", IDNo: "993401" },
+                    { Pokemon: "Tyrantrum", Gender: "Male", Level: 80, Shiny: true, Type1: "Rock", Type2: "Dragon", Number: 697, OT: "Alicia", IDNo: "278619" },
+                ],
+                Image: "img/ribbons/champion-galar.png",
+                FirstAttemptDate: "2020-10-27T15:45:15.000Z",
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2020-10-27T17:40:26.418Z", IDNo: "790618", Attempts: 1, Party: [
+                    { Pokemon: "Excadrill", Nickname: "CEO’’(+ ~##~", Gender: "Female", Level: 100, Type1: "Ground", Type2: "Steel", Number: 530, OT: "ébneert", IDNo: "64436" },
+                    { Pokemon: "Diancie", Level: 69, Type1: "Rock", Type2: "Fairy", Number: 719, OT: "OCT2014", IDNo: "10274" },
+                    { Pokemon: "Swampert", Gender: "Male", Level: 62, Type1: "Water", Type2: "Ground", Number: 260, OT: "YGS520", IDNo: "609059" },
+                    { Pokemon: "Porygon-Z", Nickname: "tppsimulator", Level: 100, Type1: "Normal", Number: 474, OT: "Sam", IDNo: "605364" },
+                    { Pokemon: "Charizard", Gender: "Male", Level: 100, Shiny: true, Type1: "Fire", Type2: "Flying", Number: 6, OT: "Slyis", IDNo: "993401" },
+                    { Pokemon: "Tyrantrum", Gender: "Male", Level: 84, Shiny: true, Type1: "Rock", Type2: "Dragon", Number: 697, OT: "Alicia", IDNo: "278619" },
+                ],
+                Image: "img/ribbons/champion-galar.png",
+                FirstAttemptDate: "2020-10-27T16:58:10.000Z",
+            },
+
             { "Group": "Pokemon", "Name": "Mime Jr.", "Time": "2020-10-24T21:33:21Z" },
             { "Group": "Pokemon", "Name": "Jynx", "Time": "2020-10-24T21:36:17Z" },
             { "Group": "Pokemon", "Name": "Cryogonal", "Time": "2020-10-24T22:42:36Z" },

@@ -136,6 +136,7 @@ setTimeout(() => {
     //autonumber unnumbered Hall of Fame/Champion Tournament entries
     tppData.forEach(c => c.Runs.forEach(r => r.Events.filter(e => (<TPP.HallOfFame>e).Party && e.Name.toLowerCase().trim() == "hall of fame").forEach((hof, i, hofArr) => hof.Name += hofArr.length > 1 ? " #" + (i + 1) : "")));
     tppData.forEach(c => c.Runs.forEach(r => r.Events.filter(e => (<TPP.HallOfFame>e).Party && e.Name.toLowerCase().trim() == "champion tournament").forEach((hof, i, hofArr) => hof.Name += hofArr.length > 1 ? " #" + (i + 1) : "")));
+    tppData.forEach(c => c.Runs.forEach(r => r.Events.filter(e => (<TPP.HallOfFame>e).Party && e.Name.toLowerCase().trim() == "galarian star tournament").forEach((hof, i, hofArr) => hof.Name += hofArr.length > 1 ? " #" + (i + 1) : "")));
 
     //filter out empty collections
     tppData = tppData.filter(c => c.Runs.length > 0);
