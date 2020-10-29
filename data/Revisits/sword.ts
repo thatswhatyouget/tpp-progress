@@ -265,7 +265,7 @@ Revisits.Runs.push(
         ColorSecondary: "black",
         ColorPrimary: "#00A0E9",
         StartDate: "2020-10-24T21:00:00.000Z",
-        Duration: "255w",
+        Duration: "2020-10-29T09:35:00.000Z",
         HostName: ":::?89977re",
         HostImage: "img/hosts/89977re.gif",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/e1c95e/rey_collins_the_girl_with_rainbow_eyes/",
