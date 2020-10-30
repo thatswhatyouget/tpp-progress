@@ -1982,6 +1982,11 @@
 .pokesprite.kubfu img { background-position: 0px -891em!important; }
 .pokesprite.urshifu img { background-position: 0px -892em!important; }
 .pokesprite.zarude img { background-position: 0px -893em!important; }
+.pokesprite.regieleki img { background-position: 0px -894em!important; }
+.pokesprite.regidrago img { background-position: 0px -895em!important; }
+.pokesprite.glastrier img { background-position: 0px -896em!important; }
+.pokesprite.spectrier img { background-position: 0px -897em!important; }
+.pokesprite.calyrex img { background-position: 0px -898em!important; }
 .alola .pokesprite.rattata img { background-image:url('../img/pokemon-alola.png')!important; background-position: 0px -0em!important; }
 .alola .pokesprite.raticate img { background-image:url('../img/pokemon-alola.png')!important; background-position: 0px -1em!important; }
 .alola .pokesprite.raichu img { background-image:url('../img/pokemon-alola.png')!important; background-position: 0px -2em!important; }

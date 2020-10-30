@@ -97,3 +97,17 @@ Intermissions.Runs.push(
         Events: [],
     }
 );
+Intermissions.Runs.push(
+    {
+        RunName: "Phoenix Wright: Ace Attorney - Spirit of Justice",
+        ColorPrimary: "#f8f1ad",
+        ColorSecondary: "#a8924f",
+        BackgroundImage: "linear-gradient(to bottom, rgba(255,255,255,1) 25%, rgba(248,241,173,1) 55%, rgba(168,146,79,1) 100%)",
+        StartDate: "2020-10-11T00:48:35.000Z",
+        Duration: "2020-10-14T08:45:15.000Z",
+        HostName: "Phoenix Wright",
+        HostImage: "img/hosts/other/phoenix.png",
+        HostImageSource: "https://aceattorney.fandom.com/wiki/Phoenix_Wright",
+        Events: [],
+    }
+);
