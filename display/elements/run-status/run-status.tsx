@@ -227,6 +227,7 @@ namespace TPP.Display.Elements.RunStatus {
                         {this.badgesOutOfDate ? <h6>Outdated</h6> : null}
                     </EventDisplay>
                     <GameStats key="Game Stats" title="Stats" gameStats={this.state.status.game_stats} />
+                    <ItemDisplay key="Candy" title="Candy" items={this.state.status.items.candy} />
                     <ItemDisplay key="Items" title="Items" items={this.state.status.items.items} />
                     <ItemDisplay key="Key Items" title="Key Items" items={this.state.status.items.key} />
                     <ItemDisplay key="Key Items FR" title="Key Items (FireRed)" items={this.state.status.items["key_firered"]} />
