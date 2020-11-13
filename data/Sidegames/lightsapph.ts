@@ -25,7 +25,7 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Leiyin Medal", Image: "img/badges/rain.png", Time: "2020-09-28T14:09:07.000Z", Attempts: 1 },
 
             { Group: "Elite Four", Name: "Four-mastr", Image: "img/trainers/emerald/sidney.png", Time: "2020-11-12T17:30:35.000Z", Attempts: 1 },
-            { Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Four-mastr", Image: "img/trainers/emerald/phoebe.png", Time: "2020-11-13T00:42:47.000Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 0 },
 
