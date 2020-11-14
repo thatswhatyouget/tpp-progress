@@ -27,7 +27,7 @@ Sidegames.Runs.push(
             { Group: "Elite Four", Name: "Four-mastr", Image: "img/trainers/emerald/sidney.png", Time: "2020-11-12T17:30:35.000Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Four-mastr", Image: "img/trainers/emerald/phoebe.png", Time: "2020-11-13T00:42:47.000Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Four-mastr", Image: "img/trainers/emerald/glacia.png", Time: "2020-11-13T13:41:21.000Z", Attempts: 1 },
-            { Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png", Time: "", Attempts: 0 },
+            { Group: "Elite Four", Name: "Four-mastr", Image: "img/trainers/emerald/drake.png", Time: "2020-11-14T03:52:49.000Z", Attempts: 1 },
 
             { Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png", Time: "", Attempts: 0 },
 
