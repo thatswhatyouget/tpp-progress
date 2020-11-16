@@ -111,3 +111,16 @@ Intermissions.Runs.push(
         Events: [],
     }
 );
+Intermissions.Runs.push(
+    {
+        RunName: "The Great Ace Attorney: The Adventures of Ryuunosuke Naruhodou",
+        ColorPrimary: "#fdd575",
+        ColorSecondary: "#180505",
+        StartDate: "2020-11-14T21:55:00.000Z",
+        Duration: "2020-11-16T22:53:00.000Z",
+        HostName: "Ryuunosuke Naruhodou",
+        HostImage: "img/hosts/other/ryuunosuke.png",
+        HostImageSource: "https://aceattorney.fandom.com/wiki/Ry%C5%ABnosuke_Naruhod%C5%8D",
+        Events: [],
+    }
+);
