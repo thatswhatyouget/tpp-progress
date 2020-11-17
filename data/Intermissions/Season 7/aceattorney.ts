@@ -124,3 +124,17 @@ Intermissions.Runs.push(
         Events: [],
     }
 );
+Intermissions.Runs.push(
+    {
+        RunName: "The Great Ace Attorney 2: The Resolve of Ryuunosuke Naruhodou",
+        ColorPrimary: "#79191d",
+        ColorSecondary: "#190705",
+        StartDate: "2020-11-16T22:55:00.000Z",
+        Duration: "2020-11-17T20:51:25.000Z",
+        Unfinished: true,
+        HostName: "Ryuunosuke Naruhodou",
+        HostImage: "img/hosts/other/ryuunosuke.png",
+        HostImageSource: "https://aceattorney.fandom.com/wiki/Ry%C5%ABnosuke_Naruhod%C5%8D",
+        Events: [],
+    }
+);
