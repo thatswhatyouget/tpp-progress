@@ -32,11 +32,13 @@ Sidegames.Runs.push(
             { Group: "Champions", Name: "Fighter", Image: "img/trainers/emerald/steven.png", Time: "2020-11-28T04:35:32.000Z", Attempts: 1 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "43055", Attempts: 1, Party: [
-                    { Pokemon: "Swampert", Nickname: "BUTT", Level: 41, Gender: "Male", Number: 260, IDNo: "43055" },
-                    { Pokemon: "Lileep", Nickname: "WAH", Level: 20, Gender: "Male", Number: 345, IDNo: "43055" },
-                    { Pokemon: "Zigzagoon", Nickname: "Racc", Level: 8, Gender: "Female", Number: 263, IDNo: "43055" },
-                    { Pokemon: "Aron", Nickname: "Tiny", Level: 16, Gender: "Male", Number: 304, IDNo: "43055" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-11-18T07:12:09.000Z", IDNo: "43055", Attempts: 1, Party: [
+                    { Pokemon: "Kyogre", Nickname: "UwU", Level: 55, Number: 198, IDNo: "43055" },
+                    { Pokemon: "Swampert", Nickname: "BUTT", Level: 58, Gender: "Male", Number: 9, IDNo: "43055" },
+                    { Pokemon: "Zigzagoon", Nickname: "Racc", Level: 9, Gender: "Female", Number: 12, IDNo: "43055" },
+                    { Pokemon: "Tropius", Nickname: "Neck", Level: 26, Gender: "Female", Number: 150, IDNo: "43055" },
+                    { Pokemon: "Lileep", Nickname: "WAH", Level: 22, Gender: "Male", Number: 133, IDNo: "43055" },
+                    { Pokemon: "Aron", Nickname: "Tiny", Level: 16, Gender: "Male", Number: 70, IDNo: "43055" },
                 ],
                 FirstAttemptDate: "2020-11-12T15:56:53.000Z",
                 Image: "img/ribbons/champion.png"
