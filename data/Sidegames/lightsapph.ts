@@ -29,7 +29,7 @@ Sidegames.Runs.push(
             { Group: "Elite Four", Name: "Four-mastr", Image: "img/trainers/emerald/glacia.png", Time: "2020-11-13T13:41:21.000Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Four-mastr", Image: "img/trainers/emerald/drake.png", Time: "2020-11-14T03:52:49.000Z", Attempts: 1 },
 
-            { Group: "Champions", Name: "Fighter", Image: "img/trainers/emerald/steven.png", Time: "2020-11-28T04:35:32.000Z", Attempts: 1 },
+            { Group: "Champions", Name: "Fighter", Image: "img/trainers/emerald/steven.png", Time: "2020-11-18T04:35:32.000Z", Attempts: 1 },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-11-18T07:12:09.000Z", IDNo: "43055", Attempts: 1, Party: [
