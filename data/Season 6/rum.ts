@@ -13,6 +13,7 @@ Season6.Runs.push(
         Region: "Alola",
         Generation: 7,
         Pokedex: "National",
+        FinalStateLink: "./states/Season 6/rum.json",
         Events: [
             { "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "2019-10-13T06:16:12.115Z", "Attempts": 0 },
             { "Group": "Badges", "Name": "Fightinium Z", "Image": "img/z-crystals/Fightinium Z.png", "Time": "2019-10-13T12:38:10.843Z", "Attempts": 2 },
