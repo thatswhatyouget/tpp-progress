@@ -12,6 +12,7 @@ Season7.Runs.push(
         Region: "Kalos",
         Generation: 6,
         Pokedex: "National",
+        FinalStateLink:"./states/Season 7/gauntlet-x.json",
         Events: [
             {
                 Group: "Badges",
