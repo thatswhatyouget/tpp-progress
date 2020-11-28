@@ -38,8 +38,8 @@ Season6.Runs.push(
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "6d4h49m43s", Attempts: 15, Party: [
                     { Pokemon: "Leavanny", Nickname: "AYY", Gender: "Male", Level: 80 },
                     { Pokemon: "Garchomp", Nickname: "GarWG%chom", Gender: "Male", Level: 81 },
-                    { Pokemon: "Walrein", Nickname: "TorracatNIII", Gender: "Female", Level: 84 },
-                    { Pokemon: "Charizard", Nickname: "BCharGizard", Gender: "Female", Level: 80 },
+                    { Pokemon: "Walrein", Nickname: "TorracatNIII", Gender: "Male", Level: 84 },
+                    { Pokemon: "Charizard", Nickname: "BCharGizard", Gender: "Male", Level: 80 },
                     { Pokemon: "Hydreigon", Nickname: "ACccccccccc", Gender: "Female", Level: 71 },
                     { Pokemon: "Aromatisse", Nickname: "Arom”", Gender: "Female", Level: 89 },
                 ],
@@ -52,59 +52,59 @@ Season6.Runs.push(
             { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "2019-10-19T23:00:53.689Z", "Attempts": 1, "Class": "rematch", "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "2019-10-22T16:32:48.110Z", "Attempts": 2, "Class": "rematch", "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
             { "Group": "Champions", "Name": "Hau", "Time": "2019-10-22T16:47:16.382Z", "Attempts": 1, "Class": "rematch", "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
-            // <TPP.HallOfFame>{
-            //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-10-22T16:47:36.010Z", Attempts: 3, Party: [
-            //         { Pokemon: "Leavanny", Nickname: "AYY", Gender: "Male", Level: 80 },
-            //         { Pokemon: "Garchomp", Nickname: "GarWG%chom", Gender: "Male", Level: 81 },
-            //         { Pokemon: "Walrein", Nickname: "TorracatNIII", Gender: "Female", Level: 84 },
-            //         { Pokemon: "Charizard", Nickname: "BCharGizard", Gender: "Female", Level: 80 },
-            //         { Pokemon: "Hydreigon", Nickname: "ACccccccccc", Gender: "Female", Level: 71 },
-            //         { Pokemon: "Aromatisse", Nickname: "Arom”", Gender: "Female", Level: 89 },
-            //     ],
-            //     Image: "img/ribbons/champion-alola.png",
-            //     FirstAttemptDate: "2019-10-19T22:53:19.856Z"
-            // },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-10-22T16:47:36.010Z", Attempts: 3, Party: [
+                    { Pokemon: "Garchomp", Nickname: "GarWG%chom", Gender: "Male", Level: 96 },
+                    { Pokemon: "Walrein", Nickname: "Walr", Gender: "Male", Level: 100 },
+                    { Pokemon: "Leavanny", Nickname: "AYY", Gender: "Male", Level: 92 },
+                    { Pokemon: "Aromatisse", Nickname: "Arom”", Gender: "Female", Level: 100 },
+                    { Pokemon: "Hydreigon", Nickname: "ACccccccccc", Gender: "Female", Level: 100 },
+                    { Pokemon: "Charizard", Nickname: "BCharGizard", Gender: "Male", Level: 98 },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: "2019-10-19T22:53:19.856Z"
+            },
 
             { "Group": "Champions", "Name": "Hapu", "Time": "2019-10-22T22:19:06.063Z", "Attempts": 1, "Image": "img/trainers/sun/hapu.png", "ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Hapu-651473867" },
-            // <TPP.HallOfFame>{
-            //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-10-22T22:19:29.672Z", Attempts: 2, Party: [
-            //         { Pokemon: "Leavanny", Nickname: "AYY", Gender: "Male", Level: 80 },
-            //         { Pokemon: "Garchomp", Nickname: "GarWG%chom", Gender: "Male", Level: 81 },
-            //         { Pokemon: "Walrein", Nickname: "TorracatNIII", Gender: "Female", Level: 84 },
-            //         { Pokemon: "Charizard", Nickname: "BCharGizard", Gender: "Female", Level: 80 },
-            //         { Pokemon: "Hydreigon", Nickname: "ACccccccccc", Gender: "Female", Level: 71 },
-            //         { Pokemon: "Aromatisse", Nickname: "Arom”", Gender: "Female", Level: 89 },
-            //     ],
-            //     Image: "img/ribbons/champion-alola.png",
-            //     FirstAttemptDate: "2019-10-22T20:32:34.094Z"
-            // },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-10-22T22:19:29.672Z", Attempts: 2, Party: [
+                    { Pokemon: "Garchomp", Nickname: "GarWG%chom", Gender: "Male", Level: 97 },
+                    { Pokemon: "Aromatisse", Nickname: "Arom”", Gender: "Female", Level: 100 },
+                    { Pokemon: "Hydreigon", Nickname: "ACccccccccc", Gender: "Male", Level: 100 },
+                    { Pokemon: "Charizard", Nickname: "BCharGizard", Gender: "Female", Level: 100 },
+                    { Pokemon: "Leavanny", Nickname: "AYY", Gender: "Male", Level: 94 },
+                    { Pokemon: "Walrein", Nickname: "Walr", Gender: "Male", Level: 100 },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: "2019-10-22T20:32:34.094Z"
+            },
 
             { "Group": "Champions", "Name": "Kukui", "Time": "2019-10-22T23:45:23.849Z", "Attempts": 1, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
-            // <TPP.HallOfFame>{
-            //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-10-22T23:45:49.300Z", Attempts: 1, Party: [
-            //         { Pokemon: "Leavanny", Nickname: "AYY", Gender: "Male", Level: 80 },
-            //         { Pokemon: "Garchomp", Nickname: "GarWG%chom", Gender: "Male", Level: 81 },
-            //         { Pokemon: "Walrein", Nickname: "TorracatNIII", Gender: "Female", Level: 84 },
-            //         { Pokemon: "Charizard", Nickname: "BCharGizard", Gender: "Female", Level: 80 },
-            //         { Pokemon: "Hydreigon", Nickname: "ACccccccccc", Gender: "Female", Level: 71 },
-            //         { Pokemon: "Aromatisse", Nickname: "Arom”", Gender: "Female", Level: 89 },
-            //     ],
-            //     Image: "img/ribbons/champion-alola.png",
-            //     FirstAttemptDate: "2019-10-22T22:26:02.442Z"
-            // },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-10-22T23:45:49.300Z", Attempts: 1, Party: [
+                    { Pokemon: "Garchomp", Nickname: "GarWG%chom", Gender: "Male", Level: 97 },
+                    { Pokemon: "Aromatisse", Nickname: "Arom”", Gender: "Female", Level: 100 },
+                    { Pokemon: "Hydreigon", Nickname: "ACccccccccc", Gender: "Male", Level: 100 },
+                    { Pokemon: "Charizard", Nickname: "BCharGizard", Gender: "Female", Level: 100 },
+                    { Pokemon: "Leavanny", Nickname: "AYY", Gender: "Male", Level: 95 },
+                    { Pokemon: "Walrein", Nickname: "Walr", Gender: "Male", Level: 100 },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: "2019-10-22T22:26:02.442Z"
+            },
 
-            // <TPP.HallOfFame>{
-            //     Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-10-23T12:46:45.923Z", Attempts: 1, Party: [
-            //         { Pokemon: "Leavanny", Nickname: "AYY", Gender: "Male", Level: 80 },
-            //         { Pokemon: "Garchomp", Nickname: "GarWG%chom", Gender: "Male", Level: 81 },
-            //         { Pokemon: "Walrein", Nickname: "TorracatNIII", Gender: "Female", Level: 84 },
-            //         { Pokemon: "Charizard", Nickname: "BCharGizard", Gender: "Female", Level: 80 },
-            //         { Pokemon: "Hydreigon", Nickname: "ACccccccccc", Gender: "Female", Level: 71 },
-            //         { Pokemon: "Aromatisse", Nickname: "Arom”", Gender: "Female", Level: 89 },
-            //     ],
-            //     Image: "img/ribbons/champion-alola.png",
-            //     FirstAttemptDate: "2019-10-23T12:17:05.669Z"
-            // },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-10-23T12:46:45.923Z", Attempts: 1, Party: [
+                    { Pokemon: "Garchomp", Nickname: "GarWG%chom", Gender: "Male", Level: 98 },
+                    { Pokemon: "Aromatisse", Nickname: "Arom”", Gender: "Female", Level: 100 },
+                    { Pokemon: "Hydreigon", Nickname: "ACccccccccc", Gender: "Female", Level: 100 },
+                    { Pokemon: "Charizard", Nickname: "BCharGizard", Gender: "Male", Level: 100 },
+                    { Pokemon: "Leavanny", Nickname: "AYY", Gender: "Male", Level: 98 },
+                    { Pokemon: "Walrein", Nickname: "Walr", Gender: "Male", Level: 100 },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: "2019-10-23T12:17:05.669Z"
+            },
 
             { "Group": "Pokemon", "Name": "Fennekin", "Time": "2019-10-12T21:16:45.930Z" },
             { "Group": "Pokemon", "Name": "Morelull", "Time": "2019-10-12T22:10:13.048Z" },
