@@ -64,6 +64,7 @@ module Pokedex {
         "New Ula'ula Island": "alolan",
         "New Poni Island": "alolan",
         "Altair/Sirius (Hoenn)": "sirius",
+        "Tohoak": "vega",
     };
 
     export var runRestrictions: { [key: string]: string } = {};

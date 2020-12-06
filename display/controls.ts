@@ -50,6 +50,10 @@ function qsListMenu(icon: string, name: string, qsParam: string, options: string
     var menu = listControl(icon, name);
     var selected = QueryString[qsParam];
     QueryString[qsParam] = null;
+    if (options.length > 30)
+        menu.listElement.className = "very-long";
+    else if (options.length > 20)
+        menu.listElement.className = "long";
     options.forEach(i => {
         var option = document.createElement('li');
         var link = document.createElement('a');

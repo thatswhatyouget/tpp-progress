@@ -112,6 +112,10 @@
     background-image: url("../img/sirius-large.png")!important;
 }
 
+.vega .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/vega-large.png")!important;
+}
+
 .ms .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/pokemon.png")!important;
 }
@@ -130,4 +134,8 @@
 
 .ms.sirius .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/sirius-small.png")!important;
+}
+
+.ms.vega .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/vega-small.png")!important;
 }

@@ -84,6 +84,14 @@ ul.controls > li > ul {
     min-height:2em;
 }
 
+ul.controls > li > ul.long {
+	columns: 2;
+}
+
+ul.controls > li > ul.very-long {
+	columns: 3;
+}
+
 ul.controls > li > ul:before {
 	content:' ';
 	height:2.5em;
@@ -561,6 +569,9 @@ ul.controls > li > ul > li.selected > a:before {
 .progressChart  .sirius.run .event.pokemon.pokesprite img {
 	background-image:url("../img/sirius-small.png");
 }
+.progressChart  .vega.run .event.pokemon.pokesprite img {
+	background-image:url("../img/vega-small.png");
+}
 
 
 .progressChart .tradingcardgame .innertradingcardgame .event {
@@ -807,6 +818,10 @@ ul.controls > li > ul > li.selected > a:before {
 
 .hallOfFameDisplay.sirius .entry .pokesprite img {
 	background-image:url("../img/sirius-large.png")!important;
+}
+
+.hallOfFameDisplay.vega .entry .pokesprite img {
+	background-image:url("../img/vega-large.png")!important;
 }
 
 .hallOfFameDisplay .entry .info > * {

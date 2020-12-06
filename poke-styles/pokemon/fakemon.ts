@@ -27,3 +27,6 @@ addSingleStyle('.pokesprite.missingno img  { background-image:url("../img/missin
 
 //Sirius
 addStyles(Pokedex.Regional["Altair/Sirius (Hoenn)"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p)), defaultMapping("sirius"));
+
+//Vega
+addStyles(Pokedex.Regional["Tohoak"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p)), defaultMapping("vega"));
