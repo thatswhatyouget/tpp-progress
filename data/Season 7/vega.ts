@@ -121,11 +121,11 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Diglett", "Time": "2020-12-13T02:39:56.474Z" },
             { "Group": "Pokemon", "Name": "Rynos", "Time": "2020-12-13T02:52:03.387Z" },
             { "Group": "Pokemon", "Name": "Mintch", "Time": "2020-12-13T04:42:39.564Z" },
-            { "Group": "Pokemon", "Name": "Nidoran♀", "Time": "2020-12-13T04:48:34.039Z" },
-            { "Group": "Pokemon", "Name": "Nidoran♂", "Time": "2020-12-13T04:58:21.189Z" },
+            { "Group": "Pokemon", "Name": "NidoranF", "Time": "2020-12-13T04:48:34.039Z" },
+            { "Group": "Pokemon", "Name": "NidoranM", "Time": "2020-12-13T04:58:21.189Z" },
             { "Group": "Pokemon", "Name": "Cupricorn", "Time": "2020-12-13T05:00:40.927Z" },
-            { "Group": "Pokemon", "Name": "Clotaku", "Time": "2020-12-13T05:36:29.994Z" }
-
+            { "Group": "Pokemon", "Name": "Clotaku", "Time": "2020-12-13T05:36:29.994Z" },
+            { "Group": "Pokemon", "Name": "Willisp", "Time": "2020-12-13T05:46:10.960Z" },
         ]
     }
 );
