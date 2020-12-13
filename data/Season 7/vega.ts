@@ -23,8 +23,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Arneb Badge",
                 Image: "img/badges/arneb.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-12-13T21:39:10.773Z",
+                Attempts: 8
             },
             {
                 Group: "Badges",
@@ -126,6 +126,12 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Cupricorn", "Time": "2020-12-13T05:00:40.927Z" },
             { "Group": "Pokemon", "Name": "Clotaku", "Time": "2020-12-13T05:36:29.994Z" },
             { "Group": "Pokemon", "Name": "Willisp", "Time": "2020-12-13T05:46:10.960Z" },
+            { "Group": "Pokemon", "Name": "Baizeast", "Time": "2020-12-13T06:03:30.608Z" },
+            { "Group": "Pokemon", "Name": "Houndour", "Time": "2020-12-13T07:19:24.621Z" },
+            { "Group": "Pokemon", "Name": "Pichu", "Time": "2020-12-13T09:24:00.213Z" },
+            { "Group": "Pokemon", "Name": "Frozaiden", "Time": "2020-12-13T10:55:55.633Z" },
+            { "Group": "Pokemon", "Name": "Spelven", "Time": "2020-12-13T16:15:17.579Z" },
+            { "Group": "Pokemon", "Name": "Astignite", "Time": "2020-12-13T19:03:09.581Z" },
         ]
     }
 );
