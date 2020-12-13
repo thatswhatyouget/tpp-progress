@@ -16,8 +16,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Elnath Badge",
                 Image: "img/badges/elnath.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-12-13T00:57:58.333Z",
+                Attempts: 2
             },
             {
                 Group: "Badges",
@@ -110,6 +110,21 @@ Season7.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
 
+            { "Group": "Pokemon", "Name": "Peyero", "Time": "2020-12-12T21:06:32.218Z" },
+            { "Group": "Pokemon", "Name": "Glachild", "Time": "2020-12-12T21:31:47.628Z" },
+            { "Group": "Pokemon", "Name": "Pineco", "Time": "2020-12-12T22:15:55.730Z" },
+            { "Group": "Pokemon", "Name": "Togepi", "Time": "2020-12-12T22:17:51.265Z" },
+            { "Group": "Pokemon", "Name": "Taillow", "Time": "2020-12-12T22:21:51.802Z" },
+            { "Group": "Pokemon", "Name": "Infiris", "Time": "2020-12-13T00:05:59.601Z" },
+            { "Group": "Pokemon", "Name": "Hoothoot", "Time": "2020-12-13T01:25:26.074Z" },
+            { "Group": "Pokemon", "Name": "Rollder", "Time": "2020-12-13T02:35:58.422Z" },
+            { "Group": "Pokemon", "Name": "Diglett", "Time": "2020-12-13T02:39:56.474Z" },
+            { "Group": "Pokemon", "Name": "Rynos", "Time": "2020-12-13T02:52:03.387Z" },
+            { "Group": "Pokemon", "Name": "Mintch", "Time": "2020-12-13T04:42:39.564Z" },
+            { "Group": "Pokemon", "Name": "Nidoran♀", "Time": "2020-12-13T04:48:34.039Z" },
+            { "Group": "Pokemon", "Name": "Nidoran♂", "Time": "2020-12-13T04:58:21.189Z" },
+            { "Group": "Pokemon", "Name": "Cupricorn", "Time": "2020-12-13T05:00:40.927Z" },
+            { "Group": "Pokemon", "Name": "Clotaku", "Time": "2020-12-13T05:36:29.994Z" }
 
         ]
     }
