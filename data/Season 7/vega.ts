@@ -30,8 +30,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Phact Badge",
                 Image: "img/badges/phact.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-12-14T06:10:54.561Z",
+                Attempts: 13
             },
             {
                 Group: "Badges",
@@ -132,6 +132,13 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Frozaiden", "Time": "2020-12-13T10:55:55.633Z" },
             { "Group": "Pokemon", "Name": "Spelven", "Time": "2020-12-13T16:15:17.579Z" },
             { "Group": "Pokemon", "Name": "Astignite", "Time": "2020-12-13T19:03:09.581Z" },
+            { "Group": "Pokemon", "Name": "Jamberree", "Time": "2020-12-13T22:13:03.920Z" },
+            { "Group": "Pokemon", "Name": "Togetic", "Time": "2020-12-13T22:27:41.095Z" },
+            { "Group": "Pokemon", "Name": "Velvelt", "Time": "2020-12-13T22:53:23.250Z" },
+            { "Group": "Pokemon", "Name": "Psycolt", "Time": "2020-12-14T00:16:56.898Z" },
+            { "Group": "Pokemon", "Name": "Tropius", "Time": "2020-12-14T02:49:24.123Z" },
+            { "Group": "Pokemon", "Name": "Pikachu", "Time": "2020-12-14T03:16:49.384Z" },
+            { "Group": "Pokemon", "Name": "Machu", "Time": "2020-12-14T03:46:58.398Z" },
         ]
     }
 );
