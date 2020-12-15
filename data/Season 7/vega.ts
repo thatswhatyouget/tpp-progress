@@ -44,8 +44,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Gemma Badge",
                 Image: "img/badges/gemma.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-12-15T19:11:11.177Z",
+                Attempts: 4
             },
             {
                 Group: "Badges",
@@ -150,7 +150,11 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Ajarimus", "Time": "2020-12-15T04:17:41.141Z" },
             { "Group": "Pokemon", "Name": "Hornikel", "Time": "2020-12-15T04:24:02.344Z" },
             { "Group": "Pokemon", "Name": "Exeggcute", "Time": "2020-12-15T07:20:29.518Z" },
-            { "Group": "Pokemon", "Name": "Snalo", "Time": "2020-12-15T07:22:59.256Z" }
+            { "Group": "Pokemon", "Name": "Snalo", "Time": "2020-12-15T07:22:59.256Z" },
+            { "Group": "Pokemon", "Name": "Grindon", "Time": "2020-12-15T08:17:09.963Z" },
+            { "Group": "Pokemon", "Name": "Swellow", "Time": "2020-12-15T10:21:07.432Z" },
+            { "Group": "Pokemon", "Name": "Noctowl", "Time": "2020-12-15T12:13:37.737Z" },
+            { "Group": "Pokemon", "Name": "Scimitooth", "Time": "2020-12-15T16:54:12.966Z" },
         ]
     }
 );
