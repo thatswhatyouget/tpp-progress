@@ -37,8 +37,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Sarfah Badge",
                 Image: "img/badges/sarfah.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-12-15T06:43:36.094Z",
+                Attempts: 4
             },
             {
                 Group: "Badges",
@@ -139,6 +139,18 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Tropius", "Time": "2020-12-14T02:49:24.123Z" },
             { "Group": "Pokemon", "Name": "Pikachu", "Time": "2020-12-14T03:16:49.384Z" },
             { "Group": "Pokemon", "Name": "Machu", "Time": "2020-12-14T03:46:58.398Z" },
+            { "Group": "Pokemon", "Name": "Lileep", "Time": "2020-12-14T08:15:02.672Z" },
+            { "Group": "Pokemon", "Name": "Spheal", "Time": "2020-12-14T10:50:51.356Z" },
+            { "Group": "Pokemon", "Name": "Cuppa", "Time": "2020-12-14T11:21:59.916Z" },
+            { "Group": "Pokemon", "Name": "Buizel", "Time": "2020-12-14T11:30:54.706Z" },
+            { "Group": "Pokemon", "Name": "Aurostice", "Time": "2020-12-14T14:03:40.661Z" },
+            { "Group": "Pokemon", "Name": "Kinegasus", "Time": "2020-12-14T18:13:37.001Z" },
+            { "Group": "Pokemon", "Name": "Sealeo", "Time": "2020-12-15T01:56:06.373Z" },
+            { "Group": "Pokemon", "Name": "Miltank", "Time": "2020-12-15T04:12:46.403Z" },
+            { "Group": "Pokemon", "Name": "Ajarimus", "Time": "2020-12-15T04:17:41.141Z" },
+            { "Group": "Pokemon", "Name": "Hornikel", "Time": "2020-12-15T04:24:02.344Z" },
+            { "Group": "Pokemon", "Name": "Exeggcute", "Time": "2020-12-15T07:20:29.518Z" },
+            { "Group": "Pokemon", "Name": "Snalo", "Time": "2020-12-15T07:22:59.256Z" }
         ]
     }
 );
