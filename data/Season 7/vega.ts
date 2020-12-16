@@ -58,8 +58,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Prior Badge",
                 Image: "img/badges/prior.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-12-16T21:50:19.393Z",
+                Attempts: 9
             },
             {
                 Group: "Badges",
@@ -170,6 +170,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Togekiss", "Time": "2020-12-16T06:24:52.984Z" },
             { "Group": "Pokemon", "Name": "Larvitar", "Time": "2020-12-16T06:32:32.201Z" },
             { "Group": "Pokemon", "Name": "Shuckle", "Time": "2020-12-16T09:37:58.262Z" },
+            { "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2020-12-16T11:52:08.451Z" },
         ]
     }
 );
