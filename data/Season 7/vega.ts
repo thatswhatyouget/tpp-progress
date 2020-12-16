@@ -51,8 +51,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Hadar Badge",
                 Image: "img/badges/hadar.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-12-16T07:52:08.517Z",
+                Attempts: 6
             },
             {
                 Group: "Badges",
@@ -155,6 +155,21 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Swellow", "Time": "2020-12-15T10:21:07.432Z" },
             { "Group": "Pokemon", "Name": "Noctowl", "Time": "2020-12-15T12:13:37.737Z" },
             { "Group": "Pokemon", "Name": "Scimitooth", "Time": "2020-12-15T16:54:12.966Z" },
+            { "Group": "Pokemon", "Name": "Nidorino", "Time": "2020-12-15T19:59:51.865Z" },
+            { "Group": "Pokemon", "Name": "Nidorina", "Time": "2020-12-15T20:01:39.677Z" },
+            { "Group": "Pokemon", "Name": "Plasmox", "Time": "2020-12-15T20:05:47.316Z" },
+            { "Group": "Pokemon", "Name": "Blakjak", "Time": "2020-12-15T20:09:34.707Z" },
+            { "Group": "Pokemon", "Name": "Gastly", "Time": "2020-12-15T20:42:42.682Z" },
+            { "Group": "Pokemon", "Name": "Serplant", "Time": "2020-12-15T20:52:45.344Z" },
+            { "Group": "Pokemon", "Name": "Yucarlia", "Time": "2020-12-15T20:55:37.383Z" },
+            { "Group": "Pokemon", "Name": "Hantama", "Time": "2020-12-15T21:11:21.844Z" },
+            { "Group": "Pokemon", "Name": "Haunter", "Time": "2020-12-15T21:47:32.216Z" },
+            { "Group": "Pokemon", "Name": "Snover", "Time": "2020-12-15T23:04:15.235Z" },
+            { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "2020-12-16T05:27:57.377Z" },
+            { "Group": "Pokemon", "Name": "Dugtrio", "Time": "2020-12-16T05:45:35.883Z" },
+            { "Group": "Pokemon", "Name": "Togekiss", "Time": "2020-12-16T06:24:52.984Z" },
+            { "Group": "Pokemon", "Name": "Larvitar", "Time": "2020-12-16T06:32:32.201Z" },
+            { "Group": "Pokemon", "Name": "Shuckle", "Time": "2020-12-16T09:37:58.262Z" },
         ]
     }
 );
