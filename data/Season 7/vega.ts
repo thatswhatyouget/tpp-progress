@@ -65,8 +65,8 @@ Season7.Runs.push(
                 Group: "Badges",
                 Name: "Mirach Badge",
                 Image: "img/badges/mirach.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-12-17T14:47:31.034Z",
+                Attempts: 4
             },
             // {
             //     Group: "Elite Four",
@@ -171,6 +171,20 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Larvitar", "Time": "2020-12-16T06:32:32.201Z" },
             { "Group": "Pokemon", "Name": "Shuckle", "Time": "2020-12-16T09:37:58.262Z" },
             { "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2020-12-16T11:52:08.451Z" },
+            { "Group": "Pokemon", "Name": "Magby", "Time": "2020-12-17T01:40:50.925Z" },
+            { "Group": "Pokemon", "Name": "Mornwing", "Time": "2020-12-17T01:42:33.161Z" },
+            { "Group": "Pokemon", "Name": "Maneko", "Time": "2020-12-17T01:45:02.811Z" },
+            { "Group": "Pokemon", "Name": "Bakeko", "Time": "2020-12-17T02:11:43.772Z" },
+            { "Group": "Pokemon", "Name": "Magmar", "Time": "2020-12-17T02:27:03.370Z" },
+            { "Group": "Pokemon", "Name": "Floatzel", "Time": "2020-12-17T02:53:29.417Z" },
+            { "Group": "Pokemon", "Name": "Rotillo", "Time": "2020-12-17T07:36:48.832Z" },
+            { "Group": "Pokemon", "Name": "Guldawn", "Time": "2020-12-17T07:39:44.360Z" },
+            { "Group": "Pokemon", "Name": "Staryu", "Time": "2020-12-17T07:44:45.684Z" },
+            { "Group": "Pokemon", "Name": "Shellder", "Time": "2020-12-17T07:59:52.056Z" },
+            { "Group": "Pokemon", "Name": "Magnemite", "Time": "2020-12-17T08:25:14.650Z" },
+            { "Group": "Pokemon", "Name": "Magneton", "Time": "2020-12-17T08:26:59.959Z" },
+            { "Group": "Pokemon", "Name": "Electabuzz", "Time": "2020-12-17T08:53:15.422Z" },
+            { "Group": "Pokemon", "Name": "Elekid", "Time": "2020-12-17T09:08:52.860Z" },
         ]
     }
 );
