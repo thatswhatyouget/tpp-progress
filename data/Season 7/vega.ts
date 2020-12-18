@@ -68,45 +68,45 @@ Season7.Runs.push(
                 Time: "2020-12-17T14:47:31.034Z",
                 Attempts: 4
             },
-            // {
-            //     Group: "Elite Four",
-            //     Name: "Phil",
-            //     Image: "img/trainers/sirius/phil.png",
-            //     Time: "",
-            //     Attempts: 0
-            // },
-            // {
-            //     Group: "Elite Four",
-            //     Name: "Athena",
-            //     Image: "img/trainers/sirius/athena.png",
-            //     Time: "",
-            //     Attempts: 0
-            // },
-            // {
-            //     Group: "Elite Four",
-            //     Name: "Mosmero",
-            //     Image: "img/trainers/sirius/mosmero.png",
-            //     Time: "",
-            //     Attempts: 0
-            // },
-            // {
-            //     Group: "Elite Four",
-            //     Name: "Norman",
-            //     Image: "img/trainers/sirius/norman.png",
-            //     Time: "",
-            //     Attempts: 0
-            // },
-            // {
-            //     Group: "Champions",
-            //     Name: "Wally",
-            //     Image: "img/trainers/sirius/wally.png",
-            //     Time: "",
-            //     Attempts: 0
-            // },
+            {
+                Group: "Elite Four",
+                Name: "Theodore",
+                Image: "img/trainers/vega/theodore.png",
+                Time: "2020-12-18T00:40:54.365Z",
+                Attempts: 4
+            },
+            {
+                Group: "Elite Four",
+                Name: "Vanessa",
+                Image: "img/trainers/vega/vanessa.png",
+                Time: "2020-12-18T03:11:47.199Z",
+                Attempts: 4
+            },
+            {
+                Group: "Elite Four",
+                Name: "Irene",
+                Image: "img/trainers/vega/irene.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Elite Four",
+                Name: "Cole",
+                Image: "img/trainers/vega/cole.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Champions",
+                Name: "Sylvia",
+                Image: "img/trainers/vega/sylvia.png",
+                Time: "",
+                Attempts: 0
+            },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2020-12-18T00:08:09.839Z",
                 Image: "img/ribbons/champion.png"
             },
 
@@ -185,6 +185,13 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Magneton", "Time": "2020-12-17T08:26:59.959Z" },
             { "Group": "Pokemon", "Name": "Electabuzz", "Time": "2020-12-17T08:53:15.422Z" },
             { "Group": "Pokemon", "Name": "Elekid", "Time": "2020-12-17T09:08:52.860Z" },
+            { "Group": "Pokemon", "Name": "Nemea", "Time": "2020-12-17T17:03:47.816Z" },
+            { "Group": "Pokemon", "Name": "Laquagon", "Time": "2020-12-17T18:14:54.447Z" },
+            { "Group": "Pokemon", "Name": "Dragune", "Time": "2020-12-17T18:24:02.004Z" },
+            { "Group": "Pokemon", "Name": "Grissly", "Time": "2020-12-17T20:41:30.578Z" },
+            { "Group": "Pokemon", "Name": "Rhydon", "Time": "2020-12-17T21:49:41.714Z" },
+            { "Group": "Pokemon", "Name": "Gible", "Time": "2020-12-17T22:16:46.685Z" },
+            { "Group": "Pokemon", "Name": "Nostratos", "Time": "2020-12-18T01:40:15.932Z" },
         ]
     }
 );
