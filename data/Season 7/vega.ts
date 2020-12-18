@@ -86,15 +86,15 @@ Season7.Runs.push(
                 Group: "Elite Four",
                 Name: "Irene",
                 Image: "img/trainers/vega/irene.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-12-18T13:13:42.270Z",
+                Attempts: 5
             },
             {
                 Group: "Elite Four",
                 Name: "Cole",
                 Image: "img/trainers/vega/cole.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-12-18T13:29:53.818Z",
+                Attempts: 1
             },
             {
                 Group: "Champions",
