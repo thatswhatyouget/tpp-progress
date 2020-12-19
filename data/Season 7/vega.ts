@@ -100,11 +100,17 @@ Season7.Runs.push(
                 Group: "Champions",
                 Name: "Sylvia",
                 Image: "img/trainers/vega/sylvia.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-12-19T01:05:19.792Z",
+                Attempts: 8
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-12-19T01:06:00Z", Attempts: 54, Party: [
+                    { Pokemon: "Kinegasus", Nickname: "ppeeffyz", Level: 65, Gender: "Female", Number: 44, IDNo: "23401" },
+                    { Pokemon: "Nostratos", Nickname: "TGMONNVV", Level: 78, Gender: "Female", Number: 135, IDNo: "23401" },
+                    { Pokemon: "Togekiss", Nickname: "BBCVVIIKKL", Level: 83, Gender: "Male", Number: 20, IDNo: "23401" },
+                    { Pokemon: "Serplant", Nickname: "P,....ef", Level: 87, Gender: "Male", Number: 84, IDNo: "23401" },
+                    { Pokemon: "Machu", Nickname: "A  Oxxwqw", Level: 85, Gender: "Male", Number: 27, IDNo: "23401" },
+                    { Pokemon: "Scimitooth", Nickname: "AAAAAAAGGG", Level: 69, Gender: "Male", Number: 122, IDNo: "23401" },
                 ],
                 FirstAttemptDate: "2020-12-18T00:08:09.839Z",
                 Image: "img/ribbons/champion.png"
@@ -192,6 +198,14 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Rhydon", "Time": "2020-12-17T21:49:41.714Z" },
             { "Group": "Pokemon", "Name": "Gible", "Time": "2020-12-17T22:16:46.685Z" },
             { "Group": "Pokemon", "Name": "Nostratos", "Time": "2020-12-18T01:40:15.932Z" },
+            { "Group": "Pokemon", "Name": "Duskull", "Time": "2020-12-19T01:24:22.938Z" },
+            { "Group": "Pokemon", "Name": "Strawick", "Time": "2020-12-19T01:28:11.115Z" },
+            { "Group": "Pokemon", "Name": "Shuppet", "Time": "2020-12-19T01:32:52.510Z" },
+            { "Group": "Pokemon", "Name": "Rumpet", "Time": "2020-12-19T01:54:56.252Z" },
+            { "Group": "Pokemon", "Name": "Violo", "Time": "2020-12-19T01:57:24.514Z" },
+            { "Group": "Pokemon", "Name": "Pumpkid", "Time": "2020-12-19T02:33:25.708Z" },
+            { "Group": "Pokemon", "Name": "Pianon", "Time": "2020-12-19T02:47:20.854Z" },
+            { "Group": "Pokemon", "Name": "Phantonate", "Time": "2020-12-19T03:04:32.630Z" },
         ]
     }
 );
