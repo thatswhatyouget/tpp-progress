@@ -22,7 +22,7 @@ namespace TPP.Display.Elements.RunStatus {
     }
 
     const secondsDetectExp = /(Seconds Spent)/i;
-    const timeDetectExp= /\bTime\b/i;
+    const timeDetectExp = /\bTime\b/i;
     const percentDetectExp = /Percentage/i;
     const moneyDetectExp = /Money/i;
 
@@ -30,7 +30,13 @@ namespace TPP.Display.Elements.RunStatus {
         render() {
             let name = this.props.name;
             let value = this.props.value.toLocaleString();
-            if (secondsDetectExp.test(name) || timeDetectExp.test(name)) {
+            if (timeDetectExp.test(name))
+                value = new Duration(0)
+                    .AddHours(this.props.value >> 16)
+                    .AddMinutes((this.props.value >> 8) & 0xFF)
+                    .AddSeconds(this.props.value & 0xFF)
+                    .toString();
+            else if (secondsDetectExp.test(name)) {
                 const dur = new Duration(0);
                 dur.TotalSeconds = this.props.value;
                 value = dur.toString(dur.TotalDays >= 1 ? TPP.Scale.Days : dur.TotalHours >= 1 ? TPP.Scale.Hours : TPP.Scale.Minutes);

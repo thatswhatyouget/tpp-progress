@@ -31,6 +31,23 @@ namespace TPP {
             this.TotalDays = value * 7;
         }
 
+        AddDays(days: number) {
+            this.TotalDays += days;
+            return this;
+        }
+        AddHours(hours: number) {
+            this.TotalHours += hours;
+            return this;
+        }
+        AddMinutes(minutes: number) {
+            this.TotalSeconds += minutes * 60;
+            return this;
+        }
+        AddSeconds(seconds: number) {
+            this.TotalSeconds += seconds;
+            return this;
+        }
+
         TotalTime(scale: TPP.Scale) {
             switch (scale) {
                 case TPP.Scale.Weeks:

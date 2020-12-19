@@ -154,6 +154,10 @@ declare namespace TPP {
         set TotalHours(value: number);
         set TotalDays(value: number);
         set TotalWeeks(value: number);
+        AddDays(days: number): this;
+        AddHours(hours: number): this;
+        AddMinutes(minutes: number): this;
+        AddSeconds(seconds: number): this;
         TotalTime(scale: TPP.Scale): number;
         toString(scale?: Scale): string;
         static parse(time: string, baseTime?: number): Duration;
