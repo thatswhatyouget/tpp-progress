@@ -344,7 +344,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Lumoss", "Time": "2020-12-19T10:38:35.560Z" },
             { "Group": "Pokemon", "Name": "Riolu", "Time": "2020-12-19T11:39:56.228Z" },
             { "Group": "Pokemon", "Name": "Auldsparce", "Time": "2020-12-19T13:23:08.156Z" },
-            { "Group": "Pokemon", "Name": "Farfetch’d", "Time": "2020-12-19T13:38:58.273Z" },
+            { "Group": "Pokemon", "Name": "Farfetch'd", "Time": "2020-12-19T13:38:58.273Z" },
             { "Group": "Pokemon", "Name": "Sandslash", "Time": "2020-12-19T13:55:15.854Z" },
             { "Group": "Pokemon", "Name": "Sandrill", "Time": "2020-12-19T14:12:18.340Z" },
             { "Group": "Pokemon", "Name": "Ptervus", "Time": "2020-12-19T14:20:50.494Z" },
@@ -517,7 +517,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Valentide", "Time": "2020-12-23T05:38:48.257Z" },
             { "Group": "Pokemon", "Name": "Skorupi", "Time": "2020-12-23T05:47:54.859Z" },
             { "Group": "Pokemon", "Name": "Wisplode", "Time": "2020-12-23T06:51:46.685Z" },
-            { "Group": "Pokemon", "Name": "Egg", "Time": "2020-12-23T06:56:41.987Z" },
+            //{ "Group": "Pokemon", "Name": "Egg", "Time": "2020-12-23T06:56:41.987Z" },
         ]
     }
 );

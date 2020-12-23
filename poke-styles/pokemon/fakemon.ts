@@ -17,6 +17,10 @@ addStyles(fakemon, f => {
     return ".pokesprite." + clean + ' img  { background-image:url("../img/fakemon/' + clean + '.png")!important; }';
 });
 
+function fixFakeForms(mons: string[]) {
+    return mons.map((m, i, arr) => arr.findIndex(n => n == m) == i ? m : `${m}-${i}`);
+}
+
 addSingleStyle(fakemon.map(f => ".event.pokemon.pokesprite." + dexClean(f) + " img").join(", ") + " { background-size: 50%!important; background-position: center!important; }");
 
 //Phancero hover effect
@@ -29,4 +33,4 @@ addSingleStyle('.pokesprite.missingno img  { background-image:url("../img/missin
 addStyles(Pokedex.Regional["Altair/Sirius (Hoenn)"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p)), defaultMapping("sirius"));
 
 //Vega
-addStyles(Pokedex.Regional["Tohoak"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p)), defaultMapping("vega"));
+addStyles(fixFakeForms(Pokedex.Regional["Tohoak"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("vega"));

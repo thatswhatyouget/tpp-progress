@@ -1,11 +1,15 @@
 /// <reference path="collectionsummary.ts" />
 namespace TPP.Transforms.Pokedex {
     export class DexEntry extends TPP.Pokedex.DexEntryBase {
-        constructor(pokemon: string, number: number, collectionSummary: CollectionSummary) {
+        constructor(pokemon: string, number: number, collectionSummary: CollectionSummary, isFakeForm = false) {
             super();
             this.Number = number;
             this.Pokemon = pokemon;
             if (pokemon) {
+                if (isFakeForm) {
+                    this.DisplayName = pokemon;
+                    this.Pokemon = `${pokemon}-${number}`;
+                }
                 this.GatherPokemonFromRuns(collectionSummary);
                 this.GatherHallOfFameEntries(collectionSummary);
             }    

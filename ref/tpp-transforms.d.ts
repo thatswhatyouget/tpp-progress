@@ -331,7 +331,7 @@ declare namespace TPP.Transforms.Pokedex {
 }
 declare namespace TPP.Transforms.Pokedex {
     class DexEntry extends TPP.Pokedex.DexEntryBase {
-        constructor(pokemon: string, number: number, collectionSummary: CollectionSummary);
+        constructor(pokemon: string, number: number, collectionSummary: CollectionSummary, isFakeForm?: boolean);
         private GatherPokemonFromRuns;
         private FilterRevisitsIfPreviouslyOwned;
         private GatherHallOfFameEntries;
