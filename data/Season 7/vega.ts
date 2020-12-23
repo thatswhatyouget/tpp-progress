@@ -115,6 +115,116 @@ Season7.Runs.push(
                 FirstAttemptDate: "2020-12-18T00:08:09.839Z",
                 Image: "img/ribbons/champion.png"
             },
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Elnath Badge",
+                Image: "img/badges/elnath.png",
+                Time: "2020-12-21T16:55:52.988Z",
+                Attempts: 2
+            },
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Arneb Badge",
+                Image: "img/badges/arneb.png",
+                Time: "2020-12-21T04:36:28.862Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Phact Badge",
+                Image: "img/badges/phact.png",
+                Time: "2020-12-21T02:36:00.888Z",
+                Attempts: 3
+            },
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Sarfah Badge",
+                Image: "img/badges/sarfah.png",
+                Time: "2020-12-21T21:07:39.961Z",
+                Attempts: 2
+            },
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Gemma Badge",
+                Image: "img/badges/gemma.png",
+                Time: "2020-12-19T04:47:28.377Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Hadar Badge",
+                Image: "img/badges/hadar.png",
+                Time: "2020-12-22T03:25:10.102Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Prior Badge",
+                Image: "img/badges/prior.png",
+                Time: "2020-12-21T17:25:18.605Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Mirach Badge",
+                Image: "img/badges/mirach.png",
+                Time: "2020-12-22T04:31:32.229Z",
+                Attempts: 1
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Theodore",
+                Image: "img/trainers/vega/theodore.png",
+                Time: "2020-12-23T07:51:16.232Z",
+                Attempts: 3
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Vanessa",
+                Image: "img/trainers/vega/vanessa.png",
+                Time: "",
+                Attempts: 1
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Irene",
+                Image: "img/trainers/vega/irene.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Cole",
+                Image: "img/trainers/vega/cole.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Champions",
+                Class: "Rematch",
+                Name: "Sylvia",
+                Image: "img/trainers/vega/sylvia.png",
+                Time: "",
+                Attempts: 0,
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 4, Party: [
+                ],
+                FirstAttemptDate: "2020-12-19T11:17:54.802Z",
+                Image: "img/ribbons/champion.png"
+            },
 
             { "Group": "Pokemon", "Name": "Peyero", "Time": "2020-12-12T21:06:32.218Z" },
             { "Group": "Pokemon", "Name": "Glachild", "Time": "2020-12-12T21:31:47.628Z" },
@@ -263,7 +373,7 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Rivird", "Time": "2020-12-19T19:43:18.307Z" },
             { "Group": "Pokemon", "Name": "Basille", "Time": "2020-12-19T19:55:33.510Z" },
             { "Group": "Pokemon", "Name": "Scyther", "Time": "2020-12-19T21:23:17.079Z" },
-            { "Group": "Pokemon", "Name": "R’duckulus", "Time": "2020-12-19T21:47:03.915Z" },
+            { "Group": "Pokemon", "Name": "R'duckulus", "Time": "2020-12-19T21:47:03.915Z" },
             { "Group": "Pokemon", "Name": "Komoragon", "Time": "2020-12-19T22:21:30.299Z" },
             { "Group": "Pokemon", "Name": "Doodloo", "Time": "2020-12-19T22:28:44.141Z" },
             { "Group": "Pokemon", "Name": "Nymphrost", "Time": "2020-12-19T22:33:09.607Z" },
@@ -390,6 +500,24 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Sableater", "Time": "2020-12-22T11:01:52.990Z" },
             { "Group": "Pokemon", "Name": "Arbok", "Time": "2020-12-22T11:44:18.057Z" },
             { "Group": "Pokemon", "Name": "Adnokana", "Time": "2020-12-22T11:54:55.754Z" },
+            { "Group": "Pokemon", "Name": "Absol", "Time": "2020-12-22T15:56:56.129Z" },
+            { "Group": "Pokemon", "Name": "Scizor", "Time": "2020-12-22T17:01:34.602Z" },
+            { "Group": "Pokemon", "Name": "Kangaskhan", "Time": "2020-12-22T17:10:30.143Z" },
+            { "Group": "Pokemon", "Name": "Dizasol", "Time": "2020-12-22T17:23:45.757Z" },
+            { "Group": "Pokemon", "Name": "Girafarig", "Time": "2020-12-22T17:28:49.472Z" },
+            { "Group": "Pokemon", "Name": "Combound", "Time": "2020-12-22T18:30:04.499Z" },
+            { "Group": "Pokemon", "Name": "Murkrow", "Time": "2020-12-22T21:03:01.959Z" },
+            { "Group": "Pokemon", "Name": "Honchkrow", "Time": "2020-12-22T21:12:05.614Z" },
+            { "Group": "Pokemon", "Name": "Billserk", "Time": "2020-12-22T22:33:17.700Z" },
+            { "Group": "Pokemon", "Name": "Cacturne", "Time": "2020-12-22T23:36:58.698Z" },
+            { "Group": "Pokemon", "Name": "Lukewran", "Time": "2020-12-23T01:20:05.936Z" },
+            { "Group": "Pokemon", "Name": "Jarmit", "Time": "2020-12-23T02:04:35.550Z" },
+            { "Group": "Pokemon", "Name": "Heatran", "Time": "2020-12-23T02:10:04.898Z" },
+            { "Group": "Pokemon", "Name": "Folifarig", "Time": "2020-12-23T03:18:41.497Z" },
+            { "Group": "Pokemon", "Name": "Valentide", "Time": "2020-12-23T05:38:48.257Z" },
+            { "Group": "Pokemon", "Name": "Skorupi", "Time": "2020-12-23T05:47:54.859Z" },
+            { "Group": "Pokemon", "Name": "Wisplode", "Time": "2020-12-23T06:51:46.685Z" },
+            { "Group": "Pokemon", "Name": "Egg", "Time": "2020-12-23T06:56:41.987Z" },
         ]
     }
 );
