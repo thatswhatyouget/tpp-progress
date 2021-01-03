@@ -68,7 +68,7 @@ Season1.Runs.push(
                 Group: "Badges",
                 Name: "Fossil (Volcano) Badge",
                 Image: "img/randomized/firered/fossil.png",
-                Time: "11d 4h 1m",
+                Time: "11d 2h 14m",
                 Attempts: 1,
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/23qqwb/rocktype_blaines_badge_the_fossil_badge_name/?ref=search_posts"
             },
