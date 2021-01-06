@@ -4,13 +4,13 @@ Season7.Runs.push(
         RunName: "Vega",
         ColorPrimary: "#CECE08",
         ColorSecondary: "#087D24",
-        Duration: "255w",
+        Duration: "2020-12-25T08:14:00Z",
         StartDate: "2020-12-12T21:00:00Z",
         HostName: "AAGMt",
         HostImage: "img/hosts/april.png",
         Region: "Tohoak",
         Pokedex: "Tohoak",
-        //FinalStateLink:"./states/Season 7/vega.json", 
+        FinalStateLink: "./states/Season 7/vega.json",
         Events: [
             {
                 Group: "Badges",
