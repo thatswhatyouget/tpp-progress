@@ -235,6 +235,7 @@ declare namespace TPP {
         AddHours(hours: number): this;
         AddMinutes(minutes: number): this;
         AddSeconds(seconds: number): this;
+        MultiplyBy(factor: number): this;
         TotalTime(scale: TPP.Scale): number;
         toString(scale?: Scale): string;
         static parse(time: string, baseTime?: number): Duration;

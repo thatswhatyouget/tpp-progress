@@ -35,6 +35,7 @@ namespace TPP.Display.Elements.RunStatus {
                     .AddHours(this.props.value >> 16)
                     .AddMinutes((this.props.value >> 8) & 0xFF)
                     .AddSeconds(this.props.value & 0xFF)
+                    .MultiplyBy(65835/65536) // fix GB/GBA clock drift
                     .toString();
             else if (secondsDetectExp.test(name)) {
                 const dur = new Duration(0);

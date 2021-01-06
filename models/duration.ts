@@ -47,6 +47,10 @@ namespace TPP {
             this.TotalSeconds += seconds;
             return this;
         }
+        MultiplyBy(factor: number) {
+            this.TotalSeconds *= factor;
+            return this;
+        }
 
         TotalTime(scale: TPP.Scale) {
             switch (scale) {
