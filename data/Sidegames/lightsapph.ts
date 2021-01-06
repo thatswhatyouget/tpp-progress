@@ -5,7 +5,7 @@ Sidegames.Runs.push(
         ColorPrimary: "#025ae3",
         ColorSecondary: "#00e2de",
         StartDate: "2020-05-11T22:30:55.000Z",
-        Duration: "255w",
+        Duration: "212d 22h 38m 3s",
         HostName: "URF",
         HostImage: "img/hosts/urf.png",
         HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
