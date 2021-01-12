@@ -180,6 +180,13 @@ Season7.Runs.push(
                 Attempts: 1
             },
             {
+                Group: "Past Hosts",
+                Name: "BBCBBHH",
+                Image: "img/hosts/gordon.png",
+                Time: "2020-12-21T12:57:26.600Z",
+                Attempts: 1
+            },
+            {
                 Group: "Elite Four Rematch",
                 Class: "Rematch",
                 Name: "Theodore",
@@ -192,38 +199,63 @@ Season7.Runs.push(
                 Class: "Rematch",
                 Name: "Vanessa",
                 Image: "img/trainers/vega/vanessa.png",
-                Time: "",
-                Attempts: 1
+                Time: "2020-12-24T13:38:28.865Z",
+                Attempts: 9
             },
             {
                 Group: "Elite Four Rematch",
                 Class: "Rematch",
                 Name: "Irene",
                 Image: "img/trainers/vega/irene.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-12-24T13:45:48.983Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four Rematch",
                 Class: "Rematch",
                 Name: "Cole",
                 Image: "img/trainers/vega/cole.png",
-                Time: "",
-                Attempts: 0
+                Time: "2020-12-24T19:18:28.018Z",
+                Attempts: 2
             },
             {
                 Group: "Champions",
                 Class: "Rematch",
                 Name: "Sylvia",
                 Image: "img/trainers/vega/sylvia.png",
-                Time: "",
-                Attempts: 0,
+                Time: "2020-12-24T19:31:35.223Z",
+                Attempts: 1,
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 4, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-12-24T19:33:07.803Z", Attempts: 20, Party: [
+                    { Pokemon: "Machu", Nickname: "A  Oxxwqw", Level: 90, Gender: "Male", Number: 27, IDNo: "23401" },
+                    { Pokemon: "Togekiss", Nickname: "BBCVVIIKKL", Level: 93, Gender: "Male", Number: 20, IDNo: "23401" },
+                    { Pokemon: "Serplant", Nickname: "P,....ef", Level: 100, Gender: "Male", Number: 84, IDNo: "23401" },
+                    { Pokemon: "Almaria", Nickname: "GTTUBBBBCU", Level: 62, Number: 385, IDNo: "23401" },
+                    { Pokemon: "Asphere", Nickname: "BAGGGGGAa", Level: 95, Number: 386, IDNo: "23401" },
+                    { Pokemon: "Phantonate", Nickname: "UUVV  ", Level: 70, Gender: "Female", Number: 220, IDNo: "23401" },
                 ],
                 FirstAttemptDate: "2020-12-19T11:17:54.802Z",
                 Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-12-24T23:00:34.051Z", Attempts: 1, Party: [
+                    { Pokemon: "Asphere", Nickname: "BAGGGGGAa", Level: 96, Number: 386, IDNo: "23401" },
+                    { Pokemon: "Phantonate", Nickname: "UUVV  ", Level: 71, Gender: "Female", Number: 220, IDNo: "23401" },
+                    { Pokemon: "Almaria", Nickname: "GTTUBBBBCU", Level: 65, Number: 385, IDNo: "23401" },
+                    { Pokemon: "Serplant", Nickname: "P,....ef", Level: 100, Gender: "Male", Number: 84, IDNo: "23401" },
+                    { Pokemon: "Shuckle", Nickname: "AAAAAAAGGH", Level: 34, Gender: "Male", Number: 93, IDNo: "23401" },
+                    { Pokemon: "Forretress", Nickname: "CCNNOQQQWX", Level: 50, Gender: "Male", Number: 40, IDNo: "23401" },
+                ],
+                FirstAttemptDate: "2020-12-24T21:39:58.740Z",
+                Image: "img/ribbons/champion.png"
+            },
+            {
+                Group: "Trainers",
+                Name: "DH Leader Turner",
+                Image: "img/trainers/vega/turner.png",
+                Time: "2020-12-25T03:58:40.348Z",
+                Attempts: 2
             },
 
             { "Group": "Pokemon", "Name": "Peyero", "Time": "2020-12-12T21:06:32.218Z" },
@@ -518,6 +550,28 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Skorupi", "Time": "2020-12-23T05:47:54.859Z" },
             { "Group": "Pokemon", "Name": "Wisplode", "Time": "2020-12-23T06:51:46.685Z" },
             //{ "Group": "Pokemon", "Name": "Egg", "Time": "2020-12-23T06:56:41.987Z" },
+            { "Group": "Pokemon", "Name": "Mandiblade", "Time": "2020-12-23T09:21:49.114Z" },
+            { "Group": "Pokemon", "Name": "Strawna", "Time": "2020-12-23T10:16:17.420Z" },
+            { "Group": "Pokemon", "Name": "Coruda", "Time": "2020-12-23T12:16:26.696Z" },
+            { "Group": "Pokemon", "Name": "Coropper", "Time": "2020-12-23T12:17:34.411Z" },
+            { "Group": "Pokemon", "Name": "Corenom", "Time": "2020-12-23T12:18:18.879Z" },
+            { "Group": "Pokemon", "Name": "Asphere", "Time": "2020-12-23T16:06:19.244Z" },
+            { "Group": "Pokemon", "Name": "Krokorok", "Time": "2020-12-23T16:37:42.311Z" },
+            { "Group": "Pokemon", "Name": "Crustle", "Time": "2020-12-23T16:39:19.606Z" },
+            { "Group": "Pokemon", "Name": "Relicore", "Time": "2020-12-23T18:12:44.354Z" },
+            { "Group": "Pokemon", "Name": "Articuno", "Time": "2020-12-23T21:55:20.716Z" },
+            { "Group": "Pokemon", "Name": "Moltres", "Time": "2020-12-23T23:15:18.949Z" },
+            { "Group": "Pokemon", "Name": "Palkia", "Time": "2020-12-23T23:32:53.180Z" },
+            { "Group": "Pokemon", "Name": "Darkrai", "Time": "2020-12-24T00:52:33.530Z" },
+            { "Group": "Pokemon", "Name": "Kirgicia", "Time": "2020-12-24T04:27:07.829Z" },
+            { "Group": "Pokemon", "Name": "Glamarde", "Time": "2020-12-24T04:29:06.444Z" },
+            { "Group": "Pokemon", "Name": "Charmander", "Time": "2020-12-24T04:44:40.756Z" },
+            { "Group": "Pokemon", "Name": "Charmeleon", "Time": "2020-12-24T04:59:36.384Z" },
+            { "Group": "Pokemon", "Name": "Charizard", "Time": "2020-12-24T08:04:49.777Z" },
+            { "Group": "Pokemon", "Name": "Ferrothorn", "Time": "2020-12-24T21:09:59.494Z" },
+            { "Group": "Pokemon", "Name": "Gatanoia", "Time": "2020-12-25T01:09:17.304Z" },
+            { "Group": "Pokemon", "Name": "Beldum", "Time": "2020-12-25T01:42:02.850Z" },
+            { "Group": "Pokemon", "Name": "Metang", "Time": "2020-12-25T05:22:23.873Z" },
         ]
     }
 );
