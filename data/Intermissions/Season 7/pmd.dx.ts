@@ -5,7 +5,7 @@ Intermissions.Runs.push(
         ColorPrimary: "#4f81bd",
         ColorSecondary: "#385d8a",
         StartDate: "2021-01-10T00:43:45Z",
-        Duration: "2021-01-12T16:26.00Z",
+        Duration: "2021-01-12T16:26:00Z",
         HostName: "ϷAj", // original name; was renamed to "Tom", "paj", and then "Mama" during the run
         HostImage: "img/hosts/pmd/cubone.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/k9ggdf/the_hosts_of_the_voices_before_the_starry_sky_of/",
