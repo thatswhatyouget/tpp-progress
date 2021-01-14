@@ -9,6 +9,7 @@ Intermissions.Runs.push(
         HostName: " SS",
         HostImage: "img/hosts/gordon.png",
         HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
+        Unfinished: true,
         Region: "Hoenn",
         Generation: 3,
         Pokedex: "National",
