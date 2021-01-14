@@ -563,6 +563,10 @@ ul.controls > li > ul > li.selected > a:before {
 	background-image:url("../img/moemon-small.png");
 }
 
+.progressChart  .navyblue.run .event.pokemon.pokesprite img {
+	background-image:url("../img/navyblue-small.png");
+}
+
 .progressChart  .sweet.run .event.pokemon.pokesprite img {
 	background-image:url("../img/candyland-small.png");
 }
@@ -814,6 +818,10 @@ ul.controls > li > ul > li.selected > a:before {
 
 .hallOfFameDisplay.sweet .entry .pokesprite img {
 	background-image:url("../img/candyland-large.png")!important;
+}
+
+.hallOfFameDisplay.navyblue .entry .pokesprite img {
+	background-image:url("../img/navyblue-large.png")!important;
 }
 
 .hallOfFameDisplay.sirius .entry .pokesprite img {
