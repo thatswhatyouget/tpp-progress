@@ -29,3 +29,18 @@ Intermissions.Runs.push(
         ]
     }
 );
+Intermissions.Runs.push(
+    {
+        RunName: "GameBoy Roulette 7 (Unreleased Edition)",
+        ColorPrimary: "#a6d410",
+        ColorSecondary: "#072b03",
+        StartDate: "2021-02-11T21:23:40.000Z",
+        Duration: "2021-02-14T20:44:50.000Z",
+        Unfinished: true,
+        // HostImage: "img/hosts/roulette/madden.gif",
+        // HostName: "John Madden\nMadden '95",
+        // Class: "squarehost",
+        Events: [
+        ]
+    }
+);
