@@ -35,6 +35,11 @@ var Season7: TPP.Collection = {
     Scale: TPP.Scale.Days,
     Runs: []
 };
+var Season8: TPP.Collection = {
+    Name: "Season 8",
+    Scale: TPP.Scale.Days,
+    Runs: []
+};
 var Sidegames: TPP.Collection = {
     Name: "Sidegames",
     SingularName: "Sidegame",
@@ -71,7 +76,7 @@ var ShortIntermissions: TPP.Collection = {
     Scale: TPP.Scale.Minutes,
     Runs: []
 }
-var tppData: TPP.Collection[] = [Season1, Season2, Season3, Season4, Season5, Season6, Season7, Sidegames, QuickSidegames, Revisits, LongIntermissions, Intermissions, ShortIntermissions];
+var tppData: TPP.Collection[] = [Season1, Season2, Season3, Season4, Season5, Season6, Season7, Season8, Sidegames, QuickSidegames, Revisits, LongIntermissions, Intermissions, ShortIntermissions];
 
 var exports = exports || {};
 exports.tppData = tppData;
@@ -80,7 +85,7 @@ exports.tppData = tppData;
 setTimeout(() => {
     //remove runs with blank start dates
     tppData.forEach(c => c.Runs = c.Runs.filter(r => r.StartDate != ""));
-    //remove events with blank times   
+    //remove events with blank times
     tppData.forEach(c => c.Runs.forEach(r => r.Events = r.Events.filter(e => e.Time != "")));
 
     //set StartTime/EndTime for each run and UnixTime for each event
