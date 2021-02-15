@@ -16,7 +16,7 @@ Season8.Runs.push(
         Events: [
             {
                 Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png",
-                Time: "", Attempts: 0,
+                Time: "2021-02-15T04:32:16.597Z", Attempts: 5,
             },
             {
                 Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png",
@@ -108,9 +108,15 @@ Season8.Runs.push(
                 Time: "", Attempts: 0,
             },
 
-//          { "Group": "Pokemon", "Name": "Egg", "Time": "2021-02-14T21:07:34.846Z" },
+            // { "Group": "Pokemon", "Name": "Egg", "Time": "2021-02-14T21:07:34.846Z" },
             { "Group": "Pokemon", "Name": "Unown", "Time": "2021-02-14T21:21:15.759Z" },
             { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "2021-02-14T21:53:24.089Z" },
+            { "Group": "Pokemon", "Name": "Ralts", "Time": "2021-02-15T00:30:29.013Z" },
+            { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2021-02-15T00:52:12.726Z" },
+            { "Group": "Pokemon", "Name": "Onix", "Time": "2021-02-15T01:32:55.056Z" },
+            { "Group": "Pokemon", "Name": "Geodude", "Time": "2021-02-15T02:07:36.074Z" },
+            { "Group": "Pokemon", "Name": "Zubat", "Time": "2021-02-15T02:10:20.952Z" },
+            { "Group": "Pokemon", "Name": "Bidoof", "Time": "2021-02-15T02:37:56.714Z" }
         ]
     }
 );
