@@ -108,6 +108,10 @@
     background-image: url("../img/candyland-large.png")!important;
 }
 
+.navyblue .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/navyblue-large.png")!important;
+}
+
 .sirius .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/sirius-large.png")!important;
 }
@@ -130,6 +134,10 @@
 
 .ms.sweet .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/candyland-small.png")!important;
+}
+
+.ms.navyblue .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/navyblue-small.png")!important;
 }
 
 .ms.sirius .dexEntry .pokesprite:not(.missingno) img {

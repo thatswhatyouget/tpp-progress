@@ -1,0 +1,97 @@
+/// <reference path="../../tpp-data.ts" />
+Intermissions.Runs.push(
+    {
+        RunName: "The Wooper Who Saved Christmas",
+        ColorPrimary: "#5b59bb",
+        ColorSecondary: "#313f89",
+        StartDate: "2020-12-10T21:50:30Z",
+        Duration: "2020-12-12T00:09:15Z",
+        HostName: "GMMTMT",
+        HostImage: "img/hosts/gmmtmt.png",
+        Region: "Kanto",
+        Generation: 3,
+        BaseGame: "FireRed",
+        FinalStateLink: "./states/Season 7/wooper.json",
+        Events: [
+            {
+                Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2020-12-11T02:58:56.476Z",
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-12-11T08:30:19.885Z", Party: [
+                    { Pokemon: "Doduo", Level: 26, Gender: "Male", Number: 84, IDNo: "33205" },
+                    { Pokemon: "Abra", Nickname: "AAGHIIIII", Level: 10, Gender: "Female", Number: 63, IDNo: "33205" },
+                    { Pokemon: "Drowzee", Nickname: "AAAAAAA", Level: 13, Gender: "Female", Number: 96, IDNo: "33205" },
+                    { Pokemon: "Wooper", Level: 15, Gender: "Female", Number: "???", IDNo: "33205" },
+                    { Pokemon: "Diglett", Level: 22, Gender: "Male", Number: 50, IDNo: "33205" },
+                    { Pokemon: "Parasect", Nickname: "CCC", Level: 30, Gender: "Male", Number: 47, IDNo: "33205" },
+                ],
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-12-11T09:14:48.822Z", Party: [
+                    { Pokemon: "Grimer", Level: 18, Gender: "Male", Number: 88, IDNo: "33205" },
+                    { Pokemon: "Abra", Nickname: "AAGHIIIII", Level: 11, Gender: "Male", Number: 63, IDNo: "33205" },
+                    { Pokemon: "Wooper", Level: 15, Gender: "Female", Number: "???", IDNo: "33205" },
+                ],
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-12-11T22:55:37.195Z", Party: [
+                    { Pokemon: "Wooper", Level: 86, Gender: "Female", Number: "???", IDNo: "33205" },
+                    { Pokemon: "Diglett", Level: 22, Gender: "Female", Number: 50, IDNo: "33205" },
+                    { Pokemon: "Diglett", Nickname: "GGGHH", Level: 20, Gender: "Male", Number: 50, IDNo: "33205" },
+                    { Pokemon: "Nidorino", Level: 30, Gender: "Male", Number: 33, IDNo: "33205" },
+                    { Pokemon: "Wooper", Level: 19, Gender: "Female", Number: "???", IDNo: "33205" },
+                ],
+                Image: "img/ribbons/champion.png"
+            },
+
+            { "Group": "Pokemon", "Name": "Wooper", "Time": "2020-12-10T21:53:09.329Z" },
+            { "Group": "Pokemon", "Name": "Rattata", "Time": "2020-12-10T22:49:28.480Z" },
+            { "Group": "Pokemon", "Name": "Ledyba", "Time": "2020-12-10T23:11:46.976Z" },
+            { "Group": "Pokemon", "Name": "NidoranM", "Time": "2020-12-11T03:14:18.564Z" },
+            { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "2020-12-11T03:15:49.461Z" },
+            { "Group": "Pokemon", "Name": "Exeggcute", "Time": "2020-12-11T04:07:23.955Z" },
+            { "Group": "Pokemon", "Name": "Paras", "Time": "2020-12-11T04:10:52.779Z" },
+            { "Group": "Pokemon", "Name": "NidoranF", "Time": "2020-12-11T04:13:46.745Z" },
+            { "Group": "Pokemon", "Name": "Nidorino", "Time": "2020-12-11T04:21:34.468Z" },
+            { "Group": "Pokemon", "Name": "Oddish", "Time": "2020-12-11T04:29:20.015Z" },
+            { "Group": "Pokemon", "Name": "Ekans", "Time": "2020-12-11T04:44:21.340Z" },
+            { "Group": "Pokemon", "Name": "Drowzee", "Time": "2020-12-11T04:47:34.946Z" },
+            { "Group": "Pokemon", "Name": "Growlithe", "Time": "2020-12-11T05:03:58.044Z" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "2020-12-11T05:13:12.846Z" },
+            { "Group": "Pokemon", "Name": "Pidgey", "Time": "2020-12-11T05:14:25.308Z" },
+            { "Group": "Pokemon", "Name": "Diglett", "Time": "2020-12-11T05:19:22.200Z" },
+            { "Group": "Pokemon", "Name": "Teddiursa", "Time": "2020-12-11T06:52:43.400Z" },
+            { "Group": "Pokemon", "Name": "Hoothoot", "Time": "2020-12-11T06:53:47.689Z" },
+            { "Group": "Pokemon", "Name": "Poliwag", "Time": "2020-12-11T07:49:20.134Z" },
+            { "Group": "Pokemon", "Name": "Abra", "Time": "2020-12-11T07:53:45.741Z" },
+            { "Group": "Pokemon", "Name": "Sandshrew", "Time": "2020-12-11T08:00:34.073Z" },
+            { "Group": "Pokemon", "Name": "Doduo", "Time": "2020-12-11T08:17:49.906Z" },
+            { "Group": "Pokemon", "Name": "Parasect", "Time": "2020-12-11T08:28:48.058Z" },
+            { "Group": "Pokemon", "Name": "Grimer", "Time": "2020-12-11T09:07:30.291Z" },
+            { "Group": "Pokemon", "Name": "Koffing", "Time": "2020-12-11T09:18:09.732Z" },
+            { "Group": "Pokemon", "Name": "Quagsire", "Time": "2020-12-11T09:26:50.807Z" },
+            { "Group": "Pokemon", "Name": "Venonat", "Time": "2020-12-11T09:47:56.125Z" },
+            { "Group": "Pokemon", "Name": "Spearow", "Time": "2020-12-11T09:59:47.668Z" },
+            { "Group": "Pokemon", "Name": "Raticate", "Time": "2020-12-11T10:08:56.741Z" },
+            { "Group": "Pokemon", "Name": "Fearow", "Time": "2020-12-11T10:14:57.415Z" },
+            { "Group": "Pokemon", "Name": "Chansey", "Time": "2020-12-11T11:07:49.864Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2020-12-11T11:53:09.751Z" },
+            { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2020-12-11T12:17:21.725Z" },
+            { "Group": "Pokemon", "Name": "Metapod", "Time": "2020-12-11T12:41:35.110Z" },
+            { "Group": "Pokemon", "Name": "Weedle", "Time": "2020-12-11T12:44:36.305Z" },
+            { "Group": "Pokemon", "Name": "Caterpie", "Time": "2020-12-11T12:48:11.286Z" },
+            { "Group": "Pokemon", "Name": "Taillow", "Time": "2020-12-11T13:12:09.264Z" },
+            { "Group": "Pokemon", "Name": "Skitty", "Time": "2020-12-11T13:28:49.628Z" },
+            { "Group": "Pokemon", "Name": "Kakuna", "Time": "2020-12-11T13:54:43.074Z" },
+            { "Group": "Pokemon", "Name": "Jigglypuff", "Time": "2020-12-11T15:10:18.743Z" },
+            { "Group": "Pokemon", "Name": "Sneasel", "Time": "2020-12-11T16:05:31.306Z" },
+            { "Group": "Pokemon", "Name": "Dugtrio", "Time": "2020-12-11T20:06:37.352Z" },
+            { "Group": "Pokemon", "Name": "Machop", "Time": "2020-12-11T23:16:25.197Z" },
+        ],
+    }
+);

@@ -115,6 +115,10 @@
     background-image: url("../img/touhoumon-large.png")!important;
 }
 
+.navyblue .badgeList ul li .image.pokesprite:not(.missingno) img {
+    background-image: url("../img/navyblue-large.png")!important;
+}
+
 .sirius .badgeList ul li .image.pokesprite:not(.missingno) img {
     background-image: url("../img/sirius-large.png")!important;
 }
@@ -158,7 +162,7 @@
 
 .pokeBorder .pokedex > h2, .pokeBorder .pokedex > h3, .pokeBorder .pokedex > h4, .pokeBorder .pokedex > h5, .pokeBorder .pokedex > h6 {
     margin:0;
-} 
+}
 
 .pokeBorder .pokedex .total {
     font-family: pokeplatinum, monospace;
@@ -212,7 +216,7 @@
 .pokemon-hud.pc-box ul.party > li {
     background-color:#DDD;
     width:15em;
-} 
+}
 
 .pokemon-hud.pc-box ul.party > li.empty {
     background-color:transparent;
@@ -286,6 +290,10 @@
 
 .touhoumon .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img {
     background-image: url("../img/touhoumon-large.png")!important;
+}
+
+.navyblue .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img {
+    background-image: url("../img/navyblue-large.png")!important;
 }
 
 .sirius .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img {
