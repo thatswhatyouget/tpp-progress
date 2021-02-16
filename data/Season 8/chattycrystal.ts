@@ -7,8 +7,8 @@ Season8.Runs.push(
         StartDate: "2021-02-14T21:00:00Z",
         Duration: "255w",
         HostName: "KKKB",
-        HostImage: "img/hosts/baba.png",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/k9ggdf/the_hosts_of_the_voices_before_the_starry_sky_of/",
+        HostImage: "img/hosts/kkkb.png",
+        HostImageSource: "", //TODO: Get Discord link if not posted to Reddit
         Region: "Johto",
         // AdditionalRegions: [{ Name: "Kanto", Time: "10d 0h 56m" }],
         Pokedex: "National",
@@ -20,11 +20,11 @@ Season8.Runs.push(
             },
             {
                 Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png",
-                Time: "", Attempts: 0,
+                Time: "2021-02-16T00:37:12.374Z", Attempts: 2,
             },
             {
                 Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png",
-                Time: "", Attempts: 0,
+                Time: "2021-02-16T05:13:50.997Z", Attempts: 2,
             },
             {
                 Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png",
@@ -116,7 +116,20 @@ Season8.Runs.push(
             { "Group": "Pokemon", "Name": "Onix", "Time": "2021-02-15T01:32:55.056Z" },
             { "Group": "Pokemon", "Name": "Geodude", "Time": "2021-02-15T02:07:36.074Z" },
             { "Group": "Pokemon", "Name": "Zubat", "Time": "2021-02-15T02:10:20.952Z" },
-            { "Group": "Pokemon", "Name": "Bidoof", "Time": "2021-02-15T02:37:56.714Z" }
+            { "Group": "Pokemon", "Name": "Bidoof", "Time": "2021-02-15T02:37:56.714Z" },
+            { "Group": "Pokemon", "Name": "Aron", "Time": "2021-02-15T07:10:06.006Z" },
+            { "Group": "Pokemon", "Name": "Weedle", "Time": "2021-02-15T09:09:51.681Z" },
+            { "Group": "Pokemon", "Name": "Chansey", "Time": "2021-02-15T10:38:33.837Z" },
+            { "Group": "Pokemon", "Name": "Buneary", "Time": "2021-02-15T11:11:26.389Z" },
+            { "Group": "Pokemon", "Name": "Sandshrew", "Time": "2021-02-15T11:58:40.513Z" },
+            { "Group": "Pokemon", "Name": "Fearow", "Time": "2021-02-15T19:56:03.234Z" },
+            { "Group": "Pokemon", "Name": "Burmy", "Time": "2021-02-15T21:05:42.224Z" },
+            { "Group": "Pokemon", "Name": "Noctowl", "Time": "2021-02-15T21:08:07.946Z" },
+            { "Group": "Pokemon", "Name": "Mothim", "Time": "2021-02-16T02:05:46.833Z" },
+            { "Group": "Pokemon", "Name": "Swablu", "Time": "2021-02-16T03:25:23.712Z" },
+            { "Group": "Pokemon", "Name": "Chatot", "Time": "2021-02-16T03:38:51.812Z" },
+            { "Group": "Pokemon", "Name": "Snubbull", "Time": "2021-02-16T05:54:04.080Z" },
+            { "Group": "Pokemon", "Name": "Pidgey", "Time": "2021-02-16T07:51:08.496Z" },
         ]
     }
 );
