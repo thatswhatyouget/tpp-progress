@@ -40,7 +40,7 @@ Season8.Runs.push(
             },
             {
                 Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png",
-                Time: "", Attempts: 0,
+                Time: "2021-02-18T17:33:27.569Z", Attempts: 6,
             },
             {
                 Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png",
@@ -147,7 +147,19 @@ Season8.Runs.push(
             { "Group": "Pokemon", "Name": "Skuntank", "Time": "2021-02-17T12:55:48.164Z" },
             { "Group": "Pokemon", "Name": "Ducklett", "Time": "2021-02-17T14:50:28.139Z" },
             { "Group": "Pokemon", "Name": "Wingull", "Time": "2021-02-17T14:58:15.390Z" },
-            { "Group": "Pokemon", "Name": "Mantine", "Time": "2021-02-17T19:00:42.232Z" }
+            { "Group": "Pokemon", "Name": "Mantine", "Time": "2021-02-17T19:00:42.232Z" },
+            { "Group": "Pokemon", "Name": "Grotle", "Time": "2021-02-18T00:25:24.077Z" },
+            { "Group": "Pokemon", "Name": "Torterra", "Time": "2021-02-18T05:07:16.137Z" },
+            { "Group": "Pokemon", "Name": "Lopunny", "Time": "2021-02-18T06:46:15.212Z" },
+            { "Group": "Pokemon", "Name": "Psyduck", "Time": "2021-02-18T06:53:09.021Z" },
+            { "Group": "Pokemon", "Name": "Drowzee", "Time": "2021-02-18T06:56:54.661Z" },
+            { "Group": "Pokemon", "Name": "Koffing", "Time": "2021-02-18T08:17:30.703Z" },
+            { "Group": "Pokemon", "Name": "Voltorb", "Time": "2021-02-18T08:25:13.635Z" },
+            { "Group": "Pokemon", "Name": "Marill", "Time": "2021-02-18T12:26:16.383Z" },
+            { "Group": "Pokemon", "Name": "Electrode", "Time": "2021-02-18T13:53:32.879Z" },
+            { "Group": "Pokemon", "Name": "Croagunk", "Time": "2021-02-18T15:02:34.156Z" },
+            { "Group": "Pokemon", "Name": "Goldeen", "Time": "2021-02-18T15:52:56.715Z" },
+            { "Group": "Pokemon", "Name": "Ekans", "Time": "2021-02-18T16:25:19.139Z" },
         ]
     }
 );
