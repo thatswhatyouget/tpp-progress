@@ -158,18 +158,21 @@ namespace TPP.Display.Elements.RunStatus {
 
     class TypeImg extends React.PureComponent<{ type: string; }, {}> {
         render() {
-            let type = ((this.props.type == "???" ? "Fairy" : this.props.type) || '');
-            return <img src={`img/type-icons/${type.toLowerCase()}.png`} title={type} alt={type} />
+            let type = (this.props.type == "???" ? "Fairy" : this.props.type) || '';
+            if (typeof type === "number") {
+                return <img src={`https://static-cdn.jtvnw.net/emoticons/v1/${type}/1.0`} />;
+            }
+            return <img src={`img/type-icons/${type.toLowerCase()}.png`} title={type} alt={type} />;
         }
     }
 
     class Move extends React.PureComponent<{ move: TPP.Tv.Move }, {}> {
         render() {
             let m = this.props.move;
-            return <li>
+            return m ? <li>
                 <TypeImg type={m.type} />
                 <span className="move-name">{m.name}</span>
-            </li>;
+            </li> : null;
         }
     }
 }
