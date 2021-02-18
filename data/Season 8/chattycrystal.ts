@@ -28,18 +28,18 @@ Season8.Runs.push(
             },
             {
                 Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png",
-                Time: "", Attempts: 0,
-            },
-            {
-                Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png",
-                Time: "", Attempts: 0,
-            },
-            {
-                Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png",
-                Time: "", Attempts: 0,
+                Time: "2021-02-17T13:31:55.138Z", Attempts: 2,
             },
             {
                 Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png",
+                Time: "2021-02-17T18:44:31.936Z", Attempts: 1,
+            },
+            {
+                Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png",
+                Time: "2021-02-17T20:38:08.715Z", Attempts: 5,
+            },
+            {
+                Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png",
                 Time: "", Attempts: 0,
             },
             {
@@ -130,6 +130,24 @@ Season8.Runs.push(
             { "Group": "Pokemon", "Name": "Chatot", "Time": "2021-02-16T03:38:51.812Z" },
             { "Group": "Pokemon", "Name": "Snubbull", "Time": "2021-02-16T05:54:04.080Z" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "2021-02-16T07:51:08.496Z" },
+            { "Group": "Pokemon", "Name": "Cutiefly", "Time": "2021-02-16T08:42:51.538Z" },
+            { "Group": "Pokemon", "Name": "Growlithe", "Time": "2021-02-16T09:26:22.275Z" },
+            { "Group": "Pokemon", "Name": "Electrike", "Time": "2021-02-16T09:30:47.781Z" },
+            { "Group": "Pokemon", "Name": "Hoothoot", "Time": "2021-02-16T09:48:17.246Z" },
+            { "Group": "Pokemon", "Name": "Turtwig", "Time": "2021-02-16T10:56:53.278Z" },
+            { "Group": "Pokemon", "Name": "Stunky", "Time": "2021-02-16T14:56:54.055Z" },
+            { "Group": "Pokemon", "Name": "Caterpie", "Time": "2021-02-16T18:44:57.396Z" },
+            { "Group": "Pokemon", "Name": "Pineco", "Time": "2021-02-16T20:03:56.110Z" },
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "2021-02-16T21:22:46.135Z" },
+            { "Group": "Pokemon", "Name": "Lombre", "Time": "2021-02-16T21:27:28.066Z" },
+            { "Group": "Pokemon", "Name": "Ludicolo", "Time": "2021-02-17T02:27:31.866Z" },
+            { "Group": "Pokemon", "Name": "Scyther", "Time": "2021-02-17T11:36:25.105Z" },
+            { "Group": "Pokemon", "Name": "Manectric", "Time": "2021-02-17T12:28:34.836Z" },
+            { "Group": "Pokemon", "Name": "Stantler", "Time": "2021-02-17T12:34:37.392Z" },
+            { "Group": "Pokemon", "Name": "Skuntank", "Time": "2021-02-17T12:55:48.164Z" },
+            { "Group": "Pokemon", "Name": "Ducklett", "Time": "2021-02-17T14:50:28.139Z" },
+            { "Group": "Pokemon", "Name": "Wingull", "Time": "2021-02-17T14:58:15.390Z" },
+            { "Group": "Pokemon", "Name": "Mantine", "Time": "2021-02-17T19:00:42.232Z" }
         ]
     }
 );

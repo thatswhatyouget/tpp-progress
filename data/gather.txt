@@ -1,5 +1,5 @@
 tpp.chat automatic distribution
-$("#results_table").find('tr[data-ts]').map(function() { return {ts: new Date(Date.parse($(this).attr('data-ts')) - 10000).toISOString(), mon: /won one of this run's \#\d\d\d (.*?) badges!/ig.exec($(this).find('.chatline').text())[1]} }).get().reverse().filter((p,i,arr)=>arr.findIndex(b=>p.mon == b.mon) == i).map(p=>`{ "Group": "Pokemon", "Name": "${p.mon}", "Time": "${p.ts}" }`).join(",\n");
+$("#results_table").find('tr[data-ts]').map(function() { return {ts: new Date(Date.parse($(this).attr('data-ts')) - 10000).toISOString(), mon: (/won one of this run's \#\d\d\d (.*?) badges!/ig.exec($(this).find('.chatline').text())||['','???'])[1]} }).get().reverse().filter((p,i,arr)=>arr.findIndex(b=>p.mon == b.mon) == i).map(p=>`{ "Group": "Pokemon", "Name": "${p.mon}", "Time": "${p.ts}" }`).join(",\n");
 
 tpp.chat manual distribution
 $("#results_table").find('tr[data-ts]').map(function () {
