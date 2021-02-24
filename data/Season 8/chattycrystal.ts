@@ -15,75 +15,73 @@ Season8.Runs.push(
         // FinalStateLink:"./states/Season 8/chattycrystal.json",
         Events: [
             {
-                Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png",
+                Group: "Badges", Name: "Zephyr Badge\n!12rtyhaszs", Image: "img/badges/zephyr.png",
                 Time: "2021-02-15T04:32:16.597Z", Attempts: 5,
             },
             {
-                Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png",
+                Group: "Badges", Name: "Hive Badge\nAHUNIgg", Image: "img/badges/hive.png",
                 Time: "2021-02-16T00:37:12.374Z", Attempts: 2,
             },
             {
-                Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png",
+                Group: "Badges", Name: "Plain Badge\nA (FireRed)", Image: "img/badges/plain.png",
                 Time: "2021-02-16T05:13:50.997Z", Attempts: 2,
             },
             {
-                Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png",
+                Group: "Badges", Name: "Fog Badge\naoooo", Image: "img/badges/fog.png",
                 Time: "2021-02-17T13:31:55.138Z", Attempts: 2,
             },
             {
-                Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png",
+                Group: "Badges", Name: "Mineral Badge\nAIIIAAB", Image: "img/badges/mineral.png",
                 Time: "2021-02-17T18:44:31.936Z", Attempts: 1,
             },
             {
-                Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png",
+                Group: "Badges", Name: "Storm Badge\n9'l", Image: "img/badges/storm.png",
                 Time: "2021-02-17T20:38:08.715Z", Attempts: 5,
             },
             {
-                Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png",
+                Group: "Badges", Name: "Glacier Badge\nY", Image: "img/badges/glacier.png",
                 Time: "2021-02-18T17:33:27.569Z", Attempts: 6,
             },
             {
-                Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png",
+                Group: "Badges", Name: "Rising Badge\nAAAALK'", Image: "img/badges/rising.png",
                 Time: "2021-02-19T15:57:54.517Z", Attempts: 2,
             },
 
             {
-                Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png",
+                Group: "Badges", Name: "Boulder Badge\nEWWYPPP", Image: "img/badges/boulder.png",
                 Time: "2021-02-22T18:05:43.275Z", Attempts: 2,
             },
             {
-                Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png",
+                Group: "Badges", Name: "Cascade Badge\ndπ", Image: "img/badges/cascade.png",
                 Time: "2021-02-21T12:39:59.370Z", Attempts: 1,
             },
             {
-                Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png",
+                Group: "Badges", Name: "Thunder Badge\nRED (Red)", Image: "img/badges/thunder.png",
                 Time: "2021-02-20T08:57:14.316Z", Attempts: 5,
             },
             {
-                Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png",
+                Group: "Badges", Name: "Rainbow Badge\nURF", Image: "img/badges/rainbow.png",
                 Time: "2021-02-20T14:37:51.671Z", Attempts: 2,
             },
             {
-                Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png",
+                Group: "Badges", Name: "Soul Badge\nnqpppnl", Image: "img/badges/soul.png",
                 Time: "2021-02-20T18:35:18.432Z", Attempts: 2,
             },
             {
-                Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png",
+                Group: "Badges", Name: "Marsh Badge\nStars", Image: "img/badges/marsh.png",
                 Time: "2021-02-20T23:29:54.927Z", Attempts: 5,
             },
             {
-                Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png",
+                Group: "Badges", Name: "Volcano Badge\nAAEFFFF", Image: "img/badges/volcano.png",
                 Time: "2021-02-22T15:52:45.568Z", Attempts: 1,
             },
             {
-                Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png",
-                Time: "", Attempts: 0,
+                Group: "Badges", Name: "Earth Badge\nébneert", Image: "img/badges/earth.png",
+                Time: "2021-02-24T18:29:14.753Z", Attempts: 7,
             },
 
-
-
             {
-                Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png",
+                Group: "Elite Four", Name: "Etr", Image: "img/hosts/etr.png",
                 Time: "", Attempts: 0,
             },
             {
@@ -106,7 +104,7 @@ Season8.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2021-02-24T20:13:33.883Z",
                 Image: "img/ribbons/champion.png"
             },
 
@@ -306,6 +304,13 @@ Season8.Runs.push(
             { "Group": "Pokemon", "Name": "Pikachu", "Time": "2021-02-24T07:57:03.703Z" },
             { "Group": "Pokemon", "Name": "Raichu", "Time": "2021-02-24T08:13:13.929Z" },
             { "Group": "Pokemon", "Name": "Qwilfish", "Time": "2021-02-24T11:42:24.545Z" },
+            { "Group": "Pokemon", "Name": "Bagon", "Time": "2021-02-24T15:56:34.710Z" },
+            { "Group": "Pokemon", "Name": "Sylveon", "Time": "2021-02-24T19:09:06.357Z" },
+            { "Group": "Pokemon", "Name": "Nidoking", "Time": "2021-02-24T19:31:02.573Z" },
+            { "Group": "Pokemon", "Name": "Hariyama", "Time": "2021-02-24T20:27:14.199Z" },
+            { "Group": "Pokemon", "Name": "Trapinch", "Time": "2021-02-24T20:28:46.456Z" },
+            { "Group": "Pokemon", "Name": "Rhydon", "Time": "2021-02-24T20:43:51.108Z" },
+            { "Group": "Pokemon", "Name": "Sandslash", "Time": "2021-02-24T20:56:56.825Z" }
         ]
     }
 );
