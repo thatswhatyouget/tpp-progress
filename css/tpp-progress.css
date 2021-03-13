@@ -820,6 +820,10 @@ ul.controls > li > ul > li.selected > a:before {
 	background-image:url("../img/candyland-large.png")!important;
 }
 
+.hallOfFameDisplay.fusedcrystal .entry .pokesprite img {
+	background-image:url("../img/fusedcrystal-large.png")!important;
+}
+
 .hallOfFameDisplay.navyblue .entry .pokesprite img {
 	background-image:url("../img/navyblue-large.png")!important;
 }

@@ -108,6 +108,10 @@
     background-image: url("../img/candyland-large.png")!important;
 }
 
+.fusedcrystal .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/fusedcrystal-large.png")!important;
+}
+
 .navyblue .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/navyblue-large.png")!important;
 }
