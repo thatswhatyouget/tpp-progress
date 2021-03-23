@@ -28,6 +28,23 @@ namespace TPP.Controllers {
                 natDex.push("Meltan");
                 natDex.push("Melmetal");
             }
+            if (run.RunName.indexOf("Chatty Crystal") >= 0) {
+                natDex.push("Onixtret");
+                natDex.push("Steelurret");
+                natDex.push("Chiquirtle");
+                natDex.push("Baytortle");
+                natDex.push("Megastoise");
+                natDex.push("Hootduo");
+                natDex.push("Noctdrio");
+                natDex.push("Togekey");
+                natDex.push("Togetape");
+                natDex.push("Hopporita");
+                natDex.push("Skipleef");
+                natDex.push("Jumpanium");
+                natDex.push("Woochum");
+                natDex.push("Quagynx");
+                natDex.push("Phancero");
+            }
             var pokemon = TPP.Transforms.Pokedex.DexMerge(dexData.Regional[run.Pokedex || run.Region], natDex);
             function fillDex(run) {
                 tppData.forEach(c => {
