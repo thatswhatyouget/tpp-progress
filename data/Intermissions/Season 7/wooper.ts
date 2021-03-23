@@ -8,6 +8,7 @@ Intermissions.Runs.push(
         Duration: "2020-12-12T00:09:15Z",
         HostName: "GMMTMT",
         HostImage: "img/hosts/gmmtmt.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/m37nzd/the_hosts_of_the_voices_after_the_7th_anniversary/",
         Region: "Kanto",
         Generation: 3,
         BaseGame: "FireRed",
