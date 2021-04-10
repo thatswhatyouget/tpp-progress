@@ -160,7 +160,7 @@ Season7.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-04-24T22:46:39.470Z", IDNo: "46240", Attempts: 12, Party: [
-                    { Pokemon: "Landorus", Nickname: "Landorusg", Level: 100, Gender: "Male", Shiny: true },
+                    { Pokemon: "Landorus", Nickname: "Landorusg", Level: 100, Gender: "Male", Shiny: true, Form: "Therian" },
                     { Pokemon: "Darkrai", Nickname: "♛♛w", Level: 100 },
                     { Pokemon: "Porygon-Z", Nickname: "APSEPIEMG", Level: 100, Shiny: true },
                     { Pokemon: "Krookodile", Nickname: "L GGG HGMY", Level: 100, Gender: "Female" },
@@ -174,7 +174,7 @@ Season7.Runs.push(
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-04-25T04:44:00.215Z", IDNo: "46240", Attempts: 1, Party: [
                     { Pokemon: "Krookodile", Nickname: "L GGG HGMY", Level: 100, Gender: "Female" },
                     { Pokemon: "Darkrai", Nickname: "♛♛w", Level: 100 },
-                    { Pokemon: "Landorus", Nickname: "Landorusg", Level: 100, Gender: "Male", Shiny: true },
+                    { Pokemon: "Landorus", Nickname: "Landorusg", Level: 100, Gender: "Male", Shiny: true, Form: "Therian" },
                     { Pokemon: "Milotic", Nickname: "TRSNNEAESK", Level: 100, Gender: "Male" },
                     { Pokemon: "Porygon-Z", Nickname: "APSEPIEMG", Level: 100, Shiny: true },
                     { Pokemon: "Eelektross", Nickname: "pe", Level: 100, Gender: "Male" },
@@ -261,7 +261,7 @@ Season7.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-04-27T20:32:39.437Z", IDNo: "46240", Attempts: 1, Party: [
-                    { Pokemon: "Landorus", Nickname: "Landorusg", Level: 100, Gender: "Male", Shiny: true },
+                    { Pokemon: "Landorus", Nickname: "Landorusg", Level: 100, Gender: "Male", Shiny: true, Form: "Therian" },
                     { Pokemon: "Milotic", Nickname: "TRSNNEAESK", Level: 100, Gender: "Male" },
                     { Pokemon: "Porygon-Z", Nickname: "APSEPIEMG", Level: 100, Shiny: true },
                     { Pokemon: "Darkrai", Nickname: "♛♛w", Level: 100 },

@@ -41,8 +41,12 @@ var alternates: Alternate[] = [
     // new Alternate("skiploom", "Shiny"),
     // new Alternate("jumpluff", "Shiny"),
 
+    new Alternate("tornadus", "Therian"),
+    new Alternate("thundurus", "Therian"),
+    new Alternate("landorus", "Therian"),
+
     new Alternate("zygarde", "percent10"),
     new Alternate("lycanroc", "Midnight"),
 ];
 
-addStyles(alternates, (a: Alternate) => ".pokesprite." + a.baseMon + "." + a.modifier + ' img { background-image:url("' + a.image + '")!important; background-position: center!important; }'); 
+addStyles(alternates, (a: Alternate) => ".pokesprite." + a.baseMon + "." + a.modifier + ' img { background-image:url("' + a.image + '")!important; background-position: center!important; }');
