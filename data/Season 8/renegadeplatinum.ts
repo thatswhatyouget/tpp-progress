@@ -18,43 +18,43 @@ Season8.Runs.push(
                 Group: "Badges",
                 Name: "Coal Badge",
                 Image: "img/badges/coal.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-04-11T07:53:23.545Z",
+                Attempts: 2
             },
             {
                 Group: "Badges",
                 Name: "Forest Badge",
                 Image: "img/badges/forest.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-04-11T22:25:11.700Z",
+                Attempts: 4
             },
             {
                 Group: "Badges",
                 Name: "Cobble Badge",
                 Image: "img/badges/cobble.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-04-13T01:09:26.839Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Fen Badge",
                 Image: "img/badges/fen.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-04-13T16:51:39.113Z",
+                Attempts: 6
             },
             {
                 Group: "Badges",
                 Name: "Relic Badge",
                 Image: "img/badges/relic.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-04-12T10:30:21.176Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Mine Badge",
                 Image: "img/badges/mine.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-04-14T08:28:47.545Z",
+                Attempts: 2
             },
             {
                 Group: "Badges",
