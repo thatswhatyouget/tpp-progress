@@ -60,8 +60,8 @@ Season8.Runs.push(
                 Group: "Badges",
                 Name: "Icicle Badge",
                 Image: "img/badges/icicle.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-04-14T15:25:27.205Z",
+                Attempts: 2
             },
             {
                 Group: "Badges",
