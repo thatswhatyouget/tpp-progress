@@ -11,7 +11,7 @@ Season7.Runs.push(
         // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/fer2cx/nia_gropius_host_of_gauntlet_emerald_concept/",
         Region: "Hoenn",
         Pokedex: "Altair/Sirius (Hoenn)",
-        FinalStateLink:"./states/Season 7/sirius.json", 
+        FinalStateLink:"./states/Season 7/sirius.json",
         Events: [
             {
                 Group: "Badges",
@@ -336,7 +336,8 @@ Season7.Runs.push(
             { "Group": "Pokemon", "Name": "Pteriarch", "Time": "2020-06-23T10:33:41.460Z" },
             { "Group": "Pokemon", "Name": "Tyranos", "Time": "2020-06-23T11:50:05.742Z" },
             { "Group": "Pokemon", "Name": "Tentyrant", "Time": "2020-06-23T13:20:07.228Z" },
-            { "Group": "Pokemon", "Name": "Sphericoil", "Time": "2020-06-23T13:21:47.154Z" }
+            { "Group": "Pokemon", "Name": "Sphericoil", "Time": "2020-06-23T13:21:47.154Z" },
+            { "Group": "Pokemon", "Name": "Mew", "Time": "2020-06-23T19:23:53.789Z" },
         ]
     }
 );
