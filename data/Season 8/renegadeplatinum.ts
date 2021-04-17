@@ -74,29 +74,29 @@ Season8.Runs.push(
                 Group: "Elite Four",
                 Name: "Aaron",
                 Image: "img/trainers/platinum/aaron.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-04-17T00:31:44.587Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Bertha",
                 Image: "img/trainers/platinum/bertha.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-04-17T02:12:14.211Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four",
                 Name: "Flint",
                 Image: "img/trainers/platinum/flint.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-04-17T11:39:54.238Z",
+                Attempts: 7
             },
             {
                 Group: "Elite Four",
                 Name: "Lucian",
                 Image: "img/trainers/platinum/lucian.png",
                 Time: "",
-                Attempts: 0
+                Attempts: 1
             },
             {
                 Group: "Champions",
@@ -108,7 +108,7 @@ Season8.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2021-04-17T00:14:53.940Z",
                 Image: "img/ribbons/champion-sinnoh.png"
             },
             { "Group": "Pokemon", "Name": "Turtwig", "Time": "2021-04-10T21:24:55.932Z" },
@@ -324,7 +324,9 @@ Season8.Runs.push(
             { "Group": "Pokemon", "Name": "Mantine", "Time": "2021-04-16T20:09:21.699Z" },
             { "Group": "Pokemon", "Name": "Misdreavus", "Time": "2021-04-16T20:59:03.910Z" },
             { "Group": "Pokemon", "Name": "Murkrow", "Time": "2021-04-16T21:01:28.370Z" },
-            { "Group": "Pokemon", "Name": "Celebi", "Time": "2021-04-16T21:03:53.015Z" }
+            { "Group": "Pokemon", "Name": "Celebi", "Time": "2021-04-16T21:03:53.015Z" },
+            { "Group": "Pokemon", "Name": "Beautifly", "Time": "2021-04-16T22:57:06.096Z" },
+            { "Group": "Pokemon", "Name": "Shaymin", "Time": "2021-04-16T23:12:09.482Z" }
         ]
     }
 );
