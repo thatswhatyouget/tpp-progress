@@ -6,7 +6,7 @@ Season8.Runs.push(
         ColorSecondary: "#94ce63",
         Duration: "255d",
         StartDate: "2021-05-08T21:00:00Z",
-        HostName: "",
+        HostName: "B",
         HostImage: "img/hosts/larry.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/76wtj1/larry_he_is_ginger/",
         //HostImage: "https://cdn.bulbagarden.net/upload/6/66/Spr_RG_Red_1.png",
@@ -18,24 +18,24 @@ Season8.Runs.push(
                 Name: "Boulder Badge",
                 Image: "img/badges/boulder.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "",
-                Attempts: 0
+                Time: "2021-05-08T22:07:39.159Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Cascade Badge",
                 Image: "img/badges/cascade.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "",
-                Attempts: 0
+                Time: "2021-05-09T01:08:15.669Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
                 Name: "Thunder Badge",
                 Image: "img/badges/thunder.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "",
-                Attempts: 0
+                Time: "2021-05-09T04:53:43.709Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
@@ -118,6 +118,13 @@ Season8.Runs.push(
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
             },
+            { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "2021-05-08T21:05:25.404Z" },
+            { "Group": "Pokemon", "Name": "Ivysaur", "Time": "2021-05-08T22:33:38.082Z" },
+            { "Group": "Pokemon", "Name": "Spearow", "Time": "2021-05-08T22:46:02.388Z" },
+            { "Group": "Pokemon", "Name": "Zubat", "Time": "2021-05-08T23:13:18.789Z" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "2021-05-09T03:12:20.278Z" },
+            { "Group": "Pokemon", "Name": "Diglett", "Time": "2021-05-09T03:52:45.758Z" },
+            { "Group": "Pokemon", "Name": "Venusaur", "Time": "2021-05-09T05:33:33.462Z" },
         ]
     }
 );
