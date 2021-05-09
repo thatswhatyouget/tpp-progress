@@ -50,24 +50,24 @@ Season8.Runs.push(
                 Name: "Soul Badge",
                 Image: "img/badges/soul.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "",
-                Attempts: 0
+                Time: "2021-05-09T14:33:45.738Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Marsh Badge",
                 Image: "img/badges/marsh.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "",
-                Attempts: 0
+                Time: "2021-05-09T17:17:02.662Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Volcano Badge",
                 Image: "img/badges/volcano.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "",
-                Attempts: 0
+                Time: "2021-05-09T17:02:48.163Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
@@ -126,7 +126,13 @@ Season8.Runs.push(
             { "Group": "Pokemon", "Name": "Diglett", "Time": "2021-05-09T03:52:45.758Z" },
             { "Group": "Pokemon", "Name": "Venusaur", "Time": "2021-05-09T05:33:33.462Z" },
             { "Group": "Pokemon", "Name": "Dugtrio", "Time": "2021-05-09T06:10:16.760Z" },
-            { "Group": "Pokemon", "Name": "Machop", "Time": "2021-05-09T06:30:16.224Z" }
+            { "Group": "Pokemon", "Name": "Machop", "Time": "2021-05-09T06:30:16.224Z" },
+            { "Group": "Pokemon", "Name": "Machoke", "Time": "2021-05-09T11:15:33.798Z" },
+            { "Group": "Pokemon", "Name": "Haunter", "Time": "2021-05-09T11:59:08.615Z" },
+            { "Group": "Pokemon", "Name": "Gengar", "Time": "2021-05-09T11:59:23.669Z" },
+            { "Group": "Pokemon", "Name": "Lapras", "Time": "2021-05-09T13:33:29.952Z" },
+            { "Group": "Pokemon", "Name": "Nidoran♂", "Time": "2021-05-09T14:47:48.953Z" },
+            { "Group": "Pokemon", "Name": "Nidorino", "Time": "2021-05-09T14:48:27.964Z" }
         ]
     }
 );
