@@ -42,8 +42,8 @@ Season8.Runs.push(
                 Name: "Rainbow Badge",
                 Image: "img/badges/rainbow.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "",
-                Attempts: 0
+                Time: "2021-05-09T09:31:45.867Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
@@ -125,6 +125,8 @@ Season8.Runs.push(
             { "Group": "Pokemon", "Name": "Meowth", "Time": "2021-05-09T03:12:20.278Z" },
             { "Group": "Pokemon", "Name": "Diglett", "Time": "2021-05-09T03:52:45.758Z" },
             { "Group": "Pokemon", "Name": "Venusaur", "Time": "2021-05-09T05:33:33.462Z" },
+            { "Group": "Pokemon", "Name": "Dugtrio", "Time": "2021-05-09T06:10:16.760Z" },
+            { "Group": "Pokemon", "Name": "Machop", "Time": "2021-05-09T06:30:16.224Z" }
         ]
     }
 );
