@@ -11,6 +11,7 @@ Season8.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/n8sv79/multiverse_champion_basil_benson_an_the_red_and/",
         BaseGame: "Red",
         Region: "Kanto",
+        FinalStateLink:"./states/Season 8/rgbrace.json",
         Events: [
             {
                 Group: "Badges",
