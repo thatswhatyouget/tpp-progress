@@ -4,12 +4,12 @@ Season8.Runs.push(
         RunName: "RGB Race Green",
         ColorPrimary: "#ceff94",
         ColorSecondary: "#94ce63",
-        Duration: "255d",
+        Duration: "2021-05-10T08:15:00Z",
         StartDate: "2021-05-08T21:00:00Z",
         HostName: "B",
-        HostImage: "img/hosts/larry.png",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/76wtj1/larry_he_is_ginger/",
-        //HostImage: "https://cdn.bulbagarden.net/upload/6/66/Spr_RG_Red_1.png",
+        // HostImage: "img/hosts/larry.png",
+        // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/76wtj1/larry_he_is_ginger/",
+        HostImage: "https://cdn.bulbagarden.net/upload/6/66/Spr_RG_Red_1.png",
         BaseGame: "Red",
         Region: "Kanto",
         Events: [
@@ -138,7 +138,11 @@ Season8.Runs.push(
             { "Group": "Pokemon", "Name": "Gengar", "Time": "2021-05-09T11:59:23.669Z" },
             { "Group": "Pokemon", "Name": "Lapras", "Time": "2021-05-09T13:33:29.952Z" },
             { "Group": "Pokemon", "Name": "NidoranM", "Time": "2021-05-09T14:47:48.953Z" },
-            { "Group": "Pokemon", "Name": "Nidorino", "Time": "2021-05-09T14:48:27.964Z" }
+            { "Group": "Pokemon", "Name": "Nidorino", "Time": "2021-05-09T14:48:27.964Z" },
+            { "Group": "Pokemon", "Name": "Rattata", "Time": "2021-05-10T02:52:50.189Z" },
+            { "Group": "Pokemon", "Name": "Krabby", "Time": "2021-05-10T06:49:19.870Z" },
+            { "Group": "Pokemon", "Name": "Staryu", "Time": "2021-05-10T06:56:08.423Z" },
+            { "Group": "Pokemon", "Name": "Horsea", "Time": "2021-05-10T07:02:19.205Z" }
         ]
     }
 );
