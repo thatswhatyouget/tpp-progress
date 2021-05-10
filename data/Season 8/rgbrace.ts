@@ -81,41 +81,47 @@ Season8.Runs.push(
                 Group: "Elite Four",
                 Name: "Lorelei",
                 Image: "img/trainers/red/lorelei.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-05-09T20:23:39.669Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Bruno",
                 Image: "img/trainers/red/bruno.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-05-09T20:26:27.379Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Agatha",
                 Image: "img/trainers/red/agatha.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-05-09T20:31:32.119Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Lance",
                 Image: "img/trainers/red/lance.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-05-09T21:12:35.636Z",
+                Attempts: 3
             },
             {
                 Group: "Champions",
                 Name: "BLUE",
                 Image: "img/trainers/red/blue.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-05-10T00:32:17.524Z",
+                Attempts: 6
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-05-10T00:34:15Z", Attempts: 12, Party: [
+                    { Pokemon: "Gengar", Nickname: "HECTOR", Level: 84, Type1: "Ghost", Type2: "Poison" },
+                    { Pokemon: "Venusaur", Nickname: "ABAAABBBBK", Level: 47, Type1: "Grass", Type2: "Poison" },
+                    { Pokemon: "Dugtrio", Nickname: "B!♂", Level: 50, Type1: "Ground" },
+                    { Pokemon: "Spearow", Nickname: "UaabB", Level: 9, Type1: "Normal", Type2: "Flying" },
+                    { Pokemon: "Meowth", Nickname: "AAAAII", Level: 13, Type1: "Normal" },
+                    { Pokemon: "Lapras", Nickname: "BB", Level: 15, Type1: "Water", Type2: "Ice" },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2021-05-09T20:11:28.554Z",
                 Image: "img/ribbons/champion.png"
             },
             { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "2021-05-08T21:05:25.404Z" },
@@ -131,7 +137,7 @@ Season8.Runs.push(
             { "Group": "Pokemon", "Name": "Haunter", "Time": "2021-05-09T11:59:08.615Z" },
             { "Group": "Pokemon", "Name": "Gengar", "Time": "2021-05-09T11:59:23.669Z" },
             { "Group": "Pokemon", "Name": "Lapras", "Time": "2021-05-09T13:33:29.952Z" },
-            { "Group": "Pokemon", "Name": "Nidoran♂", "Time": "2021-05-09T14:47:48.953Z" },
+            { "Group": "Pokemon", "Name": "NidoranM", "Time": "2021-05-09T14:47:48.953Z" },
             { "Group": "Pokemon", "Name": "Nidorino", "Time": "2021-05-09T14:48:27.964Z" }
         ]
     }
