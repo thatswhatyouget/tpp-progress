@@ -7,9 +7,8 @@ Season8.Runs.push(
         Duration: "2021-05-10T08:15:00Z",
         StartDate: "2021-05-08T21:00:00Z",
         HostName: "B",
-        // HostImage: "img/hosts/larry.png",
-        // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/76wtj1/larry_he_is_ginger/",
-        HostImage: "https://cdn.bulbagarden.net/upload/6/66/Spr_RG_Red_1.png",
+        HostImage: "img/hosts/b.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/n8sv79/multiverse_champion_basil_benson_an_the_red_and/",
         BaseGame: "Red",
         Region: "Kanto",
         Events: [
