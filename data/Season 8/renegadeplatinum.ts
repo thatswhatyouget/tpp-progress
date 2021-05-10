@@ -110,9 +110,9 @@ Season8.Runs.push(
                     { Pokemon: "Magcargo", Nickname: "oouooobbc ", Level: 88, Gender: "Female", Met: "Route 206", OT: "Kr " },
                     { Pokemon: "Manaphy", Nickname: "GAMYPI SSB", Level: 95, Met: "Trophy Garden", OT: "Kr " },
                     { Pokemon: "Infernape", Nickname: "MONKE", Level: 80, Gender: "Male", Met: "Sandgem Town", OT: "Kr " },
-                    { Pokemon: "Rotom", Nickname: "JOmJFrOIDe", Level: 81, Met: "Old Chateau", OT: "Kr " },
-                    { Pokemon: "Metagross", Nickname: "GPWWERZ!:", Level: 78, Met: "Oreburgh City", OT: "Kr " },
-                    { Pokemon: "Meganium", Nickname: "STPPBWG ", Level: 78, Gender: "Male", Met: "Floaroma Town", OT: "Kr " },
+                    { Pokemon: "Rotom", Nickname: "JOmJFrOIDe", Level: 81, Met: "Old Chateau", OT: "Kr ", Form: "Wash" },
+                    { Pokemon: "Metagross", Nickname: "GPWWERZ!: ", Level: 78, Met: "Oreburgh City", OT: "Kr " },
+                    { Pokemon: "Meganium", Nickname: "STPPBWG", Level: 78, Gender: "Male", Met: "Floaroma Town", OT: "Kr " },
                 ],
                 FirstAttemptDate: "2021-04-17T00:14:53.940Z",
                 Image: "img/ribbons/champion-sinnoh.png"
@@ -160,11 +160,11 @@ Season8.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-04-21T12:09:07.745Z", IDNo: "26412", Attempts: 16, Party: [
                     { Pokemon: "Manaphy", Nickname: "GAMYPI SSB", Level: 100, Met: "Trophy Garden", OT: "Kr " },
-                    { Pokemon: "Meganium", Nickname: "STPPBWG ", Level: 94, Gender: "Male", Met: "Floaroma Town", OT: "Kr " },
+                    { Pokemon: "Meganium", Nickname: "STPPBWG", Level: 94, Gender: "Male", Met: "Floaroma Town", OT: "Kr " },
                     { Pokemon: "Magcargo", Nickname: "oouooobbc ", Level: 100, Gender: "Female", Met: "Route 206", OT: "Kr " },
                     { Pokemon: "Infernape", Nickname: "MONKE", Level: 94, Gender: "Male", Met: "Sandgem Town", OT: "Kr " },
-                    { Pokemon: "Rotom", Nickname: "JOmJFrOIDe", Level: 97, Met: "Old Chateau", OT: "Kr " },
-                    { Pokemon: "Metagross", Nickname: "GPWWERZ!:", Level: 93, Met: "Oreburgh City", OT: "Kr " },
+                    { Pokemon: "Rotom", Nickname: "JOmJFrOIDe", Level: 97, Met: "Old Chateau", OT: "Kr ", Form: "Frost" },
+                    { Pokemon: "Metagross", Nickname: "GPWWERZ!: ", Level: 93, Met: "Oreburgh City", OT: "Kr " },
                 ],
                 FirstAttemptDate: "8d 11h 40m",
                 Image: "img/ribbons/champion-sinnoh.png"

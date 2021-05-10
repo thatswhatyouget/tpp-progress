@@ -41,6 +41,12 @@ var alternates: Alternate[] = [
     // new Alternate("skiploom", "Shiny"),
     // new Alternate("jumpluff", "Shiny"),
 
+    new Alternate("rotom", "Fan"),
+    new Alternate("rotom", "Frost"),
+    new Alternate("rotom", "Heat"),
+    new Alternate("rotom", "Mow"),
+    new Alternate("rotom", "Wash"),
+
     new Alternate("tornadus", "Therian"),
     new Alternate("thundurus", "Therian"),
     new Alternate("landorus", "Therian"),
