@@ -38,6 +38,7 @@ Sidegames.Runs.push(
             },
 
             { Group: "Pokemon", Name: "Gohan", Time: "2021-05-15T05:41:35.275Z" },
+            { Group: "Pokemon", Name: "Piccolo", Time: "2021-05-20T17:30:46.663Z" },
         ]
     }
 );
