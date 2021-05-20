@@ -13,6 +13,7 @@ Sidegames.Runs.push(
         Region: "Kanto",
         ContainsRunsFrom: ["Revisits", "Intermissions", "Season 4"],
         SidegameId: "pag",
+        LastScreenshot: "https://i.tppl.tv/pbr/sidegame/ash_gray/1495716756.png",
         Events: [
             { Name: "Pikachu", Time: "2017-03-16T01:25:35+00:00", Group: "Pokemon" },
             { Name: "Caterpie", Time: "2017-03-20T12:18:45+00:00", Group: "Pokemon" },
@@ -42,7 +43,7 @@ Sidegames.Runs.push(
             { Name: "Wartortle", Time: "2017-09-27T18:31:35+00:00", Group: "Pokemon" },
             { Name: "Raichu", Time: "2017-09-27T19:46:21+00:00", Group: "Pokemon" },
             { Name: "Blastoise", Time: "2017-09-29T20:54:22+00:00", Group: "Pokemon" },
-            
+
             { Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png", Time: "", Attempts: 0 },

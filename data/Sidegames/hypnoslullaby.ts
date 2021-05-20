@@ -12,6 +12,7 @@ Sidegames.Runs.push(
         BaseGame: "FireRed",
         Region: "Kanto",
         SidegameId: "hypno",
+        LastScreenshot: "https://i.tppl.tv/pbr/sidegame/hypno/1541981429.png",
         Events: [
             { Name: "Vulpix", Time: "2018-10-30T13:40:12.350Z", Group: "Pokemon" },
 

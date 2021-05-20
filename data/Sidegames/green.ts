@@ -14,6 +14,7 @@ Sidegames.Runs.push(
         Region: "Kanto",
         ContainsRunsFrom: ["Revisits", "Intermissions", "Season 4", "Season 5"],
         SidegameId: "pg",
+        LastScreenshot: "https://i.tppl.tv/pbr/sidegame/pg/1523663959.png",
         Events: [
             { Name: "TORTO", Class: "Squirtle", Time: "Tue Oct 17 2017 02:40:22 GMT+0000 (UTC)", Group: "Pokemon" },
             <TPP.HallOfFame>{
@@ -42,7 +43,7 @@ Sidegames.Runs.push(
             { Group: "Elite Four", Name: "CARNAR", Image: "img/trainers/red/lorelei.png", Time: "2018-04-06T04:54:57+00:00", Attempts: 1 },
             { Group: "Elite Four", Name: "XIBA", Image: "img/trainers/red/bruno.png", Time: "2018-04-06T21:28:03+00:00", Attempts: 1 },
             { Group: "Elite Four", Name: "KUCHIC", Image: "img/trainers/red/agatha.png", Time: "2018-04-07T12:15:33+00:00", Attempts: 1 },
-            { Group: "Elite Four", Name: "WATERLU", Image: "img/trainers/red/lance.png", Time: "2018-04-08T06:59:43+00:00", Attempts: 1 },            
+            { Group: "Elite Four", Name: "WATERLU", Image: "img/trainers/red/lance.png", Time: "2018-04-08T06:59:43+00:00", Attempts: 1 },
             { Group: "Champions", Name: "GRAPE", Image: "img/trainers/red/blue.png", Time: "2018-04-09T04:54:48+00:00", Attempts: 1 },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2018-04-09T18:43:58+00:00", Attempts: 1, Party: [
