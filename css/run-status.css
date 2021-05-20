@@ -127,6 +127,10 @@
     background-image: url("../img/vega-large.png")!important;
 }
 
+.dbzteamtraining .badgeList ul li .image.pokesprite:not(.missingno) img {
+    background-image: url("../img/fighters-large.png")!important;
+}
+
 .badgeList ul li .image img {
     height: 1em;
 }
@@ -302,6 +306,10 @@
 
 .vega .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img {
     background-image: url("../img/vega-large.png")!important;
+}
+
+.dbzteamtraining .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img {
+    background-image: url("../img/fighters-large.png")!important;
 }
 
 .pokemon-hud ul.party > li .pokemon-image > .pokesprite.egg > img {
