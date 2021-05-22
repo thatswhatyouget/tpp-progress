@@ -14,6 +14,7 @@ Sidegames.Runs.push(
         Pokedex: "Hoenn",
         ContainsRunsFrom: ["Season 7", "Revisits"],
         SidegameId: "lightsapph",
+        LastScreenshot: "https://i.tppl.tv/pbr/sidegame/lightsapph/1607634538.png",
         Events: [
             { Group: "Badges", Name: "Dragon Stone Medal", Image: "img/badges/stone.png", Time: "2020-05-22T17:57:38.000Z", Attempts: 1 },
             { Group: "Badges", Name: "Nike Medal", Image: "img/badges/knuckle.png", Time: "2020-06-04T03:35:44.000Z", Attempts: 1 },

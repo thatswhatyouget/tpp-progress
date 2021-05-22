@@ -14,6 +14,7 @@ Sidegames.Runs.push(
         Pokedex: "Cookbook",
         ContainsRunsFrom: ["Revisits", "Intermissions", "Season 5", "Sidegames"],
         SidegameId: "psweet",
+        LastScreenshot: "https://i.tppl.tv/pbr/sidegame/psweet/1549757303.png",
         Events: [
             { Name: "Squirpie", Time: "May 5 2018 6:42 AM", Group: "Pokemon" },
             { Name: "Meowffin", Time: "May 6 2018 2:23 AM", Group: "Pokemon" },
@@ -39,7 +40,7 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Grape Badge", Image: "img/badges/marsh.png", Time: "2018-11-16T23:31:47+00:00", Attempts: 1 },
             { Group: "Badges", Name: "Sugar Badge", Image: "img/badges/volcano.png", Time: "2018-12-02T11:10:22+00:00", Attempts: 1 },
             { Group: "Badges", Name: "Chocolate Badge", Image: "img/badges/earth.png", Time: "2018-12-31 08:26:36.261000", Attempts: 1 },
-            
+
             { Group: "Elite Four", Name: "Pastriot Steve", Image: "img/trainers/firered/lance.png", Time: "2019-01-10T05:38:12+00:00", Attempts: 1 },
             { Group: "Elite Four", Name: "Pastriot Sarah", Image: "img/trainers/emerald/phoebe.png", Time: "2019-01-11T08:37:33+00:00", Attempts: 1 },
             { Group: "Elite Four", Name: "Pastriot Cen", Image: "img/trainers/emerald/wally.png", Time: "2019-01-12T17:56:40+00:00", Attempts: 1 },

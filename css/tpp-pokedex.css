@@ -124,6 +124,10 @@
     background-image: url("../img/vega-large.png")!important;
 }
 
+.dbzteamtraining .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/fighters-large.png")!important;
+}
+
 .ms .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/pokemon.png")!important;
 }
@@ -150,4 +154,8 @@
 
 .ms.vega .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/vega-small.png")!important;
+}
+
+.ms.dbzteamtraining .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/fighters-small.png")!important;
 }

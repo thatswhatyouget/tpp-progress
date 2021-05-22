@@ -1,0 +1,3580 @@
+{
+    "party": [
+        {
+            "species": {
+                "base_stats": {
+                    "attack": 65,
+                    "defense": 60,
+                    "hp": 60,
+                    "special_attack": 130,
+                    "special_defense": 130,
+                    "speed": 110
+                },
+                "catch_rate": 45,
+                "gender_ratio": 127,
+                "growth_rate": "Medium Slow",
+                "id": 14,
+                "name": "Gengar",
+                "national_dex": 94,
+                "type1": "Ghost",
+                "type2": "Poison",
+                "held_items": []
+            },
+            "health": [
+                246,
+                246
+            ],
+            "level": 84,
+            "status": null,
+            "sleep_turns": 0,
+            "moves": [
+                {
+                    "accuracy": 255,
+                    "base_power": 90,
+                    "id": 94,
+                    "pp": 10,
+                    "pp_up": 0,
+                    "max_pp": 10,
+                    "name": "Psychic",
+                    "type": "Psychic"
+                },
+                {
+                    "accuracy": 255,
+                    "base_power": 95,
+                    "id": 85,
+                    "pp": 15,
+                    "pp_up": 0,
+                    "max_pp": 15,
+                    "name": "Thunderbolt",
+                    "type": "Electric"
+                },
+                {
+                    "accuracy": 255,
+                    "base_power": 0,
+                    "id": 101,
+                    "pp": 15,
+                    "pp_up": 0,
+                    "max_pp": 15,
+                    "name": "Night Shade",
+                    "type": "Ghost"
+                },
+                {
+                    "accuracy": 255,
+                    "base_power": 0,
+                    "id": 118,
+                    "pp": 10,
+                    "pp_up": 0,
+                    "max_pp": 10,
+                    "name": "Metronome",
+                    "type": "Normal"
+                }
+            ],
+            "original_trainer": {
+                "id": 49219,
+                "name": " "
+            },
+            "experience": {
+                "current": 636480,
+                "next_level": 636935,
+                "this_level": 613664,
+                "remaining": 455
+            },
+            "evs": {
+                "hp": 16264,
+                "attack": 18899,
+                "defense": 19456,
+                "speed": 17766,
+                "special_attack": 18062,
+                "special_defense": 18062
+            },
+            "ivs": {
+                "attack": 9,
+                "defense": 11,
+                "speed": 13,
+                "special_attack": 15,
+                "special_defense": 15,
+                "hp": 15
+            },
+            "personality_value": 2615132251,
+            "stats": {
+                "hp": 246,
+                "attack": 157,
+                "defense": 152,
+                "speed": 238,
+                "special_attack": 275,
+                "special_defense": 275
+            },
+            "name": "HECTOR",
+            "gender": "Male",
+            "shiny": false,
+            "met": {
+                "caught": "2021-05-09T11:59:08.615Z",
+                "evolved": [
+                    "2021-05-09T11:59:23.669Z"
+                ]
+            }
+        },
+        {
+            "species": {
+                "base_stats": {
+                    "attack": 45,
+                    "defense": 35,
+                    "hp": 40,
+                    "special_attack": 40,
+                    "special_defense": 40,
+                    "speed": 90
+                },
+                "catch_rate": 255,
+                "gender_ratio": 127,
+                "growth_rate": "Medium Fast",
+                "id": 77,
+                "name": "Meowth",
+                "national_dex": 52,
+                "type1": "Normal",
+                "type2": "Normal",
+                "held_items": []
+            },
+            "health": [
+                35,
+                35
+            ],
+            "level": 14,
+            "status": null,
+            "sleep_turns": 0,
+            "moves": [
+                {
+                    "accuracy": 255,
+                    "base_power": 40,
+                    "id": 10,
+                    "pp": 35,
+                    "pp_up": 0,
+                    "max_pp": 35,
+                    "name": "Scratch",
+                    "type": "Normal"
+                },
+                {
+                    "accuracy": 255,
+                    "base_power": 60,
+                    "id": 44,
+                    "pp": 25,
+                    "pp_up": 0,
+                    "max_pp": 25,
+                    "name": "Bite",
+                    "type": "Normal"
+                },
+                {
+                    "accuracy": 255,
+                    "base_power": 0,
+                    "id": 45,
+                    "pp": 40,
+                    "pp_up": 0,
+                    "max_pp": 40,
+                    "name": "Growl",
+                    "type": "Normal"
+                }
+            ],
+            "original_trainer": {
+                "id": 37863,
+                "name": "B"
+            },
+            "experience": {
+                "current": 3096,
+                "next_level": 3375,
+                "this_level": 2744,
+                "remaining": 279
+            },
+            "evs": {
+                "hp": 159,
+                "attack": 206,
+                "defense": 219,
+                "speed": 252,
+                "special_attack": 302,
+                "special_defense": 302
+            },
+            "ivs": {
+                "attack": 8,
+                "defense": 8,
+                "speed": 4,
+                "special_attack": 13,
+                "special_defense": 13,
+                "hp": 1
+            },
+            "personality_value": 2286785535,
+            "stats": {
+                "hp": 35,
+                "attack": 20,
+                "defense": 17,
+                "speed": 31,
+                "special_attack": 20,
+                "special_defense": 20
+            },
+            "name": "AAAAII",
+            "next_move": {
+                "type": "Normal",
+                "level": 17
+            },
+            "gender": "Male",
+            "shiny": false,
+            "met": {
+                "caught": "2021-05-09T03:12:20.278Z",
+                "evolved": []
+            }
+        },
+        {
+            "species": {
+                "base_stats": {
+                    "attack": 82,
+                    "defense": 83,
+                    "hp": 80,
+                    "special_attack": 100,
+                    "special_defense": 100,
+                    "speed": 80
+                },
+                "catch_rate": 45,
+                "gender_ratio": 31,
+                "growth_rate": "Medium Slow",
+                "id": 154,
+                "name": "Venusaur",
+                "national_dex": 3,
+                "type1": "Grass",
+                "type2": "Poison",
+                "held_items": []
+            },
+            "health": [
+                143,
+                143
+            ],
+            "level": 47,
+            "status": null,
+            "sleep_turns": 0,
+            "moves": [
+                {
+                    "accuracy": 242,
+                    "base_power": 55,
+                    "id": 75,
+                    "pp": 25,
+                    "pp_up": 0,
+                    "max_pp": 25,
+                    "name": "Razor Leaf",
+                    "type": "Grass"
+                },
+                {
+                    "accuracy": 242,
+                    "base_power": 50,
+                    "id": 15,
+                    "pp": 30,
+                    "pp_up": 0,
+                    "max_pp": 30,
+                    "name": "Cut",
+                    "type": "Normal"
+                },
+                {
+                    "accuracy": 229,
+                    "base_power": 0,
+                    "id": 73,
+                    "pp": 10,
+                    "pp_up": 0,
+                    "max_pp": 10,
+                    "name": "Leech Seed",
+                    "type": "Grass"
+                },
+                {
+                    "accuracy": 191,
+                    "base_power": 0,
+                    "id": 77,
+                    "pp": 35,
+                    "pp_up": 0,
+                    "max_pp": 35,
+                    "name": "Poisonpowder",
+                    "type": "Poison"
+                }
+            ],
+            "original_trainer": {
+                "id": 37863,
+                "name": "B"
+            },
+            "experience": {
+                "current": 102759,
+                "next_level": 102810,
+                "this_level": 96012,
+                "remaining": 51
+            },
+            "evs": {
+                "hp": 10455,
+                "attack": 13434,
+                "defense": 12896,
+                "speed": 14193,
+                "special_attack": 10880,
+                "special_defense": 10880
+            },
+            "ivs": {
+                "attack": 8,
+                "defense": 12,
+                "speed": 8,
+                "special_attack": 2,
+                "special_defense": 2,
+                "hp": 0
+            },
+            "personality_value": 2357367791,
+            "stats": {
+                "hp": 143,
+                "attack": 102,
+                "defense": 107,
+                "speed": 101,
+                "special_attack": 112,
+                "special_defense": 112
+            },
+            "name": "ABAAABBBBK",
+            "next_move": {
+                "type": "Grass",
+                "level": 55
+            },
+            "gender": "Male",
+            "shiny": false,
+            "met": {
+                "caught": "2021-05-08T21:05:25.404Z",
+                "evolved": [
+                    "2021-05-08T22:33:38.082Z",
+                    "2021-05-09T03:52:45.758Z",
+                    "2021-05-09T05:33:33.462Z",
+                    "2021-05-09T06:30:16.224Z",
+                    "2021-05-09T13:33:29.952Z"
+                ]
+            }
+        },
+        {
+            "species": {
+                "base_stats": {
+                    "attack": 85,
+                    "defense": 80,
+                    "hp": 130,
+                    "special_attack": 95,
+                    "special_defense": 95,
+                    "speed": 60
+                },
+                "catch_rate": 45,
+                "gender_ratio": 127,
+                "growth_rate": "Slow",
+                "id": 19,
+                "name": "Lapras",
+                "national_dex": 131,
+                "type1": "Water",
+                "type2": "Ice",
+                "held_items": []
+            },
+            "health": [
+                67,
+                67
+            ],
+            "level": 15,
+            "status": null,
+            "sleep_turns": 0,
+            "moves": [
+                {
+                    "accuracy": 255,
+                    "base_power": 95,
+                    "id": 57,
+                    "pp": 15,
+                    "pp_up": 0,
+                    "max_pp": 15,
+                    "name": "Surf",
+                    "type": "Water"
+                },
+                {
+                    "accuracy": 229,
+                    "base_power": 120,
+                    "id": 59,
+                    "pp": 5,
+                    "pp_up": 0,
+                    "max_pp": 5,
+                    "name": "Blizzard",
+                    "type": "Ice"
+                },
+                {
+                    "accuracy": 255,
+                    "base_power": 40,
+                    "id": 55,
+                    "pp": 25,
+                    "pp_up": 0,
+                    "max_pp": 25,
+                    "name": "Water Gun",
+                    "type": "Water"
+                },
+                {
+                    "accuracy": 255,
+                    "base_power": 80,
+                    "id": 70,
+                    "pp": 15,
+                    "pp_up": 0,
+                    "max_pp": 15,
+                    "name": "Strength",
+                    "type": "Normal"
+                }
+            ],
+            "original_trainer": {
+                "id": 37863,
+                "name": "B"
+            },
+            "experience": {
+                "current": 5071,
+                "next_level": 5120,
+                "this_level": 4218,
+                "remaining": 49
+            },
+            "evs": {
+                "hp": 85,
+                "attack": 110,
+                "defense": 100,
+                "speed": 82,
+                "special_attack": 75,
+                "special_defense": 75
+            },
+            "ivs": {
+                "attack": 9,
+                "defense": 5,
+                "speed": 6,
+                "special_attack": 3,
+                "special_defense": 3,
+                "hp": 13
+            },
+            "personality_value": 2506331119,
+            "stats": {
+                "hp": 67,
+                "attack": 33,
+                "defense": 30,
+                "speed": 24,
+                "special_attack": 34,
+                "special_defense": 34
+            },
+            "name": "BB",
+            "next_move": {
+                "type": "Normal",
+                "level": 16
+            },
+            "gender": "Male",
+            "shiny": false,
+            "met": {
+                "caught": "2021-05-09T13:33:50.316Z",
+                "evolved": []
+            }
+        },
+        {
+            "species": {
+                "base_stats": {
+                    "attack": 80,
+                    "defense": 50,
+                    "hp": 35,
+                    "special_attack": 70,
+                    "special_defense": 70,
+                    "speed": 120
+                },
+                "catch_rate": 50,
+                "gender_ratio": 127,
+                "growth_rate": "Medium Fast",
+                "id": 118,
+                "name": "Dugtrio",
+                "national_dex": 51,
+                "type1": "Ground",
+                "type2": "Ground",
+                "held_items": []
+            },
+            "health": [
+                108,
+                108
+            ],
+            "level": 50,
+            "status": null,
+            "sleep_turns": 0,
+            "moves": [
+                {
+                    "accuracy": 255,
+                    "base_power": 100,
+                    "id": 89,
+                    "pp": 10,
+                    "pp_up": 0,
+                    "max_pp": 10,
+                    "name": "Earthquake",
+                    "type": "Ground"
+                },
+                {
+                    "accuracy": 255,
+                    "base_power": 100,
+                    "id": 91,
+                    "pp": 10,
+                    "pp_up": 0,
+                    "max_pp": 10,
+                    "name": "Dig",
+                    "type": "Ground"
+                },
+                {
+                    "accuracy": 255,
+                    "base_power": 70,
+                    "id": 163,
+                    "pp": 20,
+                    "pp_up": 0,
+                    "max_pp": 20,
+                    "name": "Slash",
+                    "type": "Normal"
+                },
+                {
+                    "accuracy": 255,
+                    "base_power": 0,
+                    "id": 28,
+                    "pp": 15,
+                    "pp_up": 0,
+                    "max_pp": 15,
+                    "name": "Sand-Attack",
+                    "type": "Normal"
+                }
+            ],
+            "original_trainer": {
+                "id": 37863,
+                "name": "B"
+            },
+            "experience": {
+                "current": 131224,
+                "next_level": 132651,
+                "this_level": 125000,
+                "remaining": 1427
+            },
+            "evs": {
+                "hp": 7356,
+                "attack": 8569,
+                "defense": 7726,
+                "speed": 8905,
+                "special_attack": 9031,
+                "special_defense": 9031
+            },
+            "ivs": {
+                "attack": 14,
+                "defense": 14,
+                "speed": 9,
+                "special_attack": 3,
+                "special_defense": 3,
+                "hp": 3
+            },
+            "personality_value": 4002649087,
+            "stats": {
+                "hp": 108,
+                "attack": 110,
+                "defense": 79,
+                "speed": 145,
+                "special_attack": 89,
+                "special_defense": 89
+            },
+            "name": "B!♂",
+            "gender": "Male",
+            "shiny": false,
+            "met": {
+                "caught": "2021-05-09T03:52:46.088Z",
+                "evolved": [
+                    "2021-05-09T06:10:16.760Z"
+                ]
+            }
+        },
+        {
+            "species": {
+                "base_stats": {
+                    "attack": 60,
+                    "defense": 30,
+                    "hp": 40,
+                    "special_attack": 31,
+                    "special_defense": 31,
+                    "speed": 70
+                },
+                "catch_rate": 255,
+                "gender_ratio": 127,
+                "growth_rate": "Medium Fast",
+                "id": 5,
+                "name": "Spearow",
+                "national_dex": 21,
+                "type1": "Normal",
+                "type2": "Flying",
+                "held_items": []
+            },
+            "health": [
+                30,
+                30
+            ],
+            "level": 10,
+            "status": null,
+            "sleep_turns": 0,
+            "moves": [
+                {
+                    "accuracy": 242,
+                    "base_power": 70,
+                    "id": 19,
+                    "pp": 15,
+                    "pp_up": 0,
+                    "max_pp": 15,
+                    "name": "Fly",
+                    "type": "Flying"
+                },
+                {
+                    "accuracy": 216,
+                    "base_power": 0,
+                    "id": 92,
+                    "pp": 10,
+                    "pp_up": 0,
+                    "max_pp": 10,
+                    "name": "Toxic",
+                    "type": "Poison"
+                },
+                {
+                    "accuracy": 255,
+                    "base_power": 0,
+                    "id": 43,
+                    "pp": 30,
+                    "pp_up": 0,
+                    "max_pp": 30,
+                    "name": "Leer",
+                    "type": "Normal"
+                },
+                {
+                    "accuracy": 255,
+                    "base_power": 0,
+                    "id": 45,
+                    "pp": 40,
+                    "pp_up": 0,
+                    "max_pp": 40,
+                    "name": "Growl",
+                    "type": "Normal"
+                }
+            ],
+            "original_trainer": {
+                "id": 37863,
+                "name": "B"
+            },
+            "experience": {
+                "current": 1139,
+                "next_level": 1331,
+                "this_level": 1000,
+                "remaining": 192
+            },
+            "evs": {
+                "hp": 186,
+                "attack": 270,
+                "defense": 240,
+                "speed": 2871,
+                "special_attack": 207,
+                "special_defense": 207
+            },
+            "ivs": {
+                "attack": 5,
+                "defense": 2,
+                "speed": 7,
+                "special_attack": 12,
+                "special_defense": 12,
+                "hp": 10
+            },
+            "personality_value": 1383896063,
+            "stats": {
+                "hp": 30,
+                "attack": 18,
+                "defense": 11,
+                "speed": 21,
+                "special_attack": 13,
+                "special_defense": 13
+            },
+            "name": "UaabB",
+            "next_move": {
+                "type": "Normal",
+                "level": 15
+            },
+            "gender": "Female",
+            "shiny": false,
+            "met": {
+                "caught": "2021-05-08T22:46:55.241Z",
+                "evolved": []
+            }
+        }
+    ],
+    "pc": {
+        "boxes": [
+            {
+                "box_contents": [
+                    {
+                        "species": {
+                            "base_stats": {
+                                "attack": 40,
+                                "defense": 70,
+                                "hp": 30,
+                                "special_attack": 70,
+                                "special_defense": 70,
+                                "speed": 60
+                            },
+                            "catch_rate": 225,
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "id": 92,
+                            "name": "Horsea",
+                            "national_dex": 116,
+                            "type1": "Water",
+                            "type2": "Water",
+                            "held_items": []
+                        },
+                        "health": [
+                            64
+                        ],
+                        "level": 33,
+                        "status": null,
+                        "sleep_turns": 0,
+                        "moves": [
+                            {
+                                "accuracy": 255,
+                                "base_power": 20,
+                                "id": 145,
+                                "pp": 30,
+                                "pp_up": 0,
+                                "max_pp": 30,
+                                "name": "Bubble",
+                                "type": "Water"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 0,
+                                "id": 108,
+                                "pp": 20,
+                                "pp_up": 0,
+                                "max_pp": 20,
+                                "name": "Smokescreen",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 0,
+                                "id": 43,
+                                "pp": 30,
+                                "pp_up": 0,
+                                "max_pp": 30,
+                                "name": "Leer",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 40,
+                                "id": 55,
+                                "pp": 25,
+                                "pp_up": 0,
+                                "max_pp": 25,
+                                "name": "Water Gun",
+                                "type": "Water"
+                            }
+                        ],
+                        "original_trainer": {
+                            "id": 37863,
+                            "name": "B"
+                        },
+                        "experience": {
+                            "current": 35937,
+                            "next_level": 39304,
+                            "this_level": 35937,
+                            "remaining": 3367
+                        },
+                        "evs": {
+                            "hp": 0,
+                            "attack": 0,
+                            "defense": 0,
+                            "speed": 0,
+                            "special_attack": 0,
+                            "special_defense": 0
+                        },
+                        "ivs": {
+                            "attack": 1,
+                            "defense": 11,
+                            "speed": 10,
+                            "special_attack": 12,
+                            "special_defense": 12,
+                            "hp": 12
+                        },
+                        "personality_value": 464294887,
+                        "name": "Horsea",
+                        "next_move": {
+                            "type": "Psychic",
+                            "level": 37
+                        },
+                        "gender": "Female",
+                        "shiny": false,
+                        "met": {
+                            "caught": "2021-05-10T07:39:36.896Z",
+                            "evolved": []
+                        }
+                    },
+                    {
+                        "species": {
+                            "base_stats": {
+                                "attack": 40,
+                                "defense": 70,
+                                "hp": 30,
+                                "special_attack": 70,
+                                "special_defense": 70,
+                                "speed": 60
+                            },
+                            "catch_rate": 225,
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "id": 92,
+                            "name": "Horsea",
+                            "national_dex": 116,
+                            "type1": "Water",
+                            "type2": "Water",
+                            "held_items": []
+                        },
+                        "health": [
+                            40
+                        ],
+                        "level": 31,
+                        "status": "PSN",
+                        "sleep_turns": 0,
+                        "moves": [
+                            {
+                                "accuracy": 255,
+                                "base_power": 20,
+                                "id": 145,
+                                "pp": 30,
+                                "pp_up": 0,
+                                "max_pp": 30,
+                                "name": "Bubble",
+                                "type": "Water"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 0,
+                                "id": 108,
+                                "pp": 20,
+                                "pp_up": 0,
+                                "max_pp": 20,
+                                "name": "Smokescreen",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 0,
+                                "id": 43,
+                                "pp": 30,
+                                "pp_up": 0,
+                                "max_pp": 30,
+                                "name": "Leer",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 40,
+                                "id": 55,
+                                "pp": 25,
+                                "pp_up": 0,
+                                "max_pp": 25,
+                                "name": "Water Gun",
+                                "type": "Water"
+                            }
+                        ],
+                        "original_trainer": {
+                            "id": 37863,
+                            "name": "B"
+                        },
+                        "experience": {
+                            "current": 29791,
+                            "next_level": 32768,
+                            "this_level": 29791,
+                            "remaining": 2977
+                        },
+                        "evs": {
+                            "hp": 0,
+                            "attack": 0,
+                            "defense": 0,
+                            "speed": 0,
+                            "special_attack": 0,
+                            "special_defense": 0
+                        },
+                        "ivs": {
+                            "attack": 13,
+                            "defense": 5,
+                            "speed": 7,
+                            "special_attack": 12,
+                            "special_defense": 12,
+                            "hp": 14
+                        },
+                        "personality_value": 3581711335,
+                        "name": "BIT",
+                        "next_move": {
+                            "type": "Psychic",
+                            "level": 37
+                        },
+                        "gender": "Male",
+                        "shiny": false,
+                        "met": {
+                            "caught": "2021-05-10T07:17:07.759Z",
+                            "evolved": []
+                        }
+                    },
+                    {
+                        "species": {
+                            "base_stats": {
+                                "attack": 40,
+                                "defense": 70,
+                                "hp": 30,
+                                "special_attack": 70,
+                                "special_defense": 70,
+                                "speed": 60
+                            },
+                            "catch_rate": 225,
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "id": 92,
+                            "name": "Horsea",
+                            "national_dex": 116,
+                            "type1": "Water",
+                            "type2": "Water",
+                            "held_items": []
+                        },
+                        "health": [
+                            60
+                        ],
+                        "level": 29,
+                        "status": null,
+                        "sleep_turns": 0,
+                        "moves": [
+                            {
+                                "accuracy": 255,
+                                "base_power": 20,
+                                "id": 145,
+                                "pp": 30,
+                                "pp_up": 0,
+                                "max_pp": 30,
+                                "name": "Bubble",
+                                "type": "Water"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 0,
+                                "id": 108,
+                                "pp": 20,
+                                "pp_up": 0,
+                                "max_pp": 20,
+                                "name": "Smokescreen",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 0,
+                                "id": 43,
+                                "pp": 30,
+                                "pp_up": 0,
+                                "max_pp": 30,
+                                "name": "Leer",
+                                "type": "Normal"
+                            }
+                        ],
+                        "original_trainer": {
+                            "id": 37863,
+                            "name": "B"
+                        },
+                        "experience": {
+                            "current": 24389,
+                            "next_level": 27000,
+                            "this_level": 24389,
+                            "remaining": 2611
+                        },
+                        "evs": {
+                            "hp": 0,
+                            "attack": 0,
+                            "defense": 0,
+                            "speed": 0,
+                            "special_attack": 0,
+                            "special_defense": 0
+                        },
+                        "ivs": {
+                            "attack": 10,
+                            "defense": 5,
+                            "speed": 5,
+                            "special_attack": 13,
+                            "special_defense": 13,
+                            "hp": 7
+                        },
+                        "personality_value": 2774373351,
+                        "name": "AAAAAAAJJJ",
+                        "next_move": {
+                            "type": "Water",
+                            "level": 30
+                        },
+                        "gender": "Male",
+                        "shiny": false,
+                        "met": {
+                            "caught": "2021-05-10T07:02:25.758Z",
+                            "evolved": []
+                        }
+                    },
+                    {
+                        "species": {
+                            "base_stats": {
+                                "attack": 45,
+                                "defense": 55,
+                                "hp": 30,
+                                "special_attack": 70,
+                                "special_defense": 70,
+                                "speed": 85
+                            },
+                            "catch_rate": 225,
+                            "gender_ratio": 255,
+                            "growth_rate": "Slow",
+                            "id": 27,
+                            "name": "Staryu",
+                            "national_dex": 120,
+                            "type1": "Water",
+                            "type2": "Water",
+                            "held_items": []
+                        },
+                        "health": [
+                            63
+                        ],
+                        "level": 31,
+                        "status": null,
+                        "sleep_turns": 0,
+                        "moves": [
+                            {
+                                "accuracy": 242,
+                                "base_power": 35,
+                                "id": 33,
+                                "pp": 35,
+                                "pp_up": 0,
+                                "max_pp": 35,
+                                "name": "Tackle",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 40,
+                                "id": 55,
+                                "pp": 25,
+                                "pp_up": 0,
+                                "max_pp": 25,
+                                "name": "Water Gun",
+                                "type": "Water"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 0,
+                                "id": 106,
+                                "pp": 30,
+                                "pp_up": 0,
+                                "max_pp": 30,
+                                "name": "Harden",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 0,
+                                "id": 105,
+                                "pp": 20,
+                                "pp_up": 0,
+                                "max_pp": 20,
+                                "name": "Recover",
+                                "type": "Normal"
+                            }
+                        ],
+                        "original_trainer": {
+                            "id": 37863,
+                            "name": "B"
+                        },
+                        "experience": {
+                            "current": 37238,
+                            "next_level": 40960,
+                            "this_level": 37238,
+                            "remaining": 3722
+                        },
+                        "evs": {
+                            "hp": 0,
+                            "attack": 0,
+                            "defense": 0,
+                            "speed": 0,
+                            "special_attack": 0,
+                            "special_defense": 0
+                        },
+                        "ivs": {
+                            "attack": 14,
+                            "defense": 7,
+                            "speed": 3,
+                            "special_attack": 3,
+                            "special_defense": 3,
+                            "hp": 7
+                        },
+                        "personality_value": 3878917095,
+                        "name": "AABBNNNN××",
+                        "next_move": {
+                            "type": "Normal",
+                            "level": 32
+                        },
+                        "gender": "",
+                        "shiny": false,
+                        "met": {
+                            "caught": "2021-05-10T06:56:23.742Z",
+                            "evolved": [
+                                "2021-05-10T07:02:19.205Z"
+                            ]
+                        }
+                    },
+                    {
+                        "species": {
+                            "base_stats": {
+                                "attack": 105,
+                                "defense": 90,
+                                "hp": 30,
+                                "special_attack": 25,
+                                "special_defense": 25,
+                                "speed": 50
+                            },
+                            "catch_rate": 225,
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "id": 78,
+                            "name": "Krabby",
+                            "national_dex": 98,
+                            "type1": "Water",
+                            "type2": "Water",
+                            "held_items": []
+                        },
+                        "health": [
+                            62
+                        ],
+                        "level": 31,
+                        "status": null,
+                        "sleep_turns": 0,
+                        "moves": [
+                            {
+                                "accuracy": 255,
+                                "base_power": 0,
+                                "id": 43,
+                                "pp": 30,
+                                "pp_up": 0,
+                                "max_pp": 30,
+                                "name": "Leer",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 55,
+                                "id": 11,
+                                "pp": 30,
+                                "pp_up": 0,
+                                "max_pp": 30,
+                                "name": "Vicegrip",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 76,
+                                "base_power": 1,
+                                "id": 12,
+                                "pp": 5,
+                                "pp_up": 0,
+                                "max_pp": 5,
+                                "name": "Guillotine",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 65,
+                                "id": 23,
+                                "pp": 20,
+                                "pp_up": 0,
+                                "max_pp": 20,
+                                "name": "Stomp",
+                                "type": "Normal"
+                            }
+                        ],
+                        "original_trainer": {
+                            "id": 37863,
+                            "name": "B"
+                        },
+                        "experience": {
+                            "current": 29791,
+                            "next_level": 32768,
+                            "this_level": 29791,
+                            "remaining": 2977
+                        },
+                        "evs": {
+                            "hp": 0,
+                            "attack": 0,
+                            "defense": 0,
+                            "speed": 0,
+                            "special_attack": 0,
+                            "special_defense": 0
+                        },
+                        "ivs": {
+                            "attack": 12,
+                            "defense": 1,
+                            "speed": 6,
+                            "special_attack": 15,
+                            "special_defense": 15,
+                            "hp": 5
+                        },
+                        "personality_value": 3245315047,
+                        "name": "KLLLWOP",
+                        "next_move": {
+                            "type": "Water",
+                            "level": 35
+                        },
+                        "gender": "Male",
+                        "shiny": false,
+                        "met": {
+                            "caught": "2021-05-10T06:49:23.124Z",
+                            "evolved": [
+                                "2021-05-10T06:56:08.423Z"
+                            ]
+                        }
+                    },
+                    {
+                        "species": {
+                            "base_stats": {
+                                "attack": 56,
+                                "defense": 35,
+                                "hp": 30,
+                                "special_attack": 25,
+                                "special_defense": 25,
+                                "speed": 72
+                            },
+                            "catch_rate": 255,
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "id": 165,
+                            "name": "Rattata",
+                            "national_dex": 19,
+                            "type1": "Normal",
+                            "type2": "Normal",
+                            "held_items": []
+                        },
+                        "health": [
+                            16
+                        ],
+                        "level": 4,
+                        "status": "PSN",
+                        "sleep_turns": 0,
+                        "moves": [
+                            {
+                                "accuracy": 242,
+                                "base_power": 35,
+                                "id": 33,
+                                "pp": 35,
+                                "pp_up": 0,
+                                "max_pp": 35,
+                                "name": "Tackle",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 0,
+                                "id": 39,
+                                "pp": 30,
+                                "pp_up": 0,
+                                "max_pp": 30,
+                                "name": "Tail Whip",
+                                "type": "Normal"
+                            }
+                        ],
+                        "original_trainer": {
+                            "id": 37863,
+                            "name": "B"
+                        },
+                        "experience": {
+                            "current": 64,
+                            "next_level": 125,
+                            "this_level": 64,
+                            "remaining": 61
+                        },
+                        "evs": {
+                            "hp": 0,
+                            "attack": 0,
+                            "defense": 0,
+                            "speed": 0,
+                            "special_attack": 0,
+                            "special_defense": 0
+                        },
+                        "ivs": {
+                            "attack": 5,
+                            "defense": 3,
+                            "speed": 2,
+                            "special_attack": 8,
+                            "special_defense": 8,
+                            "hp": 12
+                        },
+                        "personality_value": 1395168255,
+                        "name": "A",
+                        "next_move": {
+                            "type": "Normal",
+                            "level": 7
+                        },
+                        "gender": "Female",
+                        "shiny": false,
+                        "met": {
+                            "caught": "2021-05-10T02:52:50.205Z",
+                            "evolved": [
+                                "2021-05-10T06:49:19.870Z"
+                            ]
+                        }
+                    },
+                    {
+                        "species": {
+                            "base_stats": {
+                                "attack": 72,
+                                "defense": 57,
+                                "hp": 61,
+                                "special_attack": 55,
+                                "special_defense": 55,
+                                "speed": 65
+                            },
+                            "catch_rate": 120,
+                            "gender_ratio": 0,
+                            "growth_rate": "Medium Slow",
+                            "id": 167,
+                            "name": "Nidorino",
+                            "national_dex": 33,
+                            "type1": "Poison",
+                            "type2": "Poison",
+                            "held_items": []
+                        },
+                        "health": [
+                            85
+                        ],
+                        "level": 33,
+                        "status": null,
+                        "sleep_turns": 0,
+                        "moves": [
+                            {
+                                "accuracy": 255,
+                                "base_power": 65,
+                                "id": 30,
+                                "pp": 25,
+                                "pp_up": 0,
+                                "max_pp": 25,
+                                "name": "Horn Attack",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 15,
+                                "id": 40,
+                                "pp": 35,
+                                "pp_up": 0,
+                                "max_pp": 35,
+                                "name": "Poison Sting",
+                                "type": "Poison"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 0,
+                                "id": 116,
+                                "pp": 30,
+                                "pp_up": 0,
+                                "max_pp": 30,
+                                "name": "Focus Energy",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 216,
+                                "base_power": 15,
+                                "id": 31,
+                                "pp": 20,
+                                "pp_up": 0,
+                                "max_pp": 20,
+                                "name": "Fury Attack",
+                                "type": "Normal"
+                            }
+                        ],
+                        "original_trainer": {
+                            "id": 37863,
+                            "name": "B"
+                        },
+                        "experience": {
+                            "current": 29949,
+                            "next_level": 33084,
+                            "this_level": 29949,
+                            "remaining": 3135
+                        },
+                        "evs": {
+                            "hp": 0,
+                            "attack": 0,
+                            "defense": 0,
+                            "speed": 0,
+                            "special_attack": 0,
+                            "special_defense": 0
+                        },
+                        "ivs": {
+                            "attack": 4,
+                            "defense": 3,
+                            "speed": 12,
+                            "special_attack": 12,
+                            "special_defense": 12,
+                            "hp": 4
+                        },
+                        "personality_value": 1137480703,
+                        "name": "Nidorino",
+                        "next_move": {
+                            "type": "Normal",
+                            "level": 41
+                        },
+                        "shiny": false,
+                        "met": {
+                            "caught": "2021-05-09T14:48:29.289Z",
+                            "evolved": [
+                                "2021-05-10T02:52:50.189Z"
+                            ]
+                        }
+                    },
+                    {
+                        "species": {
+                            "base_stats": {
+                                "attack": 57,
+                                "defense": 40,
+                                "hp": 46,
+                                "special_attack": 40,
+                                "special_defense": 40,
+                                "speed": 50
+                            },
+                            "catch_rate": 235,
+                            "gender_ratio": 0,
+                            "growth_rate": "Medium Slow",
+                            "id": 3,
+                            "name": "Nidoran♂",
+                            "national_dex": 32,
+                            "type1": "Poison",
+                            "type2": "Poison",
+                            "held_items": []
+                        },
+                        "health": [
+                            58
+                        ],
+                        "level": 24,
+                        "status": null,
+                        "sleep_turns": 0,
+                        "moves": [
+                            {
+                                "accuracy": 242,
+                                "base_power": 35,
+                                "id": 33,
+                                "pp": 35,
+                                "pp_up": 0,
+                                "max_pp": 35,
+                                "name": "Tackle",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 65,
+                                "id": 30,
+                                "pp": 25,
+                                "pp_up": 0,
+                                "max_pp": 25,
+                                "name": "Horn Attack",
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 15,
+                                "id": 40,
+                                "pp": 35,
+                                "pp_up": 0,
+                                "max_pp": 35,
+                                "name": "Poison Sting",
+                                "type": "Poison"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 0,
+                                "id": 116,
+                                "pp": 30,
+                                "pp_up": 0,
+                                "max_pp": 30,
+                                "name": "Focus Energy",
+                                "type": "Normal"
+                            }
+                        ],
+                        "original_trainer": {
+                            "id": 37863,
+                            "name": "B"
+                        },
+                        "experience": {
+                            "current": 10208,
+                            "next_level": 11735,
+                            "this_level": 10208,
+                            "remaining": 1527
+                        },
+                        "evs": {
+                            "hp": 0,
+                            "attack": 0,
+                            "defense": 0,
+                            "speed": 0,
+                            "special_attack": 0,
+                            "special_defense": 0
+                        },
+                        "ivs": {
+                            "attack": 6,
+                            "defense": 13,
+                            "speed": 3,
+                            "special_attack": 8,
+                            "special_defense": 8,
+                            "hp": 6
+                        },
+                        "personality_value": 1832424431,
+                        "name": "Nidoran♂",
+                        "next_move": {
+                            "type": "Normal",
+                            "level": 29
+                        },
+                        "shiny": false,
+                        "met": {
+                            "caught": "2021-05-09T14:47:49.011Z",
+                            "evolved": [
+                                "2021-05-09T14:48:27.964Z"
+                            ]
+                        }
+                    },
+                    {
+                        "species": {
+                            "base_stats": {
+                                "attack": 45,
+                                "defense": 35,
+                                "hp": 40,
+                                "special_attack": 40,
+                                "special_defense": 40,
+                                "speed": 55
+                            },
+                            "catch_rate": 255,
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "id": 107,
+                            "name": "Zubat",
+                            "national_dex": 41,
+                            "type1": "Poison",
+                            "type2": "Flying",
+                            "held_items": []
+                        },
+                        "health": [
+                            30
+                        ],
+                        "level": 10,
+                        "status": null,
+                        "sleep_turns": 0,
+                        "moves": [
+                            {
+                                "accuracy": 255,
+                                "base_power": 20,
+                                "id": 141,
+                                "pp": 15,
+                                "pp_up": 0,
+                                "max_pp": 15,
+                                "name": "Leech Life",
+                                "type": "Bug"
+                            },
+                            {
+                                "accuracy": 140,
+                                "base_power": 0,
+                                "id": 48,
+                                "pp": 20,
+                                "pp_up": 0,
+                                "max_pp": 20,
+                                "name": "Supersonic",
+                                "type": "Normal"
+                            }
+                        ],
+                        "original_trainer": {
+                            "id": 37863,
+                            "name": "B"
+                        },
+                        "experience": {
+                            "current": 1276,
+                            "next_level": 1331,
+                            "this_level": 1000,
+                            "remaining": 55
+                        },
+                        "evs": {
+                            "hp": 147,
+                            "attack": 169,
+                            "defense": 131,
+                            "speed": 123,
+                            "special_attack": 167,
+                            "special_defense": 167
+                        },
+                        "ivs": {
+                            "attack": 3,
+                            "defense": 0,
+                            "speed": 0,
+                            "special_attack": 15,
+                            "special_defense": 15,
+                            "hp": 9
+                        },
+                        "personality_value": 806327295,
+                        "name": "Zubat",
+                        "next_move": {
+                            "type": "Normal",
+                            "level": 15
+                        },
+                        "gender": "Female",
+                        "shiny": false,
+                        "met": {
+                            "caught": "2021-05-08T23:13:18.789Z",
+                            "evolved": [
+                                "2021-05-09T14:47:48.953Z"
+                            ]
+                        }
+                    },
+                    {
+                        "species": {
+                            "base_stats": {
+                                "attack": 45,
+                                "defense": 35,
+                                "hp": 40,
+                                "special_attack": 40,
+                                "special_defense": 40,
+                                "speed": 55
+                            },
+                            "catch_rate": 255,
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "id": 107,
+                            "name": "Zubat",
+                            "national_dex": 41,
+                            "type1": "Poison",
+                            "type2": "Flying",
+                            "held_items": []
+                        },
+                        "health": [
+                            25
+                        ],
+                        "level": 8,
+                        "status": null,
+                        "sleep_turns": 0,
+                        "moves": [
+                            {
+                                "accuracy": 255,
+                                "base_power": 20,
+                                "id": 141,
+                                "pp": 15,
+                                "pp_up": 0,
+                                "max_pp": 15,
+                                "name": "Leech Life",
+                                "type": "Bug"
+                            }
+                        ],
+                        "original_trainer": {
+                            "id": 37863,
+                            "name": "B"
+                        },
+                        "experience": {
+                            "current": 512,
+                            "next_level": 729,
+                            "this_level": 512,
+                            "remaining": 217
+                        },
+                        "evs": {
+                            "hp": 0,
+                            "attack": 0,
+                            "defense": 0,
+                            "speed": 0,
+                            "special_attack": 0,
+                            "special_defense": 0
+                        },
+                        "ivs": {
+                            "attack": 7,
+                            "defense": 12,
+                            "speed": 14,
+                            "special_attack": 13,
+                            "special_defense": 13,
+                            "hp": 9
+                        },
+                        "personality_value": 2095944703,
+                        "name": "AAAIII-",
+                        "next_move": {
+                            "type": "Normal",
+                            "level": 10
+                        },
+                        "gender": "Female",
+                        "shiny": false,
+                        "met": {
+                            "caught": "2021-05-08T23:18:47.126Z",
+                            "evolved": []
+                        }
+                    },
+                    {
+                        "species": {
+                            "base_stats": {
+                                "attack": 60,
+                                "defense": 30,
+                                "hp": 40,
+                                "special_attack": 31,
+                                "special_defense": 31,
+                                "speed": 70
+                            },
+                            "catch_rate": 255,
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "id": 5,
+                            "name": "Spearow",
+                            "national_dex": 21,
+                            "type1": "Normal",
+                            "type2": "Flying",
+                            "held_items": []
+                        },
+                        "health": [
+                            21
+                        ],
+                        "level": 6,
+                        "status": null,
+                        "sleep_turns": 0,
+                        "moves": [
+                            {
+                                "accuracy": 255,
+                                "base_power": 35,
+                                "id": 64,
+                                "pp": 35,
+                                "pp_up": 0,
+                                "max_pp": 35,
+                                "name": "Peck",
+                                "type": "Flying"
+                            },
+                            {
+                                "accuracy": 255,
+                                "base_power": 0,
+                                "id": 45,
+                                "pp": 40,
+                                "pp_up": 0,
+                                "max_pp": 40,
+                                "name": "Growl",
+                                "type": "Normal"
+                            }
+                        ],
+                        "original_trainer": {
+                            "id": 37863,
+                            "name": "B"
+                        },
+                        "experience": {
+                            "current": 253,
+                            "next_level": 343,
+                            "this_level": 216,
+                            "remaining": 90
+                        },
+                        "evs": {
+                            "hp": 60,
+                            "attack": 67,
+                            "defense": 57,
+                            "speed": 83,
+                            "special_attack": 55,
+                            "special_defense": 55
+                        },
+                        "ivs": {
+                            "attack": 2,
+                            "defense": 8,
+                            "speed": 11,
+                            "special_attack": 8,
+                            "special_defense": 8,
+                            "hp": 2
+                        },
+                        "personality_value": 683185151,
+                        "name": "Spearow",
+                        "next_move": {
+                            "type": "Normal",
+                            "level": 9
+                        },
+                        "gender": "Female",
+                        "shiny": false,
+                        "met": {
+                            "caught": "2021-05-08T22:46:02.388Z",
+                            "evolved": [
+                                "2021-05-09T14:47:48.953Z"
+                            ]
+                        }
+                    }
+                ],
+                "box_name": "Box 1",
+                "box_number": 1
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box 2",
+                "box_number": 2
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box 3",
+                "box_number": 3
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box 4",
+                "box_number": 4
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box 5",
+                "box_number": 5
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box 6",
+                "box_number": 6
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box 7",
+                "box_number": 7
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box 8",
+                "box_number": 8
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box 9",
+                "box_number": 9
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box 10",
+                "box_number": 10
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box 11",
+                "box_number": 11
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box 12",
+                "box_number": 12
+            }
+        ],
+        "current_box_number": 1
+    },
+    "game": "RGB Race Green",
+    "generation": 1,
+    "caught_list": [
+        1,
+        2,
+        3,
+        19,
+        21,
+        32,
+        33,
+        41,
+        50,
+        51,
+        52,
+        66,
+        67,
+        93,
+        94,
+        98,
+        116,
+        120,
+        131
+    ],
+    "seen_list": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        37,
+        38,
+        39,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        56,
+        58,
+        59,
+        60,
+        61,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        74,
+        75,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        109,
+        110,
+        111,
+        112,
+        114,
+        115,
+        116,
+        118,
+        119,
+        120,
+        121,
+        122,
+        124,
+        128,
+        130,
+        131,
+        132,
+        142,
+        143,
+        144,
+        148,
+        149,
+        150
+    ],
+    "caught": 19,
+    "seen": 115,
+    "daycare": [],
+    "battle_party": [],
+    "name": "B",
+    "ball_count": 37,
+    "level_cap": 100,
+    "events": [
+        {
+            "group": "First Visit",
+            "name": "Mom's House 1F",
+            "time": "2021-05-08T21:01:01.034Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Mom's House 2F",
+            "time": "2021-05-08T21:01:03.833Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pallet Town",
+            "time": "2021-05-08T21:02:53.843Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Professor Oak's Lab",
+            "time": "2021-05-08T21:03:41.796Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Bulbasaur",
+            "time": "2021-05-08T21:05:25.404Z"
+        },
+        {
+            "group": "Trainers Undefeated",
+            "id": 3,
+            "class_id": 25,
+            "name": "Rival BLUE",
+            "time": "2021-05-08T21:05:48.352Z",
+            "attempts": 1
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #1",
+            "time": "2021-05-08T21:06:59.910Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 1",
+            "time": "2021-05-08T21:07:45.763Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Viridian City",
+            "time": "2021-05-08T21:10:46.039Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Viridian Poké Mart",
+            "time": "2021-05-08T21:17:46.692Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #2",
+            "time": "2021-05-08T21:19:54.029Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 2",
+            "time": "2021-05-08T21:28:44.079Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 2 Gate",
+            "time": "2021-05-08T21:32:24.942Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Viridian Forest",
+            "time": "2021-05-08T21:32:44.543Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #3",
+            "time": "2021-05-08T21:37:24.745Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Viridian House",
+            "time": "2021-05-08T21:40:56.698Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pewter City",
+            "time": "2021-05-08T21:53:38.023Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pewter City Pokémon Center",
+            "time": "2021-05-08T21:54:46.625Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pewter City Gym",
+            "time": "2021-05-08T21:58:04.745Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 34,
+            "name": "Brock",
+            "time": "2021-05-08T22:07:14.373Z",
+            "attempts": 1
+        },
+        {
+            "group": "Badge",
+            "name": "Boulder Badge",
+            "time": "2021-05-08T22:07:39.159Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pewter City Poké Mart",
+            "time": "2021-05-08T22:10:24.368Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 3",
+            "time": "2021-05-08T22:13:49.482Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #4",
+            "time": "2021-05-08T22:17:58.545Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #5",
+            "time": "2021-05-08T22:25:23.758Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 1,
+            "name": "Youngster",
+            "time": "2021-05-08T22:27:48.544Z",
+            "attempts": 4
+        },
+        {
+            "group": "Pokemon",
+            "name": "Ivysaur",
+            "time": "2021-05-08T22:33:38.082Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 2,
+            "class_id": 3,
+            "name": "Lass",
+            "time": "2021-05-08T22:34:56.304Z",
+            "attempts": 2
+        },
+        {
+            "group": "Pokemon",
+            "name": "Spearow",
+            "time": "2021-05-08T22:46:02.388Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 4",
+            "time": "2021-05-08T22:53:11.535Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Mt. Moon Pokémon Center",
+            "time": "2021-05-08T22:54:14.539Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Mt. Moon",
+            "time": "2021-05-08T22:59:30.619Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #6",
+            "time": "2021-05-08T23:06:27.642Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Zubat",
+            "time": "2021-05-08T23:13:18.789Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #7",
+            "time": "2021-05-08T23:30:09.448Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #8",
+            "time": "2021-05-09T00:08:58.433Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 9,
+            "name": "Hiker",
+            "time": "2021-05-09T00:18:26.307Z",
+            "attempts": 2
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 30,
+            "name": "Rocket",
+            "time": "2021-05-09T00:29:27.220Z",
+            "attempts": 2
+        },
+        {
+            "group": "First Visit",
+            "name": "Cerulean City",
+            "time": "2021-05-09T00:39:33.156Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Cerulean House",
+            "time": "2021-05-09T00:40:06.406Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Cerulean Pokémon Center",
+            "time": "2021-05-09T00:41:09.058Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Cerulean Gym",
+            "time": "2021-05-09T00:44:03.018Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #9",
+            "time": "2021-05-09T00:53:04.626Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #10",
+            "time": "2021-05-09T01:01:41.221Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 35,
+            "name": "Misty",
+            "time": "2021-05-09T01:08:02.528Z",
+            "attempts": 3
+        },
+        {
+            "group": "Badge",
+            "name": "Cascade Badge",
+            "time": "2021-05-09T01:08:15.669Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Cerulean Poké Mart",
+            "time": "2021-05-09T01:09:39.670Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Cerulean Bike Shop",
+            "time": "2021-05-09T01:10:26.926Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 9,
+            "class_id": 25,
+            "name": "Rival BLUE",
+            "time": "2021-05-09T01:18:09.935Z",
+            "attempts": 1
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 24",
+            "time": "2021-05-09T01:18:47.479Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #11",
+            "time": "2021-05-09T01:26:43.865Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 4,
+            "class_id": 1,
+            "name": "Youngster",
+            "time": "2021-05-09T01:35:07.981Z",
+            "attempts": 2
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #12",
+            "time": "2021-05-09T01:37:22.506Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 7,
+            "class_id": 3,
+            "name": "Lass",
+            "time": "2021-05-09T01:42:25.107Z",
+            "attempts": 2
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #13",
+            "time": "2021-05-09T01:51:41.334Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 25",
+            "time": "2021-05-09T02:05:15.933Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Sea Cottage",
+            "time": "2021-05-09T02:16:50.794Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 5",
+            "time": "2021-05-09T02:39:21.216Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Underground Path",
+            "time": "2021-05-09T02:42:02.586Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 6",
+            "time": "2021-05-09T02:42:45.990Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #14",
+            "time": "2021-05-09T02:52:55.634Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Meowth",
+            "time": "2021-05-09T03:12:20.278Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #15",
+            "time": "2021-05-09T03:23:39.180Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Vermilion City",
+            "time": "2021-05-09T03:36:48.730Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Center (Vermilion City)",
+            "time": "2021-05-09T03:37:31.082Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Poké Mart (Vermilion City)",
+            "time": "2021-05-09T03:41:51.853Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 11",
+            "time": "2021-05-09T03:43:49.110Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Diglett's Cave",
+            "time": "2021-05-09T03:47:21.936Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Diglett",
+            "time": "2021-05-09T03:52:45.758Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #16",
+            "time": "2021-05-09T04:10:03.897Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Vermilion Harbor (Vermilion City)",
+            "time": "2021-05-09T04:12:12.800Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "S.S. Anne 1F",
+            "time": "2021-05-09T04:12:18.049Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "S.S. Anne 2F",
+            "time": "2021-05-09T04:13:34.004Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "S.S. Anne 3F",
+            "time": "2021-05-09T04:13:44.154Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 3,
+            "class_id": 42,
+            "name": "Rival BLUE",
+            "time": "2021-05-09T04:18:42.394Z",
+            "attempts": 1
+        },
+        {
+            "group": "First Visit",
+            "name": "S.S. Anne Cabin",
+            "time": "2021-05-09T04:19:07.614Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Gym (Vermilion City)",
+            "time": "2021-05-09T04:33:02.793Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 36,
+            "name": "Lt.Surge",
+            "time": "2021-05-09T04:53:31.865Z",
+            "attempts": 1
+        },
+        {
+            "group": "Badge",
+            "name": "Thunder Badge",
+            "time": "2021-05-09T04:53:43.709Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 9",
+            "time": "2021-05-09T05:00:41.289Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 10",
+            "time": "2021-05-09T05:12:25.977Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Rock Tunnel Pokémon Center",
+            "time": "2021-05-09T05:12:55.378Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Rock Tunnel",
+            "time": "2021-05-09T05:16:01.940Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Venusaur",
+            "time": "2021-05-09T05:33:33.462Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #17",
+            "time": "2021-05-09T05:55:10.212Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Dugtrio",
+            "time": "2021-05-09T06:10:16.760Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 19,
+            "class_id": 6,
+            "name": "Jr.Trainer♀",
+            "time": "2021-05-09T06:23:09.186Z",
+            "attempts": 2
+        },
+        {
+            "group": "Pokemon",
+            "name": "Machop",
+            "time": "2021-05-09T06:30:16.224Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Lavender Town",
+            "time": "2021-05-09T06:34:03.641Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Lavender Pokémon Center",
+            "time": "2021-05-09T06:35:08.742Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 8",
+            "time": "2021-05-09T06:37:02.149Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 7",
+            "time": "2021-05-09T06:50:04.562Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Celadon City",
+            "time": "2021-05-09T07:00:18.172Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Celadon Pokémon Center",
+            "time": "2021-05-09T07:01:11.374Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Rocket Game Corner",
+            "time": "2021-05-09T07:03:17.729Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Rocket Hideout B1F",
+            "time": "2021-05-09T07:06:42.854Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Rocket Hideout B2F",
+            "time": "2021-05-09T07:07:38.506Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Rocket Hideout B3F",
+            "time": "2021-05-09T07:09:15.810Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Rocket Prize Corner",
+            "time": "2021-05-09T07:45:40.654Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Celadon Gym",
+            "time": "2021-05-09T07:53:24.427Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Rocket Hideout B4F",
+            "time": "2021-05-09T08:53:49.471Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Rocket Hideout Lift",
+            "time": "2021-05-09T09:03:47.342Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 29,
+            "name": "Giovanni",
+            "time": "2021-05-09T09:12:32.422Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 37,
+            "name": "Erika",
+            "time": "2021-05-09T09:31:18.118Z",
+            "attempts": 1
+        },
+        {
+            "group": "Badge",
+            "name": "Rainbow Badge",
+            "time": "2021-05-09T09:31:45.867Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Celadon House",
+            "time": "2021-05-09T09:34:10.776Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Celadon Restaurant",
+            "time": "2021-05-09T09:34:51.379Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Celadon Department Store 1F",
+            "time": "2021-05-09T09:36:46.539Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Celadon Department Store Lift",
+            "time": "2021-05-09T09:37:01.588Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Celadon Department Store 5F",
+            "time": "2021-05-09T09:37:34.839Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Tower 1F",
+            "time": "2021-05-09T10:01:17.750Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Tower 2F",
+            "time": "2021-05-09T10:02:07.452Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 6,
+            "class_id": 42,
+            "name": "Rival BLUE",
+            "time": "2021-05-09T10:09:38.551Z",
+            "attempts": 1
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Tower 3F",
+            "time": "2021-05-09T10:10:57.443Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Tower 4F",
+            "time": "2021-05-09T10:14:19.775Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Tower 5F",
+            "time": "2021-05-09T10:19:56.545Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Tower 6F",
+            "time": "2021-05-09T10:46:12.868Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Machoke",
+            "time": "2021-05-09T11:15:33.798Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Tower 7F",
+            "time": "2021-05-09T11:36:26.858Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Mr. Fuji's House",
+            "time": "2021-05-09T11:43:23.114Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Saffron City Gate",
+            "time": "2021-05-09T11:51:28.323Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Saffron City",
+            "time": "2021-05-09T11:52:06.476Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Haunter",
+            "time": "2021-05-09T11:59:08.615Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Gengar",
+            "time": "2021-05-09T11:59:23.669Z",
+            "traded": true
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 16",
+            "time": "2021-05-09T12:10:06.330Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 16 Gate 1F",
+            "time": "2021-05-09T12:15:06.319Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 16 House",
+            "time": "2021-05-09T12:15:45.521Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Saffron Pokémon Center",
+            "time": "2021-05-09T12:24:57.865Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Mr. Psychic's House",
+            "time": "2021-05-09T12:26:16.270Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Silph Co. 1F",
+            "time": "2021-05-09T12:32:25.201Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Silph Co. 2F",
+            "time": "2021-05-09T12:33:44.311Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Silph Co. 3F",
+            "time": "2021-05-09T12:38:39.768Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Silph Co. 4F",
+            "time": "2021-05-09T12:39:13.372Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Silph Co. 5F",
+            "time": "2021-05-09T12:39:25.272Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Silph Co. 6F",
+            "time": "2021-05-09T12:39:28.422Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Silph Co. 7F",
+            "time": "2021-05-09T12:43:30.673Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Silph Co. 8F",
+            "time": "2021-05-09T12:43:45.723Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Silph Co. 9F",
+            "time": "2021-05-09T12:43:57.624Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Silph Co. 10F",
+            "time": "2021-05-09T12:44:07.775Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Silph Co. Lift",
+            "time": "2021-05-09T13:07:29.782Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 9,
+            "class_id": 42,
+            "name": "Rival BLUE",
+            "time": "2021-05-09T13:32:42.331Z",
+            "attempts": 1
+        },
+        {
+            "group": "Pokemon",
+            "name": "Lapras",
+            "time": "2021-05-09T13:33:29.952Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Silph Co. 11F",
+            "time": "2021-05-09T13:33:57.669Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #18",
+            "time": "2021-05-09T13:47:17.331Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 2,
+            "class_id": 29,
+            "name": "Giovanni",
+            "time": "2021-05-09T13:52:49.368Z",
+            "attempts": 2
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 11,
+            "class_id": 2,
+            "name": "Bug Catcher",
+            "time": "2021-05-09T13:56:50.768Z",
+            "attempts": 3
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Fan Club (Vermilion City)",
+            "time": "2021-05-09T13:58:20.944Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 17",
+            "time": "2021-05-09T14:11:16.974Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 18",
+            "time": "2021-05-09T14:15:23.062Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 18 Gate 1F",
+            "time": "2021-05-09T14:15:52.812Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Fuchsia City",
+            "time": "2021-05-09T14:16:07.863Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Fuchsia Pokémon Center",
+            "time": "2021-05-09T14:17:16.815Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Fuchsia Gym ",
+            "time": "2021-05-09T14:18:33.816Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 38,
+            "name": "Koga",
+            "time": "2021-05-09T14:33:30.727Z",
+            "attempts": 1
+        },
+        {
+            "group": "Badge",
+            "name": "Soul Badge",
+            "time": "2021-05-09T14:33:45.738Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Safari Zone Gate",
+            "time": "2021-05-09T14:39:12.651Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Safari Zone 1",
+            "time": "2021-05-09T14:41:55.783Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Nidoran♂",
+            "time": "2021-05-09T14:47:48.953Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Nidorino",
+            "time": "2021-05-09T14:48:27.964Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Safari Zone 2",
+            "time": "2021-05-09T14:49:01.821Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Safari Zone 3",
+            "time": "2021-05-09T14:58:33.475Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Safari Zone House",
+            "time": "2021-05-09T15:03:05.789Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Fuchsia House",
+            "time": "2021-05-09T15:18:11.318Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Warden's House",
+            "time": "2021-05-09T15:18:51.568Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 21",
+            "time": "2021-05-09T15:32:03.335Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Cinnabar Island",
+            "time": "2021-05-09T15:32:57.264Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Lab",
+            "time": "2021-05-09T15:33:21.415Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Cinnabar Pokémon Center",
+            "time": "2021-05-09T15:34:17.770Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Cinnabar Poké Mart",
+            "time": "2021-05-09T16:05:19.199Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Mansion 1F",
+            "time": "2021-05-09T16:06:48.453Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Mansion 2F",
+            "time": "2021-05-09T16:07:44.457Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Mansion 3F",
+            "time": "2021-05-09T16:09:22.826Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon Mansion B1F",
+            "time": "2021-05-09T16:18:54.891Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Cinnabar Gym",
+            "time": "2021-05-09T16:32:54.350Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 39,
+            "name": "Blaine",
+            "time": "2021-05-09T17:02:34.611Z",
+            "attempts": 1
+        },
+        {
+            "group": "Badge",
+            "name": "Volcano Badge",
+            "time": "2021-05-09T17:02:48.163Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Saffron Gym",
+            "time": "2021-05-09T17:09:01.302Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 40,
+            "name": "Sabrina",
+            "time": "2021-05-09T17:16:14.394Z",
+            "attempts": 1
+        },
+        {
+            "group": "Badge",
+            "name": "Marsh Badge",
+            "time": "2021-05-09T17:17:02.662Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Viridian Pokémon Center",
+            "time": "2021-05-09T17:19:09.717Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Viridian Gym",
+            "time": "2021-05-09T17:38:50.364Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 3,
+            "class_id": 29,
+            "name": "Giovanni",
+            "time": "2021-05-09T17:50:48.395Z",
+            "attempts": 1
+        },
+        {
+            "group": "Badge",
+            "name": "Earth Badge",
+            "time": "2021-05-09T17:51:12.513Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 22",
+            "time": "2021-05-09T17:55:08.778Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #19",
+            "time": "2021-05-09T18:08:27.844Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #20",
+            "time": "2021-05-09T18:22:24.079Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 12,
+            "class_id": 42,
+            "name": "Rival BLUE",
+            "time": "2021-05-09T18:33:03.482Z",
+            "attempts": 3
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 22 Gate",
+            "time": "2021-05-09T18:45:38.688Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 23",
+            "time": "2021-05-09T18:46:01.788Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Victory Road",
+            "time": "2021-05-09T18:53:37.513Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pokémon League",
+            "time": "2021-05-09T20:07:45.243Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Indigo Plateau",
+            "time": "2021-05-09T20:07:59.243Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Lorelei's Hall",
+            "time": "2021-05-09T20:11:28.554Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #21",
+            "time": "2021-05-09T20:18:37.234Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 44,
+            "name": "Lorelei",
+            "time": "2021-05-09T20:23:39.669Z",
+            "attempts": 2
+        },
+        {
+            "group": "First Visit",
+            "name": "Bruno's Hall",
+            "time": "2021-05-09T20:23:57.039Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 33,
+            "name": "Bruno",
+            "time": "2021-05-09T20:26:27.379Z",
+            "attempts": 1
+        },
+        {
+            "group": "First Visit",
+            "name": "Agatha's Hall",
+            "time": "2021-05-09T20:26:52.082Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 46,
+            "name": "Agatha",
+            "time": "2021-05-09T20:31:32.119Z",
+            "attempts": 1
+        },
+        {
+            "group": "First Visit",
+            "name": "Lance's Hall",
+            "time": "2021-05-09T20:31:47.574Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #22",
+            "time": "2021-05-09T20:38:49.096Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 44,
+            "name": "Lorelei",
+            "time": "2021-05-09T20:42:42.951Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 33,
+            "name": "Bruno",
+            "time": "2021-05-09T20:45:33.282Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 46,
+            "name": "Agatha",
+            "time": "2021-05-09T20:53:05.521Z",
+            "attempts": 1
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #23",
+            "time": "2021-05-09T20:56:23.695Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 44,
+            "name": "Lorelei",
+            "time": "2021-05-09T21:00:10.201Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 33,
+            "name": "Bruno",
+            "time": "2021-05-09T21:03:31.902Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 46,
+            "name": "Agatha",
+            "time": "2021-05-09T21:05:25.137Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 47,
+            "name": "Lance",
+            "time": "2021-05-09T21:12:35.636Z",
+            "attempts": 3
+        },
+        {
+            "group": "First Visit",
+            "name": "Champion's Hall",
+            "time": "2021-05-09T21:13:32.832Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #24",
+            "time": "2021-05-09T21:23:13.040Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 44,
+            "name": "Lorelei",
+            "time": "2021-05-09T21:29:55.798Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 33,
+            "name": "Bruno",
+            "time": "2021-05-09T21:33:30.397Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 46,
+            "name": "Agatha",
+            "time": "2021-05-09T21:37:14.535Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 47,
+            "name": "Lance",
+            "time": "2021-05-09T21:50:15.525Z",
+            "attempts": 1
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #25",
+            "time": "2021-05-09T21:53:45.433Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 44,
+            "name": "Lorelei",
+            "time": "2021-05-09T21:58:09.873Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 33,
+            "name": "Bruno",
+            "time": "2021-05-09T22:01:40.866Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 46,
+            "name": "Agatha",
+            "time": "2021-05-09T22:12:44.024Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 47,
+            "name": "Lance",
+            "time": "2021-05-09T22:27:51.767Z",
+            "attempts": 1
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #26",
+            "time": "2021-05-09T22:34:07.662Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #27",
+            "time": "2021-05-09T22:41:16.990Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 44,
+            "name": "Lorelei",
+            "time": "2021-05-09T22:44:57.223Z",
+            "attempts": 2
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 33,
+            "name": "Bruno",
+            "time": "2021-05-09T22:48:48.335Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 46,
+            "name": "Agatha",
+            "time": "2021-05-09T22:55:34.328Z",
+            "attempts": 1
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #28",
+            "time": "2021-05-09T22:58:41.155Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 44,
+            "name": "Lorelei",
+            "time": "2021-05-09T23:04:20.722Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 33,
+            "name": "Bruno",
+            "time": "2021-05-09T23:07:36.521Z",
+            "attempts": 1
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #29",
+            "time": "2021-05-09T23:11:05.422Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 44,
+            "name": "Lorelei",
+            "time": "2021-05-09T23:14:59.689Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 33,
+            "name": "Bruno",
+            "time": "2021-05-09T23:17:11.090Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 46,
+            "name": "Agatha",
+            "time": "2021-05-09T23:19:23.791Z",
+            "attempts": 2
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 47,
+            "name": "Lance",
+            "time": "2021-05-09T23:28:48.296Z",
+            "attempts": 2
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #30",
+            "time": "2021-05-09T23:37:33.294Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 44,
+            "name": "Lorelei",
+            "time": "2021-05-09T23:40:58.238Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 33,
+            "name": "Bruno",
+            "time": "2021-05-09T23:46:35.250Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 46,
+            "name": "Agatha",
+            "time": "2021-05-09T23:50:22.383Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 47,
+            "name": "Lance",
+            "time": "2021-05-09T23:54:42.884Z",
+            "attempts": 1
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #31",
+            "time": "2021-05-10T00:05:27.660Z"
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 44,
+            "name": "Lorelei",
+            "time": "2021-05-10T00:09:08.107Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 33,
+            "name": "Bruno",
+            "time": "2021-05-10T00:12:20.880Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 46,
+            "name": "Agatha",
+            "time": "2021-05-10T00:15:38.302Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 1,
+            "class_id": 47,
+            "name": "Lance",
+            "time": "2021-05-10T00:27:59.381Z",
+            "attempts": 1
+        },
+        {
+            "group": "Trainers Defeated",
+            "id": 3,
+            "class_id": 43,
+            "name": "Rival BLUE",
+            "time": "2021-05-10T00:32:17.524Z",
+            "attempts": 6
+        },
+        {
+            "group": "First Visit",
+            "name": "Hall of Fame",
+            "time": "2021-05-10T00:32:56.796Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #32",
+            "time": "2021-05-10T00:41:26.766Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Unknown Dungeon B1F",
+            "time": "2021-05-10T01:23:15.102Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Unknown Dungeon",
+            "time": "2021-05-10T01:26:04.878Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Unknown Dungeon 1F",
+            "time": "2021-05-10T01:49:41.594Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Rattata",
+            "time": "2021-05-10T02:52:50.189Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 20",
+            "time": "2021-05-10T05:34:18.401Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Seafoam Islands",
+            "time": "2021-05-10T06:14:53.260Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Krabby",
+            "time": "2021-05-10T06:49:19.870Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Staryu",
+            "time": "2021-05-10T06:56:08.423Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Horsea",
+            "time": "2021-05-10T07:02:19.205Z"
+        }
+    ],
+    "game_stats": {
+        "Battles Fought (Total)": 620,
+        "Blackouts": 32,
+        "Pokémon Caught": 18
+    },
+    "in_battle": false,
+    "id": 37863,
+    "options": {
+        "text_speed": "Fast",
+        "battle_style": "Set",
+        "battle_scene": "On"
+    },
+    "x": 2,
+    "y": 6,
+    "map_id": 38,
+    "map_name": "Mom's House 2F",
+    "map_bank": null,
+    "area_id": null,
+    "area_name": null,
+    "money": 1445,
+    "coins": 0,
+    "rival_name": "BLUE",
+    "evolution_is_happening": false,
+    "badges": 255,
+    "items": {
+        "items": [
+            {
+                "count": 34,
+                "id": 2,
+                "name": "Ultra Ball"
+            },
+            {
+                "count": 1,
+                "id": 63,
+                "name": "S.S.Ticket"
+            },
+            {
+                "id": 196,
+                "name": "HM01 Cut"
+            },
+            {
+                "id": 74,
+                "name": "Lift Key"
+            },
+            {
+                "id": 42,
+                "name": "Helix Fossil"
+            },
+            {
+                "count": 1,
+                "id": 249,
+                "name": "TM49 Tri Attack"
+            },
+            {
+                "count": 1,
+                "id": 72,
+                "name": "Silph Scope"
+            },
+            {
+                "id": 73,
+                "name": "Poké Flute"
+            },
+            {
+                "id": 48,
+                "name": "Card Key"
+            },
+            {
+                "count": 1,
+                "id": 6,
+                "name": "Bicycle"
+            },
+            {
+                "id": 198,
+                "name": "HM03 Surf"
+            },
+            {
+                "id": 199,
+                "name": "HM04 Strength"
+            },
+            {
+                "id": 197,
+                "name": "HM02 Fly"
+            },
+            {
+                "id": 43,
+                "name": "Secret Key"
+            },
+            {
+                "count": 1,
+                "id": 246,
+                "name": "TM46 Psywave"
+            },
+            {
+                "count": 1,
+                "id": 238,
+                "name": "TM38 Fire Blast"
+            },
+            {
+                "count": 1,
+                "id": 49,
+                "name": "Nugget"
+            },
+            {
+                "count": 1,
+                "id": 69,
+                "name": "Coin Case"
+            },
+            {
+                "count": 1,
+                "id": 227,
+                "name": "TM27 Fissure"
+            },
+            {
+                "count": 3,
+                "id": 3,
+                "name": "Great Ball"
+            }
+        ],
+        "pc": [
+            {
+                "count": 1,
+                "id": 20,
+                "name": "Potion"
+            }
+        ]
+    },
+    "transitioning": false
+}
