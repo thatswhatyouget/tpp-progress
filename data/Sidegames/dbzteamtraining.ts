@@ -15,7 +15,7 @@ Sidegames.Runs.push(
         ContainsRunsFrom: ["Intermissions", "Season 8"],
         SidegameId: "dbz",
         Events: [
-            { Group: "Badges", Name: "Saiyan Badge", Image: "img/badges/boulder.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Saiyan Badge", Image: "img/badges/boulder.png", Time: "2021-05-25T22:06:17.421Z", Attempts: 2 },
             { Group: "Badges", Name: "Namek Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Red Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Bio Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
