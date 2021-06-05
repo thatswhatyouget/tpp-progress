@@ -6,7 +6,7 @@ Sidegames.Runs.push(
         ColorPrimary: "#E67300",
         ColorSecondary: "#AD4200",
         Duration: "255w",
-        StartDate: "2021-05-13T21:24:39.131Z",
+        StartDate: "2021-05-14T07:09:18+01:00",
         HostName: "Pan",
         HostImage: "img/hosts/paula.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/8qzejc/sweet_beta_green_bronze_host_sprites/",
@@ -15,7 +15,7 @@ Sidegames.Runs.push(
         ContainsRunsFrom: ["Intermissions", "Season 8"],
         SidegameId: "dbz",
         Events: [
-            { Group: "Badges", Name: "Saiyan Badge", Image: "img/badges/boulder.png", Time: "2021-05-25T22:06:17.421Z", Attempts: 2 },
+            { Group: "Badges", Name: "Saiyan Badge", Image: "img/badges/boulder.png", Time: "2021-05-25T23:06:17+01:00", Attempts: 2 },
             { Group: "Badges", Name: "Namek Badge", Image: "img/badges/cascade.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Red Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Bio Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
@@ -37,8 +37,9 @@ Sidegames.Runs.push(
                 FirstAttemptDate: ""
             },
 
-            { Group: "Pokemon", Name: "Gohan", Time: "2021-05-15T05:41:35.275Z" },
-            { Group: "Pokemon", Name: "Piccolo", Time: "2021-05-20T17:30:46.663Z" },
+            { Group: "Pokemon", Name: "Gohan", Time: "2021-05-15T06:41:35+01:00" },
+            { Group: "Pokemon", Name: "Piccolo", Time: "2021-05-20T18:30:46+01:00" },
+            { Group: "Pokemon", Name: "SSJ Gohan", Time: "2021-05-29T05:05:47+01:00" }
         ]
     }
 );
