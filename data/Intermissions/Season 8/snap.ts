@@ -35,3 +35,40 @@ Intermissions.Runs.push(
         ],
     }
 );
+
+Intermissions.Runs.push(
+    {
+        RunName: "Snap Revisit",
+        ColorPrimary: "#E23620",
+        ColorSecondary: "#362E84",
+        StartDate: "2021-05-31T18:13:40Z",
+        Duration: "2021-06-04T02:20:43Z",
+        HostName: "AGGVapx",
+        HostImage: "https://cdn2.bulbagarden.net/upload/e/eb/Todd_Snap_sprite.png",
+        HostImageSource: "https://bulbapedia.bulbagarden.net/wiki/Todd_Snap",
+        Generation: 1,
+        Events: [
+            { "Group": "Pokemon", "Name": "Pidgey", "Time": "2021-05-31T18:26:49Z" },
+            { "Group": "Pokemon", "Name": "Doduo", "Time": "2021-05-31T18:26:49Z" },
+            { "Group": "Pokemon", "Name": "Butterfree", "Time": "2021-05-31T18:26:49Z" },
+            { "Group": "Pokemon", "Name": "Pikachu", "Time": "2021-05-31T18:36:36Z" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "2021-05-31T18:36:36Z" },
+            { "Group": "Pokemon", "Name": "Rapidash", "Time": "2021-05-31T21:00:46Z" },
+            { "Group": "Pokemon", "Name": "Vulpix", "Time": "2021-05-31T21:00:46Z" },
+            { "Group": "Pokemon", "Name": "Magmar", "Time": "2021-05-31T21:00:46Z" },
+            { "Group": "Pokemon", "Name": "Charmander", "Time": "2021-05-31T21:00:46Z" },
+            { "Group": "Pokemon", "Name": "Charmeleon", "Time": "2021-05-31T21:14:03Z" },
+            { "Group": "Pokemon", "Name": "Charizard", "Time": "2021-05-31T21:14:03Z" },
+            { "Group": "Pokemon", "Name": "Moltres", "Time": "2021-05-31T21:23:23Z" },
+            { "Group": "Pokemon", "Name": "Magneton", "Time": "2021-05-31T21:34:09Z" },
+            { "Group": "Pokemon", "Name": "Poliwag", "Time": "2021-05-31T21:44:33Z" },
+            { "Group": "Pokemon", "Name": "Slowpoke", "Time": "2021-05-31T21:44:33Z" },
+            { "Group": "Pokemon", "Name": "Metapod", "Time": "2021-05-31T21:44:33Z" },
+            { "Group": "Pokemon", "Name": "Cloyster", "Time": "2021-05-31T21:44:33Z" },
+            { "Group": "Pokemon", "Name": "Shellder", "Time": "2021-05-31T21:50:48Z" },
+            { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "2021-05-31T22:47:17Z" },
+            { "Group": "Pokemon", "Name": "Dragonite", "Time": "2021-06-02T18:07:14Z" },
+            { "Group": "Pokemon", "Name": "Snorlax", "Time": "2021-06-02T16:12:39Z" },
+        ],
+    }
+);
