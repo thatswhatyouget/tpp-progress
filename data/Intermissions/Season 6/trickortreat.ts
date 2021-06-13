@@ -42,7 +42,7 @@ Intermissions.Runs.push(
             },
             {
                 Group: "Missions", Name: "Puzzle #5\nPeppermints in Petalburg",
-                Time: "2019-10-31T03:57:22.476Z", Attempts: 1, Image: "https://cdn.bulbagarden.net/upload/b/b5/Youngster_RSE_OD.png",
+                Time: "2019-10-31T03:57:22.476Z", Attempts: 1, Image: "https://cdn2.bulbagarden.net/upload/b/b5/Youngster_RSE_OD.png",
             },
             {
                 Group: "Missions", Name: "Puzzle #6\nDoor Dido Menagerie",
@@ -70,7 +70,7 @@ Intermissions.Runs.push(
             },
             {
                 Group: "Missions", Name: "Puzzle #12\nMalteasers in Mossdeep",
-                Time: "2019-10-31T09:34:29.312Z", Attempts: 2, Image: "https://cdn.bulbagarden.net/upload/6/6c/Battle_Girl_RSE_OD.png",
+                Time: "2019-10-31T09:34:29.312Z", Attempts: 2, Image: "https://cdn2.bulbagarden.net/upload/6/6c/Battle_Girl_RSE_OD.png",
             },
             {
                 Group: "Missions", Name: "Puzzle #13\nWaterflow Caverns",
@@ -127,7 +127,7 @@ Intermissions.Runs.push(
             },
             {
                 Group: "Missions", Name: "Puzzle Revisit #5\nPeppermints in Petalburg", Class: "Rematch",
-                Time: "2019-10-31T17:01:46.591Z", Attempts: 1, Image: "https://cdn.bulbagarden.net/upload/b/b5/Youngster_RSE_OD.png",
+                Time: "2019-10-31T17:01:46.591Z", Attempts: 1, Image: "https://cdn2.bulbagarden.net/upload/b/b5/Youngster_RSE_OD.png",
             },
             {
                 Group: "Missions", Name: "Puzzle Revisit #6\nDoor Dido Menagerie", Class: "Rematch",
@@ -155,7 +155,7 @@ Intermissions.Runs.push(
             },
             {
                 Group: "Missions", Name: "Puzzle Revisit #12\nMalteasers in Mossdeep", Class: "Rematch",
-                Time: "2019-10-31T23:00:29.396Z", Attempts: 1, Image: "https://cdn.bulbagarden.net/upload/6/6c/Battle_Girl_RSE_OD.png",
+                Time: "2019-10-31T23:00:29.396Z", Attempts: 1, Image: "https://cdn2.bulbagarden.net/upload/6/6c/Battle_Girl_RSE_OD.png",
             },
             {
                 Group: "Missions", Name: "Puzzle Revisit #13\nWaterflow Caverns", Class: "Rematch",
