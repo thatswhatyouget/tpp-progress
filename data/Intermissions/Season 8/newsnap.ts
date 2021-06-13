@@ -9,6 +9,7 @@ Intermissions.Runs.push(
         Duration: "2021-06-09T18:31:25Z",
         HostName: "TwitchPlay1",
         Generation: 8,
+        ContainsRunsFrom: ["Intermissions"],
         Events: [
             { "Group": "Pokemon", "Name": "Pikachu", "Time": "2021-06-04T02:56:43Z" },
             { "Group": "Pokemon", "Name": "Vivillon", "Time": "2021-06-04T02:56:56Z" },

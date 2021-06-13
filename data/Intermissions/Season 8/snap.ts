@@ -10,6 +10,7 @@ Intermissions.Runs.push(
         HostImage: "https://cdn2.bulbagarden.net/upload/e/eb/Todd_Snap_sprite.png",
         HostImageSource: "https://bulbapedia.bulbagarden.net/wiki/Todd_Snap",
         Generation: 1,
+        ContainsRunsFrom: ["Intermissions"],
         Events: [
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "2021-05-29T21:33:39Z" },
             { "Group": "Pokemon", "Name": "Meowth", "Time": "2021-05-29T21:51:06Z" },
@@ -47,6 +48,7 @@ Intermissions.Runs.push(
         HostImage: "https://cdn2.bulbagarden.net/upload/e/eb/Todd_Snap_sprite.png",
         HostImageSource: "https://bulbapedia.bulbagarden.net/wiki/Todd_Snap",
         Generation: 1,
+        ContainsRunsFrom: ["Intermissions"],
         Events: [
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "2021-05-31T18:26:49Z" },
             { "Group": "Pokemon", "Name": "Doduo", "Time": "2021-05-31T18:26:49Z" },
