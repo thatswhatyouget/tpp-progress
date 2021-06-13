@@ -1,10 +1,10 @@
 {
 	"version": "2.0.0",
-	"command": "gulp",
 	"tasks": [
 		{
 			"label": "build",
 			"type":"shell",
+			"command": "gulp build",
 			"group":{
 				"kind": "build",
 				"isDefault": true
@@ -22,6 +22,7 @@
 		{
 			"label": "test",
 			"type": "shell",
+			"command": "gulp test",
 			"presentation": {
 				"echo": true,
 				"reveal": "always",
