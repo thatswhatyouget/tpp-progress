@@ -4,14 +4,15 @@
 	"tasks": [
 		{
 			"label": "build",
-			"type":"shell",
-			"group":{
+			"type": "shell",
+			"command": "gulp build",
+			"group": {
 				"kind": "build",
 				"isDefault": true
 			},
 			"presentation": {
 				"echo": true,
-				"reveal":"silent",
+				"reveal": "silent",
 				"focus": false,
 				"panel": "shared",
 				"showReuseMessage": true,
