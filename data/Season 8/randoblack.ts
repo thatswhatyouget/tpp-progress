@@ -14,7 +14,7 @@ Season8.Runs.push(
         Generation: 5,
         Pokedex: "National",
         Events: [
-            { Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png", Time: "2021-07-04T02:39:54.761Z", Attempts: 2 },
             { Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "", Attempts: 0 },
