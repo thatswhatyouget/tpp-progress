@@ -166,13 +166,25 @@ namespace TPP.Display.Elements.RunStatus {
         }
     }
 
-    class Move extends React.PureComponent<{ move: TPP.Tv.Move }, {}> {
+    class Move extends React.PureComponent<{ move: TPP.Tv.Move }, { showStats: boolean }> {
+        state = { showStats: false };
         render() {
-            let m = this.props.move;
-            return m ? <li>
+            const m = this.props.move;
+            const statsStyles: React.CSSProperties = {
+                transformOrigin: "left center",
+                transform: "scale(.8)"
+            };
+            return m && <li onClick={e => { e.stopPropagation(); this.setState(state => ({ showStats: !state.showStats })); }} style={{ cursor: "pointer" }}>
                 <TypeImg type={m.type} />
-                <span className="move-name">{m.name}</span>
-            </li> : null;
+                {this.state.showStats
+                    ? <span className="move-name">
+                        <i className="fa fa-power-off" style={statsStyles} />{m.base_power}&nbsp;
+                        <i className="fa fa-search" style={statsStyles} />{Math.min(m.accuracy, 100)}%&nbsp;
+                        <i className="fa fa-file-powerpoint-o" style={statsStyles} />{m.pp}
+                    </span>
+                    : <span className="move-name">{m.name}</span>
+                }
+            </li>;
         }
     }
 }

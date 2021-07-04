@@ -1,5 +1,5 @@
 /// <reference path="../tpp-data.ts" />
-Season6.Runs.push(
+Season8.Runs.push(
     {
         RunName: "Randomized Black",
         ColorPrimary: "#111",
