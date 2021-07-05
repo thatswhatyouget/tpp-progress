@@ -13,10 +13,11 @@ module TPP.Display.RunStatus {
 
     keyItems["Red"] = keyItems["Blue"] = keyItems["Yellow"] = ["Bicycle", "Bike Voucher", "Card Key", "Coin Case", "Dome Fossil", "Gold Teeth", "Good Rod", "Helix Fossil", "Itemfinder", "Lift Key", "Oak's Parcel", "Old Amber", "Old Rod", "Poké Flute", "Secret Key", "Silph Scope", "S.S.Ticket", "Super Rod", "Town Map", "HM01", "HM02", "HM03", "HM04", "HM05"].map(s => s.toUpperCase());
 
-    const inTestMode = () => window.location.hash.indexOf("m4-test") > 0;
+    const inTestMode = () => window.location.hash.indexOf("test") > 0;
+    const inLocalTestMode = () => window.location.hash.indexOf("m4-test") > 0;
 
     function fetchRunStatus(): JQueryPromise<TPP.Tv.RunStatus> {
-        return inTestMode()
+        return inLocalTestMode()
             ? $.get("http://localhost:1337/")
             : $.get("https://twitchplayspokemon.tv/api/run_status");
     }
@@ -55,7 +56,7 @@ module TPP.Display.RunStatus {
     export function RenderRunStatus(run: TPP.Run, dex: TPP.Pokedex.GlobalDexBase = null) {
         var $container = $("<div>");
         $container.append($("<i class='fa fa-spinner fa-pulse'>"));
-        if (!run.Ongoing && !inTestMode()) {
+        if (!run.Ongoing && !inTestMode() && !inLocalTestMode()) {
             drawRunStatus(run, dex, <Tv.RunStatus>{}, $container);
         }
         else {
