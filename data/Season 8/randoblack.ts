@@ -18,8 +18,8 @@ Season8.Runs.push(
             { Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png", Time: "2021-07-04T07:38:29.267Z", Attempts: 2 },
             { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "2021-07-04T14:37:17.060Z", Attempts: 2 },
             { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "2021-07-04T22:38:22.393Z", Attempts: 1 },
-            { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "", Attempts: 0 },
-            { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "2021-07-05T12:49:54.629Z", Attempts: 2 },
+            { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "2021-07-05T23:12:43.087Z", Attempts: 1 },
             { Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "", Attempts: 0 },
 
