@@ -21,7 +21,7 @@ Season8.Runs.push(
             { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "2021-07-05T12:49:54.629Z", Attempts: 2 },
             { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "2021-07-05T23:12:43.087Z", Attempts: 1 },
             { Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png", Time: "2021-07-06T23:34:48.273Z", Attempts: 1 },
-            { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "2021-07-07T13:06:48.846Z", Attempts: 1 },
 
             { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0 },
             { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "", Attempts: 0 },
