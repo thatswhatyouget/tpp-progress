@@ -35,7 +35,7 @@ namespace TPP.Display.Elements.RunStatus {
         }
     }
 
-    const infoModes = ["Default", "Misc", "IVs", "EVs", "Stats", "Condition"]
+    const infoModes = ["Default", "Misc", "Met", "IVs", "EVs", "Stats", "Condition"]
 
     export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string }, { infoMode: number; }> {
 
@@ -125,9 +125,18 @@ namespace TPP.Display.Elements.RunStatus {
                         {mon.nature && <div className="nature informatic">{mon.nature}</div>}
                         {mon.characteristic && <div className="characteristic informatic">{mon.characteristic}</div>}
                         {mon.friendship && <div className="friendship informatic">{mon.friendship}</div>}
-                        {mon.met && mon.met.caught_in && <div className="caught-in informatic">{mon.met.caught_in}</div>}
                     </div>;
-
+                case "Met":
+                    return <div className="pokemon-info">
+                        <div className="name">{mon.name}</div>
+                        <div className="informatic">Met:</div>
+                        {mon.met && <ul className="stats">
+                            {mon.met.area_id && <li className="informatic">{mon.met.area_name || `Area #${mon.met.area_id}`}</li>}
+                            {mon.met.level && <li className="informatic">Level {mon.met.level}</li>}
+                            {mon.met.caught_in && <li className="informatic">Caught in {mon.met.caught_in}</li>}
+                            {mon.met.game && typeof mon.met.game == "string" && <li className="informatic">Game: {mon.met.game}</li>}
+                        </ul>}
+                    </div>
             }
         }
 
