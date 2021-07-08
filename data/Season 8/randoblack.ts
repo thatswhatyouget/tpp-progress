@@ -24,7 +24,7 @@ Season8.Runs.push(
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "2021-07-07T13:06:48.846Z", Attempts: 1 },
 
             { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "2021-07-07T22:47:36Z", Attempts: 1 },
-            { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "", Attempts: 2 },
+            { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "2021-07-08T09:40:57Z", Attempts: 3 },
             { Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "2021-07-07T22:27:25Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "", Attempts: 2 },
             { Group: "Champions", Name: "N", Image: "img/trainers/black/n.png", Time: "", Attempts: 0 },
