@@ -26,7 +26,7 @@ Season8.Runs.push(
             { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "2021-07-07T22:47:36Z", Attempts: 1 },
             { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "2021-07-08T09:40:57Z", Attempts: 3 },
             { Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "2021-07-07T22:27:25Z", Attempts: 1 },
-            { Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "", Attempts: 2 },
+            { Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "2021-07-08T14:54:50Z", Attempts: 6 },
             { Group: "Champions", Name: "N", Image: "img/trainers/black/n.png", Time: "", Attempts: 0 },
             { Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/ghetsis.png", Time: "", Attempts: 0 },
 
