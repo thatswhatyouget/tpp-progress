@@ -43,15 +43,15 @@ Season8.Runs.push(
                 FirstAttemptDate: "2021-07-07T22:17:00.556Z"
             },
 
-            { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "", Attempts: 0, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 1, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "2021-07-10T13:12:45.548Zv", Attempts: 1, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "2021-07-10T12:36:29.548Z", Attempts: 1, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "", Attempts: 0, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "", Attempts: 2, Class: "Rematch" },
 
             { Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "", Attempts: 0 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "39604", Attempts: 1, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "39604", Attempts: 3, Party: [
                     { Pokemon: "Genesect", Level: 63 },
                     { Pokemon: "Luxray", Nickname: "gn", Level: 72, Gender: "Female" },
                     { Pokemon: "Garchomp", Nickname: "COPIUM", Level: 72, Gender: "Male" },
