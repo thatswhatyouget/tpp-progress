@@ -45,16 +45,22 @@ Season8.Runs.push(
 
             { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "", Attempts: 0, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "", Attempts: 0, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "", Attempts: 0, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "2021-07-10T12:36:29.548Z", Attempts: 1, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "", Attempts: 0, Class: "Rematch" },
 
             { Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "", Attempts: 0 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "39604", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "39604", Attempts: 1, Party: [
+                    { Pokemon: "Genesect", Level: 63 },
+                    { Pokemon: "Luxray", Nickname: "gn", Level: 72, Gender: "Female" },
+                    { Pokemon: "Garchomp", Nickname: "COPIUM", Level: 72, Gender: "Male" },
+                    { Pokemon: "Keldeo", Nickname: "myhghoowrr", Level: 66},
+                    { Pokemon: "Ferrothorn", Nickname: "lsrmorxcg", Level: 72, Gender: "Female" },
+                    { Pokemon: "Marowak", Nickname: "Marobonneo", Level: 70, Gender: "Male" },
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate: ""
+                FirstAttemptDate: "2021-07-10T12:30:41.548Z"
             },
 
         ]
