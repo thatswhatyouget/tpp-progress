@@ -407,6 +407,12 @@
     clear: both;
 }
 
+.pokemon-hud ul.party > li .informatic.evolution {
+    line-height: .9em;
+    margin-top: .2em;
+    margin-bottom: .2em;
+}
+
 .pokemon-hud ul.party > li .informatic:before {
     margin-right: .1em;
     width:1em;

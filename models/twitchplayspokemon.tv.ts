@@ -90,6 +90,7 @@ namespace TPP.Tv {
             egg_type2?: string;
             growth_rate?: string;
             national_dex?: number;
+            evolutions?: Evolution[];
         }
         experience: {
             current: number;
@@ -124,6 +125,17 @@ namespace TPP.Tv {
         }
         ribbons: string[]
         is_egg: boolean;
+    }
+
+    export interface Evolution {
+        level?: number;
+        required_item?: Item;
+        is_trade?: boolean;
+        required_happiness?: number;
+        required_map_id?: number;
+        required_map_name?: string;
+        required_time_of_day?: "Morn" | "Day" | "Night" | "MornDay";
+        special_condition?: string;
     }
 
     export interface BoxedPokemon extends Pokemon {

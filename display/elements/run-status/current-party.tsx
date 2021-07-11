@@ -35,7 +35,7 @@ namespace TPP.Display.Elements.RunStatus {
         }
     }
 
-    const infoModes = ["Default", "Misc", "Met", "IVs", "EVs", "Stats", "Condition"]
+    const infoModes = ["Default", "Misc", "Met", "IVs", "EVs", "Stats", "Condition", "Evolutions"]
 
     export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string }, { infoMode: number; }> {
 
@@ -136,6 +136,31 @@ namespace TPP.Display.Elements.RunStatus {
                             {mon.met.caught_in && <li className="informatic">Caught in {mon.met.caught_in}</li>}
                             {mon.met.game && typeof mon.met.game == "string" && <li className="informatic">Game: {mon.met.game}</li>}
                         </ul>}
+                    </div>
+                case "Evolutions":
+                    return <div className="pokemon-info">
+                        <div className="name">{mon.name}</div>
+                        <div className="informatic">Evolutions:</div>
+                        {(mon.species && mon.species.evolutions)
+                            ? mon.species.evolutions.length > 0 ? mon.species.evolutions.map((e, i) => <div className="informatic evolution" key={i}>
+                                {!!e.special_condition && <span>{e.special_condition} </span>}
+                                {!!e.level && <span>At Level {e.level} </span>}
+                                {!!e.is_trade && <span>Trade </span>}
+                                {!!e.required_item && <span>{e.is_trade ? "Holding" : e.special_condition ? "" : "With"} a {e.required_item.name} </span>}
+                                {!!e.required_map_name && <span>{e.required_map_name} </span>}
+                                {!!e.required_happiness && <span>With {e.required_happiness} Happiness </span>}
+                                {!!e.required_time_of_day && <span>
+                                    {
+                                        (e.required_time_of_day == "Morn" && "In the Morning") ||
+                                        (e.required_time_of_day == "Day" && "During the Day") ||
+                                        (e.required_time_of_day == "Night" && "At Night") ||
+                                        (e.required_time_of_day == "MornDay" && "While the Sun's Out")
+                                    }
+                                </span>}
+                            </div>)
+                                : <div className="informatic">None</div>
+                            : <div className="informatic">Unknown</div>
+                        }
                     </div>
             }
         }
