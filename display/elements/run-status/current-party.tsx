@@ -146,7 +146,7 @@ namespace TPP.Display.Elements.RunStatus {
                                 {!!e.special_condition && <span>{e.special_condition} </span>}
                                 {!!e.level && <span>At Level {e.level} </span>}
                                 {!!e.is_trade && <span>Trade </span>}
-                                {!!e.required_item && <span>{e.is_trade ? "Holding" : e.special_condition ? "" : "With"} a {e.required_item.name} </span>}
+                                {!!e.required_item && <span>{e.is_trade ? "Holding" : e.special_condition ? "" : "With"} {e.required_item.name} </span>}
                                 {!!e.required_map_name && <span>{e.required_map_name} </span>}
                                 {!!e.required_happiness && <span>With {e.required_happiness} Happiness </span>}
                                 {!!e.required_time_of_day && <span>
