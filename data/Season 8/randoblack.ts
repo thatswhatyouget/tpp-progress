@@ -4,7 +4,7 @@ Season8.Runs.push(
         RunName: "Randomized Black",
         ColorPrimary: "#111",
         ColorSecondary: "#CC9BA2",
-        Duration: "255w",
+        Duration: "8d4h56m",
         StartDate: "2021-07-03T21:00:00Z",
         HostName: "♂♂♂'",
         HostImage: "img/hosts/aaq.png",
@@ -49,16 +49,16 @@ Season8.Runs.push(
             { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "2021-07-10T12:36:29Z", Attempts: 1, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "2021-07-10T13:31:00Z", Attempts: 2, Class: "Rematch" },
 
-            { Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "2021-07-12T01:52:00Z", Attempts: 4 },
+            { Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "2021-07-12T01:51:30Z", Attempts: 4 },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "39604", Attempts: 0, Party: [
-                    { Pokemon: "Articuno", Nickname: "CREAMY", Level: 63 },
-                    { Pokemon: "Luxray", Nickname: "gm", Level: 72, Gender: "Male" }, // They released gn
-                    { Pokemon: "Garchomp", Nickname: "HOPIUM", PreviousNick: "COPIUM", Level: 72, Gender: "Male" },
-                    { Pokemon: "Keldeo", Nickname: "KK", PreviousNick: "myhghoowrr", Level: 66 },
-                    { Pokemon: "Ferrothorn", Nickname: "lsrmorxcg", Level: 72, Gender: "Female" },
-                    { Pokemon: "Marowak", Nickname: "Marobonneo", Level: 70, Gender: "Male" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-07-12T01:52:49Z", IDNo: "39604", Attempts: 0, Party: [
+                    { Pokemon: "Keldeo", Nickname: "KK", PreviousNick: "myhghoowrr", Level: 81 },
+                    { Pokemon: "Marowak", Nickname: "Marobonneo", Level: 82, Gender: "Male" },
+                    { Pokemon: "Articuno", Nickname: "CREAMY", Level: 97 },
+                    { Pokemon: "Ferrothorn", Nickname: "lsrmorxcg", Level: 86, Gender: "Female" },
+                    { Pokemon: "Luxray", Nickname: "gm", Level: 92, Gender: "Male" }, // They released gn
+                    { Pokemon: "Garchomp", Nickname: "HOPIUM", PreviousNick: "COPIUM", Level: 94, Gender: "Male" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2021-07-10T12:30:41.548Z"
