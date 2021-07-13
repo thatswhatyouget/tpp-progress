@@ -6,20 +6,20 @@ Season8.Runs.push(
         ColorSecondary: "#0658CC",
         Duration: "255w",
         StartDate: "2021-07-12T16:00:00Z",
-        HostName: "",
-        // HostImage: "img/hosts/r.png",
-        // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/g4c56y/reese_the_super_pokestar/",
+        HostName: " W ☹☹''",
+        HostImage: "img/hosts/w.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/oj9bjq/witte_nachtmerrie_the_daughter_of_darkrai/",
         Region: "Unova",
         Generation: 5,
         Pokedex: "National",
-        // FinalStateLink:"./states/Season 7/gauntlet-black2.json",
+        // FinalStateLink:"./states/Season 8/randoblack2.json",
         Events: [
             {
                 Group: "Badges",
                 Name: "Basic Badge",
                 Image: "img/badges/basic.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-07-13T00:11:17.369Z",
+                Attempts: 2
             },
             {
                 Group: "Badges",
