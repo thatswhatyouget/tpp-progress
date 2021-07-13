@@ -64,7 +64,8 @@ Season8.Runs.push(
             },
 
             { "Group": "Pokemon", "Name": "Mareep", "Time": "2021-07-03T21:03:42.657Z" },
-            { "Group": "Pokemon", "Name": "Minccino", "Time": "2021-07-03T21:22:07.233Z" },
+            //{ "Group": "Pokemon", "Name": "Minccino", "Time": "2021-07-03T21:22:07.233Z" }, // Juniper's
+            { "Group": "Pokemon", "Name": "Minccino", "Time": "2021-07-10T02:36:57.776Z" },
             { "Group": "Pokemon", "Name": "Nincada", "Time": "2021-07-03T21:24:37.986Z" },
             { "Group": "Pokemon", "Name": "Sandshrew", "Time": "2021-07-03T21:27:43.495Z" },
             { "Group": "Pokemon", "Name": "Slugma", "Time": "2021-07-03T21:40:59.731Z" },
