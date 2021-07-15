@@ -32,8 +32,8 @@ Season8.Runs.push(
                 Group: "Badges",
                 Name: "Insect Badge",
                 Image: "img/badges/insect.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-07-14T16:54:40.548Z",
+                Attempts: 4
             },
             {
                 Group: "Badges",
