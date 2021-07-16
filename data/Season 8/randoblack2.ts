@@ -46,8 +46,8 @@ Season8.Runs.push(
                 Group: "Badges",
                 Name: "Quake Badge",
                 Image: "img/badges/quake.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-07-16T03:33:47.404Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
