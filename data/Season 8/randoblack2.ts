@@ -53,8 +53,8 @@ Season8.Runs.push(
                 Group: "Badges",
                 Name: "Jet Badge",
                 Image: "img/badges/jet.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-07-17T22:39:29.199Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
