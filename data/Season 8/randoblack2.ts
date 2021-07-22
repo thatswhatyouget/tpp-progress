@@ -74,22 +74,22 @@ Season8.Runs.push(
                 Group: "Elite Four",
                 Name: "Shauntal",
                 Image: "img/trainers/black/shauntal.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-07-22T12:48:29.251Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Grimsley",
                 Image: "img/trainers/black/grimsley.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-07-22T08:58:55.954Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Caitlin",
                 Image: "img/trainers/black/caitlin.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-07-22T12:59:43.912Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four",
@@ -108,7 +108,7 @@ Season8.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2021-07-22T08:50:15.702Z",
                 Image: "img/ribbons/champion.png"
             },
             {
