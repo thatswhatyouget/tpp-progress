@@ -100,13 +100,20 @@ Season8.Runs.push(
             },
             {
                 Group: "Champions",
-                Name: "Iris",
-                Image: "img/trainers/black/iris.png",
-                Time: "",
-                Attempts: 0
+                Name: "♂♂♂'",
+                Image: "img/hosts/♂♂♂.png",
+                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/odwg8w/mars_the_tomboyish_trainer_barp_the_ampharos_and/",
+                Time: "2021-07-23T19:13:10.738Z",
+                Attempts: 8
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-07-23T19:13:1Z", IDNo: "09544", Attempts: 0, Party: [
+                    { Pokemon: "Meganium", Nickname: " u", Level: 89, Gender: "Male" },
+                    { Pokemon: "Infernape", Nickname: "00k", Level: 89, Gender: "Male" },
+                    { Pokemon: "Torterra", Nickname: "fj", Level: 88, Gender: "Male" },
+                    { Pokemon: "Kricketune", Nickname: "ucrdq  2sl", Level: 84, Gender: "Female" },
+                    { Pokemon: "Mawile", Nickname: "  i", Level: 81, Gender: "Male" },
+                    { Pokemon: "Lunatone", Nickname: "Lun\u263a", Level: 82 },
                 ],
                 FirstAttemptDate: "2021-07-22T08:50:15.702Z",
                 Image: "img/ribbons/champion.png"
