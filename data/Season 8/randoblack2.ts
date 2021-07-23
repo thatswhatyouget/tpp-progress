@@ -107,7 +107,7 @@ Season8.Runs.push(
                 Attempts: 8
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-07-23T19:13:1Z", IDNo: "09544", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-07-23T19:14:10Z", IDNo: "09544", Attempts: 0, Party: [
                     { Pokemon: "Meganium", Nickname: " u", Level: 89, Gender: "Male" },
                     { Pokemon: "Infernape", Nickname: "00k", Level: 89, Gender: "Male" },
                     { Pokemon: "Torterra", Nickname: "fj", Level: 88, Gender: "Male" },
@@ -139,16 +139,16 @@ Season8.Runs.push(
                 Name: "Caitlin",
                 Image: "img/trainers/black/caitlin.png",
                 Class: "Rematch",
-                Time: "",
-                Attempts: 0
+                Time: "2021-07-23T20:30:27.505Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Marshal",
                 Image: "img/trainers/black/marshal.png",
                 Class: "Rematch",
-                Time: "",
-                Attempts: 0
+                Time: "2021-07-23T20:19:00.629Z",
+                Attempts: 1
             },
             {
                 Group: "Champions",
@@ -159,9 +159,9 @@ Season8.Runs.push(
                 Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "09544", Attempts: 0, Party: [
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2021-07-23T20:11:35.431Z",
                 Image: "img/ribbons/champion.png"
             },
             { "Group": "Pokemon", "Name": "Nidoran♂", "Time": "2021-07-12T16:08:59.229Z" },
