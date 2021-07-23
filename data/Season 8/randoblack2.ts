@@ -95,8 +95,8 @@ Season8.Runs.push(
                 Group: "Elite Four",
                 Name: "Marshal",
                 Image: "img/trainers/black/marshal.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-07-23T02:19:28.095Z",
+                Attempts: 8
             },
             {
                 Group: "Champions",
