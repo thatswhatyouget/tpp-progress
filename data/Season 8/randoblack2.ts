@@ -131,8 +131,8 @@ Season8.Runs.push(
                 Name: "Shauntal",
                 Image: "img/trainers/black/shauntal.png",
                 Class: "Rematch",
-                Time: "",
-                Attempts: 0
+                Time: "2021-07-26T03:27:46.191Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four Rematch",
