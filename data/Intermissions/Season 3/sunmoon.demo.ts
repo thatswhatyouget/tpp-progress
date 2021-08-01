@@ -18,7 +18,7 @@ Intermissions.Runs.push(
             { Group: "Pokemon", Name: "Pikipek", Time: "2016-11-18T05:17:00Z" },
             { Group: "Pokemon", Name: "Yungoos", Time: "2016-11-18T05:18:00Z" },
             { Group: "Pokemon", Name: "Rockruff", Time: "2016-11-18T07:10:00Z" },
-            { Group: "Bosses", Name: "Ace Trainer Sheri", Image: "http://cdn.bulbagarden.net/upload/thumb/a/a4/VSAce_Trainer_F_SM.png/150px-VSAce_Trainer_F_SM.png", Time: "2016-11-18T10:26:00Z", Attempts: 2 },
+            { Group: "Bosses", Name: "Ace Trainer Sheri", Image: "https://cdn2.bulbagarden.net/upload/thumb/a/a4/VSAce_Trainer_F_SM.png/150px-VSAce_Trainer_F_SM.png", Time: "2016-11-18T10:26:00Z", Attempts: 2 },
         ]
     }
 );
