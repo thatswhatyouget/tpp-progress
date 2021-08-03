@@ -41,6 +41,7 @@ Sidegames.Runs.push(
             { Group: "Pokemon", Name: "Piccolo", Time: "2021-05-20T18:30:46+01:00" },
             { Group: "Pokemon", Name: "SSJ Gohan", Time: "2021-05-29T05:05:47+01:00" },
             { Group: "Pokemon", Name: "C-13", Time: "2021-08-01T21:37:02+01:00" },
+            { Group: "Pokemon", Name: "Bioman", Time: "2021-08-03T15:48:44+01:00" },
         ]
     }
 );
