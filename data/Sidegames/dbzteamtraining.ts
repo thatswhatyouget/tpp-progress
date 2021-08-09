@@ -17,7 +17,7 @@ Sidegames.Runs.push(
         Events: [
             { Group: "Badges", Name: "Saiyan Badge", Image: "img/badges/boulder.png", Time: "2021-05-25T23:06:17+01:00", Attempts: 2 },
             { Group: "Badges", Name: "Namek Badge", Image: "img/badges/cascade.png", Time: "2021-06-26T22:55:49+01:00", Attempts: 2 },
-            { Group: "Badges", Name: "Red Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 0 },
+            { Group: "Badges", Name: "Red Badge", Image: "img/badges/thunder.png", Time: "2021-08-09T02:57:41+01:00", Attempts: 2 },
             { Group: "Badges", Name: "Bio Badge", Image: "img/badges/rainbow.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Satan Badge", Image: "img/badges/soul.png", Time: "", Attempts: 0 },
             { Group: "Badges", Name: "Majin Badge", Image: "img/badges/marsh.png", Time: "", Attempts: 0 },
