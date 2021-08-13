@@ -15,25 +15,25 @@ Intermissions.Runs.push(
             // {
             //     Group: "Badges",
             //     Name: "Chansey Coin",
-            //     Image: "http://cdn.bulbagarden.net/upload/a/a7/Coin_Chansey_GB2.png",
+            //     Image: "https://cdn2.bulbagarden.net/upload/a/a7/Coin_Chansey_GB2.png",
             //     Time: "2016-02-14T02:38:00Z"
             // },
             {
                 Group: "Badges",
                 Name: "GR Coin",
-                Image: "http://cdn.bulbagarden.net/upload/0/06/Coin_GR_GB2.png",
+                Image: "https://cdn2.bulbagarden.net/upload/0/06/Coin_GR_GB2.png",
                 Time: "2016-03-31T20:33:00Z"
             },
             {
                 Group: "Badges",
                 Name: "Grass Coin", //"Oddish Coin",
-                Image: "http://cdn.bulbagarden.net/upload/f/fb/Coin_Oddish_GB2.png",
+                Image: "https://cdn2.bulbagarden.net/upload/f/fb/Coin_Oddish_GB2.png",
                 Time: "2016-03-31T09:05:00Z"
             },
             {
                 Group: "Badges",
                 Name: "Fire Coin", //"Charmander Coin",
-                Image: "http://cdn.bulbagarden.net/upload/0/0b/Coin_Charmander_GB2.png",
+                Image: "https://cdn2.bulbagarden.net/upload/0/0b/Coin_Charmander_GB2.png",
                 Time: "2016-03-30T05:12:30Z"
             },
             {
@@ -45,13 +45,13 @@ Intermissions.Runs.push(
             {
                 Group: "Badges",
                 Name: "Lightning Coin", //"Pikachu Coin",
-                Image: "http://cdn.bulbagarden.net/upload/f/f0/Coin_Pikachu_GB2.png",
+                Image: "https://cdn2.bulbagarden.net/upload/f/f0/Coin_Pikachu_GB2.png",
                 Time: "2016-03-30T21:32:00Z"
             },
             {
                 Group: "Badges",
                 Name: "Psychic Coin", //"Alakazam Coin",
-                Image: "http://cdn.bulbagarden.net/upload/9/91/Coin_Alakazam_GB2.png",
+                Image: "https://cdn2.bulbagarden.net/upload/9/91/Coin_Alakazam_GB2.png",
                 Time: "2016-03-31T15:06:00Z"
             },
             {
@@ -63,43 +63,43 @@ Intermissions.Runs.push(
             {
                 Group: "Badges",
                 Name: "GR Grass Coin", //"Golbat Coin",
-                Image: "http://cdn.bulbagarden.net/upload/9/99/Coin_Golbat_GB2.png",
+                Image: "https://cdn2.bulbagarden.net/upload/9/99/Coin_Golbat_GB2.png",
                 Time: "2016-04-01T11:17:20Z"
             },
             {
                 Group: "Badges",
                 Name: "GR Thunder Coin", //"Magnemite Coin",
-                Image: "http://cdn.bulbagarden.net/upload/8/85/Coin_Magnemite_GB2.png",
+                Image: "https://cdn2.bulbagarden.net/upload/8/85/Coin_Magnemite_GB2.png",
                 Time: "2016-04-04T00:50:00Z"
             },
             {
                 Group: "Badges",
                 Name: "GR Fire Coin", //"Magmar Coin",
-                Image: "http://cdn.bulbagarden.net/upload/c/cb/Coin_Magmar_GB2.png",
+                Image: "https://cdn2.bulbagarden.net/upload/c/cb/Coin_Magmar_GB2.png",
                 Time: "2016-04-05T03:13:00Z"
             },
             {
                 Group: "Badges",
                 Name: "GR Water Coin", //"Psyduck Coin",
-                Image: "http://cdn.bulbagarden.net/upload/c/ce/Coin_Psyduck_GB2.png",
+                Image: "https://cdn2.bulbagarden.net/upload/c/ce/Coin_Psyduck_GB2.png",
                 Time: "2016-04-04T17:58:00Z"
             },
             {
                 Group: "Badges",
                 Name: "GR Fighting Coin", //"Machamp Coin",
-                Image: "http://cdn.bulbagarden.net/upload/d/db/Coin_Machamp_GB2.png",
+                Image: "https://cdn2.bulbagarden.net/upload/d/db/Coin_Machamp_GB2.png",
                 Time: "2016-04-05T10:31:00Z"
             },
             {
                 Group: "Badges",
                 Name: "GR Colorless Coin", //"Snorlax Coin",
-                Image: "http://cdn.bulbagarden.net/upload/3/36/Coin_Snorlax_GB2.png",
+                Image: "https://cdn2.bulbagarden.net/upload/3/36/Coin_Snorlax_GB2.png",
                 Time: "2016-04-06T21:36:00Z"
             },
             {
                 Group: "Badges",
                 Name: "GR Psychic Coin", //"Mew Coin",
-                Image: "http://cdn.bulbagarden.net/upload/1/1b/Coin_Mew_GB2.png",
+                Image: "https://cdn2.bulbagarden.net/upload/1/1b/Coin_Mew_GB2.png",
                 Time: "2016-04-07T05:31:00Z"
             },
             {
@@ -133,55 +133,55 @@ Intermissions.Runs.push(
             {
                 Group: "Badges",
                 Name: "GR King Coin", //"Togepi Coin",
-                Image: "http://cdn.bulbagarden.net/upload/8/81/Coin_Togepi_GB2.png",
+                Image: "https://cdn2.bulbagarden.net/upload/8/81/Coin_Togepi_GB2.png",
                 Time: "2016-04-08T08:14:00Z",
             },
             // {
             //     Group: "Badges",
             //     Name: "Ponyta Coin",
-            //     Image: "http://cdn.bulbagarden.net/upload/9/90/Coin_Ponyta_GB2.png",
+            //     Image: "https://cdn2.bulbagarden.net/upload/9/90/Coin_Ponyta_GB2.png",
             //     Time: "-1s"
             // },
             // {
             //     Group: "Badges",
             //     Name: "Horsea Coin",
-            //     Image: "http://cdn.bulbagarden.net/upload/7/79/Coin_Horsea_GB2.png",
+            //     Image: "https://cdn2.bulbagarden.net/upload/7/79/Coin_Horsea_GB2.png",
             //     Time: "-1s"
             // },
             // {
             //     Group: "Badges",
             //     Name: "Arbok Coin",
-            //     Image: "http://cdn.bulbagarden.net/upload/6/65/Coin_Arbok_GB2.png",
+            //     Image: "https://cdn2.bulbagarden.net/upload/6/65/Coin_Arbok_GB2.png",
             //     Time: "-1s"
             // },
             // {
             //     Group: "Badges",
             //     Name: "Jigglypuff Coin",
-            //     Image: "http://cdn.bulbagarden.net/upload/8/88/Coin_Jigglypuff_GB2.png",
+            //     Image: "https://cdn2.bulbagarden.net/upload/8/88/Coin_Jigglypuff_GB2.png",
             //     Time: "-1s"
             // },
             // {
             //     Group: "Badges",
             //     Name: "Dugtrio Coin",
-            //     Image: "http://cdn.bulbagarden.net/upload/6/65/Coin_Dugtrio_GB2.png",
+            //     Image: "https://cdn2.bulbagarden.net/upload/6/65/Coin_Dugtrio_GB2.png",
             //     Time: "-1s"
             // },
             // {
             //     Group: "Badges",
             //     Name: "Gengar Coin",
-            //     Image: "http://cdn.bulbagarden.net/upload/4/45/Coin_Gengar_GB2.png",
+            //     Image: "https://cdn2.bulbagarden.net/upload/4/45/Coin_Gengar_GB2.png",
             //     Time: "-1s"
             // },
             // {
             //     Group: "Badges",
             //     Name: "Raichu Coin",
-            //     Image: "http://cdn.bulbagarden.net/upload/2/22/Coin_Raichu_GB2.png",
+            //     Image: "https://cdn2.bulbagarden.net/upload/2/22/Coin_Raichu_GB2.png",
             //     Time: "-1s"
             // },
             // {
             //     Group: "Badges",
             //     Name: "Lugia Coin",
-            //     Image: "http://cdn.bulbagarden.net/upload/9/9a/Coin_Lugia_GB2.png",
+            //     Image: "https://cdn2.bulbagarden.net/upload/9/9a/Coin_Lugia_GB2.png",
             //     Time: "-1s"
             // },
         ]

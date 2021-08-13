@@ -13,7 +13,7 @@ Sidegames.Runs.push(
         Region: "Kanto",
         ContainsRunsFrom: ["Revisits", "Intermissions", "Season 4"],
         SidegameId: "pag",
-        LastScreenshot: "https://i.tppl.tv/pbr/sidegame/ash_gray/1495716756.png",
+        LastScreenshot: "https://i.imgur.com/eeno78Z.png",
         Events: [
             { Name: "Pikachu", Time: "2017-03-16T01:25:35+00:00", Group: "Pokemon" },
             { Name: "Caterpie", Time: "2017-03-20T12:18:45+00:00", Group: "Pokemon" },
