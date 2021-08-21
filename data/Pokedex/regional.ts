@@ -68,7 +68,7 @@ module Pokedex {
         "Larmog": "navyblue",
         "Altair/Sirius (Hoenn)": "sirius",
         "Tohoak": "vega",
-        "Blazing Hoenn": "blazing"
+        "Blazing Hoenn": "blazingemerald"
     };
 
     export var runRestrictions: { [key: string]: string } = {};

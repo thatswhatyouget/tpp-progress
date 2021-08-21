@@ -37,3 +37,6 @@ addStyles(Pokedex.Regional["Altair/Sirius (Hoenn)"].map(p => (typeof p === "numb
 
 //Vega
 addStyles(fixFakeForms(Pokedex.Regional["Tohoak"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("vega"));
+
+//Blazing Emerald
+addStyles(fixFakeForms(Pokedex.Regional["Blazing Hoenn"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("blazingemerald"));

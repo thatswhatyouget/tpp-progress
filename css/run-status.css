@@ -312,6 +312,10 @@
     background-image: url("../img/fighters-large.png")!important;
 }
 
+.blazingemerald .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img {
+    background-image: url("../img/blazing-large.png")!important;
+}
+
 .pokemon-hud ul.party > li .pokemon-image > .pokesprite.egg > img {
     background-position: center;
     background: url("../img/egg.gif");

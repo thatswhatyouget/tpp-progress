@@ -579,7 +579,9 @@ ul.controls > li > ul > li.selected > a:before {
 .progressChart  .dbzteamtraining.run .event.pokemon.pokesprite img {
 	background-image:url("../img/fighters-small.png");
 }
-
+.progressChart  .blazingemerald.run .event.pokemon.pokesprite img {
+	background-image:url("../img/blazing-small.png");
+}
 
 .progressChart .tradingcardgame .innertradingcardgame .event {
     display: none;
@@ -841,6 +843,10 @@ ul.controls > li > ul > li.selected > a:before {
 
 .hallOfFameDisplay.dbzteamtraining .entry .pokesprite img {
 	background-image:url("../img/fighters-large.png")!important;
+}
+
+.hallOfFameDisplay.blazingemerald .entry .pokesprite img {
+	background-image:url("../img/blazing-large.png")!important;
 }
 
 .hallOfFameDisplay .entry .info > * {
