@@ -19,22 +19,22 @@ Season8.Runs.push(
                 Group: "Badges",
                 Name: "Stone Badge",
                 Image: "img/badges/stone.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-08-22T03:47:47.967Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
-                Name: "Knuckle Badge",
-                Image: "img/badges/knuckle.png",
-                Time: "",
-                Attempts: 0
+                Name: "Shadow Badge",
+                Image: "img/badges/shadow.png",
+                Time: "2021-08-22T09:58:13.231Z",
+                Attempts: 6
             },
             {
                 Group: "Badges",
                 Name: "Dynamo Badge",
                 Image: "img/badges/dynamo.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-08-22T19:38:32.170Z",
+                Attempts: 2
             },
             {
                 Group: "Badges",
