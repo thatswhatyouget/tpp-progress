@@ -178,7 +178,9 @@ namespace TPP.Display.Elements.RunStatus {
                 hideHealth ? null : Math.floor(hpPercent) <= 20 ? "health-low" : Math.floor(hpPercent) > 50 ? "health-high" : "health-med",
                 mon.gender,
                 hideHealth ? null : (mon as Tv.PartyPokemon).health[0] == 0 ? "fainted" : "",
-                (mon as Tv.PartyPokemon).status
+                (mon as Tv.PartyPokemon).status,
+                mon.pokerus && mon.pokerus.infected && "pkrs-infected",
+                mon.pokerus && mon.pokerus.cured && "pkrs-cured"
             ].filter(c => !!c).map(cleanString).join(' ');
             return <li className={classes} onClick={e => this.setState(s => ({ infoMode: ((s && s.infoMode || 0) + 1) % infoModes.length }))}>
                 <div className="pokemon-image">

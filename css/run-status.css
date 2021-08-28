@@ -322,6 +322,26 @@
     background-size: contain;
 }
 
+.pokemon-hud ul.party > li.pkrs-infected .pokemon-image:before {
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url("../img/pkrs-infected.png");
+    object-fit: contain;
+    position:absolute;
+    left: .2em;
+    bottom: .2em;
+    width: 1.5em;
+    height: 1.5em;
+    filter: drop-shadow(0 0 1px black);
+}
+
+.pokemon-hud ul.party > li.pkrs-infected.pkrs-cured .pokemon-image:before {
+    background-image:url("../img/pkrs-cured.png");
+    filter: drop-shadow(0 0 1px black)hue-rotate(-45deg);
+}
+
 .pokemon-hud ul.party > li .pokemon-info {
   flex: 1 1 auto;
   position: relative;
