@@ -96,8 +96,8 @@ Season8.Runs.push(
                 Group: "Elite Four",
                 Name: "Drake",
                 Image: "img/trainers/emerald/drake.png",
-                Time: "",
-                Attempts: 0
+                Time: "2021-08-29T08:05:54.159Z",
+                Attempts: 6
             },
             {
                 Group: "Champions",
@@ -107,7 +107,7 @@ Season8.Runs.push(
                 Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "49599", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "61902", Attempts: 0, Party: [
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
