@@ -103,13 +103,65 @@ Season8.Runs.push(
                 Group: "Champions",
                 Name: "Wallace",
                 Image: "img/trainers/emerald/wallace.png",
+                Time: "2021-08-29T18:42:45.697Z",
+                Attempts: 6
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-08-29T18:43:00Z", IDNo: "61902", Attempts: 48, Party: [
+                    { Pokemon: "Weezing", Nickname: "G,.. YRMto", Level: 60, Gender: "Male", Number: 184, IDNo: "61902" },
+                    { Pokemon: "Shuckle", Nickname: "GGNN", Level: 60, Gender: "Male", Number: 249, IDNo: "61902" },
+                    { Pokemon: "Beedrill", Nickname: ",,,      ", Level: 60, Gender: "Female", Number: 111, IDNo: "61902" },
+                    { Pokemon: "Crobat", Nickname: "MASTERBAIT", Level: 60, Gender: "Female", Number: 126, IDNo: "61902" },
+                    { Pokemon: "Weavile", Nickname: "GI", Level: 60, Gender: "Male", Number: 289, IDNo: "61902" },
+                    { Pokemon: "Gliscor", Nickname: "TT     -  ", Level: 60, Gender: "Female", Number: 160, IDNo: "61902" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Phoebe",
+                Image: "img/trainers/emerald/phoebe.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Serena",
+                Image: "img/trainers/emerald/serena.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Bede",
+                Image: "img/trainers/emerald/bede.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Elite Four Rematch",
+                Class: "Rematch",
+                Name: "Drake",
+                Image: "img/trainers/emerald/drake.png",
+                Time: "",
+                Attempts: 0
+            },
+            {
+                Group: "Champions",
+                Class: "Rematch",
+                Name: "Wallace",
+                Image: "img/trainers/emerald/wallace.png",
                 Time: "",
                 Attempts: 0
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "61902", Attempts: 0, Party: [
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2021-08-30T03:06:00.386Z",
                 Image: "img/ribbons/champion.png"
             },
         ]
