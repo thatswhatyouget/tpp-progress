@@ -6,7 +6,7 @@ Season8.Runs.push(
         ColorSecondary: "#a3060e",
         BackgroundImage: "linear-gradient(to bottom, #a3060e 0%, #fefc35 190%)",
         StartDate: "2021-08-21T21:00:00Z",
-        Duration: "255w",
+        Duration: "2021-09-09T06:16:25Z",
         HostName: "AGGGNNV",
         HostImage: "img/hosts/gordon.png",
         //HostImageSource: "",
