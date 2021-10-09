@@ -71,6 +71,10 @@
     vertical-align: baseline;
 }
 
+.optionsList {
+    text-transform: capitalize;
+}
+
 .badgeList {
     width:auto;
 }

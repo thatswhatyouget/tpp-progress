@@ -39,7 +39,7 @@ namespace TPP.Display.Elements.RunStatus {
             }, e => this.setState({ updatingRunData: false }));
         }
 
-        private UpdateRunStatus() { 
+        private UpdateRunStatus() {
             if (!this.wouldHaveRunStatus) return;
             this.setState({ updatingStatus: true });
             $.get(this.inLocalTestMode ? "http://localhost:1337/" : ((!this.inTestMode && this.state.run.FinalStateLink) || "https://twitchplayspokemon.tv/api/run_status")).then(
@@ -249,6 +249,16 @@ namespace TPP.Display.Elements.RunStatus {
                     <ItemDisplay key="PC Items" title={pokeRedCondenseText(`${this.state.run.HostName}'s PC`)} items={this.state.status.items.pc} />
                     <ItemDisplay key="PC Items FR" title={pokeRedCondenseText(`FireRed's PC`)} items={this.state.status.items["pc_firered"]} />
                     <ItemDisplay key="PC Items R" title={pokeRedCondenseText(`Red's PC`)} items={this.state.status.items["pc_red"]} />
+                    {this.state.status.phone_book && this.state.status.phone_book.length > 0 && <PokeBox title="Phone Book" className="itemsList gameStats">
+                        <ul>
+                            {this.state.status.phone_book.map((p, i) => <li key={i}>{pokeRedCondenseText(p)}</li>)}
+                        </ul>
+                    </PokeBox>}
+                    {this.state.status.options && Object.keys(this.state.status.options).length > 0 && <PokeBox title="Options" className="itemsList gameStats optionsList">
+                        <ul>
+                            {Object.keys(this.state.status.options).map(k => <li key={k} data-quantity={this.state.status.options[k]}>{pokeRedCondenseText(k.replace(/_/g, ' '))}:</li>)}
+                        </ul>
+                    </PokeBox>}
                     {this.Pokedex}
                     {this.state.status && this.state.status.daycare && this.state.status.daycare.length > 0 && <PCBox boxName="Daycare" boxContents={this.state.status.daycare} />}
                     {this.state.status && <PC pc={this.state.status.pc} />}

@@ -47,6 +47,7 @@ namespace TPP.Tv {
         money: number;
         name: string;
         options: Options;
+        phone_book?: string[];
         seen: number;
         seen_list: number[];
         secret: number;
