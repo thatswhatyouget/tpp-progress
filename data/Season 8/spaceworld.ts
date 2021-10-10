@@ -14,11 +14,11 @@ Season8.Runs.push(
         Events: [
             {
                 Group: "Badges", Name: "Zephyr Badge", Image: "img/badges/zephyr.png",
-                Time: "", Attempts: 0,
+                Time: "2021-10-10T02:00:53.973Z", Attempts: 1,
             },
             {
                 Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png",
-                Time: "", Attempts: 0,
+                Time: "2021-10-10T05:05:15.842Z", Attempts: 2,
             },
             {
                 Group: "Badges", Name: "Plain Badge)", Image: "img/badges/plain.png",
