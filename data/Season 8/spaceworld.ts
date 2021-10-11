@@ -30,7 +30,7 @@ Season8.Runs.push(
             },
             {
                 Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png",
-                Time: "", Attempts: 0,
+                Time: "2021-10-11T07:34:12.448Z", Attempts: 2,
             },
             {
                 Group: "Badges", Name: "Dusk Badge", Image: "img/badges/midnight.png",
