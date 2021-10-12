@@ -41,8 +41,8 @@ Season8.Runs.push(
                 Time: "2021-10-11T13:50:01.887Z", Attempts: 1,
             },
             {
-                Group: "Badges", Name: "Indigo Badge", Image: "img/badges/rising.png",
-                Time: "", Attempts: 0,
+                Group: "Badges", Name: "Indigo Badge", Image: "img/badges/sprout.png",
+                Time: "2021-10-12T18:55:45.115Z", Attempts: 2,
             },
             {
                 Group: "Elite Four", Name: "Will", Image: "img/trainers/crystal/will.png",
