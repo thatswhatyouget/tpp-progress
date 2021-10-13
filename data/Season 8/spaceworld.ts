@@ -21,7 +21,7 @@ Season8.Runs.push(
                 Time: "2021-10-10T05:05:15.842Z", Attempts: 2,
             },
             {
-                Group: "Badges", Name: "Plain Badge)", Image: "img/badges/plain.png",
+                Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png",
                 Time: "2021-10-10T14:26:30.138Z", Attempts: 3,
             },
             {
@@ -62,11 +62,17 @@ Season8.Runs.push(
             },
             {
                 Group: "Champions", Name: "Lance", Image: "img/trainers/crystal/lance.png",
-                Time: "", Attempts: 0,
+                Time: "2021-10-13T10:53:22.112Z", Attempts: 3,
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-10-13T10:00Z", Attempts: 13, Party: [
+                    { Pokemon: "Raitora", Nickname: "KLUUUUUUUU", Level: 44, Gender: "Female", Number: 171, IDNo: "49472" },
+                    { Pokemon: "Magikrow", Nickname: "KAMEK", Level: 38, Gender: "Male", Number: 198, IDNo: "49472" },
+                    { Pokemon: "Wearlycan", Nickname: "OBAMA", Level: 45, Gender: "Male", Number: 247, IDNo: "49472" },
+                    { Pokemon: "Lurreel", Nickname: "EATSMARILL", Level: 53, Gender: "Male", Number: 195, IDNo: "49472" },
+                    { Pokemon: "Bruinus", Nickname: "TACO", Level: 75,  Gender: "Male",Number: 157, IDNo: "49472" },
+                    { Pokemon: "Phandarin", Nickname: "STITCHES", Level: 84, Gender: "Male", Number: 221, IDNo: "48926" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
