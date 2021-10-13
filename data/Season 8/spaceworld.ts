@@ -45,20 +45,20 @@ Season8.Runs.push(
                 Time: "2021-10-12T18:55:45.115Z", Attempts: 2,
             },
             {
-                Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png",
+                Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/crystal/lorelei.png",
                 Time: "2021-10-12T23:43:18.996Z", Attempts: 2,
             },
             {
                 Group: "Elite Four", Name: "Koga", Image: "img/trainers/crystal/koga.png",
-                Time: "", Attempts: 0,
+                Time: "2021-10-13T01:05:08.923Z", Attempts: 2,
             },
             {
-                Group: "Elite Four", Name: "Bruno", Image: "img/trainers/crystal/bruno.png",
-                Time: "", Attempts: 0,
+                Group: "Elite Four", Name: "Agatha", Image: "img/trainers/crystal/agatha.png",
+                Time: "2021-10-13T03:30:06.469Z", Attempts: 4,
             },
             {
-                Group: "Elite Four", Name: "Karen", Image: "img/trainers/crystal/karen.png",
-                Time: "", Attempts: 0,
+                Group: "Elite Four", Name: "Giovanni", Image: "img/trainers/crystal/giovanni.png",
+                Time: "2021-10-13T05:38:24.144Z", Attempts: 4,
             },
             {
                 Group: "Champions", Name: "Lance", Image: "img/trainers/crystal/lance.png",
