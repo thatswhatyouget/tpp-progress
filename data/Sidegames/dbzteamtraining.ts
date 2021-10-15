@@ -37,11 +37,33 @@ Sidegames.Runs.push(
                 FirstAttemptDate: ""
             },
 
+            // sidegame part one
             { Group: "Pokemon", Name: "Gohan", Time: "2021-05-15T06:41:35+01:00" },
             { Group: "Pokemon", Name: "Piccolo", Time: "2021-05-20T18:30:46+01:00" },
             { Group: "Pokemon", Name: "SSJ Gohan", Time: "2021-05-29T05:05:47+01:00" },
             { Group: "Pokemon", Name: "C-13", Time: "2021-08-01T21:37:02+01:00" },
             { Group: "Pokemon", Name: "Bioman", Time: "2021-08-03T15:48:44+01:00" },
+            { Group: "Pokemon", Name: "Ultm Gohan", Time: "2021-08-16T00:52:08+01:00" },
+            { Group: "Pokemon", Name: "Cooler", Time: "2021-08-16T18:39:40+01:00" },
+            { Group: "Pokemon", Name: "Frieza", Time: "2021-08-17T05:39:55+01:00" },
+
+            // intermission
+            { Group: "Pokemon", Name: "Chiaotzu", Time: "2021-08-21T01:28:40.233Z" },
+            { Group: "Pokemon", Name: "Sp Piccolo", Time: "2021-08-21T04:01:07.624Z" },
+            { Group: "Pokemon", Name: "Bug Cell", Time: "2021-08-21T07:27:35.856Z" },
+            { Group: "Pokemon", Name: "Taopaipai", Time: "2021-08-21T07:41:57.475Z" },
+            { Group: "Pokemon", Name: "Kg Piccolo", Time: "2021-08-21T08:39:55.410Z" },
+            { Group: "Pokemon", Name: "Pui Pui", Time: "2021-08-21T11:46:34.233Z" },
+            { Group: "Pokemon", Name: "Jeice", Time: "2021-08-21T12:02:35.272Z" },
+            { Group: "Pokemon", Name: "Saibaman", Time: "2021-08-21T12:05:31.019Z" },
+            { Group: "Pokemon", Name: "C-16", Time: "2021-08-21T17:27:35.477Z" },
+            { Group: "Pokemon", Name: "Yamu", Time: "2021-08-21T17:58:23.370Z" },
+            { Group: "Pokemon", Name: "Bujin", Time: "2021-08-21T18:28:14.544Z" },
+            { Group: "Pokemon", Name: "Yamcha", Time: "2021-08-21T20:24:26.259Z" },
+
+            // sidegame part two
+            { Group: "Pokemon", Name: "Majin Buu", Time: "2021-09-19T07:58:16.071Z" },
+            { Group: "Pokemon", Name: "Janemba", Time: "2021-10-07T23:04:26.286Z"},
         ]
     }
 );
