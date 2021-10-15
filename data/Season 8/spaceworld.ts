@@ -7,8 +7,8 @@ Season8.Runs.push(
         StartDate: "2021-10-09T21:00:00Z",
         Duration: "5d12h9m",
         HostName: "SSS ",
-        HostImage: "img/hosts/ajdnnw.png",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/m37nzd/the_hosts_of_the_voices_after_the_7th_anniversary/",
+        HostImage: "img/hosts/sss.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/q6noy4/silas_snek_the_silent_snake_declares_its_tiku/",
         Region: "Nihon",
         FinalStateLink: "./states/Season 8/spaceworld.json",
         Events: [
