@@ -66,7 +66,7 @@ Season8.Runs.push(
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-10-13T10:00Z", Attempts: 13, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-10-13T10:54:52.042Z", Attempts: 13, Party: [
                     { Pokemon: "Raitora", Nickname: "KLUUUUUUUU", Level: 44, Gender: "Female", Number: 171, IDNo: "49472" },
                     { Pokemon: "Magikrow", Nickname: "KAMEK", Level: 38, Gender: "Male", Number: 198, IDNo: "49472" },
                     { Pokemon: "Wearlycan", Nickname: "OBAMA", Level: 45, Gender: "Male", Number: 247, IDNo: "49472" },
@@ -74,7 +74,41 @@ Season8.Runs.push(
                     { Pokemon: "Bruinus", Nickname: "TACO", Level: 75, Gender: "Male", Number: 157, IDNo: "49472" },
                     { Pokemon: "Phandarin", Nickname: "STITCHES", Level: 84, Gender: "Male", Number: 221, IDNo: "48926" },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2021-10-12T23:29:56.250Z",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-10-14T01:36:54.656Z", Attempts: 4, Party: [
+                    { Pokemon: "Raitora", Nickname: "KLUUUUUUUU", Level: 51, Gender: "Female", Number: 171, IDNo: "49472" },
+                    { Pokemon: "Magikrow", Nickname: "KAMEK", Level: 45, Gender: "Male", Number: 198, IDNo: "49472" },
+                    { Pokemon: "Wearlycan", Nickname: "OBAMA", Level: 50, Gender: "Male", Number: 247, IDNo: "49472" },
+                    { Pokemon: "Lurreel", Nickname: "EATSMARILL", Level: 57, Gender: "Male", Number: 195, IDNo: "49472" },
+                    { Pokemon: "Bruinus", Nickname: "TACO", Level: 78, Gender: "Male", Number: 157, IDNo: "49472" },
+                    { Pokemon: "Phandarin", Nickname: "STITCHES", Level: 98, Gender: "Male", Number: 221, IDNo: "48926" },
+                ],
+                FirstAttemptDate: "2021-10-13T20:57:45.143Z",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-10-14T13:05:59.187Z", Attempts: 3, Party: [
+                    { Pokemon: "Raitora", Nickname: "KLUUUUUUUU", Level: 52, Gender: "Female", Number: 171, IDNo: "49472" },
+                    { Pokemon: "Bruinus", Nickname: "TACO", Level: 81, Gender: "Male", Number: 157, IDNo: "49472" },
+                    { Pokemon: "Lurreel", Nickname: "EATSMARILL", Level: 62, Gender: "Male", Number: 195, IDNo: "49472" },
+                    { Pokemon: "Ho-Oh", Nickname: "AMMNNNQ", Level: 45, Number: 251, IDNo: "49472" },
+                    { Pokemon: "Phandarin", Nickname: "STITCHES", Level: 100, Gender: "Male", Number: 221, IDNo: "48926" },
+                ],
+                FirstAttemptDate: "2021-10-14T04:10:54.267Z",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-10-15T06:15:54.399Z", Attempts: 6, Party: [
+                    { Pokemon: "Raitora", Nickname: "KLUUUUUUUU", Level: 55, Gender: "Female", Number: 171, IDNo: "49472" },
+                    { Pokemon: "Ho-Oh", Nickname: "AMMNNNQ", Level: 46, Number: 251, IDNo: "49472" },
+                    { Pokemon: "Lurreel", Nickname: "EATSMARILL", Level: 65, Gender: "Male", Number: 195, IDNo: "49472" },
+                    { Pokemon: "Bruinus", Nickname: "TACO", Level: 85, Gender: "Male", Number: 157, IDNo: "49472" },
+                    { Pokemon: "Phandarin", Nickname: "STITCHES", Level: 100, Gender: "Male", Number: 221, IDNo: "48926" },
+                ],
+                FirstAttemptDate: "2021-10-14T22:56:26.226Z",
                 Image: "img/ribbons/champion.png"
             },
 
@@ -86,8 +120,8 @@ Season8.Runs.push(
             { "Group": "Pokemon", "Name": "Haneko", "Time": "2021-10-10T01:12:36.023Z" },
             { "Group": "Pokemon", "Name": "Dodaerie", "Time": "2021-10-10T01:20:14.899Z" },
             { "Group": "Pokemon", "Name": "Baririna", "Time": "2021-10-10T02:13:05.563Z" },
-            { "Group": "Pokemon", "Name": "Nidoran♂", "Time": "2021-10-10T02:19:07.999Z" },
-            { "Group": "Pokemon", "Name": "Nidoran♀", "Time": "2021-10-10T03:23:02.380Z" },
+            { "Group": "Pokemon", "Name": "NidoranM", "Time": "2021-10-10T02:19:07.999Z" },
+            { "Group": "Pokemon", "Name": "NidoranF", "Time": "2021-10-10T03:23:02.380Z" },
             { "Group": "Pokemon", "Name": "Pupperon", "Time": "2021-10-10T03:29:47.659Z" },
             //{ "Group": "Pokemon", "Name": "Egg", "Time": "2021-10-10T03:53:00.888Z" },
             { "Group": "Pokemon", "Name": "Smujj", "Time": "2021-10-10T04:10:54.722Z" },
