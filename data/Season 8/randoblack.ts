@@ -431,7 +431,7 @@ Season8.Runs.push(
             { "Group": "Pokemon", "Name": "Amoonguss", "Time": "2021-07-10T08:45:39.020Z" },
             { "Group": "Pokemon", "Name": "Cranidos", "Time": "2021-07-10T10:54:22.594Z" },
             { "Group": "Pokemon", "Name": "Gulpin", "Time": "2021-07-10T11:10:17.372Z" },
-            { "Group": "Pokemon", "Name": "Nidoran♂", "Time": "2021-07-10T12:06:32.480Z" },
+            { "Group": "Pokemon", "Name": "NidoranM", "Time": "2021-07-10T12:06:32.480Z" },
             { "Group": "Pokemon", "Name": "Pansage", "Time": "2021-07-10T12:10:33.830Z" },
             { "Group": "Pokemon", "Name": "Accelgor", "Time": "2021-07-10T12:22:36.398Z" },
             { "Group": "Pokemon", "Name": "Tangrowth", "Time": "2021-07-10T14:23:06.373Z" },
