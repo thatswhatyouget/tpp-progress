@@ -1,0 +1,440 @@
+
+{
+    "area_id": 0,
+    "area_name": "Graveyard",
+    "badges": 32,
+    "ball_count": 0,
+    "battle_party": [],
+    "caught": 1,
+    "caught_list": [
+        105
+    ],
+    "coins": 0,
+    "daycare": [],
+    "events": [
+        {
+            "group": "Pokemon",
+            "name": "Marowak",
+            "time": "2021-10-31T22:01:08.914Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Graveyard",
+            "time": "2021-10-31T22:03:05.299Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Saffron City",
+            "time": "2021-10-31T22:03:28.439Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #1",
+            "time": "2021-10-31T22:23:40.614Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #2",
+            "time": "2021-10-31T22:32:42.409Z"
+        },
+        {
+            "attempts": 3,
+            "class_id": 24,
+            "group": "Trainers Defeated",
+            "id": 293,
+            "name": "Leader Sabrina",
+            "time": "2021-10-31T22:37:27.351Z"
+        },
+        {
+            "group": "Badge",
+            "name": "Marsh Badge",
+            "time": "2021-10-31T22:37:43.684Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Silph Co.",
+            "time": "2021-10-31T22:44:24.610Z"
+        },
+        {
+            "attempts": 5,
+            "class_id": 5,
+            "group": "Trainers Undefeated",
+            "id": 284,
+            "name": "Trainer Ghost",
+            "time": "2021-10-31T23:38:07.834Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #3",
+            "time": "2021-10-31T23:38:56.759Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Itemfinder",
+            "time": "2021-10-31T23:46:45.438Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #4",
+            "time": "2021-11-01T02:17:57.253Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #5",
+            "time": "2021-11-01T05:04:20.552Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #6",
+            "time": "2021-11-01T05:09:29.274Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #7",
+            "time": "2021-11-01T05:15:16.694Z"
+        },
+        {
+            "attempts": 3,
+            "class_id": 82,
+            "group": "Trainers Undefeated",
+            "id": 26,
+            "name": "Scientist Father",
+            "time": "2021-11-01T05:30:50.956Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #8",
+            "time": "2021-11-01T05:33:56.347Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #9",
+            "time": "2021-11-01T05:41:59.093Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #10",
+            "time": "2021-11-01T05:49:10.027Z"
+        }
+    ],
+    "evolution_is_happening": false,
+    "game": "Pokemon Cursed Version",
+    "game_stats": {
+        "Battles Fought (Total)": 27,
+        "Battles Fought (Trainer)": 5,
+        "Battles Fought (Wild)": 13,
+        "Blackouts": 10,
+        "Itemfinder Uses": 352,
+        "Pok\u00e9dex Views": 2,
+        "Pok\u00e9mon Caught": 1,
+        "Pok\u00e9mon Caught in a Wailmer Pail": 1,
+        "Saves Made": 15,
+        "Steps Taken": 6817
+    },
+    "gender": "Female",
+    "generation": 3,
+    "id": 8711,
+    "in_battle": false,
+    "items": {
+        "balls": [],
+        "berries": [],
+        "items": [
+            {
+                "count": 14,
+                "id": 13,
+                "name": "Potion"
+            },
+            {
+                "count": 3,
+                "id": 22,
+                "name": "Super Potion"
+            }
+        ],
+        "key": [
+            {
+                "count": 3,
+                "id": 261,
+                "name": "Itemfinder"
+            }
+        ],
+        "pc": [
+            {
+                "id": 13,
+                "name": "Potion"
+            }
+        ],
+        "tms": []
+    },
+    "level_cap": 100,
+    "map_bank": 43,
+    "map_id": 1,
+    "map_name": "Graveyard",
+    "money": 3752,
+    "name": "TV",
+    "options": {
+        "battle_scene": "On",
+        "battle_style": "Shift",
+        "button_mode": "LR",
+        "frame": "1",
+        "map_zoom": "Full",
+        "sound": "Stereo",
+        "text_speed": "Fast"
+    },
+    "party": [
+        {
+            "ability": "Lightningrod",
+            "checksum": 49641,
+            "condition": {
+                "beauty": 0,
+                "coolness": 0,
+                "cuteness": 0,
+                "feel": 0,
+                "smartness": 0,
+                "toughness": 0
+            },
+            "encryption_key": -239974550,
+            "evs": {
+                "attack": 0,
+                "defense": 2,
+                "hp": 1,
+                "special_attack": 20,
+                "special_defense": 3,
+                "speed": 7
+            },
+            "experience": {
+                "current": 30722,
+                "next_level": 32768,
+                "remaining": 2046,
+                "this_level": 29791
+            },
+            "friendship": 122,
+            "gender": "Female",
+            "health": [
+                85,
+                85
+            ],
+            "held_item": null,
+            "is_egg": false,
+            "ivs": {
+                "attack": 8,
+                "defense": 7,
+                "hp": 24,
+                "special_attack": 1,
+                "special_defense": 2,
+                "speed": 4
+            },
+            "language": "English",
+            "level": 31,
+            "marking": "",
+            "met": {
+                "area_id": 88,
+                "area_name": "Berry Forest",
+                "caught": "2021-10-31T22:01:08.914Z",
+                "caught_in": "Wailmer Pail",
+                "evolved": [],
+                "game": "FireRed",
+                "level": 25
+            },
+            "moves": [
+                {
+                    "accuracy": 100,
+                    "base_power": 70,
+                    "contest": null,
+                    "id": 29,
+                    "max_pp": 15,
+                    "name": "Headbutt",
+                    "pp": 15,
+                    "pp_up": 0,
+                    "type": "Normal"
+                },
+                {
+                    "accuracy": 90,
+                    "base_power": 50,
+                    "contest": null,
+                    "id": 155,
+                    "max_pp": 10,
+                    "name": "Bonemerang",
+                    "pp": 10,
+                    "pp_up": 0,
+                    "type": "Ground"
+                },
+                {
+                    "accuracy": 100,
+                    "base_power": 0,
+                    "contest": null,
+                    "id": 193,
+                    "max_pp": 40,
+                    "name": "Foresight",
+                    "pp": 40,
+                    "pp_up": 0,
+                    "type": "Normal"
+                },
+                {
+                    "accuracy": 0,
+                    "base_power": 0,
+                    "contest": null,
+                    "id": 116,
+                    "max_pp": 30,
+                    "name": "Focus Energy",
+                    "pp": 30,
+                    "pp_up": 0,
+                    "type": "Normal"
+                }
+            ],
+            "name": "Marowak",
+            "nature": "Modest",
+            "next_move": {
+                "level": 33,
+                "type": "Normal"
+            },
+            "original_trainer": {
+                "gender": "Female",
+                "id": 8711,
+                "name": "TV",
+                "secret": 31870
+            },
+            "personality_value": 2378982765,
+            "pokerus": {
+                "cured": false,
+                "days_left": 0,
+                "infected": false,
+                "strain": 0
+            },
+            "pokerus_remaining": 255,
+            "ribbons": [],
+            "shiny": false,
+            "shiny_value": 46808,
+            "sleep_turns": 0,
+            "species": {
+                "abilities": [
+                    "Rock Head",
+                    "Lightningrod"
+                ],
+                "base_stats": {
+                    "attack": 80,
+                    "defense": 110,
+                    "hp": 60,
+                    "special_attack": 50,
+                    "special_defense": 80,
+                    "speed": 45
+                },
+                "catch_rate": 75,
+                "egg_cycles": 20,
+                "egg_type1": "Monster",
+                "egg_type2": "Monster",
+                "evolutions": [],
+                "gender_ratio": 127,
+                "growth_rate": "Medium Fast",
+                "held_items": [],
+                "id": 105,
+                "name": "Marowak",
+                "national_dex": 105,
+                "type1": "Ground",
+                "type2": "Ground"
+            },
+            "stats": {
+                "attack": 51,
+                "defense": 75,
+                "hp": 85,
+                "special_attack": 40,
+                "special_defense": 55,
+                "speed": 34
+            },
+            "status": null
+        }
+    ],
+    "pc": {
+        "boxes": [
+            {
+                "box_contents": [],
+                "box_name": "Box1",
+                "box_number": 1
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box2",
+                "box_number": 2
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box3",
+                "box_number": 3
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box4",
+                "box_number": 4
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box5",
+                "box_number": 5
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box6",
+                "box_number": 6
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box7",
+                "box_number": 7
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box8",
+                "box_number": 8
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box9",
+                "box_number": 9
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box10",
+                "box_number": 10
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box11",
+                "box_number": 11
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box12",
+                "box_number": 12
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box13",
+                "box_number": 13
+            },
+            {
+                "box_contents": [],
+                "box_name": "Box14",
+                "box_number": 14
+            }
+        ],
+        "current_box_number": 3925868550
+    },
+    "rival_name": "Ghost",
+    "secret": 31870,
+    "security_key": 1655777552,
+    "seen": 10,
+    "seen_list": [
+        26,
+        52,
+        93,
+        94,
+        96,
+        105,
+        110,
+        137,
+        170,
+        356
+    ],
+    "transitioning": false,
+    "x": 8,
+    "y": 5
+}
