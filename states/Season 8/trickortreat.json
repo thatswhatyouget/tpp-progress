@@ -1,0 +1,3929 @@
+{
+    "area_id": 25,
+    "area_name": "Route 110",
+    "badges": 0,
+    "ball_count": 0,
+    "battle_party": [],
+    "caught": 3,
+    "caught_list": [
+        84,
+        203,
+        336
+    ],
+    "coins": 0,
+    "daycare": [],
+    "events": [
+        {
+            "group": "Key Items",
+            "name": "Chocolate",
+            "time": "2021-11-01T06:00:09.019Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Starburst",
+            "time": "2021-11-01T06:00:09.019Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Pretzel",
+            "time": "2021-11-01T06:00:09.019Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Reese Cup",
+            "time": "2021-11-01T06:00:09.019Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Oreo Cookies",
+            "time": "2021-11-01T06:00:09.019Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Mauville City",
+            "time": "2021-11-01T06:00:19.875Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 110",
+            "time": "2021-11-01T06:00:29.687Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Prune",
+            "time": "2021-11-01T06:04:14.388Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Bayleef",
+            "time": "2021-11-01T06:18:03.948Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Quilava",
+            "time": "2021-11-01T06:18:29.880Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Flaaffy",
+            "time": "2021-11-01T06:21:26.635Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Kirlia",
+            "time": "2021-11-01T06:21:53.637Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Zigzagoon",
+            "time": "2021-11-01T06:22:18.552Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Marshtomp",
+            "time": "2021-11-01T06:22:30.311Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Spinda",
+            "time": "2021-11-01T06:24:01.677Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Ninjask",
+            "time": "2021-11-01T06:24:08.434Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Hoothoot",
+            "time": "2021-11-01T06:25:52.320Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Swinub",
+            "time": "2021-11-01T06:25:52.320Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Volbeat",
+            "time": "2021-11-01T06:25:52.320Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Umbreon",
+            "time": "2021-11-01T06:25:52.320Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Mars Bar",
+            "time": "2021-11-01T06:41:32.911Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Shrub Shredding",
+            "time": "2021-11-01T06:44:00.802Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Gummyursa",
+            "time": "2021-11-01T06:44:51.647Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Vero Mango",
+            "time": "2021-11-01T06:45:34.098Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "King\u2019s Choc\u30fbNut",
+            "time": "2021-11-01T06:48:49.050Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Cadbury Creme",
+            "time": "2021-11-01T06:52:53.528Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Kale Chips",
+            "time": "2021-11-01T06:55:13.550Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pok\u00e9mon Says",
+            "time": "2021-11-01T06:59:46.119Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "A Bird in the Bush",
+            "time": "2021-11-01T07:22:50.768Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "KitKat Bar",
+            "time": "2021-11-01T07:25:41.517Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Coffee Crisp",
+            "time": "2021-11-01T07:31:02.754Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Samb\u00f3 $ristur",
+            "time": "2021-11-01T07:50:43.603Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Butterfinger",
+            "time": "2021-11-01T08:12:01.674Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Trapdoor Trickery",
+            "time": "2021-11-01T08:13:50.744Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Lemon Drop",
+            "time": "2021-11-01T08:14:12.162Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "A Song in the Forest",
+            "time": "2021-11-01T08:28:49.942Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Chocolate Slab",
+            "time": "2021-11-01T08:40:04.259Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "I Jump, You Jump, Jack",
+            "time": "2021-11-01T09:11:34.977Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Tower: A New Hope",
+            "time": "2021-11-01T09:32:56.057Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #1",
+            "time": "2021-11-01T09:49:02.523Z"
+        },
+        {
+            "attempts": 2,
+            "class_id": 29,
+            "group": "Trainers Defeated",
+            "id": 2,
+            "name": "Psychic Edie \u0026 Cooltrainer Alfred",
+            "time": "2021-11-01T10:15:50.767Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Peanut M\u0026M\u2019s",
+            "time": "2021-11-01T10:16:35.172Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "M\u0026M\u2019s Minis",
+            "time": "2021-11-01T10:29:46.316Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #2",
+            "time": "2021-11-01T10:42:18.963Z"
+        },
+        {
+            "attempts": 2,
+            "class_id": 6,
+            "group": "Trainers Defeated",
+            "id": 7,
+            "name": "Bird Keeper Dane",
+            "time": "2021-11-01T10:58:04.103Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Warhead",
+            "time": "2021-11-01T11:03:25.424Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Peppermints in Petalburg",
+            "time": "2021-11-01T11:06:32.616Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Violet Crumble",
+            "time": "2021-11-01T11:08:29.356Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Malteser",
+            "time": "2021-11-01T11:13:36.240Z"
+        },
+        {
+            "attempts": 1,
+            "class_id": 32,
+            "group": "Trainers Defeated",
+            "id": 1,
+            "name": "Leader Norman",
+            "time": "2021-11-01T11:21:50.106Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Wunderbar",
+            "time": "2021-11-01T11:22:00.036Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Door Dido Menagerie",
+            "time": "2021-11-01T11:31:06.129Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "The Frozen Excursion",
+            "time": "2021-11-01T12:17:21.820Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "White Chocolate",
+            "time": "2021-11-01T12:35:55.919Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Left Twix",
+            "time": "2021-11-01T13:04:36.394Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Turkish Delight",
+            "time": "2021-11-01T13:07:42.271Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Milka Lufl\u00e9e",
+            "time": "2021-11-01T13:18:35.067Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Twin Memories",
+            "time": "2021-11-01T13:23:15.510Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "The Mountain Trail",
+            "time": "2021-11-01T13:49:26.368Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #3",
+            "time": "2021-11-01T14:18:29.201Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Tower 2: Tower Harder",
+            "time": "2021-11-01T14:51:27.925Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Right Twix",
+            "time": "2021-11-01T14:55:24.946Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Boulder Room Bluff",
+            "time": "2021-11-01T15:31:36.603Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Scale the Belfry",
+            "time": "2021-11-01T15:41:45.641Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Gobstopper",
+            "time": "2021-11-01T15:45:36.514Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Milky Way",
+            "time": "2021-11-01T16:13:52.771Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Galaxy Chocolate",
+            "time": "2021-11-01T16:15:51.279Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "100 Grand",
+            "time": "2021-11-01T16:19:54.942Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #4",
+            "time": "2021-11-01T16:52:20.751Z"
+        },
+        {
+            "attempts": 2,
+            "class_id": 80,
+            "group": "Trainers Defeated",
+            "id": 3,
+            "name": "Tribe \u0026\u20191q",
+            "time": "2021-11-01T17:24:56.569Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Celery Stick",
+            "time": "2021-11-01T17:25:48.384Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Mach Bike",
+            "time": "2021-11-01T17:34:51.428Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Cruisin\u2019 Down 110",
+            "time": "2021-11-01T17:34:57.736Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Black Thunder",
+            "time": "2021-11-01T17:38:21.517Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Pixie Stick",
+            "time": "2021-11-01T17:44:50.341Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Toblerone",
+            "time": "2021-11-01T17:46:47.129Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "The Euphemistic Straw",
+            "time": "2021-11-01T17:49:44.571Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Apple Slices",
+            "time": "2021-11-01T18:07:17.031Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #5",
+            "time": "2021-11-01T18:23:37.341Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Fudge in Fortree",
+            "time": "2021-11-01T18:27:12.392Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Ferrero Rocher",
+            "time": "2021-11-01T18:33:06.655Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #6",
+            "time": "2021-11-01T18:39:25.927Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "TR27",
+            "time": "2021-11-01T18:48:49.859Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Koga\u2019s Labyrinth",
+            "time": "2021-11-01T20:02:40.369Z"
+        },
+        {
+            "attempts": 1,
+            "class_id": 29,
+            "group": "Trainers Defeated",
+            "id": 5,
+            "name": "Psychic Carver",
+            "time": "2021-11-01T20:27:13.246Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Misplaced",
+            "time": "2021-11-01T20:34:39.968Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Slip \u2019n Spin",
+            "time": "2021-11-01T20:54:23.942Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Cross-Path Caverns",
+            "time": "2021-11-01T21:23:50.415Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Spot the Difference",
+            "time": "2021-11-01T22:41:38.459Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Snap Peas",
+            "time": "2021-11-01T22:51:50.042Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #7",
+            "time": "2021-11-02T00:33:57.340Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Mission Impassable",
+            "time": "2021-11-02T00:39:04.637Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Card Key",
+            "time": "2021-11-02T00:47:09.687Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #8",
+            "time": "2021-11-02T00:50:03.884Z"
+        },
+        {
+            "attempts": 1,
+            "class_id": 78,
+            "group": "Trainers Defeated",
+            "id": 7,
+            "name": "Security Android",
+            "time": "2021-11-02T01:12:55.673Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #9",
+            "time": "2021-11-02T01:15:21.011Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #10",
+            "time": "2021-11-02T01:21:20.191Z"
+        },
+        {
+            "attempts": 2,
+            "class_id": 78,
+            "group": "Trainers Defeated",
+            "id": 6,
+            "name": "Security Android",
+            "time": "2021-11-02T01:32:15.581Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #11",
+            "time": "2021-11-02T01:34:04.338Z"
+        },
+        {
+            "attempts": 2,
+            "class_id": 78,
+            "group": "Trainers Defeated",
+            "id": 7,
+            "name": "Security Android",
+            "time": "2021-11-02T01:48:39.321Z"
+        },
+        {
+            "attempts": 2,
+            "class_id": 78,
+            "group": "Trainers Defeated",
+            "id": 11,
+            "name": "Security Android",
+            "time": "2021-11-02T02:08:58.570Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Tow3r: Revelations",
+            "time": "2021-11-02T02:18:42.177Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #12",
+            "time": "2021-11-02T02:49:03.483Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #13",
+            "time": "2021-11-02T03:21:10.278Z"
+        },
+        {
+            "attempts": 3,
+            "class_id": 5,
+            "group": "Trainers Defeated",
+            "id": 7,
+            "name": "Cooltrainer Roderick \u0026 Cooltrainer Alicia",
+            "time": "2021-11-02T03:40:40.655Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Rotation Gate Ruse",
+            "time": "2021-11-02T03:48:41.012Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Malteasers in Mossdeep",
+            "time": "2021-11-02T04:25:07.326Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #14",
+            "time": "2021-11-02T04:32:52.129Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #15",
+            "time": "2021-11-02T05:07:53.388Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Snickers",
+            "time": "2021-11-02T05:09:50.391Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #16",
+            "time": "2021-11-02T05:25:25.011Z"
+        },
+        {
+            "attempts": 4,
+            "class_id": 32,
+            "group": "Trainers Defeated",
+            "id": 1,
+            "name": "Leader Norman",
+            "time": "2021-11-02T05:57:35.539Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Raisins",
+            "time": "2021-11-02T06:08:04.955Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Tic Rac Toe",
+            "time": "2021-11-02T06:42:41.932Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "The Elite Floor",
+            "time": "2021-11-02T07:28:32.717Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #17",
+            "time": "2021-11-02T08:03:56.939Z"
+        },
+        {
+            "attempts": 2,
+            "class_id": 29,
+            "group": "Trainers Defeated",
+            "id": 5,
+            "name": "Psychic Carver",
+            "time": "2021-11-02T08:49:34.096Z"
+        },
+        {
+            "attempts": 2,
+            "class_id": 66,
+            "group": "Trainers Defeated",
+            "id": 6,
+            "name": "Plasma Kid M",
+            "time": "2021-11-02T09:00:18.308Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Shenanigan Samba",
+            "time": "2021-11-02T09:25:25.376Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Waterflow Caverns",
+            "time": "2021-11-02T09:48:45.857Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #18",
+            "time": "2021-11-02T10:15:10.454Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Tower 4: The Quickening",
+            "time": "2021-11-02T10:56:04.291Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #19",
+            "time": "2021-11-02T12:38:14.485Z"
+        },
+        {
+            "attempts": 2,
+            "class_id": 22,
+            "group": "Trainers Defeated",
+            "id": 5,
+            "name": "Secret Agent Enrique \u0026 Lady Colleen",
+            "time": "2021-11-02T13:02:38.955Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Floor Frolic",
+            "time": "2021-11-02T13:13:50.618Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "The Fog in the Forest",
+            "time": "2021-11-02T13:30:10.041Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #20",
+            "time": "2021-11-02T13:31:53.601Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #21",
+            "time": "2021-11-02T13:54:54.825Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Littleroot Town",
+            "time": "2021-11-02T14:29:15.915Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "A Safari Among Friends",
+            "time": "2021-11-02T14:30:48.165Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Acro Bike",
+            "time": "2021-11-02T14:37:31.414Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Pok\u00e9Block Case",
+            "time": "2021-11-02T14:37:31.414Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Natu",
+            "time": "2021-11-02T14:39:42.848Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Oddish",
+            "time": "2021-11-02T14:42:31.420Z",
+            "traded": true
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #22",
+            "time": "2021-11-02T14:52:13.605Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Pikachu",
+            "time": "2021-11-02T14:53:22.060Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Seviper",
+            "time": "2021-11-02T15:18:41.492Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Girafarig",
+            "time": "2021-11-02T15:29:33.863Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Doduo",
+            "time": "2021-11-02T15:34:51.239Z",
+            "traded": true
+        },
+        {
+            "group": "First Visit",
+            "name": "Soliciting Slateport",
+            "time": "2021-11-02T16:37:37.786Z"
+        }
+    ],
+    "evolution_is_happening": false,
+    "game": "Trick or Treat House",
+    "game_stats": {
+        "Battles Fought (Total)": 246,
+        "Battles Fought (Trainer)": 136,
+        "Battles Fought (Wild)": 82,
+        "Blackouts": 22,
+        "Ledges Jumped": 456,
+        "Pok\u00e9mon Caught": 21,
+        "Pok\u00e9mon Caught in a Pok\u00e9 Ball": 12,
+        "Pok\u00e9mon Caught in a Safari Ball": 9,
+        "Pok\u00e9mon Center Uses": 5,
+        "Puzzles Completed": 37,
+        "Rocks Smashed": 2,
+        "Safari Zone Trips": 1,
+        "Saves Made": 7,
+        "Shopping Trips": 2,
+        "Steps Taken": 28762,
+        "Trees Cut": 11
+    },
+    "gender": "Male",
+    "generation": 3,
+    "id": 62306,
+    "in_battle": false,
+    "items": {
+        "balls": [],
+        "berries": [],
+        "candy": [
+            {
+                "count": 62,
+                "id": 377,
+                "name": "Chocolate",
+                "pluralName": "Chocolate"
+            },
+            {
+                "count": 27,
+                "id": 380,
+                "name": "Starburst",
+                "pluralName": "Starbursts"
+            },
+            {
+                "count": 8,
+                "id": 392,
+                "name": "Reese Cup",
+                "pluralName": "Reese Cups"
+            },
+            {
+                "count": 49,
+                "id": 383,
+                "name": "Pretzel",
+                "pluralName": "Pretzels"
+            },
+            {
+                "count": 15,
+                "id": 400,
+                "name": "Oreo Cookies",
+                "pluralName": "Oreo Cookies"
+            },
+            {
+                "count": 3,
+                "id": 416,
+                "name": "Prune",
+                "pluralName": "Prunes"
+            },
+            {
+                "count": 3,
+                "id": 403,
+                "name": "Snickers",
+                "pluralName": "Snickers"
+            },
+            {
+                "count": 84,
+                "id": 391,
+                "name": "Gummyursa",
+                "pluralName": "Gummyursa"
+            },
+            {
+                "count": 32,
+                "id": 384,
+                "name": "Vero Mango",
+                "pluralName": "Vero Mangos"
+            },
+            {
+                "count": 6,
+                "id": 390,
+                "name": "King\u2019s Choc\u30fbNut",
+                "pluralName": ""
+            },
+            {
+                "count": 3,
+                "id": 398,
+                "name": "Cadbury Creme",
+                "pluralName": "Cadbury Cremes"
+            },
+            {
+                "count": 4,
+                "id": 401,
+                "name": "Coffee Crisp",
+                "pluralName": "Coffee Crisps"
+            },
+            {
+                "count": 5,
+                "id": 402,
+                "name": "Samb\u00f3 $ristur",
+                "pluralName": "Samb\u00f3 $risturs"
+            },
+            {
+                "count": 5,
+                "id": 393,
+                "name": "Butterfinger",
+                "pluralName": "Butterfingers"
+            },
+            {
+                "count": 18,
+                "id": 381,
+                "name": "Lemon Drop",
+                "pluralName": "Lemon Drops"
+            },
+            {
+                "id": 379,
+                "name": "Chocolate Slab",
+                "pluralName": "Chocolate Slabs"
+            },
+            {
+                "count": 11,
+                "id": 389,
+                "name": "Peanut M\u0026M\u2019s",
+                "pluralName": "Peanut M\u0026M\u2019s"
+            },
+            {
+                "count": 9,
+                "id": 388,
+                "name": "M\u0026M\u2019s Minis",
+                "pluralName": "M\u0026M\u2019s Minis"
+            },
+            {
+                "count": 18,
+                "id": 382,
+                "name": "Warhead",
+                "pluralName": "Warheads"
+            },
+            {
+                "count": 9,
+                "id": 385,
+                "name": "Violet Crumble",
+                "pluralName": "Violet Crumbles"
+            },
+            {
+                "count": 12,
+                "id": 397,
+                "name": "Malteser",
+                "pluralName": "Maltesers"
+            },
+            {
+                "count": 5,
+                "id": 399,
+                "name": "Wunderbar",
+                "pluralName": "Wunderbars"
+            },
+            {
+                "count": 2,
+                "id": 378,
+                "name": "White Chocolate",
+                "pluralName": "White Chocolate"
+            },
+            {
+                "count": 5,
+                "id": 386,
+                "name": "Left Twix",
+                "pluralName": "Left Twix"
+            },
+            {
+                "count": 3,
+                "id": 407,
+                "name": "Turkish Delight",
+                "pluralName": "Turkish Delights"
+            },
+            {
+                "count": 4,
+                "id": 387,
+                "name": "Right Twix",
+                "pluralName": "Right Twix"
+            },
+            {
+                "count": 3,
+                "id": 394,
+                "name": "Milky Way",
+                "pluralName": "Milky Ways"
+            },
+            {
+                "id": 421,
+                "name": "Galaxy Chocolate",
+                "pluralName": "Galaxy Chocolates"
+            },
+            {
+                "count": 5,
+                "id": 415,
+                "name": "Apple Slices",
+                "pluralName": "Apple Slices"
+            },
+            {
+                "count": 2,
+                "id": 417,
+                "name": "Celery Stick",
+                "pluralName": "Celery Stick"
+            },
+            {
+                "count": 19,
+                "id": 409,
+                "name": "Black Thunder",
+                "pluralName": "Black Thunders"
+            },
+            {
+                "count": 4,
+                "id": 410,
+                "name": "Toblerone",
+                "pluralName": "Toblerones"
+            },
+            {
+                "count": 2,
+                "id": 411,
+                "name": "Ferrero Rocher",
+                "pluralName": "Ferrero Rochers"
+            },
+            {
+                "count": 12,
+                "id": 38,
+                "name": "Lava Cookie",
+                "pluralName": "Lava Cookies"
+            },
+            {
+                "id": 395,
+                "name": "Milka Lufl\u00e9e",
+                "pluralName": "Milka Lufl\u00e9e"
+            },
+            {
+                "id": 396,
+                "name": "100 Grand",
+                "pluralName": "100 Grands"
+            },
+            {
+                "count": 9,
+                "id": 406,
+                "name": "Pixie Stick",
+                "pluralName": "Pixie Sticks"
+            },
+            {
+                "count": 3,
+                "id": 419,
+                "name": "Raisins",
+                "pluralName": ""
+            },
+            {
+                "count": 3,
+                "id": 405,
+                "name": "KitKat Bar",
+                "pluralName": "KitKat Bars"
+            },
+            {
+                "id": 418,
+                "name": "Snap Peas",
+                "pluralName": ""
+            },
+            {
+                "id": 408,
+                "name": "Gobstopper",
+                "pluralName": "Gobstoppers"
+            }
+        ],
+        "items": [],
+        "key": [],
+        "pc": [
+            {
+                "id": 13,
+                "name": "Potion",
+                "pluralName": "Potions"
+            }
+        ],
+        "tms": []
+    },
+    "level_cap": 100,
+    "map_bank": 0,
+    "map_id": 1,
+    "map_name": "Route 110",
+    "money": 16909,
+    "name": "Teru",
+    "options": {
+        "battle_scene": "On",
+        "battle_style": "Shift",
+        "button_mode": "Normal",
+        "frame": "12",
+        "map_zoom": "Full",
+        "sound": "Stereo",
+        "text_speed": "Fast"
+    },
+    "party": [
+        {
+            "ability": "Torrent",
+            "aiss_id": 0,
+            "checksum": 63673,
+            "condition": {
+                "beauty": 0,
+                "coolness": 0,
+                "cuteness": 0,
+                "feel": 0,
+                "smartness": 0,
+                "toughness": 0
+            },
+            "encryption_key": -1645127870,
+            "evs": {
+                "attack": 0,
+                "defense": 0,
+                "hp": 0,
+                "special_attack": 0,
+                "special_defense": 0,
+                "speed": 0
+            },
+            "experience": {
+                "current": 24294,
+                "next_level": 27021,
+                "remaining": 2727,
+                "this_level": 24294
+            },
+            "friendship": 254,
+            "gender": "Male",
+            "health": [
+                88,
+                88
+            ],
+            "held_item": {
+                "id": 183,
+                "name": "Quick Claw",
+                "pluralName": "Quick Claws"
+            },
+            "is_egg": false,
+            "ivs": {
+                "attack": 17,
+                "defense": 12,
+                "hp": 13,
+                "special_attack": 2,
+                "special_defense": 6,
+                "speed": 0
+            },
+            "language": "English",
+            "level": 31,
+            "marking": "",
+            "met": {
+                "area_id": 27,
+                "area_name": "Route 112",
+                "caught": "2021-11-01T06:22:30.311Z",
+                "caught_in": "Pok\u00e9 Ball",
+                "evolved": [],
+                "game": "4",
+                "level": 30,
+                "map_id": 25
+            },
+            "moves": [
+                {
+                    "accuracy": 95,
+                    "base_power": 55,
+                    "contest": {
+                        "appeal": "\u2661",
+                        "effect": "Startles all previous appealers.",
+                        "jamming": "\u2665\u2665\u2665",
+                        "type": "Tough"
+                    },
+                    "id": 341,
+                    "max_pp": 15,
+                    "name": "Mud Shot",
+                    "pp": 15,
+                    "pp_up": 0,
+                    "type": "Ground"
+                },
+                {
+                    "accuracy": 100,
+                    "base_power": 20,
+                    "contest": {
+                        "appeal": "\u2661\u2661",
+                        "effect": "Startles all previous appealers.",
+                        "jamming": "\u2665",
+                        "type": "Cute"
+                    },
+                    "id": 189,
+                    "max_pp": 10,
+                    "name": "Mud-Slap",
+                    "pp": 10,
+                    "pp_up": 0,
+                    "type": "Ground"
+                },
+                {
+                    "accuracy": 100,
+                    "base_power": 40,
+                    "contest": {
+                        "appeal": "\u2661\u2661\u2661\u2661",
+                        "effect": "The appeal effect of this move is constant.",
+                        "jamming": "",
+                        "type": "Cute"
+                    },
+                    "id": 55,
+                    "max_pp": 25,
+                    "name": "Water Gun",
+                    "pp": 25,
+                    "pp_up": 0,
+                    "type": "Water"
+                },
+                {
+                    "accuracy": 85,
+                    "base_power": 90,
+                    "contest": {
+                        "appeal": "\u2661\u2661\u2661\u2661\u2661\u2661",
+                        "effect": "The appeal effect of this move is constant.",
+                        "jamming": "",
+                        "type": "Tough"
+                    },
+                    "id": 36,
+                    "max_pp": 20,
+                    "name": "Take Down",
+                    "pp": 20,
+                    "pp_up": 0,
+                    "type": "Normal"
+                }
+            ],
+            "name": "ABBOO",
+            "nature": "Hardy",
+            "next_move": {
+                "level": 37,
+                "type": "Water"
+            },
+            "original_trainer": {
+                "gender": "Male",
+                "id": 45573,
+                "name": "Diego",
+                "secret": 28834
+            },
+            "personality_value": 3981698375,
+            "pokerus": {
+                "cured": false,
+                "days_left": 0,
+                "infected": false,
+                "strain": 0
+            },
+            "pokerus_remaining": 255,
+            "ribbons": [],
+            "shiny": false,
+            "shiny_value": 51891,
+            "sleep_turns": 0,
+            "species": {
+                "abilities": [
+                    "Torrent",
+                    "-------"
+                ],
+                "base_stats": {
+                    "attack": 85,
+                    "defense": 70,
+                    "hp": 70,
+                    "special_attack": 60,
+                    "special_defense": 70,
+                    "speed": 50
+                },
+                "catch_rate": 45,
+                "egg_cycles": 20,
+                "egg_type1": "Monster",
+                "egg_type2": "Water 1",
+                "evolutions": [
+                    {
+                        "level": 36
+                    }
+                ],
+                "gender_ratio": 31,
+                "growth_rate": "Medium Slow",
+                "held_items": [],
+                "id": 284,
+                "name": "Marshtomp",
+                "national_dex": 259,
+                "type1": "Water",
+                "type2": "Ground"
+            },
+            "stats": {
+                "attack": 62,
+                "defense": 52,
+                "hp": 88,
+                "special_attack": 42,
+                "special_defense": 50,
+                "speed": 36
+            },
+            "status": null
+        },
+        {
+            "ability": "Blaze",
+            "aiss_id": 39936,
+            "checksum": 27552,
+            "condition": {
+                "beauty": 0,
+                "coolness": 0,
+                "cuteness": 0,
+                "feel": 0,
+                "smartness": 0,
+                "toughness": 0
+            },
+            "encryption_key": 1568107207,
+            "evs": {
+                "attack": 0,
+                "defense": 0,
+                "hp": 0,
+                "special_attack": 0,
+                "special_defense": 0,
+                "speed": 0
+            },
+            "experience": {
+                "current": 21760,
+                "next_level": 24294,
+                "remaining": 2534,
+                "this_level": 21760
+            },
+            "friendship": 254,
+            "gender": "Male",
+            "health": [
+                78,
+                78
+            ],
+            "held_item": {
+                "id": 408,
+                "name": "Gobstopper",
+                "pluralName": "Gobstoppers"
+            },
+            "is_egg": false,
+            "ivs": {
+                "attack": 26,
+                "defense": 27,
+                "hp": 11,
+                "special_attack": 31,
+                "special_defense": 27,
+                "speed": 24
+            },
+            "language": "English",
+            "level": 30,
+            "marking": "",
+            "met": {
+                "area_id": 27,
+                "area_name": "Route 112",
+                "caught": "2021-11-01T06:18:29.880Z",
+                "caught_in": "Pok\u00e9 Ball",
+                "evolved": [],
+                "game": "4",
+                "level": 30,
+                "map_id": 25
+            },
+            "moves": [
+                {
+                    "accuracy": 100,
+                    "base_power": 1,
+                    "contest": {
+                        "appeal": "\u2661",
+                        "effect": "Appeal effect may change.",
+                        "jamming": "",
+                        "type": "Cute"
+                    },
+                    "id": 216,
+                    "max_pp": 20,
+                    "name": "Return",
+                    "pp": 20,
+                    "pp_up": 0,
+                    "type": "Normal"
+                },
+                {
+                    "accuracy": 100,
+                    "base_power": 0,
+                    "contest": {
+                        "appeal": "\u2661\u2661\u2661",
+                        "effect": "Affects appealers other than startling them.",
+                        "jamming": "",
+                        "type": "Smart"
+                    },
+                    "id": 108,
+                    "max_pp": 20,
+                    "name": "Smokescreen",
+                    "pp": 20,
+                    "pp_up": 0,
+                    "type": "Normal"
+                },
+                {
+                    "accuracy": 100,
+                    "base_power": 40,
+                    "contest": {
+                        "appeal": "\u2661\u2661\u2661\u2661",
+                        "effect": "The appeal effect of this move is constant.",
+                        "jamming": "",
+                        "type": "Beauty"
+                    },
+                    "id": 52,
+                    "max_pp": 25,
+                    "name": "Ember",
+                    "pp": 25,
+                    "pp_up": 0,
+                    "type": "Fire"
+                },
+                {
+                    "accuracy": 100,
+                    "base_power": 40,
+                    "contest": {
+                        "appeal": "\u2661\u2661\u2661",
+                        "effect": "The appeal order changes for the next round.",
+                        "jamming": "",
+                        "type": "Cool"
+                    },
+                    "id": 98,
+                    "max_pp": 30,
+                    "name": "Quick Attack",
+                    "pp": 30,
+                    "pp_up": 0,
+                    "type": "Normal"
+                }
+            ],
+            "name": "anqq",
+            "nature": "Naughty",
+            "next_move": {
+                "level": 31,
+                "type": "Fire"
+            },
+            "original_trainer": {
+                "gender": "Male",
+                "id": 40615,
+                "name": "Sierra",
+                "secret": 24873
+            },
+            "personality_value": 1012855904,
+            "pokerus": {
+                "cured": false,
+                "days_left": 0,
+                "infected": false,
+                "strain": 0
+            },
+            "pokerus_remaining": 255,
+            "ribbons": [],
+            "shiny": false,
+            "shiny_value": 14256,
+            "sleep_turns": 0,
+            "species": {
+                "abilities": [
+                    "Blaze",
+                    "-------"
+                ],
+                "base_stats": {
+                    "attack": 64,
+                    "defense": 58,
+                    "hp": 58,
+                    "special_attack": 80,
+                    "special_defense": 65,
+                    "speed": 80
+                },
+                "catch_rate": 45,
+                "egg_cycles": 20,
+                "egg_type1": "Field",
+                "egg_type2": "Field",
+                "evolutions": [
+                    {
+                        "level": 36
+                    }
+                ],
+                "gender_ratio": 31,
+                "growth_rate": "Medium Slow",
+                "held_items": [],
+                "id": 156,
+                "name": "Quilava",
+                "national_dex": 156,
+                "type1": "Fire",
+                "type2": "Fire"
+            },
+            "stats": {
+                "attack": 56,
+                "defense": 47,
+                "hp": 78,
+                "special_attack": 62,
+                "special_defense": 46,
+                "speed": 60
+            },
+            "status": null
+        },
+        {
+            "ability": "Speed Boost",
+            "aiss_id": 0,
+            "checksum": 25814,
+            "condition": {
+                "beauty": 0,
+                "coolness": 0,
+                "cuteness": 0,
+                "feel": 0,
+                "smartness": 0,
+                "toughness": 0
+            },
+            "encryption_key": -1931490198,
+            "evs": {
+                "attack": 0,
+                "defense": 0,
+                "hp": 0,
+                "special_attack": 0,
+                "special_defense": 0,
+                "speed": 0
+            },
+            "experience": {
+                "current": 37800,
+                "next_level": 41111,
+                "remaining": 3311,
+                "this_level": 37800
+            },
+            "friendship": 254,
+            "gender": "Male",
+            "health": [
+                83,
+                83
+            ],
+            "held_item": {
+                "id": 408,
+                "name": "Gobstopper",
+                "pluralName": "Gobstoppers"
+            },
+            "is_egg": false,
+            "ivs": {
+                "attack": 23,
+                "defense": 24,
+                "hp": 23,
+                "special_attack": 20,
+                "special_defense": 1,
+                "speed": 28
+            },
+            "language": "English",
+            "level": 30,
+            "marking": "",
+            "met": {
+                "area_id": 27,
+                "area_name": "Route 112",
+                "caught": "2021-11-01T06:24:08.434Z",
+                "caught_in": "Pok\u00e9 Ball",
+                "evolved": [],
+                "game": "4",
+                "level": 30,
+                "map_id": 25
+            },
+            "moves": [
+                {
+                    "accuracy": 95,
+                    "base_power": 10,
+                    "contest": {
+                        "appeal": "\u2661\u2661\u2661",
+                        "effect": "The appeal effect of this move is constant.",
+                        "jamming": "",
+                        "type": "Cool"
+                    },
+                    "id": 210,
+                    "max_pp": 20,
+                    "name": "Fury Cutter",
+                    "pp": 20,
+                    "pp_up": 0,
+                    "type": "Bug"
+                },
+                {
+                    "accuracy": 0,
+                    "base_power": 0,
+                    "contest": {
+                        "appeal": "\u2661\u2661",
+                        "effect": "Prevents the user from being startled.",
+                        "jamming": "",
+                        "type": "Cool"
+                    },
+                    "id": 104,
+                    "max_pp": 15,
+                    "name": "Double Team",
+                    "pp": 15,
+                    "pp_up": 0,
+                    "type": "Normal"
+                },
+                {
+                    "accuracy": 80,
+                    "base_power": 18,
+                    "contest": {
+                        "appeal": "\u2661\u2661",
+                        "effect": "Startles all previous appealers.",
+                        "jamming": "\u2665",
+                        "type": "Tough"
+                    },
+                    "id": 154,
+                    "max_pp": 15,
+                    "name": "Fury Swipes",
+                    "pp": 15,
+                    "pp_up": 0,
+                    "type": "Normal"
+                },
+                {
+                    "accuracy": 0,
+                    "base_power": 0,
+                    "contest": {
+                        "appeal": "\u2661",
+                        "effect": "Appeal effect may change.",
+                        "jamming": "",
+                        "type": "Beauty"
+                    },
+                    "id": 14,
+                    "max_pp": 30,
+                    "name": "Swords Dance",
+                    "pp": 30,
+                    "pp_up": 0,
+                    "type": "Normal"
+                }
+            ],
+            "name": "b",
+            "nature": "Lax",
+            "next_move": {
+                "level": 31,
+                "type": "Normal"
+            },
+            "original_trainer": {
+                "gender": "Male",
+                "id": 61322,
+                "name": "Octavia",
+                "secret": 57627
+            },
+            "personality_value": 1841570784,
+            "pokerus": {
+                "cured": false,
+                "days_left": 0,
+                "infected": false,
+                "strain": 0
+            },
+            "pokerus_remaining": 255,
+            "ribbons": [],
+            "shiny": false,
+            "shiny_value": 16565,
+            "sleep_turns": 0,
+            "species": {
+                "abilities": [
+                    "Speed Boost",
+                    "-------"
+                ],
+                "base_stats": {
+                    "attack": 90,
+                    "defense": 45,
+                    "hp": 61,
+                    "special_attack": 50,
+                    "special_defense": 50,
+                    "speed": 160
+                },
+                "catch_rate": 120,
+                "egg_cycles": 15,
+                "egg_type1": "Bug",
+                "egg_type2": "Bug",
+                "evolutions": [],
+                "gender_ratio": 127,
+                "growth_rate": "Erratic",
+                "held_items": [],
+                "id": 302,
+                "name": "Ninjask",
+                "national_dex": 291,
+                "type1": "Bug",
+                "type2": "Flying"
+            },
+            "stats": {
+                "attack": 65,
+                "defense": 42,
+                "hp": 83,
+                "special_attack": 41,
+                "special_defense": 31,
+                "speed": 109
+            },
+            "status": null
+        }
+    ],
+    "pc": {
+        "boxes": [
+            {
+                "box_contents": [
+                    {
+                        "ability": "Shed Skin",
+                        "aiss_id": 0,
+                        "box_slot": 1,
+                        "checksum": 48110,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": -1616267258,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 23760,
+                            "next_level": 26811,
+                            "remaining": 3051,
+                            "this_level": 23760
+                        },
+                        "friendship": 74,
+                        "gender": "Female",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 18,
+                            "defense": 14,
+                            "hp": 2,
+                            "special_attack": 29,
+                            "special_defense": 29,
+                            "speed": 8
+                        },
+                        "language": "English",
+                        "level": 30,
+                        "marking": "",
+                        "met": {
+                            "caught": "2021-11-02T15:18:41.492Z",
+                            "caught_in": "Safari Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 30
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 50,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661",
+                                    "effect": "Affects appealers other than startling them.",
+                                    "jamming": "",
+                                    "type": "Smart"
+                                },
+                                "id": 342,
+                                "max_pp": 25,
+                                "name": "Poison Tail",
+                                "pp": 25,
+                                "pp_up": 0,
+                                "type": "Poison"
+                            },
+                            {
+                                "accuracy": 85,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Startles all previous appealers.",
+                                    "jamming": "\u2665\u2665\u2665",
+                                    "type": "Smart"
+                                },
+                                "id": 103,
+                                "max_pp": 40,
+                                "name": "Screech",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 75,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Startles all previous appealers.",
+                                    "jamming": "\u2665\u2665\u2665",
+                                    "type": "Tough"
+                                },
+                                "id": 137,
+                                "max_pp": 30,
+                                "name": "Glare",
+                                "pp": 30,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 80,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Startles the previous appealer.",
+                                    "jamming": "\u2665\u2665\u2665\u2665",
+                                    "type": "Tough"
+                                },
+                                "id": 242,
+                                "max_pp": 15,
+                                "name": "Crunch",
+                                "pp": 15,
+                                "pp_up": 0,
+                                "type": "Dark"
+                            }
+                        ],
+                        "name": "B     ",
+                        "nature": "Hardy",
+                        "next_move": {
+                            "level": 34,
+                            "type": "Poison"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 62306,
+                            "name": "Teru",
+                            "secret": 58625
+                        },
+                        "personality_value": 2057849700,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 10159,
+                        "species": {
+                            "abilities": [
+                                "Shed Skin",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 100,
+                                "defense": 60,
+                                "hp": 73,
+                                "special_attack": 100,
+                                "special_defense": 60,
+                                "speed": 65
+                            },
+                            "catch_rate": 90,
+                            "egg_cycles": 20,
+                            "egg_type1": "Field",
+                            "egg_type2": "Dragon",
+                            "evolutions": [],
+                            "gender_ratio": 127,
+                            "growth_rate": "Fluctuating",
+                            "held_items": [],
+                            "id": 379,
+                            "name": "Seviper",
+                            "national_dex": 336,
+                            "type1": "Poison",
+                            "type2": "Poison"
+                        }
+                    },
+                    {
+                        "ability": "Inner Focus",
+                        "aiss_id": 51968,
+                        "box_slot": 2,
+                        "checksum": 35960,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 655286274,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 27000,
+                            "next_level": 29791,
+                            "remaining": 2791,
+                            "this_level": 27000
+                        },
+                        "friendship": 74,
+                        "gender": "Female",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 12,
+                            "defense": 13,
+                            "hp": 22,
+                            "special_attack": 5,
+                            "special_defense": 10,
+                            "speed": 30
+                        },
+                        "language": "English",
+                        "level": 30,
+                        "marking": "",
+                        "met": {
+                            "caught": "2021-11-02T15:29:33.863Z",
+                            "caught_in": "Safari Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 30
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661",
+                                    "effect": "Affects appealers other than startling them.",
+                                    "jamming": "",
+                                    "type": "Smart"
+                                },
+                                "id": 316,
+                                "max_pp": 40,
+                                "name": "Odor Sleuth",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 50,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Startles the previous appealer.",
+                                    "jamming": "\u2665\u2665\u2665",
+                                    "type": "Smart"
+                                },
+                                "id": 93,
+                                "max_pp": 25,
+                                "name": "Confusion",
+                                "pp": 25,
+                                "pp_up": 0,
+                                "type": "Psychic"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 65,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Startles the previous appealer.",
+                                    "jamming": "\u2665\u2665\u2665\u2665",
+                                    "type": "Tough"
+                                },
+                                "id": 23,
+                                "max_pp": 20,
+                                "name": "Stomp",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 30,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Startles the previous appealer.",
+                                    "jamming": "\u2665\u2665\u2665",
+                                    "type": "Smart"
+                                },
+                                "id": 310,
+                                "max_pp": 15,
+                                "name": "Astonish",
+                                "pp": 15,
+                                "pp_up": 0,
+                                "type": "Ghost"
+                            }
+                        ],
+                        "name": "Gona",
+                        "nature": "Naughty",
+                        "next_move": {
+                            "level": 31,
+                            "type": "Psychic"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 62306,
+                            "name": "Teru",
+                            "secret": 58625
+                        },
+                        "personality_value": 3255767904,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 50956,
+                        "species": {
+                            "abilities": [
+                                "Inner Focus",
+                                "Early Bird"
+                            ],
+                            "base_stats": {
+                                "attack": 80,
+                                "defense": 65,
+                                "hp": 70,
+                                "special_attack": 90,
+                                "special_defense": 65,
+                                "speed": 85
+                            },
+                            "catch_rate": 60,
+                            "egg_cycles": 20,
+                            "egg_type1": "Field",
+                            "egg_type2": "Field",
+                            "evolutions": [],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 203,
+                            "name": "Girafarig",
+                            "national_dex": 203,
+                            "type1": "Normal",
+                            "type2": "Psychic"
+                        }
+                    },
+                    {
+                        "ability": "Early Bird",
+                        "aiss_id": 21504,
+                        "box_slot": 3,
+                        "checksum": 56232,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": -997013741,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 27000,
+                            "next_level": 29791,
+                            "remaining": 2791,
+                            "this_level": 27000
+                        },
+                        "friendship": 71,
+                        "gender": "Female",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 3,
+                            "defense": 3,
+                            "hp": 1,
+                            "special_attack": 19,
+                            "special_defense": 8,
+                            "speed": 16
+                        },
+                        "language": "English",
+                        "level": 30,
+                        "marking": "",
+                        "met": {
+                            "caught": "2021-11-02T15:34:51.239Z",
+                            "caught_in": "Safari Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 30
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 80,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Startles all previous appealers.",
+                                    "jamming": "\u2665\u2665",
+                                    "type": "Beauty"
+                                },
+                                "id": 161,
+                                "max_pp": 10,
+                                "name": "Tri Attack",
+                                "pp": 10,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 85,
+                                "base_power": 15,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Startles all previous appealers.",
+                                    "jamming": "\u2665",
+                                    "type": "Cool"
+                                },
+                                "id": 31,
+                                "max_pp": 20,
+                                "name": "Fury Attack",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Startles all previous appealers.",
+                                    "jamming": "\u2665",
+                                    "type": "Smart"
+                                },
+                                "id": 228,
+                                "max_pp": 20,
+                                "name": "Pursuit",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Dark"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 20,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661",
+                                    "effect": "The appeal effect of this move is constant.",
+                                    "jamming": "",
+                                    "type": "Cool"
+                                },
+                                "id": 99,
+                                "max_pp": 20,
+                                "name": "Rage",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            }
+                        ],
+                        "name": "A",
+                        "nature": "Calm",
+                        "next_move": {
+                            "level": 33,
+                            "type": "Normal"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 62306,
+                            "name": "Teru",
+                            "secret": 58625
+                        },
+                        "personality_value": 563295345,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 897,
+                        "species": {
+                            "abilities": [
+                                "Run Away",
+                                "Early Bird"
+                            ],
+                            "base_stats": {
+                                "attack": 85,
+                                "defense": 45,
+                                "hp": 35,
+                                "special_attack": 35,
+                                "special_defense": 35,
+                                "speed": 75
+                            },
+                            "catch_rate": 190,
+                            "egg_cycles": 20,
+                            "egg_type1": "Flying",
+                            "egg_type2": "Flying",
+                            "evolutions": [
+                                {
+                                    "level": 31
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 84,
+                            "name": "Doduo",
+                            "national_dex": 84,
+                            "type1": "Normal",
+                            "type2": "Flying"
+                        }
+                    }
+                ],
+                "box_name": "BOX1",
+                "box_number": 1
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX2",
+                "box_number": 2
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX3",
+                "box_number": 3
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX4",
+                "box_number": 4
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX5",
+                "box_number": 5
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX6",
+                "box_number": 6
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX7",
+                "box_number": 7
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX8",
+                "box_number": 8
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX9",
+                "box_number": 9
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX10",
+                "box_number": 10
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX11",
+                "box_number": 11
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX12",
+                "box_number": 12
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX13",
+                "box_number": 13
+            },
+            {
+                "box_contents": [
+                    {
+                        "ability": "Illuminate",
+                        "aiss_id": 0,
+                        "box_slot": 22,
+                        "checksum": 26166,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": -762554274,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 37800,
+                            "next_level": 41111,
+                            "remaining": 3311,
+                            "this_level": 37800
+                        },
+                        "friendship": 70,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 18,
+                            "defense": 5,
+                            "hp": 28,
+                            "special_attack": 30,
+                            "special_defense": 11,
+                            "speed": 6
+                        },
+                        "language": "English",
+                        "level": 30,
+                        "marking": "",
+                        "met": {
+                            "area_id": 27,
+                            "area_name": "Route 112",
+                            "caught": "2021-11-01T06:25:52.320Z",
+                            "caught_in": "Pok\u00e9 Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 30,
+                            "map_id": 25
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661",
+                                    "effect": "The appeal order changes for the next round.",
+                                    "jamming": "",
+                                    "type": "Cool"
+                                },
+                                "id": 98,
+                                "max_pp": 30,
+                                "name": "Quick Attack",
+                                "pp": 30,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Appeal effect may change.",
+                                    "jamming": "",
+                                    "type": "Beauty"
+                                },
+                                "id": 294,
+                                "max_pp": 20,
+                                "name": "Tail Glow",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Bug"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 75,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661",
+                                    "effect": "The appeal order changes for the next round.",
+                                    "jamming": "",
+                                    "type": "Beauty"
+                                },
+                                "id": 324,
+                                "max_pp": 15,
+                                "name": "Signal Beam",
+                                "pp": 15,
+                                "pp_up": 0,
+                                "type": "Bug"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Prevents the user from being startled.",
+                                    "jamming": "",
+                                    "type": "Cute"
+                                },
+                                "id": 182,
+                                "max_pp": 10,
+                                "name": "Protect",
+                                "pp": 10,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            }
+                        ],
+                        "name": "Hardy",
+                        "nature": "Timid",
+                        "next_move": {
+                            "level": 33,
+                            "type": "Normal"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 64730,
+                            "name": "Natalie",
+                            "secret": 29652
+                        },
+                        "personality_value": 2706941060,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 35538,
+                        "species": {
+                            "abilities": [
+                                "Illuminate",
+                                "Swarm"
+                            ],
+                            "base_stats": {
+                                "attack": 73,
+                                "defense": 55,
+                                "hp": 65,
+                                "special_attack": 47,
+                                "special_defense": 75,
+                                "speed": 85
+                            },
+                            "catch_rate": 150,
+                            "egg_cycles": 15,
+                            "egg_type1": "Bug",
+                            "egg_type2": "Human-Like",
+                            "evolutions": [],
+                            "gender_ratio": 0,
+                            "growth_rate": "Erratic",
+                            "held_items": [],
+                            "id": 386,
+                            "name": "Volbeat",
+                            "national_dex": 313,
+                            "type1": "Bug",
+                            "type2": "Bug"
+                        }
+                    },
+                    {
+                        "ability": "Synchronize",
+                        "aiss_id": 0,
+                        "box_slot": 23,
+                        "checksum": 51436,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": -1304001464,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 33750,
+                            "next_level": 37238,
+                            "remaining": 3488,
+                            "this_level": 33750
+                        },
+                        "friendship": 35,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 24,
+                            "defense": 4,
+                            "hp": 5,
+                            "special_attack": 28,
+                            "special_defense": 24,
+                            "speed": 5
+                        },
+                        "language": "English",
+                        "level": 30,
+                        "marking": "",
+                        "met": {
+                            "area_id": 27,
+                            "area_name": "Route 112",
+                            "caught": "2021-11-01T06:21:53.637Z",
+                            "caught_in": "Pok\u00e9 Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 30,
+                            "map_id": 25
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Prevents the user from being startled.",
+                                    "jamming": "",
+                                    "type": "Cool"
+                                },
+                                "id": 104,
+                                "max_pp": 15,
+                                "name": "Double Team",
+                                "pp": 15,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Prevents the user from being startled.",
+                                    "jamming": "",
+                                    "type": "Cool"
+                                },
+                                "id": 100,
+                                "max_pp": 20,
+                                "name": "Teleport",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Psychic"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Prevents the user from being startled.",
+                                    "jamming": "",
+                                    "type": "Smart"
+                                },
+                                "id": 347,
+                                "max_pp": 20,
+                                "name": "Calm Mind",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Psychic"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 90,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Startles all previous appealers.",
+                                    "jamming": "\u2665\u2665\u2665",
+                                    "type": "Smart"
+                                },
+                                "id": 94,
+                                "max_pp": 10,
+                                "name": "Psychic",
+                                "pp": 10,
+                                "pp_up": 0,
+                                "type": "Psychic"
+                            }
+                        ],
+                        "name": "Casey",
+                        "nature": "Hardy",
+                        "next_move": {
+                            "level": 33,
+                            "type": "Psychic"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 38064,
+                            "name": "Logan",
+                            "secret": 30912
+                        },
+                        "personality_value": 3397783800,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 13838,
+                        "species": {
+                            "abilities": [
+                                "Synchronize",
+                                "Trace"
+                            ],
+                            "base_stats": {
+                                "attack": 35,
+                                "defense": 35,
+                                "hp": 38,
+                                "special_attack": 65,
+                                "special_defense": 55,
+                                "speed": 50
+                            },
+                            "catch_rate": 120,
+                            "egg_cycles": 20,
+                            "egg_type1": "Amorphous",
+                            "egg_type2": "Amorphous",
+                            "evolutions": [
+                                {
+                                    "level": 30
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Slow",
+                            "held_items": [],
+                            "id": 393,
+                            "name": "Kirlia",
+                            "national_dex": 281,
+                            "type1": "Psychic",
+                            "type2": "Psychic"
+                        }
+                    },
+                    {
+                        "ability": "Own Tempo",
+                        "aiss_id": 0,
+                        "box_slot": 24,
+                        "checksum": 2469,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 987840570,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 21600,
+                            "next_level": 23832,
+                            "remaining": 2232,
+                            "this_level": 21600
+                        },
+                        "friendship": 70,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 10,
+                            "defense": 27,
+                            "hp": 5,
+                            "special_attack": 26,
+                            "special_defense": 18,
+                            "speed": 1
+                        },
+                        "language": "English",
+                        "level": 30,
+                        "marking": "",
+                        "met": {
+                            "area_id": 27,
+                            "area_name": "Route 112",
+                            "caught": "2021-11-01T06:24:01.677Z",
+                            "caught_in": "Pok\u00e9 Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 30,
+                            "map_id": 25
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 0,
+                                "base_power": 60,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Appeal effect may change.",
+                                    "jamming": "",
+                                    "type": "Smart"
+                                },
+                                "id": 185,
+                                "max_pp": 20,
+                                "name": "Faint Attack",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Dark"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 65,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661",
+                                    "effect": "The appeal order changes for the next round.",
+                                    "jamming": "",
+                                    "type": "Beauty"
+                                },
+                                "id": 60,
+                                "max_pp": 20,
+                                "name": "Psybeam",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Psychic"
+                            },
+                            {
+                                "accuracy": 60,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Startles all previous appealers.",
+                                    "jamming": "\u2665\u2665\u2665",
+                                    "type": "Smart"
+                                },
+                                "id": 95,
+                                "max_pp": 20,
+                                "name": "Hypnosis",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Psychic"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 70,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Startles the previous appealer.",
+                                    "jamming": "\u2665\u2665\u2665\u2665",
+                                    "type": "Cool"
+                                },
+                                "id": 146,
+                                "max_pp": 10,
+                                "name": "Dizzy Punch",
+                                "pp": 10,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            }
+                        ],
+                        "name": "Alex",
+                        "nature": "Bold",
+                        "next_move": {
+                            "level": 34,
+                            "type": "Normal"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 43397,
+                            "name": "Logan",
+                            "secret": 54838
+                        },
+                        "personality_value": 3973573055,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 31451,
+                        "species": {
+                            "abilities": [
+                                "Own Tempo",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 60,
+                                "defense": 60,
+                                "hp": 60,
+                                "special_attack": 60,
+                                "special_defense": 60,
+                                "speed": 60
+                            },
+                            "catch_rate": 255,
+                            "egg_cycles": 15,
+                            "egg_type1": "Field",
+                            "egg_type2": "Human-Like",
+                            "evolutions": [],
+                            "gender_ratio": 127,
+                            "growth_rate": "Fast",
+                            "held_items": [],
+                            "id": 308,
+                            "name": "Spinda",
+                            "national_dex": 327,
+                            "type1": "Normal",
+                            "type2": "Normal"
+                        }
+                    },
+                    {
+                        "ability": "Oblivious",
+                        "aiss_id": 56320,
+                        "box_slot": 25,
+                        "checksum": 62429,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": -1804650971,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 33750,
+                            "next_level": 37238,
+                            "remaining": 3488,
+                            "this_level": 33750
+                        },
+                        "friendship": 70,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 0,
+                            "defense": 14,
+                            "hp": 11,
+                            "special_attack": 31,
+                            "special_defense": 2,
+                            "speed": 1
+                        },
+                        "language": "English",
+                        "level": 30,
+                        "marking": "",
+                        "met": {
+                            "area_id": 27,
+                            "area_name": "Route 112",
+                            "caught": "2021-11-01T06:25:52.320Z",
+                            "caught_in": "Pok\u00e9 Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 30,
+                            "map_id": 25
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661",
+                                    "effect": "Affects appealers other than startling them.",
+                                    "jamming": "",
+                                    "type": "Smart"
+                                },
+                                "id": 316,
+                                "max_pp": 40,
+                                "name": "Odor Sleuth",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661\u2661",
+                                    "effect": "The appeal effect of this move is constant.",
+                                    "jamming": "",
+                                    "type": "Beauty"
+                                },
+                                "id": 181,
+                                "max_pp": 25,
+                                "name": "Powder Snow",
+                                "pp": 25,
+                                "pp_up": 0,
+                                "type": "Ice"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Prevents the user from being startled.",
+                                    "jamming": "",
+                                    "type": "Tough"
+                                },
+                                "id": 203,
+                                "max_pp": 10,
+                                "name": "Endure",
+                                "pp": 10,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 85,
+                                "base_power": 90,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661\u2661\u2661\u2661",
+                                    "effect": "The appeal effect of this move is constant.",
+                                    "jamming": "",
+                                    "type": "Tough"
+                                },
+                                "id": 36,
+                                "max_pp": 20,
+                                "name": "Take Down",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            }
+                        ],
+                        "name": "Swinub",
+                        "nature": "Calm",
+                        "next_move": {
+                            "level": 37,
+                            "type": "Ice"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 62088,
+                            "name": "Hanna",
+                            "secret": 48904
+                        },
+                        "personality_value": 728220845,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 41546,
+                        "species": {
+                            "abilities": [
+                                "Oblivious",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 50,
+                                "defense": 40,
+                                "hp": 50,
+                                "special_attack": 30,
+                                "special_defense": 30,
+                                "speed": 50
+                            },
+                            "catch_rate": 225,
+                            "egg_cycles": 20,
+                            "egg_type1": "Field",
+                            "egg_type2": "Field",
+                            "evolutions": [
+                                {
+                                    "level": 33
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Slow",
+                            "held_items": [],
+                            "id": 220,
+                            "name": "Swinub",
+                            "national_dex": 220,
+                            "type1": "Ice",
+                            "type2": "Ground"
+                        }
+                    },
+                    {
+                        "ability": "Pickup",
+                        "aiss_id": 0,
+                        "box_slot": 26,
+                        "checksum": 50690,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 1701387468,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 27000,
+                            "next_level": 29791,
+                            "remaining": 2791,
+                            "this_level": 27000
+                        },
+                        "friendship": 70,
+                        "gender": "Female",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 22,
+                            "defense": 30,
+                            "hp": 19,
+                            "special_attack": 5,
+                            "special_defense": 18,
+                            "speed": 8
+                        },
+                        "language": "English",
+                        "level": 30,
+                        "marking": "",
+                        "met": {
+                            "area_id": 27,
+                            "area_name": "Route 112",
+                            "caught": "2021-11-01T06:22:18.552Z",
+                            "caught_in": "Pok\u00e9 Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 30,
+                            "map_id": 25
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661",
+                                    "effect": "Affects appealers other than startling them.",
+                                    "jamming": "",
+                                    "type": "Smart"
+                                },
+                                "id": 316,
+                                "max_pp": 40,
+                                "name": "Odor Sleuth",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661\u2661",
+                                    "effect": "The appeal effect of this move is constant.",
+                                    "jamming": "",
+                                    "type": "Cute"
+                                },
+                                "id": 300,
+                                "max_pp": 15,
+                                "name": "Mud Sport",
+                                "pp": 15,
+                                "pp_up": 0,
+                                "type": "Ground"
+                            },
+                            {
+                                "accuracy": 85,
+                                "base_power": 14,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Startles all previous appealers.",
+                                    "jamming": "\u2665",
+                                    "type": "Cool"
+                                },
+                                "id": 42,
+                                "max_pp": 20,
+                                "name": "Pin Missile",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Bug"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Appeal effect may change.",
+                                    "jamming": "",
+                                    "type": "Cute"
+                                },
+                                "id": 343,
+                                "max_pp": 40,
+                                "name": "Covet",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            }
+                        ],
+                        "name": "Avery",
+                        "nature": "Quirky",
+                        "next_move": {
+                            "level": 33,
+                            "type": "Normal"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 23511,
+                            "name": "Diego",
+                            "secret": 57893
+                        },
+                        "personality_value": 2269923099,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 31141,
+                        "species": {
+                            "abilities": [
+                                "Pickup",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 30,
+                                "defense": 41,
+                                "hp": 38,
+                                "special_attack": 30,
+                                "special_defense": 41,
+                                "speed": 60
+                            },
+                            "catch_rate": 255,
+                            "egg_cycles": 15,
+                            "egg_type1": "Field",
+                            "egg_type2": "Field",
+                            "evolutions": [
+                                {
+                                    "level": 20
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 288,
+                            "name": "Zigzagoon",
+                            "national_dex": 263,
+                            "type1": "Normal",
+                            "type2": "Normal"
+                        }
+                    },
+                    {
+                        "ability": "Insomnia",
+                        "aiss_id": 41728,
+                        "box_slot": 27,
+                        "checksum": 6916,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": -1773024780,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 27000,
+                            "next_level": 29791,
+                            "remaining": 2791,
+                            "this_level": 27000
+                        },
+                        "friendship": 70,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 15,
+                            "defense": 24,
+                            "hp": 8,
+                            "special_attack": 7,
+                            "special_defense": 18,
+                            "speed": 13
+                        },
+                        "language": "English",
+                        "level": 30,
+                        "marking": "",
+                        "met": {
+                            "area_id": 27,
+                            "area_name": "Route 112",
+                            "caught": "2021-11-01T06:25:52.320Z",
+                            "caught_in": "Pok\u00e9 Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 30,
+                            "map_id": 25
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 35,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661\u2661",
+                                    "effect": "The appeal effect of this move is constant.",
+                                    "jamming": "",
+                                    "type": "Cool"
+                                },
+                                "id": 64,
+                                "max_pp": 35,
+                                "name": "Peck",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Flying"
+                            },
+                            {
+                                "accuracy": 60,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Startles all previous appealers.",
+                                    "jamming": "\u2665\u2665\u2665",
+                                    "type": "Smart"
+                                },
+                                "id": 95,
+                                "max_pp": 20,
+                                "name": "Hypnosis",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Psychic"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Prevents the user from being startled.",
+                                    "jamming": "",
+                                    "type": "Smart"
+                                },
+                                "id": 115,
+                                "max_pp": 20,
+                                "name": "Reflect",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Psychic"
+                            },
+                            {
+                                "accuracy": 85,
+                                "base_power": 90,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661\u2661\u2661\u2661",
+                                    "effect": "The appeal effect of this move is constant.",
+                                    "jamming": "",
+                                    "type": "Tough"
+                                },
+                                "id": 36,
+                                "max_pp": 20,
+                                "name": "Take Down",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            }
+                        ],
+                        "name": "Kenya",
+                        "nature": "Naughty",
+                        "next_move": {
+                            "level": 34,
+                            "type": "Psychic"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 45836,
+                            "name": "Madelyn",
+                            "secret": 33720
+                        },
+                        "personality_value": 367622904,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 24485,
+                        "species": {
+                            "abilities": [
+                                "Insomnia",
+                                "Keen Eye"
+                            ],
+                            "base_stats": {
+                                "attack": 30,
+                                "defense": 30,
+                                "hp": 60,
+                                "special_attack": 36,
+                                "special_defense": 56,
+                                "speed": 50
+                            },
+                            "catch_rate": 255,
+                            "egg_cycles": 15,
+                            "egg_type1": "Flying",
+                            "egg_type2": "Flying",
+                            "evolutions": [
+                                {
+                                    "level": 20
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 163,
+                            "name": "Hoothoot",
+                            "national_dex": 163,
+                            "type1": "Normal",
+                            "type2": "Flying"
+                        }
+                    },
+                    {
+                        "ability": "Overgrow",
+                        "aiss_id": 39168,
+                        "box_slot": 28,
+                        "checksum": 12143,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": -562505451,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 21760,
+                            "next_level": 24294,
+                            "remaining": 2534,
+                            "this_level": 21760
+                        },
+                        "friendship": 70,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 31,
+                            "defense": 2,
+                            "hp": 31,
+                            "special_attack": 24,
+                            "special_defense": 24,
+                            "speed": 14
+                        },
+                        "language": "English",
+                        "level": 30,
+                        "marking": "",
+                        "met": {
+                            "area_id": 27,
+                            "area_name": "Route 112",
+                            "caught": "2021-11-01T06:18:03.948Z",
+                            "caught_in": "Pok\u00e9 Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 30,
+                            "map_id": 25
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 95,
+                                "base_power": 55,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661",
+                                    "effect": "Appeal effect may change.",
+                                    "jamming": "",
+                                    "type": "Cool"
+                                },
+                                "id": 75,
+                                "max_pp": 25,
+                                "name": "Razor Leaf",
+                                "pp": 25,
+                                "pp_up": 0,
+                                "type": "Grass"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Prevents the user from being startled.",
+                                    "jamming": "",
+                                    "type": "Smart"
+                                },
+                                "id": 115,
+                                "max_pp": 20,
+                                "name": "Reflect",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Psychic"
+                            },
+                            {
+                                "accuracy": 75,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661",
+                                    "effect": "Affects appealers other than startling them.",
+                                    "jamming": "",
+                                    "type": "Smart"
+                                },
+                                "id": 77,
+                                "max_pp": 35,
+                                "name": "Poisonpowder",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Poison"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661",
+                                    "effect": "Appeal effect may change.",
+                                    "jamming": "",
+                                    "type": "Smart"
+                                },
+                                "id": 235,
+                                "max_pp": 5,
+                                "name": "Synthesis",
+                                "pp": 5,
+                                "pp_up": 0,
+                                "type": "Grass"
+                            }
+                        ],
+                        "name": "Nickey",
+                        "nature": "Rash",
+                        "next_move": {
+                            "level": 31,
+                            "type": "Normal"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 13307,
+                            "name": "Joey",
+                            "secret": 48704
+                        },
+                        "personality_value": 1614342894,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 1901,
+                        "species": {
+                            "abilities": [
+                                "Overgrow",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 62,
+                                "defense": 80,
+                                "hp": 60,
+                                "special_attack": 63,
+                                "special_defense": 80,
+                                "speed": 60
+                            },
+                            "catch_rate": 45,
+                            "egg_cycles": 20,
+                            "egg_type1": "Monster",
+                            "egg_type2": "Grass",
+                            "evolutions": [
+                                {
+                                    "level": 32
+                                }
+                            ],
+                            "gender_ratio": 31,
+                            "growth_rate": "Medium Slow",
+                            "held_items": [],
+                            "id": 153,
+                            "name": "Bayleef",
+                            "national_dex": 153,
+                            "type1": "Grass",
+                            "type2": "Grass"
+                        }
+                    },
+                    {
+                        "ability": "Static",
+                        "aiss_id": 46080,
+                        "box_slot": 29,
+                        "checksum": 1655,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 1757567998,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 21760,
+                            "next_level": 24294,
+                            "remaining": 2534,
+                            "this_level": 21760
+                        },
+                        "friendship": 70,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 27,
+                            "defense": 10,
+                            "hp": 12,
+                            "special_attack": 7,
+                            "special_defense": 30,
+                            "speed": 9
+                        },
+                        "language": "English",
+                        "level": 30,
+                        "marking": "",
+                        "met": {
+                            "area_id": 27,
+                            "area_name": "Route 112",
+                            "caught": "2021-11-01T06:21:26.635Z",
+                            "caught_in": "Pok\u00e9 Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 30,
+                            "map_id": 25
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Appeal effect may change.",
+                                    "jamming": "",
+                                    "type": "Cute"
+                                },
+                                "id": 45,
+                                "max_pp": 40,
+                                "name": "Growl",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661\u2661",
+                                    "effect": "The appeal effect of this move is constant.",
+                                    "jamming": "",
+                                    "type": "Cool"
+                                },
+                                "id": 84,
+                                "max_pp": 30,
+                                "name": "Thundershock",
+                                "pp": 30,
+                                "pp_up": 0,
+                                "type": "Electric"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Startles all previous appealers.",
+                                    "jamming": "\u2665",
+                                    "type": "Cool"
+                                },
+                                "id": 86,
+                                "max_pp": 20,
+                                "name": "Thunder Wave",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Electric"
+                            },
+                            {
+                                "accuracy": 85,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Startles all previous appealers.",
+                                    "jamming": "\u2665",
+                                    "type": "Beauty"
+                                },
+                                "id": 178,
+                                "max_pp": 40,
+                                "name": "Cotton Spore",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Grass"
+                            }
+                        ],
+                        "name": "Flaaffy",
+                        "nature": "Naive",
+                        "next_move": {
+                            "level": 36,
+                            "type": "Psychic"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 32045,
+                            "name": "Conley",
+                            "secret": 29168
+                        },
+                        "personality_value": 422717139,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 13116,
+                        "species": {
+                            "abilities": [
+                                "Static",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 55,
+                                "defense": 55,
+                                "hp": 70,
+                                "special_attack": 80,
+                                "special_defense": 60,
+                                "speed": 45
+                            },
+                            "catch_rate": 120,
+                            "egg_cycles": 20,
+                            "egg_type1": "Monster",
+                            "egg_type2": "Field",
+                            "evolutions": [
+                                {
+                                    "level": 30
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Slow",
+                            "held_items": [],
+                            "id": 180,
+                            "name": "Flaaffy",
+                            "national_dex": 180,
+                            "type1": "Electric",
+                            "type2": "Electric"
+                        }
+                    },
+                    {
+                        "ability": "Synchronize",
+                        "aiss_id": 50432,
+                        "box_slot": 30,
+                        "checksum": 46417,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 1094029040,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 27000,
+                            "next_level": 29791,
+                            "remaining": 2791,
+                            "this_level": 27000
+                        },
+                        "friendship": 35,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 6,
+                            "defense": 12,
+                            "hp": 25,
+                            "special_attack": 2,
+                            "special_defense": 14,
+                            "speed": 3
+                        },
+                        "language": "English",
+                        "level": 30,
+                        "marking": "",
+                        "met": {
+                            "area_id": 27,
+                            "area_name": "Route 112",
+                            "caught": "2021-11-01T06:25:52.320Z",
+                            "caught_in": "Pok\u00e9 Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 30,
+                            "map_id": 25
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Startles all previous appealers.",
+                                    "jamming": "\u2665",
+                                    "type": "Cute"
+                                },
+                                "id": 28,
+                                "max_pp": 15,
+                                "name": "Sand-Attack",
+                                "pp": 15,
+                                "pp_up": 0,
+                                "type": "Ground"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": {
+                                    "appeal": "\u2661\u2661",
+                                    "effect": "Startles all previous appealers.",
+                                    "jamming": "\u2665",
+                                    "type": "Smart"
+                                },
+                                "id": 228,
+                                "max_pp": 20,
+                                "name": "Pursuit",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Dark"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661",
+                                    "effect": "The appeal order changes for the next round.",
+                                    "jamming": "",
+                                    "type": "Cool"
+                                },
+                                "id": 98,
+                                "max_pp": 30,
+                                "name": "Quick Attack",
+                                "pp": 30,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": {
+                                    "appeal": "\u2661\u2661\u2661",
+                                    "effect": "The appeal order changes for the next round.",
+                                    "jamming": "",
+                                    "type": "Smart"
+                                },
+                                "id": 109,
+                                "max_pp": 10,
+                                "name": "Confuse Ray",
+                                "pp": 10,
+                                "pp_up": 0,
+                                "type": "Ghost"
+                            }
+                        ],
+                        "name": "Kenny",
+                        "nature": "Quiet",
+                        "next_move": {
+                            "level": 36,
+                            "type": "Dark"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 18361,
+                            "name": "Lennie",
+                            "secret": 45113
+                        },
+                        "personality_value": 4044147017,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 53189,
+                        "species": {
+                            "abilities": [
+                                "Synchronize",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 65,
+                                "defense": 110,
+                                "hp": 95,
+                                "special_attack": 60,
+                                "special_defense": 130,
+                                "speed": 65
+                            },
+                            "catch_rate": 45,
+                            "egg_cycles": 35,
+                            "egg_type1": "Field",
+                            "egg_type2": "Field",
+                            "evolutions": [],
+                            "gender_ratio": 31,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 197,
+                            "name": "Umbreon",
+                            "national_dex": 197,
+                            "type1": "Dark",
+                            "type2": "Dark"
+                        }
+                    }
+                ],
+                "box_name": "BOX14",
+                "box_number": 14
+            }
+        ],
+        "current_box_number": 270274588
+    },
+    "puzzleTotal": 37,
+    "secret": 58625,
+    "security_key": 0,
+    "seen": 155,
+    "seen_list": [
+        5,
+        19,
+        25,
+        27,
+        28,
+        31,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        42,
+        43,
+        44,
+        46,
+        47,
+        52,
+        54,
+        57,
+        64,
+        65,
+        68,
+        69,
+        70,
+        74,
+        75,
+        76,
+        77,
+        78,
+        82,
+        84,
+        89,
+        93,
+        95,
+        97,
+        98,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        109,
+        110,
+        114,
+        121,
+        123,
+        124,
+        125,
+        127,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        143,
+        158,
+        161,
+        163,
+        164,
+        167,
+        168,
+        170,
+        175,
+        178,
+        179,
+        180,
+        181,
+        183,
+        186,
+        187,
+        194,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        207,
+        209,
+        214,
+        217,
+        224,
+        226,
+        232,
+        235,
+        237,
+        245,
+        257,
+        261,
+        263,
+        264,
+        267,
+        269,
+        270,
+        274,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        284,
+        285,
+        286,
+        288,
+        289,
+        290,
+        291,
+        295,
+        297,
+        299,
+        300,
+        302,
+        303,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        315,
+        316,
+        318,
+        319,
+        322,
+        326,
+        327,
+        332,
+        333,
+        334,
+        336,
+        337,
+        338,
+        341,
+        343,
+        344,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        363,
+        366,
+        367,
+        373
+    ],
+    "time": {
+        "d": "SUN",
+        "h": 15,
+        "m": 14,
+        "s": 1
+    },
+    "transitioning": false,
+    "trick_house": [
+        "Incomplete"
+    ],
+    "x": 48,
+    "y": 57
+}
+
