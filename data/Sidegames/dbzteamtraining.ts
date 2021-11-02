@@ -5,7 +5,7 @@ Sidegames.Runs.push(
         BackgroundImage: "linear-gradient(to bottom, rgba(255,239,16,1) 50%, rgba(255,189,0,1) 65%, rgba(230,132,0,1) 80%, rgba(222,74,0,1) 90%)",
         ColorPrimary: "#E67300",
         ColorSecondary: "#AD4200",
-        Duration: "255w",
+        Duration: "2021-11-02T21:00:00Z",
         StartDate: "2021-05-14T07:09:18+01:00",
         HostName: "Pan",
         HostImage: "img/hosts/paula.png",
