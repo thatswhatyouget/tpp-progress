@@ -2,13 +2,13 @@
 Season8.Runs.push(
     {
         RunName: "Brilliant Diamond",
-        ColorPrimary: "#026eb7",
-        ColorSecondary: "#c8e8f9",
+        ColorSecondary: "#026eb7",
+        ColorPrimary: "#c8e8f9",
         Duration: "255d",
         StartDate: "2021-11-20T21:00:00Z",
-        // HostName: "",
-        // HostImage: "img/hosts/kr.png",
-        // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/mr8l1r/kristopher_von_karma_the_clockwork_poketch/",
+        HostName: "a;;;/]]]][%",
+        HostImage: "img/hosts/kr.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/mr8l1r/kristopher_von_karma_the_clockwork_poketch/",
         Region: "Sinnoh",
         Generation: 4,
         Pokedex: "Sinnoh",
@@ -17,7 +17,8 @@ Season8.Runs.push(
                 Group: "Badges",
                 Name: "Coal Badge",
                 Image: "img/badges/coal.png",
-                Time: ""
+                Time: "2021-11-21T04:06:00Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
