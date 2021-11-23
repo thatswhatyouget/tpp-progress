@@ -24,8 +24,7 @@ Season8.Runs.push(
                 Group: "Badges",
                 Name: "Forest Badge",
                 Image: "img/badges/forest.png",
-                Time: "2021-11-21T15:27:10Z",
-                Attempts: 6
+                Time: "2021-11-21T15:27:10Z"
             },
             {
                 Group: "Badges",
@@ -37,7 +36,7 @@ Season8.Runs.push(
                 Group: "Badges",
                 Name: "Fen Badge",
                 Image: "img/badges/fen.png",
-                Time: ""
+                Time: "2021-11-23T00:52:33Z"
             },
             {
                 Group: "Badges",
