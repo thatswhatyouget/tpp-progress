@@ -42,25 +42,25 @@ Season8.Runs.push(
                 Group: "Badges",
                 Name: "Relic Badge",
                 Image: "img/badges/relic.png",
-                Time: ""
+                Time: "2021-11-23T14:45:39Z"
             },
             {
                 Group: "Badges",
                 Name: "Mine Badge",
                 Image: "img/badges/mine.png",
-                Time: ""
+                Time: "2021-11-24T04:04:49Z"
             },
             {
                 Group: "Badges",
                 Name: "Icicle Badge",
                 Image: "img/badges/icicle.png",
-                Time: ""
+                Time: "2021-11-24T10:01:58Z"
             },
             {
                 Group: "Badges",
                 Name: "Beacon Badge",
                 Image: "img/badges/beacon.png",
-                Time: ""
+                Time: "2021-11-24T19:30:54Z"
             },
             {
                 Group: "Elite Four",
