@@ -66,7 +66,7 @@ Season8.Runs.push(
                 Group: "Elite Four",
                 Name: "Aaron",
                 Image: "img/trainers/platinum/aaron.png",
-                Time: ""
+                Time: "2021-11-25T10:20:30Z"
             },
             {
                 Group: "Elite Four",
