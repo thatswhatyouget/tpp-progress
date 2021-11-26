@@ -90,10 +90,16 @@ Season8.Runs.push(
                 Group: "Champions",
                 Name: "Cynthia",
                 Image: "img/trainers/platinum/cynthia.png",
-                Time: ""
+                Time: "2021-11-26T08:10:42Z"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-11-26T08:13:28Z", Party: [
+                    { Pokemon: "Gardevoir", Level: 69 },
+                    { Pokemon: "Manaphy", Nickname: "112drfic", Level: 77 },
+                    { Pokemon: "Houndoom", Nickname: "££puuuuyyn", Level: 70 },
+                    { Pokemon: "Pikachu", Nickname: "££££££££xS", Level: 69 },
+                    { Pokemon: "Drapion", Nickname: "1", Level: 70 },
+                    { Pokemon: "Toxicroak", Level: 76 },
                 ],
                 Image: "img/ribbons/champion-sinnoh.png"
             },
