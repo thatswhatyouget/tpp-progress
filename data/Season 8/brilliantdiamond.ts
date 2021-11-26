@@ -72,19 +72,19 @@ Season8.Runs.push(
                 Group: "Elite Four",
                 Name: "Bertha",
                 Image: "img/trainers/platinum/bertha.png",
-                Time: ""
+                Time: "2021-11-25T23:37:47Z"
             },
             {
                 Group: "Elite Four",
                 Name: "Flint",
                 Image: "img/trainers/platinum/flint.png",
-                Time: ""
+                Time: "2021-11-26T02:37:30Z"
             },
             {
                 Group: "Elite Four",
                 Name: "Lucian",
                 Image: "img/trainers/platinum/lucian.png",
-                Time: ""
+                Time: "2021-11-26T02:50:06Z"
             },
             {
                 Group: "Champions",
