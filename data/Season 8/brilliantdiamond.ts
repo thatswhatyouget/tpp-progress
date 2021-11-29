@@ -77,6 +77,20 @@ Season8.Runs.push(
                 Time: "2021-11-29T13:43:51Z"
             },
             {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Cobble Badge",
+                Image: "img/badges/cobble.png",
+                Time: "2021-11-29T15:38:12Z"
+            },
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Coal Badge",
+                Image: "img/badges/coal.png",
+                Time: "2021-11-29T15:59:00Z"
+            },
+            {
                 Group: "Elite Four",
                 Name: "Aaron",
                 Image: "img/trainers/platinum/aaron.png",
