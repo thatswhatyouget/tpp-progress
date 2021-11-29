@@ -934,3 +934,7 @@ ul.controls > li > ul > li.selected > a:before {
 .Rematch img{
 	filter:sepia(1)saturate(3)brightness(1.1);
 }
+
+.Rematch.Super img {
+	filter:sepia(1)saturate(3)brightness(1.1)grayscale(0.9);
+}

@@ -5,6 +5,7 @@ namespace TPP {
         ImageSource?: string;
         Class?: string;
         Name: string;
+        OT?: string;
         Estimate?: boolean;
         Time: string;
         UnixTime?: number;
