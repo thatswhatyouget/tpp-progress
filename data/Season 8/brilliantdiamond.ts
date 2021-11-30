@@ -228,14 +228,14 @@ Season8.Runs.push(
                 Class: "Super Rematch",
                 Name: "Flint",
                 Image: "img/trainers/platinum/flint.png",
-                Time: ""
+                Time:"2021-11-30T13:55:49Z"
             },
             {
                 Group: "Elite Four Rematch",
                 Class: "Super Rematch",
                 Name: "Lucian",
                 Image: "img/trainers/platinum/lucian.png",
-                Time: ""
+                Time:"2021-11-30T14:04:31Z"
             },
             {
                 Group: "Champions",
@@ -246,12 +246,12 @@ Season8.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "932487", Party: [
-                    { Pokemon: "", Level: 0 },
-                    { Pokemon: "", Nickname: "", Level: 0 },
-                    { Pokemon: "", Nickname: "", Level: 0 },
-                    { Pokemon: "", Nickname: "", Level: 0 },
-                    { Pokemon: "", Nickname: "", Level: 0 },
-                    { Pokemon: "", Level: 0 }
+                    { Pokemon: "Giratina", Nickname: "Tina", Level: 100 },
+                    { Pokemon: "Charizard", Level: 70 },
+                    { Pokemon: "Togekiss", Nickname: "Eggie Mk-II", Level: 100 },
+                    { Pokemon: "Lugia", Shiny: true, Level: 96 },
+                    { Pokemon: "Giratina", Level: 100 },
+                    { Pokemon: "Munchlax", Nickname: "Papper", Level: 79 }
                 ],
                 Image: "img/ribbons/champion-sinnoh.png"
             },
@@ -459,6 +459,9 @@ Season8.Runs.push(
             { Group: "Pokemon", Name: "Typhlosion", Time: "2021-11-30T09:26:43Z" },
             { Group: "Pokemon", Name: "Sceptile", Time: "2021-11-30T09:27:09Z" },
             { Group: "Pokemon", Name: "Oddish", Time: "2021-11-30T09:30:31Z" },
+            {Group: "Pokemon", Name: "Steelix", Time:"2021-11-30T10:03:33Z"},
+            {Group: "Pokemon", Name: "Charizard", Time:"2021-11-30T12:01:03Z"},
+            {Group: "Pokemon", Name: "Anorith", Time:"2021-11-30T12:55:49Z"},
         ]
     }
 );
