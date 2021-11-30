@@ -112,6 +112,13 @@ Season8.Runs.push(
                 Time: "2021-11-30T09:12:57Z"
             },
             {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Mine Badge",
+                Image: "img/badges/mine.png",
+                Time: "2021-11-30T10:52:51Z"
+            },
+            {
                 Group: "Elite Four",
                 Name: "Aaron",
                 Image: "img/trainers/platinum/aaron.png",
@@ -228,14 +235,14 @@ Season8.Runs.push(
                 Class: "Super Rematch",
                 Name: "Flint",
                 Image: "img/trainers/platinum/flint.png",
-                Time:"2021-11-30T13:55:49Z"
+                Time: "2021-11-30T13:55:49Z"
             },
             {
                 Group: "Elite Four Rematch",
                 Class: "Super Rematch",
                 Name: "Lucian",
                 Image: "img/trainers/platinum/lucian.png",
-                Time:"2021-11-30T14:04:31Z"
+                Time: "2021-11-30T14:04:31Z"
             },
             {
                 Group: "Champions",
@@ -459,9 +466,9 @@ Season8.Runs.push(
             { Group: "Pokemon", Name: "Typhlosion", Time: "2021-11-30T09:26:43Z" },
             { Group: "Pokemon", Name: "Sceptile", Time: "2021-11-30T09:27:09Z" },
             { Group: "Pokemon", Name: "Oddish", Time: "2021-11-30T09:30:31Z" },
-            {Group: "Pokemon", Name: "Steelix", Time:"2021-11-30T10:03:33Z"},
-            {Group: "Pokemon", Name: "Charizard", Time:"2021-11-30T12:01:03Z"},
-            {Group: "Pokemon", Name: "Anorith", Time:"2021-11-30T12:55:49Z"},
+            { Group: "Pokemon", Name: "Steelix", Time: "2021-11-30T10:03:33Z" },
+            { Group: "Pokemon", Name: "Charizard", Time: "2021-11-30T12:01:03Z" },
+            { Group: "Pokemon", Name: "Anorith", Time: "2021-11-30T12:55:49Z" },
         ]
     }
 );
