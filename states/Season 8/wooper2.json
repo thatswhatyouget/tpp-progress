@@ -1,0 +1,2374 @@
+{
+    "area_id": 2,
+    "area_name": "Pewter Town",
+    "badges": 255,
+    "ball_count": 7,
+    "battle_party": [],
+    "caught": 24,
+    "caught_list": [
+        4,
+        5,
+        6,
+        10,
+        19,
+        20,
+        21,
+        23,
+        27,
+        28,
+        39,
+        41,
+        56,
+        58,
+        66,
+        88,
+        109,
+        138,
+        163,
+        194,
+        216,
+        225,
+        276,
+        300
+    ],
+    "coins": 0,
+    "daycare": [],
+    "events": [
+        {
+            "group": "First Visit",
+            "name": "Wooper\u2018S Domain",
+            "time": "2021-12-25T01:46:48.399Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Machop",
+            "time": "2021-12-25T01:49:33.463Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Mankey",
+            "time": "2021-12-25T01:49:33.463Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Charmander",
+            "time": "2021-12-25T01:49:33.463Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Wooper",
+            "time": "2021-12-25T01:49:33.463Z",
+            "traded": true
+        },
+        {
+            "group": "Badge",
+            "name": "Boulder Badge",
+            "time": "2021-12-25T01:49:38.019Z"
+        },
+        {
+            "group": "Badge",
+            "name": "Cascade Badge",
+            "time": "2021-12-25T01:49:38.019Z"
+        },
+        {
+            "group": "Badge",
+            "name": "Thunder Badge",
+            "time": "2021-12-25T01:49:38.020Z"
+        },
+        {
+            "group": "Badge",
+            "name": "Rainbow Badge",
+            "time": "2021-12-25T01:49:38.020Z"
+        },
+        {
+            "group": "Badge",
+            "name": "Soul Badge",
+            "time": "2021-12-25T01:49:38.020Z"
+        },
+        {
+            "group": "Badge",
+            "name": "Marsh Badge",
+            "time": "2021-12-25T01:49:38.020Z"
+        },
+        {
+            "group": "Badge",
+            "name": "Volcano Badge",
+            "time": "2021-12-25T01:49:38.020Z"
+        },
+        {
+            "group": "Badge",
+            "name": "Earth Badge",
+            "time": "2021-12-25T01:49:38.020Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Viridian Caverns",
+            "time": "2021-12-25T01:49:49.581Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Viridian Forest",
+            "time": "2021-12-25T02:11:08.002Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Charmeleon",
+            "time": "2021-12-25T02:30:29.799Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Caterpie",
+            "time": "2021-12-25T02:46:28.498Z",
+            "traded": true
+        },
+        {
+            "group": "First Visit",
+            "name": "Rocket Hideout",
+            "time": "2021-12-25T02:51:58.436Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pewter Town",
+            "time": "2021-12-25T03:06:50.785Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 3",
+            "time": "2021-12-25T03:44:40.602Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Sandshrew",
+            "time": "2021-12-25T03:46:57.352Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Hoothoot",
+            "time": "2021-12-25T03:48:32.032Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Jigglypuff",
+            "time": "2021-12-25T04:03:06.613Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Taillow",
+            "time": "2021-12-25T04:08:47.861Z",
+            "traded": true
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 4",
+            "time": "2021-12-25T04:14:46.141Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Cerulean City",
+            "time": "2021-12-25T04:15:56.941Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 24",
+            "time": "2021-12-25T04:41:33.936Z"
+        },
+        {
+            "group": "First Visit",
+            "time": "2021-12-25T04:49:28.751Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 6",
+            "time": "2021-12-25T04:55:57.685Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #1",
+            "time": "2021-12-25T08:49:30.440Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Mt. Moon",
+            "time": "2021-12-25T08:51:14.499Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 9",
+            "time": "2021-12-25T09:31:04.993Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #2",
+            "time": "2021-12-25T09:46:09.759Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Rattata",
+            "time": "2021-12-25T09:51:56.588Z",
+            "traded": true
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #3",
+            "time": "2021-12-25T10:02:51.618Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 11",
+            "time": "2021-12-25T10:09:29.305Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 12",
+            "time": "2021-12-25T10:10:52.407Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Omanyte",
+            "time": "2021-12-25T10:11:48.161Z",
+            "traded": true
+        },
+        {
+            "attempts": 3,
+            "class_id": 103,
+            "group": "Trainers Defeated",
+            "id": 10,
+            "name": "Mystery Boy ???",
+            "time": "2021-12-25T10:26:17.840Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Sandslash",
+            "time": "2021-12-25T10:26:17.952Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Ekans",
+            "time": "2021-12-25T10:31:37.456Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Spearow",
+            "time": "2021-12-25T10:34:31.181Z",
+            "traded": true
+        },
+        {
+            "group": "Key Items",
+            "name": "TM32 Double Team",
+            "time": "2021-12-25T10:48:42.756Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Charizard",
+            "time": "2021-12-25T11:07:23.422Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Skitty",
+            "time": "2021-12-25T13:06:49.680Z",
+            "traded": true
+        },
+        {
+            "group": "First Visit",
+            "name": "Celadon Dept.",
+            "time": "2021-12-25T14:22:37.246Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Zubat",
+            "time": "2021-12-25T14:34:33.593Z",
+            "traded": true
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #4",
+            "time": "2021-12-25T14:48:33.060Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Dungeon",
+            "time": "2021-12-25T16:22:03.933Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Route 1",
+            "time": "2021-12-25T16:26:26.355Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Forest Clearing",
+            "time": "2021-12-25T16:28:20.819Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pok\u00e9mon Tower",
+            "time": "2021-12-25T16:47:03.537Z"
+        },
+        {
+            "group": "First Visit",
+            "name": "Pok\u00e9mon Mansion",
+            "time": "2021-12-25T16:57:18.392Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #5",
+            "time": "2021-12-25T17:05:46.615Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Grimer",
+            "time": "2021-12-25T17:39:46.874Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Growlithe",
+            "time": "2021-12-25T17:44:10.080Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Koffing",
+            "time": "2021-12-25T17:53:21.849Z",
+            "traded": true
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #6",
+            "time": "2021-12-25T17:58:02.577Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Sapphire",
+            "time": "2021-12-25T18:50:31.325Z"
+        },
+        {
+            "group": "Key Items",
+            "name": "Secret Key",
+            "time": "2021-12-25T18:50:31.355Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Quagsire",
+            "time": "2021-12-25T18:51:20.499Z",
+            "traded": true
+        },
+        {
+            "group": "Pokemon",
+            "name": "Raticate",
+            "time": "2021-12-25T18:58:17.830Z",
+            "traded": true
+        },
+        {
+            "attempts": 2,
+            "class_id": 77,
+            "group": "Trainers Defeated",
+            "id": 289,
+            "name": "Juggler Shawn",
+            "time": "2021-12-25T19:00:15.643Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #7",
+            "time": "2021-12-25T19:03:30.325Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Delibird",
+            "time": "2021-12-25T21:17:01.573Z",
+            "traded": true
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #8",
+            "time": "2021-12-25T21:22:59.838Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #9",
+            "time": "2021-12-25T21:47:35.554Z"
+        },
+        {
+            "group": "Pokemon",
+            "name": "Teddiursa",
+            "time": "2021-12-25T21:55:05.735Z",
+            "traded": true
+        },
+        {
+            "group": "Key Items",
+            "name": "Berry Pouch",
+            "time": "2021-12-25T22:00:02.453Z"
+        },
+        {
+            "group": "Blackouts",
+            "name": "Blackout #10",
+            "time": "2021-12-25T22:52:01.167Z"
+        }
+    ],
+    "evolution_is_happening": false,
+    "game": "Wooper Christmas 2",
+    "game_stats": {
+        "Battles Fought (Total)": 461,
+        "Blackouts": 10,
+        "Pok\u00e9mon Caught": 30,
+        "Pok\u00e9mon Caught in a Great Ball": 2,
+        "Pok\u00e9mon Caught in a Poke Ball": 28,
+        "Thrown Balls (total)": 66,
+        "Thrown Great Balls": 10,
+        "Thrown Poke Balls": 56
+    },
+    "gender": "Male",
+    "generation": 3,
+    "id": 12584,
+    "in_battle": false,
+    "items": {
+        "balls": [
+            {
+                "count": 7,
+                "id": 4,
+                "name": "Poke Ball"
+            }
+        ],
+        "berries": [
+            {
+                "count": 1,
+                "id": 139,
+                "name": "Oran Berry"
+            }
+        ],
+        "items": [
+            {
+                "count": 1,
+                "id": 94,
+                "name": "Reg. Moonstone\u30bb     \u0026\u30c8\u3058\u00eb  \u00e0\u00e0\u00bf\u00e1\u3053\u00eb            "
+            },
+            {
+                "count": 1,
+                "id": 13,
+                "name": "Potion"
+            },
+            {
+                "count": 1,
+                "id": 33,
+                "name": "Revival Herb"
+            },
+            {
+                "count": 1,
+                "id": 209,
+                "name": "Mystic Water"
+            }
+        ],
+        "key": [
+            {
+                "id": 351,
+                "name": "Secret Key"
+            },
+            {
+                "id": 365,
+                "name": "Berry Pouch"
+            },
+            {
+                "id": 191,
+                "name": "M. Moonstone"
+            },
+            {
+                "id": 254,
+                "name": "Hero\u2019s Hat"
+            }
+        ],
+        "pc": [],
+        "tms": []
+    },
+    "level_cap": 100,
+    "map_bank": 6,
+    "map_id": 5,
+    "map_name": "Pewter Town",
+    "money": 0,
+    "name": "WOOPER",
+    "options": {
+        "battle_scene": "On",
+        "battle_style": "Shift",
+        "button_mode": "LR",
+        "frame": "8",
+        "map_zoom": "Full",
+        "sound": "Stereo",
+        "text_speed": "Fast"
+    },
+    "party": [],
+    "pc": {
+        "boxes": [
+            {
+                "box_contents": [
+                    {
+                        "ability": "Insomnia",
+                        "aiss_id": 41728,
+                        "box_slot": 1,
+                        "checksum": 16051,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 921049350,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 2197,
+                            "next_level": 2744,
+                            "remaining": 547,
+                            "this_level": 2197
+                        },
+                        "friendship": 70,
+                        "gender": "Female",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 10,
+                            "defense": 24,
+                            "hp": 14,
+                            "special_attack": 8,
+                            "special_defense": 28,
+                            "speed": 13
+                        },
+                        "language": "English",
+                        "level": 13,
+                        "marking": "",
+                        "met": {
+                            "area_id": 87,
+                            "area_name": "Mt. Ember",
+                            "caught": "2021-12-25T03:48:32.032Z",
+                            "caught_in": "Poke Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 13,
+                            "map_id": 103
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 95,
+                                "base_power": 35,
+                                "contest": null,
+                                "id": 33,
+                                "max_pp": 35,
+                                "name": "Tackle",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 45,
+                                "max_pp": 40,
+                                "name": "Growl",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 193,
+                                "max_pp": 40,
+                                "name": "Foresight",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 35,
+                                "contest": null,
+                                "id": 64,
+                                "max_pp": 35,
+                                "name": "Peck",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Flying"
+                            }
+                        ],
+                        "name": "Hoothoot",
+                        "nature": "Mild",
+                        "next_move": {
+                            "level": 16,
+                            "type": "Psychic"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 12584,
+                            "name": "WOOPER",
+                            "secret": 8595
+                        },
+                        "personality_value": 393553966,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 12256,
+                        "species": {
+                            "abilities": [
+                                "Insomnia",
+                                "Keen Eye"
+                            ],
+                            "base_stats": {
+                                "attack": 30,
+                                "defense": 30,
+                                "hp": 60,
+                                "special_attack": 36,
+                                "special_defense": 56,
+                                "speed": 50
+                            },
+                            "catch_rate": 255,
+                            "egg_cycles": 15,
+                            "egg_type1": "Flying",
+                            "egg_type2": "Flying",
+                            "evolutions": [
+                                {
+                                    "level": 20
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 163,
+                            "name": "Hoothoot",
+                            "national_dex": 163,
+                            "type1": "Normal",
+                            "type2": "Flying"
+                        }
+                    },
+                    {
+                        "ability": "Sand Veil",
+                        "aiss_id": 6912,
+                        "box_slot": 2,
+                        "checksum": 58742,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 727342888,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 2197,
+                            "next_level": 2744,
+                            "remaining": 547,
+                            "this_level": 2197
+                        },
+                        "friendship": 70,
+                        "gender": "Female",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 29,
+                            "defense": 19,
+                            "hp": 18,
+                            "special_attack": 20,
+                            "special_defense": 10,
+                            "speed": 1
+                        },
+                        "language": "English",
+                        "level": 13,
+                        "marking": "",
+                        "met": {
+                            "area_id": 87,
+                            "area_name": "Mt. Ember",
+                            "caught": "2021-12-25T03:53:34.678Z",
+                            "caught_in": "Poke Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 13,
+                            "map_id": 103
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": null,
+                                "id": 10,
+                                "max_pp": 35,
+                                "name": "Scratch",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 111,
+                                "max_pp": 40,
+                                "name": "Defense Curl",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 28,
+                                "max_pp": 15,
+                                "name": "Sand-Attack",
+                                "pp": 15,
+                                "pp_up": 0,
+                                "type": "Ground"
+                            }
+                        ],
+                        "name": "Sandshrew",
+                        "nature": "Docile",
+                        "next_move": {
+                            "level": 17,
+                            "type": "Poison"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 12584,
+                            "name": "WOOPER",
+                            "secret": 8595
+                        },
+                        "personality_value": 180973056,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 29810,
+                        "species": {
+                            "abilities": [
+                                "Sand Veil",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 75,
+                                "defense": 85,
+                                "hp": 50,
+                                "special_attack": 20,
+                                "special_defense": 30,
+                                "speed": 40
+                            },
+                            "catch_rate": 255,
+                            "egg_cycles": 20,
+                            "egg_type1": "Field",
+                            "egg_type2": "Field",
+                            "evolutions": [
+                                {
+                                    "level": 22
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 27,
+                            "name": "Sandshrew",
+                            "national_dex": 27,
+                            "type1": "Ground",
+                            "type2": "Ground"
+                        }
+                    },
+                    {
+                        "ability": "Insomnia",
+                        "aiss_id": 41728,
+                        "box_slot": 3,
+                        "checksum": 18453,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 1787972972,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 2197,
+                            "next_level": 2744,
+                            "remaining": 547,
+                            "this_level": 2197
+                        },
+                        "friendship": 70,
+                        "gender": "Female",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 23,
+                            "defense": 8,
+                            "hp": 2,
+                            "special_attack": 5,
+                            "special_defense": 0,
+                            "speed": 8
+                        },
+                        "language": "English",
+                        "level": 13,
+                        "marking": "",
+                        "met": {
+                            "area_id": 87,
+                            "area_name": "Mt. Ember",
+                            "caught": "2021-12-25T03:57:28.098Z",
+                            "caught_in": "Poke Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 13,
+                            "map_id": 103
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 95,
+                                "base_power": 35,
+                                "contest": null,
+                                "id": 33,
+                                "max_pp": 35,
+                                "name": "Tackle",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 45,
+                                "max_pp": 40,
+                                "name": "Growl",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 193,
+                                "max_pp": 40,
+                                "name": "Foresight",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 35,
+                                "contest": null,
+                                "id": 64,
+                                "max_pp": 35,
+                                "name": "Peck",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Flying"
+                            }
+                        ],
+                        "name": "a      lkv",
+                        "nature": "Careful",
+                        "next_move": {
+                            "level": 16,
+                            "type": "Psychic"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 12584,
+                            "name": "WOOPER",
+                            "secret": 8595
+                        },
+                        "personality_value": 1258388548,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 10238,
+                        "species": {
+                            "abilities": [
+                                "Insomnia",
+                                "Keen Eye"
+                            ],
+                            "base_stats": {
+                                "attack": 30,
+                                "defense": 30,
+                                "hp": 60,
+                                "special_attack": 36,
+                                "special_defense": 56,
+                                "speed": 50
+                            },
+                            "catch_rate": 255,
+                            "egg_cycles": 15,
+                            "egg_type1": "Flying",
+                            "egg_type2": "Flying",
+                            "evolutions": [
+                                {
+                                    "level": 20
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 163,
+                            "name": "Hoothoot",
+                            "national_dex": 163,
+                            "type1": "Normal",
+                            "type2": "Flying"
+                        }
+                    },
+                    {
+                        "ability": "Sand Veil",
+                        "aiss_id": 6912,
+                        "box_slot": 4,
+                        "checksum": 47053,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": -1737895327,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 2197,
+                            "next_level": 2744,
+                            "remaining": 547,
+                            "this_level": 2197
+                        },
+                        "friendship": 70,
+                        "gender": "Female",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 13,
+                            "defense": 0,
+                            "hp": 12,
+                            "special_attack": 25,
+                            "special_defense": 26,
+                            "speed": 27
+                        },
+                        "language": "English",
+                        "level": 13,
+                        "marking": "",
+                        "met": {
+                            "area_id": 87,
+                            "area_name": "Mt. Ember",
+                            "caught": "2021-12-25T04:00:11.988Z",
+                            "caught_in": "Poke Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 13,
+                            "map_id": 103
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": null,
+                                "id": 10,
+                                "max_pp": 35,
+                                "name": "Scratch",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 111,
+                                "max_pp": 40,
+                                "name": "Defense Curl",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 28,
+                                "max_pp": 15,
+                                "name": "Sand-Attack",
+                                "pp": 15,
+                                "pp_up": 0,
+                                "type": "Ground"
+                            }
+                        ],
+                        "name": "Sandshrew",
+                        "nature": "Calm",
+                        "next_move": {
+                            "level": 17,
+                            "type": "Poison"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 12584,
+                            "name": "WOOPER",
+                            "secret": 8595
+                        },
+                        "personality_value": 3120227145,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 18952,
+                        "species": {
+                            "abilities": [
+                                "Sand Veil",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 75,
+                                "defense": 85,
+                                "hp": 50,
+                                "special_attack": 20,
+                                "special_defense": 30,
+                                "speed": 40
+                            },
+                            "catch_rate": 255,
+                            "egg_cycles": 20,
+                            "egg_type1": "Field",
+                            "egg_type2": "Field",
+                            "evolutions": [
+                                {
+                                    "level": 22
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 27,
+                            "name": "Sandshrew",
+                            "national_dex": 27,
+                            "type1": "Ground",
+                            "type2": "Ground"
+                        }
+                    },
+                    {
+                        "ability": "Cute Charm",
+                        "aiss_id": 9984,
+                        "box_slot": 5,
+                        "checksum": 60659,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 954558866,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 1064,
+                            "next_level": 1382,
+                            "remaining": 318,
+                            "this_level": 1064
+                        },
+                        "friendship": 70,
+                        "gender": "Female",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 29,
+                            "defense": 18,
+                            "hp": 9,
+                            "special_attack": 17,
+                            "special_defense": 18,
+                            "speed": 31
+                        },
+                        "language": "English",
+                        "level": 11,
+                        "marking": "",
+                        "met": {
+                            "area_id": 87,
+                            "area_name": "Mt. Ember",
+                            "caught": "2021-12-25T04:03:06.613Z",
+                            "caught_in": "Poke Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 11,
+                            "map_id": 103
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 55,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 47,
+                                "max_pp": 15,
+                                "name": "Sing",
+                                "pp": 15,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 111,
+                                "max_pp": 40,
+                                "name": "Defense Curl",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": null,
+                                "id": 1,
+                                "max_pp": 35,
+                                "name": "Pound",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            }
+                        ],
+                        "name": "XFF  ",
+                        "nature": "Serious",
+                        "next_move": {
+                            "level": 14,
+                            "type": "Normal"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 12584,
+                            "name": "WOOPER",
+                            "secret": 8595
+                        },
+                        "personality_value": 427186362,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 20855,
+                        "species": {
+                            "abilities": [
+                                "Cute Charm",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 45,
+                                "defense": 20,
+                                "hp": 115,
+                                "special_attack": 45,
+                                "special_defense": 25,
+                                "speed": 20
+                            },
+                            "catch_rate": 170,
+                            "egg_cycles": 10,
+                            "egg_type1": "Fairy",
+                            "egg_type2": "Fairy",
+                            "evolutions": [
+                                {
+                                    "required_item": {
+                                        "id": 94,
+                                        "name": "Reg. Moonstone\u30bb     \u0026\u30c8\u3058\u00eb  \u00e0\u00e0\u00bf\u00e1\u3053\u00eb            "
+                                    }
+                                }
+                            ],
+                            "gender_ratio": 191,
+                            "growth_rate": "Fast",
+                            "held_items": [],
+                            "id": 39,
+                            "name": "Jigglypuff",
+                            "national_dex": 39,
+                            "type1": "Normal",
+                            "type2": "Normal"
+                        }
+                    },
+                    {
+                        "ability": "Guts",
+                        "aiss_id": 0,
+                        "box_slot": 6,
+                        "checksum": 30328,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 744775927,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 1612,
+                            "next_level": 2035,
+                            "remaining": 423,
+                            "this_level": 1612
+                        },
+                        "friendship": 70,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 21,
+                            "defense": 9,
+                            "hp": 20,
+                            "special_attack": 14,
+                            "special_defense": 27,
+                            "speed": 0
+                        },
+                        "language": "English",
+                        "level": 14,
+                        "marking": "",
+                        "met": {
+                            "area_id": 87,
+                            "area_name": "Mt. Ember",
+                            "caught": "2021-12-25T04:08:47.861Z",
+                            "caught_in": "Poke Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 14,
+                            "map_id": 103
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 45,
+                                "max_pp": 40,
+                                "name": "Growl",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 116,
+                                "max_pp": 30,
+                                "name": "Focus Energy",
+                                "pp": 30,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": null,
+                                "id": 98,
+                                "max_pp": 30,
+                                "name": "Quick Attack",
+                                "pp": 30,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 60,
+                                "contest": null,
+                                "id": 17,
+                                "max_pp": 35,
+                                "name": "Wing Attack",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Flying"
+                            }
+                        ],
+                        "name": ".NHI",
+                        "nature": "Lax",
+                        "next_move": {
+                            "level": 19,
+                            "type": "Normal"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 12584,
+                            "name": "WOOPER",
+                            "secret": 8595
+                        },
+                        "personality_value": 234312159,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 19603,
+                        "species": {
+                            "abilities": [
+                                "Guts",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 55,
+                                "defense": 30,
+                                "hp": 40,
+                                "special_attack": 30,
+                                "special_defense": 30,
+                                "speed": 85
+                            },
+                            "catch_rate": 200,
+                            "egg_cycles": 15,
+                            "egg_type1": "Flying",
+                            "egg_type2": "Flying",
+                            "evolutions": [
+                                {
+                                    "level": 22
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Slow",
+                            "held_items": [],
+                            "id": 304,
+                            "name": "Taillow",
+                            "national_dex": 276,
+                            "type1": "Normal",
+                            "type2": "Flying"
+                        }
+                    },
+                    {
+                        "ability": "Sand Veil",
+                        "aiss_id": 6912,
+                        "box_slot": 7,
+                        "checksum": 30069,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 410735595,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 1728,
+                            "next_level": 2197,
+                            "remaining": 469,
+                            "this_level": 1728
+                        },
+                        "friendship": 70,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 0,
+                            "defense": 18,
+                            "hp": 19,
+                            "special_attack": 11,
+                            "special_defense": 23,
+                            "speed": 8
+                        },
+                        "language": "English",
+                        "level": 12,
+                        "marking": "",
+                        "met": {
+                            "area_id": 87,
+                            "area_name": "Mt. Ember",
+                            "caught": "2021-12-25T04:11:27.049Z",
+                            "caught_in": "Poke Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 12,
+                            "map_id": 103
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": null,
+                                "id": 10,
+                                "max_pp": 35,
+                                "name": "Scratch",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 111,
+                                "max_pp": 40,
+                                "name": "Defense Curl",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 28,
+                                "max_pp": 15,
+                                "name": "Sand-Attack",
+                                "pp": 15,
+                                "pp_up": 0,
+                                "type": "Ground"
+                            }
+                        ],
+                        "name": "GGB",
+                        "nature": "Sassy",
+                        "next_move": {
+                            "level": 17,
+                            "type": "Poison"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 12584,
+                            "name": "WOOPER",
+                            "secret": 8595
+                        },
+                        "personality_value": 971530947,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 19344,
+                        "species": {
+                            "abilities": [
+                                "Sand Veil",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 75,
+                                "defense": 85,
+                                "hp": 50,
+                                "special_attack": 20,
+                                "special_defense": 30,
+                                "speed": 40
+                            },
+                            "catch_rate": 255,
+                            "egg_cycles": 20,
+                            "egg_type1": "Field",
+                            "egg_type2": "Field",
+                            "evolutions": [
+                                {
+                                    "level": 22
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 27,
+                            "name": "Sandshrew",
+                            "national_dex": 27,
+                            "type1": "Ground",
+                            "type2": "Ground"
+                        }
+                    },
+                    {
+                        "ability": "Keen Eye",
+                        "aiss_id": 41728,
+                        "box_slot": 8,
+                        "checksum": 61842,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 114385051,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 2744,
+                            "next_level": 3375,
+                            "remaining": 631,
+                            "this_level": 2744
+                        },
+                        "friendship": 70,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 1,
+                            "defense": 6,
+                            "hp": 1,
+                            "special_attack": 6,
+                            "special_defense": 25,
+                            "speed": 28
+                        },
+                        "language": "English",
+                        "level": 14,
+                        "marking": "",
+                        "met": {
+                            "area_id": 87,
+                            "area_name": "Mt. Ember",
+                            "caught": "2021-12-25T04:13:51.804Z",
+                            "caught_in": "Poke Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 14,
+                            "map_id": 103
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 95,
+                                "base_power": 35,
+                                "contest": null,
+                                "id": 33,
+                                "max_pp": 35,
+                                "name": "Tackle",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 45,
+                                "max_pp": 40,
+                                "name": "Growl",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 193,
+                                "max_pp": 40,
+                                "name": "Foresight",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 35,
+                                "contest": null,
+                                "id": 64,
+                                "max_pp": 35,
+                                "name": "Peck",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Flying"
+                            }
+                        ],
+                        "name": "Hoothoot",
+                        "nature": "Modest",
+                        "next_move": {
+                            "level": 16,
+                            "type": "Psychic"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 12584,
+                            "name": "WOOPER",
+                            "secret": 8595
+                        },
+                        "personality_value": 658657715,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 26186,
+                        "species": {
+                            "abilities": [
+                                "Insomnia",
+                                "Keen Eye"
+                            ],
+                            "base_stats": {
+                                "attack": 30,
+                                "defense": 30,
+                                "hp": 60,
+                                "special_attack": 36,
+                                "special_defense": 56,
+                                "speed": 50
+                            },
+                            "catch_rate": 255,
+                            "egg_cycles": 15,
+                            "egg_type1": "Flying",
+                            "egg_type2": "Flying",
+                            "evolutions": [
+                                {
+                                    "level": 20
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 163,
+                            "name": "Hoothoot",
+                            "national_dex": 163,
+                            "type1": "Normal",
+                            "type2": "Flying"
+                        }
+                    },
+                    {
+                        "ability": "Shield Dust",
+                        "aiss_id": 2560,
+                        "box_slot": 9,
+                        "checksum": 14541,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": -121534281,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 1331,
+                            "next_level": 1728,
+                            "remaining": 397,
+                            "this_level": 1331
+                        },
+                        "friendship": 97,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 25,
+                            "defense": 30,
+                            "hp": 16,
+                            "special_attack": 12,
+                            "special_defense": 7,
+                            "speed": 1
+                        },
+                        "language": "English",
+                        "level": 11,
+                        "marking": "",
+                        "met": {
+                            "caught": "2021-12-25T02:46:28.498Z",
+                            "caught_in": "Poke Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 11
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 95,
+                                "base_power": 35,
+                                "contest": null,
+                                "id": 33,
+                                "max_pp": 35,
+                                "name": "Tackle",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 95,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 81,
+                                "max_pp": 40,
+                                "name": "String Shot",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Bug"
+                            }
+                        ],
+                        "name": "Caterpie",
+                        "nature": "Bashful",
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 12584,
+                            "name": "WOOPER",
+                            "secret": 8595
+                        },
+                        "personality_value": 3646077343,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 28790,
+                        "species": {
+                            "abilities": [
+                                "Shield Dust",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 30,
+                                "defense": 35,
+                                "hp": 45,
+                                "special_attack": 20,
+                                "special_defense": 20,
+                                "speed": 45
+                            },
+                            "catch_rate": 255,
+                            "egg_cycles": 15,
+                            "egg_type1": "Bug",
+                            "egg_type2": "Bug",
+                            "evolutions": [
+                                {
+                                    "level": 7
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 10,
+                            "name": "Caterpie",
+                            "national_dex": 10,
+                            "type1": "Bug",
+                            "type2": "Bug"
+                        }
+                    },
+                    {
+                        "ability": "Sand Veil",
+                        "aiss_id": 6912,
+                        "box_slot": 10,
+                        "checksum": 45023,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": -798522149,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 1,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 2431,
+                            "next_level": 2744,
+                            "remaining": 313,
+                            "this_level": 2197
+                        },
+                        "friendship": 81,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 14,
+                            "defense": 0,
+                            "hp": 19,
+                            "special_attack": 25,
+                            "special_defense": 16,
+                            "speed": 27
+                        },
+                        "language": "English",
+                        "level": 13,
+                        "marking": "",
+                        "met": {
+                            "area_id": 87,
+                            "area_name": "Mt. Ember",
+                            "caught": "2021-12-25T03:46:57.352Z",
+                            "caught_in": "Poke Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 13,
+                            "map_id": 103
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": null,
+                                "id": 10,
+                                "max_pp": 35,
+                                "name": "Scratch",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 111,
+                                "max_pp": 40,
+                                "name": "Defense Curl",
+                                "pp": 40,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 28,
+                                "max_pp": 15,
+                                "name": "Sand-Attack",
+                                "pp": 15,
+                                "pp_up": 0,
+                                "type": "Ground"
+                            }
+                        ],
+                        "name": "U",
+                        "nature": "Rash",
+                        "next_move": {
+                            "level": 17,
+                            "type": "Poison"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 12584,
+                            "name": "WOOPER",
+                            "secret": 8595
+                        },
+                        "personality_value": 4059346419,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 21692,
+                        "species": {
+                            "abilities": [
+                                "Sand Veil",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 75,
+                                "defense": 85,
+                                "hp": 50,
+                                "special_attack": 20,
+                                "special_defense": 30,
+                                "speed": 40
+                            },
+                            "catch_rate": 255,
+                            "egg_cycles": 20,
+                            "egg_type1": "Field",
+                            "egg_type2": "Field",
+                            "evolutions": [
+                                {
+                                    "level": 22
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 27,
+                            "name": "Sandshrew",
+                            "national_dex": 27,
+                            "type1": "Ground",
+                            "type2": "Ground"
+                        }
+                    },
+                    {
+                        "ability": "Vital Spirit",
+                        "aiss_id": 14336,
+                        "box_slot": 11,
+                        "checksum": 19020,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 1150384550,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 0,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 2
+                        },
+                        "experience": {
+                            "current": 1178,
+                            "next_level": 1331,
+                            "remaining": 153,
+                            "this_level": 1000
+                        },
+                        "friendship": 95,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 25,
+                            "defense": 19,
+                            "hp": 26,
+                            "special_attack": 8,
+                            "special_defense": 17,
+                            "speed": 15
+                        },
+                        "language": "English",
+                        "level": 10,
+                        "marking": "",
+                        "met": {
+                            "caught": "2021-12-25T01:49:33.463Z",
+                            "caught_in": "Poke Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 10
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 40,
+                                "contest": null,
+                                "id": 10,
+                                "max_pp": 35,
+                                "name": "Scratch",
+                                "pp": 35,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 43,
+                                "max_pp": 30,
+                                "name": "Leer",
+                                "pp": 30,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 1,
+                                "contest": null,
+                                "id": 67,
+                                "max_pp": 20,
+                                "name": "Low Kick",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Fighting"
+                            }
+                        ],
+                        "name": "Mankey",
+                        "nature": "Serious",
+                        "next_move": {
+                            "level": 11,
+                            "type": "Fighting"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 12584,
+                            "name": "WOOPER",
+                            "secret": 8595
+                        },
+                        "personality_value": 1694648462,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 15671,
+                        "species": {
+                            "abilities": [
+                                "Vital Spirit",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 80,
+                                "defense": 35,
+                                "hp": 40,
+                                "special_attack": 35,
+                                "special_defense": 45,
+                                "speed": 70
+                            },
+                            "catch_rate": 190,
+                            "egg_cycles": 20,
+                            "egg_type1": "Field",
+                            "egg_type2": "Field",
+                            "evolutions": [
+                                {
+                                    "level": 28
+                                }
+                            ],
+                            "gender_ratio": 127,
+                            "growth_rate": "Medium Fast",
+                            "held_items": [],
+                            "id": 56,
+                            "name": "Mankey",
+                            "national_dex": 56,
+                            "type1": "Fighting",
+                            "type2": "Fighting"
+                        }
+                    },
+                    {
+                        "ability": "Guts",
+                        "aiss_id": 16896,
+                        "box_slot": 12,
+                        "checksum": 62778,
+                        "condition": {
+                            "beauty": 0,
+                            "coolness": 0,
+                            "cuteness": 0,
+                            "feel": 0,
+                            "smartness": 0,
+                            "toughness": 0
+                        },
+                        "encryption_key": 249690596,
+                        "evs": {
+                            "attack": 0,
+                            "defense": 0,
+                            "hp": 1,
+                            "special_attack": 0,
+                            "special_defense": 0,
+                            "speed": 0
+                        },
+                        "experience": {
+                            "current": 658,
+                            "next_level": 742,
+                            "remaining": 84,
+                            "this_level": 560
+                        },
+                        "friendship": 86,
+                        "gender": "Male",
+                        "held_item": null,
+                        "is_egg": false,
+                        "ivs": {
+                            "attack": 29,
+                            "defense": 4,
+                            "hp": 8,
+                            "special_attack": 25,
+                            "special_defense": 10,
+                            "speed": 31
+                        },
+                        "language": "English",
+                        "level": 10,
+                        "marking": "",
+                        "met": {
+                            "caught": "2021-12-25T01:49:33.463Z",
+                            "caught_in": "Poke Ball",
+                            "evolved": [],
+                            "game": "4",
+                            "level": 10
+                        },
+                        "moves": [
+                            {
+                                "accuracy": 100,
+                                "base_power": 1,
+                                "contest": null,
+                                "id": 67,
+                                "max_pp": 20,
+                                "name": "Low Kick",
+                                "pp": 20,
+                                "pp_up": 0,
+                                "type": "Fighting"
+                            },
+                            {
+                                "accuracy": 100,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 43,
+                                "max_pp": 30,
+                                "name": "Leer",
+                                "pp": 30,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            },
+                            {
+                                "accuracy": 0,
+                                "base_power": 0,
+                                "contest": null,
+                                "id": 116,
+                                "max_pp": 30,
+                                "name": "Focus Energy",
+                                "pp": 30,
+                                "pp_up": 0,
+                                "type": "Normal"
+                            }
+                        ],
+                        "name": "Machop",
+                        "nature": "Timid",
+                        "next_move": {
+                            "level": 13,
+                            "type": "Fighting"
+                        },
+                        "original_trainer": {
+                            "gender": "Male",
+                            "id": 12584,
+                            "name": "WOOPER",
+                            "secret": 8595
+                        },
+                        "personality_value": 796051660,
+                        "pokerus": {
+                            "cured": false,
+                            "days_left": 0,
+                            "infected": false,
+                            "strain": 0
+                        },
+                        "ribbons": [],
+                        "shiny": false,
+                        "shiny_value": 63237,
+                        "species": {
+                            "abilities": [
+                                "Guts",
+                                "-------"
+                            ],
+                            "base_stats": {
+                                "attack": 80,
+                                "defense": 50,
+                                "hp": 70,
+                                "special_attack": 35,
+                                "special_defense": 35,
+                                "speed": 35
+                            },
+                            "catch_rate": 180,
+                            "egg_cycles": 20,
+                            "egg_type1": "Human-Like",
+                            "egg_type2": "Human-Like",
+                            "evolutions": [
+                                {
+                                    "level": 28
+                                }
+                            ],
+                            "gender_ratio": 63,
+                            "growth_rate": "Medium Slow",
+                            "held_items": [],
+                            "id": 66,
+                            "name": "Machop",
+                            "national_dex": 66,
+                            "type1": "Fighting",
+                            "type2": "Fighting"
+                        }
+                    }
+                ],
+                "box_name": "BOX1",
+                "box_number": 1
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX2",
+                "box_number": 2
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX3",
+                "box_number": 3
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX4",
+                "box_number": 4
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX5",
+                "box_number": 5
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX6",
+                "box_number": 6
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX7",
+                "box_number": 7
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX8",
+                "box_number": 8
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX9",
+                "box_number": 9
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX10",
+                "box_number": 10
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX11",
+                "box_number": 11
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX12",
+                "box_number": 12
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX13",
+                "box_number": 13
+            },
+            {
+                "box_contents": [],
+                "box_name": "BOX14",
+                "box_number": 14
+            }
+        ],
+        "current_box_number": 3925868550
+    },
+    "rival_name": "        ",
+    "secret": 8595,
+    "security_key": 3118982803,
+    "seen": 54,
+    "seen_list": [
+        4,
+        5,
+        6,
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23,
+        26,
+        27,
+        28,
+        29,
+        35,
+        39,
+        41,
+        43,
+        46,
+        56,
+        58,
+        60,
+        63,
+        66,
+        67,
+        74,
+        88,
+        96,
+        97,
+        109,
+        110,
+        121,
+        124,
+        138,
+        163,
+        183,
+        194,
+        215,
+        216,
+        225,
+        234,
+        244,
+        263,
+        276,
+        289,
+        300,
+        356,
+        378,
+        382
+    ],
+    "transitioning": false,
+    "x": 7,
+    "y": 4
+}
