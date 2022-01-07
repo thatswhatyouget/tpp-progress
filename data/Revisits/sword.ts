@@ -85,12 +85,12 @@ Revisits.Runs.push(
                 ImageSource: "https://bulbapedia.bulbagarden.net/wiki/Klara",
                 Time: "2020-07-01T19:28:35.789Z", Attempts: 1
             },
-//            {
-//                Group: "Trainers", Name: "Mustard", Class: "Rematch",
-//                Image: "img/trainers/sword/mustard.png",
-//                ImageSource: "https://bulbapedia.bulbagarden.net/wiki/Mustard",
-//                Time: "", Attempts: 3
-//            },
+            //            {
+            //                Group: "Trainers", Name: "Mustard", Class: "Rematch",
+            //                Image: "img/trainers/sword/mustard.png",
+            //                ImageSource: "https://bulbapedia.bulbagarden.net/wiki/Mustard",
+            //                Time: "", Attempts: 3
+            //            },
 
             { "Group": "Pokemon", "Name": "Slowpoke", "Time": "2020-06-27T21:11:02Z" },
             { "Group": "Pokemon", "Name": "Sharpedo", "Time": "2020-06-27T21:23:27Z" },
@@ -541,5 +541,23 @@ Revisits.Runs.push(
         ],
         Revisit: { Collection: "Revisits", Run: "Sword Revisit - Isle of Armor" },
         CopyEvents: ["Sword Revisit - Isle of Armor"],
+    }
+);
+Revisits.Runs.push(
+    {
+        RunName: "Sword Revisit - Test Your Luck Event",
+        ColorSecondary: "black",
+        ColorPrimary: "#00A0E9",
+        StartDate: "2022-01-07T21:00:00.000Z",
+        Duration: "2022-01-10T00:00:00.000Z",
+        HostName: ":::?89977re",
+        HostImage: "img/hosts/89977re.gif",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/e1c95e/rey_collins_the_girl_with_rainbow_eyes/",
+        Region: "Galar",
+        Generation: 8,
+        Events: [
+        ],
+        Revisit: { Collection: "Revisits", Run: "Sword Revisit - Crown Tundra" },
+        CopyEvents: ["Sword Revisit - Crown Tundra"],
     }
 );
