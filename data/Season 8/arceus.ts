@@ -42,6 +42,12 @@ Season8.Runs.push(
             { Group: "Pokemon", Name: "Burmy", Time: "2022-01-30T23:46:40Z" },
             { Group: "Pokemon", Name: "Parasect", Time: "2022-01-30T23:49:52Z" },
             { Group: "Pokemon", Name: "Tangela", Time: "2022-01-31T00:27:06Z" },
+{Group: "Pokemon", Name: "Croagunk", Time:"2022-01-31T00:54:34Z"},
+{Group: "Pokemon", Name: "Onix", Time:"2022-01-31T01:03:07Z"},
+{Group: "Pokemon", Name: "Stunky", Time:"2022-01-31T07:56:42Z"},
+{Group: "Pokemon", Name: "Yanma", Time:"2022-01-31T08:09:18Z"},
+{Group: "Pokemon", Name: "Graveler", Time:"2022-01-31T08:26:23Z"},
+{Group: "Pokemon", Name: "Unown", Time:"2022-01-31T09:21:27Z"},
         ]
     }
 );
