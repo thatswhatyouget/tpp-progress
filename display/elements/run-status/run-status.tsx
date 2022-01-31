@@ -176,6 +176,9 @@ namespace TPP.Display.Elements.RunStatus {
         private get rematchBadges() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Rematch Badges"));
         }
+        private get noblePokemon() {
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Noble Pokémon"));
+        }
 
         private get partyDisplay() {
             if (this.state.status && this.state.status.party)
@@ -229,6 +232,7 @@ namespace TPP.Display.Elements.RunStatus {
                     <EventDisplay key="Badges" events={this.badges}>
                         {this.badgesOutOfDate ? <h6>Outdated</h6> : null}
                     </EventDisplay>
+                    <EventDisplay key="Noble Pokémon" events={this.noblePokemon} />
                     <GameStats key="Game Stats" title="Stats" gameStats={this.state.status.game_stats} />
                     <ItemDisplay key="Candy" title="Candy" items={this.state.status.items.candy} />
                     <ItemDisplay key="Items" title="Items" items={this.state.status.items.items} />
