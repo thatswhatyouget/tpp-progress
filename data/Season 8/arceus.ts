@@ -2,8 +2,8 @@
 Season8.Runs.push(
     {
         RunName: "Legends: Arceus",
-        ColorPrimary: "#fefc35",
-        ColorSecondary: "#a3060e",
+        ColorSecondary: "#007EB5",
+        ColorPrimary: "#EBDEC9",
         StartDate: "2022-01-29T21:00:00Z",
         Duration: "2022-02-12T23:18:16Z",
         HostName: `1qa!!?!"'!!`,
