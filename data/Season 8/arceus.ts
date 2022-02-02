@@ -16,7 +16,7 @@ Season8.Runs.push(
             { Group: "Noble Pokémon", Name: "Arcanine", Time: "2022-01-31T18:31:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
             { Group: "Noble Pokémon", Name: "Electrode", Time: "2022-02-01T17:53:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
             { Group: "Noble Pokémon", Name: "Avalugg", Time: "2022-02-02T01:55:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Dialga", Time: "", Attempts: 0, Class: "pokesprite bosses hisuian" },
+            { Group: "Noble Pokémon", Name: "Dialga", Time: "2022-02-02T15:36:08Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
 
 			{Group: "Pokemon", Name: "Cyndaquil", Time:"2022-01-29T21:47:52Z"},
 			{Group: "Pokemon", Name: "Bidoof", Time:"2022-01-29T22:09:48Z"},
@@ -91,6 +91,12 @@ Season8.Runs.push(
 			{Group: "Pokemon", Name: "Overqwil", Time:"2022-02-02T04:38:41Z"},
 			{Group: "Pokemon", Name: "Palkia", Time:"2022-02-02T06:07:18Z"},
 			{Group: "Pokemon", Name: "Ambipom", Time:"2022-02-02T06:30:06Z"},
+			{Group: "Pokemon", Name: "Electabuzz", Time:"2022-02-02T07:14:56Z"},
+			{Group: "Pokemon", Name: "Elekid", Time:"2022-02-02T07:25:36Z"},
+			{Group: "Pokemon", Name: "Nosepass", Time:"2022-02-02T07:53:26Z"},
+			{Group: "Pokemon", Name: "Dialga", Time:"2022-02-02T15:36:08Z"},
+			{Group: "Pokemon", Name: "Oshawott", Time:"2022-02-02T15:58:33Z"},
+			{Group: "Pokemon", Name: "Rowlet", Time:"2022-02-02T15:58:38Z"},
         ]
     }
 );
