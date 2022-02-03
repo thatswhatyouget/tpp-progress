@@ -109,6 +109,27 @@ Season8.Runs.push(
             { Group: "Pokemon", Name: "Dialga", Time: "2022-02-02T15:36:08Z" },
             { Group: "Pokemon", Name: "Oshawott", Time: "2022-02-02T15:58:33Z" },
             { Group: "Pokemon", Name: "Rowlet", Time: "2022-02-02T15:58:38Z" },
+            {Group: "Pokemon", Name: "Mesprit", Time:"2022-02-02T19:02:10Z"},
+			{Group: "Pokemon", Name: "Uxie", Time:"2022-02-02T19:46:51Z"},
+			{Group: "Pokemon", Name: "Azelf", Time:"2022-02-02T20:08:21Z"},
+			{Group: "Pokemon", Name: "Finneon", Time:"2022-02-02T20:42:20Z"},
+			{Group: "Pokemon", Name: "Gastrodon", Time:"2022-02-02T20:44:24Z"},
+			{Group: "Pokemon", Name: "Shellos", Time:"2022-02-02T20:45:56Z"},
+			{Group: "Pokemon", Name: "Cresselia", Time:"2022-02-02T21:31:42Z"},
+			{Group: "Pokemon", Name: "Shaymin", Time:"2022-02-02T22:46:34Z"},
+			{Group: "Pokemon", Name: "Silcoon", Time:"2022-02-03T00:20:14Z"},
+			{Group: "Pokemon", Name: "Eevee", Time:"2022-02-03T00:52:31Z"},
+			{Group: "Pokemon", Name: "Machoke", Time:"2022-02-03T02:58:52Z"},
+			{Group: "Pokemon", Name: "Sneasler", Time:"2022-02-03T04:24:31Z", Class:"WifiTrade"},
+			{Group: "Pokemon", Name: "Hippowdon", Time:"2022-02-03T05:15:17Z"},
+			{Group: "Pokemon", Name: "Pachirisu", Time:"2022-02-03T05:26:39Z"},
+			{Group: "Pokemon", Name: "Roserade", Time:"2022-02-03T06:19:55Z"},
+			{Group: "Pokemon", Name: "Roselia", Time:"2022-02-03T06:22:51Z"},
+			{Group: "Pokemon", Name: "Drifblim", Time:"2022-02-03T06:38:38Z"},
+			{Group: "Pokemon", Name: "Sudowoodo", Time:"2022-02-03T07:11:47Z"},
+			{Group: "Pokemon", Name: "Flareon", Time:"2022-02-03T08:26:22Z"},
+			{Group: "Pokemon", Name: "Chimchar", Time:"2022-02-03T10:10:52Z"},
+
         ]
     }
 );
