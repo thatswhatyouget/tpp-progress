@@ -8,7 +8,7 @@ Season8.Runs.push(
         Duration: "2022-02-12T23:18:16Z",
         HostName: `1qa!!?!"'!!`,
         HostImage: "img/hosts/1qa.png",
-        //HostImageSource: "",
+        HostImageSource: "https://discord.com/channels/927292379436814406/928400303588532324/937375338739146792",
         Region: "Hisui",
         Events: [
             { Group: "Noble Pokémon", Name: "Kleavor", Time: "2022-01-30T13:25:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
