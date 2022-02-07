@@ -221,7 +221,12 @@ Season8.Runs.push(
 			{Group: "Pokemon", Name: "Togepi", Time:"2022-02-06T17:53:20Z"},
 			{Group: "Pokemon", Name: "Lumineon", Time:"2022-02-06T18:09:24Z"},
 			{Group: "Pokemon", Name: "Piplup", Time:"2022-02-06T18:20:58Z"},
-
+			{Group: "Pokemon", Name: "Prinplup", Time:"2022-02-06T19:00:44Z"},
+			{Group: "Pokemon", Name: "Mantine", Time:"2022-02-06T20:17:19Z"},
+			{Group: "Pokemon", Name: "Gyarados", Time:"2022-02-06T20:21:16Z"},
+			{Group: "Pokemon", Name: "Magby", Time:"2022-02-06T20:39:15Z"},
+			{Group: "Pokemon", Name: "Darkrai", Time:"2022-02-06T23:13:43Z"},
+			{Group: "Pokemon", Name: "Electivire", Time:"2022-02-06T23:25:21Z"},
         ]
     }
 );
