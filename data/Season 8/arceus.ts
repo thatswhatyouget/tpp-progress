@@ -5,7 +5,7 @@ Season8.Runs.push(
         ColorSecondary: "#007EB5",
         ColorPrimary: "#EBDEC9",
         StartDate: "2022-01-29T21:00:00Z",
-        Duration: "2022-02-12T23:18:16Z",
+        Duration: "2022-02-10T06:10:10Z",
         HostName: `1qa!!?!"'!!`,
         HostImage: "img/hosts/1qa.png",
         HostImageSource: "https://discord.com/channels/927292379436814406/928400303588532324/937375338739146792",
@@ -17,7 +17,7 @@ Season8.Runs.push(
             { Group: "Noble Pokémon", Name: "Electrode", Time: "2022-02-01T17:53:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
             { Group: "Noble Pokémon", Name: "Avalugg", Time: "2022-02-02T01:55:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
             { Group: "Noble Pokémon", Name: "Dialga", Time: "2022-02-02T15:36:08Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Arceus", Time: "", Attempts: 0, Class: "pokesprite bosses hisuian" },
+            { Group: "Noble Pokémon", Name: "Arceus", Time: "2022-02-10T06:07:32Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", Attempts: 0, Time: "2022-02-02T15:38:20Z", Party: [
@@ -273,6 +273,7 @@ Season8.Runs.push(
             { Group: "Pokemon", Name: "Thundurus", Time: "2022-02-08T20:33:35Z", Class: "WifiTrade" },
             { Group: "Pokemon", Name: "Shieldon", Time: "2022-02-08T20:33:35Z", Class: "WifiTrade" },
             { Group: "Pokemon", Name: "Bastiodon", Time: "2022-02-08T21:27:46Z", Class: "WifiTrade" },
+            { Group: "Pokemon", Name: "Arceus", Time: "2022-02-10T06:08:24Z" },
         ]
     }
 );
