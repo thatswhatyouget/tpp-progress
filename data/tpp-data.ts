@@ -40,6 +40,11 @@ var Season8: TPP.Collection = {
     Scale: TPP.Scale.Days,
     Runs: []
 };
+var Season9: TPP.Collection = {
+    Name: "Season 9",
+    Scale: TPP.Scale.Days,
+    Runs: []
+};
 var Sidegames: TPP.Collection = {
     Name: "Sidegames",
     SingularName: "Sidegame",
@@ -76,7 +81,7 @@ var ShortIntermissions: TPP.Collection = {
     Scale: TPP.Scale.Minutes,
     Runs: []
 }
-var tppData: TPP.Collection[] = [Season1, Season2, Season3, Season4, Season5, Season6, Season7, Season8, Sidegames, QuickSidegames, Revisits, LongIntermissions, Intermissions, ShortIntermissions];
+var tppData: TPP.Collection[] = [Season1, Season2, Season3, Season4, Season5, Season6, Season7, Season8, Season9, Sidegames, QuickSidegames, Revisits, LongIntermissions, Intermissions, ShortIntermissions];
 
 var exports = exports || {};
 exports.tppData = tppData;

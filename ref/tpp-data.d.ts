@@ -175,6 +175,7 @@ declare var Season5: TPP.Collection;
 declare var Season6: TPP.Collection;
 declare var Season7: TPP.Collection;
 declare var Season8: TPP.Collection;
+declare var Season9: TPP.Collection;
 declare var Sidegames: TPP.Collection;
 declare var QuickSidegames: TPP.Collection;
 declare var Revisits: TPP.Collection;
