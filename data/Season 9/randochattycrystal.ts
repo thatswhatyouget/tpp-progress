@@ -25,7 +25,7 @@ Season9.Runs.push(
             },
             {
                 Group: "Badges", Name: "Plain Badge\nA (FireRed)", Image: "img/badges/plain.png",
-                Time: "", Attempts: 0,
+                Time: "2022-02-15T12:18:02.649Z", Attempts: 1,
             },
             {
                 Group: "Badges", Name: "Fog Badge\naoooo", Image: "img/badges/fog.png",
@@ -135,7 +135,7 @@ Season9.Runs.push(
             { "Group": "Pokemon", "Name": "Bagon", "Time": "2022-02-14T22:20:10.617Z" },
             { "Group": "Pokemon", "Name": "Burmy", "Time": "2022-02-14T23:47:38.328Z" },
             { "Group": "Pokemon", "Name": "Chatot", "Time": "2022-02-15T00:39:38.655Z" },
-            { "Group": "Pokemon", "Name": "Cleffa", "Time": "2022-02-15T02:43:18.944Z" }, // Odd Egg
+            // { "Group": "Pokemon", "Name": "?????", "Time": "2022-02-15T02:43:18.944Z" }, // Odd Egg
             { "Group": "Pokemon", "Name": "Floatzel", "Time": "2022-02-15T03:35:24.252Z" },
             { "Group": "Pokemon", "Name": "Hopporita", "Time": "2022-02-15T04:03:03.587Z" },
             { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2022-02-15T04:22:40.467Z" },
@@ -143,7 +143,31 @@ Season9.Runs.push(
             { "Group": "Pokemon", "Name": "Butterfree", "Time": "2022-02-15T05:34:23.194Z" },
             { "Group": "Pokemon", "Name": "Charmander", "Time": "2022-02-15T05:38:19.836Z" },
             { "Group": "Pokemon", "Name": "Grimer", "Time": "2022-02-15T05:59:09.397Z" },
-            { "Group": "Pokemon", "Name": "Spheal", "Time": "2022-02-15T07:38:23.951Z" }
+            { "Group": "Pokemon", "Name": "Spheal", "Time": "2022-02-15T07:38:23.951Z" },
+            { "Group": "Pokemon", "Name": "Doduo", "Time": "2022-02-15T07:47:10.849Z" },
+            { "Group": "Pokemon", "Name": "Chiquirtle", "Time": "2022-02-15T08:14:29.354Z" },
+            { "Group": "Pokemon", "Name": "Helioptile", "Time": "2022-02-15T08:29:00.230Z" },
+            { "Group": "Pokemon", "Name": "Ponyta", "Time": "2022-02-15T08:43:44.297Z" },
+            { "Group": "Pokemon", "Name": "Marill", "Time": "2022-02-15T09:16:28.062Z" },
+            { "Group": "Pokemon", "Name": "Jumpluff", "Time": "2022-02-15T10:56:22.324Z" },
+            { "Group": "Pokemon", "Name": "Slugma", "Time": "2022-02-15T11:00:36.283Z" },
+            { "Group": "Pokemon", "Name": "Igglybuff", "Time": "2022-02-15T12:59:48.309Z" },
+            { "Group": "Pokemon", "Name": "Krokorok", "Time": "2022-02-15T13:03:00.260Z" },
+            { "Group": "Pokemon", "Name": "Crobat", "Time": "2022-02-15T13:21:28.270Z" },
+            { "Group": "Pokemon", "Name": "Stunky", "Time": "2022-02-15T13:28:58.601Z" },
+            { "Group": "Pokemon", "Name": "Tynamo", "Time": "2022-02-15T13:33:50.291Z" },
+            { "Group": "Pokemon", "Name": "Chimchar", "Time": "2022-02-15T13:37:30.843Z" },
+            { "Group": "Pokemon", "Name": "Combusken", "Time": "2022-02-15T14:00:50.950Z" },
+            { "Group": "Pokemon", "Name": "Sudowoodo", "Time": "2022-02-15T14:28:39.309Z" },
+            { "Group": "Pokemon", "Name": "Dugtrio", "Time": "2022-02-15T17:08:43.400Z" },
+            { "Group": "Pokemon", "Name": "Zubat", "Time": "2022-02-15T18:20:35.038Z" },
+            { "Group": "Pokemon", "Name": "Crabrawler", "Time": "2022-02-15T18:24:25.942Z" },
+            { "Group": "Pokemon", "Name": "Bronzor", "Time": "2022-02-15T18:33:28.692Z" },
+            { "Group": "Pokemon", "Name": "Vibrava", "Time": "2022-02-15T18:38:58.968Z" },
+            { "Group": "Pokemon", "Name": "Buneary", "Time": "2022-02-15T20:12:50.178Z" },
+            { "Group": "Pokemon", "Name": "Togetic", "Time": "2022-02-15T21:14:44.069Z" },
+            { "Group": "Pokemon", "Name": "Squirtle", "Time": "2022-02-15T21:20:35.947Z" },
+            { "Group": "Pokemon", "Name": "Hoothoot", "Time": "2022-02-15T22:00:35.556Z" }
         ]
     }
 );
