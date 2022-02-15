@@ -17,11 +17,11 @@ Season9.Runs.push(
         Events: [
             {
                 Group: "Badges", Name: "Zephyr Badge\n!12rtyhaszs", Image: "img/badges/zephyr.png",
-                Time: "", Attempts: 0,
+                Time: "2022-02-14T12:02:12.342Z", Attempts: 9,
             },
             {
                 Group: "Badges", Name: "Hive Badge\nAHUNIgg", Image: "img/badges/hive.png",
-                Time: "", Attempts: 0,
+                Time: "2022-02-14T23:11:20.058Z", Attempts: 8,
             },
             {
                 Group: "Badges", Name: "Plain Badge\nA (FireRed)", Image: "img/badges/plain.png",
@@ -108,6 +108,42 @@ Season9.Runs.push(
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
             },
+
+            // {"Group":"Pokemon","Name":"Egg","Time":"2022-02-14T00:04:25.653Z"},
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2022-02-14T00:14:45.105Z" },
+            { "Group": "Pokemon", "Name": "Kirlia", "Time": "2022-02-14T01:05:11.506Z" },
+            { "Group": "Pokemon", "Name": "Spinarak", "Time": "2022-02-14T01:08:33.124Z" },
+            { "Group": "Pokemon", "Name": "Shinx", "Time": "2022-02-14T02:03:29.239Z" },
+            { "Group": "Pokemon", "Name": "Poliwag", "Time": "2022-02-14T02:22:17.650Z" },
+            { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2022-02-14T02:44:23.594Z" },
+            { "Group": "Pokemon", "Name": "Onix", "Time": "2022-02-14T02:52:06.684Z" },
+            { "Group": "Pokemon", "Name": "Magnemite", "Time": "2022-02-14T06:41:24.218Z" },
+            { "Group": "Pokemon", "Name": "Delcatty", "Time": "2022-02-14T09:41:44.957Z" },
+            { "Group": "Pokemon", "Name": "Lickitung", "Time": "2022-02-14T09:49:12.275Z" },
+            { "Group": "Pokemon", "Name": "NidoranM", "Time": "2022-02-14T12:50:21.205Z" },
+            { "Group": "Pokemon", "Name": "Litwick", "Time": "2022-02-14T13:03:27.099Z" },
+            { "Group": "Pokemon", "Name": "Turtwig", "Time": "2022-02-14T13:27:25.419Z" },
+            { "Group": "Pokemon", "Name": "Duskull", "Time": "2022-02-14T15:11:56.965Z" },
+            { "Group": "Pokemon", "Name": "Remoraid", "Time": "2022-02-14T16:31:40.710Z" },
+            { "Group": "Pokemon", "Name": "Excadrill", "Time": "2022-02-14T17:24:43.454Z" },
+            { "Group": "Pokemon", "Name": "Dratini", "Time": "2022-02-14T17:43:12.026Z" },
+            { "Group": "Pokemon", "Name": "NidoranF", "Time": "2022-02-14T18:13:24.012Z" },
+            { "Group": "Pokemon", "Name": "Amaura", "Time": "2022-02-14T19:20:33.328Z" },
+            { "Group": "Pokemon", "Name": "Bonsly", "Time": "2022-02-14T19:58:19.084Z" },
+            { "Group": "Pokemon", "Name": "Wingull", "Time": "2022-02-14T20:03:13.649Z" },
+            { "Group": "Pokemon", "Name": "Skipleef", "Time": "2022-02-14T20:15:42.683Z" },
+            { "Group": "Pokemon", "Name": "Bagon", "Time": "2022-02-14T22:20:10.617Z" },
+            { "Group": "Pokemon", "Name": "Burmy", "Time": "2022-02-14T23:47:38.328Z" },
+            { "Group": "Pokemon", "Name": "Chatot", "Time": "2022-02-15T00:39:38.655Z" },
+            { "Group": "Pokemon", "Name": "Cleffa", "Time": "2022-02-15T02:43:18.944Z" }, // Odd Egg
+            { "Group": "Pokemon", "Name": "Floatzel", "Time": "2022-02-15T03:35:24.252Z" },
+            { "Group": "Pokemon", "Name": "Hopporita", "Time": "2022-02-15T04:03:03.587Z" },
+            { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2022-02-15T04:22:40.467Z" },
+            { "Group": "Pokemon", "Name": "Jolteon", "Time": "2022-02-15T05:28:57.866Z" },
+            { "Group": "Pokemon", "Name": "Butterfree", "Time": "2022-02-15T05:34:23.194Z" },
+            { "Group": "Pokemon", "Name": "Charmander", "Time": "2022-02-15T05:38:19.836Z" },
+            { "Group": "Pokemon", "Name": "Grimer", "Time": "2022-02-15T05:59:09.397Z" },
+            { "Group": "Pokemon", "Name": "Spheal", "Time": "2022-02-15T07:38:23.951Z" }
         ]
     }
 );
