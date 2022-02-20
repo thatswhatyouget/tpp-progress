@@ -50,7 +50,7 @@ Season9.Runs.push(
 
             {
                 Group: "Badges", Name: "Boulder Badge\nEWWYPPP", Image: "img/badges/boulder.png",
-                Time: "", Attempts: 0,
+                Time: "2022-02-19T23:15:12.192Z", Attempts: 1,
             },
             {
                 Group: "Badges", Name: "Cascade Badge\ndπ", Image: "img/badges/cascade.png",
@@ -326,6 +326,28 @@ Season9.Runs.push(
             { "Group": "Pokemon", "Name": "Zapdos", "Time": "2022-02-19T19:17:15.907Z" },
             { "Group": "Pokemon", "Name": "Meganium", "Time": "2022-02-19T19:33:40.455Z" },
             { "Group": "Pokemon", "Name": "Cyndaquil", "Time": "2022-02-19T19:40:07.388Z" },
+            { "Group": "Pokemon", "Name": "Cutiefly", "Time": "2022-02-19T21:36:46.012Z" },
+            { "Group": "Pokemon", "Name": "Ariados", "Time": "2022-02-19T21:39:36.735Z" },
+            { "Group": "Pokemon", "Name": "Ho-Oh", "Time": "2022-02-19T21:51:21.872Z" },
+            { "Group": "Pokemon", "Name": "Sandslash", "Time": "2022-02-20T02:10:48.304Z" },
+            { "Group": "Pokemon", "Name": "Teddiursa", "Time": "2022-02-20T02:14:22.869Z" },
+            { "Group": "Pokemon", "Name": "Sylveon", "Time": "2022-02-20T05:34:24.169Z" },
+            { "Group": "Pokemon", "Name": "Celebi", "Time": "2022-02-20T05:36:08.269Z" },
+            { "Group": "Pokemon", "Name": "Clauncher", "Time": "2022-02-20T07:35:08.286Z" },
+            { "Group": "Pokemon", "Name": "Tentacool", "Time": "2022-02-20T07:37:17.285Z" },
+            { "Group": "Pokemon", "Name": "Magby", "Time": "2022-02-20T07:52:02.104Z" },
+            { "Group": "Pokemon", "Name": "Cloyster", "Time": "2022-02-20T09:01:43.322Z" },
+            { "Group": "Pokemon", "Name": "Nidoqueen", "Time": "2022-02-20T09:05:04.621Z" },
+            { "Group": "Pokemon", "Name": "Eelektrik", "Time": "2022-02-20T09:18:58.570Z" },
+            { "Group": "Pokemon", "Name": "Loudred", "Time": "2022-02-20T09:23:59.069Z" },
+            { "Group": "Pokemon", "Name": "Porygon2", "Time": "2022-02-20T09:30:19.728Z" },
+            { "Group": "Pokemon", "Name": "Roselia", "Time": "2022-02-20T09:40:34.045Z" },
+            { "Group": "Pokemon", "Name": "Dusknoir", "Time": "2022-02-20T09:46:39.193Z" },
+            { "Group": "Pokemon", "Name": "Houndour", "Time": "2022-02-20T09:50:48.184Z" },
+            { "Group": "Pokemon", "Name": "Gengar", "Time": "2022-02-20T10:22:43.351Z" },
+            { "Group": "Pokemon", "Name": "Miltank", "Time": "2022-02-20T10:28:19.389Z" },
+            { "Group": "Pokemon", "Name": "Electrike", "Time": "2022-02-20T10:30:03.459Z" },
+            { "Group": "Pokemon", "Name": "Lugia", "Time": "2022-02-20T10:40:37.870Z" },
         ]
     }
 );
