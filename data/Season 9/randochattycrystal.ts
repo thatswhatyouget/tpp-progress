@@ -116,6 +116,40 @@ Season9.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
 
+            {
+                Group: "Elite Four Rematch", Name: "Etr", Image: "img/hosts/etr.png", Class: "Rematch",
+                Time: "", Attempts: 0,
+            },
+            {
+                Group: "Elite Four Rematch", Name: "\u2640\u2640R", Image: "img/hosts/r.png", Class: "Rematch",
+                Time: "", Attempts: 0,
+            },
+            {
+                Group: "Elite Four Rematch", Name: "KKKB", Image: "img/hosts/kkkb.png",
+                Time: "", Attempts: 0,
+            },
+            {
+                Group: "Elite Four Rematch", Name: "A (Emerald)", Image: "img/hosts/a.png", Class: "Rematch",
+                Time: "", Attempts: 0,
+            },
+            {
+                Group: "Champions", Name: "Cyan", Image: "img/hosts/cyan.png", Class: "Rematch",
+                Time: "", Attempts: 0,
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                    { Pokemon: "Milotic", Nickname: "JRQM", Level: 100, Gender: "Male", Number: 350, IDNo: "56163" },
+                    { Pokemon: "Excadrill", Nickname: "Cff((t(", Level: 100, Gender: "Male", Number: 530, IDNo: "56163" },
+                    { Pokemon: "Moltres", Nickname: "QQQ II", Level: 94, Number: 146, IDNo: "56163" },
+                    { Pokemon: "Salamence", Nickname: "Z-SSq", Level: 100, Gender: "Female", Number: 373, IDNo: "56163" },
+                    { Pokemon: "Chatot", Nickname: "KENYA", Level: 97, Gender: "Male", Number: 441, IDNo: "01001" },
+                    { Pokemon: "Ditto", Nickname: "iD", Level: 100, Number: 132, IDNo: "56163", Shiny: true },
+                ],
+                FirstAttemptDate: "2022-02-27T04:59:51.229Z",
+                Image: "img/ribbons/champion.png"
+            },
+
             // {"Group":"Pokemon","Name":"Egg","Time":"2022-02-14T00:04:25.653Z"},
             { "Group": "Pokemon", "Name": "Ditto", "Time": "2022-02-14T00:14:45.105Z" },
             { "Group": "Pokemon", "Name": "Kirlia", "Time": "2022-02-14T01:05:11.506Z" },
@@ -502,6 +536,16 @@ Season9.Runs.push(
             { "Group": "Pokemon", "Name": "Marowak", "Time": "2022-02-25T13:32:58.752Z" },
             { "Group": "Pokemon", "Name": "Corsola", "Time": "2022-02-25T15:48:57.731Z" },
             { "Group": "Pokemon", "Name": "Blaziken", "Time": "2022-02-25T19:03:47.383Z" },
+            { "Group": "Pokemon", "Name": "Porygon", "Time": "2022-02-25T19:25:56.796Z" },
+            { "Group": "Pokemon", "Name": "Tyranitar", "Time": "2022-02-25T19:48:53.738Z" },
+            { "Group": "Pokemon", "Name": "Dragonite", "Time": "2022-02-25T20:52:28.717Z" },
+            { "Group": "Pokemon", "Name": "Metagross", "Time": "2022-02-25T22:08:27.851Z" },
+            { "Group": "Pokemon", "Name": "Kyogre", "Time": "2022-02-25T22:29:53.454Z" },
+            { "Group": "Pokemon", "Name": "Dusclops", "Time": "2022-02-26T00:03:38.702Z" },
+            { "Group": "Pokemon", "Name": "Ribombee", "Time": "2022-02-26T01:06:03.556Z" },
+            { "Group": "Pokemon", "Name": "Darkrai", "Time": "2022-02-26T02:18:54.500Z" },
+            { "Group": "Pokemon", "Name": "Mewtwo", "Time": "2022-02-26T22:22:35.078Z" },
+            { "Group": "Pokemon", "Name": "Mew", "Time": "2022-02-27T02:45:27.951Z" }
         ]
     }
 );
