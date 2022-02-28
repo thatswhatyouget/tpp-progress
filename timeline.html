@@ -94,8 +94,8 @@
                             ColorPrimary: "transparent",
                             ColorSecondary: "transparent",
                             Ongoing: true,
-                            StartDate: "2014-02-13T01:22:45Z",
-                            StartTime: Date.parse("2014-02-13T01:22:45Z") / 1000,
+                            StartDate: tppData[0].Runs[0].StartDate,
+                            StartTime: tppData[0].Runs[0].StartTime,
                             Duration: new Date().toISOString(),
                             Events: [],
                             ContainsRunsFrom: tppData.sort(function (c1, c2) { return c1.Scale - c2.Scale }).map(function (c) { return c.Name; })
