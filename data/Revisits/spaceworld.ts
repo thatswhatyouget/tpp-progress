@@ -10,7 +10,7 @@ Revisits.Runs.push(
         HostImage: "img/hosts/sss.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/q6noy4/silas_snek_the_silent_snake_declares_its_tiku/",
         Region: "Nihon",
-        //FinalStateLink: "./states/Season 8/spaceworld.json",
+        FinalStateLink: "./states/Season 9/spaceworld-revisit.json",
         Events: [
         ],
         CopyEvents: ["Spaceworld Gold Reforged"]

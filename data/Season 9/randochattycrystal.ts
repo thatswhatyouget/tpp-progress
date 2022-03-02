@@ -6,14 +6,14 @@ Season9.Runs.push(
         ColorSecondary: "#4f81bd",
         BackgroundImage: "linear-gradient(-90deg, #2989cc 0%, #ffffff 100%)",
         StartDate: "2022-02-14T00:00:00Z",
-        Duration: "2023-03-08T00:40:00Z",
+        Duration: "2022-02-28T04:07:00Z",
         HostName: "JUANA",
         HostImage: "img/hosts/kkkb.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/m37nzd/the_hosts_of_the_voices_after_the_7th_anniversary/",
         Region: "Johto",
-        //AdditionalRegions: [{ Name: "Kanto", Time: "5d 7h 39m" }],
+        AdditionalRegions: [{ Name: "Kanto", Time: "2022-02-18T11:53:15.067Z" }],
         Pokedex: "National",
-        //FinalStateLink:"./states/Season 8/chattycrystal.json",
+        FinalStateLink: "./states/Season 9/randochattycrystal.json",
         Events: [
             {
                 Group: "Badges", Name: "Zephyr Badge\n!12rtyhaszs", Image: "img/badges/zephyr.png",
@@ -118,32 +118,32 @@ Season9.Runs.push(
 
             {
                 Group: "Elite Four Rematch", Name: "Etr", Image: "img/hosts/etr.png", Class: "Rematch",
-                Time: "", Attempts: 0,
+                Time: "2022-02-27T05:26:22.870Z", Attempts: 1,
             },
             {
                 Group: "Elite Four Rematch", Name: "\u2640\u2640R", Image: "img/hosts/r.png", Class: "Rematch",
-                Time: "", Attempts: 0,
+                Time: "2022-02-27T05:40:05.092Z", Attempts: 1,
             },
             {
                 Group: "Elite Four Rematch", Name: "KKKB", Image: "img/hosts/kkkb.png",
-                Time: "", Attempts: 0,
+                Time: "2022-02-27T06:36:50.775Z", Attempts: 2,
             },
             {
                 Group: "Elite Four Rematch", Name: "A (Emerald)", Image: "img/hosts/a.png", Class: "Rematch",
-                Time: "", Attempts: 0,
+                Time: "2022-02-27T11:42:10.810Z", Attempts: 4,
             },
             {
                 Group: "Champions", Name: "Cyan", Image: "img/hosts/cyan.png", Class: "Rematch",
-                Time: "", Attempts: 0,
+                Time: "2022-02-28T02:43:16.523Z", Attempts: 3,
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-02-28T02:44:00Z", Attempts: 19, Party: [
                     { Pokemon: "Milotic", Nickname: "JRQM", Level: 100, Gender: "Male", Number: 350, IDNo: "56163" },
                     { Pokemon: "Excadrill", Nickname: "Cff((t(", Level: 100, Gender: "Male", Number: 530, IDNo: "56163" },
-                    { Pokemon: "Moltres", Nickname: "QQQ II", Level: 94, Number: 146, IDNo: "56163" },
+                    { Pokemon: "Moltres", Nickname: "QQQ II", Level: 100, Number: 146, IDNo: "56163" },
                     { Pokemon: "Salamence", Nickname: "Z-SSq", Level: 100, Gender: "Female", Number: 373, IDNo: "56163" },
-                    { Pokemon: "Chatot", Nickname: "KENYA", Level: 97, Gender: "Male", Number: 441, IDNo: "01001" },
+                    { Pokemon: "Chatot", Nickname: "KENYA", Level: 100, Gender: "Male", Number: 441, IDNo: "01001" },
                     { Pokemon: "Ditto", Nickname: "iD", Level: 100, Number: 132, IDNo: "56163", Shiny: true },
                 ],
                 FirstAttemptDate: "2022-02-27T04:59:51.229Z",
