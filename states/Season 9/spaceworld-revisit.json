@@ -2603,7 +2603,7 @@
         },
         {
             "group": "Pokemon",
-            "name": "Mr.Mime",
+            "name": "Mr. Mime",
             "time": "2022-02-11T01:54:58.375Z"
         },
         {
@@ -11947,7 +11947,7 @@
                                 }
                             ],
                             "id": 122,
-                            "name": "Mr.Mime",
+                            "name": "Mr. Mime",
                             "national_dex": 122,
                             "type1": "Psychic",
                             "type2": "Psychic"

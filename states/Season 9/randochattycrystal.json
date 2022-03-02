@@ -2936,7 +2936,7 @@
         },
         {
             "group": "Pokemon",
-            "name": "Mr.Mime",
+            "name": "Mr. Mime",
             "time": "2022-02-19T17:53:47.895Z"
         },
         {
@@ -26007,7 +26007,7 @@
                                 }
                             ],
                             "id": 122,
-                            "name": "Mr.Mime",
+                            "name": "Mr. Mime",
                             "national_dex": 122,
                             "type1": "Psychic",
                             "type2": "Fairy"
@@ -29706,7 +29706,7 @@
                                 "type": "Normal"
                             }
                         ],
-                        "name": "Mr.Mime",
+                        "name": "Mr. Mime",
                         "original_trainer": {
                             "gender": "Female",
                             "id": 56163,
@@ -29743,7 +29743,7 @@
                                 }
                             ],
                             "id": 122,
-                            "name": "Mr.Mime",
+                            "name": "Mr. Mime",
                             "national_dex": 122,
                             "type1": "Psychic",
                             "type2": "Fairy"

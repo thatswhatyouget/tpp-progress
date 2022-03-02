@@ -359,7 +359,7 @@ Season9.Runs.push(
             { "Group": "Pokemon", "Name": "Goldeen", "Time": "2022-02-19T17:30:17.609Z" },
             { "Group": "Pokemon", "Name": "Raticate", "Time": "2022-02-19T17:35:07.130Z" },
             { "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2022-02-19T17:48:09.793Z" },
-            { "Group": "Pokemon", "Name": "Mr.Mime", "Time": "2022-02-19T17:53:47.895Z" },
+            { "Group": "Pokemon", "Name": "Mr. Mime", "Time": "2022-02-19T17:53:47.895Z" },
             { "Group": "Pokemon", "Name": "Vaporeon", "Time": "2022-02-19T17:55:44.140Z" },
             { "Group": "Pokemon", "Name": "Kingdra", "Time": "2022-02-19T17:58:27.200Z" },
             { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "2022-02-19T18:02:28.849Z" },
