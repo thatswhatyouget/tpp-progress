@@ -481,7 +481,7 @@ Season6.Runs.push(
             { "Group": "Pokemon", "Name": "Aurorus", "Time": "2019-10-17T14:07:07.546Z" },
             { "Group": "Pokemon", "Name": "Swoobat", "Time": "2019-10-17T14:28:33.603Z" },
             { "Group": "Pokemon", "Name": "Bruxish", "Time": "2019-10-17T14:38:36.562Z" },
-            { "Group": "Pokemon", "Name": "Farfetch’d", "Time": "2019-10-17T14:49:53.560Z" },
+            { "Group": "Pokemon", "Name": "Farfetch'd", "Time": "2019-10-17T14:49:53.560Z" },
             { "Group": "Pokemon", "Name": "Meloetta", "Time": "2019-10-17T17:49:12.014Z" },
             { "Group": "Pokemon", "Name": "Dhelmise", "Time": "2019-10-17T18:27:46.885Z" },
             { "Group": "Pokemon", "Name": "Altaria", "Time": "2019-10-17T18:39:34.467Z" },
