@@ -36824,7 +36824,7 @@
                             "gender_ratio": 127,
                             "growth_rate": "Medium Fast",
                             "id": 122,
-                            "name": "Mr.Mime",
+                            "name": "Mr. Mime",
                             "national_dex": 122,
                             "type1": "Psychic",
                             "type2": "Fairy",
@@ -51830,7 +51830,7 @@
         },
         {
             "group": "Pokemon",
-            "name": "Mr.Mime",
+            "name": "Mr. Mime",
             "time": "2021-03-01T16:07:12.422Z"
         },
         {

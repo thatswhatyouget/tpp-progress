@@ -2,10 +2,11 @@
 Sidegames.Runs.push(
     {
         RunName: "DBZ Team Training",
+        Class: "dbzteamtraining",
         BackgroundImage: "linear-gradient(to bottom, rgba(255,239,16,1) 50%, rgba(255,189,0,1) 65%, rgba(230,132,0,1) 80%, rgba(222,74,0,1) 90%)",
         ColorPrimary: "#E67300",
         ColorSecondary: "#AD4200",
-        Duration: "2021-11-02T21:00:00Z",
+        Duration: "2021-10-29T23:28:10+01:00",
         StartDate: "2021-05-14T07:09:18+01:00",
         HostName: "Pan",
         HostImage: "img/hosts/paula.png",
@@ -23,19 +24,6 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Majin Badge", Image: "img/badges/marsh.png", Time: "2021-08-21T18:13:59.880Z", Attempts: 1 },
             { Group: "Badges", Name: "Wisdom Badge", Image: "img/badges/volcano.png", Time: "2021-08-21T19:34:53.783Z", Attempts: 3 },
             { Group: "Badges", Name: "Pilaf Badge", Image: "img/badges/earth.png", Time: "2021-08-21T20:17:23.399Z", Attempts: 2 },
-
-            { Group: "Elite Four", Name: "East Kai", Image: "img/trainers/fighters/eastkai.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "South Kai", Image: "img/trainers/fighters/southkai.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "West Kai", Image: "img/trainers/fighters/westkai.png", Time: "", Attempts: 0 },
-            { Group: "Elite Four", Name: "North Kai", Image: "img/trainers/fighters/northkai.png", Time: "", Attempts: 0 },
-
-            { Group: "Champions", Name: "Green", Image: "img/trainers/firered/green.png", Time: "", Attempts: 0 },
-
-            <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [],
-                Image: "img/ribbons/champion.png",
-                FirstAttemptDate: ""
-            },
 
             // sidegame part one
             { Group: "Pokemon", Name: "Gohan", Time: "2021-05-15T06:41:35+01:00" },
@@ -62,8 +50,9 @@ Sidegames.Runs.push(
             { Group: "Pokemon", Name: "Yamcha", Time: "2021-08-21T20:24:26.259Z" },
 
             // sidegame part two
-            { Group: "Pokemon", Name: "Majin Buu", Time: "2021-09-19T07:58:16.071Z" },
-            { Group: "Pokemon", Name: "Janemba", Time: "2021-10-07T23:04:26.286Z"},
+            { Group: "Pokemon", Name: "Majin Buu", Time: "2021-09-19T00:44:19+01:00" },
+            { Group: "Pokemon", Name: "Janemba", Time: "2021-10-07T22:31:32+01:00" },
+            { Group: "Pokemon", Name: "Dabura", Time: "2021-10-27T23:42:37+01:00" },
         ]
     }
 );

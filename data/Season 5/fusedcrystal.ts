@@ -214,7 +214,7 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Class": "Seel", "Time": "7d 20h 28m", Name: "Seelther" },
             { "Group": "Pokemon", "Class": "Meganium", "Time": "8d 2h 32m", Name: "Megastoise" },
             { "Group": "Pokemon", "Class": "Clefable", "Time": "8d 2h 59m", Name: "Cleffree" },
-            { "Group": "Pokemon", "Class": "Mr.Mime", "Time": "8d 6h 7m", Name: "Mr.Tank" },
+            { "Group": "Pokemon", "Class": "Mr. Mime", "Time": "8d 6h 7m", Name: "Mr.Tank" },
             { "Group": "Pokemon", "Class": "Poliwag", "Time": "8d 8h 48m", Name: "Poliwastly" },
             { "Group": "Pokemon", "Class": "Slowking", "Time": "8d 9h 59m", Name: "Slowmory" },
             { "Group": "Pokemon", "Class": "Mewtwo", "Time": "8d 10h 19m", Name: "Mewmew" },

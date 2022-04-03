@@ -176,7 +176,7 @@ Season5.Runs.push(
             { "Group": "Pokemon", "Name": "Tangela", "Time": "5d 10h 20m" },
             { "Group": "Pokemon", "Name": "Hoothoot", "Time": "5d 16h 29m" },
             { "Group": "Pokemon", "Name": "Drowzee", "Time": "5d 20h 59m" },
-            { "Group": "Pokemon", "Name": "Nidoran", "Time": "5d 21h 12m" },
+            { "Group": "Pokemon", "Name": "NidoranF", "Time": "5d 21h 12m" },
             { "Group": "Pokemon", "Name": "Magnemite", "Time": "5d 21h 48m" },
             { "Group": "Pokemon", "Name": "Gastly", "Time": "6d 0h 23m" },
             { "Group": "Pokemon", "Name": "Porygon", "Time": "6d 0h 57m" },
