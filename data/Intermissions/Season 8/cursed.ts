@@ -14,7 +14,7 @@ Intermissions.Runs.push(
         FinalStateLink: "./states/Season 8/cursed.json",
         Events: [
             {
-                "Group": "Badge",
+                "Group": "Badges",
                 "Name": "Marsh Badge",
                 "Time": "2021-10-31T22:37:43.684Z",
                 "Image": "img/badges/marsh.png",
