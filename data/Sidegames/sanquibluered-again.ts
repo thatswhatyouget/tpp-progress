@@ -38,6 +38,7 @@ Sidegames.Runs.push(
             },
 
             { Group: "Pokemon", Name: "Snivy", Time: "2022-04-12T20:57:30.018Z" },
+            { Group: "Pokemon", Name: "Staraptor", Time: "2022-04-12T21:49:15.142Z" },
         ]
     }
 );
@@ -48,7 +49,7 @@ Sidegames.Runs.push(
         ColorPrimary: "#cc6b5b",
         ColorSecondary: "#ff8484",
         Duration: "9d",
-        StartDate: "2022-04-12T20:44:00Z",
+        StartDate: "2022-04-12T20:50:00Z",
         HostName: "CUV",
         HostImage: "img/hosts/b.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/n8sv79/multiverse_champion_basil_benson_an_the_red_and/",
