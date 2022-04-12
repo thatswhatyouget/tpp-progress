@@ -1,0 +1,4746 @@
+{
+    "blue": {
+        "badges": 255,
+        "battle_kind": "Trainer",
+        "coins": 0,
+        "daycare": [],
+        "enemy_party": [
+            {
+                "active": false,
+                "cp": 1870,
+                "fitness": 247851,
+                "health": [
+                    0,
+                    188
+                ],
+                "species": {
+                    "base_stats": {
+                        "attack": 65,
+                        "defense": 75,
+                        "hp": 110,
+                        "special_attack": 105,
+                        "special_defense": 105,
+                        "speed": 30
+                    },
+                    "id": 225,
+                    "national_dex": 225,
+                    "type1": "Psychic",
+                    "type2": "Psychic",
+                    "catch_rate": 50,
+                    "gender_ratio": 127,
+                    "growth_rate": "Medium Slow",
+                    "name": "Reuniclus",
+                    "held_items": []
+                }
+            },
+            {
+                "active": false,
+                "cp": 1403,
+                "fitness": 162756,
+                "health": [
+                    0,
+                    183
+                ],
+                "species": {
+                    "base_stats": {
+                        "attack": 50,
+                        "defense": 50,
+                        "hp": 100,
+                        "special_attack": 86,
+                        "special_defense": 86,
+                        "speed": 70
+                    },
+                    "id": 130,
+                    "national_dex": 130,
+                    "type1": "Normal",
+                    "type2": "Flying",
+                    "catch_rate": 90,
+                    "gender_ratio": 127,
+                    "growth_rate": "Medium Fast",
+                    "name": "Noctowl",
+                    "held_items": []
+                }
+            },
+            {
+                "active": false,
+                "cp": 1826,
+                "fitness": 223920,
+                "health": [
+                    0,
+                    161
+                ],
+                "species": {
+                    "base_stats": {
+                        "attack": 100,
+                        "defense": 80,
+                        "hp": 80,
+                        "special_attack": 80,
+                        "special_defense": 80,
+                        "speed": 100
+                    },
+                    "id": 49,
+                    "national_dex": 49,
+                    "type1": "Ground",
+                    "type2": "Dragon",
+                    "catch_rate": 45,
+                    "gender_ratio": 127,
+                    "growth_rate": "Medium Slow",
+                    "name": "Flygon",
+                    "held_items": []
+                }
+            },
+            {
+                "active": false,
+                "cp": 1622,
+                "fitness": 287180,
+                "health": [
+                    0,
+                    214
+                ],
+                "species": {
+                    "base_stats": {
+                        "attack": 58,
+                        "defense": 58,
+                        "hp": 125,
+                        "special_attack": 76,
+                        "special_defense": 76,
+                        "speed": 67
+                    },
+                    "id": 114,
+                    "national_dex": 114,
+                    "type1": "Water",
+                    "type2": "Electric",
+                    "catch_rate": 75,
+                    "gender_ratio": 127,
+                    "growth_rate": "Slow",
+                    "name": "Lanturn",
+                    "held_items": []
+                }
+            },
+            {
+                "active": true,
+                "cp": 827,
+                "fitness": 179972,
+                "health": [
+                    145,
+                    145
+                ],
+                "species": {
+                    "base_stats": {
+                        "attack": 74,
+                        "defense": 50,
+                        "hp": 59,
+                        "special_attack": 42,
+                        "special_defense": 42,
+                        "speed": 35
+                    },
+                    "id": 212,
+                    "national_dex": 212,
+                    "type1": "Ground",
+                    "type2": "Ghost",
+                    "catch_rate": 190,
+                    "gender_ratio": 127,
+                    "growth_rate": "Medium Fast",
+                    "name": "Golett",
+                    "held_items": []
+                }
+            }
+        ],
+        "enemy_trainers": [
+            {
+                "class_id": 33,
+                "id": 1,
+                "name": "LORELEI",
+                "class_name": "Lorelei",
+                "pic_id": 33
+            }
+        ],
+        "evolution_is_happening": false,
+        "gender": "Female",
+        "id": 64615,
+        "in_battle": true,
+        "items": {
+            "items": [
+                {
+                    "count": 1,
+                    "id": 6,
+                    "name": "Bicycle"
+                },
+                {
+                    "count": 1,
+                    "id": 76,
+                    "name": "Old Rod"
+                },
+                {
+                    "count": 1,
+                    "id": 69,
+                    "name": "Coin Case"
+                },
+                {
+                    "id": 197,
+                    "name": "HM02 Fly"
+                },
+                {
+                    "id": 73,
+                    "name": "Poké Flute"
+                },
+                {
+                    "id": 198,
+                    "name": "HM03 Surf"
+                },
+                {
+                    "id": 199,
+                    "name": "HM04 Strength"
+                },
+                {
+                    "id": 48,
+                    "name": "Card Key"
+                },
+                {
+                    "count": 1,
+                    "id": 205,
+                    "name": "TM05 Rock Tomb"
+                },
+                {
+                    "count": 1,
+                    "id": 208,
+                    "name": "TM08 Wing Attack"
+                },
+                {
+                    "count": 1,
+                    "id": 83,
+                    "name": "Max Elixer"
+                },
+                {
+                    "count": 2,
+                    "id": 18,
+                    "name": "Hyper Potion"
+                },
+                {
+                    "count": 1,
+                    "id": 213,
+                    "name": "TM13 Fury Attack"
+                },
+                {
+                    "count": 2,
+                    "id": 35,
+                    "name": "Hp Up"
+                },
+                {
+                    "count": 1,
+                    "id": 37,
+                    "name": "Iron"
+                },
+                {
+                    "id": 43,
+                    "name": "Secret Key"
+                },
+                {
+                    "count": 1,
+                    "id": 82,
+                    "name": "Elixer"
+                },
+                {
+                    "count": 1,
+                    "id": 38,
+                    "name": "Carbos"
+                },
+                {
+                    "count": 1,
+                    "id": 20,
+                    "name": "Potion"
+                },
+                {
+                    "count": 71,
+                    "id": 4,
+                    "name": "Poké Ball"
+                }
+            ],
+            "pc": [
+                {
+                    "count": 1,
+                    "id": 16,
+                    "name": "Full Restore"
+                },
+                {
+                    "count": 1,
+                    "id": 209,
+                    "name": "TM09 Bullet Punch"
+                },
+                {
+                    "count": 1,
+                    "id": 63,
+                    "name": "S.S.Ticket"
+                },
+                {
+                    "count": 1,
+                    "id": 238,
+                    "name": "TM38 Blizzard"
+                },
+                {
+                    "count": 1,
+                    "id": 245,
+                    "name": "TM45 Barrier"
+                },
+                {
+                    "count": 1,
+                    "id": 203,
+                    "name": "TM03 Ember"
+                },
+                {
+                    "count": 1,
+                    "id": 202,
+                    "name": "TM02 Stun Spore"
+                },
+                {
+                    "count": 1,
+                    "id": 229,
+                    "name": "TM29 Amnesia"
+                },
+                {
+                    "id": 196,
+                    "name": "HM01 Cut"
+                },
+                {
+                    "count": 1,
+                    "id": 232,
+                    "name": "TM32 Screech"
+                }
+            ]
+        },
+        "map_id": 246,
+        "money": 4743,
+        "name": "-??((",
+        "options": {
+            "battle_scene": "On",
+            "battle_style": "Shift",
+            "text_speed": "Fast"
+        },
+        "rival_name": "YYRAAA",
+        "x": 4,
+        "y": 2,
+        "pc": {
+            "boxes": [
+                {
+                    "box_contents": [],
+                    "box_name": "Box 1",
+                    "box_number": 1
+                },
+                {
+                    "box_contents": [
+                        {
+                            "box_slot": 1,
+                            "catchrate": 190,
+                            "cp": 391,
+                            "evs": {
+                                "attack": 0,
+                                "defense": 0,
+                                "hp": 0,
+                                "special_attack": 0,
+                                "special_defense": 0,
+                                "speed": 0
+                            },
+                            "experience": {
+                                "current": 27000,
+                                "next_level": 29791,
+                                "this_level": 27000,
+                                "remaining": 2791
+                            },
+                            "fitness": 43300,
+                            "health": [
+                                77
+                            ],
+                            "ivs": {
+                                "attack": 10,
+                                "defense": 12,
+                                "hp": 1,
+                                "special_attack": 7,
+                                "special_defense": 7,
+                                "speed": 0
+                            },
+                            "level": 30,
+                            "moves": [
+                                {
+                                    "id": 212,
+                                    "pp": 15,
+                                    "pp_up": 0,
+                                    "name": "Dark Pulse",
+                                    "accuracy": 255,
+                                    "base_power": 80,
+                                    "type": "Dark"
+                                },
+                                {
+                                    "id": 123,
+                                    "pp": 20,
+                                    "pp_up": 0,
+                                    "name": "Smog",
+                                    "accuracy": 178,
+                                    "base_power": 30,
+                                    "type": "Poison"
+                                },
+                                {
+                                    "id": 118,
+                                    "pp": 10,
+                                    "pp_up": 0,
+                                    "name": "Metronome",
+                                    "accuracy": 255,
+                                    "base_power": 0,
+                                    "type": "Normal"
+                                },
+                                {
+                                    "id": 2,
+                                    "pp": 25,
+                                    "pp_up": 0,
+                                    "name": "Karate Chop",
+                                    "accuracy": 255,
+                                    "base_power": 50,
+                                    "type": "Fighting"
+                                }
+                            ],
+                            "name": "quac",
+                            "original_trainer": {
+                                "id": 64615,
+                                "name": "-??(("
+                            },
+                            "personality_value": 2886204633,
+                            "species": {
+                                "base_stats": {
+                                    "attack": 44,
+                                    "defense": 50,
+                                    "hp": 62,
+                                    "special_attack": 47,
+                                    "special_defense": 47,
+                                    "speed": 55
+                                },
+                                "id": 199,
+                                "national_dex": 199,
+                                "type1": "Water",
+                                "type2": "Flying",
+                                "catch_rate": 190,
+                                "gender_ratio": 127,
+                                "growth_rate": "Medium Fast",
+                                "name": "Ducklett",
+                                "held_items": []
+                            },
+                            "stats": {
+                                "attack": 37,
+                                "defense": 42,
+                                "hp": 77,
+                                "special_attack": 37,
+                                "special_defense": 37,
+                                "speed": 38
+                            },
+                            "status": 0,
+                            "next_move": {
+                                "type": "Normal",
+                                "level": 37
+                            },
+                            "gender": "Male",
+                            "shiny": false,
+                            "met": {
+                                "caught": "2022-04-11T03:46:06.581Z",
+                                "evolved": []
+                            }
+                        }
+                    ],
+                    "box_name": "Box 2",
+                    "box_number": 2
+                }
+            ],
+            "current_box_number": 2
+        },
+        "caught": 29,
+        "seen": 217,
+        "battle_party": [],
+        "ball_count": 71,
+        "level_cap": 100,
+        "map_name": "Bruno's Hall",
+        "party_fitness": 1620341,
+        "events": [
+            {
+                "group": "Pokemon",
+                "name": "Vanilluxe",
+                "time": "2022-04-10T07:39:10.062Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Reshiram",
+                "time": "2022-04-10T07:39:10.062Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Quilava",
+                "time": "2022-04-10T07:39:10.062Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Marshtomp",
+                "time": "2022-04-10T07:39:10.063Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Honedge",
+                "time": "2022-04-10T07:39:10.063Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Hydreigon",
+                "time": "2022-04-10T07:39:10.063Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Hoothoot",
+                "time": "2022-04-10T07:40:05.320Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Garbodor",
+                "time": "2022-04-10T07:40:05.322Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Lombre",
+                "time": "2022-04-10T07:40:05.322Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "S.S. Anne 1F",
+                "time": "2022-04-10T07:40:59.895Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "S.S. Anne B1F",
+                "time": "2022-04-10T07:52:10.947Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #1",
+                "time": "2022-04-10T08:08:15.157Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Vermilion City",
+                "time": "2022-04-10T08:08:41.441Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Vermilion Harbor (Vermilion City)",
+                "time": "2022-04-10T08:10:33.284Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "S.S. Anne 2F",
+                "time": "2022-04-10T08:19:54.607Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "S.S. Anne 3F",
+                "time": "2022-04-10T08:20:07.003Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "S.S. Anne Cabin",
+                "time": "2022-04-10T08:49:02.885Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Center (Vermilion City)",
+                "time": "2022-04-10T09:05:24.004Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Gym (Vermilion City)",
+                "time": "2022-04-10T09:07:34.601Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Vermilion House",
+                "time": "2022-04-10T09:34:25.917Z"
+            },
+            {
+                "group": "Badge",
+                "name": "Thunder Badge",
+                "time": "2022-04-10T09:40:16.844Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 6",
+                "time": "2022-04-10T09:41:49.934Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Underground Path",
+                "time": "2022-04-10T09:42:32.127Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 5",
+                "time": "2022-04-10T09:43:31.396Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cerulean City",
+                "time": "2022-04-10T09:44:07.557Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cerulean Bike Shop",
+                "time": "2022-04-10T09:45:33.948Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cerulean Pokémon Center",
+                "time": "2022-04-10T09:48:49.840Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cerulean House",
+                "time": "2022-04-10T09:50:33.643Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 9",
+                "time": "2022-04-10T09:52:12.095Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 10",
+                "time": "2022-04-10T10:16:05.269Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Rock Tunnel Pokémon Center",
+                "time": "2022-04-10T10:16:30.381Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Rock Tunnel",
+                "time": "2022-04-10T10:22:05.232Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #2",
+                "time": "2022-04-10T10:47:14.254Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Xerneas",
+                "dexNum": 50,
+                "time": "2022-04-10T10:55:47.086Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Xerneas",
+                "time": "2022-04-10T10:56:45.519Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #3",
+                "time": "2022-04-10T11:44:47.325Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 9,
+                "class_id": 9,
+                "name": "Sailor SAILOR",
+                "time": "2022-04-10T12:01:28.035Z",
+                "attempts": 2
+            },
+            {
+                "group": "First Visit",
+                "name": "Lavender Town",
+                "time": "2022-04-10T12:32:34.846Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Lavender Poké Mart",
+                "time": "2022-04-10T12:33:20.719Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Lavender Pokémon Center",
+                "time": "2022-04-10T12:37:39.899Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 8",
+                "time": "2022-04-10T12:38:39.502Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Tropius",
+                "dexNum": 189,
+                "time": "2022-04-10T13:10:59.337Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Tropius",
+                "time": "2022-04-10T13:13:06.573Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Trade Center",
+                "time": "2022-04-10T13:18:02.583Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Colosseum",
+                "time": "2022-04-10T13:23:01.668Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Saffron City Gate",
+                "time": "2022-04-10T14:31:50.876Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 7",
+                "time": "2022-04-10T14:34:30.603Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon City",
+                "time": "2022-04-10T14:35:48.959Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Pokémon Center",
+                "time": "2022-04-10T14:36:18.425Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Mansion 1F",
+                "time": "2022-04-10T14:37:37.788Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Mansion 2F",
+                "time": "2022-04-10T14:38:00.890Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Mansion 3F",
+                "time": "2022-04-10T14:38:54.130Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Mansion 4F",
+                "time": "2022-04-10T14:43:12.842Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 16",
+                "time": "2022-04-10T14:47:07.913Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 16 Gate 1F",
+                "time": "2022-04-10T14:48:36.311Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 16 House",
+                "time": "2022-04-10T14:49:20.514Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Gym",
+                "time": "2022-04-10T15:00:35.578Z"
+            },
+            {
+                "group": "Badge",
+                "name": "Rainbow Badge",
+                "time": "2022-04-10T15:31:26.317Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Rocket Game Corner",
+                "time": "2022-04-10T15:47:20.317Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Rocket Hideout B1F",
+                "time": "2022-04-10T16:01:35.531Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Rocket Hideout B2F",
+                "time": "2022-04-10T16:10:54.740Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Rocket Hideout Lift",
+                "time": "2022-04-10T16:38:17.200Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Rocket Hideout B3F",
+                "time": "2022-04-10T16:39:42.918Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Rocket Hideout B4F",
+                "time": "2022-04-10T16:43:18.565Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pallet Town",
+                "time": "2022-04-10T18:00:00.463Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Mom's House 1F",
+                "time": "2022-04-10T18:00:08.500Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Mom's House 2F",
+                "time": "2022-04-10T18:00:32.609Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 1F",
+                "time": "2022-04-10T18:07:46.582Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 2F",
+                "time": "2022-04-10T18:08:19.062Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 3F",
+                "time": "2022-04-10T18:20:27.036Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 4F",
+                "time": "2022-04-10T18:27:44.019Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 5F",
+                "time": "2022-04-10T18:33:35.618Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 6F",
+                "time": "2022-04-10T18:38:55.405Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 7F",
+                "time": "2022-04-10T18:51:09.402Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Mr. Fuji's House",
+                "time": "2022-04-10T19:02:35.518Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 17",
+                "time": "2022-04-10T19:21:19.956Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 18",
+                "time": "2022-04-10T19:24:34.842Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 18 Gate 1F",
+                "time": "2022-04-10T19:25:20.718Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Fuchsia City",
+                "time": "2022-04-10T19:25:47.845Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Fuchsia Pokémon Center",
+                "time": "2022-04-10T19:28:16.849Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Safari Zone Gate",
+                "time": "2022-04-10T19:31:55.848Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Safari Zone 1",
+                "time": "2022-04-10T19:34:25.190Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Safari Zone 2",
+                "time": "2022-04-10T19:42:29.726Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Electrike",
+                "dexNum": 16,
+                "time": "2022-04-10T19:44:01.140Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Electrike",
+                "time": "2022-04-10T19:44:43.335Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Safari Zone 3",
+                "time": "2022-04-10T19:51:36.876Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Safari Zone House",
+                "time": "2022-04-10T19:52:49.204Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Bonsly",
+                "dexNum": 146,
+                "time": "2022-04-10T20:07:54.317Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Bonsly",
+                "time": "2022-04-10T20:08:17.756Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Fuchsia Poké Mart",
+                "time": "2022-04-10T20:15:11.302Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Fuchsia Gym ",
+                "time": "2022-04-10T20:19:56.597Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Bill's House",
+                "time": "2022-04-10T20:29:42.589Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 1,
+                "class_id": 38,
+                "name": "Channeler CHANNELER",
+                "time": "2022-04-10T20:47:20.399Z",
+                "attempts": 1
+            },
+            {
+                "group": "Badge",
+                "name": "Soul Badge",
+                "time": "2022-04-10T20:48:14.305Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Fuchsia House",
+                "time": "2022-04-10T20:53:34.761Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Warden's House",
+                "time": "2022-04-10T20:54:50.102Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Department Store 1F",
+                "time": "2022-04-10T21:09:04.312Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Department Store 2F",
+                "time": "2022-04-10T21:09:26.082Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Department Store Lift",
+                "time": "2022-04-10T21:36:51.495Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Department Store 5F",
+                "time": "2022-04-10T21:37:49.088Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Saffron City",
+                "time": "2022-04-10T22:00:33.955Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Saffron Pokémon Center",
+                "time": "2022-04-10T22:02:07.715Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 1F",
+                "time": "2022-04-10T22:03:43.819Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 2F",
+                "time": "2022-04-10T22:05:09.207Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 8F",
+                "time": "2022-04-10T22:21:02.536Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 9F",
+                "time": "2022-04-10T22:36:28.742Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 10F",
+                "time": "2022-04-10T22:39:31.572Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 4F",
+                "time": "2022-04-10T22:42:10.289Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 6F",
+                "time": "2022-04-10T22:46:34.490Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 5F",
+                "time": "2022-04-10T23:02:01.034Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. Lift",
+                "time": "2022-04-10T23:03:17.047Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Mr. Psychic's House",
+                "time": "2022-04-10T23:08:15.400Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Saffron Dojo",
+                "time": "2022-04-10T23:10:16.953Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Nosepass",
+                "time": "2022-04-11T00:02:58.013Z",
+                "traded": true
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Hotel",
+                "time": "2022-04-11T00:15:12.256Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon House",
+                "time": "2022-04-11T00:24:48.173Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Restaurant",
+                "time": "2022-04-11T00:24:53.197Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Department Store 4F",
+                "time": "2022-04-11T01:26:42.041Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Ducklett",
+                "dexNum": 199,
+                "time": "2022-04-11T03:45:03.963Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Ducklett",
+                "time": "2022-04-11T03:46:06.581Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Zebstrika",
+                "dexNum": 215,
+                "time": "2022-04-11T03:49:59.302Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Zebstrika",
+                "time": "2022-04-11T03:51:40.764Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #4",
+                "time": "2022-04-11T04:54:27.037Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 1,
+                "class_id": 38,
+                "name": "Channeler CHANNELER",
+                "time": "2022-04-11T05:05:20.840Z",
+                "attempts": 2
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 19",
+                "time": "2022-04-11T05:10:22.208Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 3F",
+                "time": "2022-04-11T06:44:52.067Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 7F",
+                "time": "2022-04-11T07:54:33.828Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Gulpin",
+                "dexNum": 216,
+                "time": "2022-04-11T08:07:34.375Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Gulpin",
+                "time": "2022-04-11T08:10:08.744Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 11F",
+                "time": "2022-04-11T08:12:01.586Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Saffron Gym",
+                "time": "2022-04-11T08:42:08.797Z"
+            },
+            {
+                "group": "Badge",
+                "name": "Marsh Badge",
+                "time": "2022-04-11T09:46:02.317Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Professor Oak's Lab",
+                "time": "2022-04-11T09:55:20.853Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 21",
+                "time": "2022-04-11T09:58:26.697Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cinnabar Island",
+                "time": "2022-04-11T10:33:15.176Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cinnabar Pokémon Center",
+                "time": "2022-04-11T10:34:28.508Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Lab",
+                "time": "2022-04-11T10:35:37.825Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Mansion 1F",
+                "time": "2022-04-11T10:46:33.132Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Onix",
+                "dexNum": 205,
+                "time": "2022-04-11T10:49:43.000Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Onix",
+                "time": "2022-04-11T10:51:52.919Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Mansion 2F",
+                "time": "2022-04-11T10:59:28.320Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Mansion 3F",
+                "time": "2022-04-11T11:06:19.186Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Golurk",
+                "dexNum": 213,
+                "time": "2022-04-11T12:14:23.736Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Golurk",
+                "time": "2022-04-11T12:17:16.190Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Ludicolo",
+                "dexNum": 120,
+                "time": "2022-04-11T12:30:16.398Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Ludicolo",
+                "time": "2022-04-11T12:35:17.604Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Trapinch",
+                "dexNum": 47,
+                "time": "2022-04-11T13:00:53.740Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Trapinch",
+                "time": "2022-04-11T13:03:56.571Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Magmortar",
+                "dexNum": 46,
+                "time": "2022-04-11T13:15:22.355Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Magmortar",
+                "time": "2022-04-11T13:17:32.611Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Throh",
+                "dexNum": 78,
+                "time": "2022-04-11T13:30:34.499Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Throh",
+                "time": "2022-04-11T13:31:44.650Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Mansion B1F",
+                "time": "2022-04-11T13:35:05.727Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Hypno",
+                "dexNum": 184,
+                "time": "2022-04-11T13:41:30.477Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Hypno",
+                "time": "2022-04-11T13:42:03.458Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Feraligatr",
+                "dexNum": 56,
+                "time": "2022-04-11T13:50:23.226Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Feraligatr",
+                "time": "2022-04-11T13:51:31.035Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #5",
+                "time": "2022-04-11T13:55:41.175Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cinnabar Poké Mart",
+                "time": "2022-04-11T13:58:35.125Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Munchlax",
+                "dexNum": 43,
+                "time": "2022-04-11T14:54:46.439Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Munchlax",
+                "time": "2022-04-11T14:55:19.927Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Liepard",
+                "dexNum": 236,
+                "time": "2022-04-11T14:59:40.773Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Liepard",
+                "time": "2022-04-11T15:04:01.625Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Viridian City",
+                "time": "2022-04-11T15:47:29.131Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 20",
+                "time": "2022-04-11T15:58:56.259Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #6",
+                "time": "2022-04-11T16:21:36.831Z"
+            },
+            {
+                "group": "First Catch",
+                "dexNum": 256,
+                "time": "2022-04-11T16:42:25.669Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 1",
+                "time": "2022-04-11T17:03:46.818Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Viridian Poké Mart",
+                "time": "2022-04-11T17:47:26.722Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 2",
+                "time": "2022-04-11T17:51:37.525Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #7",
+                "time": "2022-04-11T19:16:11.395Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #8",
+                "time": "2022-04-11T19:41:57.075Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Cranidos",
+                "dexNum": 154,
+                "time": "2022-04-11T19:54:21.286Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Cranidos",
+                "time": "2022-04-11T19:56:16.813Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Rampardos",
+                "dexNum": 155,
+                "time": "2022-04-11T20:09:03.293Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Rampardos",
+                "time": "2022-04-11T20:09:03.295Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cinnabar Gym",
+                "time": "2022-04-11T21:05:06.228Z"
+            },
+            {
+                "group": "Badge",
+                "name": "Volcano Badge",
+                "time": "2022-04-11T21:42:08.321Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Viridian Pokémon Center",
+                "time": "2022-04-11T21:48:20.006Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Viridian Gym",
+                "time": "2022-04-11T21:52:27.465Z"
+            },
+            {
+                "group": "Badge",
+                "name": "Earth Badge",
+                "time": "2022-04-11T22:03:18.085Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 22",
+                "time": "2022-04-11T22:10:36.076Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 22 Gate",
+                "time": "2022-04-11T22:19:27.822Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 23",
+                "time": "2022-04-11T22:20:04.659Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Victory Road",
+                "time": "2022-04-11T22:31:18.718Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon League",
+                "time": "2022-04-11T23:22:42.725Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Indigo Plateau",
+                "time": "2022-04-11T23:22:51.764Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Lorelei's Hall",
+                "time": "2022-04-11T23:23:58.066Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 1,
+                "class_id": 44,
+                "name": "Swimmer SWIMMER",
+                "time": "2022-04-11T23:31:20.479Z",
+                "attempts": 1
+            },
+            {
+                "group": "First Visit",
+                "name": "Bruno's Hall",
+                "time": "2022-04-11T23:31:41.233Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Agatha's Hall",
+                "time": "2022-04-11T23:38:37.124Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 1,
+                "class_id": 46,
+                "name": "Cooltrainer♂ COOLTRAINER",
+                "time": "2022-04-11T23:45:42.606Z",
+                "attempts": 1
+            },
+            {
+                "group": "First Visit",
+                "name": "Lance's Hall",
+                "time": "2022-04-11T23:46:09.730Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Champion's Hall",
+                "time": "2022-04-12T00:03:13.342Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #9",
+                "time": "2022-04-12T00:08:51.378Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 1,
+                "class_id": 44,
+                "name": "Swimmer SWIMMER",
+                "time": "2022-04-12T00:21:32.667Z",
+                "attempts": 1
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #10",
+                "time": "2022-04-12T00:35:45.372Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 1,
+                "class_id": 44,
+                "name": "Swimmer SWIMMER",
+                "time": "2022-04-12T00:49:33.969Z",
+                "attempts": 1
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #11",
+                "time": "2022-04-12T01:04:34.892Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #12",
+                "time": "2022-04-12T01:17:40.460Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 1,
+                "class_id": 44,
+                "name": "Swimmer SWIMMER",
+                "time": "2022-04-12T01:30:23.092Z",
+                "attempts": 2
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 1,
+                "class_id": 46,
+                "name": "Cooltrainer♂ COOLTRAINER",
+                "time": "2022-04-12T01:54:46.738Z",
+                "attempts": 3
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 3,
+                "class_id": 43,
+                "name": "Rocket YYRAAA",
+                "time": "2022-04-12T02:12:06.798Z",
+                "attempts": 2
+            },
+            {
+                "group": "First Visit",
+                "name": "Hall of Fame",
+                "time": "2022-04-12T02:13:16.776Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 1,
+                "class_id": 44,
+                "name": "Swimmer SWIMMER",
+                "time": "2022-04-12T08:35:57.634Z",
+                "attempts": 1
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 1,
+                "class_id": 46,
+                "name": "Cooltrainer♂ COOLTRAINER",
+                "time": "2022-04-12T13:56:40.883Z",
+                "attempts": 1
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #13",
+                "time": "2022-04-12T14:03:37.276Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 1,
+                "class_id": 44,
+                "name": "Swimmer SWIMMER",
+                "time": "2022-04-12T14:59:58.343Z",
+                "attempts": 1
+            }
+        ],
+        "game_stats": {
+            "Battles Fought (Total)": 410,
+            "Blackouts": 13,
+            "Pokémon Caught": 30
+        },
+        "party": [
+            {
+                "catchrate": 45,
+                "cp": 2444,
+                "evs": {
+                    "attack": 6350,
+                    "defense": 6706,
+                    "hp": 5433,
+                    "special_attack": 5640,
+                    "special_defense": 5640,
+                    "speed": 4859
+                },
+                "experience": {
+                    "current": 74463,
+                    "next_level": 80000,
+                    "this_level": 74148,
+                    "remaining": 5537
+                },
+                "fitness": 259119,
+                "health": [
+                    132,
+                    165
+                ],
+                "ivs": {
+                    "attack": 15,
+                    "defense": 5,
+                    "hp": 14,
+                    "special_attack": 0,
+                    "special_defense": 0,
+                    "speed": 9
+                },
+                "level": 39,
+                "moves": [
+                    {
+                        "id": 59,
+                        "pp": 1,
+                        "pp_up": 0,
+                        "name": "Blizzard",
+                        "accuracy": 178,
+                        "base_power": 110,
+                        "type": "Ice"
+                    },
+                    {
+                        "id": 242,
+                        "pp": 17,
+                        "pp_up": 0,
+                        "name": "Aerial Ace",
+                        "accuracy": 255,
+                        "base_power": 60,
+                        "type": "Flying"
+                    },
+                    {
+                        "id": 27,
+                        "pp": 15,
+                        "pp_up": 0,
+                        "name": "Rolling Kick",
+                        "accuracy": 216,
+                        "base_power": 60,
+                        "type": "Fighting"
+                    },
+                    {
+                        "id": 240,
+                        "pp": 15,
+                        "pp_up": 0,
+                        "name": "Seed Bomb",
+                        "accuracy": 255,
+                        "base_power": 80,
+                        "type": "Grass"
+                    }
+                ],
+                "name": "LIFE",
+                "original_trainer": {
+                    "id": 64615,
+                    "name": "-??(("
+                },
+                "personality_value": 4119919690,
+                "species": {
+                    "base_stats": {
+                        "attack": 131,
+                        "defense": 95,
+                        "hp": 126,
+                        "special_attack": 114,
+                        "special_defense": 114,
+                        "speed": 99
+                    },
+                    "id": 50,
+                    "national_dex": 50,
+                    "catch_rate": 45,
+                    "gender_ratio": 127,
+                    "growth_rate": "Slow",
+                    "name": "Xerneas",
+                    "held_items": []
+                },
+                "stats": {
+                    "attack": 126,
+                    "defense": 90,
+                    "hp": 165,
+                    "special_attack": 101,
+                    "special_defense": 101,
+                    "speed": 95
+                },
+                "status": 0,
+                "next_move": {
+                    "type": "Normal",
+                    "level": 51
+                },
+                "gender": "Male",
+                "shiny": false,
+                "met": {
+                    "caught": "2022-04-10T10:56:45.519Z",
+                    "evolved": []
+                }
+            },
+            {
+                "catchrate": 45,
+                "cp": 2635,
+                "evs": {
+                    "attack": 7379,
+                    "defense": 7944,
+                    "hp": 7192,
+                    "special_attack": 7319,
+                    "special_defense": 7319,
+                    "speed": 6235
+                },
+                "experience": {
+                    "current": 336359
+                },
+                "fitness": 728616,
+                "health": [
+                    168,
+                    264
+                ],
+                "ivs": {
+                    "attack": 9,
+                    "defense": 14,
+                    "hp": 10,
+                    "special_attack": 10,
+                    "special_defense": 10,
+                    "speed": 15
+                },
+                "level": 76,
+                "moves": [
+                    {
+                        "id": 136,
+                        "pp": 10,
+                        "pp_up": 0,
+                        "name": "Hi Jump Kick",
+                        "accuracy": 229,
+                        "base_power": 130,
+                        "type": "Fighting"
+                    },
+                    {
+                        "id": 87,
+                        "pp": 5,
+                        "pp_up": 0,
+                        "name": "Thunder",
+                        "accuracy": 178,
+                        "base_power": 110,
+                        "type": "Electric"
+                    },
+                    {
+                        "id": 207,
+                        "pp": 10,
+                        "pp_up": 1,
+                        "name": "Rock Blast",
+                        "accuracy": 229,
+                        "base_power": 25,
+                        "type": "Rock"
+                    },
+                    {
+                        "id": 105,
+                        "pp": 9,
+                        "pp_up": 0,
+                        "name": "Recover",
+                        "accuracy": 255,
+                        "base_power": 0,
+                        "type": "Normal"
+                    }
+                ],
+                "name": " ",
+                "original_trainer": {
+                    "id": 64615,
+                    "name": "-??(("
+                },
+                "personality_value": 2667248714,
+                "species": {
+                    "base_stats": {
+                        "attack": 165,
+                        "defense": 60,
+                        "hp": 97,
+                        "special_attack": 57,
+                        "special_defense": 57,
+                        "speed": 58
+                    },
+                    "id": 155,
+                    "national_dex": 155,
+                    "type1": "Rock",
+                    "type2": "Rock",
+                    "catch_rate": 45,
+                    "gender_ratio": 31,
+                    "name": "Rampardos",
+                    "held_items": []
+                },
+                "stats": {
+                    "attack": 320,
+                    "defense": 150,
+                    "hp": 264,
+                    "special_attack": 137,
+                    "special_defense": 137,
+                    "speed": 2
+                },
+                "status": "PAR",
+                "gender": "Male",
+                "shiny": false,
+                "met": {
+                    "caught": "2022-04-11T19:56:16.813Z",
+                    "evolved": [
+                        "2022-04-11T20:09:03.295Z"
+                    ]
+                }
+            },
+            {
+                "catchrate": 45,
+                "cp": 1433,
+                "evs": {
+                    "attack": 4603,
+                    "defense": 7373,
+                    "hp": 4342,
+                    "special_attack": 4605,
+                    "special_defense": 4605,
+                    "speed": 4169
+                },
+                "experience": {
+                    "current": 36218,
+                    "next_level": 37238,
+                    "this_level": 33750,
+                    "remaining": 1020
+                },
+                "fitness": 144154,
+                "health": [
+                    109,
+                    109
+                ],
+                "ivs": {
+                    "attack": 15,
+                    "defense": 3,
+                    "hp": 15,
+                    "special_attack": 15,
+                    "special_defense": 15,
+                    "speed": 13
+                },
+                "level": 30,
+                "moves": [
+                    {
+                        "id": 70,
+                        "pp": 15,
+                        "pp_up": 0,
+                        "name": "Strength",
+                        "accuracy": 255,
+                        "base_power": 80,
+                        "type": "Normal"
+                    },
+                    {
+                        "id": 87,
+                        "pp": 10,
+                        "pp_up": 0,
+                        "name": "Thunder",
+                        "accuracy": 178,
+                        "base_power": 110,
+                        "type": "Electric"
+                    },
+                    {
+                        "id": 126,
+                        "pp": 5,
+                        "pp_up": 0,
+                        "name": "Fire Blast",
+                        "accuracy": 216,
+                        "base_power": 110,
+                        "type": "Fire"
+                    },
+                    {
+                        "id": 91,
+                        "pp": 10,
+                        "pp_up": 0,
+                        "name": "Dig",
+                        "accuracy": 255,
+                        "base_power": 80,
+                        "type": "Ground"
+                    }
+                ],
+                "name": " GGDs",
+                "original_trainer": {
+                    "id": 64615,
+                    "name": "-??(("
+                },
+                "personality_value": 4091542602,
+                "species": {
+                    "base_stats": {
+                        "attack": 105,
+                        "defense": 90,
+                        "hp": 92,
+                        "special_attack": 107,
+                        "special_defense": 107,
+                        "speed": 98
+                    },
+                    "id": 103,
+                    "national_dex": 103,
+                    "type1": "Dark",
+                    "type2": "Dragon",
+                    "catch_rate": 45,
+                    "gender_ratio": 127,
+                    "growth_rate": "Slow",
+                    "name": "Hydreigon",
+                    "held_items": []
+                },
+                "stats": {
+                    "attack": 82,
+                    "defense": 67,
+                    "hp": 109,
+                    "special_attack": 83,
+                    "special_defense": 83,
+                    "speed": 76
+                },
+                "status": 0,
+                "next_move": {
+                    "type": "Fighting",
+                    "level": 38
+                },
+                "gender": "Male",
+                "shiny": false,
+                "met": {
+                    "caught": "2022-04-10T07:39:10.063Z",
+                    "evolved": []
+                }
+            },
+            {
+                "catchrate": 45,
+                "cp": 1082,
+                "evs": {
+                    "attack": 3846,
+                    "defense": 3635,
+                    "hp": 3369,
+                    "special_attack": 3543,
+                    "special_defense": 3543,
+                    "speed": 3286
+                },
+                "experience": {
+                    "current": 32442,
+                    "next_level": 33750,
+                    "this_level": 30486,
+                    "remaining": 1308
+                },
+                "fitness": 118889,
+                "health": [
+                    0,
+                    90
+                ],
+                "ivs": {
+                    "attack": 9,
+                    "defense": 12,
+                    "hp": 11,
+                    "special_attack": 13,
+                    "special_defense": 13,
+                    "speed": 7
+                },
+                "level": 29,
+                "moves": [
+                    {
+                        "id": 227,
+                        "pp": 20,
+                        "pp_up": 0,
+                        "name": "Bulldoze",
+                        "accuracy": 255,
+                        "base_power": 60,
+                        "type": "Ground"
+                    },
+                    {
+                        "id": 94,
+                        "pp": 8,
+                        "pp_up": 0,
+                        "name": "Psychic",
+                        "accuracy": 255,
+                        "base_power": 90,
+                        "type": "Psychic"
+                    },
+                    {
+                        "id": 133,
+                        "pp": 20,
+                        "pp_up": 0,
+                        "name": "Amnesia",
+                        "accuracy": 255,
+                        "base_power": 0,
+                        "type": "Psychic"
+                    },
+                    {
+                        "id": 209,
+                        "pp": 15,
+                        "pp_up": 0,
+                        "name": "Dragon Claw",
+                        "accuracy": 255,
+                        "base_power": 80,
+                        "type": "Dragon"
+                    }
+                ],
+                "name": "MMFJK",
+                "original_trainer": {
+                    "id": 64615,
+                    "name": "-??(("
+                },
+                "personality_value": 2625502282,
+                "species": {
+                    "base_stats": {
+                        "attack": 95,
+                        "defense": 85,
+                        "hp": 71,
+                        "special_attack": 102,
+                        "special_defense": 102,
+                        "speed": 79
+                    },
+                    "id": 198,
+                    "national_dex": 198,
+                    "type1": "Ice",
+                    "type2": "Ice",
+                    "catch_rate": 45,
+                    "gender_ratio": 127,
+                    "growth_rate": "Slow",
+                    "name": "Vanilluxe",
+                    "held_items": []
+                },
+                "stats": {
+                    "attack": 69,
+                    "defense": 65,
+                    "hp": 90,
+                    "special_attack": 75,
+                    "special_defense": 75,
+                    "speed": 58
+                },
+                "status": 0,
+                "next_move": {
+                    "type": "Normal",
+                    "level": 36
+                },
+                "gender": "Male",
+                "shiny": false,
+                "met": {
+                    "caught": "2022-04-10T07:39:10.062Z",
+                    "evolved": []
+                }
+            },
+            {
+                "catchrate": 45,
+                "cp": 727,
+                "evs": {
+                    "attack": 3973,
+                    "defense": 4133,
+                    "hp": 3497,
+                    "special_attack": 3431,
+                    "special_defense": 3431,
+                    "speed": 3462
+                },
+                "experience": {
+                    "current": 23560,
+                    "next_level": 24294,
+                    "this_level": 21760,
+                    "remaining": 734
+                },
+                "fitness": 99391,
+                "health": [
+                    93,
+                    93
+                ],
+                "ivs": {
+                    "attack": 13,
+                    "defense": 6,
+                    "hp": 11,
+                    "special_attack": 5,
+                    "special_defense": 5,
+                    "speed": 5
+                },
+                "level": 30,
+                "moves": [
+                    {
+                        "id": 57,
+                        "pp": 15,
+                        "pp_up": 0,
+                        "name": "Surf",
+                        "accuracy": 255,
+                        "base_power": 90,
+                        "type": "Water"
+                    },
+                    {
+                        "id": 7,
+                        "pp": 15,
+                        "pp_up": 0,
+                        "name": "Fire Punch",
+                        "accuracy": 255,
+                        "base_power": 75,
+                        "type": "Fire"
+                    },
+                    {
+                        "id": 19,
+                        "pp": 15,
+                        "pp_up": 0,
+                        "name": "Fly",
+                        "accuracy": 242,
+                        "base_power": 90,
+                        "type": "Flying"
+                    },
+                    {
+                        "id": 15,
+                        "pp": 30,
+                        "pp_up": 0,
+                        "name": "Cut",
+                        "accuracy": 242,
+                        "base_power": 50,
+                        "type": "Normal"
+                    }
+                ],
+                "name": "QHI??????",
+                "original_trainer": {
+                    "id": 64615,
+                    "name": "-??(("
+                },
+                "personality_value": 3595959370,
+                "species": {
+                    "base_stats": {
+                        "attack": 85,
+                        "defense": 70,
+                        "hp": 70,
+                        "special_attack": 65,
+                        "special_defense": 65,
+                        "speed": 50
+                    },
+                    "id": 99,
+                    "national_dex": 99,
+                    "type1": "Water",
+                    "type2": "Ground",
+                    "catch_rate": 45,
+                    "gender_ratio": 127,
+                    "growth_rate": "Medium Slow",
+                    "name": "Marshtomp",
+                    "held_items": []
+                },
+                "stats": {
+                    "attack": 68,
+                    "defense": 55,
+                    "hp": 93,
+                    "special_attack": 51,
+                    "special_defense": 51,
+                    "speed": 42
+                },
+                "status": 0,
+                "next_move": {
+                    "type": "Rock",
+                    "level": 31
+                },
+                "gender": "Male",
+                "shiny": false,
+                "met": {
+                    "caught": "2022-04-10T07:39:10.063Z",
+                    "evolved": []
+                }
+            },
+            {
+                "catchrate": 45,
+                "cp": 2522,
+                "evs": {
+                    "attack": 7444,
+                    "defense": 7257,
+                    "hp": 6842,
+                    "special_attack": 7179,
+                    "special_defense": 7179,
+                    "speed": 6403
+                },
+                "experience": {
+                    "current": 96114,
+                    "next_level": 99383,
+                    "this_level": 92610,
+                    "remaining": 3269
+                },
+                "fitness": 270172,
+                "health": [
+                    0,
+                    151
+                ],
+                "ivs": {
+                    "attack": 3,
+                    "defense": 12,
+                    "hp": 8,
+                    "special_attack": 10,
+                    "special_defense": 10,
+                    "speed": 6
+                },
+                "level": 42,
+                "moves": [
+                    {
+                        "id": 223,
+                        "pp": 12,
+                        "pp_up": 0,
+                        "name": "Moonblast",
+                        "accuracy": 255,
+                        "base_power": 95,
+                        "type": "???"
+                    },
+                    {
+                        "id": 228,
+                        "pp": 9,
+                        "pp_up": 0,
+                        "name": "Bug Buzz",
+                        "accuracy": 255,
+                        "base_power": 90,
+                        "type": "Bug"
+                    },
+                    {
+                        "id": 208,
+                        "pp": 13,
+                        "pp_up": 0,
+                        "name": "Rock Tomb",
+                        "accuracy": 242,
+                        "base_power": 60,
+                        "type": "Rock"
+                    },
+                    {
+                        "id": 125,
+                        "pp": 18,
+                        "pp_up": 0,
+                        "name": "Bone Club",
+                        "accuracy": 216,
+                        "base_power": 65,
+                        "type": "Ground"
+                    }
+                ],
+                "name": "YXOXYIPπ,",
+                "original_trainer": {
+                    "id": 64615,
+                    "name": "-??(("
+                },
+                "personality_value": 1013644362,
+                "species": {
+                    "base_stats": {
+                        "attack": 120,
+                        "defense": 100,
+                        "hp": 100,
+                        "special_attack": 135,
+                        "special_defense": 135,
+                        "speed": 90
+                    },
+                    "id": 57,
+                    "national_dex": 57,
+                    "type1": "Dragon",
+                    "type2": "Fire",
+                    "catch_rate": 45,
+                    "gender_ratio": 127,
+                    "growth_rate": "Slow",
+                    "name": "Reshiram",
+                    "held_items": []
+                },
+                "stats": {
+                    "attack": 117,
+                    "defense": 107,
+                    "hp": 151,
+                    "special_attack": 135,
+                    "special_defense": 135,
+                    "speed": 94
+                },
+                "status": 0,
+                "next_move": {
+                    "type": "Grass",
+                    "level": 50
+                },
+                "gender": "Female",
+                "shiny": false,
+                "met": {
+                    "caught": "2022-04-10T07:39:10.062Z",
+                    "evolved": []
+                }
+            }
+        ]
+    },
+    "red": {
+        "badges": 255,
+        "battle_kind": "None",
+        "coins": 25,
+        "daycare": [],
+        "evolution_is_happening": false,
+        "gender": "Male",
+        "id": 35578,
+        "in_battle": false,
+        "items": {
+            "items": [
+                {
+                    "count": 1,
+                    "id": 69,
+                    "name": "Coin Case"
+                },
+                {
+                    "count": 1,
+                    "id": 63,
+                    "name": "S.S.Ticket"
+                },
+                {
+                    "count": 1,
+                    "id": 6,
+                    "name": "Bicycle"
+                },
+                {
+                    "id": 73,
+                    "name": "Poké Flute"
+                },
+                {
+                    "id": 198,
+                    "name": "HM03 Surf"
+                },
+                {
+                    "id": 196,
+                    "name": "HM01 Cut"
+                },
+                {
+                    "count": 1,
+                    "id": 242,
+                    "name": "TM42 Play Rough"
+                }
+            ],
+            "pc": [
+                {
+                    "count": 1,
+                    "id": 213,
+                    "name": "TM13 Wrap"
+                },
+                {
+                    "count": 1,
+                    "id": 203,
+                    "name": "TM03 Swift"
+                },
+                {
+                    "count": 1,
+                    "id": 19,
+                    "name": "Super Potion"
+                },
+                {
+                    "count": 1,
+                    "id": 225,
+                    "name": "TM25 Bulldoze"
+                },
+                {
+                    "id": 200,
+                    "name": "HM05 Flash"
+                },
+                {
+                    "id": 197,
+                    "name": "HM02 Fly"
+                },
+                {
+                    "id": 199,
+                    "name": "HM04 Strength"
+                },
+                {
+                    "id": 48,
+                    "name": "Card Key"
+                },
+                {
+                    "count": 1,
+                    "id": 211,
+                    "name": "TM11 Pay Day"
+                },
+                {
+                    "count": 1,
+                    "id": 235,
+                    "name": "TM35 Conversion"
+                },
+                {
+                    "count": 1,
+                    "id": 227,
+                    "name": "TM27 Bone Club"
+                },
+                {
+                    "id": 43,
+                    "name": "Secret Key"
+                },
+                {
+                    "count": 1,
+                    "id": 245,
+                    "name": "TM45 Peck"
+                }
+            ]
+        },
+        "map_id": 0,
+        "money": 19,
+        "name": "AMOGUS",
+        "options": {
+            "battle_scene": "On",
+            "battle_style": "Set",
+            "text_speed": "Fast"
+        },
+        "rival_name": "SSUMLUU",
+        "x": 11,
+        "y": 6,
+        "pc": {
+            "boxes": [
+                {
+                    "box_contents": [],
+                    "box_name": "Box 1",
+                    "box_number": 1
+                },
+                null,
+                {
+                    "box_contents": [
+                        {
+                            "box_slot": 1,
+                            "catchrate": 45,
+                            "cp": 638,
+                            "evs": {
+                                "attack": 0,
+                                "defense": 0,
+                                "hp": 0,
+                                "special_attack": 0,
+                                "special_defense": 0,
+                                "speed": 0
+                            },
+                            "experience": {
+                                "current": 61450,
+                                "next_level": 66505,
+                                "this_level": 61450,
+                                "remaining": 5055
+                            },
+                            "fitness": 85071,
+                            "health": [
+                                15
+                            ],
+                            "ivs": {
+                                "attack": 13,
+                                "defense": 7,
+                                "hp": 14,
+                                "special_attack": 12,
+                                "special_defense": 12,
+                                "speed": 7
+                            },
+                            "level": 41,
+                            "moves": [
+                                {
+                                    "id": 143,
+                                    "pp": 5,
+                                    "pp_up": 0,
+                                    "name": "Sky Attack",
+                                    "accuracy": 229,
+                                    "base_power": 140,
+                                    "type": "Flying"
+                                },
+                                {
+                                    "id": 72,
+                                    "pp": 15,
+                                    "pp_up": 0,
+                                    "name": "Mega Drain",
+                                    "accuracy": 255,
+                                    "base_power": 40,
+                                    "type": "Grass"
+                                },
+                                {
+                                    "id": 51,
+                                    "pp": 30,
+                                    "pp_up": 0,
+                                    "name": "Acid",
+                                    "accuracy": 255,
+                                    "base_power": 40,
+                                    "type": "Poison"
+                                },
+                                {
+                                    "id": 28,
+                                    "pp": 15,
+                                    "pp_up": 0,
+                                    "name": "Sand-Attack",
+                                    "accuracy": 255,
+                                    "base_power": 0,
+                                    "type": "Ground"
+                                }
+                            ],
+                            "name": "IGGYBOB",
+                            "original_trainer": {
+                                "id": 35578,
+                                "name": "AMOGUS"
+                            },
+                            "personality_value": 3615263447,
+                            "species": {
+                                "base_stats": {
+                                    "attack": 51,
+                                    "defense": 53,
+                                    "hp": 53,
+                                    "special_attack": 58,
+                                    "special_defense": 58,
+                                    "speed": 40
+                                },
+                                "id": 48,
+                                "national_dex": 48,
+                                "type1": "Water",
+                                "type2": "Water",
+                                "catch_rate": 45,
+                                "gender_ratio": 127,
+                                "growth_rate": "Medium Slow",
+                                "name": "Piplup",
+                                "held_items": []
+                            },
+                            "stats": {
+                                "attack": 57,
+                                "defense": 54,
+                                "hp": 105,
+                                "special_attack": 62,
+                                "special_defense": 62,
+                                "speed": 43
+                            },
+                            "status": 0,
+                            "gender": "Male",
+                            "shiny": false,
+                            "met": {
+                                "caught": "2022-04-12T00:39:31.898Z",
+                                "evolved": []
+                            }
+                        },
+                        {
+                            "box_slot": 2,
+                            "catchrate": 30,
+                            "cp": 1567,
+                            "evs": {
+                                "attack": 0,
+                                "defense": 0,
+                                "hp": 0,
+                                "special_attack": 0,
+                                "special_defense": 0,
+                                "speed": 0
+                            },
+                            "experience": {
+                                "current": 156250,
+                                "next_level": 165813,
+                                "this_level": 156250,
+                                "remaining": 9563
+                            },
+                            "fitness": 216281,
+                            "health": [
+                                155
+                            ],
+                            "ivs": {
+                                "attack": 15,
+                                "defense": 7,
+                                "hp": 15,
+                                "special_attack": 7,
+                                "special_defense": 7,
+                                "speed": 15
+                            },
+                            "level": 50,
+                            "moves": [
+                                {
+                                    "id": 39,
+                                    "pp": 30,
+                                    "pp_up": 0,
+                                    "name": "Tail Whip",
+                                    "accuracy": 255,
+                                    "base_power": 0,
+                                    "type": "Normal"
+                                },
+                                {
+                                    "id": 149,
+                                    "pp": 15,
+                                    "pp_up": 0,
+                                    "name": "Psywave",
+                                    "accuracy": 255,
+                                    "base_power": 1,
+                                    "type": "Psychic"
+                                },
+                                {
+                                    "id": 158,
+                                    "pp": 15,
+                                    "pp_up": 0,
+                                    "name": "Hyper Fang",
+                                    "accuracy": 229,
+                                    "base_power": 80,
+                                    "type": "Normal"
+                                },
+                                {
+                                    "id": 50,
+                                    "pp": 20,
+                                    "pp_up": 0,
+                                    "name": "Disable",
+                                    "accuracy": 255,
+                                    "base_power": 0,
+                                    "type": "Normal"
+                                }
+                            ],
+                            "name": "MOOOOO",
+                            "original_trainer": {
+                                "id": 35578,
+                                "name": "AMOGUS"
+                            },
+                            "personality_value": 4160195300,
+                            "species": {
+                                "base_stats": {
+                                    "attack": 80,
+                                    "defense": 80,
+                                    "hp": 80,
+                                    "special_attack": 80,
+                                    "special_defense": 80,
+                                    "speed": 80
+                                },
+                                "id": 128,
+                                "national_dex": 128,
+                                "type1": "Water",
+                                "type2": "Water",
+                                "catch_rate": 30,
+                                "gender_ratio": 0,
+                                "growth_rate": "Slow",
+                                "name": "Phione",
+                                "held_items": []
+                            },
+                            "stats": {
+                                "attack": 100,
+                                "defense": 92,
+                                "hp": 155,
+                                "special_attack": 92,
+                                "special_defense": 92,
+                                "speed": 100
+                            },
+                            "status": 0,
+                            "next_move": {
+                                "type": "Normal",
+                                "level": 54
+                            },
+                            "shiny": false,
+                            "met": {
+                                "caught": "2022-04-11T23:59:12.130Z",
+                                "evolved": []
+                            }
+                        },
+                        {
+                            "box_slot": 3,
+                            "catchrate": 190,
+                            "cp": 136,
+                            "evs": {
+                                "attack": 0,
+                                "defense": 0,
+                                "hp": 0,
+                                "special_attack": 0,
+                                "special_defense": 0,
+                                "speed": 0
+                            },
+                            "experience": {
+                                "current": 314,
+                                "next_level": 419,
+                                "this_level": 314,
+                                "remaining": 105
+                            },
+                            "fitness": 6114,
+                            "health": [
+                                26
+                            ],
+                            "ivs": {
+                                "attack": 2,
+                                "defense": 3,
+                                "hp": 5,
+                                "special_attack": 7,
+                                "special_defense": 7,
+                                "speed": 10
+                            },
+                            "level": 8,
+                            "moves": [
+                                {
+                                    "id": 60,
+                                    "pp": 20,
+                                    "pp_up": 0,
+                                    "name": "Psybeam",
+                                    "accuracy": 255,
+                                    "base_power": 65,
+                                    "type": "Psychic"
+                                },
+                                {
+                                    "id": 31,
+                                    "pp": 20,
+                                    "pp_up": 0,
+                                    "name": "Fury Attack",
+                                    "accuracy": 216,
+                                    "base_power": 15,
+                                    "type": "Normal"
+                                },
+                                {
+                                    "id": 204,
+                                    "pp": 10,
+                                    "pp_up": 0,
+                                    "name": "Drain Punch",
+                                    "accuracy": 255,
+                                    "base_power": 75,
+                                    "type": "Fighting"
+                                },
+                                {
+                                    "id": 123,
+                                    "pp": 20,
+                                    "pp_up": 0,
+                                    "name": "Smog",
+                                    "accuracy": 178,
+                                    "base_power": 30,
+                                    "type": "Poison"
+                                }
+                            ],
+                            "name": "TT",
+                            "original_trainer": {
+                                "id": 35578,
+                                "name": "AMOGUS"
+                            },
+                            "personality_value": 598182468,
+                            "species": {
+                                "base_stats": {
+                                    "attack": 85,
+                                    "defense": 40,
+                                    "hp": 50,
+                                    "special_attack": 62,
+                                    "special_defense": 62,
+                                    "speed": 35
+                                },
+                                "id": 198,
+                                "national_dex": 198,
+                                "type1": "Grass",
+                                "type2": "Grass",
+                                "catch_rate": 190,
+                                "gender_ratio": 127,
+                                "growth_rate": "Medium Slow",
+                                "name": "Cacnea",
+                                "held_items": []
+                            },
+                            "stats": {
+                                "attack": 18,
+                                "defense": 11,
+                                "hp": 26,
+                                "special_attack": 16,
+                                "special_defense": 16,
+                                "speed": 12
+                            },
+                            "status": 0,
+                            "next_move": {
+                                "type": "Grass",
+                                "level": 13
+                            },
+                            "gender": "Female",
+                            "shiny": false,
+                            "met": {
+                                "caught": "2022-04-11T22:33:13.907Z",
+                                "evolved": []
+                            }
+                        },
+                        {
+                            "box_slot": 4,
+                            "catchrate": 30,
+                            "cp": 343,
+                            "evs": {
+                                "attack": 0,
+                                "defense": 0,
+                                "hp": 0,
+                                "special_attack": 0,
+                                "special_defense": 0,
+                                "speed": 0
+                            },
+                            "experience": {
+                                "current": 800,
+                                "next_level": 1064,
+                                "this_level": 800,
+                                "remaining": 264
+                            },
+                            "fitness": 17175,
+                            "health": [
+                                38
+                            ],
+                            "ivs": {
+                                "attack": 10,
+                                "defense": 5,
+                                "hp": 5,
+                                "special_attack": 13,
+                                "special_defense": 13,
+                                "speed": 10
+                            },
+                            "level": 10,
+                            "moves": [
+                                {
+                                    "id": 6,
+                                    "pp": 20,
+                                    "pp_up": 0,
+                                    "name": "Pay Day",
+                                    "accuracy": 255,
+                                    "base_power": 40,
+                                    "type": "Normal"
+                                },
+                                {
+                                    "id": 114,
+                                    "pp": 30,
+                                    "pp_up": 0,
+                                    "name": "Haze",
+                                    "accuracy": 255,
+                                    "base_power": 0,
+                                    "type": "Ice"
+                                },
+                                {
+                                    "id": 75,
+                                    "pp": 25,
+                                    "pp_up": 0,
+                                    "name": "Razor Leaf",
+                                    "accuracy": 242,
+                                    "base_power": 55,
+                                    "type": "Grass"
+                                },
+                                {
+                                    "id": 135,
+                                    "pp": 10,
+                                    "pp_up": 0,
+                                    "name": "Softboiled",
+                                    "accuracy": 255,
+                                    "base_power": 0,
+                                    "type": "Normal"
+                                }
+                            ],
+                            "name": "TNEC",
+                            "original_trainer": {
+                                "id": 35578,
+                                "name": "AMOGUS"
+                            },
+                            "personality_value": 2779613924,
+                            "species": {
+                                "base_stats": {
+                                    "attack": 50,
+                                    "defense": 95,
+                                    "hp": 85,
+                                    "special_attack": 117,
+                                    "special_defense": 117,
+                                    "speed": 80
+                                },
+                                "id": 105,
+                                "national_dex": 105,
+                                "type2": "Flying",
+                                "catch_rate": 30,
+                                "gender_ratio": 127,
+                                "growth_rate": "Fast",
+                                "name": "Togekiss",
+                                "held_items": []
+                            },
+                            "stats": {
+                                "attack": 17,
+                                "defense": 25,
+                                "hp": 38,
+                                "special_attack": 31,
+                                "special_defense": 31,
+                                "speed": 23
+                            },
+                            "status": 0,
+                            "gender": "Male",
+                            "shiny": false,
+                            "met": {
+                                "caught": "2022-04-11T22:28:03.841Z",
+                                "evolved": []
+                            }
+                        },
+                        {
+                            "box_slot": 5,
+                            "catchrate": 30,
+                            "cp": 434,
+                            "evs": {
+                                "attack": 0,
+                                "defense": 0,
+                                "hp": 0,
+                                "special_attack": 0,
+                                "special_defense": 0,
+                                "speed": 0
+                            },
+                            "experience": {
+                                "current": 1728,
+                                "next_level": 2197,
+                                "this_level": 1728,
+                                "remaining": 469
+                            },
+                            "fitness": 21703,
+                            "health": [
+                                44
+                            ],
+                            "ivs": {
+                                "attack": 12,
+                                "defense": 9,
+                                "hp": 7,
+                                "special_attack": 9,
+                                "special_defense": 9,
+                                "speed": 1
+                            },
+                            "level": 12,
+                            "moves": [
+                                {
+                                    "id": 42,
+                                    "pp": 20,
+                                    "pp_up": 0,
+                                    "name": "Pin Missile",
+                                    "accuracy": 242,
+                                    "base_power": 25,
+                                    "type": "Bug"
+                                },
+                                {
+                                    "id": 38,
+                                    "pp": 15,
+                                    "pp_up": 0,
+                                    "name": "Double-Edge",
+                                    "accuracy": 255,
+                                    "base_power": 120,
+                                    "type": "Normal"
+                                },
+                                {
+                                    "id": 142,
+                                    "pp": 10,
+                                    "pp_up": 0,
+                                    "name": "Lovely Kiss",
+                                    "accuracy": 191,
+                                    "base_power": 0,
+                                    "type": "Normal"
+                                },
+                                {
+                                    "id": 20,
+                                    "pp": 20,
+                                    "pp_up": 0,
+                                    "name": "Bind",
+                                    "accuracy": 216,
+                                    "base_power": 15,
+                                    "type": "Normal"
+                                }
+                            ],
+                            "name": ":NEKO",
+                            "original_trainer": {
+                                "id": 35578,
+                                "name": "AMOGUS"
+                            },
+                            "personality_value": 3373894372,
+                            "species": {
+                                "base_stats": {
+                                    "attack": 80,
+                                    "defense": 70,
+                                    "hp": 85,
+                                    "special_attack": 105,
+                                    "special_defense": 105,
+                                    "speed": 90
+                                },
+                                "id": 194,
+                                "national_dex": 194,
+                                "type1": "Normal",
+                                "type2": "Normal",
+                                "catch_rate": 30,
+                                "gender_ratio": 127,
+                                "growth_rate": "Medium Fast",
+                                "name": "Porygon-Z",
+                                "held_items": []
+                            },
+                            "stats": {
+                                "attack": 27,
+                                "defense": 23,
+                                "hp": 44,
+                                "special_attack": 32,
+                                "special_defense": 32,
+                                "speed": 26
+                            },
+                            "status": 0,
+                            "next_move": {
+                                "type": "Dragon",
+                                "level": 23
+                            },
+                            "gender": "Male",
+                            "shiny": false,
+                            "met": {
+                                "caught": "2022-04-11T22:19:10.076Z",
+                                "evolved": []
+                            }
+                        },
+                        {
+                            "box_slot": 6,
+                            "catchrate": 3,
+                            "cp": 1359,
+                            "evs": {
+                                "attack": 4643,
+                                "defense": 4669,
+                                "hp": 4195,
+                                "special_attack": 4395,
+                                "special_defense": 4395,
+                                "speed": 3455
+                            },
+                            "experience": {
+                                "current": 46010,
+                                "next_level": 49130,
+                                "this_level": 44921,
+                                "remaining": 3120
+                            },
+                            "fitness": 164654,
+                            "health": [
+                                84
+                            ],
+                            "ivs": {
+                                "attack": 11,
+                                "defense": 7,
+                                "hp": 14,
+                                "special_attack": 2,
+                                "special_defense": 2,
+                                "speed": 1
+                            },
+                            "level": 33,
+                            "moves": [
+                                {
+                                    "id": 237,
+                                    "pp": 10,
+                                    "pp_up": 0,
+                                    "name": "Energy Ball",
+                                    "accuracy": 255,
+                                    "base_power": 90,
+                                    "type": "Grass"
+                                },
+                                {
+                                    "id": 155,
+                                    "pp": 10,
+                                    "pp_up": 0,
+                                    "name": "Bonemerang",
+                                    "accuracy": 229,
+                                    "base_power": 50,
+                                    "type": "Ground"
+                                },
+                                {
+                                    "id": 93,
+                                    "pp": 25,
+                                    "pp_up": 0,
+                                    "name": "Confusion",
+                                    "accuracy": 255,
+                                    "base_power": 50,
+                                    "type": "Psychic"
+                                },
+                                {
+                                    "id": 58,
+                                    "pp": 10,
+                                    "pp_up": 0,
+                                    "name": "Ice Beam",
+                                    "accuracy": 255,
+                                    "base_power": 90,
+                                    "type": "Ice"
+                                }
+                            ],
+                            "name": "IMPOSTCIE",
+                            "original_trainer": {
+                                "id": 35578,
+                                "name": "AMOGUS"
+                            },
+                            "personality_value": 3071445753,
+                            "species": {
+                                "base_stats": {
+                                    "attack": 100,
+                                    "defense": 150,
+                                    "hp": 50,
+                                    "special_attack": 125,
+                                    "special_defense": 125,
+                                    "speed": 50
+                                },
+                                "id": 36,
+                                "national_dex": 36,
+                                "type1": "Rock",
+                                "catch_rate": 3,
+                                "gender_ratio": 191,
+                                "growth_rate": "Slow",
+                                "name": "Diancie",
+                                "held_items": []
+                            },
+                            "stats": {
+                                "attack": 83,
+                                "defense": 114,
+                                "hp": 90,
+                                "special_attack": 94,
+                                "special_defense": 94,
+                                "speed": 43
+                            },
+                            "status": 0,
+                            "next_move": {
+                                "type": "Water",
+                                "level": 40
+                            },
+                            "gender": "Female",
+                            "shiny": false,
+                            "met": {
+                                "caught": "2022-04-10T13:36:24.026Z",
+                                "evolved": []
+                            }
+                        },
+                        {
+                            "box_slot": 7,
+                            "catchrate": 45,
+                            "cp": 2168,
+                            "evs": {
+                                "attack": 6624,
+                                "defense": 6096,
+                                "hp": 7894,
+                                "special_attack": 5521,
+                                "special_defense": 5521,
+                                "speed": 5633
+                            },
+                            "experience": {
+                                "current": 97553,
+                                "next_level": 102810,
+                                "this_level": 96012,
+                                "remaining": 5257
+                            },
+                            "fitness": 303393,
+                            "health": [
+                                170
+                            ],
+                            "ivs": {
+                                "attack": 13,
+                                "defense": 6,
+                                "hp": 10,
+                                "special_attack": 6,
+                                "special_defense": 6,
+                                "speed": 13
+                            },
+                            "level": 47,
+                            "moves": [
+                                {
+                                    "id": 19,
+                                    "pp": 15,
+                                    "pp_up": 0,
+                                    "name": "Fly",
+                                    "accuracy": 242,
+                                    "base_power": 90,
+                                    "type": "Flying"
+                                },
+                                {
+                                    "id": 233,
+                                    "pp": 20,
+                                    "pp_up": 0,
+                                    "name": "Shadow Punch",
+                                    "accuracy": 255,
+                                    "base_power": 60,
+                                    "type": "Ghost"
+                                },
+                                {
+                                    "id": 70,
+                                    "pp": 15,
+                                    "pp_up": 0,
+                                    "name": "Strength",
+                                    "accuracy": 255,
+                                    "base_power": 80,
+                                    "type": "Normal"
+                                },
+                                {
+                                    "id": 2,
+                                    "pp": 25,
+                                    "pp_up": 0,
+                                    "name": "Karate Chop",
+                                    "accuracy": 255,
+                                    "base_power": 50,
+                                    "type": "Fighting"
+                                }
+                            ],
+                            "name": "Cute",
+                            "original_trainer": {
+                                "id": 35578,
+                                "name": "AMOGUS"
+                            },
+                            "personality_value": 3604384471,
+                            "species": {
+                                "base_stats": {
+                                    "attack": 100,
+                                    "defense": 100,
+                                    "hp": 100,
+                                    "special_attack": 100,
+                                    "special_defense": 100,
+                                    "speed": 100
+                                },
+                                "id": 53,
+                                "national_dex": 53,
+                                "type1": "Grass",
+                                "type2": "Grass",
+                                "catch_rate": 45,
+                                "gender_ratio": 127,
+                                "growth_rate": "Medium Slow",
+                                "name": "Shaymin",
+                                "held_items": []
+                            },
+                            "stats": {
+                                "attack": 120,
+                                "defense": 113,
+                                "hp": 170,
+                                "special_attack": 113,
+                                "special_defense": 113,
+                                "speed": 120
+                            },
+                            "status": 0,
+                            "next_move": {
+                                "type": "Psychic",
+                                "level": 55
+                            },
+                            "gender": "Male",
+                            "shiny": false,
+                            "met": {
+                                "caught": "2022-04-11T02:43:31.859Z",
+                                "evolved": []
+                            }
+                        },
+                        {
+                            "box_slot": 8,
+                            "catchrate": 75,
+                            "cp": 2298,
+                            "evs": {
+                                "attack": 3989,
+                                "defense": 3207,
+                                "hp": 3129,
+                                "special_attack": 2908,
+                                "special_defense": 2908,
+                                "speed": 6134
+                            },
+                            "experience": {
+                                "current": 1000000,
+                                "next_level": 0,
+                                "this_level": 1000000,
+                                "remaining": -1000000
+                            },
+                            "fitness": 632482,
+                            "health": [
+                                0
+                            ],
+                            "ivs": {
+                                "attack": 12,
+                                "defense": 2,
+                                "hp": 2,
+                                "special_attack": 2,
+                                "special_defense": 2,
+                                "speed": 1
+                            },
+                            "level": 100,
+                            "moves": [
+                                {
+                                    "id": 231,
+                                    "pp": 21,
+                                    "pp_up": 2,
+                                    "name": "X-Scissor",
+                                    "accuracy": 255,
+                                    "base_power": 80,
+                                    "type": "Bug"
+                                },
+                                {
+                                    "id": 245,
+                                    "pp": 19,
+                                    "pp_up": 0,
+                                    "name": "Nuzzle",
+                                    "accuracy": 255,
+                                    "base_power": 20,
+                                    "type": "Electric"
+                                },
+                                {
+                                    "id": 128,
+                                    "pp": 13,
+                                    "pp_up": 0,
+                                    "name": "Clamp",
+                                    "accuracy": 216,
+                                    "base_power": 35,
+                                    "type": "Water"
+                                },
+                                {
+                                    "id": 116,
+                                    "pp": 30,
+                                    "pp_up": 0,
+                                    "name": "Focus Energy",
+                                    "accuracy": 255,
+                                    "base_power": 0,
+                                    "type": "Normal"
+                                }
+                            ],
+                            "name": "COPIUM",
+                            "original_trainer": {
+                                "id": 35578,
+                                "name": "AMOGUS"
+                            },
+                            "personality_value": 3255995057,
+                            "species": {
+                                "base_stats": {
+                                    "attack": 80,
+                                    "defense": 110,
+                                    "hp": 60,
+                                    "special_attack": 65,
+                                    "special_defense": 65,
+                                    "speed": 45
+                                },
+                                "id": 142,
+                                "national_dex": 142,
+                                "type1": "Ground",
+                                "type2": "Ground",
+                                "catch_rate": 75,
+                                "gender_ratio": 31,
+                                "growth_rate": "Medium Fast",
+                                "name": "Marowak",
+                                "held_items": []
+                            },
+                            "stats": {
+                                "attack": 205,
+                                "defense": 243,
+                                "hp": 248,
+                                "special_attack": 152,
+                                "special_defense": 152,
+                                "speed": 116
+                            },
+                            "status": 0,
+                            "gender": "Male",
+                            "shiny": false,
+                            "met": {
+                                "caught": "2022-04-11T12:06:27.582Z",
+                                "evolved": []
+                            }
+                        },
+                        {
+                            "box_slot": 9,
+                            "catchrate": 60,
+                            "cp": 678,
+                            "evs": {
+                                "attack": 3422,
+                                "defense": 2950,
+                                "hp": 2938,
+                                "special_attack": 2711,
+                                "special_defense": 2711,
+                                "speed": 2857
+                            },
+                            "experience": {
+                                "current": 20457,
+                                "next_level": 21970,
+                                "this_level": 19531,
+                                "remaining": 1513
+                            },
+                            "fitness": 74983,
+                            "health": [
+                                78
+                            ],
+                            "ivs": {
+                                "attack": 15,
+                                "defense": 8,
+                                "hp": 11,
+                                "special_attack": 1,
+                                "special_defense": 1,
+                                "speed": 9
+                            },
+                            "level": 25,
+                            "moves": [
+                                {
+                                    "id": 57,
+                                    "pp": 15,
+                                    "pp_up": 0,
+                                    "name": "Surf",
+                                    "accuracy": 255,
+                                    "base_power": 90,
+                                    "type": "Water"
+                                },
+                                {
+                                    "id": 162,
+                                    "pp": 10,
+                                    "pp_up": 0,
+                                    "name": "Super Fang",
+                                    "accuracy": 229,
+                                    "base_power": 1,
+                                    "type": "Normal"
+                                },
+                                {
+                                    "id": 159,
+                                    "pp": 30,
+                                    "pp_up": 0,
+                                    "name": "Sharpen",
+                                    "accuracy": 255,
+                                    "base_power": 0,
+                                    "type": "Normal"
+                                },
+                                {
+                                    "id": 65,
+                                    "pp": 20,
+                                    "pp_up": 0,
+                                    "name": "Drill Peck",
+                                    "accuracy": 255,
+                                    "base_power": 80,
+                                    "type": "Flying"
+                                }
+                            ],
+                            "name": "ZOOMX[πµ]",
+                            "original_trainer": {
+                                "id": 35578,
+                                "name": "AMOGUS"
+                            },
+                            "personality_value": 4170287814,
+                            "species": {
+                                "base_stats": {
+                                    "attack": 120,
+                                    "defense": 40,
+                                    "hp": 70,
+                                    "special_attack": 67,
+                                    "special_defense": 67,
+                                    "speed": 95
+                                },
+                                "id": 31,
+                                "national_dex": 31,
+                                "type1": "Water",
+                                "type2": "Dark",
+                                "catch_rate": 60,
+                                "gender_ratio": 254,
+                                "growth_rate": "Slow",
+                                "name": "Sharpedo",
+                                "held_items": []
+                            },
+                            "stats": {
+                                "attack": 76,
+                                "defense": 32,
+                                "hp": 78,
+                                "special_attack": 42,
+                                "special_defense": 42,
+                                "speed": 60
+                            },
+                            "status": 0,
+                            "next_move": {
+                                "type": "Normal",
+                                "level": 26
+                            },
+                            "gender": "Female",
+                            "shiny": false,
+                            "met": {
+                                "caught": "2022-04-10T07:39:09.904Z",
+                                "evolved": []
+                            }
+                        },
+                        {
+                            "box_slot": 10,
+                            "catchrate": 3,
+                            "cp": 1249,
+                            "evs": {
+                                "attack": 3886,
+                                "defense": 3964,
+                                "hp": 5938,
+                                "special_attack": 3467,
+                                "special_defense": 3467,
+                                "speed": 3129
+                            },
+                            "experience": {
+                                "current": 43704,
+                                "next_level": 44921,
+                                "this_level": 40960,
+                                "remaining": 1217
+                            },
+                            "fitness": 123265,
+                            "health": [
+                                37
+                            ],
+                            "ivs": {
+                                "attack": 14,
+                                "defense": 2,
+                                "hp": 3,
+                                "special_attack": 5,
+                                "special_defense": 5,
+                                "speed": 13
+                            },
+                            "level": 32,
+                            "moves": [
+                                {
+                                    "id": 157,
+                                    "pp": 10,
+                                    "pp_up": 0,
+                                    "name": "Rock Slide",
+                                    "accuracy": 229,
+                                    "base_power": 75,
+                                    "type": "Rock"
+                                },
+                                {
+                                    "id": 229,
+                                    "pp": 10,
+                                    "pp_up": 0,
+                                    "name": "Megahorn",
+                                    "accuracy": 216,
+                                    "base_power": 120,
+                                    "type": "Bug"
+                                },
+                                {
+                                    "id": 44,
+                                    "pp": 25,
+                                    "pp_up": 0,
+                                    "name": "Bite",
+                                    "accuracy": 255,
+                                    "base_power": 60,
+                                    "type": "Dark"
+                                },
+                                {
+                                    "id": 77,
+                                    "pp": 24,
+                                    "pp_up": 0,
+                                    "name": "Poisonpowder",
+                                    "accuracy": 191,
+                                    "base_power": 0,
+                                    "type": "Poison"
+                                }
+                            ],
+                            "name": "CREWROCK",
+                            "original_trainer": {
+                                "id": 35578,
+                                "name": "AMOGUS"
+                            },
+                            "personality_value": 3805645561,
+                            "species": {
+                                "base_stats": {
+                                    "attack": 100,
+                                    "defense": 200,
+                                    "hp": 80,
+                                    "special_attack": 75,
+                                    "special_defense": 75,
+                                    "speed": 50
+                                },
+                                "id": 143,
+                                "national_dex": 143,
+                                "type1": "Rock",
+                                "type2": "Rock",
+                                "catch_rate": 3,
+                                "gender_ratio": 31,
+                                "growth_rate": "Slow",
+                                "name": "Regirock",
+                                "held_items": []
+                            },
+                            "stats": {
+                                "attack": 82,
+                                "defense": 139,
+                                "hp": 101,
+                                "special_attack": 60,
+                                "special_defense": 60,
+                                "speed": 49
+                            },
+                            "status": 0,
+                            "next_move": {
+                                "type": "Normal",
+                                "level": 33
+                            },
+                            "gender": "Male",
+                            "shiny": false,
+                            "met": {
+                                "caught": "2022-04-10T19:05:47.229Z",
+                                "evolved": []
+                            }
+                        }
+                    ],
+                    "box_name": "Box 3",
+                    "box_number": 3
+                }
+            ],
+            "current_box_number": 3
+        },
+        "party": [
+            {
+                "catchrate": 3,
+                "cp": 2591,
+                "evs": {
+                    "attack": 13378,
+                    "defense": 12269,
+                    "hp": 11271,
+                    "special_attack": 12140,
+                    "special_defense": 12140,
+                    "speed": 11296
+                },
+                "experience": {
+                    "current": 146445,
+                    "next_level": 147061,
+                    "this_level": 138240,
+                    "remaining": 616
+                },
+                "fitness": 415441,
+                "health": [
+                    178,
+                    178
+                ],
+                "ivs": {
+                    "attack": 12,
+                    "defense": 7,
+                    "hp": 7,
+                    "special_attack": 7,
+                    "special_defense": 7,
+                    "speed": 1
+                },
+                "level": 48,
+                "moves": [
+                    {
+                        "id": 19,
+                        "pp": 15,
+                        "pp_up": 0,
+                        "name": "Fly",
+                        "accuracy": 242,
+                        "base_power": 90,
+                        "type": "Flying"
+                    },
+                    {
+                        "id": 53,
+                        "pp": 15,
+                        "pp_up": 0,
+                        "name": "Flamethrower",
+                        "accuracy": 255,
+                        "base_power": 90,
+                        "type": "Fire"
+                    },
+                    {
+                        "id": 164,
+                        "pp": 10,
+                        "pp_up": 0,
+                        "name": "Substitute",
+                        "accuracy": 255,
+                        "base_power": 0,
+                        "type": "Normal"
+                    },
+                    {
+                        "id": 14,
+                        "pp": 20,
+                        "pp_up": 0,
+                        "name": "Swords Dance",
+                        "accuracy": 255,
+                        "base_power": 0,
+                        "type": "Normal"
+                    }
+                ],
+                "name": "SUSGIA",
+                "original_trainer": {
+                    "id": 35578,
+                    "name": "AMOGUS"
+                },
+                "personality_value": 3340208889,
+                "species": {
+                    "base_stats": {
+                        "attack": 90,
+                        "defense": 130,
+                        "hp": 106,
+                        "special_attack": 122,
+                        "special_defense": 122,
+                        "speed": 110
+                    },
+                    "id": 232,
+                    "national_dex": 232,
+                    "type1": "Psychic",
+                    "type2": "Flying",
+                    "catch_rate": 3,
+                    "gender_ratio": 127,
+                    "growth_rate": "Slow",
+                    "name": "Lugia",
+                    "held_items": []
+                },
+                "stats": {
+                    "attack": 116,
+                    "defense": 149,
+                    "hp": 178,
+                    "special_attack": 141,
+                    "special_defense": 141,
+                    "speed": 124
+                },
+                "status": 0,
+                "next_move": {
+                    "type": "Normal",
+                    "level": 50
+                },
+                "gender": "Male",
+                "shiny": false,
+                "met": {
+                    "caught": "2022-04-10T13:01:53.904Z",
+                    "evolved": []
+                }
+            }
+        ],
+        "caught": 36,
+        "seen": 224,
+        "battle_party": [],
+        "ball_count": 0,
+        "level_cap": 100,
+        "map_name": "Pallet Town",
+        "party_fitness": 415441,
+        "events": [
+            {
+                "group": "Pokemon",
+                "name": "Sandile",
+                "time": "2022-04-10T07:39:09.904Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Wailmer",
+                "time": "2022-04-10T07:39:09.904Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Bouffalant",
+                "time": "2022-04-10T07:39:09.904Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Doduo",
+                "time": "2022-04-10T07:39:09.904Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Camerupt",
+                "time": "2022-04-10T07:39:09.904Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Sharpedo",
+                "time": "2022-04-10T07:39:09.904Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Blitzle",
+                "time": "2022-04-10T07:40:05.321Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Exeggcute",
+                "time": "2022-04-10T07:40:05.322Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Yamask",
+                "time": "2022-04-10T07:40:05.322Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #1",
+                "time": "2022-04-10T08:09:06.397Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cerulean City",
+                "time": "2022-04-10T08:09:22.973Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cerulean House",
+                "time": "2022-04-10T08:09:50.760Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 24",
+                "time": "2022-04-10T08:11:53.658Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 25",
+                "time": "2022-04-10T08:13:37.793Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 3,
+                "class_id": 9,
+                "name": "Cooltrainer♂ COOLTRAINER",
+                "time": "2022-04-10T08:26:43.474Z",
+                "attempts": 2
+            },
+            {
+                "group": "First Visit",
+                "name": "Sea Cottage",
+                "time": "2022-04-10T08:45:50.018Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cerulean Pokémon Center",
+                "time": "2022-04-10T08:58:12.382Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cerulean Gym",
+                "time": "2022-04-10T09:02:51.321Z"
+            },
+            {
+                "group": "Badge",
+                "name": "Cascade Badge",
+                "time": "2022-04-10T09:13:23.187Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 5",
+                "time": "2022-04-10T11:34:20.929Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Saffron City Gate",
+                "time": "2022-04-10T11:49:12.699Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Underground Path",
+                "time": "2022-04-10T11:50:06.948Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 6",
+                "time": "2022-04-10T11:53:35.228Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Vermilion City",
+                "time": "2022-04-10T12:15:17.816Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Center (Vermilion City)",
+                "time": "2022-04-10T12:15:40.249Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Poké Mart (Vermilion City)",
+                "time": "2022-04-10T12:16:49.557Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 11",
+                "time": "2022-04-10T12:20:12.145Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Diglett's Cave",
+                "time": "2022-04-10T12:20:18.508Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #2",
+                "time": "2022-04-10T12:39:12.825Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Lugia",
+                "dexNum": 232,
+                "time": "2022-04-10T13:00:35.156Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Lugia",
+                "time": "2022-04-10T13:01:53.904Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Trade Center",
+                "time": "2022-04-10T13:18:02.587Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Colosseum",
+                "time": "2022-04-10T13:23:01.672Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Diancie",
+                "dexNum": 36,
+                "time": "2022-04-10T13:33:45.315Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Diancie",
+                "time": "2022-04-10T13:36:24.026Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Vermilion Harbor (Vermilion City)",
+                "time": "2022-04-10T14:07:23.806Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "S.S. Anne 1F",
+                "time": "2022-04-10T14:07:34.523Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "S.S. Anne Kitchen",
+                "time": "2022-04-10T14:30:05.405Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "S.S. Anne 2F",
+                "time": "2022-04-10T14:34:07.498Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "S.S. Anne B1F",
+                "time": "2022-04-10T14:42:39.025Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "S.S. Anne 3F",
+                "time": "2022-04-10T15:11:09.800Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "S.S. Anne Deck",
+                "time": "2022-04-10T15:11:46.632Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #3",
+                "time": "2022-04-10T15:32:43.510Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 5,
+                "class_id": 41,
+                "name": "Gambler GAMBLER",
+                "time": "2022-04-10T15:39:38.222Z",
+                "attempts": 2
+            },
+            {
+                "group": "First Visit",
+                "name": "S.S. Anne Cabin",
+                "time": "2022-04-10T15:52:32.069Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Gym (Vermilion City)",
+                "time": "2022-04-10T16:13:10.364Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #4",
+                "time": "2022-04-10T16:38:32.775Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 1,
+                "class_id": 36,
+                "name": "Blackbelt BLACKBELT",
+                "time": "2022-04-10T16:47:38.086Z",
+                "attempts": 2
+            },
+            {
+                "group": "Badge",
+                "name": "Thunder Badge",
+                "time": "2022-04-10T16:51:37.837Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 2",
+                "time": "2022-04-10T17:08:54.544Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 2 House",
+                "time": "2022-04-10T17:09:24.682Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 2 Gate",
+                "time": "2022-04-10T17:11:16.189Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "House with Pidgey (Vermilion City)",
+                "time": "2022-04-10T18:41:15.708Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Regirock",
+                "dexNum": 143,
+                "time": "2022-04-10T19:03:34.125Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Regirock",
+                "time": "2022-04-10T19:05:47.229Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Vermilion House",
+                "time": "2022-04-10T19:12:23.193Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Empoleon",
+                "dexNum": 50,
+                "time": "2022-04-10T19:38:12.228Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Empoleon",
+                "time": "2022-04-10T19:38:38.182Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Elekid",
+                "dexNum": 10,
+                "time": "2022-04-10T19:52:07.017Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Elekid",
+                "time": "2022-04-10T19:53:50.151Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Fan Club (Vermilion City)",
+                "time": "2022-04-10T20:20:54.197Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cerulean Bike Shop",
+                "time": "2022-04-10T20:30:48.896Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 9",
+                "time": "2022-04-10T20:34:49.662Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 10",
+                "time": "2022-04-10T21:00:08.558Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Rock Tunnel Pokémon Center",
+                "time": "2022-04-10T21:01:38.961Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Rock Tunnel",
+                "time": "2022-04-10T21:08:05.048Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Lavender Town",
+                "time": "2022-04-10T22:22:52.038Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Lavender Pokémon Center",
+                "time": "2022-04-10T22:23:23.178Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Lavender Poké Mart",
+                "time": "2022-04-10T22:24:42.869Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 1F",
+                "time": "2022-04-10T22:28:44.974Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 8",
+                "time": "2022-04-10T22:32:06.553Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 7",
+                "time": "2022-04-10T23:14:09.349Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon City",
+                "time": "2022-04-10T23:14:48.194Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Pokémon Center",
+                "time": "2022-04-10T23:15:09.285Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Gym",
+                "time": "2022-04-10T23:21:19.968Z"
+            },
+            {
+                "group": "Badge",
+                "name": "Rainbow Badge",
+                "time": "2022-04-11T00:11:28.926Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Department Store 1F",
+                "time": "2022-04-11T00:31:06.898Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Department Store Lift",
+                "time": "2022-04-11T00:31:20.964Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Department Store 4F",
+                "time": "2022-04-11T00:32:32.621Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 16",
+                "time": "2022-04-11T00:37:20.602Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 16 Gate 1F",
+                "time": "2022-04-11T00:39:36.215Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 16 House",
+                "time": "2022-04-11T00:40:18.410Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 2F",
+                "time": "2022-04-11T00:46:16.036Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 3F",
+                "time": "2022-04-11T00:56:12.742Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 4F",
+                "time": "2022-04-11T00:58:13.291Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 5F",
+                "time": "2022-04-11T01:06:26.860Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 6F",
+                "time": "2022-04-11T01:11:46.984Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Tower 7F",
+                "time": "2022-04-11T01:21:22.930Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Mr. Fuji's House",
+                "time": "2022-04-11T01:35:21.404Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Viridian City",
+                "time": "2022-04-11T01:39:00.734Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 17",
+                "time": "2022-04-11T01:54:50.713Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 18",
+                "time": "2022-04-11T01:57:19.389Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 18 Gate 1F",
+                "time": "2022-04-11T01:57:55.555Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Fuchsia City",
+                "time": "2022-04-11T01:58:18.995Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Fuchsia Pokémon Center",
+                "time": "2022-04-11T01:59:38.358Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pallet Town",
+                "time": "2022-04-11T02:02:02.681Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Mom's House 1F",
+                "time": "2022-04-11T02:02:07.037Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Mom's House 2F",
+                "time": "2022-04-11T02:03:35.098Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Safari Zone Gate",
+                "time": "2022-04-11T02:09:52.813Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Safari Zone 1",
+                "time": "2022-04-11T02:11:54.366Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Zigzagoon",
+                "dexNum": 77,
+                "time": "2022-04-11T02:13:57.931Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Zigzagoon",
+                "time": "2022-04-11T02:14:26.053Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Safari Zone 2",
+                "time": "2022-04-11T02:19:06.326Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Safari Zone 3",
+                "time": "2022-04-11T02:26:02.214Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Safari Zone House",
+                "time": "2022-04-11T02:27:32.624Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Whismur",
+                "dexNum": 173,
+                "time": "2022-04-11T02:39:24.865Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Whismur",
+                "time": "2022-04-11T02:39:41.990Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Shaymin",
+                "dexNum": 53,
+                "time": "2022-04-11T02:40:53.815Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Shaymin",
+                "time": "2022-04-11T02:43:31.859Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Fuchsia Gym ",
+                "time": "2022-04-11T02:47:43.340Z"
+            },
+            {
+                "group": "Badge",
+                "name": "Soul Badge",
+                "time": "2022-04-11T03:13:21.330Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Warden's House",
+                "time": "2022-04-11T03:15:59.375Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Department Store 5F",
+                "time": "2022-04-11T03:23:47.504Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Department Store 3F",
+                "time": "2022-04-11T03:26:45.978Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Department Store 2F",
+                "time": "2022-04-11T03:26:50.999Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Saffron City",
+                "time": "2022-04-11T03:30:40.043Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Saffron Pokémon Center",
+                "time": "2022-04-11T03:31:18.214Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 1F",
+                "time": "2022-04-11T03:47:03.512Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. Lift",
+                "time": "2022-04-11T03:48:24.876Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 5F",
+                "time": "2022-04-11T03:49:12.430Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 9F",
+                "time": "2022-04-11T03:49:56.632Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 7F",
+                "time": "2022-04-11T04:02:47.801Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 6F",
+                "time": "2022-04-11T04:08:07.246Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 8F",
+                "time": "2022-04-11T04:08:34.703Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 3F",
+                "time": "2022-04-11T04:21:17.847Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 11F",
+                "time": "2022-04-11T04:36:59.114Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Silph Co. 2F",
+                "time": "2022-04-11T04:52:33.697Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Copycat's House 1F",
+                "time": "2022-04-11T04:54:52.990Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Copycat's House 2F",
+                "time": "2022-04-11T04:56:11.681Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Mr. Psychic's House",
+                "time": "2022-04-11T05:03:51.442Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Saffron Gym",
+                "time": "2022-04-11T05:05:49.972Z"
+            },
+            {
+                "group": "Badge",
+                "name": "Marsh Badge",
+                "time": "2022-04-11T05:37:51.703Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 21",
+                "time": "2022-04-11T05:42:55.084Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cinnabar Island",
+                "time": "2022-04-11T06:01:13.068Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cinnabar Pokémon Center",
+                "time": "2022-04-11T06:02:15.683Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 20",
+                "time": "2022-04-11T06:12:55.702Z"
+            },
+            {
+                "group": "First Catch",
+                "dexNum": 256,
+                "time": "2022-04-11T06:15:24.040Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Corsola",
+                "dexNum": 76,
+                "time": "2022-04-11T06:21:40.754Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Corsola",
+                "time": "2022-04-11T06:22:13.901Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #5",
+                "time": "2022-04-11T06:40:52.156Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Lab",
+                "time": "2022-04-11T06:51:22.173Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Mansion 1F",
+                "time": "2022-04-11T07:24:44.712Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Mansion 2F",
+                "time": "2022-04-11T07:37:06.075Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Mansion 3F",
+                "time": "2022-04-11T07:39:14.658Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Seviper",
+                "dexNum": 107,
+                "time": "2022-04-11T08:43:47.252Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Seviper",
+                "time": "2022-04-11T08:46:39.366Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon Mansion B1F",
+                "time": "2022-04-11T09:08:57.212Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cinnabar Poké Mart",
+                "time": "2022-04-11T11:20:46.464Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Viridian Pokémon Center",
+                "time": "2022-04-11T11:26:25.669Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Marowak",
+                "dexNum": 142,
+                "time": "2022-04-11T12:04:24.353Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Marowak",
+                "time": "2022-04-11T12:06:27.582Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Cinnabar Gym",
+                "time": "2022-04-11T12:21:35.030Z"
+            },
+            {
+                "group": "Badge",
+                "name": "Volcano Badge",
+                "time": "2022-04-11T12:55:12.196Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Viridian Gym",
+                "time": "2022-04-11T13:03:19.070Z"
+            },
+            {
+                "group": "Badge",
+                "name": "Earth Badge",
+                "time": "2022-04-11T13:38:56.780Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Viridian Poké Mart",
+                "time": "2022-04-11T13:43:00.217Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 22",
+                "time": "2022-04-11T13:51:08.438Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Palkia",
+                "dexNum": 209,
+                "time": "2022-04-11T14:22:16.588Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Palkia",
+                "time": "2022-04-11T14:25:21.085Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 22 Gate",
+                "time": "2022-04-11T14:27:09.921Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 23",
+                "time": "2022-04-11T14:27:38.384Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Victory Road",
+                "time": "2022-04-11T14:34:36.283Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Jirachi",
+                "dexNum": 66,
+                "time": "2022-04-11T14:39:42.676Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Jirachi",
+                "time": "2022-04-11T14:41:25.469Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Volbeat",
+                "dexNum": 75,
+                "time": "2022-04-11T14:50:33.293Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Volbeat",
+                "time": "2022-04-11T14:52:44.227Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Entei",
+                "dexNum": 108,
+                "time": "2022-04-11T15:44:26.976Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Entei",
+                "time": "2022-04-11T15:45:51.693Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pokémon League",
+                "time": "2022-04-11T15:49:17.293Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Indigo Plateau",
+                "time": "2022-04-11T15:49:30.688Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Lorelei's Hall",
+                "time": "2022-04-11T15:51:05.787Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Bruno's Hall",
+                "time": "2022-04-11T16:00:47.433Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Agatha's Hall",
+                "time": "2022-04-11T16:06:55.097Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Lance's Hall",
+                "time": "2022-04-11T16:15:49.524Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Champion's Hall",
+                "time": "2022-04-11T16:23:03.728Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #6",
+                "time": "2022-04-11T16:31:43.594Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 3,
+                "class_id": 43,
+                "name": "Bird Keeper SSUMLUU",
+                "time": "2022-04-11T17:50:42.278Z",
+                "attempts": 2
+            },
+            {
+                "group": "First Visit",
+                "name": "Hall of Fame",
+                "time": "2022-04-11T17:52:07.663Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Bronzong",
+                "dexNum": 120,
+                "time": "2022-04-11T18:42:17.323Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Bronzong",
+                "time": "2022-04-11T18:43:41.363Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Unknown Dungeon B1F",
+                "time": "2022-04-11T19:54:08.907Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Unknown Dungeon",
+                "time": "2022-04-11T20:10:20.311Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Thundurus",
+                "dexNum": 231,
+                "time": "2022-04-11T20:38:13.914Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Thundurus",
+                "time": "2022-04-11T20:38:45.561Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Unknown Dungeon 1F",
+                "time": "2022-04-11T20:43:03.230Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #7",
+                "time": "2022-04-11T21:38:15.441Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 4",
+                "time": "2022-04-11T21:39:26.931Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Timburr",
+                "dexNum": 37,
+                "time": "2022-04-11T21:50:18.552Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Timburr",
+                "time": "2022-04-11T21:51:09.115Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Numel",
+                "dexNum": 222,
+                "time": "2022-04-11T21:52:46.229Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Numel",
+                "time": "2022-04-11T21:54:33.371Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Qwilfish",
+                "dexNum": 130,
+                "time": "2022-04-11T21:57:47.592Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Qwilfish",
+                "time": "2022-04-11T21:59:47.980Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Linoone",
+                "dexNum": 78,
+                "time": "2022-04-11T22:02:50.972Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Linoone",
+                "time": "2022-04-11T22:03:42.036Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Porygon-Z",
+                "dexNum": 194,
+                "time": "2022-04-11T22:17:32.976Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Porygon-Z",
+                "time": "2022-04-11T22:19:10.076Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Togekiss",
+                "dexNum": 105,
+                "time": "2022-04-11T22:26:35.777Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Togekiss",
+                "time": "2022-04-11T22:28:03.841Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Cacnea",
+                "dexNum": 198,
+                "time": "2022-04-11T22:32:30.049Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Cacnea",
+                "time": "2022-04-11T22:33:13.907Z"
+            },
+            {
+                "group": "Trainers Defeated",
+                "id": 3,
+                "class_id": 43,
+                "name": "Bird Keeper SSUMLUU",
+                "time": "2022-04-11T23:31:12.120Z",
+                "attempts": 1
+            },
+            {
+                "group": "First Catch",
+                "name": "Phione",
+                "dexNum": 128,
+                "time": "2022-04-11T23:57:19.112Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Phione",
+                "time": "2022-04-11T23:59:12.130Z"
+            },
+            {
+                "group": "First Catch",
+                "name": "Piplup",
+                "dexNum": 48,
+                "time": "2022-04-12T00:32:19.281Z"
+            },
+            {
+                "group": "Pokemon",
+                "name": "Piplup",
+                "time": "2022-04-12T00:39:31.898Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #8",
+                "time": "2022-04-12T01:17:16.693Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Rocket Game Corner",
+                "time": "2022-04-12T02:28:57.384Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Rocket Prize Corner",
+                "time": "2022-04-12T02:31:44.143Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Celadon Restaurant",
+                "time": "2022-04-12T12:47:28.074Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #9",
+                "time": "2022-04-12T14:44:54.627Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Route 1",
+                "time": "2022-04-12T16:41:19.047Z"
+            },
+            {
+                "group": "Blackouts",
+                "name": "Blackout #10",
+                "time": "2022-04-12T17:04:50.136Z"
+            },
+            {
+                "group": "First Visit",
+                "name": "Pewter City",
+                "time": "2022-04-12T17:07:41.422Z"
+            }
+        ],
+        "game_stats": {
+            "Battles Fought (Total)": 527,
+            "Blackouts": 10,
+            "Pokémon Caught": 36
+        }
+    }
+}
