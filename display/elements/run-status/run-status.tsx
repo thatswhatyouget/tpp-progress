@@ -128,10 +128,13 @@ namespace TPP.Display.Elements.RunStatus {
             var dex = this.props.buildDex(this.props.run).Clone();
             if (!dex.TotalOwned)
                 return null;
+            let caughtList = this.state.dexSeen ? this.state.status.seen_list : this.state.status.caught_list || [];
+            if (this.props.run.DexMapping)
+                caughtList = caughtList.map(c => this.props.run.DexMapping[c] || c);
             return <PokeBox title="Pokédex" className="pokedex">
                 {this.PokedexOutOfDate(dex) ? <h6>Outdated</h6> : ""}
                 <Pokedex.Dex dex={dex}
-                    caughtList={this.state.dexSeen ? this.state.status.seen_list : this.state.status.caught_list || []}
+                    caughtList={caughtList}
                     run={this.props.run}
                     ownedOnly={!this.state.dexSeen}
                     label={this.state.dexSeen ? "Seen" : "Owned"}

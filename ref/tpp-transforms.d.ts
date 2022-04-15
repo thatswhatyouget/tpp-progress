@@ -99,6 +99,7 @@ declare namespace TPP {
         Generation?: number;
         Pokedex?: string;
         DexTotal?: number;
+        DexMapping?: number[];
         Scraper?: {
             url: string;
             parts: string[];
