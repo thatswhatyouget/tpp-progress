@@ -53,7 +53,7 @@ namespace TPP.Display.Elements.RunStatus {
                         {mon.level && <div className="level">{mon.level + (mon.level == 100 || (mon.experience || { remaining: 1 }).remaining ? 0 : 1)}</div>}
                         {mon.ability && <div className="ability informatic">{mon.ability}</div>}
                         <ul className="moves">
-                            {mon.moves.map(m => <Move move={m} key={m.id} />)}
+                            {mon.moves.map(m => <Move move={m} key={m.id} baseUrl={this.props.baseUrl} />)}
                         </ul>
                         {mon.held_item && mon.held_item.id > 0 && <div className="held-item informatic">
                             {mon.held_item.name}
@@ -202,7 +202,7 @@ namespace TPP.Display.Elements.RunStatus {
         }
     }
 
-    class Move extends React.PureComponent<{ move: TPP.Tv.Move }, { showStats: boolean }> {
+    class Move extends React.PureComponent<{ move: TPP.Tv.Move, baseUrl?: string }, { showStats: boolean }> {
         state = { showStats: false };
         render() {
             const m = this.props.move;
@@ -211,7 +211,7 @@ namespace TPP.Display.Elements.RunStatus {
                 transform: "scale(.8)"
             };
             return m && <li onClick={e => { e.stopPropagation(); this.setState(state => ({ showStats: !state.showStats })); }} style={{ cursor: "pointer" }}>
-                <TypeImg type={m.type} />
+                <TypeImg type={m.type} baseUrl={this.props.baseUrl} />
                 {this.state.showStats
                     ? <span className="move-name">
                         <i className="fa fa-power-off" style={statsStyles} />{m.base_power}&nbsp;
