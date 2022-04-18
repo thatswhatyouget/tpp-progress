@@ -184,7 +184,7 @@ namespace TPP.Display.Elements.RunStatus {
             ].filter(c => !!c).map(cleanString).join(' ');
             return <li className={classes} onClick={e => this.setState(s => ({ infoMode: ((s && s.infoMode || 0) + 1) % infoModes.length }))}>
                 <div className="pokemon-image">
-                    <PokeSprite pokemon={mon.is_egg ? "Egg" : mon.species.name} gender={mon.gender} shiny={mon.shiny} />
+                    <PokeSprite pokemon={mon.is_egg ? "Egg" : mon.species.name} gender={mon.gender} shiny={mon.shiny} baseUrl={this.props.baseUrl} />
                     <div className="species">{mon.is_egg ? "Egg" : mon.species.name}</div>
                 </div>
                 {mon.is_egg ? null : this.renderInfo(infoModes[this.state && this.state.infoMode || 0], mon)}
