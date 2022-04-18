@@ -37,7 +37,7 @@ namespace TPP.Display.Elements.RunStatus {
 
     const infoModes = ["Default", "Misc", "Met", "IVs", "EVs", "Stats", "Condition", "Evolutions"]
 
-    export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string }, { infoMode: number; }> {
+    export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string, baseUrl?: string, ignoreHealth?: boolean }, { infoMode: number; }> {
 
         private renderInfo(mode: string, mon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon) {
             switch (mode) {
@@ -45,9 +45,9 @@ namespace TPP.Display.Elements.RunStatus {
                     return <div className="pokemon-info">
                         <div className="name">{mon.name}</div>
                         <div className="types">
-                            <TypeImg type={mon.species.type1} />
+                            <TypeImg type={mon.species.type1} baseUrl={this.props.baseUrl} />
                             {mon.species.type2 != mon.species.type1 ?
-                                <TypeImg type={mon.species.type2} />
+                                <TypeImg type={mon.species.type2} baseUrl={this.props.baseUrl} />
                                 : null}
                         </div>
                         {mon.level && <div className="level">{mon.level + (mon.level == 100 || (mon.experience || { remaining: 1 }).remaining ? 0 : 1)}</div>}
@@ -170,7 +170,7 @@ namespace TPP.Display.Elements.RunStatus {
             if (!mon)
                 return null;
             var hideHealth = true;
-            if ((mon as TPP.Tv.PartyPokemon).health) {
+            if (!this.props.ignoreHealth && (mon as TPP.Tv.PartyPokemon).health) {
                 var hpPercent = (mon as Tv.PartyPokemon).health[0] / (mon as Tv.PartyPokemon).health[1] * 100;
                 hideHealth = false;
             }
@@ -192,13 +192,13 @@ namespace TPP.Display.Elements.RunStatus {
         }
     }
 
-    class TypeImg extends React.PureComponent<{ type: string; }, {}> {
+    class TypeImg extends React.PureComponent<{ type: string; baseUrl?: string; }, {}> {
         render() {
             let type = (this.props.type == "???" ? "Fairy" : this.props.type) || '';
             if (typeof type === "number") {
                 return <img src={`https://static-cdn.jtvnw.net/emoticons/v1/${type}/1.0`} />;
             }
-            return <img src={`img/type-icons/${type.toLowerCase()}.png`} title={type} alt={type} />;
+            return <img src={`${this.props.baseUrl || ""}img/type-icons/${type.toLowerCase()}.png`} title={type} alt={type} />;
         }
     }
 

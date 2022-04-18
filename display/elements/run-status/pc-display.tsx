@@ -21,7 +21,7 @@ namespace TPP.Display.Elements.RunStatus {
                 className="pokemon-hud pc-box">
                 <ul className="party">
                     {boxContents.length > 0 ?
-                        boxContents.map(p => <Pokemon pokemon={p} key={p.box_slot || p.personality_value} />)
+                        boxContents.map(p => <Pokemon pokemon={p} key={p.box_slot || p.personality_value} ignoreHealth />)
                         :
                         <li className="empty">Empty</li>
                     }

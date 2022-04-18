@@ -337,6 +337,7 @@ declare namespace TPP.Display.Elements {
         shiny?: boolean;
         form?: string;
         className?: string;
+        baseUrl?: string;
     }, {}> {
         render(): JSX.Element;
     }
@@ -465,6 +466,8 @@ declare namespace TPP.Display.Elements.RunStatus {
     class Pokemon extends React.Component<{
         pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon;
         className?: string;
+        baseUrl?: string;
+        ignoreHealth?: boolean;
     }, {
         infoMode: number;
     }> {
