@@ -29,7 +29,10 @@ gulp.task('build-transforms', function () {
 
 gulp.task('build-display', gulp.series("build-transforms", function () {
     var tsResult = tppDisplayProject.src().pipe(tppDisplayProject())
-    return tsResult.js.pipe(uglify()).pipe(gulp.dest("./display/"));
+    return merge(
+        tsResult.js.pipe(uglify()).pipe(gulp.dest("./display/")),
+        tsResult.dts.pipe(gulp.dest("./ref/"))
+    );
 }));
 
 gulp.task('compile-data', function () {
