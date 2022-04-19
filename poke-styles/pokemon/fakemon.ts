@@ -11,6 +11,7 @@ var fakemon = [
     "Pumbloom", //Bronze
     "Burmy G", "Wormadam G", "Meloetta F", "ShayminSky", "Burmy S", "Wormadam S", "Aqua Egg", "Shellos 2", "Gastrodon2", "Rotom I", "Rotom F", "Rotom W", "Rotom G", "Rotom H", //Flora Sky
     "Onixtret", "Steelurret", "Chiquirtle", "Baytortle", "Megastoise", "Hootduo", "Noctdrio", "Togekey", "Togetape", "Hopporita", "Skipleef", "Jumpanium", "Woochum", "Quagynx", //Chatty Crystal
+	"CoolSpheal", "DumbSpheal", "WentSpheal", //Spheal Team Six
 ];
 
 addStyles(fakemon, f => {
