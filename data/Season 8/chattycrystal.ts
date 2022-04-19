@@ -104,7 +104,7 @@ Season8.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-02-27T00:13:22Z", Attempts: 26, Party: [
                     { Pokemon: "Torterra", Nickname: "VVVVVV", Level: 80, Gender: "Male", Number: 389, IDNo: "04242", Shiny: true },
-                    { Pokemon: "Unown", Nickname: "PPPPss", Level: 88, Number: 201, IDNo: "04242" },
+                    { Pokemon: "Unown", Nickname: "PPPPss", Level: 88, Number: 201, IDNo: "04242", Form: "T" },
                     { Pokemon: "Ludicolo", Nickname: "XXHI", Level: 88, Gender: "Male", Number: 272, IDNo: "04242" },
                     { Pokemon: "Goodra", Nickname: "YPG", Level: 89, Gender: "Female", Number: 706, IDNo: "04242" },
                     { Pokemon: "Skuntank", Nickname: "ZZZZZ ", Level: 78, Gender: "Female", Number: 435, IDNo: "04242" },
@@ -117,7 +117,7 @@ Season8.Runs.push(
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-02-28T11:18:42.317Z", Attempts: 2, Party: [
                     { Pokemon: "Goodra", Nickname: "YPG", Level: 91, Gender: "Female", Number: 706, IDNo: "04242" },
                     { Pokemon: "Ludicolo", Nickname: "XXHI", Level: 89, Gender: "Male", Number: 272, IDNo: "04242" },
-                    { Pokemon: "Unown", Nickname: "PPPPss", Level: 88, Number: 201, IDNo: "04242" },
+                    { Pokemon: "Unown", Nickname: "PPPPss", Level: 88, Number: 201, IDNo: "04242", Form: "T" },
                     { Pokemon: "Chatot", Nickname: "KENYA", Level: 96, Gender: "Male", Number: 441, IDNo: "01001" },
                     { Pokemon: "Torterra", Nickname: "VVVVVV", Level: 85, Gender: "Male", Number: 389, IDNo: "04242", Shiny: true },
                     { Pokemon: "Skuntank", Nickname: "ZZZZZ ", Level: 82, Gender: "Female", Number: 435, IDNo: "04242" },
@@ -129,7 +129,7 @@ Season8.Runs.push(
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-03-03T05:06:12.373Z", Attempts: 1, Party: [
                     { Pokemon: "Ludicolo", Nickname: "XXHI", Level: 100, Gender: "Male", Number: 272, IDNo: "04242" },
                     { Pokemon: "Chatot", Nickname: "KENYA", Level: 100, Gender: "Male", Number: 441, IDNo: "01001" },
-                    { Pokemon: "Unown", Nickname: "PPPPss", Level: 93, Number: 201, IDNo: "04242" },
+                    { Pokemon: "Unown", Nickname: "PPPPss", Level: 93, Number: 201, IDNo: "04242", Form: "T" },
                     { Pokemon: "Skuntank", Nickname: "ZZZZZ ", Level: 91, Gender: "Female", Number: 435, IDNo: "04242" },
                     { Pokemon: "Goodra", Nickname: "YPG", Level: 100, Gender: "Female", Number: 706, IDNo: "04242" },
                     { Pokemon: "Torterra", Nickname: "VVVVVV", Level: 95, Gender: "Male", Number: 389, IDNo: "04242", Shiny: true },
@@ -143,7 +143,7 @@ Season8.Runs.push(
                     { Pokemon: "Ludicolo", Nickname: "XXHI", Level: 100, Gender: "Male", Number: 272, IDNo: "04242" },
                     { Pokemon: "Goodra", Nickname: "YPG", Level: 100, Gender: "Female", Number: 706, IDNo: "04242" },
                     { Pokemon: "Torterra", Nickname: "VVVVVV", Level: 99, Gender: "Male", Number: 389, IDNo: "04242", Shiny: true },
-                    { Pokemon: "Unown", Nickname: "PPPPss", Level: 100, Number: 201, IDNo: "04242" },
+                    { Pokemon: "Unown", Nickname: "PPPPss", Level: 100, Number: 201, IDNo: "04242", Form: "T" },
                     { Pokemon: "Skuntank", Nickname: "ZZZZZ ", Level: 99, Gender: "Female", Number: 435, IDNo: "04242" },
                 ],
                 FirstAttemptDate: "2021-03-05T20:34:34.959Z",
