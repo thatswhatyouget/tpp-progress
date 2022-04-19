@@ -35,7 +35,7 @@ Intermissions.Runs.push(
                     { Pokemon: "Xerneas", Nickname: "LIFE", Level: 37, Type1: "Fairy" },
                     { Pokemon: "Rampardos", Nickname: " ", Level: 73, Type1: "Rock" },
                     { Pokemon: "Hydreigon", Nickname: " GGDs", Level: 30, Type1: "Dark", Type2: "Dragon" },
-                    { Pokemon: "Vanulluxe", Nickname: "MMJFK", Level: 29, Type1: "Ice" },
+                    { Pokemon: "Vanilluxe", Nickname: "MMJFK", Level: 29, Type1: "Ice" },
                     { Pokemon: "Marshtomp", Nickname: "QHI???????", Level: 29, Type1: "Water", Type2: "Ground" },
                     { Pokemon: "Reshiram", Nickname: "YXOXYIPπ,", Level: 41, Type1: "Dragon", Type2: "Fire" },
                 ],
