@@ -31,14 +31,14 @@ Season9.Runs.push(
                 Name: "Venus",
                 Image: "img/trainers/colosseum/venus.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherVenus.png.html",
-                Time: "", Attempts: 0
+                Time: "2022-06-13T12:24:56.881Z", Attempts: 1
             },
             {
                 Group: "Bosses",
                 Name: "Ein",
                 Image: "img/trainers/colosseum/ein.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherEin.png.html",
-                Time: "", Attempts: 0
+                Time: "2022-06-14T02:06:16.991Z", Attempts: 1
             },
             {
                 Group: "Final Bosses",
