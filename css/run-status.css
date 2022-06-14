@@ -474,3 +474,60 @@
   line-height: 14vh;
   font-size: 7vh;
 }*/
+
+.pokemon-hud ul.party > li.shadow-mon {
+    padding-top: 1em;
+}
+
+.pokemon-hud ul.party > li.shadow-mon .shadow-bar {
+    position: absolute;
+    height:1.25em;
+    right:.8em;
+    left:1.6em;
+    top: 0;
+    font-size: .75em;
+    background-color:#333;
+    border:.1em solid #666;
+    color: white;
+}
+.pokemon-hud ul.party > li.shadow-mon .shadow-bar:before {
+    content: "❤";
+    padding: 0 .5em;
+    font-weight: bold;
+    background-color:#666;
+    transform: skew(-15deg);
+    position: absolute;
+    right:calc(100% - .5em);
+    top:-.075em;
+    bottom:-.075em;
+    z-index: 1;
+}
+.pokemon-hud ul.party > li.shadow-mon .shadow-bar:after {
+    content:'';
+    position: absolute;
+    background-color:#666;
+    right:-.75em;
+    top:-.075em;
+    bottom:-.075em;
+    width:1em;
+    transform:skew(15deg);
+}
+.pokemon-hud ul.party > li.shadow-mon .shadow-bar .bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    mask-image: repeating-linear-gradient(to right, black 0%, black 19.5%, transparent 19.51%, transparent 20.5%);
+    -webkit-mask-image: repeating-linear-gradient(to right, black 0%, black 19.5%, transparent 19.51%, transparent 20.5%);
+}
+.pokemon-hud ul.party > li.shadow-mon .shadow-bar .bar .shadow {
+    position: absolute;
+    left:0;
+    top:0;
+    bottom:0;
+    transform:skew(15deg)translateX(-.2em);
+    max-width: 100%;
+    background-color:purple;
+}

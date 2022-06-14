@@ -126,6 +126,11 @@ declare namespace TPP.Tv {
         };
         ribbons: string[];
         is_egg: boolean;
+        is_shadow?: boolean;
+        purification?: {
+            current: number;
+            initial?: number;
+        };
     }
     interface Evolution {
         level?: number;

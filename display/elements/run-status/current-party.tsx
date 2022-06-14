@@ -170,6 +170,10 @@ namespace TPP.Display.Elements.RunStatus {
             if (!mon)
                 return null;
             var hideHealth = true;
+            let isShadow = !!mon.is_shadow && !!mon.purification;
+            let shadowPercentage: number;
+            if (isShadow)
+                shadowPercentage = (Math.max(0, mon.purification.current) / mon.purification.initial) * 100;
             if (!this.props.ignoreHealth && (mon as TPP.Tv.PartyPokemon).health) {
                 var hpPercent = (mon as Tv.PartyPokemon).health[0] / (mon as Tv.PartyPokemon).health[1] * 100;
                 hideHealth = false;
@@ -180,7 +184,8 @@ namespace TPP.Display.Elements.RunStatus {
                 hideHealth ? null : (mon as Tv.PartyPokemon).health[0] == 0 ? "fainted" : "",
                 (mon as Tv.PartyPokemon).status,
                 mon.pokerus && mon.pokerus.infected && "pkrs-infected",
-                mon.pokerus && mon.pokerus.cured && "pkrs-cured"
+                mon.pokerus && mon.pokerus.cured && "pkrs-cured",
+                isShadow && "shadow-mon"
             ].filter(c => !!c).map(cleanString).join(' ');
             return <li className={classes} onClick={e => this.setState(s => ({ infoMode: ((s && s.infoMode || 0) + 1) % infoModes.length }))}>
                 <div className="pokemon-image">
@@ -188,6 +193,7 @@ namespace TPP.Display.Elements.RunStatus {
                     <div className="species">{mon.is_egg ? "Egg" : mon.species.name}</div>
                 </div>
                 {mon.is_egg ? null : this.renderInfo(infoModes[this.state && this.state.infoMode || 0], mon)}
+                {isShadow && <div className="shadow-bar"><div className="bar"><div className="shadow" style={{ width: shadowPercentage + '%' }} /></div></div>}
             </li>
         }
     }
