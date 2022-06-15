@@ -45,7 +45,7 @@ Season9.Runs.push(
                 Name: "Venus",
                 Image: "img/trainers/colosseum/venus.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherVenus.png.html",
-                Time: "", Attempts: 0
+                Time: "2022-06-14T15:58:44.350Z", Attempts: 4
             },
             {
                 Group: "Final Bosses",
@@ -59,21 +59,21 @@ Season9.Runs.push(
                 Name: "Dakim",
                 Image: "img/trainers/colosseum/dakim.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherDakim.png.html",
-                Time: "", Attempts: 0
+                Time: "2022-06-14T12:24:23.095Z", Attempts: 5
             },
             {
                 Group: "Final Bosses",
                 Name: "Ein",
                 Image: "img/trainers/colosseum/ein.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherEin.png.html",
-                Time: "", Attempts: 0
+                Time: "2022-06-14T13:29:04.160Z", Attempts: 3
             },
             {
                 Group: "Final Bosses",
                 Name: "Gonzap",
                 Image: "img/trainers/colosseum/gonzap.png",
                 ImageSource: "http://forum.yugiohcardmaker.net/topic/200460-colosseum-sprites/",
-                Time: "", Attempts: 0
+                Time: "2022-06-14T17:29:27.849Z", Attempts: 1
             },
             {
                 Group: "Final Bosses",
@@ -118,7 +118,25 @@ Season9.Runs.push(
             { "Group": "Pokemon", "Name": "Hitmontop", "Time": "2022-06-12T15:06:51.962Z" },
             { "Group": "Pokemon", "Name": "Ampharos", "Time": "2022-06-12T19:56:57.740Z" },
             { "Group": "Pokemon", "Name": "Typhlosion", "Time": "2022-06-12T22:25:35.479Z" },
-            { "Group": "Pokemon", "Name": "Entei", "Time": "2022-06-13T00:34:02.865Z" }
+            { "Group": "Pokemon", "Name": "Entei", "Time": "2022-06-13T00:34:02.865Z" },
+            { "Group": "Pokemon", "Name": "Piloswine", "Time": "2022-06-13T11:17:18.172Z" },
+            { "Group": "Pokemon", "Name": "Suicune", "Time": "2022-06-13T12:02:17.688Z" },
+            { "Group": "Pokemon", "Name": "Weezing", "Time": "2022-06-13T12:32:26.616Z" },
+            { "Group": "Pokemon", "Name": "Marowak", "Time": "2022-06-13T13:07:46.860Z" },
+            { "Group": "Pokemon", "Name": "Breloom", "Time": "2022-06-13T14:32:48.043Z" },
+            { "Group": "Pokemon", "Name": "Scizor", "Time": "2022-06-13T21:16:30.862Z" },
+            { "Group": "Pokemon", "Name": "Kingdra", "Time": "2022-06-13T21:52:27.513Z" },
+            { "Group": "Pokemon", "Name": "Banette", "Time": "2022-06-13T22:28:03.270Z" },
+            { "Group": "Pokemon", "Name": "Cradily", "Time": "2022-06-13T22:39:14.503Z" },
+            { "Group": "Pokemon", "Name": "Ninetales", "Time": "2022-06-13T23:05:06.501Z" },
+            { "Group": "Pokemon", "Name": "Porygon2", "Time": "2022-06-14T00:05:12.799Z" },
+            { "Group": "Pokemon", "Name": "Raikou", "Time": "2022-06-14T01:37:37.937Z" },
+            { "Group": "Pokemon", "Name": "Altaria", "Time": "2022-06-14T12:50:01.052Z" },
+            { "Group": "Pokemon", "Name": "Arcanine", "Time": "2022-06-14T13:00:22.250Z" },
+            { "Group": "Pokemon", "Name": "Heracross", "Time": "2022-06-14T16:07:47.980Z" },
+            { "Group": "Pokemon", "Name": "Flygon", "Time": "2022-06-14T17:23:08.671Z" },
+            { "Group": "Pokemon", "Name": "Exploud", "Time": "2022-06-15T01:05:26.679Z" },
+            { "Group": "Pokemon", "Name": "Torkoal", "Time": "2022-06-15T01:49:02.935Z" }
         ]
     }
 );
