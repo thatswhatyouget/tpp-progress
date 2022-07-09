@@ -36,6 +36,6 @@ function toggleGroup(element: HTMLInputElement) {
     var group = element.id.split('-').pop(), visible = element.checked;
     showGroups[group] = visible;
     localStorage.setItem("showGroups", JSON.stringify(showGroups));
-    $('.' + group.replace(/[^A-Z0-9]/ig, '')).toggleClass("hidden", !visible);
+    $('.' + group.replace(/♀/g,'F').replace(/♂/g,'M').replace(/\?/g,'-q').replace(/[^A-Z0-9]/ig, '')).toggleClass("hidden", !visible);
     updatePage();
 }

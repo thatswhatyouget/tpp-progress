@@ -160,7 +160,7 @@ function updateRun(runInfo: TPP.Run, run: HTMLDivElement, scale) {
     setTimeout(() => updateRun(runInfo, run, scale), 15 * 60000);
 }
 
-var cleanString = (str: string) => str.replace(/[^A-Z0-9-]/ig, '').toLowerCase();
+var cleanString = (str: string) => str.replace(/♀/g,'F').replace(/♂/g,'M').replace(/\?/g,'-q').replace(/[^A-Z0-9-]/ig, '').toLowerCase();
 
 function setUniqueId(element: HTMLElement, id: string) {
     var original = id = cleanString(id);
@@ -207,16 +207,16 @@ function drawConcurrentRuns(baseRunInfo: TPP.Run, runElement: HTMLDivElement, sc
 
 function drawEvent(eventInfo: TPP.Event, runInfo: TPP.Run, scale: TPP.Scale) {
     delete eventInfo.New;
-    var groupName = eventInfo.Group.replace(/[^A-Z0-9-]/ig, '').toLowerCase();
+    var groupName = eventInfo.Group.replace(/♀/g,'F').replace(/♂/g,'M').replace(/\?/g,'-q').replace(/[^A-Z0-9-]/ig, '').toLowerCase();
     var event = document.createElement("div");
     var eventImg = document.createElement("img");
     event.classList.add("event");
-    if (eventInfo.Class) eventInfo.Class.split(' ').forEach(c => event.classList.add(c.replace(/[^A-Z0-9-]/ig, '').toLowerCase()));
+    if (eventInfo.Class) eventInfo.Class.split(' ').forEach(c => event.classList.add(c.replace(/♀/g,'F').replace(/♂/g,'M').replace(/\?/g,'-q').replace(/[^A-Z0-9-]/ig, '').toLowerCase()));
     if (eventInfo.Group.toLowerCase() == "pokemon" && !eventInfo.Image) {
         event.classList.add("pokesprite");
     }
     if (event.classList.contains("pokesprite")) {
-        event.classList.add(eventInfo.Name.replace(/[^A-Z0-9-]/ig, '').toLowerCase() || "missingno");
+        event.classList.add(eventInfo.Name.replace(/♀/g,'F').replace(/♂/g,'M').replace(/\?/g,'-q').replace(/[^A-Z0-9-]/ig, '').toLowerCase() || "missingno");
     }
     var imageUrl = eventInfo.Image || "img/missingno.png";
     if (eventInfo.ImageSource) {
@@ -488,6 +488,6 @@ function toggleGroup(element: HTMLInputElement) {
     var group = element.id.split('-').pop(), visible = element.checked;
     showGroups[group] = visible;
     localStorage.setItem("showGroups", JSON.stringify(showGroups));
-    $('.' + group.replace(/[^A-Z0-9-]/ig, '')).toggleClass("hidden", !visible);
+    $('.' + group.replace(/♀/g,'F').replace(/♂/g,'M').replace(/\?/g,'-q').replace(/[^A-Z0-9-]/ig, '')).toggleClass("hidden", !visible);
     updatePage();
 }

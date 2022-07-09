@@ -2,6 +2,7 @@
 /// <reference path="../../data/pokedex/natdex.ts" />
 /// <reference path="../../data/pokedex/regional.ts" />
 
+var exists = (require('fs') as typeof import('fs')).existsSync;
 
 var fakemon = [
     "Unidentified",
@@ -11,7 +12,7 @@ var fakemon = [
     "Pumbloom", //Bronze
     "Burmy G", "Wormadam G", "Meloetta F", "ShayminSky", "Burmy S", "Wormadam S", "Aqua Egg", "Shellos 2", "Gastrodon2", "Rotom I", "Rotom F", "Rotom W", "Rotom G", "Rotom H", //Flora Sky
     "Onixtret", "Steelurret", "Chiquirtle", "Baytortle", "Megastoise", "Hootduo", "Noctdrio", "Togekey", "Togetape", "Hopporita", "Skipleef", "Jumpanium", "Woochum", "Quagynx", //Chatty Crystal
-	"CoolSpheal", "DumbSpheal", "WentSpheal", //Spheal Team Six
+    "CoolSpheal", "DumbSpheal", "WentSpheal", //Spheal Team Six
 ];
 
 addStyles(fakemon, f => {
@@ -46,7 +47,16 @@ addStyles(fixFakeForms(Pokedex.Regional["Blazing Hoenn"].map(p => (typeof p === 
 //Spaceworld Gold Reforged
 const spaceworldBetaMons = Pokedex.Regional.Nihon.map((mon, i) => typeof mon == "string" ? { name: mon, number: `${i}-spaceworld` } : null).filter(m => !!m);
 addStyles(spaceworldBetaMons, m => {
-    var clean = dexClean(m.name).replace(/ /g, '');
+    const clean = dexClean(m.name).replace(/ /g, '');
     return ".pokesprite." + clean + ' img  { background-image:url("../img/fakemon/gold97/' + m.number + '.png")!important; }';
 });
 addSingleStyle(spaceworldBetaMons.map(m => ".event.pokemon.pokesprite." + dexClean(m.name) + " img").join(", ") + " { background-size: 50%!important; background-position: center!important; }");
+
+//XG Remix
+addStyles(Pokedex.Regional["Orre Remix"].map((mon, i) => typeof mon == "string" ? { name: mon, number: i } : null).filter(m => !!m), mon => {
+    const clean = dexClean(mon.name).replace(/ /g, '');
+    const path = `./img/fakemon/xgremix/${clean}.png`;
+    if (exists(path))
+        return `.xgremix .pokesprite.${clean} img { background-image:url(".${path}")!important; }`;
+    return `.xgremix .pokesprite.${clean} img { background-position: 0px -${mon.number}em!important; }`;
+});
