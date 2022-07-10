@@ -200,11 +200,11 @@ namespace TPP.Display.Elements.RunStatus {
 
     class TypeImg extends React.PureComponent<{ type: string; baseUrl?: string; }, {}> {
         render() {
-            let type = (this.props.type == "???" ? "none" : this.props.type) || '';
+            let type = (this.props.type == "???" ? "None" : this.props.type) || '';
             if (typeof type === "number") {
                 return <img src={`https://static-cdn.jtvnw.net/emoticons/v1/${type}/1.0`} />;
             }
-            return <i title={type} className={`tpp tpp-type-${type}-cutout`}><img src={`${this.props.baseUrl || ""}img/type-icons/${type.toLowerCase()}.png`} alt={type} /></i>;
+            return <i title={type} className={`tpp tpp-type-${type.toLowerCase()}-cutout`}><img src={`${this.props.baseUrl || ""}img/type-icons/${type.toLowerCase()}.png`} alt={type} /></i>;
         }
     }
 
