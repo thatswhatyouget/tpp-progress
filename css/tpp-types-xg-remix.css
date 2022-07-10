@@ -1,0 +1,297 @@
+@font-face {
+  font-family: 'TPP-Types-XG-Remix';
+  src:
+    url('fonts/TPP-Types-XG-Remix.ttf?f5cvdy') format('truetype'),
+    url('fonts/TPP-Types-XG-Remix.woff?f5cvdy') format('woff'),
+    url('fonts/TPP-Types-XG-Remix.svg?f5cvdy#TPP-Types-XG-Remix') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.xgremix i.tpp {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'TPP-Types-XG-Remix', 'TPP-Glyphs' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.xgremix .tpp-type-beast-cutout:before {
+  content: "\e90a";
+}
+
+.xgremix .tpp-type-dragon-cutout:before {
+  content: "\e901";
+}
+
+.xgremix .tpp-type-fire-cutout:before {
+  content: "\e902";
+}
+
+.xgremix .tpp-type-metal-cutout:before {
+  content: "\e903";
+}
+
+.xgremix .tpp-type-wood-cutout:before {
+  content: "\e904";
+}
+
+.xgremix .tpp-type-earth-cutout:before {
+  content: "\e905";
+}
+
+.xgremix .tpp-type-water-cutout:before {
+  content: "\e906";
+}
+
+.xgremix .tpp-type-air-cutout:before {
+  content: "\e90e";
+}
+
+.xgremix .tpp-type-electric-cutout:before {
+  content: "\e908";
+}
+
+.xgremix .tpp-type-ice-cutout:before {
+  content: "\e909";
+}
+
+.xgremix .tpp-type-chemical-cutout:before {
+  content: "\e919";
+}
+
+.xgremix .tpp-type-synthetic-cutout:before {
+  content: "\e91b";
+}
+
+.xgremix .tpp-type-light-cutout:before {
+  content: "\e91c";
+}
+
+.xgremix .tpp-type-shadow-cutout:before {
+  content: "\e90d";
+}
+
+.xgremix .tpp-type-crystal-cutout:before {
+  content: "\e91e";
+}
+
+.xgremix .tpp-type-magic-cutout:before {
+  content: "\e91f";
+}
+
+.xgremix .tpp-type-spirit-cutout:before {
+  content: "\e910";
+}
+
+.xgremix .tpp-type-cosmic-cutout:before {
+  content: "\e911";
+}
+
+.xgremix .tpp-type-beast:before {
+  content: "\e912";
+}
+
+.xgremix .tpp-type-dragon:before {
+  content: "\e913";
+}
+
+.xgremix .tpp-type-fire:before {
+  content: "\e914";
+}
+
+.xgremix .tpp-type-metal:before {
+  content: "\e915";
+}
+
+.xgremix .tpp-type-wood:before {
+  content: "\e916";
+}
+
+.xgremix .tpp-type-earth:before {
+  content: "\e900";
+}
+
+.xgremix .tpp-type-water:before {
+  content: "\e907";
+}
+
+.xgremix .tpp-type-air:before {
+  content: "\e91d";
+}
+
+.xgremix .tpp-type-electric:before {
+  content: "\e90b";
+}
+
+.xgremix .tpp-type-ice:before {
+  content: "\e90c";
+}
+
+.xgremix .tpp-type-chemical:before {
+  content: "\e9aa";
+}
+
+.xgremix .tpp-type-synthetic:before {
+  content: "\e920";
+}
+
+.xgremix .tpp-type-light:before {
+  content: "\e921";
+}
+
+.xgremix .tpp-type-shadow:before {
+  content: "\e90f";
+}
+
+.xgremix .tpp-type-crystal:before {
+  content: "\e917";
+}
+
+.xgremix .tpp-type-magic:before {
+  content: "\e997";
+}
+
+.xgremix .tpp-type-spirit:before {
+  content: "\e918";
+}
+
+.xgremix .tpp-type-cosmic:before {
+  content: "\e91a";
+}
+
+.xgremix .tpp-type-beast,
+.xgremix .tpp-type-beast-cutout {
+  color: #BC3823;
+}
+
+.xgremix .tpp-type-dragon,
+.xgremix .tpp-type-dragon-cutout {
+  color: #7B52EF;
+}
+
+.xgremix .tpp-type-fire,
+.xgremix .tpp-type-fire-cutout {
+  color: #F76124;
+}
+
+.xgremix .tpp-type-metal,
+.xgremix .tpp-type-metal-cutout {
+  color: #8A8A8A;
+}
+
+.xgremix .tpp-type-wood,
+.xgremix .tpp-type-wood-cutout {
+  color: #979F52;
+}
+
+.xgremix .tpp-type-earth,
+.xgremix .tpp-type-earth-cutout {
+  color: #DEC562;
+}
+
+.xgremix .tpp-type-water,
+.xgremix .tpp-type-water-cutout {
+  color: #6B94EF;
+}
+
+.xgremix .tpp-type-air,
+.xgremix .tpp-type-air-cutout {
+  color: #CAB3EF;
+}
+
+.xgremix .tpp-type-electric,
+.xgremix .tpp-type-electric-cutout {
+  color: #FFCE31;
+}
+
+.xgremix .tpp-type-ice,
+.xgremix .tpp-type-ice-cutout {
+  color: #9CD6DE;
+}
+
+.xgremix .tpp-type-chemical,
+.xgremix .tpp-type-chemical-cutout {
+  color: #0EF133;
+}
+
+.xgremix .tpp-type-synthetic,
+.xgremix .tpp-type-synthetic-cutout {
+  color: #3D4449;
+}
+
+.xgremix .tpp-type-light,
+.xgremix .tpp-type-light-cutout {
+  color: #F0F08B;
+}
+
+.xgremix .tpp-type-shadow,
+.xgremix .tpp-type-shadow-cutout {
+  color: #004C6A;
+}
+
+.xgremix .tpp-type-crystal,
+.xgremix .tpp-type-crystal-cutout {
+  color: #CBCBF2;
+}
+
+.xgremix .tpp-type-magic,
+.xgremix .tpp-type-magic-cutout {
+  color: #EF638C;
+}
+
+.xgremix .tpp-type-spirit,
+.xgremix .tpp-type-spirit-cutout {
+  color: #EDD2D0;
+}
+
+.xgremix .tpp-type-cosmic,
+.xgremix .tpp-type-cosmic-cutout {
+  color: #5A249F;
+}
+
+.xgremix .tpp-type-beast img,
+.xgremix .tpp-type-beast-cutout img,
+.xgremix .tpp-type-dragon img,
+.xgremix .tpp-type-dragon-cutout img,
+.xgremix .tpp-type-fire img,
+.xgremix .tpp-type-fire-cutout img,
+.xgremix .tpp-type-metal img,
+.xgremix .tpp-type-metal-cutout img,
+.xgremix .tpp-type-wood img,
+.xgremix .tpp-type-wood-cutout img,
+.xgremix .tpp-type-earth img,
+.xgremix .tpp-type-earth-cutout img,
+.xgremix .tpp-type-water img,
+.xgremix .tpp-type-water-cutout img,
+.xgremix .tpp-type-air img,
+.xgremix .tpp-type-air-cutout img,
+.xgremix .tpp-type-electric img,
+.xgremix .tpp-type-electric-cutout img,
+.xgremix .tpp-type-ice img,
+.xgremix .tpp-type-ice-cutout img,
+.xgremix .tpp-type-chemical img,
+.xgremix .tpp-type-chemical-cutout img,
+.xgremix .tpp-type-synthetic img,
+.xgremix .tpp-type-synthetic-cutout img,
+.xgremix .tpp-type-light img,
+.xgremix .tpp-type-light-cutout img,
+.xgremix .tpp-type-shadow img,
+.xgremix .tpp-type-shadow-cutout img,
+.xgremix .tpp-type-crystal img,
+.xgremix .tpp-type-crystal-cutout img,
+.xgremix .tpp-type-magic img,
+.xgremix .tpp-type-magic-cutout img,
+.xgremix .tpp-type-spirit img,
+.xgremix .tpp-type-spirit-cutout img,
+.xgremix .tpp-type-cosmic img,
+.xgremix .tpp-type-cosmic-cutout img {
+  display: none;
+}

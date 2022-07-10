@@ -410,7 +410,9 @@
   border-radius: 50%;
   position: relative;
   top: .1em;
-  margin-right:.2em;
+}
+.pokemon-hud ul.party > li .pokemon-info .moves li i {
+    margin-right:.2em;
 }
 .pokemon-hud ul.party > li.fainted {
   opacity: .5;

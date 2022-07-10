@@ -6,7 +6,7 @@ Season9.Runs.push(
         ColorSecondary: "#532245",
         Duration: "255d",
         StartDate: "2022-07-09T21:00:00Z",
-        HostName: "",
+        HostName: "XG",
         HostImage: "img/hosts/stars.gif",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/cu73f6/the_hosts_of_the_voices_after_the_fate_of_hoenn/",
         Region: "Orre Remix",
