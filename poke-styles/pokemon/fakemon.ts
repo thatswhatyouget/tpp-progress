@@ -60,3 +60,8 @@ addStyles(Pokedex.Regional["Orre Remix"].map((mon, i) => typeof mon == "string" 
         return `.xgremix .pokesprite.${clean} img { background-image:url(".${path}")!important; }`;
     return `.xgremix .pokesprite.${clean} img { background-position: 0px -${mon.number}em!important; }`;
 });
+addStyles(["Fakeon X1", "Fakeon X2", "Fakeon X3", "Fakeon X4", "Fakeon X5"], f => {
+    const clean = dexClean(f).replace(/ /g, '');
+    const path = `./img/fakemon/xgremix/${clean}.png`;
+    return `.xgremix .pokesprite.${clean} img { background-image:url(".${path}")!important; }`;
+})
