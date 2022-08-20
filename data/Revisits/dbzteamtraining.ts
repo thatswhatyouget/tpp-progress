@@ -83,3 +83,24 @@ Revisits.Runs.push(
         CopyEvents: ["DBZ Team Training"],
     }
 );
+Revisits.Runs.push(
+    {
+        RunName: "DBZ Team Training Revisit Revisit",
+        Class: "dbzteamtraining",
+        BackgroundImage: "linear-gradient(to bottom, rgba(255,239,16,1) 50%, rgba(255,189,0,1) 65%, rgba(230,132,0,1) 80%, rgba(222,74,0,1) 90%)",
+        ColorPrimary: "#E67300",
+        ColorSecondary: "#AD4200",
+        Duration: "2022-08-20T20:30:00.000Z", // Probably
+        StartDate: "2022-08-19T22:00:00.000Z", // More or less
+        HostName: "Pan",
+        HostImage: "img/hosts/pan.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/o9ah3s/pan_and_the_z_fighters/",
+        BaseGame: "FireRed",
+        Pokedex: "Fighters",
+        // FinalStateLink: "./states/Season 9/dbzteamtraining-revisit.json",
+        Events: [
+        ],
+        Revisit: { Collection: "Revisits", Run: "DBZ Team Training Revisit" },
+        CopyEvents: ["DBZ Team Training Revisit"],
+    }
+);
