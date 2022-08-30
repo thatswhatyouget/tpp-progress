@@ -7,8 +7,7 @@ Intermissions.Runs.push(
         StartDate: "2022-04-01T00:40:10.000Z",
         Duration: "2022-04-01T04:55:30.000Z",
         HostName: "GHIIIOO",
-        HostImage: "img/hosts/d.png",
-        HostImageSource: "http://haykira.deviantart.com/art/Li-l-d-from-Twitch-Plays-Pokemon-X-Y-471845274",
+        HostImage: "img/hosts/ghiiioo.png",
         BaseGame: "FireRed",
         Events: [
 		
