@@ -7,7 +7,7 @@ Sidegames.Runs.push(
         StartDate: "2019-03-02T00:22:17.532Z",
         Duration: "2019-03-30T23:55:32.737Z",
         HostName: "え",
-        HostImage: "img/hosts/ajdnnw.png",
+        HostImage: "img/hosts/e.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/m37nzd/the_hosts_of_the_voices_after_the_7th_anniversary/",
         Region: "Nihon",
         ContainsRunsFrom: ["Revisits", "Intermissions"],

@@ -7,8 +7,8 @@ Season9.Runs.push(
         Duration: "2022-07-17T06:00:00Z",
         StartDate: "2022-07-09T21:00:00Z",
         HostName: "XG",
-        HostImage: "img/hosts/stars.gif",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/cu73f6/the_hosts_of_the_voices_after_the_fate_of_hoenn/",
+        HostImage: "img/hosts/xg.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/w1mcpa/whats_groovin_xavier_g_raveeon/",
         Region: "Orre Remix",
         FinalStateLink: "./states/Season 9/xgremix.json",
         Events: [

@@ -4281,3 +4281,41 @@
 .xgremix .pokesprite.fakeonx3 img { background-image:url("../img/fakemon/xgremix/fakeonx3.png")!important; }
 .xgremix .pokesprite.fakeonx4 img { background-image:url("../img/fakemon/xgremix/fakeonx4.png")!important; }
 .xgremix .pokesprite.fakeonx5 img { background-image:url("../img/fakemon/xgremix/fakeonx5.png")!important; }
+.galar .pokesprite.meowth img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -0em!important; }
+.galar .pokesprite.ponyta img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -1em!important; }
+.galar .pokesprite.rapidash img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -2em!important; }
+.galar .pokesprite.slowpoke img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -3em!important; }
+.galar .pokesprite.slowbro img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -4em!important; }
+.galar .pokesprite.farfetchd img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -5em!important; }
+.galar .pokesprite.weezing img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -6em!important; }
+.galar .pokesprite.mrmime img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -7em!important; }
+.galar .pokesprite.articuno img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -8em!important; }
+.galar .pokesprite.zapdos img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -9em!important; }
+.galar .pokesprite.moltres img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -10em!important; }
+.galar .pokesprite.slowking img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -11em!important; }
+.galar .pokesprite.corsola img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -12em!important; }
+.galar .pokesprite.zigzagoon img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -13em!important; }
+.galar .pokesprite.linoone img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -14em!important; }
+.galar .pokesprite.darumaka img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -15em!important; }
+.galar .pokesprite.darmanitan img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -16em!important; }
+.galar .pokesprite.yamask img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -17em!important; }
+.galar .pokesprite.stunfisk img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -18em!important; }
+.galarian .dexEntry .pokesprite.meowth img, .pokesprite.galarian.meowth img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -0em!important; }
+.galarian .dexEntry .pokesprite.ponyta img, .pokesprite.galarian.ponyta img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -1em!important; }
+.galarian .dexEntry .pokesprite.rapidash img, .pokesprite.galarian.rapidash img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -2em!important; }
+.galarian .dexEntry .pokesprite.slowpoke img, .pokesprite.galarian.slowpoke img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -3em!important; }
+.galarian .dexEntry .pokesprite.slowbro img, .pokesprite.galarian.slowbro img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -4em!important; }
+.galarian .dexEntry .pokesprite.farfetchd img, .pokesprite.galarian.farfetchd img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -5em!important; }
+.galarian .dexEntry .pokesprite.weezing img, .pokesprite.galarian.weezing img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -6em!important; }
+.galarian .dexEntry .pokesprite.mrmime img, .pokesprite.galarian.mrmime img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -7em!important; }
+.galarian .dexEntry .pokesprite.articuno img, .pokesprite.galarian.articuno img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -8em!important; }
+.galarian .dexEntry .pokesprite.zapdos img, .pokesprite.galarian.zapdos img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -9em!important; }
+.galarian .dexEntry .pokesprite.moltres img, .pokesprite.galarian.moltres img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -10em!important; }
+.galarian .dexEntry .pokesprite.slowking img, .pokesprite.galarian.slowking img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -11em!important; }
+.galarian .dexEntry .pokesprite.corsola img, .pokesprite.galarian.corsola img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -12em!important; }
+.galarian .dexEntry .pokesprite.zigzagoon img, .pokesprite.galarian.zigzagoon img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -13em!important; }
+.galarian .dexEntry .pokesprite.linoone img, .pokesprite.galarian.linoone img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -14em!important; }
+.galarian .dexEntry .pokesprite.darumaka img, .pokesprite.galarian.darumaka img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -15em!important; }
+.galarian .dexEntry .pokesprite.darmanitan img, .pokesprite.galarian.darmanitan img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -16em!important; }
+.galarian .dexEntry .pokesprite.yamask img, .pokesprite.galarian.yamask img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -17em!important; }
+.galarian .dexEntry .pokesprite.stunfisk img, .pokesprite.galarian.stunfisk img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -18em!important; }
