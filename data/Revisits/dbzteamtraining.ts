@@ -90,15 +90,48 @@ Revisits.Runs.push(
         BackgroundImage: "linear-gradient(to bottom, rgba(255,239,16,1) 50%, rgba(255,189,0,1) 65%, rgba(230,132,0,1) 80%, rgba(222,74,0,1) 90%)",
         ColorPrimary: "#E67300",
         ColorSecondary: "#AD4200",
-        Duration: "2022-08-20T20:30:00.000Z", // Probably
-        StartDate: "2022-08-19T22:00:00.000Z", // More or less
+        Duration: "2022-08-20T16:18:50.000Z",
+        StartDate: "2022-08-19T22:15:40.000Z",
         HostName: "Pan",
         HostImage: "img/hosts/pan.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/o9ah3s/pan_and_the_z_fighters/",
         BaseGame: "FireRed",
         Pokedex: "Fighters",
-        // FinalStateLink: "./states/Season 9/dbzteamtraining-revisit.json",
+        FinalStateLink: "./states/Season 9/dbzteamtraining-revisit-revisit.json",
         Events: [
+            { Group: "Elite Four Rematch", Class: "Rematch", Name: "East Kai", Image: "img/trainers/fighters/eastkai.png", Time: "2022-08-20T06:34:04.317Z", Attempts: 1 },
+            { Group: "Elite Four Rematch", Class: "Rematch", Name: "South Kai", Image: "img/trainers/fighters/southkai.png", Time: "2022-08-20T06:41:08.155Z", Attempts: 1 },
+            { Group: "Elite Four Rematch", Class: "Rematch", Name: "West Kai", Image: "img/trainers/fighters/westkai.png", Time: "2022-08-20T07:18:18.104Z", Attempts: 2 },
+            { Group: "Elite Four Rematch", Class: "Rematch", Name: "North Kai", Image: "img/trainers/fighters/northkai.png", Time: "2022-08-20T13:11:17.224Z", Attempts: 7 },
+
+            { Group: "Champions", Class: "Rematch", Name: "Green", Image: "img/trainers/firered/green.png", Time: "2022-08-20T16:08:10.184Z", Attempts: 3 },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-08-20T16:09:28.984Z", IDNo: "11635", Attempts: 16, Party: [
+                    { Pokemon: "Lb Jiren", Nickname: "♂♂♂♂♂♂♂♂♂♂", Level: 78, Number: 187, IDNo: "11635" },
+                    { Pokemon: "G-Frieza", Nickname: "Cogexx", Level: 63, Number: 153, IDNo: "11635" },
+                    { Pokemon: "Zeno", Nickname: "GGGMMMMMMN", Level: 82, Number: 196, IDNo: "11635" },
+                    { Pokemon: "Buuhan", Nickname: "Dad???", Level: 74, Number: 95, IDNo: "11635" },
+                    { Pokemon: "Ss4 Gogeta", Nickname: "GRunvt", Level: 65, Number: 138, IDNo: "11635" },
+                    { Pokemon: "Sp Shenron", Nickname: "AAAAAAAaag", Level: 70, Number: 197, IDNo: "11635" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "2022-08-20T06:30:20.814Z"
+            },
+
+            { Group: "Pokemon", Name: "Gotenks 3", Time: "2022-08-19T23:13:14.604Z" },
+            { Group: "Pokemon", Name: "Baby", Time: "2022-08-19T23:22:48.555Z" },
+            { Group: "Pokemon", Name: "Vegeta", Time: "2022-08-19T23:59:39.931Z" },
+            { Group: "Pokemon", Name: "Goku", Time: "2022-08-20T00:02:21.304Z" },
+            { Group: "Pokemon", Name: "Gogeta", Time: "2022-08-20T00:52:32.526Z" },
+            { Group: "Pokemon", Name: "Ssj Gogeta", Time: "2022-08-20T01:18:45.533Z" },
+            { Group: "Pokemon", Name: "Ss4 Gogeta", Time: "2022-08-20T01:20:10.111Z" },
+            { Group: "Pokemon", Name: "C-19", Time: "2022-08-20T06:11:49.894Z" },
+            { Group: "Pokemon", Name: "Jiren", Time: "2022-08-20T10:38:03.604Z" },
+            { Group: "Pokemon", Name: "Champa", Time: "2022-08-20T10:41:45.683Z" },
+            { Group: "Pokemon", Name: "Sp Shenron", Time: "2022-08-20T10:59:24.440Z" },
+            { Group: "Pokemon", Name: "Zeno", Time: "2022-08-20T11:03:43.689Z" },
+            { Group: "Pokemon", Name: "Lb Jiren", Time: "2022-08-20T13:24:00.487Z" },
         ],
         Revisit: { Collection: "Revisits", Run: "DBZ Team Training Revisit" },
         CopyEvents: ["DBZ Team Training Revisit"],
