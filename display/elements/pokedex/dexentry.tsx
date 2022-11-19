@@ -20,7 +20,7 @@ namespace TPP.Display.Elements.Pokedex {
             this.entry = props.entry;
             this.showOwnership = !!props.showOwnership;
             var idx = this.entry.Number.toString();
-            this.Number = ('000' + idx).substring(idx.length);
+            this.Number = idx.padStart(3, '0');
         }
 
         private get className() {
