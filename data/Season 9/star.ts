@@ -5,7 +5,7 @@ Season9.Runs.push(
         ColorSecondary: "#4A2C57",
         ColorPrimary: "#C6C6C6",
         StartDate: "2022-10-15T21:00:00Z",
-        Duration: "255d",
+        Duration: "9d", //TODO: Fix
         HostName: "Gg113ktyhh4w",
         HostImage: "img/hosts/vrg.gif",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/do2ovk/virginia_faba_the_six_time_married_three_times/",
