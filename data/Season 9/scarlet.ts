@@ -26,11 +26,11 @@ Season9.Runs.push(
             },
             {
                 "Group": "Badges", "Name": "Victory Road: Water", "Image": "img/badges/paldea/water.png",
-                "Time": ""
+                "Time": "2022-11-21T15:31:47Z"
             },
             {
                 "Group": "Badges", "Name": "Victory Road: Normal", "Image": "img/badges/paldea/normal.png",
-                "Time": ""
+                "Time": "2022-11-21T22:26:56Z"
             },
             {
                 "Group": "Badges", "Name": "Victory Road: Ghost", "Image": "img/badges/paldea/ghost.png",
@@ -54,7 +54,7 @@ Season9.Runs.push(
             },
             {
                 "Group": "Badges", "Name": "Starfall Street: Poison", "Image": "img/badges/paldea/poison.png",
-                "Time": ""
+                "Time": "2022-11-21T23:17:49Z"
             },
             {
                 "Group": "Badges", "Name": "Starfall Street: Fighting", "Image": "img/badges/paldea/fighting.png",
@@ -70,15 +70,15 @@ Season9.Runs.push(
             },
             {
                 "Group": "Badges", "Name": "Path of Legends: Flying", "Image": "img/badges/paldea/flying.png",
-                "Time": ""
+                "Time": "2022-11-21T11:10:10Z"
             },
             {
                 "Group": "Badges", "Name": "Path of Legends: Steel", "Image": "img/badges/paldea/steel.png",
-                "Time": ""
+                "Time": "2022-11-21T17:03:34Z"
             },
             {
                 "Group": "Badges", "Name": "Path of Legends: Ground", "Image": "img/badges/paldea/ground.png",
-                "Time": ""
+                "Time": "2022-11-21T14:23:52Z"
             },
             {
                 "Group": "Badges", "Name": "Path of Legends: Dragon", "Image": "img/badges/paldea/dragon.png",
@@ -184,6 +184,44 @@ Season9.Runs.push(
             { "Group": "Pokemon", "Name": "Kilowattrel", "Time": "2022-11-21T08:31:02Z" },
             { "Group": "Pokemon", "Name": "Gible", "Time": "2022-11-21T08:52:38Z" },
             { "Group": "Pokemon", "Name": "Deino", "Time": "2022-11-21T09:03:12Z" },
+            { "Group": "Pokemon", "Name": "Drowzee", "Time": "2022-11-21T10:13:15Z" },
+            { "Group": "Pokemon", "Name": "Tinkatink", "Time": "2022-11-21T10:19:53Z" },
+            { "Group": "Pokemon", "Name": "Growlithe", "Time": "2022-11-21T10:33:21Z" },
+            { "Group": "Pokemon", "Name": "Teddiursa", "Time": "2022-11-21T11:48:49Z" },
+            { "Group": "Pokemon", "Name": "Garganacl", "Time": "2022-11-21T12:07:54Z" },
+            { "Group": "Pokemon", "Name": "Girafarig", "Time": "2022-11-21T13:29:06Z" },
+            { "Group": "Pokemon", "Name": "Sableye", "Time": "2022-11-21T13:30:55Z" },
+            { "Group": "Pokemon", "Name": "Sandile", "Time": "2022-11-21T14:35:05Z" },
+            { "Group": "Pokemon", "Name": "Varoom", "Time": "2022-11-21T14:43:10Z" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "2022-11-21T14:56:16Z" },
+            { "Group": "Pokemon", "Name": "Cufant", "Time": "2022-11-21T15:47:02Z" },
+            { "Group": "Pokemon", "Name": "Rolycoly", "Time": "2022-11-21T16:04:44Z" },
+            { "Group": "Pokemon", "Name": "Orthworm", "Time": "2022-11-21T17:32:45Z" },
+            { "Group": "Pokemon", "Name": "Flaaffy", "Time": "2022-11-21T18:35:56Z" },
+            { "Group": "Pokemon", "Name": "Farigiraf", "Time": "2022-11-21T18:40:54Z" },
+            { "Group": "Pokemon", "Name": "Lokix", "Time": "2022-11-21T18:51:35Z" },
+            { "Group": "Pokemon", "Name": "Pincurchin", "Time": "2022-11-21T19:06:47Z" },
+            { "Group": "Pokemon", "Name": "Shellos", "Time": "2022-11-21T19:08:00Z" },
+            { "Group": "Pokemon", "Name": "Arboliva", "Time": "2022-11-21T19:08:21Z" },
+            { "Group": "Pokemon", "Name": "Slowpoke", "Time": "2022-11-21T19:15:54Z" },
+            { "Group": "Pokemon", "Name": "Staravia", "Time": "2022-11-21T19:29:32Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2022-11-21T19:44:18Z" },
+            { "Group": "Pokemon", "Name": "Stunky", "Time": "2022-11-21T19:46:46Z" },
+            { "Group": "Pokemon", "Name": "Vigoroth", "Time": "2022-11-21T19:53:13Z" },
+            { "Group": "Pokemon", "Name": "Tropius", "Time": "2022-11-21T19:54:58Z" },
+            { "Group": "Pokemon", "Name": "Scyther", "Time": "2022-11-21T20:08:20Z" },
+            { "Group": "Pokemon", "Name": "Persian", "Time": "2022-11-21T20:28:00Z" },
+            { "Group": "Pokemon", "Name": "Komala", "Time": "2022-11-21T20:39:51Z" },
+            { "Group": "Pokemon", "Name": "Shroomish", "Time": "2022-11-21T20:45:23Z" },
+            { "Group": "Pokemon", "Name": "Dedenne", "Time": "2022-11-21T20:53:14Z" },
+            { "Group": "Pokemon", "Name": "Zorua", "Time": "2022-11-21T21:00:37Z" },
+            { "Group": "Pokemon", "Name": "Foongus", "Time": "2022-11-21T21:04:13Z" },
+            { "Group": "Pokemon", "Name": "Golduck", "Time": "2022-11-21T21:43:54Z" },
+            { "Group": "Pokemon", "Name": "Zoroark", "Time": "2022-11-21T22:26:35Z" },
+            { "Group": "Pokemon", "Name": "Tinkaton", "Time": "2022-11-21T22:35:06Z" },
+            { "Group": "Pokemon", "Name": "Basculin", "Time": "2022-11-21T23:49:05Z" },
+            { "Group": "Pokemon", "Name": "Tadbulb", "Time": "2022-11-21T23:52:19Z" },
+            { "Group": "Pokemon", "Name": "Bellibolt", "Time": "2022-11-21T23:55:35Z" },
         ]
     }
 );
