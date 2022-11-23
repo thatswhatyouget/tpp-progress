@@ -86,28 +86,38 @@ Season9.Runs.push(
             },
 
             {
-                "Group": "Elite Four", "Name": "Rika", "Image": "img/trainers/sun/olivia.gif",
+                "Group": "Elite Four", "Name": "Rika", "Image": "https://archives.bulbagarden.net/media/upload/thumb/4/49/Sun_Moon_Olivia.png/614px-Sun_Moon_Olivia.png",
                 "Time": "2022-11-22T23:37:00Z", "Attempts": 1
             },
             {
-                "Group": "Elite Four", "Name": "Poppy", "Image": "img/trainers/sun/acerola.gif",
+                "Group": "Elite Four", "Name": "Poppy", "Image": "https://archives.bulbagarden.net/media/upload/thumb/1/1e/Sun_Moon_Acerola.png/734px-Sun_Moon_Acerola.png",
                 "Time": "2022-11-22T23:51:00Z", "Attempts": 1
             },
             {
-                "Group": "Elite Four", "Name": "Larry", "Image": "img/trainers/emerald/norman.gif",
-                "Time": "", "Attempts": 2
+                "Group": "Elite Four", "Name": "Larry", "Image": "https://archives.bulbagarden.net/media/upload/thumb/0/05/Omega_Ruby_Alpha_Sapphire_Norman.png/404px-Omega_Ruby_Alpha_Sapphire_Norman.png",
+                "Time": "2022-11-23T06:36:00Z", "Attempts": 3
             },
             {
-                "Group": "Elite Four", "Name": "Hassel", "Image": "img/trainers/emerald/drake.png",
-                "Time": "", "Attempts": 0
+                "Group": "Elite Four", "Name": "Hassel", "Image": "https://archives.bulbagarden.net/media/upload/thumb/3/3e/Omega_Ruby_Alpha_Sapphire_Drake.png/938px-Omega_Ruby_Alpha_Sapphire_Drake.png",
+                "Time": "2022-11-23T06:45:00Z", "Attempts": 1
             },
             {
                 "Group": "Champions", "Name": "Geeta", "Image": "https://archives.bulbagarden.net/media/upload/thumb/9/98/Scarlet_Violet_Geeta.png/489px-Scarlet_Violet_Geeta.png",
-                "Time": "", "Attempts": 0
+                "Time": "2022-11-23T07:00:00Z", "Attempts": 1
+            },
+            {
+                "Group": "Champions", "Name": "Nemona", "Image": "https://archives.bulbagarden.net/media/upload/thumb/7/7f/Scarlet_Violet_Nemona.png/427px-Scarlet_Violet_Nemona.png",
+                "Time": "2022-11-23T07:44:00Z", "Attempts": 1
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Victory Road Complete", Time: "2022-11-23T07:46:00Z", Attempts: 3, Party: [
+                    { Pokemon: "Tinkaton", Nickname: "Tiool", Level: 67, Gender: "Female" },
+                    { Pokemon: "Frosmoth", Nickname: "Mmp??!!ƒ¤¤¤¤", Level: 66, Gender: "Male" },
+                    { Pokemon: "Quaquaval", Nickname: "Quaxl", Level: 73, Gender: "Male" },
+                    { Pokemon: "Dudunsparce", Nickname: "Dunsddf;", Level: 69, Gender: "Male" },
+                    { Pokemon: "Garganacl", Nickname: "oomm", Level: 67, Gender: "Female" },
+                    { Pokemon: "Farigiraf", Nickname: "Poppy", Level: 65, Gender: "Female" },
                 ],
                 FirstAttemptDate: "2022-11-22T23:28:00Z",
                 Image: "img/ribbons/champion.png"
@@ -280,6 +290,13 @@ Season9.Runs.push(
             { "Group": "Pokemon", "Name": "Gogoat", "Time": "2022-11-22T14:01:57Z" },
             { "Group": "Pokemon", "Name": "Slakoth", "Time": "2022-11-22T17:11:06Z" },
             { "Group": "Pokemon", "Name": "Indeedee", "Time": "2022-11-22T17:48:53Z" },
+            { "Group": "Pokemon", "Name": "Brambleghast", "Time": "2022-11-23T03:23:55Z" },
+            { "Group": "Pokemon", "Name": "Clodsire", "Time": "2022-11-23T03:27:14Z" },
+            { "Group": "Pokemon", "Name": "Rabsca", "Time": "2022-11-23T03:59:35Z" },
+            { "Group": "Pokemon", "Name": "Revavroom", "Time": "2022-11-23T04:04:26Z" },
+            { "Group": "Pokemon", "Name": "Ralts", "Time": "2022-11-23T04:37:22Z" },
+            { "Group": "Pokemon", "Name": "Drednaw", "Time": "2022-11-23T05:49:28Z" },
+            { "Group": "Pokemon", "Name": "Dondozo", "Time": "2022-11-23T05:57:18Z" },
         ]
     }
 );

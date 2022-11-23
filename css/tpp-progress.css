@@ -806,11 +806,11 @@ ul.controls > li > ul > li.selected > a:before {
     background-image:url("../img/pokemon-large-shiny.png");
 }
 
-.hallOfFameDisplay .entry .pokesprite.female img {
+.hallOfFameDisplay:not(.scarlet) .entry .pokesprite.female img {
     background-image:url("../img/pokemon-large-female.png");
 }
 
-.hallOfFameDisplay .entry .pokesprite.shiny.female img {
+.hallOfFameDisplay:not(.scarlet)  .entry .pokesprite.shiny.female img {
     background-image:url("../img/pokemon-large-shiny-female.png");
 }
 
