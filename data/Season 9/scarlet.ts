@@ -4,7 +4,7 @@ Season9.Runs.push(
         RunName: "Scarlet",
         ColorPrimary: "#D70D19",
         ColorSecondary: "#6A2B30",
-        Duration: "2022-12-19T21:00:00Z",
+        Duration: "2022-11-27T16:00:00Z",
         StartDate: "2022-11-19T21:00:00Z",
         HostName: "2z",
         HostImage: "https://archives.bulbagarden.net/media/upload/thumb/e/ea/Scarlet_Male_Trainer.png/388px-Scarlet_Male_Trainer.png",
