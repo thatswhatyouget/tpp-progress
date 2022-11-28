@@ -131,6 +131,8 @@ namespace TPP.Display.Elements.RunStatus {
             let caughtList = this.state.dexSeen ? this.state.status.seen_list : this.state.status.caught_list || [];
             if (this.props.run.DexMapping)
                 caughtList = caughtList.map(c => this.props.run.DexMapping[c] || c);
+            if (this.props.run.FromNatDex)
+                caughtList = caughtList.map(c => (dexData.Regional[this.props.run.Pokedex] || []).findIndex(p => p == c));
             return <PokeBox title="Pokédex" className="pokedex">
                 {this.PokedexOutOfDate(dex) ? <h6>Outdated</h6> : ""}
                 <Pokedex.Dex dex={dex}

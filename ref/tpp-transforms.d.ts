@@ -100,6 +100,7 @@ declare namespace TPP {
         Pokedex?: string;
         DexTotal?: number;
         DexMapping?: number[];
+        FromNatDex?: boolean;
         Scraper?: {
             url: string;
             parts: string[];

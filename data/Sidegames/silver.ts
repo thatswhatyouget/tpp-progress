@@ -12,7 +12,8 @@ Sidegames.Runs.push(
         Region: "Johto",
         // AdditionalRegions: [{ Name: "Kanto", Time: "2015-09-14T18:37:36Z" }],
         Generation: 2,
-        Pokedex: "National",
+        Pokedex: "New",
+        FromNatDex: true,
         Events: [
             {
                 Group: "Badges",
