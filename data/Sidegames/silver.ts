@@ -37,7 +37,7 @@ Sidegames.Runs.push(
                 Group: "Badges",
                 Name: "Fog Badge",
                 Image: "img/badges/fog.png",
-                Time: ""
+                Time: "2022-11-28T07:01:38.976Z", Attempts: 1
             },
             {
                 Group: "Badges",
@@ -49,13 +49,13 @@ Sidegames.Runs.push(
                 Group: "Badges",
                 Name: "Storm Badge",
                 Image: "img/badges/storm.png",
-                Time: ""
+                Time: "2022-11-28T23:40:55.629Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Mineral Badge",
                 Image: "img/badges/mineral.png",
-                Time: ""
+                Time: "2022-11-29T01:44:27.672Z", Attempts: 4
             },
             {
                 Group: "Badges",
@@ -180,7 +180,48 @@ Sidegames.Runs.push(
             { "Group": "Pokemon", "Name": "Heracross", "Time": "2022-11-28T00:19:36.866Z" },
             { "Group": "Pokemon", "Name": "Paras", "Time": "2022-11-28T01:00:17.647Z" },
             { "Group": "Pokemon", "Name": "Scyther", "Time": "2022-11-28T02:20:48.844Z" },
-            { "Group": "Pokemon", "Name": "Sudowoodo", "Time": "2022-11-28T03:56:15.222Z" }
+            { "Group": "Pokemon", "Name": "Sudowoodo", "Time": "2022-11-28T03:56:15.222Z" },
+            { "Group": "Pokemon", "Name": "Stantler", "Time": "2022-11-28T04:19:03.154Z" },
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "2022-11-28T04:40:21.155Z" },
+            { "Group": "Pokemon", "Name": "Hoothoot", "Time": "2022-11-28T05:02:11.153Z" },
+            { "Group": "Pokemon", "Name": "Unown", "Time": "2022-11-28T07:18:05.535Z" },
+            { "Group": "Pokemon", "Name": "Feraligatr", "Time": "2022-11-28T10:48:46.870Z" },
+            { "Group": "Pokemon", "Name": "Oddish", "Time": "2022-11-28T11:37:10.825Z" },
+            { "Group": "Pokemon", "Name": "Vulpix", "Time": "2022-11-28T12:56:33.656Z" },
+            { "Group": "Pokemon", "Name": "Tentacool", "Time": "2022-11-28T13:54:37.708Z" },
+            { "Group": "Pokemon", "Name": "Ampharos", "Time": "2022-11-28T15:57:11.201Z" },
+            { "Group": "Pokemon", "Name": "Wooper", "Time": "2022-11-28T16:50:43.928Z" },
+            { "Group": "Pokemon", "Name": "Quagsire", "Time": "2022-11-28T16:52:31.474Z" },
+            { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2022-11-28T17:13:58.039Z" },
+            { "Group": "Pokemon", "Name": "Onix", "Time": "2022-11-28T17:18:40.486Z" },
+            { "Group": "Pokemon", "Name": "Raticate", "Time": "2022-11-28T19:33:39.537Z" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "2022-11-28T19:41:40.513Z" },
+            { "Group": "Pokemon", "Name": "Magnemite", "Time": "2022-11-28T19:51:31.617Z" },
+            { "Group": "Pokemon", "Name": "Tauros", "Time": "2022-11-28T20:08:27.858Z" },
+            { "Group": "Pokemon", "Name": "Farfetch'd", "Time": "2022-11-28T20:26:43.854Z" },
+            { "Group": "Pokemon", "Name": "Shuckle", "Time": "2022-11-28T23:55:03.704Z" },
+            { "Group": "Pokemon", "Name": "Goldeen", "Time": "2022-11-29T02:01:17.366Z" },
+            { "Group": "Pokemon", "Name": "Seaking", "Time": "2022-11-29T02:20:02.657Z" },
+            { "Group": "Pokemon", "Name": "Machop", "Time": "2022-11-29T02:39:53.074Z" },
+            { "Group": "Pokemon", "Name": "Marill", "Time": "2022-11-29T02:58:57.371Z" },
+            { "Group": "Pokemon", "Name": "Gyarados", "Time": "2022-11-29T03:30:51.053Z" },
+            { "Group": "Pokemon", "Name": "Magikarp", "Time": "2022-11-29T03:35:03.493Z" },
+            { "Group": "Pokemon", "Name": "Girafarig", "Time": "2022-11-29T03:47:20.600Z" },
+            { "Group": "Pokemon", "Name": "Sentret", "Time": "2022-11-29T04:43:13.464Z" },
+            { "Group": "Pokemon", "Name": "Poliwag", "Time": "2022-11-29T04:53:43.425Z" },
+            { "Group": "Pokemon", "Name": "Nidoran♀", "Time": "2022-11-29T05:34:09.293Z" },
+            { "Group": "Pokemon", "Name": "Gloom", "Time": "2022-11-29T10:33:13.802Z" },
+            { "Group": "Pokemon", "Name": "Bellossom", "Time": "2022-11-29T11:37:16.563Z" },
+            { "Group": "Pokemon", "Name": "Yanma", "Time": "2022-11-29T12:26:02.452Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2022-11-29T12:34:49.050Z" },
+            { "Group": "Pokemon", "Name": "Psyduck", "Time": "2022-11-29T13:10:20.465Z" },
+            { "Group": "Pokemon", "Name": "Drowzee", "Time": "2022-11-29T13:16:58.975Z" },
+            { "Group": "Pokemon", "Name": "Nidoran♂", "Time": "2022-11-29T13:33:12.662Z" },
+            { "Group": "Pokemon", "Name": "Staryu", "Time": "2022-11-29T13:55:48.327Z" },
+            { "Group": "Pokemon", "Name": "Krabby", "Time": "2022-11-29T13:59:50.387Z" },
+            { "Group": "Pokemon", "Name": "Tentacruel", "Time": "2022-11-29T14:25:39.184Z" },
+            { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2022-11-29T18:38:41.297Z" },
+            { "Group": "Pokemon", "Name": "Espeon", "Time": "2022-11-29T19:25:01.782Z" }
         ]
     }
 );
