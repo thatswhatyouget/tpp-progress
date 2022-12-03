@@ -43,7 +43,7 @@ Sidegames.Runs.push(
                 Group: "Badges",
                 Name: "Glacier Badge",
                 Image: "img/badges/glacier.png",
-                Time: ""
+                Time: "2022-11-29T21:42:58.019Z", Attempts: 1
             },
             {
                 Group: "Badges",
@@ -61,93 +61,93 @@ Sidegames.Runs.push(
                 Group: "Badges",
                 Name: "Rising Badge",
                 Image: "img/badges/rising.png",
-                Time: ""
+                Time: "2022-11-30T16:43:50.451Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Will",
                 Image: "img/trainers/crystal/will.png",
-                Time: ""
+                Time: "2022-12-01T05:51:14.256Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Koga",
                 Image: "img/trainers/crystal/koga.png",
-                Time: ""
+                Time: "2022-12-01T06:27:13.080Z", Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Bruno",
                 Image: "img/trainers/crystal/bruno.png",
-                Time: ""
+                Time: "2022-12-01T07:02:05.434Z", Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Karen",
                 Image: "img/trainers/crystal/karen.png",
-                Time: ""
+                Time: "2022-12-01T09:37:10.380Z", Attempts: 4
             },
             {
                 Group: "Champions",
                 Name: "Lance",
                 Image: "img/trainers/crystal/lance.png",
-                Time: ""
+                Time: "2022-12-01T12:19:38.029Z", Attempts: 4
             },
             {
                 Group: "Badges",
                 Name: "Boulder Badge",
                 Image: "img/badges/boulder.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: ""
+                Time: "2022-12-02T02:05:18.633Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Cascade Badge",
                 Image: "img/badges/cascade.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: ""
+                Time: "2022-12-02T03:06:52.219Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Thunder Badge",
                 Image: "img/badges/thunder.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: ""
+                Time: "2022-12-01T17:04:55.573Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Rainbow Badge",
                 Image: "img/badges/rainbow.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: ""
+                Time: "2022-12-01T23:49:59.531Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Soul Badge",
                 Image: "img/badges/soul.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: ""
+                Time: "2022-12-02T17:11:39.883Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Marsh Badge",
                 Image: "img/badges/marsh.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: ""
+                Time: "2022-12-02T15:39:34.890Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Volcano Badge",
                 Image: "img/badges/volcano.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: ""
+                Time: "2022-12-02T16:54:21.800Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Earth Badge",
                 Image: "img/badges/earth.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: ""
+                Time: "2022-12-02T17:32:12.956Z", Attempts: 1
             },
             {
                 Group: "Champions",
@@ -157,8 +157,27 @@ Sidegames.Runs.push(
                 Time: ""
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-12-01T12:21:20Z", IDNo: "64387", Attempts: 9, Party: [
+                    { Number: 181, Pokemon: "Ampharos", Nickname: "LUMINARY", Gender: "Male", Level: 48, IDNo: "64387" },
+                    { Number: 227, Pokemon: "Skarmory", Nickname: "JAVELIN", Gender: "Male", Level: 46, IDNo: "64387" },
+                    { Number: 185, Pokemon: "Sudowoodo", Nickname: "ASUS", Gender: "Female", Level: 41, IDNo: "64387" },
+                    { Number: 196, Pokemon: "Espeon", Nickname: "SUNNY", Gender: "Male", Level: 48, IDNo: "64387" },
+                    { Number: 214, Pokemon: "Heracross", Nickname: "YUUGI", Gender: "Female", Level: 41, IDNo: "64387" },
+                    { Number: 160, Pokemon: "Feraligatr", Nickname: "CROC", Gender: "Male", Level: 54, IDNo: "64387" },
                 ],
+                FirstAttemptDate: "3d 12h 22m 25s",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-12-02T19:22:09Z", IDNo: "64387", Attempts: 1, Party: [
+                    { Number: 214, Pokemon: "Heracross", Nickname: "YUUGI", Gender: "Female", Level: 54, IDNo: "64387" },
+                    { Number: 181, Pokemon: "Ampharos", Nickname: "LUMINARY", Gender: "Male", Level: 52, IDNo: "64387" },
+                    { Number: 196, Pokemon: "Espeon", Nickname: "SUNNY", Gender: "Male", Level: 48, IDNo: "64387" },
+                    { Number: 251, Pokemon: "Celebi", Nickname: "ASUS", Level: 49, IDNo: "64387" },
+                    { Number: 227, Pokemon: "Skarmory", Nickname: "JAVELIN", Gender: "Male", Level: 49, IDNo: "64387" },
+                    { Number: 160, Pokemon: "Feraligatr", Nickname: "CROC", Gender: "Male", Level: 57, IDNo: "64387" },
+                ],
+                FirstAttemptDate: "5d 1h 13m 36s",
                 Image: "img/ribbons/champion.png"
             },
             { "Group": "Pokemon", "Name": "Totodile", "Time": "2022-11-27T17:25:53.884Z" },
@@ -221,7 +240,54 @@ Sidegames.Runs.push(
             { "Group": "Pokemon", "Name": "Krabby", "Time": "2022-11-29T13:59:50.387Z" },
             { "Group": "Pokemon", "Name": "Tentacruel", "Time": "2022-11-29T14:25:39.184Z" },
             { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2022-11-29T18:38:41.297Z" },
-            { "Group": "Pokemon", "Name": "Espeon", "Time": "2022-11-29T19:25:01.782Z" }
+            { "Group": "Pokemon", "Name": "Espeon", "Time": "2022-11-29T19:25:01.782Z" },
+            { "Group": "Pokemon", "Name": "Koffing", "Time": "2022-11-29T20:31:26.795Z" },
+            { "Group": "Pokemon", "Name": "Voltorb", "Time": "2022-11-29T20:35:04.618Z" },
+            { "Group": "Pokemon", "Name": "Electrode", "Time": "2022-11-29T21:21:59.699Z" },
+            { "Group": "Pokemon", "Name": "Golbat", "Time": "2022-11-30T02:49:30.078Z" },
+            { "Group": "Pokemon", "Name": "Swinub", "Time": "2022-11-30T03:11:29.517Z" },
+            { "Group": "Pokemon", "Name": "Jynx", "Time": "2022-11-30T03:17:52.802Z" },
+            { "Group": "Pokemon", "Name": "Skarmory", "Time": "2022-11-30T03:52:00.411Z" },
+            { "Group": "Pokemon", "Name": "Phanpy", "Time": "2022-11-30T08:59:04.988Z" },
+            { "Group": "Pokemon", "Name": "Wobbuffet", "Time": "2022-11-30T09:11:45.884Z" },
+            { "Group": "Pokemon", "Name": "Crobat", "Time": "2022-11-30T09:40:27.760Z" },
+            { "Group": "Pokemon", "Name": "Nidorina", "Time": "2022-11-30T10:05:09.641Z" },
+            { "Group": "Pokemon", "Name": "Nidoqueen", "Time": "2022-11-30T11:37:15.787Z" },
+            { "Group": "Pokemon", "Name": "Snubbull", "Time": "2022-11-30T11:52:21.681Z" },
+            { "Group": "Pokemon", "Name": "Gastly", "Time": "2022-11-30T14:27:29.004Z" },
+            { "Group": "Pokemon", "Name": "Slowpoke", "Time": "2022-11-30T14:58:54.649Z" },
+            { "Group": "Pokemon", "Name": "Dratini", "Time": "2022-11-30T16:50:05.443Z" },
+            { "Group": "Pokemon", "Name": "Seel", "Time": "2022-11-30T17:32:53.204Z" },
+            { "Group": "Pokemon", "Name": "Horsea", "Time": "2022-11-30T17:39:34.355Z" },
+            { "Group": "Pokemon", "Name": "Lugia", "Time": "2022-11-30T17:43:33.160Z" },
+            { "Group": "Pokemon", "Name": "Delibird", "Time": "2022-11-30T18:17:30.245Z" },
+            { "Group": "Pokemon", "Name": "Weepinbell", "Time": "2022-11-30T18:29:33.326Z" },
+            { "Group": "Pokemon", "Name": "Tangela", "Time": "2022-11-30T18:33:56.895Z" },
+            { "Group": "Pokemon", "Name": "Lickitung", "Time": "2022-11-30T18:53:43.004Z" },
+            { "Group": "Pokemon", "Name": "Doduo", "Time": "2022-12-01T03:45:54.308Z" },
+            { "Group": "Pokemon", "Name": "Donphan", "Time": "2022-12-01T04:43:56.071Z" },
+            { "Group": "Pokemon", "Name": "Persian", "Time": "2022-12-01T18:33:56.340Z" },
+            { "Group": "Pokemon", "Name": "Muk", "Time": "2022-12-01T18:57:49.115Z" },
+            { "Group": "Pokemon", "Name": "Grimer", "Time": "2022-12-01T19:06:10.081Z" },
+            { "Group": "Pokemon", "Name": "Slugma", "Time": "2022-12-01T20:08:46.390Z" },
+            { "Group": "Pokemon", "Name": "Fearow", "Time": "2022-12-01T20:15:56.734Z" },
+            { "Group": "Pokemon", "Name": "Hoppip", "Time": "2022-12-01T20:41:06.732Z" },
+            { "Group": "Pokemon", "Name": "Nidorino", "Time": "2022-12-01T20:51:25.192Z" },
+            { "Group": "Pokemon", "Name": "Cubone", "Time": "2022-12-02T00:18:04.880Z" },
+            { "Group": "Pokemon", "Name": "Electabuzz", "Time": "2022-12-02T01:23:33.328Z" },
+            { "Group": "Pokemon", "Name": "Snorlax", "Time": "2022-12-02T01:44:16.846Z" },
+            { "Group": "Pokemon", "Name": "Diglett", "Time": "2022-12-02T01:48:32.335Z" },
+            { "Group": "Pokemon", "Name": "Tyrogue", "Time": "2022-12-02T11:46:28.779Z" },
+            { "Group": "Pokemon", "Name": "Celebi", "Time": "2022-12-02T14:28:53.610Z" },
+            { "Group": "Pokemon", "Name": "Dugtrio", "Time": "2022-12-02T16:07:10.734Z" },
+            { "Group": "Pokemon", "Name": "Rapidash", "Time": "2022-12-02T19:48:29.184Z" },
+            { "Group": "Pokemon", "Name": "Ho-Oh", "Time": "2022-12-02T21:56:37.440Z" },
+            { "Group": "Pokemon", "Name": "Corsola", "Time": "2022-12-03T02:27:51.926Z" },
+            { "Group": "Pokemon", "Name": "Kingler", "Time": "2022-12-03T02:56:36.888Z" },
+            { "Group": "Pokemon", "Name": "Shellder", "Time": "2022-12-03T03:02:58.809Z" },
+            { "Group": "Pokemon", "Name": "Lanturn", "Time": "2022-12-03T03:14:02.627Z" },
+            { "Group": "Pokemon", "Name": "Chinchou", "Time": "2022-12-03T03:17:04.311Z" },
+            { "Group": "Pokemon", "Name": "Ponyta", "Time": "2022-12-03T03:38:57.200Z" }
         ]
     }
 );
