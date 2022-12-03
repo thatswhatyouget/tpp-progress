@@ -5,7 +5,7 @@ Sidegames.Runs.push(
         StartDate: "2022-11-27T17:15:00Z",
         ColorPrimary: "silver",
         ColorSecondary: "darkgray",
-        Duration: "2022-12-26T21:00:00Z",
+        Duration: "2022-12-03T21:46:00Z",
         HostName: "NEEKO",
         HostImage: "img/hosts/ajdnnw.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
@@ -14,6 +14,7 @@ Sidegames.Runs.push(
         Generation: 2,
         Pokedex: "New",
         FromNatDex: true,
+        FinalStateLink: "./states/Season 9/silver.json",
         Events: [
             {
                 Group: "Badges",
@@ -287,7 +288,31 @@ Sidegames.Runs.push(
             { "Group": "Pokemon", "Name": "Shellder", "Time": "2022-12-03T03:02:58.809Z" },
             { "Group": "Pokemon", "Name": "Lanturn", "Time": "2022-12-03T03:14:02.627Z" },
             { "Group": "Pokemon", "Name": "Chinchou", "Time": "2022-12-03T03:17:04.311Z" },
-            { "Group": "Pokemon", "Name": "Ponyta", "Time": "2022-12-03T03:38:57.200Z" }
+            { "Group": "Pokemon", "Name": "Ponyta", "Time": "2022-12-03T03:38:57.200Z" },
+            { "Group": "Pokemon", "Name": "Murkrow", "Time": "2022-12-03T05:30:34.711Z" },
+            { "Group": "Pokemon", "Name": "Houndour", "Time": "2022-12-03T05:43:24.308Z" },
+            { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "2022-12-03T06:25:22.961Z" },
+            { "Group": "Pokemon", "Name": "Skiploom", "Time": "2022-12-03T06:47:48.445Z" },
+            { "Group": "Pokemon", "Name": "Sneasel", "Time": "2022-12-03T06:53:49.898Z" },
+            { "Group": "Pokemon", "Name": "Jumpluff", "Time": "2022-12-03T07:17:53.678Z" },
+            { "Group": "Pokemon", "Name": "Ninetales", "Time": "2022-12-03T08:34:27.034Z" },
+            { "Group": "Pokemon", "Name": "Poliwrath", "Time": "2022-12-03T08:35:09.065Z" },
+            { "Group": "Pokemon", "Name": "Vileplume", "Time": "2022-12-03T08:35:41.363Z" },
+            { "Group": "Pokemon", "Name": "Granbull", "Time": "2022-12-03T09:19:53.888Z" },
+            { "Group": "Pokemon", "Name": "Houndoom", "Time": "2022-12-03T10:00:48.999Z" },
+            { "Group": "Pokemon", "Name": "Hitmonchan", "Time": "2022-12-03T10:57:34.967Z" },
+            { "Group": "Pokemon", "Name": "Dragonair", "Time": "2022-12-03T12:01:41.662Z" },
+            { "Group": "Pokemon", "Name": "Rhydon", "Time": "2022-12-03T12:04:29.961Z" },
+            { "Group": "Pokemon", "Name": "Hypno", "Time": "2022-12-03T13:50:45.846Z" },
+            { "Group": "Pokemon", "Name": "Graveler", "Time": "2022-12-03T15:05:42.709Z" },
+            { "Group": "Pokemon", "Name": "Jigglypuff", "Time": "2022-12-03T15:54:00.231Z" },
+            { "Group": "Pokemon", "Name": "Ledian", "Time": "2022-12-03T16:05:45.124Z" },
+            { "Group": "Pokemon", "Name": "Pikachu", "Time": "2022-12-03T16:23:33.237Z" },
+            { "Group": "Pokemon", "Name": "Natu", "Time": "2022-12-03T17:54:07.562Z" },
+            { "Group": "Pokemon", "Name": "Lapras", "Time": "2022-12-03T18:08:09.615Z" },
+            { "Group": "Pokemon", "Name": "Dewgong", "Time": "2022-12-03T19:24:11.519Z" },
+            { "Group": "Pokemon", "Name": "Pidgeot", "Time": "2022-12-03T20:40:22.101Z" },
+            { "Group": "Pokemon", "Name": "Larvitar", "Time": "2022-12-03T20:57:53.542Z" }
         ]
     }
 );
