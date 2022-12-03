@@ -154,7 +154,7 @@ Sidegames.Runs.push(
                 Name: "Red",
                 Image: "img/trainers/crystal/sorcererssho.png",
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",
-                Time: ""
+                Time: "2022-12-03T04:31:27.526Z", Attempts: 5
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-12-01T12:21:20Z", IDNo: "64387", Attempts: 9, Party: [
