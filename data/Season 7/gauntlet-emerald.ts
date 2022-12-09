@@ -9,7 +9,7 @@ Season7.Runs.push(
         StartDate: "2020-03-07T01:00:00Z",
         HostName: "n",
         HostImage: "img/hosts/n.png",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/fer2cx/nia_gropius_host_of_gauntlet_emerald_concept/",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/fnbjl0/the_gauntlet_hall_of_fame_36/",
         Region: "Hoenn",
         Generation: 3,
         Pokedex: "National",

@@ -8,7 +8,7 @@ Season2.Runs.push(
         Duration: "14d 5h 29m",
         StartDate: "2015-07-12T21:00:00Z",
         HostName: "!!!0999   qq",
-        HostImage: "img/hosts/qq.png",
+        HostImage: "img/hosts/qq-2.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Hoenn",
         Generation: 6,
