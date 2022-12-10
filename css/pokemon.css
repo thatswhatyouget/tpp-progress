@@ -4422,3 +4422,35 @@
 .galarian .dexEntry .pokesprite.darmanitan img, .pokesprite.galarian.darmanitan img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -16em!important; }
 .galarian .dexEntry .pokesprite.yamask img, .pokesprite.galarian.yamask img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -17em!important; }
 .galarian .dexEntry .pokesprite.stunfisk img, .pokesprite.galarian.stunfisk img { background-image:url('../img/pokemon-galar-large.png')!important; background-position: 0px -18em!important; }
+.hisui .pokesprite.growlithe img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -0em!important; }
+.hisui .pokesprite.arcanine img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -1em!important; }
+.hisui .pokesprite.voltorb img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -2em!important; }
+.hisui .pokesprite.electrode img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -3em!important; }
+.hisui .pokesprite.typhlosion img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -4em!important; }
+.hisui .pokesprite.qwilfish img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -5em!important; }
+.hisui .pokesprite.sneasel img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -6em!important; }
+.hisui .pokesprite.samurott img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -7em!important; }
+.hisui .pokesprite.lilligant img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -8em!important; }
+.hisui .pokesprite.zorua img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -9em!important; }
+.hisui .pokesprite.zoroark img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -10em!important; }
+.hisui .pokesprite.braviary img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -11em!important; }
+.hisui .pokesprite.sliggoo img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -12em!important; }
+.hisui .pokesprite.goodra img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -13em!important; }
+.hisui .pokesprite.avalugg img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -14em!important; }
+.hisui .pokesprite.decidueye img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -15em!important; }
+.hisuian .dexEntry .pokesprite.growlithe img, .pokesprite.hisuian.growlithe img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -0em!important; }
+.hisuian .dexEntry .pokesprite.arcanine img, .pokesprite.hisuian.arcanine img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -1em!important; }
+.hisuian .dexEntry .pokesprite.voltorb img, .pokesprite.hisuian.voltorb img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -2em!important; }
+.hisuian .dexEntry .pokesprite.electrode img, .pokesprite.hisuian.electrode img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -3em!important; }
+.hisuian .dexEntry .pokesprite.typhlosion img, .pokesprite.hisuian.typhlosion img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -4em!important; }
+.hisuian .dexEntry .pokesprite.qwilfish img, .pokesprite.hisuian.qwilfish img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -5em!important; }
+.hisuian .dexEntry .pokesprite.sneasel img, .pokesprite.hisuian.sneasel img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -6em!important; }
+.hisuian .dexEntry .pokesprite.samurott img, .pokesprite.hisuian.samurott img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -7em!important; }
+.hisuian .dexEntry .pokesprite.lilligant img, .pokesprite.hisuian.lilligant img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -8em!important; }
+.hisuian .dexEntry .pokesprite.zorua img, .pokesprite.hisuian.zorua img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -9em!important; }
+.hisuian .dexEntry .pokesprite.zoroark img, .pokesprite.hisuian.zoroark img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -10em!important; }
+.hisuian .dexEntry .pokesprite.braviary img, .pokesprite.hisuian.braviary img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -11em!important; }
+.hisuian .dexEntry .pokesprite.sliggoo img, .pokesprite.hisuian.sliggoo img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -12em!important; }
+.hisuian .dexEntry .pokesprite.goodra img, .pokesprite.hisuian.goodra img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -13em!important; }
+.hisuian .dexEntry .pokesprite.avalugg img, .pokesprite.hisuian.avalugg img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -14em!important; }
+.hisuian .dexEntry .pokesprite.decidueye img, .pokesprite.hisuian.decidueye img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -15em!important; }
