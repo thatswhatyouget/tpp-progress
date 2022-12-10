@@ -206,6 +206,18 @@ Season8.Runs.push(
                 FirstAttemptDate: "2021-09-05T04:33:53.391Z",
                 Image: "img/ribbons/champion.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-09-07T22:39:50.319Z", IDNo: "61902", Attempts: 13, Party: [
+                    { Pokemon: "Delcatty", Nickname: "AT", Level: 100, Gender: "Female", Number: 108, IDNo: "61902" },
+                    { Pokemon: "Relicanth", Nickname: "Relicanth", Level: 90, Gender: "Male", Number: 317, IDNo: "61902" },
+                    { Pokemon: "Pelipper", Nickname: "”", Level: 100, Gender: "Female", Number: 68, IDNo: "61902" },
+                    { Pokemon: "Sunflora", Nickname: "NUTSACC", Shiny: true, Level: 100, Gender: "Female", Number: 271, IDNo: "61902" },
+                    { Pokemon: "Regirock", Nickname: "Regirock", Level: 88, Number: 373, IDNo: "61902" },
+                    { Pokemon: "Shedinja", Nickname: ",-", Level: 100, Number: 100, IDNo: "61902" },
+                ],
+                FirstAttemptDate: "2021-09-06T16:31:31.823Z",
+                Image: "img/ribbons/champion.png"
+            },
 
             { Group: "Pokemon", Name: "Eevee", Time: "2021-08-21T21:12:54.385Z" },
             { Group: "Pokemon", Name: "Wurmple", Time: "2021-08-21T21:37:44.140Z" },

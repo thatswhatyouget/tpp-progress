@@ -7,8 +7,8 @@ Season9.Runs.push(
         Duration: "2022-11-27T16:00:00Z",
         StartDate: "2022-11-19T21:00:00Z",
         HostName: "2z",
-        HostImage: "https://archives.bulbagarden.net/media/upload/thumb/e/ea/Scarlet_Male_Trainer.png/388px-Scarlet_Male_Trainer.png",
-        HostImageSource: "https://bulbapedia.bulbagarden.net/wiki/File:Scarlet_Male_Trainer.png",
+        HostImage: "img/hosts/2z.png",
+        HostImageSource: "https://www.deviantart.com/mid117/art/PKMN-Scarlet-Protagonists-Trainer-Sprites-923433423",
         Region: "Paldea",
         Generation: 9,
         Events: [

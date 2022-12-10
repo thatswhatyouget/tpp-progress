@@ -72,6 +72,7 @@ module Pokedex {
         "Galar": "galarian",
         "Isle of Armor": "galarian",
         "Crown Tundra": "galarian",
+        "Hisui": "hisuian",
         "Larmog": "navyblue",
         "Altair/Sirius (Hoenn)": "sirius",
         "Tohoak": "vega",

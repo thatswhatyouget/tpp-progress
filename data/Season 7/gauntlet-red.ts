@@ -9,7 +9,7 @@ Season7.Runs.push(
         Duration: "6d 18h 43m",
         HostName: "RED",
         HostImage: "img/hosts/red2.png",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/f6ktqq/oriana_shinku_the_host_of_gauntlet_red/",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/f84tx7/the_gauntlet_hall_of_fame_16/",
         Region: "Kanto",
         Generation: 1,
         Pokedex: "Kanto",
