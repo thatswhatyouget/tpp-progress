@@ -19,8 +19,8 @@ Sidegames.Runs.push(
                 Name: "Boulder Badge",
                 Image: "img/badges/boulder.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "",
-                Attempts: 0
+                Time: "2022-12-12T09:21:19.374Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
@@ -130,7 +130,13 @@ Sidegames.Runs.push(
             { "Group": "Pokemon", "Name": "NidoranF", "Time": "2022-12-12T05:25:10.646Z" },
             { "Group": "Pokemon", "Name": "Mankey", "Time": "2022-12-12T05:28:37.497Z" },
             { "Group": "Pokemon", "Name": "Spearow", "Time": "2022-12-12T05:36:58.175Z" },
-            { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2022-12-12T05:58:55.557Z" }
+            { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2022-12-12T05:58:55.557Z" },
+            { "Group": "Pokemon", "Name": "Pidgey", "Time": "2022-12-12T07:39:12.506Z" },
+            { "Group": "Pokemon", "Name": "Nidorina", "Time": "2022-12-12T09:38:12.973Z" },
+            { "Group": "Pokemon", "Name": "NidoranM", "Time": "2022-12-12T13:25:36.032Z" },
+            { "Group": "Pokemon", "Name": "Magikarp", "Time": "2022-12-12T14:27:44.523Z" },
+            { "Group": "Pokemon", "Name": "Zubat", "Time": "2022-12-12T14:34:16.813Z" },
+            { "Group": "Pokemon", "Name": "Clefairy", "Time": "2022-12-12T14:39:19.135Z" }
         ]
     }
 );
