@@ -27,8 +27,8 @@ Sidegames.Runs.push(
                 Name: "Cascade Badge",
                 Image: "img/badges/cascade.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "",
-                Attempts: 0
+                Time: "2022-12-12T19:01:04.098Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
@@ -136,7 +136,10 @@ Sidegames.Runs.push(
             { "Group": "Pokemon", "Name": "NidoranM", "Time": "2022-12-12T13:25:36.032Z" },
             { "Group": "Pokemon", "Name": "Magikarp", "Time": "2022-12-12T14:27:44.523Z" },
             { "Group": "Pokemon", "Name": "Zubat", "Time": "2022-12-12T14:34:16.813Z" },
-            { "Group": "Pokemon", "Name": "Clefairy", "Time": "2022-12-12T14:39:19.135Z" }
+            { "Group": "Pokemon", "Name": "Clefairy", "Time": "2022-12-12T14:39:19.135Z" },
+            { "Group": "Pokemon", "Name": "Geodude", "Time": "2022-12-12T15:38:01.206Z" },
+            { "Group": "Pokemon", "Name": "Paras", "Time": "2022-12-12T16:09:02.603Z" },
+            { "Group": "Pokemon", "Name": "Charmander", "Time": "2022-12-12T17:54:50.312Z" }
         ]
     }
 );
