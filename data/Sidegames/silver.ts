@@ -181,6 +181,42 @@ Sidegames.Runs.push(
                 FirstAttemptDate: "5d 1h 13m 36s",
                 Image: "img/ribbons/champion.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-12-03T14:00:59Z", IDNo: "64387", Attempts: 1, Party: [
+                    { Number: 160, Pokemon: "Feraligatr", Nickname: "CROC", Gender: "Male", Level: 65, IDNo: "64387" },
+                    { Number: 97, Pokemon: "Hypno", Gender: "Female", Level: 26, IDNo: "64387" },
+                    { Number: 86, Pokemon: "Seel", Nickname: "YUKI", Gender: "Female", Level: 26, IDNo: "64387" },
+                    { Number: 116, Pokemon: "Horsea", Nickname: "STTTTTTTTT", Gender: "Male", Level: 15, IDNo: "64387" },
+                    { Number: 81, Pokemon: "Magnemite", Level: 16, IDNo: "64387" },
+                    { Number: 17, Pokemon: "Pidgeotto", Nickname: "BIG BORD", Gender: "Female", Level: 17, IDNo: "64387" },
+                ],
+                FirstAttemptDate: "5d 20h 19m 34s",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-12-03T19:46:19Z", IDNo: "64387", Attempts: 1, Party: [
+                    { Number: 160, Pokemon: "Feraligatr", Nickname: "CROC", Gender: "Male", Level: 67, IDNo: "64387" },
+                    { Number: 251, Pokemon: "Celebi", Nickname: "ASUS", Level: 52, IDNo: "64387" },
+                    { Number: 181, Pokemon: "Ampharos", Nickname: "LUMINARY", Gender: "Male", Level: 52, IDNo: "64387" },
+                    { Number: 227, Pokemon: "Skarmory", Nickname: "JAVELIN", Gender: "Male", Level: 49, IDNo: "64387" },
+                    { Number: 87, Pokemon: "Dewgong", Nickname: "YUKI", Gender: "Female", Level: 34, IDNo: "64387" },
+                    { Number: 17, Pokemon: "Pidgeotto", Nickname: "BIG BORD", Gender: "Female", Level: 26, IDNo: "64387" },
+                ],
+                FirstAttemptDate: "6d 1h 54m 5s",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-12-03T20:25:28Z", IDNo: "64387", Attempts: 1, Party: [
+                    { Number: 160, Pokemon: "Feraligatr", Nickname: "CROC", Gender: "Male", Level: 69, IDNo: "64387" },
+                    { Number: 251, Pokemon: "Celebi", Nickname: "ASUS", Level: 52, IDNo: "64387" },
+                    { Number: 181, Pokemon: "Ampharos", Nickname: "LUMINARY", Gender: "Male", Level: 52, IDNo: "64387" },
+                    { Number: 227, Pokemon: "Skarmory", Nickname: "JAVELIN", Gender: "Male", Level: 49, IDNo: "64387" },
+                    { Number: 87, Pokemon: "Dewgong", Nickname: "YUKI", Gender: "Female", Level: 34, IDNo: "64387" },
+                    { Number: 17, Pokemon: "Pidgeotto", Nickname: "BIG BORD", Gender: "Female", Level: 34, IDNo: "64387" },
+                ],
+                FirstAttemptDate: "6d 2h 39m 57s",
+                Image: "img/ribbons/champion.png"
+            },
             { "Group": "Pokemon", "Name": "Totodile", "Time": "2022-11-27T17:25:53.884Z" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "2022-11-27T18:14:00.789Z" },
             { "Group": "Pokemon", "Name": "Weedle", "Time": "2022-11-27T18:22:41.575Z" },

@@ -115,12 +115,78 @@ Season9.Runs.push(
                 "Time": "", "Attempts": 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-10-21T02:46:08.171Z", Attempts: 11, Party: [
+                    { Pokemon: "Blacephalon", Nickname: "BZYYH", Level: 73 },
+                    { Pokemon: "Mimikyu", Nickname: "Mooimi", Gender: "Male", Level: 74 },
+                    { Pokemon: "Primarina-X", Nickname: "!j (9999reej", Gender: "Female", Level: 79 },
+                    { Pokemon: "Linoone", Nickname: "HYPERRACC", Gender: "Male", Level: 73 },
+                    { Pokemon: "Lurantis", Nickname: "MEIRA", Gender: "Female", Level: 71 },
+                    { Pokemon: "Delphox", Nickname: "FennekinS ‘%", Gender: "Male", Level: 71 },
                 ],
                 Image: "img/ribbons/champion-alola.png",
-                FirstAttemptDate: ""
+                FirstAttemptDate: "2022-10-20T01:37:26.344Z"
             },
-
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-10-22T00:58:41.449Z", Attempts: 3, Party: [
+                    { Pokemon: "Cherrim", Nickname: "AMPPLMANTE", Gender: "Male", Level: 69 },
+                    { Pokemon: "Delphox", Nickname: "FennekinS ‘%", Gender: "Male", Level: 83 },
+                    { Pokemon: "Primarina-X", Nickname: "!j (9999reej", Gender: "Female", Level: 91 },
+                    { Pokemon: "Gastrodon", Nickname: "ELECTRODE", Level: 72 },
+                    { Pokemon: "Mimikyu", Nickname: "Mooimi", Gender: "Male", Level: 86 },
+                    { Pokemon: "Linoone", Nickname: "HYPERRACC", Gender: "Male", Level: 86 },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: "2022-10-21T04:06:57.369Z"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-10-22T07:21:18.318Z", Attempts: 4, Party: [
+                    { Pokemon: "Primarina-SP", Nickname: "!j (9999reej", Gender: "Female", Level: 95 },
+                    { Pokemon: "UB-Queen", Nickname: "Nue", Level: 58 },
+                    { Pokemon: "Cherrim", Nickname: "AMPPLMANTE", Gender: "Male", Level: 75 },
+                    { Pokemon: "Jellicent", Nickname: "PPMKEXX", Gender: "Female", Level: 45 },
+                    { Pokemon: "Clawitzer", Nickname: "Claunc4UYX", Gender: "Male", Level: 44 },
+                    { Pokemon: "Kadabra", Gender: "Female", Level: 46 },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: "2022-10-22T02:45:06.846Z"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-10-22T14:37:04.157Z", Attempts: 1, Party: [
+                    { Pokemon: "Primarina-SP", Nickname: "!j (9999reej", Gender: "Female", Level: 98 },
+                    { Pokemon: "UB-Queen", Nickname: "Nue", Level: 67 },
+                    { Pokemon: "Cherrim", Nickname: "AMPPLMANTE", Gender: "Male", Level: 79 },
+                    { Pokemon: "Cradily", Nickname: "!!pxqgl3yile", Gender: "Male", Level: 45 },
+                    { Pokemon: "Sliggoo", Nickname: "MB", Gender: "Female", Level: 51 },
+                    { Pokemon: "Metang", Nickname: "♂▯", Level: 44 },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: "2022-10-22T13:53:00.936Z"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-10-22T16:48:30.444Z", Attempts: 1, Party: [
+                    { Pokemon: "Primarina-SP", Nickname: "!j (9999reej", Gender: "Female", Level: 100 },
+                    { Pokemon: "UB-Queen", Nickname: "Nue", Level: 71 },
+                    { Pokemon: "Cherrim", Nickname: "AMPPLMANTE", Gender: "Male", Level: 81 },
+                    { Pokemon: "Mimikyu", Nickname: "Mooimi", Gender: "Male", Level: 87 },
+                    { Pokemon: "Linoone", Nickname: "HYPERRACC", Gender: "Male", Level: 88 },
+                    { Pokemon: "Delphox", Nickname: "FennekinS ‘%", Gender: "Male", Level: 85 },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: "2022-10-22T16:09:02.900Z"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-10-22T22:00:49.668Z", Attempts: 1, Party: [
+                    { Pokemon: "Mimikyu", Nickname: "Mooimi", Gender: "Male", Level: 89 },
+                    { Pokemon: "Linoone", Nickname: "HYPERRACC", Gender: "Male", Level: 91 },
+                    { Pokemon: "Primarina-SP", Nickname: "!j (9999reej", Gender: "Female", Level: 100 },
+                    { Pokemon: "UB-Queen", Nickname: "Nue", Level: 75 },
+                    { Pokemon: "Delphox", Nickname: "FennekinS ‘%", Gender: "Male", Level: 86 },
+                    { Pokemon: "Cherrim", Nickname: "AMPPLMANTE", Gender: "Male", Level: 84 },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: "2022-10-22T20:59:34.016Z"
+            },
+			
             { "Group": "Pokemon", "Name": "Popplio", "Time": "2022-10-15T21:20:19.995Z" },
             { "Group": "Pokemon", "Name": "Poipole", "Time": "2022-10-15T22:00:38.264Z" },
             { "Group": "Pokemon", "Name": "Turtwig", "Time": "2022-10-15T22:03:19.529Z" },
