@@ -2,6 +2,7 @@
 Sidegames.Runs.push(
     {
         RunName: "Blazing Emerald Again",
+        Class: "blazingemerald",
         ColorPrimary: "#fefc35",
         ColorSecondary: "#a3060e",
         BackgroundImage: "linear-gradient(to top, #a3060e 0%, #fefc35 190%)",
