@@ -26,8 +26,8 @@ Sidegames.Runs.push(
                 Group: "Badges",
                 Name: "Shadow Badge",
                 Image: "img/badges/shadow.png",
-                Time: "",
-                Attempts: 0
+                Time: "2022-12-17T04:53:26.404Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
@@ -180,7 +180,16 @@ Sidegames.Runs.push(
             { "Group": "Pokemon", "Name": "Shroomish", "Time": "2022-12-17T00:28:58.572Z" },
             { "Group": "Pokemon", "Name": "Venonat", "Time": "2022-12-17T00:32:17.121Z" },
             { "Group": "Pokemon", "Name": "Beautifly", "Time": "2022-12-17T01:09:45.242Z" },
-            { "Group": "Pokemon", "Name": "Whismur", "Time": "2022-12-17T02:05:23.298Z" }
+            { "Group": "Pokemon", "Name": "Whismur", "Time": "2022-12-17T02:05:23.298Z" },
+            { "Group": "Pokemon", "Name": "Luxio", "Time": "2022-12-17T02:23:35.984Z" },
+            { "Group": "Pokemon", "Name": "Mightyena", "Time": "2022-12-17T03:17:53.204Z" },
+            { "Group": "Pokemon", "Name": "Dunsparce", "Time": "2022-12-17T03:50:12.874Z" },
+            { "Group": "Pokemon", "Name": "Murkrow", "Time": "2022-12-17T04:16:09.686Z" },
+            { "Group": "Pokemon", "Name": "Houndour", "Time": "2022-12-17T04:16:09.686Z" },
+            { "Group": "Pokemon", "Name": "Sneasel", "Time": "2022-12-17T04:16:09.686Z" },
+            { "Group": "Pokemon", "Name": "Swablu", "Time": "2022-12-17T04:29:28.340Z" },
+            { "Group": "Pokemon", "Name": "Farfetch’d", "Time": "2022-12-17T05:37:51.133Z" },
+            { "Group": "Pokemon", "Name": "Ponyta", "Time": "2022-12-17T08:37:57.495Z" }
         ]
     }
 );
