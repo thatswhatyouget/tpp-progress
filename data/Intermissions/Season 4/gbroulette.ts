@@ -20,7 +20,7 @@ Intermissions.Runs.push(
             { Group: "Hosts", Name: "A!!!!!!!\nTetris DX", Image: "img/hosts/other/tetris.gif", Time: "2017-02-10T16:03:00Z" },
             { Group: "Hosts", Name: "Pikachu\nPokémon Adventure", Image: "img/hosts/pmd/pikachu.png", Time: "2017-02-11T00:15:00Z" },
             { Group: "Hosts", Name: "Wario\nWario Land II", Image: "img/hosts/other/wario.png", Time: "2017-02-11T02:36:00Z", Class: "squarehost" },
-            { Group: "Hosts", Name: "Ethan\nPokémon Puzzle Challenge", Image: "img/hosts/ethan.png", Time: "2017-02-11T108:36:00Z" },
+            { Group: "Hosts", Name: "Ethan\nPokémon Puzzle Challenge", Image: "img/hosts/ethan.png", Time: "2017-02-11T08:36:00Z" },
             { Group: "Hosts", Name: "♪\nHarvest Moon 2 GBC", Image: "img/hosts/other/chelsea.gif", Time: "2017-02-11T12:21:00Z" },
             { Group: "Hosts", Name: "Scooby Doo!\nClassic Creep Capers", Image: "img/hosts/other/scoob.gif", Time: "2017-02-11T20:43:00Z" },
             { Group: "Hosts", Name: "CASSIE\nAnimorphs", Image: "img/hosts/other/cassie.gif", Time: "2017-02-11T22:23:00Z", Class: "squarehost" },

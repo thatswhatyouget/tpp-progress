@@ -15,7 +15,7 @@ Intermissions.Runs.push(
                 Name: "Aurora",
                 Group: "Kingdoms",
                 Image: "img/conquest/aurora.png",
-                Time: "2014-06-27T:23:23:22Z"
+                Time: "2014-06-27T23:23:22Z"
             },
             {
                 Name: "Ignis",
