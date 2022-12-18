@@ -8,7 +8,7 @@ const dexClean = (str: string) => (str || '').toString().replace(/♀/g, 'F').re
 
 exports.tests = function () {
     const runTotal = tppData.reduce((sum, s) => sum + s.Runs.length, 0);
-    console.log(`Checking ${runTotal} runs for Pokemon entries that don't match the Pokedex...`);
+    console.log(`Checking ${runTotal} runs for invalid events...`);
     tppData.forEach(season =>
         season.Runs.forEach(run => {
             // console.info(run.RunName);
@@ -17,12 +17,13 @@ exports.tests = function () {
                 .concat(Pokedex.PokeList)
                 .filter(p => !!p)
                 .map(dexClean);
-            run.Events.filter(e => e.Group == "Pokemon")
-                .forEach(event => {
-                    // console.info(event.Name);
-                    if (!dex.includes(dexClean(event.Name || "")) && !dex.includes(dexClean(event.Class || "")))
-                        console.warn(`${season.Name} ${run.RunName}: Pokemon ${event.Name}${event.Class ? ` (${event.Class})` : ""} does not match any regional or national Pokedex entries.`);
-                });
+            run.Events.forEach(event => {
+                // console.info(event.Name);
+                if (event.Group == "Pokemon" && !dex.includes(dexClean(event.Name || "")) && !dex.includes(dexClean(event.Class || "")))
+                    console.warn(`${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} does not match any regional or national Pokedex entries.`.replace('\n',' '));
+                if (!!event.Time && !event.UnixTime)
+                    console.error(`${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} has an invalid Time: "${event.Time}"`.replace('\n',' '));
+            });
         })
     );
 
