@@ -3,12 +3,13 @@
 		"outDir": ".",
 		"target": "es5",
 		"removeComments": true,
-		"outFile": "tpp-transform-tests.js",
+		"outFile": "tpp-data-tests.js",
 		"sourceMap": true,
 		"noEmitOnError": true
 	},
 	"include": [
-		"**/*.ts"
+		"./tests.ts",
+		"../**/*.ts"
 	],
 	"exclude": []
 }

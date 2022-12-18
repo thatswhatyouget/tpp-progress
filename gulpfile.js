@@ -96,14 +96,34 @@ gulp.task('clean-up-data', gulp.series('process-data', 'process-pokedex', 'clean
     return del('bin/data');
 }));
 
+gulp.task('build-data-tests', function () {
+    var tests = ts.createProject('data/tests/tsconfig.json', { outFile: 'tpp-data-tests.js' });
+    return tests.src()
+        .pipe(sourcemaps.init())
+        .pipe(tests())
+        .js
+        .pipe(sourcemaps.write('./data/tests', { sourceRoot: '', includeContent: false }))
+        .pipe(gulp.dest('./data/tests/'));
+});
+gulp.task('test-data', gulp.series('build-data-tests', function (callback) {
+    const tests = require('./data/tests/tpp-data-tests.js').tests;
+    setTimeout(function() {
+        tests();
+        callback();   
+    }, 10);
+}));
+gulp.task('clean-data-tests', gulp.series('test-data', function () {
+    return del('./data/tests/tpp-data-tests.*');
+}));
+
 gulp.task('build-transform-tests', function () {
     var tests = ts.createProject('transforms/tests/tsconfig.json', { outFile: 'tpp-transform-tests.js' });
     return tests.src()
         .pipe(sourcemaps.init())
         .pipe(tests())
         .js
-        .pipe(sourcemaps.write('.', { sourceRoot: '', includeContent: false }))
-        .pipe(gulp.dest('.'));
+        .pipe(sourcemaps.write('./transforms/tests/', { sourceRoot: '', includeContent: false }))
+        .pipe(gulp.dest('./transforms/tests/'));
 });
 
 var mocha = require('gulp-mocha');
@@ -120,4 +140,4 @@ gulp.task('clean-transform-tests', gulp.series('test-transforms', function () {
 gulp.task('build-data', gulp.series('clean-up-data'));
 
 gulp.task('build', gulp.series('build-data', 'build-display', 'build-transforms', 'build-progress'));
-gulp.task('test', gulp.series('clean-transform-tests'));
+gulp.task('test', gulp.series('clean-data-tests'/*, 'clean-transform-tests'*/));
