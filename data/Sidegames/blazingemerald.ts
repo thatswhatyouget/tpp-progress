@@ -200,7 +200,8 @@ Sidegames.Runs.push(
             { "Group": "Pokemon", "Name": "Pineco", "Time": "2022-12-17T13:05:56.764Z" },
             { "Group": "Pokemon", "Name": "Mallar’ki", "Time": "2022-12-17T15:26:20.393Z" },
             { "Group": "Pokemon", "Name": "Magikarp", "Time": "2022-12-17T15:54:43.921Z" },
-            { "Group": "Pokemon", "Name": "Tentacool", "Time": "2022-12-17T16:16:14.077Z" }
+            { "Group": "Pokemon", "Name": "Tentacool", "Time": "2022-12-17T16:16:14.077Z" },
+            { "Group": "Pokemon", "Name": "Linoone", "Time": "2022-12-17T20:32:06.603Z" }
         ]
     }
 );

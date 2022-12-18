@@ -188,3 +188,24 @@ declare var tppData: TPP.Collection[];
 declare var exports: any;
 declare const dualBlue: TPP.Run;
 declare const dualRed: TPP.Run;
+declare module Pokedex {
+    var PokeList: string[];
+    var GenSlice: number[];
+}
+declare var exports: any;
+declare module Pokedex {
+    var Regional: {
+        [key: string]: (number | string)[];
+    };
+    var specialClasses: {
+        [key: string]: string;
+    };
+    var runRestrictions: {
+        [key: string]: string;
+    };
+    var alternateNames: {
+        [key: string]: string[];
+    };
+}
+declare var exports: any;
+declare const dexClean: (str: string) => string;
