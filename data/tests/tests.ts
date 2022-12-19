@@ -13,6 +13,7 @@ exports.tests = function () {
         season.Runs.forEach(run => {
             // console.info(run.RunName);
             const dex = (Pokedex.Regional[run.Pokedex || run.Region] || [])
+                .concat((run.DexMapping || []))
                 .map(p => typeof p == "number" ? Pokedex.PokeList[p] : p)
                 .concat(Pokedex.PokeList)
                 .filter(p => !!p)
@@ -20,9 +21,9 @@ exports.tests = function () {
             run.Events.forEach(event => {
                 // console.info(event.Name);
                 if (event.Group == "Pokemon" && !dex.includes(dexClean(event.Name || "")) && !dex.includes(dexClean(event.Class || "")))
-                    console.warn(`${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} does not match any regional or national Pokedex entries.`.replace('\n',' '));
+                    console.warn(`${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} does not match any regional or national Pokedex entries.`.replace('\n', ' '));
                 if (!!event.Time && !event.UnixTime)
-                    console.error(`${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} has an invalid Time: "${event.Time}"`.replace('\n',' '));
+                    console.error(`${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} has an invalid Time: "${event.Time}"`.replace('\n', ' '));
             });
         })
     );

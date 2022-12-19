@@ -23,6 +23,7 @@
 		{
 			"label": "test",
 			"type": "shell",
+			"command": "gulp test",
 			"presentation": {
 				"echo": true,
 				"reveal": "always",
