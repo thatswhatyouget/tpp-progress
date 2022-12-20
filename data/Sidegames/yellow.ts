@@ -127,11 +127,11 @@ Sidegames.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-12-16T19:15:00Z", Attempts: 7, Party: [
-                    { Pokemon: "Tentacruel", Nickname: "SPLATOON", Level: 51, Type1: "Water", Type2: "Poison" },
+                    { Pokemon: "Tentacruel", Nickname: "SPLATOON", Level: 61, Type1: "Water", Type2: "Poison" },
                     { Pokemon: "Snorlax", Nickname: "KIRBY", Level: 51, Type1: "Normal" },
                     { Pokemon: "Primeape", Nickname: "PunOko", Level: 48, Type1: "Fighting" },
-                    { Pokemon: "Mr. Mime", Nickname: "MILES", Level: 53, Type1: "Psychic" },
-                    { Pokemon: "Pikachu", Nickname: "SPARKY", Level: 52, Type1: "Electric" },
+                    { Pokemon: "Mr. Mime", Nickname: "MILES", Level: 63, Type1: "Psychic" },
+                    { Pokemon: "Pikachu", Nickname: "SPARKY", Level: 62, Type1: "Electric" },
                     { Pokemon: "Fearow", Nickname: "AVES", Level: 44, Type1: "Normal", Type2: "Flying" },
                 ],
                 FirstAttemptDate: "4d 8h 38m 59s",
