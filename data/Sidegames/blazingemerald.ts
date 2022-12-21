@@ -76,22 +76,22 @@ Sidegames.Runs.push(
                 Group: "Elite Four",
                 Name: "Phoebe",
                 Image: "img/trainers/emerald/phoebe.png",
-                Time: "",
-                Attempts: 0
+                Time: "2022-12-21T01:34:13.937Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Serena",
                 Image: "img/trainers/emerald/serena.png",
-                Time: "",
-                Attempts: 0
+                Time: "2022-12-21T01:50:01.435Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Bede",
                 Image: "img/trainers/emerald/bede.png",
                 Time: "",
-                Attempts: 0
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
@@ -109,12 +109,12 @@ Sidegames.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "33596", Attempts: 0, Party: [
-                    // { Pokemon: "Weezing", Nickname: "G,.. YRMto", Level: 60, Gender: "Male", Number: 184, IDNo: "61902" },
-                    // { Pokemon: "Shuckle", Nickname: "GGNN", Level: 60, Gender: "Male", Number: 249, IDNo: "61902" },
-                    // { Pokemon: "Beedrill", Nickname: ",,,      ", Level: 60, Gender: "Female", Number: 111, IDNo: "61902" },
-                    // { Pokemon: "Crobat", Nickname: "MASTERBAIT", Level: 60, Gender: "Female", Number: 126, IDNo: "61902" },
-                    // { Pokemon: "Weavile", Nickname: "GI", Level: 60, Gender: "Male", Number: 289, IDNo: "61902" },
-                    // { Pokemon: "Gliscor", Nickname: "TT     -  ", Level: 60, Gender: "Female", Number: 160, IDNo: "61902" },
+                    { Pokemon: "Zangaro", Nickname: "AGG", Level: 60, Gender: "Female", Number: 206, IDNo: "33596" },
+                    { Pokemon: "Clefairy", Nickname: "Hope", Level: 60, Gender: "Male", Number: 13, IDNo: "33596" },
+                    { Pokemon: "Drasparath", Nickname: "Zooey", Level: 60, Gender: "Female", Number: 137, IDNo: "33596" },
+                    { Pokemon: "Silviper", Nickname: "QR", Level: 60, Gender: "Male", Number: 204, IDNo: "33596" },
+                    { Pokemon: "Mallar’ki", Nickname: "Artoria", Level: 60, Gender: "Female", Number: 146, IDNo: "33596" },
+                    { Pokemon: "Quagsire", Nickname: "OOP", Level: 60, Gender: "Female", Number: 202, IDNo: "33596" },
                 ],
                 FirstAttemptDate: "2022-12-21T01:24:07.323Z",
                 Image: "img/ribbons/champion.png"
