@@ -12,7 +12,7 @@ Season9.Runs.push(
         Region: "Alola",
         Generation: 7,
         Pokedex: "National",
-        //FinalStateLink: "./states/Season 6/rum.json",
+        FinalStateLink: "./states/Season 9/star.json",
         Events: [
             {
                 "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png",
@@ -186,7 +186,7 @@ Season9.Runs.push(
                 Image: "img/ribbons/champion-alola.png",
                 FirstAttemptDate: "2022-10-22T20:59:34.016Z"
             },
-			
+
             { "Group": "Pokemon", "Name": "Popplio", "Time": "2022-10-15T21:20:19.995Z" },
             { "Group": "Pokemon", "Name": "Poipole", "Time": "2022-10-15T22:00:38.264Z" },
             { "Group": "Pokemon", "Name": "Turtwig", "Time": "2022-10-15T22:03:19.529Z" },
