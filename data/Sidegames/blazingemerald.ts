@@ -69,8 +69,8 @@ Sidegames.Runs.push(
                 Group: "Badges",
                 Name: "Rime Badge",
                 Image: "img/badges/rain.png",
-                Time: "",
-                Attempts: 0
+                Time: "2022-12-20T19:47:54.607Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
@@ -108,7 +108,7 @@ Sidegames.Runs.push(
                 Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "61902", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "33596", Attempts: 0, Party: [
                     // { Pokemon: "Weezing", Nickname: "G,.. YRMto", Level: 60, Gender: "Male", Number: 184, IDNo: "61902" },
                     // { Pokemon: "Shuckle", Nickname: "GGNN", Level: 60, Gender: "Male", Number: 249, IDNo: "61902" },
                     // { Pokemon: "Beedrill", Nickname: ",,,      ", Level: 60, Gender: "Female", Number: 111, IDNo: "61902" },
@@ -116,7 +116,7 @@ Sidegames.Runs.push(
                     // { Pokemon: "Weavile", Nickname: "GI", Level: 60, Gender: "Male", Number: 289, IDNo: "61902" },
                     // { Pokemon: "Gliscor", Nickname: "TT     -  ", Level: 60, Gender: "Female", Number: 160, IDNo: "61902" },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2022-12-21T01:24:07.323Z",
                 Image: "img/ribbons/champion.png"
             },
             {
@@ -160,7 +160,7 @@ Sidegames.Runs.push(
                 Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "61902", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "33596", Attempts: 0, Party: [
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -276,7 +276,48 @@ Sidegames.Runs.push(
             { "Group": "Pokemon", "Name": "Swinub", "Time": "2022-12-19T18:08:38.131Z" },
             { "Group": "Pokemon", "Name": "Onix", "Time": "2022-12-19T18:29:37.538Z" },
             { "Group": "Pokemon", "Name": "Golbat", "Time": "2022-12-19T18:45:01.201Z" },
-            { "Group": "Pokemon", "Name": "Octillery", "Time": "2022-12-19T21:06:27.747Z" }
+            { "Group": "Pokemon", "Name": "Octillery", "Time": "2022-12-19T21:06:27.747Z" },
+            { "Group": "Pokemon", "Name": "Slingray", "Time": "2022-12-19T21:39:23.013Z" },
+            { "Group": "Pokemon", "Name": "Qwilfish", "Time": "2022-12-19T21:50:32.070Z" },
+            { "Group": "Pokemon", "Name": "Buizel", "Time": "2022-12-19T22:13:43.555Z" },
+            { "Group": "Pokemon", "Name": "Chrysalix", "Time": "2022-12-19T22:54:32.325Z" },
+            { "Group": "Pokemon", "Name": "Chinchou", "Time": "2022-12-19T23:50:23.238Z" },
+            { "Group": "Pokemon", "Name": "Clamperl", "Time": "2022-12-19T23:52:53.512Z" },
+            { "Group": "Pokemon", "Name": "Unown", "Time": "2022-12-20T01:57:00.907Z" },
+            { "Group": "Pokemon", "Name": "Metunn", "Time": "2022-12-20T03:29:47.323Z" },
+            { "Group": "Pokemon", "Name": "Staryu", "Time": "2022-12-20T04:18:18.248Z" },
+            { "Group": "Pokemon", "Name": "Shellder", "Time": "2022-12-20T04:55:12.354Z" },
+            { "Group": "Pokemon", "Name": "Floatzel", "Time": "2022-12-20T04:58:14.809Z" },
+            { "Group": "Pokemon", "Name": "Beedrill", "Time": "2022-12-20T07:50:20.360Z" },
+            { "Group": "Pokemon", "Name": "Omanyte", "Time": "2022-12-20T07:58:54.471Z" },
+            { "Group": "Pokemon", "Name": "Sealeo", "Time": "2022-12-20T08:10:43.017Z" },
+            { "Group": "Pokemon", "Name": "Corphish", "Time": "2022-12-20T09:23:26.308Z" },
+            { "Group": "Pokemon", "Name": "Forretress", "Time": "2022-12-20T09:37:56.662Z" },
+            { "Group": "Pokemon", "Name": "Crawdaunt", "Time": "2022-12-20T10:12:48.109Z" },
+            { "Group": "Pokemon", "Name": "Huntail", "Time": "2022-12-20T10:28:04.347Z" },
+            { "Group": "Pokemon", "Name": "Flaaffy", "Time": "2022-12-20T10:37:20.951Z" },
+            { "Group": "Pokemon", "Name": "Ampharos", "Time": "2022-12-20T11:05:10.329Z" },
+            { "Group": "Pokemon", "Name": "Omastar", "Time": "2022-12-20T11:10:57.224Z" },
+            { "Group": "Pokemon", "Name": "Drapion", "Time": "2022-12-20T11:50:40.045Z" },
+            { "Group": "Pokemon", "Name": "Relicanth", "Time": "2022-12-20T12:38:53.242Z" },
+            { "Group": "Pokemon", "Name": "Geodude", "Time": "2022-12-20T14:03:56.128Z" },
+            { "Group": "Pokemon", "Name": "Yamask", "Time": "2022-12-20T14:39:49.304Z" },
+            { "Group": "Pokemon", "Name": "Chimecho", "Time": "2022-12-20T15:07:41.879Z" },
+            { "Group": "Pokemon", "Name": "Vitellion", "Time": "2022-12-20T15:25:11.779Z" },
+            { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "2022-12-20T16:09:02.338Z" },
+            { "Group": "Pokemon", "Name": "Sunflora", "Time": "2022-12-20T16:17:29.245Z" },
+            { "Group": "Pokemon", "Name": "Skiploom", "Time": "2022-12-20T16:21:52.188Z" },
+            { "Group": "Pokemon", "Name": "Shaymin", "Time": "2022-12-20T16:29:33.061Z" },
+            { "Group": "Pokemon", "Name": "Bellossom", "Time": "2022-12-20T16:44:33.204Z" },
+            { "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2022-12-20T17:05:05.353Z" },
+            { "Group": "Pokemon", "Name": "Banette", "Time": "2022-12-20T17:20:31.731Z" },
+            { "Group": "Pokemon", "Name": "Altaria", "Time": "2022-12-20T19:00:27.177Z" },
+            { "Group": "Pokemon", "Name": "Sharpedo", "Time": "2022-12-20T20:05:28.951Z" },
+            { "Group": "Pokemon", "Name": "Wailord", "Time": "2022-12-20T21:28:56.881Z" },
+            { "Group": "Pokemon", "Name": "Mawile", "Time": "2022-12-20T22:39:33.023Z" },
+            { "Group": "Pokemon", "Name": "Machoke", "Time": "2022-12-20T22:42:58.190Z" },
+            { "Group": "Pokemon", "Name": "Graveler", "Time": "2022-12-20T22:46:23.383Z" },
+            { "Group": "Pokemon", "Name": "Lairon", "Time": "2022-12-20T23:29:54.375Z" }
         ]
     }
 );
