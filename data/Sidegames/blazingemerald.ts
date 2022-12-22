@@ -90,22 +90,22 @@ Sidegames.Runs.push(
                 Group: "Elite Four",
                 Name: "Bede",
                 Image: "img/trainers/emerald/bede.png",
-                Time: "",
-                Attempts: 1
+                Time: "2022-12-22T01:55:06.914Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Drake",
                 Image: "img/trainers/emerald/drake.png",
-                Time: "",
-                Attempts: 0
+                Time: "2022-12-22T02:15:58.979Z",
+                Attempts: 1
             },
             {
                 Group: "Champions",
                 Name: "Wallace",
                 Image: "img/trainers/emerald/wallace.png",
                 Time: "",
-                Attempts: 0
+                Attempts: 1
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "33596", Attempts: 0, Party: [
@@ -317,7 +317,36 @@ Sidegames.Runs.push(
             { "Group": "Pokemon", "Name": "Mawile", "Time": "2022-12-20T22:39:33.023Z" },
             { "Group": "Pokemon", "Name": "Machoke", "Time": "2022-12-20T22:42:58.190Z" },
             { "Group": "Pokemon", "Name": "Graveler", "Time": "2022-12-20T22:46:23.383Z" },
-            { "Group": "Pokemon", "Name": "Lairon", "Time": "2022-12-20T23:29:54.375Z" }
+            { "Group": "Pokemon", "Name": "Lairon", "Time": "2022-12-20T23:29:54.375Z" },
+            { "Group": "Pokemon", "Name": "Hitmontop", "Time": "2022-12-21T03:18:54.764Z" },
+            { "Group": "Pokemon", "Name": "Reuniclus", "Time": "2022-12-21T04:24:24.703Z" },
+            { "Group": "Pokemon", "Name": "Golduck", "Time": "2022-12-21T08:26:22.326Z" },
+            { "Group": "Pokemon", "Name": "Ferrothorn", "Time": "2022-12-21T08:28:18.291Z" },
+            { "Group": "Pokemon", "Name": "Whiscash", "Time": "2022-12-21T08:59:24.024Z" },
+            { "Group": "Pokemon", "Name": "Rhydon", "Time": "2022-12-21T09:22:50.055Z" },
+            { "Group": "Pokemon", "Name": "Volcarona", "Time": "2022-12-21T09:51:20.728Z" },
+            { "Group": "Pokemon", "Name": "Magneton", "Time": "2022-12-21T09:52:03.749Z" },
+            { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "2022-12-21T10:13:03.801Z" },
+            { "Group": "Pokemon", "Name": "Abra", "Time": "2022-12-21T11:02:27.277Z" },
+            { "Group": "Pokemon", "Name": "Skitty", "Time": "2022-12-21T11:38:52.573Z" },
+            { "Group": "Pokemon", "Name": "Slowpoke", "Time": "2022-12-21T11:56:47.291Z" },
+            { "Group": "Pokemon", "Name": "Magby", "Time": "2022-12-21T12:34:55.048Z" },
+            { "Group": "Pokemon", "Name": "Magmar", "Time": "2022-12-21T12:51:14.213Z" },
+            { "Group": "Pokemon", "Name": "Dreepy", "Time": "2022-12-21T12:56:48.084Z" },
+            { "Group": "Pokemon", "Name": "Wigglytuff", "Time": "2022-12-21T14:37:35.366Z" },
+            { "Group": "Pokemon", "Name": "Drakloak", "Time": "2022-12-21T15:08:03.388Z" },
+            { "Group": "Pokemon", "Name": "Hypno", "Time": "2022-12-21T16:34:27.126Z" },
+            { "Group": "Pokemon", "Name": "Weezing", "Time": "2022-12-21T16:37:16.091Z" },
+            { "Group": "Pokemon", "Name": "Roselia", "Time": "2022-12-21T18:13:10.279Z" },
+            { "Group": "Pokemon", "Name": "Butterfree", "Time": "2022-12-21T18:15:10.050Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2022-12-21T18:19:44.317Z" },
+            { "Group": "Pokemon", "Name": "Goldeen", "Time": "2022-12-21T19:47:41.691Z" },
+            { "Group": "Pokemon", "Name": "Cacnea", "Time": "2022-12-21T19:56:09.122Z" },
+            //{ "Group": "Pokemon", "Name": "Egg", "Time": "2022-12-21T20:34:54.121Z" },
+            { "Group": "Pokemon", "Name": "Pinsir", "Time": "2022-12-21T20:45:10.837Z" },
+            { "Group": "Pokemon", "Name": "Ralts", "Time": "2022-12-21T21:35:21.310Z" },
+            { "Group": "Pokemon", "Name": "Drilladin", "Time": "2022-12-22T00:21:41.067Z" },
+            { "Group": "Pokemon", "Name": "Bawlfrog", "Time": "2022-12-22T00:44:49.750Z" }
         ]
     }
 );
