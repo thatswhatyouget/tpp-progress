@@ -113,7 +113,7 @@ Sidegames.Runs.push(
                     { Pokemon: "Silviper", Nickname: "QR", Level: 63, Gender: "Male", Number: 204, IDNo: "33596" },
                     { Pokemon: "Drasparath", Nickname: "Zooey", Level: 63, Gender: "Female", Number: 137, IDNo: "33596" },
                     { Pokemon: "Zangaro", Nickname: "AGG", Level: 64, Gender: "Female", Number: 206, IDNo: "33596" },
-                    { Pokemon: "Clefairy", Nickname: "Hope", Level: 63, Gender: "Male", Number: 13, IDNo: "33596" },
+                    { Pokemon: "Clefable", Nickname: "Hope", Level: 63, Gender: "Male", Number: 13, IDNo: "33596" },
                     { Pokemon: "Quagsire", Nickname: "OOP", Level: 64, Gender: "Female", Number: 202, IDNo: "33596" },
                 ],
                 FirstAttemptDate: "2022-12-21T01:24:07.323Z",
