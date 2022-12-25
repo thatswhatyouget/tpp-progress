@@ -141,7 +141,7 @@ Season9.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-10-22T07:21:18.318Z", Attempts: 4, Party: [
                     { Pokemon: "Primarina-SP", Nickname: "!j (9999reej", Gender: "Female", Level: 95 },
-                    { Pokemon: "UB-Queen", Nickname: "Nue", Level: 58 },
+                    { Pokemon: "UB-Queen", Nickname: "Nue", Level: 58, Form: "Ultra" },
                     { Pokemon: "Cherrim", Nickname: "AMPPLMANTE", Gender: "Male", Level: 75 },
                     { Pokemon: "Jellicent", Nickname: "PPMKEXX", Gender: "Female", Level: 45 },
                     { Pokemon: "Clawitzer", Nickname: "Claunc4UYX", Gender: "Male", Level: 44 },
@@ -153,7 +153,7 @@ Season9.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-10-22T14:37:04.157Z", Attempts: 1, Party: [
                     { Pokemon: "Primarina-SP", Nickname: "!j (9999reej", Gender: "Female", Level: 98 },
-                    { Pokemon: "UB-Queen", Nickname: "Nue", Level: 67 },
+                    { Pokemon: "UB-Queen", Nickname: "Nue", Level: 67, Form: "Ultra" },
                     { Pokemon: "Cherrim", Nickname: "AMPPLMANTE", Gender: "Male", Level: 79 },
                     { Pokemon: "Cradily", Nickname: "!!pxqgl3yile", Gender: "Male", Level: 45 },
                     { Pokemon: "Sliggoo", Nickname: "MB", Gender: "Female", Level: 51 },
@@ -165,7 +165,7 @@ Season9.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-10-22T16:48:30.444Z", Attempts: 1, Party: [
                     { Pokemon: "Primarina-SP", Nickname: "!j (9999reej", Gender: "Female", Level: 100 },
-                    { Pokemon: "UB-Queen", Nickname: "Nue", Level: 71 },
+                    { Pokemon: "UB-Queen", Nickname: "Nue", Level: 71, Form: "Ultra" },
                     { Pokemon: "Cherrim", Nickname: "AMPPLMANTE", Gender: "Male", Level: 81 },
                     { Pokemon: "Mimikyu", Nickname: "Mooimi", Gender: "Male", Level: 87 },
                     { Pokemon: "Linoone", Nickname: "HYPERRACC", Gender: "Male", Level: 88 },
@@ -179,7 +179,7 @@ Season9.Runs.push(
                     { Pokemon: "Mimikyu", Nickname: "Mooimi", Gender: "Male", Level: 89 },
                     { Pokemon: "Linoone", Nickname: "HYPERRACC", Gender: "Male", Level: 91 },
                     { Pokemon: "Primarina-SP", Nickname: "!j (9999reej", Gender: "Female", Level: 100 },
-                    { Pokemon: "UB-Queen", Nickname: "Nue", Level: 75 },
+                    { Pokemon: "UB-Queen", Nickname: "Nue", Level: 75, Form: "Ultra" },
                     { Pokemon: "Delphox", Nickname: "FennekinS ‘%", Gender: "Male", Level: 86 },
                     { Pokemon: "Cherrim", Nickname: "AMPPLMANTE", Gender: "Male", Level: 84 },
                 ],
