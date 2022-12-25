@@ -7,14 +7,14 @@ Sidegames.Runs.push(
         ColorSecondary: "#a3060e",
         BackgroundImage: "linear-gradient(to top, #a3060e 0%, #fefc35 190%)",
         StartDate: "2022-12-16T21:15:00Z",
-        Duration: "2022-12-25T21:00:00Z",
+        Duration: "2022-12-25T23:44:00Z",
         HostName: "Teru",
         HostImage: "img/hosts/agggnnv.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/pmdxrn/blazing_emerald_hall_of_fame/",
         Region: "Hoenn",
         Generation: 3,
         Pokedex: "Blazing Hoenn",
-        //FinalStateLink: "./states/Season 9/blazingemerald.json",
+        FinalStateLink: "./states/Season 9/blazingemerald.json",
         Events: [
             {
                 Group: "Badges",
