@@ -64,4 +64,25 @@ addStyles(["Fakeon X1", "Fakeon X2", "Fakeon X3", "Fakeon X4", "Fakeon X5"], f =
     const clean = dexClean(f).replace(/ /g, '');
     const path = `./img/fakemon/xgremix/${clean}.png`;
     return `.xgremix .pokesprite.${clean} img { background-image:url(".${path}")!important; }`;
-})
+});
+
+//Star
+addStyles(Pokedex.Regional["Ultra-Alola"].map((mon, i) => typeof mon == "string" ? { name: mon, number: i } : null).filter(m => !!m), mon => {
+    const clean = dexClean(mon.name).replace(/ /g, '');
+    const path = `./img/fakemon/star/${clean}.png`;
+    if (exists(path))
+        return `.star .pokesprite.${clean} img { background-image:url(".${path}")!important; }`;
+    return `.star .pokesprite.${clean} img { background-position: 0px -${mon.number}em!important; }`;
+});
+addStyles(["Voltorb", "Electrode", "Misdreavus", "Seviper", "Mismagius"], f => {
+    const clean = dexClean(f).replace(/ /g, '');
+    const path = `./img/fakemon/star/${clean}.png`;
+    return `.star .pokesprite.${clean} img { background-image:url(".${path}")!important; background-position: 0px -0em!important;  }`;
+});
+addStyles(["UB-Queen"], f => {
+    const clean = dexClean(f).replace(/ /g, '');
+	const alt = "ultra";
+    const path = `./img/alternate/${clean}-${alt}.png`;
+    return `.star .pokesprite.${clean}.${alt} img { background-image:url(".${path}")!important; background-position: center!important;  }`;
+});
+
