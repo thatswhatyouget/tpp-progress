@@ -2609,6 +2609,7 @@
 .pokesprite.landorus.therian img { background-image:url("../img/alternate/landorus-therian.png")!important; background-position: center!important; }
 .pokesprite.zygarde.percent10 img { background-image:url("../img/alternate/zygarde-percent10.png")!important; background-position: center!important; }
 .pokesprite.lycanroc.midnight img { background-image:url("../img/alternate/lycanroc-midnight.png")!important; background-position: center!important; }
+.pokesprite.ub-queen.ultra img { background-image:url("../img/alternate/ub-queen-ultra.png")!important; background-position: center!important; }
 .pokesprite.unidentified img  { background-image:url("../img/fakemon/unidentified.png")!important; }
 .pokesprite.prizmeon img  { background-image:url("../img/fakemon/prizmeon.png")!important; }
 .pokesprite.phancero img  { background-image:url("../img/fakemon/phancero.png")!important; }
@@ -4384,6 +4385,45 @@
 .xgremix .pokesprite.fakeonx3 img { background-image:url("../img/fakemon/xgremix/fakeonx3.png")!important; }
 .xgremix .pokesprite.fakeonx4 img { background-image:url("../img/fakemon/xgremix/fakeonx4.png")!important; }
 .xgremix .pokesprite.fakeonx5 img { background-image:url("../img/fakemon/xgremix/fakeonx5.png")!important; }
+.star .pokesprite.u-litten img { background-image:url("../img/fakemon/star/u-litten.png")!important; }
+.star .pokesprite.u-torracat img { background-image:url("../img/fakemon/star/u-torracat.png")!important; }
+.star .pokesprite.u-popplio img { background-image:url("../img/fakemon/star/u-popplio.png")!important; }
+.star .pokesprite.u-brionne img { background-image:url("../img/fakemon/star/u-brionne.png")!important; }
+.star .pokesprite.spookeon img { background-image:url("../img/fakemon/star/spookeon.png")!important; }
+.star .pokesprite.ub-solar img { background-image:url("../img/fakemon/star/ub-solar.png")!important; }
+.star .pokesprite.splatooneon img { background-image:url("../img/fakemon/star/splatooneon.png")!important; }
+.star .pokesprite.ub-lunar img { background-image:url("../img/fakemon/star/ub-lunar.png")!important; }
+.star .pokesprite.primarina-z img { background-image:url("../img/fakemon/star/primarina-z.png")!important; }
+.star .pokesprite.primarina-ex img { background-image:url("../img/fakemon/star/primarina-ex.png")!important; }
+.star .pokesprite.decidueye-sp img { background-image:url("../img/fakemon/star/decidueye-sp.png")!important; }
+.star .pokesprite.incineroar-sp img { background-image:url("../img/fakemon/star/incineroar-sp.png")!important; }
+.star .pokesprite.primarina-sp img { background-image:url("../img/fakemon/star/primarina-sp.png")!important; }
+.star .pokesprite.u-rowlet img { background-image:url("../img/fakemon/star/u-rowlet.png")!important; }
+.star .pokesprite.u-dartrix img { background-image:url("../img/fakemon/star/u-dartrix.png")!important; }
+.star .pokesprite.decidueye-z img { background-image:url("../img/fakemon/star/decidueye-z.png")!important; }
+.star .pokesprite.decidueye-ex img { background-image:url("../img/fakemon/star/decidueye-ex.png")!important; }
+.star .pokesprite.decidueye-x img { background-image:url("../img/fakemon/star/decidueye-x.png")!important; }
+.star .pokesprite.decidueye-y img { background-image:url("../img/fakemon/star/decidueye-y.png")!important; }
+.star .pokesprite.u-machoke img { background-image:url("../img/fakemon/star/u-machoke.png")!important; }
+.star .pokesprite.u-machamp img { background-image:url("../img/fakemon/star/u-machamp.png")!important; }
+.star .pokesprite.incineroar-z img { background-image:url("../img/fakemon/star/incineroar-z.png")!important; }
+.star .pokesprite.incineroar-ex img { background-image:url("../img/fakemon/star/incineroar-ex.png")!important; }
+.star .pokesprite.primarina-x img { background-image:url("../img/fakemon/star/primarina-x.png")!important; }
+.star .pokesprite.primarina-y img { background-image:url("../img/fakemon/star/primarina-y.png")!important; }
+.star .pokesprite.wariocorio img { background-image:url("../img/fakemon/star/wariocorio.png")!important; }
+.star .pokesprite.harambe img { background-image:url("../img/fakemon/star/harambe.png")!important; }
+.star .pokesprite.incineroar-x img { background-image:url("../img/fakemon/star/incineroar-x.png")!important; }
+.star .pokesprite.incineroar-y img { background-image:url("../img/fakemon/star/incineroar-y.png")!important; }
+.star .pokesprite.nebby img { background-image:url("../img/fakemon/star/nebby.png")!important; }
+.star .pokesprite.u-solgaleo img { background-image:url("../img/fakemon/star/u-solgaleo.png")!important; }
+.star .pokesprite.u-lunala img { background-image:url("../img/fakemon/star/u-lunala.png")!important; }
+.star .pokesprite.ub-queen img { background-image:url("../img/fakemon/star/ub-queen.png")!important; }
+.star .pokesprite.voltorb img { background-image:url("../img/fakemon/star/voltorb.png")!important; background-position: 0px -0em!important;  }
+.star .pokesprite.electrode img { background-image:url("../img/fakemon/star/electrode.png")!important; background-position: 0px -0em!important;  }
+.star .pokesprite.misdreavus img { background-image:url("../img/fakemon/star/misdreavus.png")!important; background-position: 0px -0em!important;  }
+.star .pokesprite.seviper img { background-image:url("../img/fakemon/star/seviper.png")!important; background-position: 0px -0em!important;  }
+.star .pokesprite.mismagius img { background-image:url("../img/fakemon/star/mismagius.png")!important; background-position: 0px -0em!important;  }
+.star .pokesprite.ub-queen.ultra img { background-image:url("../img/alternate/ub-queen-ultra.png")!important; background-position: center!important;  }
 .galar .pokesprite.meowth img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -0em!important; }
 .galar .pokesprite.ponyta img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -1em!important; }
 .galar .pokesprite.rapidash img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -2em!important; }
