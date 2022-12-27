@@ -454,7 +454,7 @@
     margin-bottom:-.5em;
 }
 .pokemon-hud ul.party > li .informatic.held-item:before {
-    content:'♋️';
+    content:'🫴';
 }
 .pokemon-hud ul.party > li .informatic.friendship:before {
     content:'☋';
