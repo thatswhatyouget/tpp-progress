@@ -123,6 +123,8 @@ declare namespace TPP.Tv {
             level: number;
             game: string;
             caught_in: string;
+            caught?: string;
+            date?: string;
         };
         ribbons: string[];
         is_egg: boolean;

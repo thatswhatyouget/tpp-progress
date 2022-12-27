@@ -132,8 +132,11 @@ namespace TPP.Display.Elements.RunStatus {
                         <div className="informatic">Met:</div>
                         {mon.met && <ul className="stats">
                             {mon.met.area_id && <li className="informatic">{mon.met.area_name || `Area #${mon.met.area_id}`}</li>}
-                            {mon.met.level && <li className="informatic">Level {mon.met.level}</li>}
+                            {mon.met.level && <li className="informatic">at Level {mon.met.level}</li>}
                             {mon.met.caught_in && <li className="informatic">Caught in {mon.met.caught_in}</li>}
+                            {mon.met.caught && Date.parse(mon.met.caught) > 0 && <li className="informatic">Caught on {new Date(mon.met.caught).toLocaleDateString().trim()}</li>}
+                            {mon.met.caught && Date.parse(mon.met.caught) > 0 && <li className="informatic">Caught at {new Date(mon.met.caught).toLocaleTimeString().trim()}</li>}
+                            {!mon.met.caught && mon.met.date && Date.parse(mon.met.date) > 0 && <li className="informatic">Caught on {new Date(mon.met.date + "T00:00:00").toLocaleDateString().trim()}</li>}
                             {mon.met.game && typeof mon.met.game == "string" && <li className="informatic">Game: {mon.met.game}</li>}
                         </ul>}
                     </div>
