@@ -475,6 +475,7 @@ declare namespace TPP.Display.Elements.RunStatus {
         className?: string;
         baseUrl?: string;
         ignoreHealth?: boolean;
+        trainer: TPP.Tv.Trainer;
     }, {
         infoMode: number;
     }> {
@@ -485,6 +486,7 @@ declare namespace TPP.Display.Elements.RunStatus {
 declare namespace TPP.Display.Elements.RunStatus {
     class PC extends React.Component<{
         pc: TPP.Tv.CombinedPCData;
+        trainer: TPP.Tv.Trainer;
     }, {}> {
         render(): JSX.Element;
     }
@@ -492,6 +494,7 @@ declare namespace TPP.Display.Elements.RunStatus {
         boxName: string;
         boxNumber?: number;
         boxContents: Tv.BoxedPokemon[];
+        trainer: TPP.Tv.Trainer;
     }, {}> {
         render(): JSX.Element;
     }

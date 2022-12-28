@@ -269,8 +269,8 @@ namespace TPP.Display.Elements.RunStatus {
                         </ul>
                     </PokeBox>}
                     {this.Pokedex}
-                    {this.state.status && this.state.status.daycare && this.state.status.daycare.length > 0 && <PCBox boxName="Daycare" boxContents={this.state.status.daycare} />}
-                    {this.state.status && <PC pc={this.state.status.pc} />}
+                    {this.state.status && this.state.status.daycare && this.state.status.daycare.length > 0 && <PCBox boxName="Daycare" boxContents={this.state.status.daycare} trainer={this.state.status} />}
+                    {this.state.status && <PC pc={this.state.status.pc} trainer={this.state.status} />}
                 </div>;
             return <div className="run-status">
                 <h1>

@@ -29,7 +29,7 @@ namespace TPP.Display.Elements.RunStatus {
                             </div>
                         </li>
                         : null}
-                    {this.props.party.map(p => p && <Pokemon key={`${p.name}:${p.personality_value}`} pokemon={p} />)}
+                    {this.props.party.map(p => p && <Pokemon key={`${p.name}:${p.personality_value}`} pokemon={p} trainer={this.props.trainer} />)}
                 </ul>
             </PokeBox>;
         }
@@ -37,7 +37,7 @@ namespace TPP.Display.Elements.RunStatus {
 
     const infoModes = ["Default", "Misc", "Met", "IVs", "EVs", "Stats", "Condition", "Evolutions"]
 
-    export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string, baseUrl?: string, ignoreHealth?: boolean }, { infoMode: number; }> {
+    export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string, baseUrl?: string, ignoreHealth?: boolean, trainer: TPP.Tv.Trainer }, { infoMode: number; }> {
 
         private renderInfo(mode: string, mon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon) {
             switch (mode) {
@@ -136,8 +136,9 @@ namespace TPP.Display.Elements.RunStatus {
                             {mon.met.caught_in && <li className="informatic">Caught in {mon.met.caught_in}</li>}
                             {mon.met.caught && Date.parse(mon.met.caught) > 0 && <li className="informatic">Caught on {new Date(mon.met.caught).toLocaleDateString().trim()}</li>}
                             {mon.met.caught && Date.parse(mon.met.caught) > 0 && <li className="informatic">Caught at {new Date(mon.met.caught).toLocaleTimeString().trim()}</li>}
-                            {!mon.met.caught && mon.met.date && Date.parse(mon.met.date) > 0 && <li className="informatic">Caught on {new Date(mon.met.date + "T00:00:00").toLocaleDateString().trim()}</li>}
-                            {mon.met.game && typeof mon.met.game == "string" && <li className="informatic">Game: {mon.met.game}</li>}
+                            {mon.met.date && Date.parse(mon.met.date) > 0 && (!mon.met.caught || (new Date(mon.met.caught).toLocaleDateString() != new Date(mon.met.date).toLocaleDateString())) && <li className="informatic">{mon.met.caught ? "First c" : "C"}aught on {new Date(mon.met.date + "T00:00:00").toLocaleDateString().trim()}</li>}
+                            {this.props.trainer && mon.original_trainer.id != this.props.trainer.id && <li className="informatic">by {mon.original_trainer.name} ({(mon.original_trainer.id || "").toString().padStart(5, '0')})</li>}
+                            {mon.met.game && typeof mon.met.game == "string" && <li className="informatic">in {mon.met.game}</li>}
                         </ul>}
                     </div>
                 case "Evolutions":
