@@ -46,8 +46,8 @@ Season9.Runs.push(
                 Group: "Badges",
                 Name: "Quake Badge",
                 Image: "img/badges/quake.png",
-                Time: "",
-                Attempts: 0
+                Time: "2022-12-28T19:42:44.729Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
@@ -312,7 +312,14 @@ Season9.Runs.push(
             { "Group": "Pokemon", "Name": "Deerling", "Time": "2022-12-28T14:29:44.602Z" },
             { "Group": "Pokemon", "Name": "Snover", "Time": "2022-12-28T14:29:44.602Z" },
             { "Group": "Pokemon", "Name": "Marill", "Time": "2022-12-28T14:37:37.341Z" },
-            { "Group": "Pokemon", "Name": "Azumarill", "Time": "2022-12-28T14:41:47.259Z" }
+            { "Group": "Pokemon", "Name": "Azumarill", "Time": "2022-12-28T14:41:47.259Z" },
+            { "Group": "Pokemon", "Name": "Sandslash", "Time": "2022-12-28T15:17:56.696Z" },
+            { "Group": "Pokemon", "Name": "Yanma", "Time": "2022-12-28T15:54:00.960Z" },
+            { "Group": "Pokemon", "Name": "Shelmet", "Time": "2022-12-28T16:10:02.112Z" },
+            { "Group": "Pokemon", "Name": "Nosepass", "Time": "2022-12-28T17:10:21.730Z" },
+            { "Group": "Pokemon", "Name": "Joltik", "Time": "2022-12-28T17:10:21.730Z" },
+            { "Group": "Pokemon", "Name": "Boldore", "Time": "2022-12-28T17:33:17.897Z" },
+            { "Group": "Pokemon", "Name": "Heatmor", "Time": "2022-12-28T17:33:26.262Z" }
         ]
     }
 );
