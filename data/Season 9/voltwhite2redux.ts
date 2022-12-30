@@ -67,8 +67,8 @@ Season9.Runs.push(
                 Group: "Badges",
                 Name: "Wave Badge",
                 Image: "img/badges/wave.png",
-                Time: "",
-                Attempts: 0
+                Time: "2022-12-30T20:07:53.025Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
@@ -433,7 +433,24 @@ Season9.Runs.push(
             { "Group": "Pokemon", "Name": "Parasect", "Time": "2022-12-30T13:02:21.217Z" },
             { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "2022-12-30T13:10:23.097Z" },
             { "Group": "Pokemon", "Name": "Dugtrio", "Time": "2022-12-30T13:22:25.561Z" },
-            { "Group": "Pokemon", "Name": "Machoke", "Time": "2022-12-30T13:26:33.246Z" }
+            { "Group": "Pokemon", "Name": "Machoke", "Time": "2022-12-30T13:26:33.246Z" },
+            { "Group": "Pokemon", "Name": "Gurdurr", "Time": "2022-12-30T13:34:31.228Z" },
+            { "Group": "Pokemon", "Name": "Geodude", "Time": "2022-12-30T13:46:40.582Z" },
+            { "Group": "Pokemon", "Name": "Paras", "Time": "2022-12-30T13:46:41.426Z" },
+            { "Group": "Pokemon", "Name": "Diglett", "Time": "2022-12-30T13:50:44.259Z" },
+            { "Group": "Pokemon", "Name": "Roggenrola", "Time": "2022-12-30T13:50:44.259Z" },
+            { "Group": "Pokemon", "Name": "Whismur", "Time": "2022-12-30T13:54:42.753Z" },
+            { "Group": "Pokemon", "Name": "Clefairy", "Time": "2022-12-30T14:02:44.933Z" },
+            { "Group": "Pokemon", "Name": "Gothitelle", "Time": "2022-12-30T16:03:26.188Z" },
+            { "Group": "Pokemon", "Name": "Bisharp", "Time": "2022-12-30T16:07:30.661Z" },
+            { "Group": "Pokemon", "Name": "Venomoth", "Time": "2022-12-30T18:20:14.723Z" },
+            { "Group": "Pokemon", "Name": "Piloswine", "Time": "2022-12-30T18:24:11.967Z" },
+            { "Group": "Pokemon", "Name": "Delibird", "Time": "2022-12-30T18:28:17.383Z" },
+            { "Group": "Pokemon", "Name": "Gloom", "Time": "2022-12-30T18:28:17.383Z" },
+            { "Group": "Pokemon", "Name": "Ariados", "Time": "2022-12-30T18:32:08.469Z" },
+            { "Group": "Pokemon", "Name": "Mamoswine", "Time": "2022-12-30T18:36:13.611Z" },
+            { "Group": "Pokemon", "Name": "Mienshao", "Time": "2022-12-30T18:40:11.886Z" },
+            { "Group": "Pokemon", "Name": "Weepinbell", "Time": "2022-12-30T19:00:22.361Z" }
         ]
     }
 );
