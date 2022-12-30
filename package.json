@@ -16,7 +16,7 @@
   "devDependencies": {
     "del": "^5.1.0",
     "gulp": "^4.0.2",
-    "gulp-mocha": "^7.0.2",
+    "gulp-mocha": "^8.0.0",
     "gulp-rm-lines": "^0.0.10",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-typescript": "^5.0.1",
