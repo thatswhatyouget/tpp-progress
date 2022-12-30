@@ -25,6 +25,7 @@ namespace TPP.Display.Elements.RunStatus {
     const timeDetectExp = /\bTime\b/i;
     const percentDetectExp = /Percentage/i;
     const moneyDetectExp = /Money/i;
+    const filmGrossExp = /PokéStar.*(Box|Gross)/i
 
     class GameStat extends React.PureComponent<{ name: string, value: number }, {}> {
         render() {
@@ -45,6 +46,8 @@ namespace TPP.Display.Elements.RunStatus {
             }
             // else if (percentDetectExp.test(name))
             //     value = value + "%"; // % doesn't exist in Pokered font
+            else if (filmGrossExp.test(name))
+                value = `$${(this.props.value / 10).toLocaleString()}Bn`;
             else if (moneyDetectExp.test(name))
                 value = "$" + value;
             return <li data-quantity={value}>{pokeRedCondenseText(name)}:</li>;
