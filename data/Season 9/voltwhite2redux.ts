@@ -102,17 +102,17 @@ Season9.Runs.push(
                 Group: "Champions",
                 Name: "Iris",
                 Image: "img/trainers/black/iris.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-01-01T05:52:24.627Z",
+                Attempts: 1
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "16413", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-01-01T05:16:09Z", IDNo: "16413", Attempts: 8, Party: [
+                    { Pokemon: "Archeops", Nickname: "aooop ", Level: 87, Gender: "Male" },
+                    { Pokemon: "Volbeat", Nickname: "Stu) ;?,54", Level: 96, Gender: "Male" },
+                    { Pokemon: "Lucario", Nickname: "Sora", Level: 83, Gender: "Male" },
                     { Pokemon: "Serperior", Nickname: "Terumi", Level: 84, Gender: "Male" },
-                    { Pokemon: "Volbeat", Nickname: "Stu) ;?,54", Level: 87, Gender: "Male" },
-                    { Pokemon: "Sigilyph", Level: 83, Gender: "Male" },
-                    { Pokemon: "Archeops", Nickname: "aooop ", Level: 84, Gender: "Male" },
-                    { Pokemon: "Lucario", Nickname: "Sora", Level: 82, Gender: "Male" },
-                    { Pokemon: "Vanilluxe", Nickname: "ATISSRZM4", Level: 75, Gender: "Male" },
+                    { Pokemon: "Vanilluxe", Nickname: "ATISSRZM4", Level: 76, Gender: "Male" },
+                    { Pokemon: "Sigilyph", Level: 84, Gender: "Male" },
                 ],
                 FirstAttemptDate: "2022-12-31T16:41:43.243Z",
                 Image: "img/ribbons/champion.png"
