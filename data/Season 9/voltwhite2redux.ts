@@ -466,8 +466,8 @@ Season9.Runs.push(
             { "Group": "Pokemon", "Name": "Nidoran♀", "Time": "2022-12-31T06:12:04.251Z" },
             { "Group": "Pokemon", "Name": "Krabby", "Time": "2022-12-31T06:20:16.067Z" },
             { "Group": "Pokemon", "Name": "Herdier", "Time": "2022-12-31T06:26:04.958Z" },
-            { "Group": "Pokemon", "Name": "Klang", "Time": "2022-12-31T06:43:34.116Z" },
-            { "Group": "Pokemon", "Name": "Vullaby", "Time": "2022-12-31T06:59:26.398Z" },
+            // { "Group": "Pokemon", "Name": "Klang", "Time": "2022-12-31T06:43:34.116Z" }, // Movie rental mon
+            // { "Group": "Pokemon", "Name": "Vullaby", "Time": "2022-12-31T06:59:26.398Z" }, // Movie rental mon
             { "Group": "Pokemon", "Name": "Garbodor", "Time": "2022-12-31T09:49:08.783Z" },
             { "Group": "Pokemon", "Name": "Mightyena", "Time": "2022-12-31T10:01:09.470Z" },
             { "Group": "Pokemon", "Name": "Houndoom", "Time": "2022-12-31T10:05:14.173Z" },
