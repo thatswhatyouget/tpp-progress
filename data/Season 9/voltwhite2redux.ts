@@ -74,48 +74,47 @@ Season9.Runs.push(
                 Group: "Elite Four",
                 Name: "Shauntal",
                 Image: "img/trainers/black/shauntal.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-01-01T02:53:48.571Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Grimsley",
                 Image: "img/trainers/black/grimsley.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-01-01T02:18:35.474Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Caitlin",
                 Image: "img/trainers/black/caitlin.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-01-01T02:09:18.692Z",
+                Attempts: 4
             },
             {
                 Group: "Elite Four",
                 Name: "Marshal",
                 Image: "img/trainers/black/marshal.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-01-01T02:39:56.656Z",
+                Attempts: 2
             },
             {
                 Group: "Champions",
-                Name: "♂♂♂'",
-                Image: "img/hosts/♂♂♂.png",
-                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/odwg8w/mars_the_tomboyish_trainer_barp_the_ampharos_and/",
+                Name: "Iris",
+                Image: "img/trainers/black/iris.png",
                 Time: "",
                 Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "09544", Attempts: 0, Party: [
-                    { Pokemon: "Meganium", Nickname: " u", Level: 89, Gender: "Male" },
-                    { Pokemon: "Infernape", Nickname: "00k", Level: 89, Gender: "Male" },
-                    { Pokemon: "Torterra", Nickname: "fj", Level: 88, Gender: "Male" },
-                    { Pokemon: "Kricketune", Nickname: "ucrdq  2sl", Level: 84, Gender: "Female" },
-                    { Pokemon: "Mawile", Nickname: "  i", Level: 81, Gender: "Male" },
-                    { Pokemon: "Lunatone", Nickname: "Lun\u263a", Level: 82 },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "16413", Attempts: 0, Party: [
+                    { Pokemon: "Serperior", Nickname: "Terumi", Level: 84, Gender: "Male" },
+                    { Pokemon: "Volbeat", Nickname: "Stu) ;?,54", Level: 87, Gender: "Male" },
+                    { Pokemon: "Sigilyph", Level: 83, Gender: "Male" },
+                    { Pokemon: "Archeops", Nickname: "aooop ", Level: 84, Gender: "Male" },
+                    { Pokemon: "Lucario", Nickname: "Sora", Level: 82, Gender: "Male" },
+                    { Pokemon: "Vanilluxe", Nickname: "ATISSRZM4", Level: 75, Gender: "Male" },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2022-12-31T16:41:43.243Z",
                 Image: "img/ribbons/champion.png"
             },
             {
@@ -450,7 +449,40 @@ Season9.Runs.push(
             { "Group": "Pokemon", "Name": "Ariados", "Time": "2022-12-30T18:32:08.469Z" },
             { "Group": "Pokemon", "Name": "Mamoswine", "Time": "2022-12-30T18:36:13.611Z" },
             { "Group": "Pokemon", "Name": "Mienshao", "Time": "2022-12-30T18:40:11.886Z" },
-            { "Group": "Pokemon", "Name": "Weepinbell", "Time": "2022-12-30T19:00:22.361Z" }
+            { "Group": "Pokemon", "Name": "Weepinbell", "Time": "2022-12-30T19:00:22.361Z" },
+            { "Group": "Pokemon", "Name": "Terrakion", "Time": "2022-12-30T20:57:28.824Z" },
+            { "Group": "Pokemon", "Name": "Alomomola", "Time": "2022-12-30T22:53:55.390Z" },
+            { "Group": "Pokemon", "Name": "Shellder", "Time": "2022-12-30T22:53:55.390Z" },
+            { "Group": "Pokemon", "Name": "Carracosta", "Time": "2022-12-30T23:08:07.339Z" },
+            { "Group": "Pokemon", "Name": "Shuckle", "Time": "2022-12-30T23:26:02.354Z" },
+            { "Group": "Pokemon", "Name": "Dewgong", "Time": "2022-12-30T23:34:08.885Z" },
+            { "Group": "Pokemon", "Name": "Stunfisk", "Time": "2022-12-30T23:46:11.570Z" },
+            { "Group": "Pokemon", "Name": "Jellicent", "Time": "2022-12-31T00:14:17.532Z" },
+            { "Group": "Pokemon", "Name": "Metang", "Time": "2022-12-31T03:11:10.947Z" },
+            { "Group": "Pokemon", "Name": "Cryogonal", "Time": "2022-12-31T05:44:01.039Z" },
+            { "Group": "Pokemon", "Name": "Jynx", "Time": "2022-12-31T05:47:55.742Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2022-12-31T05:56:05.062Z" },
+            { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "2022-12-31T06:08:03.418Z" },
+            { "Group": "Pokemon", "Name": "Nidoran♀", "Time": "2022-12-31T06:12:04.251Z" },
+            { "Group": "Pokemon", "Name": "Krabby", "Time": "2022-12-31T06:20:16.067Z" },
+            { "Group": "Pokemon", "Name": "Herdier", "Time": "2022-12-31T06:26:04.958Z" },
+            { "Group": "Pokemon", "Name": "Klang", "Time": "2022-12-31T06:43:34.116Z" },
+            { "Group": "Pokemon", "Name": "Vullaby", "Time": "2022-12-31T06:59:26.398Z" },
+            { "Group": "Pokemon", "Name": "Garbodor", "Time": "2022-12-31T09:49:08.783Z" },
+            { "Group": "Pokemon", "Name": "Mightyena", "Time": "2022-12-31T10:01:09.470Z" },
+            { "Group": "Pokemon", "Name": "Houndoom", "Time": "2022-12-31T10:05:14.173Z" },
+            { "Group": "Pokemon", "Name": "Victreebel", "Time": "2022-12-31T10:09:11.545Z" },
+            { "Group": "Pokemon", "Name": "Swalot", "Time": "2022-12-31T10:25:28.025Z" },
+            { "Group": "Pokemon", "Name": "Gastrodon", "Time": "2022-12-31T11:29:48.269Z" },
+            { "Group": "Pokemon", "Name": "Abomasnow", "Time": "2022-12-31T11:45:55.457Z" },
+            { "Group": "Pokemon", "Name": "Golurk", "Time": "2022-12-31T13:50:18.207Z" },
+            { "Group": "Pokemon", "Name": "Slaking", "Time": "2022-12-31T14:54:29.244Z" },
+            { "Group": "Pokemon", "Name": "Magneton", "Time": "2022-12-31T15:10:33.213Z" },
+            { "Group": "Pokemon", "Name": "Ursaring", "Time": "2022-12-31T15:22:42.543Z" },
+            { "Group": "Pokemon", "Name": "Nidorino", "Time": "2022-12-31T15:30:41.737Z" },
+            { "Group": "Pokemon", "Name": "Zweilous", "Time": "2023-01-01T00:39:28.761Z" },
+            { "Group": "Pokemon", "Name": "Hydreigon", "Time": "2023-01-01T00:50:12.585Z" },
+            { "Group": "Pokemon", "Name": "Palpitoad", "Time": "2023-01-01T01:33:15.965Z" }
         ]
     }
 );
