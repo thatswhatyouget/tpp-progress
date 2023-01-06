@@ -154,11 +154,17 @@ Season9.Runs.push(
                 Name: "Iris",
                 Image: "img/trainers/black/iris.png",
                 Class: "Rematch",
-                Time: "",
-                Attempts: 0
+                Time: "2023-01-06T04:43:06.976Z",
+                Attempts: 2
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "16413", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-01-06T04:45:00Z", IDNo: "16413", Attempts: 0, Party: [
+                    { Pokemon: "Hydreigon", Nickname: "Albert", Level: 100, Gender: "Male" },
+                    { Pokemon: "Volcarona", Nickname: "VolG", Level: 100, Gender: "Male" },
+                    { Pokemon: "Serperior", Nickname: "Terumi", Level: 100, Gender: "Male" },
+                    { Pokemon: "Archeops", Nickname: "aooop ", Level: 100, Gender: "Male" },
+                    { Pokemon: "Lucario", Nickname: "Sora", Level: 100, Gender: "Male" },
+                    { Pokemon: "Sigilyph", Level: 100, Gender: "Male" },
                 ],
                 FirstAttemptDate: "8d 6h 3m 42s",
                 Image: "img/ribbons/champion.png"
