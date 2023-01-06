@@ -122,8 +122,8 @@ Season9.Runs.push(
                 Name: "Grimsley",
                 Image: "img/trainers/black/grimsley.png",
                 Class: "Rematch",
-                Time: "",
-                Attempts: 0
+                Time: "2023-01-05T23:16:34.921Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four Rematch",
@@ -158,7 +158,7 @@ Season9.Runs.push(
                 Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2", IDNo: "16413", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "16413", Attempts: 0, Party: [
                 ],
                 FirstAttemptDate: "8d 6h 3m 42s",
                 Image: "img/ribbons/champion.png"
