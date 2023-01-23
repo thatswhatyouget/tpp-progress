@@ -11,7 +11,6 @@ Season8.Runs.push(
         HostImage: "img/hosts/agggnnv.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/pmdxrn/blazing_emerald_hall_of_fame/",
         Region: "Hoenn",
-        Generation: 3,
         Pokedex: "Blazing Hoenn",
         FinalStateLink: "./states/Season 8/blazingemerald.json",
         Events: [
