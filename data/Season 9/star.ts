@@ -7,8 +7,8 @@ Season9.Runs.push(
         StartDate: "2022-10-15T21:00:00Z",
         Duration: "9d", //TODO: Fix
         HostName: "Gg113ktyhh4w",
-        HostImage: "img/hosts/vrg.gif",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/do2ovk/virginia_faba_the_six_time_married_three_times/",
+        HostImage: "img/hosts/gg113ktyhh4w.png",
+        HostImageSource: "https://www.deviantart.com/krizste/art/TPP-Star-gigi-sprites-945910110",
         Region: "Alola",
         Generation: 7,
         Pokedex: "National",

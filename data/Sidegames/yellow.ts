@@ -7,7 +7,7 @@ Sidegames.Runs.push(
         StartDate: "2022-12-12T04:38:30Z",
         Duration: "2022-12-16T21:05:00Z",
         HostName: "RITCHIE",
-        HostImage: "img/hosts/red.png",
+        HostImage: "img/hosts/ritchie.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Kanto",
         Generation: 1,
