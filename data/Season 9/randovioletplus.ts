@@ -4,7 +4,7 @@ Season9.Runs.push(
         RunName: "Randomized Violet+",
         ColorPrimary: "#8E3492",
         ColorSecondary: "#6A2B30",
-        Duration: "2023-01-27T16:00:00Z",
+        Duration: "255d",
         StartDate: "2023-01-21T21:00:00Z",
         HostName: "2errh",
         HostImage: "img/hosts/2errh.png",
