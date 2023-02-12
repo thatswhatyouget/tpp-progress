@@ -627,3 +627,81 @@ i.tpp {
 .tpp-type-none-cutout img {
     display: none;
 }
+
+@font-face {
+    font-family: 'Prism-Types';
+    src:
+        url('fonts/prism-types.ttf?siow6o') format('truetype'),
+        url('fonts/prism-types.woff?siow6o') format('woff'),
+        url('fonts/prism-types.svg?siow6o#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+i.tpp.tpp-type-gas,
+i.tpp.tpp-type-sound,
+i.tpp.tpp-type-tri,
+i.tpp.tpp-type-prism,
+i.tpp.tpp-type-gas-cutout,
+i.tpp.tpp-type-sound-cutout,
+i.tpp.tpp-type-tri-cutout,
+i.tpp.tpp-type-prism-cutout {
+    font-family: 'Prism-Types' !important;
+}
+
+i.tpp.tpp-type-gas img,
+i.tpp.tpp-type-sound img,
+i.tpp.tpp-type-tri img,
+i.tpp.tpp-type-prism img,
+i.tpp.tpp-type-gas-cutout img,
+i.tpp.tpp-type-sound-cutout img,
+i.tpp.tpp-type-tri-cutout img,
+i.tpp.tpp-type-prism-cutout img {
+    display:none;
+}
+
+.tpp-type-gas:before {
+    content: "\e9c1";
+}
+
+.tpp-type-gas-cutout:before {
+    content: "\e900";
+}
+
+.tpp-type-sound:before {
+    content: "\e901";
+}
+
+.tpp-type-sound-cutout:before {
+    content: "\e902";
+}
+
+.tpp-type-tri:before {
+    content: "\e903";
+}
+
+.tpp-type-tri-cutout:before {
+    content: "\e904";
+}
+
+.tpp-type-prism:before {
+    content: "\e905";
+}
+
+.tpp-type-prism-cutout:before {
+    content: "\e906";
+}
+
+.tpp-type-gas, .tpp-type-gas-cutout {
+    color: #0EF133;
+}
+.tpp-type-sound, .tpp-type-sound-cutout {
+    color: #62A9AD;
+}
+.tpp-type-tri, .tpp-type-tri-cutout {
+    color: #63A;
+}
+.tpp-type-prism, .tpp-type-prism-cutout {
+    color: #CBCBF2;
+}
