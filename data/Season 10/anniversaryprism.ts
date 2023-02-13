@@ -7,8 +7,8 @@ Season10.Runs.push(
         StartDate: "2023-02-12T23:18:16Z",
         Duration: "255d",
         BackgroundImage: "linear-gradient(45deg, #f99 0%, #ff9 26%, #9f9 42%,#9ff 58%,#99f 74%,#f9f 90%)",
-        // HostName: "",
-        // HostImage: "img/hosts/cyan.png",
+        HostName: "Adam",
+        HostImage: "img/hosts/adam.png",
         // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/56y6bj/cyan_cyanchan/",
         Region: "Naljo",
         Pokedex: "Naljo",
@@ -17,7 +17,7 @@ Season10.Runs.push(
         Events: [
             {
                 "Group": "Badges", "Name": "Pyre Badge", "Image": "img/badges/pyre.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-13T02:59:13.815Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Nature Badge", "Image": "img/badges/nature.png",
@@ -140,6 +140,14 @@ Season10.Runs.push(
                 "Group": "Champions", "Image": "img/hosts/red.png", "Name": "Red",
                 "Time": "", "Attempts": 0
             },
+            { "Group": "Pokemon", "Name": "Larvitar", "Time": "2023-02-12T23:23:47.208Z" },
+            { "Group": "Pokemon", "Name": "Pidgey", "Time": "2023-02-13T00:46:45.393Z" },
+            { "Group": "Pokemon", "Name": "Bronzor", "Time": "2023-02-13T01:10:26.526Z" },
+            { "Group": "Pokemon", "Name": "Snorunt", "Time": "2023-02-13T01:18:10.980Z" },
+            { "Group": "Pokemon", "Name": "Vulpix", "Time": "2023-02-13T01:42:49.971Z" },
+            { "Group": "Pokemon", "Name": "Marill", "Time": "2023-02-13T01:45:42.940Z" },
+            { "Group": "Pokemon", "Name": "Mareep", "Time": "2023-02-13T01:47:16.827Z" },
+            { "Group": "Pokemon", "Name": "Geodude", "Time": "2023-02-13T04:16:28.781Z" }
         ]
     }
 );
