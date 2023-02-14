@@ -29,7 +29,7 @@ Season10.Runs.push(
             },
             {
                 "Group": "Badges", "Name": "Midnight Badge", "Image": "img/badges/midnight.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-14T02:34:42.696Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Muscle Badge", "Image": "img/badges/muscle.png",
@@ -171,7 +171,13 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Shroomish", "Time": "2023-02-13T17:09:45.450Z" },
             { "Group": "Pokemon", "Name": "Butterfree", "Time": "2023-02-13T17:26:54.935Z" },
             { "Group": "Pokemon", "Name": "Pikachu", "Time": "2023-02-13T19:57:58.007Z" },
-            { "Group": "Pokemon", "Name": "Totodile", "Time": "2023-02-13T21:36:39.438Z" }
+            { "Group": "Pokemon", "Name": "Totodile", "Time": "2023-02-13T21:36:39.438Z" },
+            { "Group": "Pokemon", "Name": "Gastly", "Time": "2023-02-13T23:40:08.217Z" },
+            { "Group": "Pokemon", "Name": "Shuppet", "Time": "2023-02-14T00:16:25.507Z" },
+            { "Group": "Pokemon", "Name": "Haunter", "Time": "2023-02-14T01:44:12.894Z" },
+            { "Group": "Pokemon", "Name": "Tentacool", "Time": "2023-02-14T02:18:17.664Z" },
+            { "Group": "Pokemon", "Name": "Exeggcute", "Time": "2023-02-14T02:20:26.043Z" },
+            { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2023-02-14T02:42:55.200Z" }
         ]
     }
 );
