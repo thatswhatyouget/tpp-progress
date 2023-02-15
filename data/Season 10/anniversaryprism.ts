@@ -37,7 +37,7 @@ Season10.Runs.push(
             },
             {
                 "Group": "Badges", "Name": "Haze Badge", "Image": "img/badges/haze.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-15T04:31:11.343Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Raucous Badge", "Image": "img/badges/raucous.png",
@@ -199,7 +199,17 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Eevee", "Time": "2023-02-14T14:04:47.915Z" },
             { "Group": "Pokemon", "Name": "Ponyta", "Time": "2023-02-14T16:21:00.014Z" },
             { "Group": "Pokemon", "Name": "Skorupi", "Time": "2023-02-14T17:48:00.897Z" },
-
+            { "Group": "Pokemon", "Name": "Glalie", "Time": "2023-02-14T21:08:42.699Z" },
+            { "Group": "Pokemon", "Name": "Torkoal", "Time": "2023-02-14T21:20:46.523Z" },
+            { "Group": "Pokemon", "Name": "Slugma", "Time": "2023-02-14T21:24:58.126Z" },
+            { "Group": "Pokemon", "Name": "Tangela", "Time": "2023-02-14T22:25:22.006Z" },
+            { "Group": "Pokemon", "Name": "Aggron", "Time": "2023-02-15T00:02:46.679Z" },
+            { "Group": "Pokemon", "Name": "Swellow", "Time": "2023-02-15T00:11:13.862Z" },
+            { "Group": "Pokemon", "Name": "Yanmega", "Time": "2023-02-15T00:32:42.137Z" },
+            { "Group": "Pokemon", "Name": "Tangrowth", "Time": "2023-02-15T03:28:54.623Z" },
+            { "Group": "Pokemon", "Name": "Libabeel", "Time": "2023-02-15T04:31:11.343Z" },
+            { "Group": "Pokemon", "Name": "Feebas", "Time": "2023-02-15T04:34:31.142Z" },
+            { "Group": "Pokemon", "Name": "Chinchou", "Time": "2023-02-15T04:36:50.092Z" }
         ]
     }
 );
