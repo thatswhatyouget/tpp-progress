@@ -53,28 +53,28 @@ Season10.Runs.push(
             },
             {
                 "Group": "Elite Four", "Name": "Sora", "Image": "img/trainers/prism/sora.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-16T10:57:27.580Z", "Attempts": 3
             },
             {
                 "Group": "Elite Four", "Name": "Daichi", "Image": "img/trainers/prism/daichi.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-16T11:07:06.789Z", "Attempts": 1
             },
             {
                 "Group": "Elite Four", "Name": "Mura", "Image": "img/trainers/prism/mura.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-16T11:50:37.785Z", "Attempts": 2
             },
             {
                 "Group": "Champions", "Name": "Lance", "Image": "img/trainers/prism/lance.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-16T11:58:19.770Z", "Attempts": 1
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 2, IDNo: "20366", Party: [
-                    { Number: 201, Pokemon: "Mismagius", Gender: "Female", Nickname: "Vivian", Level: 57, IDNo: "20366" },
-                    { Number: 254, Pokemon: "Libabeel", Nickname: "Afqmk(ktts", Level: 57, IDNo: "20366" },
-                    { Number: 33, Pokemon: "Glalie", Gender: "Female", Nickname: "Aiihgyox", Level: 58, IDNo: "20366" },
-                    { Number: 194, Pokemon: "Yanmega", Gender: "Female", Nickname: "Kkjiijjpoo", Level: 58, IDNo: "20366" },
-                    { Number: 15, Pokemon: "Torkoal", Gender: "Female", Nickname: "Ft  yyw", Level: 58, IDNo: "20366" },
-                    { Number: 209, Pokemon: "Gliscor", Gender: "Female", Nickname: "Eyw  zzggi", Level: 61, IDNo: "20366" }
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "3d12h42m44s", Attempts: 5, IDNo: "20366", Party: [
+                    { Number: 121, Pokemon: "Mismagius", Gender: "Female", Nickname: "Vivian", Level: 60, IDNo: "20366" },
+                    { Number: 253, Pokemon: "Libabeel", Nickname: "Afqmk(ktts", Level: 58, IDNo: "20366" },
+                    { Number: 20, Pokemon: "Glalie", Gender: "Female", Nickname: "Aiihgyox", Level: 61, IDNo: "20366" },
+                    { Number: 67, Pokemon: "Yanmega", Gender: "Female", Nickname: "Kkjiijjpoo", Level: 61, IDNo: "20366" },
+                    { Number: 214, Pokemon: "Torkoal", Gender: "Female", Nickname: "Ft  yyw", Level: 62, IDNo: "20366" },
+                    { Number: 35, Pokemon: "Gliscor", Gender: "Female", Nickname: "Eyw  zzggi", Level: 64, IDNo: "20366" }
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2023-02-16T05:35:00.440Z"
@@ -233,7 +233,14 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Gyarados", "Time": "2023-02-16T00:30:35.090Z" },
             { "Group": "Pokemon", "Name": "Luxio", "Time": "2023-02-16T00:37:35.972Z" },
             { "Group": "Pokemon", "Name": "Absol", "Time": "2023-02-16T01:23:15.497Z" },
-            { "Group": "Pokemon", "Name": "Onix", "Time": "2023-02-16T03:35:41.185Z" }
+            { "Group": "Pokemon", "Name": "Onix", "Time": "2023-02-16T03:35:41.185Z" },
+            { "Group": "Pokemon", "Name": "Houndoom", "Time": "2023-02-16T06:42:38.197Z" },
+            { "Group": "Pokemon", "Name": "Vibrava", "Time": "2023-02-16T06:57:51.441Z" },
+            { "Group": "Pokemon", "Name": "Articuno", "Time": "2023-02-16T07:10:10.490Z" },
+            { "Group": "Pokemon", "Name": "Gible", "Time": "2023-02-16T07:31:44.321Z" },
+            { "Group": "Pokemon", "Name": "Anorith", "Time": "2023-02-16T08:35:21.436Z" },
+            { "Group": "Pokemon", "Name": "Fearow", "Time": "2023-02-16T09:44:57.653Z" },
+            { "Group": "Pokemon", "Name": "Magmar", "Time": "2023-02-16T09:59:01.933Z" }
         ]
     }
 );
