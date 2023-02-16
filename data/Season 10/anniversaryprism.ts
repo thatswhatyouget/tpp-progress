@@ -49,7 +49,7 @@ Season10.Runs.push(
             },
             {
                 "Group": "Elite Four", "Name": "Yuki", "Image": "img/trainers/prism/yuki.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-16T05:52:51.089Z", "Attempts": 2
             },
             {
                 "Group": "Elite Four", "Name": "Sora", "Image": "img/trainers/prism/sora.png",
@@ -68,16 +68,16 @@ Season10.Runs.push(
                 "Time": "", "Attempts": 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, IDNo: "", Party: [
-                    // { Number: 38, Pokemon: "Ninetales", Gender: "Female", Nickname: "FFFEEEF", Level: 83, IDNo: "59484" },
-                    // { Number: 24, Pokemon: "Lopunny", Gender: "Male", Nickname: "EEEE", Level: 59, IDNo: "59484" },
-                    // { Number: 181, Pokemon: "Ampharos", Gender: "Male", Level: 60, IDNo: "59484" },
-                    // { Number: 165, Pokemon: "Gardevoir", Gender: "Male", Nickname: "IMmMMLLIR", Level: 61, IDNo: "59484" },
-                    // { Number: 248, Pokemon: "Tyranitar", Gender: "Female", Nickname: "I!C", Level: 76, IDNo: "59484" },
-                    // { Number: 184, Pokemon: "Azumarill", Gender: "Female", Nickname: "YYYYXOOOOO", Level: 85, IDNo: "59484" }
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 2, IDNo: "20366", Party: [
+                    { Number: 201, Pokemon: "Mismagius", Gender: "Female", Nickname: "Vivian", Level: 57, IDNo: "20366" },
+                    { Number: 254, Pokemon: "Libabeel", Nickname: "Afqmk(ktts", Level: 57, IDNo: "20366" },
+                    { Number: 33, Pokemon: "Glalie", Gender: "Female", Nickname: "Aiihgyox", Level: 58, IDNo: "20366" },
+                    { Number: 194, Pokemon: "Yanmega", Gender: "Female", Nickname: "Kkjiijjpoo", Level: 58, IDNo: "20366" },
+                    { Number: 15, Pokemon: "Torkoal", Gender: "Female", Nickname: "Ft  yyw", Level: 58, IDNo: "20366" },
+                    { Number: 209, Pokemon: "Gliscor", Gender: "Female", Nickname: "Eyw  zzggi", Level: 61, IDNo: "20366" }
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate: ""
+                FirstAttemptDate: "2023-02-16T05:35:00.440Z"
             },
             {
                 "Group": "Badges", "Name": "Marine Badge", "Image": "img/badges/marine.png",
