@@ -45,7 +45,7 @@ Season10.Runs.push(
             },
             {
                 "Group": "Badges", "Name": "Naljo Badge", "Image": "img/badges/naljo.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-16T03:13:13.532Z", "Attempts": 2
             },
             {
                 "Group": "Elite Four", "Name": "Yuki", "Image": "img/trainers/prism/yuki.png",
@@ -232,7 +232,8 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Mismagius", "Time": "2023-02-15T22:56:23.447Z" },
             { "Group": "Pokemon", "Name": "Gyarados", "Time": "2023-02-16T00:30:35.090Z" },
             { "Group": "Pokemon", "Name": "Luxio", "Time": "2023-02-16T00:37:35.972Z" },
-            { "Group": "Pokemon", "Name": "Absol", "Time": "2023-02-16T01:23:15.497Z" }
+            { "Group": "Pokemon", "Name": "Absol", "Time": "2023-02-16T01:23:15.497Z" },
+            { "Group": "Pokemon", "Name": "Onix", "Time": "2023-02-16T03:35:41.185Z" }
         ]
     }
 );
