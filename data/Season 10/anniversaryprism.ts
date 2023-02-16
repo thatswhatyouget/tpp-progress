@@ -93,11 +93,11 @@ Season10.Runs.push(
             },
             {
                 "Group": "Badges", "Name": "Sprout Badge", "Image": "img/badges/sprout.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-16T19:13:45.327Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Fist Badge", "Image": "img/badges/fist.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-16T14:18:59.141Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Psi Badge", "Image": "img/badges/psi.png",
@@ -240,7 +240,14 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Gible", "Time": "2023-02-16T07:31:44.321Z" },
             { "Group": "Pokemon", "Name": "Anorith", "Time": "2023-02-16T08:35:21.436Z" },
             { "Group": "Pokemon", "Name": "Fearow", "Time": "2023-02-16T09:44:57.653Z" },
-            { "Group": "Pokemon", "Name": "Magmar", "Time": "2023-02-16T09:59:01.933Z" }
+            { "Group": "Pokemon", "Name": "Magmar", "Time": "2023-02-16T09:59:01.933Z" },
+            { "Group": "Pokemon", "Name": "Sableye", "Time": "2023-02-16T15:13:47.438Z" },
+            { "Group": "Pokemon", "Name": "Phancero", "Time": "2023-02-16T15:42:51.787Z" },
+            { "Group": "Pokemon", "Name": "Banette", "Time": "2023-02-16T15:45:08.912Z" },
+            { "Group": "Pokemon", "Name": "Spiritomb", "Time": "2023-02-16T17:00:28.689Z" },
+            { "Group": "Pokemon", "Name": "Venomoth", "Time": "2023-02-16T17:25:41.865Z" },
+            { "Group": "Pokemon", "Name": "Magnemite", "Time": "2023-02-16T18:10:29.000Z" }
+
         ]
     }
 );
