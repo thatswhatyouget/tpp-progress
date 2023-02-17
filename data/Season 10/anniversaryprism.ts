@@ -113,15 +113,15 @@ Season10.Runs.push(
             },
             {
                 "Group": "Badges", "Name": "Plain Badge", "Image": "img/badges/plain.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-17T11:18:36.288Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Hive Badge", "Image": "img/badges/hive.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-17T09:52:51.236Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Marsh Badge", "Image": "img/badges/marsh.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-17T13:56:22.579Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Blaze Badge", "Image": "img/badges/blaze.png",
@@ -252,7 +252,8 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Rayquaza", "Time": "2023-02-17T00:23:11.236Z" },
             { "Group": "Pokemon", "Name": "Machoke", "Time": "2023-02-17T00:36:56.070Z" },
             { "Group": "Pokemon", "Name": "Groudon", "Time": "2023-02-17T00:46:41.295Z" },
-            { "Group": "Pokemon", "Name": "Varaneous", "Time": "2023-02-17T02:18:17.954Z" }
+            { "Group": "Pokemon", "Name": "Varaneous", "Time": "2023-02-17T02:18:17.954Z" },
+            { "Group": "Pokemon", "Name": "Pupitar", "Time": "2023-02-17T12:42:21.267Z" }
         ]
     }
 );
