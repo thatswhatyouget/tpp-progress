@@ -81,7 +81,7 @@ Season10.Runs.push(
             },
             {
                 "Group": "Badges", "Name": "Marine Badge", "Image": "img/badges/marine.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-17T04:58:25.783Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Hail Badge", "Image": "img/badges/hail.png",
@@ -101,15 +101,15 @@ Season10.Runs.push(
             },
             {
                 "Group": "Badges", "Name": "Psi Badge", "Image": "img/badges/psi.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-17T03:19:32.142Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "White Badge", "Image": "img/badges/white.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-17T05:40:52.973Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Star Badge", "Image": "img/badges/star.png",
-                "Time": "", "Attempts": 0
+                "Time": "2023-02-17T07:12:18.787Z", "Attempts": 3
             },
             {
                 "Group": "Badges", "Name": "Plain Badge", "Image": "img/badges/plain.png",
@@ -251,7 +251,8 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Relicanth", "Time": "2023-02-16T22:51:11.269Z" },
             { "Group": "Pokemon", "Name": "Rayquaza", "Time": "2023-02-17T00:23:11.236Z" },
             { "Group": "Pokemon", "Name": "Machoke", "Time": "2023-02-17T00:36:56.070Z" },
-            { "Group": "Pokemon", "Name": "Groudon", "Time": "2023-02-17T00:46:41.295Z" }
+            { "Group": "Pokemon", "Name": "Groudon", "Time": "2023-02-17T00:46:41.295Z" },
+            { "Group": "Pokemon", "Name": "Varaneous", "Time": "2023-02-17T02:18:17.954Z" }
         ]
     }
 );
