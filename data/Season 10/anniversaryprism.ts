@@ -100,7 +100,7 @@ Season10.Runs.push(
                 "Time": "2023-02-18T05:03:35.982Z", "Attempts": 4
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "3d12h42m44s", Attempts: 4, IDNo: "20366", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "5d5h47m11s", Attempts: 4, IDNo: "20366", Party: [
                     { Number: 214, Pokemon: "Torkoal", Gender: "Female", Nickname: "Ft  yyw", Level: 77, IDNo: "20366" },
                     { Number: 20, Pokemon: "Glalie", Gender: "Female", Nickname: "Aiihgyox", Level: 83, IDNo: "20366" },
                     { Number: 67, Pokemon: "Yanmega", Gender: "Female", Nickname: "Kkjiijjpoo", Level: 79, IDNo: "20366" },
@@ -291,7 +291,16 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "2023-02-17T15:30:57.262Z" },
             { "Group": "Pokemon", "Name": "Charmander", "Time": "2023-02-17T15:33:38.361Z" },
             { "Group": "Pokemon", "Name": "Squirtle", "Time": "2023-02-17T15:36:57.924Z" },
-            { "Group": "Pokemon", "Name": "Teddiursa", "Time": "2023-02-17T16:38:00.683Z" }
+            { "Group": "Pokemon", "Name": "Teddiursa", "Time": "2023-02-17T16:38:00.683Z" },
+            { "Group": "Pokemon", "Name": "Lileep", "Time": "2023-02-18T07:15:41.491Z" },
+            { "Group": "Pokemon", "Name": "Cranidos", "Time": "2023-02-18T07:41:27.710Z" },
+            { "Group": "Pokemon", "Name": "Shieldon", "Time": "2023-02-18T08:23:54.218Z" },
+            { "Group": "Pokemon", "Name": "Chikorita", "Time": "2023-02-18T09:52:45.889Z" },
+            { "Group": "Pokemon", "Name": "Jolteon", "Time": "2023-02-18T10:02:20.064Z" },
+            { "Group": "Pokemon", "Name": "Vaporeon", "Time": "2023-02-18T10:08:27.879Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2023-02-18T10:27:04.280Z" },
+            { "Group": "Pokemon", "Name": "Glaceon", "Time": "2023-02-18T14:29:23.270Z" },
+            { "Group": "Pokemon", "Name": "Metapod", "Time": "2023-02-18T19:59:02.855Z" }
         ]
     }
 );
