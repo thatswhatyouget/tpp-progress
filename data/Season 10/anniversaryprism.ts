@@ -80,6 +80,38 @@ Season10.Runs.push(
                 FirstAttemptDate: "2023-02-16T05:35:00.440Z"
             },
             {
+                "Group": "Elite Four Rematch", "Name": "Yuki", "Image": "img/trainers/prism/yuki.png", "Class": "Rematch",
+                "Time": "2023-02-18T02:15:05.692Z", "Attempts": 1
+            },
+            {
+                "Group": "Elite Four Rematch", "Name": "Sora", "Image": "img/trainers/prism/sora.png", "Class": "Rematch",
+                "Time": "2023-02-18T02:21:15.702Z", "Attempts": 1
+            },
+            {
+                "Group": "Elite Four Rematch", "Name": "Daichi", "Image": "img/trainers/prism/daichi.png", "Class": "Rematch",
+                "Time": "2023-02-18T02:28:19.182Z", "Attempts": 1
+            },
+            {
+                "Group": "Elite Four Rematch", "Name": "Mura", "Image": "img/trainers/prism/mura.png", "Class": "Rematch",
+                "Time": "2023-02-18T02:41:08.133Z", "Attempts": 1
+            },
+            {
+                "Group": "Champions", "Name": "Lance", "Image": "img/trainers/prism/lance.png", "Class": "Rematch",
+                "Time": "2023-02-18T05:03:35.982Z", "Attempts": 4
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "3d12h42m44s", Attempts: 4, IDNo: "20366", Party: [
+                    { Number: 121, Pokemon: "Mismagius", Gender: "Female", Nickname: "Vivian", Level: 60, IDNo: "20366" },
+                    { Number: 253, Pokemon: "Libabeel", Nickname: "Afqmk(ktts", Level: 58, IDNo: "20366" },
+                    { Number: 20, Pokemon: "Glalie", Gender: "Female", Nickname: "Aiihgyox", Level: 61, IDNo: "20366" },
+                    { Number: 67, Pokemon: "Yanmega", Gender: "Female", Nickname: "Kkjiijjpoo", Level: 61, IDNo: "20366" },
+                    { Number: 214, Pokemon: "Torkoal", Gender: "Female", Nickname: "Ft  yyw", Level: 62, IDNo: "20366" },
+                    { Number: 35, Pokemon: "Gliscor", Gender: "Female", Nickname: "Eyw  zzggi", Level: 64, IDNo: "20366" }
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "5d 2h 53m 17s."
+            },
+            {
                 "Group": "Badges", "Name": "Marine Badge", "Image": "img/badges/marine.png",
                 "Time": "2023-02-17T04:58:25.783Z", "Attempts": 1
             },
@@ -253,7 +285,13 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Machoke", "Time": "2023-02-17T00:36:56.070Z" },
             { "Group": "Pokemon", "Name": "Groudon", "Time": "2023-02-17T00:46:41.295Z" },
             { "Group": "Pokemon", "Name": "Varaneous", "Time": "2023-02-17T02:18:17.954Z" },
-            { "Group": "Pokemon", "Name": "Pupitar", "Time": "2023-02-17T12:42:21.267Z" }
+            { "Group": "Pokemon", "Name": "Pupitar", "Time": "2023-02-17T12:42:21.267Z" },
+            { "Group": "Pokemon", "Name": "Tyranitar", "Time": "2023-02-17T14:29:50.905Z" },
+            { "Group": "Pokemon", "Name": "Flareon", "Time": "2023-02-17T15:06:10.885Z" },
+            { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "2023-02-17T15:30:57.262Z" },
+            { "Group": "Pokemon", "Name": "Charmander", "Time": "2023-02-17T15:33:38.361Z" },
+            { "Group": "Pokemon", "Name": "Squirtle", "Time": "2023-02-17T15:36:57.924Z" },
+            { "Group": "Pokemon", "Name": "Teddiursa", "Time": "2023-02-17T16:38:00.683Z" }
         ]
     }
 );
