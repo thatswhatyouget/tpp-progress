@@ -101,12 +101,12 @@ Season10.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "3d12h42m44s", Attempts: 4, IDNo: "20366", Party: [
-                    { Number: 121, Pokemon: "Mismagius", Gender: "Female", Nickname: "Vivian", Level: 60, IDNo: "20366" },
-                    { Number: 253, Pokemon: "Libabeel", Nickname: "Afqmk(ktts", Level: 58, IDNo: "20366" },
-                    { Number: 20, Pokemon: "Glalie", Gender: "Female", Nickname: "Aiihgyox", Level: 61, IDNo: "20366" },
-                    { Number: 67, Pokemon: "Yanmega", Gender: "Female", Nickname: "Kkjiijjpoo", Level: 61, IDNo: "20366" },
-                    { Number: 214, Pokemon: "Torkoal", Gender: "Female", Nickname: "Ft  yyw", Level: 62, IDNo: "20366" },
-                    { Number: 35, Pokemon: "Gliscor", Gender: "Female", Nickname: "Eyw  zzggi", Level: 64, IDNo: "20366" }
+                    { Number: 214, Pokemon: "Torkoal", Gender: "Female", Nickname: "Ft  yyw", Level: 77, IDNo: "20366" },
+                    { Number: 20, Pokemon: "Glalie", Gender: "Female", Nickname: "Aiihgyox", Level: 83, IDNo: "20366" },
+                    { Number: 67, Pokemon: "Yanmega", Gender: "Female", Nickname: "Kkjiijjpoo", Level: 79, IDNo: "20366" },
+                    { Number: 35, Pokemon: "Gliscor", Gender: "Female", Nickname: "Eyw  zzggi", Level: 79, IDNo: "20366" },
+                    { Number: 121, Pokemon: "Mismagius", Gender: "Female", Nickname: "Vivian", Level: 100, IDNo: "20366" },
+                    { Number: 253, Pokemon: "Libabeel", Nickname: "Afqmk(ktts", Level: 80, IDNo: "20366" }
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "5d 2h 53m 17s."
