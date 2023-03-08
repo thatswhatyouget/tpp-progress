@@ -9,7 +9,7 @@ Season10.Runs.push(
         BackgroundImage: "linear-gradient(45deg, #f99 0%, #ff9 26%, #9f9 42%,#9ff 58%,#99f 74%,#f9f 90%)",
         HostName: "Adam",
         HostImage: "img/hosts/adam.png",
-        // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/56y6bj/cyan_cyanchan/",
+        HostImageSource: "https://www.deviantart.com/krizste/art/TPP-AnniversaryPrism-adam-sprite-950178984",
         Region: "Naljo",
         Pokedex: "Naljo",
         // AdditionalRegions: [{ Name: "Rijon", Time: "" }],

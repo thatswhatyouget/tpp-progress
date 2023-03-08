@@ -8,7 +8,7 @@ Season9.Runs.push(
         StartDate: "2023-01-21T21:00:00Z",
         HostName: "2errh",
         HostImage: "img/hosts/2errh.png",
-        // HostImageSource: "https://www.deviantart.com/mid117/art/PKMN-Scarlet-Protagonists-Trainer-Sprites-923433423",
+        // HostImageSource: "https://www.deviantart.com/krizste/art/TPP-Rand-Violet-2errh-sprites-947518857",
         Region: "Paldea",
         Generation: 9,
         Events: [
