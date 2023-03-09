@@ -9,7 +9,7 @@ Season10.Runs.push(
         BackgroundImage: "linear-gradient(45deg, #f99 0%, #ff9 26%, #9f9 42%,#9ff 58%,#99f 74%,#f9f 90%)",
         HostName: "Adam",
         HostImage: "img/hosts/adam.png",
-        // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/56y6bj/cyan_cyanchan/",
+        HostImageSource: "https://www.deviantart.com/krizste/art/TPP-AnniversaryPrism-adam-sprite-950178984",
         Region: "Naljo",
         Pokedex: "Naljo",
         // AdditionalRegions: [{ Name: "Rijon", Time: "" }],
@@ -110,6 +110,41 @@ Season10.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "5d 2h 53m 17s."
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "7d19h1m19s", Attempts: 1, IDNo: "20366", Party: [
+                    { Number: 121, Pokemon: "Mismagius", Gender: "Female", Nickname: "Vivian", Level: 100, IDNo: "20366" },
+                    { Number: 67, Pokemon: "Yanmega", Gender: "Female", Nickname: "Kkjiijjpoo", Level: 99, IDNo: "20366" },
+                    { Number: 35, Pokemon: "Gliscor", Gender: "Female", Nickname: "Eyw  zzggi", Level: 100, IDNo: "20366" },
+                    { Number: 20, Pokemon: "Glalie", Gender: "Female", Nickname: "Aiihgyox", Level: 100, IDNo: "20366" },
+                    { Number: 202, Pokemon: "Porygon2", Nickname: "Slots", Level: 23, IDNo: "20366" },
+                    { Number: 253, Pokemon: "Libabeel", Nickname: "Afqmk(ktts", Level: 93, IDNo: "20366" }
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "7d 18h 19m 34s."
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d13h58m48s", Attempts: 3, IDNo: "20366", Party: [
+                    { Number: 35, Pokemon: "Gliscor", Gender: "Female", Nickname: "Eyw  zzggi", Level: 100, IDNo: "20366" },
+                    { Number: 67, Pokemon: "Yanmega", Gender: "Female", Nickname: "Kkjiijjpoo", Level: 100, IDNo: "20366" },
+                    { Number: 218, Pokemon: "Riolu", Gender: "Male", Nickname: "NwN", Level: 15, IDNo: "20366" },
+                    { Number: 151, Pokemon: "Togepi", Gender: "Male", Nickname: "Eyxwvvvtt", Level: 20, IDNo: "20366" },
+                    { Number: 160, Pokemon: "Magmar", Gender: "Female", Nickname: "Enl)××π", Level: 40, IDNo: "20366" }
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "8d 1h 17m 15s."
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "11d11h55m16s", Attempts: 2, IDNo: "20366", Party: [
+                    { Number: 121, Pokemon: "Mismagius", Gender: "Female", Nickname: "Vivian", Level: 100, IDNo: "20366" },
+                    { Number: 67, Pokemon: "Yanmega", Gender: "Female", Nickname: "Kkjiijjpoo", Level: 100, IDNo: "20366" },
+                    { Number: 35, Pokemon: "Gliscor", Gender: "Female", Nickname: "Eyw  zzggi", Level: 100, IDNo: "20366" },
+                    { Number: 20, Pokemon: "Glalie", Gender: "Female", Nickname: "Aiihgyox", Level: 100, IDNo: "20366" },
+                    { Number: 214, Pokemon: "Torkoal", Gender: "Female", Nickname: "Ft  yyw", Level: 100, IDNo: "20366" },
+                    { Number: 253, Pokemon: "Libabeel", Nickname: "Afqmk(ktts", Level: 80, IDNo: "20366" }
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "10d 0h 55m 45s."
             },
             {
                 "Group": "Badges", "Name": "Marine Badge", "Image": "img/badges/marine.png",
