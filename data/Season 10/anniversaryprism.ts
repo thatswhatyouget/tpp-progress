@@ -5,7 +5,7 @@ Season10.Runs.push(
         ColorSecondary: "#62A9AD",
         ColorPrimary: "#0EF133",
         StartDate: "2023-02-12T23:18:16Z",
-        Duration: "255d",
+        Duration: "2w", //HALP
         BackgroundImage: "linear-gradient(45deg, #f99 0%, #ff9 26%, #9f9 42%,#9ff 58%,#99f 74%,#f9f 90%)",
         HostName: "Adam",
         HostImage: "img/hosts/adam.png",
