@@ -939,3 +939,7 @@ ul.controls > li > ul > li.selected > a:before {
 .Rematch.Super img {
 	filter:sepia(1)saturate(3)brightness(1.1)grayscale(0.9);
 }
+
+.Inverse img {
+	filter: hue-rotate(180deg);
+}
