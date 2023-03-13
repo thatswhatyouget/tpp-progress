@@ -4,762 +4,813 @@
 @import 'run-status.css';
 
 body {
-	background-color:#999;
-	text-align:center;
+	background-color: #999;
+	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 .title {
 	display: inline-block;
-	width:45%;
+	width: 45%;
 	vertical-align: bottom;
 }
 
 .title .subtitle {
-    font-size: 1.2em;
-    margin-top:-1em;
-    font-weight: bold;
-}
-
-.title .subtitle a {
-    font-size:.5em;
-    font-weight: normal;
-    display:block;
-}
-
-.credits {
-	font-size:.6em;
-}
-
-.credits a:link, .credits a:visited, .title a:link, .title a:visited {
-    color:black;
-}
-
-.credits a:hover, .title a:hover {
-    opacity: .5;
-}
-
-ul.controls {
-	position:fixed;
-	left:0;
-	top:0;
-	z-index:50;
-	list-style:none;
-	padding:0;
-	margin:0;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-
-ul.controls > li {
-	display:inline-block;
-	font-size:1.3em;
-	margin:.25em;
-	cursor:pointer;
-	position:relative;
-	padding:0;
-}
-
-ul.controls > li > a {
-	position:relative;
-	z-index:2;
-	color:black!important;
-	text-shadow:1px 1px 0 white, -1px 1px 0 white, -1px -1px white, 1px -1px white;
-}
-
-ul.controls > li > ul {
-	box-sizing: border-box;
-	position:absolute;
-	left:-.2em;
-	top:100%;
-	margin: .25em 0;
-	transform:translateY(-200%);
-	background-color:lightgray;
-	border: 1px solid black;
-	padding:.5em 1em;
-	white-space: nowrap;
-	transition: transform .5s ease-in-out;
-	list-style:none;
-	text-align: left;
-    min-height:2em;
-}
-
-ul.controls > li > ul.long {
-	columns: 2;
-}
-
-ul.controls > li > ul.very-long {
-	columns: 3;
-}
-
-ul.controls > li > ul:before {
-	content:' ';
-	height:2.5em;
-	width:1.3em;
-	border: 1px solid black;
-	border-bottom:none;
-	background-color:lightgray;
-	position: absolute;
-	bottom:100%;
-	left:-1px;
-}
-
-ul.controls > li:hover > ul, ul.controls > li > a:focus + ul {
-	transform:none;
-}
-ul.controls > li > a:focus + ul {
-	z-index: 1;
-}
-
-ul.controls > li > ul > li {
-	display: block;
-}
-
-ul.controls > li > ul > li > * {
-	vertical-align: middle;
-	font-size:.8em;
-}
-
-ul.controls > li > ul > li > a {
-	color:black;
-	text-decoration: none;
-}
-
-ul.controls > li > ul > li > a:hover{
-	text-decoration: underline;
-}
-
-ul.controls > li > ul > li > a:before {
-	content:'';
-	font-family: FontAwesome;
-	padding-right:.25em;
-	text-decoration: none!important;
-}
-
-ul.controls > li > ul > li.selected > a {
+	font-size: 1.2em;
+	margin-top: -1em;
 	font-weight: bold;
 }
 
-ul.controls > li > ul > li.selected > a:before {
-	content:'';
+.title .subtitle a {
+	font-size: .5em;
+	font-weight: normal;
+	display: block;
+}
+
+.credits {
+	font-size: .6em;
+}
+
+.credits a:link,
+.credits a:visited,
+.title a:link,
+.title a:visited {
+	color: black;
+}
+
+.credits a:hover,
+.title a:hover {
+	opacity: .5;
+}
+
+ul.controls {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 50;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+ul.controls>li {
+	display: inline-block;
+	font-size: 1.3em;
+	margin: .25em;
+	cursor: pointer;
+	position: relative;
+	padding: 0;
+}
+
+ul.controls>li>a {
+	position: relative;
+	z-index: 2;
+	color: black !important;
+	text-shadow: 1px 1px 0 white, -1px 1px 0 white, -1px -1px white, 1px -1px white;
+}
+
+ul.controls>li>ul {
+	box-sizing: border-box;
+	position: absolute;
+	left: -.2em;
+	top: 100%;
+	margin: .25em 0;
+	transform: translateY(-200%);
+	background-color: lightgray;
+	border: 1px solid black;
+	padding: .5em 1em;
+	white-space: nowrap;
+	transition: transform .5s ease-in-out;
+	list-style: none;
+	text-align: left;
+	min-height: 2em;
+}
+
+ul.controls>li>ul.long {
+	columns: 2;
+}
+
+ul.controls>li>ul.very-long {
+	columns: 3;
+}
+
+ul.controls>li>ul:before {
+	content: ' ';
+	height: 2.5em;
+	width: 1.3em;
+	border: 1px solid black;
+	border-bottom: none;
+	background-color: lightgray;
+	position: absolute;
+	bottom: 100%;
+	left: -1px;
+}
+
+ul.controls>li:hover>ul,
+ul.controls>li>a:focus+ul {
+	transform: none;
+}
+
+ul.controls>li>a:focus+ul {
+	z-index: 1;
+}
+
+ul.controls>li>ul>li {
+	display: block;
+}
+
+ul.controls>li>ul>li>* {
+	vertical-align: middle;
+	font-size: .8em;
+}
+
+ul.controls>li>ul>li>a {
+	color: black;
+	text-decoration: none;
+}
+
+ul.controls>li>ul>li>a:hover {
+	text-decoration: underline;
+}
+
+ul.controls>li>ul>li>a:before {
+	content: '';
+	font-family: FontAwesome;
+	padding-right: .25em;
+	text-decoration: none !important;
+}
+
+ul.controls>li>ul>li.selected>a {
+	font-weight: bold;
+}
+
+ul.controls>li>ul>li.selected>a:before {
+	content: '';
 }
 
 .progressChart {
-	box-sizing:content-box;
-	float:left;
-	border:2px solid black;
+	box-sizing: content-box;
+	float: left;
+	border: 2px solid black;
 	clear: both;
-	margin:10px;
-	margin-bottom:50px;
-	padding:0 50px;
-	padding-top:70px;
-	background-color:white;
+	margin: 10px;
+	margin-bottom: 50px;
+	padding: 0 50px;
+	padding-top: 70px;
+	background-color: white;
 	background-position: 50px;
-	position:relative;
+	position: relative;
 	transition: all 2s ease-in-out;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 
 .progressChart:before {
-    content: ' ';
-    clear: right;
-    display: block;
+	content: ' ';
+	clear: right;
+	display: block;
 }
 
 .progressChart[data-label]:after {
-	position:absolute;
-	content:attr(data-label);
-    white-space: nowrap;
-	font-size:1.5em;
-	left:1em;
-	top:-1.2em;
+	position: absolute;
+	content: attr(data-label);
+	white-space: nowrap;
+	font-size: 1.5em;
+	left: 1em;
+	top: -1.2em;
 }
 
 .progressChart .ruler {
-	position:absolute;
-	box-sizing:border-box;
-	border-bottom:2px solid black;
-	height:2em;
-	top:0;
-	width:100%;
-	left:0;
+	position: absolute;
+	box-sizing: border-box;
+	border-bottom: 2px solid black;
+	height: 2em;
+	top: 0;
+	width: 100%;
+	left: 0;
 	counter-reset: days -1;
 	transition: all 2s ease-in-out;
-	overflow:hidden;
+	overflow: hidden;
 }
+
 .progressChart .ruler .stop {
-	border-right:3px solid black;
-	position:absolute;
-	bottom:0;
+	border-right: 3px solid black;
+	position: absolute;
+	bottom: 0;
 	margin-left: 48px;
-	height:1em;
+	height: 1em;
 	counter-increment: days;
 	transition: all 2s ease-in-out;
 }
 
-.progressChart .ruler .stop::before, .progressChart .ruler .stop::after {
- 	position:absolute;
-	font-size:.75em;
-	top:-1.25em;
-	width:2em;
+.progressChart .ruler .stop::before,
+.progressChart .ruler .stop::after {
+	position: absolute;
+	font-size: .75em;
+	top: -1.25em;
+	width: 2em;
 	text-align: center;
-	right:-1.05em;
+	right: -1.05em;
 	font-weight: lighter;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .progressChart .ruler .stop::after {
-	content:counter(days);
+	content: counter(days);
 }
+
 .progressChart .ruler .stop:first-child::before {
-	content:attr(data-scale) ":";
-    text-align: right;
-    width:5em;
-    right:.5em;
-    letter-spacing: -.1em;
+	content: attr(data-scale) ":";
+	text-align: right;
+	width: 5em;
+	right: .5em;
+	letter-spacing: -.1em;
 }
 
 .progressChart[data-scale=Hours] .ruler {
-    counter-reset: days -4;
+	counter-reset: days -4;
 }
+
 .progressChart[data-scale=Hours] .ruler .stop {
-    counter-increment: days 4;
+	counter-increment: days 4;
 }
+
 .progressChart[data-scale=Minutes] .ruler {
-    counter-reset: days -10;
+	counter-reset: days -10;
 }
+
 .progressChart[data-scale=Minutes] .ruler .stop {
-    counter-increment: days 10;
+	counter-increment: days 10;
 }
 
 .progressChart .run {
 	display: block;
 	box-sizing: content-box;
-	margin-bottom:50px;
-	height:46px;
-	border:2px solid black;
-	background-color:white;
+	margin-bottom: 50px;
+	height: 46px;
+	border: 2px solid black;
+	background-color: white;
 	position: relative;
-	left:-2px;
+	left: -2px;
 	transition: width 2s ease-in-out, left 2s ease-in-out, opacity 2s ease-in-out, margin 2s ease-in-out;
 }
 
 .progressChart .run.ongoing {
-	border-right:none;
+	border-right: none;
 }
 
-.progressChart > .run[data-label]:hover::before {
-	position:absolute;
-	content:attr(data-label);
+.progressChart>.run[data-label]:hover::before {
+	position: absolute;
+	content: attr(data-label);
 	white-space: pre;
-	font-size:1.5em;
-	left:1em;
+	font-size: 1.5em;
+	left: 1em;
 	top: -1.5em;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	z-index:5;
-	text-shadow:1px 1px 0 white, -1px 1px 0 white, -1px -1px white, 1px -1px white;
+	z-index: 5;
+	text-shadow: 1px 1px 0 #CCC, -1px 1px 0 #CCC, -1px -1px #CCC, 1px -1px #CCC;
 }
 
 .progressChart .run .event {
-	position:absolute;
-	width:3px;
-	top:-1px;
-	margin-left:-1px;
-	height:49px;
-	left:0;
+	position: absolute;
+	width: 3px;
+	top: -1px;
+	margin-left: -1px;
+	height: 49px;
+	left: 0;
 	transition: left 2s ease-in-out, margin 2s ease-in-out, opacity 2s ease-in-out;
 }
+
 .progressChart .run .event img {
-	position:absolute;
-	left:0;
-	top:0;
-	height:	48px;
-	width:auto;
-	z-index:1;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 48px;
+	width: auto;
+	z-index: 1;
 	transform: translateX(-50%);
 	transition: all 2s ease-in-out;
-	border:none;
-    font-size:1px;
+	border: none;
+	font-size: 1px;
 }
 
 .progressChart .run .event.fastforward::before {
- 	content:'';
-	border-left:3px solid rgba(0,0,0,.5);
-	height:1em;
-	position:absolute;
-	left:0;
-	bottom:100%;
+	content: '';
+	border-left: 3px solid rgba(0, 0, 0, .5);
+	height: 1em;
+	position: absolute;
+	left: 0;
+	bottom: 100%;
 }
 
 .progressChart .run .event.fastforward::after {
-    position: absolute;
-    left:0;
-    bottom:calc(100% + 1em);
-    content:'\f04b\f04b';
-    letter-spacing: -.25em;
-    font-family: FontAwesome;
-    color:rgba(0,0,0,1);;
-    transform: translateX(-45%);
+	position: absolute;
+	left: 0;
+	bottom: calc(100% + 1em);
+	content: '\f04b\f04b';
+	letter-spacing: -.25em;
+	font-family: FontAwesome;
+	color: rgba(0, 0, 0, 1);
+	;
+	transform: translateX(-45%);
 }
 
 .progressChart .run .event.modeswitches {
-    background-color:rgba(0,0,0,.5);
+	background-color: rgba(0, 0, 0, .5);
 }
 
-.progressChart .run .event[data-label]:hover::before, .progressChart .run .run:hover::before {
-	content:'';
-	border-left:3px solid black;
-	height:1em;
-	position:absolute;
-	left:0;
-	bottom:100%;
-	z-index:6;
+.progressChart .run .event[data-label]:hover::before,
+.progressChart .run .run:hover::before {
+	content: '';
+	border-left: 3px solid black;
+	height: 1em;
+	position: absolute;
+	left: 0;
+	bottom: 100%;
+	z-index: 6;
 }
-.progressChart .run .event[data-label]:hover::after, .progressChart .run .run:hover::after, .progressChart .run .videos a .playhead:after, .tooltip:after {
-	content:attr(data-label);
-	margin-bottom:1em;
-	font-size:.75em;
-	background-color:goldenrod;
-	border:2px solid black;
-	color:black;
+
+.progressChart .run .event[data-label]:hover::after,
+.progressChart .run .run:hover::after,
+.progressChart .run .videos a .playhead:after,
+.tooltip:after {
+	content: attr(data-label);
+	margin-bottom: 1em;
+	font-size: .75em;
+	background-color: goldenrod;
+	border: 2px solid black;
+	color: black;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	text-align: center;
 	position: absolute;
-	left:0;
-	bottom:100%;
-	z-index:6;
-	padding:.1em .5em;
+	left: 0;
+	bottom: 100%;
+	z-index: 6;
+	padding: .1em .5em;
 	white-space: pre;
 	transform: translateX(-50%);
-    letter-spacing: 0;
-/*}
+	letter-spacing: 0;
+	/*}
 
 .progressChart .run .event[data-label].hosts:hover:after {*/
-	font-size:1em;
+	font-size: 1em;
 	font-family: pokeplatinum, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	line-height: .9em;
 }
 
-.progressChart .run .run:hover::before, .progressChart .run .run:hover::after {
-    left:50%;
+.progressChart .run .run:hover::before,
+.progressChart .run .run:hover::after {
+	left: 50%;
 }
 
-.progressChart .run .run.ongoing:hover::before, .progressChart .run .run.ongoing:hover::after {
-    left:-2px;
+.progressChart .run .run.ongoing:hover::before,
+.progressChart .run .run.ongoing:hover::after {
+	left: -2px;
 }
 
 .progressChart .run .event.champions img,
 .progressChart .run .event.elitefour img,
 .progressChart .run .event.elitefourrematch img,
-.progressChart .run .event.pasthosts img ,
+.progressChart .run .event.pasthosts img,
 .progressChart .run .event.bosses img,
 .progressChart .run .event.finalbosses img {
-	height:70px;
-	top:-15px;
+	height: 70px;
+	top: -15px;
 }
 
-.progressChart .run .event.pasthosts img, .progressChart .run .event.flip img {
-    transform: translateX(-50%) rotateY(180deg);
+.progressChart .run .event.pasthosts img,
+.progressChart .run .event.flip img {
+	transform: translateX(-50%) rotateY(180deg);
 }
 
-.progressChart .run .event.missions img, .progressChart .run#orasspecialdemo .event.champions img {
-	height:40px;
-	top:5px;
+.progressChart .run .event.missions img,
+.progressChart .run#orasspecialdemo .event.champions img {
+	height: 40px;
+	top: 5px;
 }
 
 .progressChart .run .event.square img {
-	height:48px;
-	top:0;
+	height: 48px;
+	top: 0;
 }
 
 .progressChart .run .event .extra {
 	position: absolute;
-	left:0;
-	bottom:100%;
+	left: 0;
+	bottom: 100%;
 	transform: translateX(-50%);
-	z-index:7;
+	z-index: 7;
 }
 
-.progressChart .run .event:not(:hover) .extra, .progressChart .run .event .extra.hidden {
-	display:none;
+.progressChart .run .event:not(:hover) .extra,
+.progressChart .run .event .extra.hidden {
+	display: none;
 }
 
 .progressChart .run .event.hosts img {
-	height:90px;
-    top:-30px;
+	height: 90px;
+	top: -30px;
 }
 
-.progressChart .run.squarehost .event.hosts:first-of-type img, .progressChart .event.hosts.squarehost img {
-    height:50px;
-    top:50%;
-    transform:translateY(-55%) translateX(-50%);
+.progressChart .run.squarehost .event.hosts:first-of-type img,
+.progressChart .event.hosts.squarehost img {
+	height: 50px;
+	top: 50%;
+	transform: translateY(-55%) translateX(-50%);
 }
 
 .progressChart .run .event.hosts:first-of-type img {
-	left:-14px;
+	left: -14px;
 }
 
 .progressChart .run .event.hosts:first-of-type {
-	left:-1px!important;
+	left: -1px !important;
 }
 
 .progressChart .run .event.hosts:first-of-type:hover {
-    background:none;
-}
-.progressChart .run .event.hosts:hover:first-of-type:before {
-	display:none;
-}
-.progressChart .run .event.hosts:hover:first-of-type:after {
-	top:100%;
-	margin-bottom:0;
-	bottom:auto;
-	left:-14px;
+	background: none;
 }
 
-.progressChart .run .event.hosts ~ .event.hosts:hover:after {
-    content:"New Host\A" attr(data-label);
+.progressChart .run .event.hosts:hover:first-of-type:before {
+	display: none;
+}
+
+.progressChart .run .event.hosts:hover:first-of-type:after {
+	top: 100%;
+	margin-bottom: 0;
+	bottom: auto;
+	left: -14px;
+}
+
+.progressChart .run .event.hosts~.event.hosts:hover:after {
+	content: "New Host\A" attr(data-label);
 }
 
 .progressChart .run .run .event img {
-    transform:scale(.75) translateX(-75%);
+	transform: scale(.75) translateX(-75%);
 }
 
-.progressChart .run .run .event.hosts img, .progressChart .run .run .event.hosts:hover::after {
-    left:14px;
+.progressChart .run .run .event.hosts img,
+.progressChart .run .run .event.hosts:hover::after {
+	left: 14px;
 }
 
 .progressChart .run .event.halloffame img {
-	height:20px;
-	top:-20px;
+	height: 20px;
+	top: -20px;
 	z-index: 3;
 }
 
 .progressChart .run .event.pokemon {
-	z-index:3;
+	z-index: 3;
 }
 
 .progressChart .run .event.pokemon img {
-    top:50%;
-	margin:0 -25%;
-    height:40px;
+	top: 50%;
+	margin: 0 -25%;
+	height: 40px;
 }
 
 .progressChart .run .event.pokesprite img {
-    font-size:40px;
-    height:0;
-    width:0;
-    padding:.5em;
-	top:50%;
-	margin:0 -25%;
+	font-size: 40px;
+	height: 0;
+	width: 0;
+	padding: .5em;
+	top: 50%;
+	margin: 0 -25%;
 	image-rendering: pixelated;
-    background-image:url("../img/pokemon.png");
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size:1em;
+	background-image: url("../img/pokemon.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 1em;
 }
 
-.progressChart .run .event.bosses.pokesprite img, .progressChart .run .event.missions.pokesprite img {
-    top: -8px;
-	font-size:64px;
+.progressChart .run .event.bosses.pokesprite img,
+.progressChart .run .event.missions.pokesprite img {
+	top: -8px;
+	font-size: 64px;
 	image-rendering: pixelated;
-    background-image:url("../img/pokemon-large.png");
+	background-image: url("../img/pokemon-large.png");
 }
 
 .progressChart .run.telefang .event.pokemon.pokesprite {
-    z-index:auto;
+	z-index: auto;
 }
 
 .progressChart .run.telefang .event.pokemon.pokesprite img {
-    font-size: 16px;
-    margin:10%;
-    transform: translateX(-45%);
-    background-image:url("../img/telefang/denjuu.png");
-    top: 75%;
-    z-index: 6;
+	font-size: 16px;
+	margin: 10%;
+	transform: translateX(-45%);
+	background-image: url("../img/telefang/denjuu.png");
+	top: 75%;
+	z-index: 6;
 }
 
 .progressChart .run.telefang .event.pokemon.pokesprite:hover img {
-    z-index: 7;
+	z-index: 7;
 }
 
 .progressChart .run.telefang .event.bosses.pokesprite img {
-    font-size: 64px;
-    background-image:url("../img/telefang/denjuu-large.gif");
+	font-size: 64px;
+	background-image: url("../img/telefang/denjuu-large.gif");
 }
 
 .progressChart .run.animorphs .event.pokemon.pokesprite img {
-    font-size: 16px;
-    margin:10%;
-    transform: translateX(-45%);
-    background-image:url("../img/animorphs/anisprites.gif");
-    top: 75%;
-    z-index: 6;
+	font-size: 16px;
+	margin: 10%;
+	transform: translateX(-45%);
+	background-image: url("../img/animorphs/anisprites.gif");
+	top: 75%;
+	z-index: 6;
 }
 
 .progressChart .run.robopon .event.pokemon.pokesprite img {
-    font-size: 64px;
-    top:10%;
-    transform: translateX(-50%) scale(.6);
-    background-image:url("../img/robopon/robopon.gif");
-    background-position: -20px -1110px;
-    background-size:auto;
+	font-size: 64px;
+	top: 10%;
+	transform: translateX(-50%) scale(.6);
+	background-image: url("../img/robopon/robopon.gif");
+	background-position: -20px -1110px;
+	background-size: auto;
 }
 
 .progressChart .run .event img[src="img/trainers/crystal/azure.gif"] {
-    transform:translateX(-35%);
+	transform: translateX(-35%);
 }
 
 .progressChart .run .event:hover {
-	z-index:5;
-	background-color:rgba(0,0,0,.5);
+	z-index: 5;
+	background-color: rgba(0, 0, 0, .5);
 }
 
 .progressChart .run .run {
-    position:absolute;
-    top:-2px;
+	position: absolute;
+	top: -2px;
 }
 
-.progressChart .run.hidden, .progressChart.hidden {
+.progressChart .run.hidden,
+.progressChart.hidden {
 	display: none;
 }
 
-.progressChart .run .event.hidden, .progressChart .run .videos.hidden {
+.progressChart .run .event.hidden,
+.progressChart .run .videos.hidden {
 	pointer-events: none;
-    opacity: 0;
+	opacity: 0;
 }
 
-.progressChart > .dual-run.run {
-	margin-bottom:0!important;
-}
-.progressChart > .dual-run + .dual-run.run {
-	margin-bottom:50px!important;
-}
-.progressChart > .dual-run.run + .dual-run.run.hasVideos {
-	margin-bottom:75px!important;
-}
-.progressChart > .dual-run + .dual-run.run:hover::before {
-	bottom:-1.5em;
-	top:auto;
+.progressChart>.dual-run.run {
+	margin-bottom: 0 !important;
 }
 
-.progressChart > .dual-run:not(.shared-dex).run .event.pokemon.pokesprite img {
+.progressChart>.dual-run+.dual-run.run {
+	margin-bottom: 50px !important;
+}
+
+.progressChart>.dual-run.run+.dual-run.run.hasVideos {
+	margin-bottom: 75px !important;
+}
+
+.progressChart>.dual-run+.dual-run.run:hover::before {
+	bottom: -1.5em;
+	top: auto;
+}
+
+.progressChart>.dual-run:not(.shared-dex).run .event.pokemon.pokesprite img {
 	top: -50%;
 }
-.progressChart > .dual-run + .dual-run.run .event.pokemon.pokesprite img {
+
+.progressChart>.dual-run+.dual-run.run .event.pokemon.pokesprite img {
 	top: 50%;
 }
-.progressChart > .dual-run.shared-dex + .dual-run.shared-dex .event.pokemon.pokesprite img {
+
+.progressChart>.dual-run.shared-dex+.dual-run.shared-dex .event.pokemon.pokesprite img {
 	top: -50%;
 	display: none;
 }
 
-.progressChart  .touhoumon.run .event.pokemon.pokesprite img {
-	background-image:url("../img/touhoumon-small.png");
+.progressChart .touhoumon.run .event.pokemon.pokesprite img {
+	background-image: url("../img/touhoumon-small.png");
 }
 
-.progressChart  .moemon.run .event.pokemon.pokesprite img {
-	background-image:url("../img/moemon-small.png");
+.progressChart .moemon.run .event.pokemon.pokesprite img {
+	background-image: url("../img/moemon-small.png");
 }
 
-.progressChart  .navyblue.run .event.pokemon.pokesprite img {
-	background-image:url("../img/navyblue-small.png");
+.progressChart .navyblue.run .event.pokemon.pokesprite img {
+	background-image: url("../img/navyblue-small.png");
 }
 
-.progressChart  .sweet.run .event.pokemon.pokesprite img {
-	background-image:url("../img/candyland-small.png");
+.progressChart .sweet.run .event.pokemon.pokesprite img {
+	background-image: url("../img/candyland-small.png");
 }
-.progressChart  .sirius.run .event.pokemon.pokesprite img {
-	background-image:url("../img/sirius-small.png");
+
+.progressChart .sirius.run .event.pokemon.pokesprite img {
+	background-image: url("../img/sirius-small.png");
 }
-.progressChart  .vega.run .event.pokemon.pokesprite img {
-	background-image:url("../img/vega-small.png");
+
+.progressChart .vega.run .event.pokemon.pokesprite img {
+	background-image: url("../img/vega-small.png");
 }
-.progressChart  .dbzteamtraining.run .event.pokemon.pokesprite img {
-	background-image:url("../img/fighters-small.png");
+
+.progressChart .dbzteamtraining.run .event.pokemon.pokesprite img {
+	background-image: url("../img/fighters-small.png");
 }
-.progressChart  .blazingemerald.run .event.pokemon.pokesprite img {
-	background-image:url("../img/blazing-small.png");
+
+.progressChart .blazingemerald.run .event.pokemon.pokesprite img {
+	background-image: url("../img/blazing-small.png");
 }
 
 .progressChart .tradingcardgame .innertradingcardgame .event {
-    display: none;
+	display: none;
 }
 
-.progressChart .tradingcardgame .event.elitefour img, .progressChart .tradingcardgame2theinvasionofteamgr .event.elitefour img {
-    height:48px;
-    top:0;
+.progressChart .tradingcardgame .event.elitefour img,
+.progressChart .tradingcardgame2theinvasionofteamgr .event.elitefour img {
+	height: 48px;
+	top: 0;
 }
 
-.progressChart .harvestmoongbc .event.hosts img, .progressChart .harvestmoongbc2 .event.hosts img {
-    transform: translateX(-30%);
+.progressChart .harvestmoongbc .event.hosts img,
+.progressChart .harvestmoongbc2 .event.hosts img {
+	transform: translateX(-30%);
 }
 
 .pixel-art img {
-	image-rendering: pixelated!important;
+	image-rendering: pixelated !important;
 }
 
 @media print {
-    body {
-        -webkit-print-color-adjust: exact;
-        background: #fff!important;
-        color: #000;
-        margin: 0px;
-    }
-    .controls {
-        display: none;
-    }
-    .charts {
-        transform: scale(.6, .6);
-        margin-left:-25%;
-    }
-    .progressChart {
-        page-break-after: always;
-    }
-    .progressChart .run .videos {
-        display:none!important;
-    }
-    .progressChart .run.hasVideos {
-        margin-bottom: 50px!important;
-    }
+	body {
+		-webkit-print-color-adjust: exact;
+		background: #fff !important;
+		color: #000;
+		margin: 0px;
+	}
+
+	.controls {
+		display: none;
+	}
+
+	.charts {
+		transform: scale(.6, .6);
+		margin-left: -25%;
+	}
+
+	.progressChart {
+		page-break-after: always;
+	}
+
+	.progressChart .run .videos {
+		display: none !important;
+	}
+
+	.progressChart .run.hasVideos {
+		margin-bottom: 50px !important;
+	}
 }
 
 .progressChart .run .videos {
-    transition: opacity 2s ease-in-out;
+	transition: opacity 2s ease-in-out;
 }
 
 .progressChart .run .videos a {
-    display: block;
-    position: absolute;
-    left:0;
-    bottom:-2em;
-    height:1em;
-    width:0;
-    background-color:#333333;
-    transition: all 2s ease-in-out;
-    z-index: 5;
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: -2em;
+	height: 1em;
+	width: 0;
+	background-color: #333333;
+	transition: all 2s ease-in-out;
+	z-index: 5;
 }
 
 .progressChart .run .videos a .playhead {
-    display:none;
-    position: absolute;
-    bottom:0;
-    left:0;
-    height:50px;
-    padding-top: 2.5em;
-    width:1px;
-    background-color: black;
+	display: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	padding-top: 2.5em;
+	width: 1px;
+	background-color: black;
 }
 
 .progressChart .run .videos a .playhead:after {
-    margin-bottom:0;
+	margin-bottom: 0;
 }
 
 .progressChart .run .videos a .playhead:before {
-    position: absolute;
-    font-family: FontAwesome;
-    top:0;
-    left:0;
-    font-weight: bold;
-    transform: translateX(-50%);
-    z-index:7;
-    text-shadow:1px 1px 0 white, -1px 1px 0 white, -1px -1px white, 1px -1px white;
+	position: absolute;
+	font-family: FontAwesome;
+	top: 0;
+	left: 0;
+	font-weight: bold;
+	transform: translateX(-50%);
+	z-index: 7;
+	text-shadow: 1px 1px 0 white, -1px 1px 0 white, -1px -1px white, 1px -1px white;
 }
 
 .progressChart .run .videos a:hover .playhead {
-    display:block;
+	display: block;
 }
 
 .progressChart .run .videos a.twitch {
-    /*background-color:#B9A3E3;*/
-    background-color: #6441A5;
-    color: #6441A5;
+	/*background-color:#B9A3E3;*/
+	background-color: #6441A5;
+	color: #6441A5;
 }
 
 .progressChart .run .videos a.twitch .playhead:before {
-    content:'\f1e8';
+	content: '\f1e8';
 }
 
 .progressChart .run.hasVideos {
-    margin-bottom: 75px;
+	margin-bottom: 75px;
 }
 
-.progressChart > .dual-run.run .videos {
-    display:none;
+.progressChart>.dual-run.run .videos {
+	display: none;
 }
 
-.progressChart > .dual-run + .dual-run.run .videos {
-	display:block;
+.progressChart>.dual-run+.dual-run.run .videos {
+	display: block;
 }
 
-.progressChart > .dual-run + .dual-run.run .videos a {
-    margin-bottom:-1em;
+.progressChart>.dual-run+.dual-run.run .videos a {
+	margin-bottom: -1em;
 }
 
-.progressChart > .dual-run + .dual-run.run .videos a .playhead {
-    height:100px;
-    padding-bottom:1em;
+.progressChart>.dual-run+.dual-run.run .videos a .playhead {
+	height: 100px;
+	padding-bottom: 1em;
 }
 
-.progressChart .run .event.pokemon ~ .videos a {
-    margin-bottom:-.5em;
+.progressChart .run .event.pokemon~.videos a {
+	margin-bottom: -.5em;
 }
 
-.progressChart .run .event.pokemon ~ .videos a .playhead {
-    padding-bottom:.5em;
+.progressChart .run .event.pokemon~.videos a .playhead {
+	padding-bottom: .5em;
 }
 
 .hallOfFameDisplay {
 	position: relative;
-	padding:.5em;
-	display:inline-block;
-	margin:auto;
-	background-color:goldenrod;
-	border:2px solid black;
-	color:black;
+	padding: .5em;
+	display: inline-block;
+	margin: auto;
+	background-color: goldenrod;
+	border: 2px solid black;
+	color: black;
 	text-align: center;
 }
 
-.hallOfFameDisplay + .hallOfFameDisplay {
-	margin-top:-2px;
+.hallOfFameDisplay+.hallOfFameDisplay {
+	margin-top: -2px;
 }
 
 .hallOfFameDisplay.extra {
 	display: none;
 	position: absolute;
-	margin:0;
+	margin: 0;
 	transform-origin: bottom;
-	transform:translateX(-50%)scale(.8)!important;
+	transform: translateX(-50%)scale(.8) !important;
 }
 
-.hallOfFameDisplay > img, .hallOfFameDisplay img.ribbon  {
+.hallOfFameDisplay>img,
+.hallOfFameDisplay img.ribbon {
 	position: absolute;
-	left:.5em;
-	top:.5em;
-	height:30px;
-	transform: none!important;
+	left: .5em;
+	top: .5em;
+	height: 30px;
+	transform: none !important;
 }
 
-.hallOfFameDisplay h3, .hallOfFameDisplay h4, .hallOfFameDisplay h5 {
-	margin:.25em;
+.hallOfFameDisplay h3,
+.hallOfFameDisplay h4,
+.hallOfFameDisplay h5 {
+	margin: .25em;
 }
 
-.hallOfFameDisplay h4, .hallOfFameDisplay h5 {
+.hallOfFameDisplay h4,
+.hallOfFameDisplay h5 {
 	position: absolute;
-	right:.5em;
-	top:.25em;
+	right: .5em;
+	top: .25em;
 }
 
 .hallOfFameDisplay h5 {
-	top:2em;
+	top: 2em;
 	font-size: .75em;
 }
 
 .hallOfFameDisplay table td {
-	background-color:rgba(255,255,255,.25);
-	border:.1em solid transparent;
+	background-color: rgba(255, 255, 255, .25);
+	border: .1em solid transparent;
 	text-align: center;
 	vertical-align: top;
 }
@@ -767,15 +818,15 @@ ul.controls > li > ul > li.selected > a:before {
 .hallOfFameDisplay .entry {
 	position: relative;
 	display: inline-block;
-	width:10em;
-	font-size:1em;
+	width: 10em;
+	font-size: 1em;
 	font-family: pokeplatinum, monospace;
 	height: 100%;
 	vertical-align: top;
 }
 
 .hallOfFameDisplay .entry.host {
-	width:8em;
+	width: 8em;
 }
 
 .hallOfFameDisplay .entry.host img {
@@ -789,157 +840,214 @@ ul.controls > li > ul > li.selected > a:before {
 
 .hallOfFameDisplay .entry .pokesprite img {
 	position: static;
-    height:0!important;
-    width:0!important;
-	transform: none!important;
-	font-size:64px;
-    padding:.5em;
-	margin:auto;
+	height: 0 !important;
+	width: 0 !important;
+	transform: none !important;
+	font-size: 64px;
+	padding: .5em;
+	margin: auto;
 	image-rendering: pixelated;
-    background-image:url("../img/pokemon-large.png");
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size:1em;
+	background-image: url("../img/pokemon-large.png");
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: 1em;
 }
 
 .hallOfFameDisplay .entry .pokesprite.shiny img {
-    background-image:url("../img/pokemon-large-shiny.png");
+	background-image: url("../img/pokemon-large-shiny.png");
 }
 
 .hallOfFameDisplay:not(.scarlet) .entry .pokesprite.female img {
-    background-image:url("../img/pokemon-large-female.png");
+	background-image: url("../img/pokemon-large-female.png");
 }
 
-.hallOfFameDisplay:not(.scarlet)  .entry .pokesprite.shiny.female img {
-    background-image:url("../img/pokemon-large-shiny-female.png");
+.hallOfFameDisplay:not(.scarlet) .entry .pokesprite.shiny.female img {
+	background-image: url("../img/pokemon-large-shiny-female.png");
 }
 
 .hallOfFameDisplay.touhoumon .entry .pokesprite img {
-	background-image:url("../img/touhoumon-large.png")!important;
+	background-image: url("../img/touhoumon-large.png") !important;
 }
 
 .hallOfFameDisplay.moemon .entry .pokesprite img {
-	background-image:url("../img/moemon-large.png")!important;
+	background-image: url("../img/moemon-large.png") !important;
 }
 
 .hallOfFameDisplay.sweet .entry .pokesprite img {
-	background-image:url("../img/candyland-large.png")!important;
+	background-image: url("../img/candyland-large.png") !important;
 }
 
 .hallOfFameDisplay.fusedcrystal .entry .pokesprite img {
-	background-image:url("../img/fusedcrystal-large.png")!important;
+	background-image: url("../img/fusedcrystal-large.png") !important;
 }
 
 .hallOfFameDisplay.navyblue .entry .pokesprite img {
-	background-image:url("../img/navyblue-large.png")!important;
+	background-image: url("../img/navyblue-large.png") !important;
 }
 
 .hallOfFameDisplay.sirius .entry .pokesprite img {
-	background-image:url("../img/sirius-large.png")!important;
+	background-image: url("../img/sirius-large.png") !important;
 }
 
 .hallOfFameDisplay.vega .entry .pokesprite img {
-	background-image:url("../img/vega-large.png")!important;
+	background-image: url("../img/vega-large.png") !important;
 }
 
 .hallOfFameDisplay.dbzteamtraining .entry .pokesprite img {
-	background-image:url("../img/fighters-large.png")!important;
+	background-image: url("../img/fighters-large.png") !important;
 }
 
 .hallOfFameDisplay.blazingemerald .entry .pokesprite img {
-	background-image:url("../img/blazing-large.png")!important;
+	background-image: url("../img/blazing-large.png") !important;
 }
 
-.hallOfFameDisplay .entry .info > * {
+.hallOfFameDisplay .entry .info>* {
 	text-align: center;
 	font-weight: bold;
 	white-space: pre-line;
 }
-.hallOfFameDisplay .entry .info > .name {
-	height:1.5em;
-	line-height:1.5em;
-	margin-bottom:.2em;
+
+.hallOfFameDisplay .entry .info>.name {
+	height: 1.5em;
+	line-height: 1.5em;
+	margin-bottom: .2em;
 }
-.hallOfFameDisplay .entry .info > *:not(.name) {
-	font-size:.9em
+
+.hallOfFameDisplay .entry .info>*:not(.name) {
+	font-size: .9em
 }
-.hallOfFameDisplay .entry .info > *:not(.name):before {
+
+.hallOfFameDisplay .entry .info>*:not(.name):before {
 	content: attr(data-entry)':';
-	font-size:.9em;
+	font-size: .9em;
 	font-weight: normal;
 }
 
 .hallOfFameDisplay .entry .level {
 	position: absolute;
-	left:.1em;
-	top:.1em;
+	left: .1em;
+	top: .1em;
 	font-weight: normal;
 }
 
 .hallOfFameDisplay .entry .level:before {
-	font-size:.8em;
-	content:"Lv.";
+	font-size: .8em;
+	content: "Lv.";
 }
 
 .hallOfFameDisplay .entry:before {
-	content:" ";
+	content: " ";
 	font-family: FontAwesome;
 	position: absolute;
-	right:.1em;
-	top:.1em;
-	width:1.5em;
+	right: .1em;
+	top: .1em;
+	width: 1.5em;
 	text-align: center;
 	font-weight: bold;
 }
 
 .hallOfFameDisplay .entry.female:before {
-	content:"";
-	color:darkmagenta;
+	content: "";
+	color: darkmagenta;
 }
 
 .hallOfFameDisplay .entry.male:before {
-	content:"";
-	color:darkblue;
+	content: "";
+	color: darkblue;
 }
 
 .hallOfFameDisplay.touhoumon .entry.female:before {
-	content:"☯";
-	transform:rotateZ(-90deg);
+	content: "☯";
+	transform: rotateZ(-90deg);
 }
 
 .hallOfFameDisplay.touhoumon .entry.male:before {
-	content:"☯";
-	transform:rotateZ(90deg);
+	content: "☯";
+	transform: rotateZ(90deg);
 }
 
 .hof-list {
-	font-size:1.2em;
+	font-size: 1.2em;
 }
 
-.hof-list > div > h2 {
-	margin-bottom:0;
+.hof-list>div>h2 {
+	margin-bottom: 0;
 	display: inline-block;
-	width:35em;
+	width: 35em;
 	text-align: left;
 }
 
-.top-half > img {
+.top-half>img {
 	mask-image: linear-gradient(50deg, transparent 0%, transparent 49%, black 51%, black 100%);
 	-webkit-mask-image: linear-gradient(50deg, transparent 0%, transparent 49%, black 51%, black 100%);
 }
-.bottom-half > img {
+
+.bottom-half>img {
 	mask-image: linear-gradient(230deg, transparent 0%, transparent 49%, black 51%, black 100%);
 	-webkit-mask-image: linear-gradient(230deg, transparent 0%, transparent 49%, black 51%, black 100%);
 }
 
-.Rematch img{
-	filter:sepia(1)saturate(3)brightness(1.1);
+.Rematch img {
+	filter: sepia(1)saturate(3)brightness(1.1);
 }
 
 .Rematch.Super img {
-	filter:sepia(1)saturate(3)brightness(1.1)grayscale(0.9);
+	filter: sepia(1)saturate(3)brightness(1.1)grayscale(0.9);
 }
 
 .Inverse img {
 	filter: hue-rotate(180deg);
+}
+
+@media (prefers-color-scheme: dark) {
+	.Inverse img {
+		filter: invert(100%);
+	}
+/*
+	body {
+		background-color: #333;
+		color: #AAA;
+	}
+
+	.credits a:link,
+	.credits a:visited,
+	.title a:link,
+	.title a:visited {
+		color: #BBB;
+	}
+
+	ul.controls>li>a {
+		color: #AAA !important;
+		text-shadow: 1px 1px 0 black, -1px 1px 0 black, -1px -1px black, 1px -1px black;
+	}
+
+	ul.controls>li>ul {
+		background-color: #444;
+		border-color: #666;
+	}
+
+	ul.controls>li>ul:before {
+		border-color: #666;
+		background-color: #444;
+	}
+
+	.progressChart {
+		border-color: #AAA;
+		background-color: #222;
+	}
+
+	.progressChart .ruler,
+	.progressChart .ruler .stop {
+		border-color: #AAA;
+	}
+
+	.progressChart .run {
+		border-color: gray;
+		background-color: #222;
+	}
+
+	.progressChart>.run[data-label]:hover::before {
+		text-shadow: 1px 1px 0 #333, -1px 1px 0 #333, -1px -1px #333, 1px -1px #333;
+	}
+	*/
 }
