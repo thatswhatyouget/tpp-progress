@@ -37,7 +37,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Badges", Name: "Mine Badge", Image: "img/badges/mine.png", Class: "Inverse",
-                Time: "", Attempts: 0
+                Time: "2023-03-14T00:59:42.253Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Icicle Badge", Image: "img/badges/icicle.png", Class: "Inverse",
@@ -152,7 +152,20 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Tangela", "Time": "2023-03-13T11:56:57.448Z" },
             { "Group": "Pokemon", "Name": "Wooper", "Time": "2023-03-13T12:03:35.328Z" },
             { "Group": "Pokemon", "Name": "Combee", "Time": "2023-03-13T14:04:02.934Z" },
-            { "Group": "Pokemon", "Name": "Machoke", "Time": "2023-03-13T15:12:43.305Z" }
+            { "Group": "Pokemon", "Name": "Machoke", "Time": "2023-03-13T15:12:43.305Z" },
+            { "Group": "Pokemon", "Name": "Golduck", "Time": "2023-03-13T16:48:12.337Z" },
+            { "Group": "Pokemon", "Name": "Medicham", "Time": "2023-03-13T17:51:31.595Z" },
+            { "Group": "Pokemon", "Name": "Skorupi", "Time": "2023-03-13T17:59:52.536Z" },
+            { "Group": "Pokemon", "Name": "Barboach", "Time": "2023-03-13T19:23:55.461Z" },
+            { "Group": "Pokemon", "Name": "Magnemite", "Time": "2023-03-13T19:42:54.613Z" },
+            { "Group": "Pokemon", "Name": "Magmar", "Time": "2023-03-13T19:57:57.860Z" },
+            { "Group": "Pokemon", "Name": "Gastrodon", "Time": "2023-03-13T20:21:08.109Z" },
+            { "Group": "Pokemon", "Name": "Mr. Mime", "Time": "2023-03-13T21:38:49.750Z" },
+            { "Group": "Pokemon", "Name": "Steelix", "Time": "2023-03-13T23:07:03.116Z" },
+            { "Group": "Pokemon", "Name": "Roserade", "Time": "2023-03-14T00:27:45.799Z" },
+            { "Group": "Pokemon", "Name": "Tentacruel", "Time": "2023-03-14T01:14:41.273Z" },
+            { "Group": "Pokemon", "Name": "Rhydon", "Time": "2023-03-14T01:34:10.143Z" },
+            { "Group": "Pokemon", "Name": "Rhyperior", "Time": "2023-03-14T01:36:39.905Z" }
         ]
     }
 );
