@@ -25,18 +25,18 @@ namespace TPP.Controllers {
                 $("html").addClass("kiosk");
                 document.body.scrollTop = 0;
                 const scrollDuration = this.queryString["scrollDuration"] ? parseFloat(this.queryString["scrollDuration"]) : 60;
-                const scrollWait = this.queryString["scrollWait"] ? parseFloat(this.queryString["scrollWait"]) : 10
-                const $body = $("body").css("transition", `transform ease-in-out ${scrollDuration}s`);
+                const scrollWait = this.queryString["scrollWait"] ? parseFloat(this.queryString["scrollWait"]) : 10;
+                // const $body = $("body").css("transition", `transform ease-in-out ${scrollDuration}s`);
+                // (function animateScroll() {
+                //     setTimeout(() => {
+                //         $body.css("transform", `translateY(-100%)`);
+                //         setTimeout(() => $body.css("transform", "translateY(0)"), scrollDuration * 1000);
+                //         setTimeout(animateScroll, scrollDuration * 2 * 1000);
+                //     }, scrollWait * 1000)
+                // })();
                 (function animateScroll() {
-                    setTimeout(() => {
-                        $body.css("transform", `translateY(-100%)`);
-                        setTimeout(() => $body.css("transform", "translateY(0)"), scrollDuration * 1000);
-                        setTimeout(animateScroll, scrollDuration * 2 * 1000);
-                    }, scrollWait * 1000)
+                    setTimeout(() => $("body").animate({ scrollTop: document.body.scrollHeight - window.screen.height }, scrollDuration * 1000, () => $("body").animate({ scrollTop: 0 }, scrollDuration * 1000, () => animateScroll())), scrollWait * 1000);
                 })();
-                // (function animateScroll(duration: number, wait: number) {
-                //     setTimeout(() => $("body").animate({ scrollTop: document.body.scrollHeight - window.screen.height }, duration, () => $("body").animate({ scrollTop: 0 }, duration, () => animateScroll(duration, wait))), wait);
-                // })(scrollDuration * 1000, scrollWait * 1000);
             }
         }
 
