@@ -1,5 +1,5 @@
 html {
-    filter: grayscale(100%) brightness(80%) contrast(150%);
+    filter: grayscale(100%) brightness(120%) contrast(150%);
 }
 
 body {
@@ -33,6 +33,15 @@ body {
     background: none !important;
 }
 
+.pokemon-hud ul.party > li.fainted {
+    filter: contrast(0%);
+    opacity: 1;
+}
+
+i.tpp {
+    filter: contrast(0%);
+}
+
 .pokemon-hud.pc-box ul.party {
     font-size: 12px;
 }
@@ -42,14 +51,14 @@ body {
     border: 1px dotted #999;
 }
 
-@media screen and (width: 640px) and (height: 480px) {
+@media screen and (width: 720px) and (height: 480px) {
     html.kiosk {
         width: 1024px;
         height: 768px;
-        transform: scale(.625);
+        transform: scale(.7);
         transform-origin: top left;
         position: absolute;
-        overflow: auto;
+        overflow: hidden;
         left: 0;
         top: 0;
         padding: 10px;

@@ -23,9 +23,20 @@ namespace TPP.Controllers {
                 $("body").append(`<link rel="stylesheet" href="css/monochrome.css" />`);
             if (this.queryString["kiosk"]) {
                 $("html").addClass("kiosk");
-                (function animateScroll(duration: number, wait: number) {
-                    setTimeout(() => $("body").animate({ scrollTop: document.body.scrollHeight - window.screen.height }, duration, () => $("body").animate({ scrollTop: 0 }, duration, () => animateScroll(duration, wait))), wait);
-                })(this.queryString["scrollDuration"] ? parseFloat(this.queryString["scrollDuration"]) * 1000 : 60000, this.queryString["scrollWait"] ? parseFloat(this.queryString["scrollWait"]) * 1000 : 10000);
+                document.body.scrollTop = 0;
+                const scrollDuration = this.queryString["scrollDuration"] ? parseFloat(this.queryString["scrollDuration"]) : 60;
+                const scrollWait = this.queryString["scrollWait"] ? parseFloat(this.queryString["scrollWait"]) : 10
+                const $body = $("body").css("transition", `transform ease-in-out ${scrollDuration}s`);
+                (function animateScroll() {
+                    setTimeout(() => {
+                        $body.css("transform", `translateY(-100%)`);
+                        setTimeout(() => $body.css("transform", "translateY(0)"), scrollDuration * 1000);
+                        setTimeout(animateScroll, scrollDuration * 2 * 1000);
+                    }, scrollWait * 1000)
+                })();
+                // (function animateScroll(duration: number, wait: number) {
+                //     setTimeout(() => $("body").animate({ scrollTop: document.body.scrollHeight - window.screen.height }, duration, () => $("body").animate({ scrollTop: 0 }, duration, () => animateScroll(duration, wait))), wait);
+                // })(scrollDuration * 1000, scrollWait * 1000);
             }
         }
 
