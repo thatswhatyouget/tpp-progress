@@ -19,6 +19,14 @@ namespace TPP.Controllers {
         constructor(data: Collection[]) {
             this.tppData = Transforms.Data.Clone(data);
             this.queryString = QueryString;
+            if (this.queryString["monochrome"])
+                $("body").append(`<link rel="stylesheet" href="css/monochrome.css" />`);
+            if (this.queryString["kiosk"]) {
+                $("html").addClass("kiosk");
+                (function animateScroll(duration: number, wait: number) {
+                    setTimeout(() => $("body").animate({ scrollTop: document.body.scrollHeight - window.screen.height }, duration, () => $("body").animate({ scrollTop: 0 }, duration, () => animateScroll(duration, wait))), wait);
+                })(this.queryString["scrollDuration"] ? parseFloat(this.queryString["scrollDuration"]) * 1000 : 60000, this.queryString["scrollWait"] ? parseFloat(this.queryString["scrollWait"]) * 1000 : 10000);
+            }
         }
 
         cleanString = Display.cleanString;

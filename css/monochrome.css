@@ -1,0 +1,58 @@
+html {
+    filter: grayscale(100%) brightness(80%) contrast(150%);
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.credits a:link,
+.credits a:visited,
+.title a:link,
+.title a:visited {
+    color: white;
+}
+
+.pokeBorder {
+    background-color: black;
+}
+
+.pokeBorder:before,
+.pokeBorder:after,
+.pokeBorder .border {
+    filter: invert(100%);
+}
+
+.Inverse img {
+    filter: invert(100%);
+}
+
+.pokemon-hud ul.party>li .pokemon-image,
+.pokemon-hud.pc-box ul.party>li {
+    background: none !important;
+}
+
+.pokemon-hud.pc-box ul.party {
+    font-size: 12px;
+}
+
+.dexEntry {
+    background-color: transparent !important;
+    border: 1px dotted #999;
+}
+
+@media screen and (width: 640px) and (height: 480px) {
+    html.kiosk {
+        width: 1024px;
+        height: 768px;
+        transform: scale(.625);
+        transform-origin: top left;
+        position: absolute;
+        overflow: auto;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}

@@ -1051,3 +1051,8 @@ ul.controls>li>ul>li.selected>a:before {
 	}
 	*/
 }
+
+.kiosk ul.controls,
+.kiosk body>.title {
+    display: none;
+}
