@@ -41,7 +41,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Badges", Name: "Icicle Badge", Image: "img/badges/icicle.png", Class: "Inverse",
-                Time: "", Attempts: 0
+                Time: "2023-03-14T15:39:16.297Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png", Class: "Inverse",
@@ -165,7 +165,19 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Roserade", "Time": "2023-03-14T00:27:45.799Z" },
             { "Group": "Pokemon", "Name": "Tentacruel", "Time": "2023-03-14T01:14:41.273Z" },
             { "Group": "Pokemon", "Name": "Rhydon", "Time": "2023-03-14T01:34:10.143Z" },
-            { "Group": "Pokemon", "Name": "Rhyperior", "Time": "2023-03-14T01:36:39.905Z" }
+            { "Group": "Pokemon", "Name": "Rhyperior", "Time": "2023-03-14T01:36:39.905Z" },
+            { "Group": "Pokemon", "Name": "Tentacool", "Time": "2023-03-14T03:52:46.079Z" },
+            { "Group": "Pokemon", "Name": "Sudowoodo", "Time": "2023-03-14T08:19:13.892Z" },
+            { "Group": "Pokemon", "Name": "Kadabra", "Time": "2023-03-14T11:45:44.871Z" },
+            { "Group": "Pokemon", "Name": "Abra", "Time": "2023-03-14T11:52:40.305Z" },
+            { "Group": "Pokemon", "Name": "Pichu", "Time": "2023-03-14T12:07:43.011Z" },
+            { "Group": "Pokemon", "Name": "Pikachu", "Time": "2023-03-14T12:10:25.697Z" },
+            { "Group": "Pokemon", "Name": "Raichu", "Time": "2023-03-14T12:22:13.956Z" },
+            { "Group": "Pokemon", "Name": "Nosepass", "Time": "2023-03-14T12:53:46.655Z" },
+            { "Group": "Pokemon", "Name": "Golbat", "Time": "2023-03-14T13:38:38.016Z" },
+            { "Group": "Pokemon", "Name": "Snover", "Time": "2023-03-14T13:51:34.260Z" },
+            { "Group": "Pokemon", "Name": "Sneasel", "Time": "2023-03-14T14:02:07.119Z" },
+            { "Group": "Pokemon", "Name": "Swinub", "Time": "2023-03-14T14:49:41.521Z" }
         ]
     }
 );
