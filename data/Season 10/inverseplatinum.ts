@@ -45,7 +45,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png", Class: "Inverse",
-                Time: "", Attempts: 0
+                Time: "2023-03-15T04:22:04.302Z", Attempts: 1
             },
             {
                 Group: "Elite Four", Name: "Aaron", Image: "img/trainers/platinum/aaron.png",
@@ -177,7 +177,15 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Golbat", "Time": "2023-03-14T13:38:38.016Z" },
             { "Group": "Pokemon", "Name": "Snover", "Time": "2023-03-14T13:51:34.260Z" },
             { "Group": "Pokemon", "Name": "Sneasel", "Time": "2023-03-14T14:02:07.119Z" },
-            { "Group": "Pokemon", "Name": "Swinub", "Time": "2023-03-14T14:49:41.521Z" }
+            { "Group": "Pokemon", "Name": "Swinub", "Time": "2023-03-14T14:49:41.521Z" },
+            { "Group": "Pokemon", "Name": "Clefairy", "Time": "2023-03-14T20:39:54.139Z" },
+            { "Group": "Pokemon", "Name": "Bronzong", "Time": "2023-03-14T20:51:38.668Z" },
+            { "Group": "Pokemon", "Name": "Aipom", "Time": "2023-03-14T21:17:15.347Z" },
+            { "Group": "Pokemon", "Name": "Abomasnow", "Time": "2023-03-14T21:57:54.786Z" },
+            { "Group": "Pokemon", "Name": "Dusclops", "Time": "2023-03-15T00:13:23.549Z" },
+            { "Group": "Pokemon", "Name": "Azelf", "Time": "2023-03-15T02:23:46.248Z" },
+            { "Group": "Pokemon", "Name": "Electabuzz", "Time": "2023-03-15T03:11:39.904Z" },
+            { "Group": "Pokemon", "Name": "Luxio", "Time": "2023-03-15T03:15:16.749Z" }
         ]
     }
 );
