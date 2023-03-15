@@ -49,34 +49,34 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Aaron", Image: "img/trainers/platinum/aaron.png",
-                Time: "", Attempts: 0
+                Time: "2023-03-15T14:23:30.667Z", Attempts: 1
             },
             {
                 Group: "Elite Four", Name: "Bertha", Image: "img/trainers/platinum/bertha.png",
-                Time: "", Attempts: 0
+                Time: "2023-03-15T14:30:34.332Z", Attempts: 1
             },
             {
                 Group: "Elite Four", Name: "Flint", Image: "img/trainers/platinum/flint.png",
-                Time: "", Attempts: 0
+                Time: "2023-03-15T15:05:43.059Z", Attempts: 2
             },
             {
                 Group: "Elite Four", Name: "Lucian", Image: "img/trainers/platinum/lucian.png",
-                Time: "", Attempts: 0
+                Time: "2023-03-15T15:37:26.246Z", Attempts: 2
             },
             {
                 Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
                 Time: "", Attempts: 0
             },
-            <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "26840", Attempts: 0, Party: [
-                    // { Pokemon: "Magcargo", Nickname: "oouooobbc ", Level: 88, Gender: "Female", Met: "Route 206", OT: "Kr " },
-                    // { Pokemon: "Manaphy", Nickname: "GAMYPI SSB", Level: 95, Met: "Trophy Garden", OT: "Kr " },
-                    // { Pokemon: "Infernape", Nickname: "MONKE", Level: 80, Gender: "Male", Met: "Sandgem Town", OT: "Kr " },
-                    // { Pokemon: "Rotom", Nickname: "JOmJFrOIDe", Level: 81, Met: "Old Chateau", OT: "Kr ", Form: "Wash" },
-                    // { Pokemon: "Metagross", Nickname: "GPWWERZ!: ", Level: 78, Met: "Oreburgh City", OT: "Kr " },
-                    // { Pokemon: "Meganium", Nickname: "STPPBWG", Level: 78, Gender: "Male", Met: "Floaroma Town", OT: "Kr " },
+            <TPP.HallOfFame>{ 
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "26840", Attempts: 4, Party: [
+                    { Pokemon: "Roserade", Nickname: "O \u263aR0BAA4B", Level: 57, Gender: "Male", Met: "Route 204", OT: ".      " },
+                    { Pokemon: "Medicham", Nickname: "Crshoigtd", Level: 51, Gender: "Male", Met: "Route 211", OT: ".      " },
+                    { Pokemon: "Lickilicky", Nickname: "E #!? %\u265a(", Level: 50, Gender: "Male", Met: "Route 215", OT: ".      " },
+                    { Pokemon: "Rhyperior", Nickname: ";aozbbpp  ", Level: 49, Gender: "Male", Met: "Route 214", OT: ".      " },
+                    { Pokemon: "Scyther", Nickname: "NCZEUSELET", Level: 54, Gender: "Male", Met: "Route 210", OT: ".      " },
+                    { Pokemon: "Floatzel", Nickname: "\u265b\u263d\u2197\u2197\u263d", Level: 52, Gender: "Male", Met: "Valley Windworks", OT: ".      " },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "3d 17h 20m 2s", //Maybe?
                 Image: "img/ribbons/champion-sinnoh.png"
             },
             {
@@ -185,7 +185,14 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Dusclops", "Time": "2023-03-15T00:13:23.549Z" },
             { "Group": "Pokemon", "Name": "Azelf", "Time": "2023-03-15T02:23:46.248Z" },
             { "Group": "Pokemon", "Name": "Electabuzz", "Time": "2023-03-15T03:11:39.904Z" },
-            { "Group": "Pokemon", "Name": "Luxio", "Time": "2023-03-15T03:15:16.749Z" }
+            { "Group": "Pokemon", "Name": "Luxio", "Time": "2023-03-15T03:15:16.749Z" },
+            { "Group": "Pokemon", "Name": "Pelipper", "Time": "2023-03-15T05:08:12.455Z" },
+            { "Group": "Pokemon", "Name": "Uxie", "Time": "2023-03-15T06:30:23.273Z" },
+            { "Group": "Pokemon", "Name": "Magikarp", "Time": "2023-03-15T07:11:38.280Z" },
+            { "Group": "Pokemon", "Name": "Feebas", "Time": "2023-03-15T08:44:05.205Z" },
+            { "Group": "Pokemon", "Name": "Gabite", "Time": "2023-03-15T12:30:49.032Z" },
+            { "Group": "Pokemon", "Name": "Magneton", "Time": "2023-03-15T12:51:17.398Z" },
+            { "Group": "Pokemon", "Name": "Azumarill", "Time": "2023-03-15T13:17:29.026Z" }
         ]
     }
 );
