@@ -65,16 +65,16 @@ Season10.Runs.push(
             },
             {
                 Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
-                Time: "", Attempts: 0
+                Time: "2023-03-15T23:49:07.314Z", Attempts: 4
             },
-            <TPP.HallOfFame>{ 
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "26840", Attempts: 4, Party: [
-                    { Pokemon: "Roserade", Nickname: "O \u263aR0BAA4B", Level: 57, Gender: "Male", Met: "Route 204", OT: ".      " },
-                    { Pokemon: "Medicham", Nickname: "Crshoigtd", Level: 51, Gender: "Male", Met: "Route 211", OT: ".      " },
-                    { Pokemon: "Lickilicky", Nickname: "E #!? %\u265a(", Level: 50, Gender: "Male", Met: "Route 215", OT: ".      " },
-                    { Pokemon: "Rhyperior", Nickname: ";aozbbpp  ", Level: 49, Gender: "Male", Met: "Route 214", OT: ".      " },
-                    { Pokemon: "Scyther", Nickname: "NCZEUSELET", Level: 54, Gender: "Male", Met: "Route 210", OT: ".      " },
-                    { Pokemon: "Floatzel", Nickname: "\u265b\u263d\u2197\u2197\u263d", Level: 52, Gender: "Male", Met: "Valley Windworks", OT: ".      " },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-03-15T23:50:00Z", IDNo: "26840", Attempts: 12, Party: [
+                    { Pokemon: "Roserade", Nickname: "O \u263aR0BAA4B", Level: 72, Gender: "Male", Met: "Route 204", OT: ".      " },
+                    { Pokemon: "Medicham", Nickname: "Crshoigtd", Level: 55, Gender: "Male", Met: "Route 211", OT: ".      " },
+                    { Pokemon: "Floatzel", Nickname: "\u265b\u263d\u2197\u2197\u263d", Level: 55, Gender: "Male", Met: "Valley Windworks", OT: ".      " },
+                    { Pokemon: "Rhyperior", Nickname: ";aozbbpp  ", Level: 56, Gender: "Male", Met: "Route 214", OT: ".      " },
+                    { Pokemon: "Scyther", Nickname: "NCZEUSELET", Level: 57, Gender: "Male", Met: "Route 210", OT: ".      " },
+                    { Pokemon: "Lickilicky", Nickname: "E #!? %\u265a(", Level: 53, Gender: "Male", Met: "Route 215", OT: ".      " },
                 ],
                 FirstAttemptDate: "3d 17h 20m 2s", //Maybe?
                 Image: "img/ribbons/champion-sinnoh.png"
