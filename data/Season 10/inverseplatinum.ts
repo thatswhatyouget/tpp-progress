@@ -81,11 +81,11 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four Rematch", Class: "Rematch", Name: "Aaron", Image: "img/trainers/platinum/aaron.png",
-                Time: "", Attempts: 0
+                Time: "2023-03-17T02:49:36.336Z", Attempts: 1
             },
             {
                 Group: "Elite Four Rematch", Class: "Rematch", Name: "Bertha", Image: "img/trainers/platinum/bertha.png",
-                Time: "", Attempts: 0
+                Time: "2023-03-17T02:57:38.829Z", Attempts: 1
             },
             {
                 Group: "Elite Four Rematch", Class: "Rematch", Name: "Flint", Image: "img/trainers/platinum/flint.png",
@@ -99,7 +99,18 @@ Season10.Runs.push(
                 Group: "Champions", Class: "Rematch", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
                 Time: "", Attempts: 0
             },
-
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "26840", Attempts: 1, Party: [
+                    { Pokemon: "Roserade", Nickname: "O \u263aR0BAA4B", Level: 72, Gender: "Male", Met: "Route 204", OT: ".      " },
+                    { Pokemon: "Medicham", Nickname: "Crshoigtd", Level: 55, Gender: "Male", Met: "Route 211", OT: ".      " },
+                    { Pokemon: "Floatzel", Nickname: "\u265b\u263d\u2197\u2197\u263d", Level: 55, Gender: "Male", Met: "Valley Windworks", OT: ".      " },
+                    { Pokemon: "Rhyperior", Nickname: ";aozbbpp  ", Level: 56, Gender: "Male", Met: "Route 214", OT: ".      " },
+                    { Pokemon: "Scyther", Nickname: "NCZEUSELET", Level: 57, Gender: "Male", Met: "Route 210", OT: ".      " },
+                    { Pokemon: "Lickilicky", Nickname: "E #!? %\u265a(", Level: 53, Gender: "Male", Met: "Route 215", OT: ".      " },
+                ],
+                FirstAttemptDate: "2023-03-17T02:42:38.793Z",
+                Image: "img/ribbons/champion-sinnoh.png"
+            },
             {
                 Group: "Rematch Badges", Name: "Coal Badge", Image: "img/badges/coal.png", Class: "Rematch",
                 Time: "", Attempts: 1
@@ -261,8 +272,12 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Magcargo", "Time": "2023-03-16T23:35:16.374Z" },
             { "Group": "Pokemon", "Name": "Weezing", "Time": "2023-03-16T23:50:55.942Z" },
             { "Group": "Pokemon", "Name": "Koffing", "Time": "2023-03-17T00:02:40.481Z" },
-            { "Group": "Pokemon", "Name": "Camerupt", "Time": "2023-03-17T00:54:09.035Z" }
-
+            { "Group": "Pokemon", "Name": "Camerupt", "Time": "2023-03-17T00:54:09.035Z" },
+            { "Group": "Pokemon", "Name": "Sableye", "Time": "2023-03-17T07:23:06.736Z" },
+            { "Group": "Pokemon", "Name": "Riolu", "Time": "2023-03-17T12:55:42.100Z" },
+            { "Group": "Pokemon", "Name": "Moltres", "Time": "2023-03-17T14:27:48.946Z" },
+            { "Group": "Pokemon", "Name": "Cresselia", "Time": "2023-03-17T15:07:50.714Z" },
+            { "Group": "Pokemon", "Name": "Mesprit", "Time": "2023-03-17T18:08:28.016Z" }
         ]
     }
 );
