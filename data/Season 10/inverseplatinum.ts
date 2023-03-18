@@ -11,8 +11,8 @@ Season10.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/mr8l1r/kristopher_von_karma_the_clockwork_poketch/",
         Region: "Sinnoh",
         Generation: 4,
-        Pokedex: "Enhanced Sinnoh",
-        FromNatDex: true,
+        // Pokedex: "Enhanced Sinnoh",
+        // FromNatDex: true,
         // FinalStateLink: "./states/Season 10/inverseplatinum.json",
         Events: [
             {
