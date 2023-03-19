@@ -89,31 +89,31 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four Rematch", Class: "Rematch", Name: "Flint", Image: "img/trainers/platinum/flint.png",
-                Time: "", Attempts: 0
+                Time: "2023-03-18T08:37:41.228Z", Attempts: 2
             },
             {
                 Group: "Elite Four Rematch", Class: "Rematch", Name: "Lucian", Image: "img/trainers/platinum/lucian.png",
-                Time: "", Attempts: 0
+                Time: "2023-03-19T05:06:35.216Z", Attempts: 4
             },
             {
                 Group: "Champions", Class: "Rematch", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
-                Time: "", Attempts: 0
+                Time: "2023-03-19T05:17:31.915Z", Attempts: 1
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "26840", Attempts: 1, Party: [
-                    { Pokemon: "Roserade", Nickname: "O \u263aR0BAA4B", Level: 72, Gender: "Male", Met: "Route 204", OT: ".      " },
-                    { Pokemon: "Medicham", Nickname: "Crshoigtd", Level: 55, Gender: "Male", Met: "Route 211", OT: ".      " },
-                    { Pokemon: "Floatzel", Nickname: "\u265b\u263d\u2197\u2197\u263d", Level: 55, Gender: "Male", Met: "Valley Windworks", OT: ".      " },
-                    { Pokemon: "Rhyperior", Nickname: ";aozbbpp  ", Level: 56, Gender: "Male", Met: "Route 214", OT: ".      " },
-                    { Pokemon: "Scyther", Nickname: "NCZEUSELET", Level: 57, Gender: "Male", Met: "Route 210", OT: ".      " },
-                    { Pokemon: "Lickilicky", Nickname: "E #!? %\u265a(", Level: 53, Gender: "Male", Met: "Route 215", OT: ".      " },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-03-19T05:18:00Z", IDNo: "26840", Attempts: 5, Party: [
+                    { Pokemon: "Roserade", Nickname: "O \u263aR0BAA4B", Level: 76, Gender: "Male", Met: "Route 204", OT: ".      " },
+                    { Pokemon: "Zapdos", Nickname: "VOLTJA", Level: 68, Met: "Route 205", OT: ".      " },
+                    { Pokemon: "Azelf", Nickname: "SPOON", Level: 62, Met: "Valor Cavern", OT: ".      " },
+                    { Pokemon: "Porygon-Z", Nickname: "PEOK", Level: 75, Met: "Veilstone City", OT: ".      " },
+                    { Pokemon: "Rhyperior", Nickname: ";aozbbpp  ", Level: 59, Gender: "Male", Met: "Route 214", OT: ".      " },
+                    { Pokemon: "Floatzel", Nickname: "\u265b\u263d\u2197\u2197\u263d", Level: 60, Gender: "Male", Met: "Valley Windworks", OT: ".      " },
                 ],
                 FirstAttemptDate: "2023-03-17T02:42:38.793Z",
                 Image: "img/ribbons/champion-sinnoh.png"
             },
             {
                 Group: "Rematch Badges", Name: "Coal Badge", Image: "img/badges/coal.png", Class: "Rematch",
-                Time: "", Attempts: 1
+                Time: "2023-03-19T00:26:58.014Z", Attempts: 1
             },
             {
                 Group: "Rematch Badges", Name: "Forest Badge", Image: "img/badges/forest.png", Class: "Rematch",
@@ -129,7 +129,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Rematch Badges", Name: "Relic Badge", Image: "img/badges/relic.png", Class: "Rematch",
-                Time: "", Attempts: 1
+                Time: "2023-03-18T02:38:39.686Z", Attempts: 1
             },
             {
                 Group: "Rematch Badges", Name: "Mine Badge", Image: "img/badges/mine.png", Class: "Rematch",
@@ -137,7 +137,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Rematch Badges", Name: "Icicle Badge", Image: "img/badges/icicle.png", Class: "Rematch",
-                Time: "", Attempts: 1
+                Time: "2023-03-18T02:42:58.338Z", Attempts: 1
             },
             {
                 Group: "Rematch Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png", Class: "Rematch",
@@ -277,7 +277,11 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Riolu", "Time": "2023-03-17T12:55:42.100Z" },
             { "Group": "Pokemon", "Name": "Moltres", "Time": "2023-03-17T14:27:48.946Z" },
             { "Group": "Pokemon", "Name": "Cresselia", "Time": "2023-03-17T15:07:50.714Z" },
-            { "Group": "Pokemon", "Name": "Mesprit", "Time": "2023-03-17T18:08:28.016Z" }
+            { "Group": "Pokemon", "Name": "Mesprit", "Time": "2023-03-17T18:08:28.016Z" },
+            //TODO: Add Pal Park mons
+            { "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2023-03-17T20:46:21.553Z" },
+            { "Group": "Pokemon", "Name": "Crobat", "Time": "2023-03-18T07:01:26.673Z" },
+            { "Group": "Pokemon", "Name": "Gallade", "Time": "2023-03-18T09:44:06.671Z" },
         ]
     }
 );
