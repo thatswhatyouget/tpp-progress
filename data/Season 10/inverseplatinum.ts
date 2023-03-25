@@ -68,7 +68,7 @@ Season10.Runs.push(
                 Time: "2023-03-15T23:49:07.314Z", Attempts: 4
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-03-15T23:50:00Z", IDNo: "26840", Attempts: 12, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-03-15T23:50:59Z", IDNo: "26840", Attempts: 12, Party: [
                     { Pokemon: "Roserade", Nickname: "O \u263aR0BAA4B", Level: 72, Gender: "Male", Met: "Route 204", OT: ".      " },
                     { Pokemon: "Medicham", Nickname: "Crshoigtd", Level: 55, Gender: "Male", Met: "Route 211", OT: ".      " },
                     { Pokemon: "Floatzel", Nickname: "\u265b\u263d\u2197\u2197\u263d", Level: 55, Gender: "Male", Met: "Valley Windworks", OT: ".      " },
@@ -100,7 +100,7 @@ Season10.Runs.push(
                 Time: "2023-03-19T05:17:31.915Z", Attempts: 1
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-03-19T05:18:00Z", IDNo: "26840", Attempts: 5, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-03-19T05:19:47Z", IDNo: "26840", Attempts: 5, Party: [
                     { Pokemon: "Roserade", Nickname: "O \u263aR0BAA4B", Level: 76, Gender: "Male", Met: "Route 204", OT: ".      " },
                     { Pokemon: "Zapdos", Nickname: "VOLTJA", Level: 68, Met: "Route 205", OT: ".      " },
                     { Pokemon: "Azelf", Nickname: "SPOON", Level: 62, Met: "Valor Cavern", OT: ".      " },
@@ -109,6 +109,42 @@ Season10.Runs.push(
                     { Pokemon: "Floatzel", Nickname: "\u265b\u263d\u2197\u2197\u263d", Level: 60, Gender: "Male", Met: "Valley Windworks", OT: ".      " },
                 ],
                 FirstAttemptDate: "2023-03-17T02:42:38.793Z",
+                Image: "img/ribbons/champion-sinnoh.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-03-19T20:10:14Z", IDNo: "26840", Attempts: 1, Party: [
+                    { Pokemon: "Roserade", Nickname: "O \u263aR0BAA4B", Level: 78, Gender: "Male", Met: "Route 204", OT: ".      " },
+                    { Pokemon: "Zapdos", Nickname: "VOLTJA", Level: 70, Met: "Route 205", OT: ".      " },
+                    { Pokemon: "Azelf", Nickname: "SPOON", Level: 63, Met: "Valor Cavern", OT: ".      " },
+                    { Pokemon: "Rhyperior", Nickname: ";aozbbpp  ", Level: 60, Gender: "Male", Met: "Route 214", OT: ".      " },
+                    { Pokemon: "Floatzel", Nickname: "\u265b\u263d\u2197\u2197\u263d", Level: 60, Gender: "Male", Met: "Valley Windworks", OT: ".      " },
+                    { Pokemon: "Porygon-Z", Nickname: "PEOK", Level: 76, Met: "Veilstone City", OT: ".      " },
+                ],
+                FirstAttemptDate: "2023-03-19T19:39:21.422Z",
+                Image: "img/ribbons/champion-sinnoh.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-03-20T06:36:47Z", IDNo: "26840", Attempts: 1, Party: [
+                    { Pokemon: "Azelf", Nickname: "SPOON", Level: 66, Met: "Valor Cavern", OT: ".      " },
+                    { Pokemon: "Porygon-Z", Nickname: "PEOK", Level: 79, Met: "Veilstone City", OT: ".      " },
+                    { Pokemon: "Roserade", Nickname: "O \u263aR0BAA4B", Level: 79, Gender: "Male", Met: "Route 204", OT: ".      " },
+                    { Pokemon: "Milotic", Nickname: "Samantha", Level: 39, Gender: "Male", Met: "Mt. Coronet", OT: ".      " },
+                    { Pokemon: "Uxie", Nickname: "A. . …%\u265aF", Level: 70, Met: "Acuity Cavern", OT: ".      " },
+                    { Pokemon: "Tropius", Nickname: "BFF", Level: 30, Gender: "Male", Met: "Great Marsh", OT: ".      " },
+                ],
+                FirstAttemptDate: "2023-03-20T06:12:41.187Z",
+                Image: "img/ribbons/champion-sinnoh.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-03-21T03:29:31Z", IDNo: "26840", Attempts: 2, Party: [
+                    { Pokemon: "Roserade", Nickname: "O \u263aR0BAA4B", Level: 81, Gender: "Male", Met: "Route 204", OT: ".      " },
+                    { Pokemon: "Azelf", Nickname: "SPOON", Level: 67, Met: "Valor Cavern", OT: ".      " },
+                    { Pokemon: "Porygon-Z", Nickname: "PEOK", Level: 82, Met: "Veilstone City", OT: ".      " },
+                    { Pokemon: "Zapdos", Nickname: "VOLTJA", Level: 72, Met: "Route 205", OT: ".      " },
+                    { Pokemon: "Chatot", Nickname: "tppLUL", Level: 25, Gender: "Male", Met: "Route 213", OT: ".      " },
+                    { Pokemon: "Steelix", Nickname: "PEELIX", Level: 43, Gender: "Male", Shiny: true, Met: "Victory Road", OT: ".      " },
+                ],
+                FirstAttemptDate: "2023-03-21T02:14:10.711Z",
                 Image: "img/ribbons/champion-sinnoh.png"
             },
             {
