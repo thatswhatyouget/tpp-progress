@@ -13,7 +13,7 @@ Season10.Runs.push(
         Generation: 4,
         // Pokedex: "Enhanced Sinnoh",
         // FromNatDex: true,
-        // FinalStateLink: "./states/Season 10/inverseplatinum.json",
+        FinalStateLink: "./states/Season 10/inverseplatinum.json",
         Events: [
             {
                 Group: "Badges", Name: "Coal Badge", Image: "img/badges/coal.png", Class: "Inverse",
