@@ -46,7 +46,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Siebold", Image: "img/trainers/x/siebold.png",
-                Time: "", Attempts: 0
+                Time: "2023-04-14T19:10:54.941Z", Attempts: 1
             },
             {
                 Group: "Elite Four", Name: "Malva", Image: "img/trainers/x/malva.png",
@@ -54,7 +54,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Drasna", Image: "img/trainers/x/drasna.png",
-                Time: "", Attempts: 0
+                Time: "2023-04-14T18:57:32.205Z", Attempts: 1
             },
             {
                 Group: "Elite Four", Name: "Wikstrom", Image: "img/trainers/x/wikstrom.png",
@@ -73,7 +73,7 @@ Season10.Runs.push(
                     // { Pokemon: "Ducklett", Nickname: "dfuucck", Level: 61, Gender: "Female" },
                     // { Pokemon: "Clawitzer", Nickname: "8d b9 ’bmp m", Level: 56, Gender: "Female" },
                 ],
-                FirstAttemptDate: "2020-05-07T11:06:41.329Z",
+                FirstAttemptDate: "2023-04-14T18:47:03.177Z",
                 Image: "img/ribbons/champion-kalos.png"
             },
             {
