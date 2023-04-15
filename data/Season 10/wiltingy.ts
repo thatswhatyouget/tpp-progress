@@ -50,7 +50,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Malva", Image: "img/trainers/x/malva.png",
-                Time: "", Attempts: 0
+                Time: "2023-04-14T21:40:33.924Z", Attempts: 2
             },
             {
                 Group: "Elite Four", Name: "Drasna", Image: "img/trainers/x/drasna.png",
@@ -58,7 +58,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Wikstrom", Image: "img/trainers/x/wikstrom.png",
-                Time: "", Attempts: 0
+                Time: "2023-04-14T21:08:48.045Z", Attempts: 2
             },
             {
                 Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png",
@@ -424,7 +424,17 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Azumarill", "Time": "2023-04-14T12:54:10.942Z" },
             { "Group": "Pokemon", "Name": "Golduck", "Time": "2023-04-14T13:10:21.171Z" },
             { "Group": "Pokemon", "Name": "Diggersby", "Time": "2023-04-14T13:19:00.846Z" },
-            { "Group": "Pokemon", "Name": "Bibarel", "Time": "2023-04-14T13:21:13.477Z" }
+            { "Group": "Pokemon", "Name": "Bibarel", "Time": "2023-04-14T13:21:13.477Z" },
+            { "Group": "Pokemon", "Name": "Deoxys", "Time": "2023-04-14T14:52:39.602Z" },
+            { "Group": "Pokemon", "Name": "Gyarados", "Time": "2023-04-14T15:06:09.606Z" },
+            { "Group": "Pokemon", "Name": "Zweilous", "Time": "2023-04-14T17:16:30.584Z" },
+            { "Group": "Pokemon", "Name": "Wailmer", "Time": "2023-04-14T19:28:54.245Z" },
+            { "Group": "Pokemon", "Name": "Wingull", "Time": "2023-04-14T19:36:04.207Z" },
+            { "Group": "Pokemon", "Name": "Gengar", "Time": "2023-04-14T23:59:23.887Z" },
+            { "Group": "Pokemon", "Name": "Arceus", "Time": "2023-04-15T00:51:53.817Z" },
+            { "Group": "Pokemon", "Name": "Zekrom", "Time": "2023-04-15T01:16:29.462Z" },
+            { "Group": "Pokemon", "Name": "Reshiram", "Time": "2023-04-15T01:41:13.800Z" },
+            { "Group": "Pokemon", "Name": "Victini", "Time": "2023-04-15T02:17:52.750Z" }
         ]
     }
 );
