@@ -62,16 +62,16 @@ Season10.Runs.push(
             },
             {
                 Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png",
-                Time: "", Attempts: 0
+                Time: "2023-04-15T16:25:02.067Z", Attempts: 2
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
-                    // { Pokemon: "Heliolisk", Nickname: "Herrrdliopr", Level: 78, Gender: "Male" },
-                    // { Pokemon: "Aurorus", Nickname: "Amééépura2", Level: 77, Gender: "Male" },
-                    // { Pokemon: "Mothim", Nickname: "Moth", Level: 70, Gender: "Male" },
-                    // { Pokemon: "Goodra", Nickname: "R6", Level: 65, Gender: "Male" },
-                    // { Pokemon: "Ducklett", Nickname: "dfuucck", Level: 61, Gender: "Female" },
-                    // { Pokemon: "Clawitzer", Nickname: "8d b9 ’bmp m", Level: 56, Gender: "Female" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-04-15T16:26:22.629Z", Attempts: 10, Party: [
+                    { Pokemon: "Yveltal", Nickname: "SEPHIROTH", Level: 97 },
+                    { Pokemon: "Greninja", Nickname: "!!iyy\u00e9\u00e9\u00e9roff", Level: 98, Gender: "Male" },
+                    { Pokemon: "Electivire", Nickname: "EleSHha!A\ue08e\ue08e", Level: 100, Gender: "Male" },
+                    { Pokemon: "Magmortar", Nickname: "Magtwo", Level: 99, Gender: "Female" },
+                    { Pokemon: "Pinsir", Nickname: "PIKACHU", Level: 95, Gender: "Female" },
+                    { Pokemon: "Dragalge", Nickname: "MadeInAbyss\ue092", Level: 99, Gender: "Female" },
                 ],
                 FirstAttemptDate: "2023-04-14T18:47:03.177Z",
                 Image: "img/ribbons/champion-kalos.png"
@@ -95,6 +95,18 @@ Season10.Runs.push(
             {
                 Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png", Class: "Rematch",
                 Time: "", Attempts: 0
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 1, Party: [
+                    { Pokemon: "Yveltal", Nickname: "SEPHIROTH", Level: 97 },
+                    { Pokemon: "Greninja", Nickname: "!!iyy\u00e9\u00e9\u00e9roff", Level: 98, Gender: "Male" },
+                    { Pokemon: "Electivire", Nickname: "EleSHha!A\ue08e\ue08e", Level: 100, Gender: "Male" },
+                    { Pokemon: "Magmortar", Nickname: "Magtwo", Level: 99, Gender: "Female" },
+                    { Pokemon: "Pinsir", Nickname: "PIKACHU", Level: 95, Gender: "Female" },
+                    { Pokemon: "Dragalge", Nickname: "MadeInAbyss\ue092", Level: 99, Gender: "Female" },
+                ],
+                FirstAttemptDate: "2023-04-15T17:05:39.551Z",
+                Image: "img/ribbons/champion-kalos.png"
             },
 
             { "Group": "Pokemon", "Name": "Froakie", "Time": "2023-04-08T21:10:10.779Z" },
@@ -434,7 +446,10 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Arceus", "Time": "2023-04-15T00:51:53.817Z" },
             { "Group": "Pokemon", "Name": "Zekrom", "Time": "2023-04-15T01:16:29.462Z" },
             { "Group": "Pokemon", "Name": "Reshiram", "Time": "2023-04-15T01:41:13.800Z" },
-            { "Group": "Pokemon", "Name": "Victini", "Time": "2023-04-15T02:17:52.750Z" }
+            { "Group": "Pokemon", "Name": "Victini", "Time": "2023-04-15T02:17:52.750Z" },
+            { "Group": "Pokemon", "Name": "Conkeldurr", "Time": "2023-04-15T10:02:50.506Z" },
+            { "Group": "Pokemon", "Name": "Golem", "Time": "2023-04-15T10:15:47.414Z" },
+            { "Group": "Pokemon", "Name": "Giratina", "Time": "2023-04-15T10:36:10.867Z" }
         ]
     }
 );
