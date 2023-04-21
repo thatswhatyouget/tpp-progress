@@ -82,7 +82,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four Rematch", Name: "Siebold", Image: "img/trainers/x/siebold.png", Class: "Rematch",
-                Time: "", Attempts: 0
+                Time: "2023-04-20T23:04:48.248Z", Attempts: 2
             },
             {
                 Group: "Elite Four Rematch", Name: "Malva", Image: "img/trainers/x/malva.png", Class: "Rematch",
