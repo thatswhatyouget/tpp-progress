@@ -54733,7 +54733,7 @@
               "gender_ratio": 0,
               "growth_rate": "Medium Slow",
               "id": 32,
-              "name": "Nidoran",
+              "name": "Nidoran\u2642",
               "national_dex": 32,
               "type1": "Poison",
               "type2": "Poison",
@@ -64439,7 +64439,7 @@
               "gender_ratio": 254,
               "growth_rate": "Medium Slow",
               "id": 29,
-              "name": "Nidoran",
+              "name": "Nidoran\u2640",
               "national_dex": 29,
               "type1": "Poison",
               "type2": "Poison",
@@ -64489,7 +64489,7 @@
               "cured": false
             },
             "ribbons": [],
-            "name": "Nidoran",
+            "name": "Nidoran\u2640",
             "moves": [
               {
                 "accuracy": 100,
@@ -103307,7 +103307,7 @@
               "gender_ratio": 0,
               "growth_rate": "Medium Slow",
               "id": 32,
-              "name": "Nidoran",
+              "name": "Nidoran\u2642",
               "national_dex": 32,
               "type1": "Poison",
               "type2": "Poison",
@@ -103354,7 +103354,7 @@
               "cured": false
             },
             "ribbons": [],
-            "name": "Nidoran",
+            "name": "Nidoran\u2642",
             "moves": [
               {
                 "accuracy": 100,
@@ -120341,7 +120341,7 @@
     },
     {
       "group": "Pokemon",
-      "name": "Nidoran",
+      "name": "Nidoran\u2642",
       "time": "2019-10-18T04:26:45.913Z"
     },
     {
@@ -120716,7 +120716,7 @@
     },
     {
       "group": "Pokemon",
-      "name": "Nidoran",
+      "name": "Nidoran\u2640",
       "time": "2019-10-19T07:36:33.02Z"
     },
     {

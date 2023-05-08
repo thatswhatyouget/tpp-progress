@@ -1305,7 +1305,7 @@
         },
         {
             "group": "Pokemon",
-            "name": "Nidoran\ue08f",
+            "name": "Nidoran\u2640",
             "time": "2020-08-09T10:37:53.215Z",
             "traded": true
         },
@@ -1317,7 +1317,7 @@
         },
         {
             "group": "Pokemon",
-            "name": "Nidoran\ue08e",
+            "name": "Nidoran\u2642",
             "time": "2020-08-09T10:42:23.292Z",
             "traded": true
         },
@@ -91432,7 +91432,7 @@
                                 "type": "Poison"
                             }
                         ],
-                        "name": "Nidoran\ue08e",
+                        "name": "Nidoran\u2642",
                         "nature": "Relaxed",
                         "next_move": {
                             "level": 6,

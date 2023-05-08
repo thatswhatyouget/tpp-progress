@@ -25256,7 +25256,7 @@
                             "gender_ratio": 0,
                             "growth_rate": "Medium Slow",
                             "id": 32,
-                            "name": "Nidoran",
+                            "name": "Nidoran\u2642",
                             "national_dex": 32,
                             "type1": "Poison",
                             "type2": "Poison",
@@ -51814,7 +51814,7 @@
         },
         {
             "group": "Pokemon",
-            "name": "Nidoran",
+            "name": "Nidoran\u2642",
             "time": "2022-10-18T05:42:59.038Z"
         },
         {
