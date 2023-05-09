@@ -4,13 +4,14 @@ Season10.Runs.push(
         RunName: "Wilting Y",
         ColorPrimary: "#e1002f",
         ColorSecondary: "gold",
-        Duration: "255d",
+        Duration: "2023-04-21T10:00:00Z",
         StartDate: "2023-04-08T21:00:00Z",
-        HostName: "",
+        HostName: "lthjittyy55o",
         HostImage: "img/hosts/266.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/9f0o9s/hall_of_fame_randomized_y/e5tt7ma/",
         Region: "Kalos",
         Generation: 6,
+        FinalStateLink: "./states/Season 10/wiltingy.json",
         Events: [
             {
                 Group: "Badges", Name: "Bug Badge", Image: "img/badges/bug.png",
@@ -77,7 +78,7 @@ Season10.Runs.push(
                 Image: "img/ribbons/champion-kalos.png"
             },
             {
-                Group: "Elite Four Rematch", Name: "Wikstrom", Image: "img/trainers/x/wikstrom.png",
+                Group: "Elite Four Rematch", Name: "Wikstrom", Image: "img/trainers/x/wikstrom.png", Class: "Rematch",
                 Time: "2023-04-20T22:31:01.739Z", Attempts: 1
             },
             {
@@ -94,15 +95,15 @@ Season10.Runs.push(
             },
             {
                 Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png", Class: "Rematch",
-                Time: "", Attempts: 0
+                Time: "2023-04-21T09:44:15.680Z", Attempts: 9
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 2, Party: [
-                    { Pokemon: "Aerodactyl", Nickname: "AMBER6", Gender: "Male", Level: 100 },
-                    { Pokemon: "Greninja", Nickname: "!!iyy\u00e9\u00e9\u00e9roff", Level: 100, Gender: "Male" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-04-21T09:44:35.680Z", Attempts: 11, Party: [
                     { Pokemon: "Electivire", Nickname: "EleSHha!A\ue08e\ue08e", Level: 100, Gender: "Male" },
-                    { Pokemon: "Dragalge", Nickname: "MadeInAbyss\ue092", Level: 100, Gender: "Female" },
+                    { Pokemon: "Greninja", Nickname: "!!iyy\u00e9\u00e9\u00e9roff", Level: 100, Gender: "Male" },
                     { Pokemon: "Pinsir", Nickname: "PIKACHU", Level: 100, Gender: "Female" },
+                    { Pokemon: "Dragalge", Nickname: "MadeInAbyss\ue092", Level: 100, Gender: "Female" },
+                    { Pokemon: "Aerodactyl", Nickname: "AMBER6", Gender: "Male", Level: 100 },
                     { Pokemon: "Magmortar", Nickname: "Magtwo", Level: 100, Gender: "Female" },
                 ],
                 FirstAttemptDate: "2023-04-15T17:05:39.551Z",
@@ -246,6 +247,7 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Misdreavus", "Time": "2023-04-10T12:58:34.360Z" },
             { "Group": "Pokemon", "Name": "Bronzor", "Time": "2023-04-10T13:29:17.348Z" },
             { "Group": "Pokemon", "Name": "Diancie", "Time": "2023-04-10T13:52:01.415Z" },
+            { "Group": "Pokemon", "Name": "Lucario", "Time": "2023-04-10T15:26:40.479Z" }, // Successor Korrina's rival
             { "Group": "Pokemon", "Name": "Mareep", "Time": "2023-04-10T15:44:13.064Z" },
             { "Group": "Pokemon", "Name": "Ponyta", "Time": "2023-04-10T15:48:10.633Z" },
             { "Group": "Pokemon", "Name": "Miltank", "Time": "2023-04-10T15:50:24.440Z" },

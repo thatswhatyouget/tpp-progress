@@ -4869,12 +4869,12 @@
         },
         {
             "group": "Pokemon",
-            "name": "Nidoran\ue08e",
+            "name": "Nidoran\u2642",
             "time": "2023-04-16T00:49:18.433Z"
         },
         {
             "group": "Pokemon",
-            "name": "Nidoran\ue08f",
+            "name": "Nidoran\u2640",
             "time": "2023-04-16T00:55:43.728Z"
         },
         {
@@ -54628,7 +54628,7 @@
                             "growth_rate": "Medium Slow",
                             "held_items": [],
                             "id": 32,
-                            "name": "Nidoran\ue08e",
+                            "name": "Nidoran\u2642",
                             "national_dex": 32,
                             "type1": "Poison",
                             "type2": "Poison"
@@ -61355,7 +61355,7 @@
                             "growth_rate": "Medium Slow",
                             "held_items": [],
                             "id": 29,
-                            "name": "Nidoran\ue08f",
+                            "name": "Nidoran\u2640",
                             "national_dex": 29,
                             "type1": "Poison",
                             "type2": "Poison"
