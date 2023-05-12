@@ -8,6 +8,7 @@ Season10.Runs.push(
         StartDate: "2023-05-13T21:00:00Z",
         HostName: "",
         // HostImage: "img/hosts/april.png",
+        BaseGame: "Emerald",
         Region: "Tyron",
         Pokedex: "Tyron",
         // FinalStateLink: "./states/Season 7/vega.json",

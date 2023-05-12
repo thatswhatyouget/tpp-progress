@@ -132,6 +132,10 @@
     background-image: url("../img/blazing-large.png")!important;
 }
 
+.digimonnovared .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/digimon-large.png")!important;
+}
+
 .ms .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/pokemon.png")!important;
 }
@@ -162,6 +166,10 @@
 
 .ms.dbzteamtraining .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/fighters-small.png")!important;
+}
+
+.ms.digimonnovared .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/digimon-small.png")!important;
 }
 
 .ms.blazingemerald .dexEntry .pokesprite:not(.missingno) img {

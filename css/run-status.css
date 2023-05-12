@@ -316,6 +316,10 @@
     background-image: url("../img/fighters-large.png")!important;
 }
 
+.digimonnovared .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img {
+    background-image: url("../img/digimon-large.png")!important;
+}
+
 .blazingemerald .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img {
     background-image: url("../img/blazing-large.png")!important;
 }

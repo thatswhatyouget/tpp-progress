@@ -1,4 +1,4 @@
-var dexClean = (d:any):string => (d || "").toString().replace(/♀/g,'F').replace(/♂/g,'M').replace(/\?/g,'-q').replace(/[^A-Z0-9-]/ig, '').toLowerCase();
+var dexClean = (d: any): string => (d || "").toString().replace(/♀/g, 'F').replace(/♂/g, 'M').replace(/\?/g, '-q').replace(/[^A-Z0-9-]/ig, '').toLowerCase();
 
 var exports = exports || {};
 exports.pokeStyles = [];
@@ -6,7 +6,7 @@ exports.pokeStyles = [];
 function defaultMapping(mapString: string = "") {
     if (mapString) mapString = "." + mapString.trim() + " ";
     return (entry: string, index: number) => {
-        if (!index || !entry) return "";
+        if (!index || !entry || typeof entry !== "string") return "";
         return mapString + ".pokesprite." + dexClean(entry) + " img { background-position: 0px -" + index + "em!important; }";
     }
 }
