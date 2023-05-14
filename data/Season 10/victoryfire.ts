@@ -23,7 +23,7 @@ Season10.Runs.push(
                 Group: "Badges",
                 Name: "Rising Badge",
                 Image: "img/badges/victoryfire/rising.png",
-                Time: "", Attempts: 0
+                Time: "2023-05-14T04:47:13.322Z", Attempts: 1
             },
             {
                 Group: "Badges",
