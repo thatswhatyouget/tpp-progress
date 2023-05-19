@@ -4,7 +4,7 @@ Season10.Runs.push(
         RunName: "Victory Fire",
         ColorPrimary: "#C53A21",
         ColorSecondary: "#E6D6B5",
-        Duration: "255d",
+        Duration: "2023-05-18T00:00:00Z", // more or less
         StartDate: "2023-05-13T21:00:00Z",
         HostName: "B",
         HostImage: "img/hosts/b2.png",
@@ -87,12 +87,12 @@ Season10.Runs.push(
             },
             {
                 Group: "Champions",
-                Name: "Sylvia",
-                Image: "img/trainers/vega/sylvia.png",
+                Name: "Jacob",
+                Image: "img/trainers/victoryfire/jacob.png",
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 4, Party: [
                 ],
                 FirstAttemptDate: "2023-05-15T20:13:28.365Z",
                 Image: "img/ribbons/champion.png"

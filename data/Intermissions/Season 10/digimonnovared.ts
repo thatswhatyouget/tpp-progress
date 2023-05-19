@@ -6,7 +6,8 @@ Intermissions.Runs.push(
         ColorPrimary: "#E67300",
         ColorSecondary: "#AD4200",
         StartDate: "2023-05-12T21:45:00Z",
-        Duration: "2023-05-13T20:30:00Z",
+        // Duration: "2023-05-13T20:30:00Z", (when Victory Fire started)
+        Duration: "255d", // Split everything after the time above into a revisit 
         HostName: "DDDJWV",
         HostImage: "img/hosts/pee.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/568gkg/the_ultra_crew_so_far_v_30/d8i7kwk",
