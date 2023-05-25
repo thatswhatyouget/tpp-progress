@@ -92,9 +92,15 @@ Season10.Runs.push(
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 4, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-05-15T22:52:52.883Z", IDNo: "62309", Attempts: 4, Party: [
+                    { Pokemon: "Golisopod", Nickname: "C2k♂♂vv", Level: 75, Gender: "Male", Number: 279, IDNo: "62309" },
+                    { Pokemon: "Wobbuffet", Nickname: "GG", Level: 77, Gender: "Male", Number: 202, IDNo: "62309" },
+                    { Pokemon: "Swoobat", Nickname: "ivta", Level: 82, Gender: "Male", Number: 47, IDNo: "62309" },
+                    { Pokemon: "Victini", Nickname: ",, v‘‘1YYY", Level: 68, Number: 385, IDNo: "62309" },
+                    { Pokemon: "Haxorus", Nickname: "dddkklffxx", Level: 77, Gender: "Male", Number: 295, IDNo: "62309" },
+                    { Pokemon: "Banette", Nickname: "ADeqkjjj", Level: 73, Gender: "Male", Number: 309, IDNo: "62309" },
                 ],
-                FirstAttemptDate: "2023-05-15T20:13:28.365Z",
+                FirstAttemptDate: "2023-05-15T20:13:27.007Z",
                 Image: "img/ribbons/champion.png"
             },
 
