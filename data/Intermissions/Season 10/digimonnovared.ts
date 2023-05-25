@@ -46,6 +46,18 @@ Intermissions.Runs.push(
                 Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "", Attempts: 0
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-05-20T03:39:45.092Z", IDNo: "32286", Attempts: 31, Party: [
+                    { Pokemon: "A.Mermaimo", Nickname: "AHNNNN", Level: 86, Gender: "Female", Number: 275, IDNo: "32286" },
+                    { Pokemon: "Gallantmon", Nickname: "C.Dukemon", Level: 68, Gender: "Male", Number: 83, IDNo: "32286" },
+                    { Pokemon: "Goldramon", Nickname: "loser", Level: 76, Number: 347, IDNo: "32286" },
+                    { Pokemon: "Lilithmon", Nickname: "VLA.", Level: 66, Gender: "Female", Number: 205, IDNo: "32286" },
+                    { Pokemon: "Ophanimon", Nickname: "NIA", Level: 74, Gender: "Female", Number: 41, IDNo: "32286" },
+                    { Pokemon: "WarGreymon", Nickname: " AOLLR", Level: 82, Gender: "Male", Number: 10, IDNo: "32286" },
+                ],
+                FirstAttemptDate: "2023-05-19T12:26:10.178Z",
+                Image: "img/ribbons/champion.png"
+            },
 
         ]
     }
