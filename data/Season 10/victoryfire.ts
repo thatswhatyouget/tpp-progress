@@ -92,11 +92,65 @@ Season10.Runs.push(
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 4, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-05-15T22:52:52.883Z", IDNo: "62309", Attempts: 4, Party: [
+                    { Pokemon: "Golisopod", Nickname: "C2k♂♂vv", Level: 75, Gender: "Male", Number: 279, IDNo: "62309" },
+                    { Pokemon: "Wobbuffet", Nickname: "GG", Level: 77, Gender: "Male", Number: 202, IDNo: "62309" },
+                    { Pokemon: "Swoobat", Nickname: "ivta", Level: 82, Gender: "Male", Number: 47, IDNo: "62309" },
+                    { Pokemon: "Victini", Nickname: ",, v‘‘1YYY", Level: 68, Number: 385, IDNo: "62309" },
+                    { Pokemon: "Haxorus", Nickname: "dddkklffxx", Level: 77, Gender: "Male", Number: 295, IDNo: "62309" },
+                    { Pokemon: "Banette", Nickname: "ADeqkjjj", Level: 73, Gender: "Male", Number: 309, IDNo: "62309" },
                 ],
-                FirstAttemptDate: "2023-05-15T20:13:28.365Z",
+                FirstAttemptDate: "2023-05-15T20:13:27.007Z",
                 Image: "img/ribbons/champion.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-05-17T01:27:22.393Z", IDNo: "62309", Attempts: 3, Party: [
+                    { Pokemon: "Victini", Nickname: ",, v‘‘1YYY", Level: 100, Number: 385, IDNo: "62309" },
+                    { Pokemon: "Wobbuffet", Nickname: "GG", Level: 100, Gender: "Male", Number: 202, IDNo: "62309" },
+                    { Pokemon: "Swoobat", Nickname: "ivta", Level: 100, Gender: "Male", Number: 47, IDNo: "62309" },
+                    { Pokemon: "Banette", Nickname: "ADeqkjjj", Level: 100, Gender: "Male", Number: 309, IDNo: "62309" },
+                    { Pokemon: "Haxorus", Nickname: "dddkklffxx", Level: 100, Gender: "Male", Number: 295, IDNo: "62309" },
+                    { Pokemon: "Golisopod", Nickname: "C2k♂♂vv", Level: 100, Gender: "Male", Number: 279, IDNo: "62309" },
+                ],
+                FirstAttemptDate: "2023-05-16T17:08:44.787Z",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-05-17T13:20:01.155Z", IDNo: "62309", Attempts: 3, Party: [
+                    { Pokemon: "Haxorus", Nickname: "dddkklffxx", Level: 100, Gender: "Male", Number: 295, IDNo: "62309" },
+                    { Pokemon: "Golisopod", Nickname: "C2k♂♂vv", Level: 100, Gender: "Male", Number: 279, IDNo: "62309" },
+                    { Pokemon: "Swoobat", Nickname: "ivta", Level: 100, Gender: "Male", Number: 47, IDNo: "62309" },
+                    { Pokemon: "Salazzle", Nickname: "AIOPo", Level: 86, Gender: "Female", Number: 168, IDNo: "62309" },
+                    { Pokemon: "Magnezone", Nickname: "o", Level: 85, Number: 83, IDNo: "62309" },
+                    { Pokemon: "Victini", Nickname: ",, v‘‘1YYY", Level: 100, Number: 385, IDNo: "62309" },
+                ],
+                FirstAttemptDate: "2023-05-16T10:02:32.375Z",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-05-17T20:36:10.281Z", IDNo: "62309", Attempts: 1, Party: [
+                    { Pokemon: "Haxorus", Nickname: "dddkklffxx", Level: 100, Gender: "Male", Number: 295, IDNo: "62309" },
+                    { Pokemon: "Magnezone", Nickname: "o", Level: 91, Number: 83, IDNo: "62309" },
+                    { Pokemon: "Victini", Nickname: ",, v‘‘1YYY", Level: 100, Number: 385, IDNo: "62309" },
+                    { Pokemon: "Banette", Nickname: "ADeqkjjj", Level: 100, Gender: "Male", Number: 309, IDNo: "62309" },
+                    { Pokemon: "Swoobat", Nickname: "ivta", Level: 100, Gender: "Male", Number: 47, IDNo: "62309" },
+                    { Pokemon: "Forretress", Nickname: "ABCDDKKLLS", Level: 61, Gender: "Male", Number: 205, IDNo: "62309" },
+                ],
+                FirstAttemptDate: "2023-05-17T19:57:15.528Z",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-05-18T03:57:12.873Z", IDNo: "62309", Attempts: 1, Party: [
+                    { Pokemon: "Haxorus", Nickname: "dddkklffxx", Level: 100, Gender: "Male", Number: 295, IDNo: "62309" },
+                    { Pokemon: "Wobbuffet", Nickname: "GG", Level: 100, Gender: "Male", Number: 202, IDNo: "62309" },
+                    { Pokemon: "Victini", Nickname: ",, v‘‘1YYY", Level: 100, Number: 385, IDNo: "62309" },
+                    { Pokemon: "Magnezone", Nickname: "o", Level: 91, Number: 83, IDNo: "62309" },
+                    { Pokemon: "Swoobat", Nickname: "ivta", Level: 100, Gender: "Male", Number: 47, IDNo: "62309" },
+                    { Pokemon: "Golisopod", Nickname: "C2k♂♂vv", Level: 100, Gender: "Male", Number: 279, IDNo: "62309" },
+                ],
+                FirstAttemptDate: "2023-05-18T03:19:22.004Z",
+                Image: "img/ribbons/champion.png"
+			},
 
             { "Group": "Pokemon", "Name": "Axew", "Time": "2023-05-13T21:18:06.621Z" },
             { "Group": "Pokemon", "Name": "Salandit", "Time": "2023-05-13T21:24:09.029Z" },
