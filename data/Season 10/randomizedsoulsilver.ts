@@ -94,7 +94,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Karen", Image: "img/trainers/heartgold/karen.png",
-                Time: "", Attempts: 0
+                Time: "2023-06-15T12:23:33.966Z", Attempts: 3
             },
             {
                 Group: "Champions", Name: "Lance", Image: "img/trainers/heartgold/lance.png",
@@ -123,13 +123,13 @@ Season10.Runs.push(
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, IDNo: "", Party: [
-                    // { Pokemon: "Skuntank", Nickname: "F2P", Level: 60, Gender: "Female", Met: "Sprout Tower", OT: "AAEFFFF" },
-                    // { Pokemon: "Farfetch'd", Nickname: "0011hIqU", Level: 55, Gender: "Female", Met: "Route 48", OT: "AAEFFFF" },
-                    // { Pokemon: "Lugia", Nickname: "r", Level: 58, Met: "Whirl Islands", OT: "AAEFFFF" },
-                    // { Pokemon: "Gastrodon", Nickname: "AAAAAAAAA", Level: 57, Gender: "Male", Met: "Slowpoke Well", OT: "AAEFFFF" },
-                    // { Pokemon: "Froslass", Nickname: "00      UU", Level: 68, Gender: "Female", Met: "Slowpoke Well", OT: "AAEFFFF" },
-                    // { Pokemon: "Typhlosion", Nickname: "222", Level: 82, Gender: "Male", Met: "New Bark Town", OT: "AAEFFFF" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, IDNo: "35110", Party: [
+                    { Pokemon: "Deoxys", Nickname: "WSPPACE DX", Level: 63, Met: "Route 44", OT: "11 CCvu" },
+                    { Pokemon: "Deoxys", Nickname: "?.,,", Level: 64, Met: "Route 36", OT: "11 CCvu" },
+                    { Pokemon: "Rotom", Nickname: "TOJIKO", Level: 63, Met: "Route 48", OT: "11 CCvu" },
+                    { Pokemon: "Machamp", Nickname: "A.       6", Level: 63, Gender: "Female", Met: "New Bark Town", OT: "11 CCvu" },
+                    { Pokemon: "Masquerain", Nickname: "OO LEXMMQE", Level: 62, Gender: "Female", Met: "Lake Of Rage", OT: "11 CCvu" },
+                    { Pokemon: "Lapras", Nickname: "DYUHEN6EQP", Level: 55, Gender: "Male", Met: "Lake Of Rage", OT: "11 CCvu", Shiny: true },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: ""
