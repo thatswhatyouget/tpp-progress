@@ -98,7 +98,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Champions", Name: "Lance", Image: "img/trainers/heartgold/lance.png",
-                Time: "", Attempts: 0
+                Time: "2023-06-15T13:10:38.661Z", Attempts: 2
             },
 
             {
@@ -123,16 +123,16 @@ Season10.Runs.push(
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, IDNo: "35110", Party: [
-                    { Pokemon: "Deoxys", Nickname: "WSPPACE DX", Level: 63, Met: "Route 44", OT: "11 CCvu" },
-                    { Pokemon: "Deoxys", Nickname: "?.,,", Level: 64, Met: "Route 36", OT: "11 CCvu" },
-                    { Pokemon: "Rotom", Nickname: "TOJIKO", Level: 63, Met: "Route 48", OT: "11 CCvu" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-06-15T13:11:00Z", Attempts: 14, IDNo: "35110", Party: [
+                    { Pokemon: "Deoxys", Nickname: "?.,,", Level: 65, Met: "Route 36", OT: "11 CCvu" },
+                    { Pokemon: "Masquerain", Nickname: "OO LEXMMQE", Level: 64, Gender: "Female", Met: "Lake of Rage", OT: "11 CCvu" },
+                    { Pokemon: "Rotom", Nickname: "TOJIKO", Level: 64, Met: "Route 48", OT: "11 CCvu" },
                     { Pokemon: "Machamp", Nickname: "A.       6", Level: 63, Gender: "Female", Met: "New Bark Town", OT: "11 CCvu" },
-                    { Pokemon: "Masquerain", Nickname: "OO LEXMMQE", Level: 62, Gender: "Female", Met: "Lake Of Rage", OT: "11 CCvu" },
-                    { Pokemon: "Lapras", Nickname: "DYUHEN6EQP", Level: 55, Gender: "Male", Met: "Lake Of Rage", OT: "11 CCvu", Shiny: true },
+                    { Pokemon: "Lapras", Nickname: "DYUHEN6EQP", Level: 56, Gender: "Male", Met: "Lake of Rage", OT: "11 CCvu", Shiny: true },
+                    { Pokemon: "Deoxys", Nickname: "WSPPACE DX", Level: 63, Met: "Route 44", OT: "11 CCvu" },
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate: ""
+                FirstAttemptDate: "4d 2h 53m 32s" // Drivebot
             },
 
             { "Group": "Pokemon", "Name": "Machop", "Time": "2023-06-10T12:08:41.859Z" },
