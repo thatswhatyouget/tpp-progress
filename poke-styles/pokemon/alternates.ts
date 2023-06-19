@@ -43,6 +43,9 @@ var alternates: Alternate[] = [
 
     new Alternate("unown", "T"),
 	
+    new Alternate("deoxys", "Attack"),
+    new Alternate("deoxys", "Defense"),
+
     new Alternate("rotom", "Fan"),
     new Alternate("rotom", "Frost"),
     new Alternate("rotom", "Heat"),

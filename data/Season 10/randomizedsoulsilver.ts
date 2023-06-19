@@ -115,11 +115,11 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four Rematch", Name: "Karen", Image: "img/trainers/heartgold/karen.png", Class: "Rematch",
-                Time: "", Attempts: 1
+                Time: "2023-06-18T21:06:23.348Z", Attempts: 3
             },
             {
                 Group: "Champions", Name: "Lance", Image: "img/trainers/heartgold/lance.png", Class: "Rematch",
-                Time: "", Attempts: 0
+                Time: "2023-06-19T00:15:41.481Z", Attempts: 4
             },
 
             <TPP.HallOfFame>{
@@ -136,13 +136,13 @@ Season10.Runs.push(
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, IDNo: "35110", Party: [
-                    { Pokemon: "Deoxys", Nickname: "?.,,", Level: 65, Met: "Route 36", OT: "11 CCvu" },
-                    { Pokemon: "Masquerain", Nickname: "OO LEXMMQE", Level: 64, Gender: "Female", Met: "Lake of Rage", OT: "11 CCvu" },
-                    { Pokemon: "Rotom", Nickname: "TOJIKO", Level: 64, Met: "Route 48", OT: "11 CCvu" },
-                    { Pokemon: "Machamp", Nickname: "A.       6", Level: 63, Gender: "Female", Met: "New Bark Town", OT: "11 CCvu" },
-                    { Pokemon: "Lapras", Nickname: "DYUHEN6EQP", Level: 56, Gender: "Male", Met: "Lake of Rage", OT: "11 CCvu", Shiny: true },
-                    { Pokemon: "Deoxys", Nickname: "WSPPACE DX", Level: 63, Met: "Route 44", OT: "11 CCvu" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-06-19T00:16:00Z", Attempts: 12, IDNo: "35110", Party: [
+                    { Pokemon: "Rotom", Nickname: "TOJIKO", Level: 100, Met: "Route 48", OT: "11 CCvu" },
+                    { Pokemon: "Machamp", Nickname: "A.       6", Level: 82, Gender: "Female", Met: "New Bark Town", OT: "11 CCvu" },
+                    { Pokemon: "Lapras", Nickname: "DYUHEN6EQP", Level: 83, Gender: "Male", Met: "Lake of Rage", OT: "11 CCvu", Shiny: true },
+                    { Pokemon: "Masquerain", Nickname: "OO LEXMMQE", Level: 83, Gender: "Female", Met: "Lake of Rage", OT: "11 CCvu" },
+                    { Pokemon: "Deoxys", Nickname: "WSPPACE DX", Level: 80, Met: "Route 44", OT: "11 CCvu", Form: "Attack" },
+                    { Pokemon: "Deoxys", Nickname: "?.,,", Level: 86, Met: "Route 36", OT: "11 CCvu", Form: "Defense" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "6d 12h 17m 7s" // Drivebot
@@ -469,6 +469,14 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Garchomp", "Time": "2023-06-17T22:45:41.327Z" },
             { "Group": "Pokemon", "Name": "Sableye", "Time": "2023-06-17T23:24:50.081Z" },
             { "Group": "Pokemon", "Name": "Shaymin", "Time": "2023-06-17T23:45:34.117Z" },
+            { "Group": "Pokemon", "Name": "Weavile", "Time": "2023-06-18T01:59:31.903Z" },
+            { "Group": "Pokemon", "Name": "Happiny", "Time": "2023-06-18T09:06:30.503Z" },
+            { "Group": "Pokemon", "Name": "Minun", "Time": "2023-06-18T15:10:50.779Z" },
+            // { "Group": "Pokemon", "Name": "Cacnea", "Time": "2023-06-19T00:40:40.906Z", "Traded": true },
+            { "Group": "Pokemon", "Name": "Arceus", "Time": "2023-06-19T00:58:01.732Z" },
+            { "Group": "Pokemon", "Name": "Lugia", "Time": "2023-06-19T01:20:58.553Z" },
+            { "Group": "Pokemon", "Name": "Manaphy", "Time": "2023-06-19T01:38:43.426Z" },
+            { "Group": "Pokemon", "Name": "Giratina", "Time": "2023-06-19T02:35:18.174Z" }
         ]
     }
 );
