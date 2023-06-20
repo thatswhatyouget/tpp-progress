@@ -5,13 +5,14 @@ Season10.Runs.push(
         ColorPrimary: "#7a9cff",
         ColorSecondary: "#278fe5",
         StartDate: "2023-06-10T12:00:00Z",
-        Duration: "255d",
+        Duration: "2023-06-20T05:51:53Z",
         HostName: "11 CCvu",
         HostImage: "img/hosts/aoooo.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Johto",
         Pokedex: "National",
         // AdditionalRegions: [{ Name: "Kanto", Time: "8d21h39m" }],
+        FinalStateLink: "./states/Season 10/randomizedsoulsilver.json",
         Generation: 4,
         Events: [
             {
@@ -146,6 +147,19 @@ Season10.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "6d 12h 17m 7s" // Drivebot
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-06-19T20:05:00Z", Attempts: 4, IDNo: "35110", Party: [
+                    { Pokemon: "Rotom", Nickname: "TOJIKO", Level: 100, Met: "Route 48", OT: "11 CCvu" },
+                    { Pokemon: "Machamp", Nickname: "A.       6", Level: 86, Gender: "Female", Met: "New Bark Town", OT: "11 CCvu" },
+                    { Pokemon: "Deoxys", Nickname: "WSPPACE DX", Level: 91, Met: "Route 44", OT: "11 CCvu", Form: "Attack" },
+                    { Pokemon: "Deoxys", Nickname: "?.,,", Level: 87, Met: "Route 36", OT: "11 CCvu", Form: "Defense" },
+                    { Pokemon: "Lapras", Nickname: "DYUHEN6EQP", Level: 87, Gender: "Male", Met: "Lake of Rage", OT: "11 CCvu", Shiny: true },
+                    { Pokemon: "Masquerain", Nickname: "OO LEXMMQE", Level: 88, Gender: "Female", Met: "Lake of Rage", OT: "11 CCvu" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "2023-06-19T16:03:08.672Z"
             },
 
             { "Group": "Pokemon", "Name": "Machop", "Time": "2023-06-10T12:08:41.859Z" },
