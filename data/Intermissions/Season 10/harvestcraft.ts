@@ -34,16 +34,16 @@ Intermissions.Runs.push(
                 Time: "2023-07-08T03:40:13.415Z", Attempts: 1,
             },
             {
-                Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png",
-                Time: "", Attempts: 0,
+                Group: "Badges", Name: "Pixie Badge", Image: "img/badges/feather.png",
+                Time: "2023-07-08T12:41:49.710Z", Attempts: 2,
             },
             {
-                Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png",
-                Time: "", Attempts: 0,
+                Group: "Badges", Name: "Dew Badge", Image: "img/badges/mind.png",
+                Time: "2023-07-08T15:40:54.307Z", Attempts: 1,
             },
             {
-                Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png",
-                Time: "", Attempts: 0,
+                Group: "Badges", Name: "Brain Badge", Image: "img/badges/rain.png",
+                Time: "2023-07-08T16:40:11.896Z", Attempts: 2,
             },
 
             {
@@ -104,7 +104,13 @@ Intermissions.Runs.push(
             { "Group": "Pokemon", "Name": "Shroomish", "Time": "2023-07-08T08:14:30.836Z" },
             { "Group": "Pokemon", "Name": "Illumise", "Time": "2023-07-08T08:31:42.265Z" },
             { "Group": "Pokemon", "Name": "Graveler", "Time": "2023-07-08T09:04:55.958Z" },
-            { "Group": "Pokemon", "Name": "Golbat", "Time": "2023-07-08T09:13:20.716Z" }
+            { "Group": "Pokemon", "Name": "Golbat", "Time": "2023-07-08T09:13:20.716Z" },
+            { "Group": "Pokemon", "Name": "Dugtrio", "Time": "2023-07-08T10:06:49.703Z" },
+            { "Group": "Pokemon", "Name": "Vileplume", "Time": "2023-07-08T10:16:19.087Z" },
+            { "Group": "Pokemon", "Name": "Lairon", "Time": "2023-07-08T10:28:40.116Z" },
+            { "Group": "Pokemon", "Name": "Swirlix", "Time": "2023-07-08T12:14:41.969Z" },
+            { "Group": "Pokemon", "Name": "Amaura", "Time": "2023-07-08T13:17:59.600Z" },
+            { "Group": "Pokemon", "Name": "Delphox", "Time": "2023-07-08T14:58:37.209Z" }
         ],
     }
 );
