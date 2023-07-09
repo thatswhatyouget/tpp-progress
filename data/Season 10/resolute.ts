@@ -6,8 +6,8 @@ Season10.Runs.push(
         ColorSecondary: "#96C6CD",
         StartDate: "2023-07-08T21:00:00Z",
         Duration: "255d",
-        HostName: "",
-        HostImage: "",
+        HostName: "OONAt ",
+        HostImage: "img/hosts/oonat.png",
         BaseGame: "Emerald",
         Region: "Sylon",
         Pokedex: "Sylon",
@@ -16,14 +16,14 @@ Season10.Runs.push(
             {
                 Group: "Badges",
                 Name: "Razor Badge",
-                Image: "img/badges/resolute/transform.png",
-                Time: "", Attempts: 0
+                Image: "img/badges/resolute/razor.png",
+                Time: "2023-07-09T03:51:33.764Z", Attempts: 2
             },
             {
                 Group: "Badges",
                 Name: "Imagery Badge",
                 Image: "img/badges/resolute/imagery.png",
-                Time: "", Attempts: 0
+                Time: "2023-07-09T14:11:17.091Z", Attempts: 2
             },
             {
                 Group: "Badges",
@@ -192,13 +192,48 @@ Season10.Runs.push(
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "", Party: [
-                    // { Pokemon: "", Nickname: "", Level: , Gender: "", Number: , IDNo: "" },
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "52105", Party: [
+                    // { Pokemon: "", Nickname: "", Level: , Gender: "", Number: , IDNo: "52105" },
                 ],
                 FirstAttemptDate: "2023-05-15T20:13:27.007Z",
                 Image: "img/ribbons/champion.png",
                 Time: "", Attempts: 0
             },
+
+            { "Group": "Pokemon", "Name": "Mienfoo", "Time": "2023-07-08T21:01:32.249Z" },
+            { "Group": "Pokemon", "Name": "Grubbin", "Time": "2023-07-08T21:31:58.038Z" },
+            { "Group": "Pokemon", "Name": "Nincada", "Time": "2023-07-08T21:53:08.686Z" },
+            { "Group": "Pokemon", "Name": "Shinx", "Time": "2023-07-08T22:17:02.823Z" },
+            { "Group": "Pokemon", "Name": "Noibat", "Time": "2023-07-09T00:42:02.094Z" },
+            { "Group": "Pokemon", "Name": "Woobat", "Time": "2023-07-09T00:55:45.062Z" },
+            { "Group": "Pokemon", "Name": "Trapinch", "Time": "2023-07-09T01:25:49.763Z" },
+            { "Group": "Pokemon", "Name": "Wurmple", "Time": "2023-07-09T03:33:53.861Z" },
+            { "Group": "Pokemon", "Name": "Charjabug", "Time": "2023-07-09T03:43:35.004Z" },
+            { "Group": "Pokemon", "Name": "Shelmet", "Time": "2023-07-09T04:39:23.843Z" },
+            { "Group": "Pokemon", "Name": "Psyduck", "Time": "2023-07-09T04:40:49.845Z" },
+            { "Group": "Pokemon", "Name": "Pikachu", "Time": "2023-07-09T04:46:34.103Z" },
+            { "Group": "Pokemon", "Name": "Roggenrola", "Time": "2023-07-09T05:48:12.633Z" },
+            { "Group": "Pokemon", "Name": "Munna", "Time": "2023-07-09T06:24:35.449Z" },
+            { "Group": "Pokemon", "Name": "Karrablast", "Time": "2023-07-09T06:31:58.403Z" },
+            { "Group": "Pokemon", "Name": "Oshawott", "Time": "2023-07-09T10:04:06.641Z" },
+            { "Group": "Pokemon", "Name": "Inkay", "Time": "2023-07-09T10:29:09.218Z" },
+            { "Group": "Pokemon", "Name": "Taillow", "Time": "2023-07-09T10:32:13.763Z" },
+            { "Group": "Pokemon", "Name": "Scatterbug", "Time": "2023-07-09T10:47:53.289Z" },
+            { "Group": "Pokemon", "Name": "Fletchling", "Time": "2023-07-09T11:07:04.412Z" },
+            { "Group": "Pokemon", "Name": "Fomantis", "Time": "2023-07-09T11:30:51.227Z" },
+            { "Group": "Pokemon", "Name": "Tyrogue", "Time": "2023-07-09T11:36:55.735Z" },
+            { "Group": "Pokemon", "Name": "Pawniard", "Time": "2023-07-09T12:29:07.656Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2023-07-09T12:51:08.112Z" },
+            { "Group": "Pokemon", "Name": "Spearow", "Time": "2023-07-09T12:55:52.347Z" },
+            { "Group": "Pokemon", "Name": "Croagunk", "Time": "2023-07-09T12:57:27.616Z" },
+            { "Group": "Pokemon", "Name": "Pidgey", "Time": "2023-07-09T13:08:03.442Z" },
+            { "Group": "Pokemon", "Name": "Rattata", "Time": "2023-07-09T13:29:29.560Z" },
+            { "Group": "Pokemon", "Name": "Ekans", "Time": "2023-07-09T13:44:18.068Z" },
+            { "Group": "Pokemon", "Name": "Vikavolt", "Time": "2023-07-09T14:01:20.525Z" },
+            { "Group": "Pokemon", "Name": "Boldore", "Time": "2023-07-09T14:16:03.795Z" },
+            { "Group": "Pokemon", "Name": "FlabéBé", "Time": "2023-07-09T14:22:21.643Z" },
+            { "Group": "Pokemon", "Name": "Spewpa", "Time": "2023-07-09T14:29:14.350Z" },
+            { "Group": "Pokemon", "Name": "Petilil", "Time": "2023-07-09T15:07:38.588Z" }
         ]
     }
 );

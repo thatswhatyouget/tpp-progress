@@ -5,7 +5,7 @@ Intermissions.Runs.push(
         ColorPrimary: "brown",
         ColorSecondary: "goldenrod",
         StartDate: "2023-07-06T21:45:00.000Z",
-        Duration: "2023-07-08T20:30:00Z",
+        Duration: "2023-07-08T20:36:45Z",
         HostName: "TA",
         HostImage: "img/hosts/ta.png",
         // HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
