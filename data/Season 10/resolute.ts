@@ -53,13 +53,13 @@ Season10.Runs.push(
                 Group: "Badges",
                 Name: "Amulet Badge",
                 Image: "img/badges/resolute/amulet.png",
-                Time: "", Attempts: 0
+                Time: "2023-07-12T13:04:32.256Z", Attempts: 11
             },
             {
                 Group: "Badges",
                 Name: "Basis Badge",
                 Image: "img/badges/resolute/basis.png",
-                Time: "", Attempts: 0
+                Time: "2023-07-12T16:32:55.977Z", Attempts: 1
             },
 
 
@@ -192,8 +192,25 @@ Season10.Runs.push(
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "First Game Clear", IDNo: "52105", Party: [
+                    { Pokemon: "Samurott", Nickname: "D WE  661B", Level: 74, Gender: "Female", Number: 9, IDNo: "52105" },
+                    { Pokemon: "Mienshao", Nickname: "fep‘‘‘‘’/-", Level: 81, Gender: "Male", Number: 112, IDNo: "52105" },
+                    { Pokemon: "Gigalith", Nickname: "IHHIBCUTE", Level: 80, Gender: "Female", Number: 275, IDNo: "52105" },
+                    { Pokemon: "Noivern", Nickname: "-0", Level: 90, Gender: "Male", Number: 334, IDNo: "52105" },
+                    { Pokemon: "Carnivine", Nickname: "Crawler", Level: 76, Gender: "Male", Number: 223, IDNo: "52105" },
+                    { Pokemon: "Keldeo", Level: 75, Number: 386, IDNo: "52105" },
+                ],
+                Image: "img/ribbons/champion.png",
+                Time: "2023-07-12T19:29:09Z", Attempts: 1
+            },
+            <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "52105", Party: [
-                    // { Pokemon: "", Nickname: "", Level: , Gender: "", Number: , IDNo: "52105" },
+                    { Pokemon: "Samurott", Nickname: "D WE  661B", Level: 74, Gender: "Female", Number: 9, IDNo: "52105" },
+                    { Pokemon: "Mienshao", Nickname: "fep‘‘‘‘’/-", Level: 81, Gender: "Male", Number: 112, IDNo: "52105" },
+                    { Pokemon: "Gigalith", Nickname: "IHHIBCUTE", Level: 80, Gender: "Female", Number: 275, IDNo: "52105" },
+                    { Pokemon: "Noivern", Nickname: "-0", Level: 90, Gender: "Male", Number: 334, IDNo: "52105" },
+                    { Pokemon: "Carnivine", Nickname: "Crawler", Level: 76, Gender: "Male", Number: 223, IDNo: "52105" },
+                    { Pokemon: "Keldeo", Level: 75, Number: 386, IDNo: "52105" },
                 ],
                 FirstAttemptDate: "2023-05-15T20:13:27.007Z",
                 Image: "img/ribbons/champion.png",
@@ -295,7 +312,16 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Basculin", "Time": "2023-07-11T09:42:36.624Z" },
             { "Group": "Pokemon", "Name": "Seel", "Time": "2023-07-11T10:18:28.558Z" },
             { "Group": "Pokemon", "Name": "Noivern", "Time": "2023-07-11T10:35:59.509Z" },
-            { "Group": "Pokemon", "Name": "Piplup", "Time": "2023-07-11T18:32:42.961Z" }
+            { "Group": "Pokemon", "Name": "Piplup", "Time": "2023-07-11T18:32:42.961Z" },
+            { "Group": "Pokemon", "Name": "Eevee-S", "Time": "2023-07-12T03:47:16.154Z" },
+            { "Group": "Pokemon", "Name": "Magikarp", "Time": "2023-07-12T08:30:21.349Z" },
+            { "Group": "Pokemon", "Name": "Krabby", "Time": "2023-07-12T10:14:22.952Z" },
+            { "Group": "Pokemon", "Name": "Golbat", "Time": "2023-07-12T13:26:58.586Z" },
+            { "Group": "Pokemon", "Name": "Swoobat", "Time": "2023-07-12T13:47:57.896Z" },
+            { "Group": "Pokemon", "Name": "Scrafty", "Time": "2023-07-12T14:20:55.028Z" },
+            { "Group": "Pokemon", "Name": "Chespin", "Time": "2023-07-12T14:44:22.327Z" },
+            { "Group": "Pokemon", "Name": "Keldeo", "Time": "2023-07-12T19:00:38.552Z" },
+            { "Group": "Pokemon", "Name": "Rayquaza", "Time": "2023-07-12T19:53:22.674Z" }
         ]
     }
 );
