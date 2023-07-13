@@ -189,7 +189,7 @@ Season10.Runs.push(
                 Group: "Champions",
                 Name: "Luke & Eva",
                 Image: "img/trainers/resolute/luke&eva.png",
-                Time: "", Attempts: 3
+                Time: "2023-07-13T16:02:53.028Z", Attempts: 8
             },
             {
                 Group: "Elite Four",
@@ -262,7 +262,7 @@ Season10.Runs.push(
                 ],
                 FirstAttemptDate: "2023-07-13T00:40:02.472Z",
                 Image: "img/ribbons/champion.png",
-                Time: "", Attempts: 0
+                Time: "2023-07-13T16:04:00Z", Attempts: 18
             },
 
             { "Group": "Pokemon", "Name": "Mienfoo", "Time": "2023-07-08T21:01:32.249Z" },
@@ -373,7 +373,9 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Mawile", "Time": "2023-07-12T20:33:38.996Z" },
             { "Group": "Pokemon", "Name": "Budew", "Time": "2023-07-12T21:04:39.074Z" },
             { "Group": "Pokemon", "Name": "Dodrio", "Time": "2023-07-12T21:20:13.641Z" },
-            { "Group": "Pokemon", "Name": "Bisharp", "Time": "2023-07-12T21:23:10.543Z" }
+            { "Group": "Pokemon", "Name": "Bisharp", "Time": "2023-07-12T21:23:10.543Z" },
+            { "Group": "Pokemon", "Name": "Lopunny", "Time": "2023-07-13T10:28:39.826Z" },
+            { "Group": "Pokemon", "Name": "Sneasel", "Time": "2023-07-13T10:58:03.738Z" }
         ]
     }
 );
