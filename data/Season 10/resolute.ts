@@ -163,8 +163,56 @@ Season10.Runs.push(
 
             {
                 Group: "Elite Four",
-                Name: "Cyasine",
-                Image: "img/trainers/victoryfire/cyasine.png",
+                Name: "Crepitus",
+                Image: "img/trainers/resolute/crepitus.png",
+                Time: "2023-07-13T01:17:46.855Z", Attempts: 2
+            },
+            {
+                Group: "Elite Four",
+                Name: "Altir",
+                Image: "img/trainers/resolute/altir.png",
+                Time: "2023-07-13T01:35:06.682Z", Attempts: 1
+            },
+            {
+                Group: "Elite Four",
+                Name: "Mason",
+                Image: "img/trainers/resolute/mason.png",
+                Time: "2023-07-13T03:23:14.613Z", Attempts: 2
+            },
+            {
+                Group: "Elite Four",
+                Name: "Dez",
+                Image: "img/trainers/resolute/dez.png",
+                Time: "2023-07-13T03:42:10.595Z", Attempts: 3
+            },
+            {
+                Group: "Champions",
+                Name: "Luke & Eva",
+                Image: "img/trainers/resolute/luke&eva.png",
+                Time: "", Attempts: 3
+            },
+            {
+                Group: "Elite Four",
+                Name: "Zach",
+                Image: "img/trainers/victoryfire/zach.png",
+                Time: "", Attempts: 0
+            },
+            {
+                Group: "Elite Four",
+                Name: "Ebby",
+                Image: "img/trainers/victoryfire/ebby.png",
+                Time: "", Attempts: 0
+            },
+            {
+                Group: "Elite Four",
+                Name: "Violet",
+                Image: "img/trainers/victoryfire/violet.png",
+                Time: "", Attempts: 0
+            },
+            {
+                Group: "Champions",
+                Name: "Jacob",
+                Image: "img/trainers/victoryfire/jacob.png",
                 Time: "", Attempts: 0
             },
             {
@@ -205,14 +253,14 @@ Season10.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "52105", Party: [
-                    { Pokemon: "Samurott", Nickname: "D WE  661B", Level: 74, Gender: "Female", Number: 9, IDNo: "52105" },
-                    { Pokemon: "Mienshao", Nickname: "fep‘‘‘‘’/-", Level: 81, Gender: "Male", Number: 112, IDNo: "52105" },
-                    { Pokemon: "Gigalith", Nickname: "IHHIBCUTE", Level: 80, Gender: "Female", Number: 275, IDNo: "52105" },
-                    { Pokemon: "Noivern", Nickname: "-0", Level: 90, Gender: "Male", Number: 334, IDNo: "52105" },
-                    { Pokemon: "Carnivine", Nickname: "Crawler", Level: 76, Gender: "Male", Number: 223, IDNo: "52105" },
-                    { Pokemon: "Keldeo", Level: 75, Number: 386, IDNo: "52105" },
+                    { Pokemon: "Samurott", Nickname: "D WE  661B", Level: 89, Gender: "Female", Number: 9, IDNo: "52105" },
+                    { Pokemon: "Mienshao", Nickname: "fep‘‘‘‘’/-", Level: 94, Gender: "Male", Number: 112, IDNo: "52105" },
+                    { Pokemon: "Gigalith", Nickname: "IHHIBCUTE", Level: 86, Gender: "Female", Number: 275, IDNo: "52105" },
+                    { Pokemon: "Vikavolt", Nickname: "ADDWXXXYYU", Gender: "Male", Level: 82, Number: 15, IDNo: "52105" },
+                    { Pokemon: "Carnivine", Nickname: "Crawler", Level: 79, Gender: "Male", Number: 223, IDNo: "52105" },
+                    { Pokemon: "Noivern", Nickname: "-0", Level: 100, Gender: "Male", Number: 334, IDNo: "52105" },
                 ],
-                FirstAttemptDate: "2023-05-15T20:13:27.007Z",
+                FirstAttemptDate: "2023-07-13T00:40:02.472Z",
                 Image: "img/ribbons/champion.png",
                 Time: "", Attempts: 0
             },
@@ -321,7 +369,11 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Scrafty", "Time": "2023-07-12T14:20:55.028Z" },
             { "Group": "Pokemon", "Name": "Chespin", "Time": "2023-07-12T14:44:22.327Z" },
             { "Group": "Pokemon", "Name": "Keldeo", "Time": "2023-07-12T19:00:38.552Z" },
-            { "Group": "Pokemon", "Name": "Rayquaza", "Time": "2023-07-12T19:53:22.674Z" }
+            { "Group": "Pokemon", "Name": "Rayquaza", "Time": "2023-07-12T19:53:22.674Z" },
+            { "Group": "Pokemon", "Name": "Mawile", "Time": "2023-07-12T20:33:38.996Z" },
+            { "Group": "Pokemon", "Name": "Budew", "Time": "2023-07-12T21:04:39.074Z" },
+            { "Group": "Pokemon", "Name": "Dodrio", "Time": "2023-07-12T21:20:13.641Z" },
+            { "Group": "Pokemon", "Name": "Bisharp", "Time": "2023-07-12T21:23:10.543Z" }
         ]
     }
 );
