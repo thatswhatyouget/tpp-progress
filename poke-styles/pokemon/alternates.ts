@@ -32,9 +32,6 @@ var alternates: Alternate[] = [
     new Alternate("wartortle", "Ultra", true),
     new Alternate("zapdos", "Ultra", true),
 
-    new Alternate("mawile", "Mega", true),
-    new Alternate("banette", "Mega", true),
-
     // new Alternate("jellicent", "Female"),
 
     // new Alternate("azumarill", "Shiny"),
@@ -43,6 +40,11 @@ var alternates: Alternate[] = [
     // new Alternate("gyarados", "Shiny"),
     // new Alternate("skiploom", "Shiny"),
     // new Alternate("jumpluff", "Shiny"),
+
+    new Alternate("charizard", "MegaX"),
+    new Alternate("charizard", "MegaY"),
+    new Alternate("mewtwo", "MegaX"),
+    new Alternate("mewtwo", "MegaY"),
 
     new Alternate("unown", "T"),
 	
