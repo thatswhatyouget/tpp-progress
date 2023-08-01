@@ -258,7 +258,7 @@ Season10.Runs.push(
                     { Pokemon: "Gigalith", Nickname: "IHHIBCUTE", Level: 80, Gender: "Female", Number: 275, IDNo: "52105" },
                     { Pokemon: "Noivern", Nickname: "-0", Level: 90, Gender: "Male", Number: 334, IDNo: "52105" },
                     { Pokemon: "Carnivine", Nickname: "Crawler", Level: 76, Gender: "Male", Number: 223, IDNo: "52105" },
-                    { Pokemon: "Keldeo", Nickname: "Keldeo", Level: 75, Number: 386, IDNo: "52105" },
+                    { Pokemon: "Keldeo", Nickname: "Keldeo", Level: 75, Number: 386, IDNo: "52105", Form: "Resolute" },
                 ],
                 Image: "img/ribbons/champion.png",
                 Time: "2023-07-12T19:29:09Z", Attempts: 1
@@ -279,8 +279,8 @@ Season10.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "52105", Party: [
                     { Pokemon: "Rayquaza", Nickname: "., \u2642\u2642", Level: 100, Number: 384, IDNo: "52105", Shiny: true },
-                    { Pokemon: "Mawile", Nickname: "AMTT///KK", Level: 100, Gender: "Male", Number: 317, IDNo: "52105", Class: "mega" },
-                    { Pokemon: "Keldeo", Nickname: "LANCELOT", PreviousNick: "Keldeo", Level: 75, Number: 386, IDNo: "52105" },
+                    { Pokemon: "Mawile", Nickname: "AMTT///KK", Level: 100, Gender: "Male", Number: 317, IDNo: "52105", Form: "Mega" },
+                    { Pokemon: "Keldeo", Nickname: "LANCELOT", PreviousNick: "Keldeo", Level: 75, Number: 386, IDNo: "52105", Form: "Resolute" },
                     { Pokemon: "Mienshao", Nickname: "fep‘‘‘‘’/-", Level: 100, Gender: "Male", Number: 112, IDNo: "52105" },
                     { Pokemon: "Rampardos", Nickname: "Nyyx", Level: 100, Gender: "Male", Number: 348, IDNo: "52105" },
                     { Pokemon: "Samurott", Nickname: "D WE  661B", Level: 100, Gender: "Female", Number: 9, IDNo: "52105" },
@@ -288,6 +288,19 @@ Season10.Runs.push(
                 FirstAttemptDate: "6d 6h 28m 33s",
                 Image: "img/ribbons/champion.png",
                 Time: "2023-07-15T04:13:00Z", Attempts: 1
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "52105", Party: [
+                    { Pokemon: "Keldeo", Nickname: "LANCELOT", PreviousNick: "Keldeo", Level: 100, Number: 386, IDNo: "52105", Form: "Resolute" },
+                    { Pokemon: "Regigigas", Nickname: "GMM", Level: 100, Number: 379, IDNo: "52105" },
+                    { Pokemon: "Rayquaza", Nickname: "QUAZAR", PreviousNick: "., \u2642\u2642", Level: 100, Number: 384, IDNo: "52105", Shiny: true },
+                    { Pokemon: "Meloetta", Level: 100, Number: 314, IDNo: "52105" },
+                    { Pokemon: "Heatran", Nickname: "AIEK", Level: 100, Gender: "Female", Number: 142, IDNo: "52105" },
+                    { Pokemon: "Zoroark", Nickname: "Eliza", Level: 100, Gender: "Female", Number: 387, IDNo: "52105", Form: "Eliza" },
+                ],
+                FirstAttemptDate: "7d 20h 42m 29s",
+                Image: "img/ribbons/champion.png",
+                Time: "2023-07-16T18:32:33Z", Attempts: 1
             },
 
             { "Group": "Pokemon", "Name": "Mienfoo", "Time": "2023-07-08T21:01:32.249Z" },

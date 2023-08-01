@@ -32,6 +32,9 @@ var alternates: Alternate[] = [
     new Alternate("wartortle", "Ultra", true),
     new Alternate("zapdos", "Ultra", true),
 
+    new Alternate("mawile", "Mega", true),
+    new Alternate("banette", "Mega", true),
+
     // new Alternate("jellicent", "Female"),
 
     // new Alternate("azumarill", "Shiny"),
@@ -55,11 +58,15 @@ var alternates: Alternate[] = [
     new Alternate("tornadus", "Therian"),
     new Alternate("thundurus", "Therian"),
     new Alternate("landorus", "Therian"),
+    new Alternate("keldeo", "Resolute"),
 
     new Alternate("zygarde", "percent10"),
     new Alternate("lycanroc", "Midnight"),
 
+    new Alternate("zoroark", "Eliza"),
+	
     new Alternate("ub-queen", "Ultra"),
+
 ];
 
 addStyles(alternates, (a: Alternate) => ".pokesprite." + a.baseMon + "." + a.modifier + ' img { background-image:url("' + a.image + '")!important; background-position: center!important; }');
