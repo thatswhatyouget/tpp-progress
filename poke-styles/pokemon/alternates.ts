@@ -41,6 +41,11 @@ var alternates: Alternate[] = [
     // new Alternate("skiploom", "Shiny"),
     // new Alternate("jumpluff", "Shiny"),
 
+    new Alternate("charizard", "MegaX"),
+    new Alternate("charizard", "MegaY"),
+    new Alternate("mewtwo", "MegaX"),
+    new Alternate("mewtwo", "MegaY"),
+
     new Alternate("unown", "T"),
 	
     new Alternate("deoxys", "Attack"),
@@ -55,11 +60,15 @@ var alternates: Alternate[] = [
     new Alternate("tornadus", "Therian"),
     new Alternate("thundurus", "Therian"),
     new Alternate("landorus", "Therian"),
+    new Alternate("keldeo", "Resolute"),
 
     new Alternate("zygarde", "percent10"),
     new Alternate("lycanroc", "Midnight"),
 
+    new Alternate("zoroark", "Eliza"),
+	
     new Alternate("ub-queen", "Ultra"),
+
 ];
 
 addStyles(alternates, (a: Alternate) => ".pokesprite." + a.baseMon + "." + a.modifier + ' img { background-image:url("' + a.image + '")!important; background-position: center!important; }');

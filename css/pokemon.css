@@ -2989,6 +2989,10 @@
 .pokesprite.venusaur.ultra img { background-image:url("../img/alternate/ultra/venusaur.png")!important; background-position: center!important; }
 .pokesprite.wartortle.ultra img { background-image:url("../img/alternate/ultra/wartortle.png")!important; background-position: center!important; }
 .pokesprite.zapdos.ultra img { background-image:url("../img/alternate/ultra/zapdos.png")!important; background-position: center!important; }
+.pokesprite.charizard.megax img { background-image:url("../img/alternate/charizard-megax.png")!important; background-position: center!important; }
+.pokesprite.charizard.megay img { background-image:url("../img/alternate/charizard-megay.png")!important; background-position: center!important; }
+.pokesprite.mewtwo.megax img { background-image:url("../img/alternate/mewtwo-megax.png")!important; background-position: center!important; }
+.pokesprite.mewtwo.megay img { background-image:url("../img/alternate/mewtwo-megay.png")!important; background-position: center!important; }
 .pokesprite.unown.t img { background-image:url("../img/alternate/unown-t.png")!important; background-position: center!important; }
 .pokesprite.deoxys.attack img { background-image:url("../img/alternate/deoxys-attack.png")!important; background-position: center!important; }
 .pokesprite.deoxys.defense img { background-image:url("../img/alternate/deoxys-defense.png")!important; background-position: center!important; }
@@ -3000,8 +3004,10 @@
 .pokesprite.tornadus.therian img { background-image:url("../img/alternate/tornadus-therian.png")!important; background-position: center!important; }
 .pokesprite.thundurus.therian img { background-image:url("../img/alternate/thundurus-therian.png")!important; background-position: center!important; }
 .pokesprite.landorus.therian img { background-image:url("../img/alternate/landorus-therian.png")!important; background-position: center!important; }
+.pokesprite.keldeo.resolute img { background-image:url("../img/alternate/keldeo-resolute.png")!important; background-position: center!important; }
 .pokesprite.zygarde.percent10 img { background-image:url("../img/alternate/zygarde-percent10.png")!important; background-position: center!important; }
 .pokesprite.lycanroc.midnight img { background-image:url("../img/alternate/lycanroc-midnight.png")!important; background-position: center!important; }
+.pokesprite.zoroark.eliza img { background-image:url("../img/alternate/zoroark-eliza.png")!important; background-position: center!important; }
 .pokesprite.ub-queen.ultra img { background-image:url("../img/alternate/ub-queen-ultra.png")!important; background-position: center!important; }
 .pokesprite.unidentified img  { background-image:url("../img/fakemon/unidentified.png")!important; }
 .pokesprite.prizmeon img  { background-image:url("../img/fakemon/prizmeon.png")!important; }
@@ -4889,3 +4895,91 @@
 .hisuian .dexEntry .pokesprite.goodra img, .pokesprite.hisuian.goodra img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -13em!important; }
 .hisuian .dexEntry .pokesprite.avalugg img, .pokesprite.hisuian.avalugg img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -14em!important; }
 .hisuian .dexEntry .pokesprite.decidueye img, .pokesprite.hisuian.decidueye img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -15em!important; }
+.mega .dexEntry .pokesprite.venusaur img, .pokesprite.mega.venusaur img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -0em!important; }
+.mega .dexEntry .pokesprite.blastoise img, .pokesprite.mega.blastoise img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -1em!important; }
+.mega .dexEntry .pokesprite.beedrill img, .pokesprite.mega.beedrill img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -2em!important; }
+.mega .dexEntry .pokesprite.pidgeot img, .pokesprite.mega.pidgeot img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -3em!important; }
+.mega .dexEntry .pokesprite.alakazam img, .pokesprite.mega.alakazam img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -4em!important; }
+.mega .dexEntry .pokesprite.slowbro img, .pokesprite.mega.slowbro img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -5em!important; }
+.mega .dexEntry .pokesprite.gengar img, .pokesprite.mega.gengar img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -6em!important; }
+.mega .dexEntry .pokesprite.kangaskhan img, .pokesprite.mega.kangaskhan img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -7em!important; }
+.mega .dexEntry .pokesprite.pinsir img, .pokesprite.mega.pinsir img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -8em!important; }
+.mega .dexEntry .pokesprite.gyarados img, .pokesprite.mega.gyarados img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -9em!important; }
+.mega .dexEntry .pokesprite.aerodactyl img, .pokesprite.mega.aerodactyl img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -10em!important; }
+.mega .dexEntry .pokesprite.ampharos img, .pokesprite.mega.ampharos img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -11em!important; }
+.mega .dexEntry .pokesprite.steelix img, .pokesprite.mega.steelix img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -12em!important; }
+.mega .dexEntry .pokesprite.scizor img, .pokesprite.mega.scizor img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -13em!important; }
+.mega .dexEntry .pokesprite.heracross img, .pokesprite.mega.heracross img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -14em!important; }
+.mega .dexEntry .pokesprite.houndoom img, .pokesprite.mega.houndoom img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -15em!important; }
+.mega .dexEntry .pokesprite.tyranitar img, .pokesprite.mega.tyranitar img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -16em!important; }
+.mega .dexEntry .pokesprite.sceptile img, .pokesprite.mega.sceptile img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -17em!important; }
+.mega .dexEntry .pokesprite.blaziken img, .pokesprite.mega.blaziken img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -18em!important; }
+.mega .dexEntry .pokesprite.swampert img, .pokesprite.mega.swampert img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -19em!important; }
+.mega .dexEntry .pokesprite.gardevoir img, .pokesprite.mega.gardevoir img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -20em!important; }
+.mega .dexEntry .pokesprite.sableye img, .pokesprite.mega.sableye img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -21em!important; }
+.mega .dexEntry .pokesprite.mawile img, .pokesprite.mega.mawile img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -22em!important; }
+.mega .dexEntry .pokesprite.aggron img, .pokesprite.mega.aggron img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -23em!important; }
+.mega .dexEntry .pokesprite.medicham img, .pokesprite.mega.medicham img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -24em!important; }
+.mega .dexEntry .pokesprite.manectric img, .pokesprite.mega.manectric img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -25em!important; }
+.mega .dexEntry .pokesprite.sharpedo img, .pokesprite.mega.sharpedo img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -26em!important; }
+.mega .dexEntry .pokesprite.camerupt img, .pokesprite.mega.camerupt img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -27em!important; }
+.mega .dexEntry .pokesprite.altaria img, .pokesprite.mega.altaria img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -28em!important; }
+.mega .dexEntry .pokesprite.banette img, .pokesprite.mega.banette img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -29em!important; }
+.mega .dexEntry .pokesprite.absol img, .pokesprite.mega.absol img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -30em!important; }
+.mega .dexEntry .pokesprite.glalie img, .pokesprite.mega.glalie img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -31em!important; }
+.mega .dexEntry .pokesprite.salamence img, .pokesprite.mega.salamence img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -32em!important; }
+.mega .dexEntry .pokesprite.metagross img, .pokesprite.mega.metagross img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -33em!important; }
+.mega .dexEntry .pokesprite.latias img, .pokesprite.mega.latias img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -34em!important; }
+.mega .dexEntry .pokesprite.latios img, .pokesprite.mega.latios img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -35em!important; }
+.mega .dexEntry .pokesprite.rayquaza img, .pokesprite.mega.rayquaza img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -36em!important; }
+.mega .dexEntry .pokesprite.lopunny img, .pokesprite.mega.lopunny img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -37em!important; }
+.mega .dexEntry .pokesprite.garchomp img, .pokesprite.mega.garchomp img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -38em!important; }
+.mega .dexEntry .pokesprite.lucario img, .pokesprite.mega.lucario img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -39em!important; }
+.mega .dexEntry .pokesprite.abomasnow img, .pokesprite.mega.abomasnow img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -40em!important; }
+.mega .dexEntry .pokesprite.gallade img, .pokesprite.mega.gallade img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -41em!important; }
+.mega .dexEntry .pokesprite.audino img, .pokesprite.mega.audino img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -42em!important; }
+.mega .dexEntry .pokesprite.diancie img, .pokesprite.mega.diancie img { background-image:url('../img/pokemon-mega-large.png')!important; background-position: 0px -43em!important; }
+.mega .shiny .dexEntry .pokesprite.venusaur img, .pokesprite.mega.shiny.venusaur img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -0em!important; }
+.mega .shiny .dexEntry .pokesprite.blastoise img, .pokesprite.mega.shiny.blastoise img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -1em!important; }
+.mega .shiny .dexEntry .pokesprite.beedrill img, .pokesprite.mega.shiny.beedrill img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -2em!important; }
+.mega .shiny .dexEntry .pokesprite.pidgeot img, .pokesprite.mega.shiny.pidgeot img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -3em!important; }
+.mega .shiny .dexEntry .pokesprite.alakazam img, .pokesprite.mega.shiny.alakazam img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -4em!important; }
+.mega .shiny .dexEntry .pokesprite.slowbro img, .pokesprite.mega.shiny.slowbro img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -5em!important; }
+.mega .shiny .dexEntry .pokesprite.gengar img, .pokesprite.mega.shiny.gengar img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -6em!important; }
+.mega .shiny .dexEntry .pokesprite.kangaskhan img, .pokesprite.mega.shiny.kangaskhan img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -7em!important; }
+.mega .shiny .dexEntry .pokesprite.pinsir img, .pokesprite.mega.shiny.pinsir img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -8em!important; }
+.mega .shiny .dexEntry .pokesprite.gyarados img, .pokesprite.mega.shiny.gyarados img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -9em!important; }
+.mega .shiny .dexEntry .pokesprite.aerodactyl img, .pokesprite.mega.shiny.aerodactyl img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -10em!important; }
+.mega .shiny .dexEntry .pokesprite.ampharos img, .pokesprite.mega.shiny.ampharos img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -11em!important; }
+.mega .shiny .dexEntry .pokesprite.steelix img, .pokesprite.mega.shiny.steelix img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -12em!important; }
+.mega .shiny .dexEntry .pokesprite.scizor img, .pokesprite.mega.shiny.scizor img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -13em!important; }
+.mega .shiny .dexEntry .pokesprite.heracross img, .pokesprite.mega.shiny.heracross img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -14em!important; }
+.mega .shiny .dexEntry .pokesprite.houndoom img, .pokesprite.mega.shiny.houndoom img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -15em!important; }
+.mega .shiny .dexEntry .pokesprite.tyranitar img, .pokesprite.mega.shiny.tyranitar img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -16em!important; }
+.mega .shiny .dexEntry .pokesprite.sceptile img, .pokesprite.mega.shiny.sceptile img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -17em!important; }
+.mega .shiny .dexEntry .pokesprite.blaziken img, .pokesprite.mega.shiny.blaziken img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -18em!important; }
+.mega .shiny .dexEntry .pokesprite.swampert img, .pokesprite.mega.shiny.swampert img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -19em!important; }
+.mega .shiny .dexEntry .pokesprite.gardevoir img, .pokesprite.mega.shiny.gardevoir img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -20em!important; }
+.mega .shiny .dexEntry .pokesprite.sableye img, .pokesprite.mega.shiny.sableye img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -21em!important; }
+.mega .shiny .dexEntry .pokesprite.mawile img, .pokesprite.mega.shiny.mawile img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -22em!important; }
+.mega .shiny .dexEntry .pokesprite.aggron img, .pokesprite.mega.shiny.aggron img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -23em!important; }
+.mega .shiny .dexEntry .pokesprite.medicham img, .pokesprite.mega.shiny.medicham img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -24em!important; }
+.mega .shiny .dexEntry .pokesprite.manectric img, .pokesprite.mega.shiny.manectric img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -25em!important; }
+.mega .shiny .dexEntry .pokesprite.sharpedo img, .pokesprite.mega.shiny.sharpedo img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -26em!important; }
+.mega .shiny .dexEntry .pokesprite.camerupt img, .pokesprite.mega.shiny.camerupt img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -27em!important; }
+.mega .shiny .dexEntry .pokesprite.altaria img, .pokesprite.mega.shiny.altaria img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -28em!important; }
+.mega .shiny .dexEntry .pokesprite.banette img, .pokesprite.mega.shiny.banette img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -29em!important; }
+.mega .shiny .dexEntry .pokesprite.absol img, .pokesprite.mega.shiny.absol img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -30em!important; }
+.mega .shiny .dexEntry .pokesprite.glalie img, .pokesprite.mega.shiny.glalie img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -31em!important; }
+.mega .shiny .dexEntry .pokesprite.salamence img, .pokesprite.mega.shiny.salamence img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -32em!important; }
+.mega .shiny .dexEntry .pokesprite.metagross img, .pokesprite.mega.shiny.metagross img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -33em!important; }
+.mega .shiny .dexEntry .pokesprite.latias img, .pokesprite.mega.shiny.latias img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -34em!important; }
+.mega .shiny .dexEntry .pokesprite.latios img, .pokesprite.mega.shiny.latios img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -35em!important; }
+.mega .shiny .dexEntry .pokesprite.rayquaza img, .pokesprite.mega.shiny.rayquaza img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -36em!important; }
+.mega .shiny .dexEntry .pokesprite.lopunny img, .pokesprite.mega.shiny.lopunny img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -37em!important; }
+.mega .shiny .dexEntry .pokesprite.garchomp img, .pokesprite.mega.shiny.garchomp img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -38em!important; }
+.mega .shiny .dexEntry .pokesprite.lucario img, .pokesprite.mega.shiny.lucario img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -39em!important; }
+.mega .shiny .dexEntry .pokesprite.abomasnow img, .pokesprite.mega.shiny.abomasnow img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -40em!important; }
+.mega .shiny .dexEntry .pokesprite.gallade img, .pokesprite.mega.shiny.gallade img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -41em!important; }
+.mega .shiny .dexEntry .pokesprite.audino img, .pokesprite.mega.shiny.audino img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -42em!important; }
+.mega .shiny .dexEntry .pokesprite.diancie img, .pokesprite.mega.shiny.diancie img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -43em!important; }
