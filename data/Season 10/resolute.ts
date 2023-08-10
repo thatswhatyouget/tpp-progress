@@ -5,7 +5,7 @@ Season10.Runs.push(
         ColorPrimary: "#E96239",
         ColorSecondary: "#96C6CD",
         StartDate: "2023-07-08T21:00:00Z",
-        Duration: "255d",
+        Duration: "2023-07-18T10:43:35Z",
         HostName: "OONAt ",
         HostImage: "img/hosts/oonat.png",
         BaseGame: "Emerald",
