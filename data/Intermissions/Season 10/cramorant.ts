@@ -5,7 +5,7 @@ Intermissions.Runs.push(
         ColorPrimary: "#003",
         ColorSecondary: "#330",
         StartDate: "2023-08-09T21:55:00Z",
-        Duration: "2023-08-12T21:00:00Z",
+        Duration: "2023-08-12T20:50:00Z",
         HostName: "ASH",
         HostImage: "img/hosts/ash.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
@@ -104,7 +104,7 @@ Intermissions.Runs.push(
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-08-12T03:15:49.611Z", Attempts: 3, Party: [
                     { Pokemon: "Weezing", Nickname: "P..]XXMMJJ", Level: 53, Type1: "Poison" },
                     { Pokemon: "Barraskewda", Nickname: "DVKBDDMNEF", Level: 48, Type1: "Water" },
-                    { Pokemon: "Celfable", Nickname: "BB(?------", Level: 46, Type1: "Normal" },
+                    { Pokemon: "Clefable", Nickname: "BB(?------", Level: 46, Type1: "Normal" },
                     { Pokemon: "Magmar", Nickname: "BOOBER", Level: 53, Type1: "Fire" },
                     { Pokemon: "Golem", Nickname: "AL", Level: 47, Type1: "Rock", Type2:"Ground" },
                     { Pokemon: "Cramorant", Nickname: "BCDEFaa", Level: 55, Type1: "Flying", Type2: "Water" },
