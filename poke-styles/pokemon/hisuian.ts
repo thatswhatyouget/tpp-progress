@@ -7,3 +7,5 @@ var hisuian = ["Growlithe", "Arcanine", "Voltorb", "Electrode", "Typhlosion", "Q
 
 addStyles(hisuian, (p, i) => ".hisui .pokesprite." + dexClean(p) + " img { background-image:url('../img/pokemon-hisui.png')!important; background-position: 0px -" + i + "em!important; }");
 addStyles(hisuian, (p, i) => ".hisuian .dexEntry .pokesprite." + dexClean(p) + " img, .pokesprite.hisuian." + dexClean(p) + " img { background-image:url('../img/pokemon-hisui-large.png')!important; background-position: 0px -" + i + "em!important; }");
+
+addStyles(hisuian, (p, i) => ".hisuian .shiny .dexEntry .pokesprite." + dexClean(p) + " img, .pokesprite.hisuian.shiny." + dexClean(p) + " img { background-image:url('../img/pokemon-hisui-large-shiny.png')!important; background-position: 0px -" + i + "em!important; }");
