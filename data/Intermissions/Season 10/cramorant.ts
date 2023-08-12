@@ -92,22 +92,22 @@ Intermissions.Runs.push(
                 Group: "Elite Four",
                 Name: "Lance",
                 Image: "img/trainers/red/lance.png",
-                Time: "", Attempts: 1
+                Time: "2023-08-12T02:11:18.095Z", Attempts: 2
             },
             {
                 Group: "Champions",
                 Name: "GARY",
                 Image: "img/trainers/red/blue.png",
-                Time: "", Attempts: 0
+                Time: "2023-08-12T03:14:43.904Z", Attempts: 2
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 1, Party: [
-                    { Pokemon: "Cramorant", Nickname: "BCDEFaa", Level: 49, Type1: "Flying", Type2: "Water" },
-                    { Pokemon: "Celfable", Nickname: "BB(?------", Level: 45, Type1: "Normal" },
-                    { Pokemon: "Barraskewda", Nickname: "DVKBDDMNEF", Level: 46, Type1: "Water" },
-                    { Pokemon: "Magmar", Nickname: "BOOBER", Level: 48, Type1: "Fire" },
-                    { Pokemon: "Golem", Nickname: "AL", Level: 46, Type1: "Rock", Type2:"Ground" },
-                    { Pokemon: "Weezing", Nickname: "P..]XXMMJJ", Level: 48, Type1: "Poison" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-08-12T03:15:49.611Z", Attempts: 3, Party: [
+                    { Pokemon: "Weezing", Nickname: "P..]XXMMJJ", Level: 53, Type1: "Poison" },
+                    { Pokemon: "Barraskewda", Nickname: "DVKBDDMNEF", Level: 48, Type1: "Water" },
+                    { Pokemon: "Celfable", Nickname: "BB(?------", Level: 46, Type1: "Normal" },
+                    { Pokemon: "Magmar", Nickname: "BOOBER", Level: 53, Type1: "Fire" },
+                    { Pokemon: "Golem", Nickname: "AL", Level: 47, Type1: "Rock", Type2:"Ground" },
+                    { Pokemon: "Cramorant", Nickname: "BCDEFaa", Level: 55, Type1: "Flying", Type2: "Water" },
                 ],
                 FirstAttemptDate: "2023-08-11T23:16:34.452Z",
                 Image: "img/ribbons/champion.png"
