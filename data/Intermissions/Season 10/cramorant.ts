@@ -86,13 +86,13 @@ Intermissions.Runs.push(
                 Group: "Elite Four",
                 Name: "Agatha",
                 Image: "img/trainers/red/agatha.png",
-                Time: "", Attempts: 0
+                Time: "2023-08-11T23:42:36.011Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Lance",
                 Image: "img/trainers/red/lance.png",
-                Time: "", Attempts: 0
+                Time: "", Attempts: 1
             },
             {
                 Group: "Champions",
@@ -101,7 +101,7 @@ Intermissions.Runs.push(
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 1, Party: [
                     { Pokemon: "Cramorant", Nickname: "BCDEFaa", Level: 49, Type1: "Flying", Type2: "Water" },
                     { Pokemon: "Celfable", Nickname: "BB(?------", Level: 45, Type1: "Normal" },
                     { Pokemon: "Barraskewda", Nickname: "DVKBDDMNEF", Level: 46, Type1: "Water" },
