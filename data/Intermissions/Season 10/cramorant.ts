@@ -12,7 +12,7 @@ Intermissions.Runs.push(
         Region: "Kanto",
         Generation: 1,
         Pokedex: "Kanto",
-        // FinalStateLink: "./states/Season 10/cramorant.json",
+        FinalStateLink: "./states/Season 10/cramorant.json",
         Events: [
             {
                 Group: "Badges",

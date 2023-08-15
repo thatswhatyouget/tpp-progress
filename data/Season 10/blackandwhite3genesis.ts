@@ -7,10 +7,9 @@ Season10.Runs.push(
         StartDate: "2023-08-12T21:00:00Z",
         Duration: "255d",
         HostName: "Jd",
-        HostImage: "img/hosts/44xny.png",
-        HostImageSource: "https://www.deviantart.com/krizste/art/TPP-VoltWhite2Redux-forest-sprites-943447962",
+        HostImage: "img/hosts/jd.png",
+        // HostImageSource: "https://www.deviantart.com/krizste/art/TPP-VoltWhite2Redux-forest-sprites-943447962",
         Region: "Unova",
-        Generation: 2,
         Pokedex: "Genesis Unova",
         // FinalStateLink:"./states/Season 10/blackandwhite3genesis.json", 
         Events: [
@@ -18,43 +17,43 @@ Season10.Runs.push(
                 Group: "Badges",
                 Name: "Wave Badge",
                 Image: "img/badges/wave.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-08-13T04:06:03.591Z",
+                Attempts: 2
             },
             {
                 Group: "Badges",
                 Name: "Spooky Badge",
                 Image: "img/badges/spooky.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-08-13T15:42:14.423Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
                 Name: "Insect Badge",
                 Image: "img/badges/insect.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-08-13T23:53:19.440Z",
+                Attempts: 4
             },
             {
                 Group: "Badges",
                 Name: "Toxic Badge",
                 Image: "img/badges/toxic.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-08-14T21:08:32.246Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Garnish Badge",
-                Image: "img/badges/trio.png",
-                Time: "",
-                Attempts: 0
+                Image: "img/badges/garnish.png",
+                Time: "2023-08-15T01:29:22.764Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Basic Badge",
                 Image: "img/badges/basic.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-08-15T02:13:15.764Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
