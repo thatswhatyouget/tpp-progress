@@ -66,55 +66,55 @@ Season10.Runs.push(
                 Group: "Badges",
                 Name: "Legend Badge",
                 Image: "img/badges/legend.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-08-16T20:33:35.180Z",
+                Attempts: 1
             },
 
             {
                 Group: "Elite Four",
-                Name: "Shauntal",
-                Image: "img/trainers/black/shauntal.png",
+                Name: "Elesa",
+                Image: "img/trainers/blackwhite3/elesa.png",
                 Time: "",
                 Attempts: 0
             },
             {
                 Group: "Elite Four",
                 Name: "Grimsley",
-                Image: "img/trainers/black/grimsley.png",
+                Image: "img/trainers/blackwhite3/grimsley.png",
                 Time: "",
                 Attempts: 0
             },
             {
                 Group: "Elite Four",
-                Name: "Caitlin",
-                Image: "img/trainers/black/caitlin.png",
+                Name: "Colress",
+                Image: "img/trainers/blackwhite3/colress.png",
                 Time: "",
                 Attempts: 0
             },
             {
                 Group: "Elite Four",
                 Name: "Marshal",
-                Image: "img/trainers/black/marshal.png",
+                Image: "img/trainers/blackwhite3/marshal.png",
                 Time: "",
                 Attempts: 0
             },
             {
                 Group: "Champions",
                 Name: "Iris",
-                Image: "img/trainers/black/iris.png",
+                Image: "img/trainers/blackwhite3/iris.png",
                 Time: "",
                 Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "16413", Attempts: 0, Party: [
-                    // { Pokemon: "Archeops", Nickname: "aooop ", Level: 87, Gender: "Male" },
-                    // { Pokemon: "Volbeat", Nickname: "Stu) ;?,54", Level: 96, Gender: "Male" },
-                    // { Pokemon: "Lucario", Nickname: "Sora", Level: 83, Gender: "Male" },
-                    // { Pokemon: "Serperior", Nickname: "Terumi", Level: 84, Gender: "Male" },
-                    // { Pokemon: "Vanilluxe", Nickname: "ATISSRZM4", Level: 76, Gender: "Male" },
-                    // { Pokemon: "Sigilyph", Level: 84, Gender: "Male" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "25853", Attempts: 0, Party: [
+                    { Number: 187, Pokemon: "Heatmor", Gender: "Female", Nickname: "ZTKBFCC", Level: 58, IDNo: "25853" },
+                    { Number: 188, Pokemon: "Durant", Gender: "Female", Nickname: "MLcdDMGx", Level: 56, IDNo: "25853" },
+                    { Number: 16, Pokemon: "Unfezant", Gender: "Male", Nickname: "AACDF", Level: 56, IDNo: "25853" },
+                    { Number: 167, Pokemon: "Jellicent", Gender: "Male", Nickname: "Man", Level: 59, IDNo: "25853" },
+                    { Number: 109, Pokemon: "Spiritomb", Gender: "Male", Nickname: "SOULCASKET", Level: 58, IDNo: "48926" },
+                    { Number: 241, Pokemon: "Cryogonal", Nickname: "Frostbyt", Level: 60, IDNo: "25853" },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2023-08-17T01:40:04.251Z",
                 Image: "img/ribbons/champion.png"
             },
         ]
