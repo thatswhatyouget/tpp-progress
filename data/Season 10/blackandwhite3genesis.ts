@@ -100,19 +100,19 @@ Season10.Runs.push(
             },
             {
                 Group: "Champions",
-                Name: "Iris",
-                Image: "img/trainers/blackwhite3/iris.png",
-                Time: "",
-                Attempts: 0
+                Name: "Juniper",
+                Image: "img/trainers/blackwhite3/juniper.png",
+                Time: "2023-08-18T03:22:13.026Z",
+                Attempts: 1
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "25853", Attempts: 0, Party: [
-                    { Number: 187, Pokemon: "Heatmor", Gender: "Female", Nickname: "ZTKBFCC", Level: 58, IDNo: "25853" },
-                    { Number: 188, Pokemon: "Durant", Gender: "Female", Nickname: "MLcdDMGx", Level: 56, IDNo: "25853" },
-                    { Number: 16, Pokemon: "Unfezant", Gender: "Male", Nickname: "AACDF", Level: 56, IDNo: "25853" },
-                    { Number: 167, Pokemon: "Jellicent", Gender: "Male", Nickname: "Man", Level: 59, IDNo: "25853" },
-                    { Number: 109, Pokemon: "Spiritomb", Gender: "Male", Nickname: "SOULCASKET", Level: 58, IDNo: "48926" },
-                    { Number: 241, Pokemon: "Cryogonal", Nickname: "Frostbyt", Level: 60, IDNo: "25853" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-08-18T03:23:00Z", IDNo: "25853", Attempts: 21, Party: [
+                    { Number: 187, Pokemon: "Heatmor", Gender: "Female", Nickname: "ZTKBFCC", Level: 78, IDNo: "25853" },
+                    { Number: 241, Pokemon: "Cryogonal", Nickname: "Frostbyt", Level: 68, IDNo: "25853" },
+                    { Number: 16, Pokemon: "Unfezant", Gender: "Male", Nickname: "AACDF", Level: 73, IDNo: "25853" },
+                    { Number: 188, Pokemon: "Durant", Gender: "Female", Nickname: "MLcdDMGx", Level: 70, IDNo: "25853" },
+                    { Number: 109, Pokemon: "Spiritomb", Gender: "Male", Nickname: "SOULCASKET", Level: 75, IDNo: "48926" },
+                    { Number: 167, Pokemon: "Jellicent", Gender: "Male", Nickname: "Man", Level: 71, IDNo: "25853" },
                 ],
                 FirstAttemptDate: "2023-08-17T01:40:04.251Z",
                 Image: "img/ribbons/champion.png"
