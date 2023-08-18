@@ -74,29 +74,29 @@ Season10.Runs.push(
                 Group: "Elite Four",
                 Name: "Elesa",
                 Image: "img/trainers/blackwhite3/elesa.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-08-17T15:42:46.857Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Grimsley",
                 Image: "img/trainers/blackwhite3/grimsley.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-08-17T22:33:20.544Z",
+                Attempts: 4
             },
             {
                 Group: "Elite Four",
                 Name: "Colress",
                 Image: "img/trainers/blackwhite3/colress.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-08-17T14:02:50.439Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Marshal",
                 Image: "img/trainers/blackwhite3/marshal.png",
-                Time: "",
-                Attempts: 0
+                Time: "2023-08-17T17:19:22.413Z",
+                Attempts: 3
             },
             {
                 Group: "Champions",
