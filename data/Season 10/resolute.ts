@@ -296,7 +296,7 @@ Season10.Runs.push(
                     { Pokemon: "Rayquaza", Nickname: "QUAZAR", PreviousNick: "., \u2642\u2642", Level: 100, Number: 384, IDNo: "52105", Shiny: true },
                     { Pokemon: "Meloetta", Level: 100, Number: 314, IDNo: "52105" },
                     { Pokemon: "Heatran", Nickname: "AIEK", Level: 100, Gender: "Female", Number: 142, IDNo: "52105" },
-                    { Pokemon: "Zoroark", Nickname: "Eliza", Level: 100, Gender: "Female", Number: 387, IDNo: "52105", Form: "Eliza" },
+                    { Pokemon: "Eliza", Level: 100, Gender: "Female", Number: 387, IDNo: "52105" },
                 ],
                 FirstAttemptDate: "7d 20h 42m 29s",
                 Image: "img/ribbons/champion.png",
