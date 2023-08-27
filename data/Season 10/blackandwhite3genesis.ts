@@ -11,7 +11,7 @@ Season10.Runs.push(
         // HostImageSource: "https://www.deviantart.com/krizste/art/TPP-VoltWhite2Redux-forest-sprites-943447962",
         Region: "Unova",
         Pokedex: "Genesis Unova",
-        // FinalStateLink:"./states/Season 10/blackandwhite3genesis.json", 
+        FinalStateLink:"./states/Season 10/blackandwhite3genesis.json",
         Events: [
             {
                 Group: "Badges",
