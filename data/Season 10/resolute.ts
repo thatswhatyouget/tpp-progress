@@ -11,7 +11,7 @@ Season10.Runs.push(
         BaseGame: "Emerald",
         Region: "Sylon",
         Pokedex: "Sylon",
-        // FinalStateLink: "./states/Season 10/resolute.json",
+        FinalStateLink: "./states/Season 10/resolute.json",
         Events: [
             {
                 Group: "Badges",
@@ -465,7 +465,13 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Spinda", "Time": "2023-07-14T22:42:32.940Z" },
             { "Group": "Pokemon", "Name": "Regigigas", "Time": "2023-07-15T00:32:12.040Z" },
             { "Group": "Pokemon", "Name": "Pichu", "Time": "2023-07-15T00:59:33.980Z" },
-            { "Group": "Pokemon", "Name": "Suicune", "Time": "2023-07-15T04:35:29.971Z" }
+            { "Group": "Pokemon", "Name": "Suicune", "Time": "2023-07-15T04:35:29.971Z" },
+
+            {
+                "Group": "Pokemon",
+                "Name": "Eliza",
+                "Time": "2023-07-16T08:46:33.615Z"
+            },
         ]
     }
 );
