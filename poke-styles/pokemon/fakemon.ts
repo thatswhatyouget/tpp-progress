@@ -13,6 +13,7 @@ var fakemon = [
     "Burmy G", "Wormadam G", "Meloetta F", "ShayminSky", "Burmy S", "Wormadam S", "Aqua Egg", "Shellos 2", "Gastrodon2", "Rotom I", "Rotom F", "Rotom W", "Rotom G", "Rotom H", //Flora Sky
     "Onixtret", "Steelurret", "Chiquirtle", "Baytortle", "Megastoise", "Hootduo", "Noctdrio", "Togekey", "Togetape", "Hopporita", "Skipleef", "Jumpanium", "Woochum", "Quagynx", //Chatty Crystal
     "CoolSpheal", "DumbSpheal", "WentSpheal", //Spheal Team Six
+    "Eliza", "Eevee-S", "Chronya", "Elluce", "Fus-Mewtwo", "Mewtwo-F", "Mewtwo X", "Mewtwo Y", "Charizardx", "Charizardy", "Blastiose", "Urshifu-S", "Urshifu-R", "Lopunny-Ex", // Victory Fire, Resolute, Mega Power, Nameless
 ];
 
 addStyles(fakemon, f => {
@@ -81,7 +82,7 @@ addStyles(["Voltorb", "Electrode", "Misdreavus", "Seviper", "Mismagius"], f => {
 });
 addStyles(["UB-Queen"], f => {
     const clean = dexClean(f).replace(/ /g, '');
-	const alt = "ultra";
+    const alt = "ultra";
     const path = `./img/alternate/${clean}-${alt}.png`;
     return `.star .pokesprite.${clean}.${alt} img { background-image:url(".${path}")!important; background-position: center!important;  }`;
 });
