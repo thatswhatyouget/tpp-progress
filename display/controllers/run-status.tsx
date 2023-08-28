@@ -45,6 +45,11 @@ namespace TPP.Controllers {
                 natDex.push("Quagynx");
                 natDex.push("Phancero");
             }
+            if (run.RunName.indexOf("Cramorant Edition") >= 0) {
+                natDex.push("Cramorant");
+                natDex.push("Arrokuda");
+                natDex.push("Barraskewda");
+            }
             var pokemon = TPP.Transforms.Pokedex.DexMerge(dexData.Regional[run.Pokedex || run.Region], natDex);
             function fillDex(run) {
                 tppData.forEach(c => {

@@ -350,7 +350,7 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Arceus", "Time": "2023-03-20T05:38:56.911Z" },
             { "Group": "Pokemon", "Name": "Giratina", "Time": "2023-03-20T08:43:32.188Z" },
             { "Group": "Pokemon", "Name": "Seaking", "Time": "2023-03-20T08:58:28.874Z" },
-            { "Group": "Pokemon", "Name": "Gyardos", "Time": "2023-03-20T09:16:07.122Z" },
+            { "Group": "Pokemon", "Name": "Gyarados", "Time": "2023-03-20T09:16:07.122Z" },
             { "Group": "Pokemon", "Name": "Goldeen", "Time": "2023-03-20T09:27:08.802Z" },
             { "Group": "Pokemon", "Name": "Octillery", "Time": "2023-03-20T11:13:26.971Z" },
             { "Group": "Pokemon", "Name": "Remoraid", "Time": "2023-03-20T22:21:32.233Z" },
