@@ -10,7 +10,6 @@ Intermissions.Runs.push(
         HostImage: "img/hosts/ta.png",
         // HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
         Region: "HarvestCraft",
-        Generation: 3,
         // FinalStateLink: "./states/Season 10/harvestcraft.json",
         Events: [
             {
@@ -46,34 +45,6 @@ Intermissions.Runs.push(
                 Time: "2023-07-08T16:40:11.896Z", Attempts: 2,
             },
 
-            {
-                Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png",
-                Time: "", Attempts: 0,
-            },
-            {
-                Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png",
-                Time: "", Attempts: 0,
-            },
-            {
-                Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png",
-                Time: "", Attempts: 0,
-            },
-            {
-                Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png",
-                Time: "", Attempts: 0,
-            },
-            {
-                Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png",
-                Time: "", Attempts: 0,
-            },
-
-            <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "28882", Party: [
-                ],
-                Time: "", Attempts: 0,
-                FirstAttemptDate: "",
-                Image: "img/ribbons/champion.png"
-            },
             { "Group": "Pokemon", "Name": "Fennekin", "Time": "2023-07-06T21:53:00.367Z" },
             { "Group": "Pokemon", "Name": "Taillow", "Time": "2023-07-06T22:20:54.353Z" },
             { "Group": "Pokemon", "Name": "Ralts", "Time": "2023-07-07T01:10:13.970Z" },
