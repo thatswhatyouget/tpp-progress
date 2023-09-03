@@ -153,8 +153,8 @@ Season10.Runs.push(
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-06-19T20:05:00Z", Attempts: 4, IDNo: "35110", Party: [
                     { Pokemon: "Rotom", Nickname: "TOJIKO", Level: 100, Met: "Route 48", OT: "11 CCvu" },
                     { Pokemon: "Machamp", Nickname: "A.       6", Level: 86, Gender: "Female", Met: "New Bark Town", OT: "11 CCvu" },
-                    { Pokemon: "Deoxys", Nickname: "WSPPACE DX", Level: 91, Met: "Route 44", OT: "11 CCvu", Form: "Attack" },
-                    { Pokemon: "Deoxys", Nickname: "?.,,", Level: 87, Met: "Route 36", OT: "11 CCvu", Form: "Defense" },
+                    { Pokemon: "Deoxys", Nickname: "?.,,", Level: 91, Met: "Route 36", OT: "11 CCvu", Form: "Defense" },
+                    { Pokemon: "Deoxys", Nickname: "WSPPACE DX", Level: 87, Met: "Route 44", OT: "11 CCvu", Form: "Attack" },
                     { Pokemon: "Lapras", Nickname: "DYUHEN6EQP", Level: 87, Gender: "Male", Met: "Lake of Rage", OT: "11 CCvu", Shiny: true },
                     { Pokemon: "Masquerain", Nickname: "OO LEXMMQE", Level: 88, Gender: "Female", Met: "Lake of Rage", OT: "11 CCvu" },
                 ],

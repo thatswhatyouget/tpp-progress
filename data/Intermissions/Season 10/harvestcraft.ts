@@ -10,7 +10,7 @@ Intermissions.Runs.push(
         HostImage: "img/hosts/ta.png",
         // HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
         Region: "HarvestCraft",
-        // FinalStateLink: "./states/Season 10/harvestcraft.json",
+        FinalStateLink: "./states/Season 10/harvestcraft.json",
         Events: [
             {
                 Group: "Badges", Name: "Blank Badge", Image: "img/badges/stone.png",
