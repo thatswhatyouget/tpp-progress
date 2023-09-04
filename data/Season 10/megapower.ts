@@ -35,13 +35,13 @@ Season10.Runs.push(
                 Group: "Badges",
                 Name: "Buds Badge",
                 Image: "img/badges/megapower/buds.png",
-                Time: "", Attempts: 0
+                Time: "2023-09-04T10:59:52.476Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Spiral Badge",
                 Image: "img/badges/megapower/spiral.png",
-                Time: "", Attempts: 0
+                Time: "2023-09-04T18:42:45.891Z", Attempts: 1
             },
             {
                 Group: "Badges",
