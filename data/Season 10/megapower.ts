@@ -59,42 +59,42 @@ Season10.Runs.push(
                 Group: "Badges",
                 Name: "Truth Badge",
                 Image: "img/badges/megapower/truth.png",
-                Time: "", Attempts: 0
+                Time: "2023-09-06T12:07:08.545Z", Attempts: 1 // Update with real time from event log
             },
 
 
             {
                 Group: "Elite Four",
-                Name: "Crepitus",
-                Image: "img/trainers/resolute/crepitus.png",
-                Time: "", Attempts: 0
+                Name: "Elethia",
+                Image: "img/trainers/megapower/38.png",
+                Time: "2023-09-06T15:51:54.944Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
-                Name: "Altir",
-                Image: "img/trainers/resolute/altir.png",
-                Time: "", Attempts: 0
+                Name: "Carleigh",
+                Image: "img/trainers/megapower/37.png",
+                Time: "2023-09-06T15:51:54.944Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
-                Name: "Mason",
-                Image: "img/trainers/resolute/mason.png",
+                Name: "Stonewall",
+                Image: "img/trainers/megapower/39.png",
                 Time: "", Attempts: 0
             },
             {
                 Group: "Elite Four",
                 Name: "Dez",
-                Image: "img/trainers/resolute/dez.png",
+                Image: "img/trainers/megapower/dez.png",
                 Time: "", Attempts: 0
             },
             {
                 Group: "Champions",
                 Name: "Luke & Eva",
-                Image: "img/trainers/resolute/luke&eva.png",
+                Image: "img/trainers/megapower/luke&eva.png",
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "First Game Clear", IDNo: "42496", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "42496", Party: [
                     // { Pokemon: "Samurott", Nickname: "D WE  661B", Level: 74, Gender: "Female", Number: 9, IDNo: "52105" },
                     // { Pokemon: "Mienshao", Nickname: "fep‘‘‘‘’/-", Level: 81, Gender: "Male", Number: 112, IDNo: "52105" },
                     // { Pokemon: "Gigalith", Nickname: "IHHIBCUTE", Level: 80, Gender: "Female", Number: 275, IDNo: "52105" },
@@ -102,7 +102,7 @@ Season10.Runs.push(
                     // { Pokemon: "Carnivine", Nickname: "Crawler", Level: 76, Gender: "Male", Number: 223, IDNo: "52105" },
                     // { Pokemon: "Keldeo", Nickname: "Keldeo", Level: 75, Number: 386, IDNo: "52105", Form: "Resolute" },
                 ],
-                FirstAttemptDate:"",
+                FirstAttemptDate:"2023-09-06T15:45:35.313Z",
                 Image: "img/ribbons/champion.png",
                 Time: "", Attempts: 0
             },
