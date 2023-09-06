@@ -66,26 +66,26 @@ Season10.Runs.push(
             {
                 Group: "Elite Four",
                 Name: "Elethia",
-                Image: "img/trainers/megapower/38.png",
+                Image: "img/trainers/megapower/elethia.png",
                 Time: "2023-09-06T15:51:54.944Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Carleigh",
-                Image: "img/trainers/megapower/37.png",
+                Image: "img/trainers/megapower/carleigh.png",
                 Time: "2023-09-06T15:51:54.944Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Stonewall",
-                Image: "img/trainers/megapower/39.png",
+                Image: "img/trainers/megapower/stonewall.png",
                 Time: "", Attempts: 0
             },
             {
                 Group: "Elite Four",
-                Name: "Dez",
-                Image: "img/trainers/megapower/dez.png",
-                Time: "", Attempts: 0
+                Name: "Harmon",
+                Image: "img/trainers/megapower/harmon.png",
+                Time: "2023-09-06T16:19:06.325Z", Attempts: 1
             },
             {
                 Group: "Champions",
