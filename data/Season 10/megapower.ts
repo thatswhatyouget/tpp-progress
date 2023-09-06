@@ -47,13 +47,13 @@ Season10.Runs.push(
                 Group: "Badges",
                 Name: "Electrode Badge",
                 Image: "img/badges/megapower/electrode.png",
-                Time: "", Attempts: 0
+                Time: "2023-09-05T03:01:22.332Z", Attempts: 1 // Update with real time from event log
             },
             {
                 Group: "Badges",
                 Name: "Purgatory Badge",
                 Image: "img/badges/megapower/purgatory.png",
-                Time: "", Attempts: 0
+                Time: "2023-09-05T15:38:09.324Z", Attempts: 1
             },
             {
                 Group: "Badges",
