@@ -5,13 +5,13 @@ Season10.Runs.push(
         ColorPrimary: "#E96239",
         ColorSecondary: "#96C6CD",
         StartDate: "2023-09-02T16:00:00Z",
-        Duration: "2023-09-18T10:43:35Z",
+        Duration: "2023-09-09T16:23:35Z",
         HostName: "iii22MT",
         HostImage: "img/hosts/iii22MT.png",
         BaseGame: "Emerald",
         Region: "Ivara",
         Pokedex: "Ivara",
-        //FinalStateLink: "./states/Season 10/megapower.json",
+        FinalStateLink: "./states/Season 10/megapower.json",
         Events: [
             {
                 Group: "Badges",
