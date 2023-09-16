@@ -102,9 +102,9 @@ Season10.Runs.push(
                     { Pokemon: "Pyroar", Nickname: "AA,SYwwjx", Level: 89, Gender: "Male", Number: 78, IDNo: "42496" },
                     { Pokemon: "Abomasnow", Nickname: "Joe", Level: 82, Gender: "Female", Number: 107, IDNo: "42496", Form: "Mega" },
                 ],
-                // FirstAttemptDate:"2023-09-06T15:45:35.313Z",
+                FirstAttemptDate:"2023-09-06T15:45:35.313Z",
                 Image: "img/ribbons/champion.png",
-                Time: "2023-09-06T21:24:44.192Z", Attempts: 0
+                Time: "2023-09-06T21:24:44.192Z", Attempts: 8
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "42496", Party: [
@@ -115,9 +115,9 @@ Season10.Runs.push(
                     { Pokemon: "Diancie", Nickname: "DDDD TUTU", Level: 100, Number: 126, IDNo: "42496", Form: "Mega" },
                     { Pokemon: "Tapu Lele", Nickname: "Fyxekqqut", Level: 100, Number: 177, IDNo: "42496" },
                 ],
-                // FirstAttemptDate:"2023-09-06T15:45:35.313Z",
+                FirstAttemptDate:"2023-09-08T18:21:06.312Z",
                 Image: "img/ribbons/champion.png",
-                Time: "2023-09-08T23:29:41.684Z", Attempts: 0
+                Time: "2023-09-08T23:29:41.684Z", Attempts: 1
             },
 
         ]
