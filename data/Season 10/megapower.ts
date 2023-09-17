@@ -95,16 +95,29 @@ Season10.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "42496", Party: [
-                    // { Pokemon: "Samurott", Nickname: "D WE  661B", Level: 74, Gender: "Female", Number: 9, IDNo: "52105" },
-                    // { Pokemon: "Mienshao", Nickname: "fep‘‘‘‘’/-", Level: 81, Gender: "Male", Number: 112, IDNo: "52105" },
-                    // { Pokemon: "Gigalith", Nickname: "IHHIBCUTE", Level: 80, Gender: "Female", Number: 275, IDNo: "52105" },
-                    // { Pokemon: "Noivern", Nickname: "-0", Level: 90, Gender: "Male", Number: 334, IDNo: "52105" },
-                    // { Pokemon: "Carnivine", Nickname: "Crawler", Level: 76, Gender: "Male", Number: 223, IDNo: "52105" },
-                    // { Pokemon: "Keldeo", Nickname: "Keldeo", Level: 75, Number: 386, IDNo: "52105", Form: "Resolute" },
+                    { Pokemon: "Tapu Lele", Nickname: "Fyxekqqut", Level: 92, Number: 177, IDNo: "42496" },
+                    { Pokemon: "Simipour", Nickname: "Spout", Level: 91, Gender: "Female", Number: 195, IDNo: "42496" },
+                    { Pokemon: "Groudon", Nickname: "  UUps vv", Level: 92, Number: 383, IDNo: "42496", Form: "Primal" },
+                    { Pokemon: "Celesteela", Nickname: "ZT  ", Level: 79, Number: 193, IDNo: "42496" },
+                    { Pokemon: "Pyroar", Nickname: "AA,SYwwjx", Level: 89, Gender: "Male", Number: 78, IDNo: "42496" },
+                    { Pokemon: "Abomasnow", Nickname: "Joe", Level: 82, Gender: "Female", Number: 107, IDNo: "42496", Form: "Mega" },
                 ],
                 FirstAttemptDate:"2023-09-06T15:45:35.313Z",
                 Image: "img/ribbons/champion.png",
-                Time: "", Attempts: 0
+                Time: "2023-09-06T21:24:44.192Z", Attempts: 8
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "42496", Party: [
+                    { Pokemon: "Celesteela", Nickname: "ZT  ", Level: 100, Number: 193, IDNo: "42496" },
+                    { Pokemon: "Groudon", Nickname: "  UUps vv", Level: 100, Number: 383, IDNo: "42496", Form: "Primal" },
+                    { Pokemon: "Raikou", Nickname: "ELEC CHAIR", Level: 100, Number: 243, IDNo: "42496" },
+                    { Pokemon: "Simipour", Nickname: "Spout", Level: 100, Gender: "Female", Number: 195, IDNo: "42496" },
+                    { Pokemon: "Diancie", Nickname: "DDDD TUTU", Level: 100, Number: 126, IDNo: "42496", Form: "Mega" },
+                    { Pokemon: "Tapu Lele", Nickname: "Fyxekqqut", Level: 100, Number: 177, IDNo: "42496" },
+                ],
+                FirstAttemptDate:"2023-09-08T18:21:06.312Z",
+                Image: "img/ribbons/champion.png",
+                Time: "2023-09-08T23:29:41.684Z", Attempts: 1
             },
 
         ]
