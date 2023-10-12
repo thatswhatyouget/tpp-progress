@@ -84,7 +84,7 @@ Season10.Runs.push(
                 Group: "Elite Four",
                 Name: "Stonewall",
                 Image: "img/trainers/megapower/stonewall.png",
-                Time: "", Attempts: 0
+                Time: "2023-09-06T16:41:29.850Z", Attempts: 2
             },
             {
                 Group: "Elite Four",
@@ -94,9 +94,9 @@ Season10.Runs.push(
             },
             {
                 Group: "Champions",
-                Name: "Luke & Eva",
-                Image: "img/trainers/megapower/luke&eva.png",
-                Time: "", Attempts: 0
+                Name: "Salchimia",
+                Image: "img/trainers/megapower/salchimia.png",
+                Time: "2023-09-06T21:23:21.683Z", Attempts: 2
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "42496", Party: [
