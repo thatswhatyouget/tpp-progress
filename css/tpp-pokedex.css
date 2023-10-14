@@ -136,6 +136,10 @@
     background-image: url("../img/digimon-large.png")!important;
 }
 
+.snakewood .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/snakewood-large.png")!important;
+}
+
 .ms .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/pokemon.png")!important;
 }
@@ -174,4 +178,8 @@
 
 .ms.blazingemerald .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/blazing-small.png")!important;
+}
+
+.ms.snakewood .dexEntry .pokesprite:not(.missingno) img {
+    background-image: url("../img/snakewood-small.png")!important;
 }

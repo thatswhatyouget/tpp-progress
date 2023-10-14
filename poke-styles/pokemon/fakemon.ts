@@ -1,6 +1,6 @@
 /// <reference path="../write-style.ts" />
-/// <reference path="../../data/pokedex/natdex.ts" />
-/// <reference path="../../data/pokedex/regional.ts" />
+/// <reference path="../../data/Pokedex/natdex.ts" />
+/// <reference path="../../data/Pokedex/regional.ts" />
 
 var exists = (require('fs') as typeof import('fs')).existsSync;
 
@@ -44,6 +44,9 @@ addStyles(fixFakeForms(Pokedex.Regional["Tohoak"].map(p => (typeof p === "number
 
 //Blazing Emerald
 addStyles(fixFakeForms(Pokedex.Regional["Blazing Hoenn"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("blazingemerald"));
+
+//Snakewood
+addStyles(fixFakeForms(Pokedex.Regional["Snakewood"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("snakewood"));
 
 //Spaceworld Gold Reforged
 const spaceworldBetaMons = Pokedex.Regional.Nihon.map((mon, i) => typeof mon == "string" ? { name: mon, number: `${i}-spaceworld` } : null).filter(m => !!m);
