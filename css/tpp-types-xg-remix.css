@@ -1,15 +1,16 @@
 @font-face {
   font-family: 'TPP-Types-XG-Remix';
   src:
-    url('fonts/TPP-Types-XG-Remix.ttf?f5cvdy') format('truetype'),
-    url('fonts/TPP-Types-XG-Remix.woff?f5cvdy') format('woff'),
-    url('fonts/TPP-Types-XG-Remix.svg?f5cvdy#TPP-Types-XG-Remix') format('svg');
+    url('fonts/TPP-Types-XG-Remix.ttf?gthl6m') format('truetype'),
+    url('fonts/TPP-Types-XG-Remix.woff?gthl6m') format('woff'),
+    url('fonts/TPP-Types-XG-Remix.svg?gthl6m#TPP-Types-XG-Remix') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-.xgremix i.tpp {
+.xgremix i.tpp,
+.snakewood i.tpp {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'TPP-Types-XG-Remix', 'TPP-Glyphs' !important;
   font-style: normal;
@@ -23,148 +24,158 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.xgremix i.tpp img,
+.snakewood i.tpp img {
+  display: none;
+}
+
+.snakewood .tpp-type-disease:before,
+.snakewood .tpp-type-disease-cutout:before {
+  content: "\1f637";
+}
+
 .xgremix .tpp-type-beast-cutout:before {
-  content: "\e90a";
+  content: "\1f337";
 }
 
 .xgremix .tpp-type-dragon-cutout:before {
-  content: "\e901";
+  content: "\1f338";
 }
 
 .xgremix .tpp-type-fire-cutout:before {
-  content: "\e902";
+  content: "\1f339";
 }
 
 .xgremix .tpp-type-metal-cutout:before {
-  content: "\e903";
+  content: "\1f33a";
 }
 
 .xgremix .tpp-type-wood-cutout:before {
-  content: "\e904";
+  content: "\1f33b";
 }
 
 .xgremix .tpp-type-earth-cutout:before {
-  content: "\e905";
+  content: "\1f33c";
 }
 
 .xgremix .tpp-type-water-cutout:before {
-  content: "\e906";
+  content: "\1f33d";
 }
 
 .xgremix .tpp-type-air-cutout:before {
-  content: "\e90e";
+  content: "\1f33e";
 }
 
 .xgremix .tpp-type-electric-cutout:before {
-  content: "\e908";
+  content: "\1f33f";
 }
 
 .xgremix .tpp-type-ice-cutout:before {
-  content: "\e909";
+  content: "\1f340";
 }
 
 .xgremix .tpp-type-chemical-cutout:before {
-  content: "\e919";
+  content: "\1f341";
 }
 
 .xgremix .tpp-type-synthetic-cutout:before {
-  content: "\e91b";
+  content: "\1f342";
 }
 
 .xgremix .tpp-type-light-cutout:before {
-  content: "\e91c";
+  content: "\1f343";
 }
 
 .xgremix .tpp-type-shadow-cutout:before {
-  content: "\e90d";
+  content: "\1f344";
 }
 
 .xgremix .tpp-type-crystal-cutout:before {
-  content: "\e91e";
+  content: "\1f345";
 }
 
 .xgremix .tpp-type-magic-cutout:before {
-  content: "\e91f";
+  content: "\1f346";
 }
 
 .xgremix .tpp-type-spirit-cutout:before {
-  content: "\e910";
+  content: "\1f347";
 }
 
 .xgremix .tpp-type-cosmic-cutout:before {
-  content: "\e911";
+  content: "\1f348";
 }
 
 .xgremix .tpp-type-beast:before {
-  content: "\e912";
+  content: "\1f43e";
 }
 
 .xgremix .tpp-type-dragon:before {
-  content: "\e913";
+  content: "\1f432";
 }
 
 .xgremix .tpp-type-fire:before {
-  content: "\e914";
+  content: "\1f525";
 }
 
 .xgremix .tpp-type-metal:before {
-  content: "\e915";
+  content: "\1f529";
 }
 
 .xgremix .tpp-type-wood:before {
-  content: "\e916";
+  content: "\1f333";
 }
 
 .xgremix .tpp-type-earth:before {
-  content: "\e900";
+  content: "\1f30e";
 }
 
 .xgremix .tpp-type-water:before {
-  content: "\e907";
+  content: "\1f4a7";
 }
 
 .xgremix .tpp-type-air:before {
-  content: "\e91d";
+  content: "\1f4a8";
 }
 
 .xgremix .tpp-type-electric:before {
-  content: "\e90b";
+  content: "\1f50c";
 }
 
 .xgremix .tpp-type-ice:before {
-  content: "\e90c";
+  content: "\2603";
 }
 
 .xgremix .tpp-type-chemical:before {
-  content: "\e9aa";
+  content: "\1f571";
 }
 
 .xgremix .tpp-type-synthetic:before {
-  content: "\e920";
+  content: "\1f4bd";
 }
 
 .xgremix .tpp-type-light:before {
-  content: "\e921";
+  content: "\1f4a1";
 }
 
 .xgremix .tpp-type-shadow:before {
-  content: "\e90f";
+  content: "\1f3b1";
 }
 
 .xgremix .tpp-type-crystal:before {
-  content: "\e917";
+  content: "\1f48e";
 }
 
 .xgremix .tpp-type-magic:before {
-  content: "\e997";
+  content: "\1f5ff";
 }
 
 .xgremix .tpp-type-spirit:before {
-  content: "\e918";
+  content: "\1f383";
 }
 
 .xgremix .tpp-type-cosmic:before {
-  content: "\e91a";
+  content: "\1f30c";
 }
 
 .xgremix .tpp-type-beast,
@@ -233,7 +244,9 @@
 }
 
 .xgremix .tpp-type-shadow,
-.xgremix .tpp-type-shadow-cutout {
+.xgremix .tpp-type-shadow-cutout,
+.snakewood .tpp-type-disease,
+.snakewood .tpp-type-disease-cutout {
   color: #004C6A;
 }
 
