@@ -20,7 +20,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Badges", Name: "Miasma Badge", Image: "img/badges/snakewood/miasma.png",
-                Time: "", Attempts: 0,
+                Time: "2023-10-15T18:11:48.647Z", Attempts: 1,
             },
             {
                 Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png",
