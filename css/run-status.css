@@ -240,6 +240,7 @@
     top: 0;
     bottom: 0;
     z-index: 5;
+    display: flex;
     flex-flow: column nowrap;
     list-style: none;
     justify-content: space-between;
@@ -249,16 +250,11 @@
     margin: 0;
     padding: 0;
     user-select: none;
-    cursor: pointer;
-    display: none;
+    overflow:hidden;
 }
 
 .pokemon-hud.pc-box ul.party > li ul.info-tabs {
     font-size: .5em;
-}
-
-.pokemon-hud ul.party > li:hover ul.info-tabs, .pokemon-hud ul.party > li.show-tabs ul.info-tabs {
-    display: flex;
 }
 
 .pokemon-hud ul.party > li ul.info-tabs > li {
@@ -271,6 +267,14 @@
     border: 1px solid #333;
     border-top-right-radius: 1em;
     border-bottom-right-radius: 1em;
+    transform: translateX(-110%);
+    cursor: pointer;
+    transition: transform .15s ease-in;
+    transition-delay: calc(var(--n) * .03);
+}
+
+.pokemon-hud ul.party > li:hover ul.info-tabs > li, .pokemon-hud ul.party > li.show-tabs ul.info-tabs > li {
+    transform: translateX(0);
 }
 
 .pokemon-hud ul.party > li ul.info-tabs > li.active {

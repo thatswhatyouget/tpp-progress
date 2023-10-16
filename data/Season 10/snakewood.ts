@@ -24,7 +24,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png",
-                Time: "", Attempts: 0,
+                Time: "2023-10-16T11:55:21.059Z", Attempts: 2,
             },
             {
                 Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png",

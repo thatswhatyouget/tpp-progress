@@ -1,5 +1,6 @@
 /// <reference path="../pokesprite.tsx" />
 /// <reference path="../pokebox.tsx" />
+
 namespace TPP.Display.Elements.RunStatus {
 
     export class CurrentParty extends React.Component<{ party: TPP.Tv.PartyData; trainer?: TPP.Tv.TrainerData, run: TPP.Run; }, {}> {
@@ -194,9 +195,16 @@ namespace TPP.Display.Elements.RunStatus {
                 isShadow && "shadow-mon",
                 this.state.showTabs && "show-tabs"
             ].filter(c => !!c).map(cleanString).join(' ');
-            return <li className={classes} onTouchEnd={e => this.setState(s => ({ showTabs: !s.showTabs }))}>
+            return <li className={classes} onClick={e => this.setState(s => ({ showTabs: !s.showTabs }))}>
                 <ul className="info-tabs">
-                    {infoModes.map((m, i) => <li key={m} className={(this.state && this.state.infoMode || 0) == i && "active"} onClick={e => { e.stopPropagation(); return this.setState({ infoMode: i }) }}>{m}</li>)}
+                    {infoModes.map((m, i) => <li
+                        key={m}
+                        className={(this.state && this.state.infoMode || 0) == i && "active" || undefined}
+                        onClick={e => { e.stopPropagation(); return this.setState({ infoMode: i }) }}
+                        style={{ '--n': `${i}s` } as React.CSSProperties}
+                    >
+                        {m}
+                    </li>)}
                 </ul>
                 <div className="pokemon-image">
                     <PokeSprite pokemon={mon.is_egg ? "Egg" : mon.species.name} gender={mon.gender} shiny={mon.shiny} baseUrl={this.props.baseUrl} />
