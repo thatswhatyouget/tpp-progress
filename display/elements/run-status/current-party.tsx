@@ -8,7 +8,7 @@ namespace TPP.Display.Elements.RunStatus {
             return <PokeBox title="Current Party" className="pokemon-hud">
                 <ul className="party">
                     {this.props.trainer ?
-                        <li key='host'>
+                        <li key='host' className="host">
                             <div className="pokemon-image">
                                 {this.props.run.HostImageSource ?
                                     <a href={this.props.run.HostImageSource} target="_blank">
@@ -35,12 +35,14 @@ namespace TPP.Display.Elements.RunStatus {
         }
     }
 
-    const infoModes = ["Default", "Misc", "Met", "IVs", "EVs", "Stats", "Condition", "Evolutions"]
+    const infoModes = ["Moves", "Info", "Met", "IVs", "EVs", "Stats", "Cond", "Evo"]
 
-    export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string, baseUrl?: string, ignoreHealth?: boolean, trainer: TPP.Tv.Trainer }, { infoMode: number; }> {
+    export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string, baseUrl?: string, ignoreHealth?: boolean, trainer: TPP.Tv.Trainer }, { infoMode: number; showTabs?: boolean }> {
+        state = { infoMode: 0, showTabs: false };
 
         private renderInfo(mode: string, mon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon) {
             switch (mode) {
+                case "Moves":
                 default:
                     return <div className="pokemon-info">
                         <div className="name">{mon.name}</div>
@@ -99,7 +101,7 @@ namespace TPP.Display.Elements.RunStatus {
                             <li className="informatic">Spdef: {pMon.stats.special_defense}</li>
                         </ul>}
                     </div>;
-                case "Condition":
+                case "Cond":
                     return <div className="pokemon-info">
                         <div className="name">{mon.name}</div>
                         <div className="informatic">Condition</div>
@@ -113,7 +115,7 @@ namespace TPP.Display.Elements.RunStatus {
                             {typeof mon.affection === "number" && <li className="informatic">❤️: {mon.affection}</li>}
                         </ul>}
                     </div>;
-                case "Misc":
+                case "Info":
                     return <div className="pokemon-info">
                         <div className="name">{mon.name}</div>
                         {mon.experience && <ul className="stats">
@@ -122,7 +124,7 @@ namespace TPP.Display.Elements.RunStatus {
                             <li className="informatic">Next Level: {mon.experience.next_level}</li>
                             <li className="informatic">Remaining: {mon.experience.remaining}</li>
                         </ul>}
-                        {mon.nature && <div className="nature informatic">{mon.nature}</div>}
+                        {mon.nature && <div className="nature informatic">{mon.nature} Nature</div>}
                         {mon.characteristic && <div className="characteristic informatic">{mon.characteristic}</div>}
                         {mon.friendship && <div className="friendship informatic">{mon.friendship}</div>}
                     </div>;
@@ -141,7 +143,7 @@ namespace TPP.Display.Elements.RunStatus {
                             {mon.met.game && typeof mon.met.game == "string" && <li className="informatic">in {mon.met.game}</li>}
                         </ul>}
                     </div>
-                case "Evolutions":
+                case "Evo":
                     return <div className="pokemon-info">
                         <div className="name">{mon.name}</div>
                         <div className="informatic">Evolutions:</div>
@@ -189,9 +191,13 @@ namespace TPP.Display.Elements.RunStatus {
                 (mon as Tv.PartyPokemon).status,
                 mon.pokerus && mon.pokerus.infected && "pkrs-infected",
                 mon.pokerus && mon.pokerus.cured && "pkrs-cured",
-                isShadow && "shadow-mon"
+                isShadow && "shadow-mon",
+                this.state.showTabs && "show-tabs"
             ].filter(c => !!c).map(cleanString).join(' ');
-            return <li className={classes} onClick={e => this.setState(s => ({ infoMode: ((s && s.infoMode || 0) + 1) % infoModes.length }))}>
+            return <li className={classes} onTouchEnd={e => this.setState(s => ({ showTabs: !s.showTabs }))}>
+                <ul className="info-tabs">
+                    {infoModes.map((m, i) => <li key={m} className={(this.state && this.state.infoMode || 0) == i && "active"} onClick={e => { e.stopPropagation(); return this.setState({ infoMode: i }) }}>{m}</li>)}
+                </ul>
                 <div className="pokemon-image">
                     <PokeSprite pokemon={mon.is_egg ? "Egg" : mon.species.name} gender={mon.gender} shiny={mon.shiny} baseUrl={this.props.baseUrl} />
                     <div className="species">{mon.is_egg ? "Egg" : mon.species.name}</div>

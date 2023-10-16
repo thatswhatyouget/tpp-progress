@@ -478,7 +478,12 @@ declare namespace TPP.Display.Elements.RunStatus {
         trainer: TPP.Tv.Trainer;
     }, {
         infoMode: number;
+        showTabs?: boolean;
     }> {
+        state: {
+            infoMode: number;
+            showTabs: boolean;
+        };
         private renderInfo;
         render(): JSX.Element;
     }
