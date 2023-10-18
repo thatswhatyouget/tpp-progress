@@ -36,7 +36,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Badges", Name: "Knight Emblem", Image: "img/badges/snakewood/knightemblem.png",
-                Time: "", Attempts: 0,
+                Time: "2023-10-18T16:42:51.836Z", Attempts: 1,
             },
             {
                 Group: "Badges", Name: "Comet Badge", Image: "img/badges/snakewood/comet.png",
