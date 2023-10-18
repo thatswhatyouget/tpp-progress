@@ -40,7 +40,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Badges", Name: "Comet Badge", Image: "img/badges/snakewood/comet.png",
-                Time: "", Attempts: 0,
+                Time: "2023-10-18T08:21:51.699Z", Attempts: 3,
             },
             {
                 Group: "Badges", Name: "Focus Badge", Image: "img/badges/snakewood/focus.png",

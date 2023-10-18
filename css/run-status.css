@@ -250,7 +250,7 @@
     margin: 0;
     padding: 0;
     user-select: none;
-    overflow:hidden;
+    overflow-x: hidden;
 }
 
 .pokemon-hud.pc-box ul.party > li ul.info-tabs {
@@ -271,6 +271,7 @@
     cursor: pointer;
     transition: transform .15s ease-in;
     transition-delay: calc(var(--n) * .03);
+    overflow: hidden;
 }
 
 .pokemon-hud ul.party > li:hover ul.info-tabs > li, .pokemon-hud ul.party > li.show-tabs ul.info-tabs > li {
