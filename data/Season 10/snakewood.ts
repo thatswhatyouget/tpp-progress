@@ -49,11 +49,11 @@ Season10.Runs.push(
 
             {
                 Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/snakewood/caitlin.png",
-                Time: "", Attempts: 0,
+                Time: "2023-10-19T04:07:21.271Z", Attempts: 2,
             },
             {
                 Group: "Elite Four", Name: "Benny", Image: "img/trainers/snakewood/benny.png",
-                Time: "", Attempts: 0,
+                Time: "2023-10-19T05:30:53.543Z", Attempts: 3,
             },
             {
                 Group: "Elite Four", Name: "Glacia", Image: "img/trainers/snakewood/glacia.png",
