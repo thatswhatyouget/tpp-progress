@@ -57,7 +57,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Glacia", Image: "img/trainers/snakewood/glacia.png",
-                Time: "", Attempts: 0,
+                Time: "2023-10-19T16:11:27.657Z", Attempts: 3,
             },
             {
                 Group: "Elite Four", Name: "Indigo", Image: "img/trainers/snakewood/indigo.png",
