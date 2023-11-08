@@ -8,8 +8,8 @@ Intermissions.Runs.push(
         StartDate: "2023-05-12T21:45:00Z",
         Duration: "2023-05-13T20:30:00Z",
         HostName: "DDDJWV",
-        HostImage: "img/hosts/pee.png",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/568gkg/the_ultra_crew_so_far_v_30/d8i7kwk",
+        HostImage: "img/hosts/dddjwv.png",
+        HostImageSource: "https://www.deviantart.com/krizste/art/TPP-DigimonNovaRed-wave-sprites-963266146",
         BaseGame: "FireRed",
         Pokedex: "Digimon",
         Events: [
