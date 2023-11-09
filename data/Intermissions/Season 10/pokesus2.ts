@@ -1,10 +1,10 @@
 /// <reference path="../../tpp-data.ts" />
 Intermissions.Runs.push(
     {
-        RunName: "PokéSus 2",
+        RunName: "PokéSus2",
 		Class: "pokesus",
-        ColorPrimary: "C51112",
-        ColorSecondary: "790738",
+        ColorPrimary: "#C51112",
+        ColorSecondary: "#790738",
         StartDate: "2023-10-11T01:30:43.664Z",
         Duration: "2023-10-14T20:35:03.372Z",
         HostName: "ZZZZZZZ",
