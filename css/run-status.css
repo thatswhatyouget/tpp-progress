@@ -135,6 +135,10 @@
     background-image: url("../img/fighters-large.png")!important;
 }
 
+.pokesus .badgeList ul li .image.pokesprite:not(.missingno) img {
+    background-image: url("../img/pokesus-large.png")!important;
+}
+
 .snakewood .badgeList ul li .image.pokesprite:not(.missingno) img {
     background-image: url("../img/snakewood-large.png")!important;
 }
@@ -378,6 +382,10 @@
 
 .blazingemerald .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img {
     background-image: url("../img/blazing-large.png")!important;
+}
+
+.pokesus .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img {
+    background-image: url("../img/pokesus-large.png")!important;
 }
 
 .snakewood .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img {

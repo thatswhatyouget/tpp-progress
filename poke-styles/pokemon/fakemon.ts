@@ -89,4 +89,3 @@ addStyles(["UB-Queen"], f => {
     const path = `./img/alternate/${clean}-${alt}.png`;
     return `.star .pokesprite.${clean}.${alt} img { background-image:url(".${path}")!important; background-position: center!important;  }`;
 });
-
