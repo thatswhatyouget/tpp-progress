@@ -135,9 +135,9 @@ Revisits.Runs.push(
         ColorPrimary: "#E96239",
         ColorSecondary: "#96C6CD",
         StartDate: "2023-10-03T21:00:00Z",
-        Duration: "2023-10-14T21:00:00Z",
+        Duration: "2023-10-06T21:07:36.132Z",
         HostName: "iii22MT",
-        HostImage: "img/hosts/iii22MT.png",
+        HostImage: "img/hosts/iii22MT-u.png",
         BaseGame: "Emerald",
         Region: "Ivara",
         Pokedex: "Ivara",
@@ -184,16 +184,16 @@ Revisits.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "42496", Party: [
-                    { Pokemon: "Tapu Lele", Nickname: "Fyxekqqut", Level: 92, Number: 177, IDNo: "42496" },
-                    { Pokemon: "Simipour", Nickname: "Spout", Level: 91, Gender: "Female", Number: 195, IDNo: "42496" },
-                    { Pokemon: "Groudon", Nickname: "  UUps vv", Level: 92, Number: 383, IDNo: "42496", Form: "Primal" },
-                    { Pokemon: "Celesteela", Nickname: "ZT  ", Level: 79, Number: 193, IDNo: "42496" },
-                    { Pokemon: "Pyroar", Nickname: "AA,SYwwjx", Level: 89, Gender: "Male", Number: 78, IDNo: "42496" },
-                    { Pokemon: "Abomasnow", Nickname: "Joe", Level: 82, Gender: "Female", Number: 107, IDNo: "42496", Form: "Mega" },
+                    { Pokemon: "Simipour", Nickname: "Spout", Level: 100, Gender: "Female", Number: 195, IDNo: "42496" },
+                    { Pokemon: "Celesteela", Nickname: "ZT  ", Level: 94, Number: 193, IDNo: "42496" },
+                    { Pokemon: "Groudon", Nickname: "  UUps vv", Level: 97, Number: 383, IDNo: "42496", Form: "Primal" },
+                    { Pokemon: "Pyroar", Nickname: "AA,SYwwjx", Level: 94, Gender: "Male", Number: 78, IDNo: "42496" },
+                    { Pokemon: "Florges", Nickname: "2", Level: 86, Gender: "Feale", Number: 45, IDNo: "42496" },
+                    { Pokemon: "Houndoom", Nickname: "GHKK", Level: 83, Gender: "Male", Number: 314, IDNo: "42496", Form: "Mega" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png",
-                Time: "", Attempts: 0
+                Time: "2023-10-04T23:58:14.687Z", Attempts: 2
             },
         ]
     }
