@@ -34,26 +34,26 @@ Sidegames.Runs.push(
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-11-18T07:12:09.000Z", IDNo: "43055", Attempts: 1, Party: [
-                    { Pokemon: "Kyogre", Nickname: "UwU", Level: 55, Number: 198, IDNo: "43055" },
-                    { Pokemon: "Swampert", Nickname: "BUTT", Level: 58, Gender: "Male", Number: 9, IDNo: "43055" },
-                    { Pokemon: "Zigzagoon", Nickname: "Racc", Level: 9, Gender: "Female", Number: 12, IDNo: "43055" },
-                    { Pokemon: "Tropius", Nickname: "Neck", Level: 26, Gender: "Female", Number: 150, IDNo: "43055" },
-                    { Pokemon: "Lileep", Nickname: "WAH", Level: 22, Gender: "Male", Number: 133, IDNo: "43055" },
-                    { Pokemon: "Aron", Nickname: "Tiny", Level: 16, Gender: "Male", Number: 70, IDNo: "43055" },
+                    { Pokemon: "Qiqi", Class: "Kyogre", Nickname: "UwU", Level: 55, Number: 198, IDNo: "43055" },
+                    { Pokemon: "Smon", Class: "Swampert", Nickname: "BUTT", Level: 58, Gender: "Male", Number: 9, IDNo: "43055" },
+                    { Pokemon: "Erat", Class: "Zigzagoon", Nickname: "Racc", Level: 9, Gender: "Female", Number: 12, IDNo: "43055" },
+                    { Pokemon: "Neck", Class: "Tropius", Nickname: "Neck", Level: 26, Gender: "Female", Number: 150, IDNo: "43055" },
+                    { Pokemon: "Lilla", Class: "Lileep", Nickname: "WAH", Level: 22, Gender: "Male", Number: 133, IDNo: "43055" },
+                    { Pokemon: "Tiny", Class: "Aron", Nickname: "Tiny", Level: 16, Gender: "Male", Number: 70, IDNo: "43055" },
                 ],
                 FirstAttemptDate: "2020-11-12T15:56:53.000Z",
                 Image: "img/ribbons/champion.png"
             },
 
-            { Group: "Pokemon", Name: "Mudkip", Time: "2020-05-13T05:05:53.000Z" },
-            { Group: "Pokemon", Name: "Zigzagoon", Time: "2020-05-15T05:07:08.000Z" },
-            { Group: "Pokemon", Name: "Wingull", Time: "2020-05-20T09:35:37.000Z" },
-            { Group: "Pokemon", Name: "Marshtomp", Time: "2020-05-22T16:33:13.000Z" },
-            { Group: "Pokemon", Name: "Aron", Time: "2020-06-01T19:20:54.000Z" },
-            { Group: "Pokemon", Name: "Swampert", Time: "2020-07-18T16:53:19.000Z" },
-            { Group: "Pokemon", Name: "Lileep", Time: "2020-07-30T14:05:35.000Z" },
-            { Group: "Pokemon", Name: "Tropius", Time: "2020-08-22T10:42:40.000Z" },
-            { Group: "Pokemon", Name: "Kyogre", Time: "2020-09-25T10:05:43.000Z" },
+            { Group: "Pokemon", Name: "Wmon", Class: "Mudkip", Time: "2020-05-13T05:05:53.000Z" },
+            { Group: "Pokemon", Name: "Erat", Class: "Zigzagoon", Time: "2020-05-15T05:07:08.000Z" },
+            { Group: "Pokemon", Name: "Sgull", Class: "Wingull", Time: "2020-05-20T09:35:37.000Z" },
+            { Group: "Pokemon", Name: "Gmon", Class: "Marshtomp", Time: "2020-05-22T16:33:13.000Z" },
+            { Group: "Pokemon", Name: "Tiny", Class: "Aron", Time: "2020-06-01T19:20:54.000Z" },
+            { Group: "Pokemon", Name: "Smon", Class: "Swampert", Time: "2020-07-18T16:53:19.000Z" },
+            { Group: "Pokemon", Name: "Lilla", Class: "Lileep", Time: "2020-07-30T14:05:35.000Z" },
+            { Group: "Pokemon", Name: "Neck", Class: "Tropius", Time: "2020-08-22T10:42:40.000Z" },
+            { Group: "Pokemon", Name: "Qiqi", Class: "Kyogre", Time: "2020-09-25T10:05:43.000Z" },
         ],
     }
 );
