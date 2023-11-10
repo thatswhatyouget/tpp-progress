@@ -137,7 +137,7 @@ Revisits.Runs.push(
         StartDate: "2023-10-03T21:00:00Z",
         Duration: "2023-10-06T21:07:36.132Z",
         HostName: "iii22MT",
-        HostImage: "img/hosts/iii22MT-u.png",
+        HostImage: "img/hosts/iii22mt-u.png",
         BaseGame: "Emerald",
         Region: "Ivara",
         Pokedex: "Ivara",
