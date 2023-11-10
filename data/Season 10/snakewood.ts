@@ -5,7 +5,7 @@ Season10.Runs.push(
         ColorSecondary: "#E81820",
         ColorPrimary: "#000070",
         StartDate: "2023-10-14T21:00:00Z",
-        Duration: "255d",
+        Duration: "2023-10-23T14:51:25.533Z",
         Class:"snakewood",
         HostName: "1",
         HostImage: "img/hosts/1.png",
