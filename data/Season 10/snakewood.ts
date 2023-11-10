@@ -5,7 +5,7 @@ Season10.Runs.push(
         ColorSecondary: "#E81820",
         ColorPrimary: "#000070",
         StartDate: "2023-10-14T21:00:00Z",
-        Duration: "255d",
+        Duration: "2023-10-23T14:51:25.533Z",
         Class:"snakewood",
         HostName: "1",
         HostImage: "img/hosts/1.png",
@@ -61,24 +61,24 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Indigo", Image: "img/trainers/snakewood/indigo.png",
-                Time: "", Attempts: 0,
+                Time: "2023-10-20T00:23:45.021Z", Attempts: 7,
             },
             {
                 Group: "Champions", Name: "Feng Lei", Image: "img/trainers/snakewood/fenglei.png",
-                Time: "", Attempts: 0,
+                Time: "2023-10-20T06:00:30.725Z", Attempts: 5,
             },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "31529", Party: [
-                    // { Pokemon: "Manectric", Nickname: "George", Level: 53, Gender: "Male", Number: 79, IDNo: "28882" },
-                    // { Pokemon: "Swampert", Nickname: "lif", Level: 57, Gender: "Male", Number: 9, IDNo: "28882" },
-                    // { Pokemon: "Swellow", Nickname: "AYA", Level: 54, Gender: "Female", Number: 26, IDNo: "28882" },
-                    // { Pokemon: "Ninjask", Nickname: "EXCALIBUR", Level: 53, Gender: "Female", Number: 43, IDNo: "28882" },
-                    // { Pokemon: "Gardevoir", Nickname: "ALICE", Level: 54, Gender: "Female", Number: 31, IDNo: "28882" },
-                    // { Pokemon: "Armaldo", Nickname: "NOT HELIX", Level: 56, Gender: "Female", Number: 136, IDNo: "28882" },
+                    { Pokemon: "Celebi", Nickname: "Alt", Level: 64, Number: 251, IDNo: "31529" },
+                    { Pokemon: "Kamina", Nickname: "TOkf", Level: 61, Gender: "Male", Number: 175, IDNo: "31529" },
+                    { Pokemon: "Scar Lugia", Nickname: "ADDDDJl..", Level: 72, Number: 249, IDNo: "31529" },
+                    { Pokemon: "Azombarill", Nickname: "F4", Level: 69, Gender: "Female", Number: 184, IDNo: "31529" },
+                    { Pokemon: "Téa Barqán", Level: 59, Gender: "Male", Number: 381, IDNo: "31529" },
+                    { Pokemon: "Gengaze", Nickname: "Bacevy", Level: 61, Gender: "Male", Number: 94, IDNo: "31529" },
                 ],
-                Time: "", Attempts: 0,
-                FirstAttemptDate: "",
+                Time: "2023-10-20T06:01:30.975Z", Attempts: 21,
+                FirstAttemptDate: "2023-10-18T22:27:37.078Z",
                 Image: "img/ribbons/champion.png"
             },
 
