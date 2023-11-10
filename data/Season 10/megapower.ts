@@ -141,7 +141,7 @@ Revisits.Runs.push(
         BaseGame: "Emerald",
         Region: "Ivara",
         Pokedex: "Ivara",
-        // FinalStateLink: "./states/Season 10/ultramegapower.json",
+        // FinalStateLink: "./states/Season 10/ultramegapower1.json",
         Events: [
             ...commonEvents,
             {
@@ -196,5 +196,24 @@ Revisits.Runs.push(
                 Time: "2023-10-04T23:58:14.687Z", Attempts: 2
             },
         ]
+    }
+);
+
+Revisits.Runs.push(
+    {
+        RunName: "\"Ultra\" Mega Power Revisit",
+        ColorPrimary: "#E96239",
+        ColorSecondary: "#96C6CD",
+        StartDate: "2023-11-10T21:37:13Z",
+        Duration: "2023-11-11T21:00:00Z",
+        HostName: "iii22MT",
+        HostImage: "img/hosts/iii22mt-u.png",
+        BaseGame: "Emerald",
+        Region: "Ivara",
+        Pokedex: "Ivara",
+        // FinalStateLink: "./states/Season 10/ultramegapower2.json",
+        Events: [
+        ],
+        CopyEvents: [`"Ultra" Mega Power`]
     }
 );
