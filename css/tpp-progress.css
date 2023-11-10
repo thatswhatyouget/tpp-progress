@@ -628,6 +628,10 @@ ul.controls>li>ul>li.selected>a:before {
 	background-image: url("../img/digimon-small.png");
 }
 
+.progressChart .pokesus.run .event.pokemon.pokesprite img {
+	background-image: url("../img/pokesus-small.png");
+}
+
 .progressChart .snakewood.run .event.pokemon.pokesprite img {
 	background-image: url("../img/snakewood-small.png");
 }
@@ -911,6 +915,10 @@ ul.controls>li>ul>li.selected>a:before {
 
 .hallOfFameDisplay.digimonnovared .entry .pokesprite img {
 	background-image: url("../img/digimon-large.png") !important;
+}
+
+.hallOfFameDisplay.pokesus .entry .pokesprite img {
+	background-image: url("../img/pokesus-large.png") !important;
 }
 
 .hallOfFameDisplay.snakewood .entry .pokesprite img {

@@ -47,10 +47,10 @@ Sidegames.Runs.push(
             { Group: "Champions", Name: "GRAPE", Image: "img/trainers/red/blue.png", Time: "2018-04-09T04:54:48+00:00", Attempts: 1 },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2018-04-09T18:43:58+00:00", Attempts: 1, Party: [
-			{ Pokemon: "Mewtwo", Nickname: "MOM", Level: 73, Type1: "Superman" },
-			{ Pokemon: "Vaporeon", Nickname: "WEEB", Level: 57, Type1: "Aquatic" },
-			{ Pokemon: "Jolteon", Nickname: "SUNRA", Level: 25, Type1: "Electric" },
-			{ Pokemon: "Flareon", Nickname: "GG", Level: 25, Type1: "Flame" },
+			{ Pokemon: "MISU", Class: "Mewtwo", Nickname: "MOM", Level: 73, Type1: "Superman" },
+			{ Pokemon: "SHOWE", Class: "Vaporeon", Nickname: "WEEB", Level: 57, Type1: "Aquatic" },
+			{ Pokemon: "SUNRA", Class: "Jolteon", Nickname: "SUNRA", Level: 25, Type1: "Electric" },
+			{ Pokemon: "BOOST", Class: "Flareon", Nickname: "GG", Level: 25, Type1: "Flame" },
 		],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2018-04-05T18:41:49+00:00"
