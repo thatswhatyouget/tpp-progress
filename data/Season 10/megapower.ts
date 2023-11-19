@@ -141,7 +141,7 @@ Revisits.Runs.push(
         BaseGame: "Emerald",
         Region: "Ivara",
         Pokedex: "Ivara",
-        // FinalStateLink: "./states/Season 10/ultramegapower1.json",
+        FinalStateLink: "./states/Season 10/ultramegapower1.json",
         Events: [
             ...commonEvents,
             {
@@ -211,7 +211,7 @@ Revisits.Runs.push(
         BaseGame: "Emerald",
         Region: "Ivara",
         Pokedex: "Ivara",
-        // FinalStateLink: "./states/Season 10/ultramegapower2.json",
+        FinalStateLink: "./states/Season 10/ultramegapower2.json",
         Events: [
         ],
         CopyEvents: [`"Ultra" Mega Power`]
