@@ -188,7 +188,7 @@ Revisits.Runs.push(
                     { Pokemon: "Celesteela", Nickname: "ZT  ", Level: 94, Number: 193, IDNo: "42496" },
                     { Pokemon: "Groudon", Nickname: "  UUps vv", Level: 97, Number: 383, IDNo: "42496", Form: "Primal" },
                     { Pokemon: "Pyroar", Nickname: "AA,SYwwjx", Level: 94, Gender: "Male", Number: 78, IDNo: "42496" },
-                    { Pokemon: "Florges", Nickname: "2", Level: 86, Gender: "Feale", Number: 45, IDNo: "42496" },
+                    { Pokemon: "Florges", Nickname: "2", Level: 86, Gender: "Female", Number: 45, IDNo: "42496" },
                     { Pokemon: "Houndoom", Nickname: "GHKK", Level: 83, Gender: "Male", Number: 314, IDNo: "42496", Form: "Mega" },
                 ],
                 FirstAttemptDate: "",
@@ -213,6 +213,21 @@ Revisits.Runs.push(
         Pokedex: "Ivara",
         FinalStateLink: "./states/Season 10/ultramegapower2.json",
         Events: [
+		
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "42496", Party: [
+                    { Pokemon: "Celesteela", Nickname: "ZT  ", Level: 100, Number: 193, IDNo: "42496" },
+                    { Pokemon: "Pheromosa", Nickname: "MMMMMMMMMN", Level: 100, Number: 352, IDNo: "42496" },
+                    { Pokemon: "Suicune", Nickname: "!!!!!!!", Level: 100, Number: 245, IDNo: "42496" },
+                    { Pokemon: "Florges", Nickname: "2", Level: 100, Gender: "Female", Number: 45, IDNo: "42496" },
+                    { Pokemon: "Houndoom", Nickname: "GHKK", Level: 100, Gender: "Male", Number: 314, IDNo: "42496", Form: "Mega" },
+                    { Pokemon: "Golurk", Nickname: "Tensoku", Level: 100, Number: 344, IDNo: "42496" },
+                ],
+                FirstAttemptDate: "2023-11-11T04:03:37.665Z",
+                Image: "img/ribbons/champion.png",
+                Time: "2023-11-11T19:22:05.678Z", Attempts: 2
+            },
+			
         ],
         CopyEvents: [`"Ultra" Mega Power`]
     }
