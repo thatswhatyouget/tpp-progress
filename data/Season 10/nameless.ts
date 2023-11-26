@@ -30,6 +30,20 @@ Season10.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "11166", Party: [
+                    { Pokemon: "Melmetal", Nickname: "W", Level: 74, Number: 284, IDNo: "11166" },
+                    { Pokemon: "Exeggutor", Nickname: "v", Level: 73, Gender: "Female", Number: 122, IDNo: "11166", Form: "Alolan" },
+                    { Pokemon: "Audino", Nickname: "tg55hu hgg", Level: 72, Gender: "Female", Number: 206, IDNo: "11166" },
+                    { Pokemon: "Glaceon", Nickname: "GJ h‘bccc", Level: 72, Gender: "Male", Number: 221, IDNo: "11166" },
+                    { Pokemon: "Lopunny", Nickname: "AAGG3“  ”‘", Level: 77, Gender: "Female", Number: 53, IDNo: "11166", Form: "Mega" },
+                    { Pokemon: "Centiskorch", Nickname: "  vvv783GG", Level: 82, Gender: "Female", Number: 36, IDNo: "11166" },
+                ],
+                Time: "2023-11-16T03:51:11.489Z", Attempts: 1,
+                FirstAttemptDate: "2023-11-16T00:49:31.376Z",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "11166", Party: [
                     { Pokemon: "Zacian", Nickname: "Ruffian", Level: 97, Number: 335, IDNo: "11166" },
                     { Pokemon: "Glaceon", Nickname: "GJ h‘bccc", Level: 97, Gender: "Male", Number: 221, IDNo: "11166" },
                     { Pokemon: "Centiskorch", Nickname: "  vvv783GG", Level: 97, Gender: "Female", Number: 36, IDNo: "11166" },
