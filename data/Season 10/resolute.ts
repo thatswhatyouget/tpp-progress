@@ -249,14 +249,27 @@ Season10.Runs.push(
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "52105", Party: [
                     { Pokemon: "Rayquaza", Nickname: "., \u2642\u2642", Level: 100, Number: 384, IDNo: "52105", Shiny: true },
                     { Pokemon: "Mawile", Nickname: "AMTT///KK", Level: 100, Gender: "Male", Number: 317, IDNo: "52105", Form: "Mega" },
-                    { Pokemon: "Keldeo", Nickname: "LANCELOT", PreviousNick: "Keldeo", Level: 75, Number: 386, IDNo: "52105", Form: "Resolute" },
                     { Pokemon: "Mienshao", Nickname: "fep‘‘‘‘’/-", Level: 100, Gender: "Male", Number: 112, IDNo: "52105" },
+                    { Pokemon: "Keldeo", Nickname: "LANCELOT", PreviousNick: "Keldeo", Level: 75, Number: 386, IDNo: "52105", Form: "Resolute" },
                     { Pokemon: "Rampardos", Nickname: "Nyyx", Level: 100, Gender: "Male", Number: 348, IDNo: "52105" },
                     { Pokemon: "Samurott", Nickname: "D WE  661B", Level: 100, Gender: "Female", Number: 9, IDNo: "52105" },
                 ],
                 FirstAttemptDate: "6d 6h 28m 33s",
                 Image: "img/ribbons/champion.png",
                 Time: "2023-07-15T04:13:00Z", Attempts: 1
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "52105", Party: [
+                    { Pokemon: "Regigigas", Nickname: "GMM", Level: 100, Number: 379, IDNo: "52105" },
+                    { Pokemon: "Rayquaza", Nickname: "QUAZAR", PreviousNick: "., \u2642\u2642", Level: 100, Number: 384, IDNo: "52105", Shiny: true },
+                    { Pokemon: "Keldeo", Nickname: "LANCELOT", PreviousNick: "Keldeo", Level: 100, Number: 386, IDNo: "52105", Form: "Resolute" },
+                    { Pokemon: "Mienshao", Nickname: "fep‘‘‘‘’/-", Level: 100, Gender: "Male", Number: 112, IDNo: "52105" },
+                    { Pokemon: "Heatran", Nickname: "AIEK", Level: 100, Gender: "Female", Number: 142, IDNo: "52105" },
+                    { Pokemon: "Meloetta", Level: 95, Number: 314, IDNo: "52105" },
+                ],
+                FirstAttemptDate: "7d 7h 53m 41s",
+                Image: "img/ribbons/champion.png",
+                Time: "2023-07-16T05:02:23.151Z", Attempts: 1
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "52105", Party: [
