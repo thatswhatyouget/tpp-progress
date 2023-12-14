@@ -5,7 +5,7 @@ Season10.Runs.push(
         ColorPrimary: "#333",
         ColorSecondary: "#666",
         StartDate: "2023-11-11T23:00:00Z",
-        Duration: "40d",
+        Duration: "2023-11-22T11:00:15Z",
         HostName: "CHRONYA",
         HostImage: "img/hosts/chronya.png",
         BaseGame: "FireRed",
@@ -13,7 +13,7 @@ Season10.Runs.push(
         Pokedex: "Cyenn",
         //FinalStateLink: "./states/Season 10/nameless.json",
         Events: [
-		
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "11166", Party: [
                     { Pokemon: "Melmetal", Nickname: "W", Level: 69, Number: 284, IDNo: "11166" },
@@ -27,7 +27,7 @@ Season10.Runs.push(
                 FirstAttemptDate: "2023-11-15T16:06:21.313Z",
                 Image: "img/ribbons/champion.png"
             },
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "11166", Party: [
                     { Pokemon: "Melmetal", Nickname: "W", Level: 74, Number: 284, IDNo: "11166" },
@@ -41,7 +41,7 @@ Season10.Runs.push(
                 FirstAttemptDate: "2023-11-16T00:49:31.376Z",
                 Image: "img/ribbons/champion.png"
             },
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "11166", Party: [
                     { Pokemon: "Centiskorch", Nickname: "  vvv783GG", Level: 84, Gender: "Female", Number: 36, IDNo: "11166" },
@@ -55,7 +55,7 @@ Season10.Runs.push(
                 FirstAttemptDate: "2023-11-16T16:37:16.733Z",
                 Image: "img/ribbons/champion.png"
             },
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "11166", Party: [
                     { Pokemon: "Zacian", Nickname: "Ruffian", Level: 97, Number: 335, IDNo: "11166" },
@@ -69,7 +69,7 @@ Season10.Runs.push(
                 FirstAttemptDate: "2023-11-20T17:26:10.507Z",
                 Image: "img/ribbons/champion.png"
             },
-			
+
         ],
     }
 );

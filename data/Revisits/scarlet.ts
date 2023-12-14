@@ -134,12 +134,31 @@ Revisits.Runs.push(
             { "Group": "Pokemon", "Name": "Clefairy", "Time": "2023-09-15T08:45:19Z" },
             { "Group": "Pokemon", "Name": "Clefable", "Time": "2023-09-15T08:47:44Z" },
             { "Group": "Pokemon", "Name": "Basculin", "Time": "2023-09-15T09:03:36Z" },
-            { "Group": "Pokemon", "Name": "Politoed", "Time": "2023-09-15T09:07:08Z", "Class": "Traded" },
+            { "Group": "Pokemon", "Name": "Politoed", "Time": "2023-09-15T09:07:08Z", "Class": "WifiTrade" }, // Wahi
             { "Group": "Pokemon", "Name": "Basculegion", "Time": "2023-09-15T09:36:56Z" },
             { "Group": "Pokemon", "Name": "Ursaluna", "Time": "2023-09-15T11:08:10Z" },
             { "Group": "Pokemon", "Name": "Mewtwo", "Time": "2023-09-15T11:53:18Z" },
         ],
         Revisit: { Collection: "Revisits", Run: "Scarlet Revisit - Tera Raid Event" },
         CopyEvents: ["Scarlet Revisit - Tera Raid Event"],
+    }
+);
+
+Revisits.Runs.push(
+    {
+        RunName: "Scarlet Revisit - The Indigo Disk",
+        ColorPrimary: "#D70D19",
+        ColorSecondary: "#6A2B30",
+        Duration: "14d",
+        StartDate: "2023-12-14T21:00:00Z",
+        HostName: "2z",
+        HostImage: "img/hosts/2z.png",
+        HostImageSource: "https://www.deviantart.com/mid117/art/PKMN-Scarlet-Protagonists-Trainer-Sprites-923433423",
+        Region: "Blueberry Academy",
+        Generation: 9,
+        Events: [
+        ],
+        Revisit: { Collection: "Revisits", Run: "Scarlet Revisit - The Teal Mask" },
+        CopyEvents: ["Scarlet Revisit - The Teal Mask"],
     }
 );
