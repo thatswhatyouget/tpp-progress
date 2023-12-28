@@ -2,8 +2,8 @@
 Season10.Runs.push(
     {
         RunName: "Inverse White",
-        ColorPrimary: "#111",
-        ColorSecondary: "#CC9BA2",
+        ColorPrimary: "#AAA",
+        ColorSecondary: "#22634C",
         Duration: "255d",
         StartDate: "2023-12-27T21:00:00Z",
         HostName: "  QZO  ",
@@ -16,15 +16,15 @@ Season10.Runs.push(
         Events: [
             {
                 Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png",
-                Time: "", Attempts: 0
+                Time: "2023-12-27T23:15:18.503Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png",
-                Time: "", Attempts: 0
+                Time: "2023-12-28T04:13:36.056Z", Attempts: 2
             },
             {
                 Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png",
-                Time: "", Attempts: 0
+                Time: "2023-12-28T09:33:53.623Z", Attempts: 0
             },
             {
                 Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png",
