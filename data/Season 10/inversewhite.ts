@@ -24,7 +24,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png",
-                Time: "2023-12-28T09:33:53.623Z", Attempts: 0
+                Time: "2023-12-28T09:33:53.623Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png",
@@ -32,7 +32,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png",
-                Time: "", Attempts: 0
+                Time: "2023-12-28T23:22:17.948Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png",
