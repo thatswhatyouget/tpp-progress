@@ -49,7 +49,7 @@ Season10.Runs.push(
 
             {
                 Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png",
-                Time: "", Attempts: 0
+                Time: "2023-12-30T18:55:05.071Z", Attempts: 2
             },
             {
                 Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png",
@@ -57,11 +57,11 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/caitlin.png",
-                Time: "", Attempts: 0
+                Time: "2023-12-30T17:58:54.776Z", Attempts: 2
             },
             {
                 Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png",
-                Time: "", Attempts: 0
+                Time: "2023-12-30T18:47:20.384Z", Attempts: 1
             },
             {
                 Group: "Champions", Name: "N", Image: "img/trainers/black/n.png",
@@ -189,7 +189,12 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Whimsicott", "Time": "2023-12-30T14:24:37.958Z" },
             { "Group": "Pokemon", "Name": "Thundurus", "Time": "2023-12-30T14:38:42.889Z" },
             { "Group": "Pokemon", "Name": "Durant", "Time": "2023-12-30T15:02:48.792Z" },
-            { "Group": "Pokemon", "Name": "Deino", "Time": "2023-12-30T15:18:46.409Z" }
+            { "Group": "Pokemon", "Name": "Deino", "Time": "2023-12-30T15:18:46.409Z" },
+            { "Group": "Pokemon", "Name": "Terrakion", "Time": "2023-12-30T17:31:18.763Z" },
+            { "Group": "Pokemon", "Name": "Heatmor", "Time": "2023-12-30T17:35:29.019Z" },
+            { "Group": "Pokemon", "Name": "Simisear", "Time": "2023-12-30T18:10:06.871Z" },
+            { "Group": "Pokemon", "Name": "Simisage", "Time": "2023-12-30T18:10:57.014Z" },
+            { "Group": "Pokemon", "Name": "Simipour", "Time": "2023-12-30T18:12:03.551Z" }
         ]
     }
 );
