@@ -65,15 +65,21 @@ Season10.Runs.push(
             },
             {
                 Group: "Champions", Name: "N", Image: "img/trainers/black/n.png",
-                Time: "", Attempts: 0
+                Time: "2023-12-31T01:04:43.686Z", Attempts: 1
             },
             {
                 Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/ghetsis.png",
-                Time: "", Attempts: 0
+                Time: "2023-12-31T03:07:25.108Z", Attempts: 2
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "First Game Clear", Time: "", IDNo: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "First Game Clear", Time: "2023-12-31T03:08:00Z", IDNo: "34701", Attempts: 7, Party: [
+                    { Pokemon: "Garbodor", Nickname: "Trpuebp", Level: 54, Gender: "Female" },
+                    { Pokemon: "Stoutland", Nickname: "ufzbhh♀ddc", Level: 61, Gender: "Male" },
+                    { Pokemon: "Maractus", Nickname: "Maraco", Level: 49, Gender: "Male" },
+                    { Pokemon: "Reuniclus", Nickname: "Cellmadioz", Level: 52, Gender: "Male" },
+                    { Pokemon: "Beartic", Nickname: "Cdacho", Level: 52, Gender: "Female" },
+                    { Pokemon: "Carracosta", Nickname: "Devyr", Level: 52, Gender: "Male" }
                 ],
                 Image: "img/ribbons/event.png",
                 FirstAttemptDate: "2023-12-30T16:53:47.800Z"
@@ -194,7 +200,17 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Heatmor", "Time": "2023-12-30T17:35:29.019Z" },
             { "Group": "Pokemon", "Name": "Simisear", "Time": "2023-12-30T18:10:06.871Z" },
             { "Group": "Pokemon", "Name": "Simisage", "Time": "2023-12-30T18:10:57.014Z" },
-            { "Group": "Pokemon", "Name": "Simipour", "Time": "2023-12-30T18:12:03.551Z" }
+            { "Group": "Pokemon", "Name": "Simipour", "Time": "2023-12-30T18:12:03.551Z" },
+            { "Group": "Pokemon", "Name": "Zekrom", "Time": "2023-12-31T00:57:03.901Z" },
+            { "Group": "Pokemon", "Name": "Swanna", "Time": "2023-12-31T03:43:52.458Z" },
+            { "Group": "Pokemon", "Name": "Slakoth", "Time": "2023-12-31T03:56:04.636Z" },
+            { "Group": "Pokemon", "Name": "Wurmple", "Time": "2023-12-31T03:56:04.636Z" },
+            { "Group": "Pokemon", "Name": "Lotad", "Time": "2023-12-31T04:00:05.904Z" },
+            { "Group": "Pokemon", "Name": "Mareep", "Time": "2023-12-31T04:00:05.904Z" },
+            { "Group": "Pokemon", "Name": "Hoppip", "Time": "2023-12-31T04:04:07.316Z" },
+            { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "2023-12-31T04:04:07.316Z" },
+            { "Group": "Pokemon", "Name": "Elekid", "Time": "2023-12-31T04:08:07.035Z" },
+            { "Group": "Pokemon", "Name": "Drifblim", "Time": "2023-12-31T04:32:06.596Z" }
         ]
     }
 );
