@@ -87,7 +87,7 @@ Season10.Runs.push(
 
             {
                 Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Class: "Rematch",
-                Time: "", Attempts: 0
+                Time: "2024-01-02T17:13:31.073Z", Attempts: 3
             },
             {
                 Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Class: "Rematch",
@@ -99,7 +99,7 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Class: "Rematch",
-                Time: "", Attempts: 0
+                Time: "2024-01-02T16:57:07.029Z", Attempts: 2
             },
 
             {
@@ -295,7 +295,22 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Jigglypuff", "Time": "2024-01-01T20:37:13.405Z" },
             { "Group": "Pokemon", "Name": "Beheeyem", "Time": "2024-01-01T20:44:21.244Z" },
             { "Group": "Pokemon", "Name": "Rotom", "Time": "2024-01-01T20:54:53.401Z" },
-            { "Group": "Pokemon", "Name": "Magikarp", "Time": "2024-01-01T20:57:09.651Z" }
+            { "Group": "Pokemon", "Name": "Magikarp", "Time": "2024-01-01T20:57:09.651Z" },
+            { "Group": "Pokemon", "Name": "Bisharp", "Time": "2024-01-02T05:58:33.223Z" },
+            { "Group": "Pokemon", "Name": "Gligar", "Time": "2024-01-02T06:18:36.771Z" },
+            { "Group": "Pokemon", "Name": "Seel", "Time": "2024-01-02T06:50:47.260Z" },
+            { "Group": "Pokemon", "Name": "Sneasel", "Time": "2024-01-02T07:59:10.562Z" },
+            { "Group": "Pokemon", "Name": "Krabby", "Time": "2024-01-02T11:50:51.002Z" },
+            { "Group": "Pokemon", "Name": "Kingler", "Time": "2024-01-02T12:32:34.001Z" },
+            { "Group": "Pokemon", "Name": "Vespiquen", "Time": "2024-01-02T12:40:56.310Z" },
+            { "Group": "Pokemon", "Name": "Pelipper", "Time": "2024-01-02T13:15:24.655Z" },
+            { "Group": "Pokemon", "Name": "Gyarados", "Time": "2024-01-02T13:43:10.241Z" },
+            { "Group": "Pokemon", "Name": "Scolipede", "Time": "2024-01-02T13:46:32.398Z" },
+            { "Group": "Pokemon", "Name": "Cascoon", "Time": "2024-01-02T14:00:46.132Z" },
+            { "Group": "Pokemon", "Name": "Dustox", "Time": "2024-01-02T14:02:42.500Z" },
+            { "Group": "Pokemon", "Name": "Galvantula", "Time": "2024-01-02T14:46:04.223Z" },
+            { "Group": "Pokemon", "Name": "Seismitoad", "Time": "2024-01-02T14:57:20.048Z" },
+            { "Group": "Pokemon", "Name": "Cherrim", "Time": "2024-01-02T15:37:03.423Z" }
         ]
     }
 );
