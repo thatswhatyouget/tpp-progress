@@ -104,20 +104,33 @@ Season10.Runs.push(
 
             {
                 Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png",
-                Time: "", Attempts: 0
+                Time: "2024-01-02T21:35:19.568Z", Attempts: 2
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Time: "", IDNo: "34701", Attempts: 0, Party: [
-                    { Pokemon: "Garbodor", Nickname: "Trpuebp", Level: 54, Gender: "Female" },
-                    { Pokemon: "Stoutland", Nickname: "ufzbhh♀ddc", Level: 61, Gender: "Male" },
-                    { Pokemon: "Maractus", Nickname: "Maraco", Level: 49, Gender: "Male" },
-                    { Pokemon: "Reuniclus", Nickname: "Cellmadioz", Level: 52, Gender: "Male" },
-                    { Pokemon: "Beartic", Nickname: "Cdacho", Level: 52, Gender: "Female" },
-                    { Pokemon: "Carracosta", Nickname: "Devyr", Level: 52, Gender: "Male" }
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-01-02T21:36:00Z", IDNo: "34701", Attempts: 13, Party: [
+                    { Pokemon: "Carracosta", Nickname: "Devyr", Level: 69, Gender: "Male" },
+                    { Pokemon: "Reuniclus", Nickname: "Cellmadioz", Level: 79, Gender: "Male" },
+                    { Pokemon: "Stoutland", Nickname: "ufzbhh♀ddc", Level: 72, Gender: "Male" },
+                    { Pokemon: "Volcarona", Nickname: "Alcamotf", Level: 70, Gender: "Male" },
+                    { Pokemon: "Beartic", Nickname: "Cdacho", Level: 68, Gender: "Female" },
+                    { Pokemon: "Zekrom", Nickname: "Zekenator", Level: 68 }
                 ],
                 Image: "img/ribbons/event.png",
                 FirstAttemptDate: "2024-01-01T18:45:07.079Z"
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "34701", Attempts: 6, Party: [
+                    { Pokemon: "Carracosta", Nickname: "Devyr", Level: 69, Gender: "Male" },
+                    { Pokemon: "Reuniclus", Nickname: "Cellmadioz", Level: 79, Gender: "Male" },
+                    { Pokemon: "Stoutland", Nickname: "ufzbhh♀ddc", Level: 72, Gender: "Male" },
+                    { Pokemon: "Volcarona", Nickname: "Alcamotf", Level: 70, Gender: "Male" },
+                    { Pokemon: "Beartic", Nickname: "Cdacho", Level: 68, Gender: "Female" },
+                    { Pokemon: "Zekrom", Nickname: "Zekenator", Level: 68 }
+                ],
+                Image: "img/ribbons/event.png",
+                FirstAttemptDate: "6d 1h 24m 53s"
             },
 
             { "Group": "Pokemon", "Name": "Tepig", "Time": "2023-12-27T21:02:27.717Z" },
@@ -310,7 +323,8 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Dustox", "Time": "2024-01-02T14:02:42.500Z" },
             { "Group": "Pokemon", "Name": "Galvantula", "Time": "2024-01-02T14:46:04.223Z" },
             { "Group": "Pokemon", "Name": "Seismitoad", "Time": "2024-01-02T14:57:20.048Z" },
-            { "Group": "Pokemon", "Name": "Cherrim", "Time": "2024-01-02T15:37:03.423Z" }
+            { "Group": "Pokemon", "Name": "Cherrim", "Time": "2024-01-02T15:37:03.423Z" },
+            { "Group": "Pokemon", "Name": "Landorus", "Time": "2024-01-02T22:10:08.855Z" }
         ]
     }
 );
