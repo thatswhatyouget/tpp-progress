@@ -36,7 +36,7 @@ Season10.Runs.push(
                 Group: "Badges",
                 Name: "Bolt Badge",
                 Image: "img/badges/bolt.png",
-                Time: "", Attempts: 0
+                Time: "2024-01-04T17:01:10.383Z", Attempts: 1
             },
             {
                 Group: "Badges",
@@ -172,7 +172,25 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Petilil", "Time": "2024-01-04T05:53:57.443Z" },
             { "Group": "Pokemon", "Name": "Skitty", "Time": "2024-01-04T06:05:01.183Z" },
             { "Group": "Pokemon", "Name": "Leavanny", "Time": "2024-01-04T06:06:31.787Z" },
-            { "Group": "Pokemon", "Name": "Darumaka", "Time": "2024-01-04T08:43:22.307Z" }
+            { "Group": "Pokemon", "Name": "Darumaka", "Time": "2024-01-04T08:43:22.307Z" },
+            { "Group": "Pokemon", "Name": "Pinsir", "Time": "2024-01-04T09:43:46.725Z" },
+            { "Group": "Pokemon", "Name": "Roselia", "Time": "2024-01-04T09:47:44.513Z" },
+            { "Group": "Pokemon", "Name": "Combee", "Time": "2024-01-04T10:12:06.726Z" },
+            { "Group": "Pokemon", "Name": "Solosis", "Time": "2024-01-04T10:20:00.063Z" },
+            { "Group": "Pokemon", "Name": "Lilligant", "Time": "2024-01-04T10:29:18.670Z" },
+            { "Group": "Pokemon", "Name": "Minccino", "Time": "2024-01-04T11:00:13.343Z" },
+            { "Group": "Pokemon", "Name": "Vespiquen", "Time": "2024-01-04T11:40:51.577Z" },
+            { "Group": "Pokemon", "Name": "Cottonee", "Time": "2024-01-04T13:06:55.880Z" }, // N's
+            { "Group": "Pokemon", "Name": "Sandile", "Time": "2024-01-04T13:33:08.808Z" },
+            { "Group": "Pokemon", "Name": "Maractus", "Time": "2024-01-04T14:29:10.609Z" },
+            { "Group": "Pokemon", "Name": "Sandshrew", "Time": "2024-01-04T14:41:21.385Z" },
+            { "Group": "Pokemon", "Name": "Yamask", "Time": "2024-01-04T15:01:21.393Z" },
+            { "Group": "Pokemon", "Name": "Sigilyph", "Time": "2024-01-04T15:21:27.616Z" }, // N's
+            { "Group": "Pokemon", "Name": "Darmanitan", "Time": "2024-01-04T15:29:24.461Z" }, // N's
+            { "Group": "Pokemon", "Name": "Trapinch", "Time": "2024-01-04T15:37:36.469Z" },
+            { "Group": "Pokemon", "Name": "Dwebble", "Time": "2024-01-04T15:37:36.469Z" },
+            { "Group": "Pokemon", "Name": "Trubbish", "Time": "2024-01-04T16:29:54.907Z" }
+
         ]
     }
 );
