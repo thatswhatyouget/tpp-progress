@@ -30,7 +30,7 @@ Season10.Runs.push(
                 Group: "Badges",
                 Name: "Insect Badge",
                 Image: "img/badges/insect.png",
-                Time: "", Attempts: 0
+                Time: "2024-01-04T07:59:09.662Z", Attempts: 4
             },
             {
                 Group: "Badges",
@@ -158,7 +158,21 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Elekid", "Time": "2024-01-04T01:44:05.802Z" },
             { "Group": "Pokemon", "Name": "Flaaffy", "Time": "2024-01-04T01:52:53.538Z" },
             { "Group": "Pokemon", "Name": "Audino", "Time": "2024-01-04T02:53:00.118Z" },
-            { "Group": "Pokemon", "Name": "Swadloon", "Time": "2024-01-04T03:17:43.535Z" }
+            { "Group": "Pokemon", "Name": "Swadloon", "Time": "2024-01-04T03:17:43.535Z" },
+            { "Group": "Pokemon", "Name": "Vanillite", "Time": "2024-01-04T03:45:32.960Z" },
+            { "Group": "Pokemon", "Name": "Venipede", "Time": "2024-01-04T04:22:14.608Z" },
+            { "Group": "Pokemon", "Name": "Rattata", "Time": "2024-01-04T04:50:19.570Z" },
+            { "Group": "Pokemon", "Name": "Grimer", "Time": "2024-01-04T04:58:29.533Z" },
+            { "Group": "Pokemon", "Name": "Zubat", "Time": "2024-01-04T05:02:21.237Z" },
+            { "Group": "Pokemon", "Name": "Timburr", "Time": "2024-01-04T05:22:38.129Z" },
+            { "Group": "Pokemon", "Name": "Woobat", "Time": "2024-01-04T05:26:34.033Z" },
+            { "Group": "Pokemon", "Name": "Roggenrola", "Time": "2024-01-04T05:30:31.943Z" },
+            { "Group": "Pokemon", "Name": "Drilbur", "Time": "2024-01-04T05:34:31.930Z" },
+            { "Group": "Pokemon", "Name": "Watchog", "Time": "2024-01-04T05:46:48.913Z" },
+            { "Group": "Pokemon", "Name": "Petilil", "Time": "2024-01-04T05:53:57.443Z" },
+            { "Group": "Pokemon", "Name": "Skitty", "Time": "2024-01-04T06:05:01.183Z" },
+            { "Group": "Pokemon", "Name": "Leavanny", "Time": "2024-01-04T06:06:31.787Z" },
+            { "Group": "Pokemon", "Name": "Darumaka", "Time": "2024-01-04T08:43:22.307Z" }
         ]
     }
 );
