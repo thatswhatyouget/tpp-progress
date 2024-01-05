@@ -48,7 +48,7 @@ Season10.Runs.push(
                 Group: "Badges",
                 Name: "Jet Badge",
                 Image: "img/badges/jet.png",
-                Time: "", Attempts: 0
+                Time: "2024-01-05T18:55:16.086Z", Attempts: 1
             },
             {
                 Group: "Badges",
@@ -219,8 +219,8 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Golbat", "Time": "2024-01-05T11:45:27.277Z" },
             { "Group": "Pokemon", "Name": "Whimsicott", "Time": "2024-01-05T11:58:29.127Z" }, // N's 
             { "Group": "Pokemon", "Name": "Elgyem", "Time": "2024-01-05T12:13:41.284Z" },
-            { "Group": "Pokemon", "Name": "Scraggy", "Time": "2024-01-05T13:23:19.683Z" }
-
+            { "Group": "Pokemon", "Name": "Scraggy", "Time": "2024-01-05T13:23:19.683Z" },
+            { "Group": "Pokemon", "Name": "Crustle", "Time": "2024-01-05T16:39:09.174Z" }
         ]
     }
 );
