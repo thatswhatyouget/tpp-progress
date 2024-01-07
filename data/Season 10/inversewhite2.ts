@@ -66,37 +66,42 @@ Season10.Runs.push(
                 Group: "Elite Four",
                 Name: "Shauntal",
                 Image: "img/trainers/black/shauntal.png",
-                Time: "", Attempts: 0
+                Time: "2024-01-07T04:28:55.622Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Grimsley",
                 Image: "img/trainers/black/grimsley.png",
-                Time: "", Attempts: 0
+                Time: "2024-01-07T04:41:12.759Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Caitlin",
                 Image: "img/trainers/black/caitlin.png",
-                Time: "", Attempts: 0
+                Time: "2024-01-07T04:13:54.299Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Marshal",
                 Image: "img/trainers/black/marshal.png",
-                Time: "", Attempts: 0
+                Time: "2024-01-07T04:20:51.503Z", Attempts: 1
             },
             {
                 Group: "Champions",
                 Name: "Iris",
                 Image: "img/trainers/black/iris.png",
-                Time: "", Attempts: 0
+                Time: "2024-01-07T04:50:11.683Z", Attempts: 1
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "16413", Attempts: 0, Party: [
-
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-01-07T04:51:00.683Z", IDNo: "00094", Attempts: 1, Party: [
+                    { Pokemon: "Cinccino", Nickname: "ghycICEIV", Level: 70, Gender: "Male" },
+                    { Pokemon: "Vespiquen", Nickname: "Vespa", Level: 57, Gender: "Female" },
+                    { Pokemon: "Octillery", Nickname: "WAR", Level: 58, Gender: "Female" },
+                    { Pokemon: "Crustle", Nickname: "DEEBY4", Level: 58, Gender: "Male" },
+                    { Pokemon: "Darmanitan", Level: 60, Gender: "Male" },
+                    { Pokemon: "Whimsicott", Nickname: "Fluffee", Level: 64, Gender: "Male" }
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "3d 7h 9m 10s",
                 Image: "img/ribbons/champion.png"
             },
             {
@@ -262,7 +267,8 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Golurk", "Time": "2024-01-06T23:34:47.785Z" },
             { "Group": "Pokemon", "Name": "Throh", "Time": "2024-01-06T23:51:01.116Z" },
             { "Group": "Pokemon", "Name": "Bouffalant", "Time": "2024-01-06T23:55:01.632Z" },
-            { "Group": "Pokemon", "Name": "Rufflet", "Time": "2024-01-06T23:58:54.692Z" }
+            { "Group": "Pokemon", "Name": "Rufflet", "Time": "2024-01-06T23:58:54.692Z" },
+            { "Group": "Pokemon", "Name": "Onix", "Time": "2024-01-07T01:11:31.395Z" }
         ]
     }
 );

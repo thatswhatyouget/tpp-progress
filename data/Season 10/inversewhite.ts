@@ -116,7 +116,7 @@ Season10.Runs.push(
                     { Pokemon: "Beartic", Nickname: "Cdacho", Level: 68, Gender: "Female" },
                     { Pokemon: "Zekrom", Nickname: "Zekenator", Level: 68 }
                 ],
-                Image: "img/ribbons/event.png",
+                Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2024-01-01T18:45:07.079Z"
             },
 
@@ -129,7 +129,7 @@ Season10.Runs.push(
                     { Pokemon: "Beartic", Nickname: "Cdacho", Level: 68, Gender: "Female" },
                     { Pokemon: "Zekrom", Nickname: "Zekenator", Level: 68 }
                 ],
-                Image: "img/ribbons/event.png",
+                Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "6d 1h 24m 53s"
             },
 
