@@ -143,7 +143,7 @@ Season10.Runs.push(
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-01-08T11:09:00Z", IDNo: "00094", Attempts: 3, Party: [
                     { Pokemon: "Latias", Nickname: "Bianca", Level: 72, Gender: "Female" },
                     { Pokemon: "Cinccino", Nickname: "ghycICEIV", Level: 84, Gender: "Male" },
-                    { Pokemon: "Verizion", Nickname: "‘Verizo", Level: 69 },
+                    { Pokemon: "Virizion", Nickname: "‘Verizo", Level: 69 },
                     { Pokemon: "Darmanitan", Level: 62, Gender: "Male" },
                     { Pokemon: "Whimsicott", Nickname: "Fluffee", Level: 72, Gender: "Male" },
                     { Pokemon: "Shellder", Nickname: "Gungnir", Level: 58, Gender: "Female" },
