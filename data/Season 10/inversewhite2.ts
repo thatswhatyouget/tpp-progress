@@ -106,31 +106,31 @@ Season10.Runs.push(
             },
             {
                 Group: "Elite Four Rematch",
-                Name: "Grimsley",
-                Image: "img/trainers/black/grimsley.png",
-                Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four Rematch",
                 Name: "Shauntal",
                 Image: "img/trainers/black/shauntal.png",
                 Class: "Rematch",
-                Time: "", Attempts: 0
+                Time: "2024-01-08T09:22:10.886Z", Attempts: 1
+            },
+            {
+                Group: "Elite Four Rematch",
+                Name: "Grimsley",
+                Image: "img/trainers/black/grimsley.png",
+                Class: "Rematch",
+                Time: "2024-01-08T09:30:22.615Z", Attempts: 1
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Caitlin",
                 Image: "img/trainers/black/caitlin.png",
                 Class: "Rematch",
-                Time: "", Attempts: 0
+                Time: "2024-01-08T09:13:06.363Z", Attempts: 1
             },
             {
                 Group: "Elite Four Rematch",
                 Name: "Marshal",
                 Image: "img/trainers/black/marshal.png",
                 Class: "Rematch",
-                Time: "", Attempts: 0
+                Time: "2024-01-08T09:42:29.509Z", Attempts: 1
             },
             {
                 Group: "Champions",
@@ -140,9 +140,15 @@ Season10.Runs.push(
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "16413", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "00094", Attempts: 2, Party: [
+                    { Pokemon: "Verizion", Nickname: "‘Verizo", Level: 67},
+                    { Pokemon: "Cinccino", Nickname: "ghycICEIV", Level: 82, Gender: "Male" },
+                    { Pokemon: "Latias", Nickname: "Bianca", Level: 69, Gender: "Female" },
+                    { Pokemon: "Darmanitan", Level: 62, Gender: "Male" },
+                    { Pokemon: "Whimsicott", Nickname: "Fluffee", Level: 70, Gender: "Male" },
+                    { Pokemon: "Shellder", Nickname: "Gungnir", Level: 44, Gender: "Female" },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2024-01-08T09:05:33.658Z",
                 Image: "img/ribbons/champion.png"
             },
 
@@ -268,7 +274,34 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Throh", "Time": "2024-01-06T23:51:01.116Z" },
             { "Group": "Pokemon", "Name": "Bouffalant", "Time": "2024-01-06T23:55:01.632Z" },
             { "Group": "Pokemon", "Name": "Rufflet", "Time": "2024-01-06T23:58:54.692Z" },
-            { "Group": "Pokemon", "Name": "Onix", "Time": "2024-01-07T01:11:31.395Z" }
+            { "Group": "Pokemon", "Name": "Onix", "Time": "2024-01-07T01:11:31.395Z" },
+            { "Group": "Pokemon", "Name": "Munna", "Time": "2024-01-07T05:55:37.316Z" },
+            { "Group": "Pokemon", "Name": "Musharna", "Time": "2024-01-07T06:54:53.630Z" },
+            { "Group": "Pokemon", "Name": "Latias", "Time": "2024-01-07T07:12:06.124Z" },
+            { "Group": "Pokemon", "Name": "Terrakion", "Time": "2024-01-07T07:23:59.895Z" },
+            { "Group": "Pokemon", "Name": "Virizion", "Time": "2024-01-07T07:32:11.213Z" },
+            { "Group": "Pokemon", "Name": "Cresselia", "Time": "2024-01-07T09:48:36.500Z" },
+            { "Group": "Pokemon", "Name": "Sandslash", "Time": "2024-01-07T10:16:45.519Z" },
+            { "Group": "Pokemon", "Name": "Pupitar", "Time": "2024-01-07T10:45:04.063Z" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "2024-01-07T11:02:23.467Z" }, // Yancy's
+            { "Group": "Pokemon", "Name": "Persian", "Time": "2024-01-07T11:05:45.012Z" }, // Yancy's
+            { "Group": "Pokemon", "Name": "Lickitung", "Time": "2024-01-07T11:22:37.342Z" },
+            { "Group": "Pokemon", "Name": "Kecleon", "Time": "2024-01-07T11:38:05.604Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2024-01-07T13:09:10.201Z" },
+            { "Group": "Pokemon", "Name": "Galvantula", "Time": "2024-01-07T13:39:36.529Z" },
+            { "Group": "Pokemon", "Name": "Pignite", "Time": "2024-01-07T14:21:52.125Z" },
+            { "Group": "Pokemon", "Name": "Emboar", "Time": "2024-01-07T14:52:01.349Z" },
+            { "Group": "Pokemon", "Name": "Scrafty", "Time": "2024-01-07T15:38:30.675Z" },
+            { "Group": "Pokemon", "Name": "Druddigon", "Time": "2024-01-07T16:46:47.412Z" },
+            { "Group": "Pokemon", "Name": "Zweilous", "Time": "2024-01-07T17:22:57.118Z" },
+            { "Group": "Pokemon", "Name": "Quagsire", "Time": "2024-01-07T17:47:05.508Z" },
+            { "Group": "Pokemon", "Name": "Mienshao", "Time": "2024-01-07T18:11:19.492Z" },
+            { "Group": "Pokemon", "Name": "Reshiram", "Time": "2024-01-07T18:31:20.140Z" },
+            { "Group": "Pokemon", "Name": "Corsola", "Time": "2024-01-07T19:22:14.125Z" },
+            { "Group": "Pokemon", "Name": "Luvdisc", "Time": "2024-01-07T19:39:51.146Z" },
+            { "Group": "Pokemon", "Name": "Shellder", "Time": "2024-01-07T19:47:48.135Z" },
+            { "Group": "Pokemon", "Name": "Wobbuffet", "Time": "2024-01-08T02:03:21.473Z" }, // Yancy's
+            { "Group": "Pokemon", "Name": "Braviary", "Time": "2024-01-08T08:53:09.945Z" }
         ]
     }
 );
