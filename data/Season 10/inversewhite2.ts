@@ -137,16 +137,16 @@ Season10.Runs.push(
                 Name: "Iris",
                 Image: "img/trainers/black/iris.png",
                 Class: "Rematch",
-                Time: "", Attempts: 0
+                Time: "2024-01-08T11:07:51.677Z", Attempts: 2
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "00094", Attempts: 2, Party: [
-                    { Pokemon: "Verizion", Nickname: "‘Verizo", Level: 67},
-                    { Pokemon: "Cinccino", Nickname: "ghycICEIV", Level: 82, Gender: "Male" },
-                    { Pokemon: "Latias", Nickname: "Bianca", Level: 69, Gender: "Female" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-01-08T11:09:00Z", IDNo: "00094", Attempts: 3, Party: [
+                    { Pokemon: "Latias", Nickname: "Bianca", Level: 72, Gender: "Female" },
+                    { Pokemon: "Cinccino", Nickname: "ghycICEIV", Level: 84, Gender: "Male" },
+                    { Pokemon: "Verizion", Nickname: "‘Verizo", Level: 69 },
                     { Pokemon: "Darmanitan", Level: 62, Gender: "Male" },
-                    { Pokemon: "Whimsicott", Nickname: "Fluffee", Level: 70, Gender: "Male" },
-                    { Pokemon: "Shellder", Nickname: "Gungnir", Level: 44, Gender: "Female" },
+                    { Pokemon: "Whimsicott", Nickname: "Fluffee", Level: 72, Gender: "Male" },
+                    { Pokemon: "Shellder", Nickname: "Gungnir", Level: 58, Gender: "Female" },
                 ],
                 FirstAttemptDate: "2024-01-08T09:05:33.658Z",
                 Image: "img/ribbons/champion.png"
@@ -301,7 +301,8 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Luvdisc", "Time": "2024-01-07T19:39:51.146Z" },
             { "Group": "Pokemon", "Name": "Shellder", "Time": "2024-01-07T19:47:48.135Z" },
             { "Group": "Pokemon", "Name": "Wobbuffet", "Time": "2024-01-08T02:03:21.473Z" }, // Yancy's
-            { "Group": "Pokemon", "Name": "Braviary", "Time": "2024-01-08T08:53:09.945Z" }
+            { "Group": "Pokemon", "Name": "Braviary", "Time": "2024-01-08T08:53:09.945Z" },
+            { "Group": "Pokemon", "Name": "Cloyster", "Time": "2024-01-08T11:21:27.740Z" }
         ]
     }
 );
