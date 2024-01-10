@@ -151,6 +151,13 @@ Season10.Runs.push(
                 FirstAttemptDate: "2024-01-08T09:05:33.658Z",
                 Image: "img/ribbons/champion.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-01-10T00:41:00Z", IDNo: "00094", Attempts: 0, Party: [
+                    { Pokemon: "Cinccino", Nickname: "ghycICEIV", Level: 100, Gender: "Male" }
+                ],
+                FirstAttemptDate: "2024-01-09T14:55:57.431Z",
+                Image: "img/ribbons/champion.png"
+            },
 
             { "Group": "Pokemon", "Name": "Tepig", "Time": "2024-01-03T21:08:11.998Z" },
             { "Group": "Pokemon", "Name": "Lillipup", "Time": "2024-01-03T21:20:20.878Z" },
@@ -302,7 +309,36 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Shellder", "Time": "2024-01-07T19:47:48.135Z" },
             { "Group": "Pokemon", "Name": "Wobbuffet", "Time": "2024-01-08T02:03:21.473Z" }, // Yancy's
             { "Group": "Pokemon", "Name": "Braviary", "Time": "2024-01-08T08:53:09.945Z" },
-            { "Group": "Pokemon", "Name": "Cloyster", "Time": "2024-01-08T11:21:27.740Z" }
+            { "Group": "Pokemon", "Name": "Cloyster", "Time": "2024-01-08T11:21:27.740Z" },
+            { "Group": "Pokemon", "Name": "Kyurem", "Time": "2024-01-08T12:57:23.737Z" },
+            { "Group": "Pokemon", "Name": "Zoroark", "Time": "2024-01-08T13:24:04.761Z" }, // N's
+            { "Group": "Pokemon", "Name": "Sawsbuck", "Time": "2024-01-08T14:25:48.996Z" },
+            { "Group": "Pokemon", "Name": "Clefable", "Time": "2024-01-08T15:31:45.307Z" },
+            { "Group": "Pokemon", "Name": "Tyranitar", "Time": "2024-01-08T15:33:08.273Z" },
+            { "Group": "Pokemon", "Name": "Vanilluxe", "Time": "2024-01-08T15:34:35.491Z" },
+            { "Group": "Pokemon", "Name": "Uxie", "Time": "2024-01-08T18:40:15.423Z" },
+            { "Group": "Pokemon", "Name": "Azelf", "Time": "2024-01-08T19:28:32.835Z" },
+            { "Group": "Pokemon", "Name": "Mesprit", "Time": "2024-01-08T19:52:42.759Z" },
+            { "Group": "Pokemon", "Name": "Durant", "Time": "2024-01-08T21:33:21.782Z" },
+            { "Group": "Pokemon", "Name": "Lairon", "Time": "2024-01-08T21:53:47.250Z" },
+            { "Group": "Pokemon", "Name": "Regirock", "Time": "2024-01-08T22:34:00.511Z" },
+            { "Group": "Pokemon", "Name": "Regice", "Time": "2024-01-08T22:45:08.125Z" },
+            { "Group": "Pokemon", "Name": "Registeel", "Time": "2024-01-08T23:00:41.816Z" },
+            { "Group": "Pokemon", "Name": "Palpitoad", "Time": "2024-01-08T23:12:16.846Z" },
+            { "Group": "Pokemon", "Name": "Croagunk", "Time": "2024-01-08T23:12:37.964Z" },
+            { "Group": "Pokemon", "Name": "Stunfisk", "Time": "2024-01-08T23:16:38.880Z" },
+            { "Group": "Pokemon", "Name": "Heatmor", "Time": "2024-01-08T23:44:52.774Z" },
+            { "Group": "Pokemon", "Name": "Beartic", "Time": "2024-01-09T00:04:56.489Z" },
+            { "Group": "Pokemon", "Name": "Cryogonal", "Time": "2024-01-09T00:37:06.209Z" },
+            { "Group": "Pokemon", "Name": "Yanma", "Time": "2024-01-09T00:49:16.115Z" },
+            { "Group": "Pokemon", "Name": "Ralts", "Time": "2024-01-09T02:38:05.971Z" }, // Yancy's
+            { "Group": "Pokemon", "Name": "Kirlia", "Time": "2024-01-09T02:56:58.468Z" }, // Yancy's
+            { "Group": "Pokemon", "Name": "Corphish", "Time": "2024-01-09T07:53:52.668Z" },
+            { "Group": "Pokemon", "Name": "Crawdaunt", "Time": "2024-01-09T11:39:01.004Z" },
+            { "Group": "Pokemon", "Name": "Poliwag", "Time": "2024-01-09T13:27:46.156Z" },
+            { "Group": "Pokemon", "Name": "Dunsparce", "Time": "2024-01-09T13:59:58.788Z" },
+            { "Group": "Pokemon", "Name": "Fraxure", "Time": "2024-01-09T15:14:19.375Z" },
+            { "Group": "Pokemon", "Name": "Haxorus", "Time": "2024-01-09T15:49:55.288Z" }
         ]
     }
 );
