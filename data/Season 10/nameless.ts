@@ -11,7 +11,7 @@ Season10.Runs.push(
         BaseGame: "FireRed",
         Region: "Cyenn",
         Pokedex: "Cyenn",
-        //FinalStateLink: "./states/Season 10/nameless.json",
+        FinalStateLink: "./states/Season 10/nameless.json",
         Events: [
 
             <TPP.HallOfFame>{

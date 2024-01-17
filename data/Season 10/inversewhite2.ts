@@ -5,14 +5,14 @@ Season10.Runs.push(
         ColorPrimary: "white",
         ColorSecondary: "black",
         StartDate: "2024-01-03T21:00:00Z",
-        Duration: "2024-02-12T21:00:00Z",
+        Duration: "2024-01-12T22:54:21Z",
         HostName: "BOH  LE",
         HostImage: "img/hosts/cly.png",
         // HostImageSource: "https://www.deviantart.com/krizste/art/TPP-VoltWhite2Redux-forest-sprites-943447962",
         Region: "Unova",
         Generation: 5,
         Pokedex: "National",
-        // FinalStateLink:"./states/Season 10/inversewhite2.json", 
+        FinalStateLink:"./states/Season 10/inversewhite2.json",
         Events: [
             {
                 Group: "Badges",
@@ -219,12 +219,12 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Deerling", "Time": "2024-01-04T17:42:13.659Z" },
             { "Group": "Pokemon", "Name": "Foongus", "Time": "2024-01-04T18:06:26.752Z" },
             { "Group": "Pokemon", "Name": "Cinccino", "Time": "2024-01-04T18:08:22.082Z" },
-            { "Group": "Pokemon", "Name": "Ferroseed", "Time": "2024-01-04T18:18:31.887Z" }, // N's 
+            { "Group": "Pokemon", "Name": "Ferroseed", "Time": "2024-01-04T18:18:31.887Z" }, // N's
             { "Group": "Pokemon", "Name": "Klink", "Time": "2024-01-04T18:38:47.014Z" },
             { "Group": "Pokemon", "Name": "Nosepass", "Time": "2024-01-04T18:46:43.476Z" },
             { "Group": "Pokemon", "Name": "Karrablast", "Time": "2024-01-04T19:02:52.728Z" },
             { "Group": "Pokemon", "Name": "Shelmet", "Time": "2024-01-04T19:10:59.070Z" },
-            { "Group": "Pokemon", "Name": "Zorua", "Time": "2024-01-04T19:50:39.987Z" }, // N's 
+            { "Group": "Pokemon", "Name": "Zorua", "Time": "2024-01-04T19:50:39.987Z" }, // N's
             { "Group": "Pokemon", "Name": "Tranquill", "Time": "2024-01-04T20:27:18.690Z" },
             { "Group": "Pokemon", "Name": "Joltik", "Time": "2024-01-04T20:47:24.765Z" },
             { "Group": "Pokemon", "Name": "Marill", "Time": "2024-01-04T20:51:29.733Z" },
@@ -242,7 +242,7 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Seviper", "Time": "2024-01-05T11:17:17.455Z" },
             { "Group": "Pokemon", "Name": "Litwick", "Time": "2024-01-05T11:41:27.860Z" },
             { "Group": "Pokemon", "Name": "Golbat", "Time": "2024-01-05T11:45:27.277Z" },
-            { "Group": "Pokemon", "Name": "Whimsicott", "Time": "2024-01-05T11:58:29.127Z" }, // N's 
+            { "Group": "Pokemon", "Name": "Whimsicott", "Time": "2024-01-05T11:58:29.127Z" }, // N's
             { "Group": "Pokemon", "Name": "Elgyem", "Time": "2024-01-05T12:13:41.284Z" },
             { "Group": "Pokemon", "Name": "Scraggy", "Time": "2024-01-05T13:23:19.683Z" },
             { "Group": "Pokemon", "Name": "Crustle", "Time": "2024-01-05T16:39:09.174Z" },
