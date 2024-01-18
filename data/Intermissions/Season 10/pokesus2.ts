@@ -12,7 +12,7 @@ Intermissions.Runs.push(
         // HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
         Region: "Hoenn",
         Pokedex: "Amogus",
-        // FinalStateLink: "./states/Season 10/pokesus2.json",
+        FinalStateLink: "./states/Season 10/pokesus2.json",
         Events: [
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "44060", Party: [

@@ -12,7 +12,7 @@ Season10.Runs.push(
         BaseGame: "Emerald",
         Region: "Hoenn",
         Pokedex: "Snakewood",
-        // FinalStateLink: "./states/Season 10/snakewood.json",
+        FinalStateLink: "./states/Season 10/snakewood.json",
         Events: [
             {
                 Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png",
@@ -81,7 +81,7 @@ Season10.Runs.push(
                 FirstAttemptDate: "2023-10-18T22:27:37.078Z",
                 Image: "img/ribbons/champion.png"
             },
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "31529", Party: [
                     { Pokemon: "Celebi", Nickname: "Alt", Level: 68, Number: 251, IDNo: "31529" },
@@ -95,7 +95,7 @@ Season10.Runs.push(
                 FirstAttemptDate: "2023-10-20T07:18:36.323Z",
                 Image: "img/ribbons/champion.png"
             },
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "31529", Party: [
                     { Pokemon: "Shaderu", Nickname: "The Shady", Level: 86, Number: 385, IDNo: "31529" },
@@ -123,7 +123,7 @@ Season10.Runs.push(
                 FirstAttemptDate: "2023-10-22T11:40:35.099Z",
                 Image: "img/ribbons/champion.png"
             },
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "31529", Party: [
                     { Pokemon: "Shaderu", Nickname: "The Shady", Level: 90, Number: 385, IDNo: "31529" },
