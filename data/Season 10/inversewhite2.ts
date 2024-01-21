@@ -12,7 +12,7 @@ Season10.Runs.push(
         Region: "Unova",
         Generation: 5,
         Pokedex: "National",
-        FinalStateLink:"./states/Season 10/inversewhite2.json",
+        FinalStateLink: "./states/Season 10/inversewhite2.json",
         Events: [
             {
                 Group: "Badges",
@@ -371,6 +371,31 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Klang", "Time": "2024-01-10T19:47:40.491Z" }, // N's
             { "Group": "Pokemon", "Name": "Eelektross", "Time": "2024-01-10T20:22:03.448Z" },
             { "Group": "Pokemon", "Name": "Klinklang", "Time": "2024-01-10T20:44:10.618Z" }, // N's
+            { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "2024-01-11T00:45:44.780Z"}, // Yancy's
+            { "Group": "Pokemon", "Name": "Rhydon", "Time": "2024-01-11T00:48:30.113Z"}, // Yancy's
+            { "Group": "Pokemon", "Name": "Slakoth", "Time": "2024-01-11T01:41:34.810Z" },
+            { "Group": "Pokemon", "Name": "Delibird", "Time": "2024-01-11T02:06:56.000Z" },
+            { "Group": "Pokemon", "Name": "Gliscor", "Time": "2024-01-11T02:52:49.975Z" },
+            { "Group": "Pokemon", "Name": "Dewgong", "Time": "2024-01-11T03:01:54.604Z" },
+            { "Group": "Pokemon", "Name": "Bronzor", "Time": "2024-01-11T03:11:10.431Z" },
+            { "Group": "Pokemon", "Name": "Vulpix", "Time": "2024-01-11T03:19:17.572Z" },
+            { "Group": "Pokemon", "Name": "Bronzong", "Time": "2024-01-11T03:27:33.866Z" },
+            { "Group": "Pokemon", "Name": "Ninetales", "Time": "2024-01-11T03:54:06.811Z" },
+            { "Group": "Pokemon", "Name": "Yanmega", "Time": "2024-01-11T04:16:59.083Z" },
+            { "Group": "Pokemon", "Name": "Shuppet", "Time": "2024-01-11T04:35:02.250Z" },
+            { "Group": "Pokemon", "Name": "Nuzleaf", "Time": "2024-01-11T04:56:11.670Z" },
+            { "Group": "Pokemon", "Name": "Girafarig", "Time": "2024-01-11T06:11:55.846Z" },
+            { "Group": "Pokemon", "Name": "Jigglypuff", "Time": "2024-01-11T12:16:33.774Z" },
+            { "Group": "Pokemon", "Name": "Goldeen", "Time": "2024-01-11T18:11:45.201Z" },
+            { "Group": "Pokemon", "Name": "Shellos", "Time": "2024-01-12T02:56:27.267Z" }, // Yancy's
+            { "Group": "Pokemon", "Name": "Gastrodon", "Time": "2024-01-12T03:38:51.960Z" }, // Yancy's
+            { "Group": "Pokemon", "Name": "Scolipede", "Time": "2024-01-12T05:19:42.811Z"}, // This is an erroneous entry but we did evolve a Whirlipede at some point
+            { "Group": "Pokemon", "Name": "Seismitoad", "Time": "2024-01-12T06:51:14.972Z" },
+            { "Group": "Pokemon", "Name": "Aggron", "Time": "2024-01-12T06:52:55.490Z" },
+            { "Group": "Pokemon", "Name": "Magikarp", "Time": "2024-01-12T07:47:55.575Z" },
+            { "Group": "Pokemon", "Name": "Slowbro", "Time": "2024-01-12T09:11:28.248Z" },
+            { "Group": "Pokemon", "Name": "Typhlosion", "Time": "2024-01-12T09:24:43.950Z" },
+            { "Group": "Pokemon", "Name": "Lucario", "Time": "2024-01-12T10:35:20.628Z" }
         ]
     }
 );

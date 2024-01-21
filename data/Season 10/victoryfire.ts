@@ -150,7 +150,7 @@ Season10.Runs.push(
                 ],
                 FirstAttemptDate: "2023-05-18T03:19:22.004Z",
                 Image: "img/ribbons/champion.png"
-			},
+            },
 
             { "Group": "Pokemon", "Name": "Axew", "Time": "2023-05-13T21:18:06.621Z" },
             { "Group": "Pokemon", "Name": "Salandit", "Time": "2023-05-13T21:24:09.029Z" },

@@ -187,13 +187,19 @@ declare var LongIntermissions: TPP.Collection;
 declare var ShortIntermissions: TPP.Collection;
 declare var tppData: TPP.Collection[];
 declare var exports: any;
-declare const commonEvents: {
+declare const commonEvents: ({
     Group: string;
     Name: string;
     Image: string;
     Time: string;
     Attempts: number;
-}[];
+} | {
+    Group: string;
+    Name: string;
+    Time: string;
+    Image?: undefined;
+    Attempts?: undefined;
+})[];
 declare const dualBlue: TPP.Run;
 declare const dualRed: TPP.Run;
 declare module Pokedex {
