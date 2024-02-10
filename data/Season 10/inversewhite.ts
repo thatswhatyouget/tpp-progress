@@ -7,8 +7,8 @@ Season10.Runs.push(
         Duration: "2024-01-03T03:51:52Z",
         StartDate: "2023-12-27T21:00:00Z",
         HostName: "  QZO  ",
-        HostImage: "img/hosts/gmyc.png",
-        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+        HostImage: "img/hosts/qzo.png",
+        HostImageSource: "https://www.deviantart.com/krizste/art/TPP-InverseWhite-QZO-sprites-1010685752",
         FinalStateLink: "./states/Season 10/inversewhite.json",
         Region: "Unova",
         Generation: 5,
@@ -121,13 +121,13 @@ Season10.Runs.push(
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "34701", Attempts: 6, Party: [
-                    { Pokemon: "Carracosta", Nickname: "Devyr", Level: 69, Gender: "Male" },
-                    { Pokemon: "Reuniclus", Nickname: "Cellmadioz", Level: 79, Gender: "Male" },
-                    { Pokemon: "Stoutland", Nickname: "ufzbhh♀ddc", Level: 72, Gender: "Male" },
-                    { Pokemon: "Volcarona", Nickname: "Alcamotf", Level: 70, Gender: "Male" },
-                    { Pokemon: "Beartic", Nickname: "Cdacho", Level: 68, Gender: "Female" },
-                    { Pokemon: "Zekrom", Nickname: "Zekenator", Level: 68 }
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-01-03T03:48:38.485Z", IDNo: "34701", Attempts: 6, Party: [
+                    { Pokemon: "Stoutland", Nickname: "ufzbhh♀ddc", Level: 78, Gender: "Male" },
+                    { Pokemon: "Reuniclus", Nickname: "Cellmadioz", Level: 85, Gender: "Male" },
+                    { Pokemon: "Volcarona", Nickname: "Alcamotf", Level: 75, Gender: "Male" },
+                    { Pokemon: "Zekrom", Nickname: "Zekenator", Level: 76 },
+                    { Pokemon: "Beartic", Nickname: "Cdacho", Level: 70, Gender: "Female" },
+                    { Pokemon: "Carracosta", Nickname: "Devyr", Level: 74, Gender: "Male" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "6d 1h 24m 53s"
