@@ -7,8 +7,8 @@ Season10.Runs.push(
         StartDate: "2024-01-03T21:00:00Z",
         Duration: "2024-01-12T22:54:21Z",
         HostName: "BOH  LE",
-        HostImage: "img/hosts/cly.png",
-        // HostImageSource: "https://www.deviantart.com/krizste/art/TPP-VoltWhite2Redux-forest-sprites-943447962",
+        HostImage: "img/hosts/bohle.png",
+        HostImageSource: "https://www.deviantart.com/krizste/art/TPP-InverseWhite2-BOH-LE-sprites-1010685804",
         Region: "Unova",
         Generation: 5,
         Pokedex: "National",
@@ -152,17 +152,29 @@ Season10.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-01-10T00:41:00Z", IDNo: "00094", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-01-10T00:41:00Z", IDNo: "00094", Attempts: 7, Party: [
                     { Pokemon: "Cinccino", Nickname: "ghycICEIV", Level: 100, Gender: "Male" }
                 ],
                 FirstAttemptDate: "2024-01-09T14:55:57.431Z",
                 Image: "img/ribbons/champion.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-01-10T12:01:00Z", IDNo: "00094", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-01-10T12:01:00Z", IDNo: "00094", Attempts: 4, Party: [
                     { Pokemon: "Cinccino", Nickname: "ghycICEIV", Level: 100, Gender: "Male" }
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2024-01-10T04:16:10.534Z",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-01-12T22:45:49.073Z", IDNo: "00094", Attempts: 8, Party: [
+                    { Pokemon: "Latias", Nickname: "Bianca", Level: 93, Gender: "Female" },
+                    { Pokemon: "Virizion", Nickname: "‘Verizo", Level: 88 },
+                    { Pokemon: "Cloyster", Nickname: "Gungnir", Level: 93, Gender: "Female" },
+                    { Pokemon: "Kyurem", Nickname: "Zenith", Level: 95, Form: "White" },
+                    { Pokemon: "Cinccino", Nickname: "ghycICEIV", Level: 100, Gender: "Male" },
+                    { Pokemon: "Crustle", Nickname: "DEEBY4", Level: 84, Gender: "Male" },
+                ],
+                FirstAttemptDate: "2024-01-10T19:39:35.135Z",
                 Image: "img/ribbons/champion.png"
             },
 
