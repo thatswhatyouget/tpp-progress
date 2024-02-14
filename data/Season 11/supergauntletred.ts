@@ -23,11 +23,11 @@ Season11.Runs.push(
             },
             {
                 Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 2
+                Time: "2024-02-13T12:33:41.2719750Z", Attempts: 6
             },
             {
                 Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-14T09:57:35.4206979Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
@@ -78,6 +78,17 @@ Season11.Runs.push(
             { Name: "Squirtle", Time: "2024-02-12T23:22:33.1053597Z", Group: "Pokemon" },
             { Name: "Weedle", Time: "2024-02-13T00:57:50.2048839Z", Group: "Pokemon" },
             { Name: "Magikarp", Time: "2024-02-13T04:00:47.9974476Z", Group: "Pokemon" },
+            { Name: "Ekans", Time: "2024-02-13T12:48:22.6639388Z", Group: "Pokemon" },
+            { Name: "Rattata", Time: "2024-02-13T12:52:45.9256239Z", Group: "Pokemon" },
+            { Name: "Drowzee", Time: "2024-02-13T17:13:44.6813639Z", Group: "Pokemon" },
+            { Name: "Spearow", Time: "2024-02-13T17:17:49.3138002Z", Group: "Pokemon" },
+            { Name: "Oddish", Time: "2024-02-14T01:10:11.8842271Z", Group: "Pokemon" },
+            { Name: "Onix", Time: "2024-02-14T09:04:50.2750568Z", Group: "Pokemon" },
+
+            { Name: "Kakuna", Time: "2024-02-13T14:49:48.6703971Z", Group: "Pokemon" },
+            { Name: "Wartortle", Time: "2024-02-13T19:05:13.9238283Z", Group: "Pokemon" },
+            { Name: "Gloom", Time: "2024-02-14T04:51:32.5620032Z", Group: "Pokemon" },
+
         ]
     }
 );
