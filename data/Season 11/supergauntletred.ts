@@ -31,7 +31,7 @@ Season11.Runs.push(
             },
             {
                 Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-14T22:59:44.6334007Z", Attempts: 2
             },
             {
                 Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
@@ -84,10 +84,13 @@ Season11.Runs.push(
             { Name: "Spearow", Time: "2024-02-13T17:17:49.3138002Z", Group: "Pokemon" },
             { Name: "Oddish", Time: "2024-02-14T01:10:11.8842271Z", Group: "Pokemon" },
             { Name: "Onix", Time: "2024-02-14T09:04:50.2750568Z", Group: "Pokemon" },
+            { Name: "Eevee", Time: "2024-02-15T01:48:36.7331892Z", Group: "Pokemon" },
 
             { Name: "Kakuna", Time: "2024-02-13T14:49:48.6703971Z", Group: "Pokemon" },
             { Name: "Wartortle", Time: "2024-02-13T19:05:13.9238283Z", Group: "Pokemon" },
             { Name: "Gloom", Time: "2024-02-14T04:51:32.5620032Z", Group: "Pokemon" },
+            { Name: "Gyarados", Time: "2024-02-14T19:19:55.5149320Z", Group: "Pokemon" },
+            { Name: "Raticate", Time: "2024-02-14T20:51:37.1654607Z", Group: "Pokemon" },
 
         ]
     }
