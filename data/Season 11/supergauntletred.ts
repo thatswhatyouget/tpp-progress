@@ -43,11 +43,11 @@ Season11.Runs.push(
             },
             {
                 Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-16T09:28:15.3350432Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-16T11:26:23.6696941Z", Attempts: 1
             },
             {
                 Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png",
@@ -93,6 +93,16 @@ Season11.Runs.push(
             { Name: "NidoranF", Time: "2024-02-15T19:11:15.5167056Z", Group: "Pokemon" },
             { Name: "Lapras", Time: "2024-02-15T23:21:01.7778708Z", Group: "Pokemon" },
             { Name: "MissingNo.", Time: "2024-02-16T05:13:14.3604363Z", Group: "Pokemon" },
+            { Name: "Slowpoke", Time: "2024-02-16T19:53:36.2929629Z", Group: "Pokemon" },
+            { Name: "Seel", Time: "2024-02-16T19:57:08.9643880Z", Group: "Pokemon" },
+            { Name: "Horsea", Time: "2024-02-16T20:00:17.2329688Z", Group: "Pokemon" },
+            { Name: "Magneton", Time: "2024-02-16T21:01:53.4112747Z", Group: "Pokemon" },
+            { Name: "Voltorb", Time: "2024-02-16T21:11:26.9736473Z", Group: "Pokemon" },
+            { Name: "Pikachu", Time: "2024-02-16T21:15:04.3158956Z", Group: "Pokemon" },
+            { Name: "Magnemite", Time: "2024-02-16T21:27:49.0487657Z", Group: "Pokemon" },
+            { Name: "Hitmonchan", Time: "2024-02-16T22:14:02.2173168Z", Group: "Pokemon" },
+            { Name: "Dratini", Time: "2024-02-17T01:16:26.8256860Z", Group: "Pokemon" },
+            { Name: "Porygon", Time: "2024-02-17T01:29:06.9468752Z", Group: "Pokemon" },
 
             { Name: "Kakuna", Time: "2024-02-13T14:49:48.6703971Z", Group: "Pokemon" },
             { Name: "Wartortle", Time: "2024-02-13T19:05:13.9238283Z", Group: "Pokemon" },
