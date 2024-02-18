@@ -5,7 +5,7 @@ Season11.Runs.push(
         ColorPrimary: "#c0504d",
         ColorSecondary: "#8c3836",
         StartDate: "2024-02-12T23:18:16Z",
-        Duration: "160d 7h 52m",
+        Duration: "4d 18h 31m 37s",
         HostName: "ASH",
         HostImage: "img/hosts/red.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
@@ -63,14 +63,20 @@ Season11.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png",
-                Time: "", Attempts: 4
+                Time: "2024-02-17T16:24:42.8260747Z", Attempts: 7
             },
             {
                 Group: "Champions", Name: "BLUE", Image: "img/trainers/red/blue.png",
-                Time: "", Attempts: 0
+                Time: "2024-02-17T17:45:56.9261072Z", Attempts: 3
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-17T17:46:52.0531106Z", Attempts: 14, Party: [
+                    { Pokemon: "Gyarados", Nickname: "--?πz", Level: 65, Type1: "Water", Type2: "Flying" },
+                    { Pokemon: "Arbok", Nickname: "AAAIIRR", Level: 49, Type1: "Poison" },
+                    { Pokemon: "Onix", Nickname: "AAAJA", Level: 50, Type1: "Rock", Type2: "Ground" },
+                    { Pokemon: "Vileplume", Nickname: "VNT---x((?", Level: 53, Type1: "Grass", Type2: "Poison" },
+                    { Pokemon: "MissingNo.", Nickname: "bkkkttTW;", Level: 100, Type1: "Bird", Type2: "Normal" },
+                    { Pokemon: "Hypno", Nickname: "BTLmNNNNo", Level: 59, Type1: "Psychic" },
                 ],
                 Image: "img/ribbons/champion.png"
             },
