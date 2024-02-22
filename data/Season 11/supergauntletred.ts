@@ -11,7 +11,7 @@ Season11.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         // TPPOrgLink: "http://twitchplayspokemon.org/red",
         // DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/red-archive",
-        // LiveUpdaterArchive: "https://paste.ee/p/E6NvL",
+        LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
         Region: "Kanto",
         Generation: 1,
         Pokedex: "Kanto",
