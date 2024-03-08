@@ -160,7 +160,25 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "26491", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-21T19:58:35Z", IDNo: "26491", Attempts: 0, Party: [
+                    { Number: 197, Pokemon: "Umbreon", Nickname: "HDD", Gender: "Male", Level: 48, IDNo: "26864" },
+                    { Number: 250, Pokemon: "Ho-Oh", Nickname: "MARIO", Level: 48, IDNo: "26491" },
+                    { Number: 76, Pokemon: "Golem", Nickname: "y×S", Gender: "Male", Level: 47, IDNo: "26864" },
+                    { Number: 199, Pokemon: "Slowking", Nickname: "JSTSJjjtts", Gender: "Female", Level: 39, IDNo: "26491" },
+                    { Number: 234, Pokemon: "Stantler", Nickname: "kuu::))uu", Gender: "Male", Level: 37, IDNo: "26491" },
+                    { Number: 222, Pokemon: "Corsola", Nickname: "JTU::", Gender: "Female", Level: 32, IDNo: "26491" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-22T15:57:19Z", IDNo: "26491", Attempts: 0, Party: [
+                    { Number: 71, Pokemon: "Victreebel", Nickname: "IGF", Gender: "Male", Level: 51, IDNo: "26491" },
+                    { Number: 197, Pokemon: "Umbreon", Nickname: "HDD", Gender: "Male", Level: 52, IDNo: "26864" },
+                    { Number: 234, Pokemon: "Stantler", Nickname: "kuu::))uu", Gender: "Male", Level: 51, IDNo: "26491" },
+                    { Number: 76, Pokemon: "Golem", Nickname: "y×S", Gender: "Male", Level: 50, IDNo: "26864" },
+                    { Number: 199, Pokemon: "Slowking", Nickname: "JSTSJjjtts", Gender: "Female", Level: 52, IDNo: "26491" },
+                    { Number: 250, Pokemon: "Ho-Oh", Nickname: "MARIO", Level: 50, IDNo: "26491" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -362,7 +380,37 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "26864", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-21T09:04:41Z", IDNo: "26864", Attempts: 0, Party: [
+                    { Number: 154, Pokemon: "Meganium", Nickname: "hmluuu", Gender: "Female", Level: 39, IDNo: "26491" },
+                    { Number: 181, Pokemon: "Ampharos", Nickname: "ZAPEEPY", Gender: "Female", Level: 39, IDNo: "26864" },
+                    { Number: 65, Pokemon: "Alakazam", Nickname: "BBFNOOpf-", Gender: "Male", Level: 51, IDNo: "26864" },
+                    { Number: 160, Pokemon: "Feraligatr", Nickname: "IIIAAAAA", Gender: "Male", Level: 41, IDNo: "26864" },
+                    { Number: 241, Pokemon: "Miltank", Nickname: "I///..WWW.", Gender: "Female", Level: 38, IDNo: "26864" },
+                    { Number: 21, Pokemon: "Spearow", Nickname: "KENYA", Gender: "Female", Level: 10, IDNo: "01001" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-21T18:50:29Z", IDNo: "26864", Attempts: 0, Party: [
+                    { Number: 65, Pokemon: "Alakazam", Nickname: "BBFNOOpf-", Gender: "Male", Level: 59, IDNo: "26864" },
+                    { Number: 154, Pokemon: "Meganium", Nickname: "hmluuu", Gender: "Female", Level: 52, IDNo: "26491" },
+                    { Number: 181, Pokemon: "Ampharos", Nickname: "ZAPEEPY", Gender: "Female", Level: 43, IDNo: "26864" },
+                    { Number: 166, Pokemon: "Ledian", Nickname: "Xjpppp", Gender: "Male", Level: 44, IDNo: "26864" },
+                    { Number: 160, Pokemon: "Feraligatr", Nickname: "IIIAAAAA", Gender: "Male", Level: 43, IDNo: "26864" },
+                    { Number: 241, Pokemon: "Miltank", Nickname: "I///..WWW.", Gender: "Female", Level: 38, IDNo: "26864" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-22T21:20:53Z", IDNo: "26864", Attempts: 0, Party: [
+                    { Number: 65, Pokemon: "Alakazam", Nickname: "BBFNOOpf-", Gender: "Male", Level: 62, IDNo: "26864" },
+                    { Number: 160, Pokemon: "Feraligatr", Nickname: "IIIAAAAA", Gender: "Male", Level: 50, IDNo: "26864" },
+                    { Number: 181, Pokemon: "Ampharos", Nickname: "ZAPEEPY", Gender: "Female", Level: 50, IDNo: "26864" },
+                    { Number: 154, Pokemon: "Meganium", Nickname: "hmluuu", Gender: "Female", Level: 55, IDNo: "26491" },
+                    { Number: 105, Pokemon: "Marowak", Nickname: "GASTER", Gender: "Male", Level: 50, IDNo: "26864" },
+                    { Number: 241, Pokemon: "Miltank", Nickname: "I///..WWW.", Gender: "Female", Level: 47, IDNo: "26864" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
