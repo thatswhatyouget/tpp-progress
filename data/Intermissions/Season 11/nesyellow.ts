@@ -4,7 +4,7 @@ Intermissions.Runs.push(
         RunName: "Lei Dian Huang Bi Ka Qiu Chuan Shuo",
         ColorPrimary: "#eb9f1c",
         ColorSecondary: "#fd5227",
-        Duration: "2024-02-19T11:25:49Z",
+        Duration: "2024-02-12T22:00:50Z",
         StartDate: "2024-02-11T02:42:08Z",
         HostName: "Ash",
         HostImage: "img/hosts/ash.png",
