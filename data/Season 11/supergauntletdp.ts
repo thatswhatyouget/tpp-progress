@@ -70,13 +70,13 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
-                    // { Pokemon: "Roserade", Nickname: "O \u263aR0BAA4B", Level: 72, Gender: "Male", Met: "Route 204", OT: ".      " },
-                    // { Pokemon: "Medicham", Nickname: "Crshoigtd", Level: 55, Gender: "Male", Met: "Route 211", OT: ".      " },
-                    // { Pokemon: "Floatzel", Nickname: "\u265b\u263d\u2197\u2197\u263d", Level: 55, Gender: "Male", Met: "Valley Windworks", OT: ".      " },
-                    // { Pokemon: "Rhyperior", Nickname: ";aozbbpp  ", Level: 56, Gender: "Male", Met: "Route 214", OT: ".      " },
-                    // { Pokemon: "Scyther", Nickname: "NCZEUSELET", Level: 57, Gender: "Male", Met: "Route 210", OT: ".      " },
-                    // { Pokemon: "Lickilicky", Nickname: "E #!? %\u265a(", Level: 53, Gender: "Male", Met: "Route 215", OT: ".      " },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-16T01:26:01Z", IDNo: "02996", Attempts: 0, Party: [
+                    { Pokemon: "Girafarig", Nickname: "ANNA", Level: 50, Gender: "Female", Met: "Route 214", OT: "p\u2640P" },
+                    { Pokemon: "Infernape", Nickname: "p2WE♀L", Level: 58, Gender: "Male", Met: "Lake Verity", OT: "p\u2640P" },
+                    { Pokemon: "Gastrodon", Nickname: "ABLOOO", Level: 54, Gender: "Female", Met: "Route 213", OT: "p\u2640P", Form: "East" },
+                    { Pokemon: "Honchkrow", Nickname: "W CCMNOE(", Level: 51, Gender: "Male", Met: "Route 209", OT: "p\u2640P" },
+                    { Pokemon: "Raichu", Nickname: "GOROCHU", Level: 60, Gender: "Male", Met: "Trophy Garden", OT: "p\u2640P" },
+                    { Pokemon: "Gengar", Nickname: "MIMAR", Level: 53, Gender: "Male", Met: "Old Chateau", OT: "p\u2640P" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion-sinnoh.png"
@@ -175,13 +175,13 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
-                    // { Pokemon: "Roserade", Nickname: "O \u263aR0BAA4B", Level: 72, Gender: "Male", Met: "Route 204", OT: ".      " },
-                    // { Pokemon: "Medicham", Nickname: "Crshoigtd", Level: 55, Gender: "Male", Met: "Route 211", OT: ".      " },
-                    // { Pokemon: "Floatzel", Nickname: "\u265b\u263d\u2197\u2197\u263d", Level: 55, Gender: "Male", Met: "Valley Windworks", OT: ".      " },
-                    // { Pokemon: "Rhyperior", Nickname: ";aozbbpp  ", Level: 56, Gender: "Male", Met: "Route 214", OT: ".      " },
-                    // { Pokemon: "Scyther", Nickname: "NCZEUSELET", Level: 57, Gender: "Male", Met: "Route 210", OT: ".      " },
-                    // { Pokemon: "Lickilicky", Nickname: "E #!? %\u265a(", Level: 53, Gender: "Male", Met: "Route 215", OT: ".      " },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-16T12:55:50Z", IDNo: "18428", Attempts: 0, Party: [
+                    { Pokemon: "Bastiodon", Nickname: "AEGIS", Level: 60, Gender: "Female", Met: "Mining Museum", OT: "AAAAAAA" },
+                    { Pokemon: "Noctowl", Nickname: "HHEHEE", Level: 58, Gender: "Male", Met: "Great Marsh", OT: "AAAAAAA" },
+                    { Pokemon: "Pachirisu", Nickname: "NpICHAA", Level: 55, Gender: "Male", Met: "Valley Windworks", OT: "AAAAAAA" },
+                    { Pokemon: "Empoleon", Nickname: "UH)", Level: 68, Gender: "Male", Met: "Lake Verity", OT: "AAAAAAA" },
+                    { Pokemon: "Mismagius", Nickname: "Queen", Level: 57, Gender: "Female", Met: "Route 209", OT: "AAAAAAA" },
+                    { Pokemon: "Uxie", Nickname: "KNIFE", Level: 58, Met: "Acuity Cavern", OT: "AAAAAAA" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion-sinnoh.png"
