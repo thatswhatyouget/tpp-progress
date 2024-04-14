@@ -101,6 +101,18 @@ Season11.Runs.push(
                 Group: "Champions", Class: "Rematch", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
                 Time: "", Attempts: 0
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-17T03:21:53Z", IDNo: "02996", Attempts: 0, Party: [
+                    { Pokemon: "Girafarig", Nickname: "ANNA", Level: 60, Gender: "Female", Met: "Route 214", OT: "p\u2640P" },
+                    { Pokemon: "Gengar", Nickname: "MIMAR", Level: 58, Gender: "Male", Met: "Old Chateau", OT: "p\u2640P" },
+                    { Pokemon: "Honchkrow", Nickname: "W CCMNOE(", Level: 60, Gender: "Male", Met: "Route 209", OT: "p\u2640P" },
+                    { Pokemon: "Infernape", Nickname: "p2WE♀L", Level: 63, Gender: "Male", Met: "Lake Verity", OT: "p\u2640P" },
+                    { Pokemon: "Arceus", Nickname: "AG XO☃;", Level: 81, Met: "Hall of Origin", OT: "p\u2640P", Form: "Bug" },
+                    { Pokemon: "Gastrodon", Nickname: "ABLOOO", Level: 60, Gender: "Female", Met: "Route 213", OT: "p\u2640P", Form: "East" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion-sinnoh.png"
+            },
         ]
     }
 );
@@ -205,6 +217,18 @@ Season11.Runs.push(
             {
                 Group: "Champions", Class: "Rematch", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
                 Time: "", Attempts: 0
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-17T06:28:53Z", IDNo: "18428", Attempts: 0, Party: [
+                    { Pokemon: "Bastiodon", Nickname: "AEGIS", Level: 62, Gender: "Female", Met: "Mining Museum", OT: "AAAAAAA" },
+                    { Pokemon: "Uxie", Nickname: "KNIFE", Level: 61, Met: "Acuity Cavern", OT: "AAAAAAA" },
+                    { Pokemon: "Empoleon", Nickname: "UH)", Level: 70, Gender: "Male", Met: "Lake Verity", OT: "AAAAAAA" },
+                    { Pokemon: "Arceus", Nickname: "SOLARIS", Level: 84, Met: "Hall of Origin", OT: "AAAAAAA", Form: "Fire" },
+                    { Pokemon: "Pachirisu", Nickname: "NpICHAA", Level: 58, Gender: "Male", Met: "Valley Windworks", OT: "AAAAAAA" },
+                    { Pokemon: "Noctowl", Nickname: "HHEHEE", Level: 63, Gender: "Male", Met: "Great Marsh", OT: "AAAAAAA" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion-sinnoh.png"
             },
         ]
     }
