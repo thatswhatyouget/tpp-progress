@@ -19,7 +19,7 @@ Sidegames.Runs.push(
                     { Pokemon: "Swalot", Nickname: "エスはハフ", Level: 55, Gender: "Female", Number: 96, IDNo: "40511" },
                     { Pokemon: "Blaziken", Nickname: "くけけVt", Level: 62, Gender: "Male", Number: 6, IDNo: "40511" },
                     { Pokemon: "Donphan", Nickname: "くいやふに", Level: 55, Gender: "Female", Number: 166, IDNo: "40511" },
-                    { Pokemon: "Dusclops", Nickname: "サン゙ス", Level: 60, Gender: "Male", Number: 149, IDNo: "40511" },
+                    { Pokemon: "Dusclops", Nickname: "サンズ", Level: 60, Gender: "Male", Number: 149, IDNo: "40511" },
                     { Pokemon: "Lanturn", Nickname: "イシスハマ", Level: 55, Gender: "Male", Number: 182, IDNo: "40511" },
                 ],
                 FirstAttemptDate: "2024-02-05T01:25:50.625Z",
@@ -32,7 +32,7 @@ Sidegames.Runs.push(
                     { Pokemon: "Lanturn", Nickname: "イシスハマ", Level: 61, Gender: "Male", Number: 182, IDNo: "40511" },
                     { Pokemon: "Donphan", Nickname: "くいやふに", Level: 60, Gender: "Female", Number: 166, IDNo: "40511" },
                     { Pokemon: "Blaziken", Nickname: "くけけVt", Level: 66, Gender: "Male", Number: 6, IDNo: "40511" },
-                    { Pokemon: "Dusclops", Nickname: "サン゙ス", Level: 62, Gender: "Male", Number: 149, IDNo: "40511" },
+                    { Pokemon: "Dusclops", Nickname: "サンズ", Level: 62, Gender: "Male", Number: 149, IDNo: "40511" },
                 ],
                 FirstAttemptDate: "2024-02-05T14:16:39.817Z",
                 Image: "img/ribbons/champion.png"
