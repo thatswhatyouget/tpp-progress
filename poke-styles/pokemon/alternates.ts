@@ -54,11 +54,17 @@ var alternates: Alternate[] = [
     new Alternate("deoxys", "Attack"),
     new Alternate("deoxys", "Defense"),
 
+    new Alternate("shellos", "East"),
+    new Alternate("gastrodon", "East"),
+	
     new Alternate("rotom", "Fan"),
     new Alternate("rotom", "Frost"),
     new Alternate("rotom", "Heat"),
     new Alternate("rotom", "Mow"),
     new Alternate("rotom", "Wash"),
+	
+    new Alternate("arceus", "Bug"),
+    new Alternate("arceus", "Fire"),
 
     new Alternate("tornadus", "Therian"),
     new Alternate("thundurus", "Therian"),
@@ -68,6 +74,7 @@ var alternates: Alternate[] = [
     new Alternate("keldeo", "Resolute"),
 
     new Alternate("zygarde", "percent10"),
+	
     new Alternate("lycanroc", "Midnight"),
 
     new Alternate("zoroark", "Eliza"),
