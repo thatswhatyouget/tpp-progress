@@ -66,11 +66,16 @@ var alternates: Alternate[] = [
     new Alternate("arceus", "Bug"),
     new Alternate("arceus", "Fire"),
 
+    new Alternate("basculin", "Blue"),
+    new Alternate("basculin", "White"),
+	
     new Alternate("tornadus", "Therian"),
     new Alternate("thundurus", "Therian"),
     new Alternate("landorus", "Therian"),
+	
     new Alternate("kyurem", "White"),
     new Alternate("kyurem", "Black"),
+	
     new Alternate("keldeo", "Resolute"),
 
     new Alternate("zygarde", "percent10"),
