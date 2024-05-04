@@ -90,6 +90,10 @@ var alternates: Alternate[] = [
 	
     new Alternate("lycanroc", "Midnight"),
 
+    new Alternate("oricorio", "Baile"),
+    new Alternate("oricorio", "Pom-Pom"),
+    new Alternate("oricorio", "Pa-u"),
+	
     new Alternate("zoroark", "Eliza"),
 	
     new Alternate("ub-queen", "Ultra"),
