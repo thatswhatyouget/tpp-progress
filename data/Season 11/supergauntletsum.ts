@@ -54,13 +54,13 @@ Season11.Runs.push(
             { "Group": "Champions", "Name": "Hau", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
-                    { Pokemon: "Flygon", Nickname: "Audacity", Gender: "Male", Level: 63 },
-                    { Pokemon: "Passimian", Nickname: "Funky Kong", Gender: "Male", Level: 62 },
-                    { Pokemon: "Ninetales", Nickname: "Shiron", Gender: "Female", Level: 65, Form: "Alolan" },
-                    { Pokemon: "Corsola", Nickname: "Idoply", Gender: "Male", Level: 67 },
-                    { Pokemon: "Oricorio", Nickname: "Pomme", Gender: "Female", Level: 68, Form: "Baile" },
-                    { Pokemon: "Smeargle", Nickname: "Crimson", Gender: "Male", Level: 63 },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-07T00:51:20Z", Attempts: 0, Party: [
+                    { Pokemon: "Passimian", Nickname: "Funky Kong", Gender: "Male", Level: 72 },
+                    { Pokemon: "Flygon", Nickname: "Audacity", Gender: "Male", Level: 72 },
+                    { Pokemon: "Oricorio", Nickname: "Pomme", Gender: "Female", Level: 78, Form: "Baile" },
+                    { Pokemon: "Corsola", Nickname: "Idoply", Gender: "Male", Level: 78 },
+                    { Pokemon: "Ninetales", Nickname: "Shiron", Gender: "Female", Level: 76, Form: "Alolan" },
+                    { Pokemon: "Smeargle", Nickname: "Crimson", Gender: "Male", Level: 75 },
                 ],
                 Image: "img/ribbons/champion-alola.png"
             },
@@ -123,13 +123,13 @@ Season11.Runs.push(
             { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "", "Attempts": 0, "Class": "rematch", "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
             { "Group": "Champions", "Name": "Hau", "Time": "", "Attempts": 0, "Class": "rematch", "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
-                    { Pokemon: "Garchomp", Nickname: "GarWG%chom", Gender: "Male", Level: 96 },
-                    { Pokemon: "Walrein", Nickname: "Walr", Gender: "Male", Level: 100 },
-                    { Pokemon: "Leavanny", Nickname: "AYY", Gender: "Male", Level: 92 },
-                    { Pokemon: "Aromatisse", Nickname: "Arom”", Gender: "Female", Level: 100 },
-                    { Pokemon: "Hydreigon", Nickname: "ACccccccccc", Gender: "Female", Level: 100 },
-                    { Pokemon: "Charizard", Nickname: "BCharGizard", Gender: "Male", Level: 98 },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-09T17:35:01Z", Attempts: 0, Party: [
+                    { Pokemon: "Krookodile", Nickname: "Redemption", Gender: "Female", Level: 73 },
+                    { Pokemon: "Sandslash", Nickname: "Coldsteel", Gender: "Male", Level: 92, Form: "Alolan", Shiny: true },
+                    { Pokemon: "Naganadel", Nickname: "OU", Level: 84 },
+                    { Pokemon: "Lunala", Nickname: "Nebby", Level: 72 },
+                    { Pokemon: "Zweilous", Gender: "Female", Level: 83 },
+                    { Pokemon: "Decidueye", Nickname: "Emiya", Gender: "Male", Level: 99 },
                 ],
                 Image: "img/ribbons/champion-alola.png",
                 FirstAttemptDate: ""
