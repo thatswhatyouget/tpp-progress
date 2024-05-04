@@ -101,18 +101,6 @@ Season11.Runs.push(
                 Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png", Class: "Rematch",
                 Time: "", Attempts: 0
             },
-            <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
-                    { Pokemon: "Dedenne", Nickname: "Ookwee", Level: 69, Gender: "Female" },
-                    { Pokemon: "Aromatisse", Nickname: "eRra!!y", Level: 67, Gender: "Male" },
-                    { Pokemon: "Mawile", Nickname: "Shania", Level: 76, Gender: "Female" },
-                    { Pokemon: "Granbull", Nickname: "AA77N25?? =o", Level: 68, Gender: "Male" },
-                    { Pokemon: "Sylveon", Nickname: "TR", Level: 70, Gender: "Male" },
-                    { Pokemon: "Slurpuff", Nickname: "Wondy", Level: 66, Gender: "Female" },
-                ],
-                FirstAttemptDate: "",
-                Image: "img/ribbons/champion-kalos.png"
-            },
 
         ]
     }
@@ -220,13 +208,13 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
-                    { Pokemon: "Hawlucha", Nickname: "Luca", Level: 70, Gender: "Female" },
-                    { Pokemon: "Vivillon", Nickname: "oScaiugo", Level: 63, Gender: "Female", Form: "Modern" },
-                    { Pokemon: "Furfrou", Nickname: "! orrofacc", Level: 65, Gender: "Male", Form: "Kabuki" },
-                    { Pokemon: "Gourgeist", Nickname: "Bowen", Level: 65, Gender: "Male", Form: "Small" },
-                    { Pokemon: "Barbaracle", Nickname: "Binny", Level: 66, Gender: "Female" },
-                    { Pokemon: "Rotom", Nickname: "Tsuku", Level: 70, Form: "Heat" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-30T20:24:01Z", Attempts: 0, Party: [
+                    { Pokemon: "Vivillon", Nickname: "oScaiugo", Level: 71, Gender: "Female", Form: "Modern" },
+                    { Pokemon: "Barbaracle", Nickname: "Binny", Level: 90, Gender: "Female" },
+                    { Pokemon: "Rotom", Nickname: "Tsuku", Level: 80, Form: "Heat" },
+                    { Pokemon: "Furfrou", Nickname: "! orrofacc", Level: 86, Gender: "Male", Form: "Kabuki" },
+                    { Pokemon: "Gourgeist", Nickname: "Bowen", Level: 72, Gender: "Male", Form: "Small" },
+                    { Pokemon: "Hawlucha", Nickname: "Luca", Level: 94, Gender: "Female" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion-kalos.png"
