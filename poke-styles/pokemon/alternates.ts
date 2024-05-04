@@ -78,6 +78,14 @@ var alternates: Alternate[] = [
 	
     new Alternate("keldeo", "Resolute"),
 
+    new Alternate("vivillon", "Modern"),
+	
+    new Alternate("furfrou", "Kabuki"),
+	
+    new Alternate("gourgeist", "Small"),
+    new Alternate("gourgeist", "Large"),
+    new Alternate("gourgeist", "Super"),
+	
     new Alternate("zygarde", "percent10"),
 	
     new Alternate("lycanroc", "Midnight"),
