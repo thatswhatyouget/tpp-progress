@@ -5,7 +5,7 @@ Season11.Runs.push(
         ColorPrimary: "#353535",
         ColorSecondary: "black",
         StartDate: "2024-03-18T21:00:00Z",
-        Duration: "2024-03-25T21:00:00Z",
+        Duration: "2024-03-23T21:11:35Z",
         HostName: "   \u2640Yss",
         HostImage: "img/hosts/gmyc.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
@@ -78,16 +78,16 @@ Season11.Runs.push(
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", IDNo: "53314", Party: [
-                    { Pokemon: "Garbodor", Nickname: "Trpuebp", Level: 54, Gender: "Female" },
-                    { Pokemon: "Stoutland", Nickname: "ufzbhh♀ddc", Level: 61, Gender: "Male" },
-                    { Pokemon: "Maractus", Nickname: "Maraco", Level: 49, Gender: "Male" },
-                    { Pokemon: "Reuniclus", Nickname: "Cellmadioz", Level: 52, Gender: "Male" },
-                    { Pokemon: "Beartic", Nickname: "Cdacho", Level: 52, Gender: "Female" },
-                    { Pokemon: "Carracosta", Nickname: "Devyr", Level: 52, Gender: "Male" }
+                    { Pokemon: "Krookodile", Nickname: "Hecatia", Level: 52, Gender: "Female" },
+                    { Pokemon: "Sawk", Nickname: "OBR2ERT", Level: 53, Gender: "Male" },
+                    { Pokemon: "Galvantula", Nickname: "Tiki", Level: 47, Gender: "Male" },
+                    { Pokemon: "Beheeyem", Nickname: "beep boop", Level: 50, Gender: "Male" },
+                    { Pokemon: "Alomomola", Nickname: "FYinn", Level: 50, Gender: "Male" },
+                    { Pokemon: "Serperior", Nickname: "APWFFFlDSX", Level: 49, Gender: "Male" }
                 ],
                 Image: "img/ribbons/event.png",
                 FirstAttemptDate: "",
-                Time: "", Attempts: 0
+                Time: "2024-03-21T20:55:28Z", Attempts: 0
             },
 
             {
@@ -114,16 +114,16 @@ Season11.Runs.push(
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "53314", Party: [
-                    { Pokemon: "Carracosta", Nickname: "Devyr", Level: 69, Gender: "Male" },
-                    { Pokemon: "Reuniclus", Nickname: "Cellmadioz", Level: 79, Gender: "Male" },
-                    { Pokemon: "Stoutland", Nickname: "ufzbhh♀ddc", Level: 72, Gender: "Male" },
-                    { Pokemon: "Volcarona", Nickname: "Alcamotf", Level: 70, Gender: "Male" },
-                    { Pokemon: "Beartic", Nickname: "Cdacho", Level: 68, Gender: "Female" },
-                    { Pokemon: "Zekrom", Nickname: "Zekenator", Level: 68 }
+                    { Pokemon: "Bisharp", Nickname: "wii", Level: 70, Gender: "Male" },
+                    { Pokemon: "Sawk", Nickname: "OBR2ERT", Level: 73, Gender: "Male" },
+                    { Pokemon: "Thundurus", Nickname: "jeenee", Level: 79, Gender: "Male" },
+                    { Pokemon: "Krookodile", Nickname: "Hecatia", Level: 70, Gender: "Female" },
+                    { Pokemon: "Omastar", Nickname: "Dome?", Level: 73, Gender: "Male" },
+                    { Pokemon: "Venomoth", Nickname: "motf", Level: 67, Gender: "Female" }
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate: "2024-01-01T18:45:07.079Z",
-                Time: "", Attempts: 0
+                FirstAttemptDate: "",
+                Time: "2024-03-23T20:30:32Z", Attempts: 0
             },
 
         ]
@@ -135,7 +135,7 @@ Season11.Runs.push(
         ColorPrimary: "#E5E5E5",
         ColorSecondary: "#C5C5C5",
         StartDate: "2024-03-18T21:00:00Z",
-        Duration: "2024-03-25T21:00:00Z",
+        Duration: "2024-03-23T21:11:35Z",
         HostName: "%--\u265b\u265b\u2639 ",
         HostImage: "img/hosts/aaq.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/beur93/aqua_kuehl_the_lonely/",
@@ -208,16 +208,16 @@ Season11.Runs.push(
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", IDNo: "60990", Party: [
-                    { Pokemon: "Garbodor", Nickname: "Trpuebp", Level: 54, Gender: "Female" },
-                    { Pokemon: "Stoutland", Nickname: "ufzbhh♀ddc", Level: 61, Gender: "Male" },
-                    { Pokemon: "Maractus", Nickname: "Maraco", Level: 49, Gender: "Male" },
-                    { Pokemon: "Reuniclus", Nickname: "Cellmadioz", Level: 52, Gender: "Male" },
-                    { Pokemon: "Beartic", Nickname: "Cdacho", Level: 52, Gender: "Female" },
-                    { Pokemon: "Carracosta", Nickname: "Devyr", Level: 52, Gender: "Male" }
+                    { Pokemon: "Basculin", Nickname: "aabass", Level: 46, Gender: "Female", Form: "Blue" },
+                    { Pokemon: "Throh", Nickname: "AAGG", Level: 48, Gender: "Male" },
+                    { Pokemon: "Gothitelle", Nickname: "Ellen", Level: 47, Gender: "Female" },
+                    { Pokemon: "Emolga", Nickname: "Minipete", Level: 49, Gender: "Male" },
+                    { Pokemon: "Simisear", Nickname: "AAMONK", Level: 45, Gender: "Male" },
+                    { Pokemon: "Lilligant", Nickname: "Amaryhlowl", Level: 59, Gender: "Female" }
                 ],
                 Image: "img/ribbons/event.png",
                 FirstAttemptDate: "",
-                Time: "", Attempts: 0
+                Time: "2024-03-20T07:07:20Z", Attempts: 0
             },
 
             {
@@ -244,16 +244,16 @@ Season11.Runs.push(
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "60990", Party: [
-                    { Pokemon: "Carracosta", Nickname: "Devyr", Level: 69, Gender: "Male" },
-                    { Pokemon: "Reuniclus", Nickname: "Cellmadioz", Level: 79, Gender: "Male" },
-                    { Pokemon: "Stoutland", Nickname: "ufzbhh♀ddc", Level: 72, Gender: "Male" },
-                    { Pokemon: "Volcarona", Nickname: "Alcamotf", Level: 70, Gender: "Male" },
-                    { Pokemon: "Beartic", Nickname: "Cdacho", Level: 68, Gender: "Female" },
-                    { Pokemon: "Zekrom", Nickname: "Zekenator", Level: 68 }
+                    { Pokemon: "Simisear", Nickname: "AAMONK", Level: 74, Gender: "Male" },
+                    { Pokemon: "Lilligant", Nickname: "Amaryhlowl", Level: 86, Gender: "Female" },
+                    { Pokemon: "Basculin", Nickname: "aabass", Level: 74, Gender: "Female", Form: "Blue" },
+                    { Pokemon: "Throh", Nickname: "AAGG", Level: 71, Gender: "Male" },
+                    { Pokemon: "Gothitelle", Nickname: "Ellen", Level: 71, Gender: "Female" },
+                    { Pokemon: "Emolga", Nickname: "Minipete", Level: 73, Gender: "Male" }
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate: "2024-01-01T18:45:07.079Z",
-                Time: "", Attempts: 0
+                FirstAttemptDate: "",
+                Time: "2024-03-21T22:30:48Z", Attempts: 0
             },
 
         ]
