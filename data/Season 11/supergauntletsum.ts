@@ -40,7 +40,7 @@ Season11.Runs.push(
                     { Pokemon: "Passimian", Nickname: "Funky Kong", Gender: "Male", Level: 62 },
                     { Pokemon: "Ninetales", Nickname: "Shiron", Gender: "Female", Level: 65, Form: "Alolan" },
                     { Pokemon: "Corsola", Nickname: "Idoply", Gender: "Male", Level: 67 },
-                    { Pokemon: "Oricorio", Nickname: "Pomme", Gender: "Female", Level: 68, Form: "Baile" },
+                    { Pokemon: "Oricorio", Nickname: "Pomme", Gender: "Female", Level: 68, Form: "Pom-Pom" },
                     { Pokemon: "Smeargle", Nickname: "Crimson", Gender: "Male", Level: 63 },
                 ],
                 Image: "img/ribbons/champion-alola.png",
@@ -57,7 +57,7 @@ Season11.Runs.push(
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-07T00:51:20Z", Attempts: 0, Party: [
                     { Pokemon: "Passimian", Nickname: "Funky Kong", Gender: "Male", Level: 72 },
                     { Pokemon: "Flygon", Nickname: "Audacity", Gender: "Male", Level: 72 },
-                    { Pokemon: "Oricorio", Nickname: "Pomme", Gender: "Female", Level: 78, Form: "Baile" },
+                    { Pokemon: "Oricorio", Nickname: "Pomme", Gender: "Female", Level: 78, Form: "Pom-Pom" },
                     { Pokemon: "Corsola", Nickname: "Idoply", Gender: "Male", Level: 78 },
                     { Pokemon: "Ninetales", Nickname: "Shiron", Gender: "Female", Level: 76, Form: "Alolan" },
                     { Pokemon: "Smeargle", Nickname: "Crimson", Gender: "Male", Level: 75 },
