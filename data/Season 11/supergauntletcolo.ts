@@ -95,9 +95,9 @@ Season11.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", Attempts: 0, Time: "2024-04-18T12:58:09", Party: [
                     { Pokemon: "Altaria", Nickname: "UK♂♂♂", Level: 58, Gender: "Female" },
-                    { Pokemon: "Mantine", Nickname: "opr ii", Level: 53, Gender: "Male" },
-                    { Pokemon: "Stantler", Nickname: "WQSShfffzz", Level: 55, Gender: "Male" },
                     { Pokemon: "Suicune", Nickname: "LMCXXX  ", Level: 55 },
+                    { Pokemon: "Stantler", Nickname: "WQSShfffzz", Level: 55, Gender: "Male" },
+                    { Pokemon: "Mantine", Nickname: "opr ii", Level: 53, Gender: "Male" },
                     { Pokemon: "Hitmontop", Nickname: "Uppy", Level: 54, Gender: "Male" },
                     { Pokemon: "Gligar", Nickname: "C‥rrpfffhh", Level: 53, Gender: "Male" }
                 ],
