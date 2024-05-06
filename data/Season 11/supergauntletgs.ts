@@ -455,7 +455,6 @@ Season11.Runs.push(
             { Name: "Umbreon", Time: "2024-02-21T15:19:28Z", Group: "Pokemon" },
 			
             { Name: "Scyther", Time: "2024-02-22T08:08:18Z", Group: "Pokemon" },
-            { Name: "Scizor", Time: "2024-02-22T09:14:59Z", Group: "Pokemon" },
             { Name: "Quagsire", Time: "2024-02-22T13:16:33Z", Group: "Pokemon" },
             { Name: "Tentacool", Time: "2024-02-22T13:22:35Z", Group: "Pokemon" },
 

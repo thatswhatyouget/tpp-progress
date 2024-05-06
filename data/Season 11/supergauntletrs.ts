@@ -98,7 +98,6 @@ Season11.Runs.push(
             { Name: "Kecleon", Time: "2024-02-28T11:35:18Z", Group: "Pokemon" },
             { Name: "Shiftry", Time: "2024-02-28T12:39:02Z", Group: "Pokemon" },
             { Name: "Blaziken", Time: "2024-02-28T12:42:31Z", Group: "Pokemon" },
-            { Name: "Huntail", Time: "2024-02-28T18:41:03Z", Group: "Pokemon" },
             { Name: "Groudon", Time: "2024-02-28T22:13:33Z", Group: "Pokemon" },
             { Name: "Voltorb", Time: "2024-02-29T16:34:52Z", Group: "Pokemon" },
 			
@@ -211,12 +210,12 @@ Season11.Runs.push(
             { Name: "Chimecho", Time: "2024-02-27T23:47:00Z", Group: "Pokemon" },
 			// Missing Clamperl and Relicanth
             { Name: "Solrock", Time: "2024-02-28T02:18:54Z", Group: "Pokemon" },
-            { Name: "Gorebyss", Time: "2024-02-28T02:19:19Z", Group: "Pokemon" },
             { Name: "Sceptile", Time: "2024-02-28T03:31:22Z", Group: "Pokemon" },
             { Name: "Kyogre", Time: "2024-02-28T04:48:23Z", Group: "Pokemon" },
 			// Missing Wailmer and Registeel
             { Name: "Whismur", Time: "2024-02-28T10:53:38Z", Group: "Pokemon" },
             { Name: "Swablu", Time: "2024-02-28T11:08:40Z", Group: "Pokemon" },
+            { Name: "Gorebyss", Time: "2024-02-28T18:35:45Z", Group: "Pokemon" },
             { Name: "Huntail", Time: "2024-02-28T18:41:03Z", Group: "Pokemon" },
             { Name: "Manectric", Time: "2024-02-28T19:01:43Z", Group: "Pokemon" },
             { Name: "Blaziken", Time: "2024-02-29T02:05:30Z", Group: "Pokemon" },
