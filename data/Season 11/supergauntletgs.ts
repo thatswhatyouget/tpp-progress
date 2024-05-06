@@ -6,7 +6,7 @@ Season11.Runs.push(
         ColorPrimary: "gold",
         ColorSecondary: "brown",
         StartDate: "2024-02-19T22:00:00Z",
-        Duration: "2024-02-29T21:00:00Z",
+        Duration: "2024-02-22T22:30:53Z",
         HostName: "RR ?-µZ",
         HostImage: "img/hosts/ajdnnw.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
@@ -215,6 +215,10 @@ Season11.Runs.push(
             { Name: "Meganium", Time: "2024-02-21T15:19:51Z", Group: "Pokemon" },
             { Name: "Ledian", Time: "2024-02-21T15:32:46Z", Group: "Pokemon" },
 
+            { Name: "Snorlax", Time: "2024-02-22T04:13:17Z", Group: "Pokemon" },
+            { Name: "Oddish", Time: "2024-02-22T05:39:54Z", Group: "Pokemon" },
+            { Name: "Victreebel", Time: "2024-02-22T05:46:47Z", Group: "Pokemon" },
+            { Name: "Scizor", Time: "2024-02-22T09:14:59Z", Group: "Pokemon" },
 
         ]
     }
@@ -226,7 +230,7 @@ Season11.Runs.push(
         ColorPrimary: "silver",
         ColorSecondary: "darkgray",
         StartDate: "2024-02-19T22:00:00Z",
-        Duration: "2024-02-29T21:00:00Z",
+        Duration: "2024-02-22T22:30:53Z",
         HostName: "XYY",
         HostImage: "img/hosts/ajdnnw.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
@@ -429,6 +433,7 @@ Season11.Runs.push(
             { Name: "Miltank", Time: "2024-02-20T18:52:28.3519912Z", Group: "Pokemon" },
             { Name: "Donphan", Time: "2024-02-21T04:55:28Z", Group: "Pokemon" },
             { Name: "Lapras", Time: "2024-02-21T02:00:43Z", Group: "Pokemon" },
+            { Name: "Cubone", Time: "2024-02-21T19:33:19Z", Group: "Pokemon" },
             { Name: "Machoke", Time: "2024-02-21T19:57:04Z", Group: "Pokemon" },
             
             { Name: "Croconaw", Time: "2024-02-20T02:26:12Z", Group: "Pokemon" },
@@ -448,6 +453,11 @@ Season11.Runs.push(
             { Name: "Slowpoke", Time: "2024-02-20T17:56:41Z", Group: "Pokemon" },
             { Name: "Stantler", Time: "2024-02-21T03:56:27Z", Group: "Pokemon" },
             { Name: "Umbreon", Time: "2024-02-21T15:19:28Z", Group: "Pokemon" },
+			
+            { Name: "Scyther", Time: "2024-02-22T08:08:18Z", Group: "Pokemon" },
+            { Name: "Scizor", Time: "2024-02-22T09:14:59Z", Group: "Pokemon" },
+            { Name: "Quagsire", Time: "2024-02-22T13:16:33Z", Group: "Pokemon" },
+            { Name: "Tentacool", Time: "2024-02-22T13:22:35Z", Group: "Pokemon" },
 
         ]
     }
