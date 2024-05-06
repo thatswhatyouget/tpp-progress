@@ -139,6 +139,29 @@ Season11.Runs.push(
                 Image: "img/ribbons/national.png"
             },
 			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Second Game Clear", Time: "2024-04-28T02:41:24Z", Party: [
+                    { Pokemon: "Jolteon", Nickname: "MORDRED", Level: 49, Gender: "Female" },
+                    { Pokemon: "Roselia", Nickname: "BB", Level: 50, Gender: "Male" },
+                    { Pokemon: "Dusclops", Nickname: "WingG", Level: 50, Gender: "Female" },
+                    { Pokemon: "Forretress", Nickname: "WURM", Level: 49, Gender: "Female" },
+                    { Pokemon: "Piloswine", Nickname: "Piggieoo55", Level: 50, Gender: "Female" },
+                    { Pokemon: "Crobat", Nickname: "Something", Level: 51, Gender: "Male" },
+                ],
+                Image: "img/ribbons/national.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Third Game Clear", Time: "2024-04-30T02:38:09Z", Party: [
+                    { Pokemon: "Dusclops", Nickname: "WingG", Level: 70, Gender: "Female" },
+                    { Pokemon: "Forretress", Nickname: "WURM", Level: 67, Gender: "Female" },
+                    { Pokemon: "Jolteon", Nickname: "MORDRED", Level: 71, Gender: "Female" },
+                    { Pokemon: "Roselia", Nickname: "BB", Level: 68, Gender: "Male" },
+                    { Pokemon: "Piloswine", Nickname: "Piggieoo55", Level: 68, Gender: "Female" },
+                    { Pokemon: "Crobat", Nickname: "Something", Level: 69, Gender: "Male" },
+                ],
+                Image: "img/ribbons/national.png"
+            },
         ]
     }
 );
