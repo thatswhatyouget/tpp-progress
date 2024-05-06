@@ -256,6 +256,20 @@ Season11.Runs.push(
                 Time: "2024-03-21T22:30:48Z", Attempts: 0
             },
 
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "60990", Party: [
+                    { Pokemon: "Meloetta", Level: 71 },
+                    { Pokemon: "Lilligant", Nickname: "Amaryhlowl", Level: 90, Gender: "Female" },
+                    { Pokemon: "Simisear", Nickname: "AAMONK", Level: 75, Gender: "Male" },
+                    { Pokemon: "Kyurem", Nickname: "pfreopiSZT", Level: 77 },
+                    { Pokemon: "Gothitelle", Nickname: "Ellen", Level: 73, Gender: "Female" },
+                    { Pokemon: "Basculin", Nickname: "aabass", Level: 75, Gender: "Female", Form: "Blue" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "",
+                Time: "2024-03-22T21:05:24Z", Attempts: 0
+            },
+
         ]
     }
 );
