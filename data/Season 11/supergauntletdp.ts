@@ -69,6 +69,15 @@ Season11.Runs.push(
                 Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
                 Time: "", Attempts: 0
             },
+			
+			// Missing Chimchar
+            { Name: "Shinx", Time: "2024-03-11T21:52:01Z", Group: "Pokemon" },
+            { Name: "Geodude", Time: "2024-03-11T22:54:26Z", Group: "Pokemon" },
+            { Name: "Monferno", Time: "2024-03-11T23:08:13Z", Group: "Pokemon" },
+            { Name: "Shellos", Time: "2024-03-12T00:22:14Z", Group: "Pokemon" },
+			// Missing Barboach, Gastly, Girafarig, and Murkrow
+            { Name: "Ponyta", Time: "2024-03-12T11:46:27Z", Group: "Pokemon" },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-16T01:26:01Z", IDNo: "02996", Attempts: 0, Party: [
                     { Pokemon: "Girafarig", Nickname: "ANNA", Level: 50, Gender: "Female", Met: "Route 214", OT: "p\u2640P" },
@@ -186,6 +195,12 @@ Season11.Runs.push(
                 Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
                 Time: "", Attempts: 0
             },
+			
+			// Missing Piplup, Prinplup, Pachirisu, Shieldon, Lopunny, Shellos, and Geodude
+            { Name: "Kricketune", Time: "2024-03-12T11:46:50Z", Group: "Pokemon" },
+			// Missing Noctowl
+            { Name: "Spiritomb", Time: "2024-03-15T00:51:30Z", Group: "Pokemon" },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-16T12:55:50Z", IDNo: "18428", Attempts: 0, Party: [
                     { Pokemon: "Bastiodon", Nickname: "AEGIS", Level: 60, Gender: "Female", Met: "Mining Museum", OT: "AAAAAAA" },

@@ -5,7 +5,7 @@ Season11.Runs.push(
         ColorPrimary: "#353535",
         ColorSecondary: "black",
         StartDate: "2024-03-18T21:00:00Z",
-        Duration: "2024-03-23T21:11:35Z",
+        Duration: "2024-03-24T00:00:22Z",
         HostName: "   \u2640Yss",
         HostImage: "img/hosts/gmyc.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
@@ -75,7 +75,10 @@ Season11.Runs.push(
                 Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/ghetsis.png",
                 Time: "", Attempts: 0
             },
-
+			
+			// Missing Sawk
+            { Name: "Throh", Time: "2024-03-19T19:10:34Z", Group: "Pokemon" },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", IDNo: "53314", Party: [
                     { Pokemon: "Krookodile", Nickname: "Hecatia", Level: 52, Gender: "Female" },
@@ -111,7 +114,7 @@ Season11.Runs.push(
                 Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png",
                 Time: "", Attempts: 0
             },
-
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "53314", Party: [
                     { Pokemon: "Bisharp", Nickname: "wii", Level: 70, Gender: "Male" },
@@ -126,6 +129,12 @@ Season11.Runs.push(
                 Time: "2024-03-23T20:30:32Z", Attempts: 0
             },
 
+			// Missing Celebi, Karrablast, Blitzle, Bisharp, Thundurus, Krookodile, Omastar, Venomoth, Purrloin, Pidove, Minccino, Roggenrola, Tympole, Cottonee, Vullaby, Venipede, Scraggy, Elgyem, Swadloon, Pansear
+            { Name: "Latias", Time: "2024-03-23T22:18:03Z", Group: "Pokemon" },
+            { Name: "Accelgor", Time: "2024-03-23T22:35:17Z", Group: "Pokemon" },
+            { Name: "Escavalier", Time: "2024-03-23T22:38:24Z", Group: "Pokemon" },
+            { Name: "Zorua", Time: "2024-03-23T23:09:03Z", Group: "Pokemon" },
+
         ]
     }
 );
@@ -135,7 +144,7 @@ Season11.Runs.push(
         ColorPrimary: "#E5E5E5",
         ColorSecondary: "#C5C5C5",
         StartDate: "2024-03-18T21:00:00Z",
-        Duration: "2024-03-23T21:11:35Z",
+        Duration: "2024-03-24T00:00:22Z",
         HostName: "%--\u265b\u265b\u2639 ",
         HostImage: "img/hosts/aaq.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/beur93/aqua_kuehl_the_lonely/",
@@ -206,6 +215,9 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
 
+			// Missing Throh
+            { Name: "Sawk", Time: "2024-03-19T19:10:34Z", Group: "Pokemon" },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", IDNo: "60990", Party: [
                     { Pokemon: "Basculin", Nickname: "aabass", Level: 46, Gender: "Female", Form: "Blue" },
@@ -269,6 +281,10 @@ Season11.Runs.push(
                 FirstAttemptDate: "",
                 Time: "2024-03-22T21:05:24Z", Attempts: 0
             },
+			
+			// Missing Shelmet, Lilligant, Kyurem, Gothitelle, Basculin, Meloetta, Simisear, Timburr, Porygon, Zebstrika, Petilil, Lilipup, Pidove, Blitzle, Sandile, Beautifly, Sigilyph, Beheeyem, Mienshao, and Roggenrola
+            { Name: "Escavalier", Time: "2024-03-23T22:35:16Z", Group: "Pokemon" },
+            { Name: "Accelgor", Time: "2024-03-23T22:38:24Z", Group: "Pokemon" },
 
         ]
     }
