@@ -118,6 +118,13 @@ Season11.Runs.push(
             { Name: "Castform", Time: "2024-03-01T06:26:00Z", Group: "Pokemon" },
             { Name: "Wynaut", Time: "2024-03-01T18:45:25Z", Group: "Pokemon" },
 			
+			// Received during Colosseum:
+            // { Name: "Mantine", Time: "2024-04-21T06:16:11Z", Group: "Pokemon" },
+            // { Name: "Ledian", Time: "2024-04-21T06:46:28Z", Group: "Pokemon" },
+            // { Name: "Noctowl", Time: "2024-04-21T06:48:25Z", Group: "Pokemon" },
+            // { Name: "Registeel", Time: "2024-04-22T08:52:34Z", Group: "Pokemon" },
+			
+			
         ]
     }
 );
@@ -241,6 +248,9 @@ Season11.Runs.push(
             { Name: "Numel", Time: "2024-03-02T01:20:39Z", Group: "Pokemon" },
             { Name: "Wobbuffet", Time: "2024-03-02T08:49:01Z", Group: "Pokemon" },
             { Name: "Duskull", Time: "2024-03-02T09:18:33Z", Group: "Pokemon" },
+			
+			// Received during Colosseum:
+            // { Name: "Groudon", Time: "2024-04-22T05:11:18Z", Group: "Pokemon" },
 			
         ]
     }
