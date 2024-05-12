@@ -191,6 +191,9 @@ Season11.Runs.push(
             { Name: "Latias", Time: "2024-04-21T06:48:25Z", Group: "Pokemon" },
             { Name: "Celebi", Time: "2024-04-21T23:51:18Z", Group: "Pokemon" },
             { Name: "Pikachu", Time: "2024-04-21T23:52:17Z", Group: "Pokemon" },
+			
+			// Received during Orre Colosseum Revisit
+            // { Name: "Tentacool", Time: "2024-05-11T21:04:50Z", Group: "Pokemon" },
 
         ]
     }

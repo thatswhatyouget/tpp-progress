@@ -284,6 +284,15 @@ Season11.Runs.push(
                 ],
                 Image: "img/ribbons/national.png"
             },
+			
+			// Received during Orre Colosseum Revisit
+            // { Name: "Ho-Oh", Time: "2024-05-11T21:22:59Z", Group: "Pokemon" },
+            // { Name: "Groudon", Time: "2024-05-11T21:24:21Z", Group: "Pokemon" },
+            // { Name: "Suicune", Time: "2024-05-12T05:49:42Z", Group: "Pokemon" },
+            // { Name: "Latios", Time: "2024-05-12T05:51:15Z", Group: "Pokemon" },
+            // { Name: "Metagross", Time: "2024-05-12T05:52:30Z", Group: "Pokemon" },
+            // { Name: "Latias", Time: "2024-05-12T05:54:08Z", Group: "Pokemon" },
+			
         ]
     }
 );
