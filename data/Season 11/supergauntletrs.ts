@@ -118,6 +118,23 @@ Season11.Runs.push(
             { Name: "Castform", Time: "2024-03-01T06:26:00Z", Group: "Pokemon" },
             { Name: "Wynaut", Time: "2024-03-01T18:45:25Z", Group: "Pokemon" },
 			
+			// Received during Colosseum:
+            // { Name: "Mantine", Time: "2024-04-21T06:16:11Z", Group: "Pokemon" },
+            // { Name: "Ledian", Time: "2024-04-21T06:46:28Z", Group: "Pokemon" },
+            // { Name: "Noctowl", Time: "2024-04-21T06:48:25Z", Group: "Pokemon" },
+            // { Name: "Registeel", Time: "2024-04-22T08:52:34Z", Group: "Pokemon" },
+			
+			// Received during Orre Colosseum Revisit
+            // { Name: "Suicune", Time: "2024-05-11T21:04:50Z", Group: "Pokemon" },
+            // { Name: "Metagross", Time: "2024-05-11T21:06:31Z", Group: "Pokemon" },
+            // { Name: "Dusclops", Time: "2024-05-11T21:22:59Z", Group: "Pokemon" },
+            // { Name: "Ronflex", Time: "2024-05-11T21:24:22Z", Group: "Pokemon" },
+            // { Name: "Skitty", Time: "2024-05-11T23:47:14Z", Group: "Pokemon" },
+            // { Name: "Relicanth", Time: "2024-05-12T03:30:13Z", Group: "Pokemon" },
+            // { Name: "Mr. Mime", Time: "2024-05-12T05:48:31Z", Group: "Pokemon" },
+            // { Name: "Scyther", Time: "2024-05-12T05:52:30Z", Group: "Pokemon" },
+            // { Name: "Lapras", Time: "2024-05-12T05:54:08Z", Group: "Pokemon" },
+			
         ]
     }
 );
@@ -241,6 +258,9 @@ Season11.Runs.push(
             { Name: "Numel", Time: "2024-03-02T01:20:39Z", Group: "Pokemon" },
             { Name: "Wobbuffet", Time: "2024-03-02T08:49:01Z", Group: "Pokemon" },
             { Name: "Duskull", Time: "2024-03-02T09:18:33Z", Group: "Pokemon" },
+			
+			// Received during Colosseum:
+            // { Name: "Groudon", Time: "2024-04-22T05:11:18Z", Group: "Pokemon" },
 			
         ]
     }

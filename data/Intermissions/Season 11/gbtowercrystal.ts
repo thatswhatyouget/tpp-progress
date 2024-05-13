@@ -45,6 +45,9 @@ Revisits.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
 			
+            { Name: "Celebi", Time: "2024-03-31T06:15:29Z", Group: "Pokemon" },
+            { Name: "Snorlax", Time: "2024-03-31T15:26:46Z", Group: "Pokemon" },
+			
         ],
         Revisit: { Collection: "Intermissions", Run: "GB Tower Crystal" },
         CopyEvents: ["GB Tower Crystal"],
