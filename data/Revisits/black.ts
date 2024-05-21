@@ -38,7 +38,7 @@ Revisits.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2017-06-03T19:18:00.000Z", IDNo: "12356", Attempts: 49, Party: [
                     { Pokemon: "Unfezant", Nickname: "QQQQ", Level: 81, Gender: "Male" },
-                    { Pokemon: "Sawsbuck", Nickname: "5", Level: 83, Gender: "Female" },
+                    { Pokemon: "Sawsbuck", Nickname: "5", Level: 83, Gender: "Female", Form: "Summer" },
                     { Pokemon: "Druddigon", Nickname: "Dru", Level: 87, Gender: "Male" },
                     { Pokemon: "Zebstrika", Nickname: "aMH", Level: 81, Gender: "Male" },
                     { Pokemon: "Galvantula", Nickname: "    ~***", Level: 84, Gender: "Male" },

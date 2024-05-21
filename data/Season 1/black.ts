@@ -115,7 +115,7 @@ Season1.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", Time: "12d 18h 21m", IDNo: "12356", Attempts: 62, Party: [
-                    { Pokemon: "Deerling", Nickname: "5", Level: 63, Gender: "Female" },
+                    { Pokemon: "Deerling", Nickname: "5", Level: 63, Gender: "Female", Form: "Summer" },
                     { Pokemon: "Joltik", Nickname: "    ~***", Level: 69, Gender: "Male" },
                     { Pokemon: "Druddigon", Nickname: "Dru", Level: 68, Gender: "Male" },
                     { Pokemon: "Zebstrika", Nickname: "aMH", Level: 75, Gender: "Male" },
