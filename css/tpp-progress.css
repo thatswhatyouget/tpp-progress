@@ -562,32 +562,32 @@ ul.controls>li>ul>li.selected>a:before {
 	opacity: 0;
 }
 
-.progressChart>.dual-run.run {
+.progressChart>.dual-run:nth-child(2n-1 of .dual-run).run {
 	margin-bottom: 0 !important;
 }
 
-.progressChart>.dual-run+.dual-run.run {
+.progressChart>.dual-run:nth-child(2n of .dual-run).run {
 	margin-bottom: 50px !important;
 }
 
-.progressChart>.dual-run.run+.dual-run.run.hasVideos {
+.progressChart>.dual-run:nth-child(2n of .dual-run).run.hasVideos {
 	margin-bottom: 75px !important;
 }
 
-.progressChart>.dual-run+.dual-run.run:hover::before {
+.progressChart>.dual-run:nth-child(2n of .dual-run).run:hover::before {
 	bottom: -1.5em;
 	top: auto;
 }
 
-.progressChart>.dual-run:not(.shared-dex).run .event.pokemon.pokesprite img {
+.progressChart>.dual-run:nth-child(2n-1 of .dual-run):not(.shared-dex).run .event.pokemon.pokesprite img {
 	top: -50%;
 }
 
-.progressChart>.dual-run+.dual-run.run .event.pokemon.pokesprite img {
+.progressChart>.dual-run:nth-child(2n of .dual-run).run .event.pokemon.pokesprite img {
 	top: 50%;
 }
 
-.progressChart>.dual-run.shared-dex+.dual-run.shared-dex .event.pokemon.pokesprite img {
+.progressChart>.dual-run:nth-child(2n of .dual-run).shared-dex .event.pokemon.pokesprite img {
 	top: -50%;
 	display: none;
 }
