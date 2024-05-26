@@ -16,7 +16,7 @@ Season11.Runs.push(
         Class: "dual-run",
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
         //FinalStateLink: "./states/Season 11/supergauntletbw.json",
-        APIObjectName: "diamond", 
+        APIObjectName: "black", 
         Events: [
             {
                 Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png",
@@ -155,7 +155,7 @@ Season11.Runs.push(
         Class: "dual-run",
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
         //FinalStateLink: "./states/Season 11/supergauntletbw.json",
-        APIObjectName: "pearl", 
+        APIObjectName: "white", 
         Events: [
             {
                 Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png",

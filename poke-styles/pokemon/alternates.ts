@@ -65,9 +65,17 @@ var alternates: Alternate[] = [
 	
     new Alternate("arceus", "Bug"),
     new Alternate("arceus", "Fire"),
-
+	
     new Alternate("basculin", "Blue"),
     new Alternate("basculin", "White"),
+	
+    new Alternate("deerling", "Summer"),
+    new Alternate("deerling", "Autumn"),
+    new Alternate("deerling", "Winter"),
+	
+    new Alternate("sawsbuck", "Summer"),
+    new Alternate("sawsbuck", "Autumn"),
+    new Alternate("sawsbuck", "Winter"),
 	
     new Alternate("tornadus", "Therian"),
     new Alternate("thundurus", "Therian"),

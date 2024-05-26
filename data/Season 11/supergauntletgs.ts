@@ -457,6 +457,27 @@ Season11.Runs.push(
             { Name: "Scyther", Time: "2024-02-22T08:08:18Z", Group: "Pokemon" },
             { Name: "Quagsire", Time: "2024-02-22T13:16:33Z", Group: "Pokemon" },
             { Name: "Tentacool", Time: "2024-02-22T13:22:35Z", Group: "Pokemon" },
+			
+			// GB Tower Revisit
+			
+			/*
+			<TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-24T11:11:45Z", IDNo: "26864", Attempts: 0, Party: [
+                    { Number: 249, Pokemon: "Lugia", Nickname: "Mxxxoo",  Level: 72, IDNo: "26491" },
+                    { Number: 65, Pokemon: "Alakazam", Nickname: "BBFNOOpf-", Gender: "Male", Level: 64, IDNo: "26864" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			<TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-24T19:30:06Z", IDNo: "26864", Attempts: 0, Party: [
+                    { Number: 249, Pokemon: "Lugia", Nickname: "Mxxxoo",  Level: 75, IDNo: "26491" },
+                    { Number: 65, Pokemon: "Alakazam", Nickname: "BBFNOOpf-", Gender: "Male", Level: 64, IDNo: "26864" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			*/
 
         ]
     }
