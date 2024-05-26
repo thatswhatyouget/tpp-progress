@@ -73,19 +73,19 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
 			
-            /*<TPP.HallOfFame>{
+            <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "30102", Party: [
-                    { Pokemon: "Krookodile", Nickname: "Hecatia", Level: 52, Gender: "Female" },
-                    { Pokemon: "Sawk", Nickname: "OBR2ERT", Level: 53, Gender: "Male" },
-                    { Pokemon: "Galvantula", Nickname: "Tiki", Level: 47, Gender: "Male" },
-                    { Pokemon: "Beheeyem", Nickname: "beep boop", Level: 50, Gender: "Male" },
-                    { Pokemon: "Alomomola", Nickname: "FYinn", Level: 50, Gender: "Male" },
-                    { Pokemon: "Serperior", Nickname: "APWFFFlDSX", Level: 49, Gender: "Male" }
+                    { Pokemon: "Accelgor", Nickname: "xmano", Level: 62, Gender: "Male" },
+                    { Pokemon: "Sawsbuck", Nickname: "Elias", Level: 66, Gender: "Male", Form: "Spring" },
+                    { Pokemon: "Chandelure", Nickname: "Mythos", Level: 69, Gender: "Male" },
+                    { Pokemon: "Klinklang", Nickname: "Scrimblo", Level: 60 },
+                    { Pokemon: "Starmie", Nickname: "Orion", Level: 60 },
+                    { Pokemon: "Scrafty", Level: 71, Gender: "Male" },
                 ],
                 Image: "img/ribbons/event.png",
                 FirstAttemptDate: "",
-                Time: "2024-05-21T20:55:28Z", Attempts: 0
-            },*/
+                Time: "2024-05-16T14:59:28Z", Attempts: 0
+            },
 
             {
                 Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Class: "Rematch",
@@ -109,19 +109,19 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
 			
-            /*<TPP.HallOfFame>{
+            <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "30102", Party: [
-                    { Pokemon: "Bisharp", Nickname: "wii", Level: 70, Gender: "Male" },
-                    { Pokemon: "Sawk", Nickname: "OBR2ERT", Level: 73, Gender: "Male" },
-                    { Pokemon: "Thundurus", Nickname: "jeenee", Level: 79, Gender: "Male" },
-                    { Pokemon: "Krookodile", Nickname: "Hecatia", Level: 70, Gender: "Female" },
-                    { Pokemon: "Omastar", Nickname: "Dome?", Level: 73, Gender: "Male" },
-                    { Pokemon: "Venomoth", Nickname: "motf", Level: 67, Gender: "Female" }
+                    { Pokemon: "Accelgor", Nickname: "xmano", Level: 82, Gender: "Male" },
+                    { Pokemon: "Chandelure", Nickname: "Mythos", Level: 90, Gender: "Male" },
+                    { Pokemon: "Starmie", Nickname: "Orion", Level: 80 },
+                    { Pokemon: "Klinklang", Nickname: "Scrimblo", Level: 80 },
+                    { Pokemon: "Scrafty", Level: 90, Gender: "Male" },
+                    { Pokemon: "Sawsbuck", Nickname: "Elias", Level: 89, Gender: "Male", Form: "Spring" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "",
-                Time: "2024-05-23T20:30:32Z", Attempts: 0
-            },*/
+                Time: "2024-05-22T00:23:48Z", Attempts: 0
+            },
 
         ]
     }
@@ -146,11 +146,11 @@ Season11.Runs.push(
         APIObjectName: "white2", 
         Events: [
             {
-                Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png",
+                Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png",
                 Time: "", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png",
+                Group: "Badges", Name: "Toxic Badge", Image: "img/badges/toxic.png",
                 Time: "", Attempts: 0
             },
             {
@@ -170,11 +170,11 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png",
+                Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png",
                 Time: "", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png",
+                Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png",
                 Time: "", Attempts: 0
             },
 
@@ -194,28 +194,24 @@ Season11.Runs.push(
                 Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png",
                 Time: "", Attempts: 0
             },
+
             {
-                Group: "Champions", Name: "N", Image: "img/trainers/black/n.png",
+                Group: "Champions", Name: "Iris", Image: "img/trainers/black/iris.png",
                 Time: "", Attempts: 0
             },
-            {
-                Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/ghetsis.png",
-                Time: "", Attempts: 0
-            },
-			
-            /*<TPP.HallOfFame>{
+            <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "08128", Party: [
-                    { Pokemon: "Basculin", Nickname: "aabass", Level: 46, Gender: "Female", Form: "Blue" },
-                    { Pokemon: "Throh", Nickname: "AAGG", Level: 48, Gender: "Male" },
-                    { Pokemon: "Gothitelle", Nickname: "Ellen", Level: 47, Gender: "Female" },
-                    { Pokemon: "Emolga", Nickname: "Minipete", Level: 49, Gender: "Male" },
-                    { Pokemon: "Simisear", Nickname: "AAMONK", Level: 45, Gender: "Male" },
-                    { Pokemon: "Lilligant", Nickname: "Amaryhlowl", Level: 59, Gender: "Female" }
+                    { Pokemon: "Watchog", Nickname: "Meth", Level: 72, Gender: "Male" },
+                    { Pokemon: "Claydol", Nickname: "Baldboy", Level: 71 },
+                    { Pokemon: "Escavalier", Nickname: "Gawain", Level: 77, Gender: "Male" },
+                    { Pokemon: "Samurott", Nickname: "A", Level: 72, Gender: "Male" },
+                    { Pokemon: "Cofagrigus", Nickname: "Tutdamar", Level: 70, Gender: "Male" },
+                    { Pokemon: "Simisage", Nickname: "WEED", Level: 71, Gender: "Male" },
                 ],
                 Image: "img/ribbons/event.png",
                 FirstAttemptDate: "",
-                Time: "2024-05-20T07:07:20Z", Attempts: 0
-            },*/
+                Time: "2024-05-19T19:02:36Z", Attempts: 0
+            },
 
             {
                 Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Class: "Rematch",
@@ -235,23 +231,23 @@ Season11.Runs.push(
             },
 
             {
-                Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png",
+                Group: "Champions", Name: "Iris", Image: "img/trainers/black/iris.png",
                 Time: "", Attempts: 0
             },
 
-            /*<TPP.HallOfFame>{
+            <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "08128", Party: [
-                    { Pokemon: "Simisear", Nickname: "AAMONK", Level: 74, Gender: "Male" },
-                    { Pokemon: "Lilligant", Nickname: "Amaryhlowl", Level: 86, Gender: "Female" },
-                    { Pokemon: "Basculin", Nickname: "aabass", Level: 74, Gender: "Female", Form: "Blue" },
-                    { Pokemon: "Throh", Nickname: "AAGG", Level: 71, Gender: "Male" },
-                    { Pokemon: "Gothitelle", Nickname: "Ellen", Level: 71, Gender: "Female" },
-                    { Pokemon: "Emolga", Nickname: "Minipete", Level: 73, Gender: "Male" }
+                    { Pokemon: "Samurott", Nickname: "A", Level: 100, Gender: "Male" },
+                    { Pokemon: "Cofagrigus", Nickname: "Tutdamar", Level: 90, Gender: "Male" },
+                    { Pokemon: "Simisage", Nickname: "WEED", Level: 95, Gender: "Male" },
+                    { Pokemon: "Escavalier", Nickname: "Gawain", Level: 91, Gender: "Male" },
+                    { Pokemon: "Claydol", Nickname: "Baldboy", Level: 89 },
+                    { Pokemon: "Watchog", Nickname: "Meth", Level: 90, Gender: "Male" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "",
-                Time: "2024-05-21T22:30:48Z", Attempts: 0
-            },*/
+                Time: "2024-05-24T23:22:28Z", Attempts: 0
+            },
 			
         ]
     }
