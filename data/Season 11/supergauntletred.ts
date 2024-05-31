@@ -8,7 +8,7 @@ Season11.Runs.push(
         Duration: "4d 18h 31m 37s",
         HostName: "ASH",
         HostImage: "img/hosts/ash3.png",
-        // HostImageSource: "",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/",
         // TPPOrgLink: "http://twitchplayspokemon.org/red",
         // DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/red-archive",
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
