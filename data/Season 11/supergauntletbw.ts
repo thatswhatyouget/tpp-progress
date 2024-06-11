@@ -79,6 +79,8 @@ Season11.Runs.push(
 			// Missing Sawk
             { Name: "Throh", Time: "2024-03-19T19:10:34Z", Group: "Pokemon" },
 			
+			// Missing Krookodile, Galvantula, Beheeyem, Alomomola, and Serperior
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", IDNo: "53314", Party: [
                     { Pokemon: "Krookodile", Nickname: "Hecatia", Level: 52, Gender: "Female" },
@@ -115,6 +117,8 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
 			
+			// Missing Bisharp, Thundurus, Oamstar and Venomoth
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "53314", Party: [
                     { Pokemon: "Bisharp", Nickname: "wii", Level: 70, Gender: "Male" },
@@ -129,7 +133,7 @@ Season11.Runs.push(
                 Time: "2024-03-23T20:30:32Z", Attempts: 0
             },
 
-			// Missing Celebi, Karrablast, Blitzle, Bisharp, Thundurus, Krookodile, Omastar, Venomoth, Purrloin, Pidove, Minccino, Roggenrola, Tympole, Cottonee, Vullaby, Venipede, Scraggy, Elgyem, Swadloon, Pansear
+			// Missing Celebi, Karrablast, Blitzle, Purrloin, Pidove, Minccino, Roggenrola, Tympole, Cottonee, Vullaby, Venipede, Scraggy, Elgyem, Swadloon, Pansear
             { Name: "Latias", Time: "2024-03-23T22:18:03Z", Group: "Pokemon" },
             { Name: "Accelgor", Time: "2024-03-23T22:35:17Z", Group: "Pokemon" },
             { Name: "Escavalier", Time: "2024-03-23T22:38:24Z", Group: "Pokemon" },
@@ -218,6 +222,8 @@ Season11.Runs.push(
 			// Missing Throh
             { Name: "Sawk", Time: "2024-03-19T19:10:34Z", Group: "Pokemon" },
 			
+			// Missing Basculin, Gothitelle, Emolga, Simisear, and Lilligant
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", IDNo: "60990", Party: [
                     { Pokemon: "Basculin", Nickname: "aabass", Level: 46, Gender: "Female", Form: "Blue" },
@@ -267,6 +273,8 @@ Season11.Runs.push(
                 FirstAttemptDate: "",
                 Time: "2024-03-21T22:30:48Z", Attempts: 0
             },
+			
+			// Missing Kyurem and Meloetta
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "60990", Party: [
@@ -282,7 +290,7 @@ Season11.Runs.push(
                 Time: "2024-03-22T21:05:24Z", Attempts: 0
             },
 			
-			// Missing Shelmet, Lilligant, Kyurem, Gothitelle, Basculin, Meloetta, Simisear, Timburr, Porygon, Zebstrika, Petilil, Lilipup, Pidove, Blitzle, Sandile, Beautifly, Sigilyph, Beheeyem, Mienshao, and Roggenrola
+			// Missing Shelmet, Timburr, Porygon, Zebstrika, Petilil, Lilipup, Pidove, Blitzle, Sandile, Beautifly, Sigilyph, Beheeyem, Mienshao, and Roggenrola
             { Name: "Escavalier", Time: "2024-03-23T22:35:16Z", Group: "Pokemon" },
             { Name: "Accelgor", Time: "2024-03-23T22:38:24Z", Group: "Pokemon" },
 
