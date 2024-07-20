@@ -47,7 +47,7 @@ Season6.Runs.push(
                     { Pokemon: "Flapple", Gender: "Female", Level: 82, Type1: "Grass", Type2: "Dragon", Number: 841, OT: ":::?89977re", IDNo: "790618" },
                     { Pokemon: "Snom", Nickname: "1111", Gender: "Male", Level: 46, Type1: "Ice", Type2: "Bug", Number: 872, OT: ":::?89977re", IDNo: "790618" },
                     { Pokemon: "Obstagoon", Gender: "Female", Level: 72, Type1: "Dark", Type2: "Normal", Number: 862, OT: ":::?89977re", IDNo: "790618" },
-                    { Pokemon: "Zacian", Level: 72, Type1: "Fairy", Type2: "Steel", Number: 888, OT: ":::?89977re", IDNo: "790618" },
+                    { Pokemon: "Zacian", Level: 72, Type1: "Fairy", Type2: "Steel", Number: 888, OT: ":::?89977re", IDNo: "790618", Form: "Crowned" },
                 ],
                 Image: "img/ribbons/champion-galar.png",
                 FirstAttemptDate: "2019-11-29T01:17:15.443Z"
