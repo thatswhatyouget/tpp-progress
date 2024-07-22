@@ -247,6 +247,26 @@ Season11.Runs.push(
                 FirstAttemptDate: ""
             },
 			
+			{ Name: "Silicobra", Time: "2024-07-13T13:07:20Z", Group: "Pokemon" },
+			{ Name: "Barraskewda", Time: "2024-07-13T13:20:22Z", Group: "Pokemon" },
+			{ Name: "Golisopod", Time: "2024-07-13T13:36:02Z", Group: "Pokemon" },
+			{ Name: "Farfetch'd", Time: "2024-07-13T15:43:08Z", Group: "Pokemon" },
+			{ Name: "Runerigus", Time: "2024-07-13T16:07:57Z", Group: "Pokemon" },
+			{ Name: "Arctozolt", Time: "2024-07-13T16:44:26Z", Group: "Pokemon" },
+			{ Name: "Lurantis", Time: "2024-07-13T17:10:37Z", Group: "Pokemon" },
+			{ Name: "Escavalier", Time: "2024-07-13T17:22:42Z", Group: "Pokemon" },
+			{ Name: "Lilligant", Time: "2024-07-13T18:05:18Z", Group: "Pokemon" },
+			{ Name: "Regirock", Time: "2024-07-13T22:33:50Z", Group: "Pokemon" },
+			{ Name: "Registeel", Time: "2024-07-13T22:55:26Z", Group: "Pokemon" },
+			{ Name: "Bagon", Time: "2024-07-13T23:28:21Z", Group: "Pokemon" },
+			{ Name: "Froslass", Time: "2024-07-13T23:34:04Z", Group: "Pokemon" },
+			{ Name: "Calyrex", Time: "2024-07-14T00:13:39Z", Group: "Pokemon" },
+			{ Name: "Spectrier", Time: "2024-07-14T00:13:39Z", Group: "Pokemon" },
+			{ Name: "Beartic", Time: "2024-07-14T00:19:48Z", Group: "Pokemon" },
+			{ Name: "Darmanitan", Time: "2024-07-14T00:31:36Z", Group: "Pokemon" },
+			{ Name: "Darumaka", Time: "2024-07-14T00:51:26Z", Group: "Pokemon" },
+			{ Name: "Cryogonal", Time: "2024-07-14T00:58:02Z", Group: "Pokemon" },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T02:11:12Z", IDNo: "831278", Attempts: 0, Party: [
                     { Pokemon: "Eternatus", Level: 62 },
@@ -616,6 +636,36 @@ Season11.Runs.push(
 			{ Name: "Tyrunt", Time: "2024-07-13T09:42:36Z", Group: "Pokemon" },
 			{ Name: "Swablu", Time: "2024-07-13T09:44:38Z", Group: "Pokemon" },
 			{ Name: "Munchlax", Time: "2024-07-13T11:25:37Z", Group: "Pokemon" },
+			{ Name: "Latias", Time: "2024-07-13T12:42:08Z", Group: "Pokemon" },
+			{ Name: "Tornadus", Time: "2024-07-13T13:03:51Z", Group: "Pokemon" },
+			{ Name: "Stakataka", Time: "2024-07-13T13:23:53Z", Group: "Pokemon" },
+			{ Name: "Comfey", Time: "2024-07-13T14:23:06Z", Group: "Pokemon" },
+			{ Name: "Indeedee", Time: "2024-07-13T14:52:56Z", Group: "Pokemon" },
+			{ Name: "Phantump", Time: "2024-07-13T14:55:49Z", Group: "Pokemon" },
+			{ Name: "Hattrem", Time: "2024-07-13T14:58:07Z", Group: "Pokemon" },
+			{ Name: "Oranguru", Time: "2024-07-13T15:00:10Z", Group: "Pokemon" },
+			{ Name: "Sinistea", Time: "2024-07-13T15:02:57Z", Group: "Pokemon" },
+			{ Name: "Gurdurr", Time: "2024-07-13T15:34:47Z", Group: "Pokemon" },
+			{ Name: "Roggenrola", Time: "2024-07-13T15:45:38Z", Group: "Pokemon" },
+			{ Name: "Timburr", Time: "2024-07-13T15:46:52Z", Group: "Pokemon" },
+			{ Name: "Drilbur", Time: "2024-07-13T15:52:10Z", Group: "Pokemon" },
+			{ Name: "Carkol", Time: "2024-07-13T15:56:30Z", Group: "Pokemon" },
+			{ Name: "Conkeldurr", Time: "2024-07-13T16:03:57Z", Group: "Pokemon" },
+			{ Name: "Spheal", Time: "2024-07-13T16:30:57Z", Group: "Pokemon" },
+			{ Name: "Electivire", Time: "2024-07-13T16:35:37Z", Group: "Pokemon" },
+			{ Name: "Archen", Time: "2024-07-13T16:47:42Z", Group: "Pokemon" },
+			{ Name: "Fomantis", Time: "2024-07-13T16:53:40Z", Group: "Pokemon" },
+			{ Name: "Happiny", Time: "2024-07-13T16:56:19Z", Group: "Pokemon" },
+			{ Name: "Drapion", Time: "2024-07-13T17:02:23Z", Group: "Pokemon" },
+			{ Name: "Cramorant", Time: "2024-07-13T17:06:13Z", Group: "Pokemon" },
+			{ Name: "Fletchinder", Time: "2024-07-13T17:11:21Z", Group: "Pokemon" },
+			{ Name: "Crustle", Time: "2024-07-13T17:18:06Z", Group: "Pokemon" },
+			{ Name: "Golisopod", Time: "2024-07-13T17:26:36Z", Group: "Pokemon" },
+			{ Name: "Sandygast", Time: "2024-07-13T17:29:12Z", Group: "Pokemon" },
+			{ Name: "Rockruff", Time: "2024-07-13T17:36:48Z", Group: "Pokemon" },
+			{ Name: "Alakazam", Time: "2024-07-13T17:40:31Z", Group: "Pokemon" },
+			{ Name: "Zamazenta", Time: "2024-07-13T22:35:38Z", Group: "Pokemon" },
+			{ Name: "Blipbug", Time: "2024-07-13T22:54:46Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T00:50:52Z", IDNo: "719457", Attempts: 0, Party: [
@@ -630,6 +680,10 @@ Season11.Runs.push(
                 FirstAttemptDate: ""
             },
 
+			{ Name: "Amoonguss", Time: "2024-07-14T01:38:08Z", Group: "Pokemon" },
+			{ Name: "Combee", Time: "2024-07-14T02:04:21Z", Group: "Pokemon" },
+			{ Name: "Jigglypuff", Time: "2024-07-14T02:11:52Z", Group: "Pokemon" },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-14T03:20:38Z", IDNo: "719457", Attempts: 0, Party: [
                     { Pokemon: "Articuno", Nickname: "Merlin", Level: 84, Form: "Galarian" },
