@@ -196,6 +196,26 @@ Season11.Runs.push(
                 FirstAttemptDate: ""
             },
 			
+			{ Name: "Rayquaza", Time: "2024-07-12T04:29:46Z", Group: "Pokemon" },
+			{ Name: "Heatran", Time: "2024-07-12T04:48:49Z", Group: "Pokemon" },
+			{ Name: "Type: Null", Time: "2024-07-12T04:57:30Z", Group: "Pokemon" },
+			{ Name: "Ferroseed", Time: "2024-07-12T08:45:24Z", Group: "Pokemon" },
+			{ Name: "Noctowl", Time: "2024-07-12T08:56:15Z", Group: "Pokemon" },
+			{ Name: "Klink", Time: "2024-07-12T09:02:27Z", Group: "Pokemon" },
+			{ Name: "Oddish", Time: "2024-07-12T11:04:53Z", Group: "Pokemon" },
+			{ Name: "Joltik", Time: "2024-07-12T11:08:59Z", Group: "Pokemon" },
+			{ Name: "Rolycoly", Time: "2024-07-12T11:22:17Z", Group: "Pokemon" },
+			{ Name: "Machop", Time: "2024-07-12T11:25:28Z", Group: "Pokemon" },
+			{ Name: "Diglett", Time: "2024-07-12T11:29:25Z", Group: "Pokemon" },
+			{ Name: "Timburr", Time: "2024-07-12T11:34:22Z", Group: "Pokemon" },
+			{ Name: "Wingull", Time: "2024-07-12T13:38:14Z", Group: "Pokemon" },
+			{ Name: "Bunnelby", Time: "2024-07-12T13:41:54Z", Group: "Pokemon" },
+			{ Name: "Nuzleaf", Time: "2024-07-12T13:47:18Z", Group: "Pokemon" },
+			{ Name: "Inkay", Time: "2024-07-12T14:14:12Z", Group: "Pokemon" },
+			{ Name: "Pumpkaboo", Time: "2024-07-12T14:20:40Z", Group: "Pokemon" },
+			{ Name: "Klinklang", Time: "2024-07-12T15:10:29Z", Group: "Pokemon" },
+			{ Name: "Bisharp", Time: "2024-07-12T15:13:02Z", Group: "Pokemon" },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-13T11:43:54Z", IDNo: "831278", Attempts: 0, Party: [
                     { Pokemon: "Crawdaunt", Nickname: "Skrelpeaterr", Gender: "Male", Level: 69, /*Type1: "Water", Type2: "Dark", Number: 342, OT: "11sdccvgg g", IDNo: "831278" */},
@@ -488,6 +508,18 @@ Season11.Runs.push(
 			{ Name: "Lilligant", Time: "2024-07-12T00:44:55Z", Group: "Pokemon" },
 			{ Name: "Urshifu", Time: "2024-07-12T02:08:07Z", Group: "Pokemon" },
 			{ Name: "Zapdos", Time: "2024-07-12T02:25:54Z", Group: "Pokemon" },
+			{ Name: "Raikou", Time: "2024-07-12T03:29:22Z", Group: "Pokemon" },
+			{ Name: "Basculin", Time: "2024-07-12T04:09:48Z", Group: "Pokemon" },
+			{ Name: "Obstagoon", Time: "2024-07-12T07:18:51Z", Group: "Pokemon" },
+			{ Name: "Cutiefly", Time: "2024-07-12T07:21:36Z", Group: "Pokemon" },
+			{ Name: "Inkay", Time: "2024-07-12T07:25:36Z", Group: "Pokemon" },
+			{ Name: "Cubchoo", Time: "2024-07-12T07:36:25Z", Group: "Pokemon" },
+			{ Name: "Stufful", Time: "2024-07-12T07:44:10Z", Group: "Pokemon" },
+			{ Name: "Nidoran♀", Time: "2024-07-12T08:02:08Z", Group: "Pokemon" },
+			{ Name: "Ribombee", Time: "2024-07-12T08:24:30Z", Group: "Pokemon" },
+			{ Name: "Beartic", Time: "2024-07-12T08:33:42Z", Group: "Pokemon" },
+			{ Name: "Bewear", Time: "2024-07-12T08:36:22Z", Group: "Pokemon" },
+			{ Name: "Linoone", Time: "2024-07-12T08:37:15Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-12T15:48:40Z", IDNo: "719457", Attempts: 0, Party: [
@@ -501,6 +533,8 @@ Season11.Runs.push(
                 Image: "img/ribbons/champion-galar.png",
                 FirstAttemptDate: ""
             },
+			
+			{ Name: "Ditto", Time: "2024-07-12T16:27:40Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-12T17:45:17Z", IDNo: "719457", Attempts: 0, Party: [
