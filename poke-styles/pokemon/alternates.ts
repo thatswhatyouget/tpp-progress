@@ -107,6 +107,8 @@ var alternates: Alternate[] = [
     new Alternate("Zacian", "Crowned"),
     new Alternate("Zamazenta", "Crowned"),
 	
+    new Alternate("Maushold", "Four"),
+	
     new Alternate("zoroark", "Eliza"),
 	
     new Alternate("ub-queen", "Ultra"),
