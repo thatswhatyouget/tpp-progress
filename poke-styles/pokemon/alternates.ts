@@ -102,6 +102,8 @@ var alternates: Alternate[] = [
     new Alternate("oricorio", "Pa-u"),
     new Alternate("oricorio", "Sensu"),
 	
+    new Alternate("Toxtricity", "LowKey"),
+	
     new Alternate("Alcremie", "Matcha-Ribbon"),
 	
     new Alternate("Zacian", "Crowned"),
