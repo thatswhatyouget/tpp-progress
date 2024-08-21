@@ -1,7 +1,7 @@
 /// <reference path="../tpp-data.ts" />
 Season8.Runs.push(
     {
-        RunName: "Legends: Arceus",
+        RunName: "Super Gauntlet Legends: Arceus",
         ColorSecondary: "#007EB5",
         ColorPrimary: "#EBDEC9",
         StartDate: "2024-08-05T21:00:00Z",
