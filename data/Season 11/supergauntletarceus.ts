@@ -1,11 +1,11 @@
 /// <reference path="../tpp-data.ts" />
-Season8.Runs.push(
+Season11.Runs.push(
     {
         RunName: "Super Gauntlet Legends: Arceus",
         ColorSecondary: "#007EB5",
         ColorPrimary: "#EBDEC9",
         StartDate: "2024-08-05T21:00:00Z",
-        Duration: "2022-08-20T15:12:55Z",
+        Duration: "2024-08-20T15:12:55Z",
         HostName: `2`,
         HostImage: "img/hosts/iecbw.png",
         HostImageSource: "https://discord.com/channels/927292379436814406/928400303588532324/937375338739146792",
