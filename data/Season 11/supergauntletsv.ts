@@ -128,6 +128,32 @@ Season11.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
 			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-28T00:55:12Z", Attempts: 0, Party: [
+                    { Pokemon: "Orthworm", Nickname: "Orthuiwm", Level: 86, Gender: "Female", Shiny: "true" },
+                    { Pokemon: "Bellibolt", Nickname: "Belbo", Level: 92, Gender: "Male" },
+                    { Pokemon: "Glimmora", Nickname: "Glimmer", Level: 92, Gender: "Female" },
+                    { Pokemon: "Rabsca", Nickname: "Rekoolor", Level: 94, Gender: "Male" },
+                    { Pokemon: "Meowscarada", Level: 95, Gender: "Female" },
+                    { Pokemon: "Maushold", Nickname: "T333d", Level: 97, Form: "Four" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-31T18:07:59Z", Attempts: 0, Party: [
+                    { Pokemon: "Glimmora", Nickname: "Glimmer", Level: 100, Gender: "Female" },
+                    { Pokemon: "Maushold", Nickname: "T333d", Level: 100, Form: "Four" },
+                    { Pokemon: "Orthworm", Nickname: "Orthuiwm", Level: 100, Gender: "Female", Shiny: "true" },
+                    { Pokemon: "Bellibolt", Nickname: "Belbo", Level: 100, Gender: "Male" },
+                    { Pokemon: "Rabsca", Nickname: "Rekoolor", Level: 100, Gender: "Male" },
+                    { Pokemon: "Meowscarada", Level: 100, Gender: "Female" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
         ]
     }
 );
@@ -255,6 +281,32 @@ Season11.Runs.push(
                     { Pokemon: "Toedscruel", Nickname: "Toe", Level: 69, Gender: "Male" },
                     { Pokemon: "Avalugg", Nickname: "Slush", Level: 65, Gender: "Male" },
                     { Pokemon: "Flamigo", Nickname: "Glovian", Level: 65, Gender: "Female" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-28T07:34:30Z", Attempts: 0, Party: [
+                    { Pokemon: "Dragapult", Nickname: "eepy", Level: 88, Gender: "Male" },
+                    { Pokemon: "Toxtricity", Nickname: "Billy", Level: 68, Gender: "Male", Form: "Low Key" },
+                    { Pokemon: "Flamigo", Nickname: "Glovian", Level: 88, Gender: "Female" },
+                    { Pokemon: "Skeledirge", Nickname: "Mikroc", Level: 89, Gender: "Male" },
+                    { Pokemon: "Toedscruel", Nickname: "Toe", Level: 93, Gender: "Male" },
+                    { Pokemon: "Bisharp", Nickname: "gamba", Level: 72, Gender: "Female" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-31T18:07:58Z", Attempts: 0, Party: [
+                    { Pokemon: "Revavroom", Level: 100, Gender: "Female" },
+                    { Pokemon: "Avalugg", Nickname: "Slush", Level: 100, Gender: "Male" },
+                    { Pokemon: "Flamigo", Nickname: "Glovian", Level: 100, Gender: "Female" },
+                    { Pokemon: "Toedscruel", Nickname: "Toe", Level: 100, Gender: "Male" },
+                    { Pokemon: "Dragapult", Nickname: "eepy", Level: 100, Gender: "Male" },
+                    { Pokemon: "Skeledirge", Nickname: "Mikroc", Level: 100, Gender: "Male" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"

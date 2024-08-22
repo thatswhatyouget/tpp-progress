@@ -397,6 +397,18 @@ Season11.Runs.push(
 			{ Name: "Xurkitree", Time: "2024-07-15T20:40:07Z", Group: "Pokemon" },
 			{ Name: "Relicanth", Time: "2024-07-15T21:02:05Z", Group: "Pokemon" },
 			{ Name: "Bewear", Time: "2024-07-15T21:40:53Z", Group: "Pokemon" },
+			{ Name: "Lunala", Time: "2024-07-15T22:21:50Z", Group: "Pokemon" },
+			{ Name: "Xatu", Time: "2024-07-16T02:37:33Z", Group: "Pokemon" },
+			{ Name: "Guzzlord", Time: "2024-07-16T03:55:24Z", Group: "Pokemon" },
+			{ Name: "Swinub", Time: "2024-07-16T04:53:34Z", Group: "Pokemon" },
+			{ Name: "Sandshrew", Time: "2024-07-16T04:59:29Z", Group: "Pokemon" },
+			{ Name: "Cubone", Time: "2024-07-16T05:01:19Z", Group: "Pokemon" },
+			{ Name: "Braviary", Time: "2024-07-16T05:07:24Z", Group: "Pokemon" },
+			{ Name: "Rufflet", Time: "2024-07-16T05:09:41Z", Group: "Pokemon" },
+			{ Name: "Lickitung", Time: "2024-07-16T05:22:09Z", Group: "Pokemon" },
+			{ Name: "Galvantula", Time: "2024-07-16T05:51:53Z", Group: "Pokemon" },
+			{ Name: "Chansey", Time: "2024-07-16T12:16:25Z", Group: "Pokemon" },
+			{ Name: "Rhyperior", Time: "2024-07-16T12:20:14Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-16T14:24:17Z", IDNo: "831278", Attempts: 0, Party: [
@@ -410,6 +422,26 @@ Season11.Runs.push(
                 Image: "img/ribbons/champion-galar.png",
                 FirstAttemptDate: ""
             },
+			
+			{ Name: "Avalugg", Time: "2024-07-16T14:57:30Z", Group: "Pokemon" },
+			{ Name: "Bronzong", Time: "2024-07-16T15:01:03Z", Group: "Pokemon" },
+			{ Name: "Poipole", Time: "2024-07-16T17:29:45Z", Group: "Pokemon" },
+			{ Name: "Oranguru", Time: "2024-07-16T18:15:07Z", Group: "Pokemon" },
+			{ Name: "Jolteon", Time: "2024-07-16T20:51:35Z", Group: "Pokemon" },
+			{ Name: "Nidoking", Time: "2024-07-16T21:00:57Z", Group: "Pokemon" },
+			{ Name: "Centiskorch", Time: "2024-07-16T21:15:07Z", Group: "Pokemon" },
+			{ Name: "Aron", Time: "2024-07-16T21:30:21Z", Group: "Pokemon" },
+			{ Name: "Carbink", Time: "2024-07-16T22:32:08Z", Group: "Pokemon" },
+			{ Name: "Golbat", Time: "2024-07-16T23:07:07Z", Group: "Pokemon" },
+			{ Name: "Magmortar", Time: "2024-07-16T23:17:55Z", Group: "Pokemon" },
+			{ Name: "Spheal", Time: "2024-07-16T23:22:40Z", Group: "Pokemon" },
+			{ Name: "Gallade", Time: "2024-07-17T01:43:01Z", Group: "Pokemon" },
+			{ Name: "Cobalion", Time: "2024-07-17T01:55:34Z", Group: "Pokemon" },
+			{ Name: "Mawile", Time: "2024-07-17T02:34:29Z", Group: "Pokemon" },
+			{ Name: "Leafeon", Time: "2024-07-17T04:10:26Z", Group: "Pokemon" },
+			{ Name: "Terrakion", Time: "2024-07-17T05:21:25Z", Group: "Pokemon" },
+			{ Name: "Virizion", Time: "2024-07-17T05:56:13Z", Group: "Pokemon" },
+			{ Name: "Keldeo", Time: "2024-07-17T06:29:32Z", Group: "Pokemon" },
 			
         ]
     }
@@ -895,7 +927,6 @@ Season11.Runs.push(
             },
 			
 			{ Name: "Clefairy", Time: "2024-07-15T20:34:44Z", Group: "Pokemon" },
-			{ Name: "Grubbin", Time: "2024-07-15T21:47:52Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-15T21:01:15Z", IDNo: "719457", Attempts: 0, Party: [
@@ -909,6 +940,34 @@ Season11.Runs.push(
                 Image: "img/ribbons/champion-galar.png",
                 FirstAttemptDate: ""
             },
+			
+			{ Name: "Grubbin", Time: "2024-07-15T21:47:52Z", Group: "Pokemon" },
+			{ Name: "Regigigas", Time: "2024-07-15T22:22:11Z", Group: "Pokemon" },
+			{ Name: "Gastrodon", Time: "2024-07-15T23:23:16Z", Group: "Pokemon" },
+			{ Name: "Pyukumuku", Time: "2024-07-15T23:29:40Z", Group: "Pokemon" },
+			{ Name: "Raichu", Time: "2024-07-15T23:43:33Z", Group: "Pokemon" },
+			{ Name: "Barraskewda", Time: "2024-07-15T23:47:57Z", Group: "Pokemon" },
+			{ Name: "Dedenne", Time: "2024-07-15T23:53:13Z", Group: "Pokemon" },
+			{ Name: "Nihilego", Time: "2024-07-16T01:08:38Z", Group: "Pokemon" },
+			{ Name: "Armaldo", Time: "2024-07-16T01:58:39Z", Group: "Pokemon" },
+			{ Name: "Guzzlord", Time: "2024-07-16T03:55:00Z", Group: "Pokemon" },
+			{ Name: "Ivysaur", Time: "2024-07-16T04:18:28Z", Group: "Pokemon" },
+			{ Name: "Doublade", Time: "2024-07-16T04:39:09Z", Group: "Pokemon" },
+			{ Name: "Smoochum", Time: "2024-07-16T04:46:41Z", Group: "Pokemon" },
+			{ Name: "Absol", Time: "2024-07-16T05:47:34Z", Group: "Pokemon" },
+			{ Name: "Lucario", Time: "2024-07-16T08:30:53Z", Group: "Pokemon" },
+			{ Name: "Jynx", Time: "2024-07-16T12:36:14Z", Group: "Pokemon" },
+			{ Name: "Dracovish", Time: "2024-07-16T13:00:42Z", Group: "Pokemon" },
+			{ Name: "Cobalion", Time: "2024-07-16T15:36:22Z", Group: "Pokemon" },
+			{ Name: "Terrakion", Time: "2024-07-16T16:05:23Z", Group: "Pokemon" },
+			{ Name: "Virizion", Time: "2024-07-16T16:30:06Z", Group: "Pokemon" },
+			{ Name: "Keldeo", Time: "2024-07-16T17:37:21Z", Group: "Pokemon" },
+			{ Name: "Aron", Time: "2024-07-16T17:41:20Z", Group: "Pokemon" },
+			{ Name: "Sableye", Time: "2024-07-16T17:44:18Z", Group: "Pokemon" },
+			{ Name: "Lairon", Time: "2024-07-16T17:50:08Z", Group: "Pokemon" },
+			{ Name: "Aggron", Time: "2024-07-16T17:51:16Z", Group: "Pokemon" },
+			{ Name: "Metang", Time: "2024-07-16T17:53:47Z", Group: "Pokemon" },
+			{ Name: "Metagross", Time: "2024-07-16T17:54:52Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-16T20:12:23Z", IDNo: "719457", Attempts: 0, Party: [
@@ -923,6 +982,26 @@ Season11.Runs.push(
                 FirstAttemptDate: ""
             },
 
+			{ Name: "Glaceon", Time: "2024-07-16T22:21:41Z", Group: "Pokemon" },
+			{ Name: "Solosis", Time: "2024-07-16T22:32:07Z", Group: "Pokemon" },
+			{ Name: "Charmeleon", Time: "2024-07-16T22:38:03Z", Group: "Pokemon" },
+			{ Name: "Duosion", Time: "2024-07-16T22:45:03Z", Group: "Pokemon" },
+			{ Name: "Charizard", Time: "2024-07-16T22:51:02Z", Group: "Pokemon" },
+			{ Name: "Reuniclus", Time: "2024-07-16T22:53:07Z", Group: "Pokemon" },
+			{ Name: "Wartortle", Time: "2024-07-16T23:03:25Z", Group: "Pokemon" },
+			{ Name: "Mudsdale", Time: "2024-07-16T23:13:30Z", Group: "Pokemon" },
+			{ Name: "Manectric", Time: "2024-07-16T23:13:59Z", Group: "Pokemon" },
+			{ Name: "Blastoise", Time: "2024-07-16T23:19:20Z", Group: "Pokemon" },
+			{ Name: "Cinccino", Time: "2024-07-16T23:24:18Z", Group: "Pokemon" },
+			{ Name: "Musharna", Time: "2024-07-16T23:26:10Z", Group: "Pokemon" },
+			{ Name: "Aegislash", Time: "2024-07-16T23:31:37Z", Group: "Pokemon" },
+			{ Name: "Venusaur", Time: "2024-07-17T00:00:29Z", Group: "Pokemon" },
+			{ Name: "Lampent", Time: "2024-07-17T00:10:37Z", Group: "Pokemon" },
+			{ Name: "Chandelure", Time: "2024-07-17T00:11:32Z", Group: "Pokemon" },
+			{ Name: "Zygarde", Time: "2024-07-17T01:43:01Z", Group: "Pokemon" },
+			{ Name: "Rayquaza", Time: "2024-07-17T06:10:01Z", Group: "Pokemon" },
+			{ Name: "Pheromosa", Time: "2024-07-17T06:51:30Z", Group: "Pokemon" },
+			
         ]
     }
 );
