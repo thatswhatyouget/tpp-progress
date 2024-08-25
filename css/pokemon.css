@@ -5480,3 +5480,9 @@
 .mega .shiny .dexEntry .pokesprite.gallade img, .pokesprite.mega.shiny.gallade img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -41em!important; }
 .mega .shiny .dexEntry .pokesprite.audino img, .pokesprite.mega.shiny.audino img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -42em!important; }
 .mega .shiny .dexEntry .pokesprite.diancie img, .pokesprite.mega.shiny.diancie img { background-image:url('../img/pokemon-mega-large-shiny.png')!important; background-position: 0px -43em!important; }
+.paldea .pokesprite.tauros img { background-image:url('../img/pokemon-paldea.png')!important; background-position: 0px -0em!important; }
+.paldea .pokesprite.wooper img { background-image:url('../img/pokemon-paldea.png')!important; background-position: 0px -1em!important; }
+.paldean .dexEntry .pokesprite.tauros img, .pokesprite.paldean.tauros img { background-image:url('../img/pokemon-paldea-large.png')!important; background-position: 0px -0em!important; }
+.paldean .dexEntry .pokesprite.wooper img, .pokesprite.paldean.wooper img { background-image:url('../img/pokemon-paldea-large.png')!important; background-position: 0px -1em!important; }
+.paldean .shiny .dexEntry .pokesprite.tauros img, .pokesprite.paldean.shiny.tauros img { background-image:url('../img/pokemon-paldea-large-shiny.png')!important; background-position: 0px -0em!important; }
+.paldean .shiny .dexEntry .pokesprite.wooper img, .pokesprite.paldean.shiny.wooper img { background-image:url('../img/pokemon-paldea-large-shiny.png')!important; background-position: 0px -1em!important; }

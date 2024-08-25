@@ -86,6 +86,7 @@ module Pokedex {
         "Hisui": "hisuian",
         "Paldea": "paldean",
         "Kitakami": "paldean",
+        "Blueberry Academy": "paldean",
         "Larmog": "navyblue",
         "Altair/Sirius (Hoenn)": "sirius",
         "Tohoak": "vega",
