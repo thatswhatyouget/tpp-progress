@@ -305,7 +305,7 @@ Season11.Runs.push(
             { Name: "Ditto", Time: "2024-03-28T02:34:58Z", Group: "Pokemon" },
             { Name: "Garbodor", Time: "2024-03-28T02:40:55Z", Group: "Pokemon" },
             { Name: "Banette", Time: "2024-03-28T02:45:37Z", Group: "Pokemon" },
-            { Name: "Gothita", Time: "2024-03-28T03:05:15Z", Group: "Pokemon" },
+            { Name: "Gothorita", Time: "2024-03-28T03:05:15Z", Group: "Pokemon" },
             { Name: "Noctowl", Time: "2024-03-28T03:13:27Z", Group: "Pokemon" },
             { Name: "Gabite", Time: "2024-03-28T04:13:30Z", Group: "Pokemon" },
             { Name: "Watchog", Time: "2024-03-28T07:11:07Z", Group: "Pokemon" },
