@@ -486,7 +486,7 @@ ul.controls>li>ul>li.selected>a:before {
 	background-image: url("../img/pokemon.png");
 	background-repeat: no-repeat;
 	background-position: top left;
-	background-size: 1em;
+	background-size: 10em;
 }
 
 .progressChart .run .event.bosses.pokesprite img,
@@ -495,6 +495,7 @@ ul.controls>li>ul>li.selected>a:before {
 	font-size: 64px;
 	image-rendering: pixelated;
 	background-image: url("../img/pokemon-large.png");
+	background-size: 10em;
 }
 
 .progressChart .run.telefang .event.pokemon.pokesprite {
@@ -508,6 +509,7 @@ ul.controls>li>ul>li.selected>a:before {
 	background-image: url("../img/telefang/denjuu.png");
 	top: 75%;
 	z-index: 6;
+    background-size: 1em;
 }
 
 .progressChart .run.telefang .event.pokemon.pokesprite:hover img {
@@ -517,6 +519,7 @@ ul.controls>li>ul>li.selected>a:before {
 .progressChart .run.telefang .event.bosses.pokesprite img {
 	font-size: 64px;
 	background-image: url("../img/telefang/denjuu-large.gif");
+    background-size: 1em;
 }
 
 .progressChart .run.animorphs .event.pokemon.pokesprite img {
@@ -526,6 +529,7 @@ ul.controls>li>ul>li.selected>a:before {
 	background-image: url("../img/animorphs/anisprites.gif");
 	top: 75%;
 	z-index: 6;
+    background-size: 1em;
 }
 
 .progressChart .run.robopon .event.pokemon.pokesprite img {
@@ -626,6 +630,7 @@ ul.controls>li>ul>li.selected>a:before {
 
 .progressChart .digimonnovared.run .event.pokemon.pokesprite img {
 	background-image: url("../img/digimon-small.png");
+    background-size: 1em;
 }
 
 .progressChart .pokesus.run .event.pokemon.pokesprite img {
@@ -634,6 +639,7 @@ ul.controls>li>ul>li.selected>a:before {
 
 .progressChart .snakewood.run .event.pokemon.pokesprite img {
 	background-image: url("../img/snakewood-small.png");
+    background-size: 1em;
 }
 
 .progressChart .tradingcardgame .innertradingcardgame .event {
@@ -862,7 +868,7 @@ ul.controls>li>ul>li.selected>a:before {
 	background-image: url("../img/pokemon-large.png");
 	background-repeat: no-repeat;
 	background-position: top left;
-	background-size: 1em;
+	background-size: 10em;
 }
 
 .hallOfFameDisplay .entry .pokesprite.shiny img {
@@ -891,6 +897,7 @@ ul.controls>li>ul>li.selected>a:before {
 
 .hallOfFameDisplay.fusedcrystal .entry .pokesprite img {
 	background-image: url("../img/fusedcrystal-large.png") !important;
+	background-size: 10em!important;
 }
 
 .hallOfFameDisplay.navyblue .entry .pokesprite img {
@@ -915,6 +922,7 @@ ul.controls>li>ul>li.selected>a:before {
 
 .hallOfFameDisplay.digimonnovared .entry .pokesprite img {
 	background-image: url("../img/digimon-large.png") !important;
+    background-size: 1em;
 }
 
 .hallOfFameDisplay.pokesus .entry .pokesprite img {
@@ -923,6 +931,7 @@ ul.controls>li>ul>li.selected>a:before {
 
 .hallOfFameDisplay.snakewood .entry .pokesprite img {
 	background-image: url("../img/snakewood-large.png") !important;
+    background-size: 1em;
 }
 
 .hallOfFameDisplay .entry .info>* {

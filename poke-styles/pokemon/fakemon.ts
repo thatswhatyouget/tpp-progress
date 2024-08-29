@@ -18,7 +18,7 @@ var fakemon = [
 
 addStyles(fakemon, f => {
     var clean = dexClean(f).replace(/ /g, '');
-    return ".pokesprite." + clean + ' img  { background-image:url("../img/fakemon/' + clean + '.png")!important; }';
+    return ".pokesprite." + clean + ' img  { background-image:url("../img/fakemon/' + clean + '.png")!important; background-size: 1em!important; background-position: center!important; }';
 });
 
 function fixFakeForms(mons: string[]) {
@@ -31,7 +31,7 @@ addSingleStyle(fakemon.map(f => ".event.pokemon.pokesprite." + dexClean(f) + " i
 addSingleStyle('.pokesprite.phancero:hover img  { background-image:url("../img/fakemon/phancero-hover.png")!important; }');
 
 //MissingNo.
-addSingleStyle('.pokesprite.missingno img  { background-image:url("../img/missingno.png")!important; }');
+addSingleStyle('.pokesprite.missingno img  { background-image:url("../img/missingno.png")!important;  background-size: 1em!important; }');
 
 //NavyBlue
 addStyles(Pokedex.Regional["Larmog"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p)), defaultMapping("navyblue"));
@@ -46,13 +46,13 @@ addStyles(fixFakeForms(Pokedex.Regional["Tohoak"].map(p => (typeof p === "number
 addStyles(fixFakeForms(Pokedex.Regional["Blazing Hoenn"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("blazingemerald"));
 
 //Snakewood
-addStyles(fixFakeForms(Pokedex.Regional["Snakewood"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("snakewood"));
+addStyles(fixFakeForms(Pokedex.Regional["Snakewood"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("snakewood", 1));
 
 //Spaceworld Gold Reforged
 const spaceworldBetaMons = Pokedex.Regional.Nihon.map((mon, i) => typeof mon == "string" ? { name: mon, number: `${i}-spaceworld` } : null).filter(m => !!m);
 addStyles(spaceworldBetaMons, m => {
     const clean = dexClean(m.name).replace(/ /g, '');
-    return ".pokesprite." + clean + ' img  { background-image:url("../img/fakemon/gold97/' + m.number + '.png")!important; }';
+    return ".pokesprite." + clean + ' img  { background-image:url("../img/fakemon/gold97/' + m.number + '.png")!important; background-size: 1em!important; background-position: center!important; }';
 });
 addSingleStyle(spaceworldBetaMons.map(m => ".event.pokemon.pokesprite." + dexClean(m.name) + " img").join(", ") + " { background-size: 50%!important; background-position: center!important; }");
 
@@ -61,13 +61,13 @@ addStyles(Pokedex.Regional["Orre Remix"].map((mon, i) => typeof mon == "string" 
     const clean = dexClean(mon.name).replace(/ /g, '');
     const path = `./img/fakemon/xgremix/${clean}.png`;
     if (exists(path))
-        return `.xgremix .pokesprite.${clean} img { background-image:url(".${path}")!important; }`;
-    return `.xgremix .pokesprite.${clean} img { background-position: 0px -${mon.number}em!important; }`;
+        return `.xgremix .pokesprite.${clean} img { background-image:url(".${path}")!important; background-size: 1em!important; background-position: center!important; }`;
+    return `.xgremix .pokesprite.${clean} img { background-position: 0px -${mon.number}em!important; background-size: 1em!important; background-position: center!important;}`;
 });
 addStyles(["Fakeon X1", "Fakeon X2", "Fakeon X3", "Fakeon X4", "Fakeon X5", "RoboKyogre", "RoboGroudn"], f => {
     const clean = dexClean(f).replace(/ /g, '');
     const path = `./img/fakemon/xgremix/${clean}.png`;
-    return `.xgremix .pokesprite.${clean} img { background-image:url(".${path}")!important; }`;
+    return `.xgremix .pokesprite.${clean} img { background-image:url(".${path}")!important; background-size: 1em!important; background-position: center!important; }`;
 });
 
 //Star
@@ -75,17 +75,17 @@ addStyles(Pokedex.Regional["Ultra-Alola"].map((mon, i) => typeof mon == "string"
     const clean = dexClean(mon.name).replace(/ /g, '');
     const path = `./img/fakemon/star/${clean}.png`;
     if (exists(path))
-        return `.star .pokesprite.${clean} img { background-image:url(".${path}")!important; }`;
-    return `.star .pokesprite.${clean} img { background-position: 0px -${mon.number}em!important; }`;
+        return `.star .pokesprite.${clean} img { background-image:url(".${path}")!important; background-size: 1em!important; background-position: center!important;}`;
+    return `.star .pokesprite.${clean} img { background-position: 0px -${mon.number}em!important; background-size: 1em!important; background-position: center!important; }`;
 });
 addStyles(["Voltorb", "Electrode", "Misdreavus", "Seviper", "Mismagius"], f => {
     const clean = dexClean(f).replace(/ /g, '');
     const path = `./img/fakemon/star/${clean}.png`;
-    return `.star .pokesprite.${clean} img { background-image:url(".${path}")!important; background-position: 0px -0em!important;  }`;
+    return `.star .pokesprite.${clean} img { background-image:url(".${path}")!important; background-position: 0px -0em!important; background-size: 1em!important; background-position: center!important; }`;
 });
 addStyles(["UB-Queen"], f => {
     const clean = dexClean(f).replace(/ /g, '');
     const alt = "ultra";
     const path = `./img/alternate/${clean}-${alt}.png`;
-    return `.star .pokesprite.${clean}.${alt} img { background-image:url(".${path}")!important; background-position: center!important;  }`;
+    return `.star .pokesprite.${clean}.${alt} img { background-image:url(".${path}")!important; background-position: center!important; background-size: 1em!important; background-position: center!important; }`;
 });
