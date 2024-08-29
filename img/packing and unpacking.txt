@@ -1,0 +1,12 @@
+# Copy images to unpack/pack to their own working folder
+# Snakewood and Digimon don't work with this for some reason
+
+# unpack large images
+for FILE in *-large*.png; do mkdir ${FILE%.*}; convert $FILE +gravity -crop 64x64 +repage ./${FILE%.*}/%04d.png; done;
+
+# unpack small images
+for FILE in *-small*.png; do mkdir ${FILE%.*}; convert $FILE +gravity -crop 40x40 +repage ./${FILE%.*}/%04d.png; done;
+for FILE in pokemon.png; do mkdir ${FILE%.*}; convert $FILE +gravity -crop 40x40 +repage ./${FILE%.*}/%04d.png; done;
+
+# pack images
+for FILE in */; do montage $FILE*.png -geometry +0+0 -tile 10x -background none ${FILE%/}.png; done;

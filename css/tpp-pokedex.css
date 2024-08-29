@@ -55,7 +55,7 @@
     image-rendering: pixelated;
     background-image: url("../img/pokemon-large.png");
     background-repeat: no-repeat;
-    background-size: 1em;
+    background-size: 10em;
 }
 
 .dexEntry .pokesprite:not(.missingno).shiny img {
@@ -88,6 +88,7 @@
 
 .telefang .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/telefang/denjuu-large.gif")!important;
+    background-size: 1em;
 }
 
 .touhoumon .dexEntry .pokesprite:not(.missingno) img {
@@ -110,6 +111,7 @@
 
 .fusedcrystal .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/fusedcrystal-large.png")!important;
+    background-size: 10em!important;
 }
 
 .navyblue .dexEntry .pokesprite:not(.missingno) img {
@@ -134,6 +136,7 @@
 
 .digimonnovared .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/digimon-large.png")!important;
+    background-size: 1em;
 }
 
 .pokesus .dexEntry .pokesprite:not(.missingno) img {
@@ -142,6 +145,7 @@
 
 .snakewood .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/snakewood-large.png")!important;
+    background-size: 1em;
 }
 
 .ms .dexEntry .pokesprite:not(.missingno) img {
@@ -178,6 +182,7 @@
 
 .ms.digimonnovared .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/digimon-small.png")!important;
+    background-size: 1em;
 }
 
 .ms.blazingemerald .dexEntry .pokesprite:not(.missingno) img {
@@ -190,4 +195,5 @@
 
 .ms.snakewood .dexEntry .pokesprite:not(.missingno) img {
     background-image: url("../img/snakewood-small.png")!important;
+    background-size: 1em;
 }
