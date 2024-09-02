@@ -111,6 +111,10 @@ var alternates: Alternate[] = [
 	
     new Alternate("Maushold", "Four"),
 	
+    new Alternate("Ogerpon", "Wellspring"),
+    new Alternate("Ogerpon", "Hearthflame"),
+    new Alternate("Ogerpon", "Cornerstone"),
+	
     new Alternate("zoroark", "Eliza"),
 	
     new Alternate("ub-queen", "Ultra"),
