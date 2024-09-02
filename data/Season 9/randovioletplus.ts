@@ -155,7 +155,71 @@ Season9.Runs.push(
                 "Group": "Rematch Badges", "Name": "Victory Road: Ice", "Image": "img/badges/paldea/ice.png", "Class": "Rematch",
                 "Time": "2023-01-27T08:26:57Z", "Attempts": 1
             },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2023-01-27T21:59:41Z", Attempts: 1, Party: [
+                    { Pokemon: "Luxray", Nickname: "Iron Sight", Level: 100, Gender: "Female", Class: "Shiny" },
+                    { Pokemon: "Magearna", Nickname: "Anastasia", Level: 99 },
+                    { Pokemon: "Iron Bundle", Nickname: "Delibot", Level: 99 },
+                    { Pokemon: "Grafaiai", Nickname: "Legraf", Level: 100, Gender: "Male" },
+                    { Pokemon: "Braviary", Nickname: "Sliasslo", Level: 100, Gender: "Male" },
+                    { Pokemon: "Clodsire", Nickname: ":u6708:", Level: 100, Gender: "Male" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
 
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2023-01-29T17:27:06Z", Attempts: 1, Party: [
+                    { Pokemon: "Grafaiai", Nickname: "Legraf", Level: 100, Gender: "Male" },
+                    { Pokemon: "Clodsire", Nickname: ":u6708:", Level: 100, Gender: "Male" },
+                    { Pokemon: "Iron Bundle", Nickname: "Delibot", Level: 100 },
+                    { Pokemon: "Magearna", Nickname: "Anastasia", Level: 100 },
+                    { Pokemon: "Braviary", Nickname: "Sliasslo", Level: 100, Gender: "Male" },
+                    { Pokemon: "Luxray", Nickname: "Iron Sight", Level: 100, Gender: "Female", Class: "Shiny" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2023-01-30T21:00:25Z", Attempts: 1, Party: [
+                    { Pokemon: "Arceus", Nickname: "Odio", Level: 94 },
+                    { Pokemon: "Clodsire", Nickname: ":u6708:", Level: 100, Gender: "Male" },
+                    { Pokemon: "Iron Bundle", Nickname: "Delibot", Level: 100 },
+                    { Pokemon: "Grafaiai", Nickname: "Legraf", Level: 100, Gender: "Male" },
+                    { Pokemon: "Luxray", Nickname: "Iron Sight", Level: 100, Gender: "Female", Class: "Shiny" },
+                    { Pokemon: "Magearna", Nickname: "Anastasia", Level: 100 },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2023-01-31T16:29:26Z", Attempts: 1, Party: [
+                    { Pokemon: "Arceus", Nickname: "Odio", Level: 100 },
+                    { Pokemon: "Luxray", Nickname: "Iron Sight", Level: 100, Gender: "Female", Class: "Shiny" },
+                    { Pokemon: "Grafaiai", Nickname: "Legraf", Level: 100, Gender: "Male" },
+                    { Pokemon: "Charizard", Level: 60, Gender: "Male" },
+                    { Pokemon: "Clodsire", Nickname: ":u6708:", Level: 100, Gender: "Male" },
+                    { Pokemon: "Iron Bundle", Nickname: "Delibot", Level: 100 },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2023-01-31T21:49:44Z", Attempts: 1, Party: [
+                    { Pokemon: "Arceus", Nickname: "Odio", Level: 100 },
+                    { Pokemon: "Luxray", Nickname: "Iron Sight", Level: 100, Gender: "Female", Class: "Shiny" },
+                    { Pokemon: "Grafaiai", Nickname: "Legraf", Level: 100, Gender: "Male" },
+                    { Pokemon: "Magearna", Nickname: "Anastasia", Level: 100 },
+                    { Pokemon: "Clodsire", Nickname: ":u6708:", Level: 100, Gender: "Male" },
+                    { Pokemon: "Iron Bundle", Nickname: "Delibot", Level: 100 },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
 
             { "Group": "Pokemon", "Name": "Staravia", "Time": "2023-01-21T21:27:44Z" },
             { "Group": "Pokemon", "Name": "Lechonk", "Time": "2023-01-21T21:52:58Z" },

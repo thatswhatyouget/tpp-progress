@@ -122,6 +122,19 @@ Season9.Runs.push(
                 FirstAttemptDate: "2022-11-22T23:28:00Z",
                 Image: "img/ribbons/champion.png"
             },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2022-11-27T15:57:49Z", Attempts: 1, Party: [
+                    { Pokemon: "Quaquaval", Nickname: "Quaxl", Level: 100, Gender: "Male" },
+                    { Pokemon: "Wugtrio", Nickname: "Wiglett wig", Level: 45, Gender: "Male" },
+                    { Pokemon: "Frosmoth", Nickname: "Mmp??!!ƒ¤¤¤¤", Level: 100, Gender: "Male" },
+                    { Pokemon: "Garganacl", Nickname: "oomm", Level: 100, Gender: "Female" },
+                    { Pokemon: "Gallade", Nickname: "Gal", Level: 84, Gender: "Male" },
+                    { Pokemon: "Chien-Pao", Nickname: "C1", Level: 74 },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
 
             { "Group": "Pokemon", "Name": "Quaxly", "Time": "2022-11-19T21:38:02Z" },
             { "Group": "Pokemon", "Name": "Lechonk", "Time": "2022-11-19T22:04:52Z" },

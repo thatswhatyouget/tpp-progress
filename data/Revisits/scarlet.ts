@@ -157,6 +157,20 @@ Revisits.Runs.push(
         Region: "Blueberry Academy",
         Generation: 9,
         Events: [
+		
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2023-12-18T14:08:05Z", Attempts: 1, Party: [
+                    { Pokemon: "Koraidon", Nickname: "raidon", Level: 100 },
+                    { Pokemon: "Chi-Yu", Nickname: "Chi-Yu1111", Level: 100 },
+                    { Pokemon: "Ogerpon", Nickname: "Ponyo", Level: 100, Gender: "Female", Form:"Hearthflame" },
+                    { Pokemon: "Gouging Fire", Nickname: "Gouging F", Level: 100 },
+                    { Pokemon: "Entei", Level: 100 },
+                    { Pokemon: "Frosmoth", Nickname: "Mmp??!!ƒ¤¤¤¤", Level: 100, Gender: "Male" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+		
             { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "2023-12-14T21:56:14Z" },
             { "Group": "Pokemon", "Name": "Darkrai", "Time": "2023-12-14T22:11:06Z" },
             { "Group": "Pokemon", "Name": "Trapinch", "Time": "2023-12-14T22:21:29Z" },
