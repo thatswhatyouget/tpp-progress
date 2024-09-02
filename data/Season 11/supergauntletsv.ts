@@ -1069,6 +1069,20 @@ Season11.Runs.push(
 			{ Name: "Comfey", Time: "2024-07-30T04:02:26Z", Group: "Pokemon" },
 			{ Name: "Grimer", Time: "2024-07-30T04:26:05Z", Group: "Pokemon", Class: "Alolan" },
 			{ Name: "Muk", Time: "2024-07-30T04:33:09Z", Group: "Pokemon", Class: "Alolan" },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-30T07:06:38Z", Attempts: 0, Party: [
+                    { Pokemon: "Revavroom", Level: 100, Gender: "Female" },
+                    { Pokemon: "Toxtricity", Nickname: "Billy", Level: 96, Gender: "Male", Form: "Low Key" },
+                    { Pokemon: "Avalugg", Nickname: "Slush", Level: 97, Gender: "Male" },
+                    { Pokemon: "Flamigo", Nickname: "Glovian", Level: 100, Gender: "Female" },
+                    { Pokemon: "Kingambit", Nickname: "gamba", Level: 94, Gender: "Female" },
+                    { Pokemon: "Dragapult", Nickname: "eepy", Level: 100, Gender: "Male" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
 			{ Name: "Magnezone", Time: "2024-07-30T11:19:00Z", Group: "Pokemon" },
 			{ Name: "Salandit", Time: "2024-07-30T13:52:57Z", Group: "Pokemon" },
 			{ Name: "Sableye", Time: "2024-07-30T13:59:14Z", Group: "Pokemon" },

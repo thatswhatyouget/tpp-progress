@@ -219,6 +219,9 @@ Season11.Runs.push(
             { Name: "Oddish", Time: "2024-02-22T05:39:54Z", Group: "Pokemon" },
             { Name: "Victreebel", Time: "2024-02-22T05:46:47Z", Group: "Pokemon" },
             { Name: "Scizor", Time: "2024-02-22T09:14:59Z", Group: "Pokemon" },
+			
+			// Stadium 2
+			{ Name: "Cyndaquil", Time: "2024-02-23T01:02:00Z", Group: "Pokemon" },
 
         ]
     }

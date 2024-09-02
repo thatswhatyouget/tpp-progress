@@ -14,6 +14,9 @@ Intermissions.Runs.push(
         Pokedex:"New",
         Events: [
 		
+            { Name: "Cyndaquil", Time: "2024-02-23T00:29:15Z", Group: "Pokemon" },
+            { Name: "Ditto", Time: "2024-02-23T01:02:10Z", Group: "Pokemon" },
+		
         ]
     }
 );
@@ -21,7 +24,7 @@ Revisits.Runs.push(
     {
         RunName: "GB Tower Crystal - VC Revisit",
         StartDate: "2024-03-25T04:28:09Z",
-        Duration: "2025-03-25T20:14:44Z",
+        Duration: "2024-03-25T20:14:44Z",
         ColorPrimary: "#609be1",
         ColorSecondary: "#534d13",
         HostImage: "img/hosts/baba.png",
