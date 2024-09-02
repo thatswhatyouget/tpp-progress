@@ -78,7 +78,7 @@ Season11.Runs.push(
             { Name: "Pikachu", Time: "2024-03-25T21:37:22Z", Group: "Pokemon" },
             { Name: "Bunnelby", Time: "2024-03-25T21:52:44Z", Group: "Pokemon" },
             { Name: "Bidoof", Time: "2024-03-25T21:54:29Z", Group: "Pokemon" },
-            { Name: "Swirlix", Time: "2024-03-25T22:07:01Z", Group: "Pokemon" },
+            { Name: "Swirlix", Time: "2024-03-25T22:07:01Z", Group: "Pokemon", Class: "WifiTrade" },
             { Name: "Azurill", Time: "2024-03-25T22:10:13Z", Group: "Pokemon" },
             { Name: "Farfetch'd", Time: "2024-03-26T00:00:56Z", Group: "Pokemon" },
             { Name: "Budew", Time: "2024-03-26T00:06:45Z", Group: "Pokemon" },
@@ -191,8 +191,8 @@ Season11.Runs.push(
             { Name: "Froakie", Time: "2024-03-30T06:07:07Z", Group: "Pokemon" },
             { Name: "Pansear", Time: "2024-03-30T06:15:44Z", Group: "Pokemon" },
             { Name: "Zygarde", Time: "2024-03-30T07:59:54Z", Group: "Pokemon" },
-            { Name: "Cradily", Time: "2024-03-30T08:34:53Z", Group: "Pokemon" },
-            { Name: "Serperior", Time: "2024-03-30T18:41:03Z", Group: "Pokemon" },
+            { Name: "Cradily", Time: "2024-03-30T08:34:53Z", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Serperior", Time: "2024-03-30T18:41:03Z", Group: "Pokemon", Class: "WifiTrade" },
             { Name: "Mewtwo", Time: "2024-03-30T20:35:39Z", Group: "Pokemon" },
             { Name: "Pachirisu", Time: "2024-03-30T21:30:10Z", Group: "Pokemon" },
 
@@ -412,9 +412,9 @@ Season11.Runs.push(
             { Name: "Dodrio", Time: "2024-03-30T09:36:31Z", Group: "Pokemon" },
             { Name: "Medicham", Time: "2024-03-30T10:02:13Z", Group: "Pokemon" },
 			// Missing Bunnelby, Flabébé, Zubat, Machop, Helioptile, Golett, Emolga, and Eevee
-            { Name: "Victini", Time: "2024-03-30T15:09:28Z", Group: "Pokemon" },
+            { Name: "Victini", Time: "2024-03-30T15:09:28Z", Group: "Pokemon", Class: "WifiTrade" },
 			// Missing Gogoat
-            { Name: "Unown", Time: "2024-03-30T18:44:03Z", Group: "Pokemon" },
+            { Name: "Unown", Time: "2024-03-30T18:44:03Z", Group: "Pokemon", Class: "WifiTrade" },
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-30T20:24:01Z", Attempts: 0, Party: [
