@@ -215,6 +215,7 @@ Season11.Runs.push(
             { Name: "Miltank", Time: "2024-02-21T03:56:50Z", Group: "Pokemon" },
             { Name: "Meganium", Time: "2024-02-21T15:19:51Z", Group: "Pokemon" },
             { Name: "Ledian", Time: "2024-02-21T15:32:46Z", Group: "Pokemon" },
+            { Name: "Cubone", Time: "2024-02-21T22:23:19Z", Group: "Pokemon" },
 			
             { Name: "Raticate", Time: "2024-02-21T23:18:28Z", Group: "Pokemon" },
             { Name: "Lickitung", Time: "2024-02-22T00:18:36Z", Group: "Pokemon" },
@@ -231,6 +232,9 @@ Season11.Runs.push(
             { Name: "Rattata", Time: "2024-02-22T13:12:32Z", Group: "Pokemon" },
             { Name: "Drowzee", Time: "2024-02-22T13:41:21Z", Group: "Pokemon" },
             { Name: "Machop", Time: "2024-02-22T13:44:52Z", Group: "Pokemon" },
+            { Name: "Shuckle", Time: "2024-02-22T18:38:08Z", Group: "Pokemon" },
+            { Name: "Psyduck", Time: "2024-02-22T19:42:44Z", Group: "Pokemon" },
+            { Name: "Ditto", Time: "2024-02-22T20:24:49Z", Group: "Pokemon" },
 			
 			// Stadium 2
 			{ Name: "Cyndaquil", Time: "2024-02-23T01:02:00Z", Group: "Pokemon" },
@@ -491,8 +495,11 @@ Season11.Runs.push(
             { Name: "Seaking", Time: "2024-02-22T14:21:33Z", Group: "Pokemon" },
             { Name: "Noctowl", Time: "2024-02-22T15:04:30Z", Group: "Pokemon" },
             { Name: "Girafarig", Time: "2024-02-22T15:06:57Z", Group: "Pokemon" },
+            { Name: "Psyduck", Time: "2024-02-22T18:19:55Z", Group: "Pokemon" },
+            { Name: "Ho-Oh", Time: "2024-02-22T19:42:20Z", Group: "Pokemon" },
+            { Name: "Mantine", Time: "2024-02-22T19:45:07Z", Group: "Pokemon" },
 			
-			// GB Tower Revisit
+			// Stadium 2
 			
 			/*
 			<TPP.HallOfFame>{
