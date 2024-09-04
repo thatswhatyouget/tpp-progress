@@ -398,6 +398,6 @@ Revisits.Runs.push(
             { "Group": "Pokemon", "Name": "Pecharunt", "Time": "2024-01-13T23:10:52Z" },
         ],
         Revisit: { Collection: "Revisits", Run: "Scarlet Revisit - The Indigo Disk" },
-        CopyEvents: ["Scarlet"],
+        CopyEvents: ["Scarlet Revisit - The Indigo Disk"],
     }
 );
