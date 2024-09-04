@@ -3,7 +3,7 @@ Intermissions.Runs.push(
     {
         RunName: "GB Tower Crystal",
         StartDate: "2024-02-23T00:22:49Z",
-        Duration: "2024-04-26T19:01:23Z",
+        Duration: "2024-02-26T19:01:23Z",
         ColorPrimary: "#609be1",
         ColorSecondary: "#534d13",
         HostImage: "img/hosts/baba.png",
