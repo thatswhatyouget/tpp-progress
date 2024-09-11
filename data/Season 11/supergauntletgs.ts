@@ -236,8 +236,6 @@ Season11.Runs.push(
             { Name: "Psyduck", Time: "2024-02-22T19:42:44Z", Group: "Pokemon" },
             { Name: "Ditto", Time: "2024-02-22T20:24:49Z", Group: "Pokemon" },
 			
-			// Stadium 2
-			{ Name: "Cyndaquil", Time: "2024-02-23T01:02:00Z", Group: "Pokemon" },
 
         ]
     }
@@ -498,27 +496,6 @@ Season11.Runs.push(
             { Name: "Psyduck", Time: "2024-02-22T18:19:55Z", Group: "Pokemon" },
             { Name: "Ho-Oh", Time: "2024-02-22T19:42:20Z", Group: "Pokemon" },
             { Name: "Mantine", Time: "2024-02-22T19:45:07Z", Group: "Pokemon" },
-			
-			// Stadium 2
-			
-			/*
-			<TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-24T11:11:45Z", IDNo: "26864", Attempts: 0, Party: [
-                    { Number: 249, Pokemon: "Lugia", Nickname: "Mxxxoo",  Level: 72, IDNo: "26491" },
-                    { Number: 65, Pokemon: "Alakazam", Nickname: "BBFNOOpf-", Gender: "Male", Level: 64, IDNo: "26864" },
-                ],
-                FirstAttemptDate: "",
-                Image: "img/ribbons/champion.png"
-            },
-			<TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-24T19:30:06Z", IDNo: "26864", Attempts: 0, Party: [
-                    { Number: 249, Pokemon: "Lugia", Nickname: "Mxxxoo",  Level: 75, IDNo: "26491" },
-                    { Number: 65, Pokemon: "Alakazam", Nickname: "BBFNOOpf-", Gender: "Male", Level: 64, IDNo: "26864" },
-                ],
-                FirstAttemptDate: "",
-                Image: "img/ribbons/champion.png"
-            },
-			*/
 
         ]
     }

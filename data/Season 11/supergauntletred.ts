@@ -119,12 +119,6 @@ Season11.Runs.push(
             { Name: "Vileplume", Time: "2024-02-15T22:43:07.5374353Z", Group: "Pokemon" },
             { Name: "Hypno", Time: "2024-02-15T16:56:13.0823135Z", Group: "Pokemon" },
 			
-			// Stadium revisit
-            { Name: "Chansey", Time: "2024-02-17T22:32:53Z", Group: "Pokemon" },
-            { Name: "Mewtwo", Time: "2024-02-18T00:12:18Z", Group: "Pokemon" },
-			
-			// Stadium 2 revisit
-			
         ]
     }
 );
