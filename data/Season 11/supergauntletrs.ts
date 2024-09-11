@@ -116,6 +116,7 @@ Season11.Runs.push(
 			
             { Name: "Beldum", Time: "2024-03-01T03:22:54Z", Group: "Pokemon" },
             { Name: "Castform", Time: "2024-03-01T06:26:00Z", Group: "Pokemon" },
+            { Name: "Latias", Time: "2024-03-01T13:31:23Z", Group: "Pokemon" },
             { Name: "Wynaut", Time: "2024-03-01T18:45:25Z", Group: "Pokemon" },
 			
 			// Received during Colosseum:

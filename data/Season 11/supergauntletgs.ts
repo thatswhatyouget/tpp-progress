@@ -199,9 +199,10 @@ Season11.Runs.push(
             { Name: "Gyarados", Time: "2024-02-20T21:01:38.6122825Z", Group: "Pokemon" },
             { Name: "Krabby", Time: "2024-02-20T21:55:13Z", Group: "Pokemon" },
             { Name: "Corsola", Time: "2024-02-20T21:59:18Z", Group: "Pokemon" },
-            { Name: "Ho-oh", Time: "2024-02-21T04:40:14Z", Group: "Pokemon" },
+            { Name: "Ho-Oh", Time: "2024-02-21T04:40:14Z", Group: "Pokemon" },
 
             { Name: "Alakazam", Time: "2024-02-20T06:17:27.2313354Z", Group: "Pokemon" },
+            { Name: "Umbreon", Time: "2024-02-21T06:44:54Z", Group: "Pokemon" },
             { Name: "Pidgeotto", Time: "2024-02-20T07:21:44.3252398Z", Group: "Pokemon" },
             { Name: "Graveler", Time: "2024-02-20T10:00:23.6649558Z", Group: "Pokemon" },
             { Name: "Weepinbell", Time: "2024-02-20T15:43:20.8143776Z", Group: "Pokemon" },
@@ -214,11 +215,27 @@ Season11.Runs.push(
             { Name: "Miltank", Time: "2024-02-21T03:56:50Z", Group: "Pokemon" },
             { Name: "Meganium", Time: "2024-02-21T15:19:51Z", Group: "Pokemon" },
             { Name: "Ledian", Time: "2024-02-21T15:32:46Z", Group: "Pokemon" },
+            { Name: "Cubone", Time: "2024-02-21T22:23:19Z", Group: "Pokemon" },
+			
+            { Name: "Raticate", Time: "2024-02-21T23:18:28Z", Group: "Pokemon" },
+            { Name: "Lickitung", Time: "2024-02-22T00:18:36Z", Group: "Pokemon" },
 
             { Name: "Snorlax", Time: "2024-02-22T04:13:17Z", Group: "Pokemon" },
             { Name: "Oddish", Time: "2024-02-22T05:39:54Z", Group: "Pokemon" },
             { Name: "Victreebel", Time: "2024-02-22T05:46:47Z", Group: "Pokemon" },
+            { Name: "Sneasel", Time: "2024-02-22T08:11:21Z", Group: "Pokemon" },
+            { Name: "Scyther", Time: "2024-02-22T09:14:40Z", Group: "Pokemon" },
             { Name: "Scizor", Time: "2024-02-22T09:14:59Z", Group: "Pokemon" },
+			
+            { Name: "Lugia", Time: "2024-02-22T12:54:14Z", Group: "Pokemon" },
+			
+            { Name: "Rattata", Time: "2024-02-22T13:12:32Z", Group: "Pokemon" },
+            { Name: "Drowzee", Time: "2024-02-22T13:41:21Z", Group: "Pokemon" },
+            { Name: "Machop", Time: "2024-02-22T13:44:52Z", Group: "Pokemon" },
+            { Name: "Shuckle", Time: "2024-02-22T18:38:08Z", Group: "Pokemon" },
+            { Name: "Psyduck", Time: "2024-02-22T19:42:44Z", Group: "Pokemon" },
+            { Name: "Ditto", Time: "2024-02-22T20:24:49Z", Group: "Pokemon" },
+			
 
         ]
     }
@@ -440,6 +457,7 @@ Season11.Runs.push(
             { Name: "Flaaffy", Time: "2024-02-20T02:55:27.9380846Z", Group: "Pokemon" },
             { Name: "Bayleef", Time: "2024-02-20T03:40:15.9076107Z", Group: "Pokemon" },
             { Name: "Kadabra", Time: "2024-02-20T05:41:56.6964687Z", Group: "Pokemon" },
+            { Name: "Graveler", Time: "2024-02-20T10:45:00Z", Group: "Pokemon" },
             { Name: "Golem", Time: "2024-02-20T10:45:18.3872306Z", Group: "Pokemon" },
             { Name: "Ledian", Time: "2024-02-20T11:32:14.6523236Z", Group: "Pokemon" },
             { Name: "Slowking", Time: "2024-02-20T17:57:22.5388267Z", Group: "Pokemon" },
@@ -453,31 +471,31 @@ Season11.Runs.push(
             { Name: "Slowpoke", Time: "2024-02-20T17:56:41Z", Group: "Pokemon" },
             { Name: "Stantler", Time: "2024-02-21T03:56:27Z", Group: "Pokemon" },
             { Name: "Umbreon", Time: "2024-02-21T15:19:28Z", Group: "Pokemon" },
+            { Name: "Marowak", Time: "2024-02-21T23:21:56Z", Group: "Pokemon" },
+            { Name: "Kangaskhan", Time: "2024-02-21T23:25:20Z", Group: "Pokemon" },
+            { Name: "Electabuzz", Time: "2024-02-21T23:34:45Z", Group: "Pokemon" },
 			
             { Name: "Scyther", Time: "2024-02-22T08:08:18Z", Group: "Pokemon" },
+            { Name: "Poliwhirl", Time: "2024-02-22T08:28:58Z", Group: "Pokemon" },
+            { Name: "Victreebel", Time: "2024-02-22T09:14:16Z", Group: "Pokemon" },
+            { Name: "Scizor", Time: "2024-02-22T09:15:57Z", Group: "Pokemon" },
+            { Name: "Meowth", Time: "2024-02-22T10:29:54Z", Group: "Pokemon" },
+            { Name: "Gloom", Time: "2024-02-22T10:34:50Z", Group: "Pokemon" },
+            { Name: "Hoothoot", Time: "2024-02-22T10:49:04Z", Group: "Pokemon" },
+            { Name: "Bellossom", Time: "2024-02-22T11:07:20Z", Group: "Pokemon" },
+            { Name: "Rattata", Time: "2024-02-22T11:36:06Z", Group: "Pokemon" },
+            { Name: "Ponyta", Time: "2024-02-22T11:51:05Z", Group: "Pokemon" },
+            { Name: "Tangela", Time: "2024-02-22T11:57:34Z", Group: "Pokemon" },
+            { Name: "Fearow", Time: "2024-02-22T13:00:53Z", Group: "Pokemon" },
             { Name: "Quagsire", Time: "2024-02-22T13:16:33Z", Group: "Pokemon" },
             { Name: "Tentacool", Time: "2024-02-22T13:22:35Z", Group: "Pokemon" },
-			
-			// GB Tower Revisit
-			
-			/*
-			<TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-24T11:11:45Z", IDNo: "26864", Attempts: 0, Party: [
-                    { Number: 249, Pokemon: "Lugia", Nickname: "Mxxxoo",  Level: 72, IDNo: "26491" },
-                    { Number: 65, Pokemon: "Alakazam", Nickname: "BBFNOOpf-", Gender: "Male", Level: 64, IDNo: "26864" },
-                ],
-                FirstAttemptDate: "",
-                Image: "img/ribbons/champion.png"
-            },
-			<TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-24T19:30:06Z", IDNo: "26864", Attempts: 0, Party: [
-                    { Number: 249, Pokemon: "Lugia", Nickname: "Mxxxoo",  Level: 75, IDNo: "26491" },
-                    { Number: 65, Pokemon: "Alakazam", Nickname: "BBFNOOpf-", Gender: "Male", Level: 64, IDNo: "26864" },
-                ],
-                FirstAttemptDate: "",
-                Image: "img/ribbons/champion.png"
-            },
-			*/
+            { Name: "Misdreavus", Time: "2024-02-22T14:14:59Z", Group: "Pokemon" },
+            { Name: "Seaking", Time: "2024-02-22T14:21:33Z", Group: "Pokemon" },
+            { Name: "Noctowl", Time: "2024-02-22T15:04:30Z", Group: "Pokemon" },
+            { Name: "Girafarig", Time: "2024-02-22T15:06:57Z", Group: "Pokemon" },
+            { Name: "Psyduck", Time: "2024-02-22T18:19:55Z", Group: "Pokemon" },
+            { Name: "Ho-Oh", Time: "2024-02-22T19:42:20Z", Group: "Pokemon" },
+            { Name: "Mantine", Time: "2024-02-22T19:45:07Z", Group: "Pokemon" },
 
         ]
     }

@@ -118,8 +118,7 @@ Season11.Runs.push(
             { Name: "Arbok", Time: "2024-02-15T06:17:38.0154592Z", Group: "Pokemon" },
             { Name: "Vileplume", Time: "2024-02-15T22:43:07.5374353Z", Group: "Pokemon" },
             { Name: "Hypno", Time: "2024-02-15T16:56:13.0823135Z", Group: "Pokemon" },
-
-            { Name: "Mewtwo", Time: "2024-02-18T00:12:18Z", Group: "Pokemon" },
+			
         ]
     }
 );
