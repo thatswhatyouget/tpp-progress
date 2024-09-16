@@ -12,8 +12,7 @@ Season11.Runs.push(
         Region: "Hoenn",
         Generation: 3,
         Pokedex: "Hoenn",
-        FromNatDex: true,
-        //FinalStateLink: "./states/Season 11/supergauntletes.json",
+        //FinalStateLink: "./states/Season 11/multiworldemerald.json",
         Events: [
             {
                 Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png",
@@ -167,7 +166,8 @@ Season11.Runs.push(
             { "Group": "Pokemon", "Name": "Shuppet", "Time": "2024-09-16T10:47:27.041Z" },
             { "Group": "Pokemon", "Name": "Kirlia", "Time": "2024-09-16T10:51:21.088Z" },
             { "Group": "Pokemon", "Name": "Natu", "Time": "2024-09-16T10:55:58.752Z" },
-            { "Group": "Pokemon", "Name": "Persian", "Time": "2024-09-16T11:39:03.924Z" }
+            { "Group": "Pokemon", "Name": "Persian", "Time": "2024-09-16T11:39:03.924Z" },
+            { "Group": "Pokemon", "Name": "Pichu", "Time": "2024-09-16T11:48:03.719Z" }
 
         ]
     }
