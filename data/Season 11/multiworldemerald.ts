@@ -6,8 +6,8 @@ Season11.Runs.push(
         ColorSecondary: "#3667B1",
         StartDate: "2024-09-14T16:00:00Z",
         Duration: "255d",
-        HostName: "",
-        //HostImage: "img/hosts/qq.png",
+        HostName: "KENNY",
+        HostImage: "img/hosts/orlando.png",
         BaseGame: "Emerald",
         Region: "Hoenn",
         Generation: 3,
@@ -166,7 +166,8 @@ Season11.Runs.push(
             { "Group": "Pokemon", "Name": "Growlithe", "Time": "2024-09-16T10:03:59.372Z" },
             { "Group": "Pokemon", "Name": "Shuppet", "Time": "2024-09-16T10:47:27.041Z" },
             { "Group": "Pokemon", "Name": "Kirlia", "Time": "2024-09-16T10:51:21.088Z" },
-            { "Group": "Pokemon", "Name": "Natu", "Time": "2024-09-16T10:55:58.752Z" }
+            { "Group": "Pokemon", "Name": "Natu", "Time": "2024-09-16T10:55:58.752Z" },
+            { "Group": "Pokemon", "Name": "Persian", "Time": "2024-09-16T11:39:03.924Z" }
 
         ]
     }
