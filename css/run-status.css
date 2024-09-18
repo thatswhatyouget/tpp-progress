@@ -352,7 +352,7 @@
     background-image:url("../img/pokemon-large.png");
     background-repeat: no-repeat;
     background-position: top left;
-    background-size: 1em;
+    background-size: 10em;
     image-rendering: pixelated;
 }
 
