@@ -61,21 +61,34 @@ Season11.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png",
-                Time: "", Attempts: 0
+                Time: "2024-09-18T08:00:04.281Z", Attempts: 3
             },
             {
                 Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png",
-                Time: "", Attempts: 0
+                Time: "2024-09-18T08:19:18.123Z", Attempts: 1
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "", Attempts: 0, Party: [
-                    // { Pokemon: "Minun", Nickname: "bnnuy", Level: 43, Gender: "Male", Number: 81, IDNo: "" },
-                    // { Pokemon: "Blaziken", Nickname: "WKKIII", Level: 63, Gender: "Female", Number: 6, IDNo: "" },
-                    // { Pokemon: "Zangoose", Nickname: "GGGUUvo", Level: 53, Gender: "Female", Number: 123, IDNo: "" },
-                    // { Pokemon: "Gorebyss", Nickname: "nnut…’’98D", Level: 66, Gender: "Female", Number: 178, IDNo: "" },
-                    // { Pokemon: "Grumpig", Nickname: "reyn", Level: 50, Gender: "Male", Number: 111, IDNo: "" },
-                    // { Pokemon: "Shiftry", Nickname: "IRPWWC", Level: 49, Gender: "Male", Number: 24, IDNo: "" },
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-09-18T08:20:00Z", IDNo: "16973", Attempts: 7, Party: [
+                    { Pokemon: "Ninetales", Nickname: "AW", Level: 53, Gender: "Female", Number: 38, IDNo: "16973" },
+                    { Pokemon: "Ampharos", Nickname: "BCD", Level: 48, Gender: "Male", Number: 181, IDNo: "16973" },
+                    { Pokemon: "Muk", Nickname: "UUVVOP", Level: 49, Gender: "Female", Number: 89, IDNo: "16973" },
+                    { Pokemon: "Mew", Nickname: "CRR", Level: 48, Number: 151, IDNo: "16973" },
+                    { Pokemon: "Ledian", Nickname: "Lea", Level: 50, Gender: "Female", Number: 166, IDNo: "16973" },
+                    { Pokemon: "Chimecho", Nickname: "Hells Bel", Level: 48, Gender: "Female", Number: 358, IDNo: "16973" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-09-18T17:34:00Z", IDNo: "16973", Attempts: 1, Party: [
+                    { Pokemon: "Latios", Nickname: "GGUUU", Level: 70, Gender: "Male", Number: 381, IDNo: "16973" },
+                    { Pokemon: "Ninetales", Nickname: "AW", Level: 55, Gender: "Female", Number: 38, IDNo: "16973" },
+                    { Pokemon: "Ho-oh", Nickname: "AE055", Level: 50, Number: 250, IDNo: "16973" },
+                    { Pokemon: "Mew", Nickname: "CRR", Level: 49, Number: 151, IDNo: "16973" },
+                    { Pokemon: "Ampharos", Nickname: "BCD", Level: 52, Gender: "Male", Number: 181, IDNo: "16973" },
+                    { Pokemon: "Pupitar", Level: 33, Gender: "Female", Number: 247, IDNo: "16973" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -215,9 +228,9 @@ Season11.Runs.push(
             { "Group": "Pokemon", "Name": "Ditto", "Time": "2024-09-17T09:02:41.020Z" },
             { "Group": "Pokemon", "Name": "Croconaw", "Time": "2024-09-17T10:02:48.860Z" },
             { "Group": "Pokemon", "Name": "Wailord", "Time": "2024-09-17T10:08:12.870Z" },
-            // { "Group": "Pokemon", "Name": "Metang", "Time": "2024-09-17T11:13:04.312Z", "Traded": true },
-            // { "Group": "Pokemon", "Name": "Skarmory", "Time": "2024-09-17T11:13:04.312Z", "Traded": true },
-            // { "Group": "Pokemon", "Name": "Aggron", "Time": "2024-09-17T11:13:08.018Z", "Traded": true },
+            // { "Group": "Pokemon", "Name": "Metang", "Time": "2024-09-17T11:13:04.312Z", "Traded": true }, // Steven's team
+            // { "Group": "Pokemon", "Name": "Skarmory", "Time": "2024-09-17T11:13:04.312Z", "Traded": true }, // Why can't I
+            // { "Group": "Pokemon", "Name": "Aggron", "Time": "2024-09-17T11:13:08.018Z", "Traded": true }, // Just go by dex?
             { "Group": "Pokemon", "Name": "Corphish", "Time": "2024-09-17T12:13:49.485Z" },
             { "Group": "Pokemon", "Name": "Azumarill", "Time": "2024-09-17T12:24:53.839Z" },
             { "Group": "Pokemon", "Name": "Hoppip", "Time": "2024-09-17T12:33:17.757Z" },
@@ -239,7 +252,38 @@ Season11.Runs.push(
             { "Group": "Pokemon", "Name": "Lairon", "Time": "2024-09-17T20:40:53.760Z" },
             { "Group": "Pokemon", "Name": "Swellow", "Time": "2024-09-17T21:07:18.753Z" },
             { "Group": "Pokemon", "Name": "Pelipper", "Time": "2024-09-17T21:24:54.111Z" },
-            { "Group": "Pokemon", "Name": "Staryu", "Time": "2024-09-17T21:30:18.825Z" }
+            { "Group": "Pokemon", "Name": "Staryu", "Time": "2024-09-17T21:30:18.825Z" },
+            { "Group": "Pokemon", "Name": "Kangaskhan", "Time": "2024-09-17T22:15:19.760Z" },
+            { "Group": "Pokemon", "Name": "Latios", "Time": "2024-09-17T22:56:24.304Z" },
+            { "Group": "Pokemon", "Name": "Phanpy", "Time": "2024-09-17T23:41:45.677Z" },
+            { "Group": "Pokemon", "Name": "Primeape", "Time": "2024-09-18T00:19:49.518Z" },
+            { "Group": "Pokemon", "Name": "Shroomish", "Time": "2024-09-18T00:22:20.681Z" },
+            { "Group": "Pokemon", "Name": "Machop", "Time": "2024-09-18T00:26:32.031Z" },
+            { "Group": "Pokemon", "Name": "Chinchou", "Time": "2024-09-18T00:47:49.505Z" },
+            { "Group": "Pokemon", "Name": "Carvanha", "Time": "2024-09-18T00:52:29.628Z" },
+            { "Group": "Pokemon", "Name": "Oddish", "Time": "2024-09-18T01:12:15.228Z" },
+            { "Group": "Pokemon", "Name": "Castform", "Time": "2024-09-18T02:12:25.360Z" },
+            { "Group": "Pokemon", "Name": "Haunter", "Time": "2024-09-18T02:28:43.177Z" },
+            { "Group": "Pokemon", "Name": "Pupitar", "Time": "2024-09-18T02:37:30.527Z" },
+            { "Group": "Pokemon", "Name": "Groudon", "Time": "2024-09-18T03:01:49.681Z" },
+            { "Group": "Pokemon", "Name": "Kyogre", "Time": "2024-09-18T04:13:02.016Z" },
+            // {"Group":"Pokemon","Name":"Sealeo","Time":"2024-09-18T04:24:30.911Z","Traded":true}, // ???
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "2024-09-18T08:38:09.309Z" },
+            {"Group":"Pokemon","Name":"Venomoth","Time":"2024-09-18T08:58:41.001Z"}, //Traded from T2P?
+            { "Group": "Pokemon", "Name": "Lileep", "Time": "2024-09-18T09:19:15.636Z" },
+            { "Group": "Pokemon", "Name": "Gorebyss", "Time": "2024-09-18T09:37:12.991Z" },
+            { "Group": "Pokemon", "Name": "Beldum", "Time": "2024-09-18T10:11:01.872Z" },
+            { "Group": "Pokemon", "Name": "Totodile", "Time": "2024-09-18T10:29:03.638Z" },
+            { "Group": "Pokemon", "Name": "Pineco", "Time": "2024-09-18T10:43:34.629Z" },
+            { "Group": "Pokemon", "Name": "Shedinja", "Time": "2024-09-18T11:00:37.981Z" },
+            { "Group": "Pokemon", "Name": "Barboach", "Time": "2024-09-18T11:02:35.738Z" },
+            { "Group": "Pokemon", "Name": "Forretress", "Time": "2024-09-18T11:22:07.480Z" },
+            { "Group": "Pokemon", "Name": "Smoochum", "Time": "2024-09-18T11:55:24.199Z" },
+            { "Group": "Pokemon", "Name": "Gengar", "Time": "2024-09-18T12:00:45.765Z" },
+            { "Group": "Pokemon", "Name": "Victreebel", "Time": "2024-09-18T13:10:58.845Z" },
+            { "Group": "Pokemon", "Name": "Jolteon", "Time": "2024-09-18T13:12:25.123Z" },
+            { "Group": "Pokemon", "Name": "Typhlosion", "Time": "2024-09-18T14:15:44.476Z" },
+            { "Group": "Pokemon", "Name": "Azurill", "Time": "2024-09-18T17:44:27.644Z" }
         ]
     }
 );
