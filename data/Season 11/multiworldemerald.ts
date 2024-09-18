@@ -49,15 +49,15 @@ Season11.Runs.push(
 
             {
                 Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png",
-                Time: "", Attempts: 0
+                Time: "2024-09-17T18:18:08.516Z", Attempts: 1
             },
             {
                 Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png",
-                Time: "", Attempts: 0
+                Time: "2024-09-17T19:05:41.732Z", Attempts: 3
             },
             {
                 Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png",
-                Time: "", Attempts: 0
+                Time: "2024-09-18T05:49:21.555Z", Attempts: 3
             },
             {
                 Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png",
