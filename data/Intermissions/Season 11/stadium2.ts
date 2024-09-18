@@ -227,7 +227,7 @@ Revisits.Runs.push(
 		
 			
         ],
-        Revisit: { Collection: "Season 11", Run: "Super Gauntlet Silver - GB Tower Revisit" },
+        Revisit: { Collection: "Revisit", Run: "Super Gauntlet Silver - GB Tower Revisit" },
         CopyEvents: ["Super Gauntlet Silver - GB Tower Revisit"],
     }
 );
