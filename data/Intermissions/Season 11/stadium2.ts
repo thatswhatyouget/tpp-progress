@@ -165,7 +165,7 @@ Revisits.Runs.push(
         ColorPrimary: "gold",
         ColorSecondary: "brown",
         StartDate: "2024-03-02T18:34:49Z",
-        Duration: "2024-03-04T07:40:38Z",
+        Duration: "2024-03-04T11:13:12Z",
         HostName: "RR ?-µZ",
         HostImage: "img/hosts/rr-mnz.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/",
@@ -190,7 +190,7 @@ Revisits.Runs.push(
         ColorPrimary: "#c0504d",
         ColorSecondary: "#8c3836",
         StartDate: "2024-03-03T11:53:34Z",
-        Duration: "2024-03-04T10:11:20Z",
+        Duration: "2024-03-04T10:29:15Z",
         HostName: "ASH",
         HostImage: "img/hosts/ash3.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/",
@@ -201,6 +201,9 @@ Revisits.Runs.push(
         // ContainsRunsFrom: ["Intermissions", "Revisits"],
         // FinalStateLink:"./states/Season 11/supergauntletred.json", 
         Events: [
+		
+			{ Name: "Poliwhirl", Time: "2024-03-04T09:11:34Z", Group: "Pokemon" },
+			{ Name: "Machop", Time: "2024-03-04T09:12:47Z", Group: "Pokemon" },
 			
         ],
         Revisit: { Collection: "Revisit", Run: "Super Gauntlet Red - GB Tower Revisit 2" },
@@ -214,7 +217,7 @@ Revisits.Runs.push(
         ColorPrimary: "silver",
         ColorSecondary: "darkgray",
         StartDate: "2024-03-03T12:11:43Z",
-        Duration: "2024-03-04T09:31:39Z",
+        Duration: "2024-03-04T11:00:49Z",
         HostName: "XYY",
         HostImage: "img/hosts/xyy.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/",
@@ -225,6 +228,11 @@ Revisits.Runs.push(
         // FinalStateLink:"./states/Season 11/supergauntletred.json", 
         Events: [
 		
+			{ Name: "Drowzee", Time: "2024-03-04T08:27:36Z", Group: "Pokemon" },
+			{ Name: "Machop", Time: "2024-03-04T08:34:34Z", Group: "Pokemon" },
+			{ Name: "Machamp", Time: "2024-03-04T09:08:24Z", Group: "Pokemon" },
+			{ Name: "Hypno", Time: "2024-03-04T09:11:29Z", Group: "Pokemon" },
+			{ Name: "Arbok", Time: "2024-03-04T09:12:42Z", Group: "Pokemon" },
 			
         ],
         Revisit: { Collection: "Revisit", Run: "Super Gauntlet Silver - GB Tower Revisit" },
