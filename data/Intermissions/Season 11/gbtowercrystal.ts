@@ -212,7 +212,74 @@ Revisits.Runs.push(
 			
             { Name: "Celebi", Time: "2024-03-31T06:15:29Z", Group: "Pokemon" },
             { Name: "Suicune", Time: "2024-03-31T07:26:12Z", Group: "Pokemon" },
+			
+			// 08:09:50
+			
             { Name: "Snorlax", Time: "2024-03-31T15:26:46Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges",
+                Name: "Boulder Badge",
+                Image: "img/badges/boulder.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-03-31T15:50:54Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges",
+                Name: "Volcano Badge",
+                Image: "img/badges/volcano.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-03-31T16:24:05Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges",
+                Name: "Earth Badge",
+                Image: "img/badges/earth.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-03-31T16:40:14Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges",
+                Name: "Cascade Badge",
+                Image: "img/badges/cascade.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-03-31T17:17:07Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges",
+                Name: "Marsh Badge",
+                Image: "img/badges/marsh.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-03-31T17:37:20Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges",
+                Name: "Rainbow Badge",
+                Image: "img/badges/rainbow.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-03-31T18:01:00Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges",
+                Name: "Soul Badge",
+                Image: "img/badges/soul.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-03-31T18:27:36Z", Attempts: 1
+            },
+			
+            {
+                Group: "Champions",
+                Name: "Red",
+                Image: "img/trainers/crystal/red.png",
+                ImageSource: "https://bulbapedia.bulbagarden.net/wiki/Red_(game)",
+                Time: "2024-03-31T23:49:55Z", Attempts: 8
+            },
 			
         ],
         Revisit: { Collection: "Intermissions", Run: "GB Tower Crystal" },
