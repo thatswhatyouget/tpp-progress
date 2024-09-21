@@ -155,7 +155,7 @@ Revisits.Runs.push(
             },
 			
         ],
-        Revisit: { Collection: "Intermissions", Run: "GB Tower Crystal - VC Revisit 1" },
+        Revisit: { Collection: "Revisits", Run: "GB Tower Crystal - VC Revisit 1" },
         CopyEvents: ["GB Tower Crystal - VC Revisit 1"],
     }
 );
