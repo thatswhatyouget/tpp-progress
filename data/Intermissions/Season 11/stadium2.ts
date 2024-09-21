@@ -1,7 +1,7 @@
 /// <reference path="../../tpp-data.ts" />
 Intermissions.Runs.push(
     {
-        RunName: "Stadium 2 (Super Gauntlet)",
+        RunName: "Stadium 2 (Super Gauntlet) Part 1",
         ColorPrimary: "#d0ae43",
         ColorSecondary: "#536ca4",
         StartDate: "2024-02-23T00:03:25Z",
@@ -133,7 +133,246 @@ Revisits.Runs.push(
 			{ Name: "Pinsir", Time: "2024-02-25T00:53:59Z", Group: "Pokemon" },
 			
         ],
-        Revisit: { Collection: "Season 11", Run: "Super Gauntlet Red - GB Tower Revisit" },
+        Revisit: { Collection: "Revisits", Run: "Super Gauntlet Red - GB Tower Revisit" },
         CopyEvents: ["Super Gauntlet Red - GB Tower Revisit"],
+    }
+);
+
+Intermissions.Runs.push(
+    {
+        RunName: "Stadium 2 (Super Gauntlet) Part 2",
+        ColorPrimary: "#d0ae43",
+        ColorSecondary: "#536ca4",
+        StartDate: "2024-03-02T17:36:02Z",
+        Duration: "2024-03-04T20:52:31Z",
+        HostName: "1P",
+        HostImage: "img/hosts/stadium.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+        LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
+        Generation: 2,
+        ContainsRunsFrom: ["Intermissions", "Revisits"],
+        Events: [
+			
+			
+			
+        ],
+    }
+);
+
+Revisits.Runs.push(
+    {
+        RunName: "Super Gauntlet Gold - GB Tower Revisit 2",
+        ColorPrimary: "gold",
+        ColorSecondary: "brown",
+        StartDate: "2024-03-02T18:34:49Z",
+        Duration: "2024-03-04T11:13:12Z",
+        HostName: "RR ?-µZ",
+        HostImage: "img/hosts/rr-mnz.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/",
+        BaseGame: "Gold",
+        Region: "Johto",
+        Generation: 2,
+        LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
+        //FinalStateLink: "./states/Season 11/supergauntletgs.json",
+        Events: [
+		
+			
+        ],
+        Revisit: { Collection: "Revisits", Run: "Super Gauntlet Gold - GB Tower Revisit" },
+        CopyEvents: ["Super Gauntlet Gold - GB Tower Revisit"],
+    }
+);
+
+
+Revisits.Runs.push(
+    {
+        RunName: "Super Gauntlet Red - GB Tower Revisit 3",
+        ColorPrimary: "#c0504d",
+        ColorSecondary: "#8c3836",
+        StartDate: "2024-03-03T11:53:34Z",
+        Duration: "2024-03-04T10:29:15Z",
+        HostName: "ASH",
+        HostImage: "img/hosts/ash3.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/",
+        LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
+        Region: "Kanto",
+        Generation: 1,
+        Pokedex: "Kanto",
+        // ContainsRunsFrom: ["Intermissions", "Revisits"],
+        // FinalStateLink:"./states/Season 11/supergauntletred.json", 
+        Events: [
+		
+			{ Name: "Poliwhirl", Time: "2024-03-04T09:11:34Z", Group: "Pokemon" },
+			{ Name: "Machop", Time: "2024-03-04T09:12:47Z", Group: "Pokemon" },
+			
+        ],
+        Revisit: { Collection: "Revisits", Run: "Super Gauntlet Red - GB Tower Revisit 2" },
+        CopyEvents: ["Super Gauntlet Red - GB Tower Revisit 2"],
+    }
+);
+
+Revisits.Runs.push(
+    {
+        RunName: "Super Gauntlet Silver - GB Tower Revisit 2",
+        ColorPrimary: "silver",
+        ColorSecondary: "darkgray",
+        StartDate: "2024-03-03T12:11:43Z",
+        Duration: "2024-03-04T11:00:49Z",
+        HostName: "XYY",
+        HostImage: "img/hosts/xyy.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/",
+        BaseGame: "Silver",
+        Region: "Johto",
+        Generation: 2,
+        LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
+        // FinalStateLink:"./states/Season 11/supergauntletred.json", 
+        Events: [
+		
+			{ Name: "Drowzee", Time: "2024-03-04T08:27:36Z", Group: "Pokemon" },
+			{ Name: "Machop", Time: "2024-03-04T08:34:34Z", Group: "Pokemon" },
+			{ Name: "Machamp", Time: "2024-03-04T09:08:24Z", Group: "Pokemon" },
+			{ Name: "Hypno", Time: "2024-03-04T09:11:29Z", Group: "Pokemon" },
+			{ Name: "Arbok", Time: "2024-03-04T09:12:42Z", Group: "Pokemon" },
+			
+        ],
+        Revisit: { Collection: "Revisits", Run: "Super Gauntlet Silver - GB Tower Revisit" },
+        CopyEvents: ["Super Gauntlet Silver - GB Tower Revisit"],
+    }
+);
+
+Intermissions.Runs.push(
+    {
+        RunName: "Stadium 2 (Super Gauntlet) Part 3",
+        ColorPrimary: "#d0ae43",
+        ColorSecondary: "#536ca4",
+        StartDate: "2024-04-11T23:51:26Z",
+        Duration: "2024-04-13T08:11:46Z",
+        HostName: "1P",
+        HostImage: "img/hosts/stadium.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+        LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
+        Generation: 2,
+        ContainsRunsFrom: ["Intermissions", "Revisits"],
+        Events: [
+		
+			{ Name: "Gligar", Time: "2024-04-13T07:53:50Z", Group: "Pokemon" },
+			
+        ],
+    }
+);
+
+Revisits.Runs.push(
+    {
+        RunName: "Super Gauntlet Gold - GB Tower Revisit 3",
+        ColorPrimary: "gold",
+        ColorSecondary: "brown",
+        StartDate: "2024-04-12T06:56:09Z",
+        Duration: "2024-04-12T08:40:03Z",
+        HostName: "RR ?-µZ",
+        HostImage: "img/hosts/rr-mnz.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/",
+        BaseGame: "Gold",
+        Region: "Johto",
+        Generation: 2,
+        LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
+        //FinalStateLink: "./states/Season 11/supergauntletgs.json",
+        Events: [
+		
+			{ Name: "Paras", Time: "2024-04-12T07:21:52Z", Group: "Pokemon" },
+			{ Name: "Gligar", Time: "2024-04-13T08:02:38Z", Group: "Pokemon" },
+			
+        ],
+        Revisit: { Collection: "Revisits", Run: "Super Gauntlet Gold - GB Tower Revisit 2" },
+        CopyEvents: ["Super Gauntlet Gold - GB Tower Revisit 2"],
+    }
+);
+
+Revisits.Runs.push(
+    {
+        RunName: "Super Gauntlet Silver - GB Tower Revisit 3",
+        ColorPrimary: "silver",
+        ColorSecondary: "darkgray",
+        StartDate: "2024-04-12T06:58:30Z",
+        Duration: "2024-04-12T11:49:35Z",
+        HostName: "XYY",
+        HostImage: "img/hosts/xyy.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/",
+        BaseGame: "Silver",
+        Region: "Johto",
+        Generation: 2,
+        LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
+        // FinalStateLink:"./states/Season 11/supergauntletred.json", 
+        Events: [
+			
+			{ Name: "Paras", Time: "2024-04-12T09:05:25Z", Group: "Pokemon" },
+			{ Name: "NidoranM", Time: "2024-04-12T09:08:34Z", Group: "Pokemon" },
+			
+        ],
+        Revisit: { Collection: "Revisits", Run: "Super Gauntlet Silver - GB Tower Revisit 2" },
+        CopyEvents: ["Super Gauntlet Silver - GB Tower Revisit 2"],
+    }
+);
+
+Revisits.Runs.push(
+    {
+        RunName: "GB Tower Crystal - GB Tower Revisit",
+        StartDate: "2024-04-12T07:01:57Z",
+        Duration: "2024-04-12T17:02:59Z",
+        ColorPrimary: "#609be1",
+        ColorSecondary: "#534d13",
+        HostImage: "img/hosts/baba.png",
+        // HostImageSource: "",
+        HostName: "AMANDA",
+        Region: "Johto",
+        Generation: 2,
+        Pokedex:"New",
+        Events: [
+			
+        ],
+        Revisit: { Collection: "Revisits", Run: "GB Tower Crystal - VC Revisit 2" },
+        CopyEvents: ["GB Tower Crystal - VC Revisit 2"],
+    }
+);
+
+Revisits.Runs.push(
+    {
+        RunName: "Super Gauntlet Red - GB Tower Revisit 4",
+        ColorPrimary: "#c0504d",
+        ColorSecondary: "#8c3836",
+        StartDate: "2024-04-12T07:24:27Z",
+        Duration: "2024-04-12T10:11:05Z",
+        HostName: "ASH",
+        HostImage: "img/hosts/ash3.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/",
+        LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
+        Region: "Kanto",
+        Generation: 1,
+        Pokedex: "Kanto",
+        // ContainsRunsFrom: ["Intermissions", "Revisits"],
+        // FinalStateLink:"./states/Season 11/supergauntletred.json", 
+        Events: [
+			
+        ],
+        Revisit: { Collection: "Revisits", Run: "Super Gauntlet Red - GB Tower Revisit 3" },
+        CopyEvents: ["Super Gauntlet Red - GB Tower Revisit 3"],
+    }
+);
+
+Intermissions.Runs.push(
+    {
+        RunName: "Stadium 2 (Super Gauntlet) Part 4",
+        ColorPrimary: "#d0ae43",
+        ColorSecondary: "#536ca4",
+        StartDate: "2024-04-13T08:24:39Z",
+        Duration: "2024-04-13T08:28:50Z",
+        HostName: "1P",
+        HostImage: "img/hosts/stadium.png",
+        HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+        LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
+        Generation: 2,
+        ContainsRunsFrom: ["Intermissions", "Revisits"],
+        Events: [
+			
+        ],
     }
 );
