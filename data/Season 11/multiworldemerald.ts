@@ -69,7 +69,7 @@ Season11.Runs.push(
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-09-18T08:20:00Z", IDNo: "16973", Attempts: 7, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-09-18T08:20:46Z", IDNo: "16973", Attempts: 7, Party: [
                     { Pokemon: "Ninetales", Nickname: "AW", Level: 53, Gender: "Female", Number: 38, IDNo: "16973" },
                     { Pokemon: "Ampharos", Nickname: "BCD", Level: 48, Gender: "Male", Number: 181, IDNo: "16973" },
                     { Pokemon: "Muk", Nickname: "UUVVOP", Level: 49, Gender: "Female", Number: 89, IDNo: "16973" },
@@ -82,13 +82,26 @@ Season11.Runs.push(
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-09-18T17:34:00Z", IDNo: "16973", Attempts: 1, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-09-18T17:35:56Z", IDNo: "16973", Attempts: 1, Party: [
                     { Pokemon: "Latios", Nickname: "GGUUU", Level: 70, Gender: "Male", Number: 381, IDNo: "16973" },
                     { Pokemon: "Ninetales", Nickname: "AW", Level: 55, Gender: "Female", Number: 38, IDNo: "16973" },
-                    { Pokemon: "Ho-oh", Nickname: "AE055", Level: 50, Number: 250, IDNo: "16973" },
+                    { Pokemon: "Ho-Oh", Nickname: "AE055", Level: 50, Number: 250, IDNo: "16973" },
                     { Pokemon: "Mew", Nickname: "CRR", Level: 49, Number: 151, IDNo: "16973" },
                     { Pokemon: "Ampharos", Nickname: "BCD", Level: 52, Gender: "Male", Number: 181, IDNo: "16973" },
                     { Pokemon: "Pupitar", Level: 33, Gender: "Female", Number: 247, IDNo: "16973" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-09-18T23:21:34Z", IDNo: "16973", Attempts: 1, Party: [
+                    { Pokemon: "Latios", Nickname: "GGUUU", Level: 73, Gender: "Male", Number: 381, IDNo: "16973" },
+                    { Pokemon: "Ninetales", Nickname: "AW", Level: 57, Gender: "Female", Number: 38, IDNo: "16973" },
+                    { Pokemon: "Mew", Nickname: "CRR", Level: 49, Number: 151, IDNo: "16973" },
+                    { Pokemon: "Muk", Nickname: "UUVVOP", Level: 49, Gender: "Female", Number: 89, IDNo: "16973" },
+                    { Pokemon: "Ledian", Nickname: "Lea", Level: 51, Gender: "Female", Number: 166, IDNo: "16973" },
+                    { Pokemon: "Ampharos", Nickname: "BCD", Level: 55, Gender: "Male", Number: 181, IDNo: "16973" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
