@@ -159,7 +159,7 @@ Season9.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2023-01-27T21:59:41Z", Attempts: 1, Party: [
                     { Pokemon: "Luxray", Nickname: "Iron Sight", Level: 100, Gender: "Female", Class: "Shiny" },
-                    { Pokemon: "Magearna", Nickname: "Anastasia", Level: 99 },
+                    { Pokemon: "Magearna", Nickname: "Anastasia", PreviousNick: "Ann", Level: 99 },
                     { Pokemon: "Iron Bundle", Nickname: "Delibot", Level: 99 },
                     { Pokemon: "Grafaiai", Nickname: "Legraf", Level: 100, Gender: "Male" },
                     { Pokemon: "Braviary", Nickname: "Sliasslo", Level: 100, Gender: "Male" },
@@ -174,7 +174,7 @@ Season9.Runs.push(
                     { Pokemon: "Grafaiai", Nickname: "Legraf", Level: 100, Gender: "Male" },
                     { Pokemon: "Clodsire", Nickname: ":u6708:", Level: 100, Gender: "Male" },
                     { Pokemon: "Iron Bundle", Nickname: "Delibot", Level: 100 },
-                    { Pokemon: "Magearna", Nickname: "Anastasia", Level: 100 },
+                    { Pokemon: "Magearna", Nickname: "Anastasia", PreviousNick: "Ann", Level: 100 },
                     { Pokemon: "Braviary", Nickname: "Sliasslo", Level: 100, Gender: "Male" },
                     { Pokemon: "Luxray", Nickname: "Iron Sight", Level: 100, Gender: "Female", Class: "Shiny" },
                 ],
@@ -189,7 +189,7 @@ Season9.Runs.push(
                     { Pokemon: "Iron Bundle", Nickname: "Delibot", Level: 100 },
                     { Pokemon: "Grafaiai", Nickname: "Legraf", Level: 100, Gender: "Male" },
                     { Pokemon: "Luxray", Nickname: "Iron Sight", Level: 100, Gender: "Female", Class: "Shiny" },
-                    { Pokemon: "Magearna", Nickname: "Anastasia", Level: 100 },
+                    { Pokemon: "Magearna", Nickname: "Anastasia", PreviousNick: "Ann", Level: 100 },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -213,7 +213,7 @@ Season9.Runs.push(
                     { Pokemon: "Arceus", Nickname: "Odio", Level: 100 },
                     { Pokemon: "Luxray", Nickname: "Iron Sight", Level: 100, Gender: "Female", Class: "Shiny" },
                     { Pokemon: "Grafaiai", Nickname: "Legraf", Level: 100, Gender: "Male" },
-                    { Pokemon: "Magearna", Nickname: "Anastasia", Level: 100 },
+                    { Pokemon: "Magearna", Nickname: "Anastasia", PreviousNick: "Ann", Level: 100 },
                     { Pokemon: "Clodsire", Nickname: ":u6708:", Level: 100, Gender: "Male" },
                     { Pokemon: "Iron Bundle", Nickname: "Delibot", Level: 100 },
                 ],
