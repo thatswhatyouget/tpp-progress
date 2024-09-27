@@ -67,6 +67,10 @@ Season11.Runs.push(
                 Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png",
                 Time: "2024-09-18T08:19:18.123Z", Attempts: 1
             },
+            {
+                Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png",
+                Time: "2024-09-19T04:35:41.331Z", Attempts: 1
+            },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-09-18T08:20:46Z", IDNo: "16973", Attempts: 7, Party: [
