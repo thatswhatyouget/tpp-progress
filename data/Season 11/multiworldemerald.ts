@@ -5,7 +5,7 @@ Season11.Runs.push(
         ColorPrimary: "#3FB249",
         ColorSecondary: "#3667B1",
         StartDate: "2024-09-14T16:00:00Z",
-        Duration: "255d",
+        Duration: "2024-09-19T04:36:37Z",
         HostName: "KENNY",
         HostImage: "img/hosts/orlando.png",
         BaseGame: "Emerald",
