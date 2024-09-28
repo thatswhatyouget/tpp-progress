@@ -5,7 +5,7 @@ Season11.Runs.push(
         ColorPrimary: "#3FB249",
         ColorSecondary: "#3667B1",
         StartDate: "2024-09-14T16:00:00Z",
-        Duration: "255d",
+        Duration: "2024-09-19T04:36:37Z",
         HostName: "KENNY",
         HostImage: "img/hosts/orlando.png",
         BaseGame: "Emerald",
@@ -67,9 +67,13 @@ Season11.Runs.push(
                 Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png",
                 Time: "2024-09-18T08:19:18.123Z", Attempts: 1
             },
+            {
+                Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png",
+                Time: "2024-09-19T04:35:41.331Z", Attempts: 1
+            },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-09-18T08:20:00Z", IDNo: "16973", Attempts: 7, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-09-18T08:20:46Z", IDNo: "16973", Attempts: 7, Party: [
                     { Pokemon: "Ninetales", Nickname: "AW", Level: 53, Gender: "Female", Number: 38, IDNo: "16973" },
                     { Pokemon: "Ampharos", Nickname: "BCD", Level: 48, Gender: "Male", Number: 181, IDNo: "16973" },
                     { Pokemon: "Muk", Nickname: "UUVVOP", Level: 49, Gender: "Female", Number: 89, IDNo: "16973" },
@@ -82,13 +86,26 @@ Season11.Runs.push(
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-09-18T17:34:00Z", IDNo: "16973", Attempts: 1, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-09-18T17:35:56Z", IDNo: "16973", Attempts: 1, Party: [
                     { Pokemon: "Latios", Nickname: "GGUUU", Level: 70, Gender: "Male", Number: 381, IDNo: "16973" },
                     { Pokemon: "Ninetales", Nickname: "AW", Level: 55, Gender: "Female", Number: 38, IDNo: "16973" },
-                    { Pokemon: "Ho-oh", Nickname: "AE055", Level: 50, Number: 250, IDNo: "16973" },
+                    { Pokemon: "Ho-Oh", Nickname: "AE055", Level: 50, Number: 250, IDNo: "16973" },
                     { Pokemon: "Mew", Nickname: "CRR", Level: 49, Number: 151, IDNo: "16973" },
                     { Pokemon: "Ampharos", Nickname: "BCD", Level: 52, Gender: "Male", Number: 181, IDNo: "16973" },
                     { Pokemon: "Pupitar", Level: 33, Gender: "Female", Number: 247, IDNo: "16973" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-09-18T23:21:34Z", IDNo: "16973", Attempts: 1, Party: [
+                    { Pokemon: "Latios", Nickname: "GGUUU", Level: 73, Gender: "Male", Number: 381, IDNo: "16973" },
+                    { Pokemon: "Ninetales", Nickname: "AW", Level: 57, Gender: "Female", Number: 38, IDNo: "16973" },
+                    { Pokemon: "Mew", Nickname: "CRR", Level: 49, Number: 151, IDNo: "16973" },
+                    { Pokemon: "Muk", Nickname: "UUVVOP", Level: 49, Gender: "Female", Number: 89, IDNo: "16973" },
+                    { Pokemon: "Ledian", Nickname: "Lea", Level: 51, Gender: "Female", Number: 166, IDNo: "16973" },
+                    { Pokemon: "Ampharos", Nickname: "BCD", Level: 55, Gender: "Male", Number: 181, IDNo: "16973" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
