@@ -130,8 +130,14 @@ Season11.Runs.push(
 			
             { Name: "Beldum", Time: "2024-03-01T03:22:54Z", Group: "Pokemon" },
             { Name: "Castform", Time: "2024-03-01T06:26:00Z", Group: "Pokemon" },
+            { Name: "Tentacool", Time: "2024-03-01T12:54:30Z", Group: "Pokemon" },
             { Name: "Latias", Time: "2024-03-01T13:31:23Z", Group: "Pokemon" },
+            { Name: "Ninjask", Time: "2024-03-01T16:07:42Z", Group: "Pokemon" },
+            { Name: "Shedinja", Time: "2024-03-01T16:07:42Z", Group: "Pokemon" },
             { Name: "Wynaut", Time: "2024-03-01T18:45:25Z", Group: "Pokemon" },
+            { Name: "Jirachi", Time: "2024-03-02T02:27:21Z", Group: "Pokemon" },
+            { Name: "Trapinch", Time: "2024-03-02T11:46:04Z", Group: "Pokemon" },
+            { Name: "Sandshrew", Time: "2024-03-02T11:49:02Z", Group: "Pokemon" },
 			
 			// Received during Colosseum:
             // { Name: "Mantine", Time: "2024-04-21T06:16:11Z", Group: "Pokemon" },
@@ -279,8 +285,13 @@ Season11.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
 			
+            { Name: "Trapinch", Time: "2024-02-29T20:14:44Z", Group: "Pokemon" },
             { Name: "Latios", Time: "2024-03-01T05:16:47Z", Group: "Pokemon" },
+            { Name: "Carvanha", Time: "2024-03-01T13:21:55Z", Group: "Pokemon" },
+            { Name: "Shuppet", Time: "2024-03-01T21:20:47Z", Group: "Pokemon" },
             { Name: "Numel", Time: "2024-03-02T01:20:39Z", Group: "Pokemon" },
+            { Name: "Machop", Time: "2024-03-02T01:45:33Z", Group: "Pokemon" },
+            { Name: "Linoone", Time: "2024-03-02T05:07:27Z", Group: "Pokemon" },
             { Name: "Wobbuffet", Time: "2024-03-02T08:49:01Z", Group: "Pokemon" },
             { Name: "Duskull", Time: "2024-03-02T09:18:33Z", Group: "Pokemon" },
 			
