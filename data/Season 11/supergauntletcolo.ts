@@ -11,6 +11,7 @@ Season11.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Orre",
         Generation: 3,
+        ContainsRunsFrom: ["Revisits"],
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
         //FinalStateLink: "./states/Season 11/supergauntletcolo.json",
         Events: [
@@ -191,9 +192,6 @@ Season11.Runs.push(
             { Name: "Latias", Time: "2024-04-21T06:48:25Z", Group: "Pokemon" },
             { Name: "Celebi", Time: "2024-04-21T23:51:18Z", Group: "Pokemon" },
             { Name: "Pikachu", Time: "2024-04-21T23:52:17Z", Group: "Pokemon" },
-			
-			// Received during Orre Colosseum Revisit
-            // { Name: "Tentacool", Time: "2024-05-11T21:04:50Z", Group: "Pokemon" },
 
         ]
     }
