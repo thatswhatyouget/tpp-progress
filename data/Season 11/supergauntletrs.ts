@@ -278,9 +278,6 @@ Season11.Runs.push(
             { Name: "Wobbuffet", Time: "2024-03-02T08:49:01Z", Group: "Pokemon" },
             { Name: "Duskull", Time: "2024-03-02T09:18:33Z", Group: "Pokemon" },
 			
-			// Received during Colosseum:
-            // { Name: "Groudon", Time: "2024-04-22T05:11:18Z", Group: "Pokemon" },
-			
         ]
     }
 );
