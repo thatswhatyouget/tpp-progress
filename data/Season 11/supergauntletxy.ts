@@ -70,7 +70,7 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
 			
-			// Missing Chespin
+            { Name: "Chespin", Time: "2024-03-25T21:08:44Z", Group: "Pokemon" },
             { Name: "Weedle", Time: "2024-03-25T21:22:09Z", Group: "Pokemon" },
             { Name: "Scatterbug", Time: "2024-03-25T21:23:29Z", Group: "Pokemon" },
             { Name: "Caterpie", Time: "2024-03-25T21:28:18Z", Group: "Pokemon" },
@@ -82,6 +82,7 @@ Season11.Runs.push(
             { Name: "Azurill", Time: "2024-03-25T22:10:13Z", Group: "Pokemon" },
             { Name: "Farfetch'd", Time: "2024-03-26T00:00:56Z", Group: "Pokemon" },
             { Name: "Budew", Time: "2024-03-26T00:06:45Z", Group: "Pokemon" },
+            { Name: "Charmander", Time: "2024-03-26T01:24:38Z", Group: "Pokemon" },
 			// Missing Ralts
             { Name: "Espurr", Time: "2024-03-26T04:10:21Z", Group: "Pokemon" },
             { Name: "Oddish", Time: "2024-03-26T04:18:36Z", Group: "Pokemon" },
@@ -270,7 +271,7 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
 			
-			// Missing Fennekin
+            { Name: "Fennekin", Time: "2024-03-25T21:06:52Z", Group: "Pokemon" },
             { Name: "Scatterbug", Time: "2024-03-25T21:23:08Z", Group: "Pokemon" },
             { Name: "Fletchling", Time: "2024-03-25T21:28:41Z", Group: "Pokemon" },
             { Name: "Panpour", Time: "2024-03-25T21:47:25Z", Group: "Pokemon" },
