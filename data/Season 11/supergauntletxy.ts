@@ -18,10 +18,6 @@ Season11.Runs.push(
         // FinalStateLink: "./states/Season 11/supergauntletxy.json",
         Events: [
             {
-                Group: "Badges", Name: "Bug Badge", Image: "img/badges/bug.png",
-                Time: "", Attempts: 0
-            },
-            {
                 Group: "Badges", Name: "Cliff Badge", Image: "img/badges/cliff.png",
                 Time: "", Attempts: 0
             },
@@ -80,25 +76,33 @@ Season11.Runs.push(
             { Name: "Bidoof", Time: "2024-03-25T21:54:29Z", Group: "Pokemon" },
             { Name: "Swirlix", Time: "2024-03-25T22:07:01Z", Group: "Pokemon", Class: "WifiTrade" },
             { Name: "Azurill", Time: "2024-03-25T22:10:13Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Bug Badge", Image: "img/badges/bug.png",
+                Time: "2024-03-25T23:51:30Z", Attempts: 1
+            },
+			
             { Name: "Farfetch'd", Time: "2024-03-26T00:00:56Z", Group: "Pokemon" },
             { Name: "Budew", Time: "2024-03-26T00:06:45Z", Group: "Pokemon" },
+            { Name: "Flabébé", Time: "2024-03-26T00:14:04Z", Group: "Pokemon" },
+            { Name: "Ralts", Time: "2024-03-26T00:15:06Z", Group: "Pokemon" },
+            { Name: "Quilladin", Time: "2024-03-26T00:28:35Z", Group: "Pokemon" },
             { Name: "Charmander", Time: "2024-03-26T01:24:38Z", Group: "Pokemon" },
-			// Missing Ralts
+            { Name: "Skiddo", Time: "2024-03-26T02:14:23Z", Group: "Pokemon" },
+            { Name: "Sentret", Time: "2024-03-26T04:09:14Z", Group: "Pokemon" },
             { Name: "Espurr", Time: "2024-03-26T04:10:21Z", Group: "Pokemon" },
             { Name: "Oddish", Time: "2024-03-26T04:18:36Z", Group: "Pokemon" },
-			// Missing Quilladin
             { Name: "Snorlax", Time: "2024-03-26T04:29:39Z", Group: "Pokemon" },
             { Name: "Spritzee", Time: "2024-03-26T05:04:47Z", Group: "Pokemon" },
             { Name: "Roselia", Time: "2024-03-26T06:33:26Z", Group: "Pokemon" },
             { Name: "Marill", Time: "2024-03-26T06:35:16Z", Group: "Pokemon" },
-			// Missing Flabébé
             { Name: "Zubat", Time: "2024-03-26T06:41:35Z", Group: "Pokemon" },
             { Name: "Hippopotas", Time: "2024-03-26T07:54:27Z", Group: "Pokemon" },
             { Name: "Mawile", Time: "2024-03-26T08:12:42Z", Group: "Pokemon" },
             { Name: "Azumarill", Time: "2024-03-26T11:28:49Z", Group: "Pokemon" },
             { Name: "Floette", Time: "2024-03-26T12:02:33Z", Group: "Pokemon" },
             { Name: "Absol", Time: "2024-03-26T16:04:50Z", Group: "Pokemon" },
-			// Missing Sandile, Sentret, Skiddo, Furfrou, Smeargle, Volbeat, Ducklett, Illumise, Hoppip, Whismur, Snubbull, Kirlia, and Eevee
+			// Missing Sandile, Furfrou, Smeargle, Volbeat, Ducklett, Illumise, Hoppip, Whismur, Snubbull, Kirlia, and Eevee
             { Name: "Hawlucha", Time: "2024-03-26T18:43:30Z", Group: "Pokemon" },
             { Name: "Sawk", Time: "2024-03-26T19:28:01Z", Group: "Pokemon" },
             { Name: "Stunky", Time: "2024-03-26T19:40:53Z", Group: "Pokemon" },
@@ -219,10 +223,6 @@ Season11.Runs.push(
         // FinalStateLink: "./states/Season 11/supergauntletxy.json",
         Events: [
             {
-                Group: "Badges", Name: "Bug Badge", Image: "img/badges/bug.png",
-                Time: "", Attempts: 0
-            },
-            {
                 Group: "Badges", Name: "Cliff Badge", Image: "img/badges/cliff.png",
                 Time: "", Attempts: 0
             },
@@ -280,12 +280,21 @@ Season11.Runs.push(
             { Name: "Bidoof", Time: "2024-03-25T22:07:01Z", Group: "Pokemon" },
             { Name: "Spewpa", Time: "2024-03-25T22:40:17Z", Group: "Pokemon" },
             { Name: "Vivillon", Time: "2024-03-25T23:36:51Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Bug Badge", Image: "img/badges/bug.png",
+                Time: "2024-03-25T23:37:42Z", Attempts: 1
+            },
+			
             { Name: "Braixen", Time: "2024-03-25T23:53:11Z", Group: "Pokemon" },
+            { Name: "Charmander", Time: "2024-03-26T00:16:47Z", Group: "Pokemon" },
+            { Name: "Furfrou", Time: "2024-03-26T01:01:40Z", Group: "Pokemon" },
+            { Name: "Snorlax", Time: "2024-03-26T02:07:12Z", Group: "Pokemon" },
             { Name: "Doduo", Time: "2024-03-26T03:26:16Z", Group: "Pokemon" },
             { Name: "Minun", Time: "2024-03-26T03:28:28Z", Group: "Pokemon" },
             { Name: "Spritzee", Time: "2024-03-26T03:48:31Z", Group: "Pokemon" },
             { Name: "Pikachu", Time: "2024-03-26T05:04:47Z", Group: "Pokemon" },
-			// Missing Pancham, Furfrou, Roselia and Volbeat
+			// Missing Pancham, Roselia and Volbeat
             { Name: "Hawlucha", Time: "2024-03-26T17:22:01Z", Group: "Pokemon" },
 			// Missing Delphox, Lapras, and Axew
             { Name: "Rotom", Time: "2024-03-26T23:45:41Z", Group: "Pokemon" },
