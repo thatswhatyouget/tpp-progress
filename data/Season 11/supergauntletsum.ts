@@ -87,6 +87,7 @@ Season11.Runs.push(
 			{ Name: "Geodude", Time: "2024-04-03T01:13:00Z", Group: "Pokemon" },
 			{ Name: "Togedemaru", Time: "2024-04-03T01:18:30Z", Group: "Pokemon" },
 			{ Name: "Elekid", Time: "2024-04-03T01:33:48Z", Group: "Pokemon" },
+			{ Name: "Charjabug", Time: "2024-04-03T01:35:08Z", Group: "Pokemon" },
 			{ Name: "Turtonator", Time: "2024-04-03T01:38:01Z", Group: "Pokemon" },
 			{ Name: "Snorunt", Time: "2024-04-03T02:00:14Z", Group: "Pokemon" },
 			{ Name: "Vulpix", Time: "2024-04-03T02:27:23Z", Group: "Pokemon" },
@@ -107,13 +108,17 @@ Season11.Runs.push(
 			{ Name: "Sandile", Time: "2024-04-03T09:47:19Z", Group: "Pokemon" },
 			{ Name: "Incineroar", Time: "2024-04-03T10:20:19Z", Group: "Pokemon" },
 			{ Name: "Ribombee", Time: "2024-04-03T10:27:08Z", Group: "Pokemon" },
-			// Missing Ninetales
+			{ Name: "Fearow", Time: "2024-04-03T11:07:26Z", Group: "Pokemon" },
+			{ Name: "Ninetales", Time: "2024-04-03T12:14:02Z", Group: "Pokemon" },
+			{ Name: "Trapinch", Time: "2024-04-03T18:36:39Z", Group: "Pokemon" },
 			{ Name: "Granbull", Time: "2024-04-03T19:05:53Z", Group: "Pokemon" },
-			// Missing Trapinch
 			{ Name: "Vibrava", Time: "2024-04-03T23:08:52Z", Group: "Pokemon" },
+			{ Name: "Lycanroc", Time: "2024-04-03T23:42:14Z", Group: "Pokemon" },
 			{ Name: "Solgaleo", Time: "2024-04-04T01:16:27Z", Group: "Pokemon" },
 			{ Name: "Beldum", Time: "2024-04-04T02:32:38Z", Group: "Pokemon" },
 			{ Name: "Flygon", Time: "2024-04-04T02:51:28Z", Group: "Pokemon" },
+			{ Name: "Grubbin", Time: "2024-04-04T06:29:45Z", Group: "Pokemon" },
+			{ Name: "Igglybuff", Time: "2024-04-04T06:36:48Z", Group: "Pokemon" },
 			{ Name: "Wimpod", Time: "2024-04-04T06:59:17Z", Group: "Pokemon" },
 			{ Name: "Steenee", Time: "2024-04-04T07:18:52Z", Group: "Pokemon" },
 			{ Name: "Absol", Time: "2024-04-04T07:25:48Z", Group: "Pokemon" },
@@ -123,7 +128,6 @@ Season11.Runs.push(
 			{ Name: "Crabominable", Time: "2024-04-04T08:12:20Z", Group: "Pokemon" },
 			{ Name: "Toucannon", Time: "2024-04-04T09:11:18Z", Group: "Pokemon" },
 			{ Name: "Mudsdale", Time: "2024-04-04T09:27:41Z", Group: "Pokemon" },
-			// Missing Grubbin and Charjabug
 			{ Name: "Vikavolt", Time: "2024-04-04T09:47:46Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
@@ -145,8 +149,23 @@ Season11.Runs.push(
             { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", Class: "Rematch" },
             { "Group": "Champions", "Name": "Hau", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
 			
-			// Missing Igglybuff
+			{ Name: "Pinsir", Time: "2024-04-04T17:19:59Z", Group: "Pokemon" },
+			{ Name: "Hariyama", Time: "2024-04-04T17:31:21Z", Group: "Pokemon" },
+			{ Name: "Braviary", Time: "2024-04-04T17:35:58Z", Group: "Pokemon" },
+			{ Name: "Miltank", Time: "2024-04-04T17:44:20Z", Group: "Pokemon" },
+			{ Name: "Golduck", Time: "2024-04-04T18:18:16Z", Group: "Pokemon" },
+			{ Name: "Abra", Time: "2024-04-04T19:53:33Z", Group: "Pokemon" },
 			{ Name: "Porygon", Time: "2024-04-04T20:06:15Z", Group: "Pokemon" },
+			{ Name: "Pichu", Time: "2024-04-04T20:11:25Z", Group: "Pokemon" },
+			{ Name: "Giratina", Time: "2024-04-04T21:10:32Z", Group: "Pokemon", Class: "WifiTrade" },
+			{ Name: "Bewear", Time: "2024-04-04T21:36:17Z", Group: "Pokemon" },
+			{ Name: "Talonflame", Time: "2024-04-04T21:39:03Z", Group: "Pokemon" },
+			{ Name: "Nosepass", Time: "2024-04-04T22:01:16Z", Group: "Pokemon" },
+			{ Name: "Gastly", Time: "2024-04-04T22:02:59Z", Group: "Pokemon" },
+			{ Name: "Phantump", Time: "2024-04-04T22:05:15Z", Group: "Pokemon" },
+			{ Name: "Cubone", Time: "2024-04-04T22:09:46Z", Group: "Pokemon" },
+			{ Name: "Fletchling", Time: "2024-04-04T22:11:04Z", Group: "Pokemon" },
+			{ Name: "Salandit", Time: "2024-04-04T22:12:40Z", Group: "Pokemon" },
 			{ Name: "Nihilego", Time: "2024-04-04T22:15:41Z", Group: "Pokemon" },
 			{ Name: "Buzzwole", Time: "2024-04-04T22:32:15Z", Group: "Pokemon" },
 			{ Name: "Xurkitree", Time: "2024-04-04T23:14:45Z", Group: "Pokemon" },
@@ -170,7 +189,7 @@ Season11.Runs.push(
 			{ Name: "Tapu Lele", Time: "2024-04-05T16:50:45Z", Group: "Pokemon" },
 			{ Name: "Minior", Time: "2024-04-05T17:05:04Z", Group: "Pokemon" },
 			{ Name: "Tapu Fini", Time: "2024-04-05T18:01:39Z", Group: "Pokemon" },
-			// Missing Abra, Cubone, Fletchling, Salandit, Morelull, Machoke, Exeggutor, Type: Null, Boldore, Riolu, Poliwag, Sliggoo, Goldeen, Drowzee, Ledyba, Drifloon, Mankey, Rufflet, Delibird, Shellder, Barboach, Gabite, Spinarak, Misdreavus, Surskit, Haunter and Mimikyu
+			// Missing Morelull, Machoke, Exeggutor, Type: Null, Boldore, Riolu, Poliwag, Sliggoo, Goldeen, Drowzee, Ledyba, Drifloon, Mankey, Rufflet, Delibird, Shellder, Barboach, Gabite, Spinarak, Misdreavus, Surskit, Haunter and Mimikyu
 			{ Name: "Dhelmise", Time: "2024-04-06T02:40:55Z", Group: "Pokemon" },
 			{ Name: "Petilil", Time: "2024-04-06T08:09:37Z", Group: "Pokemon" },
 			{ Name: "Drampa", Time: "2024-04-06T08:12:07Z", Group: "Pokemon" }, 
@@ -201,10 +220,9 @@ Season11.Runs.push(
 			// Missing Krokorok
 			{ Name: "Krookodile", Time: "2024-04-06T19:19:16Z", Group: "Pokemon" },
 			{ Name: "Seaking", Time: "2024-04-06T19:20:12Z", Group: "Pokemon" },
-			// Missing Pinsir, Hariyama, Fearow, Mandibuzz, Stoutland, Furfrou, Gastly, Golduck
+			// Missing Fearow, Mandibuzz, Stoutland, Furfrou
 			{ Name: "Ditto", Time: "2024-04-06T23:00:09Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Butterfree", Time: "2024-04-06T23:04:33Z", Group: "Pokemon", Class: "WifiTrade" },
-			// Missing Talonflame
 			{ Name: "Froakie", Time: "2024-04-06T23:07:49Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Lapras", Time: "2024-04-06T23:12:27Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Rowlet", Time: "2024-04-06T23:23:40Z", Group: "Pokemon", Class: "WifiTrade" },
@@ -238,11 +256,10 @@ Season11.Runs.push(
 			{ Name: "Froslass", Time: "2024-04-07T09:55:47Z", Group: "Pokemon" },
 			{ Name: "Metagross", Time: "2024-04-07T10:06:37Z", Group: "Pokemon" },
 			{ Name: "Starmie", Time: "2024-04-07T10:10:40Z", Group: "Pokemon" },
-			// Missing Nosepass
 			{ Name: "Probopass", Time: "2024-04-07T10:45:30Z", Group: "Pokemon" },
 			// Missing Jigglypuff
 			{ Name: "Wigglytuff", Time: "2024-04-07T11:01:28Z", Group: "Pokemon" },
-			// Missing Blissey, Happiny, Parasect, Flareon, Masquerain, Electrode, and Lycanroc
+			// Missing Blissey, Happiny, Parasect, Flareon, Masquerain, Electrode
 			{ Name: "Palossand", Time: "2024-04-07T11:46:34Z", Group: "Pokemon" },
 			// Missing Salamence, Arcanine, Forgadier, Braixen, Vileplume, Doublade, and Dragonite
 			{ Name: "Whimsicott", Time: "2024-04-07T13:01:37Z", Group: "Pokemon" },
@@ -316,7 +333,7 @@ Season11.Runs.push(
 			// Missing Elgyem
 			{ Name: "Solrock", Time: "2024-04-09T19:02:08Z", Group: "Pokemon" },
 			{ Name: "Roselia", Time: "2024-04-10T06:39:50Z", Group: "Pokemon" },
-			// Missing Miltank, Jynx, Swirlix, Nuzleaf, Celebi, Marill, Snivy, Ralts, Electivire, Kommo-o, Scatterbug, Blastoise, Wobbuffet, Floette, Octillery, and Kabutops
+			// Missing Jynx, Swirlix, Nuzleaf, Celebi, Marill, Snivy, Ralts, Electivire, Kommo-o, Scatterbug, Blastoise, Wobbuffet, Floette, Octillery, and Kabutops
 			{ Name: "Clamperl", Time: "2024-04-10T22:10:25Z", Group: "Pokemon" },
 			{ Name: "Gorebyss", Time: "2024-04-10T22:10:53Z", Group: "Pokemon" },
 			{ Name: "Huntail", Time: "2024-04-10T22:12:28Z", Group: "Pokemon" },
@@ -468,7 +485,10 @@ Season11.Runs.push(
 			{ Name: "Larvitar", Time: "2024-04-03T09:53:56Z", Group: "Pokemon" },
 			{ Name: "Luvdisc", Time: "2024-04-03T10:14:01Z", Group: "Pokemon" },
 			{ Name: "Wishiwashi", Time: "2024-04-03T10:17:57Z", Group: "Pokemon" },
-			// Missing Furfrou
+			{ Name: "Phantump", Time: "2024-04-03T11:33:31Z", Group: "Pokemon" },
+			{ Name: "Gastly", Time: "2024-04-03T11:38:00Z", Group: "Pokemon" },
+			{ Name: "Wingull", Time: "2024-04-03T11:50:01Z", Group: "Pokemon" },
+			{ Name: "Magikarp", Time: "2024-04-03T11:56:29Z", Group: "Pokemon" },
 			{ Name: "Honedge", Time: "2024-04-03T13:53:36Z", Group: "Pokemon" },
 			{ Name: "Oricorio", Time: "2024-04-03T13:59:45Z", Group: "Pokemon" },
 			{ Name: "Smoochum", Time: "2024-04-03T14:12:04Z", Group: "Pokemon" },
@@ -476,17 +496,21 @@ Season11.Runs.push(
 			{ Name: "Tentacool", Time: "2024-04-03T14:35:22Z", Group: "Pokemon" },
 			{ Name: "Horsea", Time: "2024-04-03T14:42:53Z", Group: "Pokemon" },
 			{ Name: "Staryu", Time: "2024-04-03T15:16:36Z", Group: "Pokemon" },
-			// Missing Wingull
 			{ Name: "Charmander", Time: "2024-04-03T17:14:30Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Swellow", Time: "2024-04-03T17:20:23Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Ribombee", Time: "2024-04-03T17:24:08Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Scyther", Time: "2024-04-03T17:26:13Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Poliwag", Time: "2024-04-03T17:27:58Z", Group: "Pokemon", Class: "WifiTrade" },
-			// Missing Gastly, Pancham, Magikarp, and Phantump
+			{ Name: "Ralts", Time: "2024-04-03T17:32:50Z", Group: "Pokemon", Class: "WifiTrade" },
+			{ Name: "Pancham", Time: "2024-04-03T18:50:42Z", Group: "Pokemon" },
 			{ Name: "Braixen", Time: "2024-04-03T20:04:52Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Salazzle", Time: "2024-04-03T21:00:56Z", Group: "Pokemon" },
 			{ Name: "Ledian", Time: "2024-04-03T22:58:29Z", Group: "Pokemon" },
+			{ Name: "Parasect", Time: "2024-04-03T23:14:03Z", Group: "Pokemon" },
+			{ Name: "Graveler", Time: "2024-04-03T23:26:50Z", Group: "Pokemon" },
+			{ Name: "Manectric", Time: "2024-04-03T23:42:37Z", Group: "Pokemon" },
 			{ Name: "Dedenne", Time: "2024-04-04T01:00:06Z", Group: "Pokemon" },
+			{ Name: "Torkoal", Time: "2024-04-04T01:02:34Z", Group: "Pokemon" },
 			{ Name: "Charjabug", Time: "2024-04-04T01:05:22Z", Group: "Pokemon" },
 			{ Name: "Togedemaru", Time: "2024-04-04T01:12:25Z", Group: "Pokemon" },
 			{ Name: "Absol", Time: "2024-04-04T01:55:31Z", Group: "Pokemon" },
@@ -506,14 +530,21 @@ Season11.Runs.push(
 			{ Name: "Lileep", Time: "2024-04-04T10:47:52Z", Group: "Pokemon" },
 			{ Name: "Shieldon", Time: "2024-04-04T10:49:34Z", Group: "Pokemon" },
 			{ Name: "Archen", Time: "2024-04-04T10:51:12Z", Group: "Pokemon" },
+			{ Name: "Ariados", Time: "2024-04-04T11:15:59Z", Group: "Pokemon" },
 			{ Name: "Sandslash", Time: "2024-04-04T13:08:33Z", Group: "Pokemon" },
+			{ Name: "Remoraid", Time: "2024-04-04T13:51:15Z", Group: "Pokemon" },
 			{ Name: "Mareanie", Time: "2024-04-04T14:17:14Z", Group: "Pokemon" },
 			{ Name: "Corsola", Time: "2024-04-04T14:21:51Z", Group: "Pokemon" },
 			{ Name: "Amaura", Time: "2024-04-04T19:06:19Z", Group: "Pokemon" },
 			{ Name: "Gigalith", Time: "2024-04-04T19:32:25Z", Group: "Pokemon", Class: "WifiTrade" },
+			{ Name: "Ditto", Time: "2024-04-04T20:12:21Z", Group: "Pokemon" },
 			{ Name: "Dhelmise", Time: "2024-04-04T20:47:13Z", Group: "Pokemon" },
 			{ Name: "Litten", Time: "2024-04-04T20:56:41Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Flabébé", Time: "2024-04-04T21:14:03Z", Group: "Pokemon" },
+			{ Name: "Inkay", Time: "2024-04-04T21:43:55Z", Group: "Pokemon" },
+			{ Name: "Granbull", Time: "2024-04-04T21:49:10Z", Group: "Pokemon" },
+			{ Name: "Crabrawler", Time: "2024-04-04T21:54:17Z", Group: "Pokemon" },
+			{ Name: "Aerodactyl", Time: "2024-04-04T22:40:41Z", Group: "Pokemon" },
 			{ Name: "Boldore", Time: "2024-04-04T23:27:29Z", Group: "Pokemon" },
 			{ Name: "Golbat", Time: "2024-04-04T23:33:53Z", Group: "Pokemon" },
 			{ Name: "Machoke", Time: "2024-04-04T23:49:51Z", Group: "Pokemon" },
@@ -587,7 +618,6 @@ Season11.Runs.push(
 			{ Name: "Noivern", Time: "2024-04-06T15:09:24Z", Group: "Pokemon" },
 			{ Name: "Zygarde", Time: "2024-04-06T15:18:50Z", Group: "Pokemon" },
 			{ Name: "Druddigon", Time: "2024-04-06T15:22:00Z", Group: "Pokemon" },
-			// Missing Granbull and Crabrawler
 			{ Name: "Aipom", Time: "2024-04-06T19:54:39Z", Group: "Pokemon" },
 			{ Name: "Cosmoem", Time: "2024-04-06T20:26:40Z", Group: "Pokemon" },
 			{ Name: "Nuzleaf", Time: "2024-04-06T22:58:00Z", Group: "Pokemon" },
@@ -599,13 +629,11 @@ Season11.Runs.push(
 			{ Name: "Zapdos", Time: "2024-04-07T00:54:22Z", Group: "Pokemon" },
 			{ Name: "Azelf", Time: "2024-04-07T02:10:07Z", Group: "Pokemon" },
 			{ Name: "Wynaut", Time: "2024-04-07T03:50:29Z", Group: "Pokemon", Class: "WifiTrade" },
-			// Missing Manectric
 			{ Name: "Natu", Time: "2024-04-07T04:16:05Z", Group: "Pokemon" },
 			{ Name: "Electrike", Time: "2024-04-07T04:17:47Z", Group: "Pokemon" },
 			{ Name: "Vulpix", Time: "2024-04-07T04:27:19Z", Group: "Pokemon" },
-			// Missing Aerodactyl
 			{ Name: "Cosmog", Time: "2024-04-07T08:46:00Z", Group: "Pokemon" },
-			// Missing Inkay, Vikavolt, Ariados, Bewear
+			// Missing Vikavolt, Ariados, Bewear
 			{ Name: "Crabominable", Time: "2024-04-07T10:47:30Z", Group: "Pokemon" },
 			{ Name: "Golisopod", Time: "2024-04-07T11:01:23Z", Group: "Pokemon" },
 			{ Name: "Rampardos", Time: "2024-04-07T11:03:34Z", Group: "Pokemon" },
@@ -640,7 +668,7 @@ Season11.Runs.push(
 			{ Name: "Cradily", Time: "2024-04-08T00:19:04Z", Group: "Pokemon" }, 
 			{ Name: "Aurorus", Time: "2024-04-08T00:32:18Z", Group: "Pokemon" }, 
 			{ Name: "Omanyte", Time: "2024-04-08T00:36:14Z", Group: "Pokemon" }, 
-			// Missing Drapion and Parasect
+			// Missing Drapion
 			{ Name: "Miltank", Time: "2024-04-08T02:28:44Z", Group: "Pokemon" }, 
 			{ Name: "Omastar", Time: "2024-04-08T02:53:18Z", Group: "Pokemon" }, 
 			{ Name: "Kabutops", Time: "2024-04-08T02:54:48Z", Group: "Pokemon" }, 
@@ -768,7 +796,6 @@ Season11.Runs.push(
 			{ Name: "Kangaskhan", Time: "2024-04-10T08:38:37Z", Group: "Pokemon" },
 			{ Name: "Trubbish", Time: "2024-04-10T09:02:54Z", Group: "Pokemon" },
 			{ Name: "Sandile", Time: "2024-04-10T09:33:18Z", Group: "Pokemon" },
-			// Missing Graveler
 			{ Name: "Geodude", Time: "2024-04-10T09:34:15Z", Group: "Pokemon" },
 			{ Name: "Litleo", Time: "2024-04-10T09:40:22Z", Group: "Pokemon" },
 			{ Name: "Snubbull", Time: "2024-04-10T09:42:35Z", Group: "Pokemon" },
