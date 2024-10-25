@@ -18,10 +18,6 @@ Season11.Runs.push(
         // FinalStateLink: "./states/Season 11/supergauntletxy.json",
         Events: [
             {
-                Group: "Badges", Name: "Rumble Badge", Image: "img/badges/rumble.png",
-                Time: "", Attempts: 0
-            },
-            {
                 Group: "Badges", Name: "Plant Badge", Image: "img/badges/plant.png",
                 Time: "", Attempts: 0
             },
@@ -121,10 +117,19 @@ Season11.Runs.push(
             { Name: "Absol", Time: "2024-03-26T16:04:50Z", Group: "Pokemon" },
             { Name: "Helioptile", Time: "2024-03-26T16:14:16Z", Group: "Pokemon" },
             { Name: "Cubone", Time: "2024-03-26T16:20:53Z", Group: "Pokemon" },
+            { Name: "Machop", Time: "2024-03-26T16:25:40Z", Group: "Pokemon" },
+            { Name: "Sigilyph", Time: "2024-03-26T17:11:01Z", Group: "Pokemon" },
+            { Name: "Emolga", Time: "2024-03-26T17:18:50Z", Group: "Pokemon" },
+            { Name: "Tyrunt", Time: "2024-03-26T17:29:29Z", Group: "Pokemon" },
+            { Name: "Golett", Time: "2024-03-26T18:24:59Z", Group: "Pokemon" },
             { Name: "Hawlucha", Time: "2024-03-26T18:43:30Z", Group: "Pokemon" },
             { Name: "Sawk", Time: "2024-03-26T19:28:01Z", Group: "Pokemon" },
+            { Name: "Hariyama", Time: "2024-03-26T19:32:04Z", Group: "Pokemon" },
+            { Name: "Chingling", Time: "2024-03-26T19:35:58Z", Group: "Pokemon" },
             { Name: "Stunky", Time: "2024-03-26T19:40:53Z", Group: "Pokemon" },
-			// Missing Dedenne
+            { Name: "NidoranF", Time: "2024-03-26T19:56:57Z", Group: "Pokemon" },
+            { Name: "Dedenne", Time: "2024-03-26T20:29:22Z", Group: "Pokemon" },
+            { Name: "Meditite", Time: "2024-03-26T21:04:22Z", Group: "Pokemon" },
             { Name: "Sylveon", Time: "2024-03-27T00:05:02Z", Group: "Pokemon" },
             { Name: "Plusle", Time: "2024-03-27T01:00:39Z", Group: "Pokemon" },
             { Name: "Aromatisse", Time: "2024-03-27T01:25:10Z", Group: "Pokemon" },
@@ -241,22 +246,6 @@ Season11.Runs.push(
         // FinalStateLink: "./states/Season 11/supergauntletxy.json",
         Events: [
             {
-                Group: "Badges", Name: "Cliff Badge", Image: "img/badges/cliff.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Rumble Badge", Image: "img/badges/rumble.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Plant Badge", Image: "img/badges/plant.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Voltage Badge", Image: "img/badges/voltage.png",
-                Time: "", Attempts: 0
-            },
-            {
                 Group: "Badges", Name: "Fairy Badge", Image: "img/badges/fairy.png",
                 Time: "", Attempts: 0
             },
@@ -347,7 +336,27 @@ Season11.Runs.push(
             { Name: "Wobbuffet", Time: "2024-03-26T16:14:22Z", Group: "Pokemon" },
             { Name: "Chingling", Time: "2024-03-26T16:24:06Z", Group: "Pokemon" },
             { Name: "Hawlucha", Time: "2024-03-26T17:22:01Z", Group: "Pokemon" },
-			// Missing Delphox, Lapras
+			
+            {
+                Group: "Badges", Name: "Rumble Badge", Image: "img/badges/rumble.png",
+                Time: "2024-03-26T18:43:12Z", Attempts: 2
+            },
+			
+            { Name: "Lucario", Time: "2024-03-26T18:56:29Z", Group: "Pokemon" },
+            { Name: "Lapras", Time: "2024-03-26T19:08:34Z", Group: "Pokemon" },
+            { Name: "Delphox", Time: "2024-03-26T19:39:55Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Plant Badge", Image: "img/badges/plant.png",
+                Time: "2024-03-26T19:59:43Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Voltage Badge", Image: "img/badges/voltage.png",
+                Time: "2024-03-26T21:51:23Z", Attempts: 1
+            },
+			
+            { Name: "Stunfisk", Time: "2024-03-26T22:11:42Z", Group: "Pokemon" },
             { Name: "Rotom", Time: "2024-03-26T23:45:41Z", Group: "Pokemon" },
             { Name: "Pumpkaboo", Time: "2024-03-27T00:07:44Z", Group: "Pokemon" },
             { Name: "Slurpuff", Time: "2024-03-27T01:25:10Z", Group: "Pokemon" },
