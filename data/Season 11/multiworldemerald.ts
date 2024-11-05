@@ -12,7 +12,7 @@ Season11.Runs.push(
         Region: "Hoenn",
         Generation: 3,
         Pokedex: "Hoenn",
-        //FinalStateLink: "./states/Season 11/multiworldemerald.json",
+        FinalStateLink: "./states/Season 11/multiworldemerald.json",
         Events: [
             {
                 Group: "Badges", Name: "Stone Badge (Winona)", Image: "img/badges/stone.png",

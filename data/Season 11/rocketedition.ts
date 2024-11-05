@@ -12,7 +12,7 @@ Season11.Runs.push(
         Region: "Kanto",
         Generation: 3,
         Pokedex: "Kanto",
-        // FinalStateLink:"./states/Season 11/rocketedition.json",
+        FinalStateLink:"./states/Season 11/rocketedition.json",
         Events: [
             {
                 Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
