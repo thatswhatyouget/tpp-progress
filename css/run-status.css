@@ -40,15 +40,15 @@
 .itemsList ul li{
     padding: .5em 1em;
 }
-/* .itemsList ul li[data-id]:before {
-    content: attr(data-id) ':';
+.itemsList ul li[data-id]:before {
+    content: '#' attr(data-id);
     float: left;
     padding-right: .5em;
     text-align: right;
     width:4.5em;
     box-sizing: border-box;
     vertical-align: baseline;
-} */
+}
 .itemsList ul li[data-quantity]:after {
     content:'×' attr(data-quantity);
     float: right;

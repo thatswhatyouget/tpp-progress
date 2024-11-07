@@ -15,8 +15,8 @@ Season11.Runs.push(
         FromNatDex: true,
         Class: "dual-run",
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
-        //FinalStateLink: "./states/Season 11/supergauntletbw.json",
-        APIObjectName: "black", 
+        FinalStateLink: "./states/Season 11/supergauntletblack.json",
+        //APIObjectName: "black",
         Events: [
             {
                 Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png",
@@ -75,12 +75,12 @@ Season11.Runs.push(
                 Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/ghetsis.png",
                 Time: "", Attempts: 0
             },
-			
+
 			// Missing Sawk
             { Name: "Throh", Time: "2024-03-19T19:10:34Z", Group: "Pokemon" },
-			
+
 			// Missing Krookodile, Galvantula, Beheeyem, Alomomola, and Serperior
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", IDNo: "53314", Party: [
                     { Pokemon: "Krookodile", Nickname: "Hecatia", Level: 52, Gender: "Female" },
@@ -116,9 +116,9 @@ Season11.Runs.push(
                 Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png",
                 Time: "", Attempts: 0
             },
-			
+
 			// Missing Bisharp, Thundurus, Oamstar and Venomoth
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "53314", Party: [
                     { Pokemon: "Bisharp", Nickname: "wii", Level: 70, Gender: "Male" },
@@ -158,8 +158,8 @@ Season11.Runs.push(
         FromNatDex: true,
         Class: "dual-run",
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
-        //FinalStateLink: "./states/Season 11/supergauntletbw.json",
-        APIObjectName: "white", 
+        FinalStateLink: "./states/Season 11/supergauntletwhite.json",
+        //APIObjectName: "white",
         Events: [
             {
                 Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png",
@@ -221,9 +221,9 @@ Season11.Runs.push(
 
 			// Missing Throh
             { Name: "Sawk", Time: "2024-03-19T19:10:34Z", Group: "Pokemon" },
-			
+
 			// Missing Basculin, Gothitelle, Emolga, Simisear, and Lilligant
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", IDNo: "60990", Party: [
                     { Pokemon: "Basculin", Nickname: "aabass", Level: 46, Gender: "Female", Form: "Blue" },
@@ -273,7 +273,7 @@ Season11.Runs.push(
                 FirstAttemptDate: "",
                 Time: "2024-03-21T22:30:48Z", Attempts: 0
             },
-			
+
 			// Missing Kyurem and Meloetta
 
             <TPP.HallOfFame>{
@@ -289,7 +289,7 @@ Season11.Runs.push(
                 FirstAttemptDate: "",
                 Time: "2024-03-22T21:05:24Z", Attempts: 0
             },
-			
+
 			// Missing Shelmet, Timburr, Porygon, Zebstrika, Petilil, Lilipup, Pidove, Blitzle, Sandile, Beautifly, Sigilyph, Beheeyem, Mienshao, and Roggenrola
             { Name: "Escavalier", Time: "2024-03-23T22:35:16Z", Group: "Pokemon" },
             { Name: "Accelgor", Time: "2024-03-23T22:38:24Z", Group: "Pokemon" },

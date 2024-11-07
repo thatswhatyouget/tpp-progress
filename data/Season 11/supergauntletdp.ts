@@ -14,8 +14,8 @@ Season11.Runs.push(
         FromNatDex: true,
         Class: "dual-run",
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
-        //FinalStateLink: "./states/Season 11/supergauntletdp.json",
-        APIObjectName: "diamond", 
+        FinalStateLink: "./states/Season 11/supergauntletdiamond.json",
+        //APIObjectName: "diamond",
         Events: [
             {
                 Group: "Badges", Name: "Coal Badge", Image: "img/badges/coal.png",
@@ -26,7 +26,7 @@ Season11.Runs.push(
                 Time: "2024-03-12T03:32:46.167Z", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png", 
+                Group: "Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png",
                 Time: "", Attempts: 0
             },
             {
@@ -34,7 +34,7 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Relic Badge", Image: "img/badges/relic.png", 
+                Group: "Badges", Name: "Relic Badge", Image: "img/badges/relic.png",
                 Time: "", Attempts: 0
             },
             {
@@ -42,11 +42,11 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Icicle Badge", Image: "img/badges/icicle.png", 
+                Group: "Badges", Name: "Icicle Badge", Image: "img/badges/icicle.png",
                 Time: "", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png", 
+                Group: "Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png",
                 Time: "", Attempts: 0
             },
             {
@@ -69,7 +69,7 @@ Season11.Runs.push(
                 Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
                 Time: "", Attempts: 0
             },
-			
+
 			// Missing Chimchar
             { Name: "Shinx", Time: "2024-03-11T21:52:01Z", Group: "Pokemon" },
             { Name: "Geodude", Time: "2024-03-11T22:54:26Z", Group: "Pokemon" },
@@ -77,7 +77,7 @@ Season11.Runs.push(
             { Name: "Shellos", Time: "2024-03-12T00:22:14Z", Group: "Pokemon" },
 			// Missing Barboach, Gastly, Girafarig, and Murkrow
             { Name: "Ponyta", Time: "2024-03-12T11:46:27Z", Group: "Pokemon" },
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-16T01:26:01Z", IDNo: "02996", Attempts: 0, Party: [
                     { Pokemon: "Girafarig", Nickname: "ANNA", Level: 50, Gender: "Female", Met: "Route 214", OT: "p\u2640P" },
@@ -140,8 +140,8 @@ Season11.Runs.push(
         FromNatDex: true,
         Class: "dual-run",
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
-        //FinalStateLink: "./states/Season 11/supergauntletdp.json",
-        APIObjectName: "pearl",
+        FinalStateLink: "./states/Season 11/supergauntletpearl.json",
+        //APIObjectName: "pearl",
         Events: [
             {
                 Group: "Badges", Name: "Coal Badge", Image: "img/badges/coal.png",
@@ -152,7 +152,7 @@ Season11.Runs.push(
                 Time: "2024-03-12T03:41:42.293Z", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png", 
+                Group: "Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png",
                 Time: "", Attempts: 0
             },
             {
@@ -160,7 +160,7 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Relic Badge", Image: "img/badges/relic.png", 
+                Group: "Badges", Name: "Relic Badge", Image: "img/badges/relic.png",
                 Time: "", Attempts: 0
             },
             {
@@ -168,11 +168,11 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Icicle Badge", Image: "img/badges/icicle.png", 
+                Group: "Badges", Name: "Icicle Badge", Image: "img/badges/icicle.png",
                 Time: "", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png", 
+                Group: "Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png",
                 Time: "", Attempts: 0
             },
             {
@@ -195,12 +195,12 @@ Season11.Runs.push(
                 Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
                 Time: "", Attempts: 0
             },
-			
+
 			// Missing Piplup, Prinplup, Pachirisu, Shieldon, Lopunny, Shellos, and Geodude
             { Name: "Kricketune", Time: "2024-03-12T11:46:50Z", Group: "Pokemon" },
 			// Missing Noctowl
             { Name: "Spiritomb", Time: "2024-03-15T00:51:30Z", Group: "Pokemon" },
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-16T12:55:50Z", IDNo: "18428", Attempts: 0, Party: [
                     { Pokemon: "Bastiodon", Nickname: "AEGIS", Level: 60, Gender: "Female", Met: "Mining Museum", OT: "AAAAAAA" },
