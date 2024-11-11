@@ -26,6 +26,18 @@ Intermissions.Runs.push(
                 Time: "2024-02-11T07:25:52Z", Attempts: 5
             },
 			
+            { "Group": "Pokemon", "Name": "Mankey", "Time": "2024-02-11T08:41:52Z" },
+            { "Group": "Pokemon", "Name": "Zubat", "Time": "2024-02-11T09:41:30Z" },
+            { "Group": "Pokemon", "Name": "Sandshrew", "Time": "2024-02-11T09:54:41Z" },
+            { "Group": "Pokemon", "Name": "Onix", "Time": "2024-02-11T10:06:19Z" },
+            { "Group": "Pokemon", "Name": "Clefairy", "Time": "2024-02-11T11:01:29Z" },
+            { "Group": "Pokemon", "Name": "Paras", "Time": "2024-02-11T11:11:02Z" },
+			
+            {
+                Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-02-11T13:25:30Z", Attempts: 1
+            },
+			
 			// Missing Charmander
             { "Group": "Pokemon", "Name": "Charmeleon", "Time": "2024-02-11T17:16:20Z" },
 			// Missing Squirtle
