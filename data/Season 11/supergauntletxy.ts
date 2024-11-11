@@ -181,16 +181,42 @@ Season11.Runs.push(
             { Name: "Pawniard", Time: "2024-03-28T10:10:54Z", Group: "Pokemon" },
             { Name: "Electrode", Time: "2024-03-28T10:14:05Z", Group: "Pokemon" },
             { Name: "Phantump", Time: "2024-03-28T10:35:14Z", Group: "Pokemon" },
+            { Name: "Quagsire", Time: "2024-03-28T13:00:07Z", Group: "Pokemon" },
             { Name: "Amaura", Time: "2024-03-28T14:02:58Z", Group: "Pokemon" },
             { Name: "Florges", Time: "2024-03-28T15:53:54Z", Group: "Pokemon" },
+            { Name: "Vanillite", Time: "2024-03-28T17:27:43Z", Group: "Pokemon" },
             { Name: "Cryogonal", Time: "2024-03-28T18:03:10Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Psychic Badge", Image: "img/badges/psychic.png",
+                Time: "2024-03-28T20:37:46Z", Attempts: 2
+            },
+			
             { Name: "Xerneas", Time: "2024-03-29T00:14:21Z", Group: "Pokemon" },
+            { Name: "Ledyba", Time: "2024-03-29T05:13:00Z", Group: "Pokemon" },
             { Name: "Lairon", Time: "2024-03-29T06:25:57Z", Group: "Pokemon" },
             { Name: "Durant", Time: "2024-03-29T06:33:02Z", Group: "Pokemon" },
             { Name: "Shuckle", Time: "2024-03-29T07:11:02Z", Group: "Pokemon" },
             { Name: "Ariados", Time: "2024-03-29T08:08:59Z", Group: "Pokemon" },
             { Name: "Gurdurr", Time: "2024-03-29T08:16:04Z", Group: "Pokemon" },
+            { Name: "Sandslash", Time: "2024-03-29T08:25:28Z", Group: "Pokemon" },
             { Name: "Drapion", Time: "2024-03-29T09:53:25Z", Group: "Pokemon" },
+            { Name: "Ursaring", Time: "2024-03-29T13:00:55Z", Group: "Pokemon" },
+            { Name: "Trevenant", Time: "2024-03-29T13:37:16Z", Group: "Pokemon" },
+            { Name: "Gothorita", Time: "2024-03-29T13:40:40Z", Group: "Pokemon" },
+            { Name: "Noctowl", Time: "2024-03-29T13:45:08Z", Group: "Pokemon" },
+            { Name: "Amoonguss", Time: "2024-03-29T14:08:59Z", Group: "Pokemon" },
+            { Name: "Jigglypuff", Time: "2024-03-29T14:11:05Z", Group: "Pokemon" },
+            { Name: "Lombre", Time: "2024-03-29T14:15:41Z", Group: "Pokemon" },
+            { Name: "Poliwhirl", Time: "2024-03-29T14:21:07Z", Group: "Pokemon" },
+            { Name: "Ditto", Time: "2024-03-29T14:26:48Z", Group: "Pokemon" },
+            { Name: "Zoroark", Time: "2024-03-29T14:54:59Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Iceberg Badge", Image: "img/badges/iceberg.png",
+                Time: "2024-03-29T15:56:43Z", Attempts: 1
+            },
+			
             { Name: "Bibarel", Time: "2024-03-29T19:28:02Z", Group: "Pokemon" },
             { Name: "Druddigon", Time: "2024-03-29T20:21:12Z", Group: "Pokemon" },
             { Name: "Floatzel", Time: "2024-03-29T20:30:54Z", Group: "Pokemon" },
@@ -372,7 +398,7 @@ Season11.Runs.push(
 			
             {
                 Group: "Badges", Name: "Fairy Badge", Image: "img/badges/fairy.png",
-                Time: "2024-03-26T22:38:39", Attempts: 1
+                Time: "2024-03-26T22:38:39Z", Attempts: 1
             },
 			
             { Name: "Rotom", Time: "2024-03-26T23:45:41Z", Group: "Pokemon" },
@@ -449,7 +475,14 @@ Season11.Runs.push(
             { Name: "Ariados", Time: "2024-03-28T09:39:36Z", Group: "Pokemon" },
             { Name: "Graveler", Time: "2024-03-28T09:41:08Z", Group: "Pokemon" },
             { Name: "Amaura", Time: "2024-03-28T12:20:32Z", Group: "Pokemon" },
+            { Name: "Avalugg", Time: "2024-03-28T13:36:00Z", Group: "Pokemon" },
             { Name: "Quilladin", Time: "2024-03-28T14:02:58Z", Group: "Pokemon" },
+            { Name: "Chesnaught", Time: "2024-03-28T14:35:37Z", Group: "Pokemon" },
+            { Name: "Charmeleon", Time: "2024-03-28T14:53:30Z", Group: "Pokemon" },
+            { Name: "Nidorina", Time: "2024-03-28T14:54:03Z", Group: "Pokemon" },
+            { Name: "Nidoqueen", Time: "2024-03-28T14:55:58Z", Group: "Pokemon" },
+            { Name: "Vanillish", Time: "2024-03-28T15:41:52Z", Group: "Pokemon" },
+            { Name: "Charizard", Time: "2024-03-28T16:01:41Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-28T22:17:16Z", Attempts: 0, Party: [
@@ -484,7 +517,10 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
 			
-			// Missing Larvesta
+            { Name: "Fletchinder", Time: "2024-03-28T22:52:40Z", Group: "Pokemon" },
+            { Name: "Ponyta", Time: "2024-03-28T22:54:41Z", Group: "Pokemon" },
+            { Name: "Larvesta", Time: "2024-03-28T22:56:43Z", Group: "Pokemon" },
+            { Name: "Ferroseed", Time: "2024-03-29T00:25:04Z", Group: "Pokemon" },
             { Name: "Skarmory", Time: "2024-03-29T00:26:39Z", Group: "Pokemon" },
             { Name: "Forretress", Time: "2024-03-29T00:30:40Z", Group: "Pokemon" },
             { Name: "Pachirisu", Time: "2024-03-29T00:33:48Z", Group: "Pokemon" },
@@ -507,17 +543,25 @@ Season11.Runs.push(
             { Name: "Illumise", Time: "2024-03-29T02:00:03Z", Group: "Pokemon" },
             { Name: "Machoke", Time: "2024-03-29T02:06:44Z", Group: "Pokemon" },
             { Name: "Throh", Time: "2024-03-29T02:12:12Z", Group: "Pokemon" },
-			// Missing Fraxure
+            { Name: "Fraxure", Time: "2024-03-29T04:06:15Z", Group: "Pokemon" },
             { Name: "Spinda", Time: "2024-03-29T06:36:01Z", Group: "Pokemon" },
             { Name: "Fearow", Time: "2024-03-29T07:40:55Z", Group: "Pokemon" },
             { Name: "Druddigon", Time: "2024-03-29T07:51:32Z", Group: "Pokemon" },
             { Name: "Haunter", Time: "2024-03-29T08:04:32Z", Group: "Pokemon" },
             { Name: "Lickitung", Time: "2024-03-29T08:07:07Z", Group: "Pokemon" },
+            { Name: "Gurdurr", Time: "2024-03-29T08:20:55Z", Group: "Pokemon" },
             { Name: "Zweilous", Time: "2024-03-29T08:34:20Z", Group: "Pokemon" },
+            { Name: "Chespin", Time: "2024-03-29T10:29:40Z", Group: "Pokemon" },
+            { Name: "Ralts", Time: "2024-03-29T12:13:39Z", Group: "Pokemon" },
+            { Name: "Kirlia", Time: "2024-03-29T15:01:55Z", Group: "Pokemon" },
+            { Name: "Gardevoir", Time: "2024-03-29T15:33:14Z", Group: "Pokemon" },
+            { Name: "Tyranitar", Time: "2024-03-29T17:12:27Z", Group: "Pokemon" },
+            { Name: "Haxorus", Time: "2024-03-29T17:20:37Z", Group: "Pokemon" },
             { Name: "Houndoom", Time: "2024-03-29T17:33:00Z", Group: "Pokemon" },
             { Name: "Venusaur", Time: "2024-03-29T17:33:47Z", Group: "Pokemon" },
+            { Name: "Pangoro", Time: "2024-03-29T17:41:32Z", Group: "Pokemon" },
+            { Name: "Trevenant", Time: "2024-03-29T18:05:44Z", Group: "Pokemon" },
             { Name: "Zoroark", Time: "2024-03-29T18:18:40Z", Group: "Pokemon" },
-			// Missing Vanillish
             { Name: "Ferrothorn", Time: "2024-03-29T22:43:18Z", Group: "Pokemon" },
             { Name: "Vanilluxe", Time: "2024-03-30T00:36:28Z", Group: "Pokemon" },
             { Name: "Vibrava", Time: "2024-03-30T00:37:00Z", Group: "Pokemon" },
