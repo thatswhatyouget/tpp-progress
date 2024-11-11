@@ -14,10 +14,18 @@ Intermissions.Runs.push(
         Pokedex:"Kanto",
         Events: [
             { "Group": "Pokemon", "Name": "Pikachu", "Time": "2024-02-11T02:50:45Z" },
-			// Missing NidoranM
+            { "Group": "Pokemon", "Name": "NidoranM", "Time": "2024-02-11T03:05:23Z" },
+            { "Group": "Pokemon", "Name": "Rattata", "Time": "2024-02-11T03:09:00Z" },
+            { "Group": "Pokemon", "Name": "Pidgey", "Time": "2024-02-11T03:24:42Z" },
             { "Group": "Pokemon", "Name": "Weedle", "Time": "2024-02-11T04:42:13Z" },
             { "Group": "Pokemon", "Name": "Caterpie", "Time": "2024-02-11T05:54:37Z" },
             { "Group": "Pokemon", "Name": "NidoranF", "Time": "2024-02-11T06:24:54Z" },
+			
+            {
+                Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-02-11T07:25:52Z", Attempts: 5
+            },
+			
 			// Missing Charmander
             { "Group": "Pokemon", "Name": "Charmeleon", "Time": "2024-02-11T17:16:20Z" },
 			// Missing Squirtle
