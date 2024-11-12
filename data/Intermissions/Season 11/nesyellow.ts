@@ -38,8 +38,17 @@ Intermissions.Runs.push(
                 Time: "2024-02-11T13:25:30Z", Attempts: 1
             },
 			
-			// Missing Charmander
+            { "Group": "Pokemon", "Name": "Charmander", "Time": "2024-02-11T14:57:52Z" },
+            { "Group": "Pokemon", "Name": "Nidorino", "Time": "2024-02-11T15:18:29Z" },
+            { "Group": "Pokemon", "Name": "Nidoking", "Time": "2024-02-11T15:20:13Z" },
+            { "Group": "Pokemon", "Name": "Abra", "Time": "2024-02-11T15:52:55Z" },
             { "Group": "Pokemon", "Name": "Charmeleon", "Time": "2024-02-11T17:16:20Z" },
+			
+            {
+                Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-02-11T20:59:04Z", Attempts: 1
+            },
+			
 			// Missing Squirtle
             { "Group": "Pokemon", "Name": "Wartortle", "Time": "2024-02-11T23:41:02Z" },
             { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "2024-02-12T00:35:27Z" },
