@@ -49,17 +49,50 @@ Intermissions.Runs.push(
                 Time: "2024-02-11T20:59:04Z", Attempts: 1
             },
 			
-			// Missing Squirtle
+            { "Group": "Pokemon", "Name": "Squirtle", "Time": "2024-02-11T21:02:12Z" },
             { "Group": "Pokemon", "Name": "Wartortle", "Time": "2024-02-11T23:41:02Z" },
             { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "2024-02-12T00:35:27Z" },
             { "Group": "Pokemon", "Name": "Farfetch'd", "Time": "2024-02-12T04:05:57Z" },
+			
+            {
+                Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-02-12T04:42:45Z", Attempts: 2
+            },
+			
             { "Group": "Pokemon", "Name": "Eevee", "Time": "2024-02-12T05:10:08Z" },
-			// Missing Haunter
+            { "Group": "Pokemon", "Name": "Haunter", "Time": "2024-02-12T06:17:34Z" },
             { "Group": "Pokemon", "Name": "Cubone", "Time": "2024-02-12T08:26:37Z" },
             { "Group": "Pokemon", "Name": "Marowak", "Time": "2024-02-12T09:06:49Z" },
             { "Group": "Pokemon", "Name": "Snorlax", "Time": "2024-02-12T09:40:25Z" },
+            { "Group": "Pokemon", "Name": "Pinsir", "Time": "2024-02-12T11:25:31Z" },
+			
+            {
+                Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-02-12T12:26:43Z", Attempts: 2
+            },
+			
+            { "Group": "Pokemon", "Name": "Hitmonlee", "Time": "2024-02-12T14:18:26Z" },
+			
+            {
+                Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-02-12T14:54:00Z", Attempts: 1
+            },
+			
             { "Group": "Pokemon", "Name": "Magmar", "Time": "2024-02-12T15:24:44Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2024-02-12T15:31:55Z" },
+			
+            {
+                Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-02-12T17:19:01Z", Attempts: 1
+            },
+			
             { "Group": "Pokemon", "Name": "Gengar", "Time": "2024-02-12T18:23:30Z" },
+            { "Group": "Pokemon", "Name": "Muk", "Time": "2024-02-12T19:33:45Z" },
+			
+            {
+                Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2024-02-12T21:29:49Z", Attempts: 5
+            },
         ]
     }
 );
