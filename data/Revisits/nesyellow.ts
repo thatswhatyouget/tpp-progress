@@ -53,7 +53,7 @@ Revisits.Runs.push(
             },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-18T22:35:29Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-18T22:35:29Z", Attempts: 27, Party: [
                     { Pokemon: "Gengar", Nickname: "Gengar", Level: 64 },
                     { Pokemon: "Blastoise", Nickname: "Blastoise", Level: 36 },
                     { Pokemon: "Moltres", Nickname: "Moltres", Level: 54 },
@@ -61,7 +61,7 @@ Revisits.Runs.push(
                     { Pokemon: "Raichu", Nickname: "Raichu", Level: 47 },
                     { Pokemon: "Suicune", Nickname: "Suicune", Level: 50 },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2024-02-18T06:20:38",
                 Image: "img/ribbons/champion.png"
             },
 			
