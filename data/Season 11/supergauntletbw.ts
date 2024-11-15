@@ -19,18 +19,6 @@ Season11.Runs.push(
         //APIObjectName: "black",
         Events: [
             {
-                Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png",
-                Time: "2024-03-18T22:58:18.855Z", Attempts: 1
-            },
-            {
-                Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png",
-                Time: "2024-03-19T03:04:55.761Z", Attempts: 1
-            },
-            {
-                Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png",
-                Time: "2024-03-19T08:30:10.577Z", Attempts: 1
-            },
-            {
                 Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png",
                 Time: "", Attempts: 0
             },
@@ -76,7 +64,44 @@ Season11.Runs.push(
                 Time: "", Attempts: 0
             },
 
-			// Missing Sawk
+            { Name: "Snivy", Time: "2024-03-18T21:02:46.575Z", Group: "Pokemon" },
+            { Name: "Lillipup", Time: "2024-03-18T21:20:10Z", Group: "Pokemon" },
+            { Name: "Patrat", Time: "2024-03-18T21:22:03.837Z", Group: "Pokemon" },
+            { Name: "Purrloin", Time: "2024-03-18T21:47:00.135Z", Group: "Pokemon" },
+            { Name: "Panpour", Time: "2024-03-18T22:34:21.427Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Trio Badge", Image: "img/badges/trio.png",
+                Time: "2024-03-18T22:58:18.855Z", Attempts: 1
+            },
+			
+            { Name: "Roggenrola", Time: "2024-03-18T23:47:27Z", Group: "Pokemon" },
+            { Name: "Woobat", Time: "2024-03-18T23:50:59.759Z", Group: "Pokemon" },
+            { Name: "Pidove", Time: "2024-03-18T23:52:34Z", Group: "Pokemon" },
+            { Name: "Servine", Time: "2024-03-19T00:01:01.938Z", Group: "Pokemon" },
+			{ Name: "Sawk", Time: "2024-03-19T00:30:50Z", Group: "Pokemon" },
+			{ Name: "Timburr", Time: "2024-03-19T01:05:39Z", Group: "Pokemon" },
+			{ Name: "Blitzle", Time: "2024-03-19T01:30:41Z", Group: "Pokemon" },
+			{ Name: "Audino", Time: "2024-03-19T01:54:01Z", Group: "Pokemon" },
+			{ Name: "Tympole", Time: "2024-03-19T02:01:11Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png",
+                Time: "2024-03-19T03:04:51.757Z", Attempts: 1
+            },
+			
+            { Name: "Sewaddle", Time: "2024-03-19T03:26:06Z", Group: "Pokemon" },
+            { Name: "Venipede", Time: "2024-03-19T03:27:49Z", Group: "Pokemon" },
+            { Name: "Cottonee", Time: "2024-03-19T03:36:01Z", Group: "Pokemon" },
+            { Name: "Darumaka", Time: "2024-03-19T04:40:48Z", Group: "Pokemon" },
+            { Name: "Sandile", Time: "2024-03-19T04:43:35Z", Group: "Pokemon" },
+            { Name: "Scraggy", Time: "2024-03-19T05:02:49Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png",
+                Time: "2024-03-19T08:29:50.852Z", Attempts: 1
+            },
+			
             { Name: "Throh", Time: "2024-03-19T19:10:34Z", Group: "Pokemon" },
 
 			// Missing Krookodile, Galvantula, Beheeyem, Alomomola, and Serperior
@@ -133,7 +158,7 @@ Season11.Runs.push(
                 Time: "2024-03-23T20:30:32Z", Attempts: 0
             },
 
-			// Missing Celebi, Karrablast, Blitzle, Purrloin, Pidove, Minccino, Roggenrola, Tympole, Cottonee, Vullaby, Venipede, Scraggy, Elgyem, Swadloon, Pansear
+			// Missing Celebi, Karrablast, Purrloin, Minccino, Cottonee, Vullaby, Venipede, Scraggy, Elgyem, Swadloon, Pansear
             { Name: "Latias", Time: "2024-03-23T22:18:03Z", Group: "Pokemon" },
             { Name: "Accelgor", Time: "2024-03-23T22:35:17Z", Group: "Pokemon" },
             { Name: "Escavalier", Time: "2024-03-23T22:38:24Z", Group: "Pokemon" },
