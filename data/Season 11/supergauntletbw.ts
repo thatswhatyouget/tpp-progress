@@ -19,22 +19,6 @@ Season11.Runs.push(
         //APIObjectName: "black",
         Events: [
             {
-                Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png",
-                Time: "", Attempts: 0
-            },
-            {
                 Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png",
                 Time: "", Attempts: 0
             },
@@ -102,9 +86,69 @@ Season11.Runs.push(
                 Time: "2024-03-19T08:29:50.852Z", Attempts: 1
             },
 			
-            { Name: "Throh", Time: "2024-03-19T19:10:34Z", Group: "Pokemon" },
+            { Name: "Yamask", Time: "2024-03-19T09:48:41Z", Group: "Pokemon" },
+            { Name: "Minccino", Time: "2024-03-19T10:32:04Z", Group: "Pokemon" },
+            { Name: "Gothita", Time: "2024-03-19T10:34:44Z", Group: "Pokemon" },
+            { Name: "Liepard", Time: "2024-03-19T10:47:06Z", Group: "Pokemon" },
+            { Name: "Trubbish", Time: "2024-03-19T10:56:06Z", Group: "Pokemon" },
+            { Name: "Tranquill", Time: "2024-03-19T11:28:54Z", Group: "Pokemon" },
+            { Name: "Swadloon", Time: "2024-03-19T11:31:47Z", Group: "Pokemon" },
+            { Name: "Pansear", Time: "2024-03-19T11:42:36Z", Group: "Pokemon" },
+            { Name: "Whimsicott", Time: "2024-03-19T11:52:46Z", Group: "Pokemon" },
+            { Name: "Leavanny", Time: "2024-03-19T12:43:37Z", Group: "Pokemon" },
+            { Name: "Maractus", Time: "2024-03-19T14:34:08Z", Group: "Pokemon" },
+            { Name: "Dwebble", Time: "2024-03-19T14:38:51Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png",
+                Time: "2024-03-19T16:26:27.631Z", Attempts: 2
+            },
+			
+            { Name: "Krokorok", Time: "2024-03-19T16:51:43.558Z", Group: "Pokemon" },
+            { Name: "Joltik", Time: "2024-03-19T19:06:51Z", Group: "Pokemon" },
+            { Name: "Throh", Time: "2024-03-19T19:10:41Z", Group: "Pokemon" },
+            { Name: "Herdier", Time: "2024-03-19T21:48:08Z", Group: "Pokemon" },
+            { Name: "Vanillite", Time: "2024-03-19T21:54:02Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png",
+                Time: "2024-03-19T23:36:01.877Z", Attempts: 1
+            },
+			
+            { Name: "Deerling", Time: "2024-03-19T23:55:58Z", Group: "Pokemon" },
+            { Name: "Karrablast", Time: "2024-03-20T00:00:22Z", Group: "Pokemon" },
+            { Name: "Foongus", Time: "2024-03-20T00:02:21Z", Group: "Pokemon" },
+            { Name: "Klink", Time: "2024-03-20T00:12:25Z", Group: "Pokemon" },
+            { Name: "Ferroseed", Time: "2024-03-20T00:17:36Z", Group: "Pokemon" },
+            { Name: "Boldore", Time: "2024-03-20T00:46:11Z", Group: "Pokemon" },
+            { Name: "Galvantula", Time: "2024-03-20T01:45:50.289Z", Group: "Pokemon" },
+            { Name: "Drilbur", Time: "2024-03-20T02:10:41Z", Group: "Pokemon" },
+            { Name: "Litwick", Time: "2024-03-20T02:58:20Z", Group: "Pokemon" },
+            { Name: "Elgyem", Time: "2024-03-20T03:33:40Z", Group: "Pokemon" },
 
-			// Missing Krookodile, Galvantula, Beheeyem, Alomomola, and Serperior
+            {
+                Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png",
+                Time: "2024-03-20T04:31:55.096Z", Attempts: 1
+            },
+			
+            { Name: "Alomomola", Time: "2024-03-20T05:07:27Z", Group: "Pokemon" },
+            { Name: "Basculin", Time: "2024-03-20T05:24:44Z", Group: "Pokemon" },
+            { Name: "Watchog", Time: "2024-03-20T05:36:25Z", Group: "Pokemon" },
+            { Name: "Frillish", Time: "2024-03-20T06:05:51Z", Group: "Pokemon" },
+            { Name: "Serperior", Time: "2024-03-20T07:10:13.649Z", Group: "Pokemon" },
+            { Name: "Axew", Time: "2024-03-20T12:13:13Z", Group: "Pokemon" },
+            { Name: "Zebstrika", Time: "2024-03-20T14:41:42Z", Group: "Pokemon" },
+            { Name: "Krookodile", Time: "2024-03-20T15:45:22.391Z", Group: "Pokemon" },
+            { Name: "Cubchoo", Time: "2024-03-20T16:27:02Z", Group: "Pokemon" },
+            { Name: "Gurdurr", Time: "2024-03-20T16:40:26Z", Group: "Pokemon" },
+            { Name: "Mienfoo", Time: "2024-03-20T18:00:16Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png",
+                Time: "2024-03-20T18:29:44.928Z", Attempts: 1
+            },
+			
+			// Missing Beheeyem
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", IDNo: "53314", Party: [
