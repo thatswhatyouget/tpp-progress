@@ -18,10 +18,6 @@ Season11.Runs.push(
         FinalStateLink: "./states/Season 11/supergauntletblack.json",
         //APIObjectName: "black",
         Events: [
-            {
-                Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png",
-                Time: "", Attempts: 0
-            },
 
             {
                 Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png",
@@ -148,8 +144,26 @@ Season11.Runs.push(
                 Time: "2024-03-20T18:29:44.928Z", Attempts: 1
             },
 			
-			// Missing Beheeyem
-
+            { Name: "Druddigon", Time: "2024-03-20T18:39:07Z", Group: "Pokemon" },
+            { Name: "Golett", Time: "2024-03-20T19:01:48Z", Group: "Pokemon" },
+            { Name: "Beheeyem", Time: "2024-03-20T19:16:20.766Z", Group: "Pokemon" },
+            { Name: "Cobalion", Time: "2024-03-20T20:21:58Z", Group: "Pokemon" },
+            { Name: "Whirlipede", Time: "2024-03-20T20:59:37Z", Group: "Pokemon" },
+            { Name: "Virizion", Time: "2024-03-20T21:11:21Z", Group: "Pokemon" },
+            { Name: "Cofagrigus", Time: "2024-03-20T22:55:42Z", Group: "Pokemon" },
+            { Name: "Shelmet", Time: "2024-03-21T00:04:12Z", Group: "Pokemon" },
+            { Name: "Stunfisk", Time: "2024-03-21T00:07:03Z", Group: "Pokemon" },
+            { Name: "Palpitoad", Time: "2024-03-21T00:09:18Z", Group: "Pokemon" },
+            { Name: "Gothorita", Time: "2024-03-21T02:16:23Z", Group: "Pokemon" },
+            { Name: "Garbodor", Time: "2024-03-21T02:23:54Z", Group: "Pokemon" },
+            { Name: "Pawniard", Time: "2024-03-21T02:26:09Z", Group: "Pokemon" },
+            { Name: "Cinccino", Time: "2024-03-21T02:34:26Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png",
+                Time: "2024-03-21T03:38:50.225Z", Attempts: 1
+            },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", IDNo: "53314", Party: [
                     { Pokemon: "Krookodile", Nickname: "Hecatia", Level: 52, Gender: "Female" },
