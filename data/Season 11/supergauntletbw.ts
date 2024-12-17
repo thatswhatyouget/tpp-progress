@@ -640,8 +640,26 @@ Season11.Runs.push(
                 Time: "2024-03-21T22:30:48Z", Attempts: 17
             },
 
-			// Missing Meloetta
-
+            { Name: "Omanyte", Time: "2024-03-21T22:56:27.318Z", Group: "Pokemon" },
+            { Name: "Cinccino", Time: "2024-03-21T23:23:35Z", Group: "Pokemon" },
+            { Name: "Kabuto", Time: "2024-03-21T23:29:02Z", Group: "Pokemon" },
+            { Name: "Reshiram", Time: "2024-03-21T23:32:11Z", Group: "Pokemon" },
+            { Name: "Gigalith", Time: "2024-03-21T23:35:37Z", Group: "Pokemon" },
+            { Name: "Terrakion", Time: "2024-03-21T23:41:15Z", Group: "Pokemon" },
+            { Name: "Porygon", Time: "2024-03-21T23:41:15Z", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Oshawott", Time: "2024-03-22T00:52:28Z", Group: "Pokemon", Class: "WifiTrade" },
+            { Name: "Manaphy", Time: "2024-03-22T01:34:39Z", Group: "Pokemon" },
+            { Name: "Metagross", Time: "2024-03-22T03:26:19Z", Group: "Pokemon" },
+            { Name: "Meloetta", Time: "2024-03-22T03:28:12Z", Group: "Pokemon" },
+            { Name: "Giratina", Time: "2024-03-22T05:11:32.449Z", Group: "Pokemon" },
+            { Name: "Victini", Time: "2024-03-22T08:26:32Z", Group: "Pokemon" },
+            { Name: "Carracosta", Time: "2024-03-22T12:23:25.477Z", Group: "Pokemon" },
+            { Name: "Kabutops", Time: "2024-03-22T12:53:31.651Z", Group: "Pokemon" },
+            { Name: "Cryogonal", Time: "2024-03-22T14:04:09Z", Group: "Pokemon" },
+            { Name: "Eelektrik", Time: "2024-03-22T16:43:22.867Z", Group: "Pokemon" },
+            { Name: "Eelektross", Time: "2024-03-22T16:50:34.895Z", Group: "Pokemon" },
+            { Name: "Phione", Time: "2024-03-22T18:27:21.253Z", Group: "Pokemon" },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "60990", Party: [
                     { Pokemon: "Meloetta", Level: 71 },
@@ -653,10 +671,33 @@ Season11.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "",
-                Time: "2024-03-22T21:05:24Z", Attempts: 0
+                Time: "2024-03-22T21:05:24Z", Attempts: 5
             },
 
-			// Missing Porygon, Beautifly
+            { Name: "Stoutland", Time: "2024-03-23T02:24:23.172Z", Group: "Pokemon" },
+            { Name: "Dewott", Time: "2024-03-23T02:34:18.669Z", Group: "Pokemon" },
+            { Name: "Samurott", Time: "2024-03-23T03:01:20.901Z", Group: "Pokemon" },
+            { Name: "Ferrothorn", Time: "2024-03-23T09:58:40.694Z", Group: "Pokemon" },
+            { Name: "Anorith", Time: "2024-03-23T10:41:48.982Z", Group: "Pokemon" },
+            { Name: "Klang", Time: "2024-03-23T12:09:04.332Z", Group: "Pokemon" },
+            { Name: "Klinklang", Time: "2024-03-23T12:26:40.176Z", Group: "Pokemon" },
+            { Name: "Vespiquen", Time: "2024-03-23T13:06:57.637Z", Group: "Pokemon" },
+            { Name: "Armaldo", Time: "2024-03-23T14:10:32.582Z", Group: "Pokemon" },
+            { Name: "Vanillish", Time: "2024-03-23T15:11:57.416Z", Group: "Pokemon" },
+            { Name: "Galvantula", Time: "2024-03-23T16:27:41.347Z", Group: "Pokemon" },
+            { Name: "Vanilluxe", Time: "2024-03-23T18:04:34.294Z", Group: "Pokemon" },
+            { Name: "Dewgong", Time: "2024-03-23T18:12:13.777Z", Group: "Pokemon" },
+            { Name: "Scrafty", Time: "2024-03-23T19:16:54.377Z", Group: "Pokemon" },
+            { Name: "Silcoon", Time: "2024-03-23T19:23:56.783Z", Group: "Pokemon" },
+            { Name: "Beautifly", Time: "2024-03-23T19:28:00.081Z", Group: "Pokemon" },
+            { Name: "Luxio", Time: "2024-03-23T19:34:01.309Z", Group: "Pokemon" },
+            { Name: "Luxray", Time: "2024-03-23T19:45:53.960Z", Group: "Pokemon" },
+            { Name: "Goldeen", Time: "2024-03-23T19:52:06Z", Group: "Pokemon" },
+            { Name: "Shellder", Time: "2024-03-23T20:06:40Z", Group: "Pokemon" },
+            { Name: "Scolipede", Time: "2024-03-23T20:31:17.102Z", Group: "Pokemon" },
+            { Name: "Emboar", Time: "2024-03-23T20:52:08.645Z", Group: "Pokemon" },
+            { Name: "Zoroark", Time: "2024-03-23T23:03:07Z", Group: "Pokemon" },
+			
             { Name: "Escavalier", Time: "2024-03-23T22:35:16Z", Group: "Pokemon" },
             { Name: "Accelgor", Time: "2024-03-23T22:38:24Z", Group: "Pokemon" },
 
