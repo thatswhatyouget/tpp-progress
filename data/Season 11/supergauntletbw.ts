@@ -696,10 +696,9 @@ Season11.Runs.push(
             { Name: "Shellder", Time: "2024-03-23T20:06:40Z", Group: "Pokemon" },
             { Name: "Scolipede", Time: "2024-03-23T20:31:17.102Z", Group: "Pokemon" },
             { Name: "Emboar", Time: "2024-03-23T20:52:08.645Z", Group: "Pokemon" },
-            { Name: "Zoroark", Time: "2024-03-23T23:03:07Z", Group: "Pokemon" },
-			
             { Name: "Escavalier", Time: "2024-03-23T22:35:16Z", Group: "Pokemon" },
             { Name: "Accelgor", Time: "2024-03-23T22:38:24Z", Group: "Pokemon" },
+            { Name: "Zoroark", Time: "2024-03-23T23:03:07Z", Group: "Pokemon" },
 
         ]
     }
