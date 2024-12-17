@@ -442,34 +442,52 @@ Season11.Runs.push(
                 Time: "2024-03-20T00:14:38.081Z", Attempts: 1
             },
 			
+            { Name: "Golett", Time: "2024-03-20T00:27:46Z", Group: "Pokemon" },
+            { Name: "Palpitoad", Time: "2024-03-20T01:41:28Z", Group: "Pokemon" },
+            { Name: "Stunfisk", Time: "2024-03-20T01:44:15Z", Group: "Pokemon" },
+            { Name: "Shelmet", Time: "2024-03-20T01:49:16Z", Group: "Pokemon" },
+			
             {
                 Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png",
-                Time: "", Attempts: 0
+                Time: "2024-03-20T03:02:19.304Z", Attempts: 1
             },
-
-            {
-                Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png",
-                Time: "", Attempts: 0
-            },
+			
+            { Name: "Herdier", Time: "2024-03-20T03:14:12Z", Group: "Pokemon" },
+            { Name: "Frillish", Time: "2024-03-20T03:22:52Z", Group: "Pokemon" },
+            { Name: "Rufflet", Time: "2024-03-20T04:22:41Z", Group: "Pokemon" },
+			
             {
                 Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/caitlin.png",
-                Time: "", Attempts: 0
+                Time: "2024-03-20T04:50:14.584Z", Attempts: 1
             },
+			
+            {
+                Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png",
+                Time: "2024-03-20T05:14:21.461Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png",
+                Time: "2024-03-20T05:19:40.586Z", Attempts: 2
+            },
+			
             {
                 Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png",
-                Time: "", Attempts: 0
+                Time: "2024-03-20T05:28:54.726Z", Attempts: 1
             },
+			
+            { Name: "Zekrom", Time: "2024-03-20T05:46:55Z", Group: "Pokemon" },
+            { Name: "Durant", Time: "2024-03-20T06:09:50Z", Group: "Pokemon" },
+            { Name: "Excadrill", Time: "2024-03-20T06:30:30Z", Group: "Pokemon" },
+			
             {
                 Group: "Champions", Name: "N", Image: "img/trainers/black/n.png",
-                Time: "", Attempts: 0
+                Time: "2024-03-20T06:54:07.969Z", Attempts: 2
             },
+			
             {
                 Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/ghetsis.png",
-                Time: "", Attempts: 0
+                Time: "2024-03-20T07:04:46Z", Attempts: 1
             },
 
             <TPP.HallOfFame>{
@@ -483,29 +501,129 @@ Season11.Runs.push(
                 ],
                 Image: "img/ribbons/event.png",
                 FirstAttemptDate: "",
-                Time: "2024-03-20T07:07:20Z", Attempts: 0
+                Time: "2024-03-20T07:07:20Z", Attempts: 4
             },
 
-            {
-                Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
+            { Name: "Duosion", Time: "2024-03-20T08:12:10Z", Group: "Pokemon" },
+            { Name: "Vanillite", Time: "2024-03-20T09:08:30Z", Group: "Pokemon" },
+            { Name: "Audino", Time: "2024-03-20T09:10:31Z", Group: "Pokemon" },
+            { Name: "Axew", Time: "2024-03-20T09:43:14Z", Group: "Pokemon" },
+            { Name: "Cobalion", Time: "2024-03-20T10:07:54Z", Group: "Pokemon" },
+            { Name: "Pawniard", Time: "2024-03-20T12:05:54Z", Group: "Pokemon" },
+            { Name: "Garbodor", Time: "2024-03-20T12:14:06Z", Group: "Pokemon" },
+            { Name: "Lickitung", Time: "2024-03-20T13:00:48Z", Group: "Pokemon" },
+            { Name: "Heatmor", Time: "2024-03-20T14:08:59Z", Group: "Pokemon" },
+            { Name: "Fraxure", Time: "2024-03-20T14:26:57Z", Group: "Pokemon" },
+            { Name: "Oddish", Time: "2024-03-20T15:28:06Z", Group: "Pokemon" },
+            { Name: "Gastly", Time: "2024-03-20T15:29:39Z", Group: "Pokemon" },
+            { Name: "Machop", Time: "2024-03-20T15:31:12Z", Group: "Pokemon" },
+            { Name: "Budew", Time: "2024-03-20T15:32:57Z", Group: "Pokemon" },
+            { Name: "Wurmple", Time: "2024-03-20T15:34:57Z", Group: "Pokemon" },
+            { Name: "Magnemite", Time: "2024-03-20T15:37:14Z", Group: "Pokemon" },
+            { Name: "Magby", Time: "2024-03-20T15:41:27Z", Group: "Pokemon" },
+            { Name: "Mareep", Time: "2024-03-20T15:43:05Z", Group: "Pokemon" },
+            { Name: "Shinx", Time: "2024-03-20T15:44:51Z", Group: "Pokemon" },
+            { Name: "Ralts", Time: "2024-03-20T15:50:01Z", Group: "Pokemon" },
+            { Name: "Thundurus", Time: "2024-03-20T16:06:24Z", Group: "Pokemon" },
+            { Name: "Gligar", Time: "2024-03-20T16:12:18Z", Group: "Pokemon" },
+            { Name: "Zangoose", Time: "2024-03-20T16:18:13Z", Group: "Pokemon" },
+            { Name: "Seviper", Time: "2024-03-20T16:20:20Z", Group: "Pokemon" },
+            { Name: "Golduck", Time: "2024-03-20T16:26:05Z", Group: "Pokemon" },
+            { Name: "Amoonguss", Time: "2024-03-20T16:32:08Z", Group: "Pokemon" },
+            { Name: "Bisharp", Time: "2024-03-20T17:12:29Z", Group: "Pokemon" },
+            { Name: "Braviary", Time: "2024-03-20T17:26:41Z", Group: "Pokemon" },
+            { Name: "Cherrim", Time: "2024-03-20T18:01:42Z", Group: "Pokemon" },
+            { Name: "Dunsparce", Time: "2024-03-20T18:06:30Z", Group: "Pokemon" },
+            { Name: "Rapidash", Time: "2024-03-20T18:15:32Z", Group: "Pokemon" },
+            { Name: "Metapod", Time: "2024-03-20T18:19:17Z", Group: "Pokemon" },
+            { Name: "Lunatone", Time: "2024-03-20T18:51:23Z", Group: "Pokemon" },
+            { Name: "Delibird", Time: "2024-03-20T18:53:56Z", Group: "Pokemon" },
+            { Name: "Seel", Time: "2024-03-20T18:59:45Z", Group: "Pokemon" },
+            { Name: "Piloswine", Time: "2024-03-20T19:12:03Z", Group: "Pokemon" },
+            { Name: "Sneasel", Time: "2024-03-20T19:16:03Z", Group: "Pokemon" },
+            { Name: "Wingull", Time: "2024-03-20T19:26:33Z", Group: "Pokemon" },
+            { Name: "Swellow", Time: "2024-03-20T19:41:10Z", Group: "Pokemon" },
+            { Name: "Tangela", Time: "2024-03-20T19:43:27Z", Group: "Pokemon" },
+            { Name: "Bibarel", Time: "2024-03-20T20:03:29Z", Group: "Pokemon" },
+            { Name: "Clefairy", Time: "2024-03-20T20:50:33Z", Group: "Pokemon" },
+            { Name: "Solrock", Time: "2024-03-20T21:10:44Z", Group: "Pokemon" },
+            { Name: "Ditto", Time: "2024-03-20T21:26:32Z", Group: "Pokemon" },
+            { Name: "Vulpix", Time: "2024-03-20T22:52:22Z", Group: "Pokemon" },
+            { Name: "Chimecho", Time: "2024-03-20T23:11:32Z", Group: "Pokemon" },
+            { Name: "Mantyke", Time: "2024-03-20T23:38:27Z", Group: "Pokemon" },
+            { Name: "Virizion", Time: "2024-03-21T00:38:06Z", Group: "Pokemon" },
+            { Name: "Drilbur", Time: "2024-03-21T01:42:57Z", Group: "Pokemon" },
+            { Name: "Kyurem", Time: "2024-03-21T02:20:12Z", Group: "Pokemon" },
+			
             {
                 Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Class: "Rematch",
-                Time: "", Attempts: 0
+                Time: "2024-03-21T02:37:15.890Z", Attempts: 1
             },
+			
+            {
+                Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Class: "Rematch",
+                Time: "2024-03-21T03:08:53.011Z", Attempts: 3
+            },
+			
+            { Name: "Bouffalant", Time: "2024-03-21T04:26:35Z", Group: "Pokemon" },
+            { Name: "Pelipper", Time: "2024-03-21T05:37:48.712Z", Group: "Pokemon" },
+            { Name: "Ariados", Time: "2024-03-21T05:43:06Z", Group: "Pokemon" },
+            { Name: "Graveler", Time: "2024-03-21T09:10:31Z", Group: "Pokemon" },
+            { Name: "Marowak", Time: "2024-03-21T09:52:18Z", Group: "Pokemon" },
+            { Name: "Fearow", Time: "2024-03-21T09:54:07Z", Group: "Pokemon" },
+            { Name: "Kangaskhan", Time: "2024-03-21T09:58:58Z", Group: "Pokemon" },
+            { Name: "Tyranitar", Time: "2024-03-21T10:07:12Z", Group: "Pokemon" },
+            { Name: "Pupitar", Time: "2024-03-21T10:14:19Z", Group: "Pokemon" },
+            { Name: "Tirtouga", Time: "2024-03-21T10:51:47.920Z", Group: "Pokemon" },
+            { Name: "Purrloin", Time: "2024-03-21T11:07:24Z", Group: "Pokemon" },
+            { Name: "Munna", Time: "2024-03-21T11:08:43Z", Group: "Pokemon" },
+            { Name: "Musharna", Time: "2024-03-21T11:12:42.710Z", Group: "Pokemon" },
+            { Name: "Darmanitan", Time: "2024-03-21T11:34:13Z", Group: "Pokemon" },
+            { Name: "Cofagrigus", Time: "2024-03-21T11:39:54Z", Group: "Pokemon" },
+            { Name: "Sandslash", Time: "2024-03-21T11:46:59Z", Group: "Pokemon" },
+            { Name: "Krokorok", Time: "2024-03-21T11:50:37Z", Group: "Pokemon" },
+            { Name: "Claydol", Time: "2024-03-21T11:55:38Z", Group: "Pokemon" },
+            { Name: "Volcarona", Time: "2024-03-21T12:04:15Z", Group: "Pokemon" },
+            { Name: "Sawsbuck", Time: "2024-03-21T12:36:23Z", Group: "Pokemon" },
+            { Name: "Deino", Time: "2024-03-21T12:58:16Z", Group: "Pokemon" },
+            { Name: "Crustle", Time: "2024-03-21T13:45:55Z", Group: "Pokemon" },
+            { Name: "Swanna", Time: "2024-03-21T14:12:29Z", Group: "Pokemon" },
+            { Name: "Ducklett", Time: "2024-03-21T14:24:20Z", Group: "Pokemon" },
+            { Name: "Tynamo", Time: "2024-03-21T14:36:03Z", Group: "Pokemon" },
+            { Name: "Alomomola", Time: "2024-03-21T14:50:11Z", Group: "Pokemon" },
+            { Name: "Lampent", Time: "2024-03-21T15:13:12.218Z", Group: "Pokemon" },
+            { Name: "Chandelure", Time: "2024-03-21T15:52:04.462Z", Group: "Pokemon" },
+            { Name: "Combee", Time: "2024-03-21T15:56:14Z", Group: "Pokemon" },
+            { Name: "Sunkern", Time: "2024-03-21T16:04:07Z", Group: "Pokemon" },
+            { Name: "Heracross", Time: "2024-03-21T16:05:18Z", Group: "Pokemon" },
+            { Name: "Larvesta", Time: "2024-03-21T16:32:38.955Z", Group: "Pokemon" },
+            { Name: "Drifblim", Time: "2024-03-21T16:35:41Z", Group: "Pokemon" },
+            { Name: "Golbat", Time: "2024-03-21T16:40:36Z", Group: "Pokemon" },
+            { Name: "Absol", Time: "2024-03-21T16:54:25Z", Group: "Pokemon" },
+            { Name: "Staryu", Time: "2024-03-21T17:06:20Z", Group: "Pokemon" },
+            { Name: "Metang", Time: "2024-03-21T17:34:42Z", Group: "Pokemon" },
+            { Name: "Jynx", Time: "2024-03-21T17:37:29Z", Group: "Pokemon" },
+            { Name: "Pinsir", Time: "2024-03-21T17:59:10Z", Group: "Pokemon" },
+            { Name: "Tropius", Time: "2024-03-21T18:07:38Z", Group: "Pokemon" },
+            { Name: "Jigglypuff", Time: "2024-03-21T18:12:16Z", Group: "Pokemon" },
+            { Name: "Altaria", Time: "2024-03-21T18:16:04Z", Group: "Pokemon" },
+            { Name: "Beheeyem", Time: "2024-03-21T18:20:08Z", Group: "Pokemon" },
+            { Name: "Shuckle", Time: "2024-03-21T18:27:29Z", Group: "Pokemon" },
+            { Name: "Mienshao", Time: "2024-03-21T18:30:28Z", Group: "Pokemon" },
+			
+            {
+                Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Class: "Rematch",
+                Time: "2024-03-21T20:24:09.744Z", Attempts: 2
+            },
+			
             {
                 Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Class: "Rematch",
-                Time: "", Attempts: 0
+                Time: "2024-03-21T22:20:58.315Z", Attempts: 7
             },
-
+			
             {
                 Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png",
-                Time: "", Attempts: 0
+                Time: "2024-03-21T22:30:06.756Z", Attempts: 1
             },
 
             <TPP.HallOfFame>{
@@ -519,10 +637,10 @@ Season11.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "",
-                Time: "2024-03-21T22:30:48Z", Attempts: 0
+                Time: "2024-03-21T22:30:48Z", Attempts: 17
             },
 
-			// Missing Kyurem and Meloetta
+			// Missing Meloetta
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "60990", Party: [
@@ -538,7 +656,7 @@ Season11.Runs.push(
                 Time: "2024-03-22T21:05:24Z", Attempts: 0
             },
 
-			// Missing Shelmet, Porygon, Beautifly, Beheeyem, Mienshao
+			// Missing Porygon, Beautifly
             { Name: "Escavalier", Time: "2024-03-23T22:35:16Z", Group: "Pokemon" },
             { Name: "Accelgor", Time: "2024-03-23T22:38:24Z", Group: "Pokemon" },
 
