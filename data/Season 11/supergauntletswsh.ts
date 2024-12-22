@@ -253,7 +253,7 @@ Season11.Runs.push(
 			{ Name: "Polteageist", Time: "2024-07-13T03:34:42Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-13T11:43:54Z", IDNo: "831278", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-13T11:43:54Z", IDNo: "831278", Attempts: 1, Party: [
                     { Pokemon: "Crawdaunt", Nickname: "Skrelpeaterr", Gender: "Male", Level: 69, /*Type1: "Water", Type2: "Dark", Number: 342, OT: "11sdccvgg g", IDNo: "831278" */},
                     { Pokemon: "Grimmsnarl", Nickname: "Oberon", Gender: "Male", Level: 73, /*Type1: "Dark", Type2: "Fairy", Number: 861, OT: "11sdccvgg g", IDNo: "831278" */},
                     { Pokemon: "Slowbro", Nickname: "\"'aaaZzzzzzz", Gender: "Male", Level: 75, /*Type1: "Poison", Type2: "Psychic", Number: 80, OT: "11sdccvgg g", IDNo: "831278",*/ Form: "Galarian" },
@@ -286,7 +286,7 @@ Season11.Runs.push(
 			{ Name: "Cryogonal", Time: "2024-07-14T00:58:02Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T02:11:12Z", IDNo: "831278", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T02:11:12Z", IDNo: "831278", Attempts: 1, Party: [
                     { Pokemon: "Eternatus", Level: 62 },
                     { Pokemon: "Grimmsnarl", Nickname: "Oberon", Gender: "Male", Level: 82, },
                     { Pokemon: "Moltres", Nickname: "Black Doom", Level: 84, Form: "Galarian" },
@@ -299,7 +299,7 @@ Season11.Runs.push(
             },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T02:51:35Z", IDNo: "831278", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T02:51:35Z", IDNo: "831278", Attempts: 1, Party: [
                     { Pokemon: "Eternatus", Level: 65 },
                     { Pokemon: "Grimmsnarl", Nickname: "Oberon", Gender: "Male", Level: 83, },
                     { Pokemon: "Moltres", Nickname: "Black Doom", Level: 85, Form: "Galarian" },
@@ -396,7 +396,7 @@ Season11.Runs.push(
 			{ Name: "Coalossal", Time: "2024-07-15T16:39:24Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-15T18:09:56Z", IDNo: "831278", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-15T18:09:56Z", IDNo: "831278", Attempts: 1, Party: [
                     { Pokemon: "Pangoro", Nickname: "Barry", Gender: "Male", Level: 86, Shiny: "true" },
                     { Pokemon: "Crawdaunt", Nickname: "Skrelpeaterr", Gender: "Male", Level: 85 },
                     { Pokemon: "Morpeko", Nickname: "Arnie", Gender: "Male", Level: 88 },
@@ -429,7 +429,7 @@ Season11.Runs.push(
 			{ Name: "Rhyperior", Time: "2024-07-16T12:20:14Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-16T14:24:17Z", IDNo: "831278", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-16T14:24:17Z", IDNo: "831278", Attempts: 1, Party: [
                     { Pokemon: "Pangoro", Nickname: "Barry", Gender: "Male", Level: 100, Shiny: "true" },
                     { Pokemon: "Grimmsnarl", Nickname: "Oberon", Gender: "Male", Level: 100 },
                     { Pokemon: "Thievul", Nickname: "Lkiuu", Gender: "Male", Level: 100 },
@@ -732,7 +732,7 @@ Season11.Runs.push(
 			{ Name: "Ditto", Time: "2024-07-12T16:27:40Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-12T17:45:17Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-12T17:45:17Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Alcremie", Nickname: "\\%{&œøä4#", Gender: "Female", Level: 76, Form: "matcha-ribbon" },
                     { Pokemon: "Zapdos", Nickname: "jU88iKiqu", Level: 72, Form: "Galarian" },
                     { Pokemon: "Articuno", Nickname: "Merlin", Level: 73, Form: "Galarian" },
@@ -825,7 +825,7 @@ Season11.Runs.push(
 			{ Name: "Blipbug", Time: "2024-07-13T22:54:46Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T00:50:52Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T00:50:52Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Articuno", Nickname: "Merlin", Level: 83, Form: "Galarian" },
                     { Pokemon: "Zapdos", Nickname: "jU88iKiqu", Level: 79, Form: "Galarian" },
                     { Pokemon: "Arctovish", Nickname: "helpp", Level: 61 },
@@ -842,7 +842,7 @@ Season11.Runs.push(
 			{ Name: "Jigglypuff", Time: "2024-07-14T02:11:52Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-14T03:20:38Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-14T03:20:38Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Articuno", Nickname: "Merlin", Level: 84, Form: "Galarian" },
                     { Pokemon: "Zapdos", Nickname: "jU88iKiqu", Level: 81, Form: "Galarian" },
                     { Pokemon: "Arctovish", Nickname: "helpp", Level: 66 },
@@ -947,7 +947,7 @@ Season11.Runs.push(
 			{ Name: "Cleffa", Time: "2024-07-15T19:12:21Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-15T20:03:24Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-15T20:03:24Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Zapdos", Nickname: "jU88iKiqu", Level: 92, Form: "Galarian" },
                     { Pokemon: "Cleffa", Nickname: "Opie", Gender: "Female", Level: 46 },
 					{ Pokemon: "Stakataka", Level: 72 },
@@ -962,7 +962,7 @@ Season11.Runs.push(
 			{ Name: "Clefairy", Time: "2024-07-15T20:34:44Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-15T21:01:15Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-15T21:01:15Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Zapdos", Nickname: "jU88iKiqu", Level: 93, Form: "Galarian" },
                     { Pokemon: "Clefairy", Nickname: "Opie", Gender: "Female", Level: 54 },
 					{ Pokemon: "Stakataka", Level: 73 },
@@ -1003,7 +1003,7 @@ Season11.Runs.push(
 			{ Name: "Metagross", Time: "2024-07-16T17:54:52Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-16T20:12:23Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-16T20:12:23Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Dhelmise", Nickname: "uTg''\":ls", Level: 100 },
                     { Pokemon: "Alcremie", Nickname: "\\%{&œøä4#", Gender: "Female", Level: 100, Form: "matcha-ribbon" },
                     { Pokemon: "Inteleon", Nickname: "Jimm", Gender: "Male", Level: 77 },
