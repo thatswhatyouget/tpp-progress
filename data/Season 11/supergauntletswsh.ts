@@ -17,20 +17,6 @@ Season11.Runs.push(
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
         // FinalStateLink: "./states/Season 11/supergauntletsum.json",
         Events: [
-            { "Group": "Badges", "Name": "Grass Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/grass.png" },
-            { "Group": "Badges", "Name": "Water Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/water.png" },
-            { "Group": "Badges", "Name": "Fire Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/fire.png" },
-            { "Group": "Badges", "Name": "Fighting Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/fighting.png" },
-            { "Group": "Badges", "Name": "Fairy Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/fairy.png" },
-            { "Group": "Badges", "Name": "Rock Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/rock.png" },
-            { "Group": "Badges", "Name": "Dark Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/dark.png" },
-            { "Group": "Badges", "Name": "Dragon Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/dragon.png" },
-
-            { "Group": "Elite Four", "Name": "Bede", "Time": "", "Attempts": 0, "Image": "img/trainers/sword/bede.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bede" },
-            { "Group": "Elite Four", "Name": "Nessa", "Time": "", "Attempts": 0, "Image": "img/trainers/sword/nessa.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Nessa" },
-            { "Group": "Elite Four", "Name": "Bea", "Time": "", "Attempts": 0, "Image": "img/trainers/sword/bea.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bea" },
-            { "Group": "Elite Four", "Name": "Raihan", "Time": "", "Attempts": 0, "Image": "img/trainers/sword/raihan.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Raihan" },
-            { "Group": "Champions", "Name": "Leon", "Time": "", "Attempts": 0, "Image": "img/trainers/sword/leon.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Leon" },
 
 			{ Name: "Scorbunny", Time: "2024-07-08T21:30:52Z", Group: "Pokemon" },
 			{ Name: "Skwovet", Time: "2024-07-08T21:57:37Z", Group: "Pokemon" },
@@ -53,6 +39,9 @@ Season11.Runs.push(
 			{ Name: "Stunky", Time: "2024-07-09T03:43:48Z", Group: "Pokemon" },
 			{ Name: "Pancham", Time: "2024-07-09T04:17:24Z", Group: "Pokemon" },
 			{ Name: "Thievul", Time: "2024-07-09T06:02:18Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Grass Badge", "Time": "2024-07-09T08:38:09Z", "Attempts": 1, "Image": "img/badges/galar/grass.png" },
+			
 			{ Name: "Bouffalant", Time: "2024-07-09T06:46:38Z", Group: "Pokemon" },
 			{ Name: "Skorupi", Time: "2024-07-09T06:40:19Z", Group: "Pokemon" },
 			{ Name: "Psyduck", Time: "2024-07-09T06:52:06Z", Group: "Pokemon" },
@@ -74,6 +63,9 @@ Season11.Runs.push(
 			{ Name: "Bounsweet", Time: "2024-07-09T12:42:52Z", Group: "Pokemon" },
 			{ Name: "Stufful", Time: "2024-07-09T12:47:06Z", Group: "Pokemon" },
 			{ Name: "Drifloon", Time: "2024-07-09T12:55:35Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Water Badge", "Time": "2024-07-09T15:07:00Z", "Attempts": 1, "Image": "img/badges/galar/water.png" },
+			
 			{ Name: "Shellos", Time: "2024-07-09T15:40:27Z", Group: "Pokemon" },
 			{ Name: "Noibat", Time: "2024-07-09T15:43:15Z", Group: "Pokemon" },
 			{ Name: "Barboach", Time: "2024-07-09T15:48:54Z", Group: "Pokemon" },
@@ -98,6 +90,9 @@ Season11.Runs.push(
 			{ Name: "Sizzlipede", Time: "2024-07-09T21:52:40Z", Group: "Pokemon" },
 			{ Name: "Vulpix", Time: "2024-07-09T21:56:32Z", Group: "Pokemon" },
 			{ Name: "Litwick", Time: "2024-07-09T22:00:25Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Fire Badge", "Time": "2024-07-09T22:13:26Z", "Attempts": 1, "Image": "img/badges/galar/fire.png" },
+			
 			{ Name: "Dedenne", Time: "2024-07-09T22:31:47Z", Group: "Pokemon" },
 			{ Name: "Malamar", Time: "2024-07-09T22:38:13Z", Group: "Pokemon" },
 			{ Name: "Tangela", Time: "2024-07-10T00:02:58Z", Group: "Pokemon" },
@@ -114,13 +109,22 @@ Season11.Runs.push(
 			{ Name: "Glalie", Time: "2024-07-10T05:22:09Z", Group: "Pokemon" },
 			{ Name: "Barbaracle", Time: "2024-07-10T05:35:12Z", Group: "Pokemon" },
 			{ Name: "Natu", Time: "2024-07-10T05:45:11Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Fighting Badge", "Time": "2024-07-10T06:19:01Z", "Attempts": 3, "Image": "img/badges/galar/fighting.png" },
+			
 			{ Name: "Hattrem", Time: "2024-07-10T07:04:07Z", Group: "Pokemon" },
 			{ Name: "Sinistea", Time: "2024-07-10T07:11:31Z", Group: "Pokemon" },
 			{ Name: "Ponyta", Time: "2024-07-10T07:42:28Z", Group: "Pokemon" },
 			{ Name: "Salazzle", Time: "2024-07-10T07:47:25Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Fairy Badge", "Time": "2024-07-10T09:29:21Z", "Attempts": 2, "Image": "img/badges/galar/fairy.png" },
+			
 			{ Name: "Falinks", Time: "2024-07-10T10:30:23Z", Group: "Pokemon" },
 			{ Name: "Togedemaru", Time: "2024-07-10T10:34:53Z", Group: "Pokemon" },
 			{ Name: "Grimmsnarl", Time: "2024-07-10T12:04:53Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Rock Badge", "Time": "2024-07-10T12:24:50Z", "Attempts": 1, "Image": "img/badges/galar/rock.png" },
+			
 			{ Name: "Corviknight", Time: "2024-07-10T13:44:48Z", Group: "Pokemon" },
 			{ Name: "Crustle", Time: "2024-07-10T14:03:42Z", Group: "Pokemon" },
 			{ Name: "Gurdurr", Time: "2024-07-10T14:14:56Z", Group: "Pokemon" },
@@ -152,6 +156,9 @@ Season11.Runs.push(
 			{ Name: "Grapploct", Time: "2024-07-11T01:12:40Z", Group: "Pokemon" },
 			{ Name: "Dhelmise", Time: "2024-07-11T01:25:48Z", Group: "Pokemon" },
 			{ Name: "Palkia", Time: "2024-07-11T03:18:06Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Dark Badge", "Time": "2024-07-11T03:41:38Z", "Attempts": 1, "Image": "img/badges/galar/dark.png" },
+			
 			{ Name: "Greedent", Time: "2024-07-11T03:49:33Z", Group: "Pokemon" },
 			{ Name: "Perrserker", Time: "2024-07-11T03:57:20Z", Group: "Pokemon" },
 			{ Name: "Quagsire", Time: "2024-07-11T07:14:30Z", Group: "Pokemon" },
@@ -168,6 +175,9 @@ Season11.Runs.push(
 			{ Name: "Eldegoss", Time: "2024-07-11T08:27:58Z", Group: "Pokemon" },
 			{ Name: "Corvisquire", Time: "2024-07-11T08:33:20Z", Group: "Pokemon" },
 			{ Name: "Purrloin", Time: "2024-07-11T08:38:09Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Dragon Badge", "Time": "2024-07-11T09:33:17Z", "Attempts": 1, "Image": "img/badges/galar/dragon.png" },
+			
 			{ Name: "Suicune", Time: "2024-07-11T10:11:40Z", Group: "Pokemon" },
 			{ Name: "Moltres", Time: "2024-07-11T11:45:48Z", Group: "Pokemon" },
 			{ Name: "Carkol", Time: "2024-07-11T14:33:01Z", Group: "Pokemon" },
@@ -180,11 +190,19 @@ Season11.Runs.push(
 			{ Name: "Yveltal", Time: "2024-07-11T19:43:07Z", Group: "Pokemon" },
 			{ Name: "Aurorus", Time: "2024-07-11T19:51:43Z", Group: "Pokemon" },
 			{ Name: "Mr. Mime", Time: "2024-07-11T20:11:31Z", Group: "Pokemon" },
+			
+            { "Group": "Elite Four", "Name": "Bede", "Time": "2024-07-12T00:39:06Z", "Attempts": 1, "Image": "img/trainers/sword/bede.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bede" },
+            { "Group": "Elite Four", "Name": "Nessa", "Time": "2024-07-12T00:51:34Z", "Attempts": 1, "Image": "img/trainers/sword/nessa.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Nessa" },
+            { "Group": "Elite Four", "Name": "Bea", "Time": "2024-07-12T01:02:33Z", "Attempts": 1, "Image": "img/trainers/sword/bea.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bea" },
+            { "Group": "Elite Four", "Name": "Raihan", "Time": "2024-07-12T01:16:54Z", "Attempts": 1, "Image": "img/trainers/sword/raihan.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Raihan" },
+			
 			{ Name: "Munna", Time: "2024-07-12T01:44:14Z", Group: "Pokemon" },
 			{ Name: "Eternatus", Time: "2024-07-12T03:04:44Z", Group: "Pokemon" },
 			
+            { "Group": "Champions", "Name": "Leon", "Time": "2024-07-12T03:20:16Z", "Attempts": 1, "Image": "img/trainers/sword/leon.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Leon" },
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-12T03:21:54Z", IDNo: "831278", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-12T03:21:54Z", IDNo: "831278", Attempts: 1, Party: [
                     { Pokemon: "Crawdaunt", Nickname: "Skrelpeaterr", Gender: "Male", Level: 61, /*Type1: "Water", Type2: "Dark", Number: 342, OT: "11sdccvgg g", IDNo: "831278" */},
                     { Pokemon: "Slowbro", Nickname: "\"'aaaZzzzzzz", Gender: "Male", Level: 64, /*Type1: "Poison", Type2: "Psychic", Number: 80, OT: "11sdccvgg g", IDNo: "831278",*/ Form: "Galarian" },
                     { Pokemon: "Grimmsnarl", Nickname: "Oberon", Gender: "Male", Level: 64, /*Type1: "Dark", Type2: "Fairy", Number: 861, OT: "11sdccvgg g", IDNo: "831278" */},
@@ -235,7 +253,7 @@ Season11.Runs.push(
 			{ Name: "Polteageist", Time: "2024-07-13T03:34:42Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-13T11:43:54Z", IDNo: "831278", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-13T11:43:54Z", IDNo: "831278", Attempts: 1, Party: [
                     { Pokemon: "Crawdaunt", Nickname: "Skrelpeaterr", Gender: "Male", Level: 69, /*Type1: "Water", Type2: "Dark", Number: 342, OT: "11sdccvgg g", IDNo: "831278" */},
                     { Pokemon: "Grimmsnarl", Nickname: "Oberon", Gender: "Male", Level: 73, /*Type1: "Dark", Type2: "Fairy", Number: 861, OT: "11sdccvgg g", IDNo: "831278" */},
                     { Pokemon: "Slowbro", Nickname: "\"'aaaZzzzzzz", Gender: "Male", Level: 75, /*Type1: "Poison", Type2: "Psychic", Number: 80, OT: "11sdccvgg g", IDNo: "831278",*/ Form: "Galarian" },
@@ -268,7 +286,7 @@ Season11.Runs.push(
 			{ Name: "Cryogonal", Time: "2024-07-14T00:58:02Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T02:11:12Z", IDNo: "831278", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T02:11:12Z", IDNo: "831278", Attempts: 1, Party: [
                     { Pokemon: "Eternatus", Level: 62 },
                     { Pokemon: "Grimmsnarl", Nickname: "Oberon", Gender: "Male", Level: 82, },
                     { Pokemon: "Moltres", Nickname: "Black Doom", Level: 84, Form: "Galarian" },
@@ -281,7 +299,7 @@ Season11.Runs.push(
             },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T02:51:35Z", IDNo: "831278", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T02:51:35Z", IDNo: "831278", Attempts: 1, Party: [
                     { Pokemon: "Eternatus", Level: 65 },
                     { Pokemon: "Grimmsnarl", Nickname: "Oberon", Gender: "Male", Level: 83, },
                     { Pokemon: "Moltres", Nickname: "Black Doom", Level: 85, Form: "Galarian" },
@@ -378,7 +396,7 @@ Season11.Runs.push(
 			{ Name: "Coalossal", Time: "2024-07-15T16:39:24Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-15T18:09:56Z", IDNo: "831278", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-15T18:09:56Z", IDNo: "831278", Attempts: 1, Party: [
                     { Pokemon: "Pangoro", Nickname: "Barry", Gender: "Male", Level: 86, Shiny: "true" },
                     { Pokemon: "Crawdaunt", Nickname: "Skrelpeaterr", Gender: "Male", Level: 85 },
                     { Pokemon: "Morpeko", Nickname: "Arnie", Gender: "Male", Level: 88 },
@@ -411,7 +429,7 @@ Season11.Runs.push(
 			{ Name: "Rhyperior", Time: "2024-07-16T12:20:14Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-16T14:24:17Z", IDNo: "831278", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-16T14:24:17Z", IDNo: "831278", Attempts: 1, Party: [
                     { Pokemon: "Pangoro", Nickname: "Barry", Gender: "Male", Level: 100, Shiny: "true" },
                     { Pokemon: "Grimmsnarl", Nickname: "Oberon", Gender: "Male", Level: 100 },
                     { Pokemon: "Thievul", Nickname: "Lkiuu", Gender: "Male", Level: 100 },
@@ -464,21 +482,6 @@ Season11.Runs.push(
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
         // FinalStateLink: "./states/Season 11/supergauntletsum.json",
         Events: [
-		
-            { "Group": "Badges", "Name": "Grass Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/grass.png" },
-            { "Group": "Badges", "Name": "Water Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/water.png" },
-            { "Group": "Badges", "Name": "Fire Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/fire.png" },
-            { "Group": "Badges", "Name": "Fighting Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/fighting.png" },
-            { "Group": "Badges", "Name": "Fairy Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/fairy.png" },
-            { "Group": "Badges", "Name": "Rock Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/rock.png" },
-            { "Group": "Badges", "Name": "Dark Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/dark.png" },
-            { "Group": "Badges", "Name": "Dragon Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/dragon.png" },
-
-            { "Group": "Elite Four", "Name": "Bede", "Time": "", "Attempts": 0, "Image": "img/trainers/sword/bede.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bede" },
-            { "Group": "Elite Four", "Name": "Nessa", "Time": "", "Attempts": 0, "Image": "img/trainers/sword/nessa.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Nessa" },
-            { "Group": "Elite Four", "Name": "Allister", "Time": "", "Attempts": 0, "Image": "img/trainers/sword/allister.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Allister" },
-            { "Group": "Elite Four", "Name": "Raihan", "Time": "", "Attempts": 0, "Image": "img/trainers/sword/raihan.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Raihan" },
-            { "Group": "Champions", "Name": "Leon", "Time": "", "Attempts": 0, "Image": "img/trainers/sword/leon.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Leon" },
 
 			{ Name: "Sobble", Time: "2024-07-08T21:26:27Z", Group: "Pokemon" },
 			{ Name: "Rookidee", Time: "2024-07-08T21:50:29Z", Group: "Pokemon" },
@@ -508,6 +511,9 @@ Season11.Runs.push(
 			{ Name: "Wooloo", Time: "2024-07-09T06:17:32Z", Group: "Pokemon" },
 			{ Name: "Skorupi", Time: "2024-07-09T06:40:13Z", Group: "Pokemon" },
 			{ Name: "Psyduck", Time: "2024-07-09T06:52:02Z", Group: "Pokemon" },
+			
+			{ "Group": "Badges", "Name": "Grass Badge", "Time": "2024-07-09T07:47:09Z", "Attempts": 1, "Image": "img/badges/galar/grass.png" },
+			
 			{ Name: "Woobat", Time: "2024-07-09T08:22:50Z", Group: "Pokemon" },
 			{ Name: "Igglybuff", Time: "2024-07-09T10:27:28Z", Group: "Pokemon" },
 			{ Name: "Venipede", Time: "2024-07-09T11:15:05Z", Group: "Pokemon" },
@@ -515,6 +521,9 @@ Season11.Runs.push(
 			{ Name: "Pidove", Time: "2024-07-09T12:11:16Z", Group: "Pokemon" },
 			{ Name: "Baltoy", Time: "2024-07-09T12:38:11Z", Group: "Pokemon" },
 			{ Name: "Bounsweet", Time: "2024-07-09T12:42:47Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Water Badge", "Time": "2024-07-09T13:15:36Z", "Attempts": 1, "Image": "img/badges/galar/water.png" },
+			
 			{ Name: "Shuckle", Time: "2024-07-09T13:30:00Z", Group: "Pokemon" },
 			{ Name: "Croagunk", Time: "2024-07-09T13:31:38Z", Group: "Pokemon" },
 			{ Name: "Barboach", Time: "2024-07-09T14:01:27Z", Group: "Pokemon" },
@@ -525,6 +534,9 @@ Season11.Runs.push(
 			{ Name: "Noctowl", Time: "2024-07-09T14:13:48Z", Group: "Pokemon" },
 			{ Name: "Sizzlipede", Time: "2024-07-09T14:49:41Z", Group: "Pokemon" },
 			{ Name: "Litwick", Time: "2024-07-09T14:55:58Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Fire Badge", "Time": "2024-07-09T15:07:16Z", "Attempts": 1, "Image": "img/badges/galar/fire.png" },
+			
 			{ Name: "Sneasel", Time: "2024-07-09T15:22:21Z", Group: "Pokemon" },
 			{ Name: "Toxicroak", Time: "2024-07-09T15:44:28Z", Group: "Pokemon" },
 			{ Name: "Appletun", Time: "2024-07-09T16:15:25Z", Group: "Pokemon" },
@@ -537,6 +549,9 @@ Season11.Runs.push(
 			{ Name: "Mudbray", Time: "2024-07-09T19:13:20Z", Group: "Pokemon" },
 			{ Name: "Yamask", Time: "2024-07-09T19:41:20Z", Group: "Pokemon" },
 			{ Name: "Maractus", Time: "2024-07-09T19:47:39Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Ghost Badge", "Time": "2024-07-09T21:11:49Z", "Attempts": 1, "Image": "img/badges/galar/ghost.png" },
+			
 			{ Name: "Greedent", Time: "2024-07-09T21:36:56Z", Group: "Pokemon" },
 			{ Name: "Dugtrio", Time: "2024-07-09T21:41:18Z", Group: "Pokemon" },
 			{ Name: "Silicobra", Time: "2024-07-09T21:45:22Z", Group: "Pokemon" },
@@ -549,14 +564,24 @@ Season11.Runs.push(
 			{ Name: "Hawlucha", Time: "2024-07-09T22:28:34Z", Group: "Pokemon" },
 			{ Name: "Hippopotas", Time: "2024-07-09T22:56:54Z", Group: "Pokemon" },
 			{ Name: "Morgrem", Time: "2024-07-09T23:12:22Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Fairy Badge", "Time": "2024-07-09T23:52:25Z", "Attempts": 1, "Image": "img/badges/galar/fairy.png" },
+			
 			{ Name: "Hippowdon", Time: "2024-07-10T00:10:58Z", Group: "Pokemon" },
 			{ Name: "Perrserker", Time: "2024-07-10T00:21:47Z", Group: "Pokemon" },
 			{ Name: "Falinks", Time: "2024-07-10T00:32:17Z", Group: "Pokemon" },
 			{ Name: "Vanillish", Time: "2024-07-10T00:52:55Z", Group: "Pokemon" },
 			{ Name: "Snom", Time: "2024-07-10T00:54:41Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Ice Badge", "Time": "2024-07-10T01:34:07Z", "Attempts": 1, "Image": "img/badges/galar/ice.png" },
+			
 			{ Name: "Buneary", Time: "2024-07-10T02:22:12Z", Group: "Pokemon" },
 			{ Name: "Lopunny", Time: "2024-07-10T02:29:11Z", Group: "Pokemon" },
 			{ Name: "Grapploct", Time: "2024-07-10T02:51:02Z", Group: "Pokemon" },
+			
+            { "Group": "Badges", "Name": "Dark Badge", "Time": "2024-07-10T03:23:36Z", "Attempts": 1, "Image": "img/badges/galar/dark.png" },
+            { "Group": "Badges", "Name": "Dragon Badge", "Time": "2024-07-10T04:00:50Z", "Attempts": 1, "Image": "img/badges/galar/dragon.png" },
+			
 			{ Name: "Vanilluxe", Time: "2024-07-10T04:09:11Z", Group: "Pokemon" },
 			{ Name: "Cryogonal", Time: "2024-07-10T05:14:48Z", Group: "Pokemon" },
 			{ Name: "Glalie", Time: "2024-07-10T05:21:53Z", Group: "Pokemon" },
@@ -565,6 +590,12 @@ Season11.Runs.push(
 			{ Name: "Shiinotic", Time: "2024-07-10T07:26:58Z", Group: "Pokemon" },
 			{ Name: "Ponyta", Time: "2024-07-10T07:33:44Z", Group: "Pokemon" },
 			{ Name: "Sawk", Time: "2024-07-10T07:42:28Z", Group: "Pokemon" },
+			
+            { "Group": "Elite Four", "Name": "Bede", "Time": "2024-07-10T09:35:28Z", "Attempts": 1, "Image": "img/trainers/sword/bede.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Bede" },
+            { "Group": "Elite Four", "Name": "Nessa", "Time": "2024-07-10T09:46:48Z", "Attempts": 1, "Image": "img/trainers/sword/nessa.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Nessa" },
+            { "Group": "Elite Four", "Name": "Allister", "Time": "2024-07-10T10:00:00Z", "Attempts": 1, "Image": "img/trainers/sword/allister.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Allister" },
+            { "Group": "Elite Four", "Name": "Raihan", "Time": "2024-07-10T10:13:14Z", "Attempts": 1, "Image": "img/trainers/sword/raihan.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Raihan" },
+			
 			{ Name: "Munna", Time: "2024-07-10T10:36:17Z", Group: "Pokemon" },
 			{ Name: "Weezing", Time: "2024-07-10T10:41:20Z", Group: "Pokemon" },
 			{ Name: "Orbeetle", Time: "2024-07-10T11:00:18Z", Group: "Pokemon" },
@@ -602,8 +633,10 @@ Season11.Runs.push(
 			{ Name: "Frosmoth", Time: "2024-07-11T00:35:32Z", Group: "Pokemon" },
 			{ Name: "Eternatus", Time: "2024-07-11T01:32:31Z", Group: "Pokemon" },
 
+            { "Group": "Champions", "Name": "Leon", "Time": "2024-07-11T02:11:43Z", "Attempts": 1, "Image": "img/trainers/sword/leon.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Leon" },
+
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-11T02:13:21Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-11T02:13:21Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Hippowdon", Nickname: "Mayo", Gender: "Female", Level: 67,/* Type1: "Ground", Number: 450, OT: "1qqaaazzzzzz", IDNo: "719457" */},
                     { Pokemon: "Appletun", Nickname: "mwwzzz aaaa", Gender: "Male", Level: 72,/* Type1: "Grass", Type2: "Dragon", Number: 842, OT: "1qqaaazzzzzz", IDNo: "719457" */},
                     { Pokemon: "Corviknight", Nickname: "﹩﹩﹩", Gender: "Male", Level: 67, /*Type1: "Steel", Type2: "Flying", Number: 823, OT: "1qqaaazzzzzz", IDNo: "719457" */},
@@ -638,7 +671,7 @@ Season11.Runs.push(
 			{ Name: "Melmetal", Time: "2024-07-11T12:58:16Z", Group: "Pokemon", Class: "WifiTrade" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-11T13:38:56Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-11T13:38:56Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Dubwool", Nickname: "Lab", Gender: "Female", Level: 70, /*Type1: "Normal", Number: 832, OT: "1qqaaazzzzzz", IDNo: "719457" */},
                     { Pokemon: "Hippowdon", Nickname: "Mayo", Gender: "Female", Level: 70, /*Type1: "Ground", Number: 450, OT: "1qqaaazzzzzz", IDNo: "719457" */},
                     { Pokemon: "Corviknight", Nickname: "﹩﹩﹩", Gender: "Male", Level: 70, /*Type1: "Steel", Type2: "Flying", Number: 823, OT: "1qqaaazzzzzz", IDNo: "719457" */},
@@ -684,7 +717,7 @@ Season11.Runs.push(
 			{ Name: "Linoone", Time: "2024-07-12T08:37:15Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-12T15:48:40Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-12T15:48:40Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Inteleon", Nickname: "Jimm", Gender: "Male", Level: 73, /*Type1: "Water", Number: 818, OT: "1qqaaazzzzzz", IDNo: "719457" */},
                     { Pokemon: "Corviknight", Nickname: "﹩﹩﹩", Gender: "Male", Level: 72, /*Type1: "Steel", Type2: "Flying", Number: 823, OT: "1qqaaazzzzzz", IDNo: "719457" */},
                     { Pokemon: "Hippowdon", Nickname: "Mayo", Gender: "Female", Level: 71, /*Type1: "Ground", Number: 450, OT: "1qqaaazzzzzz", IDNo: "719457" */},
@@ -699,7 +732,7 @@ Season11.Runs.push(
 			{ Name: "Ditto", Time: "2024-07-12T16:27:40Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-12T17:45:17Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-12T17:45:17Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Alcremie", Nickname: "\\%{&œøä4#", Gender: "Female", Level: 76, Form: "matcha-ribbon" },
                     { Pokemon: "Zapdos", Nickname: "jU88iKiqu", Level: 72, Form: "Galarian" },
                     { Pokemon: "Articuno", Nickname: "Merlin", Level: 73, Form: "Galarian" },
@@ -792,7 +825,7 @@ Season11.Runs.push(
 			{ Name: "Blipbug", Time: "2024-07-13T22:54:46Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T00:50:52Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-14T00:50:52Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Articuno", Nickname: "Merlin", Level: 83, Form: "Galarian" },
                     { Pokemon: "Zapdos", Nickname: "jU88iKiqu", Level: 79, Form: "Galarian" },
                     { Pokemon: "Arctovish", Nickname: "helpp", Level: 61 },
@@ -809,7 +842,7 @@ Season11.Runs.push(
 			{ Name: "Jigglypuff", Time: "2024-07-14T02:11:52Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-14T03:20:38Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-14T03:20:38Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Articuno", Nickname: "Merlin", Level: 84, Form: "Galarian" },
                     { Pokemon: "Zapdos", Nickname: "jU88iKiqu", Level: 81, Form: "Galarian" },
                     { Pokemon: "Arctovish", Nickname: "helpp", Level: 66 },
@@ -914,7 +947,7 @@ Season11.Runs.push(
 			{ Name: "Cleffa", Time: "2024-07-15T19:12:21Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-15T20:03:24Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-15T20:03:24Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Zapdos", Nickname: "jU88iKiqu", Level: 92, Form: "Galarian" },
                     { Pokemon: "Cleffa", Nickname: "Opie", Gender: "Female", Level: 46 },
 					{ Pokemon: "Stakataka", Level: 72 },
@@ -929,7 +962,7 @@ Season11.Runs.push(
 			{ Name: "Clefairy", Time: "2024-07-15T20:34:44Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-15T21:01:15Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Champion Tournament", Time: "2024-07-15T21:01:15Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Zapdos", Nickname: "jU88iKiqu", Level: 93, Form: "Galarian" },
                     { Pokemon: "Clefairy", Nickname: "Opie", Gender: "Female", Level: 54 },
 					{ Pokemon: "Stakataka", Level: 73 },
@@ -970,7 +1003,7 @@ Season11.Runs.push(
 			{ Name: "Metagross", Time: "2024-07-16T17:54:52Z", Group: "Pokemon" },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-16T20:12:23Z", IDNo: "719457", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2024-07-16T20:12:23Z", IDNo: "719457", Attempts: 1, Party: [
                     { Pokemon: "Dhelmise", Nickname: "uTg''\":ls", Level: 100 },
                     { Pokemon: "Alcremie", Nickname: "\\%{&œøä4#", Gender: "Female", Level: 100, Form: "matcha-ribbon" },
                     { Pokemon: "Inteleon", Nickname: "Jimm", Gender: "Male", Level: 77 },

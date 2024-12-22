@@ -70,31 +70,31 @@ Season11.Runs.push(
                 Group: "Elite Four",
                 Name: "Will",
                 Image: "img/trainers/crystal/will.png",
-                Time: "", Attempts: 0
+                Time: "2024-02-21T13:59:57.2915877Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Koga",
                 Image: "img/trainers/crystal/koga.png",
-                Time: "", Attempts: 0
+                Time: "2024-02-21T14:11:40.7751620Z", Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Bruno",
                 Image: "img/trainers/crystal/bruno.png",
-                Time: "", Attempts: 0
+                Time: "2024-02-21T14:22:01.5609600Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Karen",
                 Image: "img/trainers/crystal/karen.png",
-                Time: "", Attempts: 0
+                Time: "2024-02-21T15:08:16.7326940Z", Attempts: 0
             },
             {
                 Group: "Champions",
                 Name: "Lance",
                 Image: "img/trainers/crystal/lance.png",
-                Time: "", Attempts: 0
+                Time: "2024-02-21T19:56:53Z", Attempts: 0
             },
             {
                 Group: "Badges",
@@ -311,31 +311,31 @@ Season11.Runs.push(
                 Group: "Elite Four",
                 Name: "Will",
                 Image: "img/trainers/crystal/will.png",
-                Time: "2024-02-21T13:59:57.2915877Z", Attempts: 1
+                Time: "", Attempts: 0
             },
             {
                 Group: "Elite Four",
                 Name: "Koga",
                 Image: "img/trainers/crystal/koga.png",
-                Time: "2024-02-21T14:11:40.7751620Z", Attempts: 2
+                Time: "", Attempts: 0
             },
             {
                 Group: "Elite Four",
                 Name: "Bruno",
                 Image: "img/trainers/crystal/bruno.png",
-                Time: "2024-02-21T14:22:01.5609600Z", Attempts: 1
+                Time: "", Attempts: 0
             },
             {
                 Group: "Elite Four",
                 Name: "Karen",
                 Image: "img/trainers/crystal/karen.png",
-                Time: "2024-02-21T15:08:16.7326940Z", Attempts: 0
+                Time: "", Attempts: 0
             },
             {
                 Group: "Champions",
                 Name: "Lance",
                 Image: "img/trainers/crystal/lance.png",
-                Time: "2024-02-21T19:56:53Z", Attempts: 0
+                Time: "", Attempts: 0
             },
             {
                 Group: "Badges",
