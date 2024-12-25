@@ -88,18 +88,6 @@ Season11.Runs.push(
                 "Group": "Badges", "Name": "Path of Legends: Flying", "Image": "img/badges/paldea/flying.png",
                 "Time": "2024-07-23T13:49:50Z", "Attempts": 1
             },
-            {
-                "Group": "Badges", "Name": "Path of Legends: Steel", "Image": "img/badges/paldea/steel.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Path of Legends: Ground", "Image": "img/badges/paldea/ground.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Path of Legends: Dragon", "Image": "img/badges/paldea/dragon.png",
-                "Time": ""
-            },
 			
 			{ Name: "Lokix", Time: "2024-07-23T14:05:51Z", Group: "Pokemon" },
 			{ Name: "Mudbray", Time: "2024-07-23T14:11:01Z", Group: "Pokemon" },
@@ -129,23 +117,6 @@ Season11.Runs.push(
                 "Time": "2024-07-23T18:18:41Z", "Attempts": 1
             },
 			
-            {
-                "Group": "Badges", "Name": "Starfall Street: Fire", "Image": "img/badges/paldea/fire.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Starfall Street: Poison", "Image": "img/badges/paldea/poison.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Starfall Street: Fighting", "Image": "img/badges/paldea/fighting.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Starfall Street: Fairy", "Image": "img/badges/paldea/fairy.png",
-                "Time": ""
-            },
-			
 			{ Name: "Persian", Time: "2024-07-23T18:35:26Z", Group: "Pokemon" },
 			{ Name: "Gothita", Time: "2024-07-23T19:19:00Z", Group: "Pokemon" },
 			
@@ -159,22 +130,15 @@ Season11.Runs.push(
                 "Time": "2024-07-23T20:21:36Z", "Attempts": 1
             },
 			
-            {
-                "Group": "Badges", "Name": "Victory Road: Ghost", "Image": "img/badges/paldea/ghost.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Victory Road: Psychic", "Image": "img/badges/paldea/psychic.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Victory Road: Ice", "Image": "img/badges/paldea/ice.png",
-                "Time": ""
-            },
-			
 			{ Name: "Capsakid", Time: "2024-07-23T20:55:25Z", Group: "Pokemon" },
 			{ Name: "Sandile", Time: "2024-07-23T20:58:02Z", Group: "Pokemon" },
 			{ Name: "Larvesta", Time: "2024-07-23T21:04:33Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Path of Legends: Ground", "Image": "img/badges/paldea/ground.png",
+                "Time": "2024-07-23T21:14:50Z", "Attempts": 1
+            },
+			
 			{ Name: "Espeon", Time: "2024-07-23T21:27:22Z", Group: "Pokemon" },
 			{ Name: "Fletchinder", Time: "2024-07-23T21:29:57Z", Group: "Pokemon" },
 			{ Name: "Tropius", Time: "2024-07-23T21:34:07Z", Group: "Pokemon" },
@@ -201,6 +165,12 @@ Season11.Runs.push(
 			{ Name: "Spoink", Time: "2024-07-24T05:07:12Z", Group: "Pokemon" },
 			{ Name: "Yungoos", Time: "2024-07-24T05:19:00Z", Group: "Pokemon" },
 			{ Name: "Cyclizar", Time: "2024-07-24T05:52:04Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Starfall Street: Fire", "Image": "img/badges/paldea/fire.png",
+                "Time": "2024-07-24T06:16:43Z", "Attempts": 1
+            },
+			
 			{ Name: "Charjabug", Time: "2024-07-24T06:50:37Z", Group: "Pokemon" },
 			{ Name: "Zangoose", Time: "2024-07-24T07:07:14Z", Group: "Pokemon" },
 			{ Name: "Munchlax", Time: "2024-07-24T07:10:41Z", Group: "Pokemon" },
@@ -227,7 +197,24 @@ Season11.Runs.push(
 			{ Name: "Bramblin", Time: "2024-07-24T14:33:17Z", Group: "Pokemon" },
 			{ Name: "Deerling", Time: "2024-07-24T14:51:22Z", Group: "Pokemon" },
 			{ Name: "Ceruledge", Time: "2024-07-24T16:02:21Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Starfall Street: Poison", "Image": "img/badges/paldea/poison.png",
+                "Time": "2024-07-24T17:11:16Z", "Attempts": 1
+            },
+			
 			{ Name: "Cetoddle", Time: "2024-07-24T18:35:45Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Victory Road: Ghost", "Image": "img/badges/paldea/ghost.png",
+                "Time": "2024-07-24T19:22:56Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Badges", "Name": "Path of Legends: Dragon", "Image": "img/badges/paldea/dragon.png",
+                "Time": "2024-07-24T21:00:01Z", "Attempts": 1
+            },
+			
 			{ Name: "Meloetta", Time: "2024-07-24T22:32:24Z", Group: "Pokemon" },
 			{ Name: "Slugma", Time: "2024-07-24T22:35:44Z", Group: "Pokemon" },
 			{ Name: "Volbeat", Time: "2024-07-24T22:43:14Z", Group: "Pokemon" },
@@ -247,6 +234,17 @@ Season11.Runs.push(
 			{ Name: "Furret", Time: "2024-07-25T02:21:21Z", Group: "Pokemon" },
 			{ Name: "Ogerpon", Time: "2024-07-25T02:43:35Z", Group: "Pokemon" },
 			{ Name: "Tinkaton", Time: "2024-07-25T03:16:15Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Victory Road: Psychic", "Image": "img/badges/paldea/psychic.png",
+                "Time": "2024-07-25T04:20:16Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Badges", "Name": "Victory Road: Ice", "Image": "img/badges/paldea/ice.png",
+                "Time": "2024-07-25T04:51:05Z", "Attempts": 1
+            },
+			
 			{ Name: "Golduck", Time: "2024-07-25T05:26:15Z", Group: "Pokemon" },
 			{ Name: "Shellder", Time: "2024-07-25T07:58:11Z", Group: "Pokemon" },
 			{ Name: "Shroodle", Time: "2024-07-25T08:05:23Z", Group: "Pokemon" },
@@ -259,7 +257,24 @@ Season11.Runs.push(
 			{ Name: "Bronzong", Time: "2024-07-25T09:45:22Z", Group: "Pokemon" },
 			{ Name: "Snom", Time: "2024-07-25T09:48:11Z", Group: "Pokemon" },
 			{ Name: "Spiritomb", Time: "2024-07-25T09:53:33Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Path of Legends: Steel", "Image": "img/badges/paldea/steel.png",
+                "Time": "2024-07-25T10:42:28Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Badges", "Name": "Starfall Street: Fairy", "Image": "img/badges/paldea/fairy.png",
+                "Time": "2024-07-25T16:45:04Z", "Attempts": 1
+            },
+			
 			{ Name: "Petilil", Time: "2024-07-25T17:54:48Z", Group: "Pokemon", Class: "WifiTrade" },
+			
+            {
+                "Group": "Badges", "Name": "Starfall Street: Fighting", "Image": "img/badges/paldea/fighting.png",
+                "Time": "2024-07-25T18:56:08Z", "Attempts": 1
+            },
+			
 			{ Name: "Lilligant", Time: "2024-07-25T20:13:16Z", Group: "Pokemon" },
 			{ Name: "Pawmo", Time: "2024-07-25T20:57:20Z", Group: "Pokemon" },
 			{ Name: "Vigoroth", Time: "2024-07-25T21:00:57Z", Group: "Pokemon" },
@@ -577,27 +592,6 @@ Season11.Runs.push(
         // FinalStateLink: "./states/Season 11/supergauntletsum.json",
         Events: [
             
-            {
-                "Group": "Badges", "Name": "Starfall Street: Dark", "Image": "img/badges/paldea/dark.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Starfall Street: Fire", "Image": "img/badges/paldea/fire.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Starfall Street: Poison", "Image": "img/badges/paldea/poison.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Starfall Street: Fighting", "Image": "img/badges/paldea/fighting.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Starfall Street: Fairy", "Image": "img/badges/paldea/fairy.png",
-                "Time": ""
-            },
-			
 			{ Name: "Fuecoco", Time: "2024-07-22T21:27:00Z", Group: "Pokemon" },
 			{ Name: "Lechonk", Time: "2024-07-22T21:51:42Z", Group: "Pokemon" },
 			{ Name: "Fletchling", Time: "2024-07-22T21:57:41Z", Group: "Pokemon" },
@@ -681,18 +675,6 @@ Season11.Runs.push(
                 "Group": "Badges", "Name": "Path of Legends: Flying", "Image": "img/badges/paldea/flying.png",
                 "Time": "2024-07-23T18:34:10Z", "Attempts": 1
             },
-            {
-                "Group": "Badges", "Name": "Path of Legends: Steel", "Image": "img/badges/paldea/steel.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Path of Legends: Ground", "Image": "img/badges/paldea/ground.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Path of Legends: Dragon", "Image": "img/badges/paldea/dragon.png",
-                "Time": ""
-            },
 			
 			{ Name: "Tauros", Time: "2024-07-23T18:51:59Z", Group: "Pokemon", Class: "Paldean" },
 			{ Name: "Psyduck", Time: "2024-07-23T19:04:36Z", Group: "Pokemon" },
@@ -701,26 +683,6 @@ Season11.Runs.push(
             {
                 "Group": "Badges", "Name": "Victory Road: Electric", "Image": "img/badges/paldea/electric.png",
                 "Time": "2024-07-23T20:05:04Z", "Attempts": 1
-            },
-            {
-                "Group": "Badges", "Name": "Victory Road: Water", "Image": "img/badges/paldea/water.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Victory Road: Normal", "Image": "img/badges/paldea/normal.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Victory Road: Ghost", "Image": "img/badges/paldea/ghost.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Victory Road: Psychic", "Image": "img/badges/paldea/psychic.png",
-                "Time": ""
-            },
-            {
-                "Group": "Badges", "Name": "Victory Road: Ice", "Image": "img/badges/paldea/ice.png",
-                "Time": ""
             },
 			
 			{ Name: "Crabrawler", Time: "2024-07-23T20:17:07Z", Group: "Pokemon" },
@@ -734,6 +696,12 @@ Season11.Runs.push(
 			{ Name: "Numel", Time: "2024-07-23T22:30:25Z", Group: "Pokemon" },
 			{ Name: "Swablu", Time: "2024-07-23T22:40:38Z", Group: "Pokemon" },
 			{ Name: "Flittle", Time: "2024-07-23T22:46:11Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Starfall Street: Dark", "Image": "img/badges/paldea/dark.png",
+                "Time": "2024-07-23T23:08:57Z", "Attempts": 1
+            },
+			
 			{ Name: "Rufflet", Time: "2024-07-23T23:17:54Z", Group: "Pokemon" },
 			{ Name: "Silicobra", Time: "2024-07-23T23:21:38Z", Group: "Pokemon" },
 			{ Name: "Espathra", Time: "2024-07-24T00:09:35Z", Group: "Pokemon" },
@@ -748,6 +716,12 @@ Season11.Runs.push(
 			{ Name: "Larvesta", Time: "2024-07-24T01:05:09Z", Group: "Pokemon" },
 			{ Name: "Hippopotas", Time: "2024-07-24T01:12:05Z", Group: "Pokemon" },
 			{ Name: "Sandile", Time: "2024-07-24T01:13:22Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Path of Legends: Ground", "Image": "img/badges/paldea/ground.png",
+                "Time": "2024-07-24T01:29:22Z", "Attempts": 3
+            },
+			
 			{ Name: "Smoliv", Time: "2024-07-24T02:03:17Z", Group: "Pokemon" },
 			{ Name: "Skeledirge", Time: "2024-07-24T02:05:34Z", Group: "Pokemon" },
 			{ Name: "Iron Treads", Time: "2024-07-24T02:14:33Z", Group: "Pokemon" },
@@ -756,6 +730,12 @@ Season11.Runs.push(
 			{ Name: "Cyclizar", Time: "2024-07-24T02:56:27Z", Group: "Pokemon" },
 			{ Name: "Dachsbun", Time: "2024-07-24T03:13:10Z", Group: "Pokemon" },
 			{ Name: "Girafarig", Time: "2024-07-24T03:24:34Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Victory Road: Water", "Image": "img/badges/paldea/water.png",
+                "Time": "2024-07-24T04:21:49Z", "Attempts": 3
+            },			
+			
 			{ Name: "Mabosstiff", Time: "2024-07-24T04:39:02Z", Group: "Pokemon" },
 			{ Name: "Staravia", Time: "2024-07-24T04:42:51Z", Group: "Pokemon" },
 			{ Name: "Meowth", Time: "2024-07-24T04:44:20Z", Group: "Pokemon" },
@@ -777,8 +757,20 @@ Season11.Runs.push(
 			{ Name: "Rolycoly", Time: "2024-07-24T13:08:41Z", Group: "Pokemon" },
 			{ Name: "Gastly", Time: "2024-07-24T13:17:04Z", Group: "Pokemon" },
 			{ Name: "Diglett", Time: "2024-07-24T13:21:46Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Starfall Street: Fire", "Image": "img/badges/paldea/fire.png",
+                "Time": "2024-07-24T15:16:08Z", "Attempts": 1
+            },
+			
 			{ Name: "Zorua", Time: "2024-07-24T15:41:48Z", Group: "Pokemon" },
 			{ Name: "Avalugg", Time: "2024-07-24T16:03:55Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Victory Road: Normal", "Image": "img/badges/paldea/normal.png",
+                "Time": "2024-07-24T16:37:29Z", "Attempts": 1
+            },
+			
 			{ Name: "Doduo", Time: "2024-07-24T17:54:38Z", Group: "Pokemon" },
 			{ Name: "Geodude", Time: "2024-07-24T18:23:00Z", Group: "Pokemon", Class: "Alolan" },
 			{ Name: "Golduck", Time: "2024-07-24T19:04:13Z", Group: "Pokemon" },
@@ -789,6 +781,12 @@ Season11.Runs.push(
 			{ Name: "Bombirdier", Time: "2024-07-24T21:17:39Z", Group: "Pokemon" },
 			{ Name: "Shroodle", Time: "2024-07-24T21:20:51Z", Group: "Pokemon" },
 			{ Name: "Staraptor", Time: "2024-07-24T21:33:57Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Path of Legends: Dragon", "Image": "img/badges/paldea/dragon.png",
+                "Time": "2024-07-24T22:01:56Z", "Attempts": 2
+            },
+			
 			{ Name: "Golett", Time: "2024-07-24T22:27:21Z", Group: "Pokemon" },
 			{ Name: "Minccino", Time: "2024-07-24T22:38:32Z", Group: "Pokemon" },
 			{ Name: "Volbeat", Time: "2024-07-24T22:43:10Z", Group: "Pokemon" },
@@ -818,6 +816,12 @@ Season11.Runs.push(
 			{ Name: "Froslass", Time: "2024-07-25T01:35:00Z", Group: "Pokemon" },
 			{ Name: "Glaceon", Time: "2024-07-25T01:42:01Z", Group: "Pokemon" },
 			{ Name: "Zoroark", Time: "2024-07-25T02:01:49Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Victory Road: Ice", "Image": "img/badges/paldea/ice.png",
+                "Time": "2024-07-25T02:03:09Z", "Attempts": 1
+            },
+			
 			{ Name: "Komala", Time: "2024-07-25T02:18:11Z", Group: "Pokemon" },
 			{ Name: "Skwovet", Time: "2024-07-25T02:20:17Z", Group: "Pokemon" },
 			{ Name: "Grafaiai", Time: "2024-07-25T02:23:40Z", Group: "Pokemon" },
@@ -828,6 +832,12 @@ Season11.Runs.push(
 			{ Name: "Garganacl", Time: "2024-07-25T02:42:59Z", Group: "Pokemon" },
 			{ Name: "Bounsweet", Time: "2024-07-25T03:16:17Z", Group: "Pokemon" },
 			{ Name: "Dolliv", Time: "2024-07-25T04:12:32Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Victory Road: Ghost", "Image": "img/badges/paldea/ghost.png",
+                "Time": "2024-07-25T04:36:59Z", "Attempts": 1
+            },
+			
 			{ Name: "Gogoat", Time: "2024-07-25T05:02:32Z", Group: "Pokemon" },
 			{ Name: "Meditite", Time: "2024-07-25T05:08:30Z", Group: "Pokemon" },
 			{ Name: "Klefki", Time: "2024-07-25T05:13:15Z", Group: "Pokemon" },
@@ -835,6 +845,12 @@ Season11.Runs.push(
 			{ Name: "Florges", Time: "2024-07-25T05:50:49Z", Group: "Pokemon" },
 			{ Name: "Medicham", Time: "2024-07-25T05:56:18Z", Group: "Pokemon" },
 			{ Name: "Dugtrio", Time: "2024-07-25T09:09:25Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Path of Legends: Steel", "Image": "img/badges/paldea/steel.png",
+                "Time": "2024-07-25T11:18:59Z", "Attempts": 1
+            },
+			
 			{ Name: "Tropius", Time: "2024-07-25T11:33:38Z", Group: "Pokemon" },
 			{ Name: "Primeape", Time: "2024-07-25T12:25:00Z", Group: "Pokemon" },
 			{ Name: "Ursaring", Time: "2024-07-25T12:43:29Z", Group: "Pokemon" },
@@ -842,6 +858,27 @@ Season11.Runs.push(
 			{ Name: "Houndstone", Time: "2024-07-25T13:52:58Z", Group: "Pokemon" },
 			{ Name: "Magneton", Time: "2024-07-25T15:05:29Z", Group: "Pokemon" },
 			{ Name: "Dragapult", Time: "2024-07-25T15:58:24Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Badges", "Name": "Starfall Street: Poison", "Image": "img/badges/paldea/poison.png",
+                "Time": "2024-07-25T17:31:42Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Badges", "Name": "Victory Road: Psychic", "Image": "img/badges/paldea/psychic.png",
+                "Time": "2024-07-25T17:54:35Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Badges", "Name": "Starfall Street: Fairy", "Image": "img/badges/paldea/fairy.png",
+                "Time": "2024-07-25T18:31:52Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Badges", "Name": "Starfall Street: Fighting", "Image": "img/badges/paldea/fighting.png",
+                "Time": "2024-07-25T19:30:05Z", "Attempts": 1
+            },
+			
 			{ Name: "Orthworm", Time: "2024-07-25T23:18:16Z", Group: "Pokemon" },
 			{ Name: "Torkoal", Time: "2024-07-25T23:38:41Z", Group: "Pokemon" },
 			{ Name: "Basculin", Time: "2024-07-25T23:50:32Z", Group: "Pokemon" },
