@@ -282,31 +282,31 @@ Season11.Runs.push(
 			
             {
                 "Group": "Elite Four", "Name": "Rika", "Image": "img/trainers/scarlet/rika.png",
-                "Time": "", "Attempts": 0
+                "Time": "2024-07-26T01:25:40Z", "Attempts": 1
             },
             {
                 "Group": "Elite Four", "Name": "Poppy", "Image": "img/trainers/scarlet/poppy.png",
-                "Time": "", "Attempts": 0
+                "Time": "2024-07-26T01:36:26Z", "Attempts": 1
             },
             {
                 "Group": "Elite Four", "Name": "Larry", "Image": "img/trainers/scarlet/larry.png",
-                "Time": "", "Attempts": 0
+                "Time": "2024-07-26T01:45:16Z", "Attempts": 1
             },
             {
                 "Group": "Elite Four", "Name": "Hassel", "Image": "img/trainers/scarlet/hassel.png",
-                "Time": "", "Attempts": 0
+                "Time": "2024-07-26T01:51:34Z", "Attempts": 1
             },
             {
                 "Group": "Champions", "Name": "Geeta", "Image": "img/trainers/scarlet/geeta.png",
-                "Time": "", "Attempts": 0
+                "Time": "2024-07-26T02:04:26Z", "Attempts": 1
             },
             {
                 "Group": "Champions", "Name": "Nemona", "Image": "img/trainers/scarlet/nemona.png",
-                "Time": "", "Attempts": 0
+                "Time": "2024-07-26T02:21:03Z", "Attempts": 1
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Victory Road Complete", Time: "2024-07-26T02:22:40Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Victory Road Complete", Time: "2024-07-26T02:22:40Z", Attempts: 1, Party: [
                     { Pokemon: "Glimmora", Nickname: "Glimmer", Level: 66, Gender: "Female" },
                     { Pokemon: "Orthworm", Nickname: "Orthuiwm", Level: 64, Gender: "Female", Shiny: "true" },
                     { Pokemon: "Bellibolt", Nickname: "Belbo", Level: 67, Gender: "Male" },
@@ -354,9 +354,21 @@ Season11.Runs.push(
 			{ Name: "Tatsugiri", Time: "2024-07-26T16:48:16Z", Group: "Pokemon" },
 			{ Name: "Dondozo", Time: "2024-07-26T17:07:06Z", Group: "Pokemon" },
 			{ Name: "Fuecoco", Time: "2024-07-26T17:51:49Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Elite Four", "Name": "Lacey", "Image": "img/trainers/scarlet/lacey.png",
+                "Time": "2024-07-26T19:06:17Z", "Attempts": 1
+            },
+			
 			{ Name: "Exeggcute", Time: "2024-07-26T19:24:11Z", Group: "Pokemon" },
 			{ Name: "Trapinch", Time: "2024-07-26T19:34:27Z", Group: "Pokemon" },
 			{ Name: "Sawsbuck", Time: "2024-07-26T19:45:28Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Water", "Image": "img/badges/paldea/water.png", "Class": "Rematch",
+                "Time": "2024-07-26T20:48:34Z", "Attempts": 1
+            },
+			
 			{ Name: "Iron Hands", Time: "2024-07-26T21:01:16Z", Group: "Pokemon" },
 			{ Name: "Slither Wing", Time: "2024-07-26T21:09:12Z", Group: "Pokemon" },
 			{ Name: "Iron Moth", Time: "2024-07-26T21:15:03Z", Group: "Pokemon" },
@@ -366,7 +378,24 @@ Season11.Runs.push(
 			{ Name: "Gogoat", Time: "2024-07-26T23:49:17Z", Group: "Pokemon" },
 			{ Name: "Iron Thorns", Time: "2024-07-27T00:09:06Z", Group: "Pokemon" },
 			{ Name: "Miraidon", Time: "2024-07-27T00:25:57Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Normal", "Image": "img/badges/paldea/normal.png", "Class": "Rematch",
+                "Time": "2024-07-27T00:39:53Z", "Attempts": 1
+            },
+			
 			{ Name: "Palafin", Time: "2024-07-27T00:47:48Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Electric", "Image": "img/badges/paldea/electric.png", "Class": "Rematch",
+                "Time": "2024-07-27T01:04:30Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Bug", "Image": "img/badges/paldea/bug.png", "Class": "Rematch",
+                "Time": "2024-07-27T01:18:56Z", "Attempts": 1
+            },
+			
 			{ Name: "Pawmot", Time: "2024-07-27T02:23:58Z", Group: "Pokemon" },
 			{ Name: "Illumise", Time: "2024-07-27T06:23:10Z", Group: "Pokemon" },
 			{ Name: "Crocalor", Time: "2024-07-27T07:09:37Z", Group: "Pokemon" },
@@ -377,13 +406,75 @@ Season11.Runs.push(
 			{ Name: "Houndour", Time: "2024-07-27T11:09:17Z", Group: "Pokemon" },
 			{ Name: "Silicobra", Time: "2024-07-27T13:28:53Z", Group: "Pokemon" },
 			{ Name: "Corviknight", Time: "2024-07-27T13:37:50Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Elite Four", "Name": "Amarys", "Image": "img/trainers/scarlet/amarys.png",
+                "Time": "2024-07-27T14:49:33Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Elite Four", "Name": "Crispin", "Image": "img/trainers/scarlet/crispin.png",
+                "Time": "2024-07-27T15:53:41Z", "Attempts": 1
+            },
+			
 			{ Name: "Minun", Time: "2024-07-27T16:08:35Z", Group: "Pokemon" },
 			{ Name: "Granbull", Time: "2024-07-27T16:17:32Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Elite Four", "Name": "Drayton", "Image": "img/trainers/scarlet/drayton.png",
+                "Time": "2024-07-27T17:27:49Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Champions", "Name": "Kieran", "Image": "img/trainers/scarlet/kieran.png",
+                "Time": "2024-07-27T18:10:51Z", "Attempts": 2
+            },
+			
 			{ Name: "Carbink", Time: "2024-07-27T19:01:58Z", Group: "Pokemon" },
 			{ Name: "Terapagos", Time: "2024-07-27T21:39:08Z", Group: "Pokemon" },
 			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Ice", "Image": "img/badges/paldea/ice.png", "Class": "Rematch",
+                "Time": "2024-07-27T23:14:05Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Ghost", "Image": "img/badges/paldea/ghost.png", "Class": "Rematch",
+                "Time": "2024-07-27T23:28:22Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Grass", "Image": "img/badges/paldea/grass.png", "Class": "Rematch",
+                "Time": "2024-07-27T23:45:40Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Psychic", "Image": "img/badges/paldea/psychic.png", "Class": "Rematch",
+                "Time": "2024-07-28T00:00:44Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Elite Four", "Name": "Arven", "Image": "img/trainers/scarlet/arven.png",
+                "Time": "2024-07-28T00:29:51Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Elite Four", "Name": "Jacq", "Image": "img/trainers/scarlet/jacq.png",
+                "Time": "2024-07-28T00:37:20Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Elite Four", "Name": "Dendra", "Image": "img/trainers/scarlet/dendra.png",
+                "Time": "2024-07-28T00:44:26Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Champions", "Name": "Geeta", "Image": "img/trainers/scarlet/geeta.png",
+                "Time": "2024-07-28T00:54:45Z", "Attempts": 1
+            },
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-28T00:55:12Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-28T00:55:12Z", Attempts: 1, Party: [
                     { Pokemon: "Orthworm", Nickname: "Orthuiwm", Level: 86, Gender: "Female", Shiny: "true" },
                     { Pokemon: "Bellibolt", Nickname: "Belbo", Level: 92, Gender: "Male" },
                     { Pokemon: "Glimmora", Nickname: "Glimmer", Level: 92, Gender: "Female" },
@@ -419,7 +510,35 @@ Season11.Runs.push(
 			{ Name: "Dolliv", Time: "2024-07-28T12:24:38Z", Group: "Pokemon" },
 			{ Name: "Arboliva", Time: "2024-07-28T12:36:14Z", Group: "Pokemon" },
 			{ Name: "Revavroom", Time: "2024-07-28T12:40:39Z", Group: "Pokemon" },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-28T13:34:09Z", Attempts: 1, Party: [
+                    { Pokemon: "Orthworm", Nickname: "Orthuiwm", Level: 92, Gender: "Female", Shiny: "true" },
+                    { Pokemon: "Bellibolt", Nickname: "Belbo", Level: 98, Gender: "Male" },
+                    { Pokemon: "Glimmora", Nickname: "Glimmer", Level: 97, Gender: "Female" },
+                    { Pokemon: "Rabsca", Nickname: "Rekoolor", Level: 100, Gender: "Male" },
+                    { Pokemon: "Meowscarada", Level: 100, Gender: "Female" },
+                    { Pokemon: "Miraidon", Nickname: "Miraidonon", Level: 90 },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
 			{ Name: "Chansey", Time: "2024-07-28T18:25:42Z", Group: "Pokemon" },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-28T19:41:34Z", Attempts: 1, Party: [
+                    { Pokemon: "Golduck", Nickname: "oooz", Level: 100, Gender: "Female", Shiny: "true" },
+                    { Pokemon: "Glimmora", Nickname: "Glimmer", Level: 99, Gender: "Female" },
+                    { Pokemon: "Tinkaton", Nickname: "Tiool", Level: 100, Gender: "Female" },
+                    { Pokemon: "Frosmoth", Nickname: "Mmp??!!ƒ¤¤¤¤", Level: 100, Gender: "Male" },
+                    { Pokemon: "Orthworm", Nickname: "Orthuiwm", Level: 98, Gender: "Female", Shiny: "true" },
+                    { Pokemon: "Breloom", Nickname: "Catcher 2", Level: 100, Gender: "Female" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
 			{ Name: "Rhydon", Time: "2024-07-28T20:05:48Z", Group: "Pokemon" },
 			{ Name: "Dusknoir", Time: "2024-07-28T20:35:55Z", Group: "Pokemon" },
 			{ Name: "Flygon", Time: "2024-07-28T20:50:35Z", Group: "Pokemon" },
@@ -527,6 +646,20 @@ Season11.Runs.push(
 			{ Name: "Baxcalibur", Time: "2024-07-30T15:33:20Z", Group: "Pokemon" },
 			{ Name: "Glalie", Time: "2024-07-30T16:08:28Z", Group: "Pokemon" },
 			{ Name: "Ting-Lu", Time: "2024-07-30T16:29:28Z", Group: "Pokemon" },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-30T18:00:24Z", Attempts: 1, Party: [
+                    { Pokemon: "Glimmora", Nickname: "Glimmer", Level: 100, Gender: "Female" },
+                    { Pokemon: "Maushold", Nickname: "T333d", Level: 100, Form: "Four" },
+                    { Pokemon: "Orthworm", Nickname: "Orthuiwm", Level: 100, Gender: "Female", Shiny: "true" },
+                    { Pokemon: "Bellibolt", Nickname: "Belbo", Level: 100, Gender: "Male" },
+                    { Pokemon: "Rabsca", Nickname: "Rekoolor", Level: 100, Gender: "Male" },
+                    { Pokemon: "Meowscarada", Level: 100, Gender: "Female" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
 			{ Name: "Geodude", Time: "2024-07-30T18:21:22Z", Group: "Pokemon", Class: "Alolan" },
 			{ Name: "Arctibax", Time: "2024-07-30T20:43:04Z", Group: "Pokemon" },
 			{ Name: "Mabosstiff", Time: "2024-07-30T20:44:17Z", Group: "Pokemon" },
@@ -558,7 +691,7 @@ Season11.Runs.push(
 			{ Name: "Tentacruel", Time: "2024-07-31T15:37:50Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-31T18:07:59Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-31T18:07:59Z", Attempts: 1, Party: [
                     { Pokemon: "Glimmora", Nickname: "Glimmer", Level: 100, Gender: "Female" },
                     { Pokemon: "Maushold", Nickname: "T333d", Level: 100, Form: "Four" },
                     { Pokemon: "Orthworm", Nickname: "Orthuiwm", Level: 100, Gender: "Female", Shiny: "true" },
@@ -892,31 +1025,31 @@ Season11.Runs.push(
 
             {
                 "Group": "Elite Four", "Name": "Rika", "Image": "img/trainers/scarlet/rika.png",
-                "Time": "", "Attempts": 0
+                "Time": "2024-07-26T03:00:04Z", "Attempts": 1
             },
             {
                 "Group": "Elite Four", "Name": "Poppy", "Image": "img/trainers/scarlet/poppy.png",
-                "Time": "", "Attempts": 0
+                "Time": "2024-07-26T03:10:57Z", "Attempts": 1
             },
             {
                 "Group": "Elite Four", "Name": "Larry", "Image": "img/trainers/scarlet/larry.png",
-                "Time": "", "Attempts": 0
+                "Time": "2024-07-26T03:20:30Z", "Attempts": 1
             },
             {
                 "Group": "Elite Four", "Name": "Hassel", "Image": "img/trainers/scarlet/hassel.png",
-                "Time": "", "Attempts": 0
+                "Time": "2024-07-26T03:36:35Z", "Attempts": 1
             },
             {
                 "Group": "Champions", "Name": "Geeta", "Image": "img/trainers/scarlet/geeta.png",
-                "Time": "", "Attempts": 0
+                "Time": "2024-07-26T03:48:47Z", "Attempts": 1
             },
             {
                 "Group": "Champions", "Name": "Nemona", "Image": "img/trainers/scarlet/nemona.png",
-                "Time": "", "Attempts": 0
+                "Time": "2024-07-26T04:11:27Z", "Attempts": 1
             },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Victory Road Complete", Time: "2024-07-26T04:13:09Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Victory Road Complete", Time: "2024-07-26T04:13:09Z", Attempts: 1, Party: [
                     { Pokemon: "Dragapult", Nickname: "eepy", Level: 64, Gender: "Male" },
                     { Pokemon: "Revavroom", Level: 69, Gender: "Female" },
                     { Pokemon: "Skeledirge", Nickname: "Mikroc", Level: 68, Gender: "Male" },
@@ -974,7 +1107,49 @@ Season11.Runs.push(
 			{ Name: "Sandy Shocks", Time: "2024-07-26T23:45:27Z", Group: "Pokemon" },
 			{ Name: "Braviary", Time: "2024-07-27T00:12:11Z", Group: "Pokemon" },
 			{ Name: "Koraidon", Time: "2024-07-27T00:25:59Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Normal", "Image": "img/badges/paldea/normal.png", "Class": "Rematch",
+                "Time": "2024-07-27T00:39:50Z", "Attempts": 1
+            },
+			
 			{ Name: "Foongus", Time: "2024-07-27T00:54:10Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Ice", "Image": "img/badges/paldea/ice.png", "Class": "Rematch",
+                "Time": "2024-07-27T01:06:33Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Ghost", "Image": "img/badges/paldea/ghost.png", "Class": "Rematch",
+                "Time": "2024-07-27T01:22:26Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Electric", "Image": "img/badges/paldea/electric.png", "Class": "Rematch",
+                "Time": "2024-07-27T01:35:36Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Psychic", "Image": "img/badges/paldea/psychic.png", "Class": "Rematch",
+                "Time": "2024-07-27T01:47:48Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Bug", "Image": "img/badges/paldea/bug.png", "Class": "Rematch",
+                "Time": "2024-07-27T01:58:58Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Grass", "Image": "img/badges/paldea/grass.png", "Class": "Rematch",
+                "Time": "2024-07-27T02:09:56Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Water", "Image": "img/badges/paldea/water.png", "Class": "Rematch",
+                "Time": "2024-07-27T02:21:07Z", "Attempts": 1
+            },
+			
 			{ Name: "Tarountula", Time: "2024-07-27T06:19:01Z", Group: "Pokemon" },
 			{ Name: "Hippowdon", Time: "2024-07-27T07:58:03Z", Group: "Pokemon" },
 			{ Name: "Floragato", Time: "2024-07-27T10:07:04Z", Group: "Pokemon" },
@@ -1025,14 +1200,47 @@ Season11.Runs.push(
 			{ Name: "Luxray", Time: "2024-07-28T03:54:01Z", Group: "Pokemon" },
 			{ Name: "Flareon", Time: "2024-07-28T04:04:44Z", Group: "Pokemon" },
 			
+            {
+                "Group": "Elite Four", "Name": "Arven", "Image": "img/trainers/scarlet/arven.png",
+                "Time": "2024-07-28T07:11:42Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Elite Four", "Name": "Jacq", "Image": "img/trainers/scarlet/jacq.png",
+                "Time": "2024-07-28T07:18:52Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Elite Four", "Name": "Dendra", "Image": "img/trainers/scarlet/dendra.png",
+                "Time": "2024-07-28T07:25:36Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Champions", "Name": "Geeta", "Image": "img/trainers/scarlet/geeta.png",
+                "Time": "2024-07-28T07:33:55Z", "Attempts": 1
+            },
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-28T07:34:30Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-28T07:34:30Z", Attempts: 1, Party: [
                     { Pokemon: "Dragapult", Nickname: "eepy", Level: 88, Gender: "Male" },
                     { Pokemon: "Toxtricity", Nickname: "Billy", Level: 68, Gender: "Male", Form: "Low Key" },
                     { Pokemon: "Flamigo", Nickname: "Glovian", Level: 88, Gender: "Female" },
                     { Pokemon: "Skeledirge", Nickname: "Mikroc", Level: 89, Gender: "Male" },
                     { Pokemon: "Toedscruel", Nickname: "Toe", Level: 93, Gender: "Male" },
                     { Pokemon: "Bisharp", Nickname: "gamba", Level: 72, Gender: "Female" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-28T08:42:20Z", Attempts: 1, Party: [
+                    { Pokemon: "Dragapult", Nickname: "eepy", Level: 89, Gender: "Male" },
+                    { Pokemon: "Toxtricity", Nickname: "Billy", Level: 72, Gender: "Male", Form: "Low Key" },
+                    { Pokemon: "Flamigo", Nickname: "Glovian", Level: 89, Gender: "Female" },
+                    { Pokemon: "Skeledirge", Nickname: "Mikroc", Level: 91, Gender: "Male" },
+                    { Pokemon: "Toedscruel", Nickname: "Toe", Level: 95, Gender: "Male" },
+                    { Pokemon: "Bisharp", Nickname: "gamba", Level: 74, Gender: "Female" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -1048,6 +1256,17 @@ Season11.Runs.push(
 			{ Name: "Glimmora", Time: "2024-07-28T13:47:41Z", Group: "Pokemon" },
 			{ Name: "Flapple", Time: "2024-07-28T14:03:21Z", Group: "Pokemon" },
 			{ Name: "Kingambit", Time: "2024-07-28T16:54:06Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Elite Four", "Name": "Amarys", "Image": "img/trainers/scarlet/amarys.png",
+                "Time": "2024-07-28T17:51:06Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Elite Four", "Name": "Crispin", "Image": "img/trainers/scarlet/crispin.png",
+                "Time": "2024-07-28T18:55:15Z", "Attempts": 1
+            },
+			
 			{ Name: "Rhyhorn", Time: "2024-07-28T17:56:31Z", Group: "Pokemon" },
 			{ Name: "Vibrava", Time: "2024-07-28T17:59:38Z", Group: "Pokemon" },
 			{ Name: "Araquanid", Time: "2024-07-28T19:10:29Z", Group: "Pokemon" },
@@ -1056,12 +1275,30 @@ Season11.Runs.push(
 			{ Name: "Seviper", Time: "2024-07-28T19:41:14Z", Group: "Pokemon" },
 			{ Name: "Meloetta", Time: "2024-07-28T20:16:06Z", Group: "Pokemon" },
 			{ Name: "Exeggcute", Time: "2024-07-28T20:23:05Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Elite Four", "Name": "Lacey", "Image": "img/trainers/scarlet/lacey.png",
+                "Time": "2024-07-28T21:18:17Z", "Attempts": 1
+            },
+			
 			{ Name: "Horsea", Time: "2024-07-28T21:39:16Z", Group: "Pokemon" },
 			{ Name: "Seel", Time: "2024-07-28T21:41:27Z", Group: "Pokemon" },
 			{ Name: "Seadra", Time: "2024-07-28T22:18:39Z", Group: "Pokemon" },
 			{ Name: "Flygon", Time: "2024-07-28T22:25:53Z", Group: "Pokemon" },
 			{ Name: "Dewgong", Time: "2024-07-28T22:26:33Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Elite Four", "Name": "Drayton", "Image": "img/trainers/scarlet/drayton.png",
+                "Time": "2024-07-28T22:42:29Z", "Attempts": 1
+            },
+			
 			{ Name: "Minun", Time: "2024-07-28T22:49:49Z", Group: "Pokemon" },
+			
+            {
+                "Group": "Champions", "Name": "Kieran", "Image": "img/trainers/scarlet/kieran.png",
+                "Time": "2024-07-28T23:07:19Z", "Attempts": 1
+            },
+			
 			{ Name: "Carbink", Time: "2024-07-28T23:58:30Z", Group: "Pokemon" },
 			{ Name: "Terapagos", Time: "2024-07-29T01:42:35Z", Group: "Pokemon" },
 			{ Name: "Kingdra", Time: "2024-07-29T02:52:31Z", Group: "Pokemon", Class: "WifiTrade" },
@@ -1132,7 +1369,20 @@ Season11.Runs.push(
 			{ Name: "Muk", Time: "2024-07-30T04:33:09Z", Group: "Pokemon", Class: "Alolan" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-30T07:06:38Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-30T05:48:44Z", Attempts: 1, Party: [
+                    { Pokemon: "Revavroom", Level: 100, Gender: "Female" },
+                    { Pokemon: "Toxtricity", Nickname: "Billy", Level: 94, Gender: "Male", Form: "Low Key" },
+                    { Pokemon: "Avalugg", Nickname: "Slush", Level: 94, Gender: "Male" },
+                    { Pokemon: "Flamigo", Nickname: "Glovian", Level: 100, Gender: "Female" },
+                    { Pokemon: "Kingambit", Nickname: "gamba", Level: 92, Gender: "Female" },
+                    { Pokemon: "Dragapult", Nickname: "eepy", Level: 99, Gender: "Male" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-30T07:06:38Z", Attempts: 1, Party: [
                     { Pokemon: "Revavroom", Level: 100, Gender: "Female" },
                     { Pokemon: "Toxtricity", Nickname: "Billy", Level: 96, Gender: "Male", Form: "Low Key" },
                     { Pokemon: "Avalugg", Nickname: "Slush", Level: 97, Gender: "Male" },
@@ -1144,7 +1394,34 @@ Season11.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
 			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-30T07:45:15Z", Attempts: 1, Party: [
+                    { Pokemon: "Revavroom", Level: 100, Gender: "Female" },
+                    { Pokemon: "Avalugg", Nickname: "Slush", Level: 100, Gender: "Male" },
+                    { Pokemon: "Toxtricity", Nickname: "Billy", Level: 98, Gender: "Male", Form: "Low Key" },
+                    { Pokemon: "Kingambit", Nickname: "gamba", Level: 96, Gender: "Female" },
+                    { Pokemon: "Flamigo", Nickname: "Glovian", Level: 100, Gender: "Female" },
+                    { Pokemon: "Dragapult", Nickname: "eepy", Level: 100, Gender: "Male" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
 			{ Name: "Magnezone", Time: "2024-07-30T11:19:00Z", Group: "Pokemon" },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-30T12:49:16Z", Attempts: 1, Party: [
+                    { Pokemon: "Revavroom", Level: 100, Gender: "Female" },
+                    { Pokemon: "Avalugg", Nickname: "Slush", Level: 100, Gender: "Male" },
+                    { Pokemon: "Flamigo", Nickname: "Glovian", Level: 100, Gender: "Female" },
+                    { Pokemon: "Toedscruel", Nickname: "Toe", Level: 100, Gender: "Male" },
+                    { Pokemon: "Dragapult", Nickname: "eepy", Level: 100, Gender: "Male" },
+                    { Pokemon: "Skeledirge", Nickname: "Mikroc", Level: 100, Gender: "Male" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
 			{ Name: "Salandit", Time: "2024-07-30T13:52:57Z", Group: "Pokemon" },
 			{ Name: "Sableye", Time: "2024-07-30T13:59:14Z", Group: "Pokemon" },
 			{ Name: "Donphan", Time: "2024-07-30T14:12:28Z", Group: "Pokemon" },
@@ -1178,7 +1455,7 @@ Season11.Runs.push(
 			{ Name: "Cottonee", Time: "2024-07-31T13:10:49Z", Group: "Pokemon" },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-31T18:07:58Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2024-07-31T18:07:58Z", Attempts: 1, Party: [
                     { Pokemon: "Revavroom", Level: 100, Gender: "Female" },
                     { Pokemon: "Avalugg", Nickname: "Slush", Level: 100, Gender: "Male" },
                     { Pokemon: "Flamigo", Nickname: "Glovian", Level: 100, Gender: "Female" },
