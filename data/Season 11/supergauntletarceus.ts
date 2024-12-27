@@ -13,13 +13,6 @@ Season11.Runs.push(
 		Generation: 8,
         Pokedex: "Hisui",
         Events: [
-            { Group: "Noble Pokémon", Name: "Kleavor", Time: "", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Lilligant", Time: "", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Arcanine", Time: "", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Electrode", Time: "", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Avalugg", Time: "", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Dialga", Time: "", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Arceus", Time: "", Attempts: 0, Class: "pokesprite bosses hisuian" },
 
 			{ Name: "Rowlet", Time: "2024-08-05T21:37:08Z", Group: "Pokemon" },
 			{ Name: "Bidoof", Time: "2024-08-05T21:58:39Z", Group: "Pokemon" },
@@ -37,7 +30,21 @@ Season11.Runs.push(
 			{ Name: "Staravia", Time: "2024-08-06T02:10:52Z", Group: "Pokemon" },
 			{ Name: "Luxio", Time: "2024-08-06T02:24:24Z", Group: "Pokemon" },
 			{ Name: "Psyduck", Time: "2024-08-06T02:31:57Z", Group: "Pokemon" },
+			
+			{
+                "Group": "Plates", "Name": "Mind Plate", "Image": "img/badges/plates/mind.png",
+                "Time": "2024-08-06T02:47:54Z", Attempts: 1
+            },
+			
 			{ Name: "Dartrix", Time: "2024-08-06T02:51:16Z", Group: "Pokemon" },
+			
+            { Group: "Noble Pokémon", Name: "Kleavor", Time: "2024-08-06T03:18:25Z", Attempts: 3, Class: "pokesprite bosses hisuian" },
+			
+			{
+                "Group": "Plates", "Name": "Insect Plate", "Image": "img/badges/plates/insect.png",
+                "Time": "2024-08-06T03:18:52Z", Attempts: 3
+            },
+			
 			{ Name: "Burmy", Time: "2024-08-06T03:38:37Z", Group: "Pokemon" },
 			{ Name: "Cascoon", Time: "2024-08-06T04:21:36Z", Group: "Pokemon" },
 			{ Name: "Budew", Time: "2024-08-06T04:24:15Z", Group: "Pokemon" },
@@ -58,6 +65,12 @@ Season11.Runs.push(
 			{ Name: "Carnivine", Time: "2024-08-06T12:06:00Z", Group: "Pokemon" },
 			{ Name: "Pikachu", Time: "2024-08-06T12:10:05Z", Group: "Pokemon" },
 			{ Name: "Paras", Time: "2024-08-06T12:17:05Z", Group: "Pokemon" },
+			
+			{
+                "Group": "Plates", "Name": "Earth Plate", "Image": "img/badges/plates/earth.png",
+                "Time": "2024-08-06T13:30:19Z", Attempts: 1
+            },
+			
 			{ Name: "Hippopotas", Time: "2024-08-06T17:54:49Z", Group: "Pokemon" },
 			{ Name: "Buneary", Time: "2024-08-06T18:39:23Z", Group: "Pokemon" },
 			{ Name: "Combee", Time: "2024-08-06T18:41:56Z", Group: "Pokemon" },
@@ -69,6 +82,14 @@ Season11.Runs.push(
 			{ Name: "Croagunk", Time: "2024-08-06T19:45:25Z", Group: "Pokemon" },
 			{ Name: "Tangela", Time: "2024-08-06T19:53:15Z", Group: "Pokemon" },
 			{ Name: "Parasect", Time: "2024-08-06T20:38:47Z", Group: "Pokemon" },
+			
+            { Group: "Noble Pokémon", Name: "Lilligant", Time: "2024-08-06T20:48:50Z", Attempts: 4, Class: "pokesprite bosses hisuian" },
+			
+			{
+                "Group": "Plates", "Name": "Meadow Plate", "Image": "img/badges/plates/meadow.png",
+                "Time": "2024-08-06T20:49:08Z", Attempts: 4
+            },
+			
 			{ Name: "Petilil", Time: "2024-08-06T21:06:57Z", Group: "Pokemon" },
 			{ Name: "Pachirisu", Time: "2024-08-06T21:17:15Z", Group: "Pokemon" },
 			{ Name: "Decidueye", Time: "2024-08-06T21:47:17Z", Group: "Pokemon" },
@@ -90,6 +111,12 @@ Season11.Runs.push(
 			{ Name: "Dusclops", Time: "2024-08-07T01:53:41Z", Group: "Pokemon" },
 			{ Name: "Drifblim", Time: "2024-08-07T01:57:49Z", Group: "Pokemon" },
 			{ Name: "Infernape", Time: "2024-08-07T01:58:47Z", Group: "Pokemon" },
+			
+			{
+                "Group": "Plates", "Name": "Splash Plate", "Image": "img/badges/plates/splash.png",
+                "Time": "2024-08-07T02:30:46Z", Attempts: 1
+            },
+			
 			{ Name: "Gyarados", Time: "2024-08-07T02:56:28Z", Group: "Pokemon" },
 			{ Name: "Qwilfish", Time: "2024-08-07T03:15:44Z", Group: "Pokemon" },
 			{ Name: "Remoraid", Time: "2024-08-07T03:23:57Z", Group: "Pokemon" },
@@ -106,6 +133,19 @@ Season11.Runs.push(
 			{ Name: "Magmar", Time: "2024-08-07T14:00:06Z", Group: "Pokemon" },
 			{ Name: "Graveler", Time: "2024-08-07T14:01:51Z", Group: "Pokemon" },
 			{ Name: "Sliggoo", Time: "2024-08-07T14:21:39Z", Group: "Pokemon" },
+			
+            { Group: "Noble Pokémon", Name: "Arcanine", Time: "2024-08-07T16:21:34Z", Attempts: 73, Class: "pokesprite bosses hisuian" },
+			
+			{
+                "Group": "Plates", "Name": "Flame Plate", "Image": "img/badges/plates/flame.png",
+                "Time": "2024-08-07T16:21:57Z", Attempts: 73
+            },
+			
+            { Group: "Noble Pokémon", Name: "Electrode", Time: "", Attempts: 0, Class: "pokesprite bosses hisuian" },
+            { Group: "Noble Pokémon", Name: "Avalugg", Time: "", Attempts: 0, Class: "pokesprite bosses hisuian" },
+            { Group: "Noble Pokémon", Name: "Palkia", Time: "", Attempts: 0, Class: "pokesprite bosses hisuian" },
+            { Group: "Noble Pokémon", Name: "Arceus", Time: "", Attempts: 0, Class: "pokesprite bosses hisuian" },
+			
 			{ Name: "Chimecho", Time: "2024-08-07T17:47:58Z", Group: "Pokemon" },
 			{ Name: "Rufflet", Time: "2024-08-07T19:42:07Z", Group: "Pokemon" },
 			{ Name: "Ursaluna", Time: "2024-08-07T19:55:04Z", Group: "Pokemon" },

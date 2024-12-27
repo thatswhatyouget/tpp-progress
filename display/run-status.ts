@@ -90,6 +90,8 @@ module TPP.Display.RunStatus {
             $container.append(DrawHallOfFame(run, <HallOfFame>run.Events.filter(e => (<HallOfFame>e).Party).pop()));
         if (status.map_id)
             $container.append(DrawLocation(run, status));
+        if (extractNoblePokemon(run).length > 0)
+            $container.append(DrawBadges(run, extractNoblePokemon(run)));
         if (extractPastHosts(run).length > 0)
             $container.append(DrawBadges(run, extractPastHosts(run)));
         if (extractEliteFourRematch(run).length > 0)
@@ -145,7 +147,7 @@ module TPP.Display.RunStatus {
     }
 
     function extractBadges(run: TPP.Run) {
-        return run.Events.filter(e => e.Group == "Badges" || e.Group == "Bosses" || e.Group == "Kingdoms");
+        return run.Events.filter(e => e.Group == "Badges" || e.Group == "Bosses" || e.Group == "Kingdoms" || e.Group == "Plates" );
     }
     function extractEliteFour(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Elite Four" || e.Group == "Final Bosses" || (e.Group == "Champions" && e.Image.indexOf("rematch") < 0 && e.Image.indexOf("hosts") < 0));
@@ -158,6 +160,9 @@ module TPP.Display.RunStatus {
     }
     function extractRematchBadges(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Rematch Badges");
+    }
+    function extractNoblePokemon(run: TPP.Run) {
+        return run.Events.filter(e => e.Group == "Noble Pokémon");
     }
 
     function DrawBadges(run: TPP.Run, badges = extractBadges(run)) {
