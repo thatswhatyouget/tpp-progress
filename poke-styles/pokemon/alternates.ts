@@ -123,4 +123,4 @@ var alternates: Alternate[] = [
 
 ];
 
-addStyles(alternates, (a: Alternate) => ".pokesprite." + a.baseMon + "." + a.modifier + ' img { background-image:url("' + a.image + '")!important; background-position: center!important; background-size: 1em; }');
+addStyles(alternates, (a: Alternate) => ".pokesprite." + a.baseMon + "." + a.modifier + ' img { background-image:url("' + a.image + '")!important; background-position: center!important; background-size: 1em !important; }');

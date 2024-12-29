@@ -11,13 +11,13 @@ Season8.Runs.push(
         HostImageSource: "https://discord.com/channels/927292379436814406/928400303588532324/937375338739146792",
         Region: "Hisui",
         Events: [
-            { Group: "Noble Pokémon", Name: "Kleavor", Time: "2022-01-30T13:25:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Lilligant", Time: "2022-01-31T12:01:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Arcanine", Time: "2022-01-31T18:31:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Electrode", Time: "2022-02-01T17:53:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Avalugg", Time: "2022-02-02T01:55:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Dialga", Time: "2022-02-02T15:36:08Z", Attempts: 0, Class: "pokesprite bosses origin" },
-            { Group: "Noble Pokémon", Name: "Arceus", Time: "2022-02-10T06:07:32Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
+            { Group: "Noble Pokémon", Name: "Kleavor", Time: "2022-01-30T13:25:00Z", Attempts: 0, Class: "pokesprite hisuian" },
+            { Group: "Noble Pokémon", Name: "Lilligant", Time: "2022-01-31T12:01:00Z", Attempts: 0, Class: "pokesprite hisuian" },
+            { Group: "Noble Pokémon", Name: "Arcanine", Time: "2022-01-31T18:31:00Z", Attempts: 0, Class: "pokesprite hisuian" },
+            { Group: "Noble Pokémon", Name: "Electrode", Time: "2022-02-01T17:53:00Z", Attempts: 0, Class: "pokesprite hisuian" },
+            { Group: "Noble Pokémon", Name: "Avalugg", Time: "2022-02-02T01:55:00Z", Attempts: 0, Class: "pokesprite hisuian" },
+            { Group: "Noble Pokémon", Name: "Dialga", Time: "2022-02-02T15:36:08Z", Attempts: 0, Class: "pokesprite origin" },
+            { Group: "Noble Pokémon", Name: "Arceus", Time: "2022-02-10T06:07:32Z", Attempts: 0, Class: "pokesprite hisuian" },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", Attempts: 0, Time: "2022-02-02T15:38:20Z", Party: [
