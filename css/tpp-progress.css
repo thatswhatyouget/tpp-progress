@@ -377,7 +377,8 @@ ul.controls>li>ul>li.selected>a:before {
 .progressChart .run .event.elitefourrematch img,
 .progressChart .run .event.pasthosts img,
 .progressChart .run .event.bosses img,
-.progressChart .run .event.finalbosses img {
+.progressChart .run .event.finalbosses img,
+.progressChart .run .event.noblepokmon img {
 	height: 70px;
 	top: -15px;
 }
@@ -490,7 +491,8 @@ ul.controls>li>ul>li.selected>a:before {
 }
 
 .progressChart .run .event.bosses.pokesprite img,
-.progressChart .run .event.missions.pokesprite img {
+.progressChart .run .event.missions.pokesprite img,
+.progressChart .run .event.noblepokmon.pokesprite img {
 	top: -8px;
 	font-size: 64px;
 	image-rendering: pixelated;
