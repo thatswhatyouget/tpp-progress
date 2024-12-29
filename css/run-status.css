@@ -111,7 +111,7 @@
     padding: .5em;
     background-image: url("../img/pokemon-large.png");
     background-repeat: no-repeat;
-    background-size: 1em;
+    background-size: 10em;
     image-rendering: pixelated;
 }
 
