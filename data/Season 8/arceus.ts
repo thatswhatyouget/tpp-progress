@@ -16,7 +16,7 @@ Season8.Runs.push(
             { Group: "Noble Pokémon", Name: "Arcanine", Time: "2022-01-31T18:31:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
             { Group: "Noble Pokémon", Name: "Electrode", Time: "2022-02-01T17:53:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
             { Group: "Noble Pokémon", Name: "Avalugg", Time: "2022-02-02T01:55:00Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
-            { Group: "Noble Pokémon", Name: "Dialga", Time: "2022-02-02T15:36:08Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
+            { Group: "Noble Pokémon", Name: "Dialga", Time: "2022-02-02T15:36:08Z", Attempts: 0, Class: "pokesprite bosses origin" },
             { Group: "Noble Pokémon", Name: "Arceus", Time: "2022-02-10T06:07:32Z", Attempts: 0, Class: "pokesprite bosses hisuian" },
 
             <TPP.HallOfFame>{
