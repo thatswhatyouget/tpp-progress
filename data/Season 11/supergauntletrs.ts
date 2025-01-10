@@ -305,7 +305,54 @@ Season11.Runs.push(
             },
 			
             { Name: "Trapinch", Time: "2024-02-29T20:14:44Z", Group: "Pokemon" },
+			
+            {
+                Group: "Past Hosts", Name: "ZZZZZZZ", Image: "img/hosts/zzzzzzz.png",
+                Time: "2024-03-01T02:18:02Z", Attempts: 1
+            },
+			
+            {
+                Group: "Past Hosts", Name: "tim", Image: "img/hosts/tim.png",
+                Time: "2024-03-01T02:29:41Z", Attempts: 1
+            },
+			
+            {
+                Group: "Past Hosts", Name: "A", Image: "img/hosts/a.png",
+                Time: "2024-03-01T03:02:26Z", Attempts: 1
+            },
+			
+            {
+                Group: "Past Hosts", Name: "n", Image: "img/hosts/n.png",
+                Time: "2024-03-01T03:37:50Z", Attempts: 1
+            },
+			
             { Name: "Latios", Time: "2024-03-01T05:16:47Z", Group: "Pokemon" },
+			
+            {
+                Group: "Elite Four Rematch", Class: "Rematch", Name: "Sidney", Image: "img/trainers/emerald/sidney.png",
+                Time: "2024-03-01T08:47:46Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch", Class: "Rematch", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png",
+                Time: "2024-03-01T09:05:24Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch", Class: "Rematch", Name: "Glacia", Image: "img/trainers/emerald/glacia.png",
+                Time: "2024-03-01T09:28:04Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch", Class: "Rematch", Name: "Drake", Image: "img/trainers/emerald/drake.png",
+                Time: "2024-03-01T09:42:27Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch", Class: "Rematch", Name: "Steven", Image: "img/trainers/emerald/steven.png",
+                Time: "", Attempts: 2 // Undefeated
+            },
+			
             { Name: "Carvanha", Time: "2024-03-01T13:21:55Z", Group: "Pokemon" },
             { Name: "Shuppet", Time: "2024-03-01T21:20:47Z", Group: "Pokemon" },
             { Name: "Numel", Time: "2024-03-02T01:20:39Z", Group: "Pokemon" },
