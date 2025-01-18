@@ -18,59 +18,6 @@ Season11.Runs.push(
         //FinalStateLink: "./states/Season 11/supergauntletes.json",
         APIObjectName: "ruby", 
         Events: [
-            {
-                Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png",
-                Time: "", Attempts: 0
-            },
-
-            {
-                Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png",
-                Time: "", Attempts: 0
-            },
 			
             { Name: "Torchic", Time: "2024-02-26T21:14:22Z", Group: "Pokemon" },
             { Name: "Seedot", Time: "2024-02-26T21:44:05Z", Group: "Pokemon" },
@@ -81,6 +28,17 @@ Season11.Runs.push(
             { Name: "Nincada", Time: "2024-02-27T00:00:07Z", Group: "Pokemon" },
             { Name: "Whismur", Time: "2024-02-27T00:13:46Z", Group: "Pokemon" },
             { Name: "Nuzleaf", Time: "2024-02-27T00:23:22Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png",
+                Time: "2024-02-27T00:23:34Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png",
+                Time: "2024-02-27T02:28:53Z", Attempts: 1
+            },
+			
             { Name: "Combusken", Time: "2024-02-27T03:23:23Z", Group: "Pokemon" },
             { Name: "Minun", Time: "2024-02-27T03:51:17Z", Group: "Pokemon" },
             { Name: "Oddish", Time: "2024-02-27T04:27:16Z", Group: "Pokemon" },
@@ -91,6 +49,12 @@ Season11.Runs.push(
             { Name: "Illumise", Time: "2024-02-27T10:25:32Z", Group: "Pokemon" },
             { Name: "Roselia", Time: "2024-02-27T10:29:07Z", Group: "Pokemon" },
             { Name: "Marill", Time: "2024-02-27T10:45:33Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png",
+                Time: "2024-02-27T12:03:30Z", Attempts: 6
+            },
+			
             { Name: "Aron", Time: "2024-02-27T12:32:15Z", Group: "Pokemon" },
             { Name: "Nosepass", Time: "2024-02-27T12:42:49Z", Group: "Pokemon" },
             { Name: "Makuhita", Time: "2024-02-27T12:53:23Z", Group: "Pokemon" },
@@ -102,21 +66,72 @@ Season11.Runs.push(
             { Name: "Cascoon", Time: "2024-02-27T17:35:02Z", Group: "Pokemon" },
             { Name: "Numel", Time: "2024-02-27T21:13:28Z", Group: "Pokemon" },
             { Name: "Spoink", Time: "2024-02-27T21:19:18Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png",
+                Time: "2024-02-27T21:36:22Z", Attempts: 2
+            },
+
             { Name: "Grimer", Time: "2024-02-27T23:41:56Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png",
+                Time: "2024-02-28T02:06:31Z", Attempts: 3
+            },
+			
             { Name: "Clamperl", Time: "2024-02-28T02:18:54Z", Group: "Pokemon" },
             { Name: "Gorebyss", Time: "2024-02-28T02:19:19Z", Group: "Pokemon" },
             { Name: "Grumpig", Time: "2024-02-28T05:08:06Z", Group: "Pokemon" },
             { Name: "Kecleon", Time: "2024-02-28T11:35:18Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png",
+                Time: "2024-02-28T12:26:08Z", Attempts: 2
+            },
+			
             { Name: "Shiftry", Time: "2024-02-28T12:39:02Z", Group: "Pokemon" },
             { Name: "Blaziken", Time: "2024-02-28T12:42:31Z", Group: "Pokemon" },
             { Name: "Meditite", Time: "2024-02-28T16:01:15Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png",
+                Time: "2024-02-28T18:04:34Z", Attempts: 1
+            },
+			
             { Name: "Groudon", Time: "2024-02-28T22:13:33Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png",
+                Time: "2024-02-28T23:52:19Z", Attempts: 1
+            },
+			
             { Name: "Duskull", Time: "2024-02-29T13:18:18Z", Group: "Pokemon" },
             { Name: "Voltorb", Time: "2024-02-29T16:34:52Z", Group: "Pokemon" },
             { Name: "Magnemite", Time: "2024-02-29T16:49:47Z", Group: "Pokemon" },
 			
+            {
+                Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png",
+                Time: "2024-02-29T17:31:11Z", Attempts: 2
+            },
+            {
+                Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png",
+                Time: "2024-02-29T17:41:58Z", Attempts: 1
+            },
+            {
+                Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png",
+                Time: "2024-02-29T18:08:19Z", Attempts: 2
+            },
+            {
+                Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png",
+                Time: "2024-02-29T21:17:05Z", Attempts: 4
+            },
+            {
+                Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png",
+                Time: "2024-03-01T00:48:53Z", Attempts: 3
+            },
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-01T00:50:19Z", IDNo: "33323", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-01T00:50:19Z", IDNo: "33323", Attempts: 11, Party: [
                     { Pokemon: "Minun", Nickname: "bnnuy", Level: 43, Gender: "Male", Number: 81, IDNo: "33323" },
                     { Pokemon: "Blaziken", Nickname: "WKKIII", Level: 63, Gender: "Female", Number: 6, IDNo: "33323" },
                     { Pokemon: "Zangoose", Nickname: "GGGUUvo", Level: 53, Gender: "Female", Number: 123, IDNo: "33323" },
@@ -161,78 +176,67 @@ Season11.Runs.push(
         //FinalStateLink: "./states/Season 11/supergauntletes.json",
         APIObjectName: "sapphire",
         Events: [
-            {
-                Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png",
-                Time: "", Attempts: 0
-            },
-
-            {
-                Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Champions", Name: "Wallace", Image: "img/trainers/emerald/wallace.png",
-                Time: "", Attempts: 0
-            },
-			
+		
             { Name: "Treecko", Time: "2024-02-26T21:13:53Z", Group: "Pokemon" },
             { Name: "Slakoth", Time: "2024-02-26T21:52:33Z", Group: "Pokemon" },
             { Name: "Wingull", Time: "2024-02-26T22:07:17Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png",
+                Time: "2024-02-26T23:22:19Z", Attempts: 1
+            },
+			
             { Name: "Grovyle", Time: "2024-02-26T23:39:58Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png",
+                Time: "2024-02-27T01:30:35Z", Attempts: 3
+            },
+			
             { Name: "Vigoroth", Time: "2024-02-27T03:03:04Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png",
+                Time: "2024-02-27T05:58:19Z", Attempts: 7
+            },
+			
             { Name: "Spinda", Time: "2024-02-27T06:55:26Z", Group: "Pokemon" },
             { Name: "Pelipper", Time: "2024-02-27T07:41:24Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png",
+                Time: "2024-02-27T09:57:27Z", Attempts: 2
+            },
+			
             { Name: "Baltoy", Time: "2024-02-27T10:14:18Z", Group: "Pokemon" },
             { Name: "Zigzagoon", Time: "2024-02-27T11:48:33Z", Group: "Pokemon" },
             { Name: "Surskit", Time: "2024-02-27T11:54:35Z", Group: "Pokemon" },
             { Name: "Plusle", Time: "2024-02-27T12:19:43Z", Group: "Pokemon" },
             { Name: "Marill", Time: "2024-02-27T12:51:18Z", Group: "Pokemon" },
             { Name: "Roselia", Time: "2024-02-27T12:57:47Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png",
+                Time: "2024-02-27T14:50:52Z", Attempts: 1
+            },
+			
             { Name: "Masquerain", Time: "2024-02-27T16:43:37Z", Group: "Pokemon" },
             { Name: "Castform", Time: "2024-02-27T18:57:37Z", Group: "Pokemon" },
             { Name: "Kecleon", Time: "2024-02-27T19:23:28Z", Group: "Pokemon" },
             { Name: "Slaking", Time: "2024-02-27T20:44:00Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Feather Badge", Image: "img/badges/feather.png",
+                Time: "2024-02-27T20:44:23Z", Attempts: 5
+            },
+			
             { Name: "Chimecho", Time: "2024-02-27T23:47:00Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Mind Badge", Image: "img/badges/mind.png",
+                Time: "2024-02-28T01:04:28Z", Attempts: 1
+            },
+			
             { Name: "Clamperl", Time: "2024-02-28T01:31:49Z", Group: "Pokemon" },
             { Name: "Relicanth", Time: "2024-02-28T01:37:15Z", Group: "Pokemon" },
             { Name: "Solrock", Time: "2024-02-28T02:18:54Z", Group: "Pokemon" },
@@ -244,10 +248,32 @@ Season11.Runs.push(
             { Name: "Whismur", Time: "2024-02-28T10:53:38Z", Group: "Pokemon" },
             { Name: "Swablu", Time: "2024-02-28T11:08:40Z", Group: "Pokemon" },
             { Name: "Spheal", Time: "2024-02-28T13:06:57Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png",
+                Time: "2024-02-28T14:16:40Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four", Name: "Sidney", Image: "img/trainers/emerald/sidney.png",
+                Time: "2024-02-28T16:36:19Z", Attempts: 2
+            },
+			
             { Name: "Gorebyss", Time: "2024-02-28T18:35:45Z", Group: "Pokemon" },
             { Name: "Huntail", Time: "2024-02-28T18:41:03Z", Group: "Pokemon" },
             { Name: "Manectric", Time: "2024-02-28T19:01:43Z", Group: "Pokemon" },
             { Name: "Blaziken", Time: "2024-02-29T02:05:30Z", Group: "Pokemon" },
+			
+            {
+                Group: "Elite Four", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png",
+                Time: "2024-02-29T04:36:08Z", Attempts: 7
+            },
+			
+            {
+                Group: "Elite Four", Name: "Glacia", Image: "img/trainers/emerald/glacia.png",
+                Time: "2024-02-29T05:34:11Z", Attempts: 3
+            },
+			
             { Name: "Golbat", Time: "2024-02-29T12:42:00Z", Group: "Pokemon" },
             { Name: "Zubat", Time: "2024-02-29T13:11:29Z", Group: "Pokemon" },
             { Name: "Bagon", Time: "2024-02-29T15:56:23Z", Group: "Pokemon" },
@@ -255,8 +281,18 @@ Season11.Runs.push(
             { Name: "Magneton", Time: "2024-02-29T16:28:16Z", Group: "Pokemon" },
             { Name: "Voltorb", Time: "2024-02-29T16:35:12Z", Group: "Pokemon" },
 			
+            {
+                Group: "Elite Four", Name: "Drake", Image: "img/trainers/emerald/drake.png",
+                Time: "2024-02-29T18:28:39Z", Attempts: 5
+            },
+			
+            {
+                Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png",
+                Time: "2024-02-29T18:44:05Z", Attempts: 1
+            },
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-29T18:46:10Z", IDNo: "49431", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-29T18:46:10Z", IDNo: "49431", Attempts: 15, Party: [
                     { Pokemon: "Pelipper", Nickname: "  e   sa", Level: 53, Gender: "Female", Number: 28, IDNo: "49431" },
                     { Pokemon: "Registeel", Nickname: "Fe", Level: 58, Number: 195, IDNo: "49431" },
                     { Pokemon: "Huntail", Nickname: "hhn!!!", Level: 59, Gender: "Female", Number: 177, IDNo: "49431" },
@@ -269,7 +305,54 @@ Season11.Runs.push(
             },
 			
             { Name: "Trapinch", Time: "2024-02-29T20:14:44Z", Group: "Pokemon" },
+			
+            {
+                Group: "Past Hosts", Name: "ZZZZZZZ", Image: "img/hosts/zzzzzzz.png",
+                Time: "2024-03-01T02:18:02Z", Attempts: 1
+            },
+			
+            {
+                Group: "Past Hosts", Name: "tim", Image: "img/hosts/tim.png",
+                Time: "2024-03-01T02:29:41Z", Attempts: 1
+            },
+			
+            {
+                Group: "Past Hosts", Name: "A", Image: "img/hosts/a.png",
+                Time: "2024-03-01T03:02:26Z", Attempts: 1
+            },
+			
+            {
+                Group: "Past Hosts", Name: "n", Image: "img/hosts/n.png",
+                Time: "2024-03-01T03:37:50Z", Attempts: 1
+            },
+			
             { Name: "Latios", Time: "2024-03-01T05:16:47Z", Group: "Pokemon" },
+			
+            {
+                Group: "Elite Four Rematch", Class: "Rematch", Name: "Sidney", Image: "img/trainers/emerald/sidney.png",
+                Time: "2024-03-01T08:47:46Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch", Class: "Rematch", Name: "Phoebe", Image: "img/trainers/emerald/phoebe.png",
+                Time: "2024-03-01T09:05:24Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch", Class: "Rematch", Name: "Glacia", Image: "img/trainers/emerald/glacia.png",
+                Time: "2024-03-01T09:28:04Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch", Class: "Rematch", Name: "Drake", Image: "img/trainers/emerald/drake.png",
+                Time: "2024-03-01T09:42:27Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch", Class: "Rematch", Name: "Steven", Image: "img/trainers/emerald/steven.png",
+                Time: "", Attempts: 2 // Undefeated
+            },
+			
             { Name: "Carvanha", Time: "2024-03-01T13:21:55Z", Group: "Pokemon" },
             { Name: "Shuppet", Time: "2024-03-01T21:20:47Z", Group: "Pokemon" },
             { Name: "Numel", Time: "2024-03-02T01:20:39Z", Group: "Pokemon" },

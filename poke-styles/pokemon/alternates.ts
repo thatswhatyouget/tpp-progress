@@ -63,6 +63,8 @@ var alternates: Alternate[] = [
     new Alternate("rotom", "Mow"),
     new Alternate("rotom", "Wash"),
 	
+    new Alternate("dialga", "Origin"),
+	
     new Alternate("arceus", "Bug"),
     new Alternate("arceus", "Fire"),
 	
@@ -121,4 +123,4 @@ var alternates: Alternate[] = [
 
 ];
 
-addStyles(alternates, (a: Alternate) => ".pokesprite." + a.baseMon + "." + a.modifier + ' img { background-image:url("' + a.image + '")!important; background-position: center!important; background-size: 1em; }');
+addStyles(alternates, (a: Alternate) => ".pokesprite." + a.baseMon + "." + a.modifier + ' img { background-image:url("' + a.image + '")!important; background-position: center!important; background-size: 1em !important; }');
