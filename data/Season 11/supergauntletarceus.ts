@@ -384,7 +384,7 @@ Season11.Runs.push(
 			{ Name: "Enamorus", Time: "2024-08-13T10:24:40Z", Group: "Pokemon" },
 			{ Name: "Spiritomb", Time: "2024-08-14T14:50:40Z", Group: "Pokemon" },
 			
-            { Group: "Noble Pokémon", Name: "Arceus", Time: "", Attempts: 0, Class: "pokesprite hisuian" },
+            { Group: "Noble Pokémon", Name: "Arceus", Time: "2024-08-17T17:26:15Z", Attempts: 813, Class: "pokesprite hisuian" },
 			
 			{ Name: "Arceus", Time: "2024-08-17T17:28:05Z", Group: "Pokemon" },
 
