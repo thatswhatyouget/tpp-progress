@@ -1,0 +1,73 @@
+/// <reference path="../tpp-data.ts" />
+Sidegames.Runs.push(
+    {
+        RunName: "Fontemon",
+        StartDate: "2025-01-18T05:50:30Z",
+        ColorPrimary: "#ffffff",
+        ColorSecondary: "#000000",
+        Duration: "255d",
+        HostName: "Heroine",
+        HostImage: "img/hosts/other/fontemon.png",
+        HostImageSource: "https://wiki.tuxemon.org/File:Female-trainer-front.png",
+        Region: "South Eastern Minnesota",
+        Events: [
+            {
+                Group: "Badges",
+                Name: "Completely Normal Badge",
+                Image: "img/badges/fonte/normal.png",
+                Time: "2025-01-20T10:26:43Z",
+                //Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Lake Badge",
+                Image: "img/badges/fonte/lake.png",
+                Time: "2025-01-21T05:20:48Z",
+                //Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Burn Badge",
+                Image: "img/badges/fonte/burn.png",
+                Time: "2025-01-22T02:03:18Z",
+                //Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Twin Badge",
+                Image: "img/badges/fonte/twin.png",
+                Time: "2025-01-23T22:23:07Z",
+                //Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Game Badge",
+                Image: "img/badges/fonte/game.png",
+                Time: "",
+                //Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Flying Badge",
+                Image: "img/badges/fonte/flying.png",
+                Time: "",
+                //Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Champion Trophy (Fake)",
+                Image: "img/badges/fonte/champion.png",
+                Time: "",
+                //Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Champion Trophy",
+                Image: "img/badges/fonte/realchampion.png",
+                Time: "",
+                //Attempts: 1
+            },
+			
+        ]
+    }
+);
