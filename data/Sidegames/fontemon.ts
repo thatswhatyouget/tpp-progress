@@ -11,6 +11,7 @@ Sidegames.Runs.push(
         HostImageSource: "https://wiki.tuxemon.org/File:Female-trainer-front.png",
         Region: "South Eastern Minnesota",
         // LastScreenshot: "https://twitchplayspokemon.tv/sidegame_image/1330",
+        SidegameId: "font",
         Events: [
             {
                 Group: "Badges",
