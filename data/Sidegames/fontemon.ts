@@ -45,21 +45,21 @@ Sidegames.Runs.push(
                 Group: "Badges",
                 Name: "Game Badge",
                 Image: "img/badges/fonte/game.png",
-                Time: "",
+                Time: "2025-01-25T21:32:35Z",
                 //Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Flying Badge",
                 Image: "img/badges/fonte/flying.png",
-                Time: "",
+                Time: "2025-01-27T05:57:39Z",
                 //Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Champion Trophy (Fake)",
                 Image: "img/badges/fonte/champion.png",
-                Time: "",
+                Time: "2025-01-30T00:00:52Z",
                 //Attempts: 1
             },
             {
