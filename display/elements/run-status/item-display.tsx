@@ -12,10 +12,10 @@ namespace TPP.Display.Elements.RunStatus {
         render() {
             var items = this.props.items || [];
             if (!items.length)
-                return null;    
+                return null;
             return <PokeBox title={`${this.props.title} (${items.length})`} className="itemsList">
                 <ul>
-                    {items.map((i, k) => <li key={k} data-id={i.id} data-quantity={i.key_item ? null : i.count}>{pokeRedCondenseText(i.name || `Item #${i.id}`)}</li>)}
+                    {items.map((i, k) => <li key={k} data-id={i.id} title={`Item #${i.id}`} data-quantity={i.key_item ? null : i.count}>{pokeRedCondenseText(i.name || `Item #${i.id}`)}</li>)}
                 </ul>
             </PokeBox>;
         }
