@@ -49,7 +49,7 @@ addStyles(fixFakeForms(Pokedex.Regional["Blazing Hoenn"].map(p => (typeof p === 
 addStyles(fixFakeForms(Pokedex.Regional["Snakewood"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("snakewood", 1));
 
 //KEP
-const kepMons = Pokedex.Regional["Kanto Expansion Pak"].map((mon, i) => typeof mon == "string" ? { name: mon, number: i } : null).filter(m => !!m);
+const kepMons = Pokedex.Regional["Kanto Expansion Pak"].map((mon, i) => typeof mon == "string" && mon != "Phancero" ? { name: mon, number: i } : null).filter(m => !!m);
 addStyles(kepMons, m => {
     const clean = dexClean(m.name).replace(/ /g, '');
     return ".pokesprite." + clean + ' img  { background-image:url("../img/fakemon/kep/' + m.number + '.png")!important; background-size: 1em!important; background-position: center!important; }';
