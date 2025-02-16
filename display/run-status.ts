@@ -247,7 +247,7 @@ module TPP.Display.RunStatus {
             $hostInfo.append($('<div data-entry="Seen">').text(status.seen.toString()));
         }
         status.party.forEach(p => {
-            var name = (p.name || p.species.name).replace(/\s/g, "&nbsp;").replace(/Ë/g, "µ").replace(/Ê/g, "π");
+            var name = (p.name || (p.species && p.species.name) || "???").replace(/\s/g, "&nbsp;").replace(/Ë/g, "µ").replace(/Ê/g, "π");
             var $entry = $("<div class='entry'>");//.addClass((p.Gender || '').toLowerCase());
             if (p.health && !p.health[0]) {
                 $entry.addClass("fainted");
@@ -256,12 +256,12 @@ module TPP.Display.RunStatus {
                 $entry.addClass(p.status);
             }
             $entry.append($("<span class='level'>").text(p.level));
-            $entry.append($("<div class='pokesprite'><img src='img/missingno.png'/></div>").addClass(cleanString(p.species.name))/*.addClass(p.Shiny ? "shiny" : "").addClass((p.Gender || "").toLowerCase()).addClass(p.Class).addClass(cleanString(p.Form || ""))*/.attr('title', p.species.name));
+            $entry.append($("<div class='pokesprite'><img src='img/missingno.png'/></div>").addClass(cleanString((p.species && p.species.name) || "???"))/*.addClass(p.Shiny ? "shiny" : "").addClass((p.Gender || "").toLowerCase()).addClass(p.Class).addClass(cleanString(p.Form || ""))*/.attr('title', (p.species && p.species.name) || "???"));
             var $info = $("<div class='info'>").append($("<div class='name'>").html(name)).appendTo($entry);
             //if (p.PreviousNick) $info.append($("<div data-entry='Née'>").text(p.PreviousNick));
-            if (p.species.id) {
+            if (p.species && p.species.id) {
                 var idx = p.species.id.toString(), index = ('000' + idx).substring(idx.length);
-                $info.append($("<div data-entry='" + index + "'>").text(p.species.name));
+                $info.append($("<div data-entry='" + index + "'>").text(p.species && p.species.name || "???"));
             }
             (p.moves || []).forEach((m, i) => $info.append($("<div data-entry='Move " + (i + 1).toString() + "'>").text(m.name)));
             // if (p.IDNo) $info.append($("<div data-entry='IDNo'>").text(p.IDNo));

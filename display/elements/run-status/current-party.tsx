@@ -47,16 +47,16 @@ namespace TPP.Display.Elements.RunStatus {
                 default:
                     return <div className="pokemon-info">
                         <div className="name">{mon.name}</div>
-                        <div className="types">
+                        {mon.species && <div className="types">
                             <TypeImg type={mon.species.type1} baseUrl={this.props.baseUrl} />
                             {mon.species.type2 != mon.species.type1 ?
                                 <TypeImg type={mon.species.type2} baseUrl={this.props.baseUrl} />
                                 : null}
-                        </div>
+                        </div>}
                         {mon.level && <div className="level">{mon.level + (mon.level == 100 || (mon.experience || { remaining: 1 }).remaining ? 0 : 1)}</div>}
                         {mon.ability && <div className="ability informatic">{mon.ability}</div>}
                         <ul className="moves">
-                            {mon.moves.map(m => <Move move={m} key={m.id} baseUrl={this.props.baseUrl} />)}
+                            {(mon.moves || []).map(m => <Move move={m} key={m.id} baseUrl={this.props.baseUrl} />)}
                         </ul>
                         {mon.held_item && mon.held_item.id > 0 && <div className="held-item informatic">
                             {mon.held_item.name}
@@ -207,8 +207,8 @@ namespace TPP.Display.Elements.RunStatus {
                     </li>)}
                 </ul>
                 <div className="pokemon-image">
-                    <PokeSprite pokemon={mon.is_egg ? "Egg" : mon.species.name} gender={mon.gender} shiny={mon.shiny} baseUrl={this.props.baseUrl} />
-                    <div className="species">{mon.is_egg ? "Egg" : mon.species.name}</div>
+                    <PokeSprite pokemon={mon.is_egg ? "Egg" : mon.species && mon.species.name || "???"} gender={mon.gender} shiny={mon.shiny} baseUrl={this.props.baseUrl} />
+                    <div className="species">{mon.is_egg ? "Egg" : mon.species && mon.species.name || "???"}</div>
                 </div>
                 {mon.is_egg ? null : this.renderInfo(infoModes[this.state && this.state.infoMode || 0], mon)}
                 {isShadow && <div className="shadow-bar"><div className="bar"><div className="shadow" style={{ width: shadowPercentage + '%' }} /></div></div>}

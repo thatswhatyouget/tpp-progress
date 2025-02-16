@@ -108,8 +108,8 @@ namespace TPP.Display.ViewModels {
                     "Seen": status.seen,
                 });
                 this.Party = status.party.map(p => ({
-                    Name: (p.name || p.species.name).replace(/Ë/g, "µ").replace(/Ê/g, "π"),
-                    Pokemon: p.species.name,
+                    Name: (p.name || (p.species && p.species.name) || "???").replace(/Ë/g, "µ").replace(/Ê/g, "π"),
+                    Pokemon: p.species && p.species.name || "???",
                     Level: p.level,
                     Gender: null, //TODO: have a run that supports gender
                     Shiny: false, //TODO: have a run that supports shinies
@@ -117,7 +117,7 @@ namespace TPP.Display.ViewModels {
                     Class: p.health && !p.health[0] ? "fainted" : p.status,
                     Info: this.cleanInfo(this.infoAddSpeciesAndMoves({
 
-                    }, p.species.id, p.species.name, p.moves))
+                    }, p.species && p.species.id || 0, p.species && p.species.name || "???", p.moves))
                 }));
             }
             while (this.Party.length < 6)
