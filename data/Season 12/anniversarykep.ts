@@ -5,14 +5,14 @@ Season12.Runs.push(
         ColorPrimary: "#c0504d",
         ColorSecondary: "#8c3836",
         StartDate: "2025-02-12T23:18:16Z",
-        Duration: "255d",
+        Duration: "2025-02-18T00:14:39Z",
         HostName: "ARµµ-",
         HostImage: "img/hosts/pink.png",
         //HostImageSource: "",
         Region: "Kanto",
         //Generation: 1,
         Pokedex: "Kanto Expansion Pak",
-        // FinalStateLink:"./states/Season 12/anniversarykep.json",
+        FinalStateLink:"./states/Season 12/anniversarykep.json",
         Events: [
             {
                 Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
