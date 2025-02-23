@@ -116,22 +116,51 @@ Season12.Runs.push(
 			{ Name: "Jynx", Time: "2025-02-14T09:29:37Z", Group: "Pokemon" },
 			{ Name: "Seel", Time: "2025-02-14T09:32:43Z", Group: "Pokemon" },
 			{ Name: "Buu", Time: "2025-02-14T09:37:05Z", Group: "Pokemon" },
+			{ Name: "Golduck", Time: "2025-02-14T09:56:56Z", Group: "Pokemon" },
+			{ Name: "Fearow", Time: "2025-02-14T10:22:28Z", Group: "Pokemon" },
+			{ Name: "Tentacruel", Time: "2025-02-14T10:58:03Z", Group: "Pokemon" },
+			{ Name: "Gawarhed", Time: "2025-02-14T12:31:31.898Z", Group: "Pokemon" },
+			{ Name: "Ponyta", Time: "2025-02-14T12:45:29Z", Group: "Pokemon" },
+			{ Name: "Jabetta", Time: "2025-02-14T13:22:22.886Z", Group: "Pokemon" },
+			{ Name: "Koffing", Time: "2025-02-14T13:27:47Z", Group: "Pokemon" },
+			{ Name: "Raichu", Time: "2025-02-14T14:37:09Z", Group: "Pokemon" },
+			{ Name: "Gorochu", Time: "2025-02-14T14:40:44Z", Group: "Pokemon" },
+			{ Name: "Marowak", Time: "2025-02-14T15:01:26Z", Group: "Pokemon" },
+			{ Name: "Guardia", Time: "2025-02-14T15:11:41Z", Group: "Pokemon" },
+			{ Name: "Poliwhirl", Time: "2025-02-14T15:28:45Z", Group: "Pokemon" },
+			{ Name: "Golbat", Time: "2025-02-14T15:30:23Z", Group: "Pokemon" },
+			{ Name: "Croakozuna", Time: "2025-02-14T15:37:30Z", Group: "Pokemon" },
+			{ Name: "Disturban", Time: "2025-02-14T15:45:30Z", Group: "Pokemon" },
 			
             {
-                Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2025-02-14T21:05:11.442Z", Attempts: 1
+                Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2025-02-14T16:06:53.600Z", Attempts: 1
             },
-            {
-                Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2025-02-14T18:54:49.006Z", Attempts: 1
-            },
+			
+			{ Name: "Lapras", Time: "2025-02-14T17:09:45Z", Group: "Pokemon" },
+			{ Name: "Omegadge", Time: "2025-02-14T17:26:01Z", Group: "Pokemon" },
+			
             {
                 Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "2025-02-14T18:24:07.579Z", Attempts: 1
             },
+			
+			{ Name: "Vulpix", Time: "2025-02-14T18:28:56Z", Group: "Pokemon" },
+			
             {
-                Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2025-02-14T16:06:53.600Z", Attempts: 1
+                Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2025-02-14T18:54:49.006Z", Attempts: 1
+            },
+			
+			{ Name: "Pinsir", Time: "2025-02-14T20:33:52Z", Group: "Pokemon" },
+			{ Name: "Tricules", Time: "2025-02-14T20:39:32Z", Group: "Pokemon" },
+			{ Name: "Weepinbell", Time: "2025-02-14T20:48:00Z", Group: "Pokemon" },
+			{ Name: "Bellignan", Time: "2025-02-14T20:51:03Z", Group: "Pokemon" },
+			
+			
+            {
+                Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2025-02-14T21:05:11.442Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
