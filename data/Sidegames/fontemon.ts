@@ -66,7 +66,7 @@ Sidegames.Runs.push(
                 Group: "Badges",
                 Name: "Champion Trophy",
                 Image: "img/badges/fonte/realchampion.png",
-                Time: "",
+                Time: "2025-02-22T05:13:40Z",
                 //Attempts: 1
             },
 			
