@@ -11,6 +11,7 @@ Sidegames.Runs.push(
         HostImageSource: "https://wiki.tuxemon.org/File:Female-trainer-front.png",
         Region: "South Eastern Minnesota",
         // LastScreenshot: "https://twitchplayspokemon.tv/sidegame_image/1330",
+        ContainsRunsFrom: ["Season 11", "Season 12", "Intermissions", "Revisits"],
         SidegameId: "font",
         Events: [
             {
@@ -66,7 +67,7 @@ Sidegames.Runs.push(
                 Group: "Badges",
                 Name: "Champion Trophy",
                 Image: "img/badges/fonte/realchampion.png",
-                Time: "",
+                Time: "2025-02-22T05:13:40Z",
                 //Attempts: 1
             },
 			

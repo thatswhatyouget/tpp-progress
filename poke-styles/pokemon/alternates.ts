@@ -46,6 +46,9 @@ var alternates: Alternate[] = [
     new Alternate("mewtwo", "MegaX"),
     new Alternate("mewtwo", "MegaY"),
 
+    new Alternate("tauros", "Paldean-Blaze"),
+    new Alternate("tauros", "Paldean-Aqua"),
+	
     new Alternate("unown", "T"),
 	
 	new Alternate("kyogre", "Primal"),
