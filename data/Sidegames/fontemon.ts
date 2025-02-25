@@ -11,7 +11,7 @@ Sidegames.Runs.push(
         HostImageSource: "https://wiki.tuxemon.org/File:Female-trainer-front.png",
         Region: "South Eastern Minnesota",
         // LastScreenshot: "https://twitchplayspokemon.tv/sidegame_image/1330",
-        ContainsRunsFrom: ["Season 12", "Intermissions"],
+        ContainsRunsFrom: ["Season 11", "Season 12", "Intermissions", "Revisits"],
         SidegameId: "font",
         Events: [
             {

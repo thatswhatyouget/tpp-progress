@@ -313,7 +313,7 @@ Season12.Runs.push(
 			{ Name: "Exeggutor", Time: "2025-02-16T18:07:36Z", Group: "Pokemon", Class: "Alolan" },
 			{ Name: "Muk", Time: "2025-02-16T18:09:48Z", Group: "Pokemon", Class: "Alolan" },
 			{ Name: "Perrserker", Time: "2025-02-16T18:31:49Z", Group: "Pokemon" },
-			{ Name: "???", Time: "2025-02-16T18:41:35Z", Group: "Pokemon" },
+			{ Name: "▓▓        ", Time: "2025-02-16T18:41:35Z", Group: "Pokemon" },
 			{ Name: "Persian", Time: "2025-02-16T19:56:51Z", Group: "Pokemon" },
 			{ Name: "Rapidash", Time: "2025-02-16T19:57:07.095Z", Group: "Pokemon" },
 			{ Name: "Tangrowth", Time: "2025-02-16T20:04:31Z", Group: "Pokemon" },
@@ -453,11 +453,11 @@ Season12.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-02-18T00:10:08.628Z", Attempts: 1, Party: [
                     { Pokemon: "Gorotora", Nickname: "IRRJJJRRAA", Level: 100, Type1: "Electric" },
-                    { Pokemon: "???", Nickname: "ABKABB", Level: 80, Type1: "Fighting", Type2: "Ghost" },
-                    { Pokemon: "???", Nickname: "CCCKKKK", Level: 80, Type1: "Fighting", Type2: "Ghost" },
-                    { Pokemon: "???", Nickname: "▓▓        ", Level: 82, Type1: "Fighting", Type2: "Ghost" },
+                    { Pokemon: "▓▓        ", Nickname: "ABKABB", Level: 80, Type1: "Fighting", Type2: "Ghost" },
+                    { Pokemon: "▓▓        ", Nickname: "CCCKKKK", Level: 80, Type1: "Fighting", Type2: "Ghost" },
+                    { Pokemon: "▓▓        ", Level: 82, Type1: "Fighting", Type2: "Ghost" },
                     { Pokemon: "Mew", Level: 33, Type1: "Psychic" },
-                    { Pokemon: "???", Nickname: "AAACUUU)::", Level: 80, Type1: "Fighting", Type2: "Ghost" },
+                    { Pokemon: "▓▓        ", Nickname: "AAACUUU)::", Level: 80, Type1: "Fighting", Type2: "Ghost" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2025-02-17T16:41:43.338Z"
