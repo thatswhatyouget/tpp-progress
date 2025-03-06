@@ -5,7 +5,7 @@ Sidegames.Runs.push(
         StartDate: "2025-01-18T05:50:30Z",
         ColorPrimary: "#ffffff",
         ColorSecondary: "#000000",
-        Duration: "255d",
+        Duration: "2025-03-01T21:30:27Z",
         HostName: "Heroine",
         HostImage: "img/hosts/other/fontemon.png",
         HostImageSource: "https://wiki.tuxemon.org/File:Female-trainer-front.png",
