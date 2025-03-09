@@ -15,7 +15,7 @@ Sidegames.Runs.push(
         SidegameId: "karpe",
         Events: [
 		
-            { Name: "Magikarp", Time: "2024-03-08T12:46:55Z", Group: "Pokemon" },
+            { Name: "Magikarp", Time: "2025-03-08T12:46:55Z", Group: "Pokemon" },
 			
         ]
     }
