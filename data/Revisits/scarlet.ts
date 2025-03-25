@@ -158,6 +158,31 @@ Revisits.Runs.push(
         Generation: 9,
         Events: [
 		
+            {
+                "Group": "Elite Four", "Name": "Crispin", "Image": "img/trainers/scarlet/crispin.png",
+                "Time": "2023-12-15T17:29:09Z", "Attempts": 1
+            },
+		
+            {
+                "Group": "Elite Four", "Name": "Lacey", "Image": "img/trainers/scarlet/lacey.png",
+                "Time": "2023-12-15T17:59:04Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Elite Four", "Name": "Drayton", "Image": "img/trainers/scarlet/drayton.png",
+                "Time": "2023-12-15T19:22:40Z", "Attempts": 2
+            },
+			
+            {
+                "Group": "Elite Four", "Name": "Amarys", "Image": "img/trainers/scarlet/amarys.png",
+                "Time": "2023-12-15T20:38:08Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Champions", "Name": "Kieran", "Image": "img/trainers/scarlet/kieran.png",
+                "Time": "2023-12-15T22:42:18Z", "Attempts": 1
+            },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2023-12-18T14:08:05Z", Attempts: 1, Party: [
                     { Pokemon: "Koraidon", Nickname: "raidon", Level: 100 },
