@@ -123,6 +123,40 @@ Season9.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
 			
+			
+            {
+                "Group": "Elite Four", "Name": "Arven", "Image": "img/trainers/scarlet/arven.png",
+                "Time": "2022-11-24T02:51:44Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Elite Four", "Name": "Jacq", "Image": "img/trainers/scarlet/jacq.png",
+                "Time": "2022-11-24T02:57:47Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Elite Four", "Name": "Dendra", "Image": "img/trainers/scarlet/dendra.png",
+                "Time": "2022-11-24T03:03:48Z", "Attempts": 1
+            },
+			
+            {
+                "Group": "Champions", "Name": "Geeta", "Image": "img/trainers/scarlet/geeta.png",
+                "Time": "2022-11-24T03:11:02Z", "Attempts": 1
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2022-11-24T03:11:56Z", Attempts: 1, Party: [
+                    { Pokemon: "Farigiraf", Nickname: "Poppy", Level: 79, Gender: "Female" },
+					{ Pokemon: "Tinkaton", Nickname: "Tiool", Level: 87, Gender: "Female" },
+                    { Pokemon: "Frosmoth", Nickname: "Mmp??!!ƒ¤¤¤¤", Level: 79, Gender: "Male" },
+                    { Pokemon: "Slither Wing", Nickname: "illaa", Level: 58 },
+                    { Pokemon: "Quaquaval", Nickname: "Quaxl", Level: 86, Gender: "Male" },
+                    { Pokemon: "Sandy Shocks", Nickname: "maa", Level: 58 },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2022-11-27T15:57:49Z", Attempts: 1, Party: [
                     { Pokemon: "Quaquaval", Nickname: "Quaxl", Level: 100, Gender: "Male" },
