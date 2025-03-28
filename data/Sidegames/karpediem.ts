@@ -20,6 +20,8 @@ Sidegames.Runs.push(
             { Name: "Horsea", Time: "2025-03-11T08:19:30Z", Group: "Pokemon" },
             { Name: "Goldeen", Time: "2025-03-15T10:50:10Z", Group: "Pokemon" },
             { Name: "Poliwag", Time: "2025-03-22T23:05:04Z", Group: "Pokemon" },
+            { Name: "Shellder", Time: "2025-03-28T12:06:15Z", Group: "Pokemon" },
+            { Name: "Staryu", Time: "2025-03-28T14:25:42Z", Group: "Pokemon" },
 			
         ]
     }
