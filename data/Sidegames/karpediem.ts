@@ -5,7 +5,7 @@ Sidegames.Runs.push(
         StartDate: "2025-03-04T23:44:17Z",
         ColorPrimary: "#fd884f",
         ColorSecondary: "#b22b11",
-        Duration: "255d",
+        Duration: "2025-04-01T01:27:20Z",
         HostName: "Fisherman",
         HostImage: "img/hosts/fisherman.png",
         // HostImageSource: "",
