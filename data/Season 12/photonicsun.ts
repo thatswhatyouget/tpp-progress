@@ -20,7 +20,7 @@ Season12.Runs.push(
             { "Group": "Badges", "Name": "Waterium Z", "Image": "img/z-crystals/Waterium Z.png", "Time": "2025-04-13T13:25:32.168Z", "Attempts": 1 },
             { "Group": "Badges", "Name": "Firium Z", "Image": "img/z-crystals/Firium Z.png", "Time": "2025-04-13T19:38:42.061Z", "Attempts": 3 },
             { "Group": "Badges", "Name": "Grassium Z", "Image": "img/z-crystals/Grassium Z.png", "Time": "2025-04-13T20:36:15.613Z", "Attempts": 1 },
-            { "Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", "Time": "", "Attempts": 0 },
+            { "Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", "Time": "2025-04-14T05:51:51.251Z", "Attempts": 1 },
             { "Group": "Badges", "Name": "Electrium Z", "Image": "img/z-crystals/Electrium Z.png", "Time": "", "Attempts": 0 },
             { "Group": "Badges", "Name": "Ghostium Z", "Image": "img/z-crystals/Ghostium Z.png", "Time": "", "Attempts": 0 },
             { "Group": "Badges", "Name": "Darkium Z", "Image": "img/z-crystals/Darkium Z.png", "Time": "", "Attempts": 0 },
