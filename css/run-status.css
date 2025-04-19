@@ -341,6 +341,7 @@
     height:8em;
     image-rendering: pixelated;
 }
+
 .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img {
 	position: static;
     height:0!important;
@@ -354,6 +355,18 @@
     background-position: top left;
     background-size: 10em;
     image-rendering: pixelated;
+}
+
+.pokemon-hud ul.party > li .pokesprite:not(.missingno).shiny img {
+    background-image: url("../img/pokemon-large-shiny.png");
+}
+
+.pokemon-hud ul.party > li .pokesprite:not(.missingno).female img {
+    background-image: url("../img/pokemon-large-female.png");
+}
+
+.pokemon-hud ul.party > li .pokesprite:not(.missingno).shiny.female img {
+    background-image: url("../img/pokemon-large-shiny-female.png");
 }
 
 .touhoumon .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img {
