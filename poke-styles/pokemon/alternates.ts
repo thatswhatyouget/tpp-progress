@@ -93,6 +93,8 @@ var alternates: Alternate[] = [
 
     new Alternate("vivillon", "Modern"),
 	
+    new Alternate("Floette", "Eternal"),
+	
     new Alternate("furfrou", "Kabuki"),
 	
     new Alternate("gourgeist", "Small"),
@@ -106,6 +108,10 @@ var alternates: Alternate[] = [
     new Alternate("oricorio", "Pom-Pom"),
     new Alternate("oricorio", "Pa-u"),
     new Alternate("oricorio", "Sensu"),
+	
+    new Alternate("Necrozma", "DuskMane"),
+    new Alternate("Necrozma", "DawnWings"),
+    new Alternate("Necrozma", "Ultra"),
 	
     new Alternate("Toxtricity", "LowKey"),
 	
