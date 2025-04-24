@@ -32,6 +32,32 @@ Season12.Runs.push(
             { "Group": "Elite Four", "Name": "Olivia", "Time": "2025-04-18T16:50:03.941Z", "Attempts": 2, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four", "Name": "Kahili", "Time": "2025-04-18T17:26:19.353Z", "Attempts": 1, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
             { "Group": "Champions", "Name": "Professor Kukui", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
+			
+			<TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-04-20T01:26:51Z", Attempts: 0, Party: [
+                    { Pokemon: "Sunflora", Nickname: "HAHA!", Gender: "Male", Level: 100, Shiny: true },
+                    { Pokemon: "Wishiwashi", Nickname: "Wishiwashir ", Gender: "Male", Level: 100 },
+                    { Pokemon: "Kommo-o", Nickname: "Susano-o", Gender: "Female", Level: 100 },
+                    { Pokemon: "Delibird", Nickname: "Dprbird9p", Gender: "Female", Level: 100 },
+                    { Pokemon: "Kommo-o", Nickname: "Jackamo-o", Gender: "Male", Level: 100, Shiny: true },
+                    { Pokemon: "Floette", Nickname: "Flose", Gender: "Female", Level: 100, Form: "Eternal" },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: ""
+            },
+			
+			<TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-04-22T06:34:33Z", Attempts: 0, Party: [
+                    { Pokemon: "Necrozma", Nickname: "Néozma", Level: 100, Form: "Dusk Mane" },
+                    { Pokemon: "Zeraora", Nickname: "Zkittyora ", Level: 100 },
+                    { Pokemon: "Kommo-o", Nickname: "Jackamo-o", Gender: "Male", Level: 100, Shiny: true },
+                    { Pokemon: "Greninja", Nickname: "aGopa", Gender: "Male", Level: 100, Form: "Battle Bond" },
+                    { Pokemon: "Victini", Nickname: "Vsabbd3ini", Level: 100 },
+                    { Pokemon: "Kyogre", Nickname: "logre", Level: 100 },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: ""
+            },
 
             { "Group": "Pokemon", "Name": "Rowlet", "Time": "2025-04-12T15:23:16.161Z" },
             { "Group": "Pokemon", "Name": "Grubbin", "Time": "2025-04-12T15:52:23.035Z" },
