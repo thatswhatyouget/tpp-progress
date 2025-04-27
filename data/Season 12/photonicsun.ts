@@ -58,6 +58,19 @@ Season12.Runs.push(
                 Image: "img/ribbons/champion-alola.png",
                 FirstAttemptDate: ""
             },
+			
+			<TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-04-26T06:26:33Z", Attempts: 0, Party: [
+                    { Pokemon: "Milotic", Nickname: "Nyla", Gender: "Female", Level: 100, Shiny: true },
+                    { Pokemon: "Shiftry", Nickname: "Nuzzles", Gender: "Male", Level: 100, Shiny: true },
+                    { Pokemon: "Swellow", Nickname: "Zephyr", Gender: "Female", Level: 100, Shiny: true },
+                    { Pokemon: "Kommo-o", Nickname: "Jackamo-o", Gender: "Male", Level: 100, Shiny: true },
+                    { Pokemon: "Flygon", Nickname: "Greensmith", Gender: "Male", Level: 100, Shiny: true },
+                    { Pokemon: "Quagsire", Nickname: "Marshmallow", Gender: "Male", Level: 100, Shiny: true },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: ""
+            },
 
             { "Group": "Pokemon", "Name": "Rowlet", "Time": "2025-04-12T15:23:16.161Z" },
             { "Group": "Pokemon", "Name": "Grubbin", "Time": "2025-04-12T15:52:23.035Z" },
