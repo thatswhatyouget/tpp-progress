@@ -72,6 +72,19 @@ Season12.Runs.push(
                 FirstAttemptDate: ""
             },
 
+			<TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-04-29T06:06:57Z", Attempts: 0, Party: [
+                    { Pokemon: "Kartana", Nickname: "Paper", Level: 100 },
+                    { Pokemon: "Tsareena", Nickname: "Annee", Gender: "Female", Level: 100 },
+                    { Pokemon: "Necrozma", Nickname: "Néozma", Level: 100, Form: "Dusk Mane" },
+                    { Pokemon: "Milotic", Nickname: "Nyla", Gender: "Female", Level: 100, Shiny: true },
+                    { Pokemon: "Palossand", Nickname: "FTV♀E", Gender: "Female", Level: 100 },
+                    { Pokemon: "Flareon", Nickname: "Kneecaps", Gender: "Male", Level: 100, Shiny: true },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: ""
+            },
+
             { "Group": "Pokemon", "Name": "Rowlet", "Time": "2025-04-12T15:23:16.161Z" },
             { "Group": "Pokemon", "Name": "Grubbin", "Time": "2025-04-12T15:52:23.035Z" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "2025-04-12T15:58:59.434Z" },
