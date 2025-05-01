@@ -4,7 +4,7 @@ Season12.Runs.push(
         RunName: "Photonic Sun",
         ColorSecondary: "orange",
         ColorPrimary: "#CD8B1F",
-        Duration: "2025-05-01T00:00:00Z",
+        Duration: "2025-04-29T06:49:17Z",
         StartDate: "2025-04-12T15:00:00Z",
         HostName: "!",
         HostImage: "img/hosts/sun.png",
