@@ -28,6 +28,19 @@ Revisits.Runs.push(
                 Image: "img/ribbons/champion-alola.png",
                 FirstAttemptDate: ""
             },
+		
+			<TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-05-02T02:33:03Z", Attempts: 0, Party: [
+                    { Pokemon: "Necrozma", Nickname: "Néozma", Level: 100, Form: "Dusk Mane" },
+                    { Pokemon: "Zeraora", Nickname: "Zkittyora ", Level: 100 },
+                    { Pokemon: "Tapu Fini", Nickname: "eexxyyr", Level: 100 },
+                    { Pokemon: "Kyogre", Nickname: "logre", Level: 100 },
+                    { Pokemon: "Milotic", Nickname: "Nyla", Gender: "Female", Level: 100, Shiny: true },
+                    { Pokemon: "Kommo-o", Nickname: "Jackamo-o", Gender: "Male", Level: 100, Shiny: true },
+                ],
+                Image: "img/ribbons/champion-alola.png",
+                FirstAttemptDate: ""
+            },
 			
         ],
         Revisit: { Collection: "Season 12", Run: "Photonic Sun" },
