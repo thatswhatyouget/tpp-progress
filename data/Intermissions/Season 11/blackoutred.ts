@@ -18,21 +18,21 @@ Intermissions.Runs.push(
                 Name: "Boulder Badge",
                 Image: "img/badges/boulder.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-10-07T07:37:50Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Cascade Badge",
                 Image: "img/badges/cascade.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-10-07T15:33:47Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Thunder Badge",
                 Image: "img/badges/thunder.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-10-07T22:15:47Z", Attempts: 1
             },
 			
         ]
