@@ -28,10 +28,6 @@ Season10.Runs.push(
                 Time: "2023-10-16T11:55:21.059Z", Attempts: 2,
             },
             {
-                Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png",
-                Time: "", Attempts: 0,
-            },
-            {
                 Group: "Badges", Name: "Balance Badge", Image: "img/badges/balance.png",
                 Time: "2023-10-15T11:28:05.368Z", Attempts: 1,
             },
@@ -44,8 +40,12 @@ Season10.Runs.push(
                 Time: "2023-10-18T08:21:51.699Z", Attempts: 3,
             },
             {
+                Group: "Badges", Name: "Heat Badge", Image: "img/badges/heat.png",
+                Time: "2023-10-20T12:56:02Z", Attempts: 0,
+            },
+            {
                 Group: "Badges", Name: "Focus Badge", Image: "img/badges/snakewood/focus.png",
-                Time: "", Attempts: 0,
+                Time: "2023-10-21T01:09:11Z", Attempts: 2,
             },
 
             {
