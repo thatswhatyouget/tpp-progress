@@ -4,7 +4,7 @@ Revisits.Runs.push(
         RunName: "Photonic Sun Revisit - Lusamine Day",
         ColorSecondary: "orange",
         ColorPrimary: "#CD8B1F",
-        Duration: "4d",
+        Duration: "2025-05-02T12:37:20Z",
         StartDate: "2025-05-01T12:00:15Z",
         HostName: "!",
         HostImage: "img/hosts/sun.png",

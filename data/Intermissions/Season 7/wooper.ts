@@ -49,6 +49,16 @@ Intermissions.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-12-11T23:12:01.166Z", Party: [
+                    { Pokemon: "Wooper", Level: 86, Gender: "Female", Number: "???", IDNo: "33205" },
+                    { Pokemon: "Diglett", Level: 22, Gender: "Female", Number: 50, IDNo: "33205" },
+                    { Pokemon: "Diglett", Nickname: "GGGHH", Level: 20, Gender: "Male", Number: 50, IDNo: "33205" },
+                    { Pokemon: "Nidorino", Level: 30, Gender: "Male", Number: 33, IDNo: "33205" },
+                    { Pokemon: "Wooper", Level: 19, Gender: "Female", Number: "???", IDNo: "33205" },
+                ],
+                Image: "img/ribbons/champion.png"
+            },
 
             { "Group": "Pokemon", "Name": "Wooper", "Time": "2020-12-10T21:53:09.329Z" },
             { "Group": "Pokemon", "Name": "Rattata", "Time": "2020-12-10T22:49:28.480Z" },
