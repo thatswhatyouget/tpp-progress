@@ -158,7 +158,7 @@ Season7.Runs.push(
                 Attempts: 8
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-05-07T16:39:38.481Z", Attempts: 26, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-05-08T22:52:25Z", Attempts: 26, Party: [
                     { Pokemon: "Heliolisk", Nickname: "Herrrdliopr", Level: 100, Gender: "Male" },
                     { Pokemon: "Goodra", Nickname: "R6", Level: 96, Gender: "Male" },
                     { Pokemon: "Ducklett", Nickname: "dfuucck", Level: 100, Gender: "Female" },
