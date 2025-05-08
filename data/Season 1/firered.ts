@@ -20,7 +20,7 @@ Season1.Runs.push(
                 Group: "Badges",
                 Name: "Cocoon (Boulder) Badge",
                 Image: "img/randomized/firered/cocoon.png",
-                Time: "0d 19h 44m",
+                Time: "0d 20h 45m",
                 Attempts: 2,
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/2318l8/i_decided_to_try_and_make_custom_badges_to_fit/"
             },
@@ -36,7 +36,7 @@ Season1.Runs.push(
                 Group: "Badges",
                 Name: "Shale (Thunder) Badge",
                 Image: "img/randomized/firered/shale.png",
-                Time: "2d 12h 12m",
+                Time: "2d 12h 13m",
                 Attempts: 4,
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/2318l8/i_decided_to_try_and_make_custom_badges_to_fit/"
             },
