@@ -1,7 +1,7 @@
 /// <reference path="../tpp-data.ts" />
 Sidegames.Runs.push(
     {
-        RunName: "Spaceworld Gold Demo",
+        RunName: "SpaceWorld Gold Demo",
         ColorPrimary: "#AD0021",
         ColorSecondary: "#8C5208",
         StartDate: "2019-03-02T00:22:17.532Z",
