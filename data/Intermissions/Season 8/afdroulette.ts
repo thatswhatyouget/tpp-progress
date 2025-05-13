@@ -56,9 +56,9 @@ Intermissions.Runs.push(
 
 Intermissions.Runs.push(
     {
-        RunName: "Moemon (AFD)",
-        ColorPrimary: "#a779d0",
-        ColorSecondary: "#683597",
+        RunName: "Randomized Moemon (AFD)",
+        ColorPrimary: "#9f5ca0",
+        ColorSecondary: "#552e98",
         StartDate: "2021-04-01T01:00:29Z",
         Duration: "2021-04-02T18:50:34Z",
         HostName: "JAK",
@@ -338,6 +338,7 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Larmog",
         Pokedex: "Larmog",
+		Class: "navyblue",
         Events: [
 		
             { "Group": "Pokemon", "Name": "Agoose", "Time": "2021-04-01T03:37:58Z" },
@@ -832,6 +833,7 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Hoenn",
         Pokedex: "Altair/Sirius (Hoenn)",
+		Class: "sirius",
         Events: [
 		
             { "Group": "Pokemon", "Name": "Peyero", "Time": "2021-04-02T02:05:54Z" },
@@ -850,7 +852,7 @@ Intermissions.Runs.push(
         HostName: "TTTT",
         HostImage: "img/hosts/marina.png",
         Unfinished: true,
-        Region: "Johto",
+        Region: "Hoenn",
         Events: [
 		
             { "Group": "Pokemon", "Name": "Seedot", "Time": "2021-04-02T02:37:34Z" },
@@ -907,6 +909,7 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Tohoak",
         Pokedex: "Tohoak",
+		Class: "vega",
         Events: [
 		
             { "Group": "Pokemon", "Name": "Nimbleaf", "Time": "2021-04-02T07:51:25Z" },
@@ -1056,6 +1059,7 @@ Intermissions.Runs.push(
         HostImage: "img/hosts/pan.png",
         Unfinished: true,
         Pokedex: "Fighters",
+		Class: "dbzteamtraining",
         Events: [
 		
             { "Group": "Pokemon", "Name": "Goku", "Time": "2021-04-02T22:12:55Z" },
@@ -1094,6 +1098,7 @@ Intermissions.Runs.push(
         HostName: "TOSH",
         HostImage: "img/hosts/aaabbhm.png",
         Pokedex: "Art Book",
+		Class: "touhoumon",
         Events: [
 		
             { "Group": "Pokemon", "Name": "CSanae", "Time": "2021-04-02T23:23:30Z" },
