@@ -17,7 +17,7 @@ Season9.Runs.push(
                 "Image": "img/trainers/xd/lovrina.png",
                 "ImageSource": "http://djshop.smackjeeves.com/comics/381730/rui-lovrina/",
                 "Name": "Lovrina",
-                "Time": "2022-07-10T19:33:57.889Z",
+                "Time": "2022-07-10T19:09:21Z",
                 "Attempts": 6
             },
             {
