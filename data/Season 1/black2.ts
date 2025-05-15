@@ -162,7 +162,7 @@ Season1.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "214-07-25T06:15:44Z", IDNo: "06648", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2014-07-25T06:15:44Z", IDNo: "06648", Attempts: 0, Party: [
                     { Pokemon: "Sceptile", Nickname: "AEEEEOPM.J ", Level: 99, Gender: "Male" },
                     { Pokemon: "Leavanny", Nickname: "zzffzz zzw", Level: 100, Gender: "Male" },
                     { Pokemon: "Zoroark", Level: 100, Gender: "Male" },
