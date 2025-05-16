@@ -217,6 +217,13 @@ Season8.Runs.push(
                 FirstAttemptDate: "2021-09-06T16:31:31.823Z",
                 Image: "img/ribbons/champion.png"
             },
+			
+            { "Group": "Champions", "Image": "img/hosts/other/npcs/mastertrainer.png", "Name": "Maurice", "Time": "2021-08-26T00:42:01Z", "Attempts": 0 },
+            { "Group": "Champions", "Image": "img/hosts/other/npcs/mastertrainer.png", "Name": "AJ", "Time": "2021-08-30T22:18:02Z", "Attempts": 0 },
+            { "Group": "Champions", "Image": "img/hosts/other/npcs/mastertrainer.png", "Name": "Cyan", "Time": "2021-08-31T07:04:00Z", "Attempts": 0 },
+            { "Group": "Champions", "Image": "img/hosts/other/npcs/mastertrainer.png", "Name": "Red", "Time": "2021-08-31T09:28:19Z", "Attempts": 0 },
+            { "Group": "Champions", "Image": "img/hosts/other/npcs/mastertrainer.png", "Name": "Turner", "Time": "2021-09-04T09:29:08Z", "Attempts": 0 },
+            { "Group": "Champions", "Image": "img/hosts/other/npcs/mastertrainer.png", "Name": "Blue", "Time": "2021-09-09T06:15:31Z", "Attempts": 0 },
 
             { Group: "Pokemon", Name: "Eevee", Time: "2021-08-21T21:12:54.385Z" },
             { Group: "Pokemon", Name: "Wurmple", Time: "2021-08-21T21:37:44.140Z" },

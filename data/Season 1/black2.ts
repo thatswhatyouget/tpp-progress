@@ -161,6 +161,17 @@ Season1.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2014-07-25T06:15:44Z", IDNo: "06648", Attempts: 0, Party: [
+                    { Pokemon: "Sceptile", Nickname: "AEEEEOPM.J ", Level: 99, Gender: "Male" },
+                    { Pokemon: "Leavanny", Nickname: "zzffzz zzw", Level: 100, Gender: "Male" },
+                    { Pokemon: "Zoroark", Level: 100, Gender: "Male" },
+                    { Pokemon: "Feraligatr", Nickname: "u2E!☂☂☂M☂'", Level: 100, Gender: "Male" },
+                    { Pokemon: "Emboar", Nickname: "VVUU", Level: 100, Gender: "Male" },
+                    { Pokemon: "Unfezant", Nickname: "qfwwqhhzwu", Level: 100, Gender: "Female" },
+                ],
+                Image: "img/ribbons/champion.png"
+            },
             { Name: "Pikachu", Time: "16d 20h 3m", Group: "Pokemon" },
             { Name: "Meowth", Time: "0d 7h 32m", Group: "Pokemon" },
             { Name: "Tentacool", Time: "10d 14h 40m", Group: "Pokemon" },
