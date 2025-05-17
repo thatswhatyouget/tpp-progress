@@ -1078,6 +1078,7 @@ Intermissions.Runs.push(
         Duration: "2021-04-02T23:18:01Z",
         HostName: "o",
         HostImage: "img/hosts/zzzzzzz.png",
+        Unfinished: true,
         Region: "Hoenn",
         Pokedex: "Amogus",
         Events: [
@@ -1097,6 +1098,7 @@ Intermissions.Runs.push(
         Duration: "2021-04-02T23:58:00Z",
         HostName: "TOSH",
         HostImage: "img/hosts/aaabbhm.png",
+        Unfinished: true,
         Pokedex: "Art Book",
 		Class: "touhoumon",
         Events: [

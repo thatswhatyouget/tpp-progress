@@ -21,6 +21,7 @@ Intermissions.Runs.push(
         Duration: "2021-05-08T12:11:45Z",
         HostName: ".",
         HostImage: "img/hosts/other/shigeki.png",
+        Unfinished: true,
         Region: "E-Monsters World",
         Pokedex: "Phone Book",
         Class: "telefang",
@@ -45,6 +46,7 @@ Revisits.Runs.push(
         Duration: "2021-05-08T18:44:32Z",
         HostName: "TOSH",
         HostImage: "img/hosts/aaabbhm.png",
+        Unfinished: true,
         Pokedex: "Art Book",
 		Class: "touhoumon",
         Events: [
@@ -125,6 +127,7 @@ Revisits.Runs.push(
         Duration: "2021-05-08T20:10:47Z",
         HostName: "o",
         HostImage: "img/hosts/zzzzzzz.png",
+        Unfinished: true,
         Region: "Hoenn",
         Pokedex: "Amogus",
         Events: [
@@ -381,6 +384,7 @@ Intermissions.Runs.push(
         Duration: "2021-05-08T02:26:55Z",
         //HostName: "IJB",
         //HostImage: "img/hosts/other/shigeki.png",
+        Unfinished: true,
         Region: "E-Monsters World",
         Pokedex: "Phone Book",
         Events: [
