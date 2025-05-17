@@ -13,12 +13,11 @@ Sidegames.Runs.push(
         Generation: 2,
         Pokedex: "New",
         FromNatDex: true,
-        FinalStateLink: "./states/Season 12/wasteland.json",
-        SidegameId: "wasteland",
+        SidegameId: "waste",
         Events: [
-		
+
             { "Group": "Pokemon", "Name": "Nidorino", "Time": "2025-05-16T04:09:58Z" },
-			
+
         ]
     }
 );
