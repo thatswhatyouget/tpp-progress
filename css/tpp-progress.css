@@ -783,7 +783,6 @@ ul.controls>li>ul>li.selected>a:before {
 	margin: auto;
 	image-rendering: pixelated;
 	background-repeat: no-repeat;
-	background-position: top left;
 }
 
 .hallOfFameDisplay .entry .info>* {
