@@ -48,7 +48,7 @@ function addSpriteSheet(name: string, spriteSheet: string, sheetType = SpriteShe
         extraStyles += " ";
     const largeSpriteClasses = [
         ".dexEntry .pokesprite:not(.missingno) img", // Pokedex
-        ".hallOfFameDisplay .entry .pokesprite img", // Hall of Fame
+        `.hallOfFameDisplay${name} .entry .pokesprite img`, // Hall of Fame
         ".badgeList ul li .image.pokesprite:not(.missingno) img", // Run Status Milestones
         ".pokemon-hud ul.party > li .pokemon-image > .pokesprite > img", // Run Status Party/PC
         `.progressChart .run${name} .event.pokesprite img` // Progress Bars Milestones
