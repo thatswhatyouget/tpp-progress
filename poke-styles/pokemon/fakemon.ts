@@ -1,4 +1,4 @@
-/// <reference path="../write-style.ts" />
+/// <reference path="../other/fuseddex.ts" />
 /// <reference path="../../data/Pokedex/natdex.ts" />
 /// <reference path="../../data/Pokedex/regional.ts" />
 
