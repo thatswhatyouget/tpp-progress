@@ -1,4 +1,4 @@
-/// <reference path="../write-style.ts" />
+/// <reference path="../pokemon/natdex.ts" />
 
 addSpriteSheet("animorphs", "animorphs/anisprites", SpriteSheetType.SmallNoSuffix, SpriteSheetMode.Basic, 1, "gif", "font-size: 16px; margin: 10%; transform: translateX(-45%); top: 75%;");
 

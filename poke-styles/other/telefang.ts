@@ -1,4 +1,4 @@
-/// <reference path="../write-style.ts" />
+/// <reference path="../pokemon/natdex.ts" />
 
 addSpriteSheet("telefang", "telefang/denjuu", SpriteSheetType.SmallNoSuffix, SpriteSheetMode.Basic, 1, "png", "font-size: 16px; margin: 10%; transform: translateX(-45%); top: 75%;");
 addSpriteSheet("telefang", "telefang/denjuu", SpriteSheetType.Large, SpriteSheetMode.Basic, 1, "gif");

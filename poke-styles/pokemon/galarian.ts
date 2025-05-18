@@ -1,5 +1,3 @@
-/// <reference path="../write-style.ts" />
-
 //make sure galarian overrides come after normal dex
 /// <reference path="natdex.ts" />
 

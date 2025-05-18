@@ -1,5 +1,3 @@
-/// <reference path="../write-style.ts" />
-
 //make sure hisuian overrides come after normal dex
 /// <reference path="natdex.ts" />
 

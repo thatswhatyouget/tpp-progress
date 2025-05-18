@@ -1,5 +1,3 @@
-/// <reference path="../write-style.ts" />
-
 //make sure alternate overrides come after normal dex
 /// <reference path="natdex.ts" />
 
@@ -48,86 +46,86 @@ var alternates: Alternate[] = [
 
     new Alternate("tauros", "Paldean-Blaze"),
     new Alternate("tauros", "Paldean-Aqua"),
-	
+
     new Alternate("unown", "T"),
-	
+
 	new Alternate("kyogre", "Primal"),
     new Alternate("groudon", "Primal"),
-	
+
     new Alternate("deoxys", "Attack"),
     new Alternate("deoxys", "Defense"),
 
     new Alternate("shellos", "East"),
     new Alternate("gastrodon", "East"),
-	
+
     new Alternate("rotom", "Fan"),
     new Alternate("rotom", "Frost"),
     new Alternate("rotom", "Heat"),
     new Alternate("rotom", "Mow"),
     new Alternate("rotom", "Wash"),
-	
+
     new Alternate("dialga", "Origin"),
-	
+
     new Alternate("arceus", "Bug"),
     new Alternate("arceus", "Fire"),
-	
+
     new Alternate("basculin", "Blue"),
     new Alternate("basculin", "White"),
-	
+
     new Alternate("deerling", "Summer"),
     new Alternate("deerling", "Autumn"),
     new Alternate("deerling", "Winter"),
-	
+
     new Alternate("sawsbuck", "Summer"),
     new Alternate("sawsbuck", "Autumn"),
     new Alternate("sawsbuck", "Winter"),
-	
+
     new Alternate("tornadus", "Therian"),
     new Alternate("thundurus", "Therian"),
     new Alternate("landorus", "Therian"),
-	
+
     new Alternate("kyurem", "White"),
     new Alternate("kyurem", "Black"),
-	
+
     new Alternate("keldeo", "Resolute"),
 
     new Alternate("vivillon", "Modern"),
-	
+
     new Alternate("Floette", "Eternal"),
-	
+
     new Alternate("furfrou", "Kabuki"),
-	
+
     new Alternate("gourgeist", "Small"),
     new Alternate("gourgeist", "Large"),
     new Alternate("gourgeist", "Super"),
-	
+
     new Alternate("zygarde", "percent10"),
-	
+
     new Alternate("lycanroc", "Midnight"),
 
     new Alternate("oricorio", "Pom-Pom"),
     new Alternate("oricorio", "Pa-u"),
     new Alternate("oricorio", "Sensu"),
-	
+
     new Alternate("Necrozma", "DuskMane"),
     new Alternate("Necrozma", "DawnWings"),
     new Alternate("Necrozma", "Ultra"),
-	
+
     new Alternate("Toxtricity", "LowKey"),
-	
+
     new Alternate("Alcremie", "Matcha-Ribbon"),
-	
+
     new Alternate("Zacian", "Crowned"),
     new Alternate("Zamazenta", "Crowned"),
-	
+
     new Alternate("Maushold", "Four"),
-	
+
     new Alternate("Ogerpon", "Wellspring"),
     new Alternate("Ogerpon", "Hearthflame"),
     new Alternate("Ogerpon", "Cornerstone"),
-	
+
     new Alternate("zoroark", "Eliza"),
-	
+
     new Alternate("ub-queen", "Ultra"),
 
 ];

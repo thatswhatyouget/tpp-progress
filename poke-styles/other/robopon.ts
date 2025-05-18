@@ -1,4 +1,4 @@
-/// <reference path="../write-style.ts" />
+/// <reference path="../pokemon/natdex.ts" />
 /// <reference path="../../data/Pokedex/other/robopon.ts" />
 
 addSpriteSheet("robopon", "robopon/robopon", SpriteSheetType.SmallNoSuffix, SpriteSheetMode.Basic, 1, "gif", "font-size: 64px; top: 10%; transform: translateX(-50%) scale(.6); background-position: -20px -1110px; background-size: auto;");

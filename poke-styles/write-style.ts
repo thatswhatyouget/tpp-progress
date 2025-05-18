@@ -9,7 +9,7 @@ function defaultMapping(mapString: string = "", rowSize = 10) {
         if (!index || !entry || typeof entry !== "string") return "";
         const row = Math.floor(index / rowSize);
         const col = index % rowSize;
-        return mapString + ".pokesprite." + dexClean(entry) + ` img { background-position: -${col}em -${row}em!important; }`;
+        return mapString + ".pokesprite." + dexClean(entry) + ` img { background-position: -${col}em -${row}em${mapString && "!important"}; }`;
     }
 }
 
@@ -80,7 +80,3 @@ function addSpriteSheet(name: string, spriteSheet: string, sheetType = SpriteShe
     else
         addSizedClasses(smallSpriteClasses, spriteSheet + (sheetType == SpriteSheetType.Small ? "-small" : ""));
 }
-
-// Global Pokemon sprites should be specified first so they're able to be overridden by more specific sprite sheets
-addSpriteSheet("", "pokemon");
-addSpriteSheet("", "pokemon", SpriteSheetType.Large, SpriteSheetMode.All);

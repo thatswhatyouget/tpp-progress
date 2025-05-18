@@ -1,4 +1,4 @@
-/// <reference path="../write-style.ts" />
+/// <reference path="../pokemon/natdex.ts" />
 /// <reference path="../../data/Pokedex/other/touhoudex.ts" />
 
 addSpriteSheet("touhoumon", "touhoumon", SpriteSheetType.Small);

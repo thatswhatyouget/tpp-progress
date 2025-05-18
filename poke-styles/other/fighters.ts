@@ -1,4 +1,4 @@
-/// <reference path="../write-style.ts" />
+/// <reference path="../pokemon/natdex.ts" />
 /// <reference path="../../data/Pokedex/other/fighters.ts" />
 
 addSpriteSheet("dbzteamtraining", "fighters", SpriteSheetType.Small);

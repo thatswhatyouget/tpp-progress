@@ -1,4 +1,4 @@
-/// <reference path="../write-style.ts" />
+/// <reference path="../pokemon/natdex.ts" />
 /// <reference path="../../data/Pokedex/other/digimon.ts" />
 
 addSpriteSheet("digimonnovared", "digimon", SpriteSheetType.Small, SpriteSheetMode.Basic, 1);
