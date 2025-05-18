@@ -34,18 +34,28 @@ addSingleStyle('.pokesprite.phancero:hover img  { background-image:url("../img/f
 addSingleStyle('.pokesprite.missingno img  { background-image:url("../img/missingno.png")!important;  background-size: 1em!important; }');
 
 //NavyBlue
+addSpriteSheet("navyblue", "navyblue", SpriteSheetType.Small);
+addSpriteSheet("navyblue", "navyblue", SpriteSheetType.Large);
 addStyles(Pokedex.Regional["Larmog"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p)), defaultMapping("navyblue"));
 
 //Sirius
+addSpriteSheet("sirius", "sirius", SpriteSheetType.Small);
+addSpriteSheet("sirius", "sirius", SpriteSheetType.Large);
 addStyles(Pokedex.Regional["Altair/Sirius (Hoenn)"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p)), defaultMapping("sirius"));
 
 //Vega
+addSpriteSheet("vega", "vega", SpriteSheetType.Small);
+addSpriteSheet("vega", "vega", SpriteSheetType.Large);
 addStyles(fixFakeForms(Pokedex.Regional["Tohoak"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("vega"));
 
 //Blazing Emerald
+addSpriteSheet("blazingemerald", "blazing", SpriteSheetType.Small);
+addSpriteSheet("blazingemerald", "blazing", SpriteSheetType.Large);
 addStyles(fixFakeForms(Pokedex.Regional["Blazing Hoenn"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("blazingemerald"));
 
 //Snakewood
+addSpriteSheet("snakewood", "snakewood", SpriteSheetType.Small, SpriteSheetMode.Basic, 1);
+addSpriteSheet("snakewood", "snakewood", SpriteSheetType.Large, SpriteSheetMode.Basic, 1);
 addStyles(fixFakeForms(Pokedex.Regional["Snakewood"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("snakewood", 1));
 
 //KEP

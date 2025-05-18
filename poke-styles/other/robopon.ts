@@ -1,6 +1,9 @@
 /// <reference path="../write-style.ts" />
 /// <reference path="../../data/Pokedex/other/robopon.ts" />
 
+addSpriteSheet("robopon", "robopon/robopon", SpriteSheetType.SmallNoSuffix, SpriteSheetMode.Basic, 1, "gif", "font-size: 64px; top: 10%; transform: translateX(-50%) scale(.6); background-position: -20px -1110px; background-size: auto;");
+addSpriteSheet("robopon", "robopon/robopon", SpriteSheetType.LargeNoSuffix, SpriteSheetMode.Basic, 1, "gif", "font-size: 64px; background-position: -20px -1110px; background-size: auto;");
+
 var robopon = Pokedex.Regional["Robopon"];
 robopon.splice(0, 1); //get rid of unused 000 slot
 
