@@ -6,7 +6,7 @@ Season1.Runs.push(
         ColorSecondary: "#c6223b",
         //Duration: "8d 5h 42m",
         StartDate: "2014-11-22T03:00:00Z",
-        Duration: "10d",
+        Duration: "2014-12-02T02:58:55Z",
         HostName: "!12rtyhaszs",
         HostImage: "img/hosts/rtyhaszs.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
@@ -21,14 +21,14 @@ Season1.Runs.push(
                 Group: "Badges",
                 Name: "Stone Badge",
                 Image: "img/badges/stone.png",
-                Time: "0d 8h 32m",
+                Time: "0d 7h 32m",
                 Attempts: 3
             },
             {
                 Group: "Badges",
                 Name: "Knuckle Badge",
                 Image: "img/badges/knuckle.png",
-                Time: "0d 14h 34m",
+                Time: "0d 13h 34m",
                 Attempts: 2
             },
             {
