@@ -6,11 +6,11 @@ Season1.Runs.push(
         ColorSecondary: "#c6223b",
         //Duration: "8d 5h 42m",
         StartDate: "2014-11-22T03:00:00Z",
-        Duration: "10d",
+        Duration: "2014-12-02T02:58:55Z",
         HostName: "!12rtyhaszs",
         HostImage: "img/hosts/rtyhaszs.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
-        BaseGame: "Emerald",
+        //BaseGame: "Emerald",
         Region: "Hoenn",
         Generation: 6,
         Pokedex: "New Hoenn",
@@ -21,14 +21,14 @@ Season1.Runs.push(
                 Group: "Badges",
                 Name: "Stone Badge",
                 Image: "img/badges/stone.png",
-                Time: "0d 8h 32m",
+                Time: "0d 7h 32m",
                 Attempts: 3
             },
             {
                 Group: "Badges",
                 Name: "Knuckle Badge",
                 Image: "img/badges/knuckle.png",
-                Time: "0d 14h 34m",
+                Time: "0d 13h 34m",
                 Attempts: 2
             },
             {
@@ -224,6 +224,7 @@ Season1.Runs.push(
             { Name: "Solrock", Time: "5d23h19m", Group: "Pokemon" },
             { Name: "Happiny", Time: "6d9h39m", Group: "Pokemon" },
             { Name: "Audino", Time: "6d9h49m", Group: "Pokemon" },
+            { Name: "Lileep", Time: "6d23h27m", Group: "Pokemon" },
             { Name: "Ho-Oh", Time: "8d19h24m", Group: "Pokemon" },
             { Name: "Snorunt", Time: "8d21h27m", Group: "Pokemon" },
             { Name: "Tepig", Time: "7d9h25m", Group: "Pokemon" },
@@ -258,21 +259,6 @@ Season1.Runs.push(
             { Name: "Magnezone", Time: "9d14h33m", Group: "Pokemon", Class: "WifiTrade" },
             { Name: "Amaura", Time: "9d15h19m", Group: "Pokemon", Class: "WifiTrade" },
             { Name: "Surskit", Time: "9d17h36m", Group: "Pokemon", Class: "WifiTrade" },
-            //Extra post-game trading
-            { Name: "Cascoon", Time: "13d11m", Group: "Pokemon", Class: "WifiTrade" },
-            { Name: "Kakuna", Time: "13d12m", Group: "Pokemon", Class: "WifiTrade" },
-            { Name: "Shroomish", Time: "13d17m", Group: "Pokemon", Class: "WifiTrade" },
-            { Name: "Chikorita", Time: "13d26m", Group: "Pokemon", Class: "WifiTrade" },
-            { Name: "Ralts", Time: "13d28m", Group: "Pokemon", Class: "WifiTrade" },
-            { Name: "Pinsir", Time: "13d29m", Group: "Pokemon", Class: "WifiTrade" },
-            { Name: "Zweilous", Time: "13d59m", Group: "Pokemon", Class: "WifiTrade" },
-            { Name: "Noibat", Time: "13d1h1m", Group: "Pokemon", Class: "WifiTrade" },
-            { Name: "Aron", Time: "13d1h8m", Group: "Pokemon", Class: "WifiTrade" },
-            { Name: "Dratini", Time: "13d1h11m", Group: "Pokemon", Class: "WifiTrade" },
-            { Name: "Luvdisc", Time: "13d1h15m", Group: "Pokemon", Class: "WifiTrade" },
-            //Missing Pokémon
-            { Name: "Absol", Time: "13d1h15m", Group: "Pokemon", Class: "WifiTrade" },
-            { Name: "Rhyperior", Time: "13d1h15m", Group: "Pokemon", Class: "WifiTrade" },
         ]
     }
 );

@@ -115,7 +115,7 @@ Season11.Runs.push(
                 Name: "Thunder Badge",
                 Image: "img/badges/thunder.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-21T21:17:51Z", Attempts: 1
             },
             {
                 Group: "Badges",
@@ -136,7 +136,7 @@ Season11.Runs.push(
                 Name: "Marsh Badge",
                 Image: "img/badges/marsh.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-21T21:43:41Z", Attempts: 1
             },
             {
                 Group: "Badges",
@@ -363,14 +363,14 @@ Season11.Runs.push(
                 Name: "Rainbow Badge",
                 Image: "img/badges/rainbow.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-22T00:26:03Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Soul Badge",
                 Image: "img/badges/soul.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-21T13:22:21Z", Attempts: 1
             },
             {
                 Group: "Badges",
