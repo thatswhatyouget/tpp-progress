@@ -485,8 +485,9 @@ ul.controls>li>ul>li.selected>a:before {
 	margin: 0 -25%;
 	image-rendering: pixelated;
 	background-repeat: no-repeat;
-	background-position: top left;
 }
+
+.pokesprite img { background-position: top left; }
 
 .progressChart .run .event.bosses.pokesprite img,
 .progressChart .run .event.missions.pokesprite img,
