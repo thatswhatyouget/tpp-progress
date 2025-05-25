@@ -317,31 +317,31 @@ Season11.Runs.push(
                 Group: "Elite Four",
                 Name: "Will",
                 Image: "img/trainers/crystal/will.png",
-                Time: "", Attempts: 0
+                Time: "2024-02-21T05:59:27Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Koga",
                 Image: "img/trainers/crystal/koga.png",
-                Time: "", Attempts: 0
+                Time: "2024-02-21T06:49:21Z", Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Bruno",
                 Image: "img/trainers/crystal/bruno.png",
-                Time: "", Attempts: 0
+                Time: "2024-02-21T07:14:28Z", Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Karen",
                 Image: "img/trainers/crystal/karen.png",
-                Time: "", Attempts: 0
+                Time: "2024-02-21T08:08:00Z", Attempts: 2
             },
             {
                 Group: "Champions",
                 Name: "Lance",
                 Image: "img/trainers/crystal/lance.png",
-                Time: "", Attempts: 0
+                Time: "2024-02-21T09:00:28Z", Attempts: 2
             },
             {
                 Group: "Badges",
