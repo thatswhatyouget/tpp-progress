@@ -101,14 +101,14 @@ Season11.Runs.push(
                 Name: "Boulder Badge",
                 Image: "img/badges/boulder.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-22T04:29:53Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Cascade Badge",
                 Image: "img/badges/cascade.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-22T03:09:30Z", Attempts: 1
             },
             {
                 Group: "Badges",
@@ -122,14 +122,14 @@ Season11.Runs.push(
                 Name: "Rainbow Badge",
                 Image: "img/badges/rainbow.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-22T01:19:57Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Soul Badge",
                 Image: "img/badges/soul.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-22T03:46:50Z", Attempts: 1
             },
             {
                 Group: "Badges",
@@ -143,14 +143,14 @@ Season11.Runs.push(
                 Name: "Volcano Badge",
                 Image: "img/badges/volcano.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-22T06:29:58Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Earth Badge",
                 Image: "img/badges/earth.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-22T07:01:27Z", Attempts: 1
             },
             {
                 Group: "Champions",
@@ -159,6 +159,12 @@ Season11.Runs.push(
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",
                 Time: "", Attempts: 0
             },
+			
+            {
+                Group: "Past Hosts", Name: "RITCHIE", Image: "img/hosts/ritchie.png",
+                Time: "", Attempts: 1
+            },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-21T19:58:35Z", IDNo: "26491", Attempts: 0, Party: [
                     { Number: 197, Pokemon: "Umbreon", Nickname: "HDD", Gender: "Male", Level: 48, IDNo: "26864" },
@@ -342,21 +348,21 @@ Season11.Runs.push(
                 Name: "Boulder Badge",
                 Image: "img/badges/boulder.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-22T04:16:03Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Cascade Badge",
                 Image: "img/badges/cascade.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-22T03:08:31Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Thunder Badge",
                 Image: "img/badges/thunder.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-22T01:51:53Z", Attempts: 1
             },
             {
                 Group: "Badges",
@@ -377,21 +383,21 @@ Season11.Runs.push(
                 Name: "Marsh Badge",
                 Image: "img/badges/marsh.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-22T02:18:48Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Volcano Badge",
                 Image: "img/badges/volcano.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-22T05:17:53Z", Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Earth Badge",
                 Image: "img/badges/earth.png",
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2024-02-22T06:30:40Z", Attempts: 3
             },
             {
                 Group: "Champions",
@@ -400,6 +406,12 @@ Season11.Runs.push(
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",
                 Time: "", Attempts: 0
             },
+			
+            {
+                Group: "Past Hosts", Name: "NEEKO", Image: "img/hosts/neeko.png",
+                Time: "", Attempts: 1
+            },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-21T09:04:41Z", IDNo: "26864", Attempts: 0, Party: [
                     { Number: 154, Pokemon: "Meganium", Nickname: "hmluuu", Gender: "Female", Level: 39, IDNo: "26491" },
