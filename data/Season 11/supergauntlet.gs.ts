@@ -155,14 +155,14 @@ Season11.Runs.push(
             {
                 Group: "Champions",
                 Name: "Red",
-                Image: "img/trainers/crystal/sorcererssho.png",
-                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",
-                Time: "", Attempts: 0
+                Image: "img/trainers/crystal/red.png",
+                //ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",
+                Time: "2024-02-22T16:52:24Z", Attempts: 1
             },
 			
             {
                 Group: "Past Hosts", Name: "RITCHIE", Image: "img/hosts/ritchie.png",
-                Time: "", Attempts: 1
+                Time: "2024-02-22T17:30:50Z", Attempts: 2
             },
 			
             <TPP.HallOfFame>{
@@ -402,14 +402,14 @@ Season11.Runs.push(
             {
                 Group: "Champions",
                 Name: "Red",
-                Image: "img/trainers/crystal/sorcererssho.png",
-                ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",
-                Time: "", Attempts: 0
+                Image: "img/trainers/crystal/red.png",
+                //ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",
+                Time: "2024-02-22T22:26:36Z", Attempts: 3
             },
 			
             {
                 Group: "Past Hosts", Name: "NEEKO", Image: "img/hosts/neeko.png",
-                Time: "", Attempts: 1
+                Time: "2024-02-22T19:04:15Z", Attempts: 2
             },
 			
             <TPP.HallOfFame>{
