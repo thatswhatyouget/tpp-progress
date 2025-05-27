@@ -52,6 +52,7 @@ addStyles(fixFakeForms(Pokedex.Regional["Tohoak"].map(p => (typeof p === "number
 //Blazing Emerald
 addSpriteSheet("blazingemerald", "blazing", SpriteSheetType.Small);
 addSpriteSheet("blazingemerald", "blazing", SpriteSheetType.Large);
+addSpriteSheet("blazingemerald", "blazing", SpriteSheetType.Large, SpriteSheetMode.Shiny);
 addStyles(fixFakeForms(Pokedex.Regional["Blazing Hoenn"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("blazingemerald"));
 
 //Snakewood
