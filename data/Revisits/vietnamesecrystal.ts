@@ -36,6 +36,17 @@ Revisits.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2016-06-16T19:13:43Z", IDNo: "30818", Party: [
+                    { Number: 157, Pokemon: "BAGEP", Class: "Typhlosion", Gender: "Male", Nickname: "BEST", Level: 85, IDNo: "30818" },
+                    { Number: 245, Pokemon: "DON", Class: "Suicune", Nickname: "DONG", Level: 46, IDNo: "30818" },
+                    { Number: 16, Pokemon: "LAP", Class: "Pidgey", Gender: "Female", Nickname: "EVER", Level: 12, IDNo: "30818" },
+                    { Number: 130, Pokemon: "JINDE", Class: "Gyarados", Shiny: true, Gender: "Male", Nickname: "DADA", Level: 31, IDNo: "30818" },
+                    { Number: 60, Pokemon: "NILEM", Class: "Poliwag", Nickname: "ORGY", Gender: "Female", Level: 12, IDNo: "30818" },
+                    { Number: 175, Pokemon: "DEKE", Class: "Togepi", Nickname: "DEKU", Gender: "Male", Level: 5, IDNo: "30818" },
+                ],
+                Image: "img/ribbons/champion.png"
+            },
         ],
         Revisit: { Collection: "Sidegames", Run: "Vietnamese Crystal" },
         CopyEvents: ["Vietnamese Crystal"],

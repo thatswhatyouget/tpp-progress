@@ -4438,6 +4438,16 @@
 .blazingemerald .badgeList ul li .image.pokesprite:not(.missingno) img { background-image: url("../img/blazing-large.png"); background-size: 10em; }
 .blazingemerald .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img { background-image: url("../img/blazing-large.png"); background-size: 10em; }
 .progressChart .run.blazingemerald .event.pokesprite img { background-image: url("../img/blazing-large.png"); background-size: 10em; }
+.blazingemerald .dexEntry .pokesprite:not(.missingno) img { background-image: url("../img/blazing-large.png"); background-size: 10em; }
+.blazingemerald .dexEntry .pokesprite:not(.missingno).shiny img { background-image: url("../img/blazing-large-shiny.png"); background-size: 10em; }
+.hallOfFameDisplay.blazingemerald .entry .pokesprite img { background-image: url("../img/blazing-large.png"); background-size: 10em; }
+.hallOfFameDisplay.blazingemerald .entry .pokesprite.shiny img { background-image: url("../img/blazing-large-shiny.png"); background-size: 10em; }
+.blazingemerald .badgeList ul li .image.pokesprite:not(.missingno) img { background-image: url("../img/blazing-large.png"); background-size: 10em; }
+.blazingemerald .badgeList ul li .image.pokesprite:not(.missingno).shiny img { background-image: url("../img/blazing-large-shiny.png"); background-size: 10em; }
+.blazingemerald .pokemon-hud ul.party > li .pokemon-image > .pokesprite > img { background-image: url("../img/blazing-large.png"); background-size: 10em; }
+.blazingemerald .pokemon-hud ul.party > li .pokemon-image > .pokesprite.shiny > img { background-image: url("../img/blazing-large-shiny.png"); background-size: 10em; }
+.progressChart .run.blazingemerald .event.pokesprite img { background-image: url("../img/blazing-large.png"); background-size: 10em; }
+.progressChart .run.blazingemerald .event.pokesprite.shiny img { background-image: url("../img/blazing-large-shiny.png"); background-size: 10em; }
 .blazingemerald .pokesprite.eevee img { background-position: -1em -0em!important; }
 .blazingemerald .pokesprite.vaporeon img { background-position: -2em -0em!important; }
 .blazingemerald .pokesprite.jolteon img { background-position: -3em -0em!important; }
@@ -5461,6 +5471,7 @@
 .star .pokesprite.seviper img { background-image:url("../img/fakemon/star/seviper.png")!important; background-position: 0px -0em!important; background-size: 1em!important; background-position: center!important; }
 .star .pokesprite.mismagius img { background-image:url("../img/fakemon/star/mismagius.png")!important; background-position: 0px -0em!important; background-size: 1em!important; background-position: center!important; }
 .star .pokesprite.ub-queen.ultra img { background-image:url("../img/alternate/ub-queen-ultra.png")!important; background-position: center!important; background-size: 1em!important; background-position: center!important; }
+.star .pokesprite.tentaquil img { background-image:url("../img/fakemon/star/tentaquil.png")!important; background-position: 0px -0em!important; background-size: 1em!important; background-position: center!important; }
 .galar .pokesprite.meowth img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -0em!important; background-size: 1em !important; }
 .galar .pokesprite.ponyta img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -1em!important; background-size: 1em !important; }
 .galar .pokesprite.rapidash img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -2em!important; background-size: 1em !important; }

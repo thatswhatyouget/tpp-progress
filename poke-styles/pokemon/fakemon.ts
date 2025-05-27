@@ -52,6 +52,7 @@ addStyles(fixFakeForms(Pokedex.Regional["Tohoak"].map(p => (typeof p === "number
 //Blazing Emerald
 addSpriteSheet("blazingemerald", "blazing", SpriteSheetType.Small);
 addSpriteSheet("blazingemerald", "blazing", SpriteSheetType.Large);
+addSpriteSheet("blazingemerald", "blazing", SpriteSheetType.Large, SpriteSheetMode.Shiny);
 addStyles(fixFakeForms(Pokedex.Regional["Blazing Hoenn"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("blazingemerald"));
 
 //Snakewood
@@ -111,4 +112,9 @@ addStyles(["UB-Queen"], f => {
     const alt = "ultra";
     const path = `./img/alternate/${clean}-${alt}.png`;
     return `.star .pokesprite.${clean}.${alt} img { background-image:url(".${path}")!important; background-position: center!important; background-size: 1em!important; background-position: center!important; }`;
+});
+addStyles(["Tentaquil"], f => {
+    const clean = dexClean(f).replace(/ /g, '');
+    const path = `./img/fakemon/star/${clean}.png`;
+    return `.star .pokesprite.${clean} img { background-image:url(".${path}")!important; background-position: 0px -0em!important; background-size: 1em!important; background-position: center!important; }`;
 });

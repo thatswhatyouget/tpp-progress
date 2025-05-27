@@ -39,6 +39,17 @@ Revisits.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2016-04-16T21:20:58Z", IDNo: "47901", Attempts: 1, Party: [
+                    { Pokemon: "Steelix", Nickname: "AAJRR RRR", Level: 79, Gender: "Male", Number: 208, IDNo: "47901" },
+                    { Pokemon: "Dragonite", Nickname: "KT", Level: 64, Gender: "Female", Number: 149, IDNo: "47901" },
+                    { Pokemon: "Espeon", Nickname: "AAAS RJ-I", Level: 56, Gender: "Male", Number: 196, IDNo: "47901" },
+                    { Pokemon: "Feraligatr", Nickname: "AAAAAtttta", Level: 86, Gender: "Male", Number: 160, IDNo: "47901" },
+                    { Pokemon: "Pidgeot", Nickname: "BBBBBD", Level: 64, Gender: "Male", Number: 18, IDNo: "47901" },
+                    { Pokemon: "Raticate", Nickname: "A", Level: 39, Gender: "Male", Number: 20, IDNo: "47901" },
+                ],
+                Image: "img/ribbons/champion.png"
+            },
         ],
         Revisit: { Collection: "Season 1", Run: "Crystal" },
         CopyEvents: ["Crystal"],
