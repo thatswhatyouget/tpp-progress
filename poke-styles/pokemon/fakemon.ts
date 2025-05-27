@@ -112,3 +112,8 @@ addStyles(["UB-Queen"], f => {
     const path = `./img/alternate/${clean}-${alt}.png`;
     return `.star .pokesprite.${clean}.${alt} img { background-image:url(".${path}")!important; background-position: center!important; background-size: 1em!important; background-position: center!important; }`;
 });
+addStyles(["Tentaquil"], f => {
+    const clean = dexClean(f).replace(/ /g, '');
+    const path = `./img/fakemon/star/${clean}.png`;
+    return `.star .pokesprite.${clean} img { background-image:url(".${path}")!important; background-position: 0px -0em!important; background-size: 1em!important; background-position: center!important; }`;
+});
