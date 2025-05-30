@@ -35,7 +35,8 @@ const commonEvents = [
         Group: "Badges",
         Name: "Electrode Badge",
         Image: "img/badges/megapower/electrode.png",
-        Time: "2023-09-05T03:01:22.332Z", Attempts: 1 // Update with real time from event log
+        //Time: "2023-09-05T03:01:22.332Z", Attempts: 1 // Update with real time from event log
+        Time: "2023-09-04T23:36:55Z", Attempts: 1 // Update with real time from event log
     },
     {
         Group: "Badges",
@@ -176,7 +177,8 @@ Season10.Runs.push(
                 Group: "Badges",
                 Name: "Truth Badge",
                 Image: "img/badges/megapower/truth.png",
-                Time: "2023-09-06T12:07:08.545Z", Attempts: 1 // Update with real time from event log
+                //Time: "2023-09-06T12:07:08.545Z", Attempts: 1 // Update with real time from event log
+                Time: "2023-09-06T07:17:59Z", Attempts: 1
             },
 
 
