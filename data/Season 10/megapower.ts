@@ -423,39 +423,39 @@ Revisits.Runs.push(
                 Group: "Badges",
                 Name: "Truth Badge",
                 Image: "img/badges/megapower/truth.png",
-                Time: "", Attempts: 0
+                Time: "2023-10-04T20:00:38Z", Attempts: 1
             },
 
 
             {
                 Group: "Elite Four",
+                Name: "Stonewall",
+                Image: "img/trainers/megapower/stonewall.png",
+                Time: "2023-10-04T21:42:30Z", Attempts: 1
+            },
+            {
+                Group: "Elite Four",
                 Name: "Elethia",
                 Image: "img/trainers/megapower/elethia.png",
-                Time: "", Attempts: 0
+                Time: "2023-10-04T21:52:49Z", Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Carleigh",
                 Image: "img/trainers/megapower/carleigh.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four",
-                Name: "Stonewall",
-                Image: "img/trainers/megapower/stonewall.png",
-                Time: "", Attempts: 0
+                Time: "2023-10-04T22:54:21Z", Attempts: 2
             },
             {
                 Group: "Elite Four",
                 Name: "Harmon",
                 Image: "img/trainers/megapower/harmon.png",
-                Time: "", Attempts: 0
+                Time: "2023-10-04T23:07:15Z", Attempts: 1
             },
             {
                 Group: "Champions",
-                Name: "Luke & Eva",
-                Image: "img/trainers/megapower/luke&eva.png",
-                Time: "", Attempts: 0
+                Name: "Salchimia",
+                Image: "img/trainers/megapower/salchimia.png",
+                Time: "2023-10-04T23:54:59Z", Attempts: 1
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "42496", Party: [
