@@ -225,6 +225,56 @@ Season10.Runs.push(
                 Image: "img/ribbons/champion.png",
                 Time: "2023-09-06T21:24:44.192Z", Attempts: 8
             },
+			
+			{
+				Group: "Badges",
+				Name: "Scholar Badge",
+				Image: "img/badges/megapower/scholar.png",
+				Time: "2023-09-07T03:20:24Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Knight Badge",
+				Image: "img/badges/megapower/knight.png",
+				Time: "2023-09-07T15:05:59Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Wilderness Badge",
+				Image: "img/badges/megapower/wilderness.png",
+				Time: "2023-09-07T17:07:26Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Shield Badge",
+				Image: "img/badges/megapower/shield.png",
+				Time: "2023-09-07T20:12:44Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Prism Badge",
+				Image: "img/badges/megapower/prism.png",
+				Time: "2023-09-08T01:21:13Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Spring Badge",
+				Image: "img/badges/megapower/spring.png",
+				Time: "2023-09-08T12:00:44Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Rebirth Badge",
+				Image: "img/badges/megapower/rebirth.png",
+				Time: "2023-09-08T13:54:56Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Immortal Badge",
+				Image: "img/badges/megapower/immortal.png",
+				Time: "2023-09-08T15:13:15Z", Attempts: 1
+			},
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "42496", Party: [
                     { Pokemon: "Celesteela", Nickname: "ZT  ", Level: 100, Number: 193, IDNo: "42496" },
