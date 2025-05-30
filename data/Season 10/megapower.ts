@@ -288,7 +288,7 @@ Season10.Runs.push(
                 Image: "img/ribbons/champion.png",
                 Time: "2023-09-08T23:29:41.684Z", Attempts: 1
             },
-
+			
             { "Group": "Pokemon", "Name": "Chinchou", "Time": "2023-09-05T20:54:29.154Z" },
             { "Group": "Pokemon", "Name": "Spheal", "Time": "2023-09-05T23:16:26.031Z" },
             { "Group": "Pokemon", "Name": "Loudred", "Time": "2023-09-05T23:26:53.570Z" },
@@ -470,6 +470,56 @@ Revisits.Runs.push(
                 Image: "img/ribbons/champion.png",
                 Time: "2023-10-04T23:58:14.687Z", Attempts: 2
             },
+			
+			
+			{
+				Group: "Badges",
+				Name: "Knight Badge",
+				Image: "img/badges/megapower/knight.png",
+				Time: "2023-10-05T16:11:55Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Scholar Badge",
+				Image: "img/badges/megapower/scholar.png",
+				Time: "2023-10-06T01:02:04Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Wilderness Badge",
+				Image: "img/badges/megapower/wilderness.png",
+				Time: "2023-10-06T04:43:18Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Shield Badge",
+				Image: "img/badges/megapower/shield.png",
+				Time: "2023-10-06T12:46:41Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Prism Badge",
+				Image: "img/badges/megapower/prism.png",
+				Time: "2023-10-06T13:30:06Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Spring Badge",
+				Image: "img/badges/megapower/spring.png",
+				Time: "2023-10-06T16:09:49Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Rebirth Badge",
+				Image: "img/badges/megapower/rebirth.png",
+				Time: "2023-10-06T18:34:00Z", Attempts: 1
+			},
+			{
+				Group: "Badges",
+				Name: "Immortal Badge",
+				Image: "img/badges/megapower/immortal.png",
+				Time: "2023-10-06T20:28:48Z", Attempts: 2
+			},
 
             { "Group": "Pokemon", "Name": "Houndoom", "Time": "2023-10-04T01:56:22.522Z" },
             { "Group": "Pokemon", "Name": "Medicham", "Time": "2023-10-04T02:29:30.575Z" },
