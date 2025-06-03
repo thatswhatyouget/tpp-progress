@@ -38,7 +38,7 @@ Season10.Runs.push(
             },
             {
                 "Group": "Badges", "Name": "Haze Badge", "Image": "img/badges/haze.png",
-                "Time": "2023-02-15T04:31:11.343Z", "Attempts": 1
+                "Time": "2023-02-15T03:44:57.207Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Raucous Badge", "Image": "img/badges/raucous.png",
