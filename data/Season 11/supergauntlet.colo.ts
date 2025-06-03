@@ -20,77 +20,77 @@ Season11.Runs.push(
                 Name: "Miror B.",
                 Image: "img/trainers/colosseum/mirorb.png",
                 ImageSource: "http://billyk40.deviantart.com/art/Miror-B-BW-258115890",
-                Time: "", Attempts: 0
+                Time: "2024-04-16T09:04:57Z", Attempts: 1
             },
             {
                 Group: "Bosses",
                 Name: "Dakim",
                 Image: "img/trainers/colosseum/dakim.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherDakim.png.html",
-                Time: "", Attempts: 0
+                Time: "2024-04-16T17:57:42Z", Attempts: 1
             },
             {
                 Group: "Bosses",
                 Name: "Venus",
                 Image: "img/trainers/colosseum/venus.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherVenus.png.html",
-                Time: "", Attempts: 0
+                Time: "2024-04-17T00:27:15Z", Attempts: 1
             },
             {
                 Group: "Bosses",
                 Name: "Ein",
                 Image: "img/trainers/colosseum/ein.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherEin.png.html",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Final Bosses",
-                Name: "Venus",
-                Image: "img/trainers/colosseum/venus.png",
-                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherVenus.png.html",
-                Time: "", Attempts: 0
+                Time: "2024-04-17T23:40:17Z", Attempts: 2
             },
             {
                 Group: "Final Bosses",
                 Name: "Miror B.",
                 Image: "img/trainers/colosseum/mirorb.png",
                 ImageSource: "http://billyk40.deviantart.com/art/Miror-B-BW-258115890",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Final Bosses",
-                Name: "Dakim",
-                Image: "img/trainers/colosseum/dakim.png",
-                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherDakim.png.html",
-                Time: "", Attempts: 0
+                Time: "2024-04-18T03:35:31Z", Attempts: 1
             },
             {
                 Group: "Final Bosses",
                 Name: "Ein",
                 Image: "img/trainers/colosseum/ein.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherEin.png.html",
-                Time: "", Attempts: 0
+                Time: "2024-04-18T09:32:07Z", Attempts: 1
+            },
+            {
+                Group: "Final Bosses",
+                Name: "Dakim",
+                Image: "img/trainers/colosseum/dakim.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherDakim.png.html",
+                Time: "2024-04-18T09:50:41Z", Attempts: 1
+            },
+            {
+                Group: "Final Bosses",
+                Name: "Venus",
+                Image: "img/trainers/colosseum/venus.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherVenus.png.html",
+                Time: "2024-04-18T10:20:05Z", Attempts: 1
             },
             {
                 Group: "Final Bosses",
                 Name: "Gonzap",
                 Image: "img/trainers/colosseum/gonzap.png",
                 ImageSource: "http://forum.yugiohcardmaker.net/topic/200460-colosseum-sprites/",
-                Time: "", Attempts: 0
+                Time: "2024-04-18T11:38:41Z", Attempts: 1
             },
             {
                 Group: "Final Bosses",
                 Name: "Nascour",
                 Image: "img/trainers/colosseum/nascour.png",
                 ImageSource: "http://s1292.photobucket.com/user/Apollothemuse/media/Sprites/NascourSprite_zpse80724b9.png.html",
-                Time: "", Attempts: 0
+                Time: "2024-04-18T12:25:18Z", Attempts: 1
             },
             {
                 Group: "Champions",
                 Name: "Evice",
                 Image: "img/trainers/colosseum/evice.png",
                 ImageSource: "https://www.reddit.com/r/pokemon/comments/2z9gmy/cipher_head_evice_would_like_to_battle_oc_trainer/",
-                Time: "", Attempts: 0
+                Time: "2024-04-18T12:56:20Z", Attempts: 2
             },
 			
             { Name: "Espeon", Time: "2024-04-15T21:13:33Z", Group: "Pokemon" },

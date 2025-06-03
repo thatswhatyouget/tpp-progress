@@ -250,7 +250,7 @@ Season10.Runs.push(
                     { Pokemon: "Rayquaza", Nickname: "., \u2642\u2642", Level: 100, Number: 384, IDNo: "52105", Shiny: true },
                     { Pokemon: "Mawile", Nickname: "AMTT///KK", Level: 100, Gender: "Male", Number: 317, IDNo: "52105", Form: "Mega" },
                     { Pokemon: "Mienshao", Nickname: "fep‘‘‘‘’/-", Level: 100, Gender: "Male", Number: 112, IDNo: "52105" },
-                    { Pokemon: "Keldeo", Nickname: "LANCELOT", PreviousNick: "Keldeo", Level: 75, Number: 386, IDNo: "52105", Form: "Resolute" },
+                    { Pokemon: "Keldeo", Nickname: "LANCELOT", PreviousNick: "Keldeo", Level: 100, Number: 386, IDNo: "52105", Form: "Resolute" },
                     { Pokemon: "Rampardos", Nickname: "Nyyx", Level: 100, Gender: "Male", Number: 348, IDNo: "52105" },
                     { Pokemon: "Samurott", Nickname: "D WE  661B", Level: 100, Gender: "Female", Number: 9, IDNo: "52105" },
                 ],

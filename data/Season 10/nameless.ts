@@ -13,6 +13,43 @@ Season10.Runs.push(
         Pokedex: "Cyenn",
         FinalStateLink: "./states/Season 10/nameless.json",
         Events: [
+		
+			{
+				Group: "Badges",
+				Name: "Level 1",
+				Image: "img/badges/nameless/star.png",
+				Time: "", Attempts: 0
+			},
+			{
+				Group: "Badges",
+				Name: "Level 2",
+				Image: "img/badges/nameless/star.png",
+				Time: "", Attempts: 0
+			},
+			{
+				Group: "Badges",
+				Name: "Level 3",
+				Image: "img/badges/nameless/star.png",
+				Time: "", Attempts: 0
+			},
+			{
+				Group: "Badges",
+				Name: "Level 4",
+				Image: "img/badges/nameless/star.png",
+				Time: "", Attempts: 0
+			},
+			{
+				Group: "Badges",
+				Name: "Level 5",
+				Image: "img/badges/nameless/star.png",
+				Time: "", Attempts: 0
+			},
+			{
+				Group: "Badges",
+				Name: "Level 6",
+				Image: "img/badges/nameless/star.png",
+				Time: "", Attempts: 0
+			},
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "11166", Party: [
