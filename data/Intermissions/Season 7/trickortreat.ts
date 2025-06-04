@@ -47,7 +47,7 @@ Intermissions.Runs.push(
             },
             {
                 Group: "Missions", Name: "Puzzle #8\nPeppermints in Petalburg",
-                Time: "2020-10-31T10:22:42Z", Attempts: 1, Image: "https://cdn2.bulbagarden.net/upload/b/b5/Youngster_RSE_OD.png",
+                Time: "2020-10-31T10:22:42Z", Attempts: 1, Image: "img/trainers/emerald/youngster.png",
             },
             {
                 Group: "Missions", Name: "Puzzle #9\nDoor Dido Menagerie",
@@ -200,7 +200,7 @@ Intermissions.Runs.push(
             },
 			{
                 Group: "Missions", Name: "Puzzle #8\nPeppermints in Petalburg", Class: "Rematch",
-                Time: "2020-11-02T07:03:43Z", Attempts: 1, Image: "https://cdn2.bulbagarden.net/upload/b/b5/Youngster_RSE_OD.png",
+                Time: "2020-11-02T07:03:43Z", Attempts: 1, Image: "img/trainers/emerald/youngster.png",
             },
             {
                 Group: "Missions", Name: "Puzzle #9\nDoor Dido Menagerie", Class: "Rematch",
