@@ -20,6 +20,7 @@ Sidegames.Runs.push(
             { "Group": "Pokemon", "Name": "Venomoth", "Time": "2025-05-22T15:55:30Z" },
             { "Group": "Pokemon", "Name": "Gengar", "Time": "2025-05-27T05:13:15Z" },
             { "Group": "Pokemon", "Name": "Zubat", "Time": "2025-05-28T05:26:44Z" },
+            { "Group": "Pokemon", "Name": "Hypno", "Time": "2025-06-05T22:57:19Z" },
 
         ]
     }
