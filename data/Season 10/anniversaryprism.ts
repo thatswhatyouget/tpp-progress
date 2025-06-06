@@ -141,7 +141,7 @@ Season10.Runs.push(
                     { Number: 67, Pokemon: "Yanmega", Gender: "Female", Nickname: "Kkjiijjpoo", Level: 100, IDNo: "20366" },
                     { Number: 35, Pokemon: "Gliscor", Gender: "Female", Nickname: "Eyw  zzggi", Level: 100, IDNo: "20366" },
                     { Number: 20, Pokemon: "Glalie", Gender: "Female", Nickname: "Aiihgyox", Level: 100, IDNo: "20366" },
-                    { Number: 214, Pokemon: "Torkoal", Gender: "Female", Nickname: "Ft  yyw", Level: 100, IDNo: "20366" },
+                    { Number: 214, Pokemon: "Torkoal", Gender: "Female", PreviousNick: "Ft  yyw", Nickname: "Saaµµr", Level: 100, IDNo: "20366" },
                     { Number: 253, Pokemon: "Libabeel", Nickname: "Afqmk(ktts", Level: 80, IDNo: "20366" }
                 ],
                 Image: "img/ribbons/champion.png",
