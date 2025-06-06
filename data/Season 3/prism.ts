@@ -194,9 +194,9 @@ Season3.Runs.push(
             },
             { "Group": "Pokemon", "Name": "Skorupi", "Time": "16d 17h 35m" },
             { "Group": "Pokemon", "Name": "Glalie", "Time": "16d 18h 34m" },
-            { "Group": "Champions", "Image": "img/hosts/paul.png", "Name": "Brown", "Time": "16d 22h 13m", "Attempts": 1 },
-            { "Group": "Champions", "Image": "img/hosts/ajdnnw.png", "Name": "Gold", "Time": "16d 22h 21m", "Attempts": 1 },
-            { "Group": "Champions", "Image": "img/hosts/red.png", "Name": "Red", "Time": "16d 22h 27m", "Attempts": 1 },
+            { "Group": "Champions", "Image": "img/trainers/prism/brown.png", "Name": "Brown", "Time": "16d 22h 13m", "Attempts": 1 },
+            { "Group": "Champions", "Image": "img/trainers/prism/gold.png", "Name": "Gold", "Time": "16d 22h 21m", "Attempts": 1 },
+            { "Group": "Champions", "Image": "img/trainers/prism/red.png", "Name": "Red", "Time": "16d 22h 27m", "Attempts": 1 },
         ]
     }
 );
