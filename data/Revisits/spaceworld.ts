@@ -12,6 +12,12 @@ Revisits.Runs.push(
         Region: "Nihon",
         FinalStateLink: "./states/Season 9/spaceworld-revisit.json",
         Events: [
+		
+            {
+                Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png",
+                Class: "Rematch", Time: "2022-02-10T20:31:36Z", Attempts: 1,
+            },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-02-11T09:59:55.480Z", Attempts: 2, Party: [
                     { Pokemon: "Bruinus", Nickname: "TACO", Level: 88, Gender: "Male", Number: 157, IDNo: "49472" },
