@@ -108,7 +108,7 @@ Season8.Runs.push(
                     { Pokemon: "Ludicolo", Nickname: "XXHI", Level: 88, Gender: "Male", Number: 272, IDNo: "04242" },
                     { Pokemon: "Goodra", Nickname: "YPG", Level: 89, Gender: "Female", Number: 706, IDNo: "04242" },
                     { Pokemon: "Skuntank", Nickname: "ZZZZZ ", Level: 78, Gender: "Female", Number: 435, IDNo: "04242" },
-                    { Pokemon: "Chatot", Nickname: "KENYA", Level: 91, Gender: "Male", Number: 441, IDNo: "01001" },
+                    { Pokemon: "Chatot", Nickname: "KENYA", Level: 92, Gender: "Male", Number: 441, IDNo: "01001" },
                 ],
                 FirstAttemptDate: "2021-02-24T20:13:33.883Z",
                 Image: "img/ribbons/champion.png"
