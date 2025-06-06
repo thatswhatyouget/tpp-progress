@@ -195,19 +195,74 @@ Season10.Runs.push(
                 "Group": "Badges", "Name": "Blaze Badge", "Image": "img/badges/blaze.png",
                 "Time": "2023-02-17T21:26:38.100Z", "Attempts": 1
             },
+			
+			{ 
+				"Group": "Past Hosts", "Name": "MARINA", "Image": "img/hosts/marina.png", 
+				"Time": "2023-02-23T07:01:41Z", "Attempts": 1, 
+			},
+			{ 
+				"Group": "Past Hosts", "Name": "KAY", "Image": "img/hosts/kay.png", 
+				"Time": "2023-02-23T08:25:35Z", "Attempts": 1, 
+				"ImageSource": "https://www.reddit.com/r/twitchplayspokemon/comments/aq2qmu/kay_the_planeswalker/", 
+			},
+			{ 
+				"Group": "Past Hosts", "Name": "Kr ", "Image": "img/hosts/kr.png", 
+				"Time": "2023-02-23T08:30:46Z", "Attempts": 1, 
+				"ImageSource": "https://www.reddit.com/r/twitchplayspokemon/comments/mr8l1r/kristopher_von_karma_the_clockwork_poketch/", 
+			},
+			{ 
+				"Group": "Past Hosts", "Name": "AGGGNNV", "Image": "img/hosts/agggnnv.png", 
+				"Time": "2023-02-23T08:36:42Z", "Attempts": 1, 
+				"ImageSource": "https://www.reddit.com/r/twitchplayspokemon/comments/pmdxrn/blazing_emerald_hall_of_fame/", 
+			},
+			{ 
+				"Group": "Past Hosts", "Name": "PEE", "Image": "img/hosts/pee.png", 
+				"Time": "2023-02-23T10:02:00Z", "Attempts": 1, 
+				"ImageSource": "https://www.reddit.com/r/twitchplayspokemon/comments/568gkg/the_ultra_crew_so_far_v_30/d8i7kwk",
+			},
+			{ 
+				"Group": "Past Hosts", "Name": "LARRY", "Image": "img/hosts/larry.png", 
+				"Time": "2023-02-23T15:26:30Z", "Attempts": 1, 
+				"ImageSource": "https://www.reddit.com/r/twitchplayspokemon/comments/76wtj1/larry_he_is_ginger/",
+			},
+			{ 
+				"Group": "Past Hosts", "Name": "\u03c0\u03c0\u03c0\u03c0\u03c0", "Image": "img/hosts/pkpkpkpkpk.png", 
+				"Time": "2023-02-24T02:43:33Z", "Attempts": 1, 
+				"ImageSource": "https://www.deviantart.com/krizste/art/TPP-CharityDualRedBlue-pk-bb-sprites-946843785", 
+			},
 
             {
-                "Group": "Champions", "Image": "img/hosts/paul.png", "Name": "Brown",
-                "Time": "", "Attempts": 0
+                "Group": "Champions", "Image": "img/trainers/prism/brown.png", "Name": "Brown",
+                "Time": "2023-02-18T22:33:07Z", "Attempts": 1
             },
             {
-                "Group": "Champions", "Image": "img/hosts/ajdnnw.png", "Name": "Gold",
-                "Time": "", "Attempts": 0
+                "Group": "Champions", "Image": "img/trainers/prism/gold.png", "Name": "Gold",
+                "Time": "2023-02-18T22:40:53Z", "Attempts": 1
             },
             {
-                "Group": "Champions", "Image": "img/hosts/red.png", "Name": "Red",
-                "Time": "", "Attempts": 0
+                "Group": "Champions", "Image": "img/trainers/prism/red.png", "Name": "Red",
+                "Time": "2023-02-18T22:46:16Z", "Attempts": 1
             },
+			
+            {
+                "Group": "Champions", "Image": "img/trainers/prism/brown.png", "Name": "Brown", "Class": "Rematch",
+                "Time": "2023-02-24T04:26:17Z", "Attempts": 1
+            },
+            {
+                "Group": "Champions", "Image": "img/trainers/prism/gold.png", "Name": "Gold", "Class": "Rematch",
+                "Time": "2023-02-24T06:18:07Z", "Attempts": 2
+            },
+            {
+                "Group": "Champions", "Image": "img/trainers/prism/red.png", "Name": "Red", "Class": "Rematch",
+                "Time": "2023-02-24T06:23:05Z", "Attempts": 1
+            },
+			
+			{ 
+				"Group": "Past Hosts", "Name": "Cyan", "Image": "img/hosts/cyan.png", 
+				"Time": "2023-02-24T10:31:37Z", "Attempts": 6, 
+				"ImageSource": "https://www.reddit.com/r/twitchplayspokemon/comments/56y6bj/cyan_cyanchan/",
+			},
+			
             { "Group": "Pokemon", "Name": "Larvitar", "Time": "2023-02-12T23:23:47.208Z" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "2023-02-13T00:46:45.393Z" },
             { "Group": "Pokemon", "Name": "Bronzor", "Time": "2023-02-13T01:10:26.526Z" },
