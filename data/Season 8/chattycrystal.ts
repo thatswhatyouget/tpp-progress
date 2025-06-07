@@ -150,6 +150,12 @@ Season8.Runs.push(
 				Time: "2021-03-05T15:36:03.224Z", Attempts: 5, 
 				//ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/f84tx7/the_gauntlet_hall_of_fame_16/",
 			},
+			
+			{ 
+				Group: "Past Hosts", Name: "MARINA", Image: "img/hosts/marina.png", 
+				Time: "2021-03-08T00:11:05.149Z", Attempts: 1, 
+				//ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/f84tx7/the_gauntlet_hall_of_fame_16/",
+			},
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-02-27T00:13:22Z", Attempts: 26, Party: [
