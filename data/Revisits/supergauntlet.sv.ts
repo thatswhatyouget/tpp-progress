@@ -16,6 +16,14 @@ Revisits.Runs.push(
         Class: "dual-run",
         Events: [
 		
+			// HOME transfers
+            { Name: "Yanmega", Time: "2025-06-08T00:15:21Z", Group: "Pokemon" },
+            { Name: "Sylveon", Time: "2025-06-08T00:15:21Z", Group: "Pokemon" },
+            { Name: "Zoroark", Time: "2025-06-08T00:15:21Z", Group: "Pokemon", Class: "Hisuian" },
+            { Name: "Goodra", Time: "2025-06-08T00:15:21Z", Group: "Pokemon", Class: "Hisuian" },
+            { Name: "Decidueye", Time: "2025-06-08T00:15:21Z", Group: "Pokemon", Class: "Hisuian" },
+            { Name: "Shaymin", Time: "2025-06-08T00:15:21Z", Group: "Pokemon" },
+			
             { Name: "Azumarill", Time: "2025-06-08T00:46:59Z", Group: "Pokemon" },
 			
         ],
@@ -41,7 +49,21 @@ Revisits.Runs.push(
         Class: "dual-run",
         Events: [
 		
+			// HOME transfers
+            { Name: "Moltres", Time: "2025-06-07T23:58:16Z", Group: "Pokemon", Class: "Galarian" },
+            { Name: "Granbull", Time: "2025-06-07T23:58:16Z", Group: "Pokemon" },
+            { Name: "Ho-Oh", Time: "2025-06-07T23:58:16Z", Group: "Pokemon" },
+            { Name: "Groudon", Time: "2025-06-07T23:58:16Z", Group: "Pokemon" },
+            { Name: "Latios", Time: "2025-06-07T23:58:16Z", Group: "Pokemon" },
+            { Name: "Latias", Time: "2025-06-07T23:58:16Z", Group: "Pokemon" },
+            { Name: "Decidueye", Time: "2025-06-07T23:58:16Z", Group: "Pokemon" },
+            { Name: "Sandslash", Time: "2025-06-07T23:58:16Z", Group: "Pokemon", Class: "Alolan" },
+            { Name: "Salazzle", Time: "2025-06-07T23:58:16Z", Group: "Pokemon" },
+            { Name: "Gallade", Time: "2025-06-07T23:58:16Z", Group: "Pokemon" },
+		
             { Name: "Azumarill", Time: "2025-06-08T00:47:03Z", Group: "Pokemon" },
+            { Name: "Dodrio", Time: "2025-06-08T01:43:58Z", Group: "Pokemon" },
+            { Name: "Tyrogue", Time: "2025-06-08T02:06:33Z", Group: "Pokemon" },
 			
         ],
         Revisit: { Collection: "Season 11", Run: "Super Gauntlet Violet" },
