@@ -25,6 +25,12 @@ Revisits.Runs.push(
             { Name: "Shaymin", Time: "2025-06-08T00:15:21Z", Group: "Pokemon" },
 			
             { Name: "Azumarill", Time: "2025-06-08T00:46:59Z", Group: "Pokemon" },
+            { Name: "Snover", Time: "2025-06-08T09:04:03Z", Group: "Pokemon" },
+            { Name: "Snubbull", Time: "2025-06-08T09:09:34Z", Group: "Pokemon" },
+            { Name: "Golett", Time: "2025-06-08T09:14:12Z", Group: "Pokemon" },
+            { Name: "Golurk", Time: "2025-06-08T09:25:25Z", Group: "Pokemon" },
+            { Name: "Hitmontop", Time: "2025-06-08T09:38:36Z", Group: "Pokemon" },
+            { Name: "Tentacool", Time: "2025-06-08T09:56:38Z", Group: "Pokemon" },
 			
         ],
         Revisit: { Collection: "Season 11", Run: "Super Gauntlet Scarlet" },
@@ -61,9 +67,13 @@ Revisits.Runs.push(
             { Name: "Salazzle", Time: "2025-06-07T23:58:16Z", Group: "Pokemon" },
             { Name: "Gallade", Time: "2025-06-07T23:58:16Z", Group: "Pokemon" },
 		
-            { Name: "Azumarill", Time: "2025-06-08T00:47:03Z", Group: "Pokemon" },
             { Name: "Dodrio", Time: "2025-06-08T01:43:58Z", Group: "Pokemon" },
             { Name: "Tyrogue", Time: "2025-06-08T02:06:33Z", Group: "Pokemon" },
+            { Name: "Tauros", Time: "2025-06-08T05:10:54Z", Group: "Pokemon" },
+            { Name: "Scraggy", Time: "2025-06-08T12:48:34Z", Group: "Pokemon" },
+            { Name: "Alomomola", Time: "2025-06-08T13:05:27Z", Group: "Pokemon" },
+            { Name: "Chinchou", Time: "2025-06-08T13:23:34Z", Group: "Pokemon" },
+            { Name: "Scrafty", Time: "2025-06-08T13:53:47Z", Group: "Pokemon" },
 			
         ],
         Revisit: { Collection: "Season 11", Run: "Super Gauntlet Violet" },
