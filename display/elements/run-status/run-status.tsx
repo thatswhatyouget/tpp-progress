@@ -184,6 +184,9 @@ namespace TPP.Display.Elements.RunStatus {
         private get noblePokemon() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Noble Pokémon"));
         }
+        private get tournaments() {
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Tournaments"));
+        }
 
         private get partyDisplay() {
             if (this.state.status && this.state.status.party)
@@ -231,6 +234,7 @@ namespace TPP.Display.Elements.RunStatus {
                     <PokeBox title="Duration"><h3>{Duration.parse(this.state.run.Ongoing ? new Date().toISOString() : this.state.run.Duration, this.state.run.StartTime).toString()}</h3></PokeBox>
                     <CurrentLocation mapName={this.state.status.map_name} areaName={this.state.status.area_name} />
                     <EventDisplay key="Past Hosts" events={this.pastHosts} />
+                    <EventDisplay key="Tournaments" events={this.tournaments} />
                     <EventDisplay key="Elite Four Rematch" events={this.eliteFourRematch} />
                     <EventDisplay key="Rematch Badges" events={this.rematchBadges} />
                     <EventDisplay key="Elite Four" events={this.eliteFour} />

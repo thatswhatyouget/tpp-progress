@@ -566,6 +566,7 @@ declare namespace TPP.Display.Elements.RunStatus {
         private get pastHosts();
         private get rematchBadges();
         private get noblePokemon();
+        private get tournaments();
         private get partyDisplay();
         private get isFutureRun();
         private get timeUntilRun();

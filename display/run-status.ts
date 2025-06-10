@@ -94,6 +94,8 @@ module TPP.Display.RunStatus {
             $container.append(DrawBadges(run, extractNoblePokemon(run)));
         if (extractPastHosts(run).length > 0)
             $container.append(DrawBadges(run, extractPastHosts(run)));
+        if (extractTournaments(run).length > 0)
+            $container.append(DrawBadges(run, extractTournaments(run)));
         if (extractEliteFourRematch(run).length > 0)
             $container.append(DrawBadges(run, extractEliteFourRematch(run)));
         if (extractRematchBadges(run).length > 0)
@@ -163,6 +165,9 @@ module TPP.Display.RunStatus {
     }
     function extractNoblePokemon(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Noble Pokémon");
+    }
+    function extractTournaments(run: TPP.Run) {
+        return run.Events.filter(e => e.Group == "Tournaments");
     }
 
     function DrawBadges(run: TPP.Run, badges = extractBadges(run)) {
