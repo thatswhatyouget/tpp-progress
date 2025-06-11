@@ -18,28 +18,28 @@ Season9.Runs.push(
                 Name: "Miror B.",
                 Image: "img/trainers/colosseum/mirorb.png",
                 ImageSource: "http://billyk40.deviantart.com/art/Miror-B-BW-258115890",
-                Time: "2022-06-12T14:26:37.986Z", Attempts: 3
+                Time: "2022-06-12T13:11:39Z", Attempts: 3
             },
             {
                 Group: "Bosses",
                 Name: "Dakim",
                 Image: "img/trainers/colosseum/dakim.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherDakim.png.html",
-                Time: "2022-06-13T02:11:45.004Z", Attempts: 4
+                Time: "2022-06-13T01:19:39Z", Attempts: 4
             },
             {
                 Group: "Bosses",
                 Name: "Venus",
                 Image: "img/trainers/colosseum/venus.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherVenus.png.html",
-                Time: "2022-06-13T12:24:56.881Z", Attempts: 1
+                Time: "2022-06-13T12:02:38Z", Attempts: 1
             },
             {
                 Group: "Bosses",
                 Name: "Ein",
                 Image: "img/trainers/colosseum/ein.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherEin.png.html",
-                Time: "2022-06-14T02:06:16.991Z", Attempts: 1
+                Time: "2022-06-14T01:37:56Z", Attempts: 1
             },
             {
                 Group: "Final Bosses",
