@@ -94,6 +94,8 @@ module TPP.Display.RunStatus {
             $container.append(DrawBadges(run, extractNoblePokemon(run)));
         if (extractPastHosts(run).length > 0)
             $container.append(DrawBadges(run, extractPastHosts(run)));
+        if (extractTournaments(run).length > 0)
+            $container.append(DrawBadges(run, extractTournaments(run)));
         if (extractEliteFourRematch(run).length > 0)
             $container.append(DrawBadges(run, extractEliteFourRematch(run)));
         if (extractRematchBadges(run).length > 0)
@@ -150,19 +152,22 @@ module TPP.Display.RunStatus {
         return run.Events.filter(e => e.Group == "Badges" || e.Group == "Bosses" || e.Group == "Kingdoms" || e.Group == "Plates" );
     }
     function extractEliteFour(run: TPP.Run) {
-        return run.Events.filter(e => e.Group == "Elite Four" || e.Group == "Final Bosses" || (e.Group == "Champions" && e.Image.indexOf("rematch") < 0 && e.Image.indexOf("hosts") < 0));
+        return run.Events.filter(e => e.Group == "Elite Four" || e.Group == "Final Bosses" || (e.Group == "Champions" && e.Image.indexOf("rematch") < 0 /*&& e.Image.indexOf("hosts") < 0*/));
     }
     function extractEliteFourRematch(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Elite Four Rematch" || (e.Group == "Champions" && e.Image.indexOf("rematch") > 0));
     }
     function extractPastHosts(run: TPP.Run) {
-        return run.Events.filter(e => e.Group == "Past Hosts" || (e.Group == "Champions" && e.Image.indexOf("hosts") > 0));
+        return run.Events.filter(e => e.Group == "Past Hosts" /*|| (e.Group == "Champions" && e.Image.indexOf("hosts") > 0)*/);
     }
     function extractRematchBadges(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Rematch Badges");
     }
     function extractNoblePokemon(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Noble Pokémon");
+    }
+    function extractTournaments(run: TPP.Run) {
+        return run.Events.filter(e => e.Group == "Tournaments");
     }
 
     function DrawBadges(run: TPP.Run, badges = extractBadges(run)) {

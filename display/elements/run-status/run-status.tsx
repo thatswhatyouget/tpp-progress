@@ -170,19 +170,22 @@ namespace TPP.Display.Elements.RunStatus {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Badges" || e.Group == "Bosses" || e.Group == "Kingdoms" || e.Group == "Plates"));
         }
         private get eliteFour() {
-            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Elite Four" || e.Group == "Final Bosses" || (e.Group == "Champions" && (`${e.Image} ${e.Class}`.toLowerCase()).indexOf("rematch") < 0) && e.Image.indexOf("hosts") < 0));
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Elite Four" || e.Group == "Final Bosses" || (e.Group == "Champions" && (`${e.Image} ${e.Class}`.toLowerCase()).indexOf("rematch") < 0) /*&& e.Image.indexOf("hosts") < 0*/));
         }
         private get eliteFourRematch() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Elite Four Rematch" || (e.Group == "Champions" && (`${e.Image} ${e.Class}`.toLowerCase()).indexOf("rematch") > 0)));
         }
         private get pastHosts() {
-            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Past Hosts" || (e.Group == "Champions" && e.Image.indexOf("hosts") > 0)));
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Past Hosts" /*|| (e.Group == "Champions" && e.Image.indexOf("hosts") > 0)*/));
         }
         private get rematchBadges() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Rematch Badges"));
         }
         private get noblePokemon() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Noble Pokémon"));
+        }
+        private get tournaments() {
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Tournaments"));
         }
 
         private get partyDisplay() {
@@ -231,6 +234,7 @@ namespace TPP.Display.Elements.RunStatus {
                     <PokeBox title="Duration"><h3>{Duration.parse(this.state.run.Ongoing ? new Date().toISOString() : this.state.run.Duration, this.state.run.StartTime).toString()}</h3></PokeBox>
                     <CurrentLocation mapName={this.state.status.map_name} areaName={this.state.status.area_name} />
                     <EventDisplay key="Past Hosts" events={this.pastHosts} />
+                    <EventDisplay key="Tournaments" events={this.tournaments} />
                     <EventDisplay key="Elite Four Rematch" events={this.eliteFourRematch} />
                     <EventDisplay key="Rematch Badges" events={this.rematchBadges} />
                     <EventDisplay key="Elite Four" events={this.eliteFour} />

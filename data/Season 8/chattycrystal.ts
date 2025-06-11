@@ -100,6 +100,62 @@ Season8.Runs.push(
                 Group: "Champions", Name: "Cyan", Image: "img/hosts/cyan.png",
                 Time: "2021-02-27T00:12:22.193Z", Attempts: 6,
             },
+			
+            {
+                Group: "Champions", Name: "Red", Image: "img/trainers/crystal/red.png",
+				Time: "2021-03-04T17:32:50.028Z", Attempts: 1
+            },
+			{ 
+				Group: "Past Hosts", Name: "RED", Image: "img/hosts/red.png", 
+				Time: "2021-03-04T19:10:13.629Z", Attempts: 2, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", 
+			},
+			{ 
+				Group: "Past Hosts", Name: "AIIIAAB", Image: "img/hosts/aiiiaab.png", 
+				Time: "2021-03-04T21:22:31.833Z", Attempts: 3, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", 
+			},
+			{ 
+				Group: "Past Hosts", Name: "EVAN", Image: "img/hosts/evan.png", 
+				Time: "2021-03-05T07:41:52.404Z", Attempts: 9, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46elnh/evan_sprites/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "×µ(?", Image: "img/hosts/tppRobored.png", 
+				Time: "2021-03-05T08:40:02.249Z", Attempts: 2, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5w92xx/the_hosts_of_the_voices_after_the_4th_anniversary/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "(((", Image: "img/hosts/ccc.png", 
+				Time: "2021-03-05T08:53:40.626Z", Attempts: 1, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "XXWWNN\u03c0", Image: "img/hosts/xxwwnnPk.png", 
+				Time: "2021-03-05T11:04:46.284Z", Attempts: 3, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "KAY", Image: "img/hosts/kay.png", 
+				Time: "2021-03-05T12:09:22.185Z", Attempts: 2, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/aq2qmu/kay_the_planeswalker/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "RED", Image: "img/hosts/red2.png", 
+				Time: "2021-03-05T12:24:31.096Z", Attempts: 1, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/f84tx7/the_gauntlet_hall_of_fame_16/",
+			},
+			{ 
+				Group: "Champions", Name: "Azure", Image: "img/trainers/crystal/azure.png", 
+				Time: "2021-03-05T15:36:03.224Z", Attempts: 5, 
+				//ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/f84tx7/the_gauntlet_hall_of_fame_16/",
+			},
+			
+			{ 
+				Group: "Past Hosts", Name: "MARINA", Image: "img/hosts/marina.png", 
+				Time: "2021-03-08T00:11:05.149Z", Attempts: 1, 
+				//ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/f84tx7/the_gauntlet_hall_of_fame_16/",
+			},
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-02-27T00:13:22Z", Attempts: 26, Party: [
@@ -108,7 +164,7 @@ Season8.Runs.push(
                     { Pokemon: "Ludicolo", Nickname: "XXHI", Level: 88, Gender: "Male", Number: 272, IDNo: "04242" },
                     { Pokemon: "Goodra", Nickname: "YPG", Level: 89, Gender: "Female", Number: 706, IDNo: "04242" },
                     { Pokemon: "Skuntank", Nickname: "ZZZZZ ", Level: 78, Gender: "Female", Number: 435, IDNo: "04242" },
-                    { Pokemon: "Chatot", Nickname: "KENYA", Level: 91, Gender: "Male", Number: 441, IDNo: "01001" },
+                    { Pokemon: "Chatot", Nickname: "KENYA", Level: 92, Gender: "Male", Number: 441, IDNo: "01001" },
                 ],
                 FirstAttemptDate: "2021-02-24T20:13:33.883Z",
                 Image: "img/ribbons/champion.png"

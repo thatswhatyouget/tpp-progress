@@ -502,6 +502,11 @@ Season4.Runs.push(
             { Name: "Kricketune", Time: "10d13h9m", Group: "Pokemon" },
             { Name: "Golbat", Time: "10d13h18m", Group: "Pokemon" },
             { Name: "Swellow", Time: "10d14h54m", Group: "Pokemon" },
+			
+            { Group: "Tournaments", Name: "TPP Anniversary Challenge", Image: "img/hosts/red.png", Time: "10d16h10m", Attempts: 1, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", },
+			
+            { Group: "Tournaments", Name: "Randomizer Roundup", Image: "img/hosts/qq-2.png", Time: "10d16h49m", Attempts: 1, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", },
+			
             { Name: "Sewaddle", Time: "10d18h39m", Group: "Pokemon" },
             { Name: "Roselia", Time: "10d19h19m", Group: "Pokemon" },
             { Name: "Durant", Time: "10d19h50m", Group: "Pokemon" },
@@ -546,6 +551,11 @@ Season4.Runs.push(
             { Name: "Beartic", Time: "12d17h38m", Group: "Pokemon" },
             { Name: "Chandelure", Time: "12d20h14m", Group: "Pokemon" },
             { Name: "Victini", Time: "12d20h22m", Group: "Pokemon" },
+			
+            { Group: "Tournaments", Name: "The Battle of the Hacks!", Image: "img/hosts/aatatat.png", Time: "13d02h11m", Attempts: 1, ImageSource: "http://angelofsloths.tumblr.com/post/119327711600/my-atta-sprite", },
+			
+            { Group: "Tournaments", Name: "Unova Champion's Challenge", Image: "img/hosts/cly.png", Time: "13d02h38m", Attempts: 1, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", },
+			
             { Name: "Silcoon", Time: "13d3h55m", Group: "Pokemon" },
             { Group: "Elite Four Rematch", Name: "Dodecane (Grimsley)", Image: "img/trainers/black/grimsley.png", Time: "13d6h12m", Attempts: 3, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "f1uffyshark (Caitlin)", Image: "img/trainers/black/caitlin.png", Time: "13d6h19m", Attempts: 2, Class: "Rematch" },
