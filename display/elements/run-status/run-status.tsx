@@ -167,7 +167,7 @@ namespace TPP.Display.Elements.RunStatus {
         }
 
         private get badges() {
-            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Badges" || e.Group == "Bosses" || e.Group == "Kingdoms" || e.Group == "Plates" || e.Group == "Stamps"));
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Badges" || e.Group == "Kingdoms" || e.Group == "Plates" || e.Group == "Stamps"));
         }
         private get eliteFour() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Elite Four" || e.Group == "Final Bosses" || (e.Group == "Champions" && (`${e.Image} ${e.Class}`.toLowerCase()).indexOf("rematch") < 0) /*&& e.Image.indexOf("hosts") < 0*/));
@@ -182,7 +182,7 @@ namespace TPP.Display.Elements.RunStatus {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Rematch Badges"));
         }
         private get noblePokemon() {
-            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Noble Pokémon"));
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Bosses" || e.Group == "Noble Pokémon"));
         }
         private get tournaments() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Tournaments"));

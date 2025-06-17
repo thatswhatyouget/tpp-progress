@@ -53,10 +53,21 @@ Intermissions.Runs.push(
                 Time: "2025-04-01T23:23:21Z", Attempts: 1,
             },
 			
-            /*{
+            {
+                Group: "Bosses", Name: "Mourningstar", Image: "img/cassette/archangels/mourningstar.png",
+                Time: "2025-04-02T02:11:25Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Bulletino", Time: "2025-04-02T02:39:48Z" },
+            { Group: "Pokemon", Name: "Capricorpse", Time: "2025-04-02T03:03:39Z" },
+            { Group: "Pokemon", Name: "Blossomaw", Time: "2025-04-02T03:04:26Z" },
+            { Group: "Pokemon", Name: "Allseer", Time: "2025-04-02T03:25:26Z" },
+            { Group: "Pokemon", Name: "Thwackalope", Time: "2025-04-02T03:30:45Z" },
+			
+            {
                 Group: "Stamps", Name: "Wallace", Image: "img/cassette/stamps/wallace.png",
-                Time: "2025-04-01T05:05:55Z", Attempts: 0,
-            },*/
+                Time: "2025-04-02T04:06:44Z", Attempts: 1,
+            },
 			
         ]
     }
