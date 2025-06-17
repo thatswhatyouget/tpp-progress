@@ -97,6 +97,12 @@ Intermissions.Runs.push(
                 Time: "2025-04-03T09:36:43Z", Attempts: 1,
             },
 			
+            { Group: "Pokemon", Name: "Robindam", Time: "2025-04-03T10:17:21Z" },
+            { Group: "Pokemon", Name: "Khufo", Time: "2025-04-03T10:18:02Z" },
+            { Group: "Pokemon", Name: "Pinbolt", Time: "2025-04-03T10:19:20Z" },
+            { Group: "Pokemon", Name: "Diveal", Time: "2025-04-03T10:28:14Z" },
+            { Group: "Pokemon", Name: "Scubalrus", Time: "2025-04-03T10:34:32Z" },
+			
         ]
     }
 );
