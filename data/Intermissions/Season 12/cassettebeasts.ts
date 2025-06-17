@@ -69,6 +69,13 @@ Intermissions.Runs.push(
                 Time: "2025-04-02T04:06:44Z", Attempts: 1,
             },
 			
+            { Group: "Pokemon", Name: "Stardigrade", Time: "2025-04-02T04:29:13Z" },
+            { Group: "Pokemon", Name: "Muskrateer", Time: "2025-04-02T04:43:22Z" },
+            { Group: "Pokemon", Name: "Tokusect", Time: "2025-04-02T05:10:26Z" },
+            { Group: "Pokemon", Name: "Twirligig", Time: "2025-04-02T05:32:27Z" },
+            { Group: "Pokemon", Name: "Fountess", Time: "2025-04-02T06:59:11Z" },
+            { Group: "Pokemon", Name: "Jellyton", Time: "2025-04-02T07:26:19Z" },
+			
         ]
     }
 );
