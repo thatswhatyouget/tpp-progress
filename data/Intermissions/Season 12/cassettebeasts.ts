@@ -75,6 +75,27 @@ Intermissions.Runs.push(
             { Group: "Pokemon", Name: "Twirligig", Time: "2025-04-02T05:32:27Z" },
             { Group: "Pokemon", Name: "Fountess", Time: "2025-04-02T06:59:11Z" },
             { Group: "Pokemon", Name: "Jellyton", Time: "2025-04-02T07:26:19Z" },
+            { Group: "Pokemon", Name: "Triphinx", Time: "2025-04-02T07:59:28Z" },
+            { Group: "Pokemon", Name: "Ratcousel", Time: "2025-04-02T08:00:16Z" },
+			
+            {
+                Group: "Stamps", Name: "Penny Dreadful", Image: "img/cassette/stamps/pennydreadful.png",
+                Time: "2025-04-02T09:42:30Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Sanzatime", Time: "2025-04-02T09:48:23Z" },
+            { Group: "Pokemon", Name: "Nevermort", Time: "2025-04-02T10:04:00Z" },
+            { Group: "Pokemon", Name: "Mardiusa", Time: "2025-04-02T10:21:19Z" },
+            { Group: "Pokemon", Name: "Mothmanic", Time: "2025-04-02T19:17:01Z" },
+            { Group: "Pokemon", Name: "Faerious", Time: "2025-04-02T19:17:33Z" },
+            { Group: "Pokemon", Name: "Clocksley", Time: "2025-04-02T19:23:33Z" },
+            { Group: "Pokemon", Name: "Boltam", Time: "2025-04-03T01:02:10Z" },
+            { Group: "Pokemon", Name: "Macabra", Time: "2025-04-03T08:03:58Z" },
+			
+            {
+                Group: "Stamps", Name: "Zedd", Image: "img/cassette/stamps/zedd.png",
+                Time: "2025-04-03T09:36:43Z", Attempts: 1,
+            },
 			
         ]
     }
