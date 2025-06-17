@@ -25,7 +25,7 @@ Season9.Runs.push(
                 "Image": "img/trainers/xd/mirorb.png",
                 "ImageSource": "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/MirorB.png.html",
                 "Name": "Mirror B.",
-                "Time": "2022-07-10T21:53:57.486Z",
+                "Time": "2022-07-10T21:31:03Z",
                 "Attempts": 1
             },
             {
@@ -33,7 +33,7 @@ Season9.Runs.push(
                 "Image": "img/trainers/xd/exol.png",
                 "ImageSource": "http://s1292.photobucket.com/user/Apollothemuse/media/Sprites/BulkyPeonSprite_zps84376303.png.html",
                 "Name": "Exol",
-                "Time": "2022-07-11T02:34:33.045Z",
+                "Time": "2022-07-11T02:16:32Z",
                 "Attempts": 1 // Only get one chance
             },
             {
@@ -41,7 +41,7 @@ Season9.Runs.push(
                 "Image": "img/trainers/xd/snattle.png",
                 "ImageSource": "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherSnattle.png.html",
                 "Name": "Snattle",
-                "Time": "2022-07-11T21:48:28.050Z",
+                "Time": "2022-07-11T20:24:52Z",
                 "Attempts": 1
             },
             {
@@ -49,7 +49,7 @@ Season9.Runs.push(
                 "Image": "img/trainers/xd/mirorb.png",
                 "ImageSource": "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/MirorB.png.html",
                 "Name": "Mirror B.",
-                "Time": "2022-07-12T01:51:59.246Z",
+                "Time": "2022-07-12T01:33:13Z",
                 "Attempts": 1
             },
             {
@@ -57,7 +57,7 @@ Season9.Runs.push(
                 "Image": "img/trainers/colosseum/gonzap.png",
                 "ImageSource": "http://forum.yugiohcardmaker.net/topic/200460-colosseum-sprites/",
                 "Name": "Gonzap",
-                "Time": "2022-07-12T05:18:42.405Z",
+                "Time": "2022-07-12T04:45:32Z",
                 "Attempts": 1
             },
             {

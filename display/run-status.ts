@@ -149,7 +149,7 @@ module TPP.Display.RunStatus {
     }
 
     function extractBadges(run: TPP.Run) {
-        return run.Events.filter(e => e.Group == "Badges" || e.Group == "Bosses" || e.Group == "Kingdoms" || e.Group == "Plates" );
+        return run.Events.filter(e => e.Group == "Badges" || e.Group == "Kingdoms" || e.Group == "Plates"  || e.Group == "Stamps" );
     }
     function extractEliteFour(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Elite Four" || e.Group == "Final Bosses" || (e.Group == "Champions" && e.Image.indexOf("rematch") < 0 /*&& e.Image.indexOf("hosts") < 0*/));
@@ -164,7 +164,7 @@ module TPP.Display.RunStatus {
         return run.Events.filter(e => e.Group == "Rematch Badges");
     }
     function extractNoblePokemon(run: TPP.Run) {
-        return run.Events.filter(e => e.Group == "Noble Pokémon");
+        return run.Events.filter(e => e.Group == "Bosses" || e.Group == "Noble Pokémon");
     }
     function extractTournaments(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Tournaments");

@@ -153,7 +153,7 @@ Sidegames.Runs.push(
             {
                 Group: "Champions",
                 Name: "Red",
-                Image: "img/trainers/crystal/sorcererssho.png",
+                Image: "img/trainers/crystal/red.png",
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",
                 Time: "2022-12-03T04:31:27.526Z", Attempts: 5
             },
