@@ -140,6 +140,15 @@ Intermissions.Runs.push(
                 Time: "2025-04-03T23:46:06Z", Attempts: 1,
             },
 			
+            { Group: "Pokemon", Name: "Braxsuit", Time: "2025-04-03T23:50:09Z" },
+			
+            {
+                Group: "Bosses", Name: "Shining Kuneko", Image: "img/cassette/archangels/shiningkuneko.png",
+                Time: "2025-04-04T00:13:18Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Kuneko", Time: "2025-04-04T00:16:22Z" },
+			
 			
         ]
     }
