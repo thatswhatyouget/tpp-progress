@@ -102,6 +102,53 @@ Intermissions.Runs.push(
             { Group: "Pokemon", Name: "Pinbolt", Time: "2025-04-03T10:19:20Z" },
             { Group: "Pokemon", Name: "Diveal", Time: "2025-04-03T10:28:14Z" },
             { Group: "Pokemon", Name: "Scubalrus", Time: "2025-04-03T10:34:32Z" },
+            { Group: "Pokemon", Name: "Pondwalker", Time: "2025-04-03T14:32:33Z" },
+            { Group: "Pokemon", Name: "Padpole", Time: "2025-04-03T15:11:57Z" },
+            { Group: "Pokemon", Name: "Jormungold", Time: "2025-04-03T16:32:51Z" },
+            { Group: "Pokemon", Name: "Grampus", Time: "2025-04-03T16:33:19Z" },
+            { Group: "Pokemon", Name: "Folklord", Time: "2025-04-03T16:33:48Z" },
+            { Group: "Pokemon", Name: "Apocrowlypse", Time: "2025-04-03T16:34:33Z" },
+            { Group: "Pokemon", Name: "Brushroom", Time: "2025-04-03T17:18:43Z" },
+            { Group: "Pokemon", Name: "Velocirifle", Time: "2025-04-03T18:04:26Z" },
+            { Group: "Pokemon", Name: "Frillypad", Time: "2025-04-03T18:05:11Z" },
+            { Group: "Pokemon", Name: "Kirikuri", Time: "2025-04-03T18:32:24Z" },
+			
+            {
+                Group: "Stamps", Name: "Skip", Image: "img/cassette/stamps/skip.png",
+                Time: "2025-04-03T18:53:21Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Kittelly", Time: "2025-04-03T18:58:58Z" },
+            { Group: "Pokemon", Name: "Undyin", Time: "2025-04-03T19:28:02Z" },
+            { Group: "Pokemon", Name: "Southpaw", Time: "2025-04-03T20:02:54Z" },
+            { Group: "Pokemon", Name: "Trapwurm", Time: "2025-04-03T20:19:17Z" },
+			
+            {
+                Group: "Stamps", Name: "Cybil", Image: "img/cassette/stamps/cybil.png",
+                Time: "2025-04-03T21:42:50Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Fungogh", Time: "2025-04-03T21:51:09Z" },
+            { Group: "Pokemon", Name: "Cluckabilly", Time: "2025-04-03T22:06:15Z" },
+            { Group: "Pokemon", Name: "Liligator", Time: "2025-04-03T22:22:53Z" },
+            { Group: "Pokemon", Name: "Diveberg", Time: "2025-04-03T22:23:22Z" },
+            { Group: "Pokemon", Name: "Artillerex", Time: "2025-04-03T22:23:50Z" },
+            { Group: "Pokemon", Name: "Fortiwinx", Time: "2025-04-03T22:24:25Z" },
+			
+            {
+                Group: "Stamps", Name: "Clee-0", Image: "img/cassette/stamps/clee0.png",
+                Time: "2025-04-03T23:46:06Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Braxsuit", Time: "2025-04-03T23:50:09Z" },
+			
+            {
+                Group: "Bosses", Name: "Shining Kuneko", Image: "img/cassette/archangels/shiningkuneko.png",
+                Time: "2025-04-04T00:13:18Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Kuneko", Time: "2025-04-04T00:16:22Z" },
+			
 			
         ]
     }
