@@ -134,6 +134,7 @@ Intermissions.Runs.push(
             { Group: "Pokemon", Name: "Diveberg", Time: "2025-04-03T22:23:22Z" },
             { Group: "Pokemon", Name: "Artillerex", Time: "2025-04-03T22:23:50Z" },
             { Group: "Pokemon", Name: "Fortiwinx", Time: "2025-04-03T22:24:25Z" },
+            { Group: "Pokemon", Name: "Busheye", Time: "2025-04-03T23:29:11Z" },
 			
             {
                 Group: "Stamps", Name: "Clee-0", Image: "img/cassette/stamps/clee0.png",
@@ -148,7 +149,36 @@ Intermissions.Runs.push(
             },
 			
             { Group: "Pokemon", Name: "Kuneko", Time: "2025-04-04T00:16:22Z" },
+            { Group: "Pokemon", Name: "Jumpkin", Time: "2025-04-04T00:35:31Z" },
+            { Group: "Pokemon", Name: "Rockertrice", Time: "2025-04-04T03:52:01Z" },
+            { Group: "Pokemon", Name: "Mascotoy", Time: "2025-04-04T04:55:43Z" },
 			
+            {
+                Group: "Bosses", Name: "Nowhere Monarch", Image: "img/cassette/archangels/nowheremonarch.png",
+                Time: "2025-04-04T06:32:40Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Cat-5", Time: "2025-04-04T06:42:25Z" },
+            { Group: "Pokemon", Name: "Sharktanker", Time: "2025-04-04T06:42:57Z" },
+            { Group: "Pokemon", Name: "Galagor", Time: "2025-04-04T06:43:39Z" },
+            { Group: "Pokemon", Name: "Huntorch", Time: "2025-04-04T07:20:53Z" },
+            { Group: "Pokemon", Name: "Spirouette", Time: "2025-04-04T07:35:38Z" },
+            { Group: "Pokemon", Name: "Salamagus", Time: "2025-04-04T08:29:24Z" },
+            { Group: "Pokemon", Name: "Shining Kuneko", Time: "2025-04-04T08:40:41Z" },
+            { Group: "Pokemon", Name: "Plasmantler", Time: "2025-04-04T08:41:28Z" },
+            { Group: "Pokemon", Name: "Flapwoods", Time: "2025-04-04T08:41:50Z" },
+            { Group: "Pokemon", Name: "Coaldron", Time: "2025-04-04T08:43:11Z" },
+            { Group: "Pokemon", Name: "Djinn Entonic", Time: "2025-04-04T10:23:07Z" },
+            { Group: "Pokemon", Name: "Ripterra", Time: "2025-04-04T11:04:26Z" },
+            { Group: "Pokemon", Name: "Binvader", Time: "2025-04-04T11:35:57Z" },
+            { Group: "Pokemon", Name: "Arkidd", Time: "2025-04-04T12:25:42Z" },
+            { Group: "Pokemon", Name: "Mascotorn", Time: "2025-04-04T12:29:21Z" },
+            { Group: "Pokemon", Name: "Hedgeherne", Time: "2025-04-04T12:29:49Z" },
+			
+            {
+                Group: "Stamps", Name: "Heather", Image: "img/cassette/stamps/heather.png",
+                Time: "2025-04-04T18:56:06Z", Attempts: 1,
+            },
 			
         ]
     }
