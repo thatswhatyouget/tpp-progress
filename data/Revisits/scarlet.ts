@@ -189,7 +189,7 @@ Revisits.Runs.push(
                     { Pokemon: "Chi-Yu", Nickname: "Chi-Yu1111", Level: 100 },
                     { Pokemon: "Ogerpon", Nickname: "Ponyo", Level: 100, Gender: "Female", Form:"Hearthflame" },
                     { Pokemon: "Gouging Fire", Nickname: "Gouging F", Level: 100 },
-                    { Pokemon: "Entei", Level: 100 },
+                    { Pokemon: "Entei", Level: 100, Shiny: "true" },
                     { Pokemon: "Frosmoth", Nickname: "Mmp??!!ƒ¤¤¤¤", Level: 100, Gender: "Male" },
                 ],
                 FirstAttemptDate: "",

@@ -68,7 +68,7 @@ Revisits.Runs.push(
                     { Pokemon: "Meowscarada", Level: 100, Gender: "Female" },
                     { Pokemon: "Glimmora", Nickname: "Glimmer", Level: 100, Gender: "Female" },
                     { Pokemon: "Zoroark", Nickname: "Midnight", Level: 100, Gender: "Male", Form: "Hisuian", Shiny: "true" },
-                    { Pokemon: "Raichu", Nickname: "PikachuS", Level: 71, Gender: "Female", Shiny: "true" },
+                    { Pokemon: "Raichu", Nickname: "pikachuS", Level: 71, Gender: "Female", Shiny: "true" },
                     { Pokemon: "Sylveon", Nickname: "TransRights", Level: 100, Gender: "Female", Shiny: "true" },
                 ],
                 FirstAttemptDate: "",
