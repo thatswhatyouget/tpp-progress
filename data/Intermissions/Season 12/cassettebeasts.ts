@@ -216,6 +216,48 @@ Intermissions.Runs.push(
                 Time: "2025-04-05T14:43:54Z", Attempts: 1,
             },
 			
+            { Group: "Pokemon", Name: "Charlequin", Time: "2025-04-05T15:41:50Z" },
+            { Group: "Pokemon", Name: "Littlered", Time: "2025-04-05T15:55:18Z" },
+            { Group: "Pokemon", Name: "Hauntome", Time: "2025-04-05T16:43:48Z" },
+			
+            {
+                Group: "Bosses", Name: "Pearl", Image: "img/cassette/archangels/pearl.png",
+                Time: "2025-04-05T17:09:25Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Kingrave", Time: "2025-04-05T17:12:56Z" },
+            { Group: "Pokemon", Name: "Queenyx", Time: "2025-04-05T17:13:28Z" },
+            { Group: "Pokemon", Name: "Minortom", Time: "2025-04-05T17:55:23Z" },
+			
+            {
+                Group: "Bosses", Name: "Raven", Image: "img/cassette/archangels/raven.png",
+                Time: "2025-04-06T02:51:33Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Amphare", Time: "2025-04-06T12:24:27Z" },
+            { Group: "Pokemon", Name: "Scarleteeth", Time: "2025-04-06T13:15:43Z" },
+            { Group: "Pokemon", Name: "Beanstalker", Time: "2025-04-06T13:16:17Z" },
+            { Group: "Pokemon", Name: "Binterloper", Time: "2025-04-06T13:17:07Z" },
+			
+            {
+                Group: "Stamps", Name: "Gladiola", Image: "img/cassette/stamps/gladiola.png",
+                Time: "2025-04-06T14:01:52Z", Attempts: 1,
+            },
+			
+            {
+                Group: "Stamps", Name: "Lodestein", Image: "img/cassette/stamps/lodestein.png",
+                Time: "2025-04-05T16:17:29Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Sparktan", Time: "2025-04-06T17:06:36Z" },
+            { Group: "Pokemon", Name: "Smogmagog", Time: "2025-04-06T18:03:31Z" },
+            { Group: "Pokemon", Name: "Cryoshear", Time: "2025-04-06T18:06:30Z" },
+			
+            {
+                Group: "Bosses", Name: "Babelith", Image: "img/cassette/archangels/babelith.png",
+                Time: "2025-04-06T18:20:08Z", Attempts: 1,
+            },
+			
         ]
     }
 );
