@@ -180,6 +180,42 @@ Intermissions.Runs.push(
                 Time: "2025-04-04T18:56:06Z", Attempts: 1,
             },
 			
+            {
+                Group: "Bosses", Name: "Heckahedron", Image: "img/cassette/archangels/heckahedron.png",
+                Time: "2025-04-04T20:02:45Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Gearyu", Time: "2025-04-04T20:19:55Z" },
+            { Group: "Pokemon", Name: "Scampire", Time: "2025-04-04T20:26:58Z" },
+			
+            {
+                Group: "Bosses", Name: "Alice", Image: "img/cassette/archangels/alice.png",
+                Time: "2025-04-04T23:53:30Z", Attempts: 1,
+            },
+			
+            {
+                Group: "Stamps", Name: "Buffy", Image: "img/cassette/stamps/buffy.png",
+                Time: "2025-04-05T00:28:32Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Skelevangelist", Time: "2025-04-05T06:22:26Z" },
+            { Group: "Pokemon", Name: "Pawndead", Time: "2025-04-05T06:39:01Z" },
+            { Group: "Pokemon", Name: "Wyrmaw", Time: "2025-04-05T07:52:11Z" },
+            { Group: "Pokemon", Name: "Pyromeleon", Time: "2025-04-05T07:52:57Z" },
+			
+            {
+                Group: "Bosses", Name: "Lamento Mori", Image: "img/cassette/archangels/lamentomori.png",
+                Time: "2025-04-05T09:29:35Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Icepeck", Time: "2025-04-05T10:38:40Z" },
+            { Group: "Pokemon", Name: "Spooki-onna", Time: "2025-04-05T10:42:07Z" },
+			
+            {
+                Group: "Stamps", Name: "Judas", Image: "img/cassette/stamps/judas.png",
+                Time: "2025-04-05T14:43:54Z", Attempts: 1,
+            },
+			
         ]
     }
 );
