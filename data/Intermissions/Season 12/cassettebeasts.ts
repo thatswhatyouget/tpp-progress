@@ -12,7 +12,7 @@ Intermissions.Runs.push(
         // HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
         HostName: "wrt-violet",
         Region: "New Wirral",
-        Pokedex: "Bestiary",
+        Pokedex: "Bestiary + Pier",
         // ContainsRunsFrom: ["Intermissions", "Short Intermissions"],
         Events: [
 		
