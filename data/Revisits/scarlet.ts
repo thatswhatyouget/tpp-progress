@@ -426,3 +426,36 @@ Revisits.Runs.push(
         CopyEvents: ["Scarlet Revisit - The Indigo Disk"],
     }
 );
+
+Revisits.Runs.push(
+    {
+        RunName: "Scarlet Revisit - Switch 2",
+        ColorPrimary: "#D70D19",
+        ColorSecondary: "#6A2B30",
+        Duration: "2025-06-15T19:00:03Z",
+        StartDate: "2025-06-15T09:29:52Z",
+        HostName: "2z",
+        HostImage: "img/hosts/2z.png",
+        HostImageSource: "https://www.deviantart.com/mid117/art/PKMN-Scarlet-Protagonists-Trainer-Sprites-923433423",
+        Region: "Paldea",
+        Generation: 9,
+        Events: [
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2025-06-15T13:42:58Z", Attempts: 1, Party: [
+                    { Pokemon: "Koraidon", Nickname: "raidon", Level: 100 },
+                    { Pokemon: "Ogerpon", Nickname: "Ponyo", Level: 100, Gender: "Female", Form:"Teal" },
+                    { Pokemon: "Pyroar", Level: 52, Gender: "Female" },
+                    { Pokemon: "Necrozma", Level: 73 },
+                    { Pokemon: "Hitmonlee", Nickname: "Pyroar", Level: 72, Gender: "Male", Shiny: "true" },
+                    { Pokemon: "Dragonair", Nickname: "Dragouwee", Level: 60, Gender: "Female", Shiny: "true" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+		
+        ],
+        Revisit: { Collection: "Revisits", Run: "Scarlet Revisit - Epilogue" },
+        CopyEvents: ["Scarlet Revisit - Epilogue"],
+    }
+);
