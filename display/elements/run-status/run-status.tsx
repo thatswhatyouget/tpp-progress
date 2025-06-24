@@ -179,7 +179,7 @@ namespace TPP.Display.Elements.RunStatus {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Past Hosts" /*|| (e.Group == "Champions" && e.Image.indexOf("hosts") > 0)*/));
         }
         private get rematchBadges() {
-            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Rematch Badges"));
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Rematch Badges" || e.Group == "Rematch Stamps"));
         }
         private get noblePokemon() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Bosses" || e.Group == "Noble Pokémon"));

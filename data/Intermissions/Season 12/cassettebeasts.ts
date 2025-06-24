@@ -246,7 +246,7 @@ Intermissions.Runs.push(
 			
             {
                 Group: "Stamps", Name: "Lodestein", Image: "img/cassette/stamps/lodestein.png",
-                Time: "2025-04-05T16:17:29Z", Attempts: 1,
+                Time: "2025-04-06T16:17:29Z", Attempts: 1,
             },
 			
             { Group: "Pokemon", Name: "Sparktan", Time: "2025-04-06T17:06:36Z" },
@@ -256,6 +256,81 @@ Intermissions.Runs.push(
             {
                 Group: "Bosses", Name: "Babelith", Image: "img/cassette/archangels/babelith.png",
                 Time: "2025-04-06T18:20:08Z", Attempts: 1,
+            },
+			
+            {
+                Group: "Bosses", Name: "Robin Goodfellow", Image: "img/cassette/archangels/robingoodfellow.png",
+                Time: "2025-04-06T21:13:25Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Ferriclaw", Time: "2025-04-06T22:32:09Z" },
+			
+            {
+                Group: "Stamps", Name: "Codey", Image: "img/cassette/stamps/codey.png",
+                Time: "2025-04-06T23:48:30Z", Attempts: 1,
+            },
+			
+            {
+                Group: "Stamps", Name: "Ianthe", Image: "img/cassette/stamps/ianthe.png",
+                Time: "2025-04-07T00:12:29Z", Attempts: 1,
+            },
+			
+            {
+                Group: "Bosses", Name: "Aleph", Image: "img/cassette/archangels/aleph.png",
+                Time: "2025-04-07T02:30:04Z", Attempts: 1,
+            },
+			
+            {
+                Group: "Bosses", Name: "Aleph Null", Image: "img/cassette/archangels/alephnull.png",
+                Time: "2025-04-07T02:42:57Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Candevil", Time: "2025-04-07T10:18:02Z" },
+            { Group: "Pokemon", Name: "Burnace", Time: "2025-04-07T10:30:26Z" },
+            { Group: "Pokemon", Name: "Regensea", Time: "2025-04-07T10:43:31Z" },
+            { Group: "Pokemon", Name: "Blunderbusk", Time: "2025-04-07T10:44:49Z" },
+            { Group: "Pokemon", Name: "Wooltergeist", Time: "2025-04-07T11:32:42Z" },
+            { Group: "Pokemon", Name: "Malchemy", Time: "2025-04-07T11:33:13Z" },
+            { Group: "Pokemon", Name: "Fragliacci", Time: "2025-04-07T12:18:15Z" },
+            { Group: "Pokemon", Name: "Zeustrike", Time: "2025-04-07T12:42:22Z" },
+            { Group: "Pokemon", Name: "Vendemon", Time: "2025-04-07T12:45:29Z" },
+            { Group: "Pokemon", Name: "Adeptile", Time: "2025-04-07T12:59:09Z" },
+            { Group: "Pokemon", Name: "Khepri", Time: "2025-04-07T13:13:43Z" },
+            { Group: "Pokemon", Name: "Lapacitor", Time: "2025-04-07T13:43:14Z" },
+            { Group: "Pokemon", Name: "Auriclaw", Time: "2025-04-07T13:43:48Z" },
+            { Group: "Pokemon", Name: "Ramtasm", Time: "2025-04-07T15:13:15Z" },
+            { Group: "Pokemon", Name: "Draculeaf", Time: "2025-04-07T15:26:28Z" },
+            { Group: "Pokemon", Name: "Averevoir", Time: "2025-04-07T15:54:49Z" },
+            { Group: "Pokemon", Name: "Majortom", Time: "2025-04-07T16:02:39Z" },
+            { Group: "Pokemon", Name: "Gumbaal", Time: "2025-04-07T16:17:29Z" },
+            { Group: "Pokemon", Name: "Miasmodeus", Time: "2025-04-07T16:25:09Z" },
+            { Group: "Pokemon", Name: "Rosehood", Time: "2025-04-07T18:00:20Z" },
+			
+            {
+                Group: "Bosses", Name: "Mammon", Image: "img/cassette/archangels/mammon.png",
+                Time: "2025-04-07T19:56:35Z", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Glaistain", Time: "2025-04-07T20:29:21Z" },
+			
+            {
+                Group: "Rematch Stamps", Name: "Buffy", Image: "img/cassette/stamps/buffy.png",
+                Time: "2025-04-07T20:57:51Z", Class: "Rematch", Attempts: 1,
+            },
+			
+            {
+                Group: "Rematch Stamps", Name: "Cybil", Image: "img/cassette/stamps/cybil.png",
+                Time: "2025-04-07T21:15:40Z", Class: "Rematch", Attempts: 1,
+            },
+			
+            {
+                Group: "Rematch Stamps", Name: "Gladiola", Image: "img/cassette/stamps/gladiola.png",
+                Time: "2025-04-07T21:59:34Z", Class: "Rematch", Attempts: 1,
+            },
+			
+            {
+                Group: "Rematch Stamps", Name: "Heather", Image: "img/cassette/stamps/heather.png",
+                Time: "2025-04-07T22:26:12Z", Class: "Rematch", Attempts: 1,
             },
 			
         ]
