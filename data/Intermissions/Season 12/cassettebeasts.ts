@@ -9,7 +9,7 @@ Intermissions.Runs.push(
         ColorSecondary: "#293146",
         BackgroundImage: "linear-gradient(#ab75e8, #3dbc9f)",
         HostImage: "img/hosts/other/wrt-violet.png",
-        // HostImageSource: "http://telefang-fans.deviantart.com/art/Bek-Shigeki-DS-491919868",
+        HostImageSource: "https://krizste.tumblr.com/post/787047361464680448",
         HostName: "wrt-violet",
         Region: "New Wirral",
         Pokedex: "Bestiary + Pier",
