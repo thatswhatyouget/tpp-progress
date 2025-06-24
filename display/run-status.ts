@@ -161,7 +161,7 @@ module TPP.Display.RunStatus {
         return run.Events.filter(e => e.Group == "Past Hosts" /*|| (e.Group == "Champions" && e.Image.indexOf("hosts") > 0)*/);
     }
     function extractRematchBadges(run: TPP.Run) {
-        return run.Events.filter(e => e.Group == "Rematch Badges");
+        return run.Events.filter(e => e.Group == "Rematch Badges" || e.Group == "Rematch Stamps");
     }
     function extractNoblePokemon(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Bosses" || e.Group == "Noble Pokémon");

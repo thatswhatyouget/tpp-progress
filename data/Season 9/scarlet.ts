@@ -163,7 +163,7 @@ Season9.Runs.push(
                     { Pokemon: "Wugtrio", Nickname: "Wiglett wig", Level: 45, Gender: "Male" },
                     { Pokemon: "Frosmoth", Nickname: "Mmp??!!ƒ¤¤¤¤", Level: 100, Gender: "Male" },
                     { Pokemon: "Garganacl", Nickname: "oomm", Level: 100, Gender: "Female" },
-                    { Pokemon: "Gallade", Nickname: "Gal", Level: 84, Gender: "Male" },
+                    { Pokemon: "Gallade", Nickname: "Gal", Level: 84, Gender: "Male", Shiny: "true" },
                     { Pokemon: "Chien-Pao", Nickname: "C1", Level: 74 },
                 ],
                 FirstAttemptDate: "",
