@@ -447,7 +447,7 @@ Revisits.Runs.push(
                     { Pokemon: "Ogerpon", Nickname: "Ponyo", Level: 100, Gender: "Female", Form:"Teal" },
                     { Pokemon: "Pyroar", Level: 52, Gender: "Female" },
                     { Pokemon: "Necrozma", Level: 73 },
-                    { Pokemon: "Hitmonlee", Nickname: "Pyroar", Level: 72, Gender: "Male", Shiny: "true" },
+                    { Pokemon: "Hitmonlee", Nickname: "TyreeEguEe", Level: 72, Gender: "Male", Shiny: "true" },
                     { Pokemon: "Dragonair", Nickname: "Dragouwee", Level: 60, Gender: "Female", Shiny: "true" },
                 ],
                 FirstAttemptDate: "",
