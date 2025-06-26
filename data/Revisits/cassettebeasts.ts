@@ -80,6 +80,31 @@ Revisits.Runs.push(
                 Time: "2025-05-03T02:49:39Z", Attempts: 1,
             },
 			
+            { Group: "Pokemon", Name: "Minosteam", Time: "2025-05-04T06:12:50Z" },
+            { Group: "Pokemon", Name: "Anathema", Time: "2025-05-04T08:28:26Z" },
+			
+            {
+                Group: "Rematch Bosses", Name: "Nowhere Monarch", Image: "img/cassette/archangels/nowheremonarch.png",
+                Time: "2025-05-04T09:07:51Z", Class: "Rematch", Attempts: 1,
+            },
+			
+            {
+                Group: "Rematch Bosses", Name: "Babelith", Image: "img/cassette/archangels/babelith.png",
+                Time: "2025-05-04T09:24:09Z", Class: "Rematch", Attempts: 1,
+            },
+			
+            { Group: "Pokemon", Name: "Picksie", Time: "2025-05-04T10:46:59Z" },
+			
+            {
+                Group: "Rematch Bosses", Name: "Lamento Mori", Image: "img/cassette/archangels/lamentomori.png",
+                Time: "2025-05-04T11:45:38Z", Class: "Rematch", Attempts: 2,
+            },
+			
+            {
+                Group: "Rematch Bosses", Name: "Mammon", Image: "img/cassette/archangels/mammon.png",
+                Time: "2025-05-04T12:07:25Z", Class: "Rematch", Attempts: 1,
+            },
+			
 			
         ],
         Revisit: { Collection: "Intermissions", Run: "Cassette Beasts" },

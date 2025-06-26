@@ -181,8 +181,11 @@ namespace TPP.Display.Elements.RunStatus {
         private get rematchBadges() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Rematch Badges" || e.Group == "Rematch Stamps"));
         }
-        private get noblePokemon() {
+        private get bosses() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Bosses" || e.Group == "Noble Pokémon"));
+        }
+        private get rematchBosses() {
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Rematch Bosses"));
         }
         private get tournaments() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Tournaments"));
@@ -237,11 +240,12 @@ namespace TPP.Display.Elements.RunStatus {
                     <EventDisplay key="Tournaments" events={this.tournaments} />
                     <EventDisplay key="Elite Four Rematch" events={this.eliteFourRematch} />
                     <EventDisplay key="Rematch Badges" events={this.rematchBadges} />
+                    <EventDisplay key="Rematch Bosses" events={this.rematchBosses} />
                     <EventDisplay key="Elite Four" events={this.eliteFour} />
                     <EventDisplay key="Badges" events={this.badges}>
                         {this.badgesOutOfDate ? <h6>Outdated</h6> : null}
                     </EventDisplay>
-                    <EventDisplay key="Noble Pokémon" events={this.noblePokemon} />
+                    <EventDisplay key="Noble Pokémon" events={this.bosses} />
                     <GameStats key="Game Stats" title="Stats" gameStats={this.state.status.game_stats} />
                     <ItemDisplay key="Candy" title="Candy" items={this.state.status.items.candy} />
                     <ItemDisplay key="Items" title="Items" items={this.state.status.items.items} />

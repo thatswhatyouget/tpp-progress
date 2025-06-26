@@ -565,7 +565,8 @@ declare namespace TPP.Display.Elements.RunStatus {
         private get eliteFourRematch();
         private get pastHosts();
         private get rematchBadges();
-        private get noblePokemon();
+        private get bosses();
+        private get rematchBosses();
         private get tournaments();
         private get partyDisplay();
         private get isFutureRun();

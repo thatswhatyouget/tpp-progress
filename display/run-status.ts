@@ -90,16 +90,18 @@ module TPP.Display.RunStatus {
             $container.append(DrawHallOfFame(run, <HallOfFame>run.Events.filter(e => (<HallOfFame>e).Party).pop()));
         if (status.map_id)
             $container.append(DrawLocation(run, status));
-        if (extractNoblePokemon(run).length > 0)
-            $container.append(DrawBadges(run, extractNoblePokemon(run)));
         if (extractPastHosts(run).length > 0)
             $container.append(DrawBadges(run, extractPastHosts(run)));
         if (extractTournaments(run).length > 0)
             $container.append(DrawBadges(run, extractTournaments(run)));
         if (extractEliteFourRematch(run).length > 0)
+            $container.append(DrawBadges(run, extractRematchBosses(run)));
+        if (extractEliteFourRematch(run).length > 0)
             $container.append(DrawBadges(run, extractEliteFourRematch(run)));
         if (extractRematchBadges(run).length > 0)
             $container.append(DrawBadges(run, extractRematchBadges(run)));
+        if (extractBosses(run).length > 0)
+            $container.append(DrawBadges(run, extractBosses(run)));
         if (extractEliteFour(run).length > 0)
             $container.append(DrawBadges(run, extractEliteFour(run)));
         if (extractBadges(run).length > 0)
@@ -163,8 +165,11 @@ module TPP.Display.RunStatus {
     function extractRematchBadges(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Rematch Badges" || e.Group == "Rematch Stamps");
     }
-    function extractNoblePokemon(run: TPP.Run) {
+    function extractBosses(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Bosses" || e.Group == "Noble Pokémon");
+    }
+    function extractRematchBosses(run: TPP.Run) {
+        return run.Events.filter(e => e.Group == "Rematch Bosses");
     }
     function extractTournaments(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Tournaments");
