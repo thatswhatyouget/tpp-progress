@@ -4,7 +4,7 @@ Intermissions.Runs.push(
         RunName: "Cassette Beasts",
         StartDate: "2025-04-01T02:03:51Z",
         Duration: "2025-04-08T03:03:46Z",
-        Class: "cassettes",
+        Class: "cassettebeasts",
         ColorPrimary: "#b0ceee",
         ColorSecondary: "#293146",
         BackgroundImage: "linear-gradient(#ab75e8, #3dbc9f)",
