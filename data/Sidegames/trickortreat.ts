@@ -14,7 +14,6 @@ Sidegames.Runs.push(
         FinalStateLink: "./states/Season 9/trickortreat.json",
         Events: [
 		
-		
             /*
             {
                 Group: "Missions", Name: "Puzzle Revisit #3\nA Bird in the Bush", Class: "Rematch",
