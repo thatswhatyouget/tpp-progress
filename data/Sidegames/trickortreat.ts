@@ -178,7 +178,15 @@ Sidegames.Runs.push(
                 Time: "2022-11-06T16:47:14Z", Attempts: 2, Image: "img/trainers/emerald/flannery.png",
             },
 			
-			// Missing Meganium, Typhlosion, Rhydon, Donphan, Crobat, Sudowoodo
+            { "Group": "Pokemon", "Name": "Typhlosion", "Time": "2022-11-09T08:48:56Z" },
+            { "Group": "Pokemon", "Name": "Phanpy", "Time": "2022-11-09T10:24:52Z" },
+            { "Group": "Pokemon", "Name": "Donphan", "Time": "2022-11-09T14:37:10Z" },
+            { "Group": "Pokemon", "Name": "Meganium", "Time": "2022-11-09T18:01:20Z" },
+            { "Group": "Pokemon", "Name": "Zubat", "Time": "2022-11-10T04:48:33Z" },
+            { "Group": "Pokemon", "Name": "Golbat", "Time": "2022-11-10T08:10:05Z" },
+            { "Group": "Pokemon", "Name": "Sudowoodo", "Time": "2022-11-11T19:58:12Z" },
+            { "Group": "Pokemon", "Name": "Crobat", "Time": "2022-11-12T11:32:21Z" },
+            { "Group": "Pokemon", "Name": "Rhydon", "Time": "2022-11-13T08:56:55Z" },
 		
         ],
         Revisit: { Collection: "Intermissions", Run: "Trick or Treat House 2022" },
