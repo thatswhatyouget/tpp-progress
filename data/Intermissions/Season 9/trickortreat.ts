@@ -10,7 +10,7 @@ Intermissions.Runs.push(
         HostImage: "img/hosts/aa.png",
         HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
         Region: "Hoenn",
-        //Generation: 3,
+        Generation: 8,
         FinalStateLink: "./states/Season 9/trickortreat.json",
         Events: [
 		
