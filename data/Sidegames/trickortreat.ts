@@ -130,53 +130,55 @@ Sidegames.Runs.push(
                 Group: "Missions", Name: "Puzzle Revisit #28\nRotation Gate Ruse", Class: "Rematch",
                 Time: "2022-11-05T11:16:26Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
-			
-            /*
             {
                 Group: "Missions", Name: "Puzzle Revisit #29\nMalteasers in Mossdeep", Class: "Rematch",
-                Time: "2022-11-05T08:07:25Z", Attempts: 1, Image: "img/trainers/toth/fairy.png",
+                Time: "2022-11-05T18:25:00Z", Attempts: 2, Image: "img/trainers/toth/fairy.png",
             },
             {
                 Group: "Missions", Name: "Puzzle Revisit #30\nTic Rac Toe", Class: "Rematch",
-                Time: "2022-11-05T09:15:35Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Time: "2022-11-05T19:23:25Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
                 Group: "Missions", Name: "Puzzle Revisit #31\nThe Elite Floor", Class: "Rematch",
-                Time: "2022-11-05T10:10:01Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Time: "2022-11-05T21:45:06Z", Attempts: 2, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
                 Group: "Missions", Name: "Puzzle Revisit #32\nShenanigan Samba", Class: "Rematch",
-                Time: "2022-11-05T10:22:35Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Time: "2022-11-05T22:08:44Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
                 Group: "Missions", Name: "Puzzle Revisit #33\nWaterflow Caverns", Class: "Rematch",
-                Time: "2022-11-05T10:42:17Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Time: "2022-11-05T23:14:52Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
                 Group: "Missions", Name: "Puzzle Revisit #34\nA Rock and a Hard Place", Class: "Rematch",
-                Time: "2022-11-05T15:48:13Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Time: "2022-11-05T23:57:09Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
                 Group: "Missions", Name: "Puzzle Revisit #35\nTower 4: The Quickening", Class: "Rematch",
-                Time: "2022-11-05T12:12:22Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Time: "2022-11-06T02:46:15Z", Attempts: 3, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
                 Group: "Missions", Name: "Puzzle Revisit #36\nFloor Frolic", Class: "Rematch",
-                Time: "2022-11-05T12:32:45Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Time: "2022-11-06T03:14:53Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
                 Group: "Missions", Name: "Puzzle Revisit #37\nThe Fog in the Forest", Class: "Rematch",
-                Time: "2022-11-05T13:03:33Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Time: "2022-11-06T10:37:03Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
+			
+            { "Group": "Pokemon", "Name": "Gloom", "Time": "2022-11-06T11:05:53Z" },
+			
 			{
                 Group: "Missions", Name: "Puzzle Revisit #38\nA Safari Among Friends", Class: "Rematch",
-                Time: "2022-11-05T23:31:52Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Time: "2022-11-06T13:00:49Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
                 Group: "Missions", Name: "Puzzle Revisit #39\nThe Last Hurrah", Class: "Rematch",
-                Time: "2022-11-05T06:52:30Z", Attempts: 1, Image: "img/trainers/emerald/flannery.png",
+                Time: "2022-11-06T16:47:14Z", Attempts: 2, Image: "img/trainers/emerald/flannery.png",
             },
-			*/
+			
+			// Missing Meganium, Typhlosion, Rhydon, Donphan, Crobat, Sudowoodo
 		
         ],
         Revisit: { Collection: "Intermissions", Run: "Trick or Treat House 2022" },
