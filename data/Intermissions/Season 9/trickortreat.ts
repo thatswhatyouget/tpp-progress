@@ -29,7 +29,7 @@ Intermissions.Runs.push(
             { "Group": "Pokemon", "Name": "Jolteon", "Time": "2022-10-31T00:50:12Z" },
 		
 			
-			 {
+			{
                 Group: "Missions", Name: "Puzzle #1\nShrub Shredding",
                 Time: "2022-10-31T01:18:53Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
