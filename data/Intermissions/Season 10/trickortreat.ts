@@ -203,7 +203,7 @@ Intermissions.Runs.push(
             },
             {
                 Group: "Missions", Name: "Puzzle #39\nThe Last Hurrah",
-                Time: "2023-11-02T11:26:51", Attempts: 1, Image: "img/trainers/emerald/flannery.png",
+                Time: "2023-11-02T11:26:51Z", Attempts: 1, Image: "img/trainers/emerald/flannery.png",
             },
 		
 		
