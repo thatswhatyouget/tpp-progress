@@ -190,6 +190,9 @@ namespace TPP.Display.Elements.RunStatus {
         private get tournaments() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Tournaments"));
         }
+        private get battleFrontier() {
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Symbols" || e.Group == "Prints"));
+        }
 
         private get partyDisplay() {
             if (this.state.status && this.state.status.party)
@@ -238,6 +241,7 @@ namespace TPP.Display.Elements.RunStatus {
                     <CurrentLocation mapName={this.state.status.map_name} areaName={this.state.status.area_name} />
                     <EventDisplay key="Past Hosts" events={this.pastHosts} />
                     <EventDisplay key="Tournaments" events={this.tournaments} />
+                    <EventDisplay key="Battle Frontier" events={this.battleFrontier} />
                     <EventDisplay key="Elite Four Rematch" events={this.eliteFourRematch} />
                     <EventDisplay key="Rematch Badges" events={this.rematchBadges} />
                     <EventDisplay key="Rematch Bosses" events={this.rematchBosses} />
