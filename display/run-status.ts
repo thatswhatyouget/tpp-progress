@@ -94,6 +94,8 @@ module TPP.Display.RunStatus {
             $container.append(DrawBadges(run, extractPastHosts(run)));
         if (extractTournaments(run).length > 0)
             $container.append(DrawBadges(run, extractTournaments(run)));
+        if (extractBattleFrontier(run).length > 0)
+            $container.append(DrawBadges(run, extractBattleFrontier(run)));
         if (extractEliteFourRematch(run).length > 0)
             $container.append(DrawBadges(run, extractRematchBosses(run)));
         if (extractEliteFourRematch(run).length > 0)
@@ -173,6 +175,9 @@ module TPP.Display.RunStatus {
     }
     function extractTournaments(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Tournaments");
+    }
+    function extractBattleFrontier(run: TPP.Run) {
+        return run.Events.filter(e => e.Group == "Symbols" || e.Group == "Prints");
     }
 
     function DrawBadges(run: TPP.Run, badges = extractBadges(run)) {

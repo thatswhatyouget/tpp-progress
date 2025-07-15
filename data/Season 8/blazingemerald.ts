@@ -218,6 +218,14 @@ Season8.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
 			
+            {
+                Group: "Symbols",
+                Name: "Knowledge",
+                Image: "img/badges/symbols/knowledgeS.png",
+                Time: "2021-08-31T02:44:49Z",
+                Attempts: 0
+            },
+			
             { "Group": "Champions", "Image": "img/hosts/other/npcs/mastertrainer.png", "Name": "Maurice", "Time": "2021-08-26T00:42:01Z", "Attempts": 0 },
             { "Group": "Champions", "Image": "img/hosts/other/npcs/mastertrainer.png", "Name": "AJ", "Time": "2021-08-30T22:18:02Z", "Attempts": 0 },
             { "Group": "Champions", "Image": "img/hosts/other/npcs/mastertrainer.png", "Name": "Cyan", "Time": "2021-08-31T07:04:00Z", "Attempts": 0 },

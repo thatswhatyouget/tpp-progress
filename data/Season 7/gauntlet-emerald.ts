@@ -118,6 +118,28 @@ Season7.Runs.push(
                 FirstAttemptDate: "6d 17h 26m",
                 Image: "img/ribbons/champion.png"
             },
+			
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Dynamo Badge",
+                Image: "img/badges/dynamo.png",
+                Time: "2020-03-16T20:14:35.533Z",
+                Attempts: 1
+            },
+			
+            {
+                Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png",
+                Time: "2020-03-16T22:34:59.393Z", Attempts: 2
+            },
+			
+            {
+                Group: "Symbols",
+                Name: "Knowledge",
+                Image: "img/badges/symbols/knowledgeS.png",
+                Time: "2020-03-18T00:44:45.430Z",
+                Attempts: 0
+            },
 
             { "Group": "Pokemon", "Name": "Torchic", "Time": "2020-03-07T01:11:22.625Z" },
             { "Group": "Pokemon", "Name": "Wurmple", "Time": "2020-03-07T03:07:11.987Z" },
