@@ -429,7 +429,7 @@ Revisits.Runs.push(
 
 Revisits.Runs.push(
     {
-        RunName: "Scarlet Revisit - Switch 2",
+        RunName: "Scarlet Revisit - Switch 2 Edition",
         ColorPrimary: "#D70D19",
         ColorSecondary: "#6A2B30",
         Duration: "2025-06-15T19:00:03Z",
