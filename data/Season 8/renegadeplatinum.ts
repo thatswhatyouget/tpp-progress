@@ -117,6 +117,72 @@ Season8.Runs.push(
                 FirstAttemptDate: "2021-04-17T00:14:53.940Z",
                 Image: "img/ribbons/champion-sinnoh.png"
             },
+			
+            {
+                Group: "Rematch Badges",
+                Name: "Coal Badge",
+                Image: "img/badges/coal.png",
+                Class: "Rematch",
+                Time: "2021-04-19T16:51:17.778Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Name: "Forest Badge",
+                Image: "img/badges/forest.png",
+                Class: "Rematch",
+                Time: "2021-04-19T17:09:10.268Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Name: "Cobble Badge",
+                Image: "img/badges/cobble.png",
+                Class: "Rematch",
+                Time: "2021-04-19T20:56:01.993Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Name: "Fen Badge",
+                Image: "img/badges/fen.png",
+                Class: "Rematch",
+                Time: "2021-04-19T20:41:26.712Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Name: "Relic Badge",
+                Image: "img/badges/relic.png",
+                Class: "Rematch",
+                Time: "2021-04-19T15:42:50.588Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Name: "Mine Badge",
+                Image: "img/badges/mine.png",
+                Class: "Rematch",
+                Time: "2021-04-19T20:26:03.286Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Name: "Icicle Badge",
+                Image: "img/badges/icicle.png",
+                Class: "Rematch",
+                Time: "2021-04-19T15:26:55.160Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Name: "Beacon Badge",
+                Image: "img/badges/beacon.png",
+                Class: "Rematch",
+                Time: "2021-04-19T16:11:34.529Z",
+                Attempts: 1
+            },
+			
             {
                 Group: "Elite Four Rematch",
                 Class: "Rematch",

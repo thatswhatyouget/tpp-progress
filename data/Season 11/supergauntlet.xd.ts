@@ -164,6 +164,16 @@ Season11.Runs.push(
             { Name: "Dodrio", Time: "2024-04-26T21:50:22Z", Group: "Pokemon" },
             { Name: "Farfetch'd", Time: "2024-04-26T22:18:16Z", Group: "Pokemon" },
             { Name: "Altaria", Time: "2024-04-26T22:23:28Z", Group: "Pokemon" },
+			
+            {
+                Group: "Final Bosses",
+                Image: "img/trainers/xd/lovrina.png",
+                ImageSource: "http://djshop.smackjeeves.com/comics/381730/rui-lovrina/",
+                Name: "Lovrina",
+                Time: "2024-04-26T22:23:53Z",
+                Attempts: 1
+            },
+			
             { Name: "Kangaskhan", Time: "2024-04-26T22:52:11Z", Group: "Pokemon" },
             { Name: "Banette", Time: "2024-04-26T22:54:43Z", Group: "Pokemon" },
             { Name: "Pinsir", Time: "2024-04-26T23:09:59Z", Group: "Pokemon" },
@@ -175,11 +185,41 @@ Season11.Runs.push(
             { Name: "Magcargo", Time: "2024-04-27T04:06:39Z", Group: "Pokemon" },
             { Name: "Starmie", Time: "2024-04-27T06:31:58Z", Group: "Pokemon" },
             { Name: "Solrock", Time: "2024-04-27T06:36:18Z", Group: "Pokemon" },
+			
+            {
+                Group: "Final Bosses",
+                Image: "img/trainers/xd/snattle.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherSnattle.png.html",
+                Name: "Snattle",
+                Time: "2024-04-27T06:36:36Z",
+                Attempts: 2
+            },
+			
             { Name: "Rapidash", Time: "2024-04-27T09:21:47Z", Group: "Pokemon" },
             { Name: "Electabuzz", Time: "2024-04-27T10:08:38Z", Group: "Pokemon" },
             { Name: "Snorlax", Time: "2024-04-27T10:09:13Z", Group: "Pokemon" },
+			
+            {
+                Group: "Final Bosses",
+                Image: "img/trainers/xd/ardos.png",
+                Name: "Ardos",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherArdos.png.html",
+                Time: "2024-04-27T10:10:46Z",
+                Attempts: 2
+            },
+			
             { Name: "Poliwrath", Time: "2024-04-27T10:35:39Z", Group: "Pokemon" },
             { Name: "Mr. Mime", Time: "2024-04-27T10:38:49Z", Group: "Pokemon" },
+			
+            {
+                Group: "Final Bosses",
+                Image: "img/trainers/xd/gorigan.png",
+                ImageSource: "http://billyk40.deviantart.com/art/Gorigan-BW-257880611",
+                Name: "Gorigan",
+                Time: "2024-04-27T10:39:26Z",
+                Attempts: 1
+            },
+			
             { Name: "Scyther", Time: "2024-04-27T13:02:43Z", Group: "Pokemon" },
             { Name: "Swellow", Time: "2024-04-27T15:05:20Z", Group: "Pokemon" },
             { Name: "Vibrava", Time: "2024-04-27T18:02:57Z", Group: "Pokemon" },
@@ -188,6 +228,16 @@ Season11.Runs.push(
             { Name: "Salamence", Time: "2024-04-27T20:26:53Z", Group: "Pokemon" },
             { Name: "Marowak", Time: "2024-04-27T20:28:22Z", Group: "Pokemon" },
             { Name: "Lapras", Time: "2024-04-27T20:33:04Z", Group: "Pokemon" },
+			
+            {
+                Group: "Final Bosses",
+                Image: "img/trainers/xd/eldes.png",
+                ImageSource: "http://billyk40.deviantart.com/art/Eldes-BW-262784197",
+                Name: "Eldes",
+                Time: "2024-04-27T20:33:35Z",
+                Attempts: 2
+            },
+			
             { Name: "Lugia", Time: "2024-04-27T21:01:59Z", Group: "Pokemon" },
             { Name: "Rhydon", Time: "2024-04-27T21:15:56Z", Group: "Pokemon" },
             { Name: "Moltres", Time: "2024-04-27T21:23:14Z", Group: "Pokemon" },
@@ -196,54 +246,13 @@ Season11.Runs.push(
             { Name: "Zapdos", Time: "2024-04-27T21:37:29Z", Group: "Pokemon" },
             { Name: "Tauros", Time: "2024-04-27T21:38:33Z", Group: "Pokemon" },
 			
-			
-            {
-                Group: "Final Bosses",
-                Image: "img/trainers/xd/lovrina.png",
-                ImageSource: "http://djshop.smackjeeves.com/comics/381730/rui-lovrina/",
-                Name: "Lovrina",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Final Bosses",
-                Image: "img/trainers/xd/snattle.png",
-                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherSnattle.png.html",
-                Name: "Snattle",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Final Bosses",
-                Image: "img/trainers/xd/ardos.png",
-                Name: "Ardos",
-                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherArdos.png.html",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Final Bosses",
-                Image: "img/trainers/xd/gorigan.png",
-                ImageSource: "http://billyk40.deviantart.com/art/Gorigan-BW-257880611",
-                Name: "Gorigan",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Final Bosses",
-                Image: "img/trainers/xd/eldes.png",
-                ImageSource: "http://billyk40.deviantart.com/art/Eldes-BW-262784197",
-                Name: "Eldes",
-                Time: "",
-                Attempts: 0
-            },
             {
                 Group: "Champions",
                 Image: "img/trainers/xd/greevil.png",
                 ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/greevil.gif.html",
                 Name: "Greevil",
-                Time: "",
-                Attempts: 0
+                Time: "2024-04-27T21:39:00Z",
+                Attempts: 1
             },
 			
             <TPP.HallOfFame>{
