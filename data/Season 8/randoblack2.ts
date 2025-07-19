@@ -49,6 +49,20 @@ Season8.Runs.push(
                 Time: "2021-07-16T03:33:47.404Z",
                 Attempts: 3
             },
+			
+            { 
+				Group: "Tournaments", Name: "Randomizer Roundup", 
+				Image: "img/hosts/aoooo.png", 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+				Time: "2021-07-17T16:14:10.624Z", Attempts: 1, 
+			},
+            { 
+				Group: "Tournaments", Name: "TPP Anniversary Challenge", 
+				Image: "img/hosts/red.png", 
+				Time: "2021-07-17T16:48:28.241Z", Attempts: 1, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", 
+			},
+			
             {
                 Group: "Badges",
                 Name: "Jet Badge",
@@ -123,8 +137,8 @@ Season8.Runs.push(
                 Name: "Grimsley",
                 Image: "img/trainers/black/grimsley.png",
                 Class: "Rematch",
-                Time: "2021-07-29T21:37:10.626Z",
-                Attempts: 3
+                Time: "2021-07-27T03:16:33.901Z",
+                Attempts: 2
             },
             {
                 Group: "Elite Four Rematch",
@@ -150,10 +164,65 @@ Season8.Runs.push(
                 Time: "2021-07-23T20:19:00.629Z",
                 Attempts: 1
             },
+			
+            {
+                Group: "Champions",
+                Name: "Alder",
+                Image: "img/trainers/black/alder.png",
+                Time: "2021-07-25T20:35:03.003Z",
+                Attempts: 1
+            },
+            {
+                Group: "Champions",
+                Name: "Cynthia",
+                Image: "img/trainers/platinum/cynthia.png",
+                Time: "2021-07-28T14:15:47.838Z",
+                Attempts: 1
+            },
+            { 
+				Group: "Tournaments", Name: "Unova Champion's Challenge", 
+				Image: "img/hosts/cly.png", 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+				Time: "2021-07-29T13:05:42.557Z", Attempts: 2,  
+			},
+			
+            {
+                Group: "Elite Four Rematch",
+                Name: " W ☹☹''",
+                Image: "img/hosts/w.png",
+                Class: "Rematch",
+                Time: "2021-07-29T20:29:48.027Z",
+                Attempts: 1
+            },
+            {
+                Group: "Elite Four Rematch",
+                Name: "AAAALK'",
+                Image: "img/hosts/aaaalk.png",
+                Class: "Rematch",
+                Time: "2021-07-29T20:40:39.825Z",
+                Attempts: 1
+            },
+            {
+                Group: "Elite Four Rematch",
+                Name: "\u2640\u2640R",
+                Image: "img/hosts/r.png",
+                Class: "Rematch",
+                Time: "2021-07-29T21:10:42.342Z",
+                Attempts: 2
+            },
+            {
+                Group: "Elite Four Rematch",
+                Name: "♂♂♂'",
+                Image: "img/hosts/♂♂♂.png",
+                Class: "Rematch",
+                Time: "2021-07-29T22:16:49.846Z",
+                Attempts: 5
+            },
+			
             {
                 Group: "Champions",
                 Name: "Iris",
-                Image: "img/trainers/black/iris.png",
+                Image: "img/trainers/black/sabrina.png",
                 Class: "Rematch",
                 Time: "2021-07-29T23:30:29.322Z",
                 Attempts: 2
@@ -170,6 +239,7 @@ Season8.Runs.push(
                 FirstAttemptDate: "2021-07-23T20:11:35.431Z",
                 Image: "img/ribbons/champion.png"
             },
+			
             { "Group": "Pokemon", "Name": "NidoranM", "Time": "2021-07-12T16:08:59.229Z" },
             // { "Group": "Pokemon", "Name": "Lillipup", "Time": "2021-07-12T16:23:02.060Z" }, // Bianca's
             { "Group": "Pokemon", "Name": "Lillipup", "Time": "2021-07-12T16:34:38.989Z" },
