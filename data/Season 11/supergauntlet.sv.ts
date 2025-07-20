@@ -223,16 +223,40 @@ Season11.Runs.push(
 			{ Name: "Bellsprout", Time: "2024-07-24T23:30:22Z", Group: "Pokemon" },
 			{ Name: "Poochyena", Time: "2024-07-24T23:31:45Z", Group: "Pokemon" },
 			{ Name: "Grubbin", Time: "2024-07-24T23:34:49Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Munkidori", Class: "pokesprite",
+				Time: "2024-07-24T23:45:22Z", Attempts: 1
+			},
+			
 			{ Name: "Jangmo-o", Time: "2024-07-24T23:49:34Z", Group: "Pokemon" },
 			{ Name: "Nosepass", Time: "2024-07-24T23:51:41Z", Group: "Pokemon" },
 			{ Name: "Gligar", Time: "2024-07-24T23:56:59Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Okidogi", Class: "pokesprite",
+				Time: "2024-07-25T00:00:44Z", Attempts: 1
+			},
+			
 			{ Name: "Luxio", Time: "2024-07-25T00:10:53Z", Group: "Pokemon" },
 			{ Name: "Seedot", Time: "2024-07-25T00:27:53Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Fezandipiti", Class: "pokesprite",
+				Time: "2024-07-25T01:08:04Z", Attempts: 1
+			},
+			
 			{ Name: "Orthworm", Time: "2024-07-25T01:40:52Z", Group: "Pokemon" },
 			{ Name: "Hoothoot", Time: "2024-07-25T02:04:04Z", Group: "Pokemon" },
 			{ Name: "Yanma", Time: "2024-07-25T02:11:09Z", Group: "Pokemon" },
 			{ Name: "Furret", Time: "2024-07-25T02:21:21Z", Group: "Pokemon" },
 			{ Name: "Ogerpon", Time: "2024-07-25T02:43:35Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Ogerpon", Class: "pokesprite",
+				Time: "2024-07-25T02:45:22Z", Attempts: 1
+			},
+			
 			{ Name: "Tinkaton", Time: "2024-07-25T03:16:15Z", Group: "Pokemon" },
 			
             {
