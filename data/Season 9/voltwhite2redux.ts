@@ -70,6 +70,26 @@ Season9.Runs.push(
                 Time: "2022-12-30T20:07:53.025Z",
                 Attempts: 1
             },
+			
+            { 
+				Group: "Tournaments", Name: "TPP Anniversary Challenge", 
+				Image: "img/hosts/red.png", 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+				Time: "2022-12-31T17:47:43Z", Attempts: 1,  
+			},
+            { 
+				Group: "Tournaments", Name: "Unova Champion's Challenge", 
+				Image: "img/hosts/cly.png", 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+				Time: "2022-12-31T18:11:08Z", Attempts: 1,  
+			},
+            { 
+				Group: "Tournaments", Name: "Four Heavenly Kings", 
+				Image: "img/hosts/u.png", 
+				ImageSource: "https://www.deviantart.com/krizste/art/TPP-GrandColosseum-Yuu-sprites-944943144",
+				Time: "2022-12-31T18:43:01Z", Attempts: 3,  
+			},
+			
             {
                 Group: "Elite Four",
                 Name: "Shauntal",
@@ -117,6 +137,176 @@ Season9.Runs.push(
                 FirstAttemptDate: "2022-12-31T16:41:43.243Z",
                 Image: "img/ribbons/champion.png"
             },
+			
+            {
+                Group: "Champions",
+                Name: "Red",
+                Image: "img/trainers/heartgold/red.png",
+                Time: "2023-01-01T11:11:05.556Z",
+                Attempts: 1
+            },
+            {
+                Group: "Champions",
+                Name: "Blue",
+                Image: "img/trainers/heartgold/blue.png",
+                Time: "2023-01-01T15:16:19Z",
+                Attempts: 1
+            },
+            {
+                Group: "Champions",
+                Name: "Alder",
+                Image: "img/trainers/black/alder.png",
+                Time: "2023-01-01T18:35:10Z",
+                Attempts: 1
+            },
+            {
+                Group: "Champions",
+                Name: "Cynthia",
+                Image: "img/trainers/platinum/cynthia.png",
+                Time: "2023-01-02T01:07:08Z",
+                Attempts: 1
+            },
+			
+            {
+				Group: "Tournaments", Name: "Unova Leaders Tournament", 
+				Image: "img/trainers/black2/roxie.png",
+				Time: "2023-01-02T08:37:37Z", Attempts: 2,  
+			},
+            {
+				Group: "Tournaments", Name: "Kanto Leaders Tournament", 
+				Image: "img/trainers/heartgold/erika.png",
+				Time: "2023-01-02T08:53:36Z", Attempts: 1,  
+			},
+            {
+				Group: "Tournaments", Name: "Johto Leaders Tournament", 
+				Image: "img/trainers/heartgold/chuck.png",
+				Time: "2023-01-02T09:15:52Z", Attempts: 2,  
+			},
+            {
+				Group: "Tournaments", Name: "Sinnoh Leaders Tournament", 
+				Image: "img/trainers/platinum/byron.png",
+				Time: "2023-01-02T09:43:01Z", Attempts: 1,  
+			},
+            {
+				Group: "Tournaments", Name: "Hoenn Leaders Tournament", 
+				Image: "img/trainers/black2/juan.png",
+				Time: "2023-01-02T09:58:33Z", Attempts: 1,  
+			},
+            {
+				Group: "Tournaments", Name: "World Leaders Tournament", 
+				Image: "img/trainers/heartgold/misty.png",
+				Time: "2023-01-03T00:31:09Z", Attempts: 4,  
+			},
+			
+			{ 
+				Group: "Past Hosts", Name: "AAQ", 
+				Image: "img/hosts/aaq.png",
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/beur93/aqua_kuehl_the_lonely/",
+				Time: "2023-01-03T04:54:27Z", Attempts: 1,
+			},
+			{ 
+				Group: "Past Hosts", Name: "\u2640\u2640R", 
+				Image: "img/hosts/r.png",
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/g4c56y/reese_the_super_pokestar/",
+				Time: "2023-01-03T05:09:08Z", Attempts: 1,
+			},
+			{ 
+				Group: "Past Hosts", Name: "KAY", 
+				Image: "img/hosts/kay.png",
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/aq2qmu/kay_the_planeswalker/",
+				Time: "2023-01-03T05:50:39Z", Attempts: 2,
+			},
+			{
+				Group: "Past Hosts", Name: "♂♂♂'",
+				Image: "img/hosts/♂♂♂.png",
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/odwg8w/mars_the_tomboyish_trainer_barp_the_ampharos_and/",
+				Time: "2023-01-03T06:11:44Z", Attempts: 1,
+			},
+			{
+				Group: "Past Hosts", Name: " W ☹☹''",
+				Image: "img/hosts/w.png",
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/oj9bjq/witte_nachtmerrie_the_daughter_of_darkrai/",
+				Time: "2023-01-03T06:31:06Z", Attempts: 1,
+			},
+			{
+				Group: "Past Hosts", Name: ".iecbw",
+				Image: "img/hosts/iecbw.png",
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/frj3r5/isabelle_ice_dot_the_host_of_gauntlet_platinum/",
+				Time: "2023-01-03T06:44:51Z", Attempts: 1,
+			},
+			{
+				Group: "Past Hosts", Name: "n",
+				Image: "img/hosts/n.png",
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/fnbjl0/the_gauntlet_hall_of_fame_36/",
+				Time: "2023-01-03T06:54:15Z", Attempts: 1,
+			},
+			{
+				Group: "Past Hosts", Name: "AAAALK'",
+				Image: "img/hosts/aaaalk.png",
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/6f6mw8/dr_alek_our_serious_and_diligent_protagonist/",
+				Time: "2023-01-03T07:13:00Z", Attempts: 1,
+			},
+			{
+				Group: "Past Hosts", Name: "dπ",
+				Image: "img/hosts/dpk.png",
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/fb0l7h/dr_deepak_kurosawa_aka_doctor_pokemon_aka_dippy_k/",
+				Time: "2023-01-03T07:25:14Z", Attempts: 1,
+			},
+			
+            {
+                Group: "Champions",
+                Name: "Hilbert",
+                Image: "img/trainers/black/hilbert.png",
+                Time: "2023-01-03T07:35:02Z",
+                Attempts: 1
+            },
+            {
+                Group: "Champions",
+                Name: "Hilda",
+                Image: "img/trainers/black/hilda.png",
+                Time: "2023-01-03T14:58:05Z",
+                Attempts: 1
+            },
+			
+			{
+				Group: "Past Hosts", Name: "RED",
+				Image: "img/hosts/red2.png",
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/f84tx7/the_gauntlet_hall_of_fame_16/",
+				Time: "2023-01-03T15:35:04Z", Attempts: 1,
+			},
+			
+            {
+                Group: "Champions",
+                Name: "Steven & Wallace",
+                Image: "img/trainers/black2/stevenwallace.png",
+                Time: "2023-01-03T17:15:57Z",
+                Attempts: 3
+            },
+			
+            { 
+				Group: "Tournaments", Name: "The Battle of the Hacks!", 
+				Image: "img/hosts/ahunigg-2.png", 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/64fn91/ahuni_our_adorably_sweet_protagonist_animated/",
+				Time: "2023-01-05T00:33:21Z", Attempts: 1,  
+			},
+            { 
+				Group: "Tournaments", Name: "Randomizer Roundup", 
+				Image: "img/hosts/pp.png", 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/4vj5qp/meet_pepe/",
+				Time: "2023-01-05T00:58:47Z", Attempts: 1,  
+			},
+            {
+				Group: "Tournaments", Name: "Champions Tournament", 
+				Image: "img/trainers/heartgold/lance-2.png",
+				Time: "2023-01-05T14:07:42Z", Attempts: 4,  
+			},
+            { 
+				Group: "Tournaments", Name: "Team Snagem Roundup", 
+				Image: "img/trainers/colosseum/gonzap.png",
+				ImageSource: "http://forum.yugiohcardmaker.net/topic/200460-colosseum-sprites/",
+				Time: "2023-01-05T23:49:50Z", Attempts: 1,  
+			},
+			
             {
                 Group: "Elite Four Rematch",
                 Name: "Grimsley",

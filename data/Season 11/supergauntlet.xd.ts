@@ -14,118 +14,6 @@ Season11.Runs.push(
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
         //FinalStateLink: "./states/Season 11/supergauntletxd.json",
         Events: [
-            {
-                Group: "Bosses",
-                Image: "img/trainers/xd/naps.png",
-                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherNaps.png.html",
-                Name: "Naps",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Bosses",
-                Image: "img/trainers/xd/lovrina.png",
-                ImageSource: "http://djshop.smackjeeves.com/comics/381730/rui-lovrina/",
-                Name: "Lovrina",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Bosses",
-                Image: "img/trainers/xd/mirorb.png",
-                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/MirorB.png.html",
-                Name: "Miror B.",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Bosses",
-                Image: "img/trainers/xd/exol.png",
-                ImageSource: "http://s1292.photobucket.com/user/Apollothemuse/media/Sprites/BulkyPeonSprite_zps84376303.png.html",
-                Name: "Exol",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Bosses",
-                Image: "img/trainers/xd/snattle.png",
-                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherSnattle.png.html",
-                Name: "Snattle",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Bosses",
-                Image: "img/trainers/xd/mirorb.png",
-                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/MirorB.png.html",
-                Name: "Miror B.",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Bosses",
-                Image: "img/trainers/colosseum/gonzap.png",
-                ImageSource: "http://forum.yugiohcardmaker.net/topic/200460-colosseum-sprites/",
-                Name: "Gonzap",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Bosses",
-                Image: "img/trainers/xd/gorigan.png",
-                ImageSource: "http://billyk40.deviantart.com/art/Gorigan-BW-257880611",
-                Name: "Gorigan",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Final Bosses",
-                Image: "img/trainers/xd/lovrina.png",
-                ImageSource: "http://djshop.smackjeeves.com/comics/381730/rui-lovrina/",
-                Name: "Lovrina",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Final Bosses",
-                Image: "img/trainers/xd/snattle.png",
-                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherSnattle.png.html",
-                Name: "Snattle",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Final Bosses",
-                Image: "img/trainers/xd/ardos.png",
-                Name: "Ardos",
-                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherArdos.png.html",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Final Bosses",
-                Image: "img/trainers/xd/gorigan.png",
-                ImageSource: "http://billyk40.deviantart.com/art/Gorigan-BW-257880611",
-                Name: "Gorigan",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Final Bosses",
-                Image: "img/trainers/xd/eldes.png",
-                ImageSource: "http://billyk40.deviantart.com/art/Eldes-BW-262784197",
-                Name: "Eldes",
-                Time: "",
-                Attempts: 0
-            },
-            {
-                Group: "Champions",
-                Image: "img/trainers/xd/greevil.png",
-                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/greevil.gif.html",
-                Name: "Greevil",
-                Time: "",
-                Attempts: 0
-            },
 			
             { Name: "Eevee", Time: "2024-04-22T21:02:53Z", Group: "Pokemon" },
             { Name: "Teddiursa", Time: "2024-04-22T22:21:07Z", Group: "Pokemon" },
@@ -145,7 +33,27 @@ Season11.Runs.push(
             { Name: "Carvanha", Time: "2024-04-23T11:50:22Z", Group: "Pokemon" },
             { Name: "Shroomish", Time: "2024-04-23T12:06:57Z", Group: "Pokemon" },
             { Name: "Delcatty", Time: "2024-04-23T12:44:17Z", Group: "Pokemon" },
+			
+            {
+                Group: "Bosses",
+                Image: "img/trainers/xd/lovrina.png",
+                ImageSource: "http://djshop.smackjeeves.com/comics/381730/rui-lovrina/",
+                Name: "Lovrina",
+                Time: "2024-04-23T12:44:57Z",
+                Attempts: 1
+            },
+			
             { Name: "Voltorb", Time: "2024-04-23T15:59:58Z", Group: "Pokemon" },
+			
+            {
+                Group: "Bosses",
+                Image: "img/trainers/xd/mirorb.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/MirorB.png.html",
+                Name: "Miror B.",
+                Time: "2024-04-23T16:00:24Z",
+                Attempts: 1
+            },
+			
             { Name: "Gligar", Time: "2024-04-23T16:52:39Z", Group: "Pokemon" },
             { Name: "Makuhita", Time: "2024-04-23T18:16:03Z", Group: "Pokemon" },
             { Name: "Flaaffy", Time: "2024-04-23T18:49:31Z", Group: "Pokemon" },
@@ -156,6 +64,16 @@ Season11.Runs.push(
             { Name: "Duskull", Time: "2024-04-23T21:51:09Z", Group: "Pokemon" },
             { Name: "Ralts", Time: "2024-04-23T22:00:08Z", Group: "Pokemon" },
             { Name: "Mawile", Time: "2024-04-23T22:21:18Z", Group: "Pokemon" },
+			
+            {
+                Group: "Bosses",
+                Image: "img/trainers/xd/exol.png",
+                ImageSource: "http://s1292.photobucket.com/user/Apollothemuse/media/Sprites/BulkyPeonSprite_zps84376303.png.html",
+                Name: "Exol",
+                Time: "2024-04-23T22:24:48Z",
+                Attempts: 1
+            },
+			
             { Name: "Snorunt", Time: "2024-04-23T23:37:18Z", Group: "Pokemon" },
             { Name: "Pineco", Time: "2024-04-23T23:59:28Z", Group: "Pokemon" },
             { Name: "Wooper", Time: "2024-04-24T00:25:10Z", Group: "Pokemon" },
@@ -173,13 +91,43 @@ Season11.Runs.push(
             { Name: "Golbat", Time: "2024-04-24T11:10:46Z", Group: "Pokemon" },
             { Name: "Surskit", Time: "2024-04-24T11:21:51Z", Group: "Pokemon" },
             { Name: "Lunatone", Time: "2024-04-24T12:44:08Z", Group: "Pokemon" },
+			
+            {
+                Group: "Bosses",
+                Image: "img/trainers/xd/snattle.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherSnattle.png.html",
+                Name: "Snattle",
+                Time: "2024-04-24T12:44:42Z",
+                Attempts: 3
+            },
+			
             { Name: "Meditite", Time: "2024-04-24T14:47:04Z", Group: "Pokemon" },
             { Name: "Larvitar", Time: "2024-04-24T14:48:13Z", Group: "Pokemon" },
             { Name: "Shuckle", Time: "2024-04-24T14:49:16Z", Group: "Pokemon" },
+			
+            {
+                Group: "Bosses",
+                Image: "img/trainers/xd/mirorb.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/MirorB.png.html",
+                Name: "Miror B.",
+                Time: "2024-04-24T22:56:41Z",
+                Attempts: 1
+            },
+			
             { Name: "Togepi", Time: "2024-04-24T23:06:22Z", Group: "Pokemon" },
             { Name: "Forretress", Time: "2024-04-25T00:38:34Z", Group: "Pokemon" },
             { Name: "Elekid", Time: "2024-04-25T03:44:46Z", Group: "Pokemon" },
             { Name: "Dusclops", Time: "2024-04-25T07:49:42Z", Group: "Pokemon" },
+			
+            {
+                Group: "Bosses",
+                Image: "img/trainers/colosseum/gonzap.png",
+                ImageSource: "http://forum.yugiohcardmaker.net/topic/200460-colosseum-sprites/",
+                Name: "Gonzap",
+                Time: "2024-04-25T08:47:26Z",
+                Attempts: 2
+            },
+			
             { Name: "Nosepass", Time: "2024-04-25T12:12:12Z", Group: "Pokemon" },
             { Name: "Crobat", Time: "2024-04-25T17:19:25Z", Group: "Pokemon" },
             { Name: "Piloswine", Time: "2024-04-25T17:19:57Z", Group: "Pokemon" },
@@ -196,6 +144,16 @@ Season11.Runs.push(
             { Name: "Arbok", Time: "2024-04-26T00:22:24Z", Group: "Pokemon" },
             { Name: "Primeape", Time: "2024-04-26T00:34:51Z", Group: "Pokemon" },
             { Name: "Hypno", Time: "2024-04-26T00:37:01Z", Group: "Pokemon" },
+			
+            {
+                Group: "Bosses",
+                Image: "img/trainers/xd/gorigan.png",
+                ImageSource: "http://billyk40.deviantart.com/art/Gorigan-BW-257880611",
+                Name: "Gorigan",
+                Time: "2024-04-26T00:37:24Z",
+                Attempts: 1
+            },
+			
             { Name: "Pidgeotto", Time: "2024-04-26T03:53:52Z", Group: "Pokemon" },
             { Name: "Quagsire", Time: "2024-04-26T12:34:07Z", Group: "Pokemon" },
             { Name: "Sandslash", Time: "2024-04-26T15:28:40Z", Group: "Pokemon" },
@@ -206,6 +164,16 @@ Season11.Runs.push(
             { Name: "Dodrio", Time: "2024-04-26T21:50:22Z", Group: "Pokemon" },
             { Name: "Farfetch'd", Time: "2024-04-26T22:18:16Z", Group: "Pokemon" },
             { Name: "Altaria", Time: "2024-04-26T22:23:28Z", Group: "Pokemon" },
+			
+            {
+                Group: "Final Bosses",
+                Image: "img/trainers/xd/lovrina.png",
+                ImageSource: "http://djshop.smackjeeves.com/comics/381730/rui-lovrina/",
+                Name: "Lovrina",
+                Time: "2024-04-26T22:23:53Z",
+                Attempts: 1
+            },
+			
             { Name: "Kangaskhan", Time: "2024-04-26T22:52:11Z", Group: "Pokemon" },
             { Name: "Banette", Time: "2024-04-26T22:54:43Z", Group: "Pokemon" },
             { Name: "Pinsir", Time: "2024-04-26T23:09:59Z", Group: "Pokemon" },
@@ -217,11 +185,41 @@ Season11.Runs.push(
             { Name: "Magcargo", Time: "2024-04-27T04:06:39Z", Group: "Pokemon" },
             { Name: "Starmie", Time: "2024-04-27T06:31:58Z", Group: "Pokemon" },
             { Name: "Solrock", Time: "2024-04-27T06:36:18Z", Group: "Pokemon" },
+			
+            {
+                Group: "Final Bosses",
+                Image: "img/trainers/xd/snattle.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherSnattle.png.html",
+                Name: "Snattle",
+                Time: "2024-04-27T06:36:36Z",
+                Attempts: 2
+            },
+			
             { Name: "Rapidash", Time: "2024-04-27T09:21:47Z", Group: "Pokemon" },
             { Name: "Electabuzz", Time: "2024-04-27T10:08:38Z", Group: "Pokemon" },
             { Name: "Snorlax", Time: "2024-04-27T10:09:13Z", Group: "Pokemon" },
+			
+            {
+                Group: "Final Bosses",
+                Image: "img/trainers/xd/ardos.png",
+                Name: "Ardos",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/CipherArdos.png.html",
+                Time: "2024-04-27T10:10:46Z",
+                Attempts: 2
+            },
+			
             { Name: "Poliwrath", Time: "2024-04-27T10:35:39Z", Group: "Pokemon" },
             { Name: "Mr. Mime", Time: "2024-04-27T10:38:49Z", Group: "Pokemon" },
+			
+            {
+                Group: "Final Bosses",
+                Image: "img/trainers/xd/gorigan.png",
+                ImageSource: "http://billyk40.deviantart.com/art/Gorigan-BW-257880611",
+                Name: "Gorigan",
+                Time: "2024-04-27T10:39:26Z",
+                Attempts: 1
+            },
+			
             { Name: "Scyther", Time: "2024-04-27T13:02:43Z", Group: "Pokemon" },
             { Name: "Swellow", Time: "2024-04-27T15:05:20Z", Group: "Pokemon" },
             { Name: "Vibrava", Time: "2024-04-27T18:02:57Z", Group: "Pokemon" },
@@ -230,6 +228,16 @@ Season11.Runs.push(
             { Name: "Salamence", Time: "2024-04-27T20:26:53Z", Group: "Pokemon" },
             { Name: "Marowak", Time: "2024-04-27T20:28:22Z", Group: "Pokemon" },
             { Name: "Lapras", Time: "2024-04-27T20:33:04Z", Group: "Pokemon" },
+			
+            {
+                Group: "Final Bosses",
+                Image: "img/trainers/xd/eldes.png",
+                ImageSource: "http://billyk40.deviantart.com/art/Eldes-BW-262784197",
+                Name: "Eldes",
+                Time: "2024-04-27T20:33:35Z",
+                Attempts: 2
+            },
+			
             { Name: "Lugia", Time: "2024-04-27T21:01:59Z", Group: "Pokemon" },
             { Name: "Rhydon", Time: "2024-04-27T21:15:56Z", Group: "Pokemon" },
             { Name: "Moltres", Time: "2024-04-27T21:23:14Z", Group: "Pokemon" },
@@ -237,6 +245,15 @@ Season11.Runs.push(
             { Name: "Articuno", Time: "2024-04-27T21:36:21Z", Group: "Pokemon" },
             { Name: "Zapdos", Time: "2024-04-27T21:37:29Z", Group: "Pokemon" },
             { Name: "Tauros", Time: "2024-04-27T21:38:33Z", Group: "Pokemon" },
+			
+            {
+                Group: "Champions",
+                Image: "img/trainers/xd/greevil.png",
+                ImageSource: "http://s1305.photobucket.com/user/EliteknightTMP/media/Sprites/Cipher%20Sprites/greevil.gif.html",
+                Name: "Greevil",
+                Time: "2024-04-27T21:39:00Z",
+                Attempts: 1
+            },
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", Time: "2024-04-27T21:42:13Z", Party: [

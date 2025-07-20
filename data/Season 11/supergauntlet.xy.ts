@@ -17,34 +17,6 @@ Season11.Runs.push(
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
         // FinalStateLink: "./states/Season 11/supergauntletxy.json",
         Events: [
-            {
-                Group: "Badges", Name: "Psychic Badge", Image: "img/badges/psychic.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Iceberg Badge", Image: "img/badges/iceberg.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Siebold", Image: "img/trainers/x/siebold.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Malva", Image: "img/trainers/x/malva.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Drasna", Image: "img/trainers/x/drasna.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Wikstrom", Image: "img/trainers/x/wikstrom.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png",
-                Time: "", Attempts: 0
-            },
 			
             { Name: "Chespin", Time: "2024-03-25T21:08:44Z", Group: "Pokemon" },
             { Name: "Weedle", Time: "2024-03-25T21:22:09Z", Group: "Pokemon" },
@@ -223,12 +195,38 @@ Season11.Runs.push(
             { Name: "Lickitung", Time: "2024-03-29T20:46:21Z", Group: "Pokemon" },
             { Name: "Zweilous", Time: "2024-03-29T20:58:51Z", Group: "Pokemon" },
             { Name: "Fearow", Time: "2024-03-29T21:18:40Z", Group: "Pokemon" },
+			
+            {
+                Group: "Elite Four", Name: "Drasna", Image: "img/trainers/x/drasna.png",
+                Time: "2024-03-29T21:36:57Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four", Name: "Siebold", Image: "img/trainers/x/siebold.png",
+                Time: "2024-03-29T21:43:35Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four", Name: "Wikstrom", Image: "img/trainers/x/wikstrom.png",
+                Time: "2024-03-29T22:00:55Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four", Name: "Malva", Image: "img/trainers/x/malva.png",
+                Time: "2024-03-29T22:15:57Z", Attempts: 2
+            },
+			
             { Name: "Carnivine", Time: "2024-03-30T00:03:23Z", Group: "Pokemon" },
             { Name: "Haunter", Time: "2024-03-30T00:45:08Z", Group: "Pokemon" },
             { Name: "Burmy", Time: "2024-03-30T03:30:06Z", Group: "Pokemon" },
 			
+            {
+                Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png",
+                Time: "2024-03-30T05:23:19Z", Attempts: 2
+            },
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-30T05:24:45Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-30T05:24:45Z", Attempts: 9, Party: [
                     { Pokemon: "Dedenne", Nickname: "Ookwee", Level: 69, Gender: "Female" },
                     { Pokemon: "Aromatisse", Nickname: "eRra!!y", Level: 67, Gender: "Male" },
                     { Pokemon: "Mawile", Nickname: "Shania", Level: 76, Gender: "Female" },
@@ -236,7 +234,7 @@ Season11.Runs.push(
                     { Pokemon: "Sylveon", Nickname: "TR", Level: 70, Gender: "Male" },
                     { Pokemon: "Slurpuff", Nickname: "Wondy", Level: 66, Gender: "Female" },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2024-03-29T21:29:50Z",
                 Image: "img/ribbons/champion-kalos.png"
             },
 			
@@ -294,26 +292,6 @@ Season11.Runs.push(
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
         // FinalStateLink: "./states/Season 11/supergauntletxy.json",
         Events: [
-            {
-                Group: "Elite Four", Name: "Siebold", Image: "img/trainers/x/siebold.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Malva", Image: "img/trainers/x/malva.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Drasna", Image: "img/trainers/x/drasna.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Wikstrom", Image: "img/trainers/x/wikstrom.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png",
-                Time: "", Attempts: 0
-            },
 			
             { Name: "Fennekin", Time: "2024-03-25T21:06:52Z", Group: "Pokemon" },
             { Name: "Scatterbug", Time: "2024-03-25T21:23:08Z", Group: "Pokemon" },
@@ -484,8 +462,33 @@ Season11.Runs.push(
             { Name: "Vanillish", Time: "2024-03-28T15:41:52Z", Group: "Pokemon" },
             { Name: "Charizard", Time: "2024-03-28T16:01:41Z", Group: "Pokemon" },
 			
+            {
+                Group: "Elite Four", Name: "Wikstrom", Image: "img/trainers/x/wikstrom.png",
+                Time: "2024-03-28T19:38:47Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four", Name: "Siebold", Image: "img/trainers/x/siebold.png",
+                Time: "2024-03-28T19:43:38Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four", Name: "Malva", Image: "img/trainers/x/malva.png",
+                Time: "2024-03-28T19:52:51Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four", Name: "Drasna", Image: "img/trainers/x/drasna.png",
+                Time: "2024-03-28T20:54:07Z", Attempts: 2
+            },
+			
+            {
+                Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png",
+                Time: "2024-03-28T22:15:59Z", Attempts: 2
+            },
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-28T22:17:16Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-28T22:17:16Z", Attempts: 3, Party: [
                     { Pokemon: "Hawlucha", Nickname: "Luca", Level: 70, Gender: "Female" },
                     { Pokemon: "Vivillon", Nickname: "oScaiugo", Level: 63, Gender: "Female", Form: "Modern" },
                     { Pokemon: "Furfrou", Nickname: "! orrofacc", Level: 65, Gender: "Male", Form: "Kabuki" },
@@ -493,28 +496,8 @@ Season11.Runs.push(
                     { Pokemon: "Barbaracle", Nickname: "Binny", Level: 66, Gender: "Female" },
                     { Pokemon: "Rotom", Nickname: "Tsuku", Level: 70, Form: "Heat" },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2024-03-28T19:32:54Z",
                 Image: "img/ribbons/champion-kalos.png"
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Wikstrom", Image: "img/trainers/x/wikstrom.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Siebold", Image: "img/trainers/x/siebold.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Malva", Image: "img/trainers/x/malva.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Drasna", Image: "img/trainers/x/drasna.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png", Class: "Rematch",
-                Time: "", Attempts: 0
             },
 			
             { Name: "Fletchinder", Time: "2024-03-28T22:52:40Z", Group: "Pokemon" },
@@ -607,8 +590,33 @@ Season11.Runs.push(
             { Name: "Oshawott", Time: "2024-03-30T18:30:18Z", Group: "Pokemon", Class: "WifiTrade" },
             { Name: "Unown", Time: "2024-03-30T18:44:03Z", Group: "Pokemon", Class: "WifiTrade" },
 			
+            {
+                Group: "Elite Four Rematch", Name: "Siebold", Image: "img/trainers/x/siebold.png", Class: "Rematch",
+                Time: "2024-03-30T19:55:27Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch", Name: "Malva", Image: "img/trainers/x/malva.png", Class: "Rematch",
+                Time: "2024-03-30T20:01:26Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch", Name: "Wikstrom", Image: "img/trainers/x/wikstrom.png", Class: "Rematch",
+                Time: "2024-03-30T20:06:53Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch", Name: "Drasna", Image: "img/trainers/x/drasna.png", Class: "Rematch",
+                Time: "2024-03-30T20:14:49Z", Attempts: 1
+            },
+			
+            {
+                Group: "Champions", Name: "Diantha", Image: "img/trainers/x/diantha.png", Class: "Rematch",
+                Time: "2024-03-30T20:21:52Z", Attempts: 1
+            },
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-30T20:24:01Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-03-30T20:24:01Z", Attempts: 1, Party: [
                     { Pokemon: "Vivillon", Nickname: "oScaiugo", Level: 71, Gender: "Female", Form: "Modern" },
                     { Pokemon: "Barbaracle", Nickname: "Binny", Level: 90, Gender: "Female" },
                     { Pokemon: "Rotom", Nickname: "Tsuku", Level: 80, Form: "Heat" },
@@ -616,7 +624,7 @@ Season11.Runs.push(
                     { Pokemon: "Gourgeist", Nickname: "Bowen", Level: 72, Gender: "Male", Form: "Small" },
                     { Pokemon: "Hawlucha", Nickname: "Luca", Level: 94, Gender: "Female" },
                 ],
-                FirstAttemptDate: "",
+                FirstAttemptDate: "2024-03-30T19:53:08Z",
                 Image: "img/ribbons/champion-kalos.png"
             },
 

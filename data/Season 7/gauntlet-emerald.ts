@@ -127,6 +127,91 @@ Season7.Runs.push(
                 Time: "2020-03-16T20:14:35.533Z",
                 Attempts: 1
             },
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Mind Badge",
+                Image: "img/badges/mind.png",
+                Time: "2020-03-18T18:42:00.070Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Stone Badge",
+                Image: "img/badges/stone.png",
+                Time: "2020-03-18T19:56:55.880Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Knuckle Badge",
+                Image: "img/badges/knuckle.png",
+                Time: "2020-03-18T20:38:44.980Z",
+                Attempts: 1
+            },
+            {
+                Group: "Rematch Badges",
+                Class: "Rematch",
+                Name: "Balance Badge",
+                Image: "img/badges/balance.png",
+                Time: "2020-03-18T21:09:43.500Z",
+                Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch",
+				Class: "Rematch",
+                Name: "Sidney",
+                Image: "img/trainers/emerald/sidney.png",
+                Time: "2020-03-18T02:31:38.953Z",
+                Attempts: 1
+            },
+            {
+                Group: "Elite Four Rematch",
+				Class: "Rematch",
+                Name: "Phoebe",
+                Image: "img/trainers/emerald/phoebe.png",
+                Time: "2020-03-18T02:35:16.173Z",
+                Attempts: 1
+            },
+            {
+                Group: "Elite Four Rematch",
+				Class: "Rematch",
+                Name: "Glacia",
+                Image: "img/trainers/emerald/glacia.png",
+                Time: "2020-03-18T02:42:03.681Z",
+                Attempts: 1
+            },
+            {
+                Group: "Elite Four Rematch",
+				Class: "Rematch",
+                Name: "Drake",
+                Image: "img/trainers/emerald/drake.png",
+                Time: "2020-03-18T02:53:28.349Z",
+                Attempts: 1
+            },
+            {
+                Group: "Elite Four Rematch",
+				Class: "Rematch",
+                Name: "Wallace",
+                Image: "img/trainers/emerald/wallace.png",
+                Time: "2020-03-18T03:03:02.824Z",
+                Attempts: 1
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-03-18T03:04:35.357Z", IDNo: "49599", Attempts: 1, Party: [
+                    { Pokemon: "Aggron", Nickname: "ATTMG5555…", Level: 75, Gender: "Male", Number: 306, IDNo: "49599" },
+                    { Pokemon: "Bellossom", Nickname: "AAAMMNgavy", Level: 88, Gender: "Female", Number: 182, IDNo: "49599" },
+                    { Pokemon: "Sableye", Nickname: "aabaaa66", Level: 87, Gender: "Male", Number: 302, IDNo: "49599" },
+                    { Pokemon: "Whiscash", Nickname: "MMDfll    ", Level: 74, Gender: "Male", Number: 340, IDNo: "49599" },
+                    { Pokemon: "Shelgon", Nickname: "A", Level: 39, Gender: "Male", Number: 372, IDNo: "49599" },
+                    { Pokemon: "Skarmory", Level: 16, Gender: "Male", Number: 227, IDNo: "49599" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
 			
             {
                 Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png",
