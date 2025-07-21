@@ -516,6 +516,12 @@ Season11.Runs.push(
             },
 			
 			{ Name: "Pecharunt", Time: "2024-07-28T04:07:27Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Pecharunt", Class: "pokesprite",
+				Time: "2024-07-28T04:07:43Z", Attempts: 1
+			},
+			
 			{ Name: "Gloom", Time: "2024-07-28T06:45:53Z", Group: "Pokemon" },
 			{ Name: "Scraggy", Time: "2024-07-28T06:48:53Z", Group: "Pokemon" },
 			{ Name: "Weepinbell", Time: "2024-07-28T07:10:48Z", Group: "Pokemon" },
@@ -1374,6 +1380,12 @@ Season11.Runs.push(
 			{ Name: "Smeargle", Time: "2024-07-29T12:45:03Z", Group: "Pokemon" },
 			{ Name: "Reuniclus", Time: "2024-07-29T13:00:17Z", Group: "Pokemon" },
 			{ Name: "Pecharunt", Time: "2024-07-29T17:30:30Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Pecharunt", Class: "pokesprite",
+				Time: "2024-07-29T17:31:27Z", Attempts: 1
+			},
+			
 			{ Name: "Eelektrik", Time: "2024-07-29T21:23:05Z", Group: "Pokemon" },
 			{ Name: "Okidogi", Time: "2024-07-29T22:16:25Z", Group: "Pokemon" },
 			{ Name: "Munkidori", Time: "2024-07-29T22:42:57Z", Group: "Pokemon" },
