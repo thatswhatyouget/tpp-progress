@@ -44,6 +44,15 @@ Intermissions.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2022-04-22T19:28:27.577Z",
             },
+			
+            //{ Group: "Rematch Badges", Name: "Boulder Badge", Class: "Rematch", Image: "img/badges/boulder.png", Time: "", Attempts: 1 },
+            //{ Group: "Rematch Badges", Name: "Cascade Badge", Class: "Rematch", Image: "img/badges/cascade.png", Time: "", Attempts: 1 },
+            //{ Group: "Rematch Badges", Name: "Thunder Badge", Class: "Rematch", Image: "img/badges/thunder.png", Time: "", Attempts: 1 },
+            //{ Group: "Rematch Badges", Name: "Rainbow Badge", Class: "Rematch", Image: "img/badges/rainbow.png", Time: "", Attempts: 1 },
+            //{ Group: "Rematch Badges", Name: "Soul Badge", Class: "Rematch", Image: "img/badges/soul.png", Time: "", Attempts: 1 },
+            //{ Group: "Rematch Badges", Name: "Marsh Badge", Class: "Rematch", Image: "img/badges/marsh.png", Time: "", Attempts: 1 },
+            //{ Group: "Rematch Badges", Name: "Volcano Badge", Class: "Rematch", Image: "img/badges/volcano.png", Time: "", Attempts: 1 },
+            //{ Group: "Rematch Badges", Name: "Earth Badge", Class: "Rematch", Image: "img/badges/earth.png", Time: "", Attempts: 1 },
 
             { Group: "Pokemon", Name: "Bulbasaur", Time: "2022-04-21T01:23:48.752Z" },
             { Group: "Pokemon", Name: "NidoranF", Time: "2022-04-21T01:59:15.746Z" },
