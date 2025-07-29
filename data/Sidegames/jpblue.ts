@@ -128,6 +128,10 @@ Sidegames.Runs.push(
                 FirstAttemptDate: "2024-01-28T22:02:59.059Z",
                 Image: "img/ribbons/champion.png"
             },
+			
+            { Name: "ミュウツー\n(Myūtsū)", Class: "Mewtwo", Time: "2024-01-29T20:14:13Z", Group: "Pokemon" },
+            { Name: "オニスズメ\n(Onisuzume)", Class: "Spearow", Time: "2024-01-29T21:21:34Z", Group: "Pokemon" }, // Trade with JP Green
+			
         ]
     }
 );
