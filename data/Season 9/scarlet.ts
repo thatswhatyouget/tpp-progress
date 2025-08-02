@@ -123,37 +123,42 @@ Season9.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
 			
+            { 
+				Group: "Bosses", Name: "Koraidon", Class: "pokesprite",
+				Time: "2022-11-23T13:23:16Z", Attempts: 1
+			},
+			
 			{
                 "Group": "Rematch Badges", "Name": "Victory Road: Bug", "Image": "img/badges/paldea/bug.png",
-                "Time": "", "Class": "Rematch", "Attempts": 0
+                "Time": "2022-11-23T21:37:14Z", "Class": "Rematch", "Attempts": 1
             },
             {
                 "Group": "Rematch Badges", "Name": "Victory Road: Grass", "Image": "img/badges/paldea/grass.png",
-                "Time": "", "Class": "Rematch", "Attempts": 0
+                "Time": "2022-11-23T22:59:41Z", "Class": "Rematch", "Attempts": 1
             },
             {
                 "Group": "Rematch Badges", "Name": "Victory Road: Electric", "Image": "img/badges/paldea/electric.png",
-                "Time": "", "Class": "Rematch", "Attempts": 0
+                "Time": "2022-11-23T21:02:25Z", "Class": "Rematch", "Attempts": 1
             },
             {
                 "Group": "Rematch Badges", "Name": "Victory Road: Water", "Image": "img/badges/paldea/water.png",
-                "Time": "", "Class": "Rematch", "Attempts": 0
+                "Time": "2022-11-23T21:50:04Z", "Class": "Rematch", "Attempts": 1
             },
             {
                 "Group": "Rematch Badges", "Name": "Victory Road: Normal", "Image": "img/badges/paldea/normal.png",
-                "Time": "", "Class": "Rematch", "Attempts": 0
+                "Time": "2022-11-23T22:10:36Z", "Class": "Rematch", "Attempts": 1
             },
             {
                 "Group": "Rematch Badges", "Name": "Victory Road: Ghost", "Image": "img/badges/paldea/ghost.png",
-                "Time": "", "Class": "Rematch", "Attempts": 0
+                "Time": "2022-11-23T22:43:07Z", "Class": "Rematch", "Attempts": 1
             },
             {
                 "Group": "Rematch Badges", "Name": "Victory Road: Psychic", "Image": "img/badges/paldea/psychic.png",
-                "Time": "", "Class": "Rematch", "Attempts": 0
+                "Time": "2022-11-23T23:16:34Z", "Class": "Rematch", "Attempts": 1
             },
             {
                 "Group": "Rematch Badges", "Name": "Victory Road: Ice", "Image": "img/badges/paldea/ice.png",
-                "Time": "", "Class": "Rematch", "Attempts": 0
+                "Time": "2022-11-23T22:26:19Z", "Class": "Rematch", "Attempts": 1
             },
 			
             {
