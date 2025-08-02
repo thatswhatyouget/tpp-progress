@@ -351,6 +351,12 @@ Season11.Runs.push(
 			{ Name: "Gabite", Time: "2024-07-26T07:12:47Z", Group: "Pokemon" },
 			{ Name: "Dudunsparce", Time: "2024-07-26T07:14:36Z", Group: "Pokemon" },
 			{ Name: "Koraidon", Time: "2024-07-26T08:06:14Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Koraidon", Class: "pokesprite",
+				Time: "2024-07-26T08:10:47Z", Attempts: 1
+			},
+			
 			{ Name: "Brute Bonnet", Time: "2024-07-26T09:29:28Z", Group: "Pokemon" },
 			{ Name: "Braviary", Time: "2024-07-26T09:31:49Z", Group: "Pokemon" },
 			{ Name: "Sandy Shocks", Time: "2024-07-26T09:34:57Z", Group: "Pokemon" },
@@ -1104,6 +1110,12 @@ Season11.Runs.push(
 			
 			{ Name: "Iron Bundle", Time: "2024-07-26T06:40:45Z", Group: "Pokemon" },
 			{ Name: "Miraidon", Time: "2024-07-26T08:06:17Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Miraidon", Class: "pokesprite",
+				Time: "2024-07-26T08:11:47Z", Attempts: 1
+			},
+			
 			{ Name: "Flutter Mane", Time: "2024-07-26T12:06:41Z", Group: "Pokemon" },
 			{ Name: "Great Tusk", Time: "2024-07-26T12:09:50Z", Group: "Pokemon" },
 			{ Name: "Pichu", Time: "2024-07-26T14:07:38Z", Group: "Pokemon" },
