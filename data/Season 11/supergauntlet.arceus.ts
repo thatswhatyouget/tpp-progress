@@ -223,7 +223,7 @@ Season11.Runs.push(
 			
 			{
                 "Group": "Plates", "Name": "Icicle Plate", "Image": "img/badges/plates/icicle.png",
-                "Time": "2024-08-09T00:16:47Z", Attempts: 1
+                "Time": "2024-08-09T00:16:47Z", Attempts: 6
             },
 			
 			{ Name: "Machop", Time: "2024-08-09T01:15:07Z", Group: "Pokemon" },
