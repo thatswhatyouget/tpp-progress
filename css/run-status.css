@@ -321,7 +321,7 @@
     padding:.5em;
 	margin:auto;
     background-repeat: no-repeat;
-    background-position: top left;
+    /* background-position: top left; */
     image-rendering: pixelated;
 }
 
