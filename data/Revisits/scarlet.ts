@@ -33,6 +33,32 @@ Revisits.Runs.push(
         Region: "Kitakami",
         Generation: 9,
         Events: [
+		
+            { 
+				Group: "Bosses", Name: "Okidogi", Class: "pokesprite",
+				Time: "2023-09-14T16:59:28Z", Attempts: 1
+			},
+			
+            { 
+				Group: "Bosses", Name: "Fezandipiti", Class: "pokesprite",
+				Time: "2023-09-14T18:12:35Z", Attempts: 1
+			},
+			
+            { 
+				Group: "Bosses", Name: "Munkidori", Class: "pokesprite",
+				Time: "2023-09-14T20:36:52Z", Attempts: 1
+			},
+			
+            { 
+				Group: "Bosses", Name: "Ogerpon", Class: "pokesprite terastal",
+				Time: "2023-09-14T21:18:53Z", Attempts: 1
+			},
+			
+            { 
+				Group: "Bosses", Name: "Ursaluna", Class: "pokesprite bloodmoon",
+				Time: "2023-09-15T11:08:12Z", Attempts: 1
+			},
+			
             { "Group": "Pokemon", "Name": "Mew", "Time": "2023-09-13T20:18:48Z" },
             { "Group": "Pokemon", "Name": "Poochyena", "Time": "2023-09-13T20:45:03Z" },
             { "Group": "Pokemon", "Name": "Spinarak", "Time": "2023-09-13T20:50:44Z" },
@@ -182,6 +208,11 @@ Revisits.Runs.push(
                 "Group": "Champions", "Name": "Kieran", "Image": "img/trainers/scarlet/kieran.png",
                 "Time": "2023-12-15T22:42:18Z", "Attempts": 1
             },
+			
+            { 
+				Group: "Bosses", Name: "Terapagos", Class: "pokesprite stellar",
+				Time: "2023-12-16T01:01:37Z", "Attempts": 1
+			},
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Academy Ace Tournament", Time: "2023-12-18T14:08:05Z", Attempts: 1, Party: [
@@ -420,6 +451,12 @@ Revisits.Runs.push(
         Region: "Paldea",
         Generation: 9,
         Events: [
+		
+            { 
+				Group: "Bosses", Name: "Pecharunt", Class: "pokesprite",
+				Time: "2024-01-13T23:10:54Z", Attempts: 1
+			},
+			
             { "Group": "Pokemon", "Name": "Pecharunt", "Time": "2024-01-13T23:10:52Z" },
         ],
         Revisit: { Collection: "Revisits", Run: "Scarlet Revisit - The Indigo Disk" },

@@ -117,12 +117,17 @@ var alternates: Alternate[] = [
 
     new Alternate("Zacian", "Crowned"),
     new Alternate("Zamazenta", "Crowned"),
+	
+    new Alternate("Ursaluna", "Bloodmoon"),
 
     new Alternate("Maushold", "Four"),
 
     new Alternate("Ogerpon", "Wellspring"),
     new Alternate("Ogerpon", "Hearthflame"),
     new Alternate("Ogerpon", "Cornerstone"),
+	
+    new Alternate("Terapagos", "Terastal"),
+    new Alternate("Terapagos", "Stellar"),
 
     new Alternate("zoroark", "Eliza"),
 

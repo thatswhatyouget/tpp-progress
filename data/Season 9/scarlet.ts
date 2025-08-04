@@ -14,75 +14,75 @@ Season9.Runs.push(
         Events: [
             {
                 "Group": "Badges", "Name": "Victory Road: Bug", "Image": "img/badges/paldea/bug.png",
-                "Time": "2022-11-20T19:12:00Z"
+                "Time": "2022-11-20T19:12:00Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Victory Road: Grass", "Image": "img/badges/paldea/grass.png",
-                "Time": "2022-11-20T16:17:00Z"
+                "Time": "2022-11-20T16:17:00Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Victory Road: Electric", "Image": "img/badges/paldea/electric.png",
-                "Time": "2022-11-21T01:56:40Z"
+                "Time": "2022-11-21T01:56:40Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Victory Road: Water", "Image": "img/badges/paldea/water.png",
-                "Time": "2022-11-21T15:31:47Z"
+                "Time": "2022-11-21T15:31:47Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Victory Road: Normal", "Image": "img/badges/paldea/normal.png",
-                "Time": "2022-11-21T22:26:56Z"
+                "Time": "2022-11-21T22:26:56Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Victory Road: Ghost", "Image": "img/badges/paldea/ghost.png",
-                "Time": "2022-11-22T05:19:56Z"
+                "Time": "2022-11-22T05:19:56Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Victory Road: Psychic", "Image": "img/badges/paldea/psychic.png",
-                "Time": "2022-11-22T15:25:53Z"
+                "Time": "2022-11-22T15:25:53Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Victory Road: Ice", "Image": "img/badges/paldea/ice.png",
-                "Time": "2022-11-22T16:39:48Z"
+                "Time": "2022-11-22T16:39:48Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Starfall Street: Dark", "Image": "img/badges/paldea/dark.png",
-                "Time": "2022-11-21T09:23:45Z"
+                "Time": "2022-11-21T09:43:25Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Starfall Street: Fire", "Image": "img/badges/paldea/fire.png",
-                "Time": "2022-11-20T16:57:00Z"
+                "Time": "2022-11-20T16:57:00Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Starfall Street: Poison", "Image": "img/badges/paldea/poison.png",
-                "Time": "2022-11-21T23:17:49Z"
+                "Time": "2022-11-21T23:17:49Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Starfall Street: Fighting", "Image": "img/badges/paldea/fighting.png",
-                "Time": "2022-11-22T19:10:12Z"
+                "Time": "2022-11-22T19:10:12Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Starfall Street: Fairy", "Image": "img/badges/paldea/fairy.png",
-                "Time": "2022-11-22T10:29:30Z"
+                "Time": "2022-11-22T10:29:30Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Path of Legends: Rock", "Image": "img/badges/paldea/rock.png",
-                "Time": "2022-11-20T13:59:00Z"
+                "Time": "2022-11-20T13:59:00Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Path of Legends: Flying", "Image": "img/badges/paldea/flying.png",
-                "Time": "2022-11-21T11:10:10Z"
+                "Time": "2022-11-21T11:10:10Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Path of Legends: Steel", "Image": "img/badges/paldea/steel.png",
-                "Time": "2022-11-21T17:03:34Z"
+                "Time": "2022-11-21T17:03:34Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Path of Legends: Ground", "Image": "img/badges/paldea/ground.png",
-                "Time": "2022-11-21T14:23:52Z"
+                "Time": "2022-11-21T14:23:52Z", "Attempts": 1
             },
             {
                 "Group": "Badges", "Name": "Path of Legends: Dragon", "Image": "img/badges/paldea/dragon.png",
-                "Time": "2022-11-22T08:43:09Z"
+                "Time": "2022-11-22T08:43:09Z", "Attempts": 1
             },
 
             {
@@ -123,6 +123,43 @@ Season9.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
 			
+            { 
+				Group: "Bosses", Name: "Koraidon", Class: "pokesprite",
+				Time: "2022-11-23T13:23:16Z", Attempts: 1
+			},
+			
+			{
+                "Group": "Rematch Badges", "Name": "Victory Road: Bug", "Image": "img/badges/paldea/bug.png",
+                "Time": "2022-11-23T21:37:14Z", "Class": "Rematch", "Attempts": 1
+            },
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Grass", "Image": "img/badges/paldea/grass.png",
+                "Time": "2022-11-23T22:59:41Z", "Class": "Rematch", "Attempts": 1
+            },
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Electric", "Image": "img/badges/paldea/electric.png",
+                "Time": "2022-11-23T21:02:25Z", "Class": "Rematch", "Attempts": 1
+            },
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Water", "Image": "img/badges/paldea/water.png",
+                "Time": "2022-11-23T21:50:04Z", "Class": "Rematch", "Attempts": 1
+            },
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Normal", "Image": "img/badges/paldea/normal.png",
+                "Time": "2022-11-23T22:10:36Z", "Class": "Rematch", "Attempts": 1
+            },
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Ghost", "Image": "img/badges/paldea/ghost.png",
+                "Time": "2022-11-23T22:43:07Z", "Class": "Rematch", "Attempts": 1
+            },
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Psychic", "Image": "img/badges/paldea/psychic.png",
+                "Time": "2022-11-23T23:16:34Z", "Class": "Rematch", "Attempts": 1
+            },
+            {
+                "Group": "Rematch Badges", "Name": "Victory Road: Ice", "Image": "img/badges/paldea/ice.png",
+                "Time": "2022-11-23T22:26:19Z", "Class": "Rematch", "Attempts": 1
+            },
 			
             {
                 "Group": "Elite Four", "Name": "Arven", "Image": "img/trainers/scarlet/arven.png",
