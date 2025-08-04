@@ -14,8 +14,8 @@ Season8.Runs.push(
 			
 			{ "Group": "Plates", "Name": "Mind Plate", "Image": "img/badges/plates/mind.png", "Time": "2022-01-30T07:42:44Z", Attempts: 1 },
 			{ "Group": "Plates", "Name": "Insect Plate", "Image": "img/badges/plates/insect.png", "Time": "2022-01-30T13:25:52Z", Attempts: 99 },
-			{ "Group": "Plates", "Name": "Earth Plate", "Image": "img/badges/plates/earth.png", "Time": "", Attempts: 0 },
-			{ "Group": "Plates", "Name": "Meadow Plate", "Image": "img/badges/plates/meadow.png", "Time": "", Attempts: 0 },
+			{ "Group": "Plates", "Name": "Earth Plate", "Image": "img/badges/plates/earth.png", "Time": "2022-01-31T01:34:19Z", Attempts: 2 },
+			{ "Group": "Plates", "Name": "Meadow Plate", "Image": "img/badges/plates/meadow.png", "Time": "2022-01-31T12:01:46Z", Attempts: 23 },
 			{ "Group": "Plates", "Name": "Splash Plate", "Image": "img/badges/plates/splash.png", "Time": "", Attempts: 0 },
 			{ "Group": "Plates", "Name": "Flame Plate", "Image": "img/badges/plates/flame.png", "Time": "", Attempts: 0 },
 			{ "Group": "Plates", "Name": "Toxic Plate", "Image": "img/badges/plates/toxic.png", "Time": "", Attempts: 0 },
@@ -32,7 +32,7 @@ Season8.Runs.push(
 			{ "Group": "Plates", "Name": "Spooky Plate", "Image": "img/badges/plates/spooky.png", "Time": "", Attempts: 0 },
 			
             { Group: "Noble Pokémon", Name: "Kleavor", Time: "2022-01-30T13:25:00Z", Attempts: 99, Class: "pokesprite hisuian" },
-            { Group: "Noble Pokémon", Name: "Lilligant", Time: "2022-01-31T12:01:00Z", Attempts: 0, Class: "pokesprite hisuian" },
+            { Group: "Noble Pokémon", Name: "Lilligant", Time: "2022-01-31T12:01:00Z", Attempts: 23, Class: "pokesprite hisuian" },
             { Group: "Noble Pokémon", Name: "Arcanine", Time: "2022-01-31T18:31:00Z", Attempts: 0, Class: "pokesprite hisuian" },
             { Group: "Noble Pokémon", Name: "Electrode", Time: "2022-02-01T17:53:00Z", Attempts: 0, Class: "pokesprite hisuian" },
             { Group: "Noble Pokémon", Name: "Avalugg", Time: "2022-02-02T01:55:00Z", Attempts: 0, Class: "pokesprite hisuian" },
