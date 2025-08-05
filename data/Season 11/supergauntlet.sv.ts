@@ -253,7 +253,7 @@ Season11.Runs.push(
 			{ Name: "Ogerpon", Time: "2024-07-25T02:43:35Z", Group: "Pokemon" },
 			
             { 
-				Group: "Bosses", Name: "Ogerpon", Class: "pokesprite",
+				Group: "Bosses", Name: "Ogerpon", Class: "pokesprite terastal",
 				Time: "2024-07-25T02:45:22Z", Attempts: 1
 			},
 			
@@ -351,6 +351,12 @@ Season11.Runs.push(
 			{ Name: "Gabite", Time: "2024-07-26T07:12:47Z", Group: "Pokemon" },
 			{ Name: "Dudunsparce", Time: "2024-07-26T07:14:36Z", Group: "Pokemon" },
 			{ Name: "Koraidon", Time: "2024-07-26T08:06:14Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Koraidon", Class: "pokesprite",
+				Time: "2024-07-26T08:10:47Z", Attempts: 1
+			},
+			
 			{ Name: "Brute Bonnet", Time: "2024-07-26T09:29:28Z", Group: "Pokemon" },
 			{ Name: "Braviary", Time: "2024-07-26T09:31:49Z", Group: "Pokemon" },
 			{ Name: "Sandy Shocks", Time: "2024-07-26T09:34:57Z", Group: "Pokemon" },
@@ -457,6 +463,11 @@ Season11.Runs.push(
 			{ Name: "Carbink", Time: "2024-07-27T19:01:58Z", Group: "Pokemon" },
 			{ Name: "Terapagos", Time: "2024-07-27T21:39:08Z", Group: "Pokemon" },
 			
+            { 
+				Group: "Bosses", Name: "Terapagos", Class: "pokesprite stellar",
+				Time: "2024-07-27T21:39:08Z", Attempts: 2
+			},
+			
             {
                 "Group": "Rematch Badges", "Name": "Victory Road: Ice", "Image": "img/badges/paldea/ice.png", "Class": "Rematch",
                 "Time": "2024-07-27T23:14:05Z", "Attempts": 1
@@ -511,6 +522,12 @@ Season11.Runs.push(
             },
 			
 			{ Name: "Pecharunt", Time: "2024-07-28T04:07:27Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Pecharunt", Class: "pokesprite",
+				Time: "2024-07-28T04:07:43Z", Attempts: 1
+			},
+			
 			{ Name: "Gloom", Time: "2024-07-28T06:45:53Z", Group: "Pokemon" },
 			{ Name: "Scraggy", Time: "2024-07-28T06:48:53Z", Group: "Pokemon" },
 			{ Name: "Weepinbell", Time: "2024-07-28T07:10:48Z", Group: "Pokemon" },
@@ -658,6 +675,12 @@ Season11.Runs.push(
 			{ Name: "Arcanine", Time: "2024-07-29T22:35:49Z", Group: "Pokemon" },
 			{ Name: "Shiftry", Time: "2024-07-29T22:39:44Z", Group: "Pokemon" },
 			{ Name: "Ursaluna", Time: "2024-07-30T00:10:40Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Ursaluna", Class: "pokesprite bloodmoon",
+				Time: "2024-07-30T00:11:48Z", Attempts: 1
+			},
+			
 			{ Name: "Scrafty", Time: "2024-07-30T01:36:29Z", Group: "Pokemon" },
 			{ Name: "Skarmory", Time: "2024-07-30T07:28:25Z", Group: "Pokemon" },
 			{ Name: "Zekrom", Time: "2024-07-30T11:04:55Z", Group: "Pokemon" },
@@ -1087,6 +1110,12 @@ Season11.Runs.push(
 			
 			{ Name: "Iron Bundle", Time: "2024-07-26T06:40:45Z", Group: "Pokemon" },
 			{ Name: "Miraidon", Time: "2024-07-26T08:06:17Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Miraidon", Class: "pokesprite",
+				Time: "2024-07-26T08:11:47Z", Attempts: 1
+			},
+			
 			{ Name: "Flutter Mane", Time: "2024-07-26T12:06:41Z", Group: "Pokemon" },
 			{ Name: "Great Tusk", Time: "2024-07-26T12:09:50Z", Group: "Pokemon" },
 			{ Name: "Pichu", Time: "2024-07-26T14:07:38Z", Group: "Pokemon" },
@@ -1210,9 +1239,31 @@ Season11.Runs.push(
 			{ Name: "Houndour", Time: "2024-07-27T20:09:20Z", Group: "Pokemon" },
 			{ Name: "Bonsly", Time: "2024-07-27T20:14:04Z", Group: "Pokemon" },
 			{ Name: "Sandshrew", Time: "2024-07-27T20:27:38Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Munkidori", Class: "pokesprite",
+				Time: "2024-07-27T22:53:22Z", Attempts: 1
+			},
+			
+            { 
+				Group: "Bosses", Name: "Fezandipiti", Class: "pokesprite",
+				Time: "2024-07-27T23:12:35Z", Attempts: 1
+			},
+			
+            { 
+				Group: "Bosses", Name: "Okidogi", Class: "pokesprite",
+				Time: "2024-07-27T23:24:25Z", Attempts: 1
+			},
+			
 			{ Name: "Nosepass", Time: "2024-07-27T23:30:34Z", Group: "Pokemon" },
 			{ Name: "Glimmet", Time: "2024-07-27T23:46:15Z", Group: "Pokemon" },
 			{ Name: "Ogerpon", Time: "2024-07-28T00:15:35Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Ogerpon", Class: "pokesprite terastal",
+				Time: "2024-07-28T00:17:38Z", Attempts: 1
+			},
+			
 			{ Name: "Wo-Chien", Time: "2024-07-28T01:08:10Z", Group: "Pokemon" },
 			{ Name: "Exeggutor", Time: "2024-07-28T01:31:18Z", Group: "Pokemon", Class: "Alolan" },
 			{ Name: "Toxtricity", Time: "2024-07-28T02:33:34Z", Group: "Pokemon" },
@@ -1325,6 +1376,12 @@ Season11.Runs.push(
 			
 			{ Name: "Carbink", Time: "2024-07-28T23:58:30Z", Group: "Pokemon" },
 			{ Name: "Terapagos", Time: "2024-07-29T01:42:35Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Terapagos", Class: "pokesprite stellar",
+				Time: "2024-07-29T01:42:35Z", Attempts: 1
+			},
+			
 			{ Name: "Kingdra", Time: "2024-07-29T02:52:31Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Mightyena", Time: "2024-07-29T07:32:00Z", Group: "Pokemon" },
 			{ Name: "Brambleghast", Time: "2024-07-29T09:47:34Z", Group: "Pokemon" },
@@ -1335,6 +1392,12 @@ Season11.Runs.push(
 			{ Name: "Smeargle", Time: "2024-07-29T12:45:03Z", Group: "Pokemon" },
 			{ Name: "Reuniclus", Time: "2024-07-29T13:00:17Z", Group: "Pokemon" },
 			{ Name: "Pecharunt", Time: "2024-07-29T17:30:30Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Pecharunt", Class: "pokesprite",
+				Time: "2024-07-29T17:31:27Z", Attempts: 1
+			},
+			
 			{ Name: "Eelektrik", Time: "2024-07-29T21:23:05Z", Group: "Pokemon" },
 			{ Name: "Okidogi", Time: "2024-07-29T22:16:25Z", Group: "Pokemon" },
 			{ Name: "Munkidori", Time: "2024-07-29T22:42:57Z", Group: "Pokemon" },
@@ -1452,6 +1515,12 @@ Season11.Runs.push(
 			{ Name: "Baxcalibur", Time: "2024-07-30T15:32:53Z", Group: "Pokemon" },
 			{ Name: "Clodsire", Time: "2024-07-30T15:51:20Z", Group: "Pokemon" },
 			{ Name: "Ursaluna", Time: "2024-07-30T20:41:09Z", Group: "Pokemon" },
+			
+            { 
+				Group: "Bosses", Name: "Ursaluna", Class: "pokesprite bloodmoon",
+				Time: "2024-07-30T20:42:53Z", Attempts: 1
+			},
+			
 			{ Name: "Salamence", Time: "2024-07-30T23:39:02Z", Group: "Pokemon" },
 			{ Name: "Wugtrio", Time: "2024-07-31T00:14:35Z", Group: "Pokemon" },
 			{ Name: "Sandygast", Time: "2024-07-31T00:19:19Z", Group: "Pokemon" },

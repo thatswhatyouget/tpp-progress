@@ -111,3 +111,48 @@ Revisits.Runs.push(
         CopyEvents: ["Cassette Beasts"],
     }
 );
+
+Revisits.Runs.push(
+    {
+        RunName: "Cassette Beasts Revisit Revisit",
+        StartDate: "2025-07-06T07:04:18Z",
+        Duration: "2025-07-06T16:59:39Z",
+        Class: "cassettebeasts",
+        ColorPrimary: "#b0ceee",
+        ColorSecondary: "#293146",
+        BackgroundImage: "linear-gradient(#ab75e8, #3dbc9f)",
+        HostImage: "img/hosts/other/wrt-violet.png",
+        HostImageSource: "https://krizste.tumblr.com/post/787047361464680448",
+        HostName: "wrt-violet",
+        Region: "New Wirral",
+        Pokedex: "Bestiary + Pier",
+        ContainsRunsFrom: ["Revisits", "Intermissions"],
+        Events: [
+		
+            { Group: "Pokemon", Name: "Umbrahella", Time: "2025-07-06T07:21:20Z" },
+			
+            {
+                Group: "Bosses", Name: "Magikrab", Image: "img/cassette/archangels/magikrab.png",
+                Time: "2025-07-06T11:53:22Z", Attempts: 1,
+            },
+			
+            {
+                Group: "Bosses", Name: "Helia", Image: "img/cassette/archangels/helia.png",
+                Time: "2025-07-06T14:22:02Z", Attempts: 1,
+            },
+			
+            {
+                Group: "Rematch Bosses", Name: "Morgante", Image: "img/cassette/archangels/morgante2.png",
+                Time: "2025-07-06T15:03:36Z", Class: "Rematch", Attempts: 2,
+            },
+			
+            {
+                Group: "Bosses", Name: "Lenna", Image: "img/cassette/archangels/lenna.png",
+                Time: "2025-07-06T16:39:24Z", Attempts: 1,
+            },
+			
+        ],
+        Revisit: { Collection: "Revisits", Run: "Cassette Beasts Revisit" },
+        CopyEvents: ["Cassette Beasts Revisit"],
+    }
+);

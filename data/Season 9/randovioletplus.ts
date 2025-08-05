@@ -122,7 +122,12 @@ Season9.Runs.push(
                 FirstAttemptDate: "2023-01-26T15:17:33Z",
                 Image: "img/ribbons/champion.png"
             },
-
+			
+            { 
+				Group: "Bosses", Name: "Slaking (Miraidon)", Class: "pokesprite slaking",
+				Time: "2023-01-26T23:06:13Z", Attempts: 1
+			},
+			
             {
                 "Group": "Rematch Badges", "Name": "Victory Road: Bug", "Image": "img/badges/paldea/bug.png", "Class": "Rematch",
                 "Time": "2023-01-27T07:31:57Z", "Attempts": 1
