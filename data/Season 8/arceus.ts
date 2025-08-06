@@ -22,7 +22,7 @@ Season8.Runs.push(
 			{ "Group": "Plates", "Name": "Zap Plate", "Image": "img/badges/plates/zap.png", "Time": "2022-02-01T17:53:41Z", Attempts: 19 },
 			{ "Group": "Plates", "Name": "Sky Plate", "Image": "img/badges/plates/sky.png", "Time": "2022-02-02T00:47:39Z", Attempts: 1 },
 			{ "Group": "Plates", "Name": "Icicle Plate", "Image": "img/badges/plates/icicle.png", "Time": "2022-02-02T01:55:44Z", Attempts: 30 },
-			{ "Group": "Plates", "Name": "Stone Plate", "Image": "img/badges/plates/stone.png", "Time": "", Attempts: 0 },
+			{ "Group": "Plates", "Name": "Stone Plate", "Image": "img/badges/plates/stone.png", "Time": "2022-02-02T17:30:01Z", Attempts: 1 },
 			{ "Group": "Plates", "Name": "Dread Plate", "Image": "img/badges/plates/dread.png", "Time": "", Attempts: 0 },
 			{ "Group": "Plates", "Name": "Fist Plate", "Image": "img/badges/plates/fist.png", "Time": "", Attempts: 0 },
 			{ "Group": "Plates", "Name": "Draco Plate", "Image": "img/badges/plates/draco.png", "Time": "", Attempts: 0 },
@@ -36,7 +36,7 @@ Season8.Runs.push(
             { Group: "Noble Pokémon", Name: "Arcanine", Time: "2022-01-31T18:31:00Z", Attempts: 50, Class: "pokesprite hisuian" },
             { Group: "Noble Pokémon", Name: "Electrode", Time: "2022-02-01T17:53:00Z", Attempts: 19, Class: "pokesprite hisuian" },
             { Group: "Noble Pokémon", Name: "Avalugg", Time: "2022-02-02T01:55:00Z", Attempts: 30, Class: "pokesprite hisuian" },
-            { Group: "Noble Pokémon", Name: "Dialga", Time: "2022-02-02T15:36:08Z", Attempts: 0, Class: "pokesprite origin" },
+            { Group: "Noble Pokémon", Name: "Dialga", Time: "2022-02-02T15:36:08Z", Attempts: 259, Class: "pokesprite origin" },
             { Group: "Noble Pokémon", Name: "Arceus", Time: "2022-02-10T06:07:32Z", Attempts: 0, Class: "pokesprite hisuian" },
 
             <TPP.HallOfFame>{
