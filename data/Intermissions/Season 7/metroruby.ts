@@ -7,7 +7,7 @@ Intermissions.Runs.push(
         StartDate: "2020-04-01T02:09:28.000Z",
         Duration: "2020-04-01T15:19:01.000Z",
         HostName: " SS",
-        HostImage: "img/hosts/gordon.png",
+        HostImage: "img/hosts/ss.png",
         HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
         Unfinished: true,
         Region: "Hoenn",

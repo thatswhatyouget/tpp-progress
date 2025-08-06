@@ -115,6 +115,105 @@ Season9.Runs.push(
                 FirstAttemptDate: "2022-02-21T00:34:15.510Z",
                 Image: "img/ribbons/champion.png"
             },
+			
+			/*{
+                Group: "Champions", Name: "Cal", Image: "img/trainers/crystal/cal.png",
+				Time: "2022-02-23T05:58:54.489Z", Attempts: 3,
+            },*/
+			{ 
+				Group: "Past Hosts", Name: " SS", Image: "img/hosts/ss.png",
+				Time: "2022-02-23T20:22:13.298Z", Attempts: 1, 
+				ImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
+			},
+			{
+                Group: "Champions", Name: "Red", Image: "img/trainers/crystal/red.png",
+				Time: "2022-02-24T16:07:22.033Z", Attempts: 1,
+            },
+			{ 
+				Group: "Past Hosts", Name: "RED", Image: "img/hosts/red.png", 
+				Time: "2022-02-24T16:27:47.559Z", Attempts: 1, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", 
+			},
+			{ 
+				Group: "Past Hosts", Name: "ACCPPQ", Image: "img/hosts/accppq.png", 
+				Time: "2022-02-24T17:04:14.548Z", Attempts: 1, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/74edfi/acacia_aka_acapella_the_party_girl/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "AGGGNNV", Image: "img/hosts/agggnnv.png", 
+				Time: "2022-02-24T17:19:30.711Z", Attempts: 1, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/pmdxrn/blazing_emerald_hall_of_fame/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "Kr ", Image: "img/hosts/kr.png", 
+				Time: "2022-02-24T17:28:38.234Z", Attempts: 1, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/mr8l1r/kristopher_von_karma_the_clockwork_poketch/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "..hnv", Image: "img/hosts/hnv.png", 
+				Time: "2022-02-24T17:51:22.332Z", Attempts: 1, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/9pkxol/hannah_the_ninja_master/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "a;;;/]]]][%", Image: "img/hosts/bd.png", 
+				Time: "2022-02-26T21:15:54.026Z", Attempts: 1, 
+				ImageSource: "https://www.deviantart.com/krizste/art/TPP-BrilliantDiamond-auguste-sprite-947432309",
+			},
+			{ 
+				Group: "Past Hosts", Name: "WOOPER", Image: "img/hosts/gmmtmt.png", 
+				Time: "2022-02-26T21:15:54.026Z", Attempts: 1, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/m37nzd/the_hosts_of_the_voices_after_the_7th_anniversary/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "AIIIAAB", Image: "img/hosts/aiiiaab.png", 
+				Time: "2022-02-26T22:41:36.388Z", Attempts: 3, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", 
+			},
+			{ 
+				Group: "Past Hosts", Name: "EVAN", Image: "img/hosts/evan.png", 
+				Time: "2022-02-26T23:02:13.254Z", Attempts: 1, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/46elnh/evan_sprites/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "×µ(?", Image: "img/hosts/tppRobored.png", 
+				Time: "2022-02-26T23:41:54.152Z", Attempts: 2, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/5w92xx/the_hosts_of_the_voices_after_the_4th_anniversary/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "(((", Image: "img/hosts/ccc.png", 
+				Time: "2022-02-26T23:59:33.275Z", Attempts: 1, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "XXWWNN\u03c0", Image: "img/hosts/xxwwnnPk.png", 
+				Time: "2022-02-27T01:15:45.833Z", Attempts: 2, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "KAY", Image: "img/hosts/kay.png", 
+				Time: "2022-02-27T01:28:15.347Z", Attempts: 1, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/aq2qmu/kay_the_planeswalker/",
+			},
+			{ 
+				Group: "Past Hosts", Name: "RED", Image: "img/hosts/red2.png", 
+				Time: "2022-02-27T02:08:10.663Z", Attempts: 2, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/f84tx7/the_gauntlet_hall_of_fame_16/",
+			},
+			{ 
+				Group: "Champions", Name: "Azure", Image: "img/trainers/crystal/azure.png", 
+				Time: "2022-02-27T02:39:53.545Z", Attempts: 1, 
+			},
+			{ 
+				Group: "Past Hosts", Name: "MARINA", Image: "img/hosts/marina.png", 
+				Time: "2022-02-27T04:25:27.982Z", Attempts: 2, 
+				//ImageSource: "",
+			},
+			{ 
+				Group: "Past Hosts", Name: "ABBBCC", Image: "img/hosts/abbbcc.png", 
+				Time: "2022-02-28T00:18:53.483Z", Attempts: 1, 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3woea1/alphab%C4%93tos_av%C4%ABci/",
+			},
+
 
             {
                 Group: "Elite Four Rematch", Name: "Etr", Image: "img/hosts/etr.png", Class: "Rematch",
