@@ -11,7 +11,7 @@ Intermissions.Runs.push(
         HostImageSource: "",
         BaseGame: "FireRed",
         Region: "Borrius",
-        FinalStateLink: "./states/Season 12/unbound-bfd.json",
+        //FinalStateLink: "./states/Season 12/unbound-bfd.json",
         Events: [
         ]
     }

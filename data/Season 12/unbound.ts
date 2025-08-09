@@ -11,7 +11,7 @@ Season12.Runs.push(
         HostImageSource: "",
         BaseGame: "FireRed",
         Region: "Borrius",
-        FinalStateLink: "./states/Season 12/unbound.json",
+        //FinalStateLink: "./states/Season 12/unbound.json",
         Events: [
             {
                 Group: "Badges", Name: "Leaf Badge", Image: "img/badges/unbound/Leaf.png",
