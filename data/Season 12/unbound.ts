@@ -7,7 +7,7 @@ Season12.Runs.push(
         StartDate: "2025-08-09T21:00:00Z",
         Duration: "255d",
         HostName: "Adeuu",
-        HostImage: "/img/hosts/adeuu.png",
+        HostImage: "img/hosts/adeuu.png",
         HostImageSource: "",
         BaseGame: "FireRed",
         Region: "Borrius",
