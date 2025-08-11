@@ -23,7 +23,7 @@ Season12.Runs.push(
             },
             {
                 Group: "Badges", Name: "Wings Badge", Image: "img/badges/unbound/Wings.png",
-                Time: "", Attempts: 0,
+                Time: "2025-08-11T16:47:21.174Z", Attempts: 6,
             },
             {
                 Group: "Badges", Name: "Fall Badge", Image: "img/badges/unbound/Fall.png",
@@ -151,7 +151,25 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Pansage", "Time": "2025-08-11T10:10:00.225Z" },
             { "Group": "Pokemon", "Name": "Panpour", "Time": "2025-08-11T10:18:43.521Z" },
             { "Group": "Pokemon", "Name": "Pansear", "Time": "2025-08-11T10:28:05.595Z" },
-            { "Group": "Pokemon", "Name": "Combee", "Time": "2025-08-11T10:36:11.992Z" }
+            { "Group": "Pokemon", "Name": "Combee", "Time": "2025-08-11T10:36:11.992Z" },
+            { "Group": "Pokemon", "Name": "Sandygast", "Time": "2025-08-11T11:27:35.032Z" },
+            { "Group": "Pokemon", "Name": "Kakuna", "Time": "2025-08-11T11:53:04.478Z" },
+            { "Group": "Pokemon", "Name": "Nuzleaf", "Time": "2025-08-11T11:53:34.333Z" },
+            { "Group": "Pokemon", "Name": "Bibarel", "Time": "2025-08-11T12:01:43.388Z" },
+            { "Group": "Pokemon", "Name": "Noctowl", "Time": "2025-08-11T12:20:00.574Z" },
+            { "Group": "Pokemon", "Name": "Hariyama", "Time": "2025-08-11T12:31:23.333Z" },
+            { "Group": "Pokemon", "Name": "Graveler", "Time": "2025-08-11T12:31:53.228Z" },
+            { "Group": "Pokemon", "Name": "Boldore", "Time": "2025-08-11T12:43:40.125Z" },
+            { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "2025-08-11T12:59:14.624Z" },
+            { "Group": "Pokemon", "Name": "Manectric", "Time": "2025-08-11T13:00:17.992Z" },
+            { "Group": "Pokemon", "Name": "Floette", "Time": "2025-08-11T13:12:37.318Z" },
+            { "Group": "Pokemon", "Name": "Cherrim", "Time": "2025-08-11T13:13:11.016Z" },
+            { "Group": "Pokemon", "Name": "Floatzel", "Time": "2025-08-11T13:14:11.964Z" },
+            { "Group": "Pokemon", "Name": "Watchog", "Time": "2025-08-11T13:21:52.585Z" },
+            { "Group": "Pokemon", "Name": "Metapod", "Time": "2025-08-11T13:22:51.664Z" },
+            { "Group": "Pokemon", "Name": "Nidorina", "Time": "2025-08-11T13:23:19.279Z" },
+            { "Group": "Pokemon", "Name": "Kricketune", "Time": "2025-08-11T13:58:30.760Z" },
+            { "Group": "Pokemon", "Name": "Snover", "Time": "2025-08-11T14:35:34.683Z" }
         ]
     }
 );
