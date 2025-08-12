@@ -27,7 +27,7 @@ Season12.Runs.push(
             },
             {
                 Group: "Badges", Name: "Fall Badge", Image: "img/badges/unbound/Fall.png",
-                Time: "", Attempts: 0,
+                Time: "2025-08-12T03:17:39.032Z", Attempts: 7,
             },
             {
                 Group: "Badges", Name: "Battery Badge", Image: "img/badges/unbound/Battery.png",
@@ -169,7 +169,18 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Metapod", "Time": "2025-08-11T13:22:51.664Z" },
             { "Group": "Pokemon", "Name": "Nidorina", "Time": "2025-08-11T13:23:19.279Z" },
             { "Group": "Pokemon", "Name": "Kricketune", "Time": "2025-08-11T13:58:30.760Z" },
-            { "Group": "Pokemon", "Name": "Snover", "Time": "2025-08-11T14:35:34.683Z" }
+            { "Group": "Pokemon", "Name": "Snover", "Time": "2025-08-11T14:35:34.683Z" },
+            { "Group": "Pokemon", "Name": "Crabominable", "Time": "2025-08-11T17:23:33.565Z" },
+            { "Group": "Pokemon", "Name": "Togedemaru", "Time": "2025-08-11T20:22:43.738Z" },
+            { "Group": "Pokemon", "Name": "Lotad", "Time": "2025-08-11T21:52:57.426Z" },
+            { "Group": "Pokemon", "Name": "Grubbin", "Time": "2025-08-11T22:45:14.966Z" },
+            { "Group": "Pokemon", "Name": "Shroomish", "Time": "2025-08-11T22:57:32.410Z" },
+            { "Group": "Pokemon", "Name": "Spearow", "Time": "2025-08-11T23:04:03.043Z" },
+            { "Group": "Pokemon", "Name": "Marill", "Time": "2025-08-11T23:06:29.954Z" },
+            { "Group": "Pokemon", "Name": "Fearow", "Time": "2025-08-11T23:18:44.010Z" },
+            { "Group": "Pokemon", "Name": "Audino", "Time": "2025-08-12T00:01:07.794Z" },
+            { "Group": "Pokemon", "Name": "Skorupi", "Time": "2025-08-12T00:05:45.825Z" },
+            { "Group": "Pokemon", "Name": "Abra", "Time": "2025-08-12T00:48:25.564Z" }
         ]
     }
 );
