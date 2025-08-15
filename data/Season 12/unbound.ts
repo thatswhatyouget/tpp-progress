@@ -35,7 +35,7 @@ Season12.Runs.push(
             },
             {
                 Group: "Badges", Name: "Ring Badge", Image: "img/badges/unbound/Ring.png",
-                Time: "", Attempts: 0,
+                Time: "2025-08-15T04:42:18.957Z", Attempts: 4,
             },
             {
                 Group: "Badges", Name: "Swamp Badge", Image: "img/badges/unbound/Swamp.png",
@@ -340,7 +340,24 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Cottonee", "Time": "2025-08-14T17:48:28.770Z" },
             { "Group": "Pokemon", "Name": "Wurmple", "Time": "2025-08-14T17:49:38.830Z" },
             { "Group": "Pokemon", "Name": "Cascoon", "Time": "2025-08-14T17:56:49.137Z" },
-            { "Group": "Pokemon", "Name": "Petilil", "Time": "2025-08-14T18:10:40.957Z" }
+            { "Group": "Pokemon", "Name": "Petilil", "Time": "2025-08-14T18:10:40.957Z" },
+            { "Group": "Pokemon", "Name": "Vullaby", "Time": "2025-08-14T18:22:10.963Z" },
+            { "Group": "Pokemon", "Name": "Cacnea", "Time": "2025-08-14T18:26:50.986Z" },
+            { "Group": "Pokemon", "Name": "Vibrava", "Time": "2025-08-14T18:44:34.818Z" },
+            { "Group": "Pokemon", "Name": "Lilligant", "Time": "2025-08-14T19:32:10.940Z" },
+            { "Group": "Pokemon", "Name": "Foongus", "Time": "2025-08-14T19:49:21.628Z" },
+            { "Group": "Pokemon", "Name": "Pangoro", "Time": "2025-08-15T00:02:44.215Z" },
+            { "Group": "Pokemon", "Name": "Girafarig", "Time": "2025-08-15T00:05:01.762Z" },
+            { "Group": "Pokemon", "Name": "Sawk", "Time": "2025-08-15T00:12:39.275Z" },
+            { "Group": "Pokemon", "Name": "Kecleon", "Time": "2025-08-15T00:15:04.629Z" },
+            { "Group": "Pokemon", "Name": "Pancham", "Time": "2025-08-15T00:17:30.818Z" },
+            { "Group": "Pokemon", "Name": "Throh", "Time": "2025-08-15T00:25:09.844Z" },
+            { "Group": "Pokemon", "Name": "Pawniard", "Time": "2025-08-15T00:27:47.117Z" },
+            { "Group": "Pokemon", "Name": "Tangela", "Time": "2025-08-15T00:33:51.625Z" },
+            { "Group": "Pokemon", "Name": "Remoraid", "Time": "2025-08-15T00:36:34.070Z" },
+            { "Group": "Pokemon", "Name": "Chatot", "Time": "2025-08-15T00:54:59.848Z" },
+            { "Group": "Pokemon", "Name": "Timburr", "Time": "2025-08-15T02:19:01.878Z" },
+            { "Group": "Pokemon", "Name": "Gurdurr", "Time": "2025-08-15T02:50:15.772Z" }
         ]
     }
 );
