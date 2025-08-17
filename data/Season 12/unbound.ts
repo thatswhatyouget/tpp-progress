@@ -283,7 +283,7 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Elekid", "Time": "2025-08-14T08:45:49.320Z" },
             { "Group": "Pokemon", "Name": "Tentacool", "Time": "2025-08-14T09:11:14.801Z" },
             { "Group": "Pokemon", "Name": "Duosion", "Time": "2025-08-14T09:23:27.655Z" },
-            { "Group": "Pokemon", "Name": "Fletchindr", "Time": "2025-08-14T09:23:55.644Z" },
+            { "Group": "Pokemon", "Name": "Fletchinder", "Time": "2025-08-14T09:23:55.644Z" },
             { "Group": "Pokemon", "Name": "Lycanroc", "Time": "2025-08-14T09:24:46.711Z" },
             { "Group": "Pokemon", "Name": "Tentacruel", "Time": "2025-08-14T09:32:31.659Z" },
             { "Group": "Pokemon", "Name": "Claydol", "Time": "2025-08-14T09:44:43.259Z" },
