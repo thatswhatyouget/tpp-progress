@@ -101,6 +101,8 @@ var tppData: TPP.Collection[] = [Season1, Season2, Season3, Season4, Season5, Se
 var exports = exports || {};
 exports.tppData = tppData;
 
+const Shiny = true; // for HoF shorthand
+
 //post-processing
 setTimeout(() => {
     //remove runs with blank start dates

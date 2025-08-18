@@ -189,6 +189,7 @@ declare var LongIntermissions: TPP.Collection;
 declare var ShortIntermissions: TPP.Collection;
 declare var tppData: TPP.Collection[];
 declare var exports: any;
+declare const Shiny = true;
 declare const commonEvents: ({
     Group: string;
     Name: string;

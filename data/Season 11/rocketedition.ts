@@ -1,20 +1,20 @@
 /// <reference path="../tpp-data.ts" />
 Season11.Runs.push(
-    {
-        RunName: "Rocket Edition",
-        ColorPrimary: "white",
-        ColorSecondary: "red",
-        StartDate: "2024-11-01T21:00:00Z",
-        Duration: "2024-11-05T02:34:22.957Z",
-        HostName: "A",
-        HostImage: "img/hosts/rocket.png",
-        // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/",
-        Region: "Kanto",
-        Generation: 3,
-        Pokedex: "Kanto",
-        FinalStateLink:"./states/Season 11/rocketedition.json",
-        Events: [
-		
+	{
+		RunName: "Rocket Edition",
+		ColorPrimary: "white",
+		ColorSecondary: "red",
+		StartDate: "2024-11-01T21:00:00Z",
+		Duration: "2024-11-05T02:34:22.957Z",
+		HostName: "A",
+		HostImage: "img/hosts/rocket.png",
+		// HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/",
+		Region: "Kanto",
+		Generation: 3,
+		Pokedex: "Kanto",
+		FinalStateLink: "./states/Season 11/rocketedition.json",
+		Events: [
+
 			{ Name: "Rattata", Time: "2024-11-01T21:09:45.319Z", Group: "Pokemon" },
 			{ Name: "Spearow", Time: "2024-11-01T21:32:16Z", Group: "Pokemon" },
 			{ Name: "Eevee", Time: "2024-11-01T21:57:24.544Z", Group: "Pokemon" },
@@ -55,12 +55,12 @@ Season11.Runs.push(
 			{ Name: "Koffing", Time: "2024-11-02T23:19:48Z", Group: "Pokemon" },
 			{ Name: "Magneton", Time: "2024-11-03T01:40:57Z", Group: "Pokemon" },
 			{ Name: "Gloom", Time: "2024-11-03T02:13:54.182Z", Group: "Pokemon" },
-		
-            {
-                Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2024-11-03T04:17:56.143Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2024-11-03T04:17:56.143Z", Attempts: 1
+			},
+
 			{ Name: "Krabby", Time: "2024-11-03T07:00:13.209Z", Group: "Pokemon" },
 			{ Name: "Exeggcute", Time: "2024-11-03T07:35:21.620Z", Group: "Pokemon" },
 			{ Name: "Crobat", Time: "2024-11-03T08:56:18Z", Group: "Pokemon" },
@@ -78,61 +78,61 @@ Season11.Runs.push(
 			{ Name: "Houndoom", Time: "2024-11-04T01:53:52.660Z", Group: "Pokemon" },
 			{ Name: "Ursaring", Time: "2024-11-04T02:13:48.215Z", Group: "Pokemon" },
 			{ Name: "Skarmory", Time: "2024-11-04T02:23:24Z", Group: "Pokemon" },
-			
-            {
-                Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2024-11-04T02:34:44.946Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2024-11-04T02:34:44.946Z", Attempts: 1
+			},
+
 			{ Name: "Golduck", Time: "2024-11-04T02:34:48.021Z", Group: "Pokemon" },
-			
-            {
-                Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2024-11-04T02:48:55.470Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2024-11-04T02:48:55.470Z", Attempts: 1
+			},
+
 			{ Name: "Electrode", Time: "2024-11-04T02:49:00.140Z", Group: "Pokemon" },
-			
-            {
-                Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2024-11-04T02:57:54.925Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2024-11-04T02:57:54.925Z", Attempts: 1
+			},
+
 			{ Name: "Onix", Time: "2024-11-04T02:58:10.841Z", Group: "Pokemon" },
 			{ Name: "Ariados", Time: "2024-11-04T03:28:03.447Z", Group: "Pokemon" },
 			{ Name: "Persian", Time: "2024-11-04T03:35:23.261Z", Group: "Pokemon" },
 			{ Name: "Gengar", Time: "2024-11-04T04:29:39.835Z", Group: "Pokemon" },
 			{ Name: "Slowbro", Time: "2024-11-04T05:08:07Z", Group: "Pokemon" },
 			{ Name: "Mr. Mime", Time: "2024-11-04T05:10:00.560Z", Group: "Pokemon" },
-			
-            {
-                Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2024-11-04T05:26:46.451Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2024-11-04T05:26:46.451Z", Attempts: 1
+			},
+
 			{ Name: "Goldeen", Time: "2024-11-04T05:51:45.921Z", Group: "Pokemon" },
-			
-            {
-                Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2024-11-04T06:26:45.635Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2024-11-04T06:26:45.635Z", Attempts: 1
+			},
+
 			{ Name: "Tentacruel", Time: "2024-11-04T06:26:53.894Z", Group: "Pokemon" },
 			{ Name: "Ninetales", Time: "2024-11-04T06:56:06.974Z", Group: "Pokemon" },
 			{ Name: "Magmar", Time: "2024-11-04T07:03:21Z", Group: "Pokemon" },
-			
-            {
-                Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2024-11-04T07:37:42.117Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2024-11-04T07:37:42.117Z", Attempts: 1
+			},
+
 			{ Name: "Arcanine", Time: "2024-11-04T07:38:17Z", Group: "Pokemon" },
-			
-            {
-                Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2024-11-04T08:32:47.766Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2024-11-04T08:32:47.766Z", Attempts: 1
+			},
+
 			{ Name: "Pupitar", Time: "2024-11-04T08:53:04Z", Group: "Pokemon" },
 			{ Name: "Octillery", Time: "2024-11-04T09:04:56.477Z", Group: "Pokemon" },
 			{ Name: "Victreebel", Time: "2024-11-04T09:18:01.608Z", Group: "Pokemon" },
@@ -146,31 +146,31 @@ Season11.Runs.push(
 			{ Name: "Gastly", Time: "2024-11-04T13:25:53.929Z", Group: "Pokemon" },
 			{ Name: "Dodrio", Time: "2024-11-04T14:57:08.773Z", Group: "Pokemon" },
 			{ Name: "Weepinbell", Time: "2024-11-04T15:07:18.695Z", Group: "Pokemon" },
-			
-            {
-                Group: "Champions", Name: "Red", Image: "img/trainers/firered/red.png",
-                Time: "2024-11-04T17:56:55.944Z", Attempts: 6
-            },
-			
+
+			{
+				Group: "Champions", Name: "Red", Image: "img/trainers/firered/red.png",
+				Time: "2024-11-04T17:56:55.944Z", Attempts: 6
+			},
+
 			{ Name: "Venusaur", Time: "2024-11-04T17:57:04Z", Group: "Pokemon" },
-			
-            {
-                Group: "Champions", Name: "Oak", Image: "img/trainers/firered/oak.png",
-                Time: "2024-11-04T18:18:03Z", Attempts: 1
-            },
-			
-			 <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "First Game Clear", Time: "2024-11-04T18:22:24Z", Attempts: 6, Party: [
-                    { Pokemon: "Magneton", Nickname: "Guhn??", Level: 53 },
-                    { Pokemon: "Flareon", Nickname: "S IIvoocb", Level: 52, Gender: "Male" },
-                    { Pokemon: "Crobat", Nickname: "BAKE", Level: 51, Gender: "Male" },
-                    { Pokemon: "Raticate", Nickname: " ppppohbb,", Level: 51, Gender: "Male" },
-                    { Pokemon: "Gyarados", Nickname: "JOE", Level: 52, Gender: "Male" },
-                    { Pokemon: "MissingNo.", Nickname: "MMMMMC, fA", Level: 54 },
-                ],
-                Image: "img/ribbons/champion.png"
-            },
-			
+
+			{
+				Group: "Champions", Name: "Oak", Image: "img/trainers/firered/oak.png",
+				Time: "2024-11-04T18:18:03Z", Attempts: 1
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "First Game Clear", Time: "2024-11-04T18:22:24Z", Attempts: 6, Party: [
+					{ Pokemon: "Magneton", Nickname: "Guhn??", Level: 53 },
+					{ Pokemon: "Flareon", Nickname: "S IIvoocb", Level: 52, Gender: "Male" },
+					{ Pokemon: "Crobat", Nickname: "BAKE", Level: 51, Gender: "Male" },
+					{ Pokemon: "Raticate", Nickname: " ppppohbb,", Level: 51, Gender: "Male" },
+					{ Pokemon: "Gyarados", Nickname: "JOE", Level: 52, Gender: "Male" },
+					{ Pokemon: "MissingNo.", Nickname: "MMMMMC, fA", Level: 54 },
+				],
+				Image: "img/ribbons/champion.png"
+			},
+
 			{ Name: "Chansey", Time: "2024-11-04T21:09:44Z", Group: "Pokemon" },
 			{ Name: "Mew", Time: "2024-11-04T23:44:30Z", Group: "Pokemon" },
 			{ Name: "Zapdos", Time: "2024-11-05T00:13:55Z", Group: "Pokemon" },
@@ -180,12 +180,12 @@ Season11.Runs.push(
 			{ Name: "Articuno", Time: "2024-11-05T00:59:55Z", Group: "Pokemon" },
 			{ Name: "Moltres", Time: "2024-11-05T01:19:28Z", Group: "Pokemon" },
 			{ Name: "Mewtwo", Time: "2024-11-05T01:49:40Z", Group: "Pokemon" },
-			
-            {
-                Group: "Past Hosts", Name: "TERRA", Image: "img/hosts/terra.png",
-                Time: "2024-11-05T02:32:20.141Z", Attempts: 1
-            },
-			
-        ]
-    }
+
+			{
+				Group: "Past Hosts", Name: "TERRA", Image: "img/hosts/terra.png",
+				Time: "2024-11-05T02:32:20.141Z", Attempts: 1
+			},
+
+		]
+	}
 );
