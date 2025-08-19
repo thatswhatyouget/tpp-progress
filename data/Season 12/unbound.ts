@@ -55,7 +55,7 @@ Season12.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Arabella", Image: "img/trainers/unbound/arabella.png",
-                Time: "", Attempts: 0
+                Time: "2025-08-19T22:06:16.052Z", Attempts: 4
             },
             {
                 Group: "Elite Four", Name: "Penny", "Image": "img/trainers/unbound/penny.png",
@@ -600,8 +600,8 @@ Season12.Runs.push(
 {"Group":"Pokemon","Name":"Scizor","Time":"2025-08-19T14:27:27.749Z"},
 {"Group":"Pokemon","Name":"Ferrothorn","Time":"2025-08-19T14:36:42.917Z"},
 {"Group":"Pokemon","Name":"Lileep","Time":"2025-08-19T16:52:42.847Z"},
-{"Group":"Pokemon","Name":"Anorith","Time":"2025-08-19T16:56:21.881Z"}
-            
+{"Group":"Pokemon","Name":"Anorith","Time":"2025-08-19T16:56:21.881Z"},
+            {"Group":"Pokemon","Name":"Nidoking","Time":"2025-08-19T19:51:29.220Z"}
         ]
     }
 );
