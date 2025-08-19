@@ -1,5 +1,5 @@
 /// <reference path="../tpp-data.ts" />
-/// <reference path="../pokedex/regional.ts" />
+/// <reference path="../Pokedex/regional.ts" />
 
 var exports = exports || {};
 
