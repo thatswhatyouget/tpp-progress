@@ -63,11 +63,11 @@ Season12.Runs.push(
             },
             {
                 Group: "Champions", Name: "Jax", Image: "img/trainers/unbound/jax.webp",
-                Time: "", Attempts: 0
+                Time: "2025-08-20T22:37:31.730Z", Attempts: 1
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 4, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-08-20T22:38:46Z", Attempts: 14/*?*/, Party: [
                     { Pokemon: "Weavile", Nickname: "Rs      z ", Level: 75, Gender: "Male" },
                     { Pokemon: "Togekiss", Nickname: "Tag", Level: 75, Gender: "Male" },
                     { Pokemon: "Beedrill", Nickname: "GigaChad", Level: 75, Gender: "Male" },
