@@ -538,3 +538,13 @@
     max-width: 100%;
     background-color:purple;
 }
+
+.image.jax:hover {
+    background-image:url("../img/trainers/unbound/jax.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image.jax:hover img {
+    visibility: hidden;
+}
