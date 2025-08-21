@@ -12,10 +12,10 @@ Intermissions.Runs.push(
         Class: "squarehost",
         Region: "Animorphs",
         Events: [
-            { Group: "Pokemon", Name: "Dog", Time: "2016-03-25T19:08:28Z" },
-            { Group: "Pokemon", Name: "Goat", Time: "2016-03-25T19:12:29Z" },
-            { Group: "Pokemon", Name: "Raccoon", Time: "2016-03-25T19:18:22Z" },
-            { Group: "Pokemon", Name: "Mouse", Time: "2016-03-25T19:25:01Z" },
+            { Group: "Pokemon", Name: "Dog", Class: "Yamper", Time: "2016-03-25T19:08:28Z" },
+            { Group: "Pokemon", Name: "Goat", Class: "Gogoat", Time: "2016-03-25T19:12:29Z" },
+            { Group: "Pokemon", Name: "Raccoon", Class: "Zigzagoon", Time: "2016-03-25T19:18:22Z" },
+            { Group: "Pokemon", Name: "Mouse", Class: "Minccino", Time: "2016-03-25T19:25:01Z" },
         ]
     }
 );

@@ -1540,7 +1540,7 @@ Season11.Runs.push(
 			{ Name: "Lumineon", Time: "2024-07-31T02:08:45Z", Group: "Pokemon" },
 			{ Name: "Minior", Time: "2024-07-31T02:27:59Z", Group: "Pokemon" },
 			{ Name: "Vaporeon", Time: "2024-07-31T04:25:17Z", Group: "Pokemon" },
-			{ Name: "Forrestress", Time: "2024-07-31T05:00:29Z", Group: "Pokemon" },
+			{ Name: "Forretress", Time: "2024-07-31T05:00:29Z", Group: "Pokemon" },
 			{ Name: "Ting-Lu", Time: "2024-07-31T05:12:47Z", Group: "Pokemon" },
 			{ Name: "Chien-Pao", Time: "2024-07-31T05:42:16Z", Group: "Pokemon" },
 			{ Name: "Noivern", Time: "2024-07-31T05:56:45Z", Group: "Pokemon" },

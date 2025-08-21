@@ -74,7 +74,7 @@ const commonEvents = [
     { "Group": "Pokemon", "Name": "Fletchling", "Time": "2023-09-03T07:05:32.250Z" },
     { "Group": "Pokemon", "Name": "Weedle", "Time": "2023-09-03T07:35:37.942Z" },
     { "Group": "Pokemon", "Name": "Morelull", "Time": "2023-09-03T07:40:00.382Z" },
-    { "Group": "Pokemon", "Name": "Vivilion", "Time": "2023-09-03T08:23:57.559Z" },
+    { "Group": "Pokemon", "Name": "Vivilion", Class: "Vivillon", "Time": "2023-09-03T08:23:57.559Z" },
     { "Group": "Pokemon", "Name": "Simipour", "Time": "2023-09-03T09:17:29.128Z" },
     { "Group": "Pokemon", "Name": "Skorupi", "Time": "2023-09-03T09:54:09.583Z" },
     { "Group": "Pokemon", "Name": "Lotad", "Time": "2023-09-03T10:53:43.105Z" },
@@ -225,56 +225,56 @@ Season10.Runs.push(
                 Image: "img/ribbons/champion.png",
                 Time: "2023-09-06T21:24:44.192Z", Attempts: 8
             },
-			
-			{
-				Group: "Badges",
-				Name: "Scholar Badge",
-				Image: "img/badges/megapower/scholar.png",
-				Time: "2023-09-07T03:20:24Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Knight Badge",
-				Image: "img/badges/megapower/knight.png",
-				Time: "2023-09-07T15:05:59Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Wilderness Badge",
-				Image: "img/badges/megapower/wilderness.png",
-				Time: "2023-09-07T17:07:26Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Shield Badge",
-				Image: "img/badges/megapower/shield.png",
-				Time: "2023-09-07T20:12:44Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Prism Badge",
-				Image: "img/badges/megapower/prism.png",
-				Time: "2023-09-08T01:21:13Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Spring Badge",
-				Image: "img/badges/megapower/spring.png",
-				Time: "2023-09-08T12:00:44Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Rebirth Badge",
-				Image: "img/badges/megapower/rebirth.png",
-				Time: "2023-09-08T13:54:56Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Immortal Badge",
-				Image: "img/badges/megapower/immortal.png",
-				Time: "2023-09-08T15:13:15Z", Attempts: 1
-			},
-			
+
+            {
+                Group: "Badges",
+                Name: "Scholar Badge",
+                Image: "img/badges/megapower/scholar.png",
+                Time: "2023-09-07T03:20:24Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Knight Badge",
+                Image: "img/badges/megapower/knight.png",
+                Time: "2023-09-07T15:05:59Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Wilderness Badge",
+                Image: "img/badges/megapower/wilderness.png",
+                Time: "2023-09-07T17:07:26Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Shield Badge",
+                Image: "img/badges/megapower/shield.png",
+                Time: "2023-09-07T20:12:44Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Prism Badge",
+                Image: "img/badges/megapower/prism.png",
+                Time: "2023-09-08T01:21:13Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Spring Badge",
+                Image: "img/badges/megapower/spring.png",
+                Time: "2023-09-08T12:00:44Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Rebirth Badge",
+                Image: "img/badges/megapower/rebirth.png",
+                Time: "2023-09-08T13:54:56Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Immortal Badge",
+                Image: "img/badges/megapower/immortal.png",
+                Time: "2023-09-08T15:13:15Z", Attempts: 1
+            },
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "42496", Party: [
                     { Pokemon: "Celesteela", Nickname: "ZT  ", Level: 100, Number: 193, IDNo: "42496" },
@@ -288,7 +288,7 @@ Season10.Runs.push(
                 Image: "img/ribbons/champion.png",
                 Time: "2023-09-08T23:29:41.684Z", Attempts: 1
             },
-			
+
             { "Group": "Pokemon", "Name": "Chinchou", "Time": "2023-09-05T20:54:29.154Z" },
             { "Group": "Pokemon", "Name": "Spheal", "Time": "2023-09-05T23:16:26.031Z" },
             { "Group": "Pokemon", "Name": "Loudred", "Time": "2023-09-05T23:26:53.570Z" },
@@ -302,7 +302,7 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Gogoat", "Time": "2023-09-06T11:00:56.091Z" },
             { "Group": "Pokemon", "Name": "Aromatisse", "Time": "2023-09-06T11:15:22.821Z" },
             { "Group": "Pokemon", "Name": "Ribombee", "Time": "2023-09-06T11:30:25.834Z" },
-            { "Group": "Pokemon", "Name": "Fletchinde", "Time": "2023-09-06T11:30:52.133Z" },
+            { "Group": "Pokemon", "Name": "Fletchinde", Class: "Fletchinder", "Time": "2023-09-06T11:30:52.133Z" },
             { "Group": "Pokemon", "Name": "Gumshoos", "Time": "2023-09-06T11:46:43.050Z" },
             { "Group": "Pokemon", "Name": "Talonflame", "Time": "2023-09-06T11:57:39.987Z" },
             { "Group": "Pokemon", "Name": "Diancie", "Time": "2023-09-06T15:25:29.375Z" },
@@ -470,56 +470,56 @@ Revisits.Runs.push(
                 Image: "img/ribbons/champion.png",
                 Time: "2023-10-04T23:58:14.687Z", Attempts: 2
             },
-			
-			
-			{
-				Group: "Badges",
-				Name: "Knight Badge",
-				Image: "img/badges/megapower/knight.png",
-				Time: "2023-10-05T16:11:55Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Scholar Badge",
-				Image: "img/badges/megapower/scholar.png",
-				Time: "2023-10-06T01:02:04Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Wilderness Badge",
-				Image: "img/badges/megapower/wilderness.png",
-				Time: "2023-10-06T04:43:18Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Shield Badge",
-				Image: "img/badges/megapower/shield.png",
-				Time: "2023-10-06T12:46:41Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Prism Badge",
-				Image: "img/badges/megapower/prism.png",
-				Time: "2023-10-06T13:30:06Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Spring Badge",
-				Image: "img/badges/megapower/spring.png",
-				Time: "2023-10-06T16:09:49Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Rebirth Badge",
-				Image: "img/badges/megapower/rebirth.png",
-				Time: "2023-10-06T18:34:00Z", Attempts: 1
-			},
-			{
-				Group: "Badges",
-				Name: "Immortal Badge",
-				Image: "img/badges/megapower/immortal.png",
-				Time: "2023-10-06T20:28:48Z", Attempts: 2
-			},
+
+
+            {
+                Group: "Badges",
+                Name: "Knight Badge",
+                Image: "img/badges/megapower/knight.png",
+                Time: "2023-10-05T16:11:55Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Scholar Badge",
+                Image: "img/badges/megapower/scholar.png",
+                Time: "2023-10-06T01:02:04Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Wilderness Badge",
+                Image: "img/badges/megapower/wilderness.png",
+                Time: "2023-10-06T04:43:18Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Shield Badge",
+                Image: "img/badges/megapower/shield.png",
+                Time: "2023-10-06T12:46:41Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Prism Badge",
+                Image: "img/badges/megapower/prism.png",
+                Time: "2023-10-06T13:30:06Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Spring Badge",
+                Image: "img/badges/megapower/spring.png",
+                Time: "2023-10-06T16:09:49Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Rebirth Badge",
+                Image: "img/badges/megapower/rebirth.png",
+                Time: "2023-10-06T18:34:00Z", Attempts: 1
+            },
+            {
+                Group: "Badges",
+                Name: "Immortal Badge",
+                Image: "img/badges/megapower/immortal.png",
+                Time: "2023-10-06T20:28:48Z", Attempts: 2
+            },
 
             { "Group": "Pokemon", "Name": "Houndoom", "Time": "2023-10-04T01:56:22.522Z" },
             { "Group": "Pokemon", "Name": "Medicham", "Time": "2023-10-04T02:29:30.575Z" },
@@ -558,7 +558,7 @@ Revisits.Runs.push(
             { "Group": "Pokemon", "Name": "Nihilego", "Time": "2023-10-06T09:14:36.955Z" },
             { "Group": "Pokemon", "Name": "Talonflame", "Time": "2023-10-06T09:19:55.312Z" },
             { "Group": "Pokemon", "Name": "Gogoat", "Time": "2023-10-06T09:22:38.558Z" },
-            { "Group": "Pokemon", "Name": "Fletchinde", "Time": "2023-10-06T09:28:00.746Z" },
+            { "Group": "Pokemon", "Name": "Fletchinde", Class: "Fletchinder", "Time": "2023-10-06T09:28:00.746Z" },
             { "Group": "Pokemon", "Name": "Vespiquen", "Time": "2023-10-06T09:37:17.480Z" },
             { "Group": "Pokemon", "Name": "Banette", "Time": "2023-10-06T09:49:36.765Z" },
             { "Group": "Pokemon", "Name": "Kartana", "Time": "2023-10-06T11:09:32.507Z" },

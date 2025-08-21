@@ -13,43 +13,43 @@ Season10.Runs.push(
         Pokedex: "Cyenn",
         FinalStateLink: "./states/Season 10/nameless.json",
         Events: [
-		
-			{
-				Group: "Badges",
-				Name: "Level 1",
-				Image: "img/badges/nameless/star.png",
-				Time: "", Attempts: 0
-			},
-			{
-				Group: "Badges",
-				Name: "Level 2",
-				Image: "img/badges/nameless/star.png",
-				Time: "", Attempts: 0
-			},
-			{
-				Group: "Badges",
-				Name: "Level 3",
-				Image: "img/badges/nameless/star.png",
-				Time: "", Attempts: 0
-			},
-			{
-				Group: "Badges",
-				Name: "Level 4",
-				Image: "img/badges/nameless/star.png",
-				Time: "", Attempts: 0
-			},
-			{
-				Group: "Badges",
-				Name: "Level 5",
-				Image: "img/badges/nameless/star.png",
-				Time: "", Attempts: 0
-			},
-			{
-				Group: "Badges",
-				Name: "Level 6",
-				Image: "img/badges/nameless/star.png",
-				Time: "", Attempts: 0
-			},
+
+            {
+                Group: "Badges",
+                Name: "Level 1",
+                Image: "img/badges/nameless/star.png",
+                Time: "", Attempts: 0
+            },
+            {
+                Group: "Badges",
+                Name: "Level 2",
+                Image: "img/badges/nameless/star.png",
+                Time: "", Attempts: 0
+            },
+            {
+                Group: "Badges",
+                Name: "Level 3",
+                Image: "img/badges/nameless/star.png",
+                Time: "", Attempts: 0
+            },
+            {
+                Group: "Badges",
+                Name: "Level 4",
+                Image: "img/badges/nameless/star.png",
+                Time: "", Attempts: 0
+            },
+            {
+                Group: "Badges",
+                Name: "Level 5",
+                Image: "img/badges/nameless/star.png",
+                Time: "", Attempts: 0
+            },
+            {
+                Group: "Badges",
+                Name: "Level 6",
+                Image: "img/badges/nameless/star.png",
+                Time: "", Attempts: 0
+            },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "11166", Party: [
@@ -163,7 +163,7 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Sizzlipede", "Time": "2023-11-13T01:47:37.554Z" },
             { "Group": "Pokemon", "Name": "Noctowl", "Time": "2023-11-13T02:28:05.787Z" },
             { "Group": "Pokemon", "Name": "Eevee", "Time": "2023-11-13T02:32:15.625Z" },
-            { "Group": "Pokemon", "Name": "Centskorch", "Time": "2023-11-13T03:42:28.925Z" },
+            { "Group": "Pokemon", "Name": "Centskorch", Class: "Centiskorch", "Time": "2023-11-13T03:42:28.925Z" },
             { "Group": "Pokemon", "Name": "Shroomish", "Time": "2023-11-13T05:13:39.707Z" },
             { "Group": "Pokemon", "Name": "Wingull", "Time": "2023-11-13T06:13:33.527Z" },
             { "Group": "Pokemon", "Name": "Seadra", "Time": "2023-11-13T06:18:38.558Z" },
@@ -267,7 +267,7 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Galvantula", "Time": "2023-11-15T15:24:29.737Z" },
             { "Group": "Pokemon", "Name": "Manectric", "Time": "2023-11-15T15:33:28.727Z" },
             { "Group": "Pokemon", "Name": "Kadabra", "Time": "2023-11-15T16:57:14.820Z" },
-            { "Group": "Pokemon", "Name": "Polteagist", "Time": "2023-11-15T17:18:01.885Z" },
+            { "Group": "Pokemon", "Name": "Polteagist", Class: "Polteageist", "Time": "2023-11-15T17:18:01.885Z" },
             { "Group": "Pokemon", "Name": "Sinistea", "Time": "2023-11-15T17:30:51.552Z" },
             { "Group": "Pokemon", "Name": "Drifloon", "Time": "2023-11-15T18:16:45.854Z" },
             { "Group": "Pokemon", "Name": "Pidgeot", "Time": "2023-11-15T23:03:25.612Z" },
@@ -379,7 +379,7 @@ Season10.Runs.push(
             { "Group": "Pokemon", "Name": "Charizard", "Time": "2023-11-18T21:21:57.143Z" },
             { "Group": "Pokemon", "Name": "Venusaur", "Time": "2023-11-18T21:25:21.772Z" },
             { "Group": "Pokemon", "Name": "Celebi", "Time": "2023-11-19T08:17:45.436Z" },
-            { "Group": "Pokemon", "Name": "Elluce", "Time": "2023-11-19T09:44:01.770Z" },
+            { "Group": "Pokemon", "Name": "Elluce", Class: "Zoroark", "Time": "2023-11-19T09:44:01.770Z" },
             { "Group": "Pokemon", "Name": "Entei", "Time": "2023-11-19T12:14:15.874Z" },
             { "Group": "Pokemon", "Name": "Keldeo", "Time": "2023-11-19T13:20:00.333Z" },
             { "Group": "Pokemon", "Name": "Torracat", "Time": "2023-11-19T13:31:12.887Z" },

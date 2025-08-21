@@ -8,7 +8,7 @@ const dexClean = (str: string) => (str || '').toString().replace(/♀/g, 'F').re
 
 exports.tests = function () {
     const runTotal = tppData.reduce((sum, s) => sum + s.Runs.length, 0);
-    console.warn(`Checking ${runTotal} runs for invalid events...`);
+    console.warn(`::notice:: Checking ${runTotal} runs for invalid events...`);
     const masterDex = Object.values(Pokedex.Regional).reduce((all, cur) => all.concat(cur), [])
         .map(p => typeof p == "number" ? Pokedex.PokeList[p] : p)
         .concat(Pokedex.PokeList)
