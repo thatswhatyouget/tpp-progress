@@ -20,9 +20,8 @@ jobs:
           npm install
           gulp test 2> output.txt
           status=$?
-          echo ::set-output name=errors::`cat output.txt`
+          if [ $status -ge 1]; then
+          echo ::error::`cat output.txt`
+          else
+          echo ::warning::`cat output.txt`
           exit $status
-          
-      - name: Display Errors
-        run: |
-          echo ${{ steps.Test.outputs.errors }}
