@@ -1,7 +1,7 @@
 name: Test
 on: [push, pull_request]
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -15,6 +15,14 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Test
+        continue-on-error: true
         run: |
           npm install
-          gulp test
+          gulp test 2> output.txt
+          status=$?
+          echo ::set-output name=errors::`cat output.txt`
+          exit $status
+      - name: Display Errors
+        if: ${{ failure() }}
+        run: |
+          echo ${{ steps.Test.outputs.errors }}

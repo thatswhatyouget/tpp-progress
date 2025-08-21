@@ -8,7 +8,7 @@ const dexClean = (str: string) => (str || '').toString().replace(/♀/g, 'F').re
 
 exports.tests = function () {
     const runTotal = tppData.reduce((sum, s) => sum + s.Runs.length, 0);
-    console.log(`Checking ${runTotal} runs for invalid events...`);
+    console.warn(`Checking ${runTotal} runs for invalid events...`);
     const masterDex = Object.values(Pokedex.Regional).reduce((all, cur) => all.concat(cur), [])
         .map(p => typeof p == "number" ? Pokedex.PokeList[p] : p)
         .concat(Pokedex.PokeList)
@@ -28,11 +28,13 @@ exports.tests = function () {
                 // console.info(event.Name);
                 if (event.Group == "Pokemon" && !dex.includes(dexClean(event.Name || "")) && !dex.includes(dexClean(event.Class || "")))
                     console.warn(`${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} does not match any regional or national Pokedex entries.`.replace('\n', ' '));
-                if (!!event.Time && !event.UnixTime)
+                if (!!event.Time && !event.UnixTime) {
                     console.error(`${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} has an invalid Time: "${event.Time}"`.replace('\n', ' '));
+                    process.exitCode = 1;
+                }
             });
         })
     );
 
-    console.log("Done.");
+    console.warn("Done.");
 }
