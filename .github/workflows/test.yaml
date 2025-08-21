@@ -17,7 +17,4 @@ jobs:
       - name: Test
         run: |
           npm install
-          gulp test 2> output.txt
-          status=$?
-          echo "::warning::`cat output.txt`"
-          exit $status
+          gulp test
