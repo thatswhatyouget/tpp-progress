@@ -15,10 +15,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Test
-        continue-on-error: true
         run: |
           npm install
           gulp test 2> output.txt
           status=$?
-          echo ::warning::`cat output.txt`
+          echo "::warning::`cat output.txt`"
           exit $status
