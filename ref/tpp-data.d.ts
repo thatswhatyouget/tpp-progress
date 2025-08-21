@@ -196,9 +196,18 @@ declare const commonEvents: ({
     Image: string;
     Time: string;
     Attempts: number;
+    Class?: undefined;
 } | {
     Group: string;
     Name: string;
+    Time: string;
+    Image?: undefined;
+    Attempts?: undefined;
+    Class?: undefined;
+} | {
+    Group: string;
+    Name: string;
+    Class: string;
     Time: string;
     Image?: undefined;
     Attempts?: undefined;
