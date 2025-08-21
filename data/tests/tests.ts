@@ -9,15 +9,21 @@ const dexClean = (str: string) => (str || '').toString().replace(/♀/g, 'F').re
 exports.tests = function () {
     const runTotal = tppData.reduce((sum, s) => sum + s.Runs.length, 0);
     console.log(`Checking ${runTotal} runs for invalid events...`);
+    const masterDex = Object.values(Pokedex.Regional).reduce((all, cur) => all.concat(cur), [])
+        .map(p => typeof p == "number" ? Pokedex.PokeList[p] : p)
+        .concat(Pokedex.PokeList)
+        .filter(p => !!p)
+        .map(dexClean);
     tppData.forEach(season =>
         season.Runs.forEach(run => {
             // console.info(run.RunName);
-            const dex = (Pokedex.Regional[run.Pokedex || run.Region] || [])
-                .concat((run.DexMapping || []))
-                .map(p => typeof p == "number" ? Pokedex.PokeList[p] : p)
-                .concat(Pokedex.PokeList)
-                .filter(p => !!p)
-                .map(dexClean);
+            // const dex = (Pokedex.Regional[run.Pokedex || run.Region] || [])
+            //     .concat((run.DexMapping || []))
+            //     .map(p => typeof p == "number" ? Pokedex.PokeList[p] : p)
+            //     .concat(Pokedex.PokeList)
+            //     .filter(p => !!p)
+            //     .map(dexClean);
+            const dex = !!run.DexMapping ? [...masterDex, ...run.DexMapping.map(p => typeof p == "number" ? Pokedex.PokeList[p] : p).filter(p => !!p).map(dexClean)] : masterDex;
             run.Events.forEach(event => {
                 // console.info(event.Name);
                 if (event.Group == "Pokemon" && !dex.includes(dexClean(event.Name || "")) && !dex.includes(dexClean(event.Class || "")))

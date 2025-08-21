@@ -12,6 +12,7 @@ Intermissions.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         HostName: "AAAA",
         Region: "Porombo Island",
+        Pokedex: "Robopon",
         Events: [
             { Group: "Pokemon", Name: "Sunny", Time: "2016-03-27T16:55:00Z" },
             {
