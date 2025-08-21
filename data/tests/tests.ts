@@ -27,9 +27,9 @@ exports.tests = function () {
             run.Events.forEach(event => {
                 // console.info(event.Name);
                 if (event.Group == "Pokemon" && !dex.includes(dexClean(event.Name || "")) && !dex.includes(dexClean(event.Class || "")))
-                    console.warn(`${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} does not match any regional or national Pokedex entries.`.replace('\n', ' '));
+                    console.warn(`::warning:: ${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} does not match any regional or national Pokedex entries.`.replace('\n', ' '));
                 if (!!event.Time && !event.UnixTime) {
-                    console.error(`${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} has an invalid Time: "${event.Time}"`.replace('\n', ' '));
+                    console.error(`::error:: ${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} has an invalid Time: "${event.Time}"`.replace('\n', ' '));
                     process.exitCode = 1;
                 }
             });
