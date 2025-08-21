@@ -22,7 +22,7 @@ jobs:
           status=$?
           echo ::set-output name=errors::`cat output.txt`
           exit $status
+          
       - name: Display Errors
-        if: ${{ failure() }}
         run: |
           echo ${{ steps.Test.outputs.errors }}
