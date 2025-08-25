@@ -3450,6 +3450,7 @@
 .pokesprite.zoroark.eliza img { background-image:url("../img/alternate/zoroark-eliza.png")!important; background-position: center!important; background-size: 1em !important; }
 .pokesprite.ub-queen.ultra img { background-image:url("../img/alternate/ub-queen-ultra.png")!important; background-position: center!important; background-size: 1em !important; }
 .unbound .shiny .dexEntry .pokesprite.dragonite img, .unbound .pokesprite.shiny.dragonite img, .pokesprite.unbound.shiny.dragonite img {background-image:url("../img/custom-shiny/unbound/dragonite.gif")!important; background-position: center!important; background-size: 1em !important; }
+.chattycrystal .shiny .dexEntry .pokesprite.torterra img, .chattycrystal .pokesprite.shiny.torterra img, .pokesprite.chattycrystal.shiny.torterra img {background-image:url("../img/custom-shiny/chattycrystal/torterra.gif")!important; background-position: center!important; background-size: 1em !important; }
 .pokesprite.unidentified img  { background-image:url("../img/fakemon/unidentified.png")!important; background-size: 1em!important; background-position: center!important; }
 .pokesprite.prizmeon img  { background-image:url("../img/fakemon/prizmeon.png")!important; background-size: 1em!important; background-position: center!important; }
 .pokesprite.phancero img  { background-image:url("../img/fakemon/phancero.png")!important; background-size: 1em!important; background-position: center!important; }
