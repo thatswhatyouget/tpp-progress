@@ -67,15 +67,28 @@ Season12.Runs.push(
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-08-20T22:38:46Z", Attempts: 14/*?*/, Party: [
-                    { Pokemon: "Weavile", Nickname: "Rs      z ", Level: 75, Gender: "Male" },
-                    { Pokemon: "Togekiss", Nickname: "Tag", Level: 75, Gender: "Male" },
-                    { Pokemon: "Beedrill", Nickname: "GigaChad", Level: 75, Gender: "Male" },
-                    { Pokemon: "Pyroar", Nickname: "Aaqffeyxxx", Level: 75, Gender: "Female" },
-                    { Pokemon: "Dragonite", Nickname: "Lazuli", Level: 75, Gender: "Female", Shiny },
-                    { Pokemon: "Excadrill", Nickname: "Bbag5 ", Level: 75, Gender: "Female" },
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-08-20T22:38:46Z", Attempts: 14/*?*/, Party: [
+                    { Pokemon: "Weavile", Nickname: "Rs      z ", Level: 75, Gender: "Male", Number: 461, IDNo: "16572" },
+                    { Pokemon: "Togekiss", Nickname: "Tag", Level: 75, Gender: "Male", Number: 468, IDNo: "16572" },
+                    { Pokemon: "Beedrill", Nickname: "GigaChad", Level: 75, Gender: "Male", Number: 15, IDNo: "16572" },
+                    { Pokemon: "Pyroar", Nickname: "Aaqffeyxxx", Level: 75, Gender: "Female", Number: 668, IDNo: "16572" },
+                    { Pokemon: "Dragonite", Nickname: "Lazuli", Level: 75, Gender: "Female", Shiny, Number: 149, IDNo: "16572" },
+                    { Pokemon: "Excadrill", Nickname: "Bbag5 ", Level: 75, Gender: "Female", Number: 530, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "2025-08-18T01:17:12.952Z",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-08-25T07:17:33Z", Attempts: 0/*?*/, Party: [
+                    { Pokemon: "Araquanid", Nickname: "Njvw", Level: 100, Gender: "Female", Number: 752, IDNo: "16572" },
+                    { Pokemon: "Quagsire", Nickname: "Cindy", Level: 100, Gender: "Female", Shiny, Number: 195, IDNo: "16572" },
+                    { Pokemon: "Bewear", Nickname: "Airpods", Level: 100, Gender: "Male", Number: 760, IDNo: "16572" },
+                    { Pokemon: "Togedemaru", Nickname: "Homepod", Level: 100, Gender: "Male", Number: 777, IDNo: "16572" },
+                    { Pokemon: "Diggersby", Nickname: "mG♀♂……!5", Level: 100, Gender: "Male", Number: 660, IDNo: "16572" },
+                    { Pokemon: "Hoopa", Nickname: "krypooonn ", Level: 100, Form: "Unbound", Number: 720, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
             },
 
