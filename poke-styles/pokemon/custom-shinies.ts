@@ -14,7 +14,10 @@ class CustomShiny {
 }
 
 var customShinies: CustomShiny[] = [
-    new CustomShiny("unbound", "Dragonite")
+    new CustomShiny("unbound", "Dragonite"),
+    new CustomShiny("chattycrystal", "Turtwig"),
+    new CustomShiny("chattycrystal", "Grotle"),
+    new CustomShiny("chattycrystal", "Torterra"),
 ];
 
 addStyles(customShinies, (s: CustomShiny) => `.${s.runClass} .shiny .dexEntry .pokesprite.${s.baseMon} img, .${s.runClass} .pokesprite.shiny.${s.baseMon} img, .pokesprite.${s.runClass}.shiny.${s.baseMon} img {background-image:url("${s.image}")!important; background-position: center!important; background-size: 1em !important; }`);
