@@ -70,7 +70,7 @@ Season12.Runs.push(
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-08-20T22:38:46Z", Attempts: 14/*?*/, Party: [
                     { Pokemon: "Weavile", Nickname: "Rs      z ", Level: 75, Gender: "Male", Number: 461, IDNo: "16572" },
                     { Pokemon: "Togekiss", Nickname: "Tag", Level: 75, Gender: "Male", Number: 468, IDNo: "16572" },
-                    { Pokemon: "Beedrill", Nickname: "GigaChad", Level: 75, Gender: "Male", Number: 15, IDNo: "16572" },
+                    { Pokemon: "Beedrill", Nickname: "GigaChad", Level: 75, Gender: "Male", Form: "Mega", Number: 15, IDNo: "16572" },
                     { Pokemon: "Pyroar", Nickname: "Aaqffeyxxx", Level: 75, Gender: "Female", Number: 668, IDNo: "16572" },
                     { Pokemon: "Dragonite", Nickname: "Lazuli", Level: 75, Gender: "Female", Shiny, Number: 149, IDNo: "16572" },
                     { Pokemon: "Excadrill", Nickname: "Bbag5 ", Level: 75, Gender: "Female", Number: 530, IDNo: "16572" },
