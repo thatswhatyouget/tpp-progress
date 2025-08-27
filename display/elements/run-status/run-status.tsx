@@ -200,7 +200,7 @@ namespace TPP.Display.Elements.RunStatus {
             //var display = new ViewModels.PartyDisplay(this.state.status, this.state.run, Scale.Days);
             else {
                 var hof = this.state.run.Events.filter(e => (e as HallOfFame).Party).pop() as HallOfFame;
-                if (!hof)
+                if (!hof || (!forceHof && this.state.run.AlwaysShowHOF))
                     return null;
                 var display = new ViewModels.PartyDisplay(hof, this.state.run, Scale.Days);
             }

@@ -123,6 +123,7 @@ declare namespace TPP {
         FinalStateLink?: string;
         LastScreenshot?: string;
         SidegameId?: string;
+        AlwaysShowHOF?: boolean;
     }
     interface DisplayRun extends Run {
         Videos?: Twitch.Video[];
@@ -190,6 +191,7 @@ declare var ShortIntermissions: TPP.Collection;
 declare var tppData: TPP.Collection[];
 declare var exports: any;
 declare const Shiny = true;
+declare const AlwaysShowHOF = true;
 declare const commonEvents: ({
     Group: string;
     Name: string;

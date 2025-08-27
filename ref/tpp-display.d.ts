@@ -569,7 +569,7 @@ declare namespace TPP.Display.Elements.RunStatus {
         private get rematchBosses();
         private get tournaments();
         private get battleFrontier();
-        private get partyDisplay();
+        private partyDisplay;
         private get isFutureRun();
         private get timeUntilRun();
         render(): JSX.Element;
