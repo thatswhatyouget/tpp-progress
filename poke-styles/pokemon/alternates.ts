@@ -100,6 +100,8 @@ var alternates: Alternate[] = [
     new Alternate("gourgeist", "Super"),
 
     new Alternate("zygarde", "percent10"),
+	
+    new Alternate("Hoopa", "unbound"),
 
     new Alternate("lycanroc", "Midnight"),
 
