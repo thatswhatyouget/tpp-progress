@@ -102,6 +102,7 @@ var exports = exports || {};
 exports.tppData = tppData;
 
 const Shiny = true; // for HoF shorthand
+const AlwaysShowHOF = true; // for HOF shorthand
 
 //post-processing
 setTimeout(() => {

@@ -49,6 +49,7 @@ namespace TPP {
         FinalStateLink?: string;
         LastScreenshot?: string;
         SidegameId?: string;
+        AlwaysShowHOF?: boolean;
     }
 
     export interface DisplayRun extends Run {

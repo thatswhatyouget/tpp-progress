@@ -11,6 +11,7 @@ Season12.Runs.push(
         HostImageSource: "",
         BaseGame: "FireRed",
         Region: "Borrius",
+        AlwaysShowHOF,
         //FinalStateLink: "./states/Season 12/unbound.json",
         Events: [
             {

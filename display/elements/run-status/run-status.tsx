@@ -194,13 +194,13 @@ namespace TPP.Display.Elements.RunStatus {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Symbols" || e.Group == "Prints"));
         }
 
-        private get partyDisplay() {
-            if (this.state.status && this.state.status.party)
+        private partyDisplay(forceHof = false) {
+            if (!forceHof && this.state.status && this.state.status.party)
                 return <CurrentParty party={this.state.status.party} trainer={this.state.status} run={this.state.run} />
             //var display = new ViewModels.PartyDisplay(this.state.status, this.state.run, Scale.Days);
             else {
                 var hof = this.state.run.Events.filter(e => (e as HallOfFame).Party).pop() as HallOfFame;
-                if (!hof)
+                if (!hof || (!forceHof && this.state.run.AlwaysShowHOF))
                     return null;
                 var display = new ViewModels.PartyDisplay(hof, this.state.run, Scale.Days);
             }
@@ -236,7 +236,8 @@ namespace TPP.Display.Elements.RunStatus {
                         <img src={this.state.lastScreen} />
                         {this.state.lastScreenTime ? <h4>{this.state.lastScreenTime}</h4> : null}
                     </PokeBox> : null}
-                    {this.partyDisplay}
+                    {this.partyDisplay()}
+                    {this.state.run.AlwaysShowHOF && this.partyDisplay(true)}
                     <PokeBox title="Duration"><h3>{Duration.parse(this.state.run.Ongoing ? new Date().toISOString() : this.state.run.Duration, this.state.run.StartTime).toString()}</h3></PokeBox>
                     <CurrentLocation mapName={this.state.status.map_name} areaName={this.state.status.area_name} />
                     <EventDisplay key="Past Hosts" events={this.pastHosts} />
