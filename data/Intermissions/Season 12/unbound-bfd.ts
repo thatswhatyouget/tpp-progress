@@ -7,7 +7,7 @@ Intermissions.Runs.push(
         StartDate: "2025-08-08T02:55:00Z",
         Duration: "2025-08-09T21:00:00Z",
         HostName: "iga   ",
-        HostImage: "",
+        HostImage: "img/hosts/iga.png",
         HostImageSource: "",
         BaseGame: "FireRed",
         Region: "Borrius",
