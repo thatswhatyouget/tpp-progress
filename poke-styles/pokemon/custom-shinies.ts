@@ -14,7 +14,11 @@ class CustomShiny {
 }
 
 var customShinies: CustomShiny[] = [
+    new CustomShiny("unbound", "Butterfree"),
     new CustomShiny("unbound", "Dragonite"),
+    new CustomShiny("unbound", "Magcargo"),
+    new CustomShiny("unbound", "Electivire"),
+    new CustomShiny("unbound", "Simipour"),
     new CustomShiny("chattycrystal", "Turtwig"),
     new CustomShiny("chattycrystal", "Grotle"),
     new CustomShiny("chattycrystal", "Torterra"),
