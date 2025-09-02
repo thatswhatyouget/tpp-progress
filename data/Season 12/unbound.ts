@@ -92,7 +92,56 @@ Season12.Runs.push(
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
             },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-08-30T12:51:36Z", Attempts: 0/*?*/, Party: [
+                    { Pokemon: "Tyranitar", Nickname: "Auudx", Level: 100, Gender: "Male", Form: "Mega", Number: 248, IDNo: "16572" },
+                    { Pokemon: "Breloom", Nickname: "Bobb", Level: 100, Gender: "Male", Number: 286, IDNo: "16572" },
+                    { Pokemon: "Magmortar", Nickname: "Maggtrois", Level: 100, Gender: "Male", Number: 467, IDNo: "16572" },
+                    { Pokemon: "Absol", Nickname: "Nocc", Level: 100, Gender: "Male", Number: 359, IDNo: "16572" },
+                    { Pokemon: "Shedinja", Nickname: "Edd", Level: 100, Number: 292, IDNo: "16572" },
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Water", Number: 493, IDNo: "16572" },
+				
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-08-30T14:24:03Z", Attempts: 0/*?*/, Party: [
+                    { Pokemon: "Togekiss", Nickname: "Tag", Level: 100, Gender: "Male", Number: 468, IDNo: "16572" },
+                    { Pokemon: "Lucario", Nickname: "A 99", Level: 100, Gender: "Male", Form: "Mega", Number: 448, IDNo: "16572" },
+                    { Pokemon: "Magmortar", Nickname: "Maggtrois", Level: 100, Gender: "Male", Number: 467, IDNo: "16572" },
+                    { Pokemon: "Absol", Nickname: "Nocc", Level: 100, Gender: "Male", Number: 359, IDNo: "16572" },
+                    { Pokemon: "Breloom", Nickname: "Bobb", Level: 100, Gender: "Male", Number: 286, IDNo: "16572" },
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Ground", Number: 493, IDNo: "16572" },
+				
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-08-30T19:58:17Z", Attempts: 0/*?*/, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Steel", Number: 493, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
 
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-09-02T03:23:26Z", Attempts: 0/*?*/, Party: [
+                    { Pokemon: "Togekiss", Nickname: "Tag", Level: 100, Gender: "Male", Number: 468, IDNo: "16572" },
+                    { Pokemon: "Diggersby", Nickname: "mG♀♂……!5", Level: 100, Gender: "Male", Number: 660, IDNo: "16572" },
+                    { Pokemon: "Magcargo", Nickname: "Boiler", Level: 100, Gender: "Female", Shiny, Number: 219, IDNo: "16572" },
+                    { Pokemon: "Electivire", Nickname: "Ppppppop“O", Level: 90, Gender: "Male", Shiny, Number: 466, IDNo: "16572" },
+                    { Pokemon: "Dragonite", Nickname: "Lazuli", Level: 100, Gender: "Female", Shiny, Number: 149, IDNo: "16572" },
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Bug", Number: 493, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
             { "Group": "Pokemon", "Name": "Larvitar", "Time": "2025-08-09T21:13:37.598Z" },
             { "Group": "Pokemon", "Name": "Vanillite", "Time": "2025-08-09T21:48:29.864Z" },
             { "Group": "Pokemon", "Name": "Makuhita", "Time": "2025-08-09T22:41:22.452Z" },

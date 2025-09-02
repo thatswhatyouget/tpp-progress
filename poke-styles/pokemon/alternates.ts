@@ -66,8 +66,11 @@ var alternates: Alternate[] = [
 
     new Alternate("dialga", "Origin"),
 
-    new Alternate("arceus", "Bug"),
-    new Alternate("arceus", "Fire"),
+    new Alternate("Arceus", "Bug"),
+    new Alternate("Arceus", "Fire"),
+    new Alternate("Arceus", "Ground"),
+    new Alternate("Arceus", "Steel"),
+    new Alternate("Arceus", "Water"),
 
     new Alternate("basculin", "Blue"),
     new Alternate("basculin", "White"),
