@@ -220,7 +220,7 @@ Season8.Runs.push(
 			
             {
                 Group: "Symbols",
-                Name: "Knowledge",
+                Name: "Silver Knowledge Symbol",
                 Image: "img/badges/symbols/knowledgeS.png",
                 Time: "2021-08-31T02:44:49Z",
                 Attempts: 0

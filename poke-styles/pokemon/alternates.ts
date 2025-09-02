@@ -89,7 +89,8 @@ var alternates: Alternate[] = [
 
     new Alternate("keldeo", "Resolute"),
 
-    new Alternate("vivillon", "Modern"),
+    new Alternate("Vivillon", "Modern"),
+    new Alternate("Vivillon", "PokeBall"),
 
     new Alternate("Floette", "Eternal"),
 
