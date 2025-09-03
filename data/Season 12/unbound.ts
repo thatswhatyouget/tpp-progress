@@ -142,6 +142,19 @@ Season12.Runs.push(
                 Image: "img/ribbons/champion.png"
             },
 			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-09-03T03:09:03Z", Attempts: 0/*?*/, Party: [
+                    { Pokemon: "Gyarados", Nickname: "Aaghhii", Level: 100, Gender: "Female", Form: "Mega", Shiny, Number: 130, IDNo: "16572" },
+                    { Pokemon: "Meowstic", Level: 100, Gender: "Male", Number: 678, IDNo: "16572" },
+                    { Pokemon: "Excadrill", Nickname: "Bbag5 ", Level: 100, Gender: "Female", Number: 530, IDNo: "16572" },
+                    { Pokemon: "Dragonite", Nickname: "Lazuli", Level: 100, Gender: "Female", Shiny, Number: 149, IDNo: "16572" },
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Fairy", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Weavile", Nickname: "Rs      z ", Level: 100, Gender: "Male", Number: 461, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
             { "Group": "Pokemon", "Name": "Larvitar", "Time": "2025-08-09T21:13:37.598Z" },
             { "Group": "Pokemon", "Name": "Vanillite", "Time": "2025-08-09T21:48:29.864Z" },
             { "Group": "Pokemon", "Name": "Makuhita", "Time": "2025-08-09T22:41:22.452Z" },
