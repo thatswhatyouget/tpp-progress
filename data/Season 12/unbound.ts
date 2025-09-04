@@ -5,14 +5,13 @@ Season12.Runs.push(
         ColorSecondary: "#7544C6",
         ColorPrimary: "#FFB320",
         StartDate: "2025-08-09T21:00:00Z",
-        Duration: "255d",
+        Duration: "2025-09-03T03:15:32Z",
         HostName: "Adeuu",
         HostImage: "img/hosts/adeuu.png",
         HostImageSource: "",
         BaseGame: "FireRed",
         Region: "Borrius",
-        AlwaysShowHOF,
-        //FinalStateLink: "./states/Season 12/unbound.json",
+        FinalStateLink: "./states/Season 12/unbound.json",
         Events: [
             {
                 Group: "Badges", Name: "Leaf Badge", Image: "img/badges/unbound/Leaf.png",
@@ -79,7 +78,7 @@ Season12.Runs.push(
                 FirstAttemptDate: "2025-08-18T01:17:12.952Z",
                 Image: "img/ribbons/champion.png"
             },
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-08-25T07:17:33Z", Attempts: 0/*?*/, Party: [
                     { Pokemon: "Araquanid", Nickname: "Njvw", Level: 100, Gender: "Female", Number: 752, IDNo: "16572" },
@@ -92,7 +91,7 @@ Season12.Runs.push(
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
             },
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-08-30T12:51:36Z", Attempts: 0/*?*/, Party: [
                     { Pokemon: "Tyranitar", Nickname: "Auudx", Level: 100, Gender: "Male", Form: "Mega", Number: 248, IDNo: "16572" },
@@ -101,12 +100,12 @@ Season12.Runs.push(
                     { Pokemon: "Absol", Nickname: "Nocc", Level: 100, Gender: "Male", Number: 359, IDNo: "16572" },
                     { Pokemon: "Shedinja", Nickname: "Edd", Level: 100, Number: 292, IDNo: "16572" },
                     { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Water", Number: 493, IDNo: "16572" },
-				
+
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
             },
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-08-30T14:24:03Z", Attempts: 0/*?*/, Party: [
                     { Pokemon: "Togekiss", Nickname: "Tag", Level: 100, Gender: "Male", Number: 468, IDNo: "16572" },
@@ -115,12 +114,12 @@ Season12.Runs.push(
                     { Pokemon: "Absol", Nickname: "Nocc", Level: 100, Gender: "Male", Number: 359, IDNo: "16572" },
                     { Pokemon: "Breloom", Nickname: "Bobb", Level: 100, Gender: "Male", Number: 286, IDNo: "16572" },
                     { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Ground", Number: 493, IDNo: "16572" },
-				
+
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
             },
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-08-30T19:58:17Z", Attempts: 0/*?*/, Party: [
                     { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Steel", Number: 493, IDNo: "16572" },
@@ -141,7 +140,7 @@ Season12.Runs.push(
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
             },
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-09-03T03:09:03Z", Attempts: 0/*?*/, Party: [
                     { Pokemon: "Gyarados", Nickname: "Aaghhii", Level: 100, Gender: "Female", Form: "Mega", Shiny, Number: 130, IDNo: "16572" },
@@ -154,7 +153,7 @@ Season12.Runs.push(
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
             },
-			
+
             { "Group": "Pokemon", "Name": "Larvitar", "Time": "2025-08-09T21:13:37.598Z" },
             { "Group": "Pokemon", "Name": "Vanillite", "Time": "2025-08-09T21:48:29.864Z" },
             { "Group": "Pokemon", "Name": "Makuhita", "Time": "2025-08-09T22:41:22.452Z" },
