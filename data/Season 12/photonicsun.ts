@@ -13,7 +13,7 @@ Season12.Runs.push(
         Generation: 7,
         Pokedex: "National",
         FromNatDex: true,
-        // FinalStateLink: "./states/Season 12/photonicsun.json",
+        FinalStateLink: "./states/Season 12/photonicsun.json",
         Events: [
             { "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "2025-04-12T20:55:25.460Z", "Attempts": 1 },
             { "Group": "Badges", "Name": "Fightinium Z", "Image": "img/z-crystals/Fightinium Z.png", "Time": "2025-04-13T02:28:38.396Z", "Attempts": 2 },
@@ -32,7 +32,7 @@ Season12.Runs.push(
             { "Group": "Elite Four", "Name": "Olivia", "Time": "2025-04-18T16:50:03.941Z", "Attempts": 2, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four", "Name": "Kahili", "Time": "2025-04-18T17:26:19.353Z", "Attempts": 1, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
             { "Group": "Champions", "Name": "Professor Kukui", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
-			
+
 			<TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-04-20T01:26:51Z", Attempts: 0, Party: [
                     { Pokemon: "Sunflora", Nickname: "HAHA!", Gender: "Male", Level: 100, Shiny: true },
@@ -45,7 +45,7 @@ Season12.Runs.push(
                 Image: "img/ribbons/champion-alola.png",
                 FirstAttemptDate: ""
             },
-			
+
 			<TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-04-22T06:34:33Z", Attempts: 0, Party: [
                     { Pokemon: "Necrozma", Nickname: "Néozma", Level: 100, Form: "Dusk Mane" },
@@ -58,7 +58,7 @@ Season12.Runs.push(
                 Image: "img/ribbons/champion-alola.png",
                 FirstAttemptDate: ""
             },
-			
+
 			<TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-04-26T06:26:33Z", Attempts: 0, Party: [
                     { Pokemon: "Milotic", Nickname: "Nyla", Gender: "Female", Level: 100, Shiny: true },
