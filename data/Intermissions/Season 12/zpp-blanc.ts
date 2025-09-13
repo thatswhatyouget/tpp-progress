@@ -12,7 +12,7 @@ Intermissions.Runs.push(
         Region: "Unova",
         Generation: 5,
         Pokedex: "National-FR",
-        FinalStateLink: "./states/white.json",
+        //FinalStateLink: "./states/white.json",
         AlwaysShowHOF,
         Language: "French",
         Events: [
