@@ -109,6 +109,7 @@ declare namespace TPP {
             pokemon?: boolean;
         };
         BaseGame?: string;
+        Language?: "English" | "French" | "German";
         Class?: string;
         ContainsRunsFrom?: string[];
         Revisit?: {

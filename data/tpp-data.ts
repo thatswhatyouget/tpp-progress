@@ -116,9 +116,15 @@ setTimeout(() => {
         r.StartTime = r.StartTime || (r.StartDate ? Math.floor(Date.parse(r.StartDate) / 1000) : 0);
         r.EndTime = r.EndTime || (TPP.Duration.parse(r.EndDate || r.Duration, r.StartTime).TotalSeconds + r.StartTime);
         r.Events.forEach(e => {
-            e.UnixTime = TPP.Duration.parse(e.Time, r.StartTime).TotalSeconds + r.StartTime;
+            if (!!e.UnixTime)
+                e.Time = new Date(e.UnixTime * 1000).toISOString();
+            else
+                e.UnixTime = TPP.Duration.parse(e.Time, r.StartTime).TotalSeconds + r.StartTime;
             if ((<TPP.HallOfFame>e).FirstAttemptDate) {
-                (<TPP.HallOfFame>e).FirstAttemptUnixTime = TPP.Duration.parse((<TPP.HallOfFame>e).FirstAttemptDate, r.StartTime).TotalSeconds + r.StartTime;
+                if (!!(<TPP.HallOfFame>e).FirstAttemptUnixTime)
+                    (<TPP.HallOfFame>e).FirstAttemptDate = new Date((<TPP.HallOfFame>e).FirstAttemptUnixTime * 1000).toISOString();
+                else
+                    (<TPP.HallOfFame>e).FirstAttemptUnixTime = TPP.Duration.parse((<TPP.HallOfFame>e).FirstAttemptDate, r.StartTime).TotalSeconds + r.StartTime;
             }
         });
     }));

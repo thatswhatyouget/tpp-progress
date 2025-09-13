@@ -12,6 +12,7 @@ Intermissions.Runs.push(
         Region: "Hoenn",
         Generation: 3,
         Pokedex: "National",
+        Language: "German",
         Events: [
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2023-09-02T15:21:34.002Z", IDNo: "03205", Attempts: 1, Party: [

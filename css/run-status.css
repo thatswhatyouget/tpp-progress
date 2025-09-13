@@ -203,6 +203,11 @@
     min-width:12em;
 }
 
+.pokemon-hud.pc-box:not(.no-box-number) h3:before {
+    content:"#.";
+    font-family: pokered, pokeplatinum, monospace;
+}
+
 .pokemon-hud.pc-box ul.party > li {
     background-color:#DDD;
     width:15em;
@@ -537,6 +542,15 @@
     transform:skew(15deg)translateX(-.2em);
     max-width: 100%;
     background-color:purple;
+}
+
+.l10n .itemsList, .l10n .badgeList, .l10n .pokemon-hud.pc-box {
+    font-family: pokered-modern, pokered, pokeplatinum, monospace;
+    font-variant-ligatures: none;
+}
+.l10n .pokemon-hud.pc-box:not(.no-box-number) h3:before {
+    position: relative;
+    top: -0.08em;
 }
 
 .image.jax:hover {

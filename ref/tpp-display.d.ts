@@ -518,6 +518,7 @@ declare namespace TPP.Display.Elements.RunStatus {
             [key: string]: number;
         };
         title: string;
+        language: Run["Language"];
     }
     export class GameStats extends React.Component<GameStatsDisplayProps, {}> {
         render(): JSX.Element;

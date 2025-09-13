@@ -6,6 +6,7 @@ namespace TPP.Display.Elements.RunStatus {
     interface GameStatsDisplayProps {
         gameStats: { [key: string]: number };
         title: string;
+        language: Run["Language"];
     }
 
     export class GameStats extends React.Component<GameStatsDisplayProps, {}> {
@@ -15,7 +16,7 @@ namespace TPP.Display.Elements.RunStatus {
                 return null;
             return <PokeBox title={`${this.props.title}`} className="itemsList gameStats">
                 <ul>
-                    {statsList.map(k => <GameStat key={k} name={k} value={this.props.gameStats[k]} />)}
+                    {statsList.map(k => <GameStat key={k} name={k} value={this.props.gameStats[k]} language={this.props.language} />)}
                 </ul>
             </PokeBox>;
         }
@@ -27,8 +28,9 @@ namespace TPP.Display.Elements.RunStatus {
     const moneyDetectExp = /Money/i;
     const filmGrossExp = /PokéStar.*(Box|Gross)/i
 
-    class GameStat extends React.PureComponent<{ name: string, value: number }, {}> {
+    class GameStat extends React.PureComponent<{ name: string, value: number, language:Run["Language"] }, {}> {
         render() {
+            let $ = (!this.props.language || this.props.language == "English") ? "$" : "\ue004";
             let name = this.props.name;
             let value = this.props.value.toLocaleString();
             if (timeDetectExp.test(name))
@@ -44,12 +46,12 @@ namespace TPP.Display.Elements.RunStatus {
                 value = dur.toString(dur.TotalDays >= 1 ? TPP.Scale.Days : dur.TotalHours >= 1 ? TPP.Scale.Hours : TPP.Scale.Minutes);
                 name = name.replace(secondsDetectExp, "Time Spent");
             }
-            // else if (percentDetectExp.test(name))
-            //     value = value + "%"; // % doesn't exist in Pokered font
+            else if (percentDetectExp.test(name) && this.props.language && this.props.language != "English")
+                value = value + "%"; // % doesn't exist in normal Pokered font
             else if (filmGrossExp.test(name))
-                value = `$${(this.props.value / 10).toLocaleString()}Bn`;
+                value = `${$}${(this.props.value / 10).toLocaleString()}Bn`;
             else if (moneyDetectExp.test(name))
-                value = "$" + value;
+                value = $ + value;
             return <li data-quantity={value}>{pokeRedCondenseText(name)}:</li>;
         }
     }

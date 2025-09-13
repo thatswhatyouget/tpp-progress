@@ -223,6 +223,9 @@ namespace TPP.Display.Elements.RunStatus {
         }
 
         render() {
+            let locale = "";
+            if (!!this.props.run.Language && this.props.run.Language != "English")
+                locale = ` l10n lang-${this.props.run.Language.toLowerCase()} ${this.props.run.Language.toLowerCase()}`;
             this.state.status.items = this.state.status.items || {};
             if (this.state.error)
                 var innards = <h1 className='error'>Run Status is not currently available.</h1>;
@@ -251,7 +254,7 @@ namespace TPP.Display.Elements.RunStatus {
                         {this.badgesOutOfDate ? <h6>Outdated</h6> : null}
                     </EventDisplay>
                     <EventDisplay key="Noble Pokémon" events={this.bosses} />
-                    <GameStats key="Game Stats" title="Stats" gameStats={this.state.status.game_stats} />
+                    <GameStats key="Game Stats" title="Stats" gameStats={this.state.status.game_stats} language={this.props.run.Language} />
                     <ItemDisplay key="Candy" title="Candy" items={this.state.status.items.candy} />
                     <ItemDisplay key="Items" title="Items" items={this.state.status.items.items} />
                     <ItemDisplay key="Key Items" title="Key Items" items={this.state.status.items.key} />
@@ -285,7 +288,7 @@ namespace TPP.Display.Elements.RunStatus {
                     {this.state.status && this.state.status.daycare && this.state.status.daycare.length > 0 && <PCBox boxName="Daycare" boxContents={this.state.status.daycare} trainer={this.state.status} />}
                     {this.state.status && <PC pc={this.state.status.pc} trainer={this.state.status} />}
                 </div>;
-            return <div className="run-status">
+            return <div className={"run-status" + locale}>
                 <h1>
                     {this.state.run.RunName}
                     {this.updating ? <i className="fa fa-refresh fa-spin updating" /> : null}

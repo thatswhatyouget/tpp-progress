@@ -17,8 +17,8 @@ namespace TPP.Display.Elements.RunStatus {
             const boxNum = this.props.boxNumber;
             const boxName = this.props.boxName;
             const boxContents = this.props.boxContents;
-            return <PokeBox title={`${boxNum ? `#${boxNum}: ` : ""}${boxName} (${boxContents.length})`}
-                className="pokemon-hud pc-box">
+            return <PokeBox title={`${boxNum ? `${boxNum}: ` : ""}${boxName} (${boxContents.length})`}
+                className={`pokemon-hud pc-box ${boxNum ? "" : "no-box-number"}`}>
                 <ul className="party">
                     {boxContents.length > 0 ?
                         boxContents.map(p => <Pokemon pokemon={p} key={p.box_slot || p.personality_value} ignoreHealth trainer={this.props.trainer} />)
