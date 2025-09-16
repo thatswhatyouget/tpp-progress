@@ -181,7 +181,7 @@ Intermissions.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-09-14T20:54:20Z", IDNo: "20192", Attempts: 12, Party: [
                     { Pokemon: "Pyrax", Nickname: "PYRRAATE", Level: 81, Gender: "Male", Class:"Volcarona" },
-                    { Pokemon: "Motisma", Nickname: "Triphaset", Level: 70, Class:"Rotom", Form:"Mow" },
+                    { Pokemon: "Motisma", Nickname: "Triphaset", Level: 70, Class:"Rotom", Form:"Tonte" },
                     { Pokemon: "Lakmécygne", Nickname: "ADMIN♥♥♥♥♥", Level: 73, Gender: "Female", Class:"Swanna" },
                     { Pokemon: "Zekrom", Nickname: "”♦︎", Level: 62 },
                     { Pokemon: "Crocorible", Level: 65, Gender: "Male", Class:"Krookodile" },
