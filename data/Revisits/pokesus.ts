@@ -20,9 +20,16 @@ Revisits.Runs.push(
 		
             {
                 Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png",
-                Time: "2025-02-11T01:50:19Z", Attempts: 2
+                Time: "2025-02-11T01:50:21Z", Attempts: 2
             },
 		
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Togepi", "Time": "2025-02-11T02:31:27Z" },
+			
+            {
+                Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png",
+                Time: "2025-02-11T04:08:04Z", Attempts: 1
+            },
+			
         ],
     }
 );
