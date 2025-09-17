@@ -6,7 +6,7 @@ Revisits.Runs.push(
         ColorPrimary: "#4dabd1",
         ColorSecondary: "#102139",
         StartDate: "2025-02-10T22:08:31.484Z",
-        Duration: "2025-02-12T20:45:10.144Z",
+        Duration: "2025-02-12T22:45:10.144Z",
         HostName: "IJB",
         HostImage: "img/hosts/ijb.png",
         // HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
@@ -54,6 +54,18 @@ Revisits.Runs.push(
             {
                 Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png",
                 Time: "2025-02-11T23:24:22Z", Attempts: 1
+            },
+			
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Metapod", "Time": "2025-02-12T04:49:00Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Bellsprout", "Time": "2025-02-12T05:35:55Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Hoothoot", "Time": "2025-02-12T05:56:50Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Tentacool", "Time": "2025-02-12T06:31:51Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Togetic", "Time": "2025-02-12T10:30:39Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Lanturn", "Time": "2025-02-12T12:52:39Z" },
+			
+            {
+                Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png",
+                Time: "2025-02-12T20:46:27Z", Attempts: 1
             },
 			
         ],
