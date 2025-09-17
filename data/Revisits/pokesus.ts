@@ -15,7 +15,13 @@ Revisits.Runs.push(
         // FinalStateLink: "./states/Season 12/pokesus.json",
         Events: [
 		
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Geodude", "Time": "2025-02-11T00:02:09Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Sandshrew", "Time": "2025-02-11T00:06:13Z" },
 		
+            {
+                Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png",
+                Time: "2025-02-11T01:50:19Z", Attempts: 2
+            },
 		
         ],
     }
