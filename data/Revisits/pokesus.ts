@@ -44,6 +44,13 @@ Revisits.Runs.push(
                 Time: "2025-02-11T16:09:12Z", Attempts: 1
             },
 			
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Meganium", "Time": "2025-02-11T22:33:05Z" },
+			
+            {
+                Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png",
+                Time: "2025-02-11T22:33:07Z", Attempts: 1
+            },
+			
         ],
     }
 );
