@@ -51,6 +51,11 @@ Revisits.Runs.push(
                 Time: "2025-02-11T22:33:07Z", Attempts: 1
             },
 			
+            {
+                Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png",
+                Time: "2025-02-11T23:24:22Z", Attempts: 1
+            },
+			
         ],
     }
 );
