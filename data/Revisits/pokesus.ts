@@ -29,6 +29,20 @@ Revisits.Runs.push(
                 Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png",
                 Time: "2025-02-11T04:08:04Z", Attempts: 1
             },
+		
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Drowzee", "Time": "2025-02-11T06:52:29Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Yanma", "Time": "2025-02-11T07:29:56Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Sudowoodo", "Time": "2025-02-11T08:21:57Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Growlithe", "Time": "2025-02-11T09:04:19Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Poliwag", "Time": "2025-02-11T10:56:18Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Magmar", "Time": "2025-02-11T12:27:39Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Chinchou", "Time": "2025-02-11T12:52:58Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Miltank", "Time": "2025-02-11T13:15:44Z" },
+			
+            {
+                Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png",
+                Time: "2025-02-11T16:09:12Z", Attempts: 1
+            },
 			
         ],
     }
