@@ -88,6 +88,14 @@ Revisits.Runs.push(
         // FinalStateLink: "./states/Season 12/pokesus.json",
         Events: [
 		
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Psyduck", "Time": "2025-03-02T00:22:18Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Gastly", "Time": "2025-03-02T09:07:58Z" },
+			
+            {
+                Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png",
+                Time: "2025-03-02T11:51:53Z", Attempts: 2
+            },
+			
             {
                 Group: "Elite Four",
                 Name: "Will",
