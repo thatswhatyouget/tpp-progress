@@ -165,6 +165,31 @@ Revisits.Runs.push(
                 Time: "2025-03-03T20:49:24Z", Attempts: 1
             },
 			
+            {
+                Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png",
+                Time: "2025-03-03T21:24:28Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png",
+                Time: "2025-03-03T21:56:55Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png",
+                Time: "2025-03-03T23:08:35Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png",
+                Time: "2025-03-03T23:24:45Z", Attempts: 1
+            },
+			
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Ursaring", "Time": "2025-03-04T01:29:31Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Tangela", "Time": "2025-03-04T01:31:35Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Tentacruel", "Time": "2025-03-04T05:50:07Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Horsea", "Time": "2025-03-04T05:53:30Z" },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "51337", Party: [
                     { Number: 154, Pokemon: "AMOGUS", Class: "Meganium", Nickname: "Sussynium", Gender: "Male", Level: 55, IDNo: "51337" },
