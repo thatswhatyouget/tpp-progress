@@ -155,6 +155,16 @@ Revisits.Runs.push(
                 Time: "2025-03-03T18:29:51Z", Attempts: 1
             },
 			
+            {
+                Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png",
+                Time: "2025-03-03T18:56:08Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png",
+                Time: "2025-03-03T20:49:24Z", Attempts: 1
+            },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "51337", Party: [
                     { Number: 154, Pokemon: "AMOGUS", Class: "Meganium", Nickname: "Sussynium", Gender: "Male", Level: 55, IDNo: "51337" },
