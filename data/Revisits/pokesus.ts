@@ -141,6 +141,20 @@ Revisits.Runs.push(
                 Time: "2025-03-03T10:26:05Z", Attempts: 14
             },
 			
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Oddish", "Time": "2025-03-03T12:00:59Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Spearow", "Time": "2025-03-03T12:34:26Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Goldeen", "Time": "2025-03-03T12:43:07Z" },
+			
+            {
+                Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png",
+                Time: "2025-03-03T15:35:14Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png",
+                Time: "2025-03-03T18:29:51Z", Attempts: 1
+            },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "51337", Party: [
                     { Number: 154, Pokemon: "AMOGUS", Class: "Meganium", Nickname: "Sussynium", Gender: "Male", Level: 55, IDNo: "51337" },
