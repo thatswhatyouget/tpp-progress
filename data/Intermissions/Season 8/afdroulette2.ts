@@ -132,8 +132,8 @@ Revisits.Runs.push(
         Pokedex: "Amogus",
         Events: [
 		
-            { "Group": "Pokemon", "Name": "Poochyena", "Time": "2021-05-08T14:51:19Z" },
-            { "Group": "Pokemon", "Name": "Wingull", "Time": "2021-05-08T18:10:37Z" },
+            { "Group": "Pokemon", "Name": "AMOGUS", Class: "Poochyena", "Time": "2021-05-08T14:51:19Z" },
+            { "Group": "Pokemon", "Name": "AMOGUS", Class: "Wingull", "Time": "2021-05-08T18:10:37Z" },
 			
             {
                 Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png", Time: "2021-05-08T19:33:28Z", Attempts: 1 },

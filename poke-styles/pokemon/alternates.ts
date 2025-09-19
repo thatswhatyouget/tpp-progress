@@ -139,6 +139,8 @@ var alternates: Alternate[] = [
     new Alternate("zoroark", "Eliza"),
 
     new Alternate("ub-queen", "Ultra"),
+	
+    new Alternate("Motisma", "Tonte"),
 
 ];
 

@@ -6,7 +6,7 @@ Revisits.Runs.push(
         ColorPrimary: "#4dabd1",
         ColorSecondary: "#102139",
         StartDate: "2025-02-10T22:08:31.484Z",
-        Duration: "2025-02-12T20:45:10.144Z",
+        Duration: "2025-02-12T22:45:10.144Z",
         HostName: "IJB",
         HostImage: "img/hosts/ijb.png",
         // HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
@@ -15,8 +15,59 @@ Revisits.Runs.push(
         // FinalStateLink: "./states/Season 12/pokesus.json",
         Events: [
 		
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Geodude", "Time": "2025-02-11T00:02:09Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Sandshrew", "Time": "2025-02-11T00:06:13Z" },
 		
+            {
+                Group: "Badges", Name: "Hive Badge", Image: "img/badges/hive.png",
+                Time: "2025-02-11T01:50:21Z", Attempts: 2
+            },
 		
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Togepi", "Time": "2025-02-11T02:31:27Z" },
+			
+            {
+                Group: "Badges", Name: "Plain Badge", Image: "img/badges/plain.png",
+                Time: "2025-02-11T04:08:04Z", Attempts: 1
+            },
+		
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Drowzee", "Time": "2025-02-11T06:52:29Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Yanma", "Time": "2025-02-11T07:29:56Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Sudowoodo", "Time": "2025-02-11T08:21:57Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Growlithe", "Time": "2025-02-11T09:04:19Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Poliwag", "Time": "2025-02-11T10:56:18Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Magmar", "Time": "2025-02-11T12:27:39Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Chinchou", "Time": "2025-02-11T12:52:58Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Miltank", "Time": "2025-02-11T13:15:44Z" },
+			
+            {
+                Group: "Badges", Name: "Fog Badge", Image: "img/badges/fog.png",
+                Time: "2025-02-11T16:09:12Z", Attempts: 1
+            },
+			
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Meganium", "Time": "2025-02-11T22:33:05Z" },
+			
+            {
+                Group: "Badges", Name: "Storm Badge", Image: "img/badges/storm.png",
+                Time: "2025-02-11T22:33:07Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Mineral Badge", Image: "img/badges/mineral.png",
+                Time: "2025-02-11T23:24:22Z", Attempts: 1
+            },
+			
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Metapod", "Time": "2025-02-12T04:49:00Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Bellsprout", "Time": "2025-02-12T05:35:55Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Hoothoot", "Time": "2025-02-12T05:56:50Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Tentacool", "Time": "2025-02-12T06:31:51Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Togetic", "Time": "2025-02-12T10:30:39Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Lanturn", "Time": "2025-02-12T12:52:39Z" },
+			
+            {
+                Group: "Badges", Name: "Glacier Badge", Image: "img/badges/glacier.png",
+                Time: "2025-02-12T20:46:27Z", Attempts: 1
+            },
+			
         ],
     }
 );
@@ -37,6 +88,14 @@ Revisits.Runs.push(
         // FinalStateLink: "./states/Season 12/pokesus.json",
         Events: [
 		
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Psyduck", "Time": "2025-03-02T00:22:18Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Gastly", "Time": "2025-03-02T09:07:58Z" },
+			
+            {
+                Group: "Badges", Name: "Rising Badge", Image: "img/badges/rising.png",
+                Time: "2025-03-02T11:51:53Z", Attempts: 2
+            },
+			
             {
                 Group: "Elite Four",
                 Name: "Will",
@@ -81,6 +140,55 @@ Revisits.Runs.push(
                 Image: "img/ribbons/champion.png",
                 Time: "2025-03-03T10:26:05Z", Attempts: 14
             },
+			
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Oddish", "Time": "2025-03-03T12:00:59Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Spearow", "Time": "2025-03-03T12:34:26Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Goldeen", "Time": "2025-03-03T12:43:07Z" },
+			
+            {
+                Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png",
+                Time: "2025-03-03T15:35:14Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png",
+                Time: "2025-03-03T18:29:51Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png",
+                Time: "2025-03-03T18:56:08Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png",
+                Time: "2025-03-03T20:49:24Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png",
+                Time: "2025-03-03T21:24:28Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png",
+                Time: "2025-03-03T21:56:55Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png",
+                Time: "2025-03-03T23:08:35Z", Attempts: 1
+            },
+			
+            {
+                Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png",
+                Time: "2025-03-03T23:24:45Z", Attempts: 1
+            },
+			
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Ursaring", "Time": "2025-03-04T01:29:31Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Tangela", "Time": "2025-03-04T01:31:35Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Tentacruel", "Time": "2025-03-04T05:50:07Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Horsea", "Time": "2025-03-04T05:53:30Z" },
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "51337", Party: [
