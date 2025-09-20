@@ -189,6 +189,7 @@ Revisits.Runs.push(
 			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Tangela", "Time": "2025-03-04T01:31:35Z" },
 			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Tentacruel", "Time": "2025-03-04T05:50:07Z" },
 			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Horsea", "Time": "2025-03-04T05:53:30Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Poliwhirl", "Time": "2025-03-04T06:15:00Z" },
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "51337", Party: [
@@ -204,6 +205,14 @@ Revisits.Runs.push(
                 Time: "2025-03-04T06:54:05Z", Attempts: 1
             },
 			
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Weepinbell", "Time": "2025-03-04T07:51:30Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Lickitung", "Time": "2025-03-04T08:09:05Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Krabby", "Time": "2025-03-04T08:22:30Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Staryu", "Time": "2025-03-04T08:36:06Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Poliwrath", "Time": "2025-03-04T09:18:50Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Arcanine", "Time": "2025-03-04T09:19:40Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Gloom", "Time": "2025-03-04T09:47:56Z" },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "51337", Party: [
                     { Number: 154, Pokemon: "AMOGUS", Class: "Meganium", Nickname: "Sussynium", Gender: "Male", Level: 56, IDNo: "51337" },
@@ -217,6 +226,9 @@ Revisits.Runs.push(
                 Image: "img/ribbons/champion.png",
                 Time: "2025-03-04T10:16:24Z", Attempts: 1
             },
+			
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Vileplume", "Time": "2025-03-04T10:21:57Z" },
+			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Misdreavus", "Time": "2025-03-04T15:31:06Z" },
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "51337", Party: [
