@@ -5,7 +5,7 @@ Intermissions.Runs.push(
         ColorPrimary: "#e2e2e4",
         ColorSecondary: "#57595a",
         StartDate: "2025-09-13T18:00:00Z",
-        Duration: "2026-09-14T22:42:06Z",
+        Duration: "2025-09-14T22:40:00Z",
         HostName: "AAABd",
         HostImage: "img/hosts/aaabd.png",
         // HostImageSource: "",
