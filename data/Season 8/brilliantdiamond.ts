@@ -24,43 +24,50 @@ Season8.Runs.push(
                 Group: "Badges",
                 Name: "Forest Badge",
                 Image: "img/badges/forest.png",
-                Time: "2021-11-21T15:27:10Z"
+                Time: "2021-11-21T15:27:10Z",
+                Attempts: 6
             },
             {
                 Group: "Badges",
                 Name: "Cobble Badge",
                 Image: "img/badges/cobble.png",
-                Time: "2021-11-23T07:05:15Z"
+                Time: "2021-11-23T07:05:15Z",
+                Attempts: 5
             },
             {
                 Group: "Badges",
                 Name: "Fen Badge",
                 Image: "img/badges/fen.png",
-                Time: "2021-11-23T00:52:33Z"
+                Time: "2021-11-23T00:52:33Z",
+                Attempts: 4
             },
             {
                 Group: "Badges",
                 Name: "Relic Badge",
                 Image: "img/badges/relic.png",
-                Time: "2021-11-23T14:45:39Z"
+                Time: "2021-11-23T14:45:39Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
                 Name: "Mine Badge",
                 Image: "img/badges/mine.png",
-                Time: "2021-11-24T04:04:49Z"
+                Time: "2021-11-24T04:04:49Z",
+                Attempts: 5
             },
             {
                 Group: "Badges",
                 Name: "Icicle Badge",
                 Image: "img/badges/icicle.png",
-                Time: "2021-11-24T10:01:58Z"
+                Time: "2021-11-24T10:01:58Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Beacon Badge",
                 Image: "img/badges/beacon.png",
-                Time: "2021-11-24T19:30:54Z"
+                Time: "2021-11-24T19:30:54Z",
+                Attempts: 3
             },
             {
                 Group: "Rematch Badges",
