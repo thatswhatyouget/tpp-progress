@@ -129,34 +129,39 @@ Season8.Runs.push(
                 Group: "Elite Four",
                 Name: "Aaron",
                 Image: "img/trainers/platinum/aaron.png",
-                Time: "2021-11-25T10:20:30Z"
+                Time: "2021-11-25T10:20:30Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four",
                 Name: "Bertha",
                 Image: "img/trainers/platinum/bertha.png",
-                Time: "2021-11-25T23:37:47Z"
+                Time: "2021-11-25T23:37:47Z",
+                Attempts: 8
             },
             {
                 Group: "Elite Four",
                 Name: "Flint",
                 Image: "img/trainers/platinum/flint.png",
-                Time: "2021-11-26T02:37:30Z"
+                Time: "2021-11-26T02:37:30Z",
+                Attempts: 5
             },
             {
                 Group: "Elite Four",
                 Name: "Lucian",
                 Image: "img/trainers/platinum/lucian.png",
-                Time: "2021-11-26T02:50:06Z"
+                Time: "2021-11-26T02:50:06Z",
+                Attempts: 1
             },
             {
                 Group: "Champions",
                 Name: "Cynthia",
                 Image: "img/trainers/platinum/cynthia.png",
-                Time: "2021-11-26T08:10:42Z"
+                Time: "2021-11-26T08:10:42Z",
+                Attempts: 3
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-11-26T08:13:28Z", IDNo: "932487", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-11-26T08:13:28Z", Attempts: 22, IDNo: "932487", Party: [
                     { Pokemon: "Gardevoir", Level: 69 },
                     { Pokemon: "Manaphy", Nickname: "112drfic", Level: 77 },
                     { Pokemon: "Houndoom", Nickname: "££puuuuyyn", Level: 70 },
