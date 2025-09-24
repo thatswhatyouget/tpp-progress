@@ -335,7 +335,7 @@ Season11.Runs.push(
         StartDate: "2024-03-18T21:00:00Z",
         Duration: "2024-03-24T00:00:22Z",
         HostName: "%--\u265b\u265b\u2639 ",
-        HostImage: "img/hosts/%--.png",
+        HostImage: "img/hosts/00--.png",
         // HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/beur93/aqua_kuehl_the_lonely/",
         Region: "Unova",
         Generation: 5,
