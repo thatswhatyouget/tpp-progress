@@ -176,38 +176,43 @@ Season8.Runs.push(
                 Class: "Rematch",
                 Name: "Aaron",
                 Image: "img/trainers/platinum/aaron.png",
-                Time: "2021-11-26T19:04:14Z"
+                Time: "2021-11-26T19:04:14Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four Rematch",
                 Class: "Rematch",
                 Name: "Bertha",
                 Image: "img/trainers/platinum/bertha.png",
-                Time: "2021-11-26T20:28:42Z"
+                Time: "2021-11-26T20:28:42Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four Rematch",
                 Class: "Rematch",
                 Name: "Flint",
                 Image: "img/trainers/platinum/flint.png",
-                Time: "2021-11-26T20:40:54Z"
+                Time: "2021-11-26T20:40:54Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four Rematch",
                 Class: "Rematch",
                 Name: "Lucian",
                 Image: "img/trainers/platinum/lucian.png",
-                Time: "2021-11-27T10:23:23Z"
+                Time: "2021-11-27T10:23:23Z",
+                Attempts: 6
             },
             {
                 Group: "Champions",
                 Class: "Rematch",
                 Name: "Cynthia",
                 Image: "img/trainers/platinum/cynthia.png",
-                Time: "2021-11-27T10:30:33Z"
+                Time: "2021-11-27T10:30:33Z",
+                Attempts: 1
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-11-27T10:32:38Z", IDNo: "932487", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-11-27T10:32:38Z", Attempts: 9, IDNo: "932487", Party: [
                     { Pokemon: "Houndoom", Nickname: "££puuuuyyn", Level: 80 },
                     { Pokemon: "Manaphy", Nickname: "112drfic", Level: 90 },
                     { Pokemon: "Drapion", Nickname: "1", Level: 80 },
@@ -218,7 +223,7 @@ Season8.Runs.push(
                 Image: "img/ribbons/champion-sinnoh.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-11-29T03:51:08Z", IDNo: "932487", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-11-29T03:51:08Z", Attempts: 20, IDNo: "932487", Party: [
                     { Pokemon: "Giratina", Nickname: "Tina", Level: 100 },
                     { Pokemon: "Cacturne", Nickname: "Cookie", Level: 100 },
                     { Pokemon: "Togekiss", Nickname: "Eggie Mk-II", Level: 100 },
