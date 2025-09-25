@@ -24,132 +24,152 @@ Season8.Runs.push(
                 Group: "Badges",
                 Name: "Forest Badge",
                 Image: "img/badges/forest.png",
-                Time: "2021-11-21T15:27:10Z"
+                Time: "2021-11-21T15:27:10Z",
+                Attempts: 6
             },
             {
                 Group: "Badges",
                 Name: "Cobble Badge",
                 Image: "img/badges/cobble.png",
-                Time: "2021-11-23T07:05:15Z"
+                Time: "2021-11-23T07:05:15Z",
+                Attempts: 5
             },
             {
                 Group: "Badges",
                 Name: "Fen Badge",
                 Image: "img/badges/fen.png",
-                Time: "2021-11-23T00:52:33Z"
+                Time: "2021-11-23T00:52:33Z",
+                Attempts: 4
             },
             {
                 Group: "Badges",
                 Name: "Relic Badge",
                 Image: "img/badges/relic.png",
-                Time: "2021-11-23T14:45:39Z"
+                Time: "2021-11-23T14:45:39Z",
+                Attempts: 3
             },
             {
                 Group: "Badges",
                 Name: "Mine Badge",
                 Image: "img/badges/mine.png",
-                Time: "2021-11-24T04:04:49Z"
+                Time: "2021-11-24T04:04:49Z",
+                Attempts: 5
             },
             {
                 Group: "Badges",
                 Name: "Icicle Badge",
                 Image: "img/badges/icicle.png",
-                Time: "2021-11-24T10:01:58Z"
+                Time: "2021-11-24T10:01:58Z",
+                Attempts: 1
             },
             {
                 Group: "Badges",
                 Name: "Beacon Badge",
                 Image: "img/badges/beacon.png",
-                Time: "2021-11-24T19:30:54Z"
+                Time: "2021-11-24T19:30:54Z",
+                Attempts: 3
             },
             {
                 Group: "Rematch Badges",
                 Class: "Rematch",
                 Name: "Icicle Badge",
                 Image: "img/badges/icicle.png",
-                Time: "2021-11-29T12:39:51Z"
+                Time: "2021-11-29T12:39:51Z",
+                Attempts: 1
             },
             {
                 Group: "Rematch Badges",
                 Class: "Rematch",
                 Name: "Fen Badge",
                 Image: "img/badges/fen.png",
-                Time: "2021-11-29T13:43:51Z"
+                Time: "2021-11-29T13:43:51Z",
+                Attempts: 1
             },
             {
                 Group: "Rematch Badges",
                 Class: "Rematch",
                 Name: "Cobble Badge",
                 Image: "img/badges/cobble.png",
-                Time: "2021-11-29T15:38:12Z"
+                Time: "2021-11-29T15:38:12Z",
+                Attempts: 1
             },
             {
                 Group: "Rematch Badges",
                 Class: "Rematch",
                 Name: "Coal Badge",
                 Image: "img/badges/coal.png",
-                Time: "2021-11-29T15:59:00Z"
+                Time: "2021-11-29T15:59:00Z",
+                Attempts: 1
             },
             {
                 Group: "Rematch Badges",
                 Class: "Rematch",
                 Name: "Beacon Badge",
                 Image: "img/badges/beacon.png",
-                Time: "2021-11-29T21:04:33Z"
+                Time: "2021-11-29T21:04:33Z",
+                Attempts: 1
             },
             {
                 Group: "Rematch Badges",
                 Class: "Rematch",
                 Name: "Forest Badge",
                 Image: "img/badges/forest.png",
-                Time: "2021-11-30T08:53:44Z"
+                Time: "2021-11-30T08:53:44Z",
+                Attempts: 2
             },
             {
                 Group: "Rematch Badges",
                 Class: "Rematch",
                 Name: "Relic Badge",
                 Image: "img/badges/relic.png",
-                Time: "2021-11-30T09:12:57Z"
+                Time: "2021-11-30T09:12:57Z",
+                Attempts: 1
             },
             {
                 Group: "Rematch Badges",
                 Class: "Rematch",
                 Name: "Mine Badge",
                 Image: "img/badges/mine.png",
-                Time: "2021-11-30T10:52:51Z"
+                Time: "2021-11-30T10:52:51Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Aaron",
                 Image: "img/trainers/platinum/aaron.png",
-                Time: "2021-11-25T10:20:30Z"
+                Time: "2021-11-25T10:20:30Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four",
                 Name: "Bertha",
                 Image: "img/trainers/platinum/bertha.png",
-                Time: "2021-11-25T23:37:47Z"
+                Time: "2021-11-25T23:37:47Z",
+                Attempts: 8
             },
             {
                 Group: "Elite Four",
                 Name: "Flint",
                 Image: "img/trainers/platinum/flint.png",
-                Time: "2021-11-26T02:37:30Z"
+                Time: "2021-11-26T02:37:30Z",
+                Attempts: 5
             },
             {
                 Group: "Elite Four",
                 Name: "Lucian",
                 Image: "img/trainers/platinum/lucian.png",
-                Time: "2021-11-26T02:50:06Z"
+                Time: "2021-11-26T02:50:06Z",
+                Attempts: 1
             },
             {
                 Group: "Champions",
                 Name: "Cynthia",
                 Image: "img/trainers/platinum/cynthia.png",
-                Time: "2021-11-26T08:10:42Z"
+                Time: "2021-11-26T08:10:42Z",
+                Attempts: 3
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-11-26T08:13:28Z", IDNo: "932487", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-11-26T08:13:28Z", Attempts: 22, IDNo: "932487", Party: [
                     { Pokemon: "Gardevoir", Level: 69 },
                     { Pokemon: "Manaphy", Nickname: "112drfic", Level: 77 },
                     { Pokemon: "Houndoom", Nickname: "££puuuuyyn", Level: 70 },
@@ -164,38 +184,43 @@ Season8.Runs.push(
                 Class: "Rematch",
                 Name: "Aaron",
                 Image: "img/trainers/platinum/aaron.png",
-                Time: "2021-11-26T19:04:14Z"
+                Time: "2021-11-26T19:04:14Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four Rematch",
                 Class: "Rematch",
                 Name: "Bertha",
                 Image: "img/trainers/platinum/bertha.png",
-                Time: "2021-11-26T20:28:42Z"
+                Time: "2021-11-26T20:28:42Z",
+                Attempts: 3
             },
             {
                 Group: "Elite Four Rematch",
                 Class: "Rematch",
                 Name: "Flint",
                 Image: "img/trainers/platinum/flint.png",
-                Time: "2021-11-26T20:40:54Z"
+                Time: "2021-11-26T20:40:54Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four Rematch",
                 Class: "Rematch",
                 Name: "Lucian",
                 Image: "img/trainers/platinum/lucian.png",
-                Time: "2021-11-27T10:23:23Z"
+                Time: "2021-11-27T10:23:23Z",
+                Attempts: 6
             },
             {
                 Group: "Champions",
                 Class: "Rematch",
                 Name: "Cynthia",
                 Image: "img/trainers/platinum/cynthia.png",
-                Time: "2021-11-27T10:30:33Z"
+                Time: "2021-11-27T10:30:33Z",
+                Attempts: 1
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-11-27T10:32:38Z", IDNo: "932487", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-11-27T10:32:38Z", Attempts: 9, IDNo: "932487", Party: [
                     { Pokemon: "Houndoom", Nickname: "££puuuuyyn", Level: 80 },
                     { Pokemon: "Manaphy", Nickname: "112drfic", Level: 90 },
                     { Pokemon: "Drapion", Nickname: "1", Level: 80 },
@@ -206,7 +231,7 @@ Season8.Runs.push(
                 Image: "img/ribbons/champion-sinnoh.png"
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-11-29T03:51:08Z", IDNo: "932487", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-11-29T03:51:08Z", Attempts: 20, IDNo: "932487", Party: [
                     { Pokemon: "Giratina", Nickname: "Tina", Level: 100 },
                     { Pokemon: "Cacturne", Nickname: "Cookie", Level: 100 },
                     { Pokemon: "Togekiss", Nickname: "Eggie Mk-II", Level: 100 },
@@ -221,38 +246,43 @@ Season8.Runs.push(
                 Class: "Super Rematch",
                 Name: "Aaron",
                 Image: "img/trainers/platinum/aaron.png",
-                Time: "2021-11-29T05:30:51Z"
+                Time: "2021-11-29T05:30:51Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four Rematch",
                 Class: "Super Rematch",
                 Name: "Bertha",
                 Image: "img/trainers/platinum/bertha.png",
-                Time: "2021-11-29T05:40:47Z"
+                Time: "2021-11-29T05:40:47Z",
+                Attempts: 1
             },
             {
                 Group: "Elite Four Rematch",
                 Class: "Super Rematch",
                 Name: "Flint",
                 Image: "img/trainers/platinum/flint.png",
-                Time: "2021-11-30T13:55:49Z"
+                Time: "2021-11-30T13:55:49Z",
+                Attempts: 4
             },
             {
                 Group: "Elite Four Rematch",
                 Class: "Super Rematch",
                 Name: "Lucian",
                 Image: "img/trainers/platinum/lucian.png",
-                Time: "2021-11-30T14:04:31Z"
+                Time: "2021-11-30T14:04:31Z",
+                Attempts: 1
             },
             {
                 Group: "Champions",
                 Class: "Super Rematch",
                 Name: "Cynthia",
                 Image: "img/trainers/platinum/cynthia.png",
-                Time: "2021-12-01T07:01:09Z"
+                Time: "2021-12-01T07:01:09Z",
+                Attempts: 3
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-12-01T07:03:28Z", IDNo: "932487", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-12-01T07:03:28Z", Attempts: 17, IDNo: "932487", Party: [
                     { Pokemon: "Togekiss", Nickname: "Eggie Mk-II", Level: 100 },
                     { Pokemon: "Giratina", Nickname: "Tina", Level: 100 },
                     { Pokemon: "Garchomp", Nickname: "Medicine", Level: 100 },
