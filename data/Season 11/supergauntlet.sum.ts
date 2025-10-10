@@ -17,22 +17,6 @@ Season11.Runs.push(
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
         // FinalStateLink: "./states/Season 11/supergauntletsum.json",
         Events: [
-            { "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Fightinium Z", "Image": "img/z-crystals/Fightinium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Waterium Z", "Image": "img/z-crystals/Waterium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Firium Z", "Image": "img/z-crystals/Firium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Grassium Z", "Image": "img/z-crystals/Grassium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Electrium Z", "Image": "img/z-crystals/Electrium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Ghostium Z", "Image": "img/z-crystals/Ghostium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Darkium Z", "Image": "img/z-crystals/Darkium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Groundium Z", "Image": "img/z-crystals/Groundium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Dragonium Z", "Image": "img/z-crystals/Dragonium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Elite Four", "Name": "Hala", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
-            { "Group": "Elite Four", "Name": "Acerola", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
-            { "Group": "Elite Four", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
-            { "Group": "Elite Four", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
-            { "Group": "Champions", "Name": "Professor Kukui", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
 			
 			{ Name: "Litten", Time: "2024-04-01T21:27:23Z", Group: "Pokemon" },
 			{ Name: "Pikipek", Time: "2024-04-01T21:40:42Z", Group: "Pokemon" },
@@ -47,9 +31,21 @@ Season11.Runs.push(
 			{ Name: "Growlithe", Time: "2024-04-02T01:51:54Z", Group: "Pokemon" },
 			{ Name: "Spearow", Time: "2024-04-02T02:04:09Z", Group: "Pokemon" },
 			{ Name: "Crabrawler", Time: "2024-04-02T02:05:34Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", 
+				"Time": "2024-04-02T02:42:54Z", "Attempts": 1 
+			},
+			
 			{ Name: "Zubat", Time: "2024-04-02T02:47:43Z", Group: "Pokemon" },
 			{ Name: "Oricorio", Time: "2024-04-02T03:23:30Z", Group: "Pokemon" },
 			{ Name: "Cottonee", Time: "2024-04-02T03:30:50Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Fightinium Z", "Image": "img/z-crystals/Fightinium Z.png", 
+				"Time": "2024-04-02T03:59:16Z", "Attempts": 1
+			},
+			
 			{ Name: "Metapod", Time: "2024-04-02T04:17:48Z", Group: "Pokemon" },
 			{ Name: "Munchlax", Time: "2024-04-02T04:24:03Z", Group: "Pokemon" },
 			{ Name: "Bonsly", Time: "2024-04-02T04:27:42Z", Group: "Pokemon" },
@@ -67,22 +63,52 @@ Season11.Runs.push(
 			{ Name: "Lillipup", Time: "2024-04-02T08:39:17Z", Group: "Pokemon" },
 			{ Name: "Dewpider", Time: "2024-04-02T08:58:02Z", Group: "Pokemon" },
 			{ Name: "Wishiwashi", Time: "2024-04-02T09:07:32Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Waterium Z", "Image": "img/z-crystals/Waterium Z.png", 
+				"Time": "2024-04-02T09:23:46Z", "Attempts": 1 
+			},
+			
 			{ Name: "Magikarp", Time: "2024-04-02T10:31:40Z", Group: "Pokemon" },
 			{ Name: "Tentacool", Time: "2024-04-02T10:54:36Z", Group: "Pokemon" },
 			{ Name: "Corsola", Time: "2024-04-02T11:02:38Z", Group: "Pokemon" },
 			{ Name: "Pyukumuku", Time: "2024-04-02T11:46:43Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Firium Z", "Image": "img/z-crystals/Firium Z.png", 
+				"Time": "2024-04-02T12:28:54Z", "Attempts": 1 
+			},
+			
 			{ Name: "Trumbeak", Time: "2024-04-02T13:05:17Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Grassium Z", "Image": "img/z-crystals/Grassium Z.png", 
+				"Time": "2024-04-02T14:08:22Z", "Attempts": 1 
+			},
+			
 			{ Name: "Fomantis", Time: "2024-04-02T14:17:49Z", Group: "Pokemon" },
 			{ Name: "Paras", Time: "2024-04-02T14:30:31Z", Group: "Pokemon" },
 			{ Name: "Passimian", Time: "2024-04-02T14:37:57Z", Group: "Pokemon" },
 			{ Name: "Bounsweet", Time: "2024-04-02T14:54:07Z", Group: "Pokemon" },
 			{ Name: "Comfey", Time: "2024-04-02T14:58:16Z", Group: "Pokemon" },
 			{ Name: "Araquanid", Time: "2024-04-02T18:23:41Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", 
+				"Time": "2024-04-02T19:09:41Z", "Attempts": 1
+			},
+			
 			{ Name: "Luvdisc", Time: "2024-04-02T21:44:58Z", Group: "Pokemon" },
 			{ Name: "Raticate", Time: "2024-04-02T22:39:24Z", Group: "Pokemon" },
 			{ Name: "Pancham", Time: "2024-04-02T22:40:53Z", Group: "Pokemon" },
 			{ Name: "Ariados", Time: "2024-04-02T22:42:24Z", Group: "Pokemon" },
 			{ Name: "Skarmory", Time: "2024-04-02T23:07:49Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Electrium Z", "Image": "img/z-crystals/Electrium Z.png", 
+				"Time": "2024-04-03T00:31:25Z", "Attempts": 1 
+			},
+			
 			{ Name: "Torkoal", Time: "2024-04-03T01:02:44Z", Group: "Pokemon" },
 			{ Name: "Geodude", Time: "2024-04-03T01:13:00Z", Group: "Pokemon" },
 			{ Name: "Togedemaru", Time: "2024-04-03T01:18:30Z", Group: "Pokemon" },
@@ -100,6 +126,12 @@ Season11.Runs.push(
 			{ Name: "Pelipper", Time: "2024-04-03T06:53:12Z", Group: "Pokemon" },
 			{ Name: "Komala", Time: "2024-04-03T06:58:08Z", Group: "Pokemon" },
 			{ Name: "Ledian", Time: "2024-04-03T07:00:30Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Ghostium Z", "Image": "img/z-crystals/Ghostium Z.png", 
+				"Time": "2024-04-03T07:49:15Z", "Attempts": 2
+			},
+			
 			{ Name: "Klefki", Time: "2024-04-03T07:59:43Z", Group: "Pokemon" },
 			{ Name: "Stufful", Time: "2024-04-03T08:51:30Z", Group: "Pokemon" },
 			{ Name: "Fletchinder", Time: "2024-04-03T08:58:12Z", Group: "Pokemon" },
@@ -110,13 +142,57 @@ Season11.Runs.push(
 			{ Name: "Ribombee", Time: "2024-04-03T10:27:08Z", Group: "Pokemon" },
 			{ Name: "Fearow", Time: "2024-04-03T11:07:26Z", Group: "Pokemon" },
 			{ Name: "Ninetales", Time: "2024-04-03T12:14:02Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Darkium Z", "Image": "img/z-crystals/Darkium Z.png", 
+				"Time": "2024-04-03T13:21:21Z", "Attempts": 1 
+			},
+			
 			{ Name: "Trapinch", Time: "2024-04-03T18:36:39Z", Group: "Pokemon" },
 			{ Name: "Granbull", Time: "2024-04-03T19:05:53Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Groundium Z", "Image": "img/z-crystals/Groundium Z.png", 
+				"Time": "2024-04-03T20:54:12Z", "Attempts": 3
+			},
+			
 			{ Name: "Vibrava", Time: "2024-04-03T23:08:52Z", Group: "Pokemon" },
 			{ Name: "Lycanroc", Time: "2024-04-03T23:42:14Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Dragonium Z", "Image": "img/z-crystals/Dragonium Z.png", 
+				"Time": "2024-04-04T00:15:32Z", "Attempts": 1 
+			},
+			
 			{ Name: "Solgaleo", Time: "2024-04-04T01:16:27Z", Group: "Pokemon" },
 			{ Name: "Beldum", Time: "2024-04-04T02:32:38Z", Group: "Pokemon" },
 			{ Name: "Flygon", Time: "2024-04-04T02:51:28Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Elite Four", "Name": "Kahili", "Image": "img/trainers/sun/kahili.gif", 
+				"ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881", 
+				"Time": "2024-04-04T03:36:13Z", "Attempts": 1
+			}, 
+			
+            { 
+				"Group": "Elite Four", "Name": "Hala", "Image": "img/trainers/sun/hala.gif", 
+				"ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", 
+				"Time": "2024-04-04T03:56:21Z", "Attempts": 2 
+				
+			},
+			
+            { 
+				"Group": "Elite Four", "Name": "Acerola", "Image": "img/trainers/sun/acerola.gif", 
+				"ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", 
+				"Time": "2024-04-04T04:26:54Z", "Attempts": 1 
+			},
+			
+            { 
+				"Group": "Elite Four", "Name": "Olivia", "Image": "img/trainers/sun/olivia.gif", 
+				"ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", 
+				"Time": "2024-04-04T06:01:12Z", "Attempts": 2 
+			},
+			
 			{ Name: "Grubbin", Time: "2024-04-04T06:29:45Z", Group: "Pokemon" },
 			{ Name: "Igglybuff", Time: "2024-04-04T06:36:48Z", Group: "Pokemon" },
 			{ Name: "Wimpod", Time: "2024-04-04T06:59:17Z", Group: "Pokemon" },
@@ -130,8 +206,14 @@ Season11.Runs.push(
 			{ Name: "Mudsdale", Time: "2024-04-04T09:27:41Z", Group: "Pokemon" },
 			{ Name: "Vikavolt", Time: "2024-04-04T09:47:46Z", Group: "Pokemon" },
 			
+            { 
+				"Group": "Champions", "Name": "Professor Kukui", "Image": "img/trainers/sun/kukui.gif", 
+				"ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164", 
+				"Time": "2024-04-04T15:45:06Z", "Attempts": 3 
+			},
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-04T15:45:58Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-04T15:45:58Z", Attempts: 12, Party: [
                     { Pokemon: "Flygon", Nickname: "Audacity", Gender: "Male", Level: 63 },
                     { Pokemon: "Passimian", Nickname: "Funky Kong", Gender: "Male", Level: 62 },
                     { Pokemon: "Ninetales", Nickname: "Shiron", Gender: "Female", Level: 65, Form: "Alolan" },
@@ -143,17 +225,18 @@ Season11.Runs.push(
                 FirstAttemptDate: ""
             },
 			
-            { "Group": "Elite Four Rematch", "Name": "Hala", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hala.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", Class: "Rematch" },
-            { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881", Class: "Rematch" },
-            { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", Class: "Rematch" },
-            { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", Class: "Rematch" },
-            { "Group": "Champions", "Name": "Hau", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
-			
 			{ Name: "Pinsir", Time: "2024-04-04T17:19:59Z", Group: "Pokemon" },
 			{ Name: "Hariyama", Time: "2024-04-04T17:31:21Z", Group: "Pokemon" },
 			{ Name: "Braviary", Time: "2024-04-04T17:35:58Z", Group: "Pokemon" },
 			{ Name: "Miltank", Time: "2024-04-04T17:44:20Z", Group: "Pokemon" },
 			{ Name: "Golduck", Time: "2024-04-04T18:18:16Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Champions", "Name": "Red", "Image": "img/trainers/sun/red.png", 
+				"ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Red-654744789", 
+				"Time": "2024-04-04T18:55:10Z", "Attempts": 1 
+			},
+			
 			{ Name: "Abra", Time: "2024-04-04T19:53:33Z", Group: "Pokemon" },
 			{ Name: "Porygon", Time: "2024-04-04T20:06:15Z", Group: "Pokemon" },
 			{ Name: "Pichu", Time: "2024-04-04T20:11:25Z", Group: "Pokemon" },
@@ -276,8 +359,38 @@ Season11.Runs.push(
 			{ Name: "Rowlet", Time: "2024-04-06T23:23:40Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Fennekin", Time: "2024-04-06T23:26:57Z", Group: "Pokemon", Class: "WifiTrade" },
 			
+            { 
+				"Group": "Elite Four Rematch", "Name": "Hala", "Image": "img/trainers/sun/hala.gif", 
+				"ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", Class: "Rematch", 
+				"Time": "2024-04-07T00:05:29Z", "Attempts": 1 
+			},
+			
+            { 
+				"Group": "Elite Four Rematch", "Name": "Olivia", "Image": "img/trainers/sun/olivia.gif", 
+				"ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", Class: "Rematch", 
+				"Time": "2024-04-07T00:15:48Z", "Attempts": 1 
+			},
+			
+            { 
+				"Group": "Elite Four Rematch", "Name": "Kahili", "Image": "img/trainers/sun/kahili.gif", 
+				"ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881", Class: "Rematch", 
+				"Time": "2024-04-07T00:26:41Z", "Attempts": 1 
+			},
+			
+            { 
+				"Group": "Elite Four Rematch", "Name": "Acerola", "Image": "img/trainers/sun/acerola.gif", 
+				"ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", Class: "Rematch", 
+				"Time": "2024-04-07T00:40:57Z", "Attempts": 1 
+			},
+			
+            { 
+				"Group": "Champions", "Name": "Hau", "Image": "img/trainers/sun/hau.gif", 
+				"ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374", Class: "Rematch", 
+				"Time": "2024-04-07T00:51:08Z", "Attempts": 1 
+			},
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-07T00:51:20Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-07T00:51:20Z", Attempts: 1, Party: [
                     { Pokemon: "Passimian", Nickname: "Funky Kong", Gender: "Male", Level: 72 },
                     { Pokemon: "Flygon", Nickname: "Audacity", Gender: "Male", Level: 72 },
                     { Pokemon: "Oricorio", Nickname: "Pomme", Gender: "Female", Level: 78, Form: "Pom-Pom" },
@@ -499,8 +612,14 @@ Season11.Runs.push(
 			{ Name: "Palkia", Time: "2024-04-10T22:16:08Z", Group: "Pokemon" },
 			{ Name: "Thundurus", Time: "2024-04-10T22:17:40Z", Group: "Pokemon" },
 			
+            { 
+				"Group": "Champions", "Name": "Professor Kukui", "Image": "img/trainers/sun/kukui.gif", 
+				"ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164", Class: "Rematch", 
+				"Time": "2024-04-10T23:12:00Z", "Attempts": 1 
+			},
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-10T23:12:13Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-10T23:12:13Z", Attempts: 1, Party: [
                     { Pokemon: "Ninetales", Nickname: "Shiron", Gender: "Female", Level: 87, Form: "Alolan" },
                     { Pokemon: "Seaking", Nickname: "Gamer", Gender: "Male", Level: 35, Shiny: true },
                     { Pokemon: "Slowbro", Nickname: "Azura", Gender: "Female", Level: 42, Shiny: true },
@@ -511,8 +630,14 @@ Season11.Runs.push(
                 Image: "img/ribbons/champion-alola.png"
             },
 			
+            { 
+				"Group": "Champions", "Name": "Gladion", "Image": "img/trainers/sun/gladion.png", 
+				"ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Gladion-656587221", Class: "Rematch", 
+				"Time": "2024-04-11T01:39:09Z", "Attempts": 1 
+			},
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-11T01:39:33Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-11T01:39:33Z", Attempts: 1, Party: [
                     { Pokemon: "Ninetales", Nickname: "Shiron", Gender: "Female", Level: 88, Form: "Alolan" },
                     { Pokemon: "Pelipper", Nickname: "Shai", Gender: "Male", Level: 55, Shiny: true },
                     { Pokemon: "Kingdra", Nickname: "Mystery", Gender: "Female", Level: 56 },
@@ -524,7 +649,7 @@ Season11.Runs.push(
             },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-11T20:22:41Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-11T20:22:41Z", Attempts: 1, Party: [
                     { Pokemon: "Ninetales", Nickname: "Shiron", Gender: "Female", Level: 89, Form: "Alolan" },
                     { Pokemon: "Flygon", Nickname: "Audacity", Gender: "Male", Level: 79 },
                     { Pokemon: "Oricorio", Nickname: "Pomme", Gender: "Female", Level: 100, Form: "Pom-Pom" },
@@ -556,26 +681,7 @@ Season11.Runs.push(
         LiveUpdaterArchive: "https://www.reddit.com/live/1ci491antkthk/",
         // FinalStateLink: "./states/Season 11/supergauntletsum.json",
         Events: [
-            { "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Fightinium Z", "Image": "img/z-crystals/Fightinium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Waterium Z", "Image": "img/z-crystals/Waterium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Firium Z", "Image": "img/z-crystals/Firium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Grassium Z", "Image": "img/z-crystals/Grassium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Electrium Z", "Image": "img/z-crystals/Electrium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Ghostium Z", "Image": "img/z-crystals/Ghostium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Darkium Z", "Image": "img/z-crystals/Darkium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Dragonium Z", "Image": "img/z-crystals/Dragonium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Fairium Z", "Image": "img/z-crystals/Fairium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Groundium Z", "Image": "img/z-crystals/Groundium Z.png", "Time": "", "Attempts": 0 },
-            { "Group": "Badges", "Name": "Surge Badge", "Time": "", "Attempts": 0, "Image": "img/badges/thunder.png" },
 
-            { "Group": "Elite Four", "Name": "Molayne", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/molayne.png", "ImageSource": "https://www.deviantart.com/art/Custom-sprite-Molayne-653031564" },
-            { "Group": "Elite Four", "Name": "Olivia", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
-            { "Group": "Elite Four", "Name": "Acerola", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
-            { "Group": "Elite Four", "Name": "Kahili", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
-            { "Group": "Champions", "Name": "Hau", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
-			
 			{ Name: "Rowlet", Time: "2024-04-01T21:15:39Z", Group: "Pokemon" },
 			{ Name: "Slowpoke", Time: "2024-04-01T23:53:20Z", Group: "Pokemon" },
 			{ Name: "Zorua", Time: "2024-04-02T00:54:19Z", Group: "Pokemon" },
@@ -596,14 +702,37 @@ Season11.Runs.push(
 			{ Name: "Ledyba", Time: "2024-04-02T05:31:36Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Tynamo", Time: "2024-04-02T05:32:48Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Togepi", Time: "2024-04-02T05:34:18Z", Group: "Pokemon", Class: "WifiTrade" },
+			
+            { 
+				"Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", 
+				"Time": "2024-04-02T08:16:29Z", "Attempts": 1
+			},
+			
 			{ Name: "Delibird", Time: "2024-04-02T10:02:20Z", Group: "Pokemon" },
 			{ Name: "Vullaby", Time: "2024-04-02T11:13:29Z", Group: "Pokemon" },
 			{ Name: "Spearow", Time: "2024-04-02T11:16:09Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Fightinium Z", "Image": "img/z-crystals/Fightinium Z.png", 
+				"Time": "2024-04-02T11:54:54Z", "Attempts": 1 
+			},
+			
 			{ Name: "Dartrix", Time: "2024-04-02T15:16:30Z", Group: "Pokemon" },
 			{ Name: "Lillipup", Time: "2024-04-02T15:20:02Z", Group: "Pokemon" },
 			{ Name: "Eevee", Time: "2024-04-02T15:45:08Z", Group: "Pokemon" },
 			{ Name: "Mudbray", Time: "2024-04-02T16:13:04Z", Group: "Pokemon" },
 			{ Name: "Mareep", Time: "2024-04-02T16:55:35Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Waterium Z", "Image": "img/z-crystals/Waterium Z.png", 
+				"Time": "2024-04-02T18:58:04Z", "Attempts": 1 
+			},
+			
+            { 
+				"Group": "Badges", "Name": "Firium Z", "Image": "img/z-crystals/Firium Z.png", 
+				"Time": "2024-04-02T20:55:28Z", "Attempts": 1
+			},
+			
 			{ Name: "Mime Jr.", Time: "2024-04-02T21:48:37Z", Group: "Pokemon" },
 			{ Name: "Magnemite", Time: "2024-04-02T21:50:59Z", Group: "Pokemon" },
 			{ Name: "Grimer", Time: "2024-04-02T21:55:49Z", Group: "Pokemon" },
@@ -623,6 +752,12 @@ Season11.Runs.push(
 			{ Name: "Stufful", Time: "2024-04-03T00:16:00Z", Group: "Pokemon" },
 			{ Name: "Kadabra", Time: "2024-04-03T00:27:56Z", Group: "Pokemon" },
 			{ Name: "Noibat", Time: "2024-04-03T00:37:46Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Grassium Z", "Image": "img/z-crystals/Grassium Z.png", 
+				"Time": "2024-04-03T01:37:05Z", "Attempts": 2 
+			},
+			
 			{ Name: "Oranguru", Time: "2024-04-03T01:47:08Z", Group: "Pokemon" },
 			{ Name: "Fletchling", Time: "2024-04-03T03:01:50Z", Group: "Pokemon" },
 			{ Name: "Bonsly", Time: "2024-04-03T03:35:47Z", Group: "Pokemon" },
@@ -644,6 +779,12 @@ Season11.Runs.push(
 			{ Name: "Gastly", Time: "2024-04-03T11:38:00Z", Group: "Pokemon" },
 			{ Name: "Wingull", Time: "2024-04-03T11:50:01Z", Group: "Pokemon" },
 			{ Name: "Magikarp", Time: "2024-04-03T11:56:29Z", Group: "Pokemon" },
+			
+			{ 
+				"Group": "Badges", "Name": "Rockium Z", "Image": "img/z-crystals/Rockium Z.png", 
+				"Time": "2024-04-03T12:16:31Z", "Attempts": 1 
+			},
+			
 			{ Name: "Honedge", Time: "2024-04-03T13:53:36Z", Group: "Pokemon" },
 			{ Name: "Oricorio", Time: "2024-04-03T13:59:45Z", Group: "Pokemon" },
 			{ Name: "Smoochum", Time: "2024-04-03T14:12:04Z", Group: "Pokemon" },
@@ -657,9 +798,21 @@ Season11.Runs.push(
 			{ Name: "Scyther", Time: "2024-04-03T17:26:13Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Poliwag", Time: "2024-04-03T17:27:58Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Ralts", Time: "2024-04-03T17:32:50Z", Group: "Pokemon", Class: "WifiTrade" },
+			
+            { 
+				"Group": "Badges", "Name": "Surge Badge", "Image": "img/badges/thunder.png", 
+				"Time": "2024-04-03T18:33:07Z", "Attempts": 1 
+			},
+			
 			{ Name: "Pancham", Time: "2024-04-03T18:50:42Z", Group: "Pokemon" },
 			{ Name: "Braixen", Time: "2024-04-03T20:04:52Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Salazzle", Time: "2024-04-03T21:00:56Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Electrium Z", "Image": "img/z-crystals/Electrium Z.png", 
+				"Time": "2024-04-03T21:42:41Z", "Attempts": 1
+			},
+			
 			{ Name: "Ledian", Time: "2024-04-03T22:58:29Z", Group: "Pokemon" },
 			{ Name: "Parasect", Time: "2024-04-03T23:14:03Z", Group: "Pokemon" },
 			{ Name: "Graveler", Time: "2024-04-03T23:26:50Z", Group: "Pokemon" },
@@ -672,6 +825,12 @@ Season11.Runs.push(
 			{ Name: "Pelipper", Time: "2024-04-04T01:57:50Z", Group: "Pokemon" },
 			{ Name: "Gumshoos", Time: "2024-04-04T02:01:29Z", Group: "Pokemon" },
 			{ Name: "Sandshrew", Time: "2024-04-04T04:15:03Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Ghostium Z", "Image": "img/z-crystals/Ghostium Z.png", 
+				"Time": "2024-04-04T05:47:30Z", "Attempts": 1 
+			},
+			
 			{ Name: "Seel", Time: "2024-04-04T04:56:14Z", Group: "Pokemon" },
 			{ Name: "Caterpie", Time: "2024-04-04T05:53:57Z", Group: "Pokemon" },
 			{ Name: "Pikipek", Time: "2024-04-04T05:59:41Z", Group: "Pokemon" },
@@ -690,6 +849,12 @@ Season11.Runs.push(
 			{ Name: "Remoraid", Time: "2024-04-04T13:51:15Z", Group: "Pokemon" },
 			{ Name: "Mareanie", Time: "2024-04-04T14:17:14Z", Group: "Pokemon" },
 			{ Name: "Corsola", Time: "2024-04-04T14:21:51Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Darkium Z", "Image": "img/z-crystals/Darkium Z.png", 
+				"Time": "2024-04-04T14:46:59Z", "Attempts": 1 
+			},
+			
 			{ Name: "Amaura", Time: "2024-04-04T19:06:19Z", Group: "Pokemon" },
 			{ Name: "Gigalith", Time: "2024-04-04T19:32:25Z", Group: "Pokemon", Class: "WifiTrade" },
 			{ Name: "Ditto", Time: "2024-04-04T20:12:21Z", Group: "Pokemon" },
@@ -703,6 +868,12 @@ Season11.Runs.push(
 			{ Name: "Boldore", Time: "2024-04-04T23:27:29Z", Group: "Pokemon" },
 			{ Name: "Golbat", Time: "2024-04-04T23:33:53Z", Group: "Pokemon" },
 			{ Name: "Machoke", Time: "2024-04-04T23:49:51Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Dragonium Z", "Image": "img/z-crystals/Dragonium Z.png", 
+				"Time": "2024-04-05T01:34:40Z", "Attempts": 3
+			},
+			
 			{ Name: "Barbaracle", Time: "2024-04-05T02:09:41Z", Group: "Pokemon" },
 			{ Name: "Poipole", Time: "2024-04-05T02:50:33Z", Group: "Pokemon" },
 			{ Name: "Mienfoo", Time: "2024-04-05T03:15:55Z", Group: "Pokemon" },
@@ -713,6 +884,17 @@ Season11.Runs.push(
 			{ Name: "Scraggy", Time: "2024-04-05T08:24:47Z", Group: "Pokemon" },
 			{ Name: "Skarmory", Time: "2024-04-05T08:32:03Z", Group: "Pokemon" },
 			{ Name: "Magby", Time: "2024-04-05T08:50:35Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Badges", "Name": "Fairium Z", "Image": "img/z-crystals/Fairium Z.png", 
+				"Time": "2024-04-05T09:28:57Z", "Attempts": 1 
+			},
+			
+            { 
+				"Group": "Badges", "Name": "Groundium Z", "Image": "img/z-crystals/Groundium Z.png", 
+				"Time": "2024-04-05T09:58:28Z", "Attempts": 2 
+			},
+			
 			{ Name: "Drampa", Time: "2024-04-05T10:39:27Z", Group: "Pokemon" },
 			{ Name: "Necrozma", Time: "2024-04-05T11:22:57Z", Group: "Pokemon" },
 			{ Name: "Turtonator", Time: "2024-04-05T13:56:15Z", Group: "Pokemon" },
@@ -724,8 +906,34 @@ Season11.Runs.push(
 			{ Name: "Glalie", Time: "2024-04-05T15:07:38Z", Group: "Pokemon" },
 			{ Name: "Naganadel", Time: "2024-04-05T15:51:27Z", Group: "Pokemon" },
 			
+            { 
+				"Group": "Elite Four", "Name": "Kahili", "Image": "img/trainers/sun/kahili.gif", 
+				"ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881", 
+				"Time": "2024-04-05T16:38:55Z", "Attempts": 1 
+			},
+            { 
+				"Group": "Elite Four", "Name": "Acerola", "Image": "img/trainers/sun/acerola.gif", 
+				"ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", 
+				"Time": "2024-04-05T17:13:13Z", "Attempts": 2 
+			},
+            { 
+				"Group": "Elite Four", "Name": "Olivia", "Image": "img/trainers/sun/olivia.gif", 
+				"ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", 
+				"Time": "2024-04-05T17:26:21Z", "Attempts": 1 
+			},
+            { 
+				"Group": "Elite Four", "Name": "Molayne", "Image": "img/trainers/sun/molayne.png", 
+				"ImageSource": "https://www.deviantart.com/art/Custom-sprite-Molayne-653031564", 
+				"Time": "2024-04-05T17:37:47Z", "Attempts": 2 
+			},
+            { 
+				"Group": "Champions", "Name": "Hau", "Image": "img/trainers/sun/hau.gif", 
+				"ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374", 
+				"Time": "2024-04-05T20:35:46Z", "Attempts": 2
+			},
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-05T20:36:42Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-05T20:36:42Z", Attempts: 7, Party: [
                     { Pokemon: "Zoroark", Nickname: "AR4SEONEEEF", Gender: "Male", Level: 62 },
                     { Pokemon: "Mudsdale", Nickname: "A HPONOZSE", Gender: "Male", Level: 68 },
                     { Pokemon: "Sandslash", Nickname: "Coldsteel", Gender: "Male", Level: 64, Form: "Alolan", Shiny: true },
@@ -737,12 +945,6 @@ Season11.Runs.push(
                 FirstAttemptDate: ""
             },
 
-            { "Group": "Elite Four Rematch", "Name": "Molayne", "Time": "", "Attempts": 0, "Class": "rematch", "Image": "img/trainers/sun/molayne.png", "ImageSource": "https://www.deviantart.com/art/Custom-sprite-Molayne-653031564" },
-            { "Group": "Elite Four Rematch", "Name": "Olivia", "Time": "", "Attempts": 0, "Class": "rematch", "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
-            { "Group": "Elite Four Rematch", "Name": "Acerola", "Time": "", "Attempts": 0, "Class": "rematch", "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
-            { "Group": "Elite Four Rematch", "Name": "Kahili", "Time": "", "Attempts": 0, "Class": "rematch", "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
-            { "Group": "Champions", "Name": "Hau", "Time": "", "Attempts": 0, "Class": "rematch", "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
-			
 			{ Name: "Type: Null", Time: "2024-04-05T21:11:44Z", Group: "Pokemon" },
 			{ Name: "Stakataka", Time: "2024-04-05T21:24:17Z", Group: "Pokemon" },
 			{ Name: "Muk", Time: "2024-04-05T22:07:46Z", Group: "Pokemon", Class: "WifiTrade" },
@@ -754,6 +956,19 @@ Season11.Runs.push(
 			{ Name: "Chansey", Time: "2024-04-06T02:49:04Z", Group: "Pokemon" },
 			{ Name: "Zweilous", Time: "2024-04-06T03:30:54Z", Group: "Pokemon" },
 			{ Name: "Blissey", Time: "2024-04-06T03:31:07Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Rematch Badges", "Name": "Normalium Z", 
+				"Image": "img/z-crystals/Normalium Z.png", "Class": "Rematch",
+				"Time": "2024-04-06T07:53:03Z", "Attempts": 1
+			},
+			
+            { 
+				"Group": "Rematch Badges", "Name": "Fightinium Z", 
+				"Image": "img/z-crystals/Fightinium Z.png", "Class": "Rematch",
+				"Time": "2024-04-06T08:03:30Z", "Attempts": 1 
+			},
+			
 			{ Name: "Giratina", Time: "2024-04-06T08:11:54Z", Group: "Pokemon" },
 			{ Name: "Lunala", Time: "2024-04-06T08:46:13Z", Group: "Pokemon" },
 			{ Name: "Tapu Koko", Time: "2024-04-06T09:00:57Z", Group: "Pokemon" },
@@ -780,6 +995,13 @@ Season11.Runs.push(
 			{ Name: "Noivern", Time: "2024-04-06T15:09:24Z", Group: "Pokemon" },
 			{ Name: "Zygarde", Time: "2024-04-06T15:18:50Z", Group: "Pokemon" },
 			{ Name: "Druddigon", Time: "2024-04-06T15:22:00Z", Group: "Pokemon" },
+			
+            { 
+				"Group": "Champions", "Name": "Blue", "Image": "img/trainers/sun/blue.png", 
+				"ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Green-Blue-654744377", 
+				"Time": "2024-04-06T16:50:36Z", "Attempts": 1 
+			},
+			
 			{ Name: "Aipom", Time: "2024-04-06T19:54:39Z", Group: "Pokemon" },
 			{ Name: "Vikavolt", Time: "2024-04-06T15:59:53Z", Group: "Pokemon" },
 			{ Name: "Butterfree", Time: "2024-04-06T17:01:53Z", Group: "Pokemon", Class: "WifiTrade" },
@@ -979,8 +1201,38 @@ Season11.Runs.push(
 			{ Name: "Pangoro", Time: "2024-04-09T14:10:08Z", Group: "Pokemon" },
 			{ Name: "Poliwrath", Time: "2024-04-09T14:16:25Z", Group: "Pokemon" },
 			
+            { 
+				"Group": "Elite Four Rematch", "Name": "Acerola", "Image": "img/trainers/sun/acerola.gif", 
+				"ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", Class: "Rematch", 
+				"Time": "2024-04-09T10:04:36Z", "Attempts": 1 
+			},
+			
+            { 
+				"Group": "Elite Four Rematch", "Name": "Kahili", "Image": "img/trainers/sun/kahili.gif", 
+				"ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881", Class: "Rematch", 
+				"Time": "2024-04-09T10:11:12Z", "Attempts": 1 
+			},
+			
+            { 
+				"Group": "Elite Four Rematch", "Name": "Olivia", "Image": "img/trainers/sun/olivia.gif", 
+				"ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621", Class: "Rematch", 
+				"Time": "2024-04-09T10:27:05Z", "Attempts": 1
+			},
+			
+            { 
+				"Group": "Elite Four Rematch", "Name": "Molayne", "Image": "img/trainers/sun/molayne.png", 
+				"ImageSource": "https://www.deviantart.com/art/Custom-sprite-Molayne-653031564", Class: "Rematch", 
+				"Time": "2024-04-09T15:07:55Z", "Attempts": 2 
+			},
+			
+            { 
+				"Group": "Champions", "Name": "Hau", "Image": "img/trainers/sun/hau.gif", 
+				"ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374", Class: "Rematch", 
+				"Time": "2024-04-09T17:34:48Z", "Attempts": 3 
+			},
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-09T17:35:01Z", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-04-09T17:35:01Z", Attempts: 4, Party: [
                     { Pokemon: "Krookodile", Nickname: "Redemption", Gender: "Female", Level: 73, Shiny: true  },
                     { Pokemon: "Sandslash", Nickname: "Coldsteel", Gender: "Male", Level: 92, Form: "Alolan", Shiny: true },
                     { Pokemon: "Naganadel", Nickname: "OU", Level: 84 },
