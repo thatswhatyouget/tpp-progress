@@ -33,6 +33,8 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Pancham", "Time": "2025-10-19T03:26:36Z" },
             { "Group": "Pokemon", "Name": "Heracross", "Time": "2025-10-19T03:25:39Z" },
             { "Group": "Pokemon", "Name": "Sableye", "Time": "2025-10-19T04:03:23Z" },
+            { "Group": "Pokemon", "Name": "Gastly", "Time": "2025-10-19T04:29:42Z" },
+            { "Group": "Pokemon", "Name": "Spinarak", "Time": "2025-10-19T05:05:58Z" },
         ]
     }
 );
