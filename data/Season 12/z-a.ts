@@ -12,6 +12,9 @@ Season12.Runs.push(
         Generation: 9,
         Pokedex: "Z-A Lumoise City",
         Events: [
+            { "Group": "Z-A Royale", "Name": "Rank Z\nDriver Zach", "Image": "img/trainers/z-a/zach.png", "Time": "2025-10-19T00:18:57Z", "Attempts": 1 },
+            { "Group": "Z-A Royale", "Name": "Rank Y\nOffice Worker Yvon", "Image": "img/trainers/z-a/yvon.png", "Time": "2025-10-19T13:51:03Z", "Attempts": 0 },
+
             { "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
             { "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
             { "Group": "Pokemon", "Name": "Bunnelby", "Time": "2025-10-18T22:33:57Z" },
@@ -38,6 +41,14 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Spinarak", "Time": "2025-10-19T05:05:58Z" },
             { "Group": "Pokemon", "Name": "Staryu", "Time": "2025-10-19T05:43:14Z" },
             { "Group": "Pokemon", "Name": "Pichu", "Time": "2025-10-19T06:34:55Z" },
+            { "Group": "Pokemon", "Name": "Trubbish", "Time": "2025-10-19T07:03:27Z" },
+            { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2025-10-19T07:12:46Z" },
+            { "Group": "Pokemon", "Name": "Venipede", "Time": "2025-10-19T07:16:00Z" },
+            { "Group": "Pokemon", "Name": "Swirlix", "Time": "2025-10-19T08:46:17Z" },
+            { "Group": "Pokemon", "Name": "Pignite", "Time": "2025-10-19T10:56:09Z" },
+            { "Group": "Pokemon", "Name": "Fletchinder", "Time": "2025-10-19T14:36:11Z" },
+            { "Group": "Pokemon", "Name": "Chespin", "Time": "2025-10-19T18:42:18Z" },
+            { "Group": "Pokemon", "Name": "Weepinbell", "Time": "2025-10-19T19:26:01Z" },
         ]
     }
 );

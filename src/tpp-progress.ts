@@ -401,7 +401,7 @@ function updatePage(ppd = globalPpd) {
     if (pageUpdateTimeout) clearTimeout(pageUpdateTimeout);
     pageUpdateTimeout = setTimeout(() => {
         setTimeout(() => applyScale(ppd), 0);
-        var extant = fakeQuery(".groups input").map(i => i.id.split('-').pop()) || [];
+        var extant = fakeQuery(".groups input").map(i => i.id.split('-').slice(1).join('-')) || [];
         var groupList = fakeQuery(".groups ul").pop();
         Object.keys(groups).filter(g => extant.indexOf(g) < 0).forEach(g => {
             var li = document.createElement("li");
@@ -474,7 +474,7 @@ Object.keys(defaultSettings).forEach(s => settings[s] = typeof (settings[s]) ===
 var showGroups: { [key: string]: boolean } = JSON.parse(localStorage.getItem("showGroups") || "{}");
 window.addEventListener("load", () => {
     fakeQuery('.settings input').forEach(element => (<HTMLInputElement>element).checked = settings[element.id]);
-    fakeQuery('.groups input').forEach(element => (<HTMLInputElement>element).checked = showGroups[element.id.split('-').pop()] !== false);
+    fakeQuery('.groups input').forEach(element => (<HTMLInputElement>element).checked = showGroups[element.id.split('-').slice(1).join('-')] !== false);
     updatePage();
 });
 function toggleSetting(element: HTMLInputElement) {
@@ -485,7 +485,7 @@ function toggleSetting(element: HTMLInputElement) {
     updatePage();
 }
 function toggleGroup(element: HTMLInputElement) {
-    var group = element.id.split('-').pop(), visible = element.checked;
+    var group = element.id.split('-').slice(1).join('-'), visible = element.checked;
     showGroups[group] = visible;
     localStorage.setItem("showGroups", JSON.stringify(showGroups));
     $('.' + group.replace(/♀/g,'F').replace(/♂/g,'M').replace(/\?/g,'-q').replace(/[^A-Z0-9-]/ig, '')).toggleClass("hidden", !visible);

@@ -193,6 +193,9 @@ namespace TPP.Display.Elements.RunStatus {
         private get battleFrontier() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Symbols" || e.Group == "Prints"));
         }
+        private get zARoyale() {
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Z-A Royale"));
+        }
 
         private partyDisplay(forceHof = false) {
             if (!forceHof && this.state.status && this.state.status.party)
@@ -254,6 +257,7 @@ namespace TPP.Display.Elements.RunStatus {
                         {this.badgesOutOfDate ? <h6>Outdated</h6> : null}
                     </EventDisplay>
                     <EventDisplay key="Noble Pokémon" events={this.bosses} />
+                    <EventDisplay key="Z-A Royale" events={this.zARoyale} />
                     <GameStats key="Game Stats" title="Stats" gameStats={this.state.status.game_stats} language={this.props.run.Language} />
                     <ItemDisplay key="Candy" title="Candy" items={this.state.status.items.candy} />
                     <ItemDisplay key="Items" title="Items" items={this.state.status.items.items} />
