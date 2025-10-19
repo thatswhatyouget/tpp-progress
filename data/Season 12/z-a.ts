@@ -10,6 +10,7 @@ Season12.Runs.push(
         HostImage: "https://archives.bulbagarden.net/media/upload/5/55/ZA_Harmony.png",
         Region: "Kalos",
         Generation: 9,
+        Pokedex: "Z-A Lumoise City",
         Events: [
             { "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
             { "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
@@ -35,6 +36,8 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Sableye", "Time": "2025-10-19T04:03:23Z" },
             { "Group": "Pokemon", "Name": "Gastly", "Time": "2025-10-19T04:29:42Z" },
             { "Group": "Pokemon", "Name": "Spinarak", "Time": "2025-10-19T05:05:58Z" },
+            { "Group": "Pokemon", "Name": "Staryu", "Time": "2025-10-19T05:43:14Z" },
+
         ]
     }
 );

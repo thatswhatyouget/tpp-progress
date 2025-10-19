@@ -22,3 +22,4 @@
 !distributebadge Sableye 5 2025-10-19T04:03:23Z
 !distributebadge Gastly 5 2025-10-19T04:29:42Z
 !distributebadge Spinarak 5 2025-10-19T05:05:58Z
+!distributebadge Staryu 5 2025-10-19T05:43:14Z
