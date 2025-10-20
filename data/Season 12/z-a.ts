@@ -17,6 +17,7 @@ Season12.Runs.push(
             { "Group": "Z-A Royale", "Name": "Rank Y\nOffice Worker Yvon", "Image": "img/trainers/z-a/yvon.png", "Time": "2025-10-19T13:51:03Z", "Attempts": 0 },
             { "Group": "Z-A Royale", "Name": "Rank X\nGrade-Schooler Xavi", "Image": "img/trainers/z-a/xavi.png", "Time": "2025-10-19T21:47:37Z", "Attempts": 0 },
             { "Group": "Z-A Royale", "Name": "Rank W\nWaiter Rintaro", "Image": "img/trainers/z-a/rintaro.png", "Time": "2025-10-20T00:56:57Z", "Attempts": 0 },
+            { "Group": "Z-A Royale", "Name": "Rank ***\nQuasartico Inc Vinnie", "Image": "img/trainers/z-a/vinnie.png", "Time": "2025-10-20T15:52:46Z", "Attempts": 0 },
 
             { "Group": "Rogue Mega Pokémon", "Name": "Absol", "Time": "2025-10-20T02:28:08Z", "Attempts": 0, "Class": "pokesprite mega" },
 
@@ -66,6 +67,15 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Wartortle", "Time": "2025-10-20T12:07:37Z" },
             { "Group": "Pokemon", "Name": "Slowpoke", "Time": "2025-10-20T12:24:47Z" },
             { "Group": "Pokemon", "Name": "Carvanha", "Time": "2025-10-20T12:26:12Z" },
+            { "Group": "Pokemon", "Name": "Hippopotas", "Time": "2025-10-20T13:15:26Z" },
+            { "Group": "Pokemon", "Name": "Audino", "Time": "2025-10-20T13:18:32Z" },
+            { "Group": "Pokemon", "Name": "Roselia", "Time": "2025-10-20T13:22:00Z" },
+            { "Group": "Pokemon", "Name": "Houndour", "Time": "2025-10-20T16:39:10Z" },
+            { "Group": "Pokemon", "Name": "Flaaffy", "Time": "2025-10-20T16:53:47Z" },
+            { "Group": "Pokemon", "Name": "Houndoom", "Time": "2025-10-20T18:39:33Z" },
+            { "Group": "Pokemon", "Name": "Swablu", "Time": "2025-10-20T18:47:17Z" },
+            { "Group": "Pokemon", "Name": "Buneary", "Time": "2025-10-20T18:53:17Z" },
+            { "Group": "Pokemon", "Name": "Meditite", "Time": "2025-10-20T19:28:04Z" },
         ]
     }
 );
