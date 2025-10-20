@@ -7,13 +7,15 @@ Season12.Runs.push(
         StartDate: "2025-10-18T21:00:00Z",
         Duration: "255d",
         HostName: '112',
-        HostImage: "https://archives.bulbagarden.net/media/upload/5/55/ZA_Harmony.png",
+        HostImage: "img/hosts/Harmony.png",
         Region: "Kalos",
         Generation: 9,
         Pokedex: "Z-A Lumoise City",
         Events: [
             { "Group": "Z-A Royale", "Name": "Rank Z\nDriver Zach", "Image": "img/trainers/z-a/zach.png", "Time": "2025-10-19T00:18:57Z", "Attempts": 1 },
             { "Group": "Z-A Royale", "Name": "Rank Y\nOffice Worker Yvon", "Image": "img/trainers/z-a/yvon.png", "Time": "2025-10-19T13:51:03Z", "Attempts": 0 },
+            { "Group": "Z-A Royale", "Name": "Rank X\nGrade-Schooler Xavi", "Image": "img/trainers/z-a/xavi.png", "Time": "2025-10-19T21:47:37Z", "Attempts": 0 },
+            { "Group": "Z-A Royale", "Name": "Rank W\nWaiter Rintaro", "Image": "img/trainers/z-a/rintaro.png", "Time": "2025-10-20T00:56:57Z", "Attempts": 0 },
 
             { "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
             { "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
@@ -49,6 +51,8 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Fletchinder", "Time": "2025-10-19T14:36:11Z" },
             { "Group": "Pokemon", "Name": "Chespin", "Time": "2025-10-19T18:42:18Z" },
             { "Group": "Pokemon", "Name": "Weepinbell", "Time": "2025-10-19T19:26:01Z" },
+            { "Group": "Pokemon", "Name": "Spritzee", "Time": "2025-10-19T23:20:51Z" },
+            { "Group": "Pokemon", "Name": "Whirlipede", "Time": "2025-10-20T00:06:47Z" },
         ]
     }
 );

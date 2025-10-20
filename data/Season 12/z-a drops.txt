@@ -32,3 +32,5 @@
 !distributebadge Fletchinder 5 2025-10-19T14:36:11Z
 !distributebadge Chespin 5 2025-10-19T18:42:18Z
 !distributebadge Weepinbell 5 2025-10-19T19:26:01Z
+!distributebadge Spritzee 5 2025-10-19T23:20:51Z
+!distributebadge Whirlipede 5 2025-10-20T00:06:47Z
