@@ -182,7 +182,7 @@ namespace TPP.Display.Elements.RunStatus {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Rematch Badges" || e.Group == "Rematch Stamps"));
         }
         private get bosses() {
-            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Bosses" || e.Group == "Noble Pokémon"));
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Bosses" || e.Group == "Noble Pokémon" || e.Group == "Rogue Mega Pokémon"));
         }
         private get rematchBosses() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Rematch Bosses"));

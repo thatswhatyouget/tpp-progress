@@ -12,10 +12,13 @@ Season12.Runs.push(
         Generation: 9,
         Pokedex: "Z-A Lumoise City",
         Events: [
-            { "Group": "Z-A Royale", "Name": "Rank Z\nDriver Zach", "Image": "img/trainers/z-a/zach.png", "Time": "2025-10-19T00:18:57Z", "Attempts": 1 },
+            //TODO: Find attempt counts
+            { "Group": "Z-A Royale", "Name": "Rank Z\nDriver Zach", "Image": "img/trainers/z-a/zach.png", "Time": "2025-10-19T00:18:57Z", /*"Attempts": 1*/ },
             { "Group": "Z-A Royale", "Name": "Rank Y\nOffice Worker Yvon", "Image": "img/trainers/z-a/yvon.png", "Time": "2025-10-19T13:51:03Z", "Attempts": 0 },
             { "Group": "Z-A Royale", "Name": "Rank X\nGrade-Schooler Xavi", "Image": "img/trainers/z-a/xavi.png", "Time": "2025-10-19T21:47:37Z", "Attempts": 0 },
             { "Group": "Z-A Royale", "Name": "Rank W\nWaiter Rintaro", "Image": "img/trainers/z-a/rintaro.png", "Time": "2025-10-20T00:56:57Z", "Attempts": 0 },
+
+            { "Group": "Rogue Mega Pokémon", "Name": "Absol", "Time": "2025-10-20T02:28:08Z", "Attempts": 0, "Class": "pokesprite mega" },
 
             { "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
             { "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
@@ -53,6 +56,14 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Weepinbell", "Time": "2025-10-19T19:26:01Z" },
             { "Group": "Pokemon", "Name": "Spritzee", "Time": "2025-10-19T23:20:51Z" },
             { "Group": "Pokemon", "Name": "Whirlipede", "Time": "2025-10-20T00:06:47Z" },
+            { "Group": "Pokemon", "Name": "Absol", "Time": "2025-10-20T02:30:02Z" },
+            { "Group": "Pokemon", "Name": "Kirlia", "Time": "2025-10-20T02:35:33Z" },
+            { "Group": "Pokemon", "Name": "Vanillite", "Time": "2025-10-20T02:51:52Z" },
+            { "Group": "Pokemon", "Name": "Quilladin", "Time": "2025-10-20T09:25:20Z" },
+            { "Group": "Pokemon", "Name": "Squirtle", "Time": "2025-10-20T11:04:24Z" },
+            { "Group": "Pokemon", "Name": "Kadabra", "Time": "2025-10-20T11:32:36Z" },
+            { "Group": "Pokemon", "Name": "Carbink", "Time": "2025-10-20T11:48:27Z" },
+            { "Group": "Pokemon", "Name": "Wartortle", "Time": "2025-10-20T12:07:37Z" },
         ]
     }
 );

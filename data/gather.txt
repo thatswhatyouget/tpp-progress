@@ -21,3 +21,7 @@ console.log(JSON.parse($("pre").last().text()).events.filter(e => e.group == "Po
     });
     return newMon;
 }).map(m => JSON.stringify(m)).join(',\n'));
+
+drops list
+replace !distributebadge (.+?) 5 (.+)
+with    { "Group": "Pokemon", "Name": "$1", "Time": "$2" },
