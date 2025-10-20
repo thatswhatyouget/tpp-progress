@@ -64,6 +64,8 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Kadabra", "Time": "2025-10-20T11:32:36Z" },
             { "Group": "Pokemon", "Name": "Carbink", "Time": "2025-10-20T11:48:27Z" },
             { "Group": "Pokemon", "Name": "Wartortle", "Time": "2025-10-20T12:07:37Z" },
+            { "Group": "Pokemon", "Name": "Slowpoke", "Time": "2025-10-20T12:24:47Z" },
+            { "Group": "Pokemon", "Name": "Carvanha", "Time": "2025-10-20T12:26:12Z" },
         ]
     }
 );

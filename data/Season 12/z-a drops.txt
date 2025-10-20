@@ -42,3 +42,5 @@
 !distributebadge Kadabra 5 2025-10-20T11:32:36Z
 !distributebadge Carbink 5 2025-10-20T11:48:27Z
 !distributebadge Wartortle 5 2025-10-20T12:07:37Z
+!distributebadge Slowpoke 5 2025-10-20T12:24:47Z
+!distributebadge Carvanha 5 2025-10-20T12:26:12Z
