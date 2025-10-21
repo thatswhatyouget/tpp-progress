@@ -55,3 +55,6 @@
 !distributebadge Buneary 5 2025-10-20T18:53:17Z
 !distributebadge Meditite 5 2025-10-20T19:28:04Z
 !distributebadge Emboar 5 2025-10-20T20:56:32Z
+!distributebadge Cleffa 5 2025-10-21T00:55:37Z
+!distributebadge Pansage 5 2025-10-21T01:20:51Z
+!distributebadge Chesnaught 5 2025-10-21T03:52:09Z
