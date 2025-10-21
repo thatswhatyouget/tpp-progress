@@ -22,6 +22,7 @@ Season12.Runs.push(
             { "Group": "Rogue Mega Pokémon", "Name": "Absol", "Time": "2025-10-20T02:28:08Z", "Attempts": 0, "Class": "pokesprite mega" },
             { "Group": "Rogue Mega Pokémon", "Name": "Victreebel", "Time": "2025-10-20T21:55:01Z", "Attempts": 0, "Class": "pokesprite mega" },
             { "Group": "Rogue Mega Pokémon", "Name": "Slowbro", "Time": "2025-10-21T03:15:26Z", "Attempts": 0, "Class": "pokesprite mega" },
+            { "Group": "Rogue Mega Pokémon", "Name": "Camerupt", "Time": "2025-10-21T06:17:44Z", "Attempts": 0, "Class": "pokesprite mega" },
 
             { "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
             { "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
@@ -83,6 +84,11 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Cleffa", "Time": "2025-10-21T00:55:37Z" },
             { "Group": "Pokemon", "Name": "Pansage", "Time": "2025-10-21T01:20:51Z" },
             { "Group": "Pokemon", "Name": "Chesnaught", "Time": "2025-10-21T03:52:09Z" },
+            { "Group": "Pokemon", "Name": "Numel", "Time": "2025-10-21T04:14:32Z" },
+            { "Group": "Pokemon", "Name": "Blastoise", "Time": "2025-10-21T05:21:11Z" },
+            { "Group": "Pokemon", "Name": "Kakuna", "Time": "2025-10-21T07:36:58Z" },
+            { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2025-10-21T09:53:32Z" },
+            { "Group": "Pokemon", "Name": "Pidgeot", "Time": "2025-10-21T11:03:37Z" },
         ]
     }
 );
