@@ -20,6 +20,7 @@ Season12.Runs.push(
             { "Group": "Z-A Royale", "Name": "Rank ***\nQuasartico Inc Vinnie", "Image": "img/trainers/z-a/vinnie.png", "Time": "2025-10-20T15:52:46Z", "Attempts": 0 },
 
             { "Group": "Rogue Mega Pokémon", "Name": "Absol", "Time": "2025-10-20T02:28:08Z", "Attempts": 0, "Class": "pokesprite mega" },
+            { "Group": "Rogue Mega Pokémon", "Name": "Victreebel", "Time": "2025-10-20T21:55:01Z", "Attempts": 0, "Class": "pokesprite mega" },
 
             { "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
             { "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
@@ -70,12 +71,15 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Hippopotas", "Time": "2025-10-20T13:15:26Z" },
             { "Group": "Pokemon", "Name": "Audino", "Time": "2025-10-20T13:18:32Z" },
             { "Group": "Pokemon", "Name": "Roselia", "Time": "2025-10-20T13:22:00Z" },
+            { "Group": "Pokemon", "Name": "Scolipede", "Time": "2025-10-20T15:31:15Z" },
             { "Group": "Pokemon", "Name": "Houndour", "Time": "2025-10-20T16:39:10Z" },
             { "Group": "Pokemon", "Name": "Flaaffy", "Time": "2025-10-20T16:53:47Z" },
             { "Group": "Pokemon", "Name": "Houndoom", "Time": "2025-10-20T18:39:33Z" },
             { "Group": "Pokemon", "Name": "Swablu", "Time": "2025-10-20T18:47:17Z" },
             { "Group": "Pokemon", "Name": "Buneary", "Time": "2025-10-20T18:53:17Z" },
             { "Group": "Pokemon", "Name": "Meditite", "Time": "2025-10-20T19:28:04Z" },
+            { "Group": "Pokemon", "Name": "Emboar", "Time": "2025-10-20T20:56:32Z" },
+
         ]
     }
 );

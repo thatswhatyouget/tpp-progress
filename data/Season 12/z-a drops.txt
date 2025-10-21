@@ -44,13 +44,14 @@
 !distributebadge Wartortle 5 2025-10-20T12:07:37Z
 !distributebadge Slowpoke 5 2025-10-20T12:24:47Z
 !distributebadge Carvanha 5 2025-10-20T12:26:12Z
-
 !distributebadge Hippopotas 5 2025-10-20T13:15:26Z
 !distributebadge Audino 5 2025-10-20T13:18:32Z
 !distributebadge Roselia 5 2025-10-20T13:22:00Z
+!distributebadge Scolipede 5 2025-10-20T15:31:15Z
 !distributebadge Houndour 5 2025-10-20T16:39:10Z
 !distributebadge Flaaffy 5 2025-10-20T16:53:47Z
 !distributebadge Houndoom 5 2025-10-20T18:39:33Z
 !distributebadge Swablu 5 2025-10-20T18:47:17Z
 !distributebadge Buneary 5 2025-10-20T18:53:17Z
 !distributebadge Meditite 5 2025-10-20T19:28:04Z
+!distributebadge Emboar 5 2025-10-20T20:56:32Z
