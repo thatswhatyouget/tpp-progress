@@ -18,11 +18,13 @@ Season12.Runs.push(
             { "Group": "Z-A Royale", "Name": "Rank X\nGrade-Schooler Xavi", "Image": "img/trainers/z-a/xavi.png", "Time": "2025-10-19T21:47:37Z", "Attempts": 0 },
             { "Group": "Z-A Royale", "Name": "Rank W\nWaiter Rintaro", "Image": "img/trainers/z-a/rintaro.png", "Time": "2025-10-20T00:56:57Z", "Attempts": 0 },
             { "Group": "Z-A Royale", "Name": "Rank ***\nQuasartico Inc Vinnie", "Image": "img/trainers/z-a/vinnie.png", "Time": "2025-10-20T15:52:46Z", "Attempts": 0 },
+            { "Group": "Z-A Royale", "Name": "Rank F\nDYN4MO Canari", "Image": "img/trainers/z-a/canari.png", "Time": "2025-10-21T21:17:25Z", "Attempts": 0 },
 
             { "Group": "Rogue Mega Pokémon", "Name": "Absol", "Time": "2025-10-20T02:28:08Z", "Attempts": 0, "Class": "pokesprite mega" },
             { "Group": "Rogue Mega Pokémon", "Name": "Victreebel", "Time": "2025-10-20T21:55:01Z", "Attempts": 0, "Class": "pokesprite mega" },
             { "Group": "Rogue Mega Pokémon", "Name": "Slowbro", "Time": "2025-10-21T03:15:26Z", "Attempts": 0, "Class": "pokesprite mega" },
             { "Group": "Rogue Mega Pokémon", "Name": "Camerupt", "Time": "2025-10-21T06:17:44Z", "Attempts": 0, "Class": "pokesprite mega" },
+            { "Group": "Rogue Mega Pokémon", "Name": "Beedrill", "Time": "2025-10-22T00:41:43Z", "Attempts": 0, "Class": "pokesprite mega" },
 
             { "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
             { "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
@@ -89,6 +91,11 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Kakuna", "Time": "2025-10-21T07:36:58Z" },
             { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2025-10-21T09:53:32Z" },
             { "Group": "Pokemon", "Name": "Pidgeot", "Time": "2025-10-21T11:03:37Z" },
+            { "Group": "Pokemon", "Name": "Tyrunt", "Time": "2025-10-21T16:44:32Z" },
+            { "Group": "Pokemon", "Name": "Tyrantrum", "Time": "2025-10-21T18:26:42Z" },
+            { "Group": "Pokemon", "Name": "Dedenne", "Time": "2025-10-21T18:37:24Z" },
+            { "Group": "Pokemon", "Name": "Stunfisk", "Time": "2025-10-22T07:28:56Z" },
+            { "Group": "Pokemon", "Name": "Clauncher", "Time": "2025-10-22T07:40:38Z" },
         ]
     }
 );
