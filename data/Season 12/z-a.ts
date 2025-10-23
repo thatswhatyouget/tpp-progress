@@ -138,6 +138,7 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Snover", "Time": "2025-10-23T02:39:15Z" },
 			{ "Group": "Pokemon", "Name": "Snorunt", "Time": "2025-10-23T02:42:18Z" },
 			{ "Group": "Pokemon", "Name": "Abomasnow", "Time": "2025-10-23T02:44:52Z" },
+			{ "Group": "Pokemon", "Name": "Noibat", "Time": "2025-10-23T03:13:01Z" },
 			{ "Group": "Pokemon", "Name": "Scraggy", "Time": "2025-10-23T03:18:25Z" },
 			{ "Group": "Pokemon", "Name": "Inkay", "Time": "2025-10-23T05:10:10Z" },
 			{ "Group": "Pokemon", "Name": "Klefki", "Time": "2025-10-23T05:21:47Z" },

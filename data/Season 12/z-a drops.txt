@@ -104,6 +104,7 @@
 !distributebadge Snover 5 2025-10-23T02:39:15Z
 !distributebadge Snorunt 5 2025-10-23T02:42:18Z
 !distributebadge Abomasnow 5 2025-10-23T02:44:52Z
+!distributebadge Noibat 5 2025-10-23T03:13:01Z
 !distributebadge Scraggy 5 2025-10-23T03:18:25Z
 !distributebadge Inkay 5 2025-10-23T05:10:10Z
 !distributebadge Klefki 5 2025-10-23T05:21:47Z
