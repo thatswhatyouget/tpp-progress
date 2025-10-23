@@ -26,6 +26,7 @@ Season12.Runs.push(
             { "Group": "Rogue Mega Pokémon", "Name": "Camerupt", "Time": "2025-10-21T06:17:44Z", "Attempts": 0, "Class": "pokesprite mega" },
             { "Group": "Rogue Mega Pokémon", "Name": "Beedrill", "Time": "2025-10-22T00:41:43Z", "Attempts": 0, "Class": "pokesprite mega" },
             { "Group": "Rogue Mega Pokémon", "Name": "Hawlucha", "Time": "2025-10-22T18:34:34Z", "Attempts": 0, "Class": "pokesprite mega" },
+            { "Group": "Rogue Mega Pokémon", "Name": "Banette", "Time": "2025-10-22T23:07:31Z", "Attempts": 0, "Class": "pokesprite mega" },
 
             { "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
             { "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
@@ -121,6 +122,12 @@ Season12.Runs.push(
             { "Group": "Pokemon", "Name": "Watchog", "Time": "2025-10-22T17:01:11Z" },
             { "Group": "Pokemon", "Name": "Pangoro", "Time": "2025-10-22T17:12:49Z" },
             { "Group": "Pokemon", "Name": "Gogoat", "Time": "2025-10-22T17:15:16Z" },
+            { "Group": "Pokemon", "Name": "Pansear", "Time": "2025-10-22T19:35:12Z" },
+            { "Group": "Pokemon", "Name": "Panpour", "Time": "2025-10-22T19:56:15Z" },
+            { "Group": "Pokemon", "Name": "Simisear", "Time": "2025-10-22T20:09:09Z" },
+            { "Group": "Pokemon", "Name": "Simipour", "Time": "2025-10-22T20:09:46Z" },
+            { "Group": "Pokemon", "Name": "Simisage", "Time": "2025-10-22T20:10:16Z" },
+            { "Group": "Pokemon", "Name": "Camerupt", "Time": "2025-10-23T00:40:14Z" },
         ]
     }
 );
