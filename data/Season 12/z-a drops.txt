@@ -127,3 +127,5 @@
 !distributebadge Bergmite 5 2025-10-24T00:07:32Z
 !distributebadge Delibird 5 2025-10-24T01:39:24Z
 !distributebadge Pumpkaboo 5 2025-10-24T02:30:17Z
+!distributebadge Fennekin 5 2025-10-24T07:39:19Z
+!distributebadge Scyther 5 2025-10-24T09:52:30Z

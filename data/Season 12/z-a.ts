@@ -163,6 +163,8 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Bergmite", "Time": "2025-10-24T00:07:32Z" },
 			{ "Group": "Pokemon", "Name": "Delibird", "Time": "2025-10-24T01:39:24Z" },
 			{ "Group": "Pokemon", "Name": "Pumpkaboo", "Time": "2025-10-24T02:30:17Z" },
+			{ "Group": "Pokemon", "Name": "Fennekin", "Time": "2025-10-24T07:39:19Z" },
+			{ "Group": "Pokemon", "Name": "Scyther", "Time": "2025-10-24T09:52:30Z" },
 
 		]
 	}
