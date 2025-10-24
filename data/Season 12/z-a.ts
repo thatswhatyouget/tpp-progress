@@ -32,6 +32,7 @@ Season12.Runs.push(
 			{ "Group": "Rogue Mega Pokémon", "Name": "Hawlucha", "Time": "2025-10-22T18:34:34Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Banette", "Time": "2025-10-22T23:07:31Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Ampharos", "Time": "2025-10-23T23:34:26Z", "Attempts": 0, "Class": "pokesprite mega" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Mawile", "Time": "2025-10-24T03:24:06Z", "Attempts": 0, "Class": "pokesprite mega" },
 
 			{ "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
 			{ "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
@@ -160,6 +161,8 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Sharpedo", "Time": "2025-10-23T19:50:27Z" },
 			{ "Group": "Pokemon", "Name": "Riolu", "Time": "2025-10-23T21:19:28Z" },
 			{ "Group": "Pokemon", "Name": "Bergmite", "Time": "2025-10-24T00:07:32Z" },
+			{ "Group": "Pokemon", "Name": "Delibird", "Time": "2025-10-24T01:39:24Z" },
+			{ "Group": "Pokemon", "Name": "Pumpkaboo", "Time": "2025-10-24T02:30:17Z" },
 
 		]
 	}

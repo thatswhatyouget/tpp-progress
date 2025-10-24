@@ -125,3 +125,5 @@
 !distributebadge Sharpedo 5 2025-10-23T19:50:27Z
 !distributebadge Riolu 5 2025-10-23T21:19:28Z
 !distributebadge Bergmite 5 2025-10-24T00:07:32Z
+!distributebadge Delibird 5 2025-10-24T01:39:24Z
+!distributebadge Pumpkaboo 5 2025-10-24T02:30:17Z
