@@ -31,6 +31,7 @@ Season12.Runs.push(
 			{ "Group": "Rogue Mega Pokémon", "Name": "Beedrill", "Time": "2025-10-22T00:41:43Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Hawlucha", "Time": "2025-10-22T18:34:34Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Banette", "Time": "2025-10-22T23:07:31Z", "Attempts": 0, "Class": "pokesprite mega" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Ampharos", "Time": "2025-10-23T23:34:26Z", "Attempts": 0, "Class": "pokesprite mega" },
 
 			{ "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
 			{ "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
@@ -152,6 +153,14 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Pupitar", "Time": "2025-10-23T12:05:30Z" },
 			{ "Group": "Pokemon", "Name": "Pyroar", "Time": "2025-10-23T12:10:48Z" },
 			{ "Group": "Pokemon", "Name": "Slowbro", "Time": "2025-10-23T12:11:23Z" },
+			{ "Group": "Pokemon", "Name": "Victreebel", "Time": "2025-10-23T17:35:35Z" },
+			{ "Group": "Pokemon", "Name": "Amaura", "Time": "2025-10-23T18:21:24Z" },
+			{ "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2025-10-23T18:22:00Z" },
+			{ "Group": "Pokemon", "Name": "Goomy", "Time": "2025-10-23T19:38:15Z" },
+			{ "Group": "Pokemon", "Name": "Sharpedo", "Time": "2025-10-23T19:50:27Z" },
+			{ "Group": "Pokemon", "Name": "Riolu", "Time": "2025-10-23T21:19:28Z" },
+			{ "Group": "Pokemon", "Name": "Bergmite", "Time": "2025-10-24T00:07:32Z" },
+
 		]
 	}
 );
