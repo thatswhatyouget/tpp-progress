@@ -35,6 +35,8 @@ Season12.Runs.push(
 			{ "Group": "Rogue Mega Pokémon", "Name": "Mawile", "Time": "2025-10-24T03:24:06Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Barbaracle", "Time": "2025-10-24T21:31:44Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Froslass", "Time": "2025-10-25T02:19:27Z", "Attempts": 0, "Class": "pokesprite mega" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Altaria", "Time": "2025-10-25T03:37:06Z", "Attempts": 0, "Class": "pokesprite mega" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Venusaur", "Time": "2025-10-25T04:04:16Z", "Attempts": 0, "Class": "pokesprite mega" },
 
 			{ "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
 			{ "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
@@ -178,6 +180,7 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Gengar", "Time": "2025-10-24T21:48:17Z" },
 			{ "Group": "Pokemon", "Name": "Falinks", "Time": "2025-10-25T00:21:54Z" },
 			{ "Group": "Pokemon", "Name": "Clefairy", "Time": "2025-10-25T00:48:37Z" },
+			{ "Group": "Pokemon", "Name": "Slowking", "Time": "2025-10-25T04:43:21Z" },
 
 		]
 	}
