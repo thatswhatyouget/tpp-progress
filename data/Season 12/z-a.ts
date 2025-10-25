@@ -181,6 +181,7 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Falinks", "Time": "2025-10-25T00:21:54Z" },
 			{ "Group": "Pokemon", "Name": "Clefairy", "Time": "2025-10-25T00:48:37Z" },
 			{ "Group": "Pokemon", "Name": "Slowking", "Time": "2025-10-25T04:43:21Z" },
+			{ "Group": "Pokemon", "Name": "Dragalge", "Time": "2025-10-25T11:13:53Z" },
 
 		]
 	}

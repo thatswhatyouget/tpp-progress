@@ -141,3 +141,4 @@
 !distributebadge Falinks 5 2025-10-25T00:21:54Z
 !distributebadge Clefairy 5 2025-10-25T00:48:37Z
 !distributebadge Slowking 5 2025-10-25T04:43:21Z
+!distributebadge Dragalge 5 2025-10-25T11:13:53Z
