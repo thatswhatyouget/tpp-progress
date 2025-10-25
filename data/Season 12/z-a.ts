@@ -34,6 +34,7 @@ Season12.Runs.push(
 			{ "Group": "Rogue Mega Pokémon", "Name": "Ampharos", "Time": "2025-10-23T23:34:26Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Mawile", "Time": "2025-10-24T03:24:06Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Barbaracle", "Time": "2025-10-24T21:31:44Z", "Attempts": 0, "Class": "pokesprite mega" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Froslass", "Time": "2025-10-25T02:19:27Z", "Attempts": 0, "Class": "pokesprite mega" },
 
 			{ "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
 			{ "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
