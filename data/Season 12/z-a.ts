@@ -199,6 +199,7 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Malamar", "Time": "2025-10-25T15:24:57Z" },
 			{ "Group": "Pokemon", "Name": "Eelektross", "Time": "2025-10-25T15:26:16Z" },
 			{ "Group": "Pokemon", "Name": "Goodra", "Time": "2025-10-25T16:23:58Z" },
+			{ "Group": "Pokemon", "Name": "Lopunny", "Time": "2025-10-25T21:57:42Z" },
 
 		]
 	}
