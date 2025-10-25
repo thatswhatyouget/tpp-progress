@@ -20,7 +20,7 @@ Season12.Runs.push(
 			{ "Group": "Z-A Royale", "Name": "Rank ???\nQuasartico Inc Vinnie", "Image": "img/trainers/z-a/vinnie.png", "Time": "2025-10-20T15:52:46Z", "Attempts": 0 },
 			{ "Group": "Z-A Royale", "Name": "Rank F\nDYN4MO Canari", "Image": "img/trainers/z-a/canari.png", "Time": "2025-10-21T21:17:25Z", "Attempts": 0 },
 			{ "Group": "Z-A Royale", "Name": "Rank E\nFist of Justice Ivor", "Image": "img/trainers/z-a/ivor.png", "Time": "2025-10-23T08:20:44Z", "Attempts": 0 },
-			{ "Group": "Z-A Royale", "Name": "Rank D\nRust Syndicate Corbeau", "Image": "img/trainers/z-a/corbeau.png", "Time": "", "Attempts": 0 },
+			{ "Group": "Z-A Royale", "Name": "Rank D\nRust Syndicate Corbeau", "Image": "img/trainers/z-a/corbeau.png", "Time": "2025-10-24T23:49:42Z", "Attempts": 0 },
 			{ "Group": "Z-A Royale", "Name": "Rank C\nSBC Jacinthe", "Image": "img/trainers/z-a/jacinthe.png", "Time": "", "Attempts": 0 },
 			{ "Group": "Z-A Royale", "Name": "Rank B\nTeam Flare Nouveau Grisham", "Image": "img/trainers/z-a/grisham.png", "Time": "", "Attempts": 0 },
 
@@ -33,6 +33,7 @@ Season12.Runs.push(
 			{ "Group": "Rogue Mega Pokémon", "Name": "Banette", "Time": "2025-10-22T23:07:31Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Ampharos", "Time": "2025-10-23T23:34:26Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Mawile", "Time": "2025-10-24T03:24:06Z", "Attempts": 0, "Class": "pokesprite mega" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Barbaracle", "Time": "2025-10-24T21:31:44Z", "Attempts": 0, "Class": "pokesprite mega" },
 
 			{ "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
 			{ "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
@@ -165,6 +166,17 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Pumpkaboo", "Time": "2025-10-24T02:30:17Z" },
 			{ "Group": "Pokemon", "Name": "Fennekin", "Time": "2025-10-24T07:39:19Z" },
 			{ "Group": "Pokemon", "Name": "Scyther", "Time": "2025-10-24T09:52:30Z" },
+			{ "Group": "Pokemon", "Name": "Haunter", "Time": "2025-10-24T16:52:17Z" },
+			{ "Group": "Pokemon", "Name": "Ariados", "Time": "2025-10-24T16:53:02Z" },
+			{ "Group": "Pokemon", "Name": "Braixen", "Time": "2025-10-24T17:08:59Z" },
+			{ "Group": "Pokemon", "Name": "Delphox", "Time": "2025-10-24T17:58:10Z" },
+			{ "Group": "Pokemon", "Name": "Scrafty", "Time": "2025-10-24T17:58:52Z" },
+			{ "Group": "Pokemon", "Name": "Sliggoo", "Time": "2025-10-24T19:01:51Z" },
+			{ "Group": "Pokemon", "Name": "Ampharos", "Time": "2025-10-24T19:29:15Z" },
+			{ "Group": "Pokemon", "Name": "Lucario", "Time": "2025-10-24T20:17:29Z" },
+			{ "Group": "Pokemon", "Name": "Gengar", "Time": "2025-10-24T21:48:17Z" },
+			{ "Group": "Pokemon", "Name": "Falinks", "Time": "2025-10-25T00:21:54Z" },
+			{ "Group": "Pokemon", "Name": "Clefairy", "Time": "2025-10-25T00:48:37Z" },
 
 		]
 	}
