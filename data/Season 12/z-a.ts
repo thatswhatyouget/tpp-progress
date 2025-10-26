@@ -7,10 +7,10 @@ Season12.Runs.push(
 		StartDate: "2025-10-18T21:00:00Z",
 		Duration: "255d",
 		HostName: '112',
-		HostImage: "img/hosts/Harmony.png",
+		HostImage: "img/hosts/112.png",
 		Region: "Kalos",
 		Generation: 9,
-		Pokedex: "Z-A Lumoise City",
+		Pokedex: "Z-A Lumiose City",
 		Events: [
 			//TODO: Find attempt counts
 			{ "Group": "Z-A Royale", "Name": "Rank Z\nDriver Zach", "Image": "img/trainers/z-a/zach.png", "Time": "2025-10-19T00:18:57Z", /*"Attempts": 1*/ },
