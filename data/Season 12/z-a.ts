@@ -43,7 +43,7 @@ Season12.Runs.push(
 			{ "Group": "Rogue Mega Pokémon", "Name": "Ange Floette", "Time": "2025-10-26T05:46:28Z", "Attempts": 0, "Class": "pokesprite mega floette eternal" },
 			
 			<TPP.HallOfFame>{
-				Group: "Hall of Fame", Name: "First Game Clear", Time: "2025-10-26T05:46:44Z", Attempts: 3, Party: [
+				Group: "Hall of Fame", Name: "First Game Clear #1", Time: "2025-10-26T05:46:44Z", Attempts: 3, Party: [
 					{ Pokemon: "Pidgeot", Nickname: "Aaghhii", Level: 78, Gender: "Female", Shiny },
 					{ Pokemon: "Scolipede", Nickname: "XchYyhaaggnu", Level: 74, Gender: "Female" },
 					{ Pokemon: "Chesnaught", Nickname: "Bee", Level: 75, Gender: "Female" },
@@ -56,7 +56,7 @@ Season12.Runs.push(
 			},
 
 			<TPP.HallOfFame>{
-				Group: "Hall of Fame", Name: "First Game Clear", Time: "2025-10-26T06:31:49Z", Attempts: 2, Party: [
+				Group: "Hall of Fame", Name: "First Game Clear #2", Time: "2025-10-26T06:31:49Z", Attempts: 2, Party: [
 					{ Pokemon: "Pidgeot", Nickname: "Aaghhii", Level: 78, Gender: "Female", Shiny },
 					{ Pokemon: "Scolipede", Nickname: "XchYyhaaggnu", Level: 74, Gender: "Female" },
 					{ Pokemon: "Chesnaught", Nickname: "Bee", Level: 75, Gender: "Female" },
