@@ -22,7 +22,7 @@ Season12.Runs.push(
 			{ "Group": "Z-A Royale", "Name": "Rank E\nFist of Justice Ivor", "Image": "img/trainers/z-a/ivor.png", "Time": "2025-10-23T08:20:44Z", "Attempts": 0 },
 			{ "Group": "Z-A Royale", "Name": "Rank D\nRust Syndicate Corbeau", "Image": "img/trainers/z-a/corbeau.png", "Time": "2025-10-24T23:49:42Z", "Attempts": 0 },
 			{ "Group": "Z-A Royale", "Name": "Rank C\nSBC Jacinthe", "Image": "img/trainers/z-a/jacinthe.png", "Time": "2025-10-25T17:15:51Z", "Attempts": 0 },
-			{ "Group": "Z-A Royale", "Name": "Rank B\nTeam Flare Nouveau Grisham", "Image": "img/trainers/z-a/grisham.png", "Time": "", "Attempts": 0 },
+			{ "Group": "Z-A Royale", "Name": "Rank B\nTeam Flare Nouveau Grisham", "Image": "img/trainers/z-a/grisham.png", "Time": "2025-10-26T01:40:18Z", "Attempts": 0 },
 
 			{ "Group": "Rogue Mega Pokémon", "Name": "Absol", "Time": "2025-10-20T02:28:08Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Victreebel", "Time": "2025-10-20T21:55:01Z", "Attempts": 0, "Class": "pokesprite mega" },
@@ -40,6 +40,8 @@ Season12.Runs.push(
 			{ "Group": "Rogue Mega Pokémon", "Name": "Tyranitar", "Time": "2025-10-25T18:33:30Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Starmie", "Time": "2025-10-25T19:27:09Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Dragonite", "Time": "2025-10-25T21:11:52Z", "Attempts": 0, "Class": "pokesprite mega" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Ange Floette", "Time": "2025-10-26T05:46:28Z", "Attempts": 0, "Class": "pokesprite mega floette eternal" },
+
 
 			{ "Group": "Pokemon", "Name": "Tepig", "Time": "2025-10-18T21:21:21Z" },
 			{ "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-10-18T22:18:38Z" },
@@ -200,6 +202,7 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Eelektross", "Time": "2025-10-25T15:26:16Z" },
 			{ "Group": "Pokemon", "Name": "Goodra", "Time": "2025-10-25T16:23:58Z" },
 			{ "Group": "Pokemon", "Name": "Lopunny", "Time": "2025-10-25T21:57:42Z" },
+			{ "Group": "Pokemon", "Name": "Noivern", "Time": "2025-10-25T23:19:39Z" },
 
 		]
 	}
