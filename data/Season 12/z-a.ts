@@ -24,6 +24,10 @@ Season12.Runs.push(
 			{ "Group": "Z-A Royale", "Name": "Rank C\nSBC Jacinthe", "Image": "img/trainers/z-a/jacinthe.png", "Time": "2025-10-25T17:15:51Z", "Attempts": 0 },
 			{ "Group": "Z-A Royale", "Name": "Rank B\nTeam Flare Nouveau Grisham", "Image": "img/trainers/z-a/grisham.png", "Time": "2025-10-26T01:40:18Z", "Attempts": 0 },
 
+			{ "Group": "Z-A Royale", "Name": "Rank ∞\nDriver Zach", "Image": "img/trainers/z-a/zach.png", "Time": "2025-10-27T05:37:26Z", "Class": "Rematch" },
+			{ "Group": "Z-A Royale", "Name": "Rank ∞\nTeam Flare Nouveau Griselle", "Image": "img/trainers/z-a/griselle.png", "Time": "2025-10-27T15:47:44Z", "Class": "" },
+
+
 			{ "Group": "Rogue Mega Pokémon", "Name": "Absol", "Time": "2025-10-20T02:28:08Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Victreebel", "Time": "2025-10-20T21:55:01Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Slowbro", "Time": "2025-10-21T03:15:26Z", "Attempts": 0, "Class": "pokesprite mega" },
@@ -41,6 +45,11 @@ Season12.Runs.push(
 			{ "Group": "Rogue Mega Pokémon", "Name": "Starmie", "Time": "2025-10-25T19:27:09Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Dragonite", "Time": "2025-10-25T21:11:52Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Ange Floette", "Time": "2025-10-26T05:46:28Z", "Attempts": 0, "Class": "pokesprite mega floette eternal" },
+
+			{ "Group": "Rogue Mega Pokémon", "Name": "Victreebel", "Time": "2025-10-28T20:48:43Z", "Attempts": 0, "Class": "Rematch pokesprite mega" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Hawlucha", "Time": "2025-10-28T21:28:49Z", "Attempts": 0, "Class": "Rematch pokesprite mega" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Tyranitar", "Time": "2025-10-28T22:28:21Z", "Attempts": 0, "Class": "Rematch pokesprite mega" },
+
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "First Game Clear #1", Time: "2025-10-26T05:46:44Z", Attempts: 3, Party: [
@@ -269,6 +278,17 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Gallade", "Time": "2025-10-27T12:58:37Z" },
 			{ "Group": "Pokemon", "Name": "Raichu", "Time": "2025-10-27T13:17:44Z" },
 			{ "Group": "Pokemon", "Name": "Starmie", "Time": "2025-10-27T13:40:30Z" },
+			{ "Group": "Pokemon", "Name": "Scizor", "Time": "2025-10-28T02:37:33Z" },
+			{ "Group": "Pokemon", "Name": "Alakazam", "Time": "2025-10-28T02:41:21Z" },
+			{ "Group": "Pokemon", "Name": "Hawlucha", "Time": "2025-10-28T03:10:37Z" },
+			{ "Group": "Pokemon", "Name": "Gible", "Time": "2025-10-28T12:53:20Z" },
+			{ "Group": "Pokemon", "Name": "Bagon", "Time": "2025-10-28T13:00:19Z" },
+			{ "Group": "Pokemon", "Name": "Gabite", "Time": "2025-10-28T13:05:28Z" },
+			{ "Group": "Pokemon", "Name": "Shelgon", "Time": "2025-10-28T13:06:04Z" },
+			{ "Group": "Pokemon", "Name": "Salamence", "Time": "2025-10-28T16:40:38Z" },
+			{ "Group": "Pokemon", "Name": "Garchomp", "Time": "2025-10-28T17:20:05Z" },
+			{ "Group": "Pokemon", "Name": "Xerneas", "Time": "2025-10-28T19:42:33Z" },
+			{ "Group": "Pokemon", "Name": "Gourgeist", "Time": "2025-10-29T00:52:26Z" },
 		]
 	}
 );
