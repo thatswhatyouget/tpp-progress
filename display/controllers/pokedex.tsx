@@ -8,7 +8,7 @@ namespace TPP.Controllers {
             super(data);
             this.pageTitle = "Global Pokédex";
             this.contentTitle = <DexName name="National" />;
-            this.seeAlso = <a href="catch-report.html">See Catch Report</a>;
+            this.seeAlso = <a href="index.html">Other Pages</a>;
             this.controls = [
                 pokedexGenerationsMenu(),
                 pokedexRegionsMenu(),

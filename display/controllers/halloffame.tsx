@@ -6,7 +6,7 @@ namespace TPP.Controllers {
         constructor(data: Collection[]) {
             super(data);
             this.pageTitle = "Hall of Fame";
-            this.seeAlso = <a href="index.html">See Progress Bars</a>;
+            this.seeAlso = <a href="index.html">Other Pages</a>;
             this.credits = [
                 "Pokemon sprites are from [The DS-style 64x64 Pokémon Sprite Resource](https://www.pokecommunity.com/showthread.php?t=267728), extended for [Gen 6](https://www.pokecommunity.com/showthread.php?t=314422) and [Gen 7](https://www.pokecommunity.com/showthread.php?t=368703).",
                 "All custom host sprites can be clicked for links to their sources."

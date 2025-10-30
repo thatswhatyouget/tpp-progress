@@ -6,7 +6,7 @@ namespace TPP.Controllers {
         constructor(data: Collection[]) {
             super(data);
             this.pageTitle = "Run Status";
-            this.seeAlso = <a href="index.html">See Progress Bars</a>;
+            this.seeAlso = <a href="index.html">Other Pages</a>;
             this.credits = [
                 "Default sprites are from [Bulbapedia](http://bulbapedia.bulbagarden.net/) and [PLDHnet's SpriteDex](http://pldh.net/dex/sprites/index).",
                 "Pokemon sprites are from [The DS-style 64x64 Pokémon Sprite Resource](https://www.pokecommunity.com/showthread.php?t=267728), extended for [Gen 6](https://www.pokecommunity.com/showthread.php?t=314422) and [Gen 7](https://www.pokecommunity.com/showthread.php?t=368703).",

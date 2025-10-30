@@ -54,6 +54,7 @@ function addSpriteSheet(name: string, spriteSheet: string, sheetType = SpriteShe
         `.progressChart .run${name} .event.pokesprite img` // Progress Bars Milestones
     ];
     const smallSpriteClasses = [
+        `${name} .pokesprite img`, // Generic, Landing page 
         `.progressChart .run${name} .event.pokesprite.pokemon img`, // Progress Bars Caught Pokemon
         `.ms${name} .dexEntry .pokesprite:not(.missingno) img`, // Pokedex MiniSprite Mode
     ];

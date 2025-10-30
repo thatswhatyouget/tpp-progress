@@ -369,6 +369,12 @@ declare namespace TPP.Controllers {
         render(): JSX.Element;
     }
 }
+declare namespace TPP.Controllers {
+    class LandingPageController extends ControllerBase {
+        constructor(data: Collection[]);
+        render(): JSX.Element;
+    }
+}
 declare namespace TPP.Display.Elements.Pokedex {
     interface DexEntryProps {
         entry: TPP.Pokedex.DexEntryBase;
