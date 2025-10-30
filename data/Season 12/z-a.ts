@@ -32,6 +32,8 @@ Season12.Runs.push(
 			{ "Group": "Z-A Royale", "Name": "Rank ∞\nGrade-Schooler Xavi", "Image": "img/trainers/z-a/xavi.png", "Time": "2025-10-29T06:50:35Z", "Class": "Rematch" },
 			{ "Group": "Z-A Royale", "Name": "Rank ∞\nFist of Justice Gwynn", "Image": "img/trainers/z-a/gwynn.png", "Time": "2025-10-29T10:19:36Z", "Class": "" },
 			{ "Group": "Z-A Royale", "Name": "Rank ∞\nSBC Labanne", "Image": "img/trainers/z-a/labanne.png", "Time": "2025-10-29T14:16:47Z", "Class": "" },
+			{ "Group": "Z-A Royale", "Name": "Rank ∞\nTeam MZ Naveen", "Image": "img/trainers/z-a/naveen.png", "Time": "2025-10-30T10:00:00Z", "Class": "" },
+			{ "Group": "Z-A Royale", "Name": "Rank ∞\nOffice Worker Yvon", "Image": "img/trainers/z-a/yvon.png", "Time": "2025-10-30T13:30:18Z", "Class": "Rematch" },
 
 			{ "Group": "Rogue Mega Pokémon", "Name": "Absol", "Time": "2025-10-20T02:28:08Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Victreebel", "Time": "2025-10-20T21:55:01Z", "Attempts": 0, "Class": "pokesprite mega" },

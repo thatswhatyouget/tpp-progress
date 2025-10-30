@@ -78,6 +78,12 @@
 .badgeList {
     width:auto;
 }
+.badgeList ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: center;
+}
 .badgeList ul h3 {
     font-family: pokeplatinum, monospace;
 }
@@ -86,11 +92,13 @@
 }
 
 .badgeList ul li {
-    display:inline-block;
+    display:inline-flex;
+    flex-flow: column nowrap;
+    align-items: center;
     background-color: rgba(0,0,0,.1);
     margin:.2em;
     width:12em;
-    vertical-align: top;
+    padding: 0.2em;
 }
 
 .badgeList ul li .image {
@@ -99,6 +107,7 @@
     width: 1em;
     height: 1em;
     margin: 5px 0;
+    margin-top: auto;
 }
 
 .pixel-art img {
