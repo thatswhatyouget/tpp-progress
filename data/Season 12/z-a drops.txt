@@ -210,3 +210,16 @@
 !distributebadge Garchomp 5 2025-10-28T17:20:05Z
 !distributebadge Xerneas 5 2025-10-28T19:42:33Z
 !distributebadge Gourgeist 5 2025-10-29T00:52:26Z
+!distributebadge Skarmory 5 2025-10-29T02:50:07Z
+!distributebadge Yveltal 5 2025-10-29T04:34:22Z
+!distributebadge Onix 5 2025-10-29T08:10:07Z Wahi
+!distributebadge Steelix 5 2025-10-29T08:10:29Z Evolved from Wahi
+!distributebadge Trevenant 5 2025-10-29T12:28:39Z
+!distributebadge Beldum 5 2025-10-29T19:48:56Z
+!distributebadge Metang 5 2025-10-29T19:50:46Z
+!distributebadge Metagross 5 2025-10-29T19:51:20Z
+!distributebadge Charmander 5 2025-10-29T21:48:25Z
+!distributebadge Charmeleon 5 2025-10-29T21:51:09Z
+!distributebadge Charizard 5 2025-10-29T21:51:44Z
+!distributebadge Dragonair 5 2025-10-29T23:08:31Z
+!distributebadge Dratini 5 2025-10-29T23:59:07Z
