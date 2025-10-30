@@ -54,12 +54,15 @@ namespace TPP.Controllers {
         render() {
             const { run, className } = this.props;
             const { showTime } = this.state;
+            let duration = TPP.Duration.parse(run.Duration, run.StartTime);
+            if (duration.TotalSeconds + run.StartTime > Date.now() / 1000)
+                duration = TPP.Duration.parse(new Date().toISOString(), run.StartTime);
             const hofs = run.Events.filter(e => !!(e as HallOfFame).Party) as HallOfFame[];
             const party = !!run.CopyEvents ? hofs.pop() : hofs.shift(); // Display the party from the first HoF for normal runs, but the last HoF if this is a revisit
             return <div className={`run-brick ${className} ${run.Class || ""}`} style={this.style}>
                 <a className="title" href={`run-status.html?run=${run.RunName}`}>{run.RunName}</a>
                 <a className="duration" href="javascript:void(0)" onClick={_ => this.setState(s => ({ showTime: !s.showTime }))}>
-                    <span className={`duration ${showTime ? "hide" : "show"}`}>{TPP.Duration.parse(run.Duration, run.StartTime).toString()}</span>
+                    <span className={`duration ${showTime ? "hide" : "show"}`}>{duration.toString()}</span>
                     <span className={`start-time ${showTime ? "show" : "hide"}`}>{new Date(run.StartTime * 1000).toISOString()}</span>
                 </a>
                 <div>
