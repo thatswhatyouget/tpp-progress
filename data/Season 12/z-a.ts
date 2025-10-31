@@ -37,6 +37,8 @@ Season12.Runs.push(
 			{ "Group": "Z-A Royale", "Name": "Rank ∞\nWaiter Rintaro", "Image": "img/trainers/z-a/rintaro.png", "Time": "2025-10-30T16:18:11Z", "Class": "Rematch" },
 			{ "Group": "Z-A Royale", "Name": "Rank ∞\nDYN4MO Canari", "Image": "img/trainers/z-a/canari.png", "Time": "2025-10-30T18:19:55Z", "Class": "Rematch" },
 			{ "Group": "Z-A Royale", "Name": "Rank ∞\nDYN4MO Mani", "Image": "img/trainers/z-a/mani.png", "Time": "2025-10-31T06:41:56Z", "Class": "" },
+			{ "Group": "Z-A Royale", "Name": "Rank ∞\nDetective Emma", "Image": "img/trainers/z-a/emma.png", "Time": "2025-10-31T14:55:02Z", "Class": "" },
+			{ "Group": "Z-A Royale", "Name": "Rank ∞\nRust Syndicate Corbeau", "Image": "img/trainers/z-a/corbeau.png", "Time": "2025-10-31T17:08:23Z", "Class": "Rematch" },
 
 			{ "Group": "Elite Four", "Name": "Brill", "Image": "img/trainers/z-a/brill.png", "Time": "2025-10-30T19:46:15Z" },
 			{ "Group": "Elite Four", "Name": "Diamant", "Image": "img/trainers/z-a/diamant.png", "Time": "2025-10-30T19:54:30Z" },
