@@ -167,7 +167,7 @@ namespace TPP.Display.Elements.RunStatus {
         }
 
         private get badges() {
-            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Badges" || e.Group == "Kingdoms" || e.Group == "Plates" || e.Group == "Stamps"));
+            return this.getEvents("Badges", "Kingdoms", "Plates", "Stamps");
         }
         private get eliteFour() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Elite Four" || e.Group == "Final Bosses" || (e.Group == "Champions" && (`${e.Image} ${e.Class}`.toLowerCase()).indexOf("rematch") < 0) /*&& e.Image.indexOf("hosts") < 0*/));
@@ -193,8 +193,8 @@ namespace TPP.Display.Elements.RunStatus {
         private get battleFrontier() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Symbols" || e.Group == "Prints"));
         }
-        private get zARoyale() {
-            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Z-A Royale"));
+        private getEvents(...groups: string[]) {
+            return this.bakeEvents(this.state.run.Events.filter(e => groups.includes(e.Group)));
         }
 
         private partyDisplay(forceHof = false) {
@@ -257,7 +257,9 @@ namespace TPP.Display.Elements.RunStatus {
                         {this.badgesOutOfDate ? <h6>Outdated</h6> : null}
                     </EventDisplay>
                     <EventDisplay key="Noble Pokémon" events={this.bosses} />
-                    <EventDisplay key="Z-A Royale" events={this.zARoyale} />
+                    <EventDisplay key="Z-A Royale" events={this.getEvents("Z-A Royale")} />
+                    <EventDisplay key="Z-A Infinite Royale" events={this.getEvents("Z-A Infinite Royale")} />
+                    <EventDisplay key="Le Super-Tournoi de Jacinthe O" events={this.getEvents("Le Super-Tournoi de Jacinthe O")} />
                     <GameStats key="Game Stats" title="Stats" gameStats={this.state.status.game_stats} language={this.props.run.Language} />
                     <ItemDisplay key="Candy" title="Candy" items={this.state.status.items.candy} />
                     <ItemDisplay key="Items" title="Items" items={this.state.status.items.items} />
