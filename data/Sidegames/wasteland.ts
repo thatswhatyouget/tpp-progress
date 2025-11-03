@@ -5,7 +5,7 @@ Sidegames.Runs.push(
         StartDate: "2025-05-15T00:27:00Z",
         ColorPrimary: "#c4b594",
         ColorSecondary: "#9b6e43",
-        Duration: "255d",
+        Duration: "2025-10-11T21:21:00Z",
         HostName: "SIM",
         HostImage: "img/hosts/sim.png",
         // HostImageSource: "",
