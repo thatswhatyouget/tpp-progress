@@ -224,7 +224,7 @@
 !distributebadge Dragonair 5 2025-10-29T23:08:31Z
 !distributebadge Dratini 5 2025-10-29T23:59:07Z
 !distributebadge Machamp 5 2025-10-30T15:25:22Z
-
 !distributebadge Froakie 5 2025-10-31T11:50:44Z
 !distributebadge Frogadier 5 2025-10-31T12:04:15Z
 !distributebadge Greninja 5 2025-10-31T12:04:37Z
+!distributebadge Zygarde 5 2025-11-02T23:55:12Z

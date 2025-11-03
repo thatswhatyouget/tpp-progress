@@ -5,7 +5,7 @@ Season12.Runs.push(
 		ColorSecondary: "#3f3e40",
 		ColorPrimary: "#89c97c",
 		StartDate: "2025-10-18T21:00:00Z",
-		Duration: "255d",
+		Duration: "2025-11-02T23:57:34Z",
 		HostName: '112',
 		HostImage: "img/hosts/112.png",
 		Region: "Kalos",
@@ -78,6 +78,8 @@ Season12.Runs.push(
 			{ "Group": "Rogue Mega Pokémon", "Name": "Victreebel", "Time": "2025-10-28T20:48:43Z", "Attempts": 0, "Class": "Rematch pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Hawlucha", "Time": "2025-10-28T21:28:49Z", "Attempts": 0, "Class": "Rematch pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Tyranitar", "Time": "2025-10-28T22:28:21Z", "Attempts": 0, "Class": "Rematch pokesprite mega" },
+
+			{ "Group": "Rogue Mega Pokémon", "Name": "Zygarde", "Time": "2025-11-02T23:54:53Z", "Attempts": 0, "Class": "pokesprite percent100" },
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "First Game Clear #1", Time: "2025-10-26T05:46:44Z", Attempts: 3, Party: [
@@ -334,6 +336,7 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Froakie", "Time": "2025-10-31T11:50:44Z" },
 			{ "Group": "Pokemon", "Name": "Frogadier", "Time": "2025-10-31T12:04:15Z" },
 			{ "Group": "Pokemon", "Name": "Greninja", "Time": "2025-10-31T12:04:37Z" },
+			{ "Group": "Pokemon", "Name": "Zygarde", "Time": "2025-11-02T23:55:12Z" }
 		]
 	}
 );
