@@ -38,17 +38,31 @@ Sidegames.Runs.push(
                 Group: "Badges", Name: "ナックルバッジ", Image: "img/badges/knuckle.png",
                 Time: "2024-02-01T15:56:17Z", Attempts: 1,
             },
+			
+            { Name: "ゴクリン\n(Gokurin)", Class: "Gulpin", Time: "2024-02-01T19:56:52Z", Group: "Pokemon" },
+            { Name: "ナゾノクサ\n(Nazonokusa)", Class: "Oddish", Time: "2024-02-01T23:29:56Z", Group: "Pokemon" },
+            { Name: "バルビート\n(Barubīto)", Class: "Volbeat", Time: "2024-02-02T01:17:47Z", Group: "Pokemon" },
+            { Name: "ロゼリア\n(Rozeria)", Class: "Roselia", Time: "2024-02-02T01:24:18Z", Group: "Pokemon" },
+			
             {
                 Group: "Badges", Name: "ダイナモバッジ", Image: "img/badges/dynamo.png",
-                Time: "", Attempts: 0,
+                Time: "2024-02-02T04:07:41Z", Attempts: 1,
             },
+			
+            { Name: "プラスル\n(Purasuru)", Class: "Plusle", Time: "2024-02-02T07:10:50Z", Group: "Pokemon" },
+            { Name: "マグマッグ\n(Magumaggu)", Class: "Slugma", Time: "2024-02-02T14:43:07Z", Group: "Pokemon" },
+            { Name: "パッチール\n(Patchīru)", Class: "Spinda", Time: "2024-02-02T15:50:17Z", Group: "Pokemon" },
+            { Name: "ルナトーン\n(Runatōn)", Class: "Lunatone", Time: "2024-02-02T16:41:34Z", Group: "Pokemon" },
+            { Name: "マルノーム\n(Marunōmu)", Class: "Swalot", Time: "2024-02-02T17:29:07Z", Group: "Pokemon" },
+            { Name: "チルット\n(Chirutto)", Class: "Swablu", Time: "2024-02-02T17:39:32Z", Group: "Pokemon" },
+			
             {
                 Group: "Badges", Name: "ヒートバッジ", Image: "img/badges/heat.png",
-                Time: "", Attempts: 0,
+                Time: "2024-02-02T23:08:12Z", Attempts: 1,
             },
             {
                 Group: "Badges", Name: "バランスバッジ", Image: "img/badges/balance.png",
-                Time: "", Attempts: 0,
+                Time: "2024-02-03T01:48:57Z", Attempts: 3,
             },
             {
                 Group: "Badges", Name: "フェザーバッジ", Image: "img/badges/feather.png",
