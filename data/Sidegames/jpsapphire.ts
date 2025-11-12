@@ -13,26 +13,112 @@ Sidegames.Runs.push(
         Generation: 3,
         Pokedex: "Hoenn",
         Events: [
+		
+            { Name: "アチャモ\n(Achamo)", Class: "Torchic", Time: "2024-02-01T01:27:32Z", Group: "Pokemon" },
+            { Name: "ジグザグマ\n(Jiguzaguma)", Class: "Zigzagoon", Time: "2024-02-01T02:38:01Z", Group: "Pokemon" },
+            { Name: "ケムッソ\n(Kemusso)", Class: "Wurmple", Time: "2024-02-01T02:41:50Z", Group: "Pokemon" },
+            { Name: "ワカシャモ\n(Wakashamo)", Class: "Combusken", Time: "2024-02-01T04:36:24Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "ストーンバッジ", Image: "img/badges/stone.png",
+                Time: "2024-02-01T05:05:30Z", Attempts: 2,
+            },
+			
+            { Name: "ゴニョニョ\n(Gonyonyo)", Class: "Whismur", Time: "2024-02-01T05:45:51Z", Group: "Pokemon" },
+            { Name: "カラサリス\n(Karasarisu)", Class: "Silcoon", Time: "2024-02-01T06:24:44Z", Group: "Pokemon" },
+            { Name: "スバメ\n(Subame)", Class: "Taillow", Time: "2024-02-01T06:57:13Z", Group: "Pokemon" },
+            { Name: "ハスボー\n(Hasubō)", Class: "Lotad", Time: "2024-02-01T11:06:31Z", Group: "Pokemon" },
+            { Name: "ポチエナ\n(Pochiena)", Class: "Poochyena", Time: "2024-02-01T11:10:28Z", Group: "Pokemon" },
+            { Name: "ラルトス\n(Rarutosu)", Class: "Ralts", Time: "2024-02-01T11:13:52Z", Group: "Pokemon" },
+            { Name: "ケーシィ\n(Kēshī)", Class: "Abra", Time: "2024-02-01T13:14:42Z", Group: "Pokemon" },
+            { Name: "マクノシタ\n(Makunoshita)", Class: "Makuhita", Time: "2024-02-01T13:30:49Z", Group: "Pokemon" },
+            { Name: "アゲハント\n(Agehanto)", Class: "Beautifly", Time: "2024-02-01T15:49:36Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "ナックルバッジ", Image: "img/badges/knuckle.png",
+                Time: "2024-02-01T15:56:17Z", Attempts: 1,
+            },
+			
+            { Name: "ゴクリン\n(Gokurin)", Class: "Gulpin", Time: "2024-02-01T19:56:52Z", Group: "Pokemon" },
+            { Name: "ナゾノクサ\n(Nazonokusa)", Class: "Oddish", Time: "2024-02-01T23:29:56Z", Group: "Pokemon" },
+            { Name: "バルビート\n(Barubīto)", Class: "Volbeat", Time: "2024-02-02T01:17:47Z", Group: "Pokemon" },
+            { Name: "ロゼリア\n(Rozeria)", Class: "Roselia", Time: "2024-02-02T01:24:18Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "ダイナモバッジ", Image: "img/badges/dynamo.png",
+                Time: "2024-02-02T04:07:41Z", Attempts: 1,
+            },
+			
+            { Name: "プラスル\n(Purasuru)", Class: "Plusle", Time: "2024-02-02T07:10:50Z", Group: "Pokemon" },
+            { Name: "マグマッグ\n(Magumaggu)", Class: "Slugma", Time: "2024-02-02T14:43:07Z", Group: "Pokemon" },
+            { Name: "パッチール\n(Patchīru)", Class: "Spinda", Time: "2024-02-02T15:50:17Z", Group: "Pokemon" },
+            { Name: "ルナトーン\n(Runatōn)", Class: "Lunatone", Time: "2024-02-02T16:41:34Z", Group: "Pokemon" },
+            { Name: "マルノーム\n(Marunōmu)", Class: "Swalot", Time: "2024-02-02T17:29:07Z", Group: "Pokemon" },
+            { Name: "チルット\n(Chirutto)", Class: "Swablu", Time: "2024-02-02T17:39:32Z", Group: "Pokemon" },
+			
+            {
+                Group: "Badges", Name: "ヒートバッジ", Image: "img/badges/heat.png",
+                Time: "2024-02-02T23:08:12Z", Attempts: 1,
+            },
+            {
+                Group: "Badges", Name: "バランスバッジ", Image: "img/badges/balance.png",
+                Time: "2024-02-03T01:48:57Z", Attempts: 3,
+            },
+            {
+                Group: "Badges", Name: "フェザーバッジ", Image: "img/badges/feather.png",
+                Time: "", Attempts: 0,
+            },
+            {
+                Group: "Badges", Name: "マインドバッジ", Image: "img/badges/mind.png",
+                Time: "", Attempts: 0,
+            },
+            {
+                Group: "Badges", Name: "レインバッジ", Image: "img/badges/rain.png",
+                Time: "", Attempts: 0,
+            },
+
+            {
+                Group: "Elite Four", Name: "カゲツ", Image: "img/trainers/emerald/sidney.png",
+                Time: "", Attempts: 0,
+            },
+            {
+                Group: "Elite Four", Name: "フヨウ", Image: "img/trainers/emerald/phoebe.png",
+                Time: "", Attempts: 0,
+            },
+            {
+                Group: "Elite Four", Name: "プリム", Image: "img/trainers/emerald/glacia.png",
+                Time: "", Attempts: 0,
+            },
+            {
+                Group: "Elite Four", Name: "ゲンジ", Image: "img/trainers/emerald/drake.png",
+                Time: "", Attempts: 0,
+            },
+
+            {
+                Group: "Champions", Name: "ダイゴ", Image: "img/trainers/emerald/steven.png",
+                Time: "", Attempts: 0,
+            },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-05T10:30:21.088Z", Attempts: 2, IDNo: "40511", Party: [
-                    { Pokemon: "Lunatone", Nickname: "オソミマオ", Level: 56, Number: 125, IDNo: "40511" },
-                    { Pokemon: "Swalot", Nickname: "エスはハフ", Level: 55, Gender: "Female", Number: 96, IDNo: "40511" },
-                    { Pokemon: "Blaziken", Nickname: "くけけVt", Level: 62, Gender: "Male", Number: 6, IDNo: "40511" },
-                    { Pokemon: "Donphan", Nickname: "くいやふに", Level: 55, Gender: "Female", Number: 166, IDNo: "40511" },
-                    { Pokemon: "Dusclops", Nickname: "サンズ", Level: 60, Gender: "Male", Number: 149, IDNo: "40511" },
-                    { Pokemon: "Lanturn", Nickname: "イシスハマ", Level: 55, Gender: "Male", Number: 182, IDNo: "40511" },
+                    { Pokemon: "ルナトーン\n(Runatōn)", Class: "Lunatone", Nickname: "オソミマオ", Level: 56, Number: 125, IDNo: "40511" },
+                    { Pokemon: "マルノーム\n(Marunōmu)", Class: "Swalot", Nickname: "エスはハフ", Level: 55, Gender: "Female", Number: 96, IDNo: "40511" },
+                    { Pokemon: "バシャーモ\n(Bashāmo)", Class: "Blaziken", Nickname: "くけけVt", Level: 62, Gender: "Male", Number: 6, IDNo: "40511" },
+                    { Pokemon: "ドンファン\n(Donfan)", Class: "Donphan", Nickname: "くいやふに", Level: 55, Gender: "Female", Number: 166, IDNo: "40511" },
+                    { Pokemon: "サマヨール\n(Samayōru)", Class: "Dusclops", Nickname: "サンズ", Level: 60, Gender: "Male", Number: 149, IDNo: "40511" },
+                    { Pokemon: "ランターン\n(Rantān)", Class: "Lanturn", Nickname: "イシスハマ", Level: 55, Gender: "Male", Number: 182, IDNo: "40511" },
                 ],
                 FirstAttemptDate: "2024-02-05T01:25:50.625Z",
                 Image: "img/ribbons/champion.png"
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-05T17:06:41.930Z", Attempts: 3, IDNo: "40511", Party: [
-                    { Pokemon: "Beautifly", Nickname: "カシさうい", Level: 61, Gender: "Female", Number: 16, IDNo: "40511" },
-                    { Pokemon: "Lunatone", Nickname: "オソミマオ", Level: 61, Number: 125, IDNo: "40511" },
-                    { Pokemon: "Lanturn", Nickname: "イシスハマ", Level: 61, Gender: "Male", Number: 182, IDNo: "40511" },
-                    { Pokemon: "Donphan", Nickname: "くいやふに", Level: 60, Gender: "Female", Number: 166, IDNo: "40511" },
-                    { Pokemon: "Blaziken", Nickname: "くけけVt", Level: 66, Gender: "Male", Number: 6, IDNo: "40511" },
-                    { Pokemon: "Dusclops", Nickname: "サンズ", Level: 62, Gender: "Male", Number: 149, IDNo: "40511" },
+                    { Pokemon: "アゲハント\n(Agehanto)", Class: "Beautifly", Nickname: "カシさうい", Level: 61, Gender: "Female", Number: 16, IDNo: "40511" },
+                    { Pokemon: "ルナトーン\n(Runatōn)", Class: "Lunatone", Nickname: "オソミマオ", Level: 61, Number: 125, IDNo: "40511" },
+                    { Pokemon: "ランターン\n(Rantān)", Class: "Lanturn", Nickname: "イシスハマ", Level: 61, Gender: "Male", Number: 182, IDNo: "40511" },
+                    { Pokemon: "ドンファン\n(Donfan)", Class: "Donphan", Nickname: "くいやふに", Level: 60, Gender: "Female", Number: 166, IDNo: "40511" },
+                    { Pokemon: "バシャーモ\n(Bashāmo)", Class: "Blaziken", Nickname: "くけけVt", Level: 66, Gender: "Male", Number: 6, IDNo: "40511" },
+                    { Pokemon: "サマヨール\n(Samayōru)", Class: "Dusclops", Nickname: "サンズ", Level: 62, Gender: "Male", Number: 149, IDNo: "40511" },
                 ],
                 FirstAttemptDate: "2024-02-05T14:16:39.817Z",
                 Image: "img/ribbons/champion.png"
