@@ -83,7 +83,7 @@ Season12.Runs.push(
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "First Game Clear #1", Time: "2025-10-26T05:46:44Z", Attempts: 3, Party: [
-					{ Pokemon: "Pidgeot", Nickname: "Aaghhii", Level: 78, Gender: "Female", Shiny },
+					{ Pokemon: "Pidgeot", Nickname: "Aurumm", Level: 78, Gender: "Female", Shiny },
 					{ Pokemon: "Scolipede", Nickname: "XchYyhaaggnu", Level: 74, Gender: "Female" },
 					{ Pokemon: "Chesnaught", Nickname: "Bee", Level: 75, Gender: "Female" },
 					{ Pokemon: "Tyrantrum", Nickname: "Ty", Level: 75, Gender: "Male" },
@@ -96,7 +96,7 @@ Season12.Runs.push(
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "First Game Clear #2", Time: "2025-10-26T06:31:49Z", Attempts: 2, Party: [
-					{ Pokemon: "Pidgeot", Nickname: "Aaghhii", Level: 78, Gender: "Female", Shiny },
+					{ Pokemon: "Pidgeot", Nickname: "Aurumm", Level: 78, Gender: "Female", Shiny },
 					{ Pokemon: "Scolipede", Nickname: "XchYyhaaggnu", Level: 74, Gender: "Female" },
 					{ Pokemon: "Chesnaught", Nickname: "Bee", Level: 75, Gender: "Female" },
 					{ Pokemon: "Tyrantrum", Nickname: "Ty", Level: 75, Gender: "Male" },
