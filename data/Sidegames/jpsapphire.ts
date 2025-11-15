@@ -178,6 +178,23 @@ Sidegames.Runs.push(
                 FirstAttemptDate: "2024-02-05T14:16:39.817Z",
                 Image: "img/ribbons/champion.png"
             },
+			
+            { Name: "ヤミラミ\n(Yamirami)", Class: "Sableye", Time: "2024-02-06T04:59:48Z", Group: "Pokemon" },
+            { Name: "ネンドール\n(Nendōru)", Class: "Claydol", Time: "2024-02-06T05:48:13Z", Group: "Pokemon" },
+            { Name: "ドンメル\n(Donmeru)", Class: "Numel", Time: "2024-02-06T06:17:27Z", Group: "Pokemon" },
+            { Name: "キノココ\n(Kinokoko)", Class: "Shroomish", Time: "2024-02-06T07:03:04Z", Group: "Pokemon" },
+            { Name: "ドゴーム\n(Dogōmu)", Class: "Loudred", Time: "2024-02-06T07:13:26Z", Group: "Pokemon" },
+            { Name: "キャモメ\n(Kyamome)", Class: "Wingull", Time: "2024-02-06T09:16:06Z", Group: "Pokemon" },
+            { Name: "ナックラー\n(Nakkurā)", Class: "Trapinch", Time: "2024-02-06T09:31:01Z", Group: "Pokemon" },
+            { Name: "サンド\n(Sando)", Class: "Sandshrew", Time: "2024-02-06T09:37:07Z", Group: "Pokemon" },
+            { Name: "ズバット\n(Zubatto)", Class: "Zubat", Time: "2024-02-06T09:59:28Z", Group: "Pokemon" },
+            { Name: "ナマケロ\n(Namakero)", Class: "Slakoth", Time: "2024-02-06T12:17:31Z", Group: "Pokemon" },
+            { Name: "マユルド\n(Mayurudo)", Class: "Cascoon", Time: "2024-02-06T12:43:29Z", Group: "Pokemon" },
+            { Name: "ハリテヤマ\n(Hariteyama)", Class: "Hariyama", Time: "2024-02-06T12:47:36Z", Group: "Pokemon" },
+            { Name: "ドクケイル\n(Dokukeiru)", Class: "Dustox", Time: "2024-02-06T12:51:17Z", Group: "Pokemon" },
+            { Name: "ラクライ\n(Rakurai)", Class: "Electrike", Time: "2024-02-06T15:37:46Z", Group: "Pokemon" },
+            { Name: "キリンリキ\n(Kirinriki)", Class: "Girafarig", Time: "2024-02-06T16:27:17Z", Group: "Pokemon" },
+			
         ]
     }
 );
