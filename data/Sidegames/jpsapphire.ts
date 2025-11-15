@@ -96,36 +96,40 @@ Sidegames.Runs.push(
             { Name: "ランターン\n(Rantān)", Class: "Lanturn", Time: "2024-02-04T16:38:12Z", Group: "Pokemon" },
             { Name: "カイオーガ\n(Kaiōga)", Class: "Kyogre", Time: "2024-02-04T21:15:12Z", Group: "Pokemon" },
 			
-			
             {
                 Group: "Badges", Name: "レインバッジ", Image: "img/badges/rain.png",
-                Time: "", Attempts: 0,
+                Time: "2024-02-04T22:02:17Z", Attempts: 1,
             },
-
+			
             {
                 Group: "Elite Four", Name: "カゲツ", Image: "img/trainers/emerald/sidney.png",
-                Time: "", Attempts: 0,
+                Time: "2024-02-05T01:51:54Z", Attempts: 2,
             },
+			
+            { Name: "ゴルバット\n(Gorubatto)", Class: "Golbat", Time: "2024-02-05T04:32:50Z", Group: "Pokemon" },
+
             {
                 Group: "Elite Four", Name: "フヨウ", Image: "img/trainers/emerald/phoebe.png",
-                Time: "", Attempts: 0,
+                Time: "2024-02-05T09:57:17Z", Attempts: 2,
             },
+			
             {
                 Group: "Elite Four", Name: "プリム", Image: "img/trainers/emerald/glacia.png",
-                Time: "", Attempts: 0,
+                Time: "2024-02-05T10:07:23Z", Attempts: 1,
             },
+			
             {
                 Group: "Elite Four", Name: "ゲンジ", Image: "img/trainers/emerald/drake.png",
-                Time: "", Attempts: 0,
+                Time: "2024-02-05T10:15:19Z", Attempts: 1,
             },
 
             {
                 Group: "Champions", Name: "ダイゴ", Image: "img/trainers/emerald/steven.png",
-                Time: "", Attempts: 0,
+                Time: "2024-02-05T10:21:54Z", Attempts: 1,
             },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-05T10:30:21.088Z", Attempts: 2, IDNo: "40511", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-05T10:30:21.088Z", Attempts: 3, IDNo: "40511", Party: [
                     { Pokemon: "ルナトーン", Class: "Lunatone", Nickname: "オソミマオ", Level: 56, Number: 125, IDNo: "40511" },
                     { Pokemon: "マルノーム", Class: "Swalot", Nickname: "エスはハフ", Level: 55, Gender: "Female", Number: 96, IDNo: "40511" },
                     { Pokemon: "バシャーモ", Class: "Blaziken", Nickname: "くけけVt", Level: 62, Gender: "Male", Number: 6, IDNo: "40511" },
@@ -136,8 +140,34 @@ Sidegames.Runs.push(
                 FirstAttemptDate: "2024-02-05T01:25:50.625Z",
                 Image: "img/ribbons/champion.png"
             },
+			
+            {
+                Group: "Elite Four Rematch", Name: "カゲツ", Image: "img/trainers/emerald/sidney.png",
+                Class: "Rematch", Time: "2024-02-05T14:21:38Z", Attempts: 1,
+            },
+			
+            {
+                Group: "Elite Four Rematch", Name: "フヨウ", Image: "img/trainers/emerald/phoebe.png",
+                Class: "Rematch", Time: "2024-02-05T14:38:54Z", Attempts: 1,
+            },
+			
+            {
+                Group: "Elite Four Rematch", Name: "プリム", Image: "img/trainers/emerald/glacia.png",
+                Class: "Rematch", Time: "2024-02-05T14:48:39Z", Attempts: 1,
+            },
+			
+            {
+                Group: "Elite Four Rematch", Name: "ゲンジ", Image: "img/trainers/emerald/drake.png",
+                Class: "Rematch", Time: "2024-02-05T14:54:08Z", Attempts: 1,
+            },
+
+            {
+                Group: "Champions", Name: "ダイゴ", Image: "img/trainers/emerald/steven.png",
+                Class: "Rematch", Time: "2024-02-05T17:04:43Z", Attempts: 3,
+            },
+			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-05T17:06:41.930Z", Attempts: 3, IDNo: "40511", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2024-02-05T17:06:41.930Z", Attempts: 4, IDNo: "40511", Party: [
                     { Pokemon: "アゲハント", Class: "Beautifly", Nickname: "カシさうい", Level: 61, Gender: "Female", Number: 16, IDNo: "40511" },
                     { Pokemon: "ルナトーン", Class: "Lunatone", Nickname: "オソミマオ", Level: 61, Number: 125, IDNo: "40511" },
                     { Pokemon: "ランターン", Class: "Lanturn", Nickname: "イシスハマ", Level: 61, Gender: "Male", Number: 182, IDNo: "40511" },
@@ -148,6 +178,23 @@ Sidegames.Runs.push(
                 FirstAttemptDate: "2024-02-05T14:16:39.817Z",
                 Image: "img/ribbons/champion.png"
             },
+			
+            { Name: "ヤミラミ\n(Yamirami)", Class: "Sableye", Time: "2024-02-06T04:59:48Z", Group: "Pokemon" },
+            { Name: "ネンドール\n(Nendōru)", Class: "Claydol", Time: "2024-02-06T05:48:13Z", Group: "Pokemon" },
+            { Name: "ドンメル\n(Donmeru)", Class: "Numel", Time: "2024-02-06T06:17:27Z", Group: "Pokemon" },
+            { Name: "キノココ\n(Kinokoko)", Class: "Shroomish", Time: "2024-02-06T07:03:04Z", Group: "Pokemon" },
+            { Name: "ドゴーム\n(Dogōmu)", Class: "Loudred", Time: "2024-02-06T07:13:26Z", Group: "Pokemon" },
+            { Name: "キャモメ\n(Kyamome)", Class: "Wingull", Time: "2024-02-06T09:16:06Z", Group: "Pokemon" },
+            { Name: "ナックラー\n(Nakkurā)", Class: "Trapinch", Time: "2024-02-06T09:31:01Z", Group: "Pokemon" },
+            { Name: "サンド\n(Sando)", Class: "Sandshrew", Time: "2024-02-06T09:37:07Z", Group: "Pokemon" },
+            { Name: "ズバット\n(Zubatto)", Class: "Zubat", Time: "2024-02-06T09:59:28Z", Group: "Pokemon" },
+            { Name: "ナマケロ\n(Namakero)", Class: "Slakoth", Time: "2024-02-06T12:17:31Z", Group: "Pokemon" },
+            { Name: "マユルド\n(Mayurudo)", Class: "Cascoon", Time: "2024-02-06T12:43:29Z", Group: "Pokemon" },
+            { Name: "ハリテヤマ\n(Hariteyama)", Class: "Hariyama", Time: "2024-02-06T12:47:36Z", Group: "Pokemon" },
+            { Name: "ドクケイル\n(Dokukeiru)", Class: "Dustox", Time: "2024-02-06T12:51:17Z", Group: "Pokemon" },
+            { Name: "ラクライ\n(Rakurai)", Class: "Electrike", Time: "2024-02-06T15:37:46Z", Group: "Pokemon" },
+            { Name: "キリンリキ\n(Kirinriki)", Class: "Girafarig", Time: "2024-02-06T16:27:17Z", Group: "Pokemon" },
+			
         ]
     }
 );
