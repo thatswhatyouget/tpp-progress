@@ -5,7 +5,7 @@ Sidegames.Runs.push(
         ColorSecondary: "#7544C6",
         ColorPrimary: "#FFB320",
         StartDate: "2025-11-07T02:03:00Z",
-        Duration: "2025-11-22T21:00:00Z",
+        Duration: "2025-12-06T21:00:00Z",
         HostName: "Adeuu",
         HostImage: "img/hosts/adeuu.png",
         HostImageSource: "",
