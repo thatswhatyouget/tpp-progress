@@ -327,7 +327,29 @@ Season11.Runs.push(
                 Time: "2024-05-19T18:59:47Z", Attempts: 1
             },
 			
+            {
+                Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Class: "Rematch",
+                Time: "2024-05-19T19:38:33Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Class: "Rematch",
+                Time: "2024-05-19T19:50:10Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Class: "Rematch",
+                Time: "2024-05-19T19:58:19Z", Attempts: 1
+            },
+
             { Name: "Ralts", Time: "2024-05-19T22:41:32Z", Group: "Pokemon" },
+			
+            {
+				Group: "Tournaments", Name: "Chromatic Scale Pt. 1", 
+				Image: "img/hosts/yss.png",
+				Time: "2024-05-20T01:12:17Z", Attempts: 2,  
+			},
+			
             { Name: "Tympole", Time: "2024-05-20T02:29:55Z", Group: "Pokemon" },
             { Name: "Sandslash", Time: "2024-05-20T10:58:15Z", Group: "Pokemon" },
             { Name: "Fearow", Time: "2024-05-20T11:00:46Z", Group: "Pokemon" },
@@ -335,6 +357,19 @@ Season11.Runs.push(
             { Name: "Gigalith", Time: "2024-05-20T12:58:58Z", Group: "Pokemon" },
             { Name: "Regice", Time: "2024-05-20T13:59:54Z", Group: "Pokemon" },
             { Name: "Regigigas", Time: "2024-05-20T14:39:03Z", Group: "Pokemon" },
+			
+            {
+				Group: "Tournaments", Name: "Nameless Wind Tournament", 
+				Image: "img/hosts/chronya.png",
+				Time: "2024-05-20T16:58:33Z", Attempts: 6,  
+			},
+			
+            {
+				Group: "Tournaments", Name: "Chromatic Scale Pt. 2", 
+				Image: "img/hosts/00--.png",
+				Time: "2024-05-20T19:52:13Z", Attempts: 1,  
+			},
+			
             { Name: "Gible", Time: "2024-05-20T21:59:01Z", Group: "Pokemon" },
             { Name: "Snivy", Time: "2024-05-20T23:29:05Z", Group: "Pokemon" },
             { Name: "Serperior", Time: "2024-05-21T00:06:40Z", Group: "Pokemon" },
@@ -360,33 +395,8 @@ Season11.Runs.push(
             { Name: "Reshiram", Time: "2024-05-21T20:01:24Z", Group: "Pokemon" },
 			
             {
-				Group: "Tournaments", Name: "Sinnoh Leaders Tournament", 
-				Image: "img/trainers/paltinum/fantina.png",
-				Time: "", Attempts: 2,  
-			},
-			
-            {
-                Group: "Champions", Name: "Cynthia",
-                Image: "img/trainers/platinum/cynthia.png",
-                Time: "", Attempts: 2
-            },
-			
-            {
-                Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-
-            {
-                Group: "Champions", Name: "Iris", Image: "img/trainers/black/iris.png",
-                Time: "", Attempts: 0
+                Group: "Champions", Name: "Iris", Image: "img/trainers/black/iris.png", Class: "Rematch",
+                Time: "2024-05-22T00:21:58Z", Attempts: 2
             },
 			
             <TPP.HallOfFame>{
@@ -400,9 +410,9 @@ Season11.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "",
-                Time: "2024-05-22T00:23:48Z", Attempts: 0
+                Time: "2024-05-22T00:23:48Z", Attempts: 3
             },
-
+			
             { Name: "Keldeo", Time: "2024-05-22T06:21:57Z", Group: "Pokemon" },
             { Name: "Yanmega", Time: "2024-05-22T10:35:24Z", Group: "Pokemon" },
             { Name: "Tyranitar", Time: "2024-05-22T12:33:36Z", Group: "Pokemon" },
@@ -419,6 +429,18 @@ Season11.Runs.push(
             { Name: "Sealeo", Time: "2024-05-23T14:02:41Z", Group: "Pokemon" },
             { Name: "Magneton", Time: "2024-05-23T23:26:42Z", Group: "Pokemon" },
             { Name: "Alomomola", Time: "2024-05-23T23:32:15Z", Group: "Pokemon" },
+			
+            {
+				Group: "Tournaments", Name: "Sinnoh Leaders Tournament", 
+				Image: "img/trainers/paltinum/fantina.png",
+				Time: "", Attempts: 2,  
+			},
+			
+            {
+                Group: "Champions", Name: "Cynthia",
+                Image: "img/trainers/platinum/cynthia.png",
+                Time: "", Attempts: 2
+            },
 			
         ]
     }
@@ -640,28 +662,6 @@ Season11.Runs.push(
                 FirstAttemptDate: "",
                 Time: "2024-05-19T19:02:36Z", Attempts: 22
             },
-
-            {
-                Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-
-            {
-                Group: "Champions", Name: "Iris", Image: "img/trainers/black/iris.png",
-                Time: "", Attempts: 0
-            },
 			
             { Name: "Deoxys", Time: "2024-05-19T19:35:28Z", Group: "Pokemon" },
             { Name: "Meowth", Time: "2024-05-19T19:55:12Z", Group: "Pokemon" },
@@ -671,12 +671,38 @@ Season11.Runs.push(
             { Name: "Regice", Time: "2024-05-19T22:39:21Z", Group: "Pokemon" },
             { Name: "Registeel", Time: "2024-05-19T23:19:00Z", Group: "Pokemon" },
             { Name: "Regigigas", Time: "2024-05-19T23:59:09Z", Group: "Pokemon" },
+			
+            {
+				Group: "Tournaments", Name: "Chromatic Scale Pt. 2", 
+				Image: "img/hosts/00--.png",
+				Time: "2024-05-20T00:49:22Z", Attempts: 1,  
+			},
+			
+            {
+				Group: "Tournaments", Name: "Chromatic Scale Pt. 1", 
+				Image: "img/hosts/yss.png",
+				Time: "2024-05-20T03:15:08Z", Attempts: 4,  
+			},
+
             { Name: "Camerupt", Time: "2024-05-20T07:13:45Z", Group: "Pokemon" },
             { Name: "Bouffalant", Time: "2024-05-20T10:32:03Z", Group: "Pokemon" },
             { Name: "Mandibuzz", Time: "2024-05-20T13:03:04Z", Group: "Pokemon" },
             { Name: "Azelf", Time: "2024-05-20T13:06:25Z", Group: "Pokemon" },
             { Name: "Lickitung", Time: "2024-05-20T21:50:25Z", Group: "Pokemon" },
             { Name: "Wobbuffet", Time: "2024-05-20T22:28:10Z", Group: "Pokemon" },
+			
+			{
+                Group: "Rematch Badges", Name: "Basic Badge", 
+				Image: "img/badges/basic.png", Class: "Rematch",
+                Time: "2024-05-20T22:47:48Z", Attempts: 1
+            },
+			
+            {
+                Group: "Champions", Name: "Alder",
+                Image: "img/trainers/black/alder.png",
+                Time: "2024-05-20T23:18:06Z", Attempts: 1
+            },
+			
             { Name: "Zweilous", Time: "2024-05-20T23:48:01Z", Group: "Pokemon" },
             { Name: "Druddigon", Time: "2024-05-20T23:52:53Z", Group: "Pokemon" },
             { Name: "Cobalion", Time: "2024-05-21T00:37:42Z", Group: "Pokemon" },
@@ -754,7 +780,35 @@ Season11.Runs.push(
             { Name: "Jellicent", Time: "2024-05-24T00:55:38Z", Group: "Pokemon" },
             { Name: "Remoraid", Time: "2024-05-24T01:03:06Z", Group: "Pokemon" },
             { Name: "Galvantula", Time: "2024-05-24T01:35:50Z", Group: "Pokemon" },
+			
+            {
+				Group: "Tournaments", Name: "Nameless Wind Tournament", 
+				Image: "img/hosts/chronya.png",
+				Time: "", Attempts: 5,  
+			},
+			
+            {
+                Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Class: "Rematch",
+                Time: "", Attempts: 0
+            },
+            {
+                Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Class: "Rematch",
+                Time: "", Attempts: 0
+            },
+            {
+                Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Class: "Rematch",
+                Time: "", Attempts: 0
+            },
+            {
+                Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Class: "Rematch",
+                Time: "", Attempts: 0
+            },
 
+            {
+                Group: "Champions", Name: "Iris", Image: "img/trainers/black/iris.png",
+                Time: "", Attempts: 0
+            },
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "08128", Party: [
                     { Pokemon: "Samurott", Nickname: "A", Level: 100, Gender: "Male" },
