@@ -11,6 +11,7 @@ Season10.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/9f0o9s/hall_of_fame_randomized_y/e5tt7ma/",
         Region: "Kalos",
         Generation: 6,
+        ExtraDexes: ["Central Kalos", "Coastal Kalos", "Mountain Kalos"],
         FinalStateLink: "./states/Season 10/wiltingy.json",
         Events: [
             {

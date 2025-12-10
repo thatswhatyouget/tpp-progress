@@ -10,6 +10,7 @@ Season5.Runs.push(
         HostImage: "img/hosts/266.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/9f0o9s/hall_of_fame_randomized_y/e5tt7ma/",
         Region: "Kalos",
+        ExtraDexes: ["Central Kalos", "Coastal Kalos", "Mountain Kalos"],
         Generation: 6,
         Events: [
             { Group: "Badges", Name: "Mud (Bug) Badge", Image: "img/badges/randoy/mud.png", Time: "0d 3h 56m", Attempts: 2, ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/988ydw/kalos_gym_badges_collection/" },

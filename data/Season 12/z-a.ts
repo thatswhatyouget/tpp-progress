@@ -355,6 +355,7 @@ Revisits.Runs.push(
 		Pokedex: "Hyperspace (Z-A)",
 		ExtraDexes: ["Lumiose (Z-A)"],
 		CopyEvents: ["Legends: Z-A"],
+		Revisit: { Collection: "Season 12", Run: "Legends: Z-A" },
 		Events: [
 			{ "Group": "Pokemon", "Name": "Mewtwo", "Time": "2025-12-10T06:50:11Z" },
 			{ "Group": "Pokemon", "Name": "Diancie", "Time": "2025-12-10T08:08:13Z" },

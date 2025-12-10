@@ -51,7 +51,7 @@ namespace TPP.Controllers {
                 natDex.push("Barraskewda");
             }
             const pokemon = [
-                { name: run.Pokedex || run.Region, pokemon: TPP.Transforms.Pokedex.DexMerge(dexData.Regional[run.Pokedex || run.Region], natDex) },
+                { name: !!dexData.Regional[run.Pokedex || run.Region] ? run.Pokedex || run.Region : "National", pokemon: TPP.Transforms.Pokedex.DexMerge(dexData.Regional[run.Pokedex || run.Region], natDex) },
                 ...(run.ExtraDexes || []).map(dex => ({ name: dex, pokemon: TPP.Transforms.Pokedex.DexMerge(dexData.Regional[dex], natDex) }))
             ];
             function fillDex(run) {

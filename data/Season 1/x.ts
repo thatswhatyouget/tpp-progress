@@ -13,6 +13,7 @@ Season1.Runs.push(
         Region: "Kalos",
         Generation: 6,
         Pokedex: "Kalos",
+        ExtraDexes: ["Central Kalos", "Coastal Kalos", "Mountain Kalos"],
         TPPOrgLink: "http://twitchplayspokemon.org/x",
         DocumentLink: "https://sites.google.com/site/twitchplayspokemonstatus/x-archive",
         Events: [

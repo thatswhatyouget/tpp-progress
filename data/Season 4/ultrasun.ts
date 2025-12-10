@@ -13,6 +13,7 @@ Season4.Runs.push(
         Region: "Alola",
         Generation: 7,
         Pokedex: "New Alola",
+        ExtraDexes: ["New Melemele Island", "New Akala Island", "New Ula'ula Island", "New Poni Island"],
         Events: [
             { "Group": "Pokemon", "Name": "Popplio", "Time": "12m" },
             { "Group": "Pokemon", "Name": "Grubbin", "Time": "49m" },
