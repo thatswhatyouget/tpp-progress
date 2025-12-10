@@ -366,6 +366,9 @@ Revisits.Runs.push(
 			{ "Group": "Pokemon", "Name": "Cubone", "Time": "2025-12-10T17:33:13Z" },
 			{ "Group": "Pokemon", "Name": "Nickit", "Time": "2025-12-10T17:40:10Z" },
 			{ "Group": "Pokemon", "Name": "Gulpin", "Time": "2025-12-10T17:46:23Z" },
+			{ "Group": "Pokemon", "Name": "Chingling", "Time": "2025-12-10T19:23:11Z" },
+			{ "Group": "Pokemon", "Name": "Crabrawler", "Time": "2025-12-10T19:44:14Z" },
+			{ "Group": "Pokemon", "Name": "Zubat", "Time": "2025-12-10T20:01:43Z" },
 		]
 	}
 );

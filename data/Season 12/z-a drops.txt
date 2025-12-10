@@ -238,3 +238,6 @@
 !distributebadge Cubone 5 2025-12-10T17:33:13Z
 !distributebadge Nickit 5 2025-12-10T17:40:10Z
 !distributebadge Gulpin 5 2025-12-10T17:46:23Z
+!distributebadge Chingling 5 2025-12-10T19:23:11Z
+!distributebadge Crabrawler 5 2025-12-10T19:44:14Z
+!distributebadge Zubat 5 2025-12-10T20:01:43Z
