@@ -64,8 +64,9 @@ namespace TPP.Pokedex {
     }
 
     export class GlobalDexBase {
+        DexName: string | undefined = undefined;
         Entries: DexEntryBase[] = [];
-        
+
         private get NoGlitchMon() {
             return this.Entries.filter(e => !this.isGlitchMon(e));
         }
@@ -82,6 +83,10 @@ namespace TPP.Pokedex {
             return (this.TotalOwned / this.TotalInDex) * 100;
         }
 
+        public get Name() {
+            return this.DexName;
+        }
+
         public TotalOwnedBy(run: Run) {
             return this.NoGlitchMon.filter(e => e.Owners.filter(o => o.Run.RunName == run.RunName).length > 0).length;
         }
@@ -93,7 +98,7 @@ namespace TPP.Pokedex {
         public get Unowned() {
             return this.Entries.filter(e => !e.IsOwned);
         }
-        
+
         private isGlitchMon = (e: DexEntryBase) => (e.Number == 0 && e.Pokemon == "MissingNo.");
 
         public SortDex(sortBy: DexSorting | string = 0) {
@@ -126,7 +131,7 @@ namespace TPP.Pokedex {
 
         public FilterOwnedInDexToRuns(runList: (string | Run)[] | string) {
             if (!Array.isArray(runList))
-                runList = runList.split(',');    
+                runList = runList.split(',');
             var runs = runList.map(r => typeof r === "string" ? r.toLowerCase().trim() : r);
             var entryIsOwnedByWantedRun = e => e.Owners.filter(o => runs.filter(r => {
                 if (typeof r === "string")
@@ -134,8 +139,8 @@ namespace TPP.Pokedex {
                 return o.Run.RunName == r.RunName;
             }).length > 0).length > 0;
             this.Entries.forEach(e => e.Owners = entryIsOwnedByWantedRun(e) ? e.Owners : []);
-        }        
-        
+        }
+
         public FilterDexToOwned() {
             this.Entries = this.Owned;
         }
@@ -146,7 +151,7 @@ namespace TPP.Pokedex {
 
         public FilterDexPokemon(pokeList: string | string[]) {
             if (!Array.isArray(pokeList))
-                pokeList = pokeList.split(',');    
+                pokeList = pokeList.split(',');
             pokeList = pokeList.map(p => p.toLowerCase().trim());
             this.Entries = this.Entries.filter(e => pokeList.indexOf(e.Pokemon.toLowerCase()) >= 0 || pokeList.indexOf(e.Number.toString()) >= 0);
         }
@@ -155,6 +160,7 @@ namespace TPP.Pokedex {
             this.Entries = this.Entries.filter(e => e.HallOfFame.length > 0);
         }
         public Clone(clone = new GlobalDexBase()) {
+            clone.DexName = this.DexName;
             clone.Entries = this.Entries.map(e => e.Clone());
             return clone;
         }

@@ -11,7 +11,7 @@ namespace TPP.Display.Elements.RunStatus {
     interface RunStatusProps {
         run: Run;
         autoUpdate?: number;
-        buildDex?: (run: Run) => TPP.Pokedex.GlobalDexBase;
+        buildDex?: (run: Run) => TPP.Pokedex.GlobalDexBase[];
         //TODO: Game Data
     }
     interface RunStatusState {
@@ -125,26 +125,28 @@ namespace TPP.Display.Elements.RunStatus {
         private get Pokedex() {
             if (!this.props.buildDex)
                 return null;
-            var dex = this.props.buildDex(this.props.run).Clone();
-            if (!dex.TotalOwned)
-                return null;
-            let caughtList = this.state.dexSeen ? this.state.status.seen_list : this.state.status.caught_list || [];
-            if (this.props.run.DexMapping)
-                caughtList = caughtList.map(c => this.props.run.DexMapping[c] || c);
-            if (this.props.run.FromNatDex)
-                caughtList = caughtList.map(c => (dexData.Regional[this.props.run.Pokedex] || []).findIndex(p => p == c));
-            return <PokeBox title="Pokédex" className="pokedex">
-                {this.PokedexOutOfDate(dex) ? <h6>Outdated</h6> : ""}
-                <Pokedex.Dex dex={dex}
-                    caughtList={caughtList}
-                    run={this.props.run}
-                    ownedOnly={!this.state.dexSeen}
-                    label={this.state.dexSeen ? "Seen" : "Owned"}
-                    onClickTotal={this.state.status && (() => this.setState(s => ({ dexSeen: !s.dexSeen })))}
-                >
-                    <a className="plug" href="pokedex.html">See Global Pokédex</a>
-                </Pokedex.Dex>
-            </PokeBox>;
+            return this.props.buildDex(this.props.run).map(builtDex => {
+                const dex = builtDex.Clone();
+                if (!dex.TotalOwned)
+                    return null;
+                let caughtList = this.state.dexSeen ? this.state.status.seen_list : this.state.status.caught_list || [];
+                if (this.props.run.DexMapping)
+                    caughtList = caughtList.map(c => this.props.run.DexMapping[c] || c);
+                if (this.props.run.FromNatDex)
+                    caughtList = caughtList.map(c => (dexData.Regional[this.props.run.Pokedex] || []).findIndex(p => p == c));
+                return <PokeBox title={`${dex.Name || ""} Pokédex`.trim()} className="pokedex">
+                    {this.PokedexOutOfDate(dex) ? <h6>Outdated</h6> : ""}
+                    <Pokedex.Dex dex={dex}
+                        caughtList={caughtList}
+                        run={this.props.run}
+                        ownedOnly={!this.state.dexSeen}
+                        label={this.state.dexSeen ? "Seen" : "Owned"}
+                        onClickTotal={this.state.status && (() => this.setState(s => ({ dexSeen: !s.dexSeen })))}
+                    >
+                        <a className="plug" href={`pokedex.html${dex.Name && dex.Name != "National" ? "?dex=" + encodeURIComponent(dex.Name) : ""}`}>See Global Pokédex</a>
+                    </Pokedex.Dex>
+                </PokeBox>;
+            });
         }
 
         private PokedexOutOfDate(dex: TPP.Pokedex.GlobalDexBase) {
@@ -290,7 +292,7 @@ namespace TPP.Display.Elements.RunStatus {
                             {Object.keys(this.state.status.options).map(k => <li key={k} data-quantity={this.state.status.options[k]}>{pokeRedCondenseText(k.replace(/_/g, ' '))}:</li>)}
                         </ul>
                     </PokeBox>}
-                    {this.Pokedex}
+                    {...this.Pokedex}
                     {this.state.status && this.state.status.daycare && this.state.status.daycare.length > 0 && <PCBox boxName="Daycare" boxContents={this.state.status.daycare} trainer={this.state.status} />}
                     {this.state.status && <PC pc={this.state.status.pc} trainer={this.state.status} />}
                 </div>;

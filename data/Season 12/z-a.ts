@@ -353,14 +353,18 @@ Revisits.Runs.push(
 		Region: "Kalos",
 		Generation: 9,
 		Pokedex: "Hyperspace (Z-A)",
-		ForceShowRegionalDex: true,
+		ExtraDexes: ["Lumiose (Z-A)"],
 		CopyEvents: ["Legends: Z-A"],
 		Events: [
 			{ "Group": "Pokemon", "Name": "Mewtwo", "Time": "2025-12-10T06:50:11Z" },
 			{ "Group": "Pokemon", "Name": "Diancie", "Time": "2025-12-10T08:08:13Z" },
 			{ "Group": "Pokemon", "Name": "Wimpod", "Time": "2025-12-10T13:34:20Z" },
 			{ "Group": "Pokemon", "Name": "Golisopod", "Time": "2025-12-10T14:11:48Z" },
-
+			{ "Group": "Pokemon", "Name": "Gimmighoul", "Time": "2025-12-10T15:20:10Z" },
+			{ "Group": "Pokemon", "Name": "Shroodle", "Time": "2025-12-10T17:16:44Z" },
+			{ "Group": "Pokemon", "Name": "Cubone", "Time": "2025-12-10T17:33:13Z" },
+			{ "Group": "Pokemon", "Name": "Nickit", "Time": "2025-12-10T17:40:10Z" },
+			{ "Group": "Pokemon", "Name": "Gulpin", "Time": "2025-12-10T17:46:23Z" },
 		]
 	}
 );

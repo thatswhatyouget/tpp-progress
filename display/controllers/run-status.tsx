@@ -50,7 +50,10 @@ namespace TPP.Controllers {
                 natDex.push("Arrokuda");
                 natDex.push("Barraskewda");
             }
-            var pokemon = TPP.Transforms.Pokedex.DexMerge(dexData.Regional[run.Pokedex || run.Region], natDex);
+            const pokemon = [
+                { name: run.Pokedex || run.Region, pokemon: TPP.Transforms.Pokedex.DexMerge(dexData.Regional[run.Pokedex || run.Region], natDex) },
+                ...(run.ExtraDexes || []).map(dex => ({ name: dex, pokemon: TPP.Transforms.Pokedex.DexMerge(dexData.Regional[dex], natDex) }))
+            ];
             function fillDex(run) {
                 tppData.forEach(c => {
                     for (var i = 0; i < c.Runs.length; i++) {
@@ -58,10 +61,11 @@ namespace TPP.Controllers {
                             return c.Runs[i] = run;
                     }
                 });
-                var regional = new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, pokemon), pokemon);
-                var national = new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, natDex), natDex);
-                if (national.TotalOwnedBy(run) > regional.TotalOwnedBy(run) && !run.ForceShowRegionalDex)
-                    return national;
+                var regional = pokemon.map(dex => new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, dex.pokemon), dex.pokemon, dex.name));
+                var national = new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, natDex), natDex, "National");
+                const regionalTotal = regional.reduce((sum, r) => sum + r.TotalOwnedBy(run), 0);
+                if (national.TotalOwnedBy(run) > regionalTotal)
+                    regional.push(national);
                 return regional;
             }
 

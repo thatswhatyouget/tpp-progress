@@ -24,7 +24,7 @@ namespace TPP {
         APIObjectName?: string;
         Generation?: number;
         Pokedex?: string;
-        ForceShowRegionalDex?: boolean;
+        ExtraDexes?: string[];
         DexTotal?: number;
         DexMapping?: number[];
         FromNatDex?: boolean;
