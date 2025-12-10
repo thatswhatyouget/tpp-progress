@@ -340,3 +340,26 @@ Season12.Runs.push(
 		]
 	}
 );
+
+Revisits.Runs.push(
+	{
+		RunName: "Legends: Z-A Mega Dimension",
+		ColorSecondary: "#3f3e40",
+		ColorPrimary: "#89c97c",
+		StartDate: "2025-12-10T01:12:36Z",
+		Duration: "2025-12-13T21:00:00Z",
+		HostName: '112',
+		HostImage: "img/hosts/112.png",
+		Region: "Kalos",
+		Generation: 9,
+		Pokedex: "Z-A Lumiose City",
+		CopyEvents: ["Legends: Z-A"],
+		Events: [
+			{ "Group": "Pokemon", "Name": "Mewtwo", "Time": "2025-12-10T06:50:11Z" },
+			{ "Group": "Pokemon", "Name": "Diancie", "Time": "2025-12-10T08:08:13Z" },
+			{ "Group": "Pokemon", "Name": "Wimpod", "Time": "2025-12-10T13:34:20Z" },
+			{ "Group": "Pokemon", "Name": "Golisopod", "Time": "2025-12-10T14:11:48Z" },
+
+		]
+	}
+);
