@@ -60,7 +60,7 @@ namespace TPP.Controllers {
                 });
                 var regional = new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, pokemon), pokemon);
                 var national = new TPP.Transforms.Pokedex.GlobalDex(new TPP.Transforms.Pokedex.CollectionSummary(tppData, natDex), natDex);
-                if (national.TotalOwnedBy(run) > regional.TotalOwnedBy(run))
+                if (national.TotalOwnedBy(run) > regional.TotalOwnedBy(run) && !run.ForceShowRegionalDex)
                     return national;
                 return regional;
             }

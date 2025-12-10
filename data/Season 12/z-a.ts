@@ -10,7 +10,7 @@ Season12.Runs.push(
 		HostImage: "img/hosts/112.png",
 		Region: "Kalos",
 		Generation: 9,
-		Pokedex: "Z-A Lumiose City",
+		Pokedex: "Lumiose (Z-A)",
 		Events: [
 			//TODO: Find attempt counts
 			{ "Group": "Z-A Royale", "Name": "Rank Z\nDriver Zach", "Image": "img/trainers/z-a/zach.png", "Time": "2025-10-19T00:18:57Z", /*"Attempts": 1*/ },
@@ -352,7 +352,8 @@ Revisits.Runs.push(
 		HostImage: "img/hosts/112.png",
 		Region: "Kalos",
 		Generation: 9,
-		Pokedex: "Z-A Lumiose City",
+		Pokedex: "Hyperspace (Z-A)",
+		ForceShowRegionalDex: true,
 		CopyEvents: ["Legends: Z-A"],
 		Events: [
 			{ "Group": "Pokemon", "Name": "Mewtwo", "Time": "2025-12-10T06:50:11Z" },
