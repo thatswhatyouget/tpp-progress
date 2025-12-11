@@ -228,3 +228,16 @@
 !distributebadge Frogadier 5 2025-10-31T12:04:15Z
 !distributebadge Greninja 5 2025-10-31T12:04:37Z
 !distributebadge Zygarde 5 2025-11-02T23:55:12Z
+
+!distributebadge Mewtwo 5 2025-12-10T06:50:11Z
+!distributebadge Diancie 5 2025-12-10T08:08:13Z
+!distributebadge Wimpod 5 2025-12-10T13:34:20Z
+!distributebadge Golisopod 5 2025-12-10T14:11:48Z
+!distributebadge Gimmighoul 5 2025-12-10T15:20:10Z
+!distributebadge Shroodle 5 2025-12-10T17:16:44Z
+!distributebadge Cubone 5 2025-12-10T17:33:13Z
+!distributebadge Nickit 5 2025-12-10T17:40:10Z
+!distributebadge Gulpin 5 2025-12-10T17:46:23Z
+!distributebadge Chingling 5 2025-12-10T19:23:11Z
+!distributebadge Crabrawler 5 2025-12-10T19:44:14Z
+!distributebadge Zubat 5 2025-12-10T20:01:43Z

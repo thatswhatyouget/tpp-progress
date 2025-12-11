@@ -98,6 +98,7 @@ declare namespace TPP {
         APIObjectName?: string;
         Generation?: number;
         Pokedex?: string;
+        ExtraDexes?: string[];
         DexTotal?: number;
         DexMapping?: number[];
         FromNatDex?: boolean;

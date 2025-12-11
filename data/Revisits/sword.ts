@@ -12,6 +12,7 @@ Revisits.Runs.push(
         Region: "Galar",
         Generation: 8,
         Pokedex: "Isle of Armor",
+        ExtraDexes: ["Galar"],
         Events: [
             {
                 Group: "Trainers", Name: "Klara",
@@ -272,6 +273,7 @@ Revisits.Runs.push(
         Region: "Galar",
         Generation: 8,
         Pokedex: "Crown Tundra",
+		ExtraDexes: ["Isle of Armor", "Galar"],
         Events: [
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2020-10-26T10:07:00.857Z", IDNo: "790618", Attempts: 2, Party: [
@@ -555,6 +557,7 @@ Revisits.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/e1c95e/rey_collins_the_girl_with_rainbow_eyes/",
         Region: "Galar",
         Generation: 8,
+		ExtraDexes: ["Isle of Armor", "Crown Tundra"],
         Events: [
         ],
         Revisit: { Collection: "Revisits", Run: "Sword Revisit - Crown Tundra" },

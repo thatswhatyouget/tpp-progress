@@ -98,6 +98,7 @@ declare namespace TPP {
         APIObjectName?: string;
         Generation?: number;
         Pokedex?: string;
+        ExtraDexes?: string[];
         DexTotal?: number;
         DexMapping?: number[];
         FromNatDex?: boolean;
@@ -300,11 +301,13 @@ declare namespace TPP.Pokedex {
         "First Owned" = 2
     }
     class GlobalDexBase {
+        DexName: string | undefined;
         Entries: DexEntryBase[];
         private get NoGlitchMon();
         get TotalOwned(): number;
         get TotalInDex(): number;
         get OwnedPercentage(): number;
+        get Name(): string;
         TotalOwnedBy(run: Run): number;
         get Owned(): DexEntryBase[];
         get Unowned(): DexEntryBase[];
@@ -349,7 +352,7 @@ declare namespace TPP.Transforms.Pokedex {
 }
 declare namespace TPP.Transforms.Pokedex {
     class GlobalDex extends TPP.Pokedex.GlobalDexBase {
-        constructor(tppData: Collection[], PokeList: string[]);
-        constructor(tppData: CollectionSummary, PokeList: string[]);
+        constructor(tppData: Collection[], PokeList: string[], name?: string);
+        constructor(tppData: CollectionSummary, PokeList: string[], name?: string);
     }
 }

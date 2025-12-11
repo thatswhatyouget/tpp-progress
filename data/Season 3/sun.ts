@@ -14,6 +14,7 @@ Season3.Runs.push(
         Region: "Alola",
         Generation: 7,
         Pokedex: "Alola",
+        ExtraDexes: ["Melemele Island", "Akala Island", "Ula'ula Island", "Poni Island"],
         Events: [
             { "Group": "Pokemon", "Name": "Popplio", "Time": "27m" },
             { "Group": "Pokemon", "Name": "Pikipek", "Time": "47m" },

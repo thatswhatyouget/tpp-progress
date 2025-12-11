@@ -12,7 +12,9 @@ Season6.Runs.push(
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/do2ovk/virginia_faba_the_six_time_married_three_times/",
         Region: "Alola",
         Generation: 7,
-        Pokedex: "National",
+        Pokedex: "New Alola",
+        FromNatDex: true,
+        ExtraDexes: ["New Melemele Island", "New Akala Island", "New Ula'ula Island", "New Poni Island"],
         FinalStateLink: "./states/Season 6/rum.json",
         Events: [
             { "Group": "Badges", "Name": "Normalium Z", "Image": "img/z-crystals/Normalium Z.png", "Time": "2019-10-13T06:16:12.115Z", "Attempts": 0 },

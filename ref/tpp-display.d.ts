@@ -535,7 +535,7 @@ declare namespace TPP.Display.Elements.RunStatus {
     interface RunStatusProps {
         run: Run;
         autoUpdate?: number;
-        buildDex?: (run: Run) => TPP.Pokedex.GlobalDexBase;
+        buildDex?: (run: Run) => TPP.Pokedex.GlobalDexBase[];
     }
     interface RunStatusState {
         run?: Run;

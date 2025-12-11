@@ -10,7 +10,7 @@ Season12.Runs.push(
 		HostImage: "img/hosts/112.png",
 		Region: "Kalos",
 		Generation: 9,
-		Pokedex: "Z-A Lumiose City",
+		Pokedex: "Lumiose (Z-A)",
 		Events: [
 			//TODO: Find attempt counts
 			{ "Group": "Z-A Royale", "Name": "Rank Z\nDriver Zach", "Image": "img/trainers/z-a/zach.png", "Time": "2025-10-19T00:18:57Z", /*"Attempts": 1*/ },
@@ -337,6 +337,38 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Frogadier", "Time": "2025-10-31T12:04:15Z" },
 			{ "Group": "Pokemon", "Name": "Greninja", "Time": "2025-10-31T12:04:37Z" },
 			{ "Group": "Pokemon", "Name": "Zygarde", "Time": "2025-11-02T23:55:12Z" }
+		]
+	}
+);
+
+Revisits.Runs.push(
+	{
+		RunName: "Legends: Z-A Mega Dimension",
+		ColorSecondary: "#3f3e40",
+		ColorPrimary: "#89c97c",
+		StartDate: "2025-12-10T01:12:36Z",
+		Duration: "2025-12-13T21:00:00Z",
+		HostName: '112',
+		HostImage: "img/hosts/112.png",
+		Region: "Kalos",
+		Generation: 9,
+		Pokedex: "Hyperspace (Z-A)",
+		ExtraDexes: ["Lumiose (Z-A)"],
+		CopyEvents: ["Legends: Z-A"],
+		Revisit: { Collection: "Season 12", Run: "Legends: Z-A" },
+		Events: [
+			{ "Group": "Pokemon", "Name": "Mewtwo", "Time": "2025-12-10T06:50:11Z" },
+			{ "Group": "Pokemon", "Name": "Diancie", "Time": "2025-12-10T08:08:13Z" },
+			{ "Group": "Pokemon", "Name": "Wimpod", "Time": "2025-12-10T13:34:20Z" },
+			{ "Group": "Pokemon", "Name": "Golisopod", "Time": "2025-12-10T14:11:48Z" },
+			{ "Group": "Pokemon", "Name": "Gimmighoul", "Time": "2025-12-10T15:20:10Z" },
+			{ "Group": "Pokemon", "Name": "Shroodle", "Time": "2025-12-10T17:16:44Z" },
+			{ "Group": "Pokemon", "Name": "Cubone", "Time": "2025-12-10T17:33:13Z" },
+			{ "Group": "Pokemon", "Name": "Nickit", "Time": "2025-12-10T17:40:10Z" },
+			{ "Group": "Pokemon", "Name": "Gulpin", "Time": "2025-12-10T17:46:23Z" },
+			{ "Group": "Pokemon", "Name": "Chingling", "Time": "2025-12-10T19:23:11Z" },
+			{ "Group": "Pokemon", "Name": "Crabrawler", "Time": "2025-12-10T19:44:14Z" },
+			{ "Group": "Pokemon", "Name": "Zubat", "Time": "2025-12-10T20:01:43Z" },
 		]
 	}
 );

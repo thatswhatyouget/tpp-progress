@@ -31,6 +31,7 @@ Revisits.Runs.push(
         HostImage: "img/hosts/2z.png",
         HostImageSource: "https://www.deviantart.com/mid117/art/PKMN-Scarlet-Protagonists-Trainer-Sprites-923433423",
         Region: "Kitakami",
+		ExtraDexes: ["Paldea"],
         Generation: 9,
         Events: [
 		
@@ -181,6 +182,7 @@ Revisits.Runs.push(
         HostImage: "img/hosts/2z.png",
         HostImageSource: "https://www.deviantart.com/mid117/art/PKMN-Scarlet-Protagonists-Trainer-Sprites-923433423",
         Region: "Blueberry Academy",
+		ExtraDexes: ["Kitakami", "Paldea"],
         Generation: 9,
         Events: [
 		
@@ -449,6 +451,7 @@ Revisits.Runs.push(
         HostImage: "img/hosts/2z.png",
         HostImageSource: "https://www.deviantart.com/mid117/art/PKMN-Scarlet-Protagonists-Trainer-Sprites-923433423",
         Region: "Paldea",
+        ExtraDexes: ["Kitakami", "Blueberry Academy"],
         Generation: 9,
         Events: [
 		
@@ -476,6 +479,7 @@ Revisits.Runs.push(
         HostImageSource: "https://www.deviantart.com/mid117/art/PKMN-Scarlet-Protagonists-Trainer-Sprites-923433423",
         Region: "Paldea",
         Generation: 9,
+        ExtraDexes: ["Kitakami", "Blueberry Academy"],
         Events: [
 			
             <TPP.HallOfFame>{
