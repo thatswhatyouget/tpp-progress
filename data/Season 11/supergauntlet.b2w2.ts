@@ -414,6 +414,13 @@ Season11.Runs.push(
             },
 			
             { Name: "Keldeo", Time: "2024-05-22T06:21:57Z", Group: "Pokemon" },
+			
+            {
+				Group: "Tournaments", Name: "Sinnoh Leaders Tournament", 
+				Image: "img/trainers/platinum/crasherwake.png",
+				Time: "2024-05-22T09:50:01Z", Attempts: 2,  
+			},
+			
             { Name: "Yanmega", Time: "2024-05-22T10:35:24Z", Group: "Pokemon" },
             { Name: "Tyranitar", Time: "2024-05-22T12:33:36Z", Group: "Pokemon" },
             { Name: "Igglybuff", Time: "2024-05-22T23:36:26Z", Group: "Pokemon" },
@@ -430,17 +437,31 @@ Season11.Runs.push(
             { Name: "Magneton", Time: "2024-05-23T23:26:42Z", Group: "Pokemon" },
             { Name: "Alomomola", Time: "2024-05-23T23:32:15Z", Group: "Pokemon" },
 			
-            {
-				Group: "Tournaments", Name: "Sinnoh Leaders Tournament", 
-				Image: "img/trainers/paltinum/fantina.png",
-				Time: "", Attempts: 2,  
-			},
+            /*{
+				Group: "Tournaments", Name: "Kanto Leaders Tournament", 
+				Image: "img/trainers/heartgold/janine.png",
+				Time: "", Attempts: 3,  
+			},*/
 			
-            {
+            /*{
                 Group: "Champions", Name: "Cynthia",
                 Image: "img/trainers/platinum/cynthia.png",
                 Time: "", Attempts: 2
-            },
+            },*/
+			
+			/*{
+				Group: "Tournaments", Name: "Spectacular Sideshow", 
+				Image: "img/hosts/baba.png",
+				Time: "", Attempts: 2,  
+			},*/
+			
+            /*<TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "30102", Party: [
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "",
+                Time: "", Attempts: 2
+            },*/
 			
         ]
     }
@@ -727,10 +748,50 @@ Season11.Runs.push(
             { Name: "Espeon", Time: "2024-05-21T20:01:24Z", Group: "Pokemon" },
             { Name: "Garchomp", Time: "2024-05-21T22:18:13Z", Group: "Pokemon" },
             { Name: "Herdier", Time: "2024-05-21T23:25:32Z", Group: "Pokemon" },
+			
+            {
+				Group: "Tournaments", Name: "MEGALOUNOVA", 
+				Image: "img/hosts/44xny.png", 
+				ImageSource: "https://www.deviantart.com/krizste/art/TPP-VoltWhite2Redux-forest-sprites-943447962",
+				Time: "2024-05-22T03:06:05Z", Attempts: 2,  
+			},
+			
             { Name: "Mewtwo", Time: "2024-05-22T07:30:43Z", Group: "Pokemon" },
             { Name: "Ledian", Time: "2024-05-22T11:41:08Z", Group: "Pokemon" },
             { Name: "Latias", Time: "2024-05-22T14:07:00Z", Group: "Pokemon" },
+			
+            {
+				Group: "Tournaments", Name: "Boss Battle Blender", 
+				Image: "img/trainers/heartgold/sabrina.png",
+				Time: "2024-05-22T14:58:47Z", Attempts: 3,
+			},
+			
             { Name: "Cresselia", Time: "2024-05-22T16:18:27Z", Group: "Pokemon" },
+			
+            {
+				Group: "Tournaments", Name: "Unova Leaders Tournament", 
+				Image: "img/trainers/black/skyla.png",
+				Time: "2024-05-22T16:46:58Z", Attempts: 1,  
+			},
+			
+            {
+				Group: "Tournaments", Name: "Hoenn Leaders Tournament", 
+				Image: "img/trainers/black2/wattson.png",
+				Time: "2024-05-22T17:01:20Z", Attempts: 1,  
+			},
+			
+            {
+				Group: "Tournaments", Name: "Johto Leaders Tournament", 
+				Image: "img/trainers/heartgold/falkner.png",
+				Time: "2024-05-22T17:22:46Z", Attempts: 1,  
+			},
+			
+            {
+				Group: "Tournaments", Name: "Kanto Leaders Tournament", 
+				Image: "img/trainers/heartgold/surge.png",
+				Time: "2024-05-22T17:37:42Z", Attempts: 1,  
+			},
+			
             { Name: "Dratini", Time: "2024-05-22T20:11:25Z", Group: "Pokemon" },
             { Name: "Mesprit", Time: "2024-05-22T21:30:45Z", Group: "Pokemon" },
             { Name: "Trapinch", Time: "2024-05-22T21:35:10Z", Group: "Pokemon" },
@@ -775,6 +836,20 @@ Season11.Runs.push(
             { Name: "Haxorus", Time: "2024-05-23T09:41:24Z", Group: "Pokemon" },
             { Name: "Giratina", Time: "2024-05-23T13:26:03Z", Group: "Pokemon" },
             { Name: "Farfetch'd", Time: "2024-05-23T13:31:53Z", Group: "Pokemon" },
+			
+			{
+				Group: "Tournaments", Name: "Intermittent Intermingling", 
+				Image: "img/hosts/ash2.png",
+				Time: "2024-05-23T20:50:36Z", Attempts: 1,  
+			},
+			
+			{
+				Group: "Tournaments", Name: "Spectacular Sideshow", 
+				Image: "img/hosts/baba.png",
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
+				Time: "2024-05-23T21:24:56Z", Attempts: 1,  
+			},
+			
             { Name: "Cinccino", Time: "2024-05-23T23:20:45Z", Group: "Pokemon" },
             { Name: "Starmie", Time: "2024-05-24T00:52:56Z", Group: "Pokemon" },
             { Name: "Jellicent", Time: "2024-05-24T00:55:38Z", Group: "Pokemon" },
@@ -782,31 +857,46 @@ Season11.Runs.push(
             { Name: "Galvantula", Time: "2024-05-24T01:35:50Z", Group: "Pokemon" },
 			
             {
-				Group: "Tournaments", Name: "Nameless Wind Tournament", 
-				Image: "img/hosts/chronya.png",
-				Time: "", Attempts: 5,  
+                Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Class: "Rematch",
+                Time: "2024-05-24T02:35:24Z", Attempts: 1
+            },
+			
+            {
+				Group: "Tournaments", Name: "Sinnoh Leaders Tournament", 
+				Image: "img/trainers/platinum/fantina.png",
+				Time: "2024-05-24T03:29:06Z", Attempts: 3,  
 			},
 			
             {
-                Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Class: "Rematch",
-                Time: "", Attempts: 0
-            },
+				Group: "Tournaments", Name: "World Leaders Tournament", 
+				Image: "img/trainers/black2/marlon.png",
+				Time: "2024-05-24T03:47:55Z", Attempts: 1,  
+			},
+			
             {
                 Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Class: "Rematch",
-                Time: "", Attempts: 0
+                Time: "2024-05-24T13:21:30Z", Attempts: 2
             },
+			
             {
-                Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Class: "Rematch",
-                Time: "", Attempts: 0
+                Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Class: "Rematch",
+                Time: "2024-05-24T14:15:10Z", Attempts: 1
             },
-
+			
             {
-                Group: "Champions", Name: "Iris", Image: "img/trainers/black/iris.png",
-                Time: "", Attempts: 0
+                Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Class: "Rematch",
+                Time: "2024-05-24T14:23:37Z", Attempts: 3
+            },
+			
+            {
+				Group: "Tournaments", Name: "Champions Tournament", 
+				Image: "img/trainers/heartgold/red.png",
+				Time: "2024-05-24T21:22:01Z", Attempts: 7,  
+			},
+			
+            {
+                Group: "Champions", Name: "Iris", Image: "img/trainers/black/iris.png", Class: "Rematch",
+                Time: "2024-05-24T23:21:02Z", Attempts: 3
             },
 			
             <TPP.HallOfFame>{
@@ -820,8 +910,14 @@ Season11.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "",
-                Time: "2024-05-24T23:22:28Z", Attempts: 0
+                Time: "2024-05-24T23:22:28Z", Attempts: 8
             },
+			
+            /*{
+				Group: "Tournaments", Name: "Nameless Wind Tournament", 
+				Image: "img/hosts/chronya.png",
+				Time: "", Attempts: 5,  
+			},*/
 			
         ]
     }
