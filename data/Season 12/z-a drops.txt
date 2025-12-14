@@ -241,7 +241,6 @@
 !distributebadge Chingling 5 2025-12-10T19:23:11Z
 !distributebadge Crabrawler 5 2025-12-10T19:44:14Z
 !distributebadge Zubat 5 2025-12-10T20:01:43Z
-
 !distributebadge Golbat 5 2025-12-10T23:02:46Z
 !distributebadge Thievul 5 2025-12-10T23:03:20Z
 !distributebadge Swalot 5 2025-12-10T23:04:19Z

@@ -28,7 +28,7 @@ Season12.Runs.push(
 			{ "Group": "Elite Four", "Name": "Allister", "Time": "", "Attempts": 0, "Image": "img/trainers/sword/allister.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Allister" },
 			{ "Group": "Elite Four", "Name": "Raihan", "Time": "", "Attempts": 0, "Image": "img/trainers/sword/raihan.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Raihan" },
 
-			{ "Group": "Champions", "Name": "Leon", "Time": "", "Attempts":0, "Image": "img/trainers/sword/leon.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Leon" },
+			{ "Group": "Champions", "Name": "Leon", "Time": "", "Attempts": 0, "Image": "img/trainers/sword/leon.png", "ImageSource": "https://bulbapedia.bulbagarden.net/wiki/Leon" },
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "", IDNo: "", Attempts: 0, Party: [
@@ -36,6 +36,18 @@ Season12.Runs.push(
 				Image: "img/ribbons/champion-galar.png",
 				FirstAttemptDate: ""
 			},
+
+			{ "Group": "Pokemon", "Name": "Hatenna", "Time": "2025-12-13T21:23:08Z" },
+			{ "Group": "Pokemon", "Name": "Yamper", "Time": "2025-12-13T21:58:47Z" },
+			{ "Group": "Pokemon", "Name": "Vanillite", "Time": "2025-12-13T22:32:21Z" },
+			{ "Group": "Pokemon", "Name": "Golett", "Time": "2025-12-13T22:36:03Z" },
+			{ "Group": "Pokemon", "Name": "Rolycoly", "Time": "2025-12-13T22:42:24Z" },
+			{ "Group": "Pokemon", "Name": "Kirlia", "Time": "2025-12-13T22:45:04Z" },
+			{ "Group": "Pokemon", "Name": "Natu", "Time": "2025-12-13T22:47:08Z" },
+			{ "Group": "Pokemon", "Name": "Nincada", "Time": "2025-12-13T23:02:22Z" },
+			{ "Group": "Pokemon", "Name": "Combee", "Time": "2025-12-13T23:07:46Z" },
+			{ "Group": "Pokemon", "Name": "Bronzor", "Time": "2025-12-13T23:19:38Z" },
+			{ "Group": "Pokemon", "Name": "Riolu", "Time": "2025-12-13T23:46:33Z" },
 		]
 	}
 );
