@@ -46,6 +46,7 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Natu", "Time": "2025-12-13T22:47:08Z" },
 			{ "Group": "Pokemon", "Name": "Nincada", "Time": "2025-12-13T23:02:22Z" },
 			{ "Group": "Pokemon", "Name": "Combee", "Time": "2025-12-13T23:07:46Z" },
+			{ "Group": "Pokemon", "Name": "Igglybuff", "Time": "2025-12-13T23:18:21Z" },
 			{ "Group": "Pokemon", "Name": "Bronzor", "Time": "2025-12-13T23:19:38Z" },
 			{ "Group": "Pokemon", "Name": "Riolu", "Time": "2025-12-13T23:46:33Z" },
 			{ "Group": "Pokemon", "Name": "Jangmo-o", "Time": "2025-12-14T00:15:31Z" },
@@ -104,7 +105,7 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Emolga", "Time": "2025-12-14T09:21:12Z" },
 			{ "Group": "Pokemon", "Name": "Rufflet", "Time": "2025-12-14T09:47:14Z" },
 			{ "Group": "Pokemon", "Name": "Exeggcute", "Time": "2025-12-14T11:53:31Z" },
-			{ "Group": "Pokemon", "Name": "Mime-Jr", "Time": "2025-12-14T11:56:12Z" },
+			{ "Group": "Pokemon", "Name": "Mime Jr.", "Time": "2025-12-14T11:56:12Z" },
 			{ "Group": "Pokemon", "Name": "Abra", "Time": "2025-12-14T12:00:38Z" },
 			{ "Group": "Pokemon", "Name": "Shinx", "Time": "2025-12-14T12:03:49Z" },
 			{ "Group": "Pokemon", "Name": "Horsea", "Time": "2025-12-14T12:10:55Z" },
@@ -152,6 +153,12 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Shiinotic", "Time": "2025-12-14T19:21:41Z" },
 			{ "Group": "Pokemon", "Name": "Ivysaur", "Time": "2025-12-14T19:22:05Z" },
 			{ "Group": "Pokemon", "Name": "Skorupi", "Time": "2025-12-14T19:40:32Z" },
+			{ "Group": "Pokemon", "Name": "Cherrim", "Time": "2025-12-14T20:24:33Z" },
+			{ "Group": "Pokemon", "Name": "Oddish", "Time": "2025-12-14T20:27:36Z" },
+			{ "Group": "Pokemon", "Name": "Farfetch'd", "Time": "2025-12-14T20:56:23Z" },
+			{ "Group": "Pokemon", "Name": "Trevenant", "Time": "2025-12-14T21:04:59Z" },
+			{ "Group": "Pokemon", "Name": "Sandshrew", "Time": "2025-12-14T21:19:00Z" },
+
 		]
 	}
 );
