@@ -18,7 +18,7 @@ Season12.Runs.push(
 			{ "Group": "Badges", "Name": "Water Badge", "Time": "2025-12-15T01:40:43Z", "Attempts": 3, "Image": "img/badges/galar/water.png" }, // TODO: Verify attempt count
 			{ "Group": "Badges", "Name": "Fire Badge", "Time": "2025-12-15T05:25:22Z", "Attempts": 1, "Image": "img/badges/galar/fire.png" }, // TODO: Verify attempt count
 			{ "Group": "Badges", "Name": "Ghost Badge", "Time": "2025-12-15T17:32:03Z", "Attempts": 1, "Image": "img/badges/galar/ghost.png" },
-			{ "Group": "Badges", "Name": "Fairy Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/fairy.png" },
+			{ "Group": "Badges", "Name": "Fairy Badge", "Time": "2025-12-15T21:37:59Z", "Attempts": 1, "Image": "img/badges/galar/fairy.png" },
 			{ "Group": "Badges", "Name": "Ice Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/ice.png" },
 			{ "Group": "Badges", "Name": "Dark Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/dark.png" },
 			{ "Group": "Badges", "Name": "Dragon Badge", "Time": "", "Attempts": 0, "Image": "img/badges/galar/dragon.png" },
@@ -262,6 +262,19 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Togedemaru", "Time": "2025-12-15T16:17:43Z" },
 			{ "Group": "Pokemon", "Name": "Dreepy", "Time": "2025-12-15T16:31:21Z" },
 			{ "Group": "Pokemon", "Name": "Cradily", "Time": "2025-12-15T17:31:40Z" },
+			{ "Group": "Pokemon", "Name": "Hitmonlee", "Time": "2025-12-15T18:25:43Z" },
+			{ "Group": "Pokemon", "Name": "Crawdaunt", "Time": "2025-12-15T18:38:32Z" },
+			{ "Group": "Pokemon", "Name": "Dewpider", "Time": "2025-12-15T18:40:27Z" },
+			{ "Group": "Pokemon", "Name": "Shuckle", "Time": "2025-12-15T18:59:11Z" },
+			{ "Group": "Pokemon", "Name": "Jirachi", "Time": "2025-12-15T19:31:37Z" },
+			{ "Group": "Pokemon", "Name": "Zweilous", "Time": "2025-12-15T19:37:42Z" },
+			{ "Group": "Pokemon", "Name": "Grapploct", "Time": "2025-12-15T19:39:39Z" },
+			{ "Group": "Pokemon", "Name": "Morpeko", "Time": "2025-12-15T19:44:02Z" },
+			{ "Group": "Pokemon", "Name": "Ninetales", "Time": "2025-12-15T20:13:39Z" },
+			{ "Group": "Pokemon", "Name": "Corphish", "Time": "2025-12-15T20:16:48Z" },
+			{ "Group": "Pokemon", "Name": "Woobat", "Time": "2025-12-15T20:35:01Z" },
+			{ "Group": "Pokemon", "Name": "Reshiram", "Time": "2025-12-15T20:54:44Z" },
+			{ "Group": "Pokemon", "Name": "Nidoking", "Time": "2025-12-15T21:12:29Z" },
 
 		]
 	}
