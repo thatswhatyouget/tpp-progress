@@ -305,6 +305,23 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Marowak", "Time": "2025-12-16T04:46:55Z" },
 			{ "Group": "Pokemon", "Name": "Skrelp", "Time": "2025-12-16T04:54:59Z" },
 			{ "Group": "Pokemon", "Name": "Primarina", "Time": "2025-12-16T05:04:16Z" },
+			{ "Group": "Pokemon", "Name": "Cobalion", "Time": "2025-12-16T05:10:40Z" },
+			{ "Group": "Pokemon", "Name": "Wynaut", "Time": "2025-12-16T05:14:52Z" },
+			{ "Group": "Pokemon", "Name": "Mew", "Time": "2025-12-16T05:22:27Z" },
+			{ "Group": "Pokemon", "Name": "Dracozolt", "Time": "2025-12-16T05:23:42Z" },
+			{ "Group": "Pokemon", "Name": "Zamazenta", "Time": "2025-12-16T05:29:21Z" },
+			{ "Group": "Pokemon", "Name": "Poliwrath", "Time": "2025-12-16T06:36:32Z" },
+			{ "Group": "Pokemon", "Name": "Lurantis", "Time": "2025-12-16T09:04:23Z" },
+			{ "Group": "Pokemon", "Name": "Herdier", "Time": "2025-12-16T09:08:56Z" },
+			{ "Group": "Pokemon", "Name": "Brionne", "Time": "2025-12-16T09:17:28Z" },
+			{ "Group": "Pokemon", "Name": "Lotad", "Time": "2025-12-16T10:55:21Z" },
+			{ "Group": "Pokemon", "Name": "Noivern", "Time": "2025-12-16T11:00:56Z" },
+			{ "Group": "Pokemon", "Name": "Hippopotas", "Time": "2025-12-16T11:58:37Z" },
+			{ "Group": "Pokemon", "Name": "Runerigus", "Time": "2025-12-16T12:01:33Z" },
+			{ "Group": "Pokemon", "Name": "Hippowdon", "Time": "2025-12-16T12:16:47Z" },
+			{ "Group": "Pokemon", "Name": "Alakazam", "Time": "2025-12-16T12:37:44Z" },
+			{ "Group": "Pokemon", "Name": "Stoutland", "Time": "2025-12-16T12:38:03Z" },
+			{ "Group": "Pokemon", "Name": "Pinsir", "Time": "2025-12-16T13:12:23Z" },
 
 		]
 	}
