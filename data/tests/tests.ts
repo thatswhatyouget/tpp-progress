@@ -26,8 +26,8 @@ exports.tests = function () {
             const dex = !!run.DexMapping ? [...masterDex, ...run.DexMapping.map(p => typeof p == "number" ? Pokedex.PokeList[p] : p).filter(p => !!p).map(dexClean)] : masterDex;
             run.Events.forEach(event => {
                 // console.info(event.Name);
-                if (event.Group == "Pokemon" && !dex.includes(dexClean(event.Name || "")) && !dex.includes(dexClean(event.Class || "")))
-                    console.warn(`::warning:: ${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} does not match any regional or national Pokedex entries.`.replace('\n', ' '));
+                if (event.Group == "Pokemon" && !dex.includes(dexClean(event.Name || "")) && !dex.includes(dexClean(event.Class || "")) && !dexClean(event.Class || "").includes("glitchmon"))
+                    console.warn(`::error:: ${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} does not match any regional or national Pokedex entries.`.replace('\n', ' '));
                 if (!!event.Time && !event.UnixTime) {
                     console.error(`::error:: ${season.Name} ${run.RunName}: ${event.Group} ${event.Name}${event.Class ? ` (${event.Class})` : ""} has an invalid Time: "${event.Time}"`.replace('\n', ' '));
                     process.exitCode = 1;
