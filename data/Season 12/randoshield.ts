@@ -5,7 +5,7 @@ Season12.Runs.push(
 		ColorSecondary: "black",
 		ColorPrimary: "#E9004E",
 		StartDate: "2025-12-13T21:00:00Z",
-		Duration: "255d",
+		Duration: "2025-12-22T18:34:45Z",
 		HostName: "2",
 		HostImage: "img/hosts/89977re.gif",
 		Region: "Galar",
@@ -62,6 +62,126 @@ Season12.Runs.push(
 					{ Pokemon: "Drapion", Nickname: "Nebby", Gender: "Male", Level: 73 },
 					{ Pokemon: "Golisopod", Nickname: "1:p", Gender: "Female", Level: 54 },
 					{ Pokemon: "Fraxure", Gender: "Female", Level: 44 },
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-19T13:11:39Z", IDNo: "031120", Party: [
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 93, Form: "Matcha Cream Strawberry" },
+					{ Pokemon: "Polteageist", Nickname: "Coffeeeee", Level: 99, Form: "Antique" },
+					{ Pokemon: "Cosmog", Nickname: "zebby", Level: 56 },
+					{ Pokemon: "Cosmoem", Level: 56 },
+					{ Pokemon: "Meltan", Nickname: "op", Level: 54 },
+					{ Pokemon: "Kubfu", Gender: "Male", Level: 42 },
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-19T14:00:16Z", IDNo: "031120", Party: [
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 95, Form: "Matcha Cream Strawberry" },
+					{ Pokemon: "Polteageist", Nickname: "Coffeeeee", Level: 100, Form: "Antique" },
+					{ Pokemon: "Pikachu", Level: 64, Gender: "Male", Form: "World Hat" },
+					{ Pokemon: "Pichu", Level: 44, Gender: "Female" },
+					{ Pokemon: "Shellos", Level: 55, Gender: "Female", Form: "West Sea" },
+					{ Pokemon: "Shellos", Level: 65, Gender: "Male", Form: "East Sea" }
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-19T16:13:48Z", IDNo: "031120", Party: [
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 99, Form: "Matcha Cream Strawberry" },
+					{ Pokemon: "Polteageist", Nickname: "Coffeeeee", Level: 100, Form: "Antique" },
+					{ Pokemon: "Hippopotas", Level: 63, Gender: "Male" },
+					{ Pokemon: "Hippopotas", Level: 43, Gender: "Female" },
+					{ Pokemon: "Frillish", Level: 64, Gender: "Male" },
+					{ Pokemon: "Frillish", Level: 46, Gender: "Female" }
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-19T17:15:11Z", IDNo: "031120", Party: [
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 99, Form: "Matcha Cream Strawberry" },
+					{ Pokemon: "Meowth", Level: 50, Gender: "Female", Form: "Alolan" },
+					{ Pokemon: "Polteageist", Nickname: "Coffeeeee", Level: 100, Form: "Antique" },
+					{ Pokemon: "Meowth", Level: 64, Gender: "Female", Form: "Galarian" },
+					{ Pokemon: "Ponyta", Level: 64, Gender: "Male", Form: "Galarian" },
+					{ Pokemon: "Yamask", Level: 64, Gender: "Female" }
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-20T08:30:51Z", IDNo: "031120", Party: [
+					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 82 },
+					{ Pokemon: "Gengar", Nickname: "olaa", Gender: "Female", Level: 68 },
+					{ Pokemon: "Barbaracle", Nickname: "1d4 5uuooo", Gender: "Male", Level: 69 },
+					{ Pokemon: "Shuckle", Gender: "Female", Level: 71 },
+					{ Pokemon: "Milotic", Nickname: "Lila", Gender: "Female", Level: 86, Shiny },
+					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 87 }
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-20T19:05:00Z", IDNo: "031120", Party: [
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 100, Form: "Matcha Cream Strawberry" },
+					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 92 },
+					{ Pokemon: "Yamask", Level: 44, Gender: "Female", Form: "Galarian" },
+					{ Pokemon: "Sandshrew", Level: 46, Gender: "Female" },
+					{ Pokemon: "Sandshrew", Level: 64, Gender: "Female", Form: "Alolan" },
+					{ Pokemon: "Farfetch'd", Level: 44, Gender: "Female" }
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-20T20:31:03Z", IDNo: "031120", Party: [
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 100, Form: "Matcha Cream Strawberry" },
+					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 94 },
+					{ Pokemon: "Vulpix", Level: 44, Gender: "Male" },
+					{ Pokemon: "Vulpix", Level: 44, Gender: "Female", Form: "Alolan" },
+					{ Pokemon: "Slowpoke", Level: 45, Gender: "Female" },
+					{ Pokemon: "Slowpoke", Level: 64, Gender: "Male", Form: "Galarian" }
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-20T21:01:27Z", IDNo: "031120", Party: [
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 100, Form: "Matcha Cream Strawberry" },
+					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 95 },
+					{ Pokemon: "Mr. Mime", Level: 43, Gender: "Female", Form: "Galarian" },
+					{ Pokemon: "Corsola", Level: 47, Gender: "Female", Form: "Galarian" },
+					{ Pokemon: "Slowpoke", Level: 45, Gender: "Male" },
+					{ Pokemon: "Slowpoke", Level: 45, Gender: "Female", Form: "Galarian" }
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-21T03:50:53Z", IDNo: "031120", Party: [
+					{ Pokemon: "Gengar", Nickname: "olaa", Gender: "Female", Level: 80 },
+					{ Pokemon: "Stonjourner", Nickname: "Doug", Gender: "Male", Level: 85 },
+					{ Pokemon: "Milotic", Nickname: "Lila", Gender: "Female", Level: 99, Shiny },
+					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 86 },
+					{ Pokemon: "Shuckle", Gender: "Female", Level: 76 },
+					{ Pokemon: "Barbaracle", Nickname: "1d4 5uuooo", Gender: "Male", Level: 79 }
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-21T04:22:49Z", IDNo: "031120", Party: [
+					{ Pokemon: "Stonjourner", Nickname: "Doug", Gender: "Male", Level: 86 },
+					{ Pokemon: "Barbaracle", Nickname: "1d4 5uuooo", Gender: "Male", Level: 82 },
+					{ Pokemon: "Gengar", Nickname: "olaa", Gender: "Female", Level: 82 },
+					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 97 },
+					{ Pokemon: "Shuckle", Gender: "Female", Level: 78 },
+					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 87 }
 				],
 				Image: "img/ribbons/champion-galar.png"
 			},
@@ -444,6 +564,7 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Klang", "Time": "2025-12-18T06:02:18Z" },
 			{ "Group": "Pokemon", "Name": "Greedent", "Time": "2025-12-18T06:11:39Z" },
 			{ "Group": "Pokemon", "Name": "Mienshao", "Time": "2025-12-18T06:24:23Z" },
+			{ "Group": "Pokemon", "Name": "Cosmoem", "Time": "2025-12-18T06:24:30Z" },
 			{ "Group": "Pokemon", "Name": "Golurk", "Time": "2025-12-18T06:31:52Z" },
 			{ "Group": "Pokemon", "Name": "Duraludon", "Time": "2025-12-18T06:33:05Z" },
 			{ "Group": "Pokemon", "Name": "Hattrem", "Time": "2025-12-18T06:44:12Z" },
@@ -505,7 +626,97 @@ Season12.Runs.push(
 			{ "Group": "Pokemon", "Name": "Starmie", "Time": "2025-12-19T04:05:33Z" },
 			{ "Group": "Pokemon", "Name": "Tangrowth", "Time": "2025-12-19T04:17:06Z" },
 			{ "Group": "Pokemon", "Name": "Sandslash", "Time": "2025-12-19T04:44:35Z" },
-
+			{ "Group": "Pokemon", "Name": "Fletchling", "Time": "2025-12-19T05:43:44Z" },
+			{ "Group": "Pokemon", "Name": "Gothitelle", "Time": "2025-12-19T05:55:50Z" },
+			{ "Group": "Pokemon", "Name": "Skarmory", "Time": "2025-12-19T06:02:17Z" },
+			{ "Group": "Pokemon", "Name": "Archeops", "Time": "2025-12-19T06:13:54Z" },
+			{ "Group": "Pokemon", "Name": "Sigilyph", "Time": "2025-12-19T06:14:15Z" },
+			{ "Group": "Pokemon", "Name": "Terrakion", "Time": "2025-12-19T06:34:22Z" },
+			{ "Group": "Pokemon", "Name": "Dhelmise", "Time": "2025-12-19T06:35:54Z" },
+			{ "Group": "Pokemon", "Name": "Meowstic", "Time": "2025-12-19T06:39:50Z" },
+			{ "Group": "Pokemon", "Name": "Snorlax", "Time": "2025-12-19T06:53:42Z" },
+			{ "Group": "Pokemon", "Name": "Lileep", "Time": "2025-12-19T09:58:01Z" },
+			{ "Group": "Pokemon", "Name": "Wingull", "Time": "2025-12-19T11:06:38Z" },
+			{ "Group": "Pokemon", "Name": "Palpitoad", "Time": "2025-12-19T11:38:39Z" },
+			{ "Group": "Pokemon", "Name": "Torracat", "Time": "2025-12-19T11:43:20Z" },
+			{ "Group": "Pokemon", "Name": "Marill", "Time": "2025-12-19T13:21:59Z" },
+			{ "Group": "Pokemon", "Name": "Metagross", "Time": "2025-12-19T13:24:37Z" },
+			{ "Group": "Pokemon", "Name": "Togepi", "Time": "2025-12-19T14:22:21Z" },
+			{ "Group": "Pokemon", "Name": "Dunsparce", "Time": "2025-12-19T15:02:39Z" },
+			{ "Group": "Pokemon", "Name": "Clawitzer", "Time": "2025-12-19T15:20:19Z" },
+			{ "Group": "Pokemon", "Name": "Seismitoad", "Time": "2025-12-19T15:32:10Z" },
+			{ "Group": "Pokemon", "Name": "Octillery", "Time": "2025-12-19T15:33:50Z" },
+			{ "Group": "Pokemon", "Name": "Comfey", "Time": "2025-12-19T15:37:45Z" },
+			{ "Group": "Pokemon", "Name": "Toxicroak", "Time": "2025-12-19T16:24:34Z" },
+			{ "Group": "Pokemon", "Name": "Frosmoth", "Time": "2025-12-19T17:21:42Z" },
+			{ "Group": "Pokemon", "Name": "Audino", "Time": "2025-12-19T17:23:10Z" },
+			{ "Group": "Pokemon", "Name": "Cramorant", "Time": "2025-12-19T17:31:31Z" },
+			{ "Group": "Pokemon", "Name": "Excadrill", "Time": "2025-12-19T17:38:45Z" },
+			{ "Group": "Pokemon", "Name": "Cubone", "Time": "2025-12-19T17:41:08Z" },
+			{ "Group": "Pokemon", "Name": "Binacle", "Time": "2025-12-19T17:43:21Z" },
+			{ "Group": "Pokemon", "Name": "Lanturn", "Time": "2025-12-19T18:44:45Z" },
+			{ "Group": "Pokemon", "Name": "Hydreigon", "Time": "2025-12-19T19:08:44Z" },
+			{ "Group": "Pokemon", "Name": "Applin", "Time": "2025-12-19T19:22:58Z" },
+			{ "Group": "Pokemon", "Name": "Calyrex", "Time": "2025-12-20T03:45:50Z" },
+			{ "Group": "Pokemon", "Name": "Spectrier", "Time": "2025-12-20T03:45:50Z" },
+			{ "Group": "Pokemon", "Name": "Jolteon", "Time": "2025-12-20T04:59:06Z" },
+			{ "Group": "Pokemon", "Name": "Drizzile", "Time": "2025-12-20T05:08:06Z" },
+			{ "Group": "Pokemon", "Name": "Lopunny", "Time": "2025-12-20T06:29:15Z" },
+			{ "Group": "Pokemon", "Name": "Barraskewda", "Time": "2025-12-20T08:45:36Z" },
+			{ "Group": "Pokemon", "Name": "Vespiquen", "Time": "2025-12-20T08:54:22Z" },
+			{ "Group": "Pokemon", "Name": "Vibrava", "Time": "2025-12-20T09:05:53Z" },
+			{ "Group": "Pokemon", "Name": "Arctovish", "Time": "2025-12-20T09:12:19Z" },
+			{ "Group": "Pokemon", "Name": "Swirlix", "Time": "2025-12-20T09:21:42Z" },
+			{ "Group": "Pokemon", "Name": "Musharna", "Time": "2025-12-20T09:32:30Z" },
+			{ "Group": "Pokemon", "Name": "Obstagoon", "Time": "2025-12-20T09:38:32Z" },
+			{ "Group": "Pokemon", "Name": "Skuntank", "Time": "2025-12-20T11:19:18Z" },
+			{ "Group": "Pokemon", "Name": "Elgyem", "Time": "2025-12-20T11:20:48Z" },
+			{ "Group": "Pokemon", "Name": "Garbodor", "Time": "2025-12-20T11:49:25Z" },
+			{ "Group": "Pokemon", "Name": "Solrock", "Time": "2025-12-20T11:56:27Z" },
+			{ "Group": "Pokemon", "Name": "Roserade", "Time": "2025-12-20T12:31:00Z" },
+			{ "Group": "Pokemon", "Name": "Silicobra", "Time": "2025-12-20T13:33:59Z" },
+			{ "Group": "Pokemon", "Name": "Vulpix", "Time": "2025-12-20T14:22:09Z" },
+			{ "Group": "Pokemon", "Name": "Raichu", "Time": "2025-12-20T14:55:51Z" },
+			{ "Group": "Pokemon", "Name": "Zarude", "Time": "2025-12-20T15:30:40Z" },
+			{ "Group": "Pokemon", "Name": "Corsola", "Time": "2025-12-20T15:32:15Z" },
+			{ "Group": "Pokemon", "Name": "Melmetal", "Time": "2025-12-20T16:02:21Z" },
+			{ "Group": "Pokemon", "Name": "Squirtle", "Time": "2025-12-20T16:12:18Z" },
+			{ "Group": "Pokemon", "Name": "Shelmet", "Time": "2025-12-20T16:15:45Z" },
+			{ "Group": "Pokemon", "Name": "Steelix", "Time": "2025-12-20T16:52:45Z" },
+			{ "Group": "Pokemon", "Name": "Drifloon", "Time": "2025-12-20T17:41:45Z" },
+			{ "Group": "Pokemon", "Name": "Blissey", "Time": "2025-12-20T17:47:03Z" },
+			{ "Group": "Pokemon", "Name": "Scyther", "Time": "2025-12-20T17:54:28Z" },
+			{ "Group": "Pokemon", "Name": "Carbink", "Time": "2025-12-20T18:13:39Z" },
+			{ "Group": "Pokemon", "Name": "Walrein", "Time": "2025-12-20T18:20:57Z" },
+			{ "Group": "Pokemon", "Name": "Decidueye", "Time": "2025-12-20T19:39:51Z" },
+			{ "Group": "Pokemon", "Name": "Grimmsnarl", "Time": "2025-12-20T23:01:47Z" },
+			{ "Group": "Pokemon", "Name": "Passimian", "Time": "2025-12-20T23:17:45Z" },
+			{ "Group": "Pokemon", "Name": "Nidoqueen", "Time": "2025-12-20T23:56:13Z" },
+			{ "Group": "Pokemon", "Name": "Spheal", "Time": "2025-12-21T00:46:36Z" },
+			{ "Group": "Pokemon", "Name": "Lickilicky", "Time": "2025-12-21T02:48:47Z" },
+			{ "Group": "Pokemon", "Name": "Tauros", "Time": "2025-12-21T02:57:44Z" },
+			{ "Group": "Pokemon", "Name": "Darumaka", "Time": "2025-12-21T05:24:54Z" },
+			{ "Group": "Pokemon", "Name": "Sizzlipede", "Time": "2025-12-21T05:41:51Z" },
+			{ "Group": "Pokemon", "Name": "Kingdra", "Time": "2025-12-21T06:31:52Z" },
+			{ "Group": "Pokemon", "Name": "Wishiwashi", "Time": "2025-12-21T12:10:00Z" },
+			{ "Group": "Pokemon", "Name": "Cinccino", "Time": "2025-12-21T12:25:54Z" },
+			{ "Group": "Pokemon", "Name": "Skwovet", "Time": "2025-12-21T12:59:28Z" },
+			{ "Group": "Pokemon", "Name": "Sliggoo", "Time": "2025-12-21T13:09:10Z" },
+			{ "Group": "Pokemon", "Name": "Growlithe", "Time": "2025-12-21T13:16:17Z" },
+			{ "Group": "Pokemon", "Name": "Dugtrio", "Time": "2025-12-21T13:20:56Z" },
+			{ "Group": "Pokemon", "Name": "Carkol", "Time": "2025-12-21T18:49:50Z" },
+			{ "Group": "Pokemon", "Name": "Torkoal", "Time": "2025-12-21T21:43:22Z" },
+			{ "Group": "Pokemon", "Name": "Registeel", "Time": "2025-12-21T22:54:51Z" },
+			//{ "Group": "Pokemon", "Name": "Articuno", "Time": "2025-12-22T00:13:48Z" },
+			{ "Group": "Pokemon", "Name": "Moltres", "Time": "2025-12-22T01:29:39Z" },
+			{ "Group": "Pokemon", "Name": "Regirock", "Time": "2025-12-22T03:02:39Z" },
+			{ "Group": "Pokemon", "Name": "Cryogonal", "Time": "2025-12-22T07:05:12Z" },
+			{ "Group": "Pokemon", "Name": "Glastrier", "Time": "2025-12-22T07:25:13Z" },
+			{ "Group": "Pokemon", "Name": "Articuno", "Time": "2025-12-22T07:29:22Z" },
+			{ "Group": "Pokemon", "Name": "Mewtwo", "Time": "2025-12-22T07:57:35Z" },
+			{ "Group": "Pokemon", "Name": "Darmanitan", "Time": "2025-12-22T12:21:13Z" },
+			{ "Group": "Pokemon", "Name": "Regice", "Time": "2025-12-22T14:23:53Z" },
+			{ "Group": "Pokemon", "Name": "Regieleki", "Time": "2025-12-22T16:24:38Z" },
 		]
 	}
 );
