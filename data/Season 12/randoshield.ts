@@ -156,8 +156,8 @@ Season12.Runs.push(
 					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 95 },
 					{ Pokemon: "Mr. Mime", Level: 43, Gender: "Female", Form: "Galarian" },
 					{ Pokemon: "Corsola", Level: 47, Gender: "Female", Form: "Galarian" },
-					{ Pokemon: "Slowpoke", Level: 45, Gender: "Male" },
-					{ Pokemon: "Slowpoke", Level: 45, Gender: "Female", Form: "Galarian" }
+					{ Pokemon: "Zigzagoon", Level: 45, Gender: "Male" },
+					{ Pokemon: "Zigzagoon", Level: 45, Gender: "Female", Form: "Galarian" }
 				],
 				Image: "img/ribbons/champion-galar.png"
 			},
