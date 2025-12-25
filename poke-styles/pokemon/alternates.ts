@@ -43,6 +43,12 @@ var alternates: Alternate[] = [
     new Alternate("charizard", "MegaY"),
     new Alternate("mewtwo", "MegaX"),
     new Alternate("mewtwo", "MegaY"),
+	
+    new Alternate("Pikachu", "OriginalCap"),
+    new Alternate("Pikachu", "HoennCap"),
+    new Alternate("Pikachu", "SinnohCap"),
+    new Alternate("Pikachu", "UnovaCap"),
+    new Alternate("Pikachu", "KalosCap"),
 
     new Alternate("tauros", "Paldean-Blaze"),
     new Alternate("tauros", "Paldean-Aqua"),
@@ -54,7 +60,11 @@ var alternates: Alternate[] = [
 
     new Alternate("deoxys", "Attack"),
     new Alternate("deoxys", "Defense"),
+    new Alternate("deoxys", "Speed"),
 
+    new Alternate("Wormadam", "Sand"),
+    new Alternate("Wormadam", "Trash"),
+	
     new Alternate("shellos", "East"),
     new Alternate("gastrodon", "East"),
 
@@ -65,11 +75,25 @@ var alternates: Alternate[] = [
     new Alternate("rotom", "Wash"),
 
     new Alternate("dialga", "Origin"),
+    new Alternate("palkia", "Origin"),
+	
+    new Alternate("Shaymin", "Sky"),
 
     new Alternate("Arceus", "Bug"),
+    new Alternate("Arceus", "Dark"),
+    new Alternate("Arceus", "Dragon"),
+    new Alternate("Arceus", "Electric"),
     new Alternate("Arceus", "Fairy"),
+    new Alternate("Arceus", "Fighting"),
     new Alternate("Arceus", "Fire"),
+    new Alternate("Arceus", "Flying"),
+    new Alternate("Arceus", "Ghost"),
+    new Alternate("Arceus", "Grass"),
     new Alternate("Arceus", "Ground"),
+    new Alternate("Arceus", "Ice"),
+    new Alternate("Arceus", "Poison"),
+    new Alternate("Arceus", "Psychic"),
+    new Alternate("Arceus", "Rock"),
     new Alternate("Arceus", "Steel"),
     new Alternate("Arceus", "Water"),
 
@@ -93,12 +117,36 @@ var alternates: Alternate[] = [
 
     new Alternate("keldeo", "Resolute"),
 
+    new Alternate("Vivillon", "Archipelago"),
+    new Alternate("Vivillon", "Continental"),
+    new Alternate("Vivillon", "Elegant"),
+    new Alternate("Vivillon", "Fancy"),
+    new Alternate("Vivillon", "Garden"),
+    new Alternate("Vivillon", "HighPlains"),
+    new Alternate("Vivillon", "IcySnow"),
+    new Alternate("Vivillon", "Jungle"),
+    new Alternate("Vivillon", "Marine"),
     new Alternate("Vivillon", "Modern"),
+    new Alternate("Vivillon", "Monsoon"),
+    new Alternate("Vivillon", "Ocean"),
     new Alternate("Vivillon", "PokeBall"),
+    new Alternate("Vivillon", "Polar"),
+    new Alternate("Vivillon", "River"),
+    new Alternate("Vivillon", "Sandstorm"),
+    new Alternate("Vivillon", "Savanna"),
+    new Alternate("Vivillon", "Sun"),
 
     new Alternate("Floette", "Eternal"),
 
+    new Alternate("furfrou", "Dandy"),
+    new Alternate("furfrou", "Debutante"),
+    new Alternate("furfrou", "Diamond"),
+    new Alternate("furfrou", "Heart"),
     new Alternate("furfrou", "Kabuki"),
+    new Alternate("furfrou", "LaReine"),
+    new Alternate("furfrou", "Matron"),
+    new Alternate("furfrou", "Pharaoh"),
+    new Alternate("furfrou", "Star"),
 
     new Alternate("gourgeist", "Small"),
     new Alternate("gourgeist", "Large"),
@@ -109,14 +157,26 @@ var alternates: Alternate[] = [
     new Alternate("Hoopa", "unbound"),
 
     new Alternate("lycanroc", "Midnight"),
+    new Alternate("lycanroc", "Dusk"),
 
     new Alternate("oricorio", "Pom-Pom"),
     new Alternate("oricorio", "Pa-u"),
     new Alternate("oricorio", "Sensu"),
+	
+    new Alternate("Silvally", "Bug"),
+    new Alternate("Silvally", "Electric"),
+    new Alternate("Silvally", "Fairy"),
+    new Alternate("Silvally", "Flying"),
+    new Alternate("Silvally", "Grass"),
+    new Alternate("Silvally", "Ice"),
+    new Alternate("Silvally", "Psychic"),
+    new Alternate("Silvally", "Rock"),
 
     new Alternate("Necrozma", "DuskMane"),
     new Alternate("Necrozma", "DawnWings"),
     new Alternate("Necrozma", "Ultra"),
+	
+    new Alternate("Magearna", "Original"),
 
     new Alternate("Toxtricity", "LowKey"),
 
@@ -126,6 +186,8 @@ var alternates: Alternate[] = [
     new Alternate("Zamazenta", "Crowned"),
 	
     new Alternate("Ursaluna", "Bloodmoon"),
+	
+    new Alternate("Enamorus", "Therian"),
 
     new Alternate("Maushold", "Four"),
 
