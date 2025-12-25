@@ -1,20 +1,20 @@
 /// <reference path="../tpp-data.ts" />
 Season12.Runs.push(
-    {
-        RunName: "Anniversary KEP",
-        ColorPrimary: "#cf5f6e",
-        ColorSecondary: "#a54551",
-        StartDate: "2025-02-12T23:18:16Z",
-        Duration: "2025-02-18T00:14:39Z",
-        HostName: "ARµµ-",
-        HostImage: "img/hosts/pink.png",
-        //HostImageSource: "",
-        Region: "Kanto",
-        //Generation: 1,
-        Pokedex: "Kanto Expansion Pak",
-        FinalStateLink:"./states/Season 12/anniversarykep.json",
-        Events: [
-		
+	{
+		RunName: "Anniversary KEP",
+		ColorPrimary: "#cf5f6e",
+		ColorSecondary: "#a54551",
+		StartDate: "2025-02-12T23:18:16Z",
+		Duration: "2025-02-18T00:14:39Z",
+		HostName: "ARµµ-",
+		HostImage: "img/hosts/pink.png",
+		//HostImageSource: "",
+		Region: "Kanto",
+		//Generation: 1,
+		Pokedex: "Kanto Expansion Pak",
+		FinalStateLink: "./states/Season 12/anniversarykep.json",
+		Events: [
+
 			{ Name: "Squirtle", Time: "2025-02-12T23:27:36.535Z", Group: "Pokemon" },
 			{ Name: "Coinpur", Time: "2025-02-13T01:20:30Z", Group: "Pokemon" },
 			{ Name: "Kakuna", Time: "2025-02-13T01:33:47Z", Group: "Pokemon" },
@@ -31,12 +31,12 @@ Season12.Runs.push(
 			{ Name: "Nidorino", Time: "2025-02-13T06:55:43Z", Group: "Pokemon" },
 			{ Name: "Nidoreign", Time: "2025-02-13T06:57:09Z", Group: "Pokemon" },
 			{ Name: "Vulpiii", Time: "2025-02-13T09:11:13Z", Group: "Pokemon" },
-		
-            {
-                Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2025-02-13T09:55:09.746Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2025-02-13T09:55:09.746Z", Attempts: 1
+			},
+
 			{ Name: "Psyduck", Time: "2025-02-13T10:45:55Z", Group: "Pokemon" },
 			{ Name: "Poliwag", Time: "2025-02-13T10:47:43Z", Group: "Pokemon" },
 			{ Name: "Magikarp", Time: "2025-02-13T11:12:03Z", Group: "Pokemon" },
@@ -59,12 +59,12 @@ Season12.Runs.push(
 			{ Name: "Eevee", Time: "2025-02-13T20:04:19Z", Group: "Pokemon" },
 			{ Name: "Ramoose", Time: "2025-02-13T20:51:06Z", Group: "Pokemon" },
 			{ Name: "Kolta", Time: "2025-02-13T21:01:27Z", Group: "Pokemon" },
-			
-            {
-                Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2025-02-13T21:37:20.928Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2025-02-13T21:37:20.928Z", Attempts: 1
+			},
+
 			{ Name: "Squeamata", Time: "2025-02-13T22:18:19Z", Group: "Pokemon" },
 			{ Name: "Cactormus", Time: "2025-02-13T22:19:25.292Z", Group: "Pokemon" },
 			{ Name: "Totartle", Time: "2025-02-14T00:35:51Z", Group: "Pokemon" },
@@ -75,12 +75,12 @@ Season12.Runs.push(
 			{ Name: "Oddish", Time: "2025-02-14T02:04:36Z", Group: "Pokemon" },
 			{ Name: "Venonat", Time: "2025-02-14T02:07:36Z", Group: "Pokemon" },
 			{ Name: "Gorotora", Time: "2025-02-14T03:32:19.320Z", Group: "Pokemon" },
-			
-            {
-                Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2025-02-14T03:42:21.693Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2025-02-14T03:42:21.693Z", Attempts: 1
+			},
+
 			{ Name: "Rhyhorn", Time: "2025-02-14T03:50:09Z", Group: "Pokemon" },
 			{ Name: "Gorillaimo", Time: "2025-02-14T03:51:51Z", Group: "Pokemon" },
 			{ Name: "Exeggcute", Time: "2025-02-14T03:53:24Z", Group: "Pokemon" },
@@ -131,81 +131,81 @@ Season12.Runs.push(
 			{ Name: "Golbat", Time: "2025-02-14T15:30:23Z", Group: "Pokemon" },
 			{ Name: "Croakozuna", Time: "2025-02-14T15:37:30Z", Group: "Pokemon" },
 			{ Name: "Disturban", Time: "2025-02-14T15:45:30Z", Group: "Pokemon" },
-			
-            {
-                Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2025-02-14T16:06:53.600Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2025-02-14T16:06:53.600Z", Attempts: 1
+			},
+
 			{ Name: "Lapras", Time: "2025-02-14T17:09:45Z", Group: "Pokemon" },
 			{ Name: "Omegadge", Time: "2025-02-14T17:26:01Z", Group: "Pokemon" },
-			
-            {
-                Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2025-02-14T18:24:07.579Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2025-02-14T18:24:07.579Z", Attempts: 1
+			},
+
 			{ Name: "Vulpix", Time: "2025-02-14T18:28:56Z", Group: "Pokemon" },
-			
-            {
-                Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2025-02-14T18:54:49.006Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2025-02-14T18:54:49.006Z", Attempts: 1
+			},
+
 			{ Name: "Pinsir", Time: "2025-02-14T20:33:52Z", Group: "Pokemon" },
 			{ Name: "Tricules", Time: "2025-02-14T20:39:32Z", Group: "Pokemon" },
 			{ Name: "Weepinbell", Time: "2025-02-14T20:48:00Z", Group: "Pokemon" },
 			{ Name: "Bellignan", Time: "2025-02-14T20:51:03Z", Group: "Pokemon" },
-			
-            {
-                Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2025-02-14T21:05:11.442Z", Attempts: 1
-            },
-			
-            {
-                Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2025-02-14T21:51:38.215Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2025-02-14T21:05:11.442Z", Attempts: 1
+			},
+
+			{
+				Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2025-02-14T21:51:38.215Z", Attempts: 1
+			},
+
 			{ Name: "Machoke", Time: "2025-02-14T22:53:49Z", Group: "Pokemon" },
 			{ Name: "Graveler", Time: "2025-02-14T22:59:58Z", Group: "Pokemon" },
 			{ Name: "Iguanarch", Time: "2025-02-14T23:33:47Z", Group: "Pokemon" },
 			{ Name: "Chansey", Time: "2025-02-14T23:43:44Z", Group: "Pokemon" },
 			{ Name: "Hitmonchan", Time: "2025-02-14T23:51:14Z", Group: "Pokemon" },
-			
-            {
-                Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png",
-                Time: "2025-02-15T00:09:50.080Z", Attempts: 1
-            },
-            {
-                Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png",
-                Time: "2025-02-15T00:59:46.665Z", Attempts: 2
-            },
-            {
-                Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png",
-                Time: "2025-02-15T01:11:21.275Z", Attempts: 1
-            },
-            {
-                Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png",
-                Time: "2025-02-15T01:55:42.140Z", Attempts: 2
-            },
-            {
-                Group: "Champions", Name: "S", Image: "img/trainers/red/blue.png",
-                Time: "2025-02-15T02:43:48.971Z", Attempts: 2
-            },
-            <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-02-15T02:44:48.459Z", Attempts: 4, Party: [
-                    { Pokemon: "Ramoose", Nickname: "AAAC", Level: 59, Type1: "Normal", Type2: "Grass" },
-                    { Pokemon: "Gawarhed", Nickname: "X]]]OWWW;♀", Level: 59, Type1: "Rock" },
-                    { Pokemon: "Iguanarch", Nickname: "AAAAJKA", Level: 63, Type1: "Dragon" },
-                    { Pokemon: "Pendraken", Nickname: "BLO", Level: 69, Type1: "Water", Type2: "Fairy" },
-                    { Pokemon: "Omegadge", Nickname: "JRRZ", Level: 59, Type1: "Steel" },
-                    { Pokemon: "Gorotora", Nickname: "IRRJJJRRAA", Level: 60, Type1: "Electric" },
-                ],
-                Image: "img/ribbons/champion.png",
-                FirstAttemptDate: "2025-02-15T00:01:59.549Z"
-            },
-			
+
+			{
+				Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png",
+				Time: "2025-02-15T00:09:50.080Z", Attempts: 1
+			},
+			{
+				Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png",
+				Time: "2025-02-15T00:59:46.665Z", Attempts: 2
+			},
+			{
+				Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png",
+				Time: "2025-02-15T01:11:21.275Z", Attempts: 1
+			},
+			{
+				Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png",
+				Time: "2025-02-15T01:55:42.140Z", Attempts: 2
+			},
+			{
+				Group: "Champions", Name: "S", Image: "img/trainers/red/blue.png",
+				Time: "2025-02-15T02:43:48.971Z", Attempts: 2
+			},
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-02-15T02:44:48.459Z", Attempts: 4, Party: [
+					{ Pokemon: "Ramoose", Nickname: "AAAC", Level: 59, Type1: "Normal", Type2: "Grass" },
+					{ Pokemon: "Gawarhed", Nickname: "X]]]OWWW;♀", Level: 59, Type1: "Rock" },
+					{ Pokemon: "Iguanarch", Nickname: "AAAAJKA", Level: 63, Type1: "Dragon" },
+					{ Pokemon: "Pendraken", Nickname: "BLO", Level: 69, Type1: "Water", Type2: "Fairy" },
+					{ Pokemon: "Omegadge", Nickname: "JRRZ", Level: 59, Type1: "Steel" },
+					{ Pokemon: "Gorotora", Nickname: "IRRJJJRRAA", Level: 60, Type1: "Electric" },
+				],
+				Image: "img/ribbons/champion.png",
+				FirstAttemptDate: "2025-02-15T00:01:59.549Z"
+			},
+
 			{ Name: "Hitmonchan", Time: "2025-02-14T23:51:14Z", Group: "Pokemon" },
 			{ Name: "Scream Tail", Time: "2025-02-15T03:23:59Z", Group: "Pokemon" },
 			{ Name: "Sandy Shocks", Time: "2025-02-15T04:26:46Z", Group: "Pokemon" },
@@ -239,20 +239,22 @@ Season12.Runs.push(
 			{ Name: "Dragonite", Time: "2025-02-15T17:23:31.574Z", Group: "Pokemon" },
 			{ Name: "Caterpie", Time: "2025-02-15T17:51:38Z", Group: "Pokemon" },
 			{ Name: "Metapod", Time: "2025-02-15T17:59:07Z", Group: "Pokemon" },
-			
-            {
-                Group: "Rematch Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League", "Class": "Rematch",
-                Time: "2025-02-15T18:11:38.873Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Rematch Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League", "Class": "Rematch",
+				Time: "2025-02-15T18:11:38.873Z", Attempts: 1
+			},
+
 			{ Name: "Omastar", Time: "2025-02-15T18:29:12Z", Group: "Pokemon" },
 			{ Name: "Kabutops", Time: "2025-02-15T18:39:43Z", Group: "Pokemon" },
 			{ Name: "Seaking", Time: "2025-02-15T18:43:32Z", Group: "Pokemon" },
-			
-			{ Group: "Past Hosts", Name: "(((", Image: "img/hosts/ccc.png", 
-			Time: "2025-02-15T18:59:17.708Z", Attempts: 3, 
-			ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/" },
-			
+
+			{
+				Group: "Past Hosts", Name: "(((", Image: "img/hosts/ccc.png",
+				Time: "2025-02-15T18:59:17.708Z", Attempts: 3,
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/7xfytx/xena_winipek_cesar_cesis_cee_cee_brackets_sprites/"
+			},
+
 			{ Name: "Drowzee", Time: "2025-02-15T20:00:32Z", Group: "Pokemon" },
 			{ Name: "Moltres", Time: "2025-02-15T22:02:35Z", Group: "Pokemon", Class: "Galarian" },
 			{ Name: "Haunter", Time: "2025-02-15T22:47:52Z", Group: "Pokemon" },
@@ -302,18 +304,18 @@ Season12.Runs.push(
 			{ Name: "Slowking", Time: "2025-02-16T16:38:33Z", Group: "Pokemon" },
 			{ Name: "Exeggutor", Time: "2025-02-16T16:47:36Z", Group: "Pokemon" },
 			{ Name: "Raticate", Time: "2025-02-16T17:13:44Z", Group: "Pokemon", Class: "Alolan" },
-			
-            {
-                Group: "Rematch Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League", Class: "Rematch",
-                Time: "2025-02-16T17:45:16Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Rematch Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League", Class: "Rematch",
+				Time: "2025-02-16T17:45:16Z", Attempts: 1
+			},
+
 			{ Name: "Muk", Time: "2025-02-16T17:45:30.425Z", Group: "Pokemon" },
 			{ Name: "Slowking", Time: "2025-02-16T18:03:13Z", Group: "Pokemon", Class: "Galarian" },
 			{ Name: "Exeggutor", Time: "2025-02-16T18:07:36Z", Group: "Pokemon", Class: "Alolan" },
 			{ Name: "Muk", Time: "2025-02-16T18:09:48Z", Group: "Pokemon", Class: "Alolan" },
 			{ Name: "Perrserker", Time: "2025-02-16T18:31:49Z", Group: "Pokemon" },
-			{ Name: "▓▓        ", Time: "2025-02-16T18:41:35Z", Group: "Pokemon" },
+			{ Name: "▓▓        ", Time: "2025-02-16T18:41:35Z", Group: "Pokemon", Class: "glitchmon" },
 			{ Name: "Persian", Time: "2025-02-16T19:56:51Z", Group: "Pokemon" },
 			{ Name: "Rapidash", Time: "2025-02-16T19:57:07.095Z", Group: "Pokemon" },
 			{ Name: "Tangrowth", Time: "2025-02-16T20:04:31Z", Group: "Pokemon" },
@@ -321,20 +323,20 @@ Season12.Runs.push(
 			{ Name: "Rapidash", Time: "2025-02-16T20:20:00Z", Group: "Pokemon", Class: "Galarian" },
 			{ Name: "Ninetales", Time: "2025-02-16T20:28:23Z", Group: "Pokemon" },
 			{ Name: "Ninetales", Time: "2025-02-16T20:32:33Z", Group: "Pokemon", Class: "Alolan" },
-			
-            {
-                Group: "Rematch Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League", Class: "Rematch",
-                Time: "2025-02-16T20:44:31Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Rematch Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League", Class: "Rematch",
+				Time: "2025-02-16T20:44:31Z", Attempts: 1
+			},
+
 			{ Name: "Snorlax", Time: "2025-02-16T21:29:57Z", Group: "Pokemon" },
 			{ Name: "Electrode", Time: "2025-02-16T22:19:49Z", Group: "Pokemon" },
-			
-            {
-                Group: "Rematch Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League", Class: "Rematch",
-                Time: "2025-02-16T23:00:40.964Z", Attempts: 1
-            },
-			
+
+			{
+				Group: "Rematch Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League", Class: "Rematch",
+				Time: "2025-02-16T23:00:40.964Z", Attempts: 1
+			},
+
 			{ Name: "Kleavor", Time: "2025-02-16T23:36:16Z", Group: "Pokemon" },
 			{ Name: "Clefable", Time: "2025-02-16T23:41:39Z", Group: "Pokemon" },
 			{ Name: "Crobat", Time: "2025-02-16T23:52:36Z", Group: "Pokemon" },
@@ -342,11 +344,13 @@ Season12.Runs.push(
 			{ Name: "Steelix", Time: "2025-02-17T04:16:53Z", Group: "Pokemon" },
 			{ Name: "Mewtwo", Time: "2025-02-17T04:35:08Z", Group: "Pokemon" },
 			{ Name: "Wigglytuff", Time: "2025-02-17T04:43:29Z", Group: "Pokemon" },
-			
-			{ Group: "Past Hosts", Name: "KAY", Image: "img/hosts/kay.png", 
-			Time: "2025-02-17T04:53:08.611Z", Attempts: 1, 
-			ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/aq2qmu/kay_the_planeswalker/" },
-			
+
+			{
+				Group: "Past Hosts", Name: "KAY", Image: "img/hosts/kay.png",
+				Time: "2025-02-17T04:53:08.611Z", Attempts: 1,
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/aq2qmu/kay_the_planeswalker/"
+			},
+
 			{ Name: "Flareon", Time: "2025-02-17T07:39:02Z", Group: "Pokemon" },
 			{ Name: "Jolteon", Time: "2025-02-17T07:40:52Z", Group: "Pokemon" },
 			{ Name: "Vaporeon", Time: "2025-02-17T07:44:15Z", Group: "Pokemon" },
@@ -376,92 +380,100 @@ Season12.Runs.push(
 			{ Name: "Scizor", Time: "2025-02-17T12:11:31Z", Group: "Pokemon" },
 			{ Name: "Nidoking", Time: "2025-02-17T12:25:10Z", Group: "Pokemon" },
 			{ Name: "Arcanine", Time: "2025-02-17T12:40:30Z", Group: "Pokemon" },
-			
-			{ Group: "Past Hosts", Name: "BBBBBa", Image: "img/hosts/bbbbba.png", 
-			Time: "2025-02-17T13:14:41.805Z", Attempts: 1, 
-			ImageSource: "https://www.deviantart.com/krizste/art/TPP-CharityDualRedBlue-pk-bb-sprites-946843785" },
-			
+
+			{
+				Group: "Past Hosts", Name: "BBBBBa", Image: "img/hosts/bbbbba.png",
+				Time: "2025-02-17T13:14:41.805Z", Attempts: 1,
+				ImageSource: "https://www.deviantart.com/krizste/art/TPP-CharityDualRedBlue-pk-bb-sprites-946843785"
+			},
+
 			{ Name: "Tauros", Time: "2025-02-17T13:34:01Z", Group: "Pokemon", Class: "Paldean" },
 			{ Name: "Tauros", Time: "2025-02-17T13:35:12Z", Group: "Pokemon", Class: "Paldean-Aqua" },
 			{ Name: "Porygon", Time: "2025-02-17T13:58:47Z", Group: "Pokemon" },
 			{ Name: "Porygon2", Time: "2025-02-17T14:02:01Z", Group: "Pokemon" },
 			{ Name: "Porygon-Z", Time: "2025-02-17T14:13:00Z", Group: "Pokemon" },
 			{ Name: "Articuno", Time: "2025-02-17T14:50:28Z", Group: "Pokemon" },
-			
-			{ Group: "Past Hosts", Name: "ASH", Image: "img/hosts/ash3.png", 
-			Time: "2025-02-17T15:16:20.408Z", Attempts: 1, 
-			ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/" },
-			
-			{ Group: "Past Hosts", Name: "A", Image: "img/hosts/rocket.png", 
-			Time: "2025-02-17T15:46:50.185Z", Attempts: 1, 
-			ImageSource: "" },
-			
-            {
-                Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", "Class": "Rematch",
-                Time: "2025-02-17T16:48:12.078Z", Attempts: 1
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/bruno.png", "Class": "Rematch",
-                Time: "2025-02-17T16:58:36.917Z", Attempts: 1
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/agatha.png", "Class": "Rematch",
-                Time: "2025-02-17T17:10:18.514Z", Attempts: 1
-            },
-            {
-                Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/lance.png", "Class": "Rematch",
-                Time: "2025-02-17T17:21:45.221Z", Attempts: 1
-            },
-            {
-                Group: "Champions", Name: "S", Image: "img/trainers/red/blue.png", "Class": "Rematch",
-                Time: "2025-02-17T17:31:14.371Z", Attempts: 1
-            },
-            <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-02-17T17:32:16.542Z", Attempts: 1, Party: [
-                    { Pokemon: "Gorotora", Nickname: "IRRJJJRRAA", Level: 96, Type1: "Electric" },
-                    { Pokemon: "Iguanarch", Nickname: "AAAAJKA", Level: 95, Type1: "Dragon" },
-                    { Pokemon: "Ramoose", Nickname: "AAAC", Level: 88, Type1: "Normal", Type2: "Grass" },
-                    { Pokemon: "Gawarhed", Nickname: "X]]]OWWW;♀", Level: 89, Type1: "Rock" },
-                    { Pokemon: "Balumba", Nickname: "MNOO[[Z TL", Level: 100, Type1: "Fairy", Type2: "Flying" },
-                    { Pokemon: "Omegadge", Nickname: "JRRZ", Level: 89, Type1: "Steel" },
-                ],
-                Image: "img/ribbons/champion.png",
-                FirstAttemptDate: "2025-02-17T16:41:43.338Z"
-            },
-			
+
+			{
+				Group: "Past Hosts", Name: "ASH", Image: "img/hosts/ash3.png",
+				Time: "2025-02-17T15:16:20.408Z", Attempts: 1,
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/1d4oe61/super_gauntlet_red_gold_and_silver_host_sprites/"
+			},
+
+			{
+				Group: "Past Hosts", Name: "A", Image: "img/hosts/rocket.png",
+				Time: "2025-02-17T15:46:50.185Z", Attempts: 1,
+				ImageSource: ""
+			},
+
+			{
+				Group: "Elite Four Rematch", Name: "Lorelei", Image: "img/trainers/red/lorelei.png", "Class": "Rematch",
+				Time: "2025-02-17T16:48:12.078Z", Attempts: 1
+			},
+			{
+				Group: "Elite Four Rematch", Name: "Bruno", Image: "img/trainers/red/bruno.png", "Class": "Rematch",
+				Time: "2025-02-17T16:58:36.917Z", Attempts: 1
+			},
+			{
+				Group: "Elite Four Rematch", Name: "Agatha", Image: "img/trainers/red/agatha.png", "Class": "Rematch",
+				Time: "2025-02-17T17:10:18.514Z", Attempts: 1
+			},
+			{
+				Group: "Elite Four Rematch", Name: "Lance", Image: "img/trainers/red/lance.png", "Class": "Rematch",
+				Time: "2025-02-17T17:21:45.221Z", Attempts: 1
+			},
+			{
+				Group: "Champions", Name: "S", Image: "img/trainers/red/blue.png", "Class": "Rematch",
+				Time: "2025-02-17T17:31:14.371Z", Attempts: 1
+			},
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-02-17T17:32:16.542Z", Attempts: 1, Party: [
+					{ Pokemon: "Gorotora", Nickname: "IRRJJJRRAA", Level: 96, Type1: "Electric" },
+					{ Pokemon: "Iguanarch", Nickname: "AAAAJKA", Level: 95, Type1: "Dragon" },
+					{ Pokemon: "Ramoose", Nickname: "AAAC", Level: 88, Type1: "Normal", Type2: "Grass" },
+					{ Pokemon: "Gawarhed", Nickname: "X]]]OWWW;♀", Level: 89, Type1: "Rock" },
+					{ Pokemon: "Balumba", Nickname: "MNOO[[Z TL", Level: 100, Type1: "Fairy", Type2: "Flying" },
+					{ Pokemon: "Omegadge", Nickname: "JRRZ", Level: 89, Type1: "Steel" },
+				],
+				Image: "img/ribbons/champion.png",
+				FirstAttemptDate: "2025-02-17T16:41:43.338Z"
+			},
+
 			{ Name: "Zapdos", Time: "2025-02-17T18:24:35Z", Group: "Pokemon" },
-			
-            <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-02-17T19:47:15.726Z", Attempts: 1, Party: [
-                    { Pokemon: "Gorotora", Nickname: "IRRJJJRRAA", Level: 96, Type1: "Electric" },
-                    { Pokemon: "Ramoose", Nickname: "AAAC", Level: 91, Type1: "Normal", Type2: "Grass" },
-                    { Pokemon: "Iguanarch", Nickname: "AAAAJKA", Level: 97, Type1: "Dragon" },
-                    { Pokemon: "Gawarhed", Nickname: "X]]]OWWW;♀", Level: 91, Type1: "Rock" },
-                    { Pokemon: "Balumba", Nickname: "MNOO[[Z TL", Level: 100, Type1: "Fairy", Type2: "Flying" },
-                    { Pokemon: "Pendraken", Nickname: "BLO", Level: 99, Type1: "Water", Type2: "Fairy" }
-                ],
-                Image: "img/ribbons/champion.png",
-                FirstAttemptDate: ""
-            },
-			
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-02-17T19:47:15.726Z", Attempts: 1, Party: [
+					{ Pokemon: "Gorotora", Nickname: "IRRJJJRRAA", Level: 96, Type1: "Electric" },
+					{ Pokemon: "Ramoose", Nickname: "AAAC", Level: 91, Type1: "Normal", Type2: "Grass" },
+					{ Pokemon: "Iguanarch", Nickname: "AAAAJKA", Level: 97, Type1: "Dragon" },
+					{ Pokemon: "Gawarhed", Nickname: "X]]]OWWW;♀", Level: 91, Type1: "Rock" },
+					{ Pokemon: "Balumba", Nickname: "MNOO[[Z TL", Level: 100, Type1: "Fairy", Type2: "Flying" },
+					{ Pokemon: "Pendraken", Nickname: "BLO", Level: 99, Type1: "Water", Type2: "Fairy" }
+				],
+				Image: "img/ribbons/champion.png",
+				FirstAttemptDate: ""
+			},
+
 			{ Name: "Mew", Time: "2025-02-17T20:07:27Z", Group: "Pokemon" },
-			
-			{ Group: "Past Hosts", Name: "AMANDA", Image: "img/hosts/amanda.png", 
-			Time: "2025-02-17T22:00:22.376Z", Attempts: 1, 
-			ImageSource: "" },
-			
-            <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-02-18T00:10:08.628Z", Attempts: 1, Party: [
-                    { Pokemon: "Gorotora", Nickname: "IRRJJJRRAA", Level: 100, Type1: "Electric" },
-                    { Pokemon: "▓▓        ", Nickname: "ABKABB", Level: 80, Type1: "Fighting", Type2: "Ghost" },
-                    { Pokemon: "▓▓        ", Nickname: "CCCKKKK", Level: 80, Type1: "Fighting", Type2: "Ghost" },
-                    { Pokemon: "▓▓        ", Level: 82, Type1: "Fighting", Type2: "Ghost" },
-                    { Pokemon: "Mew", Level: 33, Type1: "Psychic" },
-                    { Pokemon: "▓▓        ", Nickname: "AAACUUU)::", Level: 80, Type1: "Fighting", Type2: "Ghost" },
-                ],
-                Image: "img/ribbons/champion.png",
-                FirstAttemptDate: "2025-02-17T16:41:43.338Z"
-            },
-        ]
-    }
+
+			{
+				Group: "Past Hosts", Name: "AMANDA", Image: "img/hosts/amanda.png",
+				Time: "2025-02-17T22:00:22.376Z", Attempts: 1,
+				ImageSource: ""
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-02-18T00:10:08.628Z", Attempts: 1, Party: [
+					{ Pokemon: "Gorotora", Nickname: "IRRJJJRRAA", Level: 100, Type1: "Electric" },
+					{ Pokemon: "▓▓        ", Nickname: "ABKABB", Level: 80, Type1: "Fighting", Type2: "Ghost" },
+					{ Pokemon: "▓▓        ", Nickname: "CCCKKKK", Level: 80, Type1: "Fighting", Type2: "Ghost" },
+					{ Pokemon: "▓▓        ", Level: 82, Type1: "Fighting", Type2: "Ghost" },
+					{ Pokemon: "Mew", Level: 33, Type1: "Psychic" },
+					{ Pokemon: "▓▓        ", Nickname: "AAACUUU)::", Level: 80, Type1: "Fighting", Type2: "Ghost" },
+				],
+				Image: "img/ribbons/champion.png",
+				FirstAttemptDate: "2025-02-17T16:41:43.338Z"
+			},
+		]
+	}
 );
