@@ -3,14 +3,23 @@
 
 class Alternate {
     image: string;
+    shinyImage: string;
     constructor(public baseMon: string, public modifier: string, useFolder: boolean = false, imageFormat = "png") {
+        modifier = modifier.replace(/ /g, "");
+        baseMon = baseMon.replace(/ /g, "");
         this.image = "../img/alternate/";
         if (useFolder) this.image += modifier + "/" + baseMon;
         else this.image += baseMon + "-" + modifier;
+        this.shinyImage = this.image + "-shiny";
         this.image += "." + imageFormat;
         this.image = this.image.toLowerCase();
+        this.shinyImage += "." + imageFormat;
+        this.shinyImage = this.shinyImage.toLowerCase();
         this.baseMon = baseMon.toLowerCase();
         this.modifier = modifier.toLowerCase();
+    }
+    get shinyExists() {
+        return !!require('fs').existsSync(__dirname + '/../' + this.shinyImage);
     }
 }
 
@@ -49,7 +58,7 @@ var alternates: Alternate[] = [
 
     new Alternate("unown", "T"),
 
-	new Alternate("kyogre", "Primal"),
+    new Alternate("kyogre", "Primal"),
     new Alternate("groudon", "Primal"),
 
     new Alternate("deoxys", "Attack"),
@@ -105,7 +114,7 @@ var alternates: Alternate[] = [
     new Alternate("gourgeist", "Super"),
 
     new Alternate("zygarde", "percent10"),
-	
+
     new Alternate("Hoopa", "unbound"),
 
     new Alternate("lycanroc", "Midnight"),
@@ -124,7 +133,7 @@ var alternates: Alternate[] = [
 
     new Alternate("Zacian", "Crowned"),
     new Alternate("Zamazenta", "Crowned"),
-	
+
     new Alternate("Ursaluna", "Bloodmoon"),
 
     new Alternate("Maushold", "Four"),
@@ -132,16 +141,19 @@ var alternates: Alternate[] = [
     new Alternate("Ogerpon", "Wellspring"),
     new Alternate("Ogerpon", "Hearthflame"),
     new Alternate("Ogerpon", "Cornerstone"),
-	
+
     new Alternate("Terapagos", "Terastal"),
     new Alternate("Terapagos", "Stellar"),
 
     new Alternate("zoroark", "Eliza"),
 
     new Alternate("ub-queen", "Ultra"),
-	
+
     new Alternate("Motisma", "Tonte"),
 
 ];
 
-addStyles(alternates, (a: Alternate) => ".pokesprite." + a.baseMon + "." + a.modifier + ' img { background-image:url("' + a.image + '")!important; background-position: center!important; background-size: 1em !important; }');
+addStyles(alternates, (a: Alternate) => [
+    `.pokesprite.${a.baseMon}.${a.modifier} img { background-image:url("${a.image}")!important; background-position: center!important; background-size: 1em !important; }`,
+    a.shinyExists && `.pokesprite.${a.baseMon}.${a.modifier}.shiny img { background-image:url("${a.shinyImage}")!important; background-position: center!important; background-size: 1em !important; }`
+].filter(s => !!s));
