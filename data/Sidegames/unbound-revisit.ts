@@ -61,7 +61,7 @@ Sidegames.Runs.push(
                     { Pokemon: "Vivillon", Nickname: "Aamm", Level: 100, Gender: "Male", Form: "Poke Ball", Shiny, Number: 666, IDNo: "16572" },
                     { Pokemon: "Gyarados", Nickname: "Aaghhii", Level: 100, Gender: "Female", Form: "Mega", Shiny, Number: 130, IDNo: "16572" },
                     { Pokemon: "Quagsire", Nickname: "Cindy", Level: 100, Gender: "Female", Shiny, Number: 195, IDNo: "16572" },
-                    { Pokemon: "Garbodor", Nickname: "Recy", Level: 100, Gender: "Male", Shiny, Number: 195, IDNo: "16572" },
+                    { Pokemon: "Garbodor", Nickname: "Recy", Level: 100, Gender: "Male", Shiny, Number: 569, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -473,7 +473,12 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-19T19:54:18Z", Attempts: 0, Party: [
-					
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Fairy", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Pikachu", Level: 60, Gender: "Male", Form: "Alola Cap", Number: 25, IDNo: "00001" },
+                    { Pokemon: "Pikachu", Level: 60, Gender: "Male", Form: "Partner Cap", Number: 25, IDNo: "00001" },
+                    { Pokemon: "Pikachu", Level: 45, Gender: "Female", Form: "Flying", Number: 25, IDNo: "16572" },
+                    { Pokemon: "Pikachu", Level: 50, Gender: "Female", Form: "Surfing", Number: 25, IDNo: "16572" },
+                    { Pokemon: "Pichu", Level: 50, Gender: "Female", Form: "Spiky-Eared", Number: 172, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -481,7 +486,330 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-19T21:31:50Z", Attempts: 0, Party: [
-					
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Ground", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Diancie", Nickname: "Deyyl", Level: 100, Form: "Mega", Number: 719, IDNo: "16572" },
+                    { Pokemon: "Marshadow", Nickname: "Kaito", Level: 100, Number: 802, IDNo: "16572" },
+                    { Pokemon: "Audino", Nickname: "Aaaaconub", Level: 100, Gender: "Female", Form: "Mega", Number: 531, IDNo: "16572" },
+                    { Pokemon: "Meowstic", Level: 29, Gender: "Female", Number: 678, IDNo: "16572" },
+                    { Pokemon: "Toxtricity", Nickname: "Jkkqkf", Level: 41, Gender: "Female", Form: "Amped", Number: 849, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-20T13:13:18Z", Attempts: 0, Party: [
+                    { Pokemon: "Steelix", Nickname: "Jocc", Level: 100, Gender: "Female", Form: "Mega", Number: 208, IDNo: "16572" },
+                    { Pokemon: "Excadrill", Nickname: "Ttote4", Level: 100, Gender: "Female", Shiny, Number: 530, IDNo: "16572" },
+                    { Pokemon: "Garchomp", Nickname: "Lner", Level: 100, Gender: "Female", Form: "Mega", Number: 445, IDNo: "16572" },
+                    { Pokemon: "Camerupt", Nickname: "Hotrots", Level: 100, Gender: "Female", Form: "Mega", Number: 445, IDNo: "16572" },
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Ground", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Zygarde", Nickname: "Cell 100", Level: 100, Number: 718, IDNo: "16572" },					
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-20T16:59:55Z", Attempts: 0, Party: [
+                    { Pokemon: "Mawile", Nickname: "Gun", Level: 100, Gender: "Male", Form: "Mega", Number: 303, IDNo: "16572" },
+                    { Pokemon: "Metagross", Nickname: "Slaget", Level: 100, Form: "Mega", Number: 376, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Steel", Number: 773, IDNo: "16572" },
+                    { Pokemon: "Aggron", Nickname: "Bhhhhop/", Level: 100, Gender: "Male", Form: "Mega", Number: 306, IDNo: "16572" },
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Steel", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Excadrill", Nickname: "Ttote4", Level: 100, Gender: "Female", Shiny, Number: 530, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-20T18:27:37Z", Attempts: 0, Party: [
+                    { Pokemon: "Gengar", Nickname: "Big Boo", Level: 100, Gender: "Female", Form: "Mega", Number: 94, IDNo: "16572" },
+                    { Pokemon: "Garbodor", Nickname: "Recy", Level: 100, Gender: "Male", Shiny, Number: 569, IDNo: "16572" },
+                    { Pokemon: "Naganadel", Nickname: "Poin5on", Level: 100, Number: 804, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Poison", Number: 773, IDNo: "16572" },
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Poison", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Venusaur", Nickname: "Vig", Level: 100, Gender: "Female", Form: "Mega", Number: 3, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-20T21:49:03Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Ghost", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Zarude", Nickname: "Aot", Level: 100, Form: "Ghost", Number: 893, IDNo: "16572" },
+                    { Pokemon: "Ursaluna", Nickname: "Hhgm", Level: 65, Gender: "Male", Number: 901, IDNo: "16572" },
+                    { Pokemon: "Indeedee", Level: 15, Gender: "Male", Number: 876, IDNo: "16572" },
+                    { Pokemon: "Indeedee", Level: 15, Gender: "Female", Number: 876, IDNo: "16572" },
+                    { Pokemon: "Basculegion", Nickname: "Basculegon", Level: 50, Gender: "Male", Number: 902, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-21T01:32:26Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Water", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Flabébé", Nickname: "BASIL", Level: 54, Gender: "Female", Number: 669, IDNo: "16572" },
+                    { Pokemon: "Flabebe", Nickname: "BASIL", Level: 30, Gender: "Female", Form: "Yellow", Number: 669, IDNo: "16572" },
+                    { Pokemon: "Flabebe", Nickname: "BASIL", Level: 35, Gender: "Female", Form: "Orange", Number: 669, IDNo: "16572" },
+                    { Pokemon: "Flabebe", Nickname: "BASIL", Level: 30, Gender: "Female", Form: "Blue", Number: 669, IDNo: "16572" },
+                    { Pokemon: "Flabebe", Nickname: "BASIL", Level: 30, Gender: "Female", Form: "White", Number: 669, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-21T03:19:13Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Flying", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Floette", Nickname: "BASIL", Level: 64, Gender: "Female", Number: 670, IDNo: "16572" },
+                    { Pokemon: "Floette", Nickname: "BASIL", Level: 55, Gender: "Female", Form: "Yellow", Number: 670, IDNo: "16572" },
+                    { Pokemon: "Floette", Nickname: "BASIL", Level: 56, Gender: "Female", Form: "Orange", Number: 670, IDNo: "16572" },
+                    { Pokemon: "Floette", Nickname: "BASIL", Level: 56, Gender: "Female", Form: "Blue", Number: 670, IDNo: "16572" },
+                    { Pokemon: "Floette", Nickname: "BASIL", Level: 58, Gender: "Female", Form: "White", Number: 670, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-21T04:34:09Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Psychic", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Florges", Nickname: "BASIL", Level: 68, Gender: "Female", Number: 671, IDNo: "16572" },
+                    { Pokemon: "Florges", Nickname: "BASIL", Level: 63, Gender: "Female", Form: "Yellow", Number: 671, IDNo: "16572" },
+                    { Pokemon: "Florges", Nickname: "BASIL", Level: 63, Gender: "Female", Form: "Orange", Number: 671, IDNo: "16572" },
+                    { Pokemon: "Florges", Nickname: "BASIL", Level: 65, Gender: "Female", Form: "Blue", Number: 671, IDNo: "16572" },
+                    { Pokemon: "Florges", Nickname: "BASIL", Level: 63, Gender: "Female", Form: "White", Number: 671, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-21T07:46:28Z", Attempts: 0, Party: [
+                    { Pokemon: "Basculin", Nickname: "Amertume", Level: 100, Gender: "Female", Form: "Blue", Number: 550, IDNo: "16572" },
+                    { Pokemon: "Basculin", Nickname: "Rancoeur", Level: 100, Gender: "Male", Number: 550, IDNo: "16572" },
+                    { Pokemon: "Audino", Nickname: "Tristesse", Level: 100, Gender: "Female", Form: "Mega", Number: 531, IDNo: "16572" },
+                    { Pokemon: "Crustle", Nickname: "Depit", Level: 100, Gender: "Female", Number: 558, IDNo: "16572" },
+                    { Pokemon: "Beartic", Nickname: "Peine", Level: 100, Gender: "Female", Number: 614, IDNo: "16572" },
+                    { Pokemon: "Gothitelle", Nickname: "Chagrin", Level: 100, Gender: "Female", Number: 576, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-21T18:38:38Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Fighting", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Ghost", Number: 773, IDNo: "16572" },
+                    { Pokemon: "Swampert", Nickname: "Boe", Level: 100, Gender: "Male", Form: "Mega", Number: 260, IDNo: "16572" },
+                    { Pokemon: "Mawile", Nickname: "Gun", Level: 50, Gender: "Male", Shiny, Number: 303, IDNo: "16572" },
+                    { Pokemon: "Absol", Nickname: "Nocc", Level: 50, Gender: "Female", Shiny, Number: 359, IDNo: "16572" },
+                    { Pokemon: "Lopunny", Nickname: "J99LR", Level: 50, Gender: "Male", Shiny, Number: 428, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-21T19:30:51Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Ice", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Dark", Number: 773, IDNo: "16572" },
+                    { Pokemon: "Sableye", Nickname: "Zobiris", Level: 100, Gender: "Female", Form: "Mega", Number: 302, IDNo: "16572" },
+                    { Pokemon: "Mawile", Nickname: "Gun", Level: 50, Gender: "Male", Form: "Mega", Shiny, Number: 303, IDNo: "16572" },
+                    { Pokemon: "Absol", Nickname: "Nocc", Level: 50, Gender: "Female", Form: "Mega", Shiny, Number: 359, IDNo: "16572" },
+                    { Pokemon: "Lopunny", Nickname: "J99LR", Level: 50, Gender: "Male", Form: "Mega", Shiny, Number: 428, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-22T08:57:31Z", Attempts: 0, Party: [
+                    { Pokemon: "Greninja", Nickname: "Grashnin", Level: 100, Gender: "Male", Number: 658, IDNo: "16572" },
+                    { Pokemon: "Kyogre", Nickname: "Hicvoicc78", Level: 100, Form: "Primal", Number: 382, IDNo: "16572" },
+                    { Pokemon: "Swampert", Nickname: "Boe", Level: 100, Gender: "Male", Form: "Mega", Number: 260, IDNo: "16572" },
+                    { Pokemon: "Blastoise", Nickname: "Kanno", Level: 100, Gender: "Male", Form: "Mega", Number: 9, IDNo: "16572" },
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Water", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Sharpedo", Nickname: "fis", Level: 100, Gender: "Male", Form: "Mega", Number: 319, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-22T11:04:02Z", Attempts: 0, Party: [
+                    { Pokemon: "Groudon", Nickname: "Cliff", Level: 100, Form: "Primal", Number: 383, IDNo: "16572" },
+                    { Pokemon: "Houndoom", Nickname: "Abyssgard", Level: 100, Gender: "Male", Form: "Mega", Number: 229, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Fire", Number: 773, IDNo: "16572" },
+                    { Pokemon: "Charizard", Nickname: "Charnors", Level: 100, Gender: "Male", Form: "Mega X", Number: 6, IDNo: "16572" },
+                    { Pokemon: "Arceus", Nickname: "RED HAND", Level: 100, Form: "Fire", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Charizard", Nickname: "Y’ard", Level: 100, Gender: "Male", Form: "Mega Y", Number: 6, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-27T05:17:03Z", Attempts: 0, Party: [
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Number: 773, IDNo: "16572" },
+                    { Pokemon: "Hoopa", Nickname: "krypooonn ", Level: 100, Number: 720, IDNo: "16572" },
+                    { Pokemon: "Volcanion", Nickname: "Nqx‘", Level: 100, Number: 721, IDNo: "16572" },
+                    { Pokemon: "Sceptile", Nickname: "LEAFIE", Level: 100, Gender: "Male", Form: "Mega", Number: 254, IDNo: "16572" },
+                    { Pokemon: "Arceus", Nickname: "WHITE HAND", Level: 100, Form: "Ghost", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Aerodactyl", Nickname: "AmberSans", Level: 100, Gender: "Male", Form: "Mega", Number: 142, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-27T06:45:37Z", Attempts: 0, Party: [
+                    { Pokemon: "Hoopa", Nickname: "krypooonn ", Level: 100, Number: 720, IDNo: "16572" },
+                    { Pokemon: "Banette", Nickname: "kqpppaa", Level: 100, Gender: "Female", Form: "Mega", Number: 354, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Ghost", Number: 773, IDNo: "16572" },
+                    { Pokemon: "Sableye", Nickname: "Zobiris", Level: 100, Gender: "Female", Form: "Mega", Number: 302, IDNo: "16572" },
+                    { Pokemon: "Arceus", Nickname: "WHITE HAND", Level: 100, Form: "Ghost", Number: 493, IDNo: "16572" },
+                    { Pokemon: "Marshadow", Nickname: "Kaito", Level: 100, Number: 802, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-27T21:00:12Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Ghost", Number: 493, Shiny, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-28T20:20:50Z", Attempts: 0, Party: [
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Number: 493, Shiny, IDNo: "16572" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-02T22:16:13Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-02T23:01:03Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-02T23:46:06Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T00:51:35Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T01:58:33Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T17:50:13Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T18:39:35Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T19:34:35Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T20:46:24Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T22:57:06Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-04T00:00:01Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-05T18:52:31Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-05T19:39:22Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-05T21:51:28Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-05T22:50:37Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-06T19:57:44Z", Attempts: 0, Party: [
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-06T20:36:14Z", Attempts: 0, Party: [
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"

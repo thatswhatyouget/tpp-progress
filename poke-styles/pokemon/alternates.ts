@@ -44,15 +44,21 @@ var alternates: Alternate[] = [
     new Alternate("mewtwo", "MegaX"),
     new Alternate("mewtwo", "MegaY"),
 	
+    new Alternate("Pikachu", "Surfing"),
+    new Alternate("Pikachu", "Flying"),
     new Alternate("Pikachu", "OriginalCap"),
     new Alternate("Pikachu", "HoennCap"),
     new Alternate("Pikachu", "SinnohCap"),
     new Alternate("Pikachu", "UnovaCap"),
     new Alternate("Pikachu", "KalosCap"),
+    new Alternate("Pikachu", "AlolaCap"),
+    new Alternate("Pikachu", "PartnerCap"),
 
     new Alternate("tauros", "Paldean-Blaze"),
     new Alternate("tauros", "Paldean-Aqua"),
 
+    new Alternate("Pichu", "Spiky-Eared"),
+	
     new Alternate("unown", "T"),
 
 	new Alternate("kyogre", "Primal"),
@@ -136,7 +142,21 @@ var alternates: Alternate[] = [
     new Alternate("Vivillon", "Savanna"),
     new Alternate("Vivillon", "Sun"),
 
+    new Alternate("Flabebe", "Yellow"),
+    new Alternate("Flabebe", "Blue"),
+    new Alternate("Flabebe", "Orange"),
+    new Alternate("Flabebe", "White"),
+	
+    new Alternate("Floette", "Yellow"),
+    new Alternate("Floette", "Blue"),
+    new Alternate("Floette", "Orange"),
+    new Alternate("Floette", "White"),
     new Alternate("Floette", "Eternal"),
+	
+    new Alternate("Florges", "Yellow"),
+    new Alternate("Florges", "Blue"),
+    new Alternate("Florges", "Orange"),
+    new Alternate("Florges", "White"),
 
     new Alternate("furfrou", "Dandy"),
     new Alternate("furfrou", "Debutante"),
@@ -164,13 +184,18 @@ var alternates: Alternate[] = [
     new Alternate("oricorio", "Sensu"),
 	
     new Alternate("Silvally", "Bug"),
+    new Alternate("Silvally", "Dark"),
     new Alternate("Silvally", "Electric"),
     new Alternate("Silvally", "Fairy"),
+    new Alternate("Silvally", "Fire"),
     new Alternate("Silvally", "Flying"),
+    new Alternate("Silvally", "Ghost"),
     new Alternate("Silvally", "Grass"),
     new Alternate("Silvally", "Ice"),
+    new Alternate("Silvally", "Poison"),
     new Alternate("Silvally", "Psychic"),
     new Alternate("Silvally", "Rock"),
+    new Alternate("Silvally", "Steel"),
 
     new Alternate("Necrozma", "DuskMane"),
     new Alternate("Necrozma", "DawnWings"),
