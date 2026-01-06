@@ -126,7 +126,7 @@ Sidegames.Runs.push(
                     { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Fairy", Number: 773, IDNo: "16572" },
                     { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Fairy", Number: 493, IDNo: "16572" },
                     { Pokemon: "Gardevoir", Nickname: "Megarde", Level: 100, Gender: "Female", Form: "Mega", Number: 282, IDNo: "16572" },
-                    { Pokemon: "Magearna", Nickname: "Automaton", Level: 100, Gender: "Female", Form: "Original", Number: 801, IDNo: "16572" },
+                    { Pokemon: "Magearna", Nickname: "Automaton", Level: 100, Form: "Original", Number: 801, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -295,7 +295,7 @@ Sidegames.Runs.push(
                     { Pokemon: "Shaymin", Nickname: "Amy", Level: 100, Number: 492, IDNo: "16572" },
                     { Pokemon: "Furfrou", Level: 62, Gender: "Male", Number: 676, IDNo: "16572" },
                     { Pokemon: "Sharpedo", Nickname: "fis", Level: 53, Gender: "Male", Form: "Mega", Number: 319, IDNo: "16572" },
-                    { Pokemon: "Absol", Nickname: "Nocc", Level: 100, Gender: "Male", Form: "Mega", Number: 319, IDNo: "16572" },
+                    { Pokemon: "Absol", Nickname: "Nocc", Level: 100, Gender: "Male", Form: "Mega", Number: 359, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -698,6 +698,9 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-02T22:16:13Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Ice", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Ice", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Rock", Number: 773, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -705,6 +708,9 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-02T23:01:03Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Bug", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Bug", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Water", Number: 773, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -712,6 +718,9 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-02T23:46:06Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Fire", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Fire", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Ice", Number: 773, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -719,6 +728,9 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T00:51:35Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Steel", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Steel", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Rayquaza", Nickname: "Ryuushin", Level: 100, Form: "Mega", Number: 384, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -726,6 +738,9 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T01:58:33Z", Attempts: 0, Party: [
+                    { Pokemon: "Dialga", Nickname: "Ss", Level: 100, Form: "Origin", Number: 483, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Ghost", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Fighting", Number: 773, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -733,6 +748,9 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T17:50:13Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Rock", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Rock", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Palkia", Nickname: "ijdddd", Level: 100, Form: "Origin", Number: 484, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -740,6 +758,9 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T18:39:35Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Fairy", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Fairy", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Giratina", Nickname: "Nitemare", Level: 100, Number: 487, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -747,6 +768,9 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T19:34:35Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Poison", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Poison", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Hoopa", Nickname: "krypooonn ", Level: 100, Form: "Unbound", Number: 720, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -754,6 +778,10 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T20:46:24Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Flying", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Flying", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Hoopa", Nickname: "krypooonn ", Level: 100, Form: "Unbound", Number: 720, IDNo: "16572" },
+                    { Pokemon: "Giratina", Nickname: "Nitemare", Level: 100, Number: 487, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -761,6 +789,11 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-03T22:57:06Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Water", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Water", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Magearna", Nickname: "Automaton", Level: 100, Form: "Original", Number: 801, IDNo: "16572" },
+                    { Pokemon: "Absol", Nickname: "Nocc", Level: 100, Gender: "Male", Form: "Mega", Number: 359, IDNo: "16572" },
+                    { Pokemon: "Necrozma", Nickname: "Necrolight", Level: 100, Form: "Ultra", Number: 800, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -768,6 +801,12 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-04T00:00:01Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Dark", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Dark", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Necrozma", Nickname: "Necrolight", Level: 100, Form: "Ultra", Number: 800, IDNo: "16572" },
+                    { Pokemon: "Kyogre", Nickname: "Hicvoicc78", Level: 100, Form: "Primal", Number: 382, IDNo: "16572" },
+                    { Pokemon: "Banette", Nickname: "kqpppaa", Level: 100, Gender: "Female", Number: 354, IDNo: "16572" },
+                    { Pokemon: "Lopunny", Nickname: "J99LR", Level: 100, Gender: "Female", Number: 428, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -775,6 +814,12 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-05T18:52:31Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Grass", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Grass", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Kingdra", Level: 50, Gender: "Female", Number: 230, Shiny, IDNo: "16572" },
+                    { Pokemon: "Kyogre", Nickname: "Hicvoicc78", Level: 100, Form: "Primal", Number: 382, IDNo: "16572" },
+                    { Pokemon: "Banette", Nickname: "kqpppaa", Level: 100, Gender: "Female", Number: 354, IDNo: "16572" },
+                    { Pokemon: "Lopunny", Nickname: "J99LR", Level: 100, Gender: "Female", Number: 428, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -782,6 +827,12 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-05T19:39:22Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Psychic", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Psychic", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Gliscor", Level: 50, Gender: "Male", Number: 472, Shiny, IDNo: "16572" },
+                    { Pokemon: "Kyogre", Nickname: "Hicvoicc78", Level: 100, Form: "Primal", Number: 382, IDNo: "16572" },
+                    { Pokemon: "Banette", Nickname: "kqpppaa", Level: 100, Gender: "Female", Number: 354, IDNo: "16572" },
+                    { Pokemon: "Lopunny", Nickname: "J99LR", Level: 100, Gender: "Female", Number: 428, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -789,6 +840,12 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-05T21:51:28Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Dragon", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Dragon", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Volcarona", Level: 50, Gender: "Male", Number: 637, Shiny, IDNo: "16572" },
+                    { Pokemon: "Diancie", Nickname: "Deyyl", Level: 100, Form: "Mega", Number: 719, IDNo: "16572" },
+                    { Pokemon: "Banette", Nickname: "kqpppaa", Level: 100, Gender: "Female", Number: 354, IDNo: "16572" },
+                    { Pokemon: "Lopunny", Nickname: "J99LR", Level: 100, Gender: "Female", Number: 428, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -796,6 +853,12 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-05T22:50:37Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Fighting", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Fighting", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Floette", Nickname: "BASIL", Level: 50, Gender: "Female", Form: "Eternal", Number: 670, Shiny, IDNo: "16572" },
+                    { Pokemon: "Diancie", Nickname: "Deyyl", Level: 100, Form: "Mega", Number: 719, IDNo: "16572" },
+                    { Pokemon: "Abomasnow", Nickname: "Shnebe", Level: 100, Gender: "Male", Number: 460, IDNo: "16572" },
+                    { Pokemon: "Lopunny", Nickname: "J99LR", Level: 100, Gender: "Female", Number: 428, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -803,6 +866,12 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-06T19:57:44Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Electric", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Electric", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Trevenant", Level: 50, Gender: "Female", Number: 709, Shiny, IDNo: "16572" },
+                    { Pokemon: "Diancie", Nickname: "Deyyl", Level: 100, Form: "Mega", Number: 719, IDNo: "16572" },
+                    { Pokemon: "Abomasnow", Nickname: "Shnebe", Level: 100, Gender: "Male", Number: 460, IDNo: "16572" },
+                    { Pokemon: "Mawile", Nickname: "Gun", Level: 100, Gender: "Male", Number: 303, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
@@ -810,6 +879,12 @@ Sidegames.Runs.push(
 			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-12-06T20:36:14Z", Attempts: 0, Party: [
+                    { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Ground", Number: 493, Shiny, IDNo: "16572" },
+                    { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Ground", Number: 773, Shiny, IDNo: "16572" },
+                    { Pokemon: "Vikavolt", Level: 50, Gender: "Female", Number: 738, Shiny, IDNo: "16572" },
+                    { Pokemon: "Gyarados", Nickname: "Aaghhii", Level: 61, Gender: "Male", Form: "Mega", Number: 130, IDNo: "16572" },
+                    { Pokemon: "Houndoom", Nickname: "Abyssgard", Level: 100, Gender: "Male", Form: "Mega", Number: 229, IDNo: "16572" },
+                    { Pokemon: "Audino", Nickname: "Tristesse", Level: 100, Gender: "Female", Form: "Mega", Number: 531, IDNo: "16572" },
                 ],
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
