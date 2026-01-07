@@ -62,6 +62,7 @@ var alternates: Alternate[] = [
     new Alternate("Pikachu", "KalosCap"),
     new Alternate("Pikachu", "AlolaCap"),
     new Alternate("Pikachu", "PartnerCap"),
+    new Alternate("Pikachu", "WorldCap"),
 
     new Alternate("tauros", "Paldean-Blaze"),
     new Alternate("tauros", "Paldean-Aqua"),
@@ -218,11 +219,15 @@ var alternates: Alternate[] = [
 
     new Alternate("Toxtricity", "LowKey"),
 
+    new Alternate("Alcremie", "Matcha-Strawberry"),
     new Alternate("Alcremie", "Matcha-Ribbon"),
 
     new Alternate("Zacian", "Crowned"),
     new Alternate("Zamazenta", "Crowned"),
 
+    new Alternate("Calyrex", "IceRider"),
+    new Alternate("Calyrex", "ShadowRider"),
+	
     new Alternate("Ursaluna", "Bloodmoon"),
 	
     new Alternate("Enamorus", "Therian"),
