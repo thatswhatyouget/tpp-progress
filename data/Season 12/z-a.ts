@@ -341,23 +341,26 @@ Season12.Runs.push(
 	}
 );
 
+const revisit = {
+	RunName: "Legends: Z-A Mega Dimension",
+	ColorSecondary: "#3f3e40",
+	ColorPrimary: "#89c97c",
+	StartDate: "2025-12-10T01:12:36Z",
+	Duration: "2025-12-13T20:30:00Z",
+	HostName: '112',
+	HostImage: "img/hosts/112.png",
+	Region: "Kalos",
+	Generation: 9,
+	Pokedex: "Hyperspace (Z-A)",
+	ExtraDexes: ["Lumiose (Z-A)"],
+	CopyEvents: ["Legends: Z-A"],
+	Revisit: { Collection: "Season 12", Run: "Legends: Z-A" }
+};
+
 Revisits.Runs.push(
 	{
-		RunName: "Legends: Z-A Mega Dimension",
-		ColorSecondary: "#3f3e40",
-		ColorPrimary: "#89c97c",
-		StartDate: "2025-12-10T01:12:36Z",
-		Duration: "2025-12-13T20:30:00Z",
-		HostName: '112',
-		HostImage: "img/hosts/112.png",
-		Region: "Kalos",
-		Generation: 9,
-		Pokedex: "Hyperspace (Z-A)",
-		ExtraDexes: ["Lumiose (Z-A)"],
-		CopyEvents: ["Legends: Z-A"],
-		Revisit: { Collection: "Season 12", Run: "Legends: Z-A" },
+		...revisit,
 		Events: [
-
 			{ "Group": "Rogue Mega Pokémon", "Name": "Absol", "Time": "2025-12-10T22:09:15Z", "Attempts": 0, "Class": "pokesprite mega mega-x" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Staraptor", "Time": "2025-12-12T02:20:53Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Crabominable", "Time": "2025-12-12T23:10:22Z", "Attempts": 0, "Class": "pokesprite mega" },
@@ -407,6 +410,20 @@ Revisits.Runs.push(
 			{ "Group": "Pokemon", "Name": "Mabosstiff", "Time": "2025-12-13T16:28:49Z" },
 			{ "Group": "Pokemon", "Name": "Golurk", "Time": "2025-12-13T16:45:50Z" },
 			{ "Group": "Pokemon", "Name": "Houndstone", "Time": "2025-12-13T17:07:02Z" },
+		]
+	}
+);
+
+Revisits.Runs.push(
+	{
+		...revisit,
+		RunName: revisit.RunName + " Part 2",
+		StartDate: "2026-01-05T23:00:00Z",
+		Duration: "30d",
+		CopyEvents: [revisit.RunName],
+		Revisit: { Collection: "Revisit", Run: revisit.RunName },
+		Events: [
+
 		]
 	}
 );
