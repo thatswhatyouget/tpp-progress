@@ -216,6 +216,24 @@ declare const commonEvents: ({
     Image?: undefined;
     Attempts?: undefined;
 })[];
+declare const revisit: {
+    RunName: string;
+    ColorSecondary: string;
+    ColorPrimary: string;
+    StartDate: string;
+    Duration: string;
+    HostName: string;
+    HostImage: string;
+    Region: string;
+    Generation: number;
+    Pokedex: string;
+    ExtraDexes: string[];
+    CopyEvents: string[];
+    Revisit: {
+        Collection: string;
+        Run: string;
+    };
+};
 declare const dualBlue: TPP.Run;
 declare const dualRed: TPP.Run;
 declare module Pokedex {
