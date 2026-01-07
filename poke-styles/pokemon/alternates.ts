@@ -52,6 +52,7 @@ var alternates: Alternate[] = [
     new Alternate("charizard", "MegaY"),
     new Alternate("mewtwo", "MegaX"),
     new Alternate("mewtwo", "MegaY"),
+    new Alternate("Absol", "MegaZ"),
 	
     new Alternate("Pikachu", "Surfing"),
     new Alternate("Pikachu", "Flying"),

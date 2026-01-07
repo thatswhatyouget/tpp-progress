@@ -361,7 +361,7 @@ Revisits.Runs.push(
 	{
 		...revisit,
 		Events: [
-			{ "Group": "Rogue Mega Pokémon", "Name": "Absol", "Time": "2025-12-10T22:09:15Z", "Attempts": 0, "Class": "pokesprite mega mega-x" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Absol", "Time": "2025-12-10T22:09:15Z", "Attempts": 0, "Class": "pokesprite megaz" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Staraptor", "Time": "2025-12-12T02:20:53Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Crabominable", "Time": "2025-12-12T23:10:22Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Tatsugiri", "Time": "2025-12-13T11:55:58Z", "Attempts": 0, "Class": "pokesprite mega" },
