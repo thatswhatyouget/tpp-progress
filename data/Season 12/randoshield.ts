@@ -37,27 +37,27 @@ Season12.Runs.push(
 					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 72 },
 					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 77 },
 					{ Pokemon: "Espeon", Nickname: "wrtgooo", Gender: "Female", Level: 79 },
-					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 82, Form: "Matcha Cream Strawberry" },
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 82, Form: "Matcha-Strawberry" },
 				],
 				Image: "img/ribbons/champion-galar.png"
 			},
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-17T08:41:09Z", IDNo: "031120", Party: [
-					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 84, Form: "Matcha Cream Strawberry" },
-					{ Pokemon: "Stonjourner", Nickname: "Doug", Gender: "Male", Level: 69 },
 					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 79 },
+					{ Pokemon: "Stonjourner", Nickname: "Doug", Gender: "Male", Level: 69 },
+					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 74 },
 					{ Pokemon: "Polteageist", Nickname: "Coffeeeee", Level: 73, Form: "Antique" },
 					{ Pokemon: "Shuckle", Gender: "Female", Level: 55 },
-					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 74 },
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 84, Form: "Matcha-Strawberry" },
 				],
 				Image: "img/ribbons/champion-galar.png"
 			},
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-17T16:47:58Z", IDNo: "031120", Party: [
-					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 86, Form: "Matcha Cream Strawberry" },
 					{ Pokemon: "Polteageist", Nickname: "Coffeeeee", Level: 79, Form: "Antique" },
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 86, Form: "Matcha-Strawberry" },
 					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 78 },
 					{ Pokemon: "Drapion", Nickname: "Nebby", Gender: "Male", Level: 73 },
 					{ Pokemon: "Golisopod", Nickname: "1:p", Gender: "Female", Level: 54 },
@@ -68,9 +68,9 @@ Season12.Runs.push(
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-19T13:11:39Z", IDNo: "031120", Party: [
-					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 93, Form: "Matcha Cream Strawberry" },
 					{ Pokemon: "Polteageist", Nickname: "Coffeeeee", Level: 99, Form: "Antique" },
-					{ Pokemon: "Cosmog", Nickname: "zebby", Level: 56 },
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 93, Form: "Matcha-Strawberry" },
+					{ Pokemon: "Cosmog", Nickname: "zebby", Level: 42 },
 					{ Pokemon: "Cosmoem", Level: 56 },
 					{ Pokemon: "Meltan", Nickname: "op", Level: 54 },
 					{ Pokemon: "Kubfu", Gender: "Male", Level: 42 },
@@ -80,20 +80,20 @@ Season12.Runs.push(
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-19T14:00:16Z", IDNo: "031120", Party: [
-					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 95, Form: "Matcha Cream Strawberry" },
 					{ Pokemon: "Polteageist", Nickname: "Coffeeeee", Level: 100, Form: "Antique" },
-					{ Pokemon: "Pikachu", Level: 64, Gender: "Male", Form: "World Hat" },
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 95, Form: "Matcha-Strawberry" },
+					{ Pokemon: "Pikachu", Level: 64, Gender: "Male", Form: "World Cap" },
 					{ Pokemon: "Pichu", Level: 44, Gender: "Female" },
-					{ Pokemon: "Shellos", Level: 55, Gender: "Female", Form: "West Sea" },
-					{ Pokemon: "Shellos", Level: 65, Gender: "Male", Form: "East Sea" }
+					{ Pokemon: "Shellos", Level: 55, Gender: "Female", Form: "West" },
+					{ Pokemon: "Shellos", Level: 65, Gender: "Male", Form: "East" }
 				],
 				Image: "img/ribbons/champion-galar.png"
 			},
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-19T16:13:48Z", IDNo: "031120", Party: [
-					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 99, Form: "Matcha Cream Strawberry" },
 					{ Pokemon: "Polteageist", Nickname: "Coffeeeee", Level: 100, Form: "Antique" },
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 99, Form: "Matcha-Strawberry" },
 					{ Pokemon: "Hippopotas", Level: 63, Gender: "Male" },
 					{ Pokemon: "Hippopotas", Level: 43, Gender: "Female" },
 					{ Pokemon: "Frillish", Level: 64, Gender: "Male" },
@@ -104,43 +104,43 @@ Season12.Runs.push(
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-19T17:15:11Z", IDNo: "031120", Party: [
-					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 99, Form: "Matcha Cream Strawberry" },
-					{ Pokemon: "Meowth", Level: 50, Gender: "Female", Form: "Alolan" },
 					{ Pokemon: "Polteageist", Nickname: "Coffeeeee", Level: 100, Form: "Antique" },
-					{ Pokemon: "Meowth", Level: 64, Gender: "Female", Form: "Galarian" },
-					{ Pokemon: "Ponyta", Level: 64, Gender: "Male", Form: "Galarian" },
-					{ Pokemon: "Yamask", Level: 64, Gender: "Female" }
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 100, Form: "Matcha-Strawberry" },
+					{ Pokemon: "Meowth", Level: 50, Gender: "Female", Form: "Alolan" },
+					{ Pokemon: "Meowth", Level: 64, Gender: "Male", Form: "Galarian" },
+					{ Pokemon: "Ponyta", Level: 64, Gender: "Female", Form: "Galarian" },
+					{ Pokemon: "Yamask", Level: 64, Gender: "Male" }
 				],
 				Image: "img/ribbons/champion-galar.png"
 			},
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-20T08:30:51Z", IDNo: "031120", Party: [
-					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 82 },
+					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 87 },
 					{ Pokemon: "Gengar", Nickname: "olaa", Gender: "Female", Level: 68 },
 					{ Pokemon: "Barbaracle", Nickname: "1d4 5uuooo", Gender: "Male", Level: 69 },
 					{ Pokemon: "Shuckle", Gender: "Female", Level: 71 },
+					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 82 },
 					{ Pokemon: "Milotic", Nickname: "Lila", Gender: "Female", Level: 86, Shiny },
-					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 87 }
 				],
 				Image: "img/ribbons/champion-galar.png"
 			},
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-20T19:05:00Z", IDNo: "031120", Party: [
-					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 100, Form: "Matcha Cream Strawberry" },
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 100, Form: "Matcha-Strawberry" },
 					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 92 },
 					{ Pokemon: "Yamask", Level: 44, Gender: "Female", Form: "Galarian" },
 					{ Pokemon: "Sandshrew", Level: 46, Gender: "Female" },
 					{ Pokemon: "Sandshrew", Level: 64, Gender: "Female", Form: "Alolan" },
-					{ Pokemon: "Farfetch'd", Level: 44, Gender: "Female" }
+					{ Pokemon: "Farfetch'd", Level: 44, Gender: "Female", Form: "Galarian" }
 				],
 				Image: "img/ribbons/champion-galar.png"
 			},
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-20T20:31:03Z", IDNo: "031120", Party: [
-					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 100, Form: "Matcha Cream Strawberry" },
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 100, Form: "Matcha-Strawberry" },
 					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 94 },
 					{ Pokemon: "Vulpix", Level: 44, Gender: "Male" },
 					{ Pokemon: "Vulpix", Level: 44, Gender: "Female", Form: "Alolan" },
@@ -152,7 +152,7 @@ Season12.Runs.push(
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-20T21:01:27Z", IDNo: "031120", Party: [
-					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 100, Form: "Matcha Cream Strawberry" },
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 100, Form: "Matcha-Strawberry" },
 					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 95 },
 					{ Pokemon: "Mr. Mime", Level: 43, Gender: "Female", Form: "Galarian" },
 					{ Pokemon: "Corsola", Level: 47, Gender: "Female", Form: "Galarian" },
@@ -164,9 +164,9 @@ Season12.Runs.push(
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-21T03:50:53Z", IDNo: "031120", Party: [
-					{ Pokemon: "Gengar", Nickname: "olaa", Gender: "Female", Level: 80 },
-					{ Pokemon: "Stonjourner", Nickname: "Doug", Gender: "Male", Level: 85 },
 					{ Pokemon: "Milotic", Nickname: "Lila", Gender: "Female", Level: 99, Shiny },
+					{ Pokemon: "Stonjourner", Nickname: "Doug", Gender: "Male", Level: 85 },
+					{ Pokemon: "Gengar", Nickname: "olaa", Gender: "Female", Level: 80 },
 					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 86 },
 					{ Pokemon: "Shuckle", Gender: "Female", Level: 76 },
 					{ Pokemon: "Barbaracle", Nickname: "1d4 5uuooo", Gender: "Male", Level: 79 }
@@ -176,12 +176,84 @@ Season12.Runs.push(
 
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-21T04:22:49Z", IDNo: "031120", Party: [
-					{ Pokemon: "Stonjourner", Nickname: "Doug", Gender: "Male", Level: 86 },
-					{ Pokemon: "Barbaracle", Nickname: "1d4 5uuooo", Gender: "Male", Level: 82 },
-					{ Pokemon: "Gengar", Nickname: "olaa", Gender: "Female", Level: 82 },
 					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 97 },
+					{ Pokemon: "Stonjourner", Nickname: "Doug", Gender: "Male", Level: 86 },
+					{ Pokemon: "Gengar", Nickname: "olaa", Gender: "Female", Level: 82 },
+					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 87 },
 					{ Pokemon: "Shuckle", Gender: "Female", Level: 78 },
-					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 87 }
+					{ Pokemon: "Barbaracle", Nickname: "1d4 5uuooo", Gender: "Male", Level: 82 },
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+			
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-21T04:54:36Z", IDNo: "031120", Party: [
+					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 98 },
+					{ Pokemon: "Stonjourner", Nickname: "Doug", Gender: "Male", Level: 87 },
+					{ Pokemon: "Gengar", Nickname: "olaa", Gender: "Female", Level: 85 },
+					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 89 },
+					{ Pokemon: "Shuckle", Gender: "Female", Level: 80 },
+					{ Pokemon: "Barbaracle", Nickname: "1d4 5uuooo", Gender: "Male", Level: 84 },
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+			
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-21T14:36:44Z", IDNo: "031120", Party: [
+					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 100 },
+					{ Pokemon: "Stonjourner", Nickname: "Doug", Gender: "Male", Level: 91 },
+					{ Pokemon: "Darumaka", Level: 64, Gender: "Female" },
+					{ Pokemon: "Darumaka", Level: 46, Gender: "Female", Form: "Galarian" },
+					{ Pokemon: "Zacian", Nickname: "D", Level: 72 },
+					{ Pokemon: "Calyrex", Nickname: "Noobow", Level: 81 },
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-22T05:41:39Z", IDNo: "031120", Party: [
+					{ Pokemon: "Shuckle", Nickname: "Fackal", Gender: "Female", Level: 88 },
+					{ Pokemon: "Stonjourner", Nickname: "Doug", Gender: "Male", Level: 95 },
+					{ Pokemon: "Barbaracle", Nickname: "1d4 5uuooo", Gender: "Male", Level: 93 },
+					{ Pokemon: "Gengar", Nickname: "olaa", Gender: "Female", Level: 92 },
+					{ Pokemon: "Espeon", Nickname: "wrtgooo", Gender: "Female", Level: 93 },
+					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 96 },
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-22T11:59:34Z", IDNo: "031120", Party: [
+					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 100 },
+					{ Pokemon: "Espeon", Nickname: "wrtgooo", Gender: "Female", Level: 100 },
+					{ Pokemon: "Diglett", Nickname: "wowww", Gender: "Female", Level: 46 },
+					{ Pokemon: "Wooper", Gender: "Female", Level: 65 },
+					{ Pokemon: "Zorua", Gender: "Male", Level: 64 },
+					{ Pokemon: "Calyrex", Nickname: "Noobow", Level: 81, Form: "Ice Rider" },
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-22T13:17:21Z", IDNo: "031120", Party: [
+					{ Pokemon: "Espeon", Nickname: "wrtgooo", Gender: "Female", Level: 100 },
+					{ Pokemon: "Stonjourner", Nickname: "Doug", Gender: "Male", Level: 100 },
+					{ Pokemon: "Gengar", Nickname: "olaa", Gender: "Female", Level: 96 },
+					{ Pokemon: "Barbaracle", Nickname: "1d4 5uuooo", Gender: "Male", Level: 97 },
+					{ Pokemon: "Shuckle", Nickname: "Fackal", Gender: "Female", Level: 93 },
+					{ Pokemon: "Calyrex", Nickname: "Noobow", Level: 84, Form: "Shadow Rider" },
+				],
+				Image: "img/ribbons/champion-galar.png"
+			},
+			
+			<TPP.HallOfFame>{
+				Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2025-12-22T18:34:42Z", IDNo: "031120", Party: [
+					{ Pokemon: "Polteageist", Nickname: "Coffeeeee", Level: 100, Form: "Antique" },
+					{ Pokemon: "Espeon", Nickname: "wrtgooo", Gender: "Female", Level: 100 },
+					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 100 },
+					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 100 },
+					{ Pokemon: "Milotic", Nickname: "Lila", Gender: "Female", Level: 100, Shiny },
+					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 100, Form: "Matcha-Strawberry" },
 				],
 				Image: "img/ribbons/champion-galar.png"
 			},
