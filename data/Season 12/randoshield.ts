@@ -204,7 +204,7 @@ Season12.Runs.push(
 					{ Pokemon: "Stonjourner", Nickname: "Doug", Gender: "Male", Level: 91 },
 					{ Pokemon: "Darumaka", Level: 64, Gender: "Female" },
 					{ Pokemon: "Darumaka", Level: 46, Gender: "Female", Form: "Galarian" },
-					{ Pokemon: "Zacian", Nickname: "D", Level: 72 },
+					{ Pokemon: "Zamazenta", Nickname: "D", Level: 72 },
 					{ Pokemon: "Calyrex", Nickname: "Noobow", Level: 81 },
 				],
 				Image: "img/ribbons/champion-galar.png"
