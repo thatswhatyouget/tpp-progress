@@ -187,7 +187,7 @@ Sidegames.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-15T09:13:23Z", Attempts: 0, Party: [
                     { Pokemon: "Sceptile", Level: 100, Gender: "Male", Form: "Mega", Number: 254, IDNo: "16572" },
-                    { Pokemon: "Zarude", Nickname: "Aot", Level: 100, Gender: "Male", Number: 893, IDNo: "16572" },
+                    { Pokemon: "Zarude", Nickname: "Aot", Level: 100, Gender: "Male", Form: "Dada", Number: 893, IDNo: "16572" },
                     { Pokemon: "Shaymin", Nickname: "Amy", Level: 100, Form: "Sky", Number: 492, IDNo: "16572" },
                     { Pokemon: "Venusaur", Level: 100, Gender: "Female", Form: "Mega", Number: 3, IDNo: "16572" },
                     { Pokemon: "Silvally", Nickname: "DAGGER", Level: 100, Form: "Grass", Number: 773, IDNo: "16572" },
@@ -539,7 +539,7 @@ Sidegames.Runs.push(
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "16572", Time: "2025-11-20T21:49:03Z", Attempts: 0, Party: [
                     { Pokemon: "Arceus", Nickname: "HAND", Level: 100, Form: "Ghost", Number: 493, IDNo: "16572" },
-                    { Pokemon: "Zarude", Nickname: "Aot", Level: 100, Form: "Ghost", Number: 893, IDNo: "16572" },
+                    { Pokemon: "Zarude", Nickname: "Aot", Level: 100, Form: "Dada", Number: 893, IDNo: "16572" },
                     { Pokemon: "Ursaluna", Nickname: "Hhgm", Level: 65, Gender: "Male", Number: 901, IDNo: "16572" },
                     { Pokemon: "Indeedee", Level: 15, Gender: "Male", Number: 876, IDNo: "16572" },
                     { Pokemon: "Indeedee", Level: 15, Gender: "Female", Number: 876, IDNo: "16572" },
