@@ -226,6 +226,8 @@ var alternates: Alternate[] = [
 
     new Alternate("Zacian", "Crowned"),
     new Alternate("Zamazenta", "Crowned"),
+	
+    new Alternate("Zarude", "Dada"),
 
     new Alternate("Calyrex", "IceRider"),
     new Alternate("Calyrex", "ShadowRider"),
