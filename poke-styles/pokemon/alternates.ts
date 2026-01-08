@@ -93,6 +93,7 @@ var alternates: Alternate[] = [
 
     new Alternate("dialga", "Origin"),
     new Alternate("palkia", "Origin"),
+    new Alternate("giratina", "Origin"),
 	
     new Alternate("Shaymin", "Sky"),
 
