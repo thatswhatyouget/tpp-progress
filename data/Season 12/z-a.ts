@@ -414,16 +414,50 @@ Revisits.Runs.push(
 	}
 );
 
-Revisits.Runs.push(
-	{
-		...revisit,
-		RunName: revisit.RunName + " Part 2",
-		StartDate: "2026-01-05T23:00:00Z",
-		Duration: "30d",
-		CopyEvents: [revisit.RunName],
-		Revisit: { Collection: "Revisit", Run: revisit.RunName },
-		Events: [
+const revisit2 = {
+	...revisit,
+	RunName: revisit.RunName + " Part 2",
+	StartDate: "2026-01-05T23:00:00Z",
+	Duration: "30d",
+	CopyEvents: [revisit.RunName],
+	Revisit: { Collection: "Revisit", Run: revisit.RunName },
+	Events: [
+		{ "Group": "Rogue Mega Pokémon", "Name": "Meowstic", "Time": "2026-01-06T13:05:27Z", "Attempts": 0, "Class": "pokesprite mega" },
+		{ "Group": "Rogue Mega Pokémon", "Name": "Golisopod", "Time": "2026-01-06T13:45:23Z", "Attempts": 0, "Class": "pokesprite mega" },
+		{ "Group": "Rogue Mega Pokémon", "Name": "Chimecho", "Time": "2026-01-06T22:17:00Z", "Attempts": 0, "Class": "pokesprite mega" },
+		{ "Group": "Rogue Mega Pokémon", "Name": "Heatran", "Time": "2026-01-07T19:28:57Z", "Attempts": 0, "Class": "pokesprite mega" },
 
-		]
-	}
-);
+		{ "Group": "Pokemon", "Name": "Tinkatink", "Time": "2026-01-05T23:17:20Z" },
+		{ "Group": "Pokemon", "Name": "Tinkatuff", "Time": "2026-01-05T23:37:09Z" },
+		{ "Group": "Pokemon", "Name": "Tinkaton", "Time": "2026-01-05T23:37:40Z" },
+		{ "Group": "Pokemon", "Name": "Meowth", "Time": "2026-01-06T01:11:12Z" },
+		{ "Group": "Pokemon", "Name": "Capsakid", "Time": "2026-01-06T01:34:37Z" },
+		{ "Group": "Pokemon", "Name": "Yamask", "Time": "2026-01-06T02:50:15Z" },
+		{ "Group": "Pokemon", "Name": "Fidough", "Time": "2026-01-06T04:20:04Z" },
+		{ "Group": "Pokemon", "Name": "Charcadet", "Time": "2026-01-06T06:15:24Z" },
+		{ "Group": "Pokemon", "Name": "Armarouge", "Time": "2026-01-06T06:23:20Z" },
+		{ "Group": "Pokemon", "Name": "Scovillain", "Time": "2026-01-06T09:25:17Z" },
+		{ "Group": "Pokemon", "Name": "Dachsbun", "Time": "2026-01-06T09:39:17Z" },
+		{ "Group": "Pokemon", "Name": "Treecko", "Time": "2026-01-06T11:25:42Z" },
+		{ "Group": "Pokemon", "Name": "Grovyle", "Time": "2026-01-06T14:17:46Z" },
+		{ "Group": "Pokemon", "Name": "Sceptile", "Time": "2026-01-06T14:50:48Z" },
+		{ "Group": "Pokemon", "Name": "Perrserker", "Time": "2026-01-06T14:56:31Z" },
+		{ "Group": "Pokemon", "Name": "Runerigus", "Time": "2026-01-06T15:04:58Z" },
+		{ "Group": "Pokemon", "Name": "Seviper", "Time": "2026-01-06T19:16:49Z" },
+		{ "Group": "Pokemon", "Name": "Igglybuff", "Time": "2026-01-06T20:33:55Z" },
+		{ "Group": "Pokemon", "Name": "Morpeko", "Time": "2026-01-06T21:17:11Z" },
+		{ "Group": "Pokemon", "Name": "Jigglypuff", "Time": "2026-01-06T22:44:30Z" },
+		{ "Group": "Pokemon", "Name": "Wigglytuff", "Time": "2026-01-06T22:45:31Z" },
+		{ "Group": "Pokemon", "Name": "Mankey", "Time": "2026-01-07T00:02:26Z" },
+		{ "Group": "Pokemon", "Name": "Zangoose", "Time": "2026-01-07T00:21:05Z" },
+		{ "Group": "Pokemon", "Name": "Primeape", "Time": "2026-01-07T00:33:03Z" },
+		{ "Group": "Pokemon", "Name": "Annihilape", "Time": "2026-01-07T00:52:16Z" },
+		{ "Group": "Pokemon", "Name": "Porygon", "Time": "2026-01-07T03:10:10Z" },
+		{ "Group": "Pokemon", "Name": "Porygon2", "Time": "2026-01-07T08:50:38Z" },
+		{ "Group": "Pokemon", "Name": "Cofagrigus", "Time": "2026-01-07T16:25:35Z" },
+		{ "Group": "Pokemon", "Name": "Heatran", "Time": "2026-01-07T19:28:45Z" },
+		{ "Group": "Pokemon", "Name": "Purrloin", "Time": "2026-01-07T23:16:02Z" },
+	]
+};
+
+Revisits.Runs.push(revisit2);
