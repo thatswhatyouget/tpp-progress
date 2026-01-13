@@ -108,7 +108,7 @@ Sidegames.Runs.push(
             },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-12-23T19:48:18Z", IDNo: "33596", Attempts: 13, Party: [
-                    { Pokemon: "Mallar'ki", Nickname: "Artoria", Level: 64, Gender: "Female", Number: 146, IDNo: "33596" },
+                    { Pokemon: "Mallar'ki", Nickname: "Artoria", Level: 63, Gender: "Female", Number: 146, IDNo: "33596" },
                     { Pokemon: "Silviper", Nickname: "QR", Level: 63, Gender: "Male", Number: 204, IDNo: "33596" },
                     { Pokemon: "Drasparath", Nickname: "Zooey", Level: 63, Gender: "Female", Number: 137, IDNo: "33596" },
                     { Pokemon: "Zangaro", Nickname: "AGG", Level: 64, Gender: "Female", Number: 206, IDNo: "33596" },
