@@ -426,6 +426,7 @@ const revisit2 = {
 		{ "Group": "Rogue Mega Pokémon", "Name": "Golisopod", "Time": "2026-01-06T13:45:23Z", "Attempts": 0, "Class": "pokesprite mega" },
 		{ "Group": "Rogue Mega Pokémon", "Name": "Chimecho", "Time": "2026-01-06T22:17:00Z", "Attempts": 0, "Class": "pokesprite mega" },
 		{ "Group": "Rogue Mega Pokémon", "Name": "Heatran", "Time": "2026-01-07T19:28:57Z", "Attempts": 0, "Class": "pokesprite mega" },
+		{ "Group": "Rogue Mega Pokémon", "Name": "Darkrai", "Time": "2026-01-10T03:11:36Z", "Attempts": 0, "Class": "pokesprite mega" },
 
 		{ "Group": "Pokemon", "Name": "Tinkatink", "Time": "2026-01-05T23:17:20Z" },
 		{ "Group": "Pokemon", "Name": "Tinkatuff", "Time": "2026-01-05T23:37:09Z" },
