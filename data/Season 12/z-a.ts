@@ -418,7 +418,7 @@ const revisit2 = {
 	...revisit,
 	RunName: revisit.RunName + " Part 2",
 	StartDate: "2026-01-05T23:00:00Z",
-	Duration: "30d",
+	Duration: "2026-01-10T03:27:14Z",
 	CopyEvents: [revisit.RunName],
 	Revisit: { Collection: "Revisit", Run: revisit.RunName },
 	Events: [
@@ -458,7 +458,38 @@ const revisit2 = {
 		{ "Group": "Pokemon", "Name": "Cofagrigus", "Time": "2026-01-07T16:25:35Z" },
 		{ "Group": "Pokemon", "Name": "Heatran", "Time": "2026-01-07T19:28:45Z" },
 		{ "Group": "Pokemon", "Name": "Purrloin", "Time": "2026-01-07T23:16:02Z" },
+		{ "Group": "Pokemon", "Name": "Marshtomp", "Time": "2026-01-08T12:15:57Z" },
+		{ "Group": "Pokemon", "Name": "Swampert", "Time": "2026-01-08T13:48:02Z" },
+		{ "Group": "Pokemon", "Name": "Glimmet", "Time": "2026-01-08T14:18:40Z" },
+		{ "Group": "Pokemon", "Name": "Glimmora", "Time": "2026-01-08T14:25:11Z" },
+		{ "Group": "Pokemon", "Name": "Liepard", "Time": "2026-01-08T15:06:00Z" },
+		{ "Group": "Pokemon", "Name": "Porygon-Z", "Time": "2026-01-08T15:14:57Z" },
+		{ "Group": "Pokemon", "Name": "Munna", "Time": "2026-01-08T15:50:11Z" },
+		{ "Group": "Pokemon", "Name": "Musharna", "Time": "2026-01-08T15:56:16Z" },
+		{ "Group": "Pokemon", "Name": "Mr. Mime", "Time": "2026-01-08T16:36:24Z" },
+		{ "Group": "Pokemon", "Name": "Mr. Rime", "Time": "2026-01-08T16:45:23Z" },
+		{ "Group": "Pokemon", "Name": "Farfetch'd", "Time": "2026-01-08T17:51:45Z" },
+		{ "Group": "Pokemon", "Name": "Mime Jr.", "Time": "2026-01-08T17:57:47Z" },
+		{ "Group": "Pokemon", "Name": "Spoink", "Time": "2026-01-08T18:13:12Z" },
+		{ "Group": "Pokemon", "Name": "Grumpig", "Time": "2026-01-08T18:17:16Z" },
+		{ "Group": "Pokemon", "Name": "Mudkip", "Time": "2026-01-09T14:36:46Z" },
+		{ "Group": "Pokemon", "Name": "Squawkabilly", "Time": "2026-01-09T17:02:28Z" },
+		{ "Group": "Pokemon", "Name": "Darkrai", "Time": "2026-01-10T03:11:53Z" },
 	]
 };
 
 Revisits.Runs.push(revisit2);
+
+const revisit3 = {
+	...revisit2,
+	RunName: revisit.RunName + " Part 3",
+	StartDate: "",
+	Duration: "30d",
+	CopyEvents: [revisit2.RunName],
+	Revisit: { Collection: "Revisit", Run: revisit2.RunName },
+	Events: [
+
+	]
+};
+
+//Revisits.Runs.push(revisit3);

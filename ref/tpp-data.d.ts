@@ -265,6 +265,25 @@ declare const revisit2: {
     Pokedex: string;
     ExtraDexes: string[];
 };
+declare const revisit3: {
+    RunName: string;
+    StartDate: string;
+    Duration: string;
+    CopyEvents: string[];
+    Revisit: {
+        Collection: string;
+        Run: string;
+    };
+    Events: any[];
+    ColorSecondary: string;
+    ColorPrimary: string;
+    HostName: string;
+    HostImage: string;
+    Region: string;
+    Generation: number;
+    Pokedex: string;
+    ExtraDexes: string[];
+};
 declare const dualBlue: TPP.Run;
 declare const dualRed: TPP.Run;
 declare module Pokedex {
