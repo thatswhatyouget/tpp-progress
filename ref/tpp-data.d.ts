@@ -216,74 +216,8 @@ declare const commonEvents: ({
     Image?: undefined;
     Attempts?: undefined;
 })[];
-declare const revisit: {
-    RunName: string;
-    ColorSecondary: string;
-    ColorPrimary: string;
-    StartDate: string;
-    Duration: string;
-    HostName: string;
-    HostImage: string;
-    Region: string;
-    Generation: number;
-    Pokedex: string;
-    ExtraDexes: string[];
-    CopyEvents: string[];
-    Revisit: {
-        Collection: string;
-        Run: string;
-    };
-};
-declare const revisit2: {
-    RunName: string;
-    StartDate: string;
-    Duration: string;
-    CopyEvents: string[];
-    Revisit: {
-        Collection: string;
-        Run: string;
-    };
-    Events: ({
-        Group: string;
-        Name: string;
-        Time: string;
-        Attempts: number;
-        Class: string;
-    } | {
-        Group: string;
-        Name: string;
-        Time: string;
-        Attempts?: undefined;
-        Class?: undefined;
-    })[];
-    ColorSecondary: string;
-    ColorPrimary: string;
-    HostName: string;
-    HostImage: string;
-    Region: string;
-    Generation: number;
-    Pokedex: string;
-    ExtraDexes: string[];
-};
-declare const revisit3: {
-    RunName: string;
-    StartDate: string;
-    Duration: string;
-    CopyEvents: string[];
-    Revisit: {
-        Collection: string;
-        Run: string;
-    };
-    Events: any[];
-    ColorSecondary: string;
-    ColorPrimary: string;
-    HostName: string;
-    HostImage: string;
-    Region: string;
-    Generation: number;
-    Pokedex: string;
-    ExtraDexes: string[];
-};
+declare namespace ZA {
+}
 declare const dualBlue: TPP.Run;
 declare const dualRed: TPP.Run;
 declare module Pokedex {
