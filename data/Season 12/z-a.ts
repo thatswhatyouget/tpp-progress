@@ -490,8 +490,22 @@ namespace ZA {
 		CopyEvents: [revisit2.RunName],
 		Revisit: { Collection: "Revisit", Run: revisit2.RunName },
 		Events: [
+			{ "Group": "Rogue Mega Pokémon", "Name": "Groudon", "Time": "2026-02-10T21:00:11Z", "Attempts": 0, "Class": "pokesprite mega" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Kyogre", "Time": "2026-02-10T22:21:19Z", "Attempts": 0, "Class": "pokesprite mega" },
+
 			{ "Group": "Pokemon", "Name": "Cyclizar", "Time": "2026-02-08T23:13:28Z" },
 			{ "Group": "Pokemon", "Name": "Persian", "Time": "2026-02-09T00:09:11Z" },
+			{ "Group": "Pokemon", "Name": "Feebas", "Time": "2026-02-09T10:01:38Z" },
+			{ "Group": "Pokemon", "Name": "Sawk", "Time": "2026-02-09T18:28:07Z" },
+			{ "Group": "Pokemon", "Name": "Mimikyu", "Time": "2026-02-10T06:44:30Z" },
+			{ "Group": "Pokemon", "Name": "Torchic", "Time": "2026-02-10T18:31:13Z" },
+			{ "Group": "Pokemon", "Name": "Combusken", "Time": "2026-02-10T18:39:56Z" },
+			{ "Group": "Pokemon", "Name": "Blaziken", "Time": "2026-02-10T19:01:27Z" },
+			{ "Group": "Pokemon", "Name": "Groudon", "Time": "2026-02-10T21:00:11Z" },
+			{ "Group": "Pokemon", "Name": "Kyogre", "Time": "2026-02-10T22:21:19Z" },
+			{ "Group": "Pokemon", "Name": "Throh", "Time": "2026-02-10T23:00:33Z" },
+			{ "Group": "Pokemon", "Name": "Flamigo", "Time": "2026-02-11T11:14:43Z" },
+			{ "Group": "Pokemon", "Name": "Kecleon", "Time": "2026-02-11T20:30:28Z" },
 		]
 	};
 
