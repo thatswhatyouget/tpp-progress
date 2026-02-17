@@ -485,13 +485,14 @@ namespace ZA {
 	const revisit3: TPP.Run = {
 		...revisit2,
 		RunName: revisit.RunName + " Part 3",
-		StartDate: "2026-02-08T22:00:00Z",
-		Duration: "6d23h",
+		StartDate: "2026-02-08T21:44:42Z",
+		Duration: "2026-02-15T20:14:43Z",
 		CopyEvents: [revisit2.RunName],
 		Revisit: { Collection: "Revisit", Run: revisit2.RunName },
 		Events: [
 			{ "Group": "Rogue Mega Pokémon", "Name": "Groudon", "Time": "2026-02-10T21:00:11Z", "Attempts": 0, "Class": "pokesprite mega" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Kyogre", "Time": "2026-02-10T22:21:19Z", "Attempts": 0, "Class": "pokesprite mega" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Rayquaza", "Time": "2026-02-15T00:07:30Z", "Attempts": 0, "Class": "pokesprite mega" },
 
 			{ "Group": "Pokemon", "Name": "Cyclizar", "Time": "2026-02-08T23:13:28Z" },
 			{ "Group": "Pokemon", "Name": "Persian", "Time": "2026-02-09T00:09:11Z" },
@@ -506,6 +507,16 @@ namespace ZA {
 			{ "Group": "Pokemon", "Name": "Throh", "Time": "2026-02-10T23:00:33Z" },
 			{ "Group": "Pokemon", "Name": "Flamigo", "Time": "2026-02-11T11:14:43Z" },
 			{ "Group": "Pokemon", "Name": "Kecleon", "Time": "2026-02-11T20:30:28Z" },
+			{ "Group": "Pokemon", "Name": "Indeedee", "Time": "2026-02-13T17:32:39Z" }, //Atilla
+			{ "Group": "Pokemon", "Name": "Gholdengo", "Time": "2026-02-14T05:33:38Z" },
+			{ "Group": "Pokemon", "Name": "Dondozo", "Time": "2026-02-14T18:34:07Z" }, //Atilla
+			{ "Group": "Pokemon", "Name": "Rayquaza", "Time": "2026-02-15T00:07:30Z" },
+			{ "Group": "Pokemon", "Name": "Hoopa", "Time": "2026-02-15T02:15:50Z" },
+			{ "Group": "Pokemon", "Name": "Marshadow", "Time": "2026-02-15T06:12:25Z" },
+			{ "Group": "Pokemon", "Name": "Volcanion", "Time": "2026-02-15T06:27:04Z" },
+			{ "Group": "Pokemon", "Name": "Magearna", "Time": "2026-02-15T06:38:37Z" },
+			{ "Group": "Pokemon", "Name": "Meltan", "Time": "2026-02-15T06:48:34Z" },
+			{ "Group": "Pokemon", "Name": "Melmetal", "Time": "2026-02-15T06:52:18Z" },
 		]
 	};
 

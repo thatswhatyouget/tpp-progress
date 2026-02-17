@@ -333,3 +333,14 @@
 !distributebadge Throh 5 2026-02-10T23:00:33Z
 !distributebadge Flamigo 5 2026-02-11T11:14:43Z
 !distributebadge Kecleon 5 2026-02-11T20:30:28Z
+
+!distributebadge Indeedee 5 2026-02-13T17:32:39Z Atilla
+!distributebadge Gholdengo 5 2026-02-14T05:33:38Z
+!distributenobadge Dondozo 5 2026-02-14T18:34:07Z Atilla
+!distributebadge Rayquaza 5 2026-02-15T00:07:30Z
+!distributebadge Hoopa 5 2026-02-15T02:15:50Z
+!distributebadge Marshadow 5 2026-02-15T06:12:25Z
+!distributebadge Volcanion 5 2026-02-15T06:27:04Z
+!distributebadge Magearna 5 2026-02-15T06:38:37Z
+!distributebadge Meltan 5 2026-02-15T06:48:34Z
+!distributebadge Melmetal 5 2026-02-15T06:52:18Z
