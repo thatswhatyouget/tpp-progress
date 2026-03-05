@@ -521,4 +521,22 @@ namespace ZA {
 	};
 
 	Revisits.Runs.push(revisit3);
+
+	const revisit4: TPP.Run = {
+		...revisit3,
+		RunName: revisit.RunName + " Part 4",
+		StartDate: "2026-02-28T21:45:00Z",
+		Duration: "2026-03-05T05:00:0Z",
+		CopyEvents: [revisit3.RunName],
+		Revisit: { Collection: "Revisit", Run: revisit3.RunName },
+		Events: [
+			{ "Group": "Pokemon", "Name": "Genesect", "Time": "2026-03-04T09:45:08Z" },
+			{ "Group": "Pokemon", "Name": "Milotic", "Time": "2026-03-04T11:46:00Z" },
+			{ "Group": "Pokemon", "Name": "Kleavor", "Time": "2026-03-04T12:53:51Z" },
+			{ "Group": "Pokemon", "Name": "Sirfetch'd", "Time": "2026-03-04T12:59:10Z" },
+			{ "Group": "Pokemon", "Name": "Overqwil", "Time": "2026-03-04T13:06:09Z" },
+		]
+	};
+
+	Revisits.Runs.push(revisit4);
 }
