@@ -13,13 +13,13 @@ Intermissions.Runs.push(
 		Generation: 9,
 		Pokedex: "National",
 		Events: [
-            {
-                Group: "Badges",
-                Name: "Bouldery Badge",
-                Image: "img/badges/boulder.png",
-                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2026-03-05T21:27:37Z"
-            },
+			{
+				Group: "Badges",
+				Name: "Bouldery Badge",
+				Image: "img/badges/boulder.png",
+				ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2026-03-05T21:27:37Z"
+			},
 
 			{ "Group": "Pokemon", "Name": "Ditto", "Time": "2026-03-05T05:02:37Z" },
 			{ "Group": "Pokemon", "Name": "Tangrowth", "Time": "2026-03-05T05:10:20Z" },
@@ -85,7 +85,11 @@ Intermissions.Runs.push(
 			{ "Group": "Pokemon", "Name": "Gurdurr", "Time": "2026-03-07T10:20:54Z" },
 			{ "Group": "Pokemon", "Name": "Graveler", "Time": "2026-03-07T12:01:04Z" },
 			{ "Group": "Pokemon", "Name": "Parasect", "Time": "2026-03-07T12:41:25Z" },
-
+			{ "Group": "Pokemon", "Name": "Leafeon", "Time": "2026-03-07T17:25:25Z" },
+			{ "Group": "Pokemon", "Name": "Tyrogue", "Time": "2026-03-07T17:32:34Z" },
+			{ "Group": "Pokemon", "Name": "Mawile", "Time": "2026-03-07T17:57:45Z" },
+			{ "Group": "Pokemon", "Name": "Voltorb", "Time": "2026-03-07T18:09:18Z" },
+			{ "Group": "Pokemon", "Name": "Marill", "Time": "2026-03-07T18:40:00Z" },
 		]
 	}
 );
