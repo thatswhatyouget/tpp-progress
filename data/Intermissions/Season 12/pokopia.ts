@@ -56,7 +56,7 @@ Intermissions.Runs.push(
 			{ "Group": "Pokemon", "Name": "Riolu", "Time": "2026-03-06T09:05:44Z" },
 			{ "Group": "Pokemon", "Name": "Bonsly", "Time": "2026-03-06T09:08:56Z" },
 			{ "Group": "Pokemon", "Name": "Dartrix", "Time": "2026-03-06T09:33:55Z" },
-			{ "Group": "Pokemon", "Name": "Bastiodon", "Time": "2026-03-06T12:46:24Z" }, // Brought over by Wahi
+			// { "Group": "Pokemon", "Name": "Bastiodon", "Time": "2026-03-06T12:46:24Z" }, // Brought over by Wahi // Only counts as seen
 			{ "Group": "Pokemon", "Name": "Eevee", "Time": "2026-03-06T13:15:01Z" },
 			{ "Group": "Pokemon", "Name": "Machop", "Time": "2026-03-06T13:35:15Z" },
 			{ "Group": "Pokemon", "Name": "Magby", "Time": "2026-03-06T13:42:55Z" },
@@ -74,7 +74,7 @@ Intermissions.Runs.push(
 			{ "Group": "Pokemon", "Name": "Magneton", "Time": "2026-03-06T17:33:59Z" },
 			{ "Group": "Pokemon", "Name": "Torkoal", "Time": "2026-03-06T20:24:33Z" },
 			{ "Group": "Pokemon", "Name": "Greedent", "Time": "2026-03-06T21:39:31Z" },
-			{ "Group": "Pokemon", "Name": "Slowbro", "Time": "2026-03-06T23:11:59Z" },
+			{ "Group": "Pokemon", "Name": "Slowbro", "Time": "2run=Pokopia026-03-06T23:11:59Z" },
 			{ "Group": "Pokemon", "Name": "Excadrill", "Time": "2026-03-06T23:15:08Z" },
 			{ "Group": "Pokemon", "Name": "Carkol", "Time": "2026-03-07T00:57:11Z" },
 			{ "Group": "Pokemon", "Name": "Cubone", "Time": "2026-03-07T01:22:45Z" },
