@@ -23,6 +23,7 @@
     "gulp-uglify": "^3.0.2",
     "merge2": "^1.4.1",
     "run-sequence": "^2.2.1",
+    "source-map": "^0.7.4",
     "typescript": "^3.9.5"
   }
 }
