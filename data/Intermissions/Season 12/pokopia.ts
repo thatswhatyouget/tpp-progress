@@ -90,6 +90,26 @@ Intermissions.Runs.push(
 			{ "Group": "Pokemon", "Name": "Mawile", "Time": "2026-03-07T17:57:45Z" },
 			{ "Group": "Pokemon", "Name": "Voltorb", "Time": "2026-03-07T18:09:18Z" },
 			{ "Group": "Pokemon", "Name": "Marill", "Time": "2026-03-07T18:40:00Z" },
+			{ "Group": "Pokemon", "Name": "Swablu", "Time": "2026-03-07T19:50:14Z" },
+			{ "Group": "Pokemon", "Name": "Misdreavus", "Time": "2026-03-07T19:51:37Z" },
+			{ "Group": "Pokemon", "Name": "Pinsir", "Time": "2026-03-07T19:52:23Z" },
+			{ "Group": "Pokemon", "Name": "Vulpix", "Time": "2026-03-07T20:04:49Z" },
+			{ "Group": "Pokemon", "Name": "Trapinch", "Time": "2026-03-07T20:05:23Z" },
+			{ "Group": "Pokemon", "Name": "Dreepy", "Time": "2026-03-07T20:06:09Z" },
+			{ "Group": "Pokemon", "Name": "Cacnea", "Time": "2026-03-07T20:08:43Z" },
+			{ "Group": "Pokemon", "Name": "Fraxure", "Time": "2026-03-07T20:21:40Z" },
+			{ "Group": "Pokemon", "Name": "Duskull", "Time": "2026-03-07T20:33:28Z" },
+			{ "Group": "Pokemon", "Name": "Clefairy", "Time": "2026-03-07T20:35:19Z" },
+			{ "Group": "Pokemon", "Name": "Pikachu", "Time": "2026-03-07T20:45:01Z" },
+			{ "Group": "Pokemon", "Name": "Koffing", "Time": "2026-03-07T21:04:22Z" },
+			{ "Group": "Pokemon", "Name": "Azurill", "Time": "2026-03-07T21:44:33Z" },
+			{ "Group": "Pokemon", "Name": "Axew", "Time": "2026-03-07T23:12:24Z" },
+			{ "Group": "Pokemon", "Name": "Rotom", "Time": "2026-03-08T04:16:08Z" },
+			{ "Group": "Pokemon", "Name": "Weepinbell", "Time": "2026-03-08T10:16:21Z" },
+			{ "Group": "Pokemon", "Name": "Pupitar", "Time": "2026-03-08T16:19:43Z" },
+			{ "Group": "Pokemon", "Name": "Rolycoly", "Time": "2026-03-08T18:28:18Z" },
+			{ "Group": "Pokemon", "Name": "Kricketune", "Time": "2026-03-08T18:44:22Z" },
+
 		]
 	}
 );
