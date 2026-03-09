@@ -109,7 +109,12 @@ Intermissions.Runs.push(
 			{ "Group": "Pokemon", "Name": "Pupitar", "Time": "2026-03-08T16:19:43Z" },
 			{ "Group": "Pokemon", "Name": "Rolycoly", "Time": "2026-03-08T18:28:18Z" },
 			{ "Group": "Pokemon", "Name": "Kricketune", "Time": "2026-03-08T18:44:22Z" },
-
+			{ "Group": "Pokemon", "Name": "Tyrunt", "Time": "2026-03-08T21:55:46Z" },
+			{ "Group": "Pokemon", "Name": "Vikavolt", "Time": "2026-03-08T22:13:38Z" },
+			{ "Group": "Pokemon", "Name": "Munchlax", "Time": "2026-03-08T22:43:01Z" },
+			{ "Group": "Pokemon", "Name": "Charcadet", "Time": "2026-03-09T01:42:31Z" },
+			{ "Group": "Pokemon", "Name": "Venusaur", "Time": "2026-03-09T05:14:23Z" },
+			{ "Group": "Pokemon", "Name": "Articuno", "Time": "2026-03-09T05:24:54Z" },
 		]
 	}
 );
