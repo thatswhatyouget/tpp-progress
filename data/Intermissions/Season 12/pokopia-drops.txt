@@ -125,7 +125,6 @@
 !distributebadge Snorlax 5 2026-03-10T02:29:19Z
 !distributebadge Zoroark 5 2026-03-10T02:30:57Z
 !distributebadge Illumise 5 2026-03-10T02:39:44Z
-
 !distributebadge Hoppip 5 2026-03-10T05:05:01Z
 !distributebadge Charmeleon 5 2026-03-10T06:47:03Z
 !distributebadge Zapdos 5 2026-03-10T09:14:54Z
@@ -183,3 +182,4 @@
 !distributebadge Sprigatito 5 2026-03-13T18:19:42Z
 !distributebadge Armarouge 5 2026-03-13T22:13:11Z
 !distributebadge Dugtrio 5 2026-03-14T15:52:17Z
+!distributebadge Lampent 5 2026-03-14T18:12:59Z
