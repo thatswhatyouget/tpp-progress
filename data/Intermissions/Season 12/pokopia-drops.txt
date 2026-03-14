@@ -180,4 +180,6 @@
 !distributebadge Psyduck 5 2026-03-13T13:07:08Z
 !distributebadge Volcarona 5 2026-03-13T14:23:04Z
 !distributebadge Rookidee 5 2026-03-13T18:14:45Z
+!distributebadge Sprigatito 5 2026-03-13T18:19:42Z
 !distributebadge Armarouge 5 2026-03-13T22:13:11Z
+!distributebadge Dugtrio 5 2026-03-14T15:52:17Z

@@ -217,7 +217,9 @@ Intermissions.Runs.push(
 			{ "Group": "Pokemon", "Name": "Psyduck", "Time": "2026-03-13T13:07:08Z" },
 			{ "Group": "Pokemon", "Name": "Volcarona", "Time": "2026-03-13T14:23:04Z" },
 			{ "Group": "Pokemon", "Name": "Rookidee", "Time": "2026-03-13T18:14:45Z" },
+			{ "Group": "Pokemon", "Name": "Sprigatito", "Time": "2026-03-13T18:19:42Z" },
 			{ "Group": "Pokemon", "Name": "Armarouge", "Time": "2026-03-13T22:13:11Z" },
+			{ "Group": "Pokemon", "Name": "Dugtrio", "Time": "2026-03-14T15:52:17Z" },
 
 		]
 	}
