@@ -127,6 +127,9 @@ namespace TPP.Display.Elements.RunStatus {
                 return null;
             return this.props.buildDex(this.props.run).map(builtDex => {
                 const dex = builtDex.Clone();
+                let dexName = dex.Name || "National";
+                if (!dexName.toLowerCase().includes("dex"))
+                    dexName += " Pokédex";
                 if (!dex.TotalOwned)
                     return null;
                 let caughtList = this.state.dexSeen ? this.state.status.seen_list : this.state.status.caught_list || [];
@@ -134,7 +137,7 @@ namespace TPP.Display.Elements.RunStatus {
                     caughtList = caughtList.map(c => this.props.run.DexMapping[c] || c);
                 if (this.props.run.FromNatDex)
                     caughtList = caughtList.map(c => (dexData.Regional[this.props.run.Pokedex] || []).findIndex(p => p == c));
-                return <PokeBox title={`${dex.Name || ""} Pokédex`.trim()} className="pokedex">
+                return <PokeBox title={dexName.trim()} className="pokedex">
                     {this.PokedexOutOfDate(dex) ? <h6>Outdated</h6> : ""}
                     <Pokedex.Dex dex={dex}
                         caughtList={caughtList}

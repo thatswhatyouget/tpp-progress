@@ -11,7 +11,8 @@ Intermissions.Runs.push(
 		// HostImageSource: "",
 		Region: "Kanto",
 		Generation: 9,
-		Pokedex: "National",
+		Pokedex: "Pokodex",
+		ExtraDexes: ["Pokodex (Event)"],
 		Events: [
 			{
 				Group: "Badges",
