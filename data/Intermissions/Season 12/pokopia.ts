@@ -35,6 +35,41 @@ Intermissions.Runs.push(
 				ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
 				Time: "2026-03-12T09:10:39Z"
 			},
+            {
+                Group: "Badges",
+                Name: "Rainbowish Badge",
+                Image: "img/badges/rainbow.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2026-03-16T18:07:15Z"
+            },
+            {
+                Group: "Badges",
+                Name: "Soul-like Badge",
+                Image: "img/badges/soul.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2026-03-16T23:14:28Z"
+            },
+            {
+                Group: "Badges",
+                Name: "Marshy Badge",
+                Image: "img/badges/marsh.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2026-03-16T23:43:15Z"
+            },
+            {
+                Group: "Badges",
+                Name: "Volcanoey Badge",
+                Image: "img/badges/volcano.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2026-03-16T23:50:02Z"
+            },
+            {
+                Group: "Badges",
+                Name: '"Earth" Badge',
+                Image: "img/badges/earth.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2026-03-17T00:14:59Z"
+            },
 
 			{ "Group": "Pokemon", "Name": "Ditto", "Time": "2026-03-05T05:02:37Z" },
 			{ "Group": "Pokemon", "Name": "Tangrowth", "Time": "2026-03-05T05:10:20Z" },
@@ -246,6 +281,37 @@ Intermissions.Runs.push(
 			{ "Group": "Pokemon", "Name": "Porygon2", "Time": "2026-03-16T00:31:33Z" },
 			{ "Group": "Pokemon", "Name": "Poliwrath", "Time": "2026-03-16T01:41:53Z" },
 			{ "Group": "Pokemon", "Name": "Alakazam", "Time": "2026-03-16T02:11:44Z" },
+			{ "Group": "Pokemon", "Name": "Gyarados", "Time": "2026-03-16T08:23:14Z" },
+			{ "Group": "Pokemon", "Name": "Golduck", "Time": "2026-03-16T09:05:38Z" },
+			{ "Group": "Pokemon", "Name": "Mimikyu", "Time": "2026-03-16T09:54:09Z" },
+			{ "Group": "Pokemon", "Name": "Toxtricity", "Time": "2026-03-16T13:27:16Z" },
+			{ "Group": "Pokemon", "Name": "Servine", "Time": "2026-03-16T17:30:45Z" },
+			{ "Group": "Pokemon", "Name": "Mewtwo", "Time": "2026-03-16T19:49:47Z" },
+			{ "Group": "Pokemon", "Name": "Toxel", "Time": "2026-03-16T21:26:11Z" },
+			{ "Group": "Pokemon", "Name": "Magnemite", "Time": "2026-03-17T00:30:11Z" },
+			{ "Group": "Pokemon", "Name": "Pichu", "Time": "2026-03-17T08:45:43Z" },
+			{ "Group": "Pokemon", "Name": "Mime Jr.", "Time": "2026-03-17T15:25:12Z" },
+			{ "Group": "Pokemon", "Name": "Minun", "Time": "2026-03-17T15:59:20Z" },
+			{ "Group": "Pokemon", "Name": "Dedenne", "Time": "2026-03-17T20:11:34Z" },
+			{ "Group": "Pokemon", "Name": "Coalossal", "Time": "2026-03-17T21:57:01Z" },
+			{ "Group": "Pokemon", "Name": "Poliwag", "Time": "2026-03-17T22:01:18Z" },
+			{ "Group": "Pokemon", "Name": "Rampardos", "Time": "2026-03-17T22:05:08Z" },
+			{ "Group": "Pokemon", "Name": "Grimer", "Time": "2026-03-17T22:27:24Z" },
+			{ "Group": "Pokemon", "Name": "Raichu", "Time": "2026-03-17T23:30:24Z" },
+			{ "Group": "Pokemon", "Name": "Kirlia", "Time": "2026-03-17T23:41:33Z" },
+			{ "Group": "Pokemon", "Name": "Persian", "Time": "2026-03-18T00:40:11Z" },
+			{ "Group": "Pokemon", "Name": "Meowscarada", "Time": "2026-03-18T02:29:39Z" },
+			{ "Group": "Pokemon", "Name": "Farigiraf", "Time": "2026-03-18T02:50:57Z" },
+			{ "Group": "Pokemon", "Name": "Wartortle", "Time": "2026-03-18T07:23:29Z" },
+			{ "Group": "Pokemon", "Name": "Tangela", "Time": "2026-03-18T11:14:49Z" },
+			{ "Group": "Pokemon", "Name": "Gloom", "Time": "2026-03-18T11:56:01Z" },
+			{ "Group": "Pokemon", "Name": "Ho-oh", "Time": "2026-03-18T19:57:48Z" },
+			{ "Group": "Pokemon", "Name": "Bastiodon", "Time": "2026-03-18T20:05:09Z" },
+			{ "Group": "Pokemon", "Name": "Clodsire", "Time": "2026-03-18T22:49:44Z" },
+			{ "Group": "Pokemon", "Name": "Blissey", "Time": "2026-03-18T22:56:18Z" },
+			{ "Group": "Pokemon", "Name": "Cinderace", "Time": "2026-03-19T08:22:06Z" },
+			{ "Group": "Pokemon", "Name": "Electivire", "Time": "2026-03-19T08:59:45Z" },
+			{ "Group": "Pokemon", "Name": "Marowak", "Time": "2026-03-19T10:15:34Z" },
 		]
 	}
 );
