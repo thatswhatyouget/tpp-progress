@@ -5,7 +5,7 @@ Intermissions.Runs.push(
 		ColorPrimary: "#c0e75d",
 		ColorSecondary: "#e4f572",
 		StartDate: "2026-03-05T05:00:00Z",
-		Duration: "2026-03-22T21:00:00Z",
+		Duration: "2026-03-21T15:00:00Z",
 		HostName: "Hug",
 		HostImage: "https://archives.bulbagarden.net/media/upload/5/5b/Ditto_Female_Pokopia.png",
 		// HostImageSource: "",
@@ -35,41 +35,41 @@ Intermissions.Runs.push(
 				ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
 				Time: "2026-03-12T09:10:39Z"
 			},
-            {
-                Group: "Badges",
-                Name: "Rainbowish Badge",
-                Image: "img/badges/rainbow.png",
-                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+			{
+				Group: "Badges",
+				Name: "Rainbowish Badge",
+				Image: "img/badges/rainbow.png",
+				ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
 				Time: "2026-03-16T18:07:15Z"
-            },
-            {
-                Group: "Badges",
-                Name: "Soul-like Badge",
-                Image: "img/badges/soul.png",
-                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+			},
+			{
+				Group: "Badges",
+				Name: "Soul-like Badge",
+				Image: "img/badges/soul.png",
+				ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
 				Time: "2026-03-16T23:14:28Z"
-            },
-            {
-                Group: "Badges",
-                Name: "Marshy Badge",
-                Image: "img/badges/marsh.png",
-                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "2026-03-16T23:43:15Z"
-            },
-            {
-                Group: "Badges",
-                Name: "Volcanoey Badge",
-                Image: "img/badges/volcano.png",
-                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+			},
+			{
+				Group: "Badges",
+				Name: "Marshy Badge",
+				Image: "img/badges/marsh.png",
+				ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+				Time: "2026-03-16T23:43:15Z"
+			},
+			{
+				Group: "Badges",
+				Name: "Volcanoey Badge",
+				Image: "img/badges/volcano.png",
+				ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
 				Time: "2026-03-16T23:50:02Z"
-            },
-            {
-                Group: "Badges",
-                Name: '"Earth" Badge',
-                Image: "img/badges/earth.png",
-                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+			},
+			{
+				Group: "Badges",
+				Name: '"Earth" Badge',
+				Image: "img/badges/earth.png",
+				ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
 				Time: "2026-03-17T00:14:59Z"
-            },
+			},
 
 			{ "Group": "Pokemon", "Name": "Ditto", "Time": "2026-03-05T05:02:37Z" },
 			{ "Group": "Pokemon", "Name": "Tangrowth", "Time": "2026-03-05T05:10:20Z" },
@@ -312,6 +312,32 @@ Intermissions.Runs.push(
 			{ "Group": "Pokemon", "Name": "Cinderace", "Time": "2026-03-19T08:22:06Z" },
 			{ "Group": "Pokemon", "Name": "Electivire", "Time": "2026-03-19T08:59:45Z" },
 			{ "Group": "Pokemon", "Name": "Marowak", "Time": "2026-03-19T10:15:34Z" },
+			{ "Group": "Pokemon", "Name": "Porygon-Z", "Time": "2026-03-19T12:04:21Z" },
+			{ "Group": "Pokemon", "Name": "Victreebel", "Time": "2026-03-19T16:31:12Z" },
+			{ "Group": "Pokemon", "Name": "Pidgeot", "Time": "2026-03-19T22:54:50Z" },
+			{ "Group": "Pokemon", "Name": "Typhlosion", "Time": "2026-03-20T11:28:55Z" },
+			{ "Group": "Pokemon", "Name": "Metagross", "Time": "2026-03-20T14:05:59Z" },
+			{ "Group": "Pokemon", "Name": "Chansey", "Time": "2026-03-20T14:08:59Z" },
+			{ "Group": "Pokemon", "Name": "Minccino", "Time": "2026-03-20T14:13:08Z" },
+			{ "Group": "Pokemon", "Name": "Larvesta", "Time": "2026-03-20T15:06:37Z" },
+			{ "Group": "Pokemon", "Name": "Absol", "Time": "2026-03-20T16:57:09Z" },
+			{ "Group": "Pokemon", "Name": "Ampharos", "Time": "2026-03-20T19:58:48Z" },
+			{ "Group": "Pokemon", "Name": "Cinccino", "Time": "2026-03-20T20:05:31Z" },
+			{ "Group": "Pokemon", "Name": "Blastoise", "Time": "2026-03-20T21:36:19Z" },
+			{ "Group": "Pokemon", "Name": "Poliwhirl", "Time": "2026-03-20T22:00:01Z" },
+			{ "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2026-03-20T22:47:20Z" },
+			{ "Group": "Pokemon", "Name": "Weezing", "Time": "2026-03-20T22:54:48Z" },
+			{ "Group": "Pokemon", "Name": "Gholdengo", "Time": "2026-03-21T00:40:28Z" },
+			{ "Group": "Pokemon", "Name": "Charjabug", "Time": "2026-03-21T07:15:11Z" },
+			{ "Group": "Pokemon", "Name": "Beldum", "Time": "2026-03-21T07:48:03Z" },
+			{ "Group": "Pokemon", "Name": "Electrode", "Time": "2026-03-21T08:13:44Z" },
+			{ "Group": "Pokemon", "Name": "Entei", "Time": "2026-03-21T08:52:05Z" },
+			{ "Group": "Pokemon", "Name": "Abra", "Time": "2026-03-21T09:03:20Z" },
+			{ "Group": "Pokemon", "Name": "Aurorus", "Time": "2026-03-21T10:23:21Z" },
+			{ "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2026-03-21T10:24:19Z" },
+			{ "Group": "Pokemon", "Name": "Tyrantrum", "Time": "2026-03-21T10:32:27Z" },
+			{ "Group": "Pokemon", "Name": "Decidueye", "Time": "2026-03-21T11:20:14Z" },
+			{ "Group": "Pokemon", "Name": "Corviknight", "Time": "2026-03-21T11:39:47Z" },
 		]
 	}
 );
