@@ -26,13 +26,13 @@ Intermissions.Runs.push(
         Pokedex: "Phone Book",
         Class: "telefang",
         Events: [
-		
+
             { Group: "Pokemon", Name: "Crypto", Time: "2021-05-08T11:28:31Z" },
             { Group: "Pokemon", Name: "Keshi", Time: "2021-05-08T11:32:45Z" },
             { Group: "Pokemon", Name: "Oshe", Time: "2021-05-08T11:37:04Z" },
             { Group: "Pokemon", Name: "Kochia", Time: "2021-05-08T11:41:14Z" },
             { Group: "Pokemon", Name: "Monstera", Time: "2021-05-08T11:51:54Z" },
-			
+
         ],
     }
 );
@@ -50,11 +50,11 @@ Revisits.Runs.push(
         Pokedex: "Art Book",
 		Class: "touhoumon",
         Events: [
-		
+
             { "Group": "Pokemon", "Name": "CStar", "Time": "2021-05-08T13:33:16Z" },
             { "Group": "Pokemon", "Name": "CSunny", "Time": "2021-05-08T14:27:48Z" },
             { "Group": "Pokemon", "Name": "CTokiko", "Time": "2021-05-08T18:40:07Z" },
-			
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Touhoumon (AFD)" },
         CopyEvents: ["Touhoumon (AFD)"],
@@ -73,7 +73,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-		
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Anniversary Crystal: OLDEN Edition (AFD)" },
         CopyEvents: ["Anniversary Crystal: OLDEN Edition (AFD)"],
@@ -93,7 +93,7 @@ Revisits.Runs.push(
         Region: "Johto",
         Pokedex: "Amogus",
         Events: [
-		
+
         ],
         Revisit: { Collection: "Intermissions", Run: "PokéSus (AFD)" },
         CopyEvents: ["PokéSus (AFD)"],
@@ -112,14 +112,14 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-			
+
         ],
     }
 );
 
 Revisits.Runs.push(
     {
-        RunName: "PokéSus2 (AFD2)",
+        RunName: "PokéSus 2 (AFD2)",
 		Class: "pokesus",
         ColorPrimary: "#C51112",
         ColorSecondary: "#790738",
@@ -131,16 +131,16 @@ Revisits.Runs.push(
         Region: "Hoenn",
         Pokedex: "Amogus",
         Events: [
-		
+
             { "Group": "Pokemon", "Name": "AMOGUS", Class: "Poochyena", "Time": "2021-05-08T14:51:19Z" },
             { "Group": "Pokemon", "Name": "AMOGUS", Class: "Wingull", "Time": "2021-05-08T18:10:37Z" },
-			
+
             {
                 Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png", Time: "2021-05-08T19:33:28Z", Attempts: 1 },
-			
+
         ],
-        Revisit: { Collection: "Intermissions", Run: "PokéSus2 (AFD)" },
-        CopyEvents: ["PokéSus2 (AFD)"],
+        Revisit: { Collection: "Intermissions", Run: "PokéSus 2 (AFD)" },
+        CopyEvents: ["PokéSus 2 (AFD)"],
     }
 );
 
@@ -155,7 +155,7 @@ Revisits.Runs.push(
         HostImage: "img/hosts/roulette/rarity.png",
         Unfinished: true,
         Events: [
-		
+
         ],
     }
 );
@@ -172,7 +172,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-		
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Bing Crystal (AFD)" },
         CopyEvents: ["Bing Crystal (AFD)"],
@@ -191,7 +191,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Hoenn",
         Events: [
-		
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Metronome Ruby (AFD)" },
         CopyEvents: ["Metronome Ruby (AFD)"],
@@ -210,7 +210,7 @@ Revisits.Runs.push(
         Unfinished: true,
         //Region: "Kanto",
         Events: [
-			
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Genesis (AFD)" },
         CopyEvents: ["Genesis (AFD)"],
@@ -231,21 +231,21 @@ Revisits.Runs.push(
         Pokedex: "Fighters",
 		Class: "dbzteamtraining",
         Events: [
-			
+
             { "Group": "Pokemon", "Name": "Piccolo", "Time": "2021-05-07T22:35:18Z" },
-			
+
             { Group: "Badges", Name: "Saiyan Badge", Image: "img/badges/boulder.png", Time: "2021-05-07T23:20:01Z", Attempts: 3 },
-			
+
             { "Group": "Pokemon", "Name": "SSJ Goku", "Time": "2021-05-07T23:33:47Z" },
             { "Group": "Pokemon", "Name": "Nappa", "Time": "2021-05-08T06:55:36Z" },
             { "Group": "Pokemon", "Name": "Giran", "Time": "2021-05-08T07:38:41Z" },
-			
+
             { Group: "Badges", Name: "Namek Badge", Image: "img/badges/cascade.png", Time: "2021-05-08T09:29:31Z", Attempts: 3 },
-			
+
             { "Group": "Pokemon", "Name": "Bioman", "Time": "2021-05-08T19:08:07Z" },
-			
+
             //{ Group: "Badges", Name: "Red Badge", Image: "img/badges/thunder.png", Time: "", Attempts: 2 },
-			
+
         ],
         Revisit: { Collection: "Intermissions", Run: "DBZ Team Training (AFD)" },
         CopyEvents: ["DBZ Team Training (AFD)"],
@@ -265,7 +265,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Naljo",
         Events: [
-			
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Prism (AFD)" },
         CopyEvents: ["Prism (AFD)"],
@@ -285,7 +285,7 @@ Revisits.Runs.push(
         Region: "Candyland",
         Pokedex: "Cookbook",
         Events: [
-			
+
         ],
     }
 );*/
@@ -301,7 +301,7 @@ Revisits.Runs.push(
         HostImage: "img/hosts/roulette/ballot.png",
         Unfinished: true,
         Events: [
-			
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Shi Kong Xing Shou" },
         CopyEvents: ["Shi Kong Xing Shou"],
@@ -320,17 +320,17 @@ Revisits.Runs.push(
         Region: "Kanto",
         Unfinished: true,
         Events: [
-			
+
 			{ Group: "Hosts", Name: "VVvv", Image: "img/hosts/gmmtmt.png", Time: "2021-05-08T00:38:37Z" },
-			
+
             { "Group": "Pokemon", "Name": "Wooper", "Time": "2021-05-08T00:38:37Z" },
-			
+
 			{ Group: "Hosts", Name: "JAK", Image: "img/hosts/red.png", Time: "2021-05-08T00:56:11Z" },
-			
+
 			{ Group: "Hosts", Name: "VVvv", Image: "img/hosts/gmmtmt.png", Time: "2021-05-08T01:06:11Z" },
-			
+
 			{ Group: "Hosts", Name: "JAK", Image: "img/hosts/red.png", Time: "2021-05-08T04:11:55Z" },
-			
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Randomized Moemon (AFD)" },
         CopyEvents: ["Randomized Moemon (AFD)"],
@@ -349,7 +349,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-			
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Red Walk (AFD)" },
         CopyEvents: ["Red Walk (AFD)"],
@@ -368,7 +368,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-			
+
         ],
         Revisit: { Collection: "Intermissions", Run: "The Wooper Who Saved Christmas (AFD)" },
         CopyEvents: ["The Wooper Who Saved Christmas (AFD)"],
@@ -388,7 +388,7 @@ Intermissions.Runs.push(
         Region: "E-Monsters World",
         Pokedex: "Phone Book",
         Events: [
-		
+
         ],
     }
 );
@@ -405,7 +405,7 @@ Revisits.Runs.push(
         Region: "Kanto",
         Unfinished: true,
         Events: [
-		
+
         ],
         Revisit: { Collection: "Intermissions", Run: "H (AFD)" },
         CopyEvents: ["H (AFD)"],
@@ -424,7 +424,7 @@ Intermissions.Runs.push(
         Region: "Kanto",
         Unfinished: true,
         Events: [
-		
+
         ],
     }
 );
@@ -441,7 +441,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-		
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Anniversary Crystal (AFD)" },
         CopyEvents: ["Anniversary Crystal (AFD)"],
@@ -462,7 +462,7 @@ Revisits.Runs.push(
         Pokedex: "Larmog",
 		Class: "navyblue",
         Events: [
-		
+
         ],
         Revisit: { Collection: "Intermissions", Run: "NavyBlue (AFD)" },
         CopyEvents: ["NavyBlue (AFD)"],
@@ -478,7 +478,7 @@ Revisits.Runs.push(
         Duration: "2021-05-08T17:59:06Z",
         Unfinished: true,
         Events: [
-			
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Pinball Generations (AFD)" },
         CopyEvents: ["Pinball Generations (AFD)"],
@@ -497,7 +497,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-			
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Vietnamese Crystal (AFD)" },
         CopyEvents: ["Vietnamese Crystal (AFD)"],
@@ -515,9 +515,9 @@ Revisits.Runs.push(
         HostImage: "img/hosts/ai.png",
         Unfinished: true,
         Events: [
-		
+
             //{ "Group": "Pokemon", "Name": "Charmander", Class: "ultra", "Time": "2021-04-01T02:05:48Z" },
-		
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "Ultra (AFD)" },
         CopyEvents: ["Ultra (AFD)"],
@@ -536,7 +536,7 @@ Revisits.Runs.push(
         Region: "Johto",
         Unfinished: true,
         Events: [
-		
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "H2 (AFD)" },
         CopyEvents: ["H2 (AFD)"],
@@ -555,7 +555,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Hoenn",
         Events: [
-		
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "TriHard Emerald (AFD)" },
         CopyEvents: ["TriHard Emerald (AFD)"],
@@ -573,7 +573,7 @@ Revisits.Runs.push(
         HostImage: "img/hosts/xyy.png",
         Unfinished: true,
         Events: [
-			
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "Dark Rising: Order Destroyed (AFD)" },
         CopyEvents: ["Dark Rising: Order Destroyed (AFD)"],
@@ -592,7 +592,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-			
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "Chatty Crystal (AFD)" },
         CopyEvents: ["Chatty Crystal (AFD)"],
@@ -611,7 +611,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-			
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "Green (AFD)" },
         CopyEvents: ["Green (AFD)"],
@@ -630,7 +630,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-			
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "Crystal Spin-2-Win (AFD)" },
         CopyEvents: ["Crystal Spin-2-Win (AFD)"],
@@ -650,7 +650,7 @@ Revisits.Runs.push(
         Unfinished: true,
         //Region: "Hoenn",
         Events: [
-		
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "Armageddon (AFD)" },
         CopyEvents: ["Armageddon (AFD)"],
@@ -669,14 +669,14 @@ Intermissions.Runs.push(
         HostImage: "img/hosts/roulette/densha3.png",
         Unfinished: true,
         Events: [
-			
+
         ],
     }
 );
 
 Revisits.Runs.push(
     {
-        RunName: "Ash Gray (AFD2)",
+        RunName: "AshGray (AFD2)",
         ColorPrimary: "#E8E4DF",
         ColorSecondary: "#97856E",
         StartDate: "2021-05-08T08:52:47Z",
@@ -686,10 +686,10 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-			
+
         ],
-		Revisit: { Collection: "Intermissions", Run: "Ash Gray (AFD)" },
-        CopyEvents: ["Ash Gray (AFD)"],
+		Revisit: { Collection: "Intermissions", Run: "AshGray (AFD)" },
+        CopyEvents: ["AshGray (AFD)"],
     }
 );
 
@@ -705,9 +705,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-			
+
             { "Group": "Pokemon", "Name": "Chikorita", "Time": "2021-05-08T09:09:38Z" },
-			
+
         ],
     }
 );
@@ -725,7 +725,7 @@ Revisits.Runs.push(
         Region: "Tunod",
         Pokedex: "New Tunod",
         Events: [
-			
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "Blazed Glazed (AFD)" },
         CopyEvents: ["Blazed Glazed (AFD)"],
@@ -744,7 +744,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-		
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "Chatty Yellow (AFD)" },
         CopyEvents: ["Chatty Yellow (AFD)"],
@@ -763,7 +763,7 @@ Revisits.Runs.push(
         Region: "Hoenn",
         Unfinished: true,
         Events: [
-		
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "Ultra Sun & Moon GBA Beta 2 (AFD)" },
         CopyEvents: ["Ultra Sun & Moon GBA Beta 2 (AFD)"],
@@ -782,7 +782,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Hoenn",
         Events: [
-		
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Metronome Sapphire (AFD)" },
         CopyEvents: ["Metronome Sapphire (AFD)"],
@@ -801,7 +801,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-		
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "Dark Graystone (AFD)" },
         CopyEvents: ["Dark Graystone (AFD)"],
@@ -820,7 +820,7 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Kohto",
         Events: [
-			
+
         ],
     }
 );
@@ -837,9 +837,9 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-			
+
             { "Group": "Pokemon", "Name": "Treecko", "Time": "2021-05-08T10:37:29Z" },
-			
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "Theta Emerald EX (AFD)" },
         CopyEvents: ["Theta Emerald EX (AFD)"],
@@ -858,7 +858,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-		
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "Hypno's Lullaby (AFD)" },
         CopyEvents: ["Hypno's Lullaby (AFD)"],
@@ -877,7 +877,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Hoenn",
         Events: [
-			
+
         ],
 		Revisit: { Collection: "Intermissions", Run: "Trick or Treat House 2020 (AFD)" },
         CopyEvents: ["Trick or Treat House 2020 (AFD)"],
@@ -896,7 +896,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Hoenn",
         Events: [
-		
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Lightning Sapphire (AFD)" },
         CopyEvents: ["Lightning Sapphire (AFD)"],
@@ -915,7 +915,7 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-			
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Randomized Trading Card Game (AFD)" },
         CopyEvents: ["Randomized Trading Card Game (AFD)"],
@@ -934,9 +934,9 @@ Revisits.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-		
+
             { "Group": "Pokemon", "Name": "Charmander", "Time": "2021-05-08T13:10:04Z" },
-		
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Dual Blue (AFD)" },
         CopyEvents: ["Dual Blue (AFD)"],
@@ -955,7 +955,7 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-			
+
         ],
     }
 );
@@ -971,7 +971,7 @@ Revisits.Runs.push(
         //HostImage: "img/hosts/ethan.png",
         Unfinished: true,
         Events: [
-		
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Puzzle Challenge (AFD)" },
         CopyEvents: ["Puzzle Challenge (AFD)"],
@@ -990,7 +990,7 @@ Revisits.Runs.push(
         Unfinished: true,
         //Region: "Kanto",
         Events: [
-		
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Never (AFD)" },
         CopyEvents: ["Never (AFD)"],
@@ -1011,7 +1011,7 @@ Revisits.Runs.push(
         Region: "Johto",
         Pokedex: "Fusedex",
         Events: [
-			
+
         ],
         Revisit: { Collection: "Intermissions", Run: "Fused Crystal (AFD)" },
         CopyEvents: ["Fused Crystal (AFD)"],
