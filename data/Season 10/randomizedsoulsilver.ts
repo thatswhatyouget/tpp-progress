@@ -1,7 +1,7 @@
 /// <reference path="../tpp-data.ts" />
 Season10.Runs.push(
     {
-        RunName: "Randomized SoulSilver",
+        RunName: "Randomized Soul Silver",
         ColorPrimary: "#7a9cff",
         ColorSecondary: "#278fe5",
         StartDate: "2023-06-10T12:00:00Z",
@@ -161,9 +161,9 @@ Season10.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2023-06-19T16:03:08.672Z"
             },
-
-			{ Group: "Past Hosts", Name: ".      ", Image: "img/hosts/dot.png",
-			Time: "2023-06-20T05:26:58Z", Attempts: 1,
+			
+			{ Group: "Past Hosts", Name: ".      ", Image: "img/hosts/dot.png", 
+			Time: "2023-06-20T05:26:58Z", Attempts: 1, 
 			ImageSource: "" },
 
             { "Group": "Pokemon", "Name": "Machop", "Time": "2023-06-10T12:08:41.859Z" },

@@ -1,7 +1,7 @@
 /// <reference path="../../tpp-data.ts" />
 Intermissions.Runs.push(
     {
-        RunName: "PokéSus 2",
+        RunName: "PokéSus2",
 		Class: "pokesus",
         ColorPrimary: "#C51112",
         ColorSecondary: "#790738",
@@ -14,32 +14,32 @@ Intermissions.Runs.push(
         Pokedex: "Amogus",
         FinalStateLink: "./states/Season 10/pokesus2.json",
         Events: [
-
+			
 			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Treecko", "Time": "2023-10-11T01:47:02Z" },
 			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Wingull", "Time": "2023-10-11T02:32:58Z" },
 			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Grovyle", "Time": "2023-10-11T03:19:50Z" },
-
+		
             {
                 Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png",
                 Time: "2023-10-11T03:20:24Z", Attempts: 1
             },
-
+			
 			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Nincada", "Time": "2023-10-11T03:30:47Z" },
-
+			
             {
                 Group: "Badges", Name: "Knuckle Badge", Image: "img/badges/knuckle.png",
                 Time: "2023-10-11T07:27:30Z", Attempts: 4
             },
-
+			
 			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Ninjask", "Time": "2023-10-11T12:16:25Z" },
 			{ "Group": "Pokemon", "Name": "AMOGUS", "Class": "Shedinja", "Time": "2023-10-11T12:16:31Z" },
-
+			
             {
                 Group: "Badges", Name: "Dynamo Badge", Image: "img/badges/dynamo.png",
                 Time: "2023-10-11T14:43:36Z", Attempts: 4
             },
-
-
+			
+			
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", IDNo: "44060", Party: [
                     { Pokemon: "AMOGUS", Class: "Sceptile", Nickname: "ef", Level: 61, Number: 3, Gender: "Male", IDNo: "44060" },

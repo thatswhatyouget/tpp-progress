@@ -1,7 +1,7 @@
 /// <reference path="../tpp-data.ts" />
 Sidegames.Runs.push(
     {
-        RunName: "AshGray",
+        RunName: "Ash Gray",
         ColorPrimary: "#E8E4DF",
         ColorSecondary: "#97856E",
         Duration: "2017-09-29T20:54:22+00:00",

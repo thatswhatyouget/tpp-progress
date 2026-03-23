@@ -84,7 +84,7 @@ Season12.Runs.push(
 					{ Pokemon: "Alcremie", Nickname: "e", Gender: "Female", Level: 95, Form: "Matcha-Strawberry" },
 					{ Pokemon: "Pikachu", Level: 64, Gender: "Male", Form: "World Cap" },
 					{ Pokemon: "Pichu", Level: 44, Gender: "Female" },
-					{ Pokemon: "Shellos", Level: 55, Gender: "Female" },
+					{ Pokemon: "Shellos", Level: 55, Gender: "Female", Form: "West" },
 					{ Pokemon: "Shellos", Level: 65, Gender: "Male", Form: "East" }
 				],
 				Image: "img/ribbons/champion-galar.png"
@@ -185,7 +185,7 @@ Season12.Runs.push(
 				],
 				Image: "img/ribbons/champion-galar.png"
 			},
-
+			
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-21T04:54:36Z", IDNo: "031120", Party: [
 					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 98 },
@@ -197,7 +197,7 @@ Season12.Runs.push(
 				],
 				Image: "img/ribbons/champion-galar.png"
 			},
-
+			
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-21T14:36:44Z", IDNo: "031120", Party: [
 					{ Pokemon: "Arctozolt", Nickname: "Igiaaa", Level: 100 },
@@ -225,11 +225,11 @@ Season12.Runs.push(
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Champion Tournament", Time: "2025-12-22T11:59:34Z", IDNo: "031120", Party: [
 					{ Pokemon: "Copperajah", Nickname: "la", Gender: "Female", Level: 100 },
-					{ Pokemon: "Espeon", Nickname: "wrtgooo", Gender: "Female", Level: 98 },
+					{ Pokemon: "Espeon", Nickname: "wrtgooo", Gender: "Female", Level: 100 },
 					{ Pokemon: "Diglett", Nickname: "wowww", Gender: "Female", Level: 46 },
 					{ Pokemon: "Wooper", Gender: "Female", Level: 65 },
 					{ Pokemon: "Zorua", Gender: "Male", Level: 64 },
-					{ Pokemon: "Calyrex", Nickname: "Noobow", Level: 82, Form: "Ice Rider" },
+					{ Pokemon: "Calyrex", Nickname: "Noobow", Level: 81, Form: "Ice Rider" },
 				],
 				Image: "img/ribbons/champion-galar.png"
 			},
@@ -245,7 +245,7 @@ Season12.Runs.push(
 				],
 				Image: "img/ribbons/champion-galar.png"
 			},
-
+			
 			<TPP.HallOfFame>{
 				Group: "Hall of Fame", Name: "Galarian Star Tournament", Time: "2025-12-22T18:34:42Z", IDNo: "031120", Party: [
 					{ Pokemon: "Polteageist", Nickname: "Coffeeeee", Level: 100, Form: "Antique" },

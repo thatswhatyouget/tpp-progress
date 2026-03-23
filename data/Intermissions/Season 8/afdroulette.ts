@@ -11,7 +11,7 @@ Intermissions.Runs.push(
         ContainsRunsFrom: ["Intermissions", "Short Intermissions"],
     }
 );
-
+	
 Intermissions.Runs.push(
     {
         RunName: "PokéSus (AFD)",
@@ -25,12 +25,12 @@ Intermissions.Runs.push(
         Region: "Johto",
         Pokedex: "Amogus",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "AMOGUS", "Class": "Chikorita", "Time": "2021-04-01T00:45:19Z" },
             { "Group": "Pokemon", "Name": "AMOGUS", "Class": "Chikorita", "Time": "2021-04-01T01:52:25Z" },
             { "Group": "Pokemon", "Name": "AMOGUS", "Class": "Cyndaquil", "Time": "2021-04-01T08:05:05Z" },
             { "Group": "Pokemon", "Name": "AMOGUS", "Class": "Chikorita", "Time": "2021-04-01T15:25:04Z" },
-
+		
         ],
     }
 );
@@ -47,9 +47,9 @@ Intermissions.Runs.push(
         Region: "Hoenn",
         Unfinished: true,
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Rowlet", "Time": "2021-04-01T01:22:44Z" },
-
+			
         ],
     }
 );
@@ -66,9 +66,9 @@ Intermissions.Runs.push(
         Region: "Kanto",
         Unfinished: true,
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Squirtle", "Time": "2021-04-01T01:32:54Z" },
-
+		
         ],
     }
 );
@@ -85,11 +85,11 @@ Intermissions.Runs.push(
         Region: "Kanto",
         Unfinished: true,
         Events: [
-
+		
 			{ Group: "Hosts", Name: "HHHHHHH", Image: "img/hosts/roulette/hhhhhhh.png", Time: "2021-04-01T08:43:44Z" },
-
+			
             { "Group": "Pokemon", "Name": "HHHHHHHHHH", "Class": "Charmander", "Time": "2021-04-01T08:49:19Z" },
-
+		
         ],
     }
 );
@@ -106,13 +106,13 @@ Intermissions.Runs.push(
         Region: "Johto",
         Unfinished: true,
         Events: [
-
+		
 			{ Group: "Hosts", Name: "HHHH", Image: "img/hosts/roulette/hhhh.png", Time: "2021-04-01T04:07:38Z" },
 			{ Group: "Hosts", Name: "HHHHHHH", Image: "img/hosts/roulette/hhhh.png", Time: "2021-04-01T09:43:44Z" },
 			{ Group: "Hosts", Name: "H", Image: "img/hosts/roulette/hhhh.png", Time: "2021-04-01T21:49:29Z" },
-
+			
             { "Group": "Pokemon", "Name": "HHHHHHHHH", "Class": "Cyndaquil", "Time": "2021-04-01T21:57:39Z" },
-
+		
         ],
     }
 );
@@ -128,7 +128,7 @@ Intermissions.Runs.push(
         HostImage: "img/hosts/roulette/rarity.png",
         Unfinished: true,
         Events: [
-
+		
         ],
     }
 );
@@ -142,7 +142,7 @@ Intermissions.Runs.push(
         Duration: "2021-04-01T04:07:14Z",
         Unfinished: true,
         Events: [
-
+		
         ],
     }
 );
@@ -159,13 +159,13 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "OLDEN", "Class": "Bulbasaur", "Time": "2021-04-01T01:48:24Z" },
-
+			
 			{ Group: "Hosts", Name: "LLCCCCC", Image: "img/hosts/qjv[.png", Time: "2021-04-01T04:12:30Z" },
-
+		
             { "Group": "Pokemon", "Name": "OLDEN", "Class": "Charmander", "Time": "2021-04-01T04:19:50Z" },
-
+		
         ],
     }
 );
@@ -181,9 +181,9 @@ Intermissions.Runs.push(
         HostImage: "img/hosts/ai.png",
         Unfinished: true,
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Charmander", Class: "ultra", "Time": "2021-04-01T02:05:48Z" },
-
+		
         ],
     }
 );
@@ -199,9 +199,9 @@ Intermissions.Runs.push(
         HostImage: "img/hosts/roulette/ballot.png",
         Unfinished: true,
         Events: [
-
-			{ Group: "Hosts", Name: "巴洛特", Image: "img/hosts/roulette/ballot.png", Time: "2021-04-01T11:17:37Z" },
-
+			
+			{ Group: "Hosts", Name: "巴洛特", Image: "img/hosts/roulette/ballot.png", Time: "2021-04-01T11:17:37Z" },			
+		
         ],
     }
 );
@@ -218,13 +218,13 @@ Intermissions.Runs.push(
         Region: "Kanto",
         Unfinished: true,
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Vulpix", "Time": "2021-04-01T02:39:02Z" },
-
+			
 			{ Group: "Hosts", Name: "BCCCCDD", Image: "img/hosts/xxwwnnPk.png", Time: "2021-04-01T08:53:44Z" },
-
-
-
+			
+			
+		
         ],
     }
 );
@@ -241,9 +241,9 @@ Intermissions.Runs.push(
         //Region: "Kanto",
         Unfinished: true,
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "2021-04-01T07:30:15Z" },
-
+		
         ],
     }
 );
@@ -260,11 +260,11 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-
+		
 			{ Group: "Hosts", Name: "RUST", Image: "img/hosts/evan.png", Time: "2021-04-01T03:16:43Z" },
-
+		
             { "Group": "Pokemon", "Name": "Charmander", "Time": "2021-04-01T21:17:45Z" },
-
+		
         ],
     }
 );
@@ -281,9 +281,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         //Region: "Kanto",
         Events: [
-
+		
 			{ Group: "Hosts", Name: "T", Image: "img/hosts/pee.png", Time: "2021-04-01T04:01:44Z" },
-
+			
         ],
     }
 );
@@ -300,9 +300,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Vulpix", "Time": "2021-04-01T03:16:29Z" },
-
+		
         ],
     }
 );
@@ -319,9 +319,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-
+		
             { "Group": "Pokemon", Name: "WANIN", Class: "Totodile", "Time": "2021-04-01T20:51:03Z" },
-
+			
         ],
     }
 );
@@ -340,9 +340,9 @@ Intermissions.Runs.push(
         Pokedex: "Larmog",
 		Class: "navyblue",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Agoose", "Time": "2021-04-01T03:37:58Z" },
-
+		
         ],
     }
 );
@@ -359,9 +359,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         //Region: "Kanto",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Minun", "Time": "2021-04-01T13:30:10Z" },
-
+		
         ],
     }
 );
@@ -378,10 +378,10 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "CYNDA", "Class": "Cyndaquil", "Time": "2021-04-01T04:00:12Z" },
             { "Group": "Pokemon", "Name": "CYNDA", "Class": "Cyndaquil", "Time": "2021-04-01T15:49:58Z" },
-
+		
         ],
     }
 );
@@ -398,13 +398,13 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Charmander", "Time": "2021-04-01T05:07:12Z" },
-
+		
 			{ Group: "Hosts", Name: "BCCCCCC", Image: "img/hosts/xxwwnnPk.png", Time: "2021-04-01T08:58:44Z" },
-
+		
 			{ Group: "Hosts", Name: "JS(?l", Image: "img/hosts/xxwwnnPk.png", Time: "2021-04-01T15:34:41Z" },
-
+			
         ],
     }
 );
@@ -421,14 +421,14 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-
+		
         ],
     }
 );
 
 Intermissions.Runs.push(
     {
-        RunName: "AshGray (AFD)",
+        RunName: "Ash Gray (AFD)",
         ColorPrimary: "#E8E4DF",
         ColorSecondary: "#97856E",
         StartDate: "2021-04-01T05:08:44Z",
@@ -438,7 +438,7 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-
+		
         ],
     }
 );
@@ -454,7 +454,7 @@ Intermissions.Runs.push(
         //HostImage: "img/hosts/ethan.png",
         Unfinished: true,
         Events: [
-
+		
         ],
     }
 );
@@ -471,9 +471,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "RIDED", "Class":  "Cyndaquil", "Time": "2021-04-01T05:25:36Z" },
-
+		
         ],
     }
 );
@@ -490,9 +490,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Hoenn",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Frog", "Class":  "Treecko", "Time": "2021-04-01T05:53:22Z" },
-
+		
         ],
     }
 );
@@ -509,11 +509,11 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Hoenn",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Heracross", "Time": "2021-04-01T13:03:28Z" },
             { "Group": "Pokemon", "Name": "Teddiursa", "Time": "2021-04-01T13:04:39Z" },
             { "Group": "Pokemon", "Name": "Slowpoke", "Time": "2021-04-01T13:06:27Z" },
-
+			
         ],
     }
 );
@@ -530,13 +530,13 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Hoenn",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Mudkip", "Time": "2021-04-01T06:29:43Z" },
             { "Group": "Pokemon", "Name": "Marill", "Time": "2021-04-01T23:18:46Z" },
             { "Group": "Pokemon", "Name": "Poochyena", "Time": "2021-04-01T23:25:21Z" },
             { "Group": "Pokemon", "Name": "Taillow", "Time": "2021-04-01T23:27:22Z" },
             { "Group": "Pokemon", "Name": "Shroomish", "Time": "2021-04-01T23:35:28Z" },
-
+		
         ],
     }
 );
@@ -554,22 +554,22 @@ Intermissions.Runs.push(
         Region: "Nihon",
         Pokedex: "Nihon",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Chikorita", "Time": "2021-04-01T06:48:00Z" },
-
+			
 			{ Group: "Hosts", Name: "あああああ", Image: "img/hosts/e.png", Time: "2021-04-01T06:52:15Z" },
-
+			
 			{ Group: "Hosts", Name: "うううささ", Image: "img/hosts/e.png", Time: "2021-04-01T08:18:44Z" },
-
+			
             { "Group": "Pokemon", "Name": "Chikorita", "Time": "2021-04-01T08:27:44Z" },
-
+			
 			//{ Group: "Hosts", Name: "", Image: "img/hosts/e.png", Time: "2021-04-01T16:59:15Z" },
-
+			
             { "Group": "Pokemon", "Name": "Venusaur", "Time": "2021-04-02T03:40:25Z" },
             { "Group": "Pokemon", "Name": "Snubbull", "Time": "2021-04-02T03:44:05Z" },
             { "Group": "Pokemon", "Name": "MissingNo.", "Time": "2021-04-02T03:44:05Z" },
-
-
+			
+		
         ],
     }
 );
@@ -586,11 +586,11 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-
+		
 			{ Group: "Hosts", Name: "AAAST", Image: "img/hosts/larry.png", Time: "2021-04-01T14:34:41Z" },
-
+			
             { "Group": "Pokemon", "Name": "SHADO", "Class": "Charmander", "Time": "2021-04-01T14:43:22Z" },
-
+		
         ],
     }
 );
@@ -604,9 +604,9 @@ Intermissions.Runs.push(
         Duration: "2021-04-02T12:24:23Z",
         Unfinished: true,
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2021-04-02T12:22:53Z" },
-
+			
         ],
     }
 );
@@ -623,9 +623,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-
+		
 			{ Group: "Hosts", Name: "GRAY", Image: "img/hosts/tppsim.png", Time: "2021-04-01T14:49:41Z" },
-
+		
         ],
     }
 );
@@ -642,9 +642,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Hoenn",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Lotad", "Time": "2021-04-01T10:44:01Z" },
-
+		
         ],
     }
 );
@@ -662,9 +662,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         //Region: "Hoenn",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Piplup", "Time": "2021-04-01T15:11:17Z" },
-
+		
         ],
     }
 );
@@ -681,9 +681,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Cyndaquil", "Time": "2021-04-01T19:23:18Z" },
-
+			
         ],
     }
 );
@@ -701,10 +701,10 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Naljo",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Larvitar", "Time": "2021-04-02T00:10:48Z" },
             { "Group": "Pokemon", "Name": "Taillow", "Time": "2021-04-02T06:02:02Z" },
-
+			
         ],
     }
 );
@@ -722,9 +722,9 @@ Intermissions.Runs.push(
         Region: "Tunod",
         Pokedex: "New Tunod",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Riolu", "Time": "2021-04-02T20:30:43Z" },
-
+			
         ],
     }
 );
@@ -742,7 +742,7 @@ Intermissions.Runs.push(
         Region: "Flora",
         Pokedex: "Flora",
         Events: [
-
+			
         ],
     }
 );
@@ -759,7 +759,7 @@ Intermissions.Runs.push(
         Unfinished: true,
         //Region: "Flora",
         Events: [
-
+			
         ],
     }
 );
@@ -776,9 +776,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Wooper", "Time": "2021-04-02T01:24:43Z" },
-
+			
         ],
     }
 );
@@ -795,9 +795,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Squirtle", "Time": "2021-04-02T08:11:35Z" },
-
+			
         ],
     }
 );
@@ -814,9 +814,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "2021-04-02T01:50:35Z" },
-
+			
         ],
     }
 );
@@ -835,9 +835,9 @@ Intermissions.Runs.push(
         Pokedex: "Altair/Sirius (Hoenn)",
 		Class: "sirius",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Peyero", "Time": "2021-04-02T02:05:54Z" },
-
+			
         ],
     }
 );
@@ -854,9 +854,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Hoenn",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Seedot", "Time": "2021-04-02T02:37:34Z" },
-
+		
         ],
     }
 );
@@ -873,9 +873,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Chikorita", "Time": "2021-04-02T02:47:01Z" },
-
+			
         ],
     }
 );
@@ -892,7 +892,7 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-
+			
         ],
     }
 );
@@ -911,9 +911,9 @@ Intermissions.Runs.push(
         Pokedex: "Tohoak",
 		Class: "vega",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Nimbleaf", "Time": "2021-04-02T07:51:25Z" },
-
+			
         ],
     }
 );
@@ -930,9 +930,9 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Charmander", "Time": "2021-04-02T12:12:38Z" },
-
+			
         ],
     }
 );
@@ -949,10 +949,10 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Johto",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Unown", "Time": "2021-04-02T04:39:16Z" },
             { "Group": "Pokemon", "Name": "Zigzagoon", "Time": "2021-04-02T16:12:15Z" },
-
+			
         ],
     }
 );
@@ -970,7 +970,7 @@ Intermissions.Runs.push(
         Region: "Rijon",
         Pokedex: "Rijon",
         Events: [
-
+			
         ],
     }
 );
@@ -987,7 +987,7 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Hoenn",
         Events: [
-
+			
         ],
     }
 );
@@ -1006,9 +1006,9 @@ Intermissions.Runs.push(
         Region: "Johto",
         Pokedex: "Fusedex",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Togekey", "Class":  "Togepi", "Time": "2021-04-01T07:20:08Z" },
-
+			
         ],
     }
 );
@@ -1025,7 +1025,7 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-
+			
         ],
     }
 );
@@ -1042,7 +1042,7 @@ Intermissions.Runs.push(
         Unfinished: true,
         Region: "Kanto",
         Events: [
-
+			
         ],
     }
 );
@@ -1061,16 +1061,16 @@ Intermissions.Runs.push(
         Pokedex: "Fighters",
 		Class: "dbzteamtraining",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "Goku", "Time": "2021-04-02T22:12:55Z" },
-
+			
         ],
     }
 );
 
 Intermissions.Runs.push(
     {
-        RunName: "PokéSus 2 (AFD)",
+        RunName: "PokéSus2 (AFD)",
 		Class: "pokesus",
         ColorPrimary: "#C51112",
         ColorSecondary: "#790738",
@@ -1082,9 +1082,9 @@ Intermissions.Runs.push(
         Region: "Hoenn",
         Pokedex: "Amogus",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "AMOGUS", "Class": "Treecko", "Time": "2021-04-02T23:04:51Z" },
-
+		
         ],
     }
 );
@@ -1102,9 +1102,9 @@ Intermissions.Runs.push(
         Pokedex: "Art Book",
 		Class: "touhoumon",
         Events: [
-
+		
             { "Group": "Pokemon", "Name": "CSanae", "Time": "2021-04-02T23:23:30Z" },
-
+		
         ],
     }
 );
