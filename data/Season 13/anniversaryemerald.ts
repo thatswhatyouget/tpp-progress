@@ -13,7 +13,7 @@ Season13.Runs.push(
         Generation: 3,
         Pokedex: "Hoenn",
         FromNatDex: true,
-        ExtraDexes: ["National"],
+        //ExtraDexes: ["National"], //Misbehaves with FromNatDex
         // FinalStateLink: "./states/Season 13/anniversaryemerald.json",
         Events: [
             {
