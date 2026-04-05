@@ -10,9 +10,9 @@ Season13.Runs.push(
         HostImage: "img/hosts/a.png",
         BaseGame: "Emerald",
         Region: "Hoenn",
-        Generation: 3,
-        Pokedex: "Hoenn",
-        FromNatDex: true,
+        Generation: 9,
+        Pokedex: "National",
+        //FromNatDex: true,
         //ExtraDexes: ["National"], //Misbehaves with FromNatDex
         // FinalStateLink: "./states/Season 13/anniversaryemerald.json",
         Events: [
