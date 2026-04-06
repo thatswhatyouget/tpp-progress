@@ -7,7 +7,7 @@ Season13.Runs.push(
         StartDate: "2026-03-22T21:00:00Z",
         Duration: "255d",
         HostName: "mg0000",
-        HostImage: "img/hosts/a.png",
+        HostImage: "img/hosts/mg0000.png",
         BaseGame: "Emerald",
         Region: "Hoenn",
         Generation: 9,
