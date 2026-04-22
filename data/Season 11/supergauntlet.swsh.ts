@@ -7,7 +7,7 @@ Season11.Runs.push(
         Duration: "2024-07-17T07:29:34Z",
         StartDate: "2024-07-08T21:10:00Z",
         HostName: "11sdccvgg g",
-        HostImage: "img/hosts/89977re.gif",
+        HostImage: "img/hosts/11sdccvgg g.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/e1c95e/rey_collins_the_girl_with_rainbow_eyes/",
         Region: "Galar",
         Generation: 8,
