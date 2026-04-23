@@ -762,7 +762,7 @@ Season11.Runs.push(
         Duration: "2024-07-31T18:18:00Z",
         StartDate: "2024-07-22T21:00:00Z",
         HostName: "qqqq///////?",
-        HostImage: "img/hosts/2errh.png",
+        HostImage: "img/hosts/qqqq.png",
         HostImageSource: "https://www.deviantart.com/krizste/art/TPP-Rand-Violet-2errh-sprites-947518857",
         Region: "Paldea",
         Generation: 9,
