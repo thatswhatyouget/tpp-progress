@@ -7,7 +7,7 @@ Season12.Runs.push(
         Duration: "2025-04-29T06:49:17Z",
         StartDate: "2025-04-12T15:00:00Z",
         HostName: "!",
-        HostImage: "img/hosts/sun.png",
+        HostImage: "img/hosts/exclamation.png",
         //HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/do2ovk/virginia_faba_the_six_time_married_three_times/",
         Region: "Alola",
         Generation: 7,
