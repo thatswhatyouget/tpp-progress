@@ -7,7 +7,7 @@ Season11.Runs.push(
         StartDate: "2024-08-05T21:00:00Z",
         Duration: "2024-08-20T15:12:55Z",
         HostName: `2`,
-        HostImage: "img/hosts/iecbw.png",
+        HostImage: "img/hosts/2.png",
         HostImageSource: "https://discord.com/channels/927292379436814406/928400303588532324/937375338739146792",
         Region: "Hisui",
 		Generation: 8,

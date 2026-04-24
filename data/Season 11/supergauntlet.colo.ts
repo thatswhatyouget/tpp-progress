@@ -7,7 +7,7 @@ Season11.Runs.push(
         Duration: "2024-04-22T16:43:36Z",
         StartDate: "2024-04-15T21:00:00Z",
         HostName: "WES",
-        HostImage: "img/hosts/aaaaaaa.png",
+        HostImage: "img/hosts/wes.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Orre",
         Generation: 3,
