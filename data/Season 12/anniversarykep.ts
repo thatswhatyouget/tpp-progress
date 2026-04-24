@@ -7,7 +7,7 @@ Season12.Runs.push(
 		StartDate: "2025-02-12T23:18:16Z",
 		Duration: "2025-02-18T00:14:39Z",
 		HostName: "ARµµ-",
-		HostImage: "img/hosts/pink.png",
+		HostImage: "img/hosts/armnmn-.png",
 		//HostImageSource: "",
 		Region: "Kanto",
 		//Generation: 1,
