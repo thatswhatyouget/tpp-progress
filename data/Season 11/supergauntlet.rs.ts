@@ -7,7 +7,7 @@ Season11.Runs.push(
         StartDate: "2024-02-26T21:00:00Z",
         Duration: "2024-03-02T14:39:20Z",
         HostName: "TERRA",
-        HostImage: "img/hosts/qq.png",
+        HostImage: "img/hosts/terra.png",
         BaseGame: "Ruby",
         Region: "Hoenn",
         Generation: 3,
