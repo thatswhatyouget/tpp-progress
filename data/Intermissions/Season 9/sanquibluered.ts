@@ -84,7 +84,7 @@ Intermissions.Runs.push(
         Duration: "2022-04-12T20:44:00Z",
         StartDate: "2022-04-10T00:15:00Z",
         HostName: "AMOGUS",
-        HostImage: "img/hosts/b.png",
+        HostImage: "img/hosts/amogus.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/n8sv79/multiverse_champion_basil_benson_an_the_red_and/",
         Generation: 6,
         Class: "dual-run",

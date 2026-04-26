@@ -7,7 +7,7 @@ Season10.Runs.push(
         StartDate: "2023-06-10T12:00:00Z",
         Duration: "2023-06-20T05:51:53Z",
         HostName: "11 CCvu",
-        HostImage: "img/hosts/aoooo.png",
+        HostImage: "img/hosts/11 CCvu.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Johto",
         Pokedex: "National",
