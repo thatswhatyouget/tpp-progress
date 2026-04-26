@@ -165,7 +165,7 @@ Season11.Runs.push(
         StartDate: "2024-02-26T21:00:00Z",
         Duration: "2024-03-02T14:39:20Z",
         HostName: "aa",
-        HostImage: "img/hosts/qq.png",
+        HostImage: "img/hosts/aa2.png",
         BaseGame: "Sapphire",
         Region: "Hoenn",
         Generation: 3,
