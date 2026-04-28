@@ -7,7 +7,7 @@ Intermissions.Runs.push(
 		StartDate: "2026-03-05T05:00:00Z",
 		Duration: "2026-03-21T15:00:00Z",
 		HostName: "Hug",
-		HostImage: "https://archives.bulbagarden.net/media/upload/5/5b/Ditto_Female_Pokopia.png",
+		HostImage: "img/hosts/hug.png",
 		// HostImageSource: "",
 		Region: "Kanto",
 		Generation: 9,
