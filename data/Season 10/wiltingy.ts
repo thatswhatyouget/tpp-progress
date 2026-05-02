@@ -7,7 +7,7 @@ Season10.Runs.push(
         Duration: "2023-04-21T10:00:00Z",
         StartDate: "2023-04-08T21:00:00Z",
         HostName: "lthjittyy55o",
-        HostImage: "img/hosts/266.png",
+        HostImage: "img/hosts/lthjittyy55o.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/9f0o9s/hall_of_fame_randomized_y/e5tt7ma/",
         Region: "Kalos",
         Generation: 6,

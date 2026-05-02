@@ -7,7 +7,7 @@ Season12.Runs.push(
 		StartDate: "2025-12-13T21:00:00Z",
 		Duration: "2025-12-22T18:34:45Z",
 		HostName: "2",
-		HostImage: "img/hosts/89977re.gif",
+		HostImage: "img/hosts/22.png",
 		Region: "Galar",
 		Generation: 8,
 		Pokedex: "Galar",

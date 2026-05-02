@@ -7,7 +7,7 @@ Season11.Runs.push(
         StartDate: "2024-05-13T21:00:00Z",
         Duration: "2024-05-25T01:20:31Z",
         HostName: "T448Z4 ",
-        HostImage: "img/hosts/cly.png",
+        HostImage: "img/hosts/T448Z4.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/",
         Region: "Unova",
         Generation: 5,

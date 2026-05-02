@@ -7,7 +7,7 @@ Season11.Runs.push(
         StartDate: "2024-03-11T21:00:00Z",
         Duration: "2024-03-17T06:34:47Z",
         HostName: "p\u2640P",
-        HostImage: "img/hosts/nqpppnl.png",
+        HostImage: "img/hosts/pp2.png",
         Region: "Sinnoh",
         Generation: 4,
         Pokedex: "Sinnoh",

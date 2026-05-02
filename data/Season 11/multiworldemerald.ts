@@ -7,7 +7,7 @@ Season11.Runs.push(
         StartDate: "2024-09-14T16:00:00Z",
         Duration: "2024-09-19T04:36:37Z",
         HostName: "KENNY",
-        HostImage: "img/hosts/orlando.png",
+        HostImage: "img/hosts/kenny.png",
         BaseGame: "Emerald",
         Region: "Hoenn",
         Generation: 3,

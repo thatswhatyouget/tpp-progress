@@ -7,7 +7,7 @@ Sidegames.Runs.push(
         StartDate: "2024-02-01T01:09:40Z",
         Duration: "2024-02-06T18:27:01Z",
         HostName: "チvテテセ",
-        HostImage: "img/hosts/orlando.png",
+        HostImage: "img/hosts/チvテテセ.png",
         //HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/n8sv79/multiverse_champion_basil_benson_an_the_red_and/",
         Region: "Hoenn",
         Generation: 3,

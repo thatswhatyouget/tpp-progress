@@ -7,7 +7,7 @@ Season11.Runs.push(
         Duration: "2024-07-31T18:18:00Z",
         StartDate: "2024-07-22T21:00:00Z",
         HostName: "2wdccnnnmmnv",
-        HostImage: "img/hosts/2z.png",
+        HostImage: "img/hosts/2wdccnnnmmnv.png",
         HostImageSource: "https://www.deviantart.com/mid117/art/PKMN-Scarlet-Protagonists-Trainer-Sprites-923433423",
         Region: "Paldea",
         Generation: 9,
