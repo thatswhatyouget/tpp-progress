@@ -12,7 +12,7 @@ Season13.Runs.push(
         Region: "Johto",
         //AdditionalRegions: [{ Name: "Kanto", Time: "11d 15h 9m" }],
         Generation: 4,
-        //Pokedex: "Johto",
+        Pokedex: "National",
         Events: [
             {
                 Group: "Badges",
