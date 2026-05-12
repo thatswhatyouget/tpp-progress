@@ -48,7 +48,7 @@ Season13.Runs.push(
                 Group: "Badges",
                 Name: "Mineral Badge",
                 Image: "img/badges/mineral.png",
-                Time: "", Attempts: 0
+                Time: "2026-05-11T20:13:49.488Z", Attempts: 1
             },
             {
                 Group: "Badges",
