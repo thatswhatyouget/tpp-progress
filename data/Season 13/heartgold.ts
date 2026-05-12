@@ -60,7 +60,7 @@ Season13.Runs.push(
                 Group: "Badges",
                 Name: "Rising Badge",
                 Image: "img/badges/rising.png",
-                Time: "", Attempts: 0
+                Time: "2026-05-12T17:26:02.846Z", Attempts: 1
             },
         ]
     }
