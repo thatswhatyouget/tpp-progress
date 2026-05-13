@@ -62,6 +62,36 @@ Season13.Runs.push(
                 Image: "img/badges/rising.png",
                 Time: "2026-05-12T17:26:02.846Z", Attempts: 1
             },
+            {
+                Group: "Elite Four",
+                Name: "Will",
+                Image: "img/trainers/crystal/will.png",
+                Time: "2026-05-13T14:09:25.214Z", Attempts: 2
+            },
+            {
+                Group: "Elite Four",
+                Name: "Koga",
+                Image: "img/trainers/crystal/koga.png",
+                Time: "2026-05-13T14:15:21.672Z", Attempts: 1
+            },
+            {
+                Group: "Elite Four",
+                Name: "Bruno",
+                Image: "img/trainers/crystal/bruno.png",
+                Time: "2026-05-13T14:39:18.449Z", Attempts: 2
+            },
+            {
+                Group: "Elite Four",
+                Name: "Karen",
+                Image: "img/trainers/crystal/karen.png",
+                Time: "2026-05-13T17:23:27.666Z", Attempts: 3
+            },
+            {
+                Group: "Champions",
+                Name: "Lance",
+                Image: "img/trainers/crystal/lance.png",
+                Time: "", Attempts: 0
+            }
         ]
     }
 );
