@@ -176,7 +176,7 @@ Season13.Runs.push(
                 Group: "Champions", Class:"rematch",
                 Name: "Lance",
                 Image: "img/trainers/heartgold/lance.png",
-                Time: "", Attempts: 0
+                Time: "2026-05-20T03:51:45.985Z", Attempts: 1
             },
             {
                 Group: "Champions",
