@@ -170,7 +170,7 @@ Season13.Runs.push(
                 Group: "Elite Four Rematch", Class:"rematch",
                 Name: "Karen",
                 Image: "img/trainers/heartgold/karen.png",
-                Time: "", Attempts: 0
+                Time: "2026-05-20T03:30:53.874Z", Attempts: 2
             },
             {
                 Group: "Champions", Class:"rematch",
