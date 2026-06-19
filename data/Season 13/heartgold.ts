@@ -4,7 +4,7 @@ Season13.Runs.push(
         RunName: "HeartGold",
         ColorPrimary: "#ffbc1b",
         ColorSecondary: "#bb8e1b",
-        Duration: "255d",
+        Duration: "2026-05-26T04:02:10Z",
         StartDate: "2026-05-09T21:00:00Z",
         HostName: "Lindy",
         HostImage: "img/hosts/lindy.png",
