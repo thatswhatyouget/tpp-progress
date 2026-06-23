@@ -106,6 +106,19 @@ Season13.Runs.push(
                 FirstAttemptDate: "2026-05-13T13:41:05Z"
             },
 			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-05-14T01:18:11Z", Attempts: 1, IDNo: "35612", Party: [
+                    { Pokemon: "Tangrowth", Nickname: "AH TIStt ", Level: 48, Gender: "Female", Met: "Goldenrod City", OT: "Lindy" },
+                    { Pokemon: "Togetic", Nickname: "STimoon", Level: 46, Gender: "Male", Met: "Goldenrod City", OT: "Lindy" },
+                    { Pokemon: "Mamoswine", Nickname: "OINKMON", Level: 50, Gender: "Female", Met: "Ice Path", OT: "Lindy" },
+                    { Pokemon: "Seaking", Nickname: "NOyyyy♀", Level: 50, Gender: "Female", Met: "Union Cave", OT: "Lindy" },
+                    { Pokemon: "Mr. Mime", Nickname: "MEME", Level: 57, Gender: "Female", Met: "Safari Zone", OT: "Lindy" },
+                    { Pokemon: "Parasect", Level: 28, Gender: "Male", Met: "Ilex Forest", OT: "Lindy" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "2026-05-14T00:30:22Z"
+            },
+			
             {
                 Group: "Badges",
                 Name: "Boulder Badge",
@@ -192,6 +205,8 @@ Season13.Runs.push(
                 Image: "img/trainers/heartgold/lance.png",
                 Time: "2026-05-20T03:51:45.985Z", Attempts: 1
             },
+			
+			
             {
                 Group: "Former Champions",
                 Name: "Red",
