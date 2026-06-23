@@ -179,7 +179,7 @@ Season13.Runs.push(
                 Time: "2026-05-20T03:51:45.985Z", Attempts: 1
             },
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Red",
                 Image: "img/trainers/heartgold/red.png",
                 Time: "", Attempts: 0
