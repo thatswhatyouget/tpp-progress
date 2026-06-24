@@ -207,9 +207,15 @@ Season13.Runs.push(
             },
 			
             {
-                Group: "Rematch Badges",
+                Group: "Rematch Badges", Class: "Rematch",
+                Name: "Plain Badge",
+                Image: "img/badges/plain.png",
+                Time: "2026-05-16T14:06:13.529Z", Attempts: 1
+            },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
                 Name: "Boulder Badge",
-                Image: "img/badges/boulder.png", Class: "Rematch",
+                Image: "img/badges/boulder.png", 
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "2026-05-16T02:47:23.312Z", Attempts: 1
             },
@@ -233,6 +239,14 @@ Season13.Runs.push(
                 Image: "img/badges/prints/johto/hallS2.png",
                 Time: "2026-05-19T14:32:22Z", Attempts: 0
             },
+
+            { 
+				Group: "Past Hosts", 
+				Name: "aoooo", 
+				Image: "img/hosts/aoooo.png", 
+				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", 
+				Time: "2026-05-16T21:21:18Z", Attempts: 1
+			},
 
             { "Group": "Pokemon", "Name": "Chikorita", "Time": "2026-05-09T21:22:56.641Z" },
             { "Group": "Pokemon", "Name": "Hoothoot", "Time": "2026-05-09T22:22:10.730Z" },
@@ -408,24 +422,24 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Salamence", "Time": "2026-05-16T05:11:39.444Z" },
             { "Group": "Pokemon", "Name": "Scyther", "Time": "2026-05-16T06:46:29.262Z" },
             { "Group": "Pokemon", "Name": "Nidorina", "Time": "2026-05-16T07:56:33.501Z" },
-            { "Group": "Pokemon", "Name": "Pidgeot", "Time": "2026-05-16T09:59:52.956Z" },
-            { "Group": "Pokemon", "Name": "Primeape", "Time": "2026-05-16T09:59:52.957Z" },
-            { "Group": "Pokemon", "Name": "Azumarill", "Time": "2026-05-16T09:59:52.957Z" },
-            { "Group": "Pokemon", "Name": "Ralts", "Time": "2026-05-16T09:59:52.957Z" },
-            { "Group": "Pokemon", "Name": "Slakoth", "Time": "2026-05-16T09:59:52.957Z" },
-            { "Group": "Pokemon", "Name": "Vibrava", "Time": "2026-05-16T09:59:52.957Z" },
+            { "Group": "Pokemon", "Name": "Pidgeot", "Time": "2026-05-16T09:59:52.956Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Primeape", "Time": "2026-05-16T09:59:52.957Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Azumarill", "Time": "2026-05-16T09:59:52.957Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Ralts", "Time": "2026-05-16T09:59:52.957Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Slakoth", "Time": "2026-05-16T09:59:52.957Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Vibrava", "Time": "2026-05-16T09:59:52.957Z" }, // Transferred from Multiworld Emerald
             { "Group": "Pokemon", "Name": "Blissey", "Time": "2026-05-16T11:13:41.240Z" },
             { "Group": "Pokemon", "Name": "Azurill", "Time": "2026-05-16T13:07:15.694Z" },
             { "Group": "Pokemon", "Name": "Kadabra", "Time": "2026-05-16T16:04:13.305Z" },
             { "Group": "Pokemon", "Name": "Mewtwo", "Time": "2026-05-16T17:52:48.617Z" },
             { "Group": "Pokemon", "Name": "Sneasel", "Time": "2026-05-16T18:46:38.959Z" },
             { "Group": "Pokemon", "Name": "Moltres", "Time": "2026-05-16T19:33:03.483Z" },
-            { "Group": "Pokemon", "Name": "Meowth", "Time": "2026-05-16T20:07:42.775Z" },
-            { "Group": "Pokemon", "Name": "Treecko", "Time": "2026-05-16T20:07:42.775Z" },
-            { "Group": "Pokemon", "Name": "Poochyena", "Time": "2026-05-16T20:07:42.775Z" },
-            { "Group": "Pokemon", "Name": "Nuzleaf", "Time": "2026-05-16T20:07:42.775Z" },
-            { "Group": "Pokemon", "Name": "Wynaut", "Time": "2026-05-16T20:07:42.775Z" },
-            { "Group": "Pokemon", "Name": "Luvdisc", "Time": "2026-05-16T20:07:42.775Z" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "2026-05-16T20:07:42.775Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Treecko", "Time": "2026-05-16T20:07:42.775Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Poochyena", "Time": "2026-05-16T20:07:42.775Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Nuzleaf", "Time": "2026-05-16T20:07:42.775Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Wynaut", "Time": "2026-05-16T20:07:42.775Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Luvdisc", "Time": "2026-05-16T20:07:42.775Z" }, // Transferred from Multiworld Emerald
             { "Group": "Pokemon", "Name": "Marill", "Time": "2026-05-16T20:16:27.488Z" },
             { "Group": "Pokemon", "Name": "Clefairy", "Time": "2026-05-16T20:24:12.587Z" },
             { "Group": "Pokemon", "Name": "Nidorino", "Time": "2026-05-16T20:39:24.937Z" },
