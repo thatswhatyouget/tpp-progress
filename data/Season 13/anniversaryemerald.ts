@@ -14,7 +14,7 @@ Season13.Runs.push(
         Pokedex: "National",
         //FromNatDex: true,
         //ExtraDexes: ["National"], //Misbehaves with FromNatDex
-        // FinalStateLink: "./states/Season 13/anniversaryemerald.json",
+        FinalStateLink: "./states/Season 13/anniversaryemerald.json",
         Events: [
             {
                 Group: "Badges", Name: "Stone Badge", Image: "img/badges/stone.png",
