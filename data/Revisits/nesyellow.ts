@@ -96,8 +96,8 @@ Revisits.Runs.push(
             { "Group": "Pokemon", "Name": "Omanyte", "Time": "2024-02-19T03:28:53Z" },
 			
             {
-                Group: "Elite Four Rematch", Name: "Jesse & James", Image: "img/trainers/red/jessie_james.png",
-                Time: "2024-02-19T10:14:51Z", Attempts: 3, Class: "Rematch"
+                Group: "Rematch Champions", Name: "Jesse & James", Image: "img/trainers/red/jessie_james.png",
+                Time: "2024-02-19T10:14:51Z", Attempts: 3
             },
 			
             <TPP.HallOfFame>{

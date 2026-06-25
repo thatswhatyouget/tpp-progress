@@ -151,7 +151,7 @@ Sidegames.Runs.push(
                 Time: "2022-12-02T17:32:12.956Z", Attempts: 1
             },
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Red",
                 Image: "img/trainers/crystal/red.png",
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",
