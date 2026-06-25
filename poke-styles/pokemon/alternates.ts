@@ -184,7 +184,8 @@ var alternates: Alternate[] = [
     new Alternate("gourgeist", "Large"),
     new Alternate("gourgeist", "Super"),
 
-    new Alternate("zygarde", "percent10"),
+    new Alternate("Zygarde", "Percent10"),
+    new Alternate("Zygarde", "Complete"),
 
     new Alternate("Hoopa", "unbound"),
 
