@@ -298,7 +298,7 @@ Season11.Runs.push(
             },
 
             {
-                Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png",
+                Group: "Rematch Champions", Name: "Alder", Image: "img/trainers/black/alder.png",
                 Time: "2024-03-23T20:29:36.638Z", Attempts: 1
             },
 
@@ -622,7 +622,7 @@ Season11.Runs.push(
             },
 			
             {
-                Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png",
+                Group: "Rematch Champions", Name: "Alder", Image: "img/trainers/black/alder.png",
                 Time: "2024-03-21T22:30:06.756Z", Attempts: 1
             },
 

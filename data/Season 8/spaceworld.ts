@@ -111,6 +111,10 @@ Season8.Runs.push(
                 FirstAttemptDate: "2021-10-14T22:56:26.226Z",
                 Image: "img/ribbons/champion.png"
             },
+            {
+                Group: "Former Champions", Name: "Blue", Image: "img/trainers/spaceworld/blue.png",
+                Time: "2021-10-15T09:03:26.222Z", Attempts: 1,
+            },
 
             { "Group": "Pokemon", "Name": "Cubburn", "Time": "2021-10-09T21:09:59.852Z" },
             { "Group": "Pokemon", "Name": "Pidgey", "Time": "2021-10-09T21:27:45.631Z" },

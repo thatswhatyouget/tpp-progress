@@ -87,28 +87,28 @@ Season8.Runs.push(
             {
                 Group: "Elite Four",
                 Name: "Shauntal",
-                Image: "img/trainers/black/shauntal.png",
+                Image: "img/trainers/black2/roxie.png",
                 Time: "2021-07-22T12:48:29.251Z",
                 Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Grimsley",
-                Image: "img/trainers/black/grimsley.png",
+                Image: "img/trainers/black2/colress.png",
                 Time: "2021-07-22T08:58:55.954Z",
                 Attempts: 1
             },
             {
                 Group: "Elite Four",
                 Name: "Caitlin",
-                Image: "img/trainers/black/caitlin.png",
+                Image: "img/trainers/heartgold/lance-2.png",
                 Time: "2021-07-22T12:59:43.912Z",
                 Attempts: 3
             },
             {
                 Group: "Elite Four",
                 Name: "Marshal",
-                Image: "img/trainers/black/marshal.png",
+                Image: "img/trainers/black2/brawly.png",
                 Time: "2021-07-23T02:19:28.095Z",
                 Attempts: 8
             },
@@ -135,7 +135,7 @@ Season8.Runs.push(
             {
                 Group: "Elite Four Rematch",
                 Name: "Grimsley",
-                Image: "img/trainers/black/grimsley.png",
+                Image: "img/trainers/black2/brawly.png",
                 Class: "Rematch",
                 Time: "2021-07-27T03:16:33.901Z",
                 Attempts: 2
@@ -143,7 +143,7 @@ Season8.Runs.push(
             {
                 Group: "Elite Four Rematch",
                 Name: "Shauntal",
-                Image: "img/trainers/black/shauntal.png",
+                Image: "img/trainers/black/cress.png",
                 Class: "Rematch",
                 Time: "2021-07-26T03:27:46.191Z",
                 Attempts: 3
@@ -151,7 +151,7 @@ Season8.Runs.push(
             {
                 Group: "Elite Four Rematch",
                 Name: "Caitlin",
-                Image: "img/trainers/black/caitlin.png",
+                Image: "img/trainers/black/chili.png",
                 Class: "Rematch",
                 Time: "2021-07-23T20:30:27.505Z",
                 Attempts: 1
@@ -159,23 +159,23 @@ Season8.Runs.push(
             {
                 Group: "Elite Four Rematch",
                 Name: "Marshal",
-                Image: "img/trainers/black/marshal.png",
+                Image: "img/trainers/heartgold/falkner.png",
                 Class: "Rematch",
                 Time: "2021-07-23T20:19:00.629Z",
                 Attempts: 1
             },
 			
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Alder",
-                Image: "img/trainers/black/alder.png",
+                Image: "img/trainers/heartgold/clair.png",
                 Time: "2021-07-25T20:35:03.003Z",
                 Attempts: 1
             },
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Cynthia",
-                Image: "img/trainers/platinum/cynthia.png",
+                Image: "img/trainers/black/skyla.png",
                 Time: "2021-07-28T14:15:47.838Z",
                 Attempts: 1
             },
@@ -190,7 +190,6 @@ Season8.Runs.push(
                 Group: "Elite Four Rematch",
                 Name: " W ☹☹''",
                 Image: "img/hosts/w.png",
-                Class: "Rematch",
                 Time: "2021-07-29T20:29:48.027Z",
                 Attempts: 1
             },
@@ -198,7 +197,6 @@ Season8.Runs.push(
                 Group: "Elite Four Rematch",
                 Name: "AAAALK'",
                 Image: "img/hosts/aaaalk.png",
-                Class: "Rematch",
                 Time: "2021-07-29T20:40:39.825Z",
                 Attempts: 1
             },
@@ -206,7 +204,6 @@ Season8.Runs.push(
                 Group: "Elite Four Rematch",
                 Name: "\u2640\u2640R",
                 Image: "img/hosts/r.png",
-                Class: "Rematch",
                 Time: "2021-07-29T21:10:42.342Z",
                 Attempts: 2
             },
@@ -214,16 +211,14 @@ Season8.Runs.push(
                 Group: "Elite Four Rematch",
                 Name: "♂♂♂'",
                 Image: "img/hosts/♂♂♂.png",
-                Class: "Rematch",
                 Time: "2021-07-29T22:16:49.846Z",
                 Attempts: 5
             },
 			
             {
-                Group: "Champions",
+                Group: "Rematch Champions",
                 Name: "Iris",
-                Image: "img/trainers/black/sabrina.png",
-                Class: "Rematch",
+                Image: "img/trainers/heartgold/sabrina.png",
                 Time: "2021-07-29T23:30:29.322Z",
                 Attempts: 2
             },

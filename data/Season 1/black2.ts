@@ -145,7 +145,7 @@ Season1.Runs.push(
                 Time: "19d 1h 41m"
             },
             {
-                Group: "Champions",
+                Group: "Past Hosts",
                 Name: "RED",
                 Image: "img/hosts/red.png",
                 Time: "19d 2h 16m"

@@ -125,7 +125,7 @@ Season2.Runs.push(
                 Attempts: 2
             },
             {
-                Group: "Champions",
+                Group: "Battle Legends",
                 Name: "Zinnia",
                 Image: "img/trainers/emerald/zinnia.png",
                 ImageSource: "http://kinectedwires.deviantart.com/art/OR-AS-Zinnia-Sprite-505257562",

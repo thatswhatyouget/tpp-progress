@@ -67,7 +67,7 @@ Season6.Runs.push(
                 FirstAttemptDate: "2019-10-19T22:53:19.856Z"
             },
 
-            { "Group": "Champions", "Name": "Hapu", "Time": "2019-10-22T22:19:06.063Z", "Attempts": 1, "Image": "img/trainers/sun/hapu.png", "ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Hapu-651473867" },
+            { "Group": "Rematch Champions", "Name": "Hapu", "Time": "2019-10-22T22:19:06.063Z", "Attempts": 1, "Image": "img/trainers/sun/hapu.png", "ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Hapu-651473867" },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-10-22T22:19:29.672Z", Attempts: 2, Party: [
                     { Pokemon: "Garchomp", Nickname: "GarWG%chom", Gender: "Male", Level: 97 },
@@ -81,7 +81,7 @@ Season6.Runs.push(
                 FirstAttemptDate: "2019-10-22T20:32:34.094Z"
             },
 
-            { "Group": "Champions", "Name": "Kukui", "Time": "2019-10-22T23:45:23.849Z", "Attempts": 1, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
+            { "Group": "Rematch Champions", "Name": "Kukui", "Time": "2019-10-22T23:45:23.849Z", "Attempts": 1, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2019-10-22T23:45:49.300Z", Attempts: 1, Party: [
                     { Pokemon: "Garchomp", Nickname: "GarWG%chom", Gender: "Male", Level: 97 },

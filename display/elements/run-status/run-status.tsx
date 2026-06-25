@@ -178,13 +178,13 @@ namespace TPP.Display.Elements.RunStatus {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Elite Four" || e.Group == "Final Bosses" || (e.Group == "Champions" && (`${e.Image} ${e.Class}`.toLowerCase()).indexOf("rematch") < 0) /*&& e.Image.indexOf("hosts") < 0*/));
         }
         private get eliteFourRematch() {
-            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Elite Four Rematch" || (e.Group == "Champions" && (`${e.Image} ${e.Class}`.toLowerCase()).indexOf("rematch") > 0)));
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Elite Four Rematch" || e.Group == "Rematch Champions" || (e.Group == "Champions" && (`${e.Image} ${e.Class}`.toLowerCase()).indexOf("rematch") > 0)));
         }
         private get pastHosts() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Past Hosts" /*|| (e.Group == "Champions" && e.Image.indexOf("hosts") > 0)*/));
         }
-        private get formerChampions() {
-            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Former Champions"));
+        private get battleLegends() {
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Battle Legends" || e.Group == "Former Champions"));
         }
         private get rematchBadges() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Rematch Badges" || e.Group == "Rematch Stamps"));
@@ -255,7 +255,7 @@ namespace TPP.Display.Elements.RunStatus {
                     <PokeBox title="Duration"><h3>{Duration.parse(this.state.run.Ongoing ? new Date().toISOString() : this.state.run.Duration, this.state.run.StartTime).toString()}</h3></PokeBox>
                     <CurrentLocation mapName={this.state.status.map_name} areaName={this.state.status.area_name} />
                     <EventDisplay key="Past Hosts" events={this.pastHosts} />
-                    <EventDisplay key="Former Champions" events={this.formerChampions} />
+                    <EventDisplay key="Battle Legends" events={this.battleLegends} />
                     <EventDisplay key="Tournaments" events={this.tournaments} />
                     <EventDisplay key="Battle Frontier" events={this.battleFrontier} />
                     <EventDisplay key="Elite Four Rematch" events={this.eliteFourRematch} />

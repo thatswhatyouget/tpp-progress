@@ -103,7 +103,7 @@ Season10.Runs.push(
             },
 
             {
-                Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png",
+                Group: "Rematch Champions", Name: "Alder", Image: "img/trainers/black/alder.png",
                 Time: "2024-01-02T21:35:19.568Z", Attempts: 2
             },
 

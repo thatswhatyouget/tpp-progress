@@ -154,7 +154,7 @@ Season9.Runs.push(
             },
 
             {
-                "Group": "Champions", "Name": "Raika", "Class": "rematch", "Image": "img/trainers/star/raika.png", "ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Ryuki-653262247",
+                "Group": "Rematch Champions", "Name": "Raika", "Image": "img/trainers/star/raika.png", "ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Ryuki-653262247",
                 "Time": "2022-10-22T07:20:40.117Z", "Attempts": 1
             },
             <TPP.HallOfFame>{
@@ -183,7 +183,7 @@ Season9.Runs.push(
             },
 
             {
-                "Group": "Champions", "Name": "Wicke", "Class": "rematch", "Image": "img/trainers/sun/wicke.png", "ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Wicke-651891368",
+                "Group": "Rematch Champions", "Name": "Wicke", "Image": "img/trainers/sun/wicke.png", "ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Wicke-651891368",
                 "Time": "2022-10-22T16:47:34.793Z", "Attempts": 1
             },
             <TPP.HallOfFame>{
@@ -200,7 +200,7 @@ Season9.Runs.push(
             },
 
             {
-                "Group": "Champions", "Name": "Moon", "Class": "rematch", "Image": "img/trainers/star/moon.png", "ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Sina-653448857",
+                "Group": "Rematch Champions", "Name": "Moon", "Image": "img/trainers/star/moon.png", "ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Sina-653448857",
                 "Time": "2022-10-22T21:51:20.894Z", "Attempts": 1
             },
             <TPP.HallOfFame>{

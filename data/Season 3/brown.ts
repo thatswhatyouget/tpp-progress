@@ -33,7 +33,7 @@ Season3.Runs.push(
             { "Group": "Elite Four", "Name": "Agatha", "Time": "2016-06-25T21:14:00.000Z", "Attempts": 3, "Image": "img/trainers/brown/agatha.png" },
             { "Group": "Elite Four", "Name": "Drake", "Time": "2016-06-26T00:53:00.000Z", "Attempts": 3, "Image": "img/trainers/brown/drake.png" },
             { "Group": "Champions", "Name": "Mura", "Time": "2016-06-26T05:01:00.000Z", "Attempts": 2, "Image": "img/trainers/brown/mura.png" },
-            { "Group": "Champions", "Name": "Pallet Patrol", "Time": "10d 8h 30m", "Attempts": 2, "Image": "img/trainers/brown/palletpatrol.png" },
+            { "Group": "Battle Legends", "Name": "Pallet Patrol", "Time": "10d 8h 30m", "Attempts": 2, "Image": "img/trainers/brown/palletpatrol.png" },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "9d 8h 3m", Attempts: 12, Party: [
                     { Pokemon: "Golduck", Nickname: "AAAAAAAAFF", Level: 56, Type1: "Water" },

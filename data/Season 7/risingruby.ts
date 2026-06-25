@@ -118,7 +118,7 @@ Season7.Runs.push(
                 FirstAttemptDate: "7d 20h 40m"
             },
             {
-                Group: "Champions",
+                Group: "Battle Legends",
                 Name: "Zinnia",
                 Image: "img/trainers/emerald/zinnia.png",
                 ImageSource: "http://kinectedwires.deviantart.com/art/OR-AS-Zinnia-Sprite-505257562",

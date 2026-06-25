@@ -153,7 +153,7 @@ Sidegames.Runs.push(
                 Time: "2015-11-03T09:57:30Z"
             },
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "SORCERER'SSHO",
                 Image: "img/trainers/crystal/sorcererssho.png",
                 ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",

@@ -68,7 +68,7 @@ Season11.Runs.push(
                 Time: "2024-09-18T08:19:18.123Z", Attempts: 1
             },
             {
-                Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png",
+                Group: "Former Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png",
                 Time: "2024-09-19T04:35:41.331Z", Attempts: 1
             },
 

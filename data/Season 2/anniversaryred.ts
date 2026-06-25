@@ -220,7 +220,7 @@ Season2.Runs.push(
                 Class: "Rematch"
             },
             {
-                Group: "Champions",
+                Group: "Battle Legends",
                 Name: "Professor Oak",
                 Image: "img/trainers/red/oak.png",
                 Time: "39d 19h 17m",

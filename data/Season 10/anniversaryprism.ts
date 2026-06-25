@@ -232,28 +232,28 @@ Season10.Runs.push(
 			},
 
             {
-                "Group": "Champions", "Image": "img/trainers/prism/brown.png", "Name": "Brown",
+                "Group": "Former Champions", "Image": "img/trainers/prism/brown.png", "Name": "Brown",
                 "Time": "2023-02-18T22:33:07Z", "Attempts": 1
             },
             {
-                "Group": "Champions", "Image": "img/trainers/prism/gold.png", "Name": "Gold",
+                "Group": "Former Champions", "Image": "img/trainers/prism/gold.png", "Name": "Gold",
                 "Time": "2023-02-18T22:40:53Z", "Attempts": 1
             },
             {
-                "Group": "Champions", "Image": "img/trainers/prism/red.png", "Name": "Red",
+                "Group": "Former Champions", "Image": "img/trainers/prism/red.png", "Name": "Red",
                 "Time": "2023-02-18T22:46:16Z", "Attempts": 1
             },
 			
             {
-                "Group": "Champions", "Image": "img/trainers/prism/brown.png", "Name": "Brown", "Class": "Rematch",
+                "Group": "Former Champions", "Image": "img/trainers/prism/brown.png", "Name": "Brown", "Class": "Rematch",
                 "Time": "2023-02-24T04:26:17Z", "Attempts": 1
             },
             {
-                "Group": "Champions", "Image": "img/trainers/prism/gold.png", "Name": "Gold", "Class": "Rematch",
+                "Group": "Former Champions", "Image": "img/trainers/prism/gold.png", "Name": "Gold", "Class": "Rematch",
                 "Time": "2023-02-24T06:18:07Z", "Attempts": 2
             },
             {
-                "Group": "Champions", "Image": "img/trainers/prism/red.png", "Name": "Red", "Class": "Rematch",
+                "Group": "Former Champions", "Image": "img/trainers/prism/red.png", "Name": "Red", "Class": "Rematch",
                 "Time": "2023-02-24T06:23:05Z", "Attempts": 1
             },
 			

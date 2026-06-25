@@ -160,7 +160,7 @@ Season3.Runs.push(
             { "Group": "Pokemon", "Name": "Slowpoke", "Time": "11d 20h 25m" },
             { "Group": "Pokemon", "Name": "Ditto", "Time": "11d 23h 29m" },
             { "Group": "Pokemon", "Name": "Beldum", "Time": "11d 23h 46m" },
-            { "Group": "Champions", "Name": "Hau", "Time": "12d2h45m", "Attempts": 2, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
+            { "Group": "Rematch Champions", "Name": "Hau", "Time": "12d2h45m", "Attempts": 2, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374" },
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "12d2h45m", Attempts: 8, Party: [
                     { Pokemon: "Ribombee", Nickname: "Ribombe r44", Gender: "Male", Level: 84 },

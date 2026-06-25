@@ -48,7 +48,7 @@ Season8.Runs.push(
             { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "2021-07-10T12:36:29Z", Attempts: 1, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "2021-07-10T13:31:00Z", Attempts: 2, Class: "Rematch" },
 
-            { Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "2021-07-12T01:51:30Z", Attempts: 4 },
+            { Group: "Rematch Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "2021-07-12T01:51:30Z", Attempts: 4 },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-07-12T01:52:49Z", IDNo: "39604", Attempts: 0, Party: [
