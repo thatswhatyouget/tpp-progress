@@ -226,12 +226,25 @@ Season13.Runs.push(
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "2026-05-17T04:10:35.209Z", Attempts: 1
             },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
+                Name: "Marsh Badge",
+                Image: "img/badges/marsh.png", 
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2026-05-17T17:19:22.018Z", Attempts: 1
+            },
 			
             {
                 Group: "Former Champions",
                 Name: "Red",
                 Image: "img/trainers/heartgold/red.png",
                 Time: "", Attempts: 0
+            },
+            {
+                Group: "Former Champions",
+                Name: "Lance & Clair",
+                Image: "img/trainers/heartgold/lanceclair.png",
+                Time: "2026-05-18T02:39:40.322Z", Attempts: 1
             },
 			
             {
@@ -242,15 +255,21 @@ Season13.Runs.push(
             },
             {
                 Group: "Prints",
-                Name: "Silver Hall Print",
-                Image: "img/badges/prints/johto/hallS2.png",
-                Time: "2026-05-19T14:32:22Z", Attempts: 0
-            },
-            {
-                Group: "Prints",
                 Name: "Gold Tower Print",
                 Image: "img/badges/prints/johto/towerG2.png",
                 Time: "2026-05-17T14:45:00Z", Attempts: 0
+            },
+            {
+                Group: "Prints",
+                Name: "Silver Arcade Print",
+                Image: "img/badges/prints/johto/arcadeS2.png",
+                Time: "2026-05-17T22:38:13Z", Attempts: 0
+            },
+            {
+                Group: "Prints",
+                Name: "Silver Hall Print",
+                Image: "img/badges/prints/johto/hallS2.png",
+                Time: "2026-05-19T14:32:22Z", Attempts: 0
             },
 
             { 
@@ -477,12 +496,12 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Ivysaur", "Time": "2026-05-17T09:32:16.730Z" },
             { "Group": "Pokemon", "Name": "Venusaur", "Time": "2026-05-17T09:42:55.870Z" },
             { "Group": "Pokemon", "Name": "Breloom", "Time": "2026-05-17T09:57:35.375Z" },
-            { "Group": "Pokemon", "Name": "Beautifly", "Time": "2026-05-17T15:06:26.219Z" },
-            { "Group": "Pokemon", "Name": "Surskit", "Time": "2026-05-17T15:06:26.219Z" },
-            { "Group": "Pokemon", "Name": "Camerupt", "Time": "2026-05-17T15:06:26.219Z" },
-            { "Group": "Pokemon", "Name": "Spinda", "Time": "2026-05-17T15:06:26.219Z" },
-            { "Group": "Pokemon", "Name": "Zangoose", "Time": "2026-05-17T15:06:26.219Z" },
-            { "Group": "Pokemon", "Name": "Duskull", "Time": "2026-05-17T15:06:26.219Z" },
+            { "Group": "Pokemon", "Name": "Beautifly", "Time": "2026-05-17T15:06:26.219Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Surskit", "Time": "2026-05-17T15:06:26.219Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Camerupt", "Time": "2026-05-17T15:06:26.219Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Spinda", "Time": "2026-05-17T15:06:26.219Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Zangoose", "Time": "2026-05-17T15:06:26.219Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Duskull", "Time": "2026-05-17T15:06:26.219Z" }, // Transferred from Multiworld Emerald
             { "Group": "Pokemon", "Name": "Swablu", "Time": "2026-05-17T15:25:59.834Z" },
             { "Group": "Pokemon", "Name": "Ho-Oh", "Time": "2026-05-17T16:48:10.714Z" },
             { "Group": "Pokemon", "Name": "Masquerain", "Time": "2026-05-17T17:01:23.798Z" },
