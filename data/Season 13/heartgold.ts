@@ -219,6 +219,13 @@ Season13.Runs.push(
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "2026-05-16T02:47:23.312Z", Attempts: 1
             },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
+                Name: "Rainbow Badge",
+                Image: "img/badges/rainbow.png", 
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2026-05-17T04:10:35.209Z", Attempts: 1
+            },
 			
             {
                 Group: "Former Champions",
@@ -238,6 +245,12 @@ Season13.Runs.push(
                 Name: "Silver Hall Print",
                 Image: "img/badges/prints/johto/hallS2.png",
                 Time: "2026-05-19T14:32:22Z", Attempts: 0
+            },
+            {
+                Group: "Prints",
+                Name: "Gold Tower Print",
+                Image: "img/badges/prints/johto/towerG2.png",
+                Time: "2026-05-17T14:45:00Z", Attempts: 0
             },
 
             { 
@@ -453,12 +466,12 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Kangaskhan", "Time": "2026-05-17T06:21:34.014Z" },
             { "Group": "Pokemon", "Name": "Marowak", "Time": "2026-05-17T06:28:02.984Z" },
             { "Group": "Pokemon", "Name": "Hypno", "Time": "2026-05-17T06:35:44.241Z" },
-            { "Group": "Pokemon", "Name": "Omanyte", "Time": "2026-05-17T07:37:34.798Z" },
-            { "Group": "Pokemon", "Name": "Hitmontop", "Time": "2026-05-17T07:37:34.798Z" },
-            { "Group": "Pokemon", "Name": "Plusle", "Time": "2026-05-17T07:37:34.798Z" },
-            { "Group": "Pokemon", "Name": "Illumise", "Time": "2026-05-17T07:37:34.798Z" },
-            { "Group": "Pokemon", "Name": "Shuppet", "Time": "2026-05-17T07:37:34.798Z" },
-            { "Group": "Pokemon", "Name": "Deoxys", "Time": "2026-05-17T07:37:35.517Z" },
+            { "Group": "Pokemon", "Name": "Omanyte", "Time": "2026-05-17T07:37:34.798Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Hitmontop", "Time": "2026-05-17T07:37:34.798Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Plusle", "Time": "2026-05-17T07:37:34.798Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Illumise", "Time": "2026-05-17T07:37:34.798Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Shuppet", "Time": "2026-05-17T07:37:34.798Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Deoxys", "Time": "2026-05-17T07:37:35.517Z" }, // Transferred from Multiworld Emerald
             { "Group": "Pokemon", "Name": "Ninjask", "Time": "2026-05-17T09:12:15.072Z" },
             { "Group": "Pokemon", "Name": "Shedinja", "Time": "2026-05-17T09:12:15.072Z" },
             { "Group": "Pokemon", "Name": "Ivysaur", "Time": "2026-05-17T09:32:16.730Z" },
