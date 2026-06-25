@@ -5,4 +5,3 @@ addSpriteSheet("cassettebeasts", "cassettes", SpriteSheetType.Small);
 addSpriteSheet("cassettebeasts", "cassettes", SpriteSheetType.Large);
 
 addStyles(Pokedex.Regional["Bestiary"], defaultMapping("cassettebeasts"));
-addStyles(Pokedex.Regional["Bestiary + Pier"], defaultMapping("cassettebeasts"));
