@@ -5,7 +5,7 @@ Season13.Runs.push(
         ColorPrimary: "#fff",
         ColorSecondary: "#00a10b",
         StartDate: "2026-03-22T21:00:00Z",
-        Duration: "255d",
+        Duration: "2026-04-15T04:11:51Z",
         HostName: "mg0000",
         HostImage: "img/hosts/mg0000.png",
         BaseGame: "Emerald",
@@ -47,6 +47,19 @@ Season13.Runs.push(
             {
                 Group: "Badges", Name: "Rain Badge", Image: "img/badges/rain.png",
                 Time: "2026-03-29T02:19:09.282Z", Attempts: 8
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-03-31T11:11:33.879Z", IDNo: "06265", Attempts: 0, Party: [
+                    { Pokemon: "Crawdaunt", Nickname: "Pppm33", Level: 82, Gender: "Male", Number: 136, IDNo: "06265" },
+                    { Pokemon: "Rapidash", Nickname: "Oo223D", Level: 89, Gender: "Male", Number: "000", IDNo: "06265", Form: "Galarian" },
+                    { Pokemon: "Ambipom", Nickname: "Gghbttunnmgj", Level: 86, Gender: "Female", Number: "000", IDNo: "06265" },
+                    { Pokemon: "Clodsire", Nickname: "k", Level: 87, Gender: "Female", Number: "000", IDNo: "06265" },
+                    { Pokemon: "Arcanine", Nickname: "Aaaa………VVWW", Level: 93, Gender: "Female", Number: "000", IDNo: "06265", Form: "Hisuian" },
+                    { Pokemon: "Illumise", Nickname: "Ffyyyxrrrrrr", Level: 79, Gender: "Female", Number: 91, IDNo: "06265" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
             },
 
             // TODO: Fix times from clips
