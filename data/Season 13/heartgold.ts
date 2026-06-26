@@ -214,6 +214,18 @@ Season13.Runs.push(
             },
             {
                 Group: "Rematch Badges", Class: "Rematch",
+                Name: "Fog Badge",
+                Image: "img/badges/fog.png",
+                Time: "2026-05-19T00:44:23.879Z", Attempts: 1
+            },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
+                Name: "Glacier Badge",
+                Image: "img/badges/glacier.png",
+                Time: "2026-05-18T04:41:41.315Z", Attempts: 1
+            },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
                 Name: "Boulder Badge",
                 Image: "img/badges/boulder.png", 
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
@@ -228,23 +240,43 @@ Season13.Runs.push(
             },
             {
                 Group: "Rematch Badges", Class: "Rematch",
+                Name: "Soul Badge",
+                Image: "img/badges/soul.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2026-05-18T16:03:44.645Z", Attempts: 1
+            },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
                 Name: "Marsh Badge",
                 Image: "img/badges/marsh.png", 
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "2026-05-17T17:19:22.018Z", Attempts: 1
             },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
+                Name: "Volcano Badge",
+                Image: "img/badges/volcano.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2026-05-19T10:26:47.796Z", Attempts: 1
+            },
 			
+            {
+                Group: "Battle Legends",
+                Name: "Lance & Clair",
+                Image: "img/trainers/heartgold/lanceclair.png",
+                Time: "2026-05-18T02:39:40.322Z", Attempts: 1
+            },
+            {
+                Group: "Battle Legends",
+                Name: "Giovanni",
+                Image: "img/trainers/heartgold/giovanni.png",
+                Time: "2026-05-19T11:29:56.680Z", Attempts: 1
+            },
             {
                 Group: "Former Champions",
                 Name: "Red",
                 Image: "img/trainers/heartgold/red.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Former Champions",
-                Name: "Lance & Clair",
-                Image: "img/trainers/heartgold/lanceclair.png",
-                Time: "2026-05-18T02:39:40.322Z", Attempts: 1
+                Time: "", Attempts: 2
             },
 			
             {
@@ -513,11 +545,11 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Feraligatr", "Time": "2026-05-17T19:16:06.979Z" },
             { "Group": "Pokemon", "Name": "Meganium", "Time": "2026-05-17T19:43:13.998Z" },
             { "Group": "Pokemon", "Name": "Dratini", "Time": "2026-05-17T20:11:23.054Z" },
-            { "Group": "Pokemon", "Name": "Cleffa", "Time": "2026-05-18T05:27:05.327Z" },
-            { "Group": "Pokemon", "Name": "Spheal", "Time": "2026-05-18T05:27:05.328Z" },
-            { "Group": "Pokemon", "Name": "Regice", "Time": "2026-05-18T05:27:05.328Z" },
-            { "Group": "Pokemon", "Name": "Kyogre", "Time": "2026-05-18T05:27:05.328Z" },
-            { "Group": "Pokemon", "Name": "Rayquaza", "Time": "2026-05-18T05:27:05.328Z" },
+            { "Group": "Pokemon", "Name": "Cleffa", "Time": "2026-05-18T05:27:05.327Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Spheal", "Time": "2026-05-18T05:27:05.328Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Regice", "Time": "2026-05-18T05:27:05.328Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Kyogre", "Time": "2026-05-18T05:27:05.328Z" }, // Transferred from Multiworld Emerald
+            { "Group": "Pokemon", "Name": "Rayquaza", "Time": "2026-05-18T05:27:05.328Z" }, // Transferred from Multiworld Emerald
             { "Group": "Pokemon", "Name": "Bonsly", "Time": "2026-05-18T06:26:54.195Z" },
             { "Group": "Pokemon", "Name": "Mantyke", "Time": "2026-05-18T06:33:40.621Z" },
             { "Group": "Pokemon", "Name": "Mime Jr.", "Time": "2026-05-18T06:35:16.421Z" },
