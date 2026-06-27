@@ -207,6 +207,19 @@ Season13.Runs.push(
                 Time: "2026-05-20T03:51:45.985Z", Attempts: 1
             },
 			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-05-20T03:54:22Z", Attempts: 0, IDNo: "35612", Party: [
+                    { Pokemon: "Froslass", Nickname: "SnowGrave", Level: 75, Gender: "Female", Met: "Goldenrod City", OT: "Lindy" },
+                    { Pokemon: "Jirachi", Level: 73, Met: "Fateful encounter", OT: "SMR2010" },
+                    { Pokemon: "Blissey", Nickname: "Tamago", Level: 61, Gender: "Female", Met: "Goldenrod City", OT: "Lindy" },
+                    { Pokemon: "Salamence", Nickname: "Scourge", Level: 66, Gender: "Female", Met: "Goldenrod City", OT: "Lindy" },
+                    { Pokemon: "Togekiss", Nickname: "STimoon", Level: 70, Gender: "Male", Met: "Goldenrod City", OT: "Lindy" },
+                    { Pokemon: "Tangrowth", Nickname: "AH TIStt ", Level: 61, Gender: "Female", Met: "Goldenrod City", OT: "Lindy" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: ""
+            },
+			
             {
                 Group: "Rematch Badges", Class: "Rematch",
                 Name: "Plain Badge",
@@ -218,6 +231,12 @@ Season13.Runs.push(
                 Name: "Fog Badge",
                 Image: "img/badges/fog.png",
                 Time: "2026-05-19T00:44:23.879Z", Attempts: 1
+            },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
+                Name: "Storm Badge",
+                Image: "img/badges/storm.png",
+                Time: "2026-05-20T01:35:02.520Z", Attempts: 1
             },
             {
                 Group: "Rematch Badges", Class: "Rematch",
@@ -277,7 +296,7 @@ Season13.Runs.push(
                 Group: "Former Champions",
                 Name: "Red",
                 Image: "img/trainers/heartgold/red.png",
-                Time: "2026-05-23T00:30:35.460Z", Attempts: 2 // Unverified
+                Time: "2026-05-23T00:30:35.460Z", Attempts: 3 // Unverified
             },
 			
             {
@@ -297,6 +316,12 @@ Season13.Runs.push(
                 Name: "Silver Arcade Print",
                 Image: "img/badges/prints/johto/arcadeS2.png",
                 Time: "2026-05-17T22:38:13Z", Attempts: 0
+            },
+            {
+                Group: "Prints",
+                Name: "Silver Factory Print",
+                Image: "img/badges/prints/johto/factoryS2.png",
+                Time: "2026-05-19T21:21:49Z", Attempts: 0
             },
             {
                 Group: "Prints",
@@ -577,7 +602,9 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Igglybuff", "Time": "2026-05-19T16:39:28.065Z" },
             { "Group": "Pokemon", "Name": "Elekid", "Time": "2026-05-19T17:09:20.722Z" },
             { "Group": "Pokemon", "Name": "Smoochum", "Time": "2026-05-19T17:14:16.764Z" },
-            { "Group": "Pokemon", "Name": "Tyranitar", "Time": "2026-05-19T18:16:12.734Z" }
+            { "Group": "Pokemon", "Name": "Tyranitar", "Time": "2026-05-19T18:16:12.734Z" },
+            { "Group": "Pokemon", "Name": "Pelipper", "Time": "2026-05-20T01:06:46.033Z" },
+            { "Group": "Pokemon", "Name": "Dunsparce", "Time": "2026-05-20T04:57:55.768Z" }
         ]
     }
 );
