@@ -9,6 +9,7 @@ Season13.Runs.push(
         HostName: "Lindy",
         HostImage: "img/hosts/lindy.png",
         HostImageSource: "https://www.tumblr.com/krizste/816436904216150016",
+        FinalStateLink: "./states/Season 13/heartgold.json",
         Region: "Johto",
         AdditionalRegions: [{ Name: "Kanto", Time: "2026-05-13T21:55:13.567Z" }],
         Generation: 4,
@@ -276,7 +277,7 @@ Season13.Runs.push(
                 Group: "Former Champions",
                 Name: "Red",
                 Image: "img/trainers/heartgold/red.png",
-                Time: "", Attempts: 2
+                Time: "2026-05-23T00:30:35.460Z", Attempts: 2 // Unverified
             },
 			
             {
