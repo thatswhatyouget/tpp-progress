@@ -195,6 +195,9 @@ namespace TPP.Display.Elements.RunStatus {
         private get rematchBosses() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Rematch Bosses"));
         }
+        private get ribbons() {
+            return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Ribbons" || e.Group == "Contests"));
+        }
         private get tournaments() {
             return this.bakeEvents(this.state.run.Events.filter(e => e.Group == "Tournaments"));
         }
@@ -269,6 +272,7 @@ namespace TPP.Display.Elements.RunStatus {
                     <EventDisplay key="Z-A Royale" events={this.getEvents("Z-A Royale")} />
                     <EventDisplay key="Z-A Infinite Royale" events={this.getEvents("Z-A Infinite Royale")} />
                     <EventDisplay key="Le Super-Tournoi de Jacinthe O" events={this.getEvents("Le Super-Tournoi de Jacinthe O")} />
+                    <EventDisplay key="Ribbons" events={this.ribbons} />
                     <GameStats key="Game Stats" title="Stats" gameStats={this.state.status.game_stats} language={this.props.run.Language} />
                     <ItemDisplay key="Candy" title="Candy" items={this.state.status.items.candy} />
                     <ItemDisplay key="Items" title="Items" items={this.state.status.items.items} />

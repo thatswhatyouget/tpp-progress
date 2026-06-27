@@ -61,6 +61,11 @@ Season13.Runs.push(
                 FirstAttemptDate: "",
                 Image: "img/ribbons/champion.png"
             },
+			
+            /*{
+                Group: "Ribbons", Name: "Cool Ribbon Master", Image: "img/badges/ribbons/hoenn/cool_master.png",
+                Time: ""
+            },*/
 
             // TODO: Fix times from clips
             // { "Group": "Pokemon", "Name": "Delcatty", "Time": "2026-03-25T05:54:28.487Z" },
