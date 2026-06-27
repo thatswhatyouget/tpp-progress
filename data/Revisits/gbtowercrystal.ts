@@ -147,7 +147,7 @@ Revisits.Runs.push(
             },
 			
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Red",
                 Image: "img/trainers/crystal/red.png",
                 ImageSource: "https://bulbapedia.bulbagarden.net/wiki/Red_(game)",

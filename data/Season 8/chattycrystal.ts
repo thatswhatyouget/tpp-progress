@@ -102,7 +102,7 @@ Season8.Runs.push(
             },
 			
             {
-                Group: "Champions", Name: "Red", Image: "img/trainers/crystal/red.png",
+                Group: "Former Champions", Name: "Red", Image: "img/trainers/crystal/red.png",
 				Time: "2021-03-04T17:32:50.028Z", Attempts: 1
             },
 			{ 
@@ -146,7 +146,7 @@ Season8.Runs.push(
 				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/f84tx7/the_gauntlet_hall_of_fame_16/",
 			},
 			{ 
-				Group: "Champions", Name: "Azure", Image: "img/trainers/crystal/azure.png", 
+				Group: "Former Champions", Name: "Azure", Image: "img/trainers/crystal/azure.png", 
 				Time: "2021-03-05T15:36:03.224Z", Attempts: 5, 
 			},
 			

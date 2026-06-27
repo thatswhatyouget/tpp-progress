@@ -280,7 +280,7 @@ Season11.Runs.push(
             { Name: "Zoroark", Time: "2024-05-17T18:06:28Z", Group: "Pokemon" },
 			
             {
-                Group: "Champions", Name: "Alder",
+                Group: "Former Champions", Name: "Alder",
                 Image: "img/trainers/black/alder.png",
                 Time: "2024-05-17T20:21:34Z", Attempts: 1
             },
@@ -719,7 +719,7 @@ Season11.Runs.push(
             },
 			
             {
-                Group: "Champions", Name: "Alder",
+                Group: "Former Champions", Name: "Alder",
                 Image: "img/trainers/black/alder.png",
                 Time: "2024-05-20T23:18:06Z", Attempts: 1
             },

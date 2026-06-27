@@ -139,28 +139,28 @@ Season9.Runs.push(
             },
 			
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Red",
                 Image: "img/trainers/heartgold/red.png",
                 Time: "2023-01-01T11:11:05.556Z",
                 Attempts: 1
             },
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Blue",
                 Image: "img/trainers/heartgold/blue.png",
                 Time: "2023-01-01T15:16:19Z",
                 Attempts: 1
             },
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Alder",
                 Image: "img/trainers/black/alder.png",
                 Time: "2023-01-01T18:35:10Z",
                 Attempts: 1
             },
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Cynthia",
                 Image: "img/trainers/platinum/cynthia.png",
                 Time: "2023-01-02T01:07:08Z",
@@ -254,14 +254,14 @@ Season9.Runs.push(
 			},
 			
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Hilbert",
                 Image: "img/trainers/black/hilbert.png",
                 Time: "2023-01-03T07:35:02Z",
                 Attempts: 1
             },
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Hilda",
                 Image: "img/trainers/black/hilda.png",
                 Time: "2023-01-03T14:58:05Z",
@@ -276,7 +276,7 @@ Season9.Runs.push(
 			},
 			
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Steven & Wallace",
                 Image: "img/trainers/black2/stevenwallace.png",
                 Time: "2023-01-03T17:15:57Z",

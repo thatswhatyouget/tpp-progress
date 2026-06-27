@@ -151,8 +151,7 @@ Sidegames.Runs.push(
                 Attempts: 1
             },
             {
-                Group: "Champions",
-                Class: "Rematch",
+                Group: "Rematch Champions",
                 Name: "Steven",
                 Image: "img/trainers/emerald/steven.png",
                 Time: "2022-12-25T03:25:53.836Z",

@@ -153,7 +153,7 @@ Season11.Runs.push(
                 Time: "2024-02-22T07:01:27Z", Attempts: 1
             },
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Red",
                 Image: "img/trainers/crystal/red.png",
                 //ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",
@@ -400,7 +400,7 @@ Season11.Runs.push(
                 Time: "2024-02-22T06:30:40Z", Attempts: 3
             },
             {
-                Group: "Champions",
+                Group: "Former Champions",
                 Name: "Red",
                 Image: "img/trainers/crystal/red.png",
                 //ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3sd3vo/sorceror_red_trainer_sprite_improvements_on/",

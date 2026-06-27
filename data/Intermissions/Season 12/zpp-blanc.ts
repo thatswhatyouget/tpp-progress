@@ -174,8 +174,8 @@ Intermissions.Runs.push(
 				Time: "2025-09-14T20:37:12Z", Attempts: 4, Class: "Rematch" 
 			},
 			{ 
-				Group: "Champions", Name: "Goyah", Image: "img/trainers/black/alder.png", 
-				Time: "2025-09-14T20:53:29Z", Attempts: 1, Class: "Rematch" 
+				Group: "Rematch Champions", Name: "Goyah", Image: "img/trainers/black/alder.png", 
+				Time: "2025-09-14T20:53:29Z", Attempts: 1
 			},
 			
             <TPP.HallOfFame>{

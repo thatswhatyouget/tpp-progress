@@ -92,6 +92,10 @@ module TPP.Display.RunStatus {
             $container.append(DrawLocation(run, status));
         if (extractPastHosts(run).length > 0)
             $container.append(DrawBadges(run, extractPastHosts(run)));
+        if (extractBattleLegends(run).length > 0)
+            $container.append(DrawBadges(run, extractBattleLegends(run)));
+        if (extractRibbons(run).length > 0)
+            $container.append(DrawBadges(run, extractRibbons(run)));
         if (extractTournaments(run).length > 0)
             $container.append(DrawBadges(run, extractTournaments(run)));
         if (extractBattleFrontier(run).length > 0)
@@ -159,10 +163,13 @@ module TPP.Display.RunStatus {
         return run.Events.filter(e => e.Group == "Elite Four" || e.Group == "Final Bosses" || (e.Group == "Champions" && e.Image.indexOf("rematch") < 0 /*&& e.Image.indexOf("hosts") < 0*/));
     }
     function extractEliteFourRematch(run: TPP.Run) {
-        return run.Events.filter(e => e.Group == "Elite Four Rematch" || (e.Group == "Champions" && e.Image.indexOf("rematch") > 0));
+        return run.Events.filter(e => e.Group == "Elite Four Rematch"  || e.Group == "Rematch Champions" || (e.Group == "Champions" && e.Image.indexOf("rematch") > 0));
     }
     function extractPastHosts(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Past Hosts" /*|| (e.Group == "Champions" && e.Image.indexOf("hosts") > 0)*/);
+    }
+    function extractBattleLegends(run: TPP.Run) {
+        return run.Events.filter(e => e.Group == "Battle Legends" || e.Group == "Former Champions");
     }
     function extractRematchBadges(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Rematch Badges" || e.Group == "Rematch Stamps");
@@ -172,6 +179,9 @@ module TPP.Display.RunStatus {
     }
     function extractRematchBosses(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Rematch Bosses");
+    }
+    function extractRibbons(run: TPP.Run) {
+        return run.Events.filter(e => e.Group == "Ribbons" || e.Group == "Contests");
     }
     function extractTournaments(run: TPP.Run) {
         return run.Events.filter(e => e.Group == "Tournaments");

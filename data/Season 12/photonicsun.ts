@@ -31,7 +31,7 @@ Season12.Runs.push(
             { "Group": "Elite Four", "Name": "Acerola", "Time": "2025-04-18T00:10:51.264Z", "Attempts": 1, "Image": "img/trainers/sun/acerola.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four", "Name": "Olivia", "Time": "2025-04-18T16:50:03.941Z", "Attempts": 2, "Image": "img/trainers/sun/olivia.gif", "ImageSource": "http://drawnamu.deviantart.com/art/Trial-Captains-Alola-632931621" },
             { "Group": "Elite Four", "Name": "Kahili", "Time": "2025-04-18T17:26:19.353Z", "Attempts": 1, "Image": "img/trainers/sun/kahili.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Kahili-651482881" },
-            { "Group": "Champions", "Name": "Professor Kukui", "Time": "", "Attempts": 0, "Image": "img/trainers/sun/kukui.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Prof-Kukui-649197164" },
+            { "Group": "Champions", "Name": "Hau", "Time": "2025-04-20T01:25:57.554Z", "Attempts": 0, "Image": "img/trainers/sun/hau.gif", "ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374", },
 
 			<TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-04-20T01:26:51Z", Attempts: 0, Party: [

@@ -214,7 +214,7 @@ Season7.Runs.push(
             },
 			
             {
-                Group: "Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png",
+                Group: "Former Champions", Name: "Steven", Image: "img/trainers/emerald/steven.png",
                 Time: "2020-03-16T22:34:59.393Z", Attempts: 2
             },
 			

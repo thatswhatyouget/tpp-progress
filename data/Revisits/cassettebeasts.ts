@@ -12,7 +12,8 @@ Revisits.Runs.push(
         HostImageSource: "https://krizste.tumblr.com/post/787047361464680448",
         HostName: "wrt-violet",
         Region: "New Wirral",
-        Pokedex: "Bestiary + Pier",
+        Pokedex: "New Wirral",
+		ExtraDexes: ["Pier of the Unknown"],
         ContainsRunsFrom: ["Revisits", "Intermissions"],
         Events: [
 		
@@ -125,7 +126,8 @@ Revisits.Runs.push(
         HostImageSource: "https://krizste.tumblr.com/post/787047361464680448",
         HostName: "wrt-violet",
         Region: "New Wirral",
-        Pokedex: "Bestiary + Pier",
+        Pokedex: "New Wirral",
+		ExtraDexes: ["Pier of the Unknown"],
         ContainsRunsFrom: ["Revisits", "Intermissions"],
         Events: [
 		

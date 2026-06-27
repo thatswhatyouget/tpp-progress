@@ -571,9 +571,11 @@ declare namespace TPP.Display.Elements.RunStatus {
         private get eliteFour();
         private get eliteFourRematch();
         private get pastHosts();
+        private get battleLegends();
         private get rematchBadges();
         private get bosses();
         private get rematchBosses();
+        private get ribbons();
         private get tournaments();
         private get battleFrontier();
         private getEvents;

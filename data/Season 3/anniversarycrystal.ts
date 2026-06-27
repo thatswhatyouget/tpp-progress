@@ -46,14 +46,14 @@ Season3.Runs.push(
                 Class: "Rematch"
             },
             {
-                Group: "Champions",
+                Group: "Battle Legends",
                 Name: "Professor Oak",
                 Image: "img/trainers/crystal/oak.png",
                 Time: "26d 17h 22m",
                 Attempts: 1
             },
             {
-                Group: "Champions",
+                Group: "Battle Legends",
                 Name: "Professor Elm",
                 Image: "img/trainers/crystal/elm.png",
                 Time: "30d 4h 34m",

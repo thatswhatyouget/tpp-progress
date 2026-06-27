@@ -113,7 +113,7 @@ Season6.Runs.push(
             },
 
             {
-                Group: "Final Bosses Rematch",
+                Group: "Rematch Bosses",
                 Name: "Nascour",
                 Image: "img/trainers/colosseum/nascour.png",
                 ImageSource: "http://s1292.photobucket.com/user/Apollothemuse/media/Sprites/NascourSprite_zpse80724b9.png.html",
@@ -147,7 +147,7 @@ Season6.Runs.push(
             },
 
             {
-                Group: "Champions",
+                Group: "Rematch Bosses",
                 Name: "Evice",
                 Image: "img/trainers/colosseum/evice.png",
                 ImageSource: "https://www.reddit.com/r/pokemon/comments/2z9gmy/cipher_head_evice_would_like_to_battle_oc_trainer/",

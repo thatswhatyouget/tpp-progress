@@ -233,7 +233,7 @@ Season11.Runs.push(
 			{ Name: "Golduck", Time: "2024-04-04T18:18:16Z", Group: "Pokemon" },
 			
             { 
-				"Group": "Champions", "Name": "Red", "Image": "img/trainers/sun/red.png", 
+				"Group": "Former Champions", "Name": "Red", "Image": "img/trainers/sun/red.png", 
 				"ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Red-654744789", 
 				"Time": "2024-04-04T18:55:10Z", "Attempts": 1 
 			},
@@ -385,8 +385,8 @@ Season11.Runs.push(
 			},
 			
             { 
-				"Group": "Champions", "Name": "Hau", "Image": "img/trainers/sun/hau.gif", 
-				"ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374", Class: "Rematch", 
+				"Group": "Rematch Champions", "Name": "Hau", "Image": "img/trainers/sun/hau.gif", 
+				"ImageSource": "http://beliot419.deviantart.com/art/Custom-sprite-Hau-651693374",
 				"Time": "2024-04-07T00:51:08Z", "Attempts": 1 
 			},
 			
@@ -632,8 +632,8 @@ Season11.Runs.push(
             },
 			
             { 
-				"Group": "Champions", "Name": "Gladion", "Image": "img/trainers/sun/gladion.png", 
-				"ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Gladion-656587221", Class: "Rematch", 
+				"Group": "Rematch Champions", "Name": "Gladion", "Image": "img/trainers/sun/gladion.png", 
+				"ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Gladion-656587221",
 				"Time": "2024-04-11T01:39:09Z", "Attempts": 1 
 			},
 			
@@ -999,7 +999,7 @@ Season11.Runs.push(
 			{ Name: "Druddigon", Time: "2024-04-06T15:22:00Z", Group: "Pokemon" },
 			
             { 
-				"Group": "Champions", "Name": "Blue", "Image": "img/trainers/sun/blue.png", 
+				"Group": "Former Champions", "Name": "Blue", "Image": "img/trainers/sun/blue.png", 
 				"ImageSource": "https://www.deviantart.com/beliot419/art/Custom-sprite-Green-Blue-654744377", 
 				"Time": "2024-04-06T16:50:36Z", "Attempts": 1 
 			},

@@ -23,12 +23,12 @@ Season8.Runs.push(
             { Group: "Badges", Name: "Freeze Badge", Image: "img/badges/freeze.png", Time: "2021-07-06T23:34:48.273Z", Attempts: 1 },
             { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "2021-07-07T13:06:48.846Z", Attempts: 1 },
 
-            { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "2021-07-07T22:47:36Z", Attempts: 1 },
-            { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "2021-07-08T09:40:57Z", Attempts: 3 },
-            { Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "2021-07-07T22:27:25Z", Attempts: 1 },
-            { Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "2021-07-08T14:54:50Z", Attempts: 6 },
-            { Group: "Champions", Name: "N", Image: "img/trainers/black/n.png", Time: "2021-07-09T03:46:37Z", Attempts: 2 },
-            { Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/ghetsis.png", Time: "2021-07-09T03:52:37Z", Attempts: 1 },
+            { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/cress.png", Time: "2021-07-07T22:47:36Z", Attempts: 1 },
+            { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/ingo.png", Time: "2021-07-08T09:40:57Z", Attempts: 3 },
+            { Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/cilan.png", Time: "2021-07-07T22:27:25Z", Attempts: 1 },
+            { Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/ghetsis.png", Time: "2021-07-08T14:54:50Z", Attempts: 6 },
+            { Group: "Champions", Name: "N", Image: "img/trainers/black/cilan.png", Time: "2021-07-09T03:46:37Z", Attempts: 2 },
+            { Group: "Champions", Name: "Ghetsis", Image: "img/trainers/black/drayden.png", Time: "2021-07-09T03:52:37Z", Attempts: 1 },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "First Game Clear", Time: "2021-07-09T03:54:37Z", IDNo: "39604", Attempts: 0, Party: [
@@ -43,12 +43,12 @@ Season8.Runs.push(
                 FirstAttemptDate: "2021-07-07T22:17:00.556Z"
             },
 
-            { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "2021-07-11T19:55:24Z", Attempts: 4, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "2021-07-10T13:12:45Z", Attempts: 1, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "2021-07-10T12:36:29Z", Attempts: 1, Class: "Rematch" },
-            { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "2021-07-10T13:31:00Z", Attempts: 2, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Shauntal", Image: "img/trainers/black/lenora.png", Time: "2021-07-11T19:55:24Z", Attempts: 4, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Grimsley", Image: "img/trainers/black/drayden.png", Time: "2021-07-10T13:12:45Z", Attempts: 1, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/platinum/cynthia.png", Time: "2021-07-10T12:36:29Z", Attempts: 1, Class: "Rematch" },
+            { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/bianca.png", Time: "2021-07-10T13:31:00Z", Attempts: 2, Class: "Rematch" },
 
-            { Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "2021-07-12T01:51:30Z", Attempts: 4 },
+            { Group: "Rematch Champions", Name: "Alder", Image: "img/trainers/black/elesa.png", Time: "2021-07-12T01:51:30Z", Attempts: 4 },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2021-07-12T01:52:49Z", IDNo: "39604", Attempts: 0, Party: [

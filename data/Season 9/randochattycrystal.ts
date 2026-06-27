@@ -126,7 +126,7 @@ Season9.Runs.push(
 				ImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
 			},
 			{
-                Group: "Champions", Name: "Red", Image: "img/trainers/crystal/red.png",
+                Group: "Former Champions", Name: "Red", Image: "img/trainers/crystal/red.png",
 				Time: "2022-02-24T16:07:22.033Z", Attempts: 1,
             },
 			{ 
@@ -200,7 +200,7 @@ Season9.Runs.push(
 				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/f84tx7/the_gauntlet_hall_of_fame_16/",
 			},
 			{ 
-				Group: "Champions", Name: "Azure", Image: "img/trainers/crystal/azure.png", 
+				Group: "Former Champions", Name: "Azure", Image: "img/trainers/crystal/azure.png", 
 				Time: "2022-02-27T02:39:53.545Z", Attempts: 1, 
 			},
 			{ 

@@ -48,7 +48,7 @@ Season6.Runs.push(
             { Group: "Elite Four Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "10d 5h 38m", Attempts: 1, Class: "Rematch" },
             { Group: "Elite Four Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "10d 18h 7m", Attempts: 5, Class: "Rematch" },
 
-            { Group: "Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "11d 21h 11m", Attempts: 2 },
+            { Group: "Rematch Champions", Name: "Alder", Image: "img/trainers/black/alder.png", Time: "11d 21h 11m", Attempts: 2 },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "11d 21h 11m", IDNo: "07180", Attempts: 16, Party: [

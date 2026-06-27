@@ -80,7 +80,7 @@ namespace ZA {
 				{ "Group": "Rogue Mega Pokémon", "Name": "Hawlucha", "Time": "2025-10-28T21:28:49Z", "Attempts": 0, "Class": "Rematch pokesprite mega" },
 				{ "Group": "Rogue Mega Pokémon", "Name": "Tyranitar", "Time": "2025-10-28T22:28:21Z", "Attempts": 0, "Class": "Rematch pokesprite mega" },
 
-				{ "Group": "Rogue Mega Pokémon", "Name": "Zygarde", "Time": "2025-11-02T23:54:53Z", "Attempts": 0, "Class": "pokesprite percent100" },
+				{ "Group": "Rogue Mega Pokémon", "Name": "Zygarde", "Time": "2025-11-02T23:54:53Z", "Attempts": 0, "Class": "pokesprite complete" },
 
 				<TPP.HallOfFame>{
 					Group: "Hall of Fame", Name: "First Game Clear #1", Time: "2025-10-26T05:46:44Z", Attempts: 3, Party: [
@@ -490,8 +490,8 @@ namespace ZA {
 		CopyEvents: [revisit2.RunName],
 		Revisit: { Collection: "Revisit", Run: revisit2.RunName },
 		Events: [
-			{ "Group": "Rogue Mega Pokémon", "Name": "Groudon", "Time": "2026-02-10T21:00:11Z", "Attempts": 0, "Class": "pokesprite mega" },
-			{ "Group": "Rogue Mega Pokémon", "Name": "Kyogre", "Time": "2026-02-10T22:21:19Z", "Attempts": 0, "Class": "pokesprite mega" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Groudon", "Time": "2026-02-10T21:00:11Z", "Attempts": 0, "Class": "pokesprite primal" },
+			{ "Group": "Rogue Mega Pokémon", "Name": "Kyogre", "Time": "2026-02-10T22:21:19Z", "Attempts": 0, "Class": "pokesprite primal" },
 			{ "Group": "Rogue Mega Pokémon", "Name": "Rayquaza", "Time": "2026-02-15T00:07:30Z", "Attempts": 0, "Class": "pokesprite mega" },
 
 			{ "Group": "Pokemon", "Name": "Cyclizar", "Time": "2026-02-08T23:13:28Z" },
