@@ -176,6 +176,11 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Swinub", "Time": "2026-06-28T16:06:32Z" },
             { "Group": "Pokemon", "Name": "Clefairy", "Time": "2026-06-28T16:22:17Z" },
             { "Group": "Pokemon", "Name": "Porygon", "Time": "2026-06-28T18:18:52Z" },
+            { "Group": "Pokemon", "Name": "Togepi", "Time": "2026-06-28T18:45:39Z" },
+            { "Group": "Pokemon", "Name": "Slugma", "Time": "2026-06-28T19:02:27Z" },
+            { "Group": "Pokemon", "Name": "Marowak", "Time": "2026-06-28T20:05:28Z", Class: "Alolan" },
+            { "Group": "Pokemon", "Name": "Gible", "Time": "2026-06-28T20:06:37Z", },
+            { "Group": "Pokemon", "Name": "Mawile", "Time": "2026-06-28T21:06:03Z", },
 			
         ]
     }
