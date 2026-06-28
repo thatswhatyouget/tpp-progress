@@ -253,6 +253,13 @@ Season13.Runs.push(
             },
             {
                 Group: "Rematch Badges", Class: "Rematch",
+                Name: "Cascade Badge",
+                Image: "img/badges/cascade.png", 
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2026-05-20T06:06:04.263Z", Attempts: 1
+            },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
                 Name: "Rainbow Badge",
                 Image: "img/badges/rainbow.png", 
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
@@ -604,7 +611,9 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Smoochum", "Time": "2026-05-19T17:14:16.764Z" },
             { "Group": "Pokemon", "Name": "Tyranitar", "Time": "2026-05-19T18:16:12.734Z" },
             { "Group": "Pokemon", "Name": "Pelipper", "Time": "2026-05-20T01:06:46.033Z" },
-            { "Group": "Pokemon", "Name": "Dunsparce", "Time": "2026-05-20T04:57:55.768Z" }
+            { "Group": "Pokemon", "Name": "Dunsparce", "Time": "2026-05-20T04:57:55.768Z" },
+            { "Group": "Pokemon", "Name": "Chatot", "Time": "2026-05-20T05:05:42.387Z" },
+            { "Group": "Pokemon", "Name": "Makuhita", "Time": "2026-05-20T05:20:58.487Z" },
         ]
     }
 );
