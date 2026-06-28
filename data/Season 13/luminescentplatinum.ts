@@ -19,7 +19,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Forest Badge", Image: "img/badges/forest.png", 
-                Time: "", Attempts: 0
+                Time: "2026-06-28T17:31:27Z", Attempts: 2
             },
             {
                 Group: "Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png", 
@@ -175,6 +175,7 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Lunatone", "Time": "2026-06-28T15:59:30Z" },
             { "Group": "Pokemon", "Name": "Swinub", "Time": "2026-06-28T16:06:32Z" },
             { "Group": "Pokemon", "Name": "Clefairy", "Time": "2026-06-28T16:22:17Z" },
+            { "Group": "Pokemon", "Name": "Porygon", "Time": "2026-06-28T18:18:52Z" },
 			
         ]
     }
