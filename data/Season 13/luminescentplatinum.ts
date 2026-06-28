@@ -86,6 +86,10 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Wingull", "Time": "2026-06-28T00:41:33Z" },
             { "Group": "Pokemon", "Name": "Poochyena", "Time": "2026-06-28T00:49:36Z" },
             { "Group": "Pokemon", "Name": "Magikarp", "Time": "2026-06-28T01:01:08Z" },
+            { "Group": "Pokemon", "Name": "Treecko", "Time": "2026-06-28T01:17:58Z" },
+            { "Group": "Pokemon", "Name": "Torchic", "Time": "2026-06-28T01:19:58Z" },
+            { "Group": "Pokemon", "Name": "Mudkip", "Time": "2026-06-28T01:20:59Z" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "2026-06-28T01:24:31Z", Class: "Galarian" },
 			
         ]
     }
