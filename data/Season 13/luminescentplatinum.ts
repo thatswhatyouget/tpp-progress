@@ -159,6 +159,22 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Stunky", "Time": "2026-06-28T14:20:25Z" },
             { "Group": "Pokemon", "Name": "Farfetch'd", "Time": "2026-06-28T14:26:27Z" },
             { "Group": "Pokemon", "Name": "Tauros", "Time": "2026-06-28T14:30:00Z" },
+            { "Group": "Pokemon", "Name": "Venonat", "Time": "2026-06-28T14:46:14Z" },
+            { "Group": "Pokemon", "Name": "Silcoon", "Time": "2026-06-28T14:50:26Z" },
+            { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "2026-06-28T14:53:09Z" },
+            { "Group": "Pokemon", "Name": "Ledian", "Time": "2026-06-28T14:57:14Z" },
+            { "Group": "Pokemon", "Name": "Nidorina", "Time": "2026-06-28T15:01:14Z" },
+            { "Group": "Pokemon", "Name": "Doduo", "Time": "2026-06-28T15:04:56Z" },
+            { "Group": "Pokemon", "Name": "Golbat", "Time": "2026-06-28T15:15:09Z" },
+            { "Group": "Pokemon", "Name": "Machoke", "Time": "2026-06-28T15:16:59Z" },
+            { "Group": "Pokemon", "Name": "Munchlax", "Time": "2026-06-28T15:29:24Z" },
+            { "Group": "Pokemon", "Name": "Bibarel", "Time": "2026-06-28T15:32:14Z" },
+            { "Group": "Pokemon", "Name": "Solrock", "Time": "2026-06-28T15:44:57Z" },
+            { "Group": "Pokemon", "Name": "Natu", "Time": "2026-06-28T15:55:19Z" },
+            { "Group": "Pokemon", "Name": "Meditite", "Time": "2026-06-28T15:56:55Z" },
+            { "Group": "Pokemon", "Name": "Lunatone", "Time": "2026-06-28T15:59:30Z" },
+            { "Group": "Pokemon", "Name": "Swinub", "Time": "2026-06-28T16:06:32Z" },
+            { "Group": "Pokemon", "Name": "Clefairy", "Time": "2026-06-28T16:22:17Z" },
 			
         ]
     }
