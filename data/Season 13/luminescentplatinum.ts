@@ -15,7 +15,7 @@ Season13.Runs.push(
         Events: [
             {
                 Group: "Badges", Name: "Coal Badge", Image: "img/badges/coal.png", 
-                Time: "", Attempts: 0
+                Time: "2026-06-28T03:46:19Z", Attempts: 4
             },
             {
                 Group: "Badges", Name: "Forest Badge", Image: "img/badges/forest.png", 
@@ -90,6 +90,11 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Torchic", "Time": "2026-06-28T01:19:58Z" },
             { "Group": "Pokemon", "Name": "Mudkip", "Time": "2026-06-28T01:20:59Z" },
             { "Group": "Pokemon", "Name": "Meowth", "Time": "2026-06-28T01:24:31Z", Class: "Galarian" },
+            { "Group": "Pokemon", "Name": "Zubat", "Time": "2026-06-28T01:56:27Z" },
+            { "Group": "Pokemon", "Name": "Whismur", "Time": "2026-06-28T01:59:51Z" },
+            { "Group": "Pokemon", "Name": "Trapinch", "Time": "2026-06-28T02:09:09Z" },
+            { "Group": "Pokemon", "Name": "Surskit", "Time": "2026-06-28T02:15:17Z" },
+            { "Group": "Pokemon", "Name": "Aron", "Time": "2026-06-28T02:17:55Z" },
 			
         ]
     }
