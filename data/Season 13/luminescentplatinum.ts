@@ -85,7 +85,7 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Starly", "Time": "2026-06-28T00:37:51Z" },
             { "Group": "Pokemon", "Name": "Wingull", "Time": "2026-06-28T00:41:33Z" },
             { "Group": "Pokemon", "Name": "Poochyena", "Time": "2026-06-28T00:49:36Z" },
-            { "Group": "Pokemon", "Name": "Magikarp", "Time": "2026-06-28T001:01:08Z" },
+            { "Group": "Pokemon", "Name": "Magikarp", "Time": "2026-06-28T01:01:08Z" },
 			
         ]
     }
