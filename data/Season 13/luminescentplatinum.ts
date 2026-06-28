@@ -7,8 +7,8 @@ Season13.Runs.push(
         BackgroundImage: "linear-gradient(#51515D 0%, #727281 50%, #51515D 100%)",
         StartDate: "2026-06-27T21:00:00Z",
         Duration: "255d",
-        HostName: "",
-        //HostImage: "img/hosts/dot.png",
+        HostName: "imcx11",
+        HostImage: "img/hosts/imcx11.png",
         Region: "Sinnoh",
         Generation: 8,
         Pokedex: "Enhanced Sinnoh",
@@ -65,6 +65,28 @@ Season13.Runs.push(
                 Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
                 Time: "", Attempts: 0
             },
+			
+            { "Group": "Pokemon", "Name": "Piplup", "Time": "2026-06-27T21:17:02Z" },
+            { "Group": "Pokemon", "Name": "Turtwig", "Time": "2026-06-27T21:36:51Z" },
+            { "Group": "Pokemon", "Name": "Chimchar", "Time": "2026-06-27T21:37:13Z" },
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "2026-06-27T21:51:45Z" },
+            { "Group": "Pokemon", "Name": "Riolu", "Time": "2026-06-27T22:49:13Z" },
+            { "Group": "Pokemon", "Name": "Cubone", "Time": "2026-06-27T23:26:01Z" },
+            { "Group": "Pokemon", "Name": "Charmander", "Time": "2026-06-27T23:38:40Z" },
+            { "Group": "Pokemon", "Name": "Bulbasaur", "Time": "2026-06-27T23:39:46Z" },
+            { "Group": "Pokemon", "Name": "Squirtle", "Time": "2026-06-27T23:41:41Z" },
+            { "Group": "Pokemon", "Name": "Spearow", "Time": "2026-06-27T23:57:55Z" },
+            { "Group": "Pokemon", "Name": "Growlithe", "Time": "2026-06-28T00:02:47Z", Class: "Hisuian" },
+            { "Group": "Pokemon", "Name": "Shinx", "Time": "2026-06-28T00:10:33Z" },
+            { "Group": "Pokemon", "Name": "Monferno", "Time": "2026-06-28T00:23:02Z" },
+            { "Group": "Pokemon", "Name": "Burmy", "Time": "2026-06-28T00:23:39Z" },
+            { "Group": "Pokemon", "Name": "Bidoof", "Time": "2026-06-28T00:33:19Z" },
+            { "Group": "Pokemon", "Name": "Pikipek", "Time": "2026-06-28T00:34:32Z" },
+            { "Group": "Pokemon", "Name": "Starly", "Time": "2026-06-28T00:37:51Z" },
+            { "Group": "Pokemon", "Name": "Wingull", "Time": "2026-06-28T00:41:33Z" },
+            { "Group": "Pokemon", "Name": "Poochyena", "Time": "2026-06-28T00:49:36Z" },
+            { "Group": "Pokemon", "Name": "Magikarp", "Time": "2026-06-28T001:01:08Z" },
+			
         ]
     }
 );
