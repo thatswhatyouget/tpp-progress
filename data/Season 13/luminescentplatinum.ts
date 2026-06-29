@@ -22,15 +22,15 @@ Season13.Runs.push(
                 Time: "2026-06-28T17:31:27Z", Attempts: 2
             },
             {
+                Group: "Badges", Name: "Relic Badge", Image: "img/badges/relic.png", 
+                Time: "2026-06-29T01:40:11Z", Attempts: 6
+            },
+            {
                 Group: "Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png", 
                 Time: "", Attempts: 0
             },
             {
                 Group: "Badges", Name: "Fen Badge", Image: "img/badges/fen.png", 
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Relic Badge", Image: "img/badges/relic.png", 
                 Time: "", Attempts: 0
             },
             {
