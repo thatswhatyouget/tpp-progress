@@ -31,7 +31,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Fen Badge", Image: "img/badges/fen.png",
-                Time: "", Attempts: 4
+                Time: "2026-06-29T19:25:14Z", Attempts: 5
             },
             {
                 Group: "Badges", Name: "Mine Badge", Image: "img/badges/mine.png",
