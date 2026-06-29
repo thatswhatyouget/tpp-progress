@@ -14,35 +14,35 @@ Season13.Runs.push(
         Pokedex: "Enhanced Sinnoh",
         Events: [
             {
-                Group: "Badges", Name: "Coal Badge", Image: "img/badges/coal.png", 
+                Group: "Badges", Name: "Coal Badge", Image: "img/badges/coal.png",
                 Time: "2026-06-28T03:46:19Z", Attempts: 4
             },
             {
-                Group: "Badges", Name: "Forest Badge", Image: "img/badges/forest.png", 
+                Group: "Badges", Name: "Forest Badge", Image: "img/badges/forest.png",
                 Time: "2026-06-28T17:31:27Z", Attempts: 2
             },
             {
-                Group: "Badges", Name: "Relic Badge", Image: "img/badges/relic.png", 
+                Group: "Badges", Name: "Relic Badge", Image: "img/badges/relic.png",
                 Time: "2026-06-29T01:40:11Z", Attempts: 6
             },
             {
-                Group: "Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png", 
+                Group: "Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png",
                 Time: "", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Fen Badge", Image: "img/badges/fen.png", 
+                Group: "Badges", Name: "Fen Badge", Image: "img/badges/fen.png",
                 Time: "", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Mine Badge", Image: "img/badges/mine.png", 
+                Group: "Badges", Name: "Mine Badge", Image: "img/badges/mine.png",
                 Time: "", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Icicle Badge", Image: "img/badges/icicle.png", 
+                Group: "Badges", Name: "Icicle Badge", Image: "img/badges/icicle.png",
                 Time: "", Attempts: 0
             },
             {
-                Group: "Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png", 
+                Group: "Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png",
                 Time: "", Attempts: 0
             },
             {
@@ -65,7 +65,7 @@ Season13.Runs.push(
                 Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
                 Time: "", Attempts: 0
             },
-			
+
             { "Group": "Pokemon", "Name": "Piplup", "Time": "2026-06-27T21:17:02Z" },
             { "Group": "Pokemon", "Name": "Turtwig", "Time": "2026-06-27T21:36:51Z" },
             { "Group": "Pokemon", "Name": "Chimchar", "Time": "2026-06-27T21:37:13Z" },
@@ -181,7 +181,15 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Marowak", "Time": "2026-06-28T20:05:28Z", Class: "Alolan" },
             { "Group": "Pokemon", "Name": "Gible", "Time": "2026-06-28T20:06:37Z", },
             { "Group": "Pokemon", "Name": "Mawile", "Time": "2026-06-28T21:06:03Z", },
-			
+            { "Group": "Pokemon", "Name": "Chansey", "Time": "2026-06-29T02:06:22Z" },
+            { "Group": "Pokemon", "Name": "Snubbull", "Time": "2026-06-29T02:08:48Z" },
+            { "Group": "Pokemon", "Name": "Staravia", "Time": "2026-06-29T02:11:12Z" },
+            { "Group": "Pokemon", "Name": "Mime Jr.", "Time": "2026-06-29T02:16:10Z" },
+            { "Group": "Pokemon", "Name": "Vulpix", "Time": "2026-06-29T02:17:02Z" },
+            { "Group": "Pokemon", "Name": "Glameow", "Time": "2026-06-29T02:21:00Z" },
+            { "Group": "Pokemon", "Name": "Purugly", "Time": "2026-06-29T03:15:57Z" },
+            { "Group": "Pokemon", "Name": "Empoleon", "Time": "2026-06-29T03:16:53Z" },
+
         ]
     }
 );
