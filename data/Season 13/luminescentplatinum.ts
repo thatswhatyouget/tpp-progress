@@ -27,7 +27,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png",
-                Time: "", Attempts: 0
+                Time: "2026-06-29T10:49:57Z", Attempts: 3
             },
             {
                 Group: "Badges", Name: "Fen Badge", Image: "img/badges/fen.png",
@@ -189,6 +189,14 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Glameow", "Time": "2026-06-29T02:21:00Z" },
             { "Group": "Pokemon", "Name": "Purugly", "Time": "2026-06-29T03:15:57Z" },
             { "Group": "Pokemon", "Name": "Empoleon", "Time": "2026-06-29T03:16:53Z" },
+            { "Group": "Pokemon", "Name": "Unown", "Time": "2026-06-29T04:12:13Z" },
+            { "Group": "Pokemon", "Name": "Litwick", "Time": "2026-06-29T06:18:31Z" },
+            { "Group": "Pokemon", "Name": "Manaphy", "Time": "2026-06-29T06:34:47Z" },
+            { "Group": "Pokemon", "Name": "Tinkatuff", "Time": "2026-06-29T06:53:40Z" },
+            { "Group": "Pokemon", "Name": "Trumbeak", "Time": "2026-06-29T07:01:25Z" },
+            { "Group": "Pokemon", "Name": "Nuzleaf", "Time": "2026-06-29T07:08:50Z" },
+            { "Group": "Pokemon", "Name": "Electrode", "Time": "2026-06-29T08:13:30Z", Class: "Hisuian" },
+            { "Group": "Pokemon", "Name": "Graveler", "Time": "2026-06-29T11:14:45Z" },
 
         ]
     }
