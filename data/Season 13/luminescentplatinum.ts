@@ -39,7 +39,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Icicle Badge", Image: "img/badges/icicle.png",
-                Time: "", Attempts: 0
+                Time: "2026-06-30T17:09:36Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png",
@@ -233,6 +233,25 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Lairon", "Time": "2026-06-30T10:14:14Z" },
             { "Group": "Pokemon", "Name": "Rhydon", "Time": "2026-06-30T10:27:56Z" },
             { "Group": "Pokemon", "Name": "Sableye", "Time": "2026-06-30T10:50:26Z" },
+            { "Group": "Pokemon", "Name": "Chimecho", "Time": "2026-06-30T14:24:46Z" },
+            { "Group": "Pokemon", "Name": "Jynx", "Time": "2026-06-30T15:08:22Z" },
+            { "Group": "Pokemon", "Name": "Piloswine", "Time": "2026-06-30T15:13:07Z" },
+            { "Group": "Pokemon", "Name": "Abomasnow", "Time": "2026-06-30T15:17:19Z" },
+            { "Group": "Pokemon", "Name": "Snorunt", "Time": "2026-06-30T15:21:09Z" },
+            { "Group": "Pokemon", "Name": "Delibird", "Time": "2026-06-30T15:26:39Z" },
+            { "Group": "Pokemon", "Name": "Weavile", "Time": "2026-06-30T15:52:14Z" },
+            { "Group": "Pokemon", "Name": "Steelix", "Time": "2026-06-30T16:04:37Z" },
+            { "Group": "Pokemon", "Name": "Ekans", "Time": "2026-06-30T18:23:58Z" },
+            { "Group": "Pokemon", "Name": "Weepinbell", "Time": "2026-06-30T18:29:02Z" },
+            { "Group": "Pokemon", "Name": "Crawdaunt", "Time": "2026-06-30T18:30:35Z" },
+            { "Group": "Pokemon", "Name": "Furret", "Time": "2026-06-30T20:39:52Z" },
+            { "Group": "Pokemon", "Name": "Caterpie", "Time": "2026-06-30T20:46:38Z" },
+            { "Group": "Pokemon", "Name": "Murkrow", "Time": "2026-06-30T20:53:53Z" },
+            { "Group": "Pokemon", "Name": "Mightyena", "Time": "2026-06-30T20:56:36Z" },
+            { "Group": "Pokemon", "Name": "Chingling", "Time": "2026-06-30T21:02:59Z" },
+            { "Group": "Pokemon", "Name": "Phanpy", "Time": "2026-06-30T21:18:21Z" },
+            { "Group": "Pokemon", "Name": "Cacnea", "Time": "2026-06-30T21:24:48Z" },
+            { "Group": "Pokemon", "Name": "Larvitar", "Time": "2026-06-30T21:28:59Z" },
         ]
     }
 );
