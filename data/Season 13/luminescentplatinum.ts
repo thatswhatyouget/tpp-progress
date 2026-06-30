@@ -244,6 +244,14 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Ekans", "Time": "2026-06-30T18:23:58Z" },
             { "Group": "Pokemon", "Name": "Weepinbell", "Time": "2026-06-30T18:29:02Z" },
             { "Group": "Pokemon", "Name": "Crawdaunt", "Time": "2026-06-30T18:30:35Z" },
+            { "Group": "Pokemon", "Name": "Furret", "Time": "2026-06-30T20:39:52Z" },
+            { "Group": "Pokemon", "Name": "Caterpie", "Time": "2026-06-30T20:46:38Z" },
+            { "Group": "Pokemon", "Name": "Murkrow", "Time": "2026-06-30T20:53:53Z" },
+            { "Group": "Pokemon", "Name": "Mightyena", "Time": "2026-06-30T20:56:36Z" },
+            { "Group": "Pokemon", "Name": "Chingling", "Time": "2026-06-30T21:02:59Z" },
+            { "Group": "Pokemon", "Name": "Phanpy", "Time": "2026-06-30T21:18:21Z" },
+            { "Group": "Pokemon", "Name": "Cacnea", "Time": "2026-06-30T21:24:48Z" },
+            { "Group": "Pokemon", "Name": "Larvitar", "Time": "2026-06-30T21:28:59Z" },
         ]
     }
 );
