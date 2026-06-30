@@ -204,7 +204,23 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Parasect", "Time": "2026-06-29T14:37:16Z" },
             { "Group": "Pokemon", "Name": "Sneasel", "Time": "2026-06-29T14:38:47Z", Class: "Hisuian" },
             { "Group": "Pokemon", "Name": "Quagsire", "Time": "2026-06-29T14:52:38Z" },
-
+            { "Group": "Pokemon", "Name": "Lotad", "Time": "2026-06-29T17:47:05Z" },
+            { "Group": "Pokemon", "Name": "Skorupi", "Time": "2026-06-29T20:22:43Z" },
+            { "Group": "Pokemon", "Name": "Onix", "Time": "2026-06-29T20:28:47Z" },
+            { "Group": "Pokemon", "Name": "Magcargo", "Time": "2026-06-29T20:30:34Z" },
+            { "Group": "Pokemon", "Name": "Numel", "Time": "2026-06-29T20:31:31Z" },
+            { "Group": "Pokemon", "Name": "Kricketune", "Time": "2026-06-29T20:51:42Z" },
+            { "Group": "Pokemon", "Name": "Noctowl", "Time": "2026-06-29T20:54:05Z" },
+            { "Group": "Pokemon", "Name": "Wobbuffet", "Time": "2026-06-29T21:59:14Z" },
+            { "Group": "Pokemon", "Name": "Mr. Mime", "Time": "2026-06-29T22:09:28Z" },
+            { "Group": "Pokemon", "Name": "Smoochum", "Time": "2026-06-29T22:13:47Z" },
+            { "Group": "Pokemon", "Name": "Ralts", "Time": "2026-06-29T22:15:45Z" },
+            { "Group": "Pokemon", "Name": "Mantyke", "Time": "2026-06-30T00:12:03Z" },
+            { "Group": "Pokemon", "Name": "Tentacool", "Time": "2026-06-30T00:18:47Z" },
+            { "Group": "Pokemon", "Name": "Slakoth", "Time": "2026-06-30T02:03:09Z" },
+            { "Group": "Pokemon", "Name": "Misdreavus", "Time": "2026-06-30T02:11:46Z" },
+            { "Group": "Pokemon", "Name": "Celebi", "Time": "2026-06-30T02:30:15Z" },
+            { "Group": "Pokemon", "Name": "Exeggcute", "Time": "2026-06-30T04:15:12Z" },
         ]
     }
 );
