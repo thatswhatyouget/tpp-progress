@@ -35,7 +35,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Mine Badge", Image: "img/badges/mine.png",
-                Time: "", Attempts: 0
+                Time: "2026-06-30T13:01:10Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Icicle Badge", Image: "img/badges/icicle.png",
@@ -221,6 +221,18 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Misdreavus", "Time": "2026-06-30T02:11:46Z" },
             { "Group": "Pokemon", "Name": "Celebi", "Time": "2026-06-30T02:30:15Z" },
             { "Group": "Pokemon", "Name": "Exeggcute", "Time": "2026-06-30T04:15:12Z" },
+            { "Group": "Pokemon", "Name": "Tangela", "Time": "2026-06-30T04:27:22Z" },
+            { "Group": "Pokemon", "Name": "Seedot", "Time": "2026-06-30T04:32:05Z" },
+            { "Group": "Pokemon", "Name": "Abra", "Time": "2026-06-30T05:37:26Z" },
+            { "Group": "Pokemon", "Name": "Loudred", "Time": "2026-06-30T06:05:20Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2026-06-30T06:12:24Z" },
+            { "Group": "Pokemon", "Name": "Horsea", "Time": "2026-06-30T06:41:32Z" },
+            { "Group": "Pokemon", "Name": "Luvdisc", "Time": "2026-06-30T06:42:54Z" },
+            { "Group": "Pokemon", "Name": "Corsola", "Time": "2026-06-30T06:45:09Z" },
+            { "Group": "Pokemon", "Name": "Spoink", "Time": "2026-06-30T08:06:43Z" },
+            { "Group": "Pokemon", "Name": "Lairon", "Time": "2026-06-30T10:14:14Z" },
+            { "Group": "Pokemon", "Name": "Rhydon", "Time": "2026-06-30T10:27:56Z" },
+            { "Group": "Pokemon", "Name": "Sableye", "Time": "2026-06-30T10:50:26Z" },
         ]
     }
 );
