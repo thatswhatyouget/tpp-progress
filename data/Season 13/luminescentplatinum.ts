@@ -43,7 +43,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png",
-                Time: "", Attempts: 0
+                Time: "2026-07-01T14:43:48Z", Attempts: 1
             },
             {
                 Group: "Elite Four", Name: "Aaron", Image: "img/trainers/platinum/aaron.png",
