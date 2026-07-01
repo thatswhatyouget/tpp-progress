@@ -270,6 +270,16 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Dusclops", "Time": "2026-07-01T06:51:53Z" },
             { "Group": "Pokemon", "Name": "Bronzong", "Time": "2026-07-01T08:34:32Z" },
             { "Group": "Pokemon", "Name": "Medicham", "Time": "2026-07-01T08:52:57Z" },
+            { "Group": "Pokemon", "Name": "Cursola", "Time": "2026-07-01T11:25:48Z" },
+            { "Group": "Pokemon", "Name": "Mesprit", "Time": "2026-07-01T11:45:37Z" },
+            { "Group": "Pokemon", "Name": "Surskit", "Time": "2026-07-01T11:49:37Z" },
+            { "Group": "Pokemon", "Name": "Uxie", "Time": "2026-07-01T12:05:14Z" },
+            { "Group": "Pokemon", "Name": "Azelf", "Time": "2026-07-01T12:23:05Z" },
+            { "Group": "Pokemon", "Name": "Masquerain", "Time": "2026-07-01T12:27:06Z" },
+            { "Group": "Pokemon", "Name": "Slowbro", "Time": "2026-07-01T12:30:22Z", Class: "Galarian" },
+            { "Group": "Pokemon", "Name": "Luxio", "Time": "2026-07-01T12:42:16Z" },
+            { "Group": "Pokemon", "Name": "Floatzel", "Time": "2026-07-01T12:43:14Z" },
+            { "Group": "Pokemon", "Name": "Raichu", "Time": "2026-07-01T12:44:52Z", Class: "Alolan" },
         ]
     }
 );
