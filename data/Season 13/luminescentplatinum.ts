@@ -251,7 +251,22 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Chingling", "Time": "2026-06-30T21:02:59Z" },
             { "Group": "Pokemon", "Name": "Phanpy", "Time": "2026-06-30T21:18:21Z" },
             { "Group": "Pokemon", "Name": "Cacnea", "Time": "2026-06-30T21:24:48Z" },
-            { "Group": "Pokemon", "Name": "Larvitar", "Time": "2026-06-30T21:28:59Z" },
+            { "Group": "Pokemon", "Name": "Larvitar", "Time": "2026-06-30T21:29:01Z" },
+            { "Group": "Pokemon", "Name": "Lickitung", "Time": "2026-06-30T22:19:23Z" },
+            { "Group": "Pokemon", "Name": "Sentret", "Time": "2026-06-30T22:28:21Z" },
+            { "Group": "Pokemon", "Name": "Hippopotas", "Time": "2026-06-30T22:42:05Z" },
+            { "Group": "Pokemon", "Name": "Baltoy", "Time": "2026-06-30T22:52:19Z" },
+            { "Group": "Pokemon", "Name": "Swellow", "Time": "2026-06-30T23:09:09Z" },
+            { "Group": "Pokemon", "Name": "Gastrodon", "Time": "2026-06-30T23:11:24Z" },
+            { "Group": "Pokemon", "Name": "Pelipper", "Time": "2026-06-30T23:14:41Z" },
+            { "Group": "Pokemon", "Name": "Electabuzz", "Time": "2026-06-30T23:32:57Z" },
+            { "Group": "Pokemon", "Name": "Lapras", "Time": "2026-07-01T00:23:50Z" },
+            { "Group": "Pokemon", "Name": "Golduck", "Time": "2026-07-01T00:51:01Z" },
+            { "Group": "Pokemon", "Name": "Yanma", "Time": "2026-07-01T00:57:04Z" },
+            { "Group": "Pokemon", "Name": "Croagunk", "Time": "2026-07-01T01:10:15Z" },
+            { "Group": "Pokemon", "Name": "Drowzee", "Time": "2026-07-01T02:31:11Z" },
+            { "Group": "Pokemon", "Name": "Chatot", "Time": "2026-07-01T04:01:32Z" },
+            { "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2026-07-01T04:11:23Z" },
         ]
     }
 );
