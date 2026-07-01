@@ -267,6 +267,9 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Drowzee", "Time": "2026-07-01T02:31:11Z" },
             { "Group": "Pokemon", "Name": "Chatot", "Time": "2026-07-01T04:01:32Z" },
             { "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2026-07-01T04:11:23Z" },
+            { "Group": "Pokemon", "Name": "Dusclops", "Time": "2026-07-01T06:51:53Z" },
+            { "Group": "Pokemon", "Name": "Bronzong", "Time": "2026-07-01T08:34:32Z" },
+            { "Group": "Pokemon", "Name": "Medicham", "Time": "2026-07-01T08:52:57Z" },
         ]
     }
 );
