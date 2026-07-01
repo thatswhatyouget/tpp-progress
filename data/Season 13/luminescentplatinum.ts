@@ -10,7 +10,7 @@ Season13.Runs.push(
         HostName: "imcx11",
         HostImage: "img/hosts/imcx11.png",
         Region: "Sinnoh",
-        Generation: 8,
+        Generation: 9, // Gen VIII game but Gen IX Pokédex
         Pokedex: "Enhanced Sinnoh",
         Events: [
             {
