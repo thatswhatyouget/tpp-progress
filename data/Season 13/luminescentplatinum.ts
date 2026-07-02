@@ -63,17 +63,17 @@ Season13.Runs.push(
             },
             {
                 Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
-                Time: "", Attempts: 0
+                Time: "2026-07-02T19:37:27Z", Attempts: 1
             },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "00000", Attempts: 6, Party: [
-                    //{ Pokemon: "Empoleon", Nickname: "piñgu", Gender: "Male", Level: 78 },
-                    //{ Pokemon: "Purugly", Nickname: "wTBGGDD", Gender: "Female", Level: 78 },
-                    //{ Pokemon: "Onix", Nickname: "Shimmyrr", Gender: "Male", Level: 78, Form: "Crystal" },
-                    //{ Pokemon: "Wormadam", Nickname: "Hoik", Gender: "Female", Level: 78, Form: "Sand" },
-                    //{ Pokemon: "Electrode", Nickname: "Woodorb", Level: 78, Form: "Hisuian" },
-                    //{ Pokemon: "Marowak", Nickname: "Zegg", Gender: "Male", Level: 78, Form: "Alolan" }
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-07-02T19:39:11Z", IDNo: "875424", Attempts: 6, Party: [
+                    { Pokemon: "Electrode", Nickname: "Woodorb", Level: 78, Form: "Hisuian" },
+                    { Pokemon: "Purugly", Nickname: "wTBGGDD", Gender: "Female", Level: 78 },
+                    { Pokemon: "Onix", Nickname: "Shimmyrr", Gender: "Male", Level: 78, Form: "Crystal" },
+                    { Pokemon: "Wormadam", Nickname: "Hoik", Gender: "Female", Level: 78, Form: "Sand" },
+                    { Pokemon: "Empoleon", Nickname: "piñgu", Gender: "Male", Level: 78 },
+                    { Pokemon: "Marowak", Nickname: "Zegg", Gender: "Male", Level: 78, Form: "Alolan" }
                 ],
                 FirstAttemptDate: "2026-07-02T13:39:23Z",
                 Image: "img/ribbons/champion-sinnoh.png"
