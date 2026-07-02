@@ -47,15 +47,15 @@ Season13.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Aaron", Image: "img/trainers/platinum/aaron.png",
-                Time: "", Attempts: 0
+                Time: "2026-07-02T13:51:19Z", Attempts: 1
             },
             {
                 Group: "Elite Four", Name: "Bertha", Image: "img/trainers/platinum/bertha.png",
-                Time: "", Attempts: 0
+                Time: "2026-07-02T14:49:26Z", Attempts: 2
             },
             {
                 Group: "Elite Four", Name: "Flint", Image: "img/trainers/platinum/flint.png",
-                Time: "", Attempts: 0
+                Time: "", Attempts: 2
             },
             {
                 Group: "Elite Four", Name: "Lucian", Image: "img/trainers/platinum/lucian.png",
@@ -64,6 +64,24 @@ Season13.Runs.push(
             {
                 Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
                 Time: "", Attempts: 0
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "00000", Attempts: 3, Party: [
+                    //{ Pokemon: "Gardevoir", Level: 69 },
+                    //{ Pokemon: "Manaphy", Nickname: "112drfic", Level: 77 },
+                    //{ Pokemon: "Houndoom", Nickname: "££puuuuyyn", Level: 70 },
+                    //{ Pokemon: "Pikachu", Nickname: "££££££££xS", Level: 69 },
+                    //{ Pokemon: "Drapion", Nickname: "1", Level: 70 },
+                    //{ Pokemon: "Toxicroak", Level: 76 }
+                ],
+                FirstAttemptDate: "2024-03-15T17:26:33",
+                Image: "img/ribbons/champion-sinnoh.png"
+            },
+			
+            {
+                Group: "Contests", Name: "Coolness Normal", Image: "img/badges/ribbons/bdsp/coolness_a.png",
+                Time: "2026-07-02T12:26:50Z"
             },
 
             { "Group": "Pokemon", "Name": "Piplup", "Time": "2026-06-27T21:17:02Z" },
