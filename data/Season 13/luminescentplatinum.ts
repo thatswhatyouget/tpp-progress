@@ -55,11 +55,11 @@ Season13.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Flint", Image: "img/trainers/platinum/flint.png",
-                Time: "", Attempts: 2
+                Time: "2026-07-02T18:53:20Z", Attempts: 3
             },
             {
                 Group: "Elite Four", Name: "Lucian", Image: "img/trainers/platinum/lucian.png",
-                Time: "", Attempts: 0
+                Time: "2026-07-02T19:14:33Z", Attempts: 1
             },
             {
                 Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
@@ -67,13 +67,13 @@ Season13.Runs.push(
             },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "00000", Attempts: 3, Party: [
-                    //{ Pokemon: "Gardevoir", Level: 69 },
-                    //{ Pokemon: "Manaphy", Nickname: "112drfic", Level: 77 },
-                    //{ Pokemon: "Houndoom", Nickname: "££puuuuyyn", Level: 70 },
-                    //{ Pokemon: "Pikachu", Nickname: "££££££££xS", Level: 69 },
-                    //{ Pokemon: "Drapion", Nickname: "1", Level: 70 },
-                    //{ Pokemon: "Toxicroak", Level: 76 }
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "00000", Attempts: 6, Party: [
+                    //{ Pokemon: "Empoleon", Nickname: "piñgu", Gender: "Male", Level: 78 },
+                    //{ Pokemon: "Purugly", Nickname: "wTBGGDD", Gender: "Female", Level: 78 },
+                    //{ Pokemon: "Onix", Nickname: "Shimmyrr", Gender: "Male", Level: 78, Form: "Crystal" },
+                    //{ Pokemon: "Wormadam", Nickname: "Hoik", Gender: "Female", Level: 78, Form: "Sand" },
+                    //{ Pokemon: "Electrode", Nickname: "Woodorb", Level: 78, Form: "Hisuian" },
+                    //{ Pokemon: "Marowak", Nickname: "Zegg", Gender: "Male", Level: 78, Form: "Alolan" }
                 ],
                 FirstAttemptDate: "2024-03-15T17:26:33",
                 Image: "img/ribbons/champion-sinnoh.png"
