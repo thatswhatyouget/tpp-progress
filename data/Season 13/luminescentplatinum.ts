@@ -51,11 +51,11 @@ Season13.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Bertha", Image: "img/trainers/platinum/bertha.png",
-                Time: "", Attempts: 2
+                Time: "2026-07-02T14:49:26Z", Attempts: 2
             },
             {
                 Group: "Elite Four", Name: "Flint", Image: "img/trainers/platinum/flint.png",
-                Time: "", Attempts: 0
+                Time: "", Attempts: 2
             },
             {
                 Group: "Elite Four", Name: "Lucian", Image: "img/trainers/platinum/lucian.png",
@@ -67,7 +67,7 @@ Season13.Runs.push(
             },
 			
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "00000", Attempts: 2, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "00000", Attempts: 3, Party: [
                     //{ Pokemon: "Gardevoir", Level: 69 },
                     //{ Pokemon: "Manaphy", Nickname: "112drfic", Level: 77 },
                     //{ Pokemon: "Houndoom", Nickname: "££puuuuyyn", Level: 70 },
