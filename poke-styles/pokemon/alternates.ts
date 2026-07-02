@@ -64,6 +64,8 @@ var alternates: Alternate[] = [
     new Alternate("Pikachu", "AlolaCap"),
     new Alternate("Pikachu", "PartnerCap"),
     new Alternate("Pikachu", "WorldCap"),
+	
+    new Alternate("Onix", "Crystal"),
 
     new Alternate("tauros", "Paldean-Blaze"),
     new Alternate("tauros", "Paldean-Aqua"),
