@@ -75,7 +75,7 @@ Season13.Runs.push(
                     //{ Pokemon: "Electrode", Nickname: "Woodorb", Level: 78, Form: "Hisuian" },
                     //{ Pokemon: "Marowak", Nickname: "Zegg", Gender: "Male", Level: 78, Form: "Alolan" }
                 ],
-                FirstAttemptDate: "2024-03-15T17:26:33",
+                FirstAttemptDate: "2026-07-02T13:39:23Z",
                 Image: "img/ribbons/champion-sinnoh.png"
             },
 			
