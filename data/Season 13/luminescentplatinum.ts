@@ -81,11 +81,11 @@ Season13.Runs.push(
 			
             {
                 Group: "Badges", Name: "Wind Badge", Image: "img/badges/lumiplat/wind.png",
-                Time: "2026-07-04T00:43:38Z", Attempts: 0
+                Time: "2026-07-04T00:43:38Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Fang Badge", Image: "img/badges/lumiplat/fang.png",
-                Time: "2026-07-03T23:34:45Z", Attempts: 0
+                Time: "2026-07-03T23:34:45Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Acid Badge", Image: "img/badges/lumiplat/acid.png",
@@ -97,7 +97,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "General Badge", Image: "img/badges/lumiplat/general.png",
-                Time: "2026-07-04T01:12:03Z", Attempts: 0
+                Time: "2026-07-04T01:12:03Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Moon Badge", Image: "img/badges/lumiplat/moon.png",
