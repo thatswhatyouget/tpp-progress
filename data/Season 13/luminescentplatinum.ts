@@ -81,27 +81,40 @@ Season13.Runs.push(
 			
             {
                 Group: "Badges", Name: "Wind Badge", Image: "img/badges/lumiplat/wind.png",
-                Time: "2026-07-04T00:43:38Z", Attempts: 0
+                Time: "2026-07-04T00:43:38Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Fang Badge", Image: "img/badges/lumiplat/fang.png",
-                Time: "2026-07-03T23:34:45Z", Attempts: 0
+                Time: "2026-07-03T23:34:45Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Acid Badge", Image: "img/badges/lumiplat/acid.png",
-                Time: "2026-07-03T21:15:33Z", Attempts: 0
+                Time: "2026-07-03T21:15:33Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Shadow Badge", Image: "img/badges/lumiplat/shadow.png",
-                Time: "2026-07-04T13:05:06Z", Attempts: 0
+                Time: "2026-07-04T13:05:06Z", Attempts: 2
             },
             {
                 Group: "Badges", Name: "General Badge", Image: "img/badges/lumiplat/general.png",
-                Time: "2026-07-04T01:12:03Z", Attempts: 0
+                Time: "2026-07-04T01:12:03Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Moon Badge", Image: "img/badges/lumiplat/moon.png",
-                Time: "2026-07-02T21:34:29", Attempts: 0
+                Time: "2026-07-02T21:34:29", Attempts: 1
+            },
+			
+            {
+                Group: "Battle Legends",
+                Name: "Palmer",
+                Image: "img/trainers/platinum/palmer.png",
+                Time: "2026-07-04T08:39:36Z", Attempts: 1
+            },
+            {
+                Group: "Battle Legends", Class: "Rematch",
+                Name: "Palmer",
+                Image: "img/trainers/platinum/palmer.png",
+                Time: "2026-07-04T10:31:57Z", Attempts: 1
             },
 			
             {
