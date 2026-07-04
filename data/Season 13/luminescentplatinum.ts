@@ -81,7 +81,7 @@ Season13.Runs.push(
 			
             {
                 Group: "Badges", Name: "Wind Badge", Image: "img/badges/lumiplat/wind.png",
-                Time: "2026-07-04T000:43:38Z", Attempts: 0
+                Time: "2026-07-04T00:43:38Z", Attempts: 0
             },
             {
                 Group: "Badges", Name: "Fang Badge", Image: "img/badges/lumiplat/fang.png",
