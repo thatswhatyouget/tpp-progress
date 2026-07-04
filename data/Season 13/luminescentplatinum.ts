@@ -93,7 +93,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Shadow Badge", Image: "img/badges/lumiplat/shadow.png",
-                Time: "2026-07-04T13:05:06Z", Attempts: 0
+                Time: "2026-07-04T13:05:06Z", Attempts: 2
             },
             {
                 Group: "Badges", Name: "General Badge", Image: "img/badges/lumiplat/general.png",
