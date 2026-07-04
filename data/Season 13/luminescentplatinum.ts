@@ -105,6 +105,19 @@ Season13.Runs.push(
             },
 			
             {
+                Group: "Battle Legends",
+                Name: "Palmer",
+                Image: "img/trainers/platinum/palmer.png",
+                Time: "2026-07-04T08:39:36Z", Attempts: 1
+            },
+            {
+                Group: "Battle Legends", Class: "Rematch",
+                Name: "Palmer",
+                Image: "img/trainers/platinum/palmer.png",
+                Time: "2026-07-04T10:31:57Z", Attempts: 1
+            },
+			
+            {
                 Group: "Contests", Name: "Coolness Normal", Image: "img/badges/ribbons/bdsp/coolness_a.png",
                 Time: "2026-07-02T12:26:50Z"
             },
