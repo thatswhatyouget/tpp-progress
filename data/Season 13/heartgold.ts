@@ -240,6 +240,12 @@ Season13.Runs.push(
             },
             {
                 Group: "Rematch Badges", Class: "Rematch",
+                Name: "Mineral Badge",
+                Image: "img/badges/mineral.png",
+                Time: "2026-05-20T11:02:05.567Z", Attempts: 1
+            },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
                 Name: "Glacier Badge",
                 Image: "img/badges/glacier.png",
                 Time: "2026-05-18T04:41:41.315Z", Attempts: 1
@@ -329,6 +335,18 @@ Season13.Runs.push(
                 Name: "Silver Factory Print",
                 Image: "img/badges/prints/johto/factoryS2.png",
                 Time: "2026-05-19T21:21:49Z", Attempts: 0
+            },
+            {
+                Group: "Prints",
+                Name: "Silver Castle Print",
+                Image: "img/badges/prints/johto/castleS2.png",
+                Time: "2026-05-20T10:15:38Z", Attempts: 0
+            },
+            {
+                Group: "Prints",
+                Name: "Gold Castle Print",
+                Image: "img/badges/prints/johto/castleG2.png",
+                Time: "2026-05-20T16:54:10Z", Attempts: 0
             },
             {
                 Group: "Prints",
@@ -614,6 +632,19 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Dunsparce", "Time": "2026-05-20T04:57:55.768Z" },
             { "Group": "Pokemon", "Name": "Chatot", "Time": "2026-05-20T05:05:42.387Z" },
             { "Group": "Pokemon", "Name": "Makuhita", "Time": "2026-05-20T05:20:58.487Z" },
+            { "Group": "Pokemon", "Name": "Omastar", "Time": "2026-05-20T06:56:40.996Z" },
+            { "Group": "Pokemon", "Name": "Charmander", "Time": "2026-05-20T08:52:37.341Z" }, // Transferred from Metronome Sapphire
+            { "Group": "Pokemon", "Name": "Squirtle", "Time": "2026-05-20T08:52:37.341Z" }, // Transferred from Metronome Sapphire
+            { "Group": "Pokemon", "Name": "Ledyba", "Time": "2026-05-20T08:52:37.341Z" }, // Transferred from Metronome Sapphire
+            { "Group": "Pokemon", "Name": "Dragonair", "Time": "2026-05-20T11:16:48.070Z" },
+            { "Group": "Pokemon", "Name": "Mightyena", "Time": "2026-05-20T11:27:51.791Z" },
+            { "Group": "Pokemon", "Name": "Combusken", "Time": "2026-05-20T12:17:55.353Z" },
+            { "Group": "Pokemon", "Name": "Blaziken", "Time": "2026-05-20T12:24:52.957Z" },
+            { "Group": "Pokemon", "Name": "Grovyle", "Time": "2026-05-20T12:34:19.734Z" },
+            { "Group": "Pokemon", "Name": "Sceptile", "Time": "2026-05-20T12:55:56.956Z" },
+            { "Group": "Pokemon", "Name": "Pachirisu", "Time": "2026-05-20T13:04:58.504Z" },
+            { "Group": "Pokemon", "Name": "Marshtomp", "Time": "2026-05-20T13:17:41.295Z" },
+            { "Group": "Pokemon", "Name": "Swampert", "Time": "2026-05-20T13:41:05.439Z" },
         ]
     }
 );
