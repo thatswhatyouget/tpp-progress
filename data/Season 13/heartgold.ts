@@ -228,6 +228,12 @@ Season13.Runs.push(
             },
             {
                 Group: "Rematch Badges", Class: "Rematch",
+                Name: "Hive Badge",
+                Image: "img/badges/hive.png",
+                Time: "2026-05-21T13:13:01.170Z", Attempts: 1
+            },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
                 Name: "Fog Badge",
                 Image: "img/badges/fog.png",
                 Time: "2026-05-19T00:44:23.879Z", Attempts: 1
@@ -249,6 +255,12 @@ Season13.Runs.push(
                 Name: "Glacier Badge",
                 Image: "img/badges/glacier.png",
                 Time: "2026-05-18T04:41:41.315Z", Attempts: 1
+            },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
+                Name: "Rising Badge",
+                Image: "img/badges/rising.png",
+                Time: "2026-05-22T03:10:36.529Z", Attempts: 1
             },
             {
                 Group: "Rematch Badges", Class: "Rematch",
@@ -649,7 +661,6 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Kirlia", "Time": "2026-05-20T17:30:05.563Z" },
 			{ "Group": "Pokemon", "Name": "Gallade", "Time": "2026-05-20T17:31:11.645Z" },
 			{ "Group": "Pokemon", "Name": "Persian", "Time": "2026-05-20T17:55:27.163Z" },
-			// Unverified past this point
 			{ "Group": "Pokemon", "Name": "Hariyama", "Time": "2026-05-20T18:20:03.094Z" },
 			{ "Group": "Pokemon", "Name": "Sharpedo", "Time": "2026-05-20T18:35:28.782Z" },
 			{ "Group": "Pokemon", "Name": "Cascoon", "Time": "2026-05-20T18:41:47.631Z" },
@@ -676,12 +687,12 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Budew", "Time": "2026-05-21T00:55:02.560Z" },
 			{ "Group": "Pokemon", "Name": "Carnivine", "Time": "2026-05-21T01:20:56.657Z" },
 			{ "Group": "Pokemon", "Name": "Shinx", "Time": "2026-05-21T01:31:07.778Z" },
-			{ "Group": "Pokemon", "Name": "Haunter", "Time": "2026-05-21T01:50:48.862Z" },
-			{ "Group": "Pokemon", "Name": "Magmar", "Time": "2026-05-21T01:50:48.862Z" },
-			{ "Group": "Pokemon", "Name": "Kabutops", "Time": "2026-05-21T01:50:48.862Z" },
-			{ "Group": "Pokemon", "Name": "Delibird", "Time": "2026-05-21T01:50:48.862Z" },
-			{ "Group": "Pokemon", "Name": "Cacturne", "Time": "2026-05-21T01:50:48.862Z" },
-			{ "Group": "Pokemon", "Name": "Groudon", "Time": "2026-05-21T01:50:48.862Z" },
+			{ "Group": "Pokemon", "Name": "Haunter", "Time": "2026-05-21T01:50:48.862Z" }, // Transferred from Multiworld Emerald
+			{ "Group": "Pokemon", "Name": "Magmar", "Time": "2026-05-21T01:50:48.862Z" }, // Transferred from Multiworld Emerald
+			{ "Group": "Pokemon", "Name": "Kabutops", "Time": "2026-05-21T01:50:48.862Z" }, // Transferred from Multiworld Emerald
+			{ "Group": "Pokemon", "Name": "Delibird", "Time": "2026-05-21T01:50:48.862Z" }, // Transferred from Multiworld Emerald
+			{ "Group": "Pokemon", "Name": "Cacturne", "Time": "2026-05-21T01:50:48.862Z" }, // Transferred from Multiworld Emerald
+			{ "Group": "Pokemon", "Name": "Groudon", "Time": "2026-05-21T01:50:48.862Z" }, // Transferred from Multiworld Emerald
 			{ "Group": "Pokemon", "Name": "Meditite", "Time": "2026-05-21T05:48:11.519Z" },
 			{ "Group": "Pokemon", "Name": "Entei", "Time": "2026-05-21T06:00:39.804Z" },
 			{ "Group": "Pokemon", "Name": "Raikou", "Time": "2026-05-21T07:19:12.744Z" },
@@ -712,6 +723,7 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2026-05-22T01:46:41.267Z" },
 			{ "Group": "Pokemon", "Name": "Latios", "Time": "2026-05-22T01:56:31.687Z" },
 			{ "Group": "Pokemon", "Name": "Latias", "Time": "2026-05-22T02:54:31.583Z" },
+			// Unverified past this point
 			{ "Group": "Pokemon", "Name": "Ledian", "Time": "2026-05-22T03:11:19.795Z" },
 			{ "Group": "Pokemon", "Name": "Wartortle", "Time": "2026-05-22T03:30:41.154Z" },
 			{ "Group": "Pokemon", "Name": "Blastoise", "Time": "2026-05-22T04:21:02.288Z" },
