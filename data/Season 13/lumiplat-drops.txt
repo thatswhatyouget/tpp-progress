@@ -246,6 +246,7 @@
 !distributebadge Staraptor 5 2026-07-01T17:17:49Z
 !distributebadge Chandelure 5 2026-07-01T17:19:27Z
 !distributebadge Ninjask 5 2026-07-01T17:29:59Z
+!distributebadge Shedinja 5 2026-07-01T17:29:59Z
 !distributebadge Machamp 5 2026-07-01T17:31:07Z
 !distributebadge Drapion 5 2026-07-01T17:31:43Z
 !distributebadge Mismagius 5 2026-07-01T17:35:08Z

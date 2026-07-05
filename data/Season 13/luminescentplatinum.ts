@@ -369,6 +369,7 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Staraptor", "Time": "2026-07-01T17:17:49Z" },
             { "Group": "Pokemon", "Name": "Chandelure", "Time": "2026-07-01T17:19:27Z" },
             { "Group": "Pokemon", "Name": "Ninjask", "Time": "2026-07-01T17:29:59Z" },
+            { "Group": "Pokemon", "Name": "Shedinja", "Time": "2026-07-01T17:29:59Z" },
             { "Group": "Pokemon", "Name": "Machamp", "Time": "2026-07-01T17:31:07Z" },
             { "Group": "Pokemon", "Name": "Drapion", "Time": "2026-07-01T17:31:43Z" },
             { "Group": "Pokemon", "Name": "Mismagius", "Time": "2026-07-01T17:35:08Z" },
