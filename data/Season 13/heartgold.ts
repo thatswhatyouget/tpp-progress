@@ -328,7 +328,7 @@ Season13.Runs.push(
                 Group: "Former Champions",
                 Name: "Red",
                 Image: "img/trainers/heartgold/red.png",
-                Time: "2026-05-23T00:30:35.460Z", Attempts: 3 // Unverified
+                Time: "2026-05-23T00:30:35.460Z", Attempts: 4
             },
 			
             {
@@ -749,7 +749,6 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Glalie", "Time": "2026-05-22T06:20:28.423Z" }, // Transferred from FireRed
 			{ "Group": "Pokemon", "Name": "Exeggutor", "Time": "2026-05-22T07:20:45.161Z" },
 			{ "Group": "Pokemon", "Name": "Corsola", "Time": "2026-05-22T07:34:00.786Z" },
-			// Unverified past this point
 			{ "Group": "Pokemon", "Name": "Bellossom", "Time": "2026-05-22T18:16:47.499Z" },
 			{ "Group": "Pokemon", "Name": "Cloyster", "Time": "2026-05-22T18:50:05.454Z" },
 			{ "Group": "Pokemon", "Name": "Dewgong", "Time": "2026-05-22T19:51:40.007Z" },
@@ -764,6 +763,7 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Cherrim", "Time": "2026-05-22T22:13:32.434Z" },
 			{ "Group": "Pokemon", "Name": "Wormadam", "Time": "2026-05-22T22:21:09.760Z" },
 			{ "Group": "Pokemon", "Name": "Mothim", "Time": "2026-05-22T22:24:13.294Z" },
+			// Unverified past this point
 			{ "Group": "Pokemon", "Name": "Scizor", "Time": "2026-05-23T01:10:13.131Z" },
 			{ "Group": "Pokemon", "Name": "Skarmory", "Time": "2026-05-23T01:10:13.131Z" },
 			{ "Group": "Pokemon", "Name": "Kingdra", "Time": "2026-05-23T01:10:13.131Z" },
