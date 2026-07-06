@@ -311,6 +311,13 @@ Season13.Runs.push(
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "2026-05-19T10:26:47.796Z", Attempts: 1
             },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
+                Name: "Earth Badge",
+                Image: "img/badges/earth.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2026-05-24T22:08:08.012Z", Attempts: 1
+            },
 			
             {
                 Group: "Battle Legends",
@@ -807,15 +814,15 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Weavile", "Time": "2026-05-24T03:41:53.339Z" },
 			{ "Group": "Pokemon", "Name": "Crawdaunt", "Time": "2026-05-24T07:30:15.926Z" },
 			{ "Group": "Pokemon", "Name": "Armaldo", "Time": "2026-05-24T08:24:44.597Z" },
-			// Unverified past this point
 			{ "Group": "Pokemon", "Name": "Darkrai", "Time": "2026-05-24T13:40:07.032Z" },
-			{ "Group": "Pokemon", "Name": "Slowking", "Time": "2026-05-24T13:52:47.272Z" },
-			{ "Group": "Pokemon", "Name": "Ludicolo", "Time": "2026-05-24T13:52:47.272Z" },
-			{ "Group": "Pokemon", "Name": "Whiscash", "Time": "2026-05-24T13:52:47.272Z" },
-			{ "Group": "Pokemon", "Name": "Claydol", "Time": "2026-05-24T13:52:47.272Z" },
-			{ "Group": "Pokemon", "Name": "Milotic", "Time": "2026-05-24T13:52:47.272Z" },
+			{ "Group": "Pokemon", "Name": "Slowking", "Time": "2026-05-24T13:52:47.272Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Ludicolo", "Time": "2026-05-24T13:52:47.272Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Whiscash", "Time": "2026-05-24T13:52:47.272Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Claydol", "Time": "2026-05-24T13:52:47.272Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Milotic", "Time": "2026-05-24T13:52:47.272Z" }, // Transferred from Metronome Sapphire
 			{ "Group": "Pokemon", "Name": "Dialga", "Time": "2026-05-24T15:10:02.095Z" },
 			{ "Group": "Pokemon", "Name": "Riolu", "Time": "2026-05-24T19:11:57.865Z" },
+			// Unverified past this point
 			{ "Group": "Pokemon", "Name": "Baltoy", "Time": "2026-05-24T23:30:16.061Z" },
 			{ "Group": "Pokemon", "Name": "Lotad", "Time": "2026-05-24T23:31:57.869Z" },
 			{ "Group": "Pokemon", "Name": "Barboach", "Time": "2026-05-24T23:35:15.310Z" },
