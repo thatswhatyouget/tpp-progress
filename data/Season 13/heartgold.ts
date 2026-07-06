@@ -219,6 +219,30 @@ Season13.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: ""
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-05-25T11:38:14Z", Attempts: 0, IDNo: "35612", Party: [
+                    { Pokemon: "Mr. Mime", Nickname: "MEME", Level: 76, Gender: "Female", Met: "Safari Zone", OT: "Lindy" },
+                    { Pokemon: "Tangrowth", Nickname: "AH TIStt ", Level: 73, Gender: "Female", Met: "Goldenrod City", OT: "Lindy" },
+                    { Pokemon: "Seaking", Nickname: "NOyyyy♀", Level: 73, Gender: "Female", Met: "Union Cave", OT: "Lindy" },
+                    { Pokemon: "Moltres", Nickname: "OGI", Level: 82, Met: "Mt. Silver Cave", OT: "Lindy" },
+                    { Pokemon: "Mamoswine", Nickname: "OINKMON", Level: 80, Gender: "Female", Met: "Ice Path", OT: "Lindy" },
+                    { Pokemon: "Jirachi", Level: 86, Met: "Fateful encounter", OT: "SMR2010" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: ""
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-05-25T20:01:07Z", Attempts: 1, IDNo: "35612", Party: [
+                    { Pokemon: "Mamoswine", Nickname: "OINKMON", Level: 82, Gender: "Female", Met: "Ice Path", OT: "Lindy" },
+                    { Pokemon: "Tangrowth", Nickname: "AH TIStt ", Level: 74, Gender: "Female", Met: "Goldenrod City", OT: "Lindy" },
+                    { Pokemon: "Mr. Mime", Nickname: "MEME", Level: 76, Gender: "Female", Met: "Safari Zone", OT: "Lindy" },
+                    { Pokemon: "Moltres", Nickname: "OGI", Level: 82, Met: "Mt. Silver Cave", OT: "Lindy" },
+                    { Pokemon: "Seaking", Nickname: "NOyyyy♀", Level: 74, Gender: "Female", Met: "Union Cave", OT: "Lindy" },
+                    { Pokemon: "Togetic", Level: 27, Gender: "Male", Met: "Route 34", OT: "Lindy" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: ""
+            },
 			
             {
                 Group: "Rematch Badges", Class: "Rematch",
@@ -311,6 +335,13 @@ Season13.Runs.push(
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "2026-05-19T10:26:47.796Z", Attempts: 1
             },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
+                Name: "Earth Badge",
+                Image: "img/badges/earth.png",
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2026-05-24T22:08:08.012Z", Attempts: 1
+            },
 			
             {
                 Group: "Battle Legends",
@@ -328,7 +359,7 @@ Season13.Runs.push(
                 Group: "Former Champions",
                 Name: "Red",
                 Image: "img/trainers/heartgold/red.png",
-                Time: "2026-05-23T00:30:35.460Z", Attempts: 3 // Unverified
+                Time: "2026-05-23T00:30:35.460Z", Attempts: 4
             },
 			
             {
@@ -348,6 +379,12 @@ Season13.Runs.push(
                 Name: "Silver Arcade Print",
                 Image: "img/badges/prints/johto/arcadeS2.png",
                 Time: "2026-05-17T22:38:13Z", Attempts: 0
+            },
+            {
+                Group: "Prints",
+                Name: "Gold Arcade Print",
+                Image: "img/badges/prints/johto/arcadeG2.png",
+                Time: "2026-05-24T10:14:56Z", Attempts: 0
             },
             {
                 Group: "Prints",
@@ -386,6 +423,13 @@ Season13.Runs.push(
 				Image: "img/hosts/aoooo.png", 
 				ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", 
 				Time: "2026-05-16T21:21:18Z", Attempts: 1
+			},
+            { 
+				Group: "Past Hosts", 
+				Name: "11 CCvu", 
+				Image: "img/hosts/11 CCvu.png", 
+				//ImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/3xj7tq/the_hosts_of_the_voices/", 
+				Time: "2026-05-26T03:25:51Z", Attempts: 2
 			},
 
             { "Group": "Pokemon", "Name": "Chikorita", "Time": "2026-05-09T21:22:56.641Z" },
@@ -749,7 +793,6 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Glalie", "Time": "2026-05-22T06:20:28.423Z" }, // Transferred from FireRed
 			{ "Group": "Pokemon", "Name": "Exeggutor", "Time": "2026-05-22T07:20:45.161Z" },
 			{ "Group": "Pokemon", "Name": "Corsola", "Time": "2026-05-22T07:34:00.786Z" },
-			// Unverified past this point
 			{ "Group": "Pokemon", "Name": "Bellossom", "Time": "2026-05-22T18:16:47.499Z" },
 			{ "Group": "Pokemon", "Name": "Cloyster", "Time": "2026-05-22T18:50:05.454Z" },
 			{ "Group": "Pokemon", "Name": "Dewgong", "Time": "2026-05-22T19:51:40.007Z" },
@@ -764,12 +807,12 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Cherrim", "Time": "2026-05-22T22:13:32.434Z" },
 			{ "Group": "Pokemon", "Name": "Wormadam", "Time": "2026-05-22T22:21:09.760Z" },
 			{ "Group": "Pokemon", "Name": "Mothim", "Time": "2026-05-22T22:24:13.294Z" },
-			{ "Group": "Pokemon", "Name": "Scizor", "Time": "2026-05-23T01:10:13.131Z" },
-			{ "Group": "Pokemon", "Name": "Skarmory", "Time": "2026-05-23T01:10:13.131Z" },
-			{ "Group": "Pokemon", "Name": "Kingdra", "Time": "2026-05-23T01:10:13.131Z" },
-			{ "Group": "Pokemon", "Name": "Machamp", "Time": "2026-05-23T01:10:13.496Z" },
-			{ "Group": "Pokemon", "Name": "Politoed", "Time": "2026-05-23T01:10:13.496Z" },
-			{ "Group": "Pokemon", "Name": "Porygon2", "Time": "2026-05-23T01:10:13.496Z" },
+			{ "Group": "Pokemon", "Name": "Scizor", "Time": "2026-05-23T01:10:13.131Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Skarmory", "Time": "2026-05-23T01:10:13.131Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Kingdra", "Time": "2026-05-23T01:10:13.131Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Machamp", "Time": "2026-05-23T01:10:13.496Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Politoed", "Time": "2026-05-23T01:10:13.496Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Porygon2", "Time": "2026-05-23T01:10:13.496Z" }, // Transferred from Metronome Sapphire
 			{ "Group": "Pokemon", "Name": "Porygon", "Time": "2026-05-23T01:41:02.064Z" },
 			{ "Group": "Pokemon", "Name": "Lopunny", "Time": "2026-05-23T05:13:36.613Z" },
 			{ "Group": "Pokemon", "Name": "Beldum", "Time": "2026-05-23T05:28:32.783Z" },
@@ -782,10 +825,10 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Gardevoir", "Time": "2026-05-23T15:16:21.296Z" },
 			{ "Group": "Pokemon", "Name": "Metang", "Time": "2026-05-23T15:27:05.013Z" },
 			{ "Group": "Pokemon", "Name": "Metagross", "Time": "2026-05-23T16:17:04.583Z" },
-			{ "Group": "Pokemon", "Name": "Corphish", "Time": "2026-05-23T20:32:10.578Z" },
-			{ "Group": "Pokemon", "Name": "Dusclops", "Time": "2026-05-23T20:32:10.578Z" },
-			{ "Group": "Pokemon", "Name": "Medicham", "Time": "2026-05-23T20:32:10.958Z" },
-			{ "Group": "Pokemon", "Name": "Lunatone", "Time": "2026-05-23T20:32:10.959Z" },
+			{ "Group": "Pokemon", "Name": "Corphish", "Time": "2026-05-23T20:32:10.578Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Dusclops", "Time": "2026-05-23T20:32:10.578Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Medicham", "Time": "2026-05-23T20:32:10.958Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Lunatone", "Time": "2026-05-23T20:32:10.959Z" }, // Transferred from Metronome Sapphire
 			{ "Group": "Pokemon", "Name": "Staravia", "Time": "2026-05-23T20:48:56.782Z" },
 			{ "Group": "Pokemon", "Name": "Wailmer", "Time": "2026-05-23T21:07:24.090Z" },
 			{ "Group": "Pokemon", "Name": "Staraptor", "Time": "2026-05-23T21:28:25.191Z" },
@@ -803,23 +846,23 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Crawdaunt", "Time": "2026-05-24T07:30:15.926Z" },
 			{ "Group": "Pokemon", "Name": "Armaldo", "Time": "2026-05-24T08:24:44.597Z" },
 			{ "Group": "Pokemon", "Name": "Darkrai", "Time": "2026-05-24T13:40:07.032Z" },
-			{ "Group": "Pokemon", "Name": "Slowking", "Time": "2026-05-24T13:52:47.272Z" },
-			{ "Group": "Pokemon", "Name": "Ludicolo", "Time": "2026-05-24T13:52:47.272Z" },
-			{ "Group": "Pokemon", "Name": "Whiscash", "Time": "2026-05-24T13:52:47.272Z" },
-			{ "Group": "Pokemon", "Name": "Claydol", "Time": "2026-05-24T13:52:47.272Z" },
-			{ "Group": "Pokemon", "Name": "Milotic", "Time": "2026-05-24T13:52:47.272Z" },
+			{ "Group": "Pokemon", "Name": "Slowking", "Time": "2026-05-24T13:52:47.272Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Ludicolo", "Time": "2026-05-24T13:52:47.272Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Whiscash", "Time": "2026-05-24T13:52:47.272Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Claydol", "Time": "2026-05-24T13:52:47.272Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Milotic", "Time": "2026-05-24T13:52:47.272Z" }, // Transferred from Metronome Sapphire
 			{ "Group": "Pokemon", "Name": "Dialga", "Time": "2026-05-24T15:10:02.095Z" },
 			{ "Group": "Pokemon", "Name": "Riolu", "Time": "2026-05-24T19:11:57.865Z" },
 			{ "Group": "Pokemon", "Name": "Baltoy", "Time": "2026-05-24T23:30:16.061Z" },
 			{ "Group": "Pokemon", "Name": "Lotad", "Time": "2026-05-24T23:31:57.869Z" },
 			{ "Group": "Pokemon", "Name": "Barboach", "Time": "2026-05-24T23:35:15.310Z" },
 			{ "Group": "Pokemon", "Name": "Lombre", "Time": "2026-05-24T23:49:55.459Z" },
-			{ "Group": "Pokemon", "Name": "Shiftry", "Time": "2026-05-25T02:05:52.790Z" },
-			{ "Group": "Pokemon", "Name": "Sableye", "Time": "2026-05-25T02:05:52.790Z" },
-			{ "Group": "Pokemon", "Name": "Mawile", "Time": "2026-05-25T02:05:52.790Z" },
-			{ "Group": "Pokemon", "Name": "Flygon", "Time": "2026-05-25T02:05:52.790Z" },
-			{ "Group": "Pokemon", "Name": "Cradily", "Time": "2026-05-25T02:05:52.790Z" },
-			{ "Group": "Pokemon", "Name": "Huntail", "Time": "2026-05-25T02:05:52.790Z" },
+			{ "Group": "Pokemon", "Name": "Shiftry", "Time": "2026-05-25T02:05:52.790Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Sableye", "Time": "2026-05-25T02:05:52.790Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Mawile", "Time": "2026-05-25T02:05:52.790Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Flygon", "Time": "2026-05-25T02:05:52.790Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Cradily", "Time": "2026-05-25T02:05:52.790Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Huntail", "Time": "2026-05-25T02:05:52.790Z" }, // Transferred from Metronome Sapphire
 			{ "Group": "Pokemon", "Name": "Heatran", "Time": "2026-05-25T03:26:04.924Z" },
 			{ "Group": "Pokemon", "Name": "Lucario", "Time": "2026-05-25T07:13:59.189Z" },
 			{ "Group": "Pokemon", "Name": "Walrein", "Time": "2026-05-25T08:18:36.655Z" },

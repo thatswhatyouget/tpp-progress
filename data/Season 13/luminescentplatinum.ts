@@ -103,6 +103,39 @@ Season13.Runs.push(
                 Group: "Badges", Name: "Moon Badge", Image: "img/badges/lumiplat/moon.png",
                 Time: "2026-07-02T21:34:29", Attempts: 1
             },
+			
+            {
+                Group: "Rematch Badges", Name: "Coal Badge", Image: "img/badges/coal.png",
+                Time: "2026-07-06T19:31:10Z", Attempts: 1, Class: "Rematch"
+            },
+            /*{
+                Group: "Rematch Badges", Name: "Forest Badge", Image: "img/badges/forest.png",
+                Time: "", Attempts: 2, Class: "Rematch"
+            },
+            {
+                Group: "Rematch Badges", Name: "Relic Badge", Image: "img/badges/relic.png",
+                Time: "", Attempts: 2, Class: "Rematch"
+            },
+            {
+                Group: "Rematch Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png",
+                Time: "", Attempts: 1, Class: "Rematch"
+            },
+            {
+                Group: "Rematch Badges", Name: "Fen Badge", Image: "img/badges/fen.png",
+                Time: "", Attempts: 1, Class: "Rematch"
+            },
+            {
+                Group: "Rematch Badges", Name: "Mine Badge", Image: "img/badges/mine.png",
+                Time: "", Attempts: 1, Class: "Rematch"
+            },
+            {
+                Group: "Rematch Badges", Name: "Icicle Badge", Image: "img/badges/icicle.png",
+                Time: "", Attempts: 1, Class: "Rematch"
+            },
+            {
+                Group: "Rematch Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png",
+                Time: "", Attempts: 1, Class: "Rematch"
+            },*/
 
             {
                 Group: "Battle Legends",
