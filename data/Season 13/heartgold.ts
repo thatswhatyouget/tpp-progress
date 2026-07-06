@@ -351,6 +351,12 @@ Season13.Runs.push(
             },
             {
                 Group: "Prints",
+                Name: "Gold Arcade Print",
+                Image: "img/badges/prints/johto/arcadeG2.png",
+                Time: "2026-05-24T10:14:56Z", Attempts: 0
+            },
+            {
+                Group: "Prints",
                 Name: "Silver Factory Print",
                 Image: "img/badges/prints/johto/factoryS2.png",
                 Time: "2026-05-19T21:21:49Z", Attempts: 0
@@ -763,13 +769,12 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Cherrim", "Time": "2026-05-22T22:13:32.434Z" },
 			{ "Group": "Pokemon", "Name": "Wormadam", "Time": "2026-05-22T22:21:09.760Z" },
 			{ "Group": "Pokemon", "Name": "Mothim", "Time": "2026-05-22T22:24:13.294Z" },
-			// Unverified past this point
-			{ "Group": "Pokemon", "Name": "Scizor", "Time": "2026-05-23T01:10:13.131Z" },
-			{ "Group": "Pokemon", "Name": "Skarmory", "Time": "2026-05-23T01:10:13.131Z" },
-			{ "Group": "Pokemon", "Name": "Kingdra", "Time": "2026-05-23T01:10:13.131Z" },
-			{ "Group": "Pokemon", "Name": "Machamp", "Time": "2026-05-23T01:10:13.496Z" },
-			{ "Group": "Pokemon", "Name": "Politoed", "Time": "2026-05-23T01:10:13.496Z" },
-			{ "Group": "Pokemon", "Name": "Porygon2", "Time": "2026-05-23T01:10:13.496Z" },
+			{ "Group": "Pokemon", "Name": "Scizor", "Time": "2026-05-23T01:10:13.131Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Skarmory", "Time": "2026-05-23T01:10:13.131Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Kingdra", "Time": "2026-05-23T01:10:13.131Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Machamp", "Time": "2026-05-23T01:10:13.496Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Politoed", "Time": "2026-05-23T01:10:13.496Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Porygon2", "Time": "2026-05-23T01:10:13.496Z" }, // Transferred from Metronome Sapphire
 			{ "Group": "Pokemon", "Name": "Porygon", "Time": "2026-05-23T01:41:02.064Z" },
 			{ "Group": "Pokemon", "Name": "Lopunny", "Time": "2026-05-23T05:13:36.613Z" },
 			{ "Group": "Pokemon", "Name": "Beldum", "Time": "2026-05-23T05:28:32.783Z" },
@@ -782,10 +787,10 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Gardevoir", "Time": "2026-05-23T15:16:21.296Z" },
 			{ "Group": "Pokemon", "Name": "Metang", "Time": "2026-05-23T15:27:05.013Z" },
 			{ "Group": "Pokemon", "Name": "Metagross", "Time": "2026-05-23T16:17:04.583Z" },
-			{ "Group": "Pokemon", "Name": "Corphish", "Time": "2026-05-23T20:32:10.578Z" },
-			{ "Group": "Pokemon", "Name": "Dusclops", "Time": "2026-05-23T20:32:10.578Z" },
-			{ "Group": "Pokemon", "Name": "Medicham", "Time": "2026-05-23T20:32:10.958Z" },
-			{ "Group": "Pokemon", "Name": "Lunatone", "Time": "2026-05-23T20:32:10.959Z" },
+			{ "Group": "Pokemon", "Name": "Corphish", "Time": "2026-05-23T20:32:10.578Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Dusclops", "Time": "2026-05-23T20:32:10.578Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Medicham", "Time": "2026-05-23T20:32:10.958Z" }, // Transferred from Metronome Sapphire
+			{ "Group": "Pokemon", "Name": "Lunatone", "Time": "2026-05-23T20:32:10.959Z" }, // Transferred from Metronome Sapphire
 			{ "Group": "Pokemon", "Name": "Staravia", "Time": "2026-05-23T20:48:56.782Z" },
 			{ "Group": "Pokemon", "Name": "Wailmer", "Time": "2026-05-23T21:07:24.090Z" },
 			{ "Group": "Pokemon", "Name": "Staraptor", "Time": "2026-05-23T21:28:25.191Z" },
@@ -802,6 +807,7 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Weavile", "Time": "2026-05-24T03:41:53.339Z" },
 			{ "Group": "Pokemon", "Name": "Crawdaunt", "Time": "2026-05-24T07:30:15.926Z" },
 			{ "Group": "Pokemon", "Name": "Armaldo", "Time": "2026-05-24T08:24:44.597Z" },
+			// Unverified past this point
 			{ "Group": "Pokemon", "Name": "Darkrai", "Time": "2026-05-24T13:40:07.032Z" },
 			{ "Group": "Pokemon", "Name": "Slowking", "Time": "2026-05-24T13:52:47.272Z" },
 			{ "Group": "Pokemon", "Name": "Ludicolo", "Time": "2026-05-24T13:52:47.272Z" },
