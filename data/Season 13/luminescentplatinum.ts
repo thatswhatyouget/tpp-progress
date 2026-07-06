@@ -108,11 +108,11 @@ Season13.Runs.push(
                 Group: "Rematch Badges", Name: "Coal Badge", Image: "img/badges/coal.png",
                 Time: "2026-07-06T19:31:10Z", Attempts: 1, Class: "Rematch"
             },
-            /*{
-                Group: "Rematch Badges", Name: "Forest Badge", Image: "img/badges/forest.png",
-                Time: "", Attempts: 2, Class: "Rematch"
-            },
             {
+                Group: "Rematch Badges", Name: "Forest Badge", Image: "img/badges/forest.png",
+                Time: "2026-07-06T21:47:20Z", Attempts: 2, Class: "Rematch"
+            },
+            /*{
                 Group: "Rematch Badges", Name: "Relic Badge", Image: "img/badges/relic.png",
                 Time: "", Attempts: 2, Class: "Rematch"
             },
