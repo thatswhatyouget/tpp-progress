@@ -278,6 +278,13 @@ Season13.Runs.push(
             },
             {
                 Group: "Rematch Badges", Class: "Rematch",
+                Name: "Thunder Badge",
+                Image: "img/badges/thunder.png", 
+                ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2026-05-22T04:20:34.870Z", Attempts: 1
+            },
+            {
+                Group: "Rematch Badges", Class: "Rematch",
                 Name: "Rainbow Badge",
                 Image: "img/badges/rainbow.png", 
                 ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
@@ -365,6 +372,12 @@ Season13.Runs.push(
                 Name: "Silver Hall Print",
                 Image: "img/badges/prints/johto/hallS2.png",
                 Time: "2026-05-19T14:32:22Z", Attempts: 0
+            },
+            {
+                Group: "Prints",
+                Name: "Gold Hall Print",
+                Image: "img/badges/prints/johto/hallG2.png",
+                Time: "2026-05-22T16:26:23Z", Attempts: 0
             },
 
             { 
@@ -723,20 +736,20 @@ Season13.Runs.push(
 			{ "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2026-05-22T01:46:41.267Z" },
 			{ "Group": "Pokemon", "Name": "Latios", "Time": "2026-05-22T01:56:31.687Z" },
 			{ "Group": "Pokemon", "Name": "Latias", "Time": "2026-05-22T02:54:31.583Z" },
-			// Unverified past this point
 			{ "Group": "Pokemon", "Name": "Ledian", "Time": "2026-05-22T03:11:19.795Z" },
 			{ "Group": "Pokemon", "Name": "Wartortle", "Time": "2026-05-22T03:30:41.154Z" },
 			{ "Group": "Pokemon", "Name": "Blastoise", "Time": "2026-05-22T04:21:02.288Z" },
 			{ "Group": "Pokemon", "Name": "Charmeleon", "Time": "2026-05-22T04:46:27.238Z" },
 			{ "Group": "Pokemon", "Name": "Ninetales", "Time": "2026-05-22T05:30:37.715Z" },
 			{ "Group": "Pokemon", "Name": "Espeon", "Time": "2026-05-22T05:48:28.437Z" },
-			{ "Group": "Pokemon", "Name": "Charizard", "Time": "2026-05-22T06:20:28.423Z" },
-			{ "Group": "Pokemon", "Name": "Wingull", "Time": "2026-05-22T06:20:28.423Z" },
-			{ "Group": "Pokemon", "Name": "Aron", "Time": "2026-05-22T06:20:28.423Z" },
-			{ "Group": "Pokemon", "Name": "Torkoal", "Time": "2026-05-22T06:20:28.423Z" },
-			{ "Group": "Pokemon", "Name": "Glalie", "Time": "2026-05-22T06:20:28.423Z" },
+			{ "Group": "Pokemon", "Name": "Charizard", "Time": "2026-05-22T06:20:28.423Z" }, // Transferred from FireRed
+			{ "Group": "Pokemon", "Name": "Wingull", "Time": "2026-05-22T06:20:28.423Z" }, // Transferred from FireRed
+			{ "Group": "Pokemon", "Name": "Aron", "Time": "2026-05-22T06:20:28.423Z" }, // Transferred from FireRed
+			{ "Group": "Pokemon", "Name": "Torkoal", "Time": "2026-05-22T06:20:28.423Z" }, // Transferred from FireRed
+			{ "Group": "Pokemon", "Name": "Glalie", "Time": "2026-05-22T06:20:28.423Z" }, // Transferred from FireRed
 			{ "Group": "Pokemon", "Name": "Exeggutor", "Time": "2026-05-22T07:20:45.161Z" },
 			{ "Group": "Pokemon", "Name": "Corsola", "Time": "2026-05-22T07:34:00.786Z" },
+			// Unverified past this point
 			{ "Group": "Pokemon", "Name": "Bellossom", "Time": "2026-05-22T18:16:47.499Z" },
 			{ "Group": "Pokemon", "Name": "Cloyster", "Time": "2026-05-22T18:50:05.454Z" },
 			{ "Group": "Pokemon", "Name": "Dewgong", "Time": "2026-05-22T19:51:40.007Z" },
