@@ -526,7 +526,7 @@ namespace ZA {
 		...revisit3,
 		RunName: revisit.RunName + " Part 4",
 		StartDate: "2026-02-28T21:45:00Z",
-		Duration: "2026-03-05T05:00:0Z",
+		Duration: "2026-03-05T05:00:00Z",
 		CopyEvents: [revisit3.RunName],
 		Revisit: { Collection: "Revisit", Run: revisit3.RunName },
 		Events: [
