@@ -118,7 +118,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Rematch Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png",
-                Time: "", Attempts: 1, Class: "Rematch"
+                Time: "", Attempts: 2, Class: "Rematch"
             },
             {
                 Group: "Rematch Badges", Name: "Fen Badge", Image: "img/badges/fen.png",
@@ -159,6 +159,18 @@ Season13.Runs.push(
             {
                 Group: "Contests", Name: "Coolness Normal", Image: "img/badges/ribbons/bdsp/coolness_a.png",
                 Time: "2026-07-02T12:26:50Z"
+            },
+            {
+                Group: "Contests", Name: "Cuteness Normal", Image: "img/badges/ribbons/bdsp/cuteness_a.png",
+                Time: "2026-07-06T23:59:37Z"
+            },
+            {
+                Group: "Contests", Name: "Cleverness Normal", Image: "img/badges/ribbons/bdsp/cleverness_a.png",
+                Time: "2026-07-06T23:55:06Z"
+            },
+            {
+                Group: "Contests", Name: "Toughness Normal", Image: "img/badges/ribbons/bdsp/toughness_a.png",
+                Time: "2026-07-07T00:07:54Z"
             },
 
             { "Group": "Pokemon", "Name": "Piplup", "Time": "2026-06-27T21:17:02Z" },
