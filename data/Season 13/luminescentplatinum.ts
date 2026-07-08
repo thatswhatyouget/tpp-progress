@@ -155,6 +155,12 @@ Season13.Runs.push(
                 Image: "img/trainers/platinum/palmer.png",
                 Time: "2026-07-06T10:38:08Z", Attempts: 1
             },
+            {
+                Group: "Battle Legends", Class: "Super Rematch",
+                Name: "Barry & Palmer",
+                Image: "img/trainers/platinum/barrypalmer.png",
+                Time: "2026-07-08T08:48:26Z", Attempts: 1
+            },
 
             {
                 Group: "Contests", Name: "Coolness Normal", Image: "img/badges/ribbons/bdsp/coolness_a.png",
