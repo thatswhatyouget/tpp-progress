@@ -157,7 +157,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Battle Legends", Class: "Super Rematch",
-                Name: "Barry & Palmer",
+                Name: "Damion & Palmer",
                 Image: "img/trainers/platinum/barrypalmer.png",
                 Time: "2026-07-08T08:48:26Z", Attempts: 1
             },
