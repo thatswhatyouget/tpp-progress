@@ -69,6 +69,8 @@ var alternates: Alternate[] = [
 
     new Alternate("tauros", "Paldean-Blaze"),
     new Alternate("tauros", "Paldean-Aqua"),
+	
+    new Alternate("Mewtwo", "Armored"),
 
     new Alternate("Pichu", "Spiky-Eared"),
 	
