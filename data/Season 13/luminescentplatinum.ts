@@ -153,17 +153,23 @@ Season13.Runs.push(
                 Group: "Elite Four Rematch", Name: "Lucian", Image: "img/trainers/platinum/lucian.png",
                 Time: "2026-07-10T22:47:31Z", Attempts: 1, Class: "Rematch"
             },
-            /*{
-                Group: "Champions Rematch", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
-                Time: "", Attempts: 1, Class: "Rematch"
+            {
+                Group: "Elite Four Rematch", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
+                Time: "2026-07-10T23:22:02Z", Attempts: 1, Class: "Rematch"
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "875424", Attempts: 4, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-07-10T23:23:44Z", IDNo: "875424", Attempts: 4, Party: [
+                    { Pokemon: "Raikou", Nickname: "Whaitiri", Level: 100 },
+                    { Pokemon: "Latias", Nickname: "Amarilla", Gender: "Female", Level: 100, Shiny: "true" },
+                    { Pokemon: "Regigigas", Nickname: "GIGANTO", Level: 100 },
+                    { Pokemon: "Articuno", Nickname: "Borealis", Level: 100 },
+                    { Pokemon: "Heatran", Nickname: "Yellowstoñe", Gender: "Female", Level: 100 },
+                    { Pokemon: "Mewtwo", Nickname: "Snuggl", Level: 100, Form: "Armored-MkI" },
                 ],
                 FirstAttemptDate: "2026-07-10T05:14:02Z",
                 Image: "img/ribbons/champion-sinnoh.png"
-            },*/
+            },
 
             {
                 Group: "Battle Legends",
