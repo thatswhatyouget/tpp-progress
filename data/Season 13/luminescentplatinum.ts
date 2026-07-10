@@ -112,19 +112,19 @@ Season13.Runs.push(
                 Group: "Rematch Badges", Name: "Forest Badge", Image: "img/badges/forest.png",
                 Time: "2026-07-06T21:47:20Z", Attempts: 2, Class: "Rematch"
             },
-            /*{
+            {
                 Group: "Rematch Badges", Name: "Relic Badge", Image: "img/badges/relic.png",
-                Time: "", Attempts: 2, Class: "Rematch"
+                Time: "2026-07-10T10:02:39Z", Attempts: 3, Class: "Rematch"
             },
             {
                 Group: "Rematch Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png",
-                Time: "", Attempts: 2, Class: "Rematch"
+                Time: "2026-07-10T07:57:11Z", Attempts: 3, Class: "Rematch"
             },
             {
                 Group: "Rematch Badges", Name: "Fen Badge", Image: "img/badges/fen.png",
-                Time: "", Attempts: 1, Class: "Rematch"
+                Time: "2026-07-10T09:12:20Z", Attempts: 2, Class: "Rematch"
             },
-            {
+            /*{
                 Group: "Rematch Badges", Name: "Mine Badge", Image: "img/badges/mine.png",
                 Time: "", Attempts: 1, Class: "Rematch"
             },
@@ -135,6 +135,34 @@ Season13.Runs.push(
             {
                 Group: "Rematch Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png",
                 Time: "", Attempts: 1, Class: "Rematch"
+            },*/
+			
+            {
+                Group: "Elite Four Rematch", Name: "Aaron", Image: "img/trainers/platinum/aaron.png",
+                Time: "2026-07-10T05:28:16Z", Attempts: 1, Class: "Rematch"
+            },
+            /*{
+                Group: "Elite Four Rematch", Name: "Bertha", Image: "img/trainers/platinum/bertha.png",
+                Time: "", Attempts: 2, Class: "Rematch"
+            },
+            {
+                Group: "Elite Four Rematch", Name: "Flint", Image: "img/trainers/platinum/flint.png",
+                Time: "", Attempts: 1, Class: "Rematch"
+            },
+            {
+                Group: "Elite Four Rematch", Name: "Lucian", Image: "img/trainers/platinum/lucian.png",
+                Time: "", Attempts: 1, Class: "Rematch"
+            },
+            {
+                Group: "Champions Rematch", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png",
+                Time: "", Attempts: 1, Class: "Rematch"
+            },
+
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", IDNo: "875424", Attempts: 2, Party: [
+                ],
+                FirstAttemptDate: "2026-07-10T05:14:02Z",
+                Image: "img/ribbons/champion-sinnoh.png"
             },*/
 
             {
@@ -154,6 +182,18 @@ Season13.Runs.push(
                 Name: "Palmer",
                 Image: "img/trainers/platinum/palmer.png",
                 Time: "2026-07-06T10:38:08Z", Attempts: 1
+            },
+            {
+                Group: "Battle Legends", Class: "Super Rematch",
+                Name: "Damion & Palmer",
+                Image: "img/trainers/platinum/barrypalmer.png",
+                Time: "2026-07-08T08:48:26Z", Attempts: 1
+            },
+            {
+                Group: "Battle Legends",
+                Name: "Morimoto",
+                Image: "img/trainers/platinum/swimmer.png",
+                Time: "2026-07-08T09:34:55Z", Attempts: 1
             },
 
             {
