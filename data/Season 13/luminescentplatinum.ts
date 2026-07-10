@@ -161,6 +161,12 @@ Season13.Runs.push(
                 Image: "img/trainers/platinum/barrypalmer.png",
                 Time: "2026-07-08T08:48:26Z", Attempts: 1
             },
+            {
+                Group: "Battle Legends",
+                Name: "Morimoto",
+                Image: "img/trainers/platinum/swimmer.png",
+                Time: "2026-07-08T09:34:55Z", Attempts: 1
+            },
 
             {
                 Group: "Contests", Name: "Coolness Normal", Image: "img/badges/ribbons/bdsp/coolness_a.png",
