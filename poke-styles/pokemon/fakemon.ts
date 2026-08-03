@@ -125,3 +125,31 @@ addStyles(["Tentaquil"], f => {
     const path = `./img/fakemon/star/${clean}.png`;
     return `.star .pokesprite.${clean} img { background-image:url(".${path}")!important; background-position: 0px -0em!important; background-size: 1em!important; background-position: center!important; }`;
 });
+
+//Anniversary Hoenn
+addStyles(Pokedex.Regional["Anniversary Hoenn"].map((mon, i) => typeof mon == "string" ? { name: mon, number: i } : null).filter(m => !!m), mon => {
+    const clean = dexClean(mon.name).replace(/ /g, '');
+    const path = `./img/fakemon/annihoenn/${clean}.png`;
+    if (exists(path))
+        return `.annihoenn .pokesprite.${clean} img { background-image:url(".${path}")!important; background-size: 1em!important; background-position: center!important; }`;
+	const rowSize = 1;
+    const row = Math.floor(mon.number / rowSize);
+    const col = mon.number % rowSize;
+    return `.annihoenn .pokesprite.${clean} img { background-position: -${col}em -${row}em; background-size: ${rowSize}em!important;}`;
+});
+addStyles(["Téa Barqán"], f => {
+    const clean = dexClean(f).replace(/ /g, '');
+    const path = `./img/fakemon/annihoenn/teabarqan.png`;
+    return `.annihoenn .pokesprite.tabarqn img { background-image:url(".${path}")!important; background-position: 0px -0em!important; background-size: 1em!important; background-position: center!important; }`;
+});
+addStyles(["???’M ??"], f => {
+    const clean = dexClean(f).replace(/ /g, '');
+    const path = `./img/fakemon/annihoenn/m.png`;
+    return `.annihoenn .pokesprite.-q-q-qm-q-q img { background-image:url(".${path}")!important; background-position: 0px -0em!important; background-size: 1em!important; background-position: center!important; }`;
+});
+addStyles(["???’M ??"], f => {
+    const clean = dexClean(f).replace(/ /g, '');
+    const path = `./img/fakemon/annihoenn/anedepami.png`;
+    return `.annihoenn .pokesprite.-q-q-qm-q-q-1107 img { background-image:url(".${path}")!important; background-position: 0px -0em!important; background-size: 1em!important; background-position: center!important; }`;
+});
+addSingleStyle('.annihoenn .pokesprite.phancero:hover img  { background-image:url("../img/fakemon/phancero-hover.png")!important; }');

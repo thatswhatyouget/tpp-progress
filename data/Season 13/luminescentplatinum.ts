@@ -6,7 +6,7 @@ Season13.Runs.push(
         ColorSecondary: "#51515D",
         BackgroundImage: "linear-gradient(#51515D 0%, #727281 50%, #51515D 100%)",
         StartDate: "2026-06-27T21:00:00Z",
-        Duration: "255d",
+        Duration: "2026-07-10T23:27:49Z",
         HostName: "imcx11",
         HostImage: "img/hosts/imcx11.png",
         Region: "Sinnoh",
