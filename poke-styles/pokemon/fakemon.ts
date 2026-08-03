@@ -68,6 +68,13 @@ addStyles(kepMons, m => {
 });
 addSingleStyle(kepMons.map(m => ".event.pokemon.pokesprite." + dexClean(m.name) + " img").join(", ") + " { background-size: 50%!important; background-position: center!important; }");
 
+//Peridot
+const peridotMons = Pokedex.Regional["Peridot"].map((mon, i) => typeof mon == "string" ? { name: mon, number: i } : null).filter(m => !!m);
+addStyles(peridotMons, m => {
+    const clean = dexClean(m.name).replace(/ /g, '');
+    return ".pokesprite." + clean + ' img  { background-image:url("../img/fakemon/peridot/' + m.name + '.png")!important; background-size: 1em!important; background-position: center!important; }';
+});
+addSingleStyle(peridotMons.map(m => ".event.pokemon.pokesprite." + dexClean(m.name) + " img").join(", ") + " { background-size: 50%!important; background-position: center!important; }");
 
 //Spaceworld Gold Reforged
 const spaceworldBetaMons = Pokedex.Regional.Nihon.map((mon, i) => typeof mon == "string" ? { name: mon, number: `${i}-spaceworld` } : null).filter(m => !!m);
