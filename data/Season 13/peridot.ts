@@ -44,7 +44,7 @@ Season13.Runs.push(
 			},
 			{
 				Group: "Badges", Name: "Wyrm Badge", Image: "img/badges/peridot/wyrm.png",
-				Time: "", Attempts: 0
+				Time: "2026-08-12T05:50:23.601Z", Attempts: 3 
 			},
 
 		]
