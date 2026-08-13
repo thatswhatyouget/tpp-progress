@@ -64,9 +64,20 @@ Season13.Runs.push(
             },
             {
                 Group: "Champions", Name: "Joseph", Image: "img/trainers/peridot/joseph.png",
-                Time: "", Attempts: 2
+                Time: "2026-08-13T19:24:43.239Z", Attempts: 3
             },
-
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-08-13T19:25:00Z", IDNo: "62212", Attempts: 13, Party: [
+                    { Number: 173, Pokemon: "Mandrabel", Nickname: "M//???TTKL", Gender: "Female", Level: 66, IDNo: "62212" },
+                    { Number: , Pokemon: "Nyanell", Nickname: "KL", Gender: "Female", Level: 62, IDNo: "62212" },
+                    { Number: , Pokemon: "Ferrodon", Nickname: "NESSY", Gender: "Male", Level: 62, IDNo: "62212" },
+                    { Number: , Pokemon: "Skelegon", Nickname: "AJJ.ML", Level: 63, IDNo: "62212" },
+                    { Number: , Pokemon: "Searion", Nickname: "WOLFGANG", Gender: "Male", Level: 64, IDNo: "23129" },
+                    { Number: , Pokemon: "Octank", Nickname: "A TANK", Level: 67, IDNo: "62212" },
+                ],
+                FirstAttemptDate: "2026-08-12T19:09:48.129Z",
+                Image: "img/ribbons/champion.png"
+            },
 		]
 	}
 );
