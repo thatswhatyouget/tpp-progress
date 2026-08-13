@@ -46,6 +46,26 @@ Season13.Runs.push(
 				Group: "Badges", Name: "Wyrm Badge", Image: "img/badges/peridot/wyrm.png",
 				Time: "2026-08-12T05:50:23.601Z", Attempts: 3 
 			},
+			{
+                Group: "Elite Four", Name: "Wilbur", Image: "img/trainers/peridot/wilbur.png",
+                Time: "2026-08-12T19:32:46.466Z", Attempts: 1
+            },
+			{
+                Group: "Elite Four", Name: "Regan", Image: "img/trainers/peridot/regan.png",
+                Time: "2026-08-12T20:05:35.289Z", Attempts: 2
+            },
+			{
+                Group: "Elite Four", Name: "Brede", Image: "img/trainers/peridot/brede.png",
+                Time: "2026-08-13T03:36:41.800Z", Attempts: 5
+            },
+			{
+                Group: "Elite Four", Name: "Amber", Image: "img/trainers/peridot/amber.png",
+                Time: "2026-08-13T17:00:04.420Z", Attempts: 3
+            },
+            {
+                Group: "Champions", Name: "Joseph", Image: "img/trainers/peridot/joseph.png",
+                Time: "", Attempts: 2
+            },
 
 		]
 	}
