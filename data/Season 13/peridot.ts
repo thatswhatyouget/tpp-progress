@@ -78,6 +78,42 @@ Season13.Runs.push(
                 FirstAttemptDate: "2026-08-12T19:09:48.129Z",
                 Image: "img/ribbons/champion.png"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-08-18T07:18:58Z", IDNo: "62212", Attempts: 0, Party: [
+                    { Number: 176, Pokemon: "Snowmad", Nickname: "QQKKAAAA", Gender: "Male", Level: 100, IDNo: "62212" },
+                    { Number: 10, Pokemon: "Caterpie", Nickname: "B/", Gender: "Male", Level: 5, IDNo: "62212" },
+                    { Number: 11, Pokemon: "Metapod", Nickname: "ENNJQ", Gender: "Female", Level: 19, IDNo: "62212" },
+                    { Number: 13, Pokemon: "Weedle", Nickname: "BU", Gender: "Male", Level: 5, IDNo: "62212" },
+                    { Number: 14, Pokemon: "Kakuna", Nickname: "SRJJ", Gender: "Male", Level: 15, IDNo: "62212" },
+                    { Number: 100, Pokemon: "Voltorb", Nickname: "SQUARR", Level: 30, IDNo: "62212" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-08-22T02:58:38Z", IDNo: "62212", Attempts: 0, Party: [
+                    { Number: 253, Pokemon: "Ferrodon", Nickname: "NESSY", Gender: "Male", Level: 100, IDNo: "62212" },
+                    { Number: 252, Pokemon: "Octank", Nickname: "A TANK", Gender: "Female", Level: 100, IDNo: "62212" },
+                    { Number: 20, Pokemon: "Nyanell", Nickname: "KL", Gender: "Female", Level: 100, IDNo: "62212" },
+                    { Number: 107, Pokemon: "Searion", Nickname: "WOLFGANG", Gender: "Male", Level: 100, IDNo: "23129" },
+                    { Number: 18, Pokemon: "Skelegon", Nickname: "AJJ.ML", Level: 100, IDNo: "62212" },
+                    { Number: 173, Pokemon: "Mandrabel", Nickname: "M//???TTKL", Gender: "Female", Level: 100, IDNo: "62212" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-08-23T19:21:10Z", IDNo: "62212", Attempts: 0, Party: [
+                    { Number: 253, Pokemon: "Ferrodon", Nickname: "NESSY", Gender: "Male", Level: 100, IDNo: "62212" },
+                    { Number: 107, Pokemon: "Searion", Nickname: "WOLFGANG", Gender: "Male", Level: 100, IDNo: "23129" },
+                    { Number: 173, Pokemon: "Mandrabel", Nickname: "M//???TTKL", Gender: "Female", Level: 100, IDNo: "62212" },
+                    { Number: 252, Pokemon: "Octank", Nickname: "A TANK", Gender: "Female", Level: 100, IDNo: "62212" },
+                    { Number: 18, Pokemon: "Skelegon", Nickname: "AJJ.ML", Level: 100, IDNo: "62212" },
+                    { Number: 20, Pokemon: "Nyanell", Nickname: "KL", Gender: "Female", Level: 100, IDNo: "62212" },
+                ],
+                FirstAttemptDate: "",
+                Image: "img/ribbons/champion.png"
+            },
 		]
 	}
 );
