@@ -18,7 +18,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2026-08-27T14:16:07Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
@@ -84,7 +84,11 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Weedle", "Time": "2026-08-27T11:48:13Z" },
             { "Group": "Pokemon", "Name": "Caterpie", "Time": "2026-08-27T11:50:53Z" },
             { "Group": "Pokemon", "Name": "Metapod", "Time": "2026-08-27T11:55:27Z" },
-
+            { "Group": "Pokemon", "Name": "Sandshrew", "Time": "2026-08-27T12:15:39Z" },
+            { "Group": "Pokemon", "Name": "Rattata", "Time": "2026-08-27T12:19:40Z" },
+            { "Group": "Pokemon", "Name": "Nidorina", "Time": "2026-08-27T12:25:59Z" },
+            { "Group": "Pokemon", "Name": "Nidoqueen", "Time": "2026-08-27T12:59:41Z" },
+            { "Group": "Pokemon", "Name": "Farfetch'd", "Time": "2026-08-27T14:37:42Z" },
         ]
     }
 );
