@@ -19,3 +19,4 @@
 !distributebadge Farfetch'd 10 2026-08-27T14:37:42Z
 !distributebadge Voltorb 10 2026-08-27T18:11:15Z
 !distributebadge Machop 10 2026-08-27T19:07:38Z
+!distributebadge Primeape 10 2026-08-27T20:43:01Z
