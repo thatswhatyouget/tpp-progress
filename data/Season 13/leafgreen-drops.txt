@@ -17,3 +17,5 @@
 !distributebadge Nidorina 10 2026-08-27T12:25:59Z
 !distributebadge Nidoqueen 10 2026-08-27T12:59:41Z
 !distributebadge Farfetch'd 10 2026-08-27T14:37:42Z
+!distributebadge Voltorb 10 2026-08-27T18:11:15Z
+!distributebadge Machop 10 2026-08-27T19:07:38Z
