@@ -91,6 +91,7 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Farfetch'd", "Time": "2026-08-27T14:37:42Z" },
             { "Group": "Pokemon", "Name": "Voltorb", "Time": "2026-08-27T18:11:15Z" },
             { "Group": "Pokemon", "Name": "Machop", "Time": "2026-08-27T19:07:38Z" },
+            { "Group": "Pokemon", "Name": "Primeape", "Time": "2026-08-27T20:43:01Z" },
         ]
     }
 );
