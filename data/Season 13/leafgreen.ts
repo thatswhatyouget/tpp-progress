@@ -14,7 +14,7 @@ Season13.Runs.push(
         Events: [
             {
                 Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2026-08-27T06:17:31Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
@@ -69,6 +69,17 @@ Season13.Runs.push(
                 ],
                 Image: "img/ribbons/champion.png"
             },
+
+            { "Group": "Pokemon", "Name": "Squirtle", "Time": "2026-08-27T01:05:06Z" },
+            { "Group": "Pokemon", "Name": "Mankey", "Time": "2026-08-27T02:33:32Z" },
+            { "Group": "Pokemon", "Name": "Spearow", "Time": "2026-08-27T02:36:43Z" },
+            { "Group": "Pokemon", "Name": "Pikachu", "Time": "2026-08-27T04:57:57Z" },
+            { "Group": "Pokemon", "Name": "Wartortle", "Time": "2026-08-27T06:31:51Z" },
+            { "Group": "Pokemon", "Name": "NidoranF", "Time": "2026-08-27T06:53:16Z" },
+            { "Group": "Pokemon", "Name": "Magikarp", "Time": "2026-08-27T07:05:28Z" },
+            { "Group": "Pokemon", "Name": "Geodude", "Time": "2026-08-27T07:36:05Z" },
+            { "Group": "Pokemon", "Name": "Zubat", "Time": "2026-08-27T07:43:54Z" },
+
         ]
     }
 );
