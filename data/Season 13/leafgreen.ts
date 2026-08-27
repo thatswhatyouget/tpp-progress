@@ -79,6 +79,11 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Magikarp", "Time": "2026-08-27T07:05:28Z" },
             { "Group": "Pokemon", "Name": "Geodude", "Time": "2026-08-27T07:36:05Z" },
             { "Group": "Pokemon", "Name": "Zubat", "Time": "2026-08-27T07:43:54Z" },
+            { "Group": "Pokemon", "Name": "Bellsprout", "Time": "2026-08-27T11:43:27Z" },
+            { "Group": "Pokemon", "Name": "Pidgey", "Time": "2026-08-27T11:46:28Z" },
+            { "Group": "Pokemon", "Name": "Weedle", "Time": "2026-08-27T11:48:13Z" },
+            { "Group": "Pokemon", "Name": "Caterpie", "Time": "2026-08-27T11:50:53Z" },
+            { "Group": "Pokemon", "Name": "Metapod", "Time": "2026-08-27T11:55:27Z" },
 
         ]
     }
