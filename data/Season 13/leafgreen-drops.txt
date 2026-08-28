@@ -39,3 +39,5 @@
 !distributebadge Gastly 10 2026-08-28T10:02:15Z
 !distributebadge Cubone 10 2026-08-28T10:19:37Z
 !distributebadge Seadra 10 2026-08-28T10:42:49Z
+!distributebadge Meowth 10 2026-08-28T13:13:55Z
+!distributebadge Vulpix 10 2026-08-28T13:18:37Z
