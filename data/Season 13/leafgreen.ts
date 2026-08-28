@@ -26,7 +26,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2026-08-28T02:25:40Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
@@ -92,6 +92,10 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Voltorb", "Time": "2026-08-27T18:11:15Z" },
             { "Group": "Pokemon", "Name": "Machop", "Time": "2026-08-27T19:07:38Z" },
             { "Group": "Pokemon", "Name": "Primeape", "Time": "2026-08-27T20:43:01Z" },
+            { "Group": "Pokemon", "Name": "Eevee", "Time": "2026-08-27T20:43:01Z" },
+            { "Group": "Pokemon", "Name": "Flareon", "Time": "2026-08-28T00:04:26Z" },
+            { "Group": "Pokemon", "Name": "Raichu", "Time": "2026-08-28T00:08:15Z" },
+            { "Group": "Pokemon", "Name": "Abra", "Time": "2026-08-28T00:38:41Z" },
         ]
     }
 );

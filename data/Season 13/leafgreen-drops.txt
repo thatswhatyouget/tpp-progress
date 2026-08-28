@@ -20,3 +20,8 @@
 !distributebadge Voltorb 10 2026-08-27T18:11:15Z
 !distributebadge Machop 10 2026-08-27T19:07:38Z
 !distributebadge Primeape 10 2026-08-27T20:43:01Z
+
+!distributebadge Eevee 10 2026-08-27T20:43:01Z
+!distributebadge Flareon 10 2026-08-28T00:04:26Z
+!distributebadge Raichu 10 2026-08-28T00:08:15Z
+!distributebadge Abra 10 2026-08-28T00:38:41Z
