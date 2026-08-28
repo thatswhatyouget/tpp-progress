@@ -111,6 +111,8 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Gastly", "Time": "2026-08-28T10:02:15Z" },
             { "Group": "Pokemon", "Name": "Cubone", "Time": "2026-08-28T10:19:37Z" },
             { "Group": "Pokemon", "Name": "Seadra", "Time": "2026-08-28T10:42:49Z" },
+            { "Group": "Pokemon", "Name": "Meowth", "Time": "2026-08-28T13:13:55Z" },
+            { "Group": "Pokemon", "Name": "Vulpix", "Time": "2026-08-28T13:18:37Z" },
         ]
     }
 );
