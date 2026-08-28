@@ -34,7 +34,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2026-08-28T19:17:28Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
