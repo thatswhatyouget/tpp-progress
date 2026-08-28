@@ -30,7 +30,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2026-08-28T08:28:14Z", Attempts: 2
             },
             {
                 Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
@@ -96,6 +96,21 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Flareon", "Time": "2026-08-28T00:04:26Z" },
             { "Group": "Pokemon", "Name": "Raichu", "Time": "2026-08-28T00:08:15Z" },
             { "Group": "Pokemon", "Name": "Abra", "Time": "2026-08-28T00:38:41Z" },
+            { "Group": "Pokemon", "Name": "Snorlax", "Time": "2026-08-28T05:39:28Z" },
+            { "Group": "Pokemon", "Name": "Venonat", "Time": "2026-08-28T05:51:33Z" },
+            { "Group": "Pokemon", "Name": "Paras", "Time": "2026-08-28T05:58:00Z" },
+            { "Group": "Pokemon", "Name": "Chansey", "Time": "2026-08-28T06:10:45Z" },
+            { "Group": "Pokemon", "Name": "Exeggcute", "Time": "2026-08-28T06:13:22Z" },
+            { "Group": "Pokemon", "Name": "Mr. Mime", "Time": "2026-08-28T06:43:28Z" },
+            { "Group": "Pokemon", "Name": "Krabby", "Time": "2026-08-28T07:13:33Z" },
+            { "Group": "Pokemon", "Name": "Horsea", "Time": "2026-08-28T07:18:08Z" },
+            { "Group": "Pokemon", "Name": "Seel", "Time": "2026-08-28T08:44:02Z" },
+            { "Group": "Pokemon", "Name": "Slowpoke", "Time": "2026-08-28T08:46:18Z" },
+            { "Group": "Pokemon", "Name": "Slowbro", "Time": "2026-08-28T08:51:19Z" },
+            { "Group": "Pokemon", "Name": "Lickitung", "Time": "2026-08-28T08:58:14Z" },
+            { "Group": "Pokemon", "Name": "Gastly", "Time": "2026-08-28T10:02:15Z" },
+            { "Group": "Pokemon", "Name": "Cubone", "Time": "2026-08-28T10:19:37Z" },
+            { "Group": "Pokemon", "Name": "Seadra", "Time": "2026-08-28T10:42:49Z" },
         ]
     }
 );
