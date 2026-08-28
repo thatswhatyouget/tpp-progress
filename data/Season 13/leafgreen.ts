@@ -45,23 +45,23 @@ Season13.Runs.push(
                 Time: "", Attempts: 0
             },
             {
-                Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/red/lorelei.png",
+                Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png",
                 Time: "", Attempts: 0
             },
             {
-                Group: "Elite Four", Name: "Bruno", Image: "img/trainers/red/bruno.png",
+                Group: "Elite Four", Name: "Bruno", Image: "img/trainers/firered/bruno.png",
                 Time: "", Attempts: 0
             },
             {
-                Group: "Elite Four", Name: "Agatha", Image: "img/trainers/red/agatha.png",
+                Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png",
                 Time: "", Attempts: 0
             },
             {
-                Group: "Elite Four", Name: "Lance", Image: "img/trainers/red/lance.png",
+                Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png",
                 Time: "", Attempts: 0
             },
             {
-                Group: "Champions", Name: "BLUE", Image: "img/trainers/red/blue.png",
+                Group: "Champions", Name: "BLUE", Image: "img/trainers/firered/blue.png",
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
