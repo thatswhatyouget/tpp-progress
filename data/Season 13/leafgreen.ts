@@ -38,7 +38,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2026-08-28T22:25:05Z", Attempts: 2
             },
             {
                 Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
@@ -113,6 +113,14 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Seadra", "Time": "2026-08-28T10:42:49Z" },
             { "Group": "Pokemon", "Name": "Meowth", "Time": "2026-08-28T13:13:55Z" },
             { "Group": "Pokemon", "Name": "Vulpix", "Time": "2026-08-28T13:18:37Z" },
+            { "Group": "Pokemon", "Name": "Drowzee", "Time": "2026-08-28T15:52:46Z" },
+            { "Group": "Pokemon", "Name": "Diglett", "Time": "2026-08-28T16:17:08Z" },
+            { "Group": "Pokemon", "Name": "Lapras", "Time": "2026-08-28T18:31:54Z" },
+            { "Group": "Pokemon", "Name": "Hitmonlee", "Time": "2026-08-28T19:47:10Z" },
+            { "Group": "Pokemon", "Name": "Kabuto", "Time": "2026-08-28T20:08:07Z" },
+            { "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2026-08-28T20:10:13Z" },
+            { "Group": "Pokemon", "Name": "Raticate", "Time": "2026-08-28T20:38:29Z" },
+            { "Group": "Pokemon", "Name": "Muk", "Time": "2026-08-28T20:50:09Z" },
         ]
     }
 );
