@@ -42,19 +42,19 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2026-08-29T11:34:29Z", Attempts: 1
             },
             {
                 Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png",
-                Time: "", Attempts: 0
+                Time: "2026-08-29T16:06:26Z", Attempts: 8
             },
             {
                 Group: "Elite Four", Name: "Bruno", Image: "img/trainers/firered/bruno.png",
-                Time: "", Attempts: 0
+                Time: "2026-08-29T16:32:57Z", Attempts: 2
             },
             {
                 Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png",
-                Time: "", Attempts: 0
+                Time: "", Attempts: 1
             },
             {
                 Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png",
@@ -65,9 +65,10 @@ Season13.Runs.push(
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 16, Party: [
                 ],
-                Image: "img/ribbons/champion.png"
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "2026-08-29T13:04:00Z"
             },
 
             { "Group": "Pokemon", "Name": "Squirtle", "Time": "2026-08-27T01:05:06Z" },
@@ -121,6 +122,31 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Aerodactyl", "Time": "2026-08-28T20:10:13Z" },
             { "Group": "Pokemon", "Name": "Raticate", "Time": "2026-08-28T20:38:29Z" },
             { "Group": "Pokemon", "Name": "Muk", "Time": "2026-08-28T20:50:09Z" },
+            { "Group": "Pokemon", "Name": "Ponyta", "Time": "2026-08-28T23:27:55Z" },
+            { "Group": "Pokemon", "Name": "Magmar", "Time": "2026-08-28T23:36:08Z" },
+            { "Group": "Pokemon", "Name": "Fearow", "Time": "2026-08-28T23:59:31Z" },
+            { "Group": "Pokemon", "Name": "Tentacool", "Time": "2026-08-29T01:00:13Z" },
+            { "Group": "Pokemon", "Name": "Weepinbell", "Time": "2026-08-29T02:57:05Z" },
+            { "Group": "Pokemon", "Name": "Venomoth", "Time": "2026-08-29T02:59:23Z" },
+            { "Group": "Pokemon", "Name": "Pidgeotto", "Time": "2026-08-29T03:00:37Z" },
+            { "Group": "Pokemon", "Name": "Hypno", "Time": "2026-08-29T03:05:13Z" },
+            { "Group": "Pokemon", "Name": "Doduo", "Time": "2026-08-29T03:39:53Z" },
+            { "Group": "Pokemon", "Name": "Rhyhorn", "Time": "2026-08-29T03:52:32Z" },
+            { "Group": "Pokemon", "Name": "NidoranM", "Time": "2026-08-29T04:04:21Z" },
+            { "Group": "Pokemon", "Name": "Poliwhirl", "Time": "2026-08-29T07:09:44Z" },
+            { "Group": "Pokemon", "Name": "Exeggutor", "Time": "2026-08-29T06:40:28Z" },
+            { "Group": "Pokemon", "Name": "Blastoise", "Time": "2026-08-29T06:45:29Z" },
+            { "Group": "Pokemon", "Name": "Jynx", "Time": "2026-08-29T09:00:52Z" },
+            { "Group": "Pokemon", "Name": "Poliwrath", "Time": "2026-08-29T09:10:57Z" },
+            { "Group": "Pokemon", "Name": "Victreebel", "Time": "2026-08-29T09:11:51Z" },
+            { "Group": "Pokemon", "Name": "Ninetales", "Time": "2026-08-29T09:23:04Z" },
+            { "Group": "Pokemon", "Name": "Porygon", "Time": "2026-08-29T09:44:29Z" },
+            { "Group": "Pokemon", "Name": "Staryu", "Time": "2026-08-29T09:54:43Z" },
+            { "Group": "Pokemon", "Name": "Starmie", "Time": "2026-08-29T09:59:39Z" },
+            { "Group": "Pokemon", "Name": "Tangela", "Time": "2026-08-29T10:56:54Z" },
+            { "Group": "Pokemon", "Name": "Marowak", "Time": "2026-08-29T12:19:14Z" },
+            { "Group": "Pokemon", "Name": "Golbat", "Time": "2026-08-29T13:32:34Z" },
+            { "Group": "Pokemon", "Name": "Sandslash", "Time": "2026-08-29T17:13:10Z" },
         ]
     }
 );
