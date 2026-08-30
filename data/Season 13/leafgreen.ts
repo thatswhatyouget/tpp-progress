@@ -54,18 +54,18 @@ Season13.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png",
-                Time: "", Attempts: 2
+                Time: "2026-08-30T16:12:30Z", Attempts: 5
             },
             {
                 Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png",
-                Time: "", Attempts: 0
+                Time: "", Attempts: 1
             },
             {
                 Group: "Champions", Name: "BLUE", Image: "img/trainers/firered/blue.png",
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 26, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 38, Party: [
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2026-08-29T13:04:00Z"
@@ -150,6 +150,12 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Zapdos", "Time": "2026-08-29T22:02:01Z" },
             { "Group": "Pokemon", "Name": "Magnemite", "Time": "2026-08-29T21:54:52Z" },
             { "Group": "Pokemon", "Name": "Electrode", "Time": "2026-08-29T22:13:40Z" },
+            { "Group": "Pokemon", "Name": "Magneton", "Time": "2026-08-30T10:16:44Z" },
+            { "Group": "Pokemon", "Name": "Jigglypuff", "Time": "2026-08-30T10:57:00Z" },
+            { "Group": "Pokemon", "Name": "Clefairy", "Time": "2026-08-30T11:05:07Z" },
+            { "Group": "Pokemon", "Name": "Clefable", "Time": "2026-08-30T11:18:03Z" },
+            { "Group": "Pokemon", "Name": "Wigglytuff", "Time": "2026-08-30T11:18:45Z" },
+            { "Group": "Pokemon", "Name": "Rapidash", "Time": "2026-08-30T11:34:45Z" },
         ]
     }
 );
