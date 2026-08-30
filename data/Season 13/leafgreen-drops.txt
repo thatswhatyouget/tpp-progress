@@ -74,3 +74,6 @@
 !distributebadge Marowak 10 2026-08-29T12:19:14Z
 !distributebadge Golbat 10 2026-08-29T13:32:34Z
 !distributebadge Sandslash 10 2026-08-29T17:13:10Z
+!distributebadge Zapdos 10 2026-08-29T22:02:01Z
+!distributebadge Magnemite 10 2026-08-29T21:54:52Z
+!distributebadge Electrode 10 2026-08-29T22:13:40Z

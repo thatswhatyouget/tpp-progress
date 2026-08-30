@@ -54,7 +54,7 @@ Season13.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png",
-                Time: "", Attempts: 1
+                Time: "", Attempts: 2
             },
             {
                 Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png",
@@ -65,7 +65,7 @@ Season13.Runs.push(
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 16, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 26, Party: [
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2026-08-29T13:04:00Z"
@@ -147,6 +147,9 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Marowak", "Time": "2026-08-29T12:19:14Z" },
             { "Group": "Pokemon", "Name": "Golbat", "Time": "2026-08-29T13:32:34Z" },
             { "Group": "Pokemon", "Name": "Sandslash", "Time": "2026-08-29T17:13:10Z" },
+            { "Group": "Pokemon", "Name": "Zapdos", "Time": "2026-08-29T22:02:01Z" },
+            { "Group": "Pokemon", "Name": "Magnemite", "Time": "2026-08-29T21:54:52Z" },
+            { "Group": "Pokemon", "Name": "Electrode", "Time": "2026-08-29T22:13:40Z" },
         ]
     }
 );
