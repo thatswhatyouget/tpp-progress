@@ -61,7 +61,7 @@ Season13.Runs.push(
                 Time: "2026-08-31T03:08:57Z", Attempts: 6
             },
             {
-                Group: "Champions", Name: "BLUE", Image: "img/trainers/firered/blue.png",
+                Group: "Champions", Name: "AMT", Image: "img/trainers/firered/blue.png",
                 Time: "2026-08-31T09:47:37Z", Attempts: 4
             },
             <TPP.HallOfFame>{
