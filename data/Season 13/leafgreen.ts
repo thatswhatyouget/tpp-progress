@@ -58,14 +58,14 @@ Season13.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png",
-                Time: "", Attempts: 1
+                Time: "2026-08-31T03:08:57Z", Attempts: 0 // ???
             },
             {
                 Group: "Champions", Name: "BLUE", Image: "img/trainers/firered/blue.png",
                 Time: "", Attempts: 0
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 38, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0/*38 at least*/, Party: [
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2026-08-29T13:04:00Z"
