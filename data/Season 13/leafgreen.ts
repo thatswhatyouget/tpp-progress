@@ -172,6 +172,12 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Sneasel", "Time": "2026-08-31T12:22:52Z" },
             { "Group": "Pokemon", "Name": "Dewgong", "Time": "2026-08-31T13:01:44Z" },
             { "Group": "Pokemon", "Name": "Azumarill", "Time": "2026-08-31T13:13:21Z" },
+            { "Group": "Pokemon", "Name": "Sentret", "Time": "2026-08-31T14:02:57Z" },
+            { "Group": "Pokemon", "Name": "Persian", "Time": "2026-08-31T14:14:42Z" },
+            { "Group": "Pokemon", "Name": "Hoppip", "Time": "2026-08-31T14:42:48Z" },
+            { "Group": "Pokemon", "Name": "Haunter", "Time": "2026-08-31T16:29:36Z" },
+            { "Group": "Pokemon", "Name": "Misdreavus", "Time": "2026-08-31T16:36:59Z" },
+            { "Group": "Pokemon", "Name": "Parasect", "Time": "2026-08-31T18:08:23Z" },
         ]
     }
 );
