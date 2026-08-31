@@ -58,14 +58,20 @@ Season13.Runs.push(
             },
             {
                 Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png",
-                Time: "2026-08-31T03:08:57Z", Attempts: 0 // ???
+                Time: "2026-08-31T03:08:57Z", Attempts: 6
             },
             {
                 Group: "Champions", Name: "BLUE", Image: "img/trainers/firered/blue.png",
-                Time: "", Attempts: 0
+                Time: "2026-08-31T09:47:37Z", Attempts: 4
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0/*38 at least*/, Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-08-31T09:49:15Z", Attempts: 44, IDNo:"32327", Party: [
+                    { Pokemon: "Electrode", Nickname: "ESPHERE", Level: 67, Number: 101, IDNo: "50298" },
+                    { Pokemon: "Lickitung", Nickname: "MARC", Level: 62, Gender: "Male", Number: 108, IDNo: "01239" },
+                    { Pokemon: "Nidoqueen", Nickname: "EL", Level: 61, Gender: "Female", Number: 31, IDNo: "32327" },
+                    { Pokemon: "Seadra", Nickname: "A,jj5HNI  ", Level: 67, Gender: "Female", Number: 117, IDNo: "32327" },
+                    { Pokemon: "Exeggutor", Nickname: "MMTMM", Level: 61, Gender: "Female", Number: 103, IDNo: "32327" },
+                    { Pokemon: "Primeape", Nickname: "AAAAHm", Level: 60, Gender: "Female", Number: 57, IDNo: "32327" },
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2026-08-29T13:04:00Z"
