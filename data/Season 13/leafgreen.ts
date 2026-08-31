@@ -162,6 +162,16 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Clefable", "Time": "2026-08-30T11:18:03Z" },
             { "Group": "Pokemon", "Name": "Wigglytuff", "Time": "2026-08-30T11:18:45Z" },
             { "Group": "Pokemon", "Name": "Rapidash", "Time": "2026-08-30T11:34:45Z" },
+            { "Group": "Pokemon", "Name": "Onix", "Time": "2026-08-31T06:10:19Z" },
+            { "Group": "Pokemon", "Name": "Tentacruel", "Time": "2026-08-31T10:55:49Z" },
+            { "Group": "Pokemon", "Name": "Machoke", "Time": "2026-08-31T11:03:59Z" },
+            { "Group": "Pokemon", "Name": "Slugma", "Time": "2026-08-31T11:08:16Z" },
+            { "Group": "Pokemon", "Name": "Deoxys", "Time": "2026-08-31T11:30:03Z" },
+            { "Group": "Pokemon", "Name": "Marill", "Time": "2026-08-31T11:53:35Z" },
+            { "Group": "Pokemon", "Name": "Swinub", "Time": "2026-08-31T12:07:56Z" },
+            { "Group": "Pokemon", "Name": "Sneasel", "Time": "2026-08-31T12:22:52Z" },
+            { "Group": "Pokemon", "Name": "Dewgong", "Time": "2026-08-31T13:01:44Z" },
+            { "Group": "Pokemon", "Name": "Azumarill", "Time": "2026-08-31T13:13:21Z" },
         ]
     }
 );
