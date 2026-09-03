@@ -65,7 +65,7 @@ Season13.Runs.push(
                 Time: "2026-08-31T09:47:37Z", Attempts: 4
             },
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-08-31T09:49:15Z", Attempts: 44, IDNo:"32327", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-08-31T09:49:15Z", Attempts: 44, IDNo: "32327", Party: [
                     { Pokemon: "Electrode", Nickname: "ESPHERE", Level: 67, Number: 101, IDNo: "50298" },
                     { Pokemon: "Lickitung", Nickname: "MARC", Level: 62, Gender: "Male", Number: 108, IDNo: "01239" },
                     { Pokemon: "Nidoqueen", Nickname: "EL", Level: 61, Gender: "Female", Number: 31, IDNo: "32327" },
@@ -178,6 +178,22 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Haunter", "Time": "2026-08-31T16:29:36Z" },
             { "Group": "Pokemon", "Name": "Misdreavus", "Time": "2026-08-31T16:36:59Z" },
             { "Group": "Pokemon", "Name": "Parasect", "Time": "2026-08-31T18:08:23Z" },
+            { "Group": "Pokemon", "Name": "Nidorino", "Time": "2026-08-31T18:30:10Z" },
+            { "Group": "Pokemon", "Name": "Pinsir", "Time": "2026-08-31T18:57:17Z" },
+            { "Group": "Pokemon", "Name": "Phanpy", "Time": "2026-08-31T20:14:31Z" },
+            { "Group": "Pokemon", "Name": "Larvitar", "Time": "2026-08-31T21:13:37Z" },
+            { "Group": "Pokemon", "Name": "Pupitar", "Time": "2026-08-31T22:38:01Z" },
+            { "Group": "Pokemon", "Name": "Tyranitar", "Time": "2026-09-01T04:38:46Z" },
+            { "Group": "Pokemon", "Name": "Yanma", "Time": "2026-09-01T05:42:00Z" },
+            { "Group": "Pokemon", "Name": "Wobbuffet", "Time": "2026-09-01T05:45:36Z" },
+            { "Group": "Pokemon", "Name": "Natu", "Time": "2026-09-01T05:49:27Z" },
+            { "Group": "Pokemon", "Name": "Kadabra", "Time": "2026-09-01T07:51:06Z" },
+            { "Group": "Pokemon", "Name": "Ditto", "Time": "2026-09-01T08:23:31Z" },
+            { "Group": "Pokemon", "Name": "Nidoking", "Time": "2026-09-01T10:05:11Z" },
+            { "Group": "Pokemon", "Name": "Togepi", "Time": "2026-09-01T10:38:53Z" },
+            { "Group": "Pokemon", "Name": "Ledyba", "Time": "2026-09-01T11:10:06Z" },
+            { "Group": "Pokemon", "Name": "Kakuna", "Time": "2026-09-01T11:22:12Z" },
+            { "Group": "Pokemon", "Name": "Heracross", "Time": "2026-09-01T11:26:16Z" },
         ]
     }
 );
