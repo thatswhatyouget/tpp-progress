@@ -1,11 +1,11 @@
 /// <reference path="../../tpp-data.ts" />
 Intermissions.Runs.push(
     {
-        RunName: "FRLG.IPS",
-        ColorPrimary: "#FF2A38",
+        RunName: "Pokemon Pine",
+        ColorPrimary: "#FFCA38",
         ColorSecondary: "#449900",
-        StartDate: "2026-09-25T02:00:00Z",
-        Duration: "2026-09-25T23:57:00Z",
+        StartDate: "2026-09-26T00:00:00Z",
+        Duration: "255d",
         HostName: "",
         //HostImage: "img/hosts/a2.png",
         Region: "Kanto",
