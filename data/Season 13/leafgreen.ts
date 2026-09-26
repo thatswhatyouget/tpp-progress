@@ -5,7 +5,7 @@ Season13.Runs.push(
         ColorPrimary: "#CAFF38",
         ColorSecondary: "#449900",
         StartDate: "2026-08-27T01:00:00Z",
-        Duration: "255d",
+        Duration: "2026-09-03T00:18:21Z",
         HostName: "A",
         HostImage: "img/hosts/a2.png",
         Region: "Kanto",
