@@ -209,9 +209,10 @@ declare namespace TPP.Tv {
         winning_input: string;
     }
 }
+declare const dexClean: (d: any) => string;
 declare var dexData: (typeof Pokedex);
 declare module TPP.Display {
-    var cleanString: (str: string) => string;
+    var cleanString: (d: any) => string;
     function pokeRedCondenseText(text: string): string;
 }
 interface Setting {
@@ -284,7 +285,7 @@ declare namespace TPP.Controllers {
         seeAlso: JSX.Element | JQuery | string;
         credits: string[];
         constructor(data: Collection[]);
-        cleanString: (str: string) => string;
+        cleanString: (d: any) => string;
         abstract render(): JSX.Element | JQuery | string;
         private placeOnPage;
         private get wrappedCredits();

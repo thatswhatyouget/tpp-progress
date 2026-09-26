@@ -153,3 +153,8 @@ addStyles(["???’M ??"], f => {
     return `.annihoenn .pokesprite.-q-q-qm-q-q-1107 img { background-image:url(".${path}")!important; background-position: 0px -0em!important; background-size: 1em!important; background-position: center!important; }`;
 });
 addSingleStyle('.annihoenn .pokesprite.phancero:hover img  { background-image:url("../img/fakemon/phancero-hover.png")!important; }');
+
+//Ghost Grey
+addSpriteSheet("ghostgrey", "ghostgrey", SpriteSheetType.Small, SpriteSheetMode.Basic, undefined, undefined, undefined, true); //must be important because of Gorochu
+addSpriteSheet("ghostgrey", "ghostgrey", SpriteSheetType.Large, SpriteSheetMode.Basic, undefined, undefined, undefined, true); //must be important because of Gorochu
+addStyles(fixFakeForms(Pokedex.Regional["Ghost Kanto"].map(p => (typeof p === "number" ? Pokedex.PokeList[p] : p))), defaultMapping("ghostgrey"));

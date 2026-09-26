@@ -1,0 +1,1 @@
+const dexClean = (d: any): string => (d || "").toString().replace(/♀/g, 'F').replace(/♂/g, 'M').replace(/π/g, 'Pk').replace(/µ/g, 'Mn').replace(/\?/g, '-q').replace(/[^A-Z0-9-]/ig, '').toLowerCase();

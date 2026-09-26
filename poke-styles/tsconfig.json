@@ -8,5 +8,5 @@
 	},
 	"include": [
 		"**/*.ts"
-	]
+, "../src/dexclean.ts"	]
 }

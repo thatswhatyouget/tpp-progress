@@ -240,5 +240,5 @@ declare module Pokedex {
         [key: string]: string[];
     };
 }
+declare const dexClean: (d: any) => string;
 declare var exports: any;
-declare const dexClean: (str: string) => string;

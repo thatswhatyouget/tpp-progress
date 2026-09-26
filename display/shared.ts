@@ -3,13 +3,14 @@
 /// <reference path="../ref/tpp-transforms.d.ts" />
 /// <reference path="../models/twitchplayspokemon.tv.ts" />
 /// <reference path="../ref/pokedex-data.d.ts" />
+/// <reference path="../src/dexclean.ts" />
 
 var dexData:(typeof Pokedex) = typeof(Pokedex) !== "undefined" ? Pokedex : <any>{};
 
 
 module TPP.Display {
 
-    export var cleanString = (str: string) => (str || '').toString().replace(/♀/g,'F').replace(/♂/g,'M').replace(/\?/g,'-q').replace(/[^A-Z0-9-]/ig, '').toLowerCase();
+    export var cleanString = dexClean;
 
     export function pokeRedCondenseText(text: string) {
         text = text.replace(/'l/ig, "|");

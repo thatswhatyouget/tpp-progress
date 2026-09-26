@@ -1,4 +1,4 @@
-var dexClean = (d: any): string => (d || "").toString().replace(/♀/g, 'F').replace(/♂/g, 'M').replace(/\?/g, '-q').replace(/[^A-Z0-9-]/ig, '').toLowerCase();
+/// <reference path="../src/dexclean.ts" />
 
 var exports = exports || {};
 exports.pokeStyles = [];
@@ -41,7 +41,7 @@ enum SpriteSheetType {
     LargeNoSuffix
 }
 
-function addSpriteSheet(name: string, spriteSheet: string, sheetType = SpriteSheetType.SmallNoSuffix, sheetMode = SpriteSheetMode.Basic, rowSize = 10, fileExt = "png", extraStyles = "") {
+function addSpriteSheet(name: string, spriteSheet: string, sheetType = SpriteSheetType.SmallNoSuffix, sheetMode = SpriteSheetMode.Basic, rowSize = 10, fileExt = "png", extraStyles = "", important = false) {
     if (name)
         name = "." + dexClean(name);
     if (extraStyles)
@@ -54,7 +54,7 @@ function addSpriteSheet(name: string, spriteSheet: string, sheetType = SpriteShe
         `.progressChart .run${name} .event.pokesprite img` // Progress Bars Milestones
     ];
     const smallSpriteClasses = [
-        `${name} .pokesprite img`, // Generic, Landing page 
+        `${name} .pokesprite img`, // Generic, Landing page
         `.progressChart .run${name} .event.pokesprite.pokemon img`, // Progress Bars Caught Pokemon
         `.ms${name} .dexEntry .pokesprite:not(.missingno) img`, // Pokedex MiniSprite Mode
     ];
@@ -62,7 +62,7 @@ function addSpriteSheet(name: string, spriteSheet: string, sheetType = SpriteShe
     const findPokeSprite = /(\.pokesprite[^\s]*)/ig;
 
     function addSizedClasses(classes: string[], spriteSheet: string) {
-        const styleBody = (spriteFile: string) => ` { background-image: url("../img/${spriteFile}.${fileExt}"); background-size: ${rowSize}em; ${extraStyles}}`
+        const styleBody = (spriteFile: string) => ` { background-image: url("../img/${spriteFile}.${fileExt}")${important ? "!important" : ""}; background-size: ${rowSize}em${important ? "!important" : ""}; ${extraStyles}}`
         classes.forEach(c => {
             if (!c.includes(name))
                 c = name + " " + c;

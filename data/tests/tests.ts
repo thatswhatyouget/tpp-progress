@@ -1,10 +1,8 @@
 /// <reference path="../tpp-data.ts" />
 /// <reference path="../Pokedex/regional.ts" />
+/// <reference path="../../src/dexclean.ts" />
 
 var exports = exports || {};
-
-const dexClean = (str: string) => (str || '').toString().replace(/♀/g, 'F').replace(/♂/g, 'M').replace(/\?/g, '-q').replace(/[^A-Z0-9-]/ig, '').toLowerCase();
-
 
 exports.tests = function () {
     const runTotal = tppData.reduce((sum, s) => sum + s.Runs.length, 0);
