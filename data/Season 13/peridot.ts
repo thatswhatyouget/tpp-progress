@@ -5,7 +5,7 @@ Season13.Runs.push(
 		ColorPrimary: "#83ac00",
 		ColorSecondary: "#4f6800",
 		StartDate: "2026-08-08T21:00:00Z",
-		Duration: "255d",
+		Duration: "2026-08-23T19:30:14Z",
 		HostName: "B",
 		HostImage: "img/hosts/b2.png",
 		//HostImageSource: "",
@@ -44,7 +44,7 @@ Season13.Runs.push(
 			},
 			{
 				Group: "Badges", Name: "Wyrm Badge", Image: "img/badges/peridot/wyrm.png",
-				Time: "2026-08-12T05:50:23.601Z", Attempts: 3 
+				Time: "2026-08-12T05:50:23.601Z", Attempts: 3
 			},
 			{
                 Group: "Elite Four", Name: "Wilbur", Image: "img/trainers/peridot/wilbur.png",
