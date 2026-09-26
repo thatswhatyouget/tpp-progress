@@ -5,9 +5,9 @@ Intermissions.Runs.push(
         ColorPrimary: "#FF2A38",
         ColorSecondary: "#449900",
         StartDate: "2026-09-25T02:00:00Z",
-        Duration: "2026-09-25T23:57:00Z",
-        HostName: "",
-        //HostImage: "img/hosts/a2.png",
+        Duration: "2026-09-26T20:30:00Z",
+        HostName: "AABBIII",
+        HostImage: "img/hosts/a2.png",
         Region: "Kanto",
         Generation: 3,
         Pokedex: "National",
@@ -42,26 +42,6 @@ Intermissions.Runs.push(
             },
             {
                 Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Bruno", Image: "img/trainers/firered/bruno.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Champions", Name: "AMT", Image: "img/trainers/firered/blue.png",
                 Time: "", Attempts: 0
             },
         ]
