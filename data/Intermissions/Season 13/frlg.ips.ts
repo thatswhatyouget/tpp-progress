@@ -5,7 +5,7 @@ Intermissions.Runs.push(
         ColorPrimary: "#FF2A38",
         ColorSecondary: "#449900",
         StartDate: "2026-09-25T02:00:00Z",
-        Duration: "2026-09-26T20:30:00Z",
+        Duration: "2026-09-26T20:45:00Z",
         HostName: "AABBIII",
         HostImage: "img/hosts/a2.png",
         Region: "Kanto",

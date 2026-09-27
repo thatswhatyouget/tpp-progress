@@ -6,10 +6,10 @@ Season13.Runs.push(
         ColorSecondary: "#999",
         StartDate: "2026-09-26T21:00:00Z",
         Duration: "255d",
-        HostName: "",
-        //HostImage: "img/hosts/a2.png",
+        HostName: "AAAAA",
+        HostImage: "img/hosts/aaaaa.png",
         Region: "Ghost Kanto",
-        Generation: 3,
+        // Generation: 3,
         Pokedex: "Ghost Kanto",
         Events: [
             {
@@ -47,6 +47,17 @@ Season13.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: ""
             },
+
+            { "Group": "Pokemon", "Name": "Litwick", "Time": "2026-09-26T21:19:55.281Z" },
+            { "Group": "Pokemon", "Name": "Greavard", "Time": "2026-09-26T21:25:26.131Z" },
+            { "Group": "Pokemon", "Name": "Scarly", "Time": "2026-09-26T21:27:42.835Z" },
+            { "Group": "Pokemon", "Name": "Shuppet", "Time": "2026-09-26T21:31:12.996Z" },
+            { "Group": "Pokemon", "Name": "Duskull", "Time": "2026-09-26T21:45:01.742Z" },
+            { "Group": "Pokemon", "Name": "Sparrowe", "Time": "2026-09-26T22:27:31.002Z" },
+            { "Group": "Pokemon", "Name": "Scaras", "Time": "2026-09-26T22:58:00.684Z" },
+            { "Group": "Pokemon", "Name": "Spewkpa", "Time": "2026-09-26T23:00:44.665Z" },
+            { "Group": "Pokemon", "Name": "Shuderbug", "Time": "2026-09-26T23:03:58.892Z" },
+            { "Group": "Pokemon", "Name": "Shroomick", "Time": "2026-09-26T23:24:43.739Z" }
 
         ]
     }
