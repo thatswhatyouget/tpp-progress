@@ -34,18 +34,22 @@ Season13.Runs.push(
             },
             {
                 Group: "Badges", Name: "Flood Badge", Image: "img/badges/ghostgrey/flood.png",
-                Time: "", Attempts: 0
+                Time: "2026-09-29T23:44:05.053Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Volcano Badge", Image: "img/badges/ghostgrey/volcano.png",
-                Time: "", Attempts: 0
+                Time: "2026-09-30T04:00:41.348Z", Attempts: 2
+            },
+            {
+                Group: "Badges", Name: "Hope Badge", Image: "img/badges/ghostgrey/hope.png",
+                Time: "2026-09-30T05:52:18.645Z", Attempts: 2
             },
 
             <TPP.HallOfFame>{
-                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 0, IDNo: "", Party: [
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "", Attempts: 1, IDNo: "", Party: [
                 ],
                 Image: "img/ribbons/champion.png",
-                FirstAttemptDate: ""
+                FirstAttemptDate: "2026-09-30T15:54:42.203Z"
             },
 
             { "Group": "Pokemon", "Name": "Litwick", "Time": "2026-09-26T21:19:55.281Z" },
@@ -154,7 +158,72 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Puncher", "Time": "2026-09-28T23:42:00.863Z" },
             { "Group": "Pokemon", "Name": "Keyzer", "Time": "2026-09-29T00:19:58.347Z" },
             { "Group": "Pokemon", "Name": "King Boo", "Time": "2026-09-29T01:13:15.149Z" }
-
+{"Group":"Pokemon","Name":"Sableye","Time":"2026-09-29T02:40:05.428Z"},
+{"Group":"Pokemon","Name":"Mr. Maim","Time":"2026-09-29T02:47:35.689Z"},
+{"Group":"Pokemon","Name":"Botamon","Time":"2026-09-29T03:04:29.802Z"},
+{"Group":"Pokemon","Name":"SkarabEX","Time":"2026-09-29T03:06:00.659Z"},
+{"Group":"Pokemon","Name":"Bakemon","Time":"2026-09-29T03:12:53.263Z"},
+{"Group":"Pokemon","Name":"Kuramon","Time":"2026-09-29T03:14:00.311Z"},
+{"Group":"Pokemon","Name":"PORYGON.co","Time":"2026-09-29T03:18:32.312Z"},
+{"Group":"Pokemon","Name":"B. Agumon","Time":"2026-09-29T03:57:21.510Z"},
+{"Group":"Pokemon","Name":"B. Greymon","Time":"2026-09-29T04:01:09.740Z"},
+{"Group":"Pokemon","Name":"Keramon","Time":"2026-09-29T04:20:50.707Z"},
+{"Group":"Pokemon","Name":"Infermon","Time":"2026-09-29T04:22:49.563Z"},
+{"Group":"Pokemon","Name":"SklGreymon","Time":"2026-09-29T04:35:25.129Z"},
+{"Group":"Pokemon","Name":"Diaboromon","Time":"2026-09-29T04:36:50.764Z"},
+{"Group":"Pokemon","Name":"Reapor","Time":"2026-09-29T04:45:29.223Z"},
+{"Group":"Pokemon","Name":"Dreepy","Time":"2026-09-29T05:36:39.601Z"},
+{"Group":"Pokemon","Name":"Swablu","Time":"2026-09-29T05:45:11.383Z"},
+{"Group":"Pokemon","Name":"Trevenant","Time":"2026-09-29T05:50:41.692Z"},
+{"Group":"Pokemon","Name":"Oricorio","Time":"2026-09-29T07:03:51.785Z"},
+{"Group":"Pokemon","Name":"Jiangfoo","Time":"2026-09-29T08:05:39.409Z"},
+{"Group":"Pokemon","Name":"Discomfrey","Time":"2026-09-29T08:10:57.949Z"},
+{"Group":"Pokemon","Name":"Garpievoir","Time":"2026-09-29T08:26:42.747Z"},
+{"Group":"Pokemon","Name":"Missingno.","Time":"2026-09-29T09:22:14.214Z"},
+{"Group":"Pokemon","Name":"Riolu","Time":"2026-09-29T09:43:25.435Z"},
+{"Group":"Pokemon","Name":"Nogoat","Time":"2026-09-29T09:47:29.907Z"},
+{"Group":"Pokemon","Name":"Chinchou","Time":"2026-09-29T10:12:12.569Z"},
+{"Group":"Pokemon","Name":"Beth","Time":"2026-09-29T10:53:55.454Z"},
+{"Group":"Pokemon","Name":"Aipomaster","Time":"2026-09-29T11:36:12.869Z"},
+{"Group":"Pokemon","Name":"Amy","Time":"2026-09-29T11:44:24.908Z"},
+{"Group":"Pokemon","Name":"Meg","Time":"2026-09-29T11:48:54.378Z"},
+{"Group":"Pokemon","Name":".πµ","Time":"2026-09-29T12:36:45.497Z"},
+{"Group":"Pokemon","Name":"’M","Time":"2026-09-29T12:39:11.653Z"},
+{"Group":"Pokemon","Name":"h POKé","Time":"2026-09-29T12:44:59.577Z"},
+{"Group":"Pokemon","Name":"PC 4S H","Time":"2026-09-29T12:46:32.661Z"},
+{"Group":"Pokemon","Name":"Wailmer","Time":"2026-09-29T14:40:42.095Z"},
+{"Group":"Pokemon","Name":"Jigglypuff","Time":"2026-09-29T15:17:10.296Z"},
+{"Group":"Pokemon","Name":"Marshadow","Time":"2026-09-29T16:15:28.830Z"},
+{"Group":"Pokemon","Name":"Frillish","Time":"2026-09-29T16:38:33.094Z"},
+{"Group":"Pokemon","Name":"Jellicent","Time":"2026-09-29T16:40:27.524Z"},
+{"Group":"Pokemon","Name":"Rotom","Time":"2026-09-29T19:28:56.912Z"},
+{"Group":"Pokemon","Name":"Shushum","Time":"2026-09-30T02:53:04.497Z"},
+{"Group":"Pokemon","Name":"Froslass","Time":"2026-09-30T02:56:37.102Z"},
+{"Group":"Pokemon","Name":"Jynx","Time":"2026-09-30T03:01:13.767Z"},
+{"Group":"Pokemon","Name":"Vanillt","Time":"2026-09-30T03:07:32.046Z"},
+{"Group":"Pokemon","Name":"Vanillite","Time":"2026-09-30T03:22:32.627Z"},
+{"Group":"Pokemon","Name":"Glalie","Time":"2026-09-30T03:27:54.269Z"},
+{"Group":"Pokemon","Name":"Voivern","Time":"2026-09-30T03:50:40.614Z"},
+{"Group":"Pokemon","Name":"GHOST","Time":"2026-09-30T05:04:15.177Z"},
+{"Group":"Pokemon","Name":"GHOST","Time":"2026-09-30T05:12:13.375Z"},
+{"Group":"Pokemon","Name":"Hexio","Time":"2026-09-30T06:21:42.551Z"},
+{"Group":"Pokemon","Name":"Hexray","Time":"2026-09-30T06:24:31.079Z"},
+{"Group":"Pokemon","Name":"Quilasthma","Time":"2026-09-30T06:35:35.067Z"},
+{"Group":"Pokemon","Name":"Trubbag","Time":"2026-09-30T07:28:51.078Z"},
+{"Group":"Pokemon","Name":"Electabuzz","Time":"2026-09-30T07:34:40.107Z"},
+{"Group":"Pokemon","Name":"Hauntochan","Time":"2026-09-30T08:14:03.711Z"},
+{"Group":"Pokemon","Name":"Hauntotop","Time":"2026-09-30T08:18:29.668Z"},
+{"Group":"Pokemon","Name":"Ambeing","Time":"2026-09-30T08:32:58.108Z"},
+{"Group":"Pokemon","Name":"Mewthree","Time":"2026-09-30T08:39:46.878Z"},
+{"Group":"Pokemon","Name":"Togepi","Time":"2026-09-30T11:57:38.203Z"},
+{"Group":"Pokemon","Name":"Rayxuaza","Time":"2026-09-30T12:05:04.501Z"},
+{"Group":"Pokemon","Name":"Teddiursa","Time":"2026-09-30T12:34:55.308Z"},
+{"Group":"Pokemon","Name":"Polteagest","Time":"2026-09-30T12:47:22.802Z"},
+{"Group":"Pokemon","Name":"Eyeron","Time":"2026-09-30T13:01:43.193Z"},
+{"Group":"Pokemon","Name":"Scovillain","Time":"2026-09-30T13:57:21.258Z"},
+{"Group":"Pokemon","Name":"Marowak","Time":"2026-09-30T14:05:50.384Z"},
+{"Group":"Pokemon","Name":"Hawlucha","Time":"2026-09-30T14:12:22.310Z"},
+{"Group":"Pokemon","Name":"Medimind","Time":"2026-09-30T14:18:27.182Z"}
         ]
     }
 );
