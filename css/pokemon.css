@@ -6155,6 +6155,7 @@
 .ghostgrey .pokesprite.human img { background-position: -2em -25em!important; }
 .ghostgrey .pokesprite.exeggcute img { background-position: -3em -25em!important; }
 .ghostgrey .pokesprite.exeggutor img { background-position: -4em -25em!important; }
+.ghostgrey .pokesprite.nogoat img { background-position: -3em -29em!important; }
 .galar .pokesprite.meowth img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -0em!important; background-size: 1em !important; }
 .galar .pokesprite.ponyta img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -1em!important; background-size: 1em !important; }
 .galar .pokesprite.rapidash img { background-image:url('../img/pokemon-galar.png')!important; background-position: 0px -2em!important; background-size: 1em !important; }
