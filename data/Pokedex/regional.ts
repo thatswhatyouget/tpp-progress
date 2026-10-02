@@ -77,6 +77,8 @@ module Pokedex {
         ["Chiquirtle", "Baytortle", "Megastoise", "Hootduo", "Noctdrio", "Onixtret", "Steelurret", "Machu", "Psycolt", "Kinegasus", "Yunesis", "Snalo", "Serplant", "Grindon", "Scimitooth", "Laquagon", "Dragune", "Nostratos", "Drasparath", "Mallar'ki", "Zangaro", "Silviper", "Kotora", "Raitora", "Gorotora", "Blottle", "Pendraken", "Ramoose", "Decilla", "Gawarhed", "Omegadge", "Squeamata", "Ministare", "Iguanarch", "Libabeel", "Dragoone", "Ghastlier", "Haunteyes", "Gengaze", "Azombie", "Graveill", "Azombarill", "Scar Lugia", "Téa Barqán", "Gluemadio", "Earthmadio", "Bonemadio", "Crazymadio", "Seamadio", "Burstmadio", "Blastmadio", "Treemadio", "Aeromadio", "Normadio", "Kingmadio", "Cubburn", "Flambear", "Bruinus", "Molambino", "Angore", "Lurreel", "Stromen", "Phandarin", "Primarina-X", "Pumbloom", "CSanae", "Sanae", "CCirno", "Cirno", "CMomiji", "Momiji", "CSatori", "Satori", "CTokiko", "Tokiko", "CMima", "Mima", "CoolSpheal", "WentSpheal", "DumbSpheal", "???’M ??", "???’M ??", "MissingNo.", "Phancero"]);
     Regional["Anniversary Hoenn"][0] = -1;
 
+    Regional["Ghost Kanto"][293] = "Nogoat"; // Surrounded by unobtainables
+
     //paste the following into console to scrape regional dex from Bulbapedia:
     //var pokemon = [0]; $("table tbody tr").each(function() { var $me = $(this); var t1 = $me.find('td').first().text(); var t2 = $me.find('td + td').first().text(); if (t1) pokemon[parseInt(t1.replace('#',''))] = parseInt(t2.replace('#',''));  }); console.log(JSON.stringify(pokemon));
 
