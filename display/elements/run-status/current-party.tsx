@@ -3,7 +3,7 @@
 
 namespace TPP.Display.Elements.RunStatus {
 
-    export class CurrentParty extends React.Component<{ party: TPP.Tv.PartyData; trainer?: TPP.Tv.TrainerData, run: TPP.Run; }, {}> {
+    export class CurrentParty extends React.Component<{ party: TPP.Tv.PartyData; trainer?: TPP.Tv.TrainerData, run: TPP.Run; dex: TPP.Pokedex.GlobalDexBase[] }, {}> {
 
         render() {
             return <PokeBox title="Current Party" className="pokemon-hud">
@@ -30,7 +30,7 @@ namespace TPP.Display.Elements.RunStatus {
                             </div>
                         </li>
                         : null}
-                    {this.props.party.map(p => p && <Pokemon key={`${p.name}:${p.personality_value}`} pokemon={p} trainer={this.props.trainer} />)}
+                    {this.props.party.map(p => p && <Pokemon key={`${p.name}:${p.personality_value}`} pokemon={p} trainer={this.props.trainer} dex={this.props.dex[0]?.Entries || []} />)}
                 </ul>
             </PokeBox>;
         }
@@ -38,7 +38,7 @@ namespace TPP.Display.Elements.RunStatus {
 
     const infoModes = ["Moves", "Info", "Met", "IVs", "EVs", "Stats", "Cond", "Evo"]
 
-    export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string, baseUrl?: string, ignoreHealth?: boolean, trainer: TPP.Tv.Trainer }, { infoMode: number; showTabs?: boolean }> {
+    export class Pokemon extends React.Component<{ pokemon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon, className?: string, baseUrl?: string, ignoreHealth?: boolean, trainer: TPP.Tv.Trainer, dex: TPP.Pokedex.DexEntryBase[] }, { infoMode: number; showTabs?: boolean }> {
         state = { infoMode: 0, showTabs: false };
 
         private renderInfo(mode: string, mon: TPP.Tv.PartyPokemon | TPP.Tv.BoxedPokemon) {
@@ -176,7 +176,10 @@ namespace TPP.Display.Elements.RunStatus {
             let mon = this.props.pokemon;
             if (!mon)
                 return null;
-            var hideHealth = true;
+            let normalSpeciesName = mon.species?.name;
+            if (this.props.dex && mon.species?.national_dex && !this.props.dex.some(d => d.Pokemon?.toLowerCase() == mon.species?.name?.toLowerCase()))
+                 normalSpeciesName = cleanString(this.props.dex.find(d=>d.Number == mon.species?.national_dex)?.Pokemon || normalSpeciesName || "");
+            let hideHealth = true;
             let isShadow = !!mon.is_shadow && !!mon.purification;
             let shadowPercentage: number;
             if (isShadow)
@@ -207,8 +210,8 @@ namespace TPP.Display.Elements.RunStatus {
                     </li>)}
                 </ul>
                 <div className="pokemon-image">
-                    <PokeSprite pokemon={mon.is_egg ? "Egg" : mon.species && mon.species.name || "???"} gender={mon.gender} shiny={mon.shiny} baseUrl={this.props.baseUrl} />
-                    <div className="species">{mon.is_egg ? "Egg" : mon.species && mon.species.name || "???"}</div>
+                    <PokeSprite pokemon={mon.is_egg ? "Egg" : mon.species?.name || "???"} gender={mon.gender} shiny={mon.shiny} baseUrl={this.props.baseUrl} className={normalSpeciesName} />
+                    <div className="species">{mon.is_egg ? "Egg" : mon.species?.name || "???"}</div>
                 </div>
                 {mon.is_egg ? null : this.renderInfo(infoModes[this.state && this.state.infoMode || 0], mon)}
                 {isShadow && <div className="shadow-bar"><div className="bar"><div className="shadow" style={{ width: shadowPercentage + '%' }} /></div></div>}

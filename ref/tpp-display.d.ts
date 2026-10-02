@@ -474,6 +474,7 @@ declare namespace TPP.Display.Elements.RunStatus {
         party: TPP.Tv.PartyData;
         trainer?: TPP.Tv.TrainerData;
         run: TPP.Run;
+        dex: TPP.Pokedex.GlobalDexBase[];
     }, {}> {
         render(): JSX.Element;
     }
@@ -483,6 +484,7 @@ declare namespace TPP.Display.Elements.RunStatus {
         baseUrl?: string;
         ignoreHealth?: boolean;
         trainer: TPP.Tv.Trainer;
+        dex: TPP.Pokedex.DexEntryBase[];
     }, {
         infoMode: number;
         showTabs?: boolean;
@@ -499,6 +501,7 @@ declare namespace TPP.Display.Elements.RunStatus {
     class PC extends React.Component<{
         pc: TPP.Tv.CombinedPCData;
         trainer: TPP.Tv.Trainer;
+        dex: TPP.Pokedex.GlobalDexBase[];
     }, {}> {
         render(): JSX.Element;
     }
@@ -507,6 +510,7 @@ declare namespace TPP.Display.Elements.RunStatus {
         boxNumber?: number;
         boxContents: Tv.BoxedPokemon[];
         trainer: TPP.Tv.Trainer;
+        dex: TPP.Pokedex.GlobalDexBase[];
     }, {}> {
         render(): JSX.Element;
     }

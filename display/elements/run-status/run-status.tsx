@@ -208,9 +208,9 @@ namespace TPP.Display.Elements.RunStatus {
             return this.bakeEvents(this.state.run.Events.filter(e => groups.includes(e.Group)));
         }
 
-        private partyDisplay(forceHof = false) {
+        private partyDisplay(dex: TPP.Pokedex.GlobalDexBase[], forceHof = false) {
             if (!forceHof && this.state.status && this.state.status.party)
-                return <CurrentParty party={this.state.status.party} trainer={this.state.status} run={this.state.run} />
+                return <CurrentParty party={this.state.status.party} trainer={this.state.status} run={this.state.run} dex={dex} />
             //var display = new ViewModels.PartyDisplay(this.state.status, this.state.run, Scale.Days);
             else {
                 var hof = this.state.run.Events.filter(e => (e as HallOfFame).Party).pop() as HallOfFame;
@@ -237,6 +237,7 @@ namespace TPP.Display.Elements.RunStatus {
         }
 
         render() {
+            const dex = this.props.buildDex && this.props.buildDex(this.props.run) || [];
             let locale = "";
             if (!!this.props.run.Language && this.props.run.Language != "English")
                 locale = ` l10n lang-${this.props.run.Language.toLowerCase()} ${this.props.run.Language.toLowerCase()}`;
@@ -253,8 +254,8 @@ namespace TPP.Display.Elements.RunStatus {
                         <img src={this.state.lastScreen} />
                         {this.state.lastScreenTime ? <h4>{this.state.lastScreenTime}</h4> : null}
                     </PokeBox> : null}
-                    {this.partyDisplay()}
-                    {this.state.run.AlwaysShowHOF && this.partyDisplay(true)}
+                    {this.partyDisplay(dex)}
+                    {this.state.run.AlwaysShowHOF && this.partyDisplay(dex, true)}
                     <PokeBox title="Duration"><h3>{Duration.parse(this.state.run.Ongoing ? new Date().toISOString() : this.state.run.Duration, this.state.run.StartTime).toString()}</h3></PokeBox>
                     <CurrentLocation mapName={this.state.status.map_name} areaName={this.state.status.area_name} />
                     <EventDisplay key="Past Hosts" events={this.pastHosts} />
@@ -304,8 +305,8 @@ namespace TPP.Display.Elements.RunStatus {
                         </ul>
                     </PokeBox>}
                     {...this.Pokedex}
-                    {this.state.status && this.state.status.daycare && this.state.status.daycare.length > 0 && <PCBox boxName="Daycare" boxContents={this.state.status.daycare} trainer={this.state.status} />}
-                    {this.state.status && <PC pc={this.state.status.pc} trainer={this.state.status} />}
+                    {this.state.status && this.state.status.daycare && this.state.status.daycare.length > 0 && <PCBox boxName="Daycare" boxContents={this.state.status.daycare} trainer={this.state.status} dex={dex} />}
+                    {this.state.status && <PC pc={this.state.status.pc} trainer={this.state.status} dex={dex} />}
                 </div>;
             return <div className={"run-status" + locale}>
                 <h1>
