@@ -5,115 +5,39 @@ Season7.Runs.push(
         ColorPrimary: "#a6a6a6",
         ColorSecondary: "#404040",
         BackgroundImage: "radial-gradient(ellipse at left bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 41%, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 70%)",
-        Duration: "8d 14h 0m",
         StartDate: "2020-03-28T04:00:00Z",
+        Duration: "8d 14h 0m",
         HostName: ".iecbw",
         HostImage: "img/hosts/iecbw.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/frj3r5/isabelle_ice_dot_the_host_of_gauntlet_platinum/",
         Region: "Sinnoh",
         Generation: 4,
         Pokedex: "National",
-        FinalStateLink:"./states/Season 7/gauntlet-platinum.json", 
+        FinalStateLink:"./states/Season 7/gauntlet-platinum.json",
         Events: [
-            {
-                Group: "Badges",
-                Name: "Coal Badge",
-                Image: "img/badges/coal.png",
-                Time: "2020-03-28T08:28:12.973Z",
-                Attempts: 1
-            },
-            {
-                Group: "Badges",
-                Name: "Forest Badge",
-                Image: "img/badges/forest.png",
-                Time: "2020-03-28T21:03:34.969Z",
-                Attempts: 5
-            },
-            {
-                Group: "Badges",
-                Name: "Cobble Badge",
-                Image: "img/badges/cobble.png",
-                Time: "2020-03-30T01:39:43.305Z",
-                Attempts: 2
-            },
-            {
-                Group: "Badges",
-                Name: "Fen Badge",
-                Image: "img/badges/fen.png",
-                Time: "2020-03-30T04:23:47.766Z",
-                Attempts: 1
-            },
-            {
-                Group: "Badges",
-                Name: "Relic Badge",
-                Image: "img/badges/relic.png",
-                Time: "2020-03-29T19:10:26.324Z",
-                Attempts: 2
-            },
-            {
-                Group: "Badges",
-                Name: "Mine Badge",
-                Image: "img/badges/mine.png",
-                Time: "2020-03-30T23:29:03.548Z",
-                Attempts: 3
-            },
-            {
-                Group: "Badges",
-                Name: "Icicle Badge",
-                Image: "img/badges/icicle.png",
-                Time: "2020-03-31T08:44:03.634Z",
-                Attempts: 3
-            },
-            {
-                Group: "Badges",
-                Name: "Beacon Badge",
-                Image: "img/badges/beacon.png",
-                Time: "2020-04-02T00:53:35.946Z",
-                Attempts: 3
-            },
-            {
-                Group: "Elite Four",
-                Name: "Aaron",
-                Image: "img/trainers/platinum/aaron.png",
-                Time: "2020-04-02T08:41:41.971Z",
-                Attempts: 3
-            },
-            {
-                Group: "Elite Four",
-                Name: "Bertha",
-                Image: "img/trainers/platinum/bertha.png",
-                Time: "2020-04-02T11:26:18.111Z",
-                Attempts: 3
-            },
-            {
-                Group: "Elite Four",
-                Name: "Flint",
-                Image: "img/trainers/platinum/flint.png",
-                Time: "2020-04-02T11:55:10.381Z",
-                Attempts: 2
-            },
-            {
-                Group: "Elite Four",
-                Name: "Lucian",
-                Image: "img/trainers/platinum/lucian.png",
-                Time: "2020-04-02T17:42:14.991Z",
-                Attempts: 3
-            },
-            {
-                Group: "Champions",
-                Name: "Cynthia",
-                Image: "img/trainers/platinum/cynthia.png",
-                Time: "2020-04-03T00:03:14.686Z",
-                Attempts: 7
-            },
+            { Group: "Badges", Name: "Coal Badge", Image: "img/badges/coal.png", Time: "2020-03-28T08:28:12.973Z", Attempts: 1 },
+            { Group: "Badges", Name: "Forest Badge", Image: "img/badges/forest.png", Time: "2020-03-28T21:03:34.969Z", Attempts: 5 },
+            { Group: "Badges", Name: "Cobble Badge", Image: "img/badges/cobble.png", Time: "2020-03-30T01:39:43.305Z", Attempts: 2 },
+            { Group: "Badges", Name: "Fen Badge", Image: "img/badges/fen.png", Time: "2020-03-30T04:23:47.766Z", Attempts: 1 },
+            { Group: "Badges", Name: "Relic Badge", Image: "img/badges/relic.png", Time: "2020-03-29T19:10:26.324Z", Attempts: 2 },
+            { Group: "Badges", Name: "Mine Badge", Image: "img/badges/mine.png", Time: "2020-03-30T23:29:03.548Z", Attempts: 3 },
+            { Group: "Badges", Name: "Icicle Badge", Image: "img/badges/icicle.png", Time: "2020-03-31T08:44:03.634Z", Attempts: 3 },
+            { Group: "Badges", Name: "Beacon Badge", Image: "img/badges/beacon.png", Time: "2020-04-02T00:53:35.946Z", Attempts: 3 },
+
+            { Group: "Elite Four", Name: "Aaron", Image: "img/trainers/platinum/aaron.png", Time: "2020-04-02T08:41:41.971Z", Attempts: 3 },
+            { Group: "Elite Four", Name: "Bertha", Image: "img/trainers/platinum/bertha.png", Time: "2020-04-02T11:26:18.111Z", Attempts: 3 },
+            { Group: "Elite Four", Name: "Flint", Image: "img/trainers/platinum/flint.png", Time: "2020-04-02T11:55:10.381Z", Attempts: 2 },
+            { Group: "Elite Four", Name: "Lucian", Image: "img/trainers/platinum/lucian.png", Time: "2020-04-02T17:42:14.991Z", Attempts: 3 },
+            { Group: "Champions", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png", Time: "2020-04-03T00:03:14.686Z", Attempts: 7 },
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-04-03T00:05:10Z", IDNo: "64324", Attempts: 22, Party: [
                     { Pokemon: "Lumineon", Nickname: "AACm   neg", Level: 93, Gender: "Male", Met: "Route 205", OT: ".iecbw" },
-                    { Pokemon: "Altaria", Nickname: "!!    ", Level: 65, Gender: "Female", Met: "Route 210", OT: ".iecbw" },
+                    { Pokemon: "Altaria", Nickname: "!!    ", Level: 69, Gender: "Female", Met: "Route 210", OT: ".iecbw" },
                     { Pokemon: "Leafeon", Nickname: "\u263a\u263a\u263a\u2019) !", Level: 59, Gender: "Male", Met: "Hearthome City", OT: ".iecbw" },
                     { Pokemon: "Weavile", Nickname: "AAAL", Level: 58, Gender: "Male", Met: "Acuity Lakefront", OT: ".iecbw" },
                     { Pokemon: "Torterra", Nickname: "BFG", Level: 55, Gender: "Male", Met: "Route 201", OT: ".iecbw" },
-                    { Pokemon: "Probopass", Nickname: "GUUEEEEFFn", Level: 58, Gender: "Male", Met: "Mt. Coronet", OT: ".iecbw" },
+                    { Pokemon: "Probopass", Nickname: "GUUEEEEFFn", Level: 58, Gender: "Male", Met: "Mt. Coronet", OT: ".iecbw" }
                 ],
                 FirstAttemptDate: "2020-04-02T07:05:05.945Z",
                 Image: "img/ribbons/champion-sinnoh.png"
@@ -125,51 +49,18 @@ Season7.Runs.push(
                     { Pokemon: "Torterra", Nickname: "BFG", Level: 57, Gender: "Male", Met: "Route 201", OT: ".iecbw" },
                     { Pokemon: "Altaria", Nickname: "!!    ", Level: 72, Gender: "Female", Met: "Route 210", OT: ".iecbw" },
                     { Pokemon: "Giratina", Nickname: "AK", Level: 55, Met: "Distortion World", OT: ".iecbw" },
-                    { Pokemon: "Weavile", Nickname: "AAAL", Level: 58, Gender: "Male", Met: "Acuity Lakefront", OT: ".iecbw" },
+                    { Pokemon: "Weavile", Nickname: "AAAL", Level: 58, Gender: "Male", Met: "Acuity Lakefront", OT: ".iecbw" }
                 ],
                 FirstAttemptDate: "6d 14h 43m",
                 Image: "img/ribbons/champion-sinnoh.png"
             },
-            {
-                Group: "Elite Four Rematch",
-                Class: "Rematch",
-                Name: "Aaron",
-                Image: "img/trainers/platinum/aaron.png",
-                Time: "2020-04-04T23:20:42.706Z",
-                Attempts: 1
-            },
-            {
-                Group: "Elite Four Rematch",
-                Class: "Rematch",
-                Name: "Bertha",
-                Image: "img/trainers/platinum/bertha.png",
-                Time: "2020-04-04T23:27:30.581Z",
-                Attempts: 1
-            },
-            {
-                Group: "Elite Four Rematch",
-                Class: "Rematch",
-                Name: "Flint",
-                Image: "img/trainers/platinum/flint.png",
-                Time: "2020-04-04T23:31:29.483Z",
-                Attempts: 1
-            },
-            {
-                Group: "Elite Four Rematch",
-                Class: "Rematch",
-                Name: "Lucian",
-                Image: "img/trainers/platinum/lucian.png",
-                Time: "2020-04-04T23:40:18.857Z",
-                Attempts: 1
-            },
-            {
-                Group: "Champions",
-                Class: "Rematch",
-                Name: "Cynthia",
-                Image: "img/trainers/platinum/cynthia.png",
-                Time: "2020-04-05T05:50:27.682Z",
-                Attempts: 4
-            },
+
+            { Group: "Elite Four Rematch", Class: "Rematch", Name: "Aaron", Image: "img/trainers/platinum/aaron.png", Time: "2020-04-04T23:20:42.706Z", Attempts: 1 },
+            { Group: "Elite Four Rematch", Class: "Rematch", Name: "Bertha", Image: "img/trainers/platinum/bertha.png", Time: "2020-04-04T23:27:30.581Z", Attempts: 1 },
+            { Group: "Elite Four Rematch", Class: "Rematch", Name: "Flint", Image: "img/trainers/platinum/flint.png", Time: "2020-04-04T23:31:29.483Z", Attempts: 1 },
+            { Group: "Elite Four Rematch", Class: "Rematch", Name: "Lucian", Image: "img/trainers/platinum/lucian.png", Time: "2020-04-04T23:40:18.857Z", Attempts: 1 },
+            { Group: "Champions", Class: "Rematch", Name: "Cynthia", Image: "img/trainers/platinum/cynthia.png", Time: "2020-04-05T05:50:27.682Z", Attempts: 4 },
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "8d1h52m", IDNo: "64324", Attempts: 13, Party: [
                     { Pokemon: "Altaria", Nickname: "!!    ", Level: 83, Gender: "Female", Met: "Route 210", OT: ".iecbw" },
@@ -177,11 +68,12 @@ Season7.Runs.push(
                     { Pokemon: "Torterra", Nickname: "BFG", Level: 60, Gender: "Male", Met: "Route 201", OT: ".iecbw" },
                     { Pokemon: "Dialga", Nickname: "PMD", Level: 74, Met: "Spear Pillar", OT: ".iecbw" },
                     { Pokemon: "Weavile", Nickname: "AAAL", Level: 67, Gender: "Male", Met: "Acuity Lakefront", OT: ".iecbw" },
-                    { Pokemon: "Giratina", Nickname: "AK", Level: 69, Met: "Distortion World", OT: ".iecbw" },
+                    { Pokemon: "Giratina", Nickname: "AK", Level: 69, Form: "Origin", Met: "Distortion World", OT: ".iecbw" }
                 ],
                 FirstAttemptDate: "7d 19h 15m",
                 Image: "img/ribbons/champion-sinnoh.png"
             },
+
             { "Group": "Pokemon", "Name": "Turtwig", "Time": "2020-03-28T04:18:13.429Z" },
             { "Group": "Pokemon", "Name": "Starly", "Time": "2020-03-28T04:41:58.636Z" },
             { "Group": "Pokemon", "Name": "Bidoof", "Time": "2020-03-28T04:44:03.939Z" },

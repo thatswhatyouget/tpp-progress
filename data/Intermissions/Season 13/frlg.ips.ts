@@ -11,6 +11,7 @@ Intermissions.Runs.push(
         Region: "Kanto",
         Generation: 3,
         Pokedex: "National",
+        FinalStateLink: "./states/Season 13/frlg.ips.AABBIII.json",
         Events: [
             {
                 Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
