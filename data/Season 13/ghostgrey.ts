@@ -5,7 +5,7 @@ Season13.Runs.push(
         ColorPrimary: "#333",
         ColorSecondary: "#999",
         StartDate: "2026-09-26T21:00:00Z",
-        Duration: "255d",
+        Duration: "2026-10-04T07:16:30Z",
         HostName: "AAAAA",
         HostImage: "img/hosts/aaaaa.png",
         Region: "Ghost Kanto",
