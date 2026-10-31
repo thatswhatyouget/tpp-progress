@@ -9,7 +9,7 @@ Intermissions.Runs.push(
         HostName: "Sawyer",
         HostImage: "img/hosts/treekid.png",
         // HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
-        Region: "Hoenn",
+        //Region: "Hoenn",
         Generation: 8,
         //FinalStateLink: "./states/Season 13/trickortreat.json",
         Events: [
