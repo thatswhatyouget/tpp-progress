@@ -7,7 +7,7 @@ Intermissions.Runs.push(
         StartDate: "2026-10-31T01:00:00Z",
         Duration: "2026-11-04T01:50:28Z",
         HostName: "Sawyer",
-        HostImage: "img/hosts/treekid.png",
+        HostImage: "img/hosts/treekid2.png",
         // HostImageSource: "https://reddit.com/r/twitchplayspokemon/comments/iewiby/the_hosts_of_the_voices_after_the_rise_of_the_king/",
         Region: "Hoenn",
         ExtraDexes: ["National"],
