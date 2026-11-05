@@ -70,124 +70,139 @@ Intermissions.Runs.push(
                 Group: "Missions", Name: "Puzzle #10\nPeppermints in Petalburg",
                 Time: "2026-10-31T17:18:49Z", Attempts: 1, Image: "img/trainers/emerald/youngster.png",
             },
-			/*
+			
+            { "Group": "Pokemon", "Name": "Noctowl", "Time": "2026-10-31T17:56:19Z" },
+			
             {
                 Group: "Missions", Name: "Puzzle #11\nDoor Dido Menagerie",
-                Time: "2026-10-31T03:49:00Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Time: "2026-10-31T18:39:38Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
                 Group: "Missions", Name: "Puzzle #12\nThe Frozen Excursion",
-                Time: "2026-10-31T04:15:26Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Time: "2026-10-31T20:29:48Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
                 Group: "Missions", Name: "Puzzle #13\nTwin Memories",
-                Time: "2026-10-31T04:47:51Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Time: "2026-10-31T21:10:51Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #12\nThe Mountain Trial",
-                Time: "2026-10-31T05:30:45Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Group: "Missions", Name: "Puzzle #14\nToo Hard to See",
+                Time: "2026-10-31T21:33:30Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #13\nTower 2: Tower Harder",
-                Time: "2026-10-31T06:11:13Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Group: "Missions", Name: "Puzzle #15\nThe Mountain Trial",
+                Time: "2026-10-31T23:49:07Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #14\nBoulder Room Bluff",
-                Time: "2026-10-31T06:31:40Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Group: "Missions", Name: "Puzzle #16\nTower 2: Tower Harder",
+                Time: "2026-11-01T00:51:54Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #15\nScale the Belfry",
-                Time: "2026-10-31T07:59:14Z", Attempts: 2, Image: "img/trainers/emerald/trickmaster.png",
+                Group: "Missions", Name: "Puzzle #17\nBoulder Room Bluff",
+                Time: "2026-11-01T01:17:42Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #16\nCruisin' Down 110",
-                Time: "2026-10-31T08:11:25Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Group: "Missions", Name: "Puzzle #18\nScale the Belfry",
+                Time: "2026-11-01T03:19:00Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #17\nJungle Cruising",
-                Time: "2026-10-31T10:45:02Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Group: "Missions", Name: "Puzzle #19\nCruisin' Down 110",
+                Time: "2026-11-01T04:06:47Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+            },
+            {
+                Group: "Missions", Name: "Puzzle #20\nJungle Cruising",
+                Time: "2026-11-01T08:34:49Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
 			{
-                Group: "Missions", Name: "Puzzle #18\nThe Euphemistic Straw",
-                Time: "2026-10-31T12:07:24Z", Attempts: 2, Image: "img/trainers/emerald/trickmaster.png",
-            },			
-            {
-                Group: "Missions", Name: "Puzzle #19\nFudge in Fortree",
-                Time: "2026-10-31T13:58:27Z", Attempts: 4, Image: "img/trainers/toth/link.png",
+                Group: "Missions", Name: "Puzzle #21\nToo Many Paths",
+                Time: "2026-11-01T09:23:16Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+            },	
+			{
+                Group: "Missions", Name: "Puzzle #22\nPush, Press, Polish?",
+                Time: "2026-11-01T09:56:03Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+            },
+			{
+                Group: "Missions", Name: "Puzzle #23\nThe Euphemistic Straw",
+                Time: "2026-11-01T10:35:45Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #20\nManeuver Mischief",
-                Time: "2026-10-31T14:31:11Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Group: "Missions", Name: "Puzzle #24\nFudge in Fortree",
+                Time: "2026-11-01T11:29:19Z", Attempts: 1, Image: "img/trainers/toth/link.png",
+            },
+			/*
+            {
+                Group: "Missions", Name: "Puzzle #25\nManeuver Mischief",
+                Time: "2026-11-01T14:31:11Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #21\nKoga's Labyrinth",
-                Time: "2026-10-31T15:19:04Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Group: "Missions", Name: "Puzzle #26\nKoga's Labyrinth",
+                Time: "2026-11-01T15:19:04Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #22\nMisplaced",
-                Time: "2026-10-31T15:45:38Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Group: "Missions", Name: "Puzzle #27\nMisplaced",
+                Time: "2026-11-01T15:45:38Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #23\nSlip 'n Spin",
-                Time: "2026-10-31T16:24:56Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Group: "Missions", Name: "Puzzle #28\nSlip 'n Spin",
+                Time: "2026-11-01T16:24:56Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #24\nCross-Path Caverns",
-                Time: "2026-10-31T18:45:25Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Group: "Missions", Name: "Puzzle #29\nCross-Path Caverns",
+                Time: "2026-11-01T18:45:25Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #25\nSpot the Difference",
-                Time: "2026-10-31T20:03:12Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Group: "Missions", Name: "Puzzle #30\nSpot the Difference",
+                Time: "2026-11-01T20:03:12Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #26\nMission Impassable",
-                Time: "2026-10-31T21:50:06Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
+                Group: "Missions", Name: "Puzzle #31\nMission Impassable",
+                Time: "2026-11-01T21:50:06Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #27\nTow3r: Revelations",
+                Group: "Missions", Name: "Puzzle #32\nTow3r: Revelations",
                 Time: "2026-11-01T00:54:22Z", Attempts: 2, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #28\nRotation Gate Ruse",
+                Group: "Missions", Name: "Puzzle #33\nRotation Gate Ruse",
                 Time: "2026-11-01T02:41:08Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #29\nMalteasers in Mossdeep",
+                Group: "Missions", Name: "Puzzle #34\nMalteasers in Mossdeep",
                 Time: "2026-11-01T05:31:54Z", Attempts: 2, Image: "img/trainers/toth/fairy.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #30\nTic Rac Toe",
+                Group: "Missions", Name: "Puzzle #35\nTic Rac Toe",
                 Time: "2026-11-01T07:15:50Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #31\nThe Elite Floor",
+                Group: "Missions", Name: "Puzzle #36\nThe Elite Floor",
                 Time: "2026-11-01T10:45:13Z", Attempts: 2, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #32\nShenanigan Samba",
+                Group: "Missions", Name: "Puzzle #37\nShenanigan Samba",
                 Time: "2026-11-01T11:22:46Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #33\nWaterflow Caverns",
+                Group: "Missions", Name: "Puzzle #38\nWaterflow Caverns",
                 Time: "2026-11-01T13:16:48Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #34\nA Rock and a Hard Place",
+                Group: "Missions", Name: "Puzzle #39\nA Rock and a Hard Place",
                 Time: "2026-11-01T14:10:07Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #35\nTower 4: The Quickening",
+                Group: "Missions", Name: "Puzzle #40\nTower 4: The Quickening",
                 Time: "2026-11-01T16:35:27Z", Attempts: 4, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #36\nFloor Frolic",
+                Group: "Missions", Name: "Puzzle #41\nFloor Frolic",
                 Time: "2026-11-01T17:03:40Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
 			
             { "Group": "Pokemon", "Name": "Venusaur", "Time": "2026-11-01T17:12:11Z" },
 			
             {
-                Group: "Missions", Name: "Puzzle #37\nThe Fog in the Forest",
+                Group: "Missions", Name: "Puzzle #42\nThe Fog in the Forest",
                 Time: "2026-11-01T18:21:06Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
 			
@@ -196,11 +211,11 @@ Intermissions.Runs.push(
             { "Group": "Pokemon", "Name": "Gligar", "Time": "2026-11-01T18:37:16Z" },
 			
             {
-                Group: "Missions", Name: "Puzzle #38\nA Safari Among Friends",
+                Group: "Missions", Name: "Puzzle #43\nA Safari Among Friends",
                 Time: "2026-11-01T18:53:31Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
             {
-                Group: "Missions", Name: "Puzzle #39\nThe Last Hurrah",
+                Group: "Missions", Name: "Puzzle #44\nThe Last Hurrah",
                 Time: "2026-11-01T20:13:07Z", Attempts: 1, Image: "img/trainers/emerald/flannery.png",
             },*/
 			
