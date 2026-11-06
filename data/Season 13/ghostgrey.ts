@@ -91,7 +91,7 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Shroomick", "Time": "2026-09-26T23:24:43.739Z" },
             { "Group": "Pokemon", "Name": "Pikaboo", "Time": "2026-09-27T01:29:01.789Z" },
             { "Group": "Pokemon", "Name": "Vivillain", "Time": "2026-09-27T02:18:07.778Z" },
-            { "Group": "Pokemon", "Name": "Poltchagst", "Time": "2026-09-27T02:54:46.874Z" },
+            { "Group": "Pokemon", "Name": "Poltchageist", "Time": "2026-09-27T02:54:46.874Z" },
             { "Group": "Pokemon", "Name": "Oddish", "Time": "2026-09-27T02:57:41.378Z" },
             { "Group": "Pokemon", "Name": "Drifloon", "Time": "2026-09-27T03:25:03.502Z" },
             { "Group": "Pokemon", "Name": "Chatot", "Time": "2026-09-27T06:42:43.754Z" }, // In-game trade
@@ -149,7 +149,7 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Probogast", "Time": "2026-09-28T05:24:33.342Z" },
             { "Group": "Pokemon", "Name": "Tinkotreat", "Time": "2026-09-28T05:47:50.743Z" },
             { "Group": "Pokemon", "Name": "Hauntolee", "Time": "2026-09-28T08:03:35.970Z" },
-            { "Group": "Pokemon", "Name": "FluterMane", "Time": "2026-09-28T09:52:02.643Z" },
+            { "Group": "Pokemon", "Name": "Flutter Mane", "Time": "2026-09-28T09:52:02.643Z" },
             { "Group": "Pokemon", "Name": "Starmie", "Time": "2026-09-28T09:57:33.096Z" },
             { "Group": "Pokemon", "Name": "Celestar", "Time": "2026-09-28T09:59:40.796Z" },
             { "Group": "Pokemon", "Name": "Pansear", "Time": "2026-09-28T11:14:03.875Z" },
@@ -245,7 +245,7 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Togepi", "Time": "2026-09-30T11:57:38.203Z" },
             { "Group": "Pokemon", "Name": "Rayxuaza", "Time": "2026-09-30T12:05:04.501Z" },
             { "Group": "Pokemon", "Name": "Teddiursa", "Time": "2026-09-30T12:34:55.308Z" },
-            { "Group": "Pokemon", "Name": "Polteagest", "Time": "2026-09-30T12:47:22.802Z" },
+            { "Group": "Pokemon", "Name": "Polteageist", "Time": "2026-09-30T12:47:22.802Z" },
             { "Group": "Pokemon", "Name": "Eyeron", "Time": "2026-09-30T13:01:43.193Z" },
             { "Group": "Pokemon", "Name": "Scovillain", "Time": "2026-09-30T13:57:21.258Z" },
             { "Group": "Pokemon", "Name": "Marowak", "Time": "2026-09-30T14:05:50.384Z" },
@@ -258,7 +258,7 @@ Season13.Runs.push(
             { "Group": "Pokemon", "Name": "Lumburr", "Time": "2026-09-30T17:34:05.182Z" },
             { "Group": "Pokemon", "Name": "Garbdourge", "Time": "2026-09-30T18:00:47.787Z" },
             { "Group": "Pokemon", "Name": "Vanillist", "Time": "2026-09-30T18:01:13.604Z" },
-            { "Group": "Pokemon", "Name": "Blacefalon", "Time": "2026-09-30T18:46:59.046Z" },
+            { "Group": "Pokemon", "Name": "Blacephalon", "Time": "2026-09-30T18:46:59.046Z" },
             { "Group": "Pokemon", "Name": "Minotauros", "Time": "2026-09-30T19:07:13.140Z" },
             { "Group": "Pokemon", "Name": "Bogmire", "Time": "2026-09-30T20:02:17.383Z" }
         ]
