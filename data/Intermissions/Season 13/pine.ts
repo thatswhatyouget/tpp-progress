@@ -1,7 +1,7 @@
 /// <reference path="../../tpp-data.ts" />
 Intermissions.Runs.push(
     {
-        RunName: "Pokemon Pine",
+        RunName: "Pine",
         ColorPrimary: "#FFCA38",
         ColorSecondary: "#449900",
         StartDate: "2026-09-26T00:00:00Z",

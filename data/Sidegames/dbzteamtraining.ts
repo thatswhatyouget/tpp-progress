@@ -6,8 +6,8 @@ Sidegames.Runs.push(
         BackgroundImage: "linear-gradient(to bottom, rgba(255,239,16,1) 50%, rgba(255,189,0,1) 65%, rgba(230,132,0,1) 80%, rgba(222,74,0,1) 90%)",
         ColorPrimary: "#E67300",
         ColorSecondary: "#AD4200",
-        Duration: "2021-10-29T23:28:10+01:00",
         StartDate: "2021-05-14T07:09:18+01:00",
+        Duration: "2021-10-29T23:28:10+01:00",
         HostName: "Pan",
         HostImage: "img/hosts/pan.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/o9ah3s/pan_and_the_z_fighters/",
@@ -25,7 +25,7 @@ Sidegames.Runs.push(
             { Group: "Badges", Name: "Wisdom Badge", Image: "img/badges/volcano.png", Time: "2021-08-21T19:34:53.783Z", Attempts: 3 },
             { Group: "Badges", Name: "Pilaf Badge", Image: "img/badges/earth.png", Time: "2021-08-21T20:17:23.399Z", Attempts: 2 },
 
-            // sidegame part one
+            //sidegame part 1
             { Group: "Pokemon", Name: "Gohan", Time: "2021-05-15T06:41:35+01:00" },
             { Group: "Pokemon", Name: "Piccolo", Time: "2021-05-20T18:30:46+01:00" },
             { Group: "Pokemon", Name: "SSJ Gohan", Time: "2021-05-29T05:05:47+01:00" },
@@ -35,7 +35,7 @@ Sidegames.Runs.push(
             { Group: "Pokemon", Name: "Cooler", Time: "2021-08-16T18:39:40+01:00" },
             { Group: "Pokemon", Name: "Frieza", Time: "2021-08-17T05:39:55+01:00" },
 
-            // intermission
+            //intermission
             { Group: "Pokemon", Name: "Chiaotzu", Time: "2021-08-21T01:28:40.233Z" },
             { Group: "Pokemon", Name: "Sp Piccolo", Time: "2021-08-21T04:01:07.624Z" },
             { Group: "Pokemon", Name: "Bug Cell", Time: "2021-08-21T07:27:35.856Z" },
@@ -49,7 +49,7 @@ Sidegames.Runs.push(
             { Group: "Pokemon", Name: "Bujin", Time: "2021-08-21T18:28:14.544Z" },
             { Group: "Pokemon", Name: "Yamcha", Time: "2021-08-21T20:24:26.259Z" },
 
-            // sidegame part two
+            //sidegame part 2
             { Group: "Pokemon", Name: "Majin Buu", Time: "2021-09-19T00:44:19+01:00" },
             { Group: "Pokemon", Name: "Janemba", Time: "2021-10-07T22:31:32+01:00" },
             { Group: "Pokemon", Name: "Dabura", Time: "2021-10-27T23:42:37+01:00" },
