@@ -12,13 +12,13 @@ Intermissions.Runs.push(
         Region: "Hoenn",
         ExtraDexes: ["National"],
         Generation: 8,
-        //FinalStateLink: "./states/Season 13/trickortreat.json",
+        FinalStateLink: "./states/Season 13/tth2026.json",
         Events: [
-			
+
             { "Group": "Pokemon", "Name": "Raboot", "Time": "2026-10-31T01:24:10Z" },
             { "Group": "Pokemon", "Name": "Umbreon", "Time": "2026-10-31T01:24:40Z" },
             { "Group": "Pokemon", "Name": "Hoothoot", "Time": "2026-10-31T01:25:42Z" },
-			
+
 			// Appeared in the PC upon exiting team selection
             { "Group": "Pokemon", "Name": "Wormadam", "Time": "2026-10-31T01:29:31Z" },
             { "Group": "Pokemon", "Name": "Gabite", "Time": "2026-10-31T01:29:31Z" },
@@ -29,7 +29,7 @@ Intermissions.Runs.push(
             { "Group": "Pokemon", "Name": "Mawile", "Time": "2026-10-31T01:29:31Z" },
             { "Group": "Pokemon", "Name": "Steenee", "Time": "2026-10-31T01:29:31Z" },
             { "Group": "Pokemon", "Name": "Crabrawler", "Time": "2026-10-31T01:29:31Z" },
-			
+
 			{
                 Group: "Missions", Name: "Puzzle #1\nShrub Shredding",
                 Time: "2026-10-31T01:51:02Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
@@ -70,9 +70,9 @@ Intermissions.Runs.push(
                 Group: "Missions", Name: "Puzzle #10\nPeppermints in Petalburg",
                 Time: "2026-10-31T17:18:49Z", Attempts: 1, Image: "img/trainers/emerald/youngster.png",
             },
-			
+
             { "Group": "Pokemon", "Name": "Noctowl", "Time": "2026-10-31T17:56:19Z" },
-			
+
             {
                 Group: "Missions", Name: "Puzzle #11\nDoor Dido Menagerie",
                 Time: "2026-10-31T18:39:38Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
@@ -116,7 +116,7 @@ Intermissions.Runs.push(
 			{
                 Group: "Missions", Name: "Puzzle #21\nToo Many Paths",
                 Time: "2026-11-01T09:23:16Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
-            },	
+            },
 			{
                 Group: "Missions", Name: "Puzzle #22\nPush, Press, Polish?",
                 Time: "2026-11-01T09:56:03Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
@@ -213,12 +213,12 @@ Intermissions.Runs.push(
                 Group: "Missions", Name: "Puzzle #45\nToo Many Arrows",
                 Time: "2026-11-02T14:34:57Z", Attempts: 2, Image: "img/trainers/emerald/trickmaster.png",
             },
-			
+
             {
                 Group: "Battle Legends", Name: "Trick Master", Image: "img/trainers/toth/trickmaster_full.png",
                 Time: "2026-11-02T16:38:15Z", Attempts: 3
             },
-			
+
             {
                 Group: "Missions", Name: "Puzzle #46\nTower 4: The Quickening",
                 Time: "2026-11-02T17:40:34Z", Attempts: 2, Image: "img/trainers/emerald/trickmaster.png",
@@ -231,10 +231,10 @@ Intermissions.Runs.push(
                 Group: "Missions", Name: "Puzzle #48\nForgotten Mirage",
                 Time: "2026-11-03T09:18:55Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
-			
+
             { "Group": "Pokemon", "Name": "Tsareena", "Time": "2026-11-03T12:12:09Z" },
             { "Group": "Pokemon", "Name": "Cinderace", "Time": "2026-11-03T12:13:40Z" },
-			
+
             {
                 Group: "Missions", Name: "Puzzle #49\nThe Fog in the Forest",
                 Time: "2026-11-03T12:27:19Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
@@ -243,11 +243,11 @@ Intermissions.Runs.push(
                 Group: "Missions", Name: "Puzzle #50\nToo Much Polish",
                 Time: "2026-11-03T13:01:35Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
-			
+
             { "Group": "Pokemon", "Name": "Oddish", "Time": "2026-11-03T13:22:34Z" },
             { "Group": "Pokemon", "Name": "Teddiursa", "Time": "2026-11-03T13:44:57Z" },
             { "Group": "Pokemon", "Name": "Aipom", "Time": "2026-11-03T13:48:52Z" },
-			
+
             {
                 Group: "Missions", Name: "Puzzle #51\nA Safari Among Friends",
                 Time: "2026-11-03T17:17:57Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
@@ -256,7 +256,7 @@ Intermissions.Runs.push(
                 Group: "Missions", Name: "Puzzle #52\nThe Last Hurrah",
                 Time: "2026-11-03T21:57:05Z", Attempts: 1, Image: "img/trainers/emerald/flannery.png",
             },
-			
+
             {
                 Group: "Missions", Name: "Puzzle Revisit #1\nShrub Shredding", Class: "Rematch",
                 Time: "2026-11-04T00:59:46Z", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
@@ -265,8 +265,8 @@ Intermissions.Runs.push(
                 Group: "Missions", Name: "Puzzle Revisit #2\nPokémon Says", Class: "Rematch",
                 Time: "2026-11-04T01:19:49", Attempts: 1, Image: "img/trainers/emerald/trickmaster.png",
             },
-			
-			
+
+
         ]
     }
 );

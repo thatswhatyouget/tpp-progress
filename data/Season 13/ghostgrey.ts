@@ -11,6 +11,7 @@ Season13.Runs.push(
         Region: "Ghost Kanto",
         // Generation: 3,
         Pokedex: "Ghost Kanto",
+        FinalStateLink: "./states/Season 13/ghostgrey.json",
         Events: [
             {
                 Group: "Badges", Name: "Boulder Badge", Image: "img/badges/ghostgrey/boulder.png",

@@ -12,7 +12,7 @@ Intermissions.Runs.push(
         Region: "Unova",
         Generation: 5,
         Pokedex: "National-FR",
-        //FinalStateLink: "./states/white.json",
+        FinalStateLink: "./states/Season 12/zpp-blanc.json",
         AlwaysShowHOF,
         Language: "French",
         Events: [
@@ -59,7 +59,7 @@ Intermissions.Runs.push(
             { "Group": "Elite Four", "Name": "Kunz", "Image": "img/trainers/black/marshal.png", "Time": "2d04h38m14s", "Attempts": 1, "UnixTime": 1757284874 },
             { "Name": "Zekrom", "Time": "2d05h07m45s", "Group": "Pokemon", "UnixTime": 1757286645 },
             { "Group": "Champions", "Name": "N", "Image": "img/trainers/black/n.png", "Time": "2d05h46m41s", "Attempts": 1, "UnixTime": 1757288981 },
-            
+
             {
                 Group: "Champions", Name: "Ghetis", Image: "img/trainers/black/ghetsis.png",
                 Time: "2025-09-13T18:15:18Z", Attempts: 4
@@ -110,12 +110,12 @@ Intermissions.Runs.push(
 			{ "Name": "Starly", "Time": "2025-09-14T02:26:23Z", "Group": "Pokemon" },
 			{ "Name": "Slakoth", "Time": "2025-09-14T02:28:48Z", "Group": "Pokemon" },
 			{ "Name": "Oddish", "Time": "2025-09-14T02:29:50Z", "Group": "Pokemon" },
-			
-			{ 
-				Group: "Past Hosts", Name: "T448Z4 ", Image: "img/hosts/t448z4.png", 
+
+			{
+				Group: "Past Hosts", Name: "T448Z4 ", Image: "img/hosts/t448z4.png",
 				Time: "2025-09-14T03:37:12Z", Attempts: 2
 			},
-			
+
 			{ "Name": "Lillipup", "Time": "2025-09-14T04:17:59Z", "Group": "Pokemon" },
 			{ "Name": "Patrat", "Time": "2025-09-14T04:19:38Z", "Group": "Pokemon" },
 			{ "Name": "Basculin", "Time": "2025-09-14T04:22:20Z", "Group": "Pokemon" },
@@ -123,12 +123,12 @@ Intermissions.Runs.push(
 			{ "Name": "Watchog", "Time": "2025-09-14T04:27:14Z", "Group": "Pokemon" },
 			{ "Name": "Frillish", "Time": "2025-09-14T04:33:19Z", "Group": "Pokemon" },
 			{ "Name": "Dwebble", "Time": "2025-09-14T04:43:11Z", "Group": "Pokemon" },
-			
-			{ 
-				Group: "Past Hosts", Name: "3 B1A1 ", Image: "img/hosts/3b1a1.png", 
+
+			{
+				Group: "Past Hosts", Name: "3 B1A1 ", Image: "img/hosts/3b1a1.png",
 				Time: "2025-09-14T06:05:38Z", Attempts: 1
 			},
-			
+
 			{ "Name": "Tranquill", "Time": "2025-09-14T06:47:53Z", "Group": "Pokemon" },
 			{ "Name": "Combee", "Time": "2025-09-14T06:59:13Z", "Group": "Pokemon" },
 			{ "Name": "Mantyke", "Time": "2025-09-14T07:16:56Z", "Group": "Pokemon" },
@@ -146,38 +146,38 @@ Intermissions.Runs.push(
 			{ "Name": "Pinsir", "Time": "2025-09-14T12:39:07Z", "Group": "Pokemon" },
 			{ "Name": "Sunkern", "Time": "2025-09-14T12:49:59Z", "Group": "Pokemon" },
 			{ "Name": "Heracross", "Time": "2025-09-14T12:51:30Z", "Group": "Pokemon" },
-			
-			{ 
-				Group: "Elite Four Rematch", Name: "Percila", Image: "img/trainers/black/caitlin.png", 
-				Time: "2025-09-14T13:40:22Z", Attempts: 2, Class: "Rematch" 
+
+			{
+				Group: "Elite Four Rematch", Name: "Percila", Image: "img/trainers/black/caitlin.png",
+				Time: "2025-09-14T13:40:22Z", Attempts: 2, Class: "Rematch"
 			},
-			{ 
-				Group: "Elite Four Rematch", Name: "Anis", Image: "img/trainers/black/shauntal.png", 
-				Time: "2025-09-14T13:50:34Z", Attempts: 2, Class: "Rematch" 
+			{
+				Group: "Elite Four Rematch", Name: "Anis", Image: "img/trainers/black/shauntal.png",
+				Time: "2025-09-14T13:50:34Z", Attempts: 2, Class: "Rematch"
 			},
-			{ 
-				Group: "Elite Four Rematch", Name: "Pieris", Image: "img/trainers/black/grimsley.png", 
-				Time: "2025-09-14T14:05:29Z", Attempts: 1, Class: "Rematch" 
+			{
+				Group: "Elite Four Rematch", Name: "Pieris", Image: "img/trainers/black/grimsley.png",
+				Time: "2025-09-14T14:05:29Z", Attempts: 1, Class: "Rematch"
 			},
-			
-			{ 
-				Group: "Past Hosts", Name: "AAP", Image: "img/hosts/aap.png", 
+
+			{
+				Group: "Past Hosts", Name: "AAP", Image: "img/hosts/aap.png",
 				Time: "2025-09-14T17:40:11Z", Attempts: 7
 			},
-			{ 
-				Group: "Past Hosts", Name: "JJJJJJ", Image: "img/hosts/jjjjjj.png", 
+			{
+				Group: "Past Hosts", Name: "JJJJJJ", Image: "img/hosts/jjjjjj.png",
 				Time: "2025-09-14T18:02:01Z", Attempts: 2
 			},
-			
-			{ 
-				Group: "Elite Four Rematch", Name: "Kunz", Image: "img/trainers/black/marshal.png", 
-				Time: "2025-09-14T20:37:12Z", Attempts: 4, Class: "Rematch" 
+
+			{
+				Group: "Elite Four Rematch", Name: "Kunz", Image: "img/trainers/black/marshal.png",
+				Time: "2025-09-14T20:37:12Z", Attempts: 4, Class: "Rematch"
 			},
-			{ 
-				Group: "Rematch Champions", Name: "Goyah", Image: "img/trainers/black/alder.png", 
+			{
+				Group: "Rematch Champions", Name: "Goyah", Image: "img/trainers/black/alder.png",
 				Time: "2025-09-14T20:53:29Z", Attempts: 1
 			},
-			
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2025-09-14T20:54:20Z", IDNo: "20192", Attempts: 12, Party: [
                     { Pokemon: "Pyrax", Nickname: "PYRRAATE", Level: 81, Gender: "Male", Class:"Volcarona" },
@@ -190,12 +190,12 @@ Intermissions.Runs.push(
                 Image: "img/ribbons/event.png",
                 FirstAttemptDate: ""
             },
-			
+
 			{ "Name": "Audino", "Time": "2025-09-14T21:18:55Z", "Group": "Pokemon" },
 			{ "Name": "Shelmet", "Time": "2025-09-14T22:15:40Z", "Group": "Pokemon" },
 			{ "Name": "Palpitoad", "Time": "2025-09-14T22:18:37Z", "Group": "Pokemon" },
 			{ "Name": "Stunfisk", "Time": "2025-09-14T22:25:50Z", "Group": "Pokemon" },
-			
+
         ]
     }
 );

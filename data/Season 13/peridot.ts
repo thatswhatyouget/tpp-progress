@@ -12,7 +12,7 @@ Season13.Runs.push(
 		Region: "Peridot",
 		Generation: 2,
 		Pokedex: "Peridot",
-		//FinalStateLink: "./states/Season 13/peridot.json",
+		FinalStateLink: "./states/Season 13/peridot.json",
 		Events: [
 			{
 				Group: "Badges", Name: "Fist Badge", Image: "img/badges/peridot/fist.png",
