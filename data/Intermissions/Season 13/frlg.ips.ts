@@ -97,7 +97,7 @@ Intermissions.Runs.push(
 			{ Name: "Furret", Time: "2026-09-26T18:16:31.925Z", Group: "Pokemon" },
 			{ Name: "Loudred", Time: "2026-09-26T19:35:15.811Z", Group: "Pokemon" },
 			
-        ]
+        ],
     }
 );
 
@@ -117,11 +117,11 @@ Revisits.Runs.push(
         Events: [
             {
                 Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2026-10-28T02:19:26.493Z", Attempts: 2
             },
             {
                 Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2026-10-28T14:30:59.247Z", Attempts: 3
             },
             {
                 Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
@@ -139,6 +139,24 @@ Revisits.Runs.push(
                 Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "", Attempts: 0
             },
-        ]
+			
+			{ Name: "Poliwhirl", Time: "2026-10-28T03:02:08.389Z", Group: "Pokemon" },
+			{ Name: "Eevee", Time: "2026-10-28T04:01:37.452Z", Group: "Pokemon" },
+			{ Name: "Vaporeon", Time: "2026-10-28T04:10:08.616Z", Group: "Pokemon" },
+			{ Name: "Doduo", Time: "2026-10-28T04:49:00.429Z", Group: "Pokemon" },
+			{ Name: "Spearow", Time: "2026-10-28T05:10:49.869Z", Group: "Pokemon" },
+			{ Name: "Oddish", Time: "2026-10-28T05:34:56.586Z", Group: "Pokemon" },
+			{ Name: "Meowth", Time: "2026-10-28T05:39:24.994Z", Group: "Pokemon" },
+			{ Name: "Bellsprout", Time: "2026-10-28T05:46:50.560Z", Group: "Pokemon" },
+			{ Name: "Vulpix", Time: "2026-10-28T05:53:03.419Z", Group: "Pokemon" },
+			{ Name: "Growlithe", Time: "2026-10-28T05:58:40.930Z", Group: "Pokemon" },
+			{ Name: "Ekans", Time: "2026-10-28T09:47:20.716Z", Group: "Pokemon" },
+			{ Name: "Sandshrew", Time: "2026-10-28T10:11:06.526Z", Group: "Pokemon" },
+			{ Name: "Drowzee", Time: "2026-10-28T10:40:03.832Z", Group: "Pokemon" },
+			{ Name: "Exploud", Time: "2026-10-28T13:51:00.397Z", Group: "Pokemon" },
+			
+        ],
+        Revisit: { Collection: "Intermissions", Run: "FRLG.IPS - CASSIE" },
+        CopyEvents: ["FRLG.IPS - CASSIE"],
     }
 );
