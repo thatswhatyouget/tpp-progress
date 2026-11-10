@@ -7,12 +7,12 @@ Season13.Runs.push(
 		StartDate: "2026-08-08T21:00:00Z",
 		Duration: "2026-08-23T19:30:14Z",
 		HostName: "B",
-		HostImage: "img/hosts/b2.png",
+		HostImage: "img/hosts/b3.png",
 		//HostImageSource: "",
 		Region: "Peridot",
 		Generation: 2,
 		Pokedex: "Peridot",
-		//FinalStateLink: "./states/Season 13/peridot.json",
+		FinalStateLink: "./states/Season 13/peridot.json",
 		Events: [
 			{
 				Group: "Badges", Name: "Fist Badge", Image: "img/badges/peridot/fist.png",

@@ -5,8 +5,8 @@ Season7.Runs.push(
         ColorPrimary: "#b9d7e2",
         ColorSecondary: "black",
         BackgroundImage: "radial-gradient(ellipse at left bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 41%, rgba(255,255,255,1) 45%, rgba(255,255,255,0) 70%)",
-        Duration: "2020-04-27T20:40:00Z",
         StartDate: "2020-04-12T21:00:00Z",
+        Duration: "2020-04-27T20:40:00Z",
         HostName: "\u2640\u2640R",
         HostImage: "img/hosts/r.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/g4c56y/reese_the_super_pokestar/",
@@ -15,157 +15,48 @@ Season7.Runs.push(
         Pokedex: "National",
         FinalStateLink:"./states/Season 7/gauntlet-black2.json",
         Events: [
-            {
-                Group: "Badges",
-                Name: "Basic Badge",
-                Image: "img/badges/basic.png",
-                Time: "2020-04-13T09:16:49.650Z",
-                Attempts: 5
-            },
-            {
-                Group: "Badges",
-                Name: "Toxic Badge",
-                Image: "img/badges/toxic.png",
-                Time: "2020-04-13T21:12:24.034Z",
-                Attempts: 3
-            },
-            {
-                Group: "Badges",
-                Name: "Insect Badge",
-                Image: "img/badges/insect.png",
-                Time: "2020-04-14T15:28:27.312Z",
-                Attempts: 3
-            },
-            {
-                Group: "Badges",
-                Name: "Bolt Badge",
-                Image: "img/badges/bolt.png",
-                Time: "2020-04-15T09:38:22.375Z",
-                Attempts: 2
-            },
-            {
-                Group: "Badges",
-                Name: "Quake Badge",
-                Image: "img/badges/quake.png",
-                Time: "2020-04-15T20:14:50.473Z",
-                Attempts: 1
-            },
-            {
-                Group: "Badges",
-                Name: "Jet Badge",
-                Image: "img/badges/jet.png",
-                Time: "2020-04-17T08:02:25.153Z",
-                Attempts: 1
-            },
-            {
-                Group: "Badges",
-                Name: "Legend Badge",
-                Image: "img/badges/legend.png",
-                Time: "2020-04-18T06:49:47.442Z",
-                Attempts: 1
-            },
-            {
-                Group: "Badges",
-                Name: "Wave Badge",
-                Image: "img/badges/wave.png",
-                Time: "2020-04-18T13:42:52.749Z",
-                Attempts: 2
-            },
-            {
-                Group: "Elite Four",
-                Name: "Shauntal",
-                Image: "img/trainers/black/shauntal.png",
-                Time: "2020-04-20T20:21:09.217Z",
-                Attempts: 1
-            },
-            {
-                Group: "Elite Four",
-                Name: "Grimsley",
-                Image: "img/trainers/black/grimsley.png",
-                Time: "2020-04-20T20:44:57.509Z",
-                Attempts: 3
-            },
-            {
-                Group: "Elite Four",
-                Name: "Caitlin",
-                Image: "img/trainers/black/caitlin.png",
-                Time: "2020-04-20T20:27:03.064Z",
-                Attempts: 1
-            },
-            {
-                Group: "Elite Four",
-                Name: "Marshal",
-                Image: "img/trainers/black/marshal.png",
-                Time: "2020-04-20T20:16:24.968Z",
-                Attempts: 1
-            },
-            {
-                Group: "Champions",
-                Name: "Iris",
-                Image: "img/trainers/black/iris.png",
-                Time: "2020-04-21T03:04:59.892Z",
-                Attempts: 4
-            },
+            { Group: "Badges", Name: "Basic Badge", Image: "img/badges/basic.png", Time: "2020-04-13T09:16:49.650Z", Attempts: 5 },
+            { Group: "Badges", Name: "Toxic Badge", Image: "img/badges/toxic.png", Time: "2020-04-13T21:12:24.034Z", Attempts: 3 },
+            { Group: "Badges", Name: "Insect Badge", Image: "img/badges/insect.png", Time: "2020-04-14T15:28:27.312Z", Attempts: 3 },
+            { Group: "Badges", Name: "Bolt Badge", Image: "img/badges/bolt.png", Time: "2020-04-15T09:38:22.375Z", Attempts: 2 },
+            { Group: "Badges", Name: "Quake Badge", Image: "img/badges/quake.png", Time: "2020-04-15T20:14:50.473Z", Attempts: 1 },
+            { Group: "Badges", Name: "Jet Badge", Image: "img/badges/jet.png", Time: "2020-04-17T08:02:25.153Z", Attempts: 1 },
+            { Group: "Badges", Name: "Legend Badge", Image: "img/badges/legend.png", Time: "2020-04-18T06:49:47.442Z", Attempts: 1 },
+            { Group: "Badges", Name: "Wave Badge", Image: "img/badges/wave.png", Time: "2020-04-18T13:42:52.749Z", Attempts: 2 },
+
+            { Group: "Elite Four", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "2020-04-20T20:21:09.217Z", Attempts: 1 },
+            { Group: "Elite Four", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "2020-04-20T20:44:57.509Z", Attempts: 3 },
+            { Group: "Elite Four", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "2020-04-20T20:27:03.064Z", Attempts: 1 },
+            { Group: "Elite Four", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "2020-04-20T20:16:24.968Z", Attempts: 1 },
+            { Group: "Champions", Name: "Iris", Image: "img/trainers/black/iris.png", Time: "2020-04-21T03:04:59.892Z", Attempts: 4 },
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-04-21T03:07:10.135Z", IDNo: "46240", Attempts: 15, Party: [
                     { Pokemon: "Darkrai", Nickname: "♛♛w", Level: 93 },
                     { Pokemon: "Dusknoir", Nickname: "lierO 6", Level: 71, Gender: "Male" },
                     { Pokemon: "Krookodile", Nickname: "L GGG HGMY", Level: 77, Gender: "Female" },
-                    { Pokemon: "Porygon-Z", Nickname: "APSEPIEMG", Level: 75, Shiny: true },
+                    { Pokemon: "Porygon-Z", Nickname: "APSEPIEMG", Level: 75, Shiny },
                     { Pokemon: "Eelektross", Nickname: "pe", Level: 77, Gender: "Male" },
-                    { Pokemon: "Milotic", Nickname: "TRSNNEAESK", Level: 100, Gender: "Male" },
+                    { Pokemon: "Milotic", Nickname: "TRSNNEAESK", Level: 100, Gender: "Male" }
                 ],
                 FirstAttemptDate: "2020-04-20T19:59:22.536Z",
                 Image: "img/ribbons/champion.png"
             },
-            {
-                Group: "Elite Four Rematch",
-                Name: "Grimsley",
-                Image: "img/trainers/black/grimsley.png",
-                Time: "2020-04-22T00:23:37.276Z",
-                Class: "Rematch",
-                Attempts: 1
-            },
-            {
-                Group: "Elite Four Rematch",
-                Name: "Shauntal",
-                Image: "img/trainers/black/shauntal.png",
-                Time: "2020-04-22T00:32:11.851Z",
-                Class: "Rematch",
-                Attempts: 1
-            },
-            {
-                Group: "Elite Four Rematch",
-                Name: "Caitlin",
-                Image: "img/trainers/black/caitlin.png",
-                Time: "2020-04-22T00:39:54.909Z",
-                Class: "Rematch",
-                Attempts: 1
-            },
-            {
-                Group: "Elite Four Rematch",
-                Name: "Marshal",
-                Image: "img/trainers/black/marshal.png",
-                Time: "2020-04-24T13:07:09.133Z",
-                Class: "Rematch",
-                Attempts: 4
-            },
-            {
-                Group: "Champions",
-                Name: "Iris",
-                Image: "img/trainers/black/iris.png",
-                Time: "2020-04-24T22:44:28.063Z",
-                Class: "Rematch",
-                Attempts: 4
-            },
+
+            { Group: "Elite Four Rematch", Class: "Rematch", Name: "Grimsley", Image: "img/trainers/black/grimsley.png", Time: "2020-04-22T00:23:37.276Z", Attempts: 1 },
+            { Group: "Elite Four Rematch", Class: "Rematch", Name: "Shauntal", Image: "img/trainers/black/shauntal.png", Time: "2020-04-22T00:32:11.851Z", Attempts: 1 },
+            { Group: "Elite Four Rematch", Class: "Rematch", Name: "Caitlin", Image: "img/trainers/black/caitlin.png", Time: "2020-04-22T00:39:54.909Z", Attempts: 1 },
+            { Group: "Elite Four Rematch", Class: "Rematch", Name: "Marshal", Image: "img/trainers/black/marshal.png", Time: "2020-04-24T13:07:09.133Z", Attempts: 4 },
+            { Group: "Champions", Class: "Rematch", Name: "Iris", Image: "img/trainers/black/iris.png", Time: "2020-04-24T22:44:28.063Z", Attempts: 4 },
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-04-24T22:46:39.470Z", IDNo: "46240", Attempts: 12, Party: [
-                    { Pokemon: "Landorus", Nickname: "Landorusg", Level: 100, Gender: "Male", Shiny: true, Form: "Therian" },
+                    { Pokemon: "Landorus", Nickname: "Landorusg", Level: 100, Gender: "Male", Form: "Therian", Shiny },
                     { Pokemon: "Darkrai", Nickname: "♛♛w", Level: 100 },
-                    { Pokemon: "Porygon-Z", Nickname: "APSEPIEMG", Level: 100, Shiny: true },
+                    { Pokemon: "Porygon-Z", Nickname: "APSEPIEMG", Level: 100, Shiny },
                     { Pokemon: "Krookodile", Nickname: "L GGG HGMY", Level: 100, Gender: "Female" },
                     { Pokemon: "Eelektross", Nickname: "pe", Level: 100, Gender: "Male" },
-                    { Pokemon: "Milotic", Nickname: "TRSNNEAESK", Level: 100, Gender: "Male" },
+                    { Pokemon: "Milotic", Nickname: "TRSNNEAESK", Level: 100, Gender: "Male" }
                 ],
                 FirstAttemptDate: "2020-04-22T00:14:39.355Z",
                 Image: "img/ribbons/champion.png"
@@ -174,99 +65,35 @@ Season7.Runs.push(
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-04-25T04:44:00.215Z", IDNo: "46240", Attempts: 1, Party: [
                     { Pokemon: "Krookodile", Nickname: "L GGG HGMY", Level: 100, Gender: "Female" },
                     { Pokemon: "Darkrai", Nickname: "♛♛w", Level: 100 },
-                    { Pokemon: "Landorus", Nickname: "Landorusg", Level: 100, Gender: "Male", Shiny: true, Form: "Therian" },
+                    { Pokemon: "Landorus", Nickname: "Landorusg", Level: 100, Gender: "Male", Form: "Therian", Shiny },
                     { Pokemon: "Milotic", Nickname: "TRSNNEAESK", Level: 100, Gender: "Male" },
-                    { Pokemon: "Porygon-Z", Nickname: "APSEPIEMG", Level: 100, Shiny: true },
-                    { Pokemon: "Eelektross", Nickname: "pe", Level: 100, Gender: "Male" },
+                    { Pokemon: "Porygon-Z", Nickname: "APSEPIEMG", Level: 100, Shiny },
+                    { Pokemon: "Eelektross", Nickname: "pe", Level: 100, Gender: "Male" }
                 ],
                 FirstAttemptDate: "2020-04-25T04:05:40.703Z",
                 Image: "img/ribbons/champion.png"
             },
-            {
-                Group: "Past Hosts",
-                Name: "RED",
-                Image: "img/hosts/red2.png",
-                Time: "2020-04-26T16:07:57.611Z",
-                Attempts: 1
-            },
-            {
-                Group: "Past Hosts",
-                Name: "dπ",
-                Image: "img/hosts/dpk.png",
-                Time: "2020-04-26T16:12:13.430Z",
-                Attempts: 1
-            },
-            {
-                Group: "Past Hosts",
-                Name: "n",
-                Image: "img/hosts/n.png",
-                Time: "2020-04-26T19:40:22.916Z",
-                Attempts: 2
-            },
-            {
-                Group: "Past Hosts",
-                Name: ".iecbw",
-                Image: "img/hosts/iecbw.png",
-                Time: "2020-04-27T19:53:58.923Z",
-                Attempts: 8
-            },
-            {
-                Group: "Past Hosts",
-                Name: "GMYC   ",
-                Image: "img/hosts/gmyc.png",
-                Time: "2020-04-27T20:05:01.412Z",
-                Attempts: 1
-            },
-            {
-                Group: "Past Hosts",
-                Name: "aoooo",
-                Image: "img/hosts/aoooo.png",
-                Time: "2020-04-27T20:08:49.583Z",
-                Attempts: 1
-            },
-            {
-                Group: "Past Hosts",
-                Name: "nqpppnl",
-                Image: "img/hosts/nqpppnl.png",
-                Time: "2020-04-27T20:12:57.487Z",
-                Attempts: 1
-            },
-            {
-                Group: "Past Hosts",
-                Name: "A",
-                Image: "img/hosts/a2.png",
-                Time: "2020-04-27T20:18:58.067Z",
-                Attempts: 1
-            },
-            {
-                Group: "Past Hosts",
-                Name: "A",
-                Image: "img/hosts/a.png",
-                Time: "2020-04-27T20:25:55.167Z",
-                Attempts: 1
-            },
-            {
-                Group: "Past Hosts",
-                Name: "AJDNNW",
-                Image: "img/hosts/ajdnnw.png",
-                Time: "2020-04-27T20:29:05.452Z",
-                Attempts: 1
-            },
-            {
-                Group: "Past Hosts",
-                Name: "RED",
-                Image: "img/hosts/red.png",
-                Time: "2020-04-27T20:32:38.417Z",
-                Attempts: 1
-            },
+
+            { Group: "Past Hosts", Name: "RED", Image: "img/hosts/red2.png", Time: "2020-04-26T16:07:57.611Z", Attempts: 1 },
+            { Group: "Past Hosts", Name: "dπ", Image: "img/hosts/dpk.png", Time: "2020-04-26T16:12:13.430Z", Attempts: 1 },
+            { Group: "Past Hosts", Name: "n", Image: "img/hosts/n.png", Time: "2020-04-26T19:40:22.916Z", Attempts: 2 },
+            { Group: "Past Hosts", Name: ".iecbw", Image: "img/hosts/iecbw.png", Time: "2020-04-27T19:53:58.923Z", Attempts: 8 },
+            { Group: "Past Hosts", Name: "GMYC   ", Image: "img/hosts/gmyc.png", Time: "2020-04-27T20:05:01.412Z", Attempts: 1 },
+            { Group: "Past Hosts", Name: "aoooo", Image: "img/hosts/aoooo.png", Time: "2020-04-27T20:08:49.583Z", Attempts: 1 },
+            { Group: "Past Hosts", Name: "nqpppnl", Image: "img/hosts/nqpppnl.png", Time: "2020-04-27T20:12:57.487Z", Attempts: 1 },
+            { Group: "Past Hosts", Name: "A", Image: "img/hosts/a2.png", Time: "2020-04-27T20:18:58.067Z", Attempts: 1 },
+            { Group: "Past Hosts", Name: "A", Image: "img/hosts/a.png", Time: "2020-04-27T20:25:55.167Z", Attempts: 1 },
+            { Group: "Past Hosts", Name: "AJDNNW", Image: "img/hosts/ajdnnw.png", Time: "2020-04-27T20:29:05.452Z", Attempts: 1 },
+            { Group: "Past Hosts", Name: "RED", Image: "img/hosts/red.png", Time: "2020-04-27T20:32:38.417Z", Attempts: 1 },
+
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2020-04-27T20:32:39.437Z", IDNo: "46240", Attempts: 1, Party: [
-                    { Pokemon: "Landorus", Nickname: "Landorusg", Level: 100, Gender: "Male", Shiny: true, Form: "Therian" },
+                    { Pokemon: "Landorus", Nickname: "Landorusg", Level: 100, Gender: "Male", Form: "Therian", Shiny },
                     { Pokemon: "Milotic", Nickname: "TRSNNEAESK", Level: 100, Gender: "Male" },
-                    { Pokemon: "Porygon-Z", Nickname: "APSEPIEMG", Level: 100, Shiny: true },
+                    { Pokemon: "Porygon-Z", Nickname: "APSEPIEMG", Level: 100, Shiny },
                     { Pokemon: "Darkrai", Nickname: "♛♛w", Level: 100 },
                     { Pokemon: "Krookodile", Nickname: "L GGG HGMY", Level: 100, Gender: "Female" },
-                    { Pokemon: "Eelektross", Nickname: "pe", Level: 100, Gender: "Male" },
+                    { Pokemon: "Eelektross", Nickname: "pe", Level: 100, Gender: "Male" }
                 ],
                 FirstAttemptDate: "2020-04-22T00:14:39.355Z",
                 Image: "img/ribbons/champion.png"

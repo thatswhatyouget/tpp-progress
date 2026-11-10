@@ -11,6 +11,7 @@ Intermissions.Runs.push(
         Region: "Kanto",
         Generation: 3,
         Pokedex: "National",
+        FinalStateLink: "./states/Season 13/frlg.ips.AABBIII.json",
         Events: [
 		
 			{ Name: "Squirtle", Time: "2026-09-25T02:10:44Z", Group: "Pokemon" },
@@ -63,6 +64,7 @@ Revisits.Runs.push(
         Region: "Kanto",
         Generation: 3,
         Pokedex: "National",
+        FinalStateLink: "./states/Season 13/frlg.ips.CASSIE.json",
         Events: [
             {
                 Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",

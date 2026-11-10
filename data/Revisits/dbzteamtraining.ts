@@ -6,8 +6,8 @@ Revisits.Runs.push(
         BackgroundImage: "linear-gradient(to bottom, rgba(255,239,16,1) 50%, rgba(255,189,0,1) 65%, rgba(230,132,0,1) 80%, rgba(222,74,0,1) 90%)",
         ColorPrimary: "#E67300",
         ColorSecondary: "#AD4200",
-        Duration: "2022-04-02T13:41:05.000Z",
-        StartDate: "2022-04-01T19:25:00.000Z",
+        StartDate: "2022-04-01T19:25:00Z",
+        Duration: "2022-04-02T13:41:05Z",
         HostName: "Pan",
         HostImage: "img/hosts/pan.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/o9ah3s/pan_and_the_z_fighters/",
@@ -19,17 +19,16 @@ Revisits.Runs.push(
             { Group: "Elite Four", Name: "South Kai", Image: "img/trainers/fighters/southkai.png", Time: "2022-04-02T00:24:45.478Z", Attempts: 5 },
             { Group: "Elite Four", Name: "West Kai", Image: "img/trainers/fighters/westkai.png", Time: "2022-04-02T00:59:42.964Z", Attempts: 2 },
             { Group: "Elite Four", Name: "North Kai", Image: "img/trainers/fighters/northkai.png", Time: "2022-04-02T08:27:50.029Z", Attempts: 3 },
-
             { Group: "Champions", Name: "Green", Image: "img/trainers/firered/green.png", Time: "2022-04-02T08:40:00.324Z", Attempts: 1 },
 
             <TPP.HallOfFame>{
                 Group: "Hall of Fame", Name: "Hall of Fame", Time: "2022-04-02T08:41:09.659Z", IDNo: "11635", Attempts: 15, Party: [
-                    { Pokemon: "G-Frieza", Nickname: "Cogexx", Level: 50, Number: 153, IDNo: "11635" },
+                    { Pokemon: "G-Frieza", Nickname: "Cogexx", Level: 50, Number: "???", IDNo: "11635" },
                     { Pokemon: "Sp Piccolo", Level: 22, Number: 11, IDNo: "11635" },
                     { Pokemon: "C-13", Nickname: "BI", Level: 22, Number: 58, IDNo: "11635" },
                     { Pokemon: "Impft Cell", Nickname: " Lube", Level: 25, Number: 68, IDNo: "11635" },
                     { Pokemon: "Buuhan", Nickname: "Dad???", Level: 74, Number: 95, IDNo: "11635" },
-                    { Pokemon: "Garlic 2", Level: 44, Number: 55, IDNo: "11635" },
+                    { Pokemon: "Garlic 2", Level: 44, Number: 55, IDNo: "11635" }
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2022-04-01T21:24:54.997Z"
@@ -83,6 +82,7 @@ Revisits.Runs.push(
         CopyEvents: ["DBZ Team Training"],
     }
 );
+
 Revisits.Runs.push(
     {
         RunName: "DBZ Team Training Revisit Revisit",
@@ -90,8 +90,8 @@ Revisits.Runs.push(
         BackgroundImage: "linear-gradient(to bottom, rgba(255,239,16,1) 50%, rgba(255,189,0,1) 65%, rgba(230,132,0,1) 80%, rgba(222,74,0,1) 90%)",
         ColorPrimary: "#E67300",
         ColorSecondary: "#AD4200",
-        Duration: "2022-08-20T16:18:50.000Z",
-        StartDate: "2022-08-19T22:15:40.000Z",
+        StartDate: "2022-08-19T22:15:40Z",
+        Duration: "2022-08-20T16:18:50Z",
         HostName: "Pan",
         HostImage: "img/hosts/pan.png",
         HostImageSource: "https://www.reddit.com/r/twitchplayspokemon/comments/o9ah3s/pan_and_the_z_fighters/",
@@ -103,7 +103,6 @@ Revisits.Runs.push(
             { Group: "Elite Four Rematch", Class: "Rematch", Name: "South Kai", Image: "img/trainers/fighters/southkai.png", Time: "2022-08-20T06:41:08.155Z", Attempts: 1 },
             { Group: "Elite Four Rematch", Class: "Rematch", Name: "West Kai", Image: "img/trainers/fighters/westkai.png", Time: "2022-08-20T07:18:18.104Z", Attempts: 2 },
             { Group: "Elite Four Rematch", Class: "Rematch", Name: "North Kai", Image: "img/trainers/fighters/northkai.png", Time: "2022-08-20T13:11:17.224Z", Attempts: 7 },
-
             { Group: "Champions", Class: "Rematch", Name: "Green", Image: "img/trainers/firered/green.png", Time: "2022-08-20T16:08:10.184Z", Attempts: 3 },
 
             <TPP.HallOfFame>{
@@ -111,9 +110,9 @@ Revisits.Runs.push(
                     { Pokemon: "Lb Jiren", Nickname: "♂♂♂♂♂♂♂♂♂♂", Level: 78, Number: 187, IDNo: "11635" },
                     { Pokemon: "G-Frieza", Nickname: "Cogexx", Level: 63, Number: 153, IDNo: "11635" },
                     { Pokemon: "Zeno", Nickname: "GGGMMMMMMN", Level: 82, Number: 196, IDNo: "11635" },
-                    { Pokemon: "Buuhan", Nickname: "Dad???", Level: 74, Number: 95, IDNo: "11635" },
+                    { Pokemon: "Buuhan", Nickname: "Dad???", Level: 86, Number: 95, IDNo: "11635" },
                     { Pokemon: "Ss4 Gogeta", Nickname: "GRunvt", Level: 65, Number: 138, IDNo: "11635" },
-                    { Pokemon: "Sp Shenron", Nickname: "AAAAAAAaag", Level: 70, Number: 197, IDNo: "11635" },
+                    { Pokemon: "Sp Shenron", Nickname: "AAAAAAAaag", Level: 70, Number: 197, IDNo: "11635" }
                 ],
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2022-08-20T06:30:20.814Z"
