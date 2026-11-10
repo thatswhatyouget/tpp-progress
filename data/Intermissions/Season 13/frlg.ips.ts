@@ -106,8 +106,8 @@ Revisits.Runs.push(
         RunName: "FRLG.IPS - CASSIE Revisit",
         ColorPrimary: "#FF2A38",
         ColorSecondary: "#449900",
-        StartDate: "2026-10-28T02:00:00Z",
-        Duration: "3d",
+        StartDate: "2026-10-28T01:58:25Z",
+        Duration: "2026-10-31T00:44:37Z",
         HostName: "CASSIE",
         HostImage: "img/hosts/a2.png",
         Region: "Kanto",
@@ -115,14 +115,6 @@ Revisits.Runs.push(
         Pokedex: "National",
         FinalStateLink: "./states/Season 13/frlg.ips.CASSIE.json",
         Events: [
-            {
-                Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
-            },
             {
                 Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "", Attempts: 0
