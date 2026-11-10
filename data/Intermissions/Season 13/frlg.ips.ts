@@ -12,6 +12,9 @@ Intermissions.Runs.push(
         Generation: 3,
         Pokedex: "National",
         Events: [
+		
+			{ Name: "Squirtle", Time: "2026-09-25T02:10:44Z", Group: "Pokemon" },
+			
             {
                 Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "", Attempts: 0
