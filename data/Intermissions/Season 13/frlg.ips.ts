@@ -13,28 +13,26 @@ Intermissions.Runs.push(
         Pokedex: "National",
         FinalStateLink: "./states/Season 13/frlg.ips.AABBIII.json",
         Events: [
-		
-			{ Name: "Squirtle", Time: "2026-09-25T02:10:44Z", Group: "Pokemon" },
 			
             {
                 Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2026-09-25T04:46:14.797Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2026-09-25T07:27:37.102Z", Attempts: 1
             },
             {
                 Group: "Badges", Name: "Soul Badge", Image: "img/badges/soul.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
+                Time: "2026-09-25T09:14:32.141Z", Attempts: 2
+            },
+            {
+                Group: "Badges", Name: "Rainbow Badge", Image: "img/badges/rainbow.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2026-09-25T13:56:00.420Z", Attempts: 1
+            },
+            {
+                Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2026-09-25T16:38:53.142Z", Attempts: 0
             },
             {
                 Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
@@ -48,6 +46,23 @@ Intermissions.Runs.push(
                 Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "", Attempts: 0
             },
+			
+            {
+                Group: "Battle Legends", Name: "Professor Oak", Image: "img/trainers/firered/oak.png",
+                Time: "2026-09-25T20:53:08.321Z", Attempts: 1
+            },
+			
+			{ Name: "Squirtle", Time: "2026-09-25T02:10:49.426Z", Group: "Pokemon" },
+			{ Name: "Wartortle", Time: "2026-09-25T04:07:33.636Z", Group: "Pokemon" },
+			{ Name: "Blastoise", Time: "2026-09-25T07:43:06.269Z", Group: "Pokemon" },
+			{ Name: "Rainer", Time: "2026-09-25T10:23:11.893Z", Group: "Pokemon" },
+			{ Name: "Millenium", Time: "2026-09-25T13:16:47.887Z", Group: "Pokemon" },
+			{ Name: "Ruin", Time: "2026-09-25T21:21:21.243Z", Group: "Pokemon" },
+			
+            { Group: "Hosts", Name: "GJJD", Image: "img/hosts/red.png", Time: "2026-09-25T23:09:21Z" },
+			
+			{ Name: "Bulbasaur", Time: "2026-09-25T23:47:27.205Z", Group: "Pokemon" },
+			
         ]
     }
 );
