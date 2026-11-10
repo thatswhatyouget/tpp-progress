@@ -34,18 +34,6 @@ Intermissions.Runs.push(
                 Group: "Badges", Name: "Thunder Badge", Image: "img/badges/thunder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "2026-09-25T16:38:53.142Z", Attempts: 0
             },
-            {
-                Group: "Badges", Name: "Marsh Badge", Image: "img/badges/marsh.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Volcano Badge", Image: "img/badges/volcano.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
-            },
-            {
-                Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
-                Time: "", Attempts: 0
-            },
 			
             {
                 Group: "Battle Legends", Name: "Professor Oak", Image: "img/trainers/firered/oak.png",
@@ -86,6 +74,10 @@ Intermissions.Runs.push(
                 Group: "Badges", Name: "Boulder Badge", Image: "img/badges/boulder.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "2026-09-26T15:30:09Z", Attempts: 0
             },
+            {
+                Group: "Badges", Name: "Cascade Badge", Image: "img/badges/cascade.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
+                Time: "2026-09-26T17:53:38.634Z", Attempts: 1
+            },
 			
 			// Pine team
 			{ Name: "Poliwag", Time: "2026-09-26T15:30:09Z", Group: "Pokemon" },
@@ -102,6 +94,8 @@ Intermissions.Runs.push(
 			{ Name: "Magikarp", Time: "2026-09-26T15:30:09Z", Group: "Pokemon" },
 			{ Name: "Rattata", Time: "2026-09-26T15:30:09Z", Group: "Pokemon" },
 			
+			{ Name: "Furret", Time: "2026-09-26T18:16:31.925Z", Group: "Pokemon" },
+			{ Name: "Loudred", Time: "2026-09-26T19:35:15.811Z", Group: "Pokemon" },
 			
         ]
     }
