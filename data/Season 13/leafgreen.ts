@@ -76,6 +76,18 @@ Season13.Runs.push(
                 Image: "img/ribbons/champion.png",
                 FirstAttemptDate: "2026-08-29T13:04:00Z"
             },
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-09-03T00:12:16Z", Attempts: 0, IDNo: "32327", Party: [
+                    { Pokemon: "Tyranitar", Nickname: "Tyson", Level: 79, Gender: "Female", Number: 248, IDNo: "32327" },
+                    { Pokemon: "Seadra", Nickname: "A,jj5HNI  ", Level: 80, Gender: "Female", Number: 117, IDNo: "32327" },
+                    { Pokemon: "Exeggutor", Nickname: "MMTMM", Level: 81, Gender: "Female", Number: 103, IDNo: "32327" },
+                    { Pokemon: "Primeape", Nickname: "AAAAHm", Level: 81, Gender: "Female", Number: 57, IDNo: "32327" },
+                    { Pokemon: "Lickitung", Nickname: "MARC", Level: 81, Gender: "Male", Number: 108, IDNo: "01239" },
+                    { Pokemon: "Electrode", Nickname: "ESPHERE", Level: 81, Number: 101, IDNo: "50298" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "2026-08-29T13:04:00Z"
+            },
 
             { "Group": "Pokemon", "Name": "Squirtle", "Time": "2026-08-27T01:05:06Z" },
             { "Group": "Pokemon", "Name": "Mankey", "Time": "2026-08-27T02:33:32Z" },
