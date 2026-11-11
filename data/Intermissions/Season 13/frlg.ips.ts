@@ -1,7 +1,7 @@
 /// <reference path="../../tpp-data.ts" />
 Intermissions.Runs.push(
     {
-        RunName: "FRLG.IPS",
+        RunName: "FRLG.ips",
         ColorPrimary: "#FF2A38",
         ColorSecondary: "#449900",
         StartDate: "2026-09-25T02:00:00Z",
@@ -57,7 +57,7 @@ Intermissions.Runs.push(
 			
 Intermissions.Runs.push(
     {
-        RunName: "FRLG.IPS - CASSIE",
+        RunName: "FRLG.ips - CASSIE",
         ColorPrimary: "#FF2A38",
         ColorSecondary: "#449900",
         StartDate: "2026-09-26T15:30:08Z",
@@ -103,7 +103,7 @@ Intermissions.Runs.push(
 
 Revisits.Runs.push(
     {
-        RunName: "FRLG.IPS - CASSIE Revisit",
+        RunName: "FRLG.ips - CASSIE Revisit",
         ColorPrimary: "#FF2A38",
         ColorSecondary: "#449900",
         StartDate: "2026-10-28T01:58:25Z",
@@ -138,6 +138,40 @@ Revisits.Runs.push(
             {
                 Group: "Badges", Name: "Earth Badge", Image: "img/badges/earth.png", ImageSource: "http://bulbapedia.bulbagarden.net/wiki/Badge#Indigo_League",
                 Time: "2026-10-29T16:32:47.847Z", Attempts: 1
+            },
+			
+            {
+                Group: "Elite Four", Name: "Lorelei", Image: "img/trainers/firered/lorelei.png",
+                Time: "2026-10-30T02:18:57.264Z", Attempts: 3
+            },
+            {
+                Group: "Elite Four", Name: "Bruno", Image: "img/trainers/firered/bruno.png",
+                Time: "2026-10-30T05:08:28.276Z", Attempts: 3
+            },
+            {
+                Group: "Elite Four", Name: "Agatha", Image: "img/trainers/firered/agatha.png",
+                Time: "2026-10-30T11:46:55.873Z", Attempts: 2
+            },
+            {
+                Group: "Elite Four", Name: "Lance", Image: "img/trainers/firered/lance.png",
+                Time: "2026-10-30T11:56:16.405Z", Attempts: 1
+            },
+            {
+                Group: "Champions", Name: "M", Image: "img/trainers/firered/blue.png",
+                Time: "2026-10-30T12:13:04.920Z", Attempts: 1
+            },
+			
+            <TPP.HallOfFame>{
+                Group: "Hall of Fame", Name: "Hall of Fame", Time: "2026-10-30T12:14:52Z", Attempts: 8, IDNo: "53155", Party: [
+                    { Pokemon: "Clefable", Nickname: "P", Level: 55, Gender: "Female", Number: 36, IDNo: "53155" },
+                    { Pokemon: "Blastoise", Nickname: "ACf 9// ", Level: 59, Gender: "Female", Number: 9, IDNo: "53155" },
+                    { Pokemon: "Vaporeon", Nickname: "A", Level: 61, Gender: "Male", Number: 134, IDNo: "53155" },
+                    { Pokemon: "Dodrio", Nickname: "B", Level: 44, Gender: "Male", Number: 85, IDNo: "53155" },
+                    { Pokemon: "Dragonair", Nickname: "MM?♂--LI", Level: 49, Gender: "Female", Number: 148, IDNo: "53155" },
+                    { Pokemon: "Exploud", Nickname: "Screamy", Level: 52, Gender: "Male", Number: "???", IDNo: "53155" },
+                ],
+                Image: "img/ribbons/champion.png",
+                FirstAttemptDate: "2026-10-29T21:20:47Z"
             },
 			
 			{ Name: "Poliwhirl", Time: "2026-10-28T03:02:08.389Z", Group: "Pokemon" },
@@ -193,9 +227,21 @@ Revisits.Runs.push(
 			{ Name: "Hypno", Time: "2026-10-29T14:02:37.241Z", Group: "Pokemon" },
 			{ Name: "Golduck", Time: "2026-10-29T14:08:20.823Z", Group: "Pokemon" },
 			{ Name: "Slowbro", Time: "2026-10-29T14:13:01.626Z", Group: "Pokemon" },
+			{ Name: "Gloom", Time: "2026-10-29T17:48:40.398Z", Group: "Pokemon" },
+			{ Name: "Onix", Time: "2026-10-29T18:52:25.894Z", Group: "Pokemon" },
+			{ Name: "Machoke", Time: "2026-10-29T19:12:05.221Z", Group: "Pokemon" },
+			{ Name: "Machop", Time: "2026-10-29T19:20:54.476Z", Group: "Pokemon" },
+			{ Name: "Arbok", Time: "2026-10-29T19:49:09.137Z", Group: "Pokemon" },
+			{ Name: "Marowak", Time: "2026-10-29T20:04:27.005Z", Group: "Pokemon" },
+			{ Name: "Persian", Time: "2026-10-29T23:19:09.763Z", Group: "Pokemon" },
+			{ Name: "Rapidash", Time: "2026-10-29T23:21:28.769Z", Group: "Pokemon" },
+			{ Name: "Voltorb", Time: "2026-10-30T08:33:23.409Z", Group: "Pokemon" },
+			{ Name: "Magnemite", Time: "2026-10-30T08:40:32.786Z", Group: "Pokemon" },
+			{ Name: "Magneton", Time: "2026-10-30T08:50:24.240Z", Group: "Pokemon" },
+			{ Name: "Pikachu", Time: "2026-10-30T08:53:47.069Z", Group: "Pokemon" },
 			
         ],
-        Revisit: { Collection: "Intermissions", Run: "FRLG.IPS - CASSIE" },
-        CopyEvents: ["FRLG.IPS - CASSIE"],
+        Revisit: { Collection: "Intermissions", Run: "FRLG.ips - CASSIE" },
+        CopyEvents: ["FRLG.ips - CASSIE"],
     }
 );
