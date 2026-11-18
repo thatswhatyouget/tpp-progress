@@ -260,3 +260,22 @@ Revisits.Runs.push(
         CopyEvents: ["FRLG.ips - CASSIE"],
     }
 );
+Revisits.Runs.push(
+    {
+        RunName: "FRLG.ips - CASSIE Revisit Part 2",
+        ColorPrimary: "#FF2A38",
+        ColorSecondary: "#449900",
+        StartDate: "2026-11-18T10:32:14Z",
+        Duration: "2026-11-30T00:00:00Z",
+        HostName: "CASSIE",
+        HostImage: "img/hosts/a2.png",
+        Region: "Kanto",
+        Generation: 3,
+        Pokedex: "National",
+        //FinalStateLink: "./states/Season 13/frlg.ips.CASSIE.json",
+        Events: [
+        ],
+        Revisit: { Collection: "Revisits", Run: "FRLG.ips - CASSIE Revisit" },
+        CopyEvents: ["FRLG.ips - CASSIE Revisit"],
+    }
+);
