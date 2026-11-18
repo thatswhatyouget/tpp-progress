@@ -16,5 +16,6 @@ jobs:
 
       - name: Test
         run: |
+          npm install typescript gulp-cli
           npm install
           gulp test
